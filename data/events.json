@@ -183319,12 +183319,12 @@
       ],
       "level": "B",
       "score": 7,
-      "summary_short": "中国游客可在柬埔寨全境用微信支付",
-      "content_overview": "中国游客现在可以在柬埔寨全境使用微信支付",
-      "reason": "亚太跨境支付拓展，提升中国游客境外消费便利度",
-      "impact": "中国游客、柬埔寨商家、微信支付服务商",
+      "summary_short": "微信支付接入柬埔寨扫码支付",
+      "content_overview": "中国游客现可在柬埔寨使用微信支付（Weixin Pay）进行扫码支付，实现跨境支付互通。",
+      "reason": "东南亚跨境支付网络扩展，中国支付巨头加速出海，本地收单机构和商户服务商受益。",
+      "impact": "柬埔寨商户、中国出境游客、跨境支付服务商",
       "insight_label": "合作机会",
-      "trend_topic": "亚太跨境支付拓展",
+      "trend_topic": "东南亚跨境支付扩展",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -183398,7 +183398,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://fintechnews.sg/136082/cambodia/china-cambodia-qr/"
+      ]
     },
     {
       "title": "Regulators pursue stablecoin rules",
@@ -185607,5 +185610,191 @@
       "view_priority": "selected"
     }
   ],
-  "2026-08-23": []
+  "2026-08-23": [
+    {
+      "title": "Rakuten Travel Launches South Korea Special Offer - TRAICY Global",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9SVXphNjU3aFRUaEhxaE1GMmRzdWw1dUl0dVlMSXdZM3RQOXdEbVpRM1dWSndjcmVTN202bW1LdzR4VzdDMkhHbUluQjQ0NWNlMlNTZg?oc=5",
+      "source": "Google News",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "乐天旅游推出韩国市场特别优惠",
+      "content_overview": "乐天旅游推出针对韩国市场的特别优惠活动，以吸引韩国游客。",
+      "reason": "日本旅游平台加码韩国市场，亚太旅游科技竞争加剧，本地化服务需求上升。",
+      "impact": "韩国旅游科技公司、亚太OTA平台",
+      "insight_label": "合作机会",
+      "trend_topic": "亚太旅游科技竞争加剧",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Rakuten",
+      "article_date": "2026-08-23",
+      "date": "2026-08-23",
+      "source_detail": "TRAICY Global",
+      "publisher": "TRAICY Global",
+      "image_url": "",
+      "published_at": "2026-08-23",
+      "observed_at": "2026-08-23T02:23:33.316533+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Rakuten",
+      "credibility_score": 0,
+      "origin_source_id": "Rakuten",
+      "observation_entity_id": "Rakuten",
+      "discovery_source": "google_news",
+      "publisher_source": "TRAICY Global",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "payments",
+        "commerce"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "source_contract",
+      "report_methodology_visible": false,
+      "vertical": "commerce_fintech",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "30天内",
+      "bd_priority": "中",
+      "signal_taxonomy": [
+        "ai_infra"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "deepseek",
+      "analysis_status": "complete",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 42,
+      "attention_score": 100,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 35,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "product_release",
+      "domain": "ai",
+      "signal_type": "company",
+      "signal_change_score": 72,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 24,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 20
+      },
+      "view_status": "filtered",
+      "view_reason": "google_not_main",
+      "view_priority": "important"
+    },
+    {
+      "title": "We love AI. We hate AI. What now?",
+      "url": "https://www.techinasia.com/love-ai-hate-ai",
+      "source": "Tech in Asia",
+      "region": "亚太",
+      "event_types": [
+        "other"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "评论文章探讨AI爱恨矛盾心理",
+      "content_overview": "Tech in Asia发布评论文章，探讨公众对AI既喜爱又厌恶的矛盾心理。",
+      "reason": "亚太地区AI舆论分化，企业需关注用户接受度对AI产品落地的影响，市场教育需求上升",
+      "impact": "亚太AI产品公司、用户研究机构",
+      "insight_label": "背景补充",
+      "trend_topic": "亚太AI舆论分化",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "article_date": "2026-08-23",
+      "date": "2026-08-23",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://cdn.techinasia.com/wp-content/uploads/2026/08/1787224597_Love_Hate_AI_GIF.gif",
+      "published_at": "2026-08-23",
+      "observed_at": "2026-08-23T02:22:07.503398+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L2 垂直交易源",
+      "source_role": "venture_media",
+      "source_id": "Tech in Asia",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "industry_change",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "AI is a lightning rod for opinions these days, so here are two stories that highlight both the rush to invest and the need for cautious adoption.",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "持续观察"
+      ],
+      "opportunity_direction": "持续观察",
+      "follow_up_window": "持续观察",
+      "bd_priority": "观察",
+      "signal_taxonomy": [
+        "ai_infra"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "deepseek",
+      "analysis_status": "complete",
+      "content_type": "generic_industry_change",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 62,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 20,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "C",
+      "action_type": "other",
+      "domain": "ai",
+      "signal_type": "consumer",
+      "signal_change_score": 55,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 15,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "filtered",
+      "view_reason": "other_type",
+      "view_priority": "watch"
+    }
+  ]
 }
