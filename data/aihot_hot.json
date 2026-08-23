@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T08:31:43+08:00",
+  "generated_at": "2026-08-23T20:37:49+08:00",
   "fetched_date": "2026-08-23",
   "source": {
     "name": "AIHOT 热点榜",
@@ -9,43 +9,9 @@
   "items": [
     {
       "rank": 1,
-      "title": "DeepSeek 发布 DeepSeek-V4-Flash-Vision-Exp",
-      "list_title": "DeepSeek-V4-Flash-Vision-Exp 发布",
-      "heat": 47,
-      "sources": [
-        "IT之家（RSS）",
-        "DeepSeek：API 更新日志",
-        "X：DeepSeek (@deepseek_ai)",
-        "X：阿易 AI Notes (@AYi_AInotes)",
-        "The Decoder：AI News（RSS）",
-        "另有 12 组氛围票"
-      ],
-      "summary": "深度求索于2026年8月21日发布实验性多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp，并上线 API 平台。该模型纯文本能力与 V4-Flash 正式版持平，视觉理解 Agent Benchmark 表现大幅跃升，接近 Opus-4.8。\nAPI 按 token 计费，单张图片最多占 384 tokens，价格与 V4-Flash 一致，支持三种调用格式及三种图片传入方式。用户可通过设置 model='deepseek-v4-flash-vision-exp' 访问。\n官方 X 账号补充说明，该模型文本能力涵盖智能体、推理与世界知识。第三方评测显示，多模态 Ag",
-      "original_links": [
-        {
-          "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks",
-          "domain": "the-decoder.com"
-        },
-        {
-          "url": "https://x.com/AYi_AInotes/status/2090744882499395685",
-          "domain": "x.com"
-        },
-        {
-          "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-08-21",
-          "domain": "api-docs.deepseek.com"
-        },
-        {
-          "url": "https://www.ithome.com/0/992/755.htm",
-          "domain": "www.ithome.com"
-        }
-      ],
-      "story_url": "https://aihot.virxact.com/story/65baa744-d848-42a6-a194-495e34f1391d"
-    },
-    {
-      "rank": 2,
       "title": "SGLang 推出 Weight Cache Daemon",
       "list_title": "蚂蚁百灵为SGLang推出权重缓存守护进程",
-      "heat": 24,
+      "heat": 17,
       "sources": [
         "LMSYS：Blog（Chatbot Arena 团队）",
         "X：蚂蚁百灵 (@AntLingAGI)"
@@ -64,13 +30,13 @@
       "story_url": "https://aihot.virxact.com/story/d45274fb-e883-4618-9a67-286e48802868"
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "第二届世界人形机器人运动会开幕",
       "list_title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚“冰丝带”，666 支队伍竞技 51 赛项",
-      "heat": 11,
+      "heat": 12,
       "sources": [
         "IT之家（RSS）",
-        "另有 1 组氛围票"
+        "另有 2 组氛围票"
       ],
       "summary": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚“冰丝带”，666 支队伍竞技 51 赛项",
       "original_links": [
@@ -80,24 +46,6 @@
         }
       ],
       "story_url": "https://aihot.virxact.com/story/a88d42ee-b797-4168-8777-fc40d06d45cb"
-    },
-    {
-      "rank": 4,
-      "title": "面壁智能 OpenBMB 发布 MathForm",
-      "list_title": "面壁智能 OpenBMB 推出 MathForm，面向 Lean 4 数学自动形式化的开源框架、数据集与模型",
-      "heat": 11,
-      "sources": [
-        "X：面壁智能 OpenBMB (@OpenBMB)",
-        "另有 1 组氛围票"
-      ],
-      "summary": "面壁智能 OpenBMB 推出 MathForm，面向 Lean 4 数学自动形式化的开源框架、数据集与模型",
-      "original_links": [
-        {
-          "url": "https://x.com/OpenBMB/status/2090786300194590816",
-          "domain": "x.com"
-        }
-      ],
-      "story_url": "https://aihot.virxact.com/story/df908885-7913-4ab3-add4-53b111e28d80"
     }
   ]
 }
