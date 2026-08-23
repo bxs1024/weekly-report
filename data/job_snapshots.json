@@ -1,11 +1,49 @@
 {
   "version": 1,
-  "generated_at": "2026-08-23T10:21:57.533864+08:00",
+  "generated_at": "2026-08-24T02:39:53.846512+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-08-23T10:21:57.533864+08:00",
+      "observed_at": "2026-08-24T02:39:53.846512+08:00",
       "jobs": [
+        {
+          "id": "744000145034979",
+          "title": "Software Engineering Manager II - Fulfilment",
+          "url": "https://www.grab.careers/en/jobs/744000145034979/software-engineering-manager-ii-fulfilment/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000145032469",
+          "title": "Software Engineer, Backend (AI)",
+          "url": "https://www.grab.careers/en/jobs/744000145032469/software-engineer-backend-ai/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000145030799",
+          "title": "Strategy & Planning GrabFood, Region Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000145030799/strategy-planning-grabfood-region-assistant-manager/",
+          "function_tags": []
+        },
+        {
+          "id": "744000145029449",
+          "title": "Senior Software Engineer, Mobile (Android)",
+          "url": "https://www.grab.careers/en/jobs/744000145029449/senior-software-engineer-mobile-android/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000145029439",
+          "title": "Software Engineer, iOS",
+          "url": "https://www.grab.careers/en/jobs/744000145029439/software-engineer-ios/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000144751689",
           "title": "Senior Database Engineer",
@@ -88,46 +126,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000144696089",
-          "title": "Senior Software Engineer, Fullstack",
-          "url": "https://www.grab.careers/en/jobs/744000144696089/senior-software-engineer-fullstack/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000144675669",
-          "title": "Senior Software Engineer, Fullstack - Web Platform",
-          "url": "https://www.grab.careers/en/jobs/744000144675669/senior-software-engineer-fullstack-web-platform/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000144675569",
-          "title": "Head, Merchant Acquisition",
-          "url": "https://www.grab.careers/en/jobs/744000144675569/head-merchant-acquisition/",
-          "function_tags": []
-        },
-        {
-          "id": "744000144675019",
-          "title": "Senior Merchant Account Manager (F&B)",
-          "url": "https://www.grab.careers/en/jobs/744000144675019/senior-merchant-account-manager-fb/",
-          "function_tags": []
-        },
-        {
-          "id": "744000144673869",
-          "title": "Merchant Account Manager (F&B)",
-          "url": "https://www.grab.careers/en/jobs/744000144673869/merchant-account-manager-fb/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-08-23T10:21:57.533864+08:00",
+      "observed_at": "2026-08-24T02:39:53.846512+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -257,7 +261,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-08-23T10:21:57.533864+08:00",
+      "observed_at": "2026-08-24T02:39:53.846512+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",

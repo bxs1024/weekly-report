@@ -156995,11 +156995,11 @@
       "level": "B",
       "score": 7,
       "summary_short": "乐天发布2026财年Q2财报",
-      "content_overview": "乐天集团发布了2026财年第二季度财务业绩，具体数据未在标题中披露。",
-      "reason": "日本电商巨头乐天财报发布，其金融科技和移动业务表现值得关注",
-      "impact": "日本电商生态、金融科技合作方",
+      "content_overview": "乐天集团发布了2026财年第二季度财务业绩，涵盖其电商、金融科技和移动通信等核心业务板块的营收与利润表现。",
+      "reason": "日本综合科技集团季度业绩发布，其金融科技和移动业务板块的盈亏状况将直接影响亚太投资者对日本科技股的信心。",
+      "impact": "日本科技股投资者、乐天生态内商户",
       "insight_label": "背景补充",
-      "trend_topic": "日本电商巨头财报季",
+      "trend_topic": "日本科技巨头财报季",
       "companies": [],
       "is_company": true,
       "company_name": "Rakuten",
@@ -157073,7 +157073,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://global.rakuten.com/corp/investors/documents/results/"
+      ]
     },
     {
       "title": "Alibaba’s open-source AI model Qwen overtakes Meta, Google to claim top spot globally: report - Global Times",
@@ -185795,6 +185798,418 @@
       "view_status": "filtered",
       "view_reason": "other_type",
       "view_priority": "watch"
+    },
+    {
+      "title": "[Rakuten Eagles] McCusker hits a stunning home run to the opposite field, his 19th of the season, to right-center field to give his team the lead. \"I think the slight change I made worked well,\" he said, getting off to a good start in their bid to stop their losing streak. - パ・リーグ.com",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51YzBrSi0ta1B3S0V1YzJLaHB2QzhxR2tTbDN0eVpzdXVIaVF4Y0tka1pLYUY0bG1DakV4RXZ5NXVabjF1Z0ZmMEFzNVdEdk43MlhBX3BiN0JtcDFZZlE?oc=5",
+      "source": "Google News",
+      "region": "亚太",
+      "event_types": [
+        "other"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "McCusker第19轰助乐天金鹫领先",
+      "content_overview": "乐天金鹫队球员McCusker击出本赛季第19支本垒打，帮助球队取得领先，并称微调奏效。",
+      "reason": "体育新闻，与ICT行业无直接关联",
+      "impact": "无直接ICT影响",
+      "insight_label": "背景补充",
+      "trend_topic": "体育赛事无关趋势",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Rakuten",
+      "article_date": "2026-08-23",
+      "date": "2026-08-23",
+      "source_detail": "パ・リーグ.com",
+      "publisher": "パ・リーグ.com",
+      "image_url": "",
+      "published_at": "2026-08-23",
+      "observed_at": "2026-08-23T18:41:27.621242+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Rakuten",
+      "credibility_score": 0,
+      "origin_source_id": "Rakuten",
+      "observation_entity_id": "Rakuten",
+      "discovery_source": "google_news",
+      "publisher_source": "パ・リーグ.com",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "payments",
+        "commerce"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "source_contract",
+      "report_methodology_visible": false,
+      "vertical": "commerce_fintech",
+      "bd_triggers": [
+        "持续观察"
+      ],
+      "opportunity_direction": "持续观察",
+      "follow_up_window": "持续观察",
+      "bd_priority": "观察",
+      "signal_taxonomy": [
+        "ai_infra"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "deepseek",
+      "analysis_status": "complete",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 42,
+      "attention_score": 85,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 20,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "other",
+      "domain": "ai",
+      "signal_type": "company",
+      "signal_change_score": 63,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 15,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 20
+      },
+      "view_status": "filtered",
+      "view_reason": "out_of_scope_industry",
+      "view_priority": "watch"
+    },
+    {
+      "title": "Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders",
+      "url": "https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/",
+      "source": "TechCrunch",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "Flipkart快商务业务逼近印度头部",
+      "content_overview": "沃尔玛旗下Flipkart推出快商务服务两年后，正在逼近印度快商务市场领先者。",
+      "reason": "印度快商务赛道竞争白热化，Flipkart依托沃尔玛供应链加速追赶，物流和仓储技术需求激增",
+      "impact": "印度快商务平台、物流技术供应商、本地配送网络",
+      "insight_label": "合作机会",
+      "trend_topic": "印度快商务竞争加剧",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "article_date": "2026-08-23",
+      "date": "2026-08-23",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/flipkart-minutes.jpg?resize=1200,800",
+      "published_at": "2026-08-23",
+      "observed_at": "2026-08-23T18:40:03.722919+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L2 垂直交易源",
+      "source_role": "venture_media",
+      "source_id": "TechCrunch",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "industry_change",
+      "scope_industries": [
+        "commerce"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "Flipkart's quick-commerce venture is delivering 1.1 million to 1.2 million orders a day, nearly triple its November volume.",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "30天内",
+      "bd_priority": "中",
+      "signal_taxonomy": [
+        "commerce"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "deepseek",
+      "analysis_status": "complete",
+      "content_type": "generic_industry_change",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 67,
+      "attention_score": 95,
+      "score_breakdown": {
+        "source_authority": 20,
+        "materiality": 30,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "policy_change",
+      "domain": "ecommerce",
+      "signal_type": "policy",
+      "signal_change_score": 88,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 25,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 12
+      },
+      "view_status": "filtered",
+      "view_reason": "out_of_scope_industry",
+      "view_priority": "important"
+    },
+    {
+      "title": "Alibaba launches $10b HK share placement to fund AI spending",
+      "url": "https://dealstreetasia.com/stories/alibaba-share-placement-492929/",
+      "source": "The Next Web",
+      "region": "欧洲",
+      "event_types": [
+        "funding"
+      ],
+      "level": "A",
+      "score": 9,
+      "summary_short": "阿里启动$100亿港股配售投AI",
+      "content_overview": "阿里巴巴启动100亿美元香港股票配售，资金将用于AI相关支出。",
+      "reason": "阿里港股配售规模巨大，香港资本市场AI概念股活跃，亚太AI基础设施投资持续升温",
+      "impact": "香港资本市场、AI基础设施供应商、亚洲云服务商",
+      "insight_label": "资金流向",
+      "trend_topic": "中国AI基建投资热潮",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "article_date": "2026-08-23",
+      "date": "2026-08-23",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://media.thenextweb.com/2026/06/alibaba-tencent-lobbyists-drop-pentagon-1260h-rule.jpg",
+      "published_at": "2026-08-23",
+      "observed_at": "2026-08-23T18:40:03.934042+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L3 区域生态源",
+      "source_role": "regional_ecosystem",
+      "source_id": "The Next Web",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "industry_change",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "欧洲"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "Alibaba is placing HK$80bn, about $10.2bn, of new shares in Hong Kong and says all net proceeds will go to AI infrastructure and capabilities. It comes days after the company reported a 75% fall in quarterly net profit driven by that same spending. Alibaba is going to the market for money to spend on AI, […] This story continues at The Next Web",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "expansion",
+        "ai_infra",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "deepseek",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 70,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 23,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "funding",
+      "domain": "ai",
+      "signal_type": "capital",
+      "signal_change_score": 77,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 22,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "merged_from": [
+        "https://dealstreetasia.com/stories/alibaba-share-placement-492929/"
+      ]
+    }
+  ],
+  "2026-08-24": [
+    {
+      "event_id": "event-jobs-ac9dc02fa078c9f0",
+      "candidate_id": "jobs-ac9dc02fa078c9f0",
+      "title": "Grab集中新增5个工程与平台岗位",
+      "url": "https://www.grab.careers/en/jobs/744000145034979/software-engineering-manager-ii-fulfilment/",
+      "source": "Grab Jobs",
+      "source_id": "grab-jobs",
+      "origin_source_id": "grab-jobs",
+      "observation_entity_id": "grab",
+      "discovery_source": "jobs_snapshot",
+      "source_type": "jobs_snapshot",
+      "source_tier": "L1 官方/IR源",
+      "source_role": "official_ir",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 5,
+      "summary_short": "Grab在本周新增5个工程与平台相关职位",
+      "reason": "集中招聘显示Grab正在加强工程与平台能力建设，形成可核验的组织投入信号",
+      "impact": "相关技术供应商、渠道伙伴和企业服务商",
+      "insight_label": "组织变化",
+      "trend_topic": "Grab工程与平台能力建设",
+      "companies": [
+        "Grab"
+      ],
+      "is_company": true,
+      "company_name": "Grab",
+      "date": "2026-08-24",
+      "observed_at": "2026-08-24T02:39:53.846512+08:00",
+      "date_basis": "observed_at",
+      "analysis_source": "jobs_candidate",
+      "analysis_status": "complete",
+      "needs_repair": false,
+      "quality_flags": [],
+      "signal_taxonomy": [
+        "org_change"
+      ],
+      "evidence_refs": [
+        {
+          "job_id": "744000145034979",
+          "title": "Software Engineering Manager II - Fulfilment",
+          "url": "https://www.grab.careers/en/jobs/744000145034979/software-engineering-manager-ii-fulfilment/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145032469",
+          "title": "Software Engineer, Backend (AI)",
+          "url": "https://www.grab.careers/en/jobs/744000145032469/software-engineer-backend-ai/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145030799",
+          "title": "Strategy & Planning GrabFood, Region Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000145030799/strategy-planning-grabfood-region-assistant-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145029449",
+          "title": "Senior Software Engineer, Mobile (Android)",
+          "url": "https://www.grab.careers/en/jobs/744000145029449/senior-software-engineer-mobile-android/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145029439",
+          "title": "Software Engineer, iOS",
+          "url": "https://www.grab.careers/en/jobs/744000145029439/software-engineer-ios/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000144696089",
+          "title": "Senior Software Engineer, Fullstack",
+          "url": "https://www.grab.careers/en/jobs/744000144696089/senior-software-engineer-fullstack/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000144675669",
+          "title": "Senior Software Engineer, Fullstack - Web Platform",
+          "url": "https://www.grab.careers/en/jobs/744000144675669/senior-software-engineer-fullstack-web-platform/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000144675569",
+          "title": "Head, Merchant Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000144675569/head-merchant-acquisition/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000144675019",
+          "title": "Senior Merchant Account Manager (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000144675019/senior-merchant-account-manager-fb/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000144673869",
+          "title": "Merchant Account Manager (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000144673869/merchant-account-manager-fb/",
+          "change": "removed"
+        }
+      ],
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 60,
+      "attention_score": 58,
+      "score_breakdown": {
+        "source_authority": 33,
+        "materiality": 20,
+        "decision_relevance": 15,
+        "scope_fit": 8,
+        "novelty": 10,
+        "urgency": 5
+      },
+      "evidence_grade": "C",
+      "action_type": "expansion",
+      "domain": "other",
+      "signal_type": "company",
+      "signal_change_score": 0,
+      "signal_change_blocked": "out_of_target_industry",
+      "signal_change_breakdown": {},
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "published_at": "",
+      "date_source": "observed_at",
+      "date_confidence": "observed",
+      "date_parse_warning": "missing_published_at",
+      "article_date": ""
     }
   ]
 }

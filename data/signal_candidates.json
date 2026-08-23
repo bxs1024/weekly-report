@@ -1,7 +1,96 @@
 {
   "version": 1,
-  "generated_at": "2026-08-23T10:21:57.533864+08:00",
+  "generated_at": "2026-08-24T02:39:53.846512+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-ac9dc02fa078c9f0",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W35",
+      "window_start": "2026-08-24",
+      "window_end": "2026-08-24",
+      "detected_at": "2026-08-24T02:39:53.846512+08:00",
+      "baseline_count": 16,
+      "current_count": 16,
+      "added_count": 5,
+      "removed_count": 5,
+      "clusters": {
+        "engineering": 4
+      },
+      "removed_clusters": {
+        "engineering": 2
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000145034979",
+          "title": "Software Engineering Manager II - Fulfilment",
+          "url": "https://www.grab.careers/en/jobs/744000145034979/software-engineering-manager-ii-fulfilment/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145032469",
+          "title": "Software Engineer, Backend (AI)",
+          "url": "https://www.grab.careers/en/jobs/744000145032469/software-engineer-backend-ai/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145030799",
+          "title": "Strategy & Planning GrabFood, Region Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000145030799/strategy-planning-grabfood-region-assistant-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145029449",
+          "title": "Senior Software Engineer, Mobile (Android)",
+          "url": "https://www.grab.careers/en/jobs/744000145029449/senior-software-engineer-mobile-android/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145029439",
+          "title": "Software Engineer, iOS",
+          "url": "https://www.grab.careers/en/jobs/744000145029439/software-engineer-ios/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000144696089",
+          "title": "Senior Software Engineer, Fullstack",
+          "url": "https://www.grab.careers/en/jobs/744000144696089/senior-software-engineer-fullstack/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000144675669",
+          "title": "Senior Software Engineer, Fullstack - Web Platform",
+          "url": "https://www.grab.careers/en/jobs/744000144675669/senior-software-engineer-fullstack-web-platform/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000144675569",
+          "title": "Head, Merchant Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000144675569/head-merchant-acquisition/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000144675019",
+          "title": "Senior Merchant Account Manager (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000144675019/senior-merchant-account-manager-fb/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000144673869",
+          "title": "Merchant Account Manager (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000144673869/merchant-account-manager-fb/",
+          "change": "removed"
+        }
+      ],
+      "status": "promoted",
+      "rejection_reason": "",
+      "promoted_event_id": "event-jobs-ac9dc02fa078c9f0"
+    },
     {
       "candidate_id": "jobs-16204df9aa05c77f",
       "entity_id": "shopify",
