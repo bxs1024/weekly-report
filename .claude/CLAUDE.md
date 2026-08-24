@@ -16,13 +16,18 @@
 
 ## AI 分析输出格式
 
-每条事件输出 6 个字段：
+每条事件输出 9 个字段：
+- `event_types`：事件类型主键（funding/ma/earnings/strategy/industry_report/other）
 - `content_overview`：内容概要，1-2 句客观复述事件本身发生了什么（谁、做了什么、金额/数据、进展），比 summary_short 更完整，用于卡片「内容概要」行
 - `summary_short`：中英双语摘要（一句话），用作卡片标题
 - `reason`：为什么重要（"所以呢"导向，对谁有影响、窗口期、连锁反应）—— 卡片展示为「点评」
 - `impact`：具体受益方或受损方（卡片不展示，保留在数据中）
 - `insight_label`：资金流向 / 合作机会 / 警示信号 / 趋势信号 / 中资出海
 - `trend_topic`：所属趋势主题（如"中东FinTech赛道升温"）
+- `canonical_company`：事件主体规范名（去修饰语、统一大小写，行业报告等无主体填空串）—— 去重指纹
+- `canonical_key`：事件量化锚点（融资/财报金额统一 m 单位如"250m"，并购填被收购方，合作填对象，裁员填人数）—— 去重指纹
+
+去重：入库层 `_is_same_event` 与展示层 `dedupe_display_events` 均先按「canonical_company + 主类型 + canonical_key」三项全匹配合并（AI 指纹路径），失败才回退到旧的标题相似度/锚点规则。存量事件无指纹字段自动走旧路径。详见 `docs/plans/2026-08-24-event-dedup-ai-fingerprint.md`。
 
 卡片展示规则（template.html SSOT）：顶部只显示分层（精选/重点/观察）+ 公司名；正文 = 标题 + 内容概要（`front_overview`，优先 AI 扩写 `content_overview`，存量缺省用 `summary_short` 兜底且不与标题重复）+ 点评（`reason`）。区域（`region`）保留在数据中供日报统计与筛选，不作为卡片标签。
 

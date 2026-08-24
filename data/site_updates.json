@@ -1,5 +1,21 @@
 [
  {
+  "date": "2026-08-24",
+  "version": "V5.2",
+  "type": "质量修复",
+  "status": "已提交待推送",
+  "title": "去重改 AI 事件指纹：跨源重复合并不再靠标题相似度",
+  "summary": "去重此前靠「正则提主体 + 标题相似度阈值」，修了几轮仍漏（8-22 Starcloud 融资 2.5 亿美元被两家源各报一篇，标题相似度仅 0.364 被守卫拒合）。本次改为 AI 分析时每条事件输出 canonical_company（主体规范名）+ canonical_key（量化锚点，金额统一 m 单位），入库层与展示层按「主体+类型+锚点」三项全匹配合并——AI 认「同一件事」不再逐类型补正则词表，对融资/并购/财报/合作通用。存量事件无指纹字段自动走旧规则，零影响。",
+  "changes": [
+   "AI 分析输出新增 canonical_company / canonical_key 两字段（提示词与 few-shot 示例同步）",
+   "fetch_news._is_same_event 新增 _fingerprint_match：主体+主类型+锚点全匹配合并，防误并（不同额度/不同类型不并）",
+   "generate_html.dedupe_display_events 加同指纹兜底，绕过正则主体提取错位（如 US space data center startup Starcloud 被误提主体）",
+   "新增 _normalize_canonical_key：金额归一（$250M/$250 Million/2.5亿美元 → 250m）",
+   "新增 scripts/test_event_fingerprint.py：8 用例全绿；存量事件 dedupe 行为与改动前一致",
+   "commit 249e0c2（未推送，与后续改动一并）"
+  ]
+ },
+ {
   "date": "2026-08-20",
   "version": "V5.1",
   "type": "质量修复",
