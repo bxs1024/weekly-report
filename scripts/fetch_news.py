@@ -1170,8 +1170,58 @@ def _dates_adjacent(a, b, window_days=3):
     return gap <= window_days
 
 
+def _normalize_canonical_key(value):
+    """归一化事件量化锚点：金额统一成 数字+m 格式（$250M / $250 Million / 2.5亿美元 → 250m）；
+    非金额（公司名/人数/百分比）小写去标点。空或无识别内容返回空串（指纹路径不触发）。"""
+    if not value:
+        return ''
+    v = str(value).strip()
+    if not v:
+        return ''
+    m = re.search(r'([\d.]+)\s*(bn|billion|b|mn|million|m|k|亿|万)', v.lower())
+    if m:
+        try:
+            num = float(m.group(1))
+        except ValueError:
+            return ''
+        unit = m.group(2)
+        if unit in ('bn', 'billion', 'b'):
+            num *= 1000
+        elif unit == '亿':
+            num *= 100
+        elif unit == '万':
+            num *= 0.01
+        elif unit == 'k':
+            num *= 0.001
+        if abs(num - round(num)) < 1e-9:
+            return f'{int(round(num))}m'
+        return f'{num:.2f}m'.rstrip('0').rstrip('.') + 'm'
+    return re.sub(r'[^a-z0-9%一-鿿]+', '', v.lower())
+
+
+def _fingerprint_match(a, b):
+    """AI 指纹合并判定：canonical_company + 主类型 + canonical_key 三项全匹配才视为同一事件。
+    任一项缺失（存量事件无指纹）返回 None，交回旧判定逻辑。"""
+    ca = a.get('canonical_company') or ''
+    cb = b.get('canonical_company') or ''
+    if not ca or not cb:
+        return None
+    if _normalize_company_key(ca) != _normalize_company_key(cb):
+        return None
+    if _primary_event_type(a) != _primary_event_type(b):
+        return None
+    ka = _normalize_canonical_key(a.get('canonical_key') or '')
+    kb = _normalize_canonical_key(b.get('canonical_key') or '')
+    if not ka or not kb:
+        return None
+    return ka == kb
+
+
 def _is_same_event(candidate, existing):
     if candidate.get('url') and candidate.get('url') == existing.get('url'):
+        return True
+
+    if _fingerprint_match(candidate, existing):
         return True
 
     if not _dates_adjacent(candidate, existing):
@@ -2506,7 +2556,7 @@ def analyze_events_deepseek(items):
 # ============================================================
 
 AI_SYSTEM_PROMPT = """你是全球互联网科技情报分析师。受众是ICT从业者，关注：合作机会、供应链变化、预算流向。
-每条事件输出7个字段：event_types（事件类型，见下）、content_overview（内容概要，1-2句客观复述事件本身发生了什么）、summary_short（一句话事实摘要）、reason（点评/为什么重要，ICT视角）、impact（影响谁）、insight_label（资金流向/合作机会/警示信号/背景补充）、trend_topic（所属趋势主题，如"中东FinTech赛道升温""拉美电商基建加速""欧洲AI融资热潮""东南亚新能源布局"等，15字以内）。
+每条事件输出9个字段：event_types（事件类型，见下）、content_overview（内容概要，1-2句客观复述事件本身发生了什么）、summary_short（一句话事实摘要）、reason（点评/为什么重要，ICT视角）、impact（影响谁）、insight_label（资金流向/合作机会/警示信号/背景补充）、trend_topic（所属趋势主题，如"中东FinTech赛道升温""拉美电商基建加速""欧洲AI融资热潮""东南亚新能源布局"等，15字以内）、canonical_company（事件主体的规范名，如"Mistral""Nubank""Cafeyn"——公司/产品/机构名本身，去修饰语、统一大小写；行业报告等无明确主体的事件填空字符串""）、canonical_key（事件的量化/识别锚点，统一格式：融资或财报填金额，数字+单位——金额低于1亿的用m为单位如"250m""5m"，1亿以上的用b为单位如"2.8b""830m"，保留小数不超过2位；并购填被收购方规范名如"Readly"；战略合作填合作对象规范名如"Qistas"；裁员填人数数字如"2000"；无合适锚点填空字符串""）。
 
 event_types 判定规则（从事件实质判断，不要被标题里的英文单词误导）：
 - funding：融资/投资/估值
@@ -2526,35 +2576,35 @@ impact 要求：指明具体受益方或受损方，如"东南亚电商平台""�
 AI_EXAMPLES = """
 示例1（融资大额）：
 标题: "Mistral raises $830M, 9fin hits unicorn status"
-输出: {"url":"","event_types":"funding","content_overview":"法国AI公司Mistral完成8.3亿美元融资，金融科技公司9fin同期晋级独角兽","summary_short":"Mistral获$830M融资，9fin晋级独角兽","reason":"欧洲AI独角兽获顶级融资，后续可能开放生态合作和API采购","impact":"AI基础设施供应商、云服务商、API集成商","insight_label":"资金流向","trend_topic":"欧洲AI融资热潮","score":9}
+输出: {"url":"","event_types":"funding","content_overview":"法国AI公司Mistral完成8.3亿美元融资，金融科技公司9fin同期晋级独角兽","summary_short":"Mistral获$830M融资，9fin晋级独角兽","reason":"欧洲AI独角兽获顶级融资，后续可能开放生态合作和API采购","impact":"AI基础设施供应商、云服务商、API集成商","insight_label":"资金流向","trend_topic":"欧洲AI融资热潮","score":9,"canonical_company":"Mistral","canonical_key":"830m"}
 
 示例2（融资中等）：
 标题: "Wearable Robotics closes €5M Series A"
-输出: {"url":"","event_types":"funding","content_overview":"可穿戴机器人公司Wearable Robotics完成500万欧元A轮融资","summary_short":"可穿戴机器人公司获€5M A轮","reason":"欧洲硬科技早期融资，B2B机器人赛道持续有资金流入","impact":"机器人供应链、工业软件合作方","insight_label":"资金流向","trend_topic":"欧洲硬科技投资活跃","score":6}
+输出: {"url":"","event_types":"funding","content_overview":"可穿戴机器人公司Wearable Robotics完成500万欧元A轮融资","summary_short":"可穿戴机器人公司获€5M A轮","reason":"欧洲硬科技早期融资，B2B机器人赛道持续有资金流入","impact":"机器人供应链、工业软件合作方","insight_label":"资金流向","trend_topic":"欧洲硬科技投资活跃","score":6,"canonical_company":"Wearable Robotics","canonical_key":"5m"}
 
 示例3（并购）：
 标题: "Cafeyn acquires Readly non-Nordic operations"
-输出: {"url":"","event_types":"ma","content_overview":"数字出版平台Cafeyn收购Readly的北欧以外业务，整合全球发行版图","summary_short":"Cafeyn收购Readly非北欧业务","reason":"欧洲数字出版整合加速，中小媒体可能面临挤压或被整合","impact":"数字媒体公司、内容分发合作方","insight_label":"资金流向","trend_topic":"欧洲数字出版整合","score":7}
+输出: {"url":"","event_types":"ma","content_overview":"数字出版平台Cafeyn收购Readly的北欧以外业务，整合全球发行版图","summary_short":"Cafeyn收购Readly非北欧业务","reason":"欧洲数字出版整合加速，中小媒体可能面临挤压或被整合","impact":"数字媒体公司、内容分发合作方","insight_label":"资金流向","trend_topic":"欧洲数字出版整合","score":7,"canonical_company":"Cafeyn","canonical_key":"Readly"}
 
 示例4（战略合作）：
 标题: "Arabic.AI partners with Qistas to deliver sovereign Arabic legal AI"
-输出: {"url":"","event_types":"strategy","content_overview":"Arabic.AI与Qistas达成合作，推出面向主权客户的法语系AI产品","summary_short":"Arabic.AI与Qistas合作推阿拉伯语法务AI","reason":"中东主权AI战略落地，法律科技出现新的ICT集成机会","impact":"法律科技集成商、中东政府IT合作方","insight_label":"合作机会","trend_topic":"中东主权AI落地","score":6}
+输出: {"url":"","event_types":"strategy","content_overview":"Arabic.AI与Qistas达成合作，推出面向主权客户的法语系AI产品","summary_short":"Arabic.AI与Qistas合作推阿拉伯语法务AI","reason":"中东主权AI战略落地，法律科技出现新的ICT集成机会","impact":"法律科技集成商、中东政府IT合作方","insight_label":"合作机会","trend_topic":"中东主权AI落地","score":6,"canonical_company":"Arabic.AI","canonical_key":"Qistas"}
 
 示例5（战略裁员）：
 标题: "Telecom Italia cuts 2000 jobs amid network upgrade"
-输出: {"url":"","event_types":"strategy","content_overview":"意大利电信在推进网络升级的同时宣布裁员2000人","summary_short":"意大利电信裁员2000人","reason":"传统运营商压缩成本，转向网络外包，ICT服务商机会增加","impact":"IT外包商、网络设备供应商","insight_label":"警示信号","trend_topic":"欧洲电信转型","score":7}
+输出: {"url":"","event_types":"strategy","content_overview":"意大利电信在推进网络升级的同时宣布裁员2000人","summary_short":"意大利电信裁员2000人","reason":"传统运营商压缩成本，转向网络外包，ICT服务商机会增加","impact":"IT外包商、网络设备供应商","insight_label":"警示信号","trend_topic":"欧洲电信转型","score":7,"canonical_company":"Telecom Italia","canonical_key":"2000"}
 
 示例6（财报盈利）：
 标题: "Nubank Q1 revenue up 34% to $2.8B"
-输出: {"url":"","event_types":"earnings","content_overview":"巴西数字银行Nubank一季度营收28亿美元，同比增长34%","summary_short":"Nubank营收$2.8B，同比+34%","reason":"拉美数字银行持续高增长，东南亚复制模式具有参考价值","impact":"拉美金融科技合作方、银行科技供应商","insight_label":"背景补充","trend_topic":"拉美FinTech高增长","score":6}
+输出: {"url":"","event_types":"earnings","content_overview":"巴西数字银行Nubank一季度营收28亿美元，同比增长34%","summary_short":"Nubank营收$2.8B，同比+34%","reason":"拉美数字银行持续高增长，东南亚复制模式具有参考价值","impact":"拉美金融科技合作方、银行科技供应商","insight_label":"背景补充","trend_topic":"拉美FinTech高增长","score":6,"canonical_company":"Nubank","canonical_key":"2.8b"}
 
 示例7（财报亏损）：
 标题: "Gorillas files for insolvency amid funding crunch"
-输出: {"url":"","event_types":"earnings","content_overview":"欧洲即时配送平台Gorillas在融资困境中申请破产保护","summary_short":"欧洲快送平台Gorillas申请破产保护","reason":"即时配送赛道资金耗尽，同类公司需警惕融资环境恶化信号","impact":"同类快送平台、物流技术供应商","insight_label":"警示信号","trend_topic":"欧洲即时配送洗牌","score":8}
+输出: {"url":"","event_types":"earnings","content_overview":"欧洲即时配送平台Gorillas在融资困境中申请破产保护","summary_short":"欧洲快送平台Gorillas申请破产保护","reason":"即时配送赛道资金耗尽，同类公司需警惕融资环境恶化信号","impact":"同类快送平台、物流技术供应商","insight_label":"警示信号","trend_topic":"欧洲即时配送洗牌","score":8,"canonical_company":"Gorillas","canonical_key":""}
 
 示例8（"Report"是"据报道"而非研报）：
 标题: "Cursor To Open First India Office By 2026 End: Report"
-输出: {"url":"","event_types":"strategy","content_overview":"AI编程公司Cursor计划在2026年底前开设印度首个办公室","summary_short":"Cursor计划2026年底开印度办公室","reason":"AI编程工具公司加速全球化布局，亚太开发者市场战略地位上升","impact":"印度开发者生态、AI工具渠道合作方","insight_label":"合作机会","trend_topic":"AI编程工具全球化","score":5}
+输出: {"url":"","event_types":"strategy","content_overview":"AI编程公司Cursor计划在2026年底前开设印度首个办公室","summary_short":"Cursor计划2026年底开印度办公室","reason":"AI编程工具公司加速全球化布局，亚太开发者市场战略地位上升","impact":"印度开发者生态、AI工具渠道合作方","insight_label":"合作机会","trend_topic":"AI编程工具全球化","score":5,"canonical_company":"Cursor","canonical_key":""}
 """
 
 def analyze_events_doubao(items):
@@ -3227,6 +3277,8 @@ def build_event(item, analysis=None, analysis_source=None, analysis_status=None)
             'companies': analysis.get('companies', []) or [],
             'is_company': item.get('is_company', False),
             'company_name': item.get('company_name', ''),
+            'canonical_company': _normalize_company_key(analysis.get('canonical_company', '')),
+            'canonical_key': _normalize_canonical_key(analysis.get('canonical_key', '')),
             'article_date': item.get('article_date', ''),
             'date': item.get('article_date', _cn_today()),
             'source_detail': item.get('source_detail', ''),
@@ -3259,6 +3311,8 @@ def build_event(item, analysis=None, analysis_source=None, analysis_status=None)
         'companies': [],
         'is_company': item.get('is_company', False),
         'company_name': item.get('company_name', ''),
+        'canonical_company': '',
+        'canonical_key': '',
         'article_date': item.get('article_date', ''),
         'date': item.get('article_date', _cn_today()),
         'source_detail': item.get('source_detail', ''),

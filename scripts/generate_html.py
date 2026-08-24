@@ -25,6 +25,7 @@ try:
     from period_themes import build_monthly_trends, build_weekly_themes, build_company_changes, build_industry_changes
     from entity_signal_conversion_report import event_matches_entity
     from internet_relevance import is_mainline_internet_event
+    from fetch_news import _fingerprint_match
     from view_selectors import (
         select_company_events,
         select_company_quality_events,
@@ -53,6 +54,7 @@ except ImportError:
     from scripts.period_themes import build_monthly_trends, build_weekly_themes, build_company_changes, build_industry_changes
     from scripts.entity_signal_conversion_report import event_matches_entity
     from scripts.internet_relevance import is_mainline_internet_event
+    from scripts.fetch_news import _fingerprint_match
     from scripts.view_selectors import (
         select_company_events,
         select_company_quality_events,
@@ -1161,6 +1163,16 @@ def dedupe_display_events(events):
             continue
         if title_key:
             seen_titles.add(title_key)
+
+        # AI 指纹兜底：主体+类型+量化锚点全匹配直接合并，绕过正则主体提取与标题相似度
+        if event.get('canonical_company'):
+            match = next((ev for ev in kept if _fingerprint_match(event, ev)), None)
+            if match is not None:
+                if event.get('url'):
+                    match.setdefault('merged_from', [])
+                    if event['url'] not in match['merged_from']:
+                        match['merged_from'].append(event['url'])
+                continue
 
         date_key = (event.get('date') or '')[:10]
         event_type = (event.get('event_types') or ['other'])[0]
