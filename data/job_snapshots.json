@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T02:51:05.688355+08:00",
+  "generated_at": "2026-08-25T10:16:36.447279+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-08-25T02:51:05.688355+08:00",
+      "observed_at": "2026-08-25T10:16:36.447279+08:00",
       "jobs": [
         {
           "id": "744000145299939",
@@ -130,7 +130,7 @@
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-08-25T02:51:05.688355+08:00",
+      "observed_at": "2026-08-25T10:16:36.447279+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -260,7 +260,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-08-25T02:51:05.688355+08:00",
+      "observed_at": "2026-08-25T10:16:36.447279+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
@@ -290,6 +290,12 @@
           "id": "e1c60e78-e451-4242-8473-5b8217394c36",
           "title": "Lead, Electronic Money Accounting Remote - United Kingdom",
           "url": "https://www.shopify.com/careers/lead-electronic-money-accounting_e1c60e78-e451-4242-8473-5b8217394c36",
+          "function_tags": []
+        },
+        {
+          "id": "10073fb3-5a44-4824-bd75-f2add66901ef",
+          "title": "Product Pricing Lead Remote - Americas",
+          "url": "https://www.shopify.com/careers/product-pricing-lead_10073fb3-5a44-4824-bd75-f2add66901ef",
           "function_tags": []
         },
         {
