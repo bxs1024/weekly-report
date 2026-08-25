@@ -1,172 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-08-24</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-08-25</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-08-25T12:48:04Z</updated>
+  <updated>2026-08-25T18:57:47Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>新西兰出台青少年社交媒体限制</title>
-    <link href="https://www.socialmediatoday.com/news/new-zealand-introduces-teen-social-media-restrictions/828662/"/>
-    <id>tag:weekly-report,2026:event-90250912</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;New Zealand introduces teen social media restrictions&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新西兰出台青少年社交媒体限制措施&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;该措施影响社交媒体行业发展，与ICT行业有一定关联&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：other | 地区：全球 | 来源：Social Media Today&lt;/p&gt;</summary>
+    <title>Revolut任命前GXS银行CEO为新加坡顾问</title>
+    <link href="https://fintechnews.sg/136263/digital-banking-news-singapore/revolut-singapore-board/"/>
+    <id>tag:weekly-report,2026:event-80289c47</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Revolut Taps Former GXS Bank CEO for Singapore Advisory Board&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Revolut任命前GXS银行CEO加入其新加坡顾问委员会，以加强其在东南亚市场的战略布局和本地化运营。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;英国数字银行巨头加速东南亚布局，引入本地高管将推动其新加坡数字银行牌照申请和区域业务拓展。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>AppFlyer获$400M信贷额度</title>
-    <link href="https://www.techinasia.com/news/israeli-ai-startup-appflyer-secures-400m-credit-line"/>
-    <id>tag:weekly-report,2026:event-28918455</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Israeli AI startup AppFlyer secures $400m credit line&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;以色列AI初创公司AppFlyer获得4亿美元信贷额度，用于扩大业务规模。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;以色列AI营销科技获大额信贷，亚太数字营销SaaS赛道竞争加剧，本地化服务需求上升。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>Stellaria获$6.8M融资扩展地理空间AI</title>
+    <link href="http://wamda.com/2026/08/uae-stellaria-secures-6-8-million-scale-geospatial-ai-platform"/>
+    <id>tag:weekly-report,2026:event-2bb4e94a</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;UAE’s Stellaria secures $6.8 million to scale geospatial AI platform&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;阿联酋地理空间AI平台Stellaria获得680万美元融资，用于扩大其平台规模。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东地理空间AI赛道获资本加持，智慧城市和基础设施数字化项目将加速落地，为数据服务商带来合作空间。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：中东 | 来源：WAMDA&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Fasset估值达$1B</title>
-    <link href="https://www.finextra.com/newsarticle/48288/stablecoin-platform-fasset-hits-1bn-valuation?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-986f22e1</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Stablecoin platform Fasset hits $1bn valuation&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;稳定币平台Fasset估值达到10亿美元&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球稳定币平台发展态势良好，吸引资金流入&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
+    <title>Emerald AI获$150M，估值$1.05B</title>
+    <link href="https://thenextweb.com/news/emerald-ai-150m-funding-data-centre-grid-flexibility"/>
+    <id>tag:weekly-report,2026:event-59720430</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Emerald AI raises $150mn at a $1.05bn valuation to flex data centre power&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Emerald AI以10.5亿美元估值完成1.5亿美元融资，用于扩展数据中心电网灵活性业务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲数据中心电网灵活性赛道获大额融资，AI驱动能源管理成为数据中心运营的关键需求。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>阿里巴巴拟投$10B扩张AI</title>
-    <link href="https://www.mobileworldlive.com/ai-cloud/alibaba-plots-ai-expansion-with-10b-pot/"/>
-    <id>tag:weekly-report,2026:event-8decd03e</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Alibaba plots AI expansion with $10B pot&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;阿里巴巴计划用100亿美元资金进行人工智能扩张&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球电商巨头加大AI投入，拓展业务边界，带动AI产业链发展&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
+    <title>Standard Metrics获$20M融资拓展AI投资管理</title>
+    <link href="https://ventureburn.com/standard-metrics-raises-20m-ai-portfolio-management/"/>
+    <id>tag:weekly-report,2026:event-d04d313c</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Standard Metrics Raises $20M To Transform Private Markets with AI Portfolio Management&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI投资组合管理公司Standard Metrics完成2000万美元融资，用于拓展私募市场AI解决方案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲及全球私募市场AI化趋势明显，投资管理自动化需求上升，为金融数据API和AI模型服务商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>内蒙古签署$270亿AI计算项目</title>
-    <link href="https://thenextweb.com/news/china-inner-mongolia-green-computing-ai-export-grassland"/>
-    <id>tag:weekly-report,2026:event-4aef2651</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Inner Mongolia signs $27bn of AI computing projects&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;内蒙古签署270亿美元的人工智能计算项目&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太地区内蒙古积极布局AI计算项目，带动相关产业发展&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>Generalist AI获$200M融资推动物理AI机器人</title>
+    <link href="https://ventureburn.com/generalist-ai-raises-200-million-to-transform-physical-ai/"/>
+    <id>tag:weekly-report,2026:event-782e6cd9</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Generalist AI Raises $200 Million to Revolutionize Physical AI Robotics&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;通用AI机器人公司Generalist AI完成2亿美元融资，专注于物理AI机器人领域的技术革新。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;物理AI机器人赛道获巨额融资，全球制造业自动化升级加速，为传感器、执行器和边缘计算供应商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Loom Games游戏首年玩家支出近$200m</title>
-    <link href="https://www.pocketgamer.biz/loom-games-pixel-flow-makes-almost-200m-in-player-spending-during-first-year/"/>
-    <id>tag:weekly-report,2026:event-706c9361</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Loom Games’ Pixel Flow makes almost $200m in player spending during first year&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Loom Games的Pixel Flow在第一年玩家支出近2亿美元&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球游戏行业中该游戏表现突出，反映行业消费情况&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+    <title>W4 Games获$18M融资，推动Godot企业应用</title>
+    <link href="https://www.pocketgamer.biz/w4-games-raises-18m-to-expand-godot-enterprise-push/"/>
+    <id>tag:weekly-report,2026:event-6986acb1</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;W4 Games raises $18m to expand Godot enterprise push&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;W4 Games获得1800万美元融资，用于扩大Godot游戏引擎的企业级应用。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;开源游戏引擎Godot获资本支持，企业级游戏开发需求增长，为游戏开发工具链和云服务带来机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Jumia 2026年二季度财报获认可</title>
-    <link href="https://group.jumia.com/news/jumia-2q-2026-earnings-delivers-major-endorsements"/>
-    <id>tag:weekly-report,2026:event-01e8906c</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Jumia 2Q 2026 Earnings Delivers Major Endorsements&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Jumia 2026年第二季度财报获得认可&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲电商平台财务表现获肯定，行业发展态势受关注&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：非洲 | 公司：Jumia | 来源：Jumia&lt;/p&gt;</summary>
+    <title>Stability AI融资$76M，华纳索尼参投</title>
+    <link href="https://tech.eu/2026/08/25/stabiityai-raises-76m-with-warner-and-sony-investing/"/>
+    <id>tag:weekly-report,2026:event-381fb778</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Stability AI raises $76M, with Warner and Sony investing&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Stability AI完成7600万美元融资，华纳和索尼参投。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI生成模型公司获媒体巨头投资，内容生成技术商业化加速，为创意产业技术集成带来机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Cloudflare发布虚拟设备下载公告</title>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-08-24-virtual-appliance-self-serve-download/"/>
-    <id>tag:weekly-report,2026:event-5dfac29d</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Download the Cloudflare One Virtual Appliance for your hypervisor from the dashboard&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare发布公告，用户可从仪表板为管理程序下载Cloudflare One虚拟设备&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
+    <title>Ciena预计AI服务推动营收增长</title>
+    <link href="https://www.mobileworldlive.com/ai-cloud/ciena-tips-ai-services-to-boost-revenue-growth/"/>
+    <id>tag:weekly-report,2026:event-17a4402e</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ciena tips AI services to boost revenue growth&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;网络设备商Ciena预计AI相关服务将推动营收增长，公司对未来业绩持乐观态度。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美AI算力需求激增带动光网络设备升级，Ciena的乐观预期反映AI基础设施投资热潮仍在持续，利好光模块和网络测试供应商。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：earnings | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Softgames收购Funday Games游戏组合</title>
-    <link href="https://www.pocketgamer.biz/softgames-acquires-funday-games-19-title-instant-games-portfolio/"/>
-    <id>tag:weekly-report,2026:event-88b0e18f</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Softgames acquires Funday Games’ 19-title instant games portfolio&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Softgames收购Funday Games的19款即时游戏组合&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球游戏行业并购行为，影响游戏市场格局&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+    <title>乐天推出发现式平价商店Rakuyoko</title>
+    <link href="https://global.rakuten.com/corp/news/press/2026/0825_01.html"/>
+    <id>tag:weekly-report,2026:event-256e34b2</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Rakuten Launches “Rakuten Rakuyoko,” A Discovery-Led Online Store for Affordable, Trendy Essentials&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;乐天推出名为&amp;#x27;Rakuten Rakuyoko&amp;#x27;的发现式在线商店，主打平价时尚必需品。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本电商巨头推出新业态，聚焦平价时尚，为东南亚和日本供应链品牌提供新渠道，电商平台竞争加剧。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 公司：Rakuten | 来源：Rakuten Group&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Grab在本周新增5个工程与平台相关职位</title>
-    <link href="https://www.grab.careers/en/jobs/744000145034979/software-engineering-manager-ii-fulfilment/"/>
-    <id>tag:weekly-report,2026:event-99a29a68</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Grab集中新增5个工程与平台岗位&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;集中招聘显示Grab正在加强工程与平台能力建设，形成可核验的组织投入信号&lt;/p&gt;&lt;p&gt;标签：组织变化 | 类型：strategy | 地区：亚太 | 公司：Grab | 来源：Grab Jobs&lt;/p&gt;</summary>
+    <title>Anthropic资助AI幸福感影响研究</title>
+    <link href="https://www.anthropic.com/news/wellbeing-research-grants"/>
+    <id>tag:weekly-report,2026:event-15ec8203</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Anthropic宣布资助AI对幸福感影响的研究项目，以推动相关评估方法的发展。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI头部企业投入资金研究AI社会影响，学术机构和政策研究团队可申请资助，推动AI伦理标准制定。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 公司：Anthropic | 来源：Anthropic Newsroom&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>柏林Kazimi获€220万融资助开发者保护数据</title>
-    <link href="https://www.eu-startups.com/2026/08/berlin-based-kazimi-secures-e2-2-million-to-help-app-developers-protect-and-verify-first-party-data/"/>
-    <id>tag:weekly-report,2026:event-4c4b9ce8</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Berlin-based Kazimi secures €2.2 million to help app developers protect and verify first-party data&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;柏林的Kazimi获得220万欧元融资，用于帮助应用开发者保护和验证第一方数据&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲应用数据保护领域获融资，相关技术服务商迎来合作机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
+    <title>B2B AI公司快速达到$100M营收分析</title>
+    <link href="https://www.therecursive.com/how-sales-led-b2b-ai-companies-are-reaching-100m-in-revenue-so-fast/"/>
+    <id>tag:weekly-report,2026:event-ae8a157c</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;How Sales-Led B2B AI Companies Are Reaching $100M in Revenue So Fast&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;文章分析了销售驱动的B2B AI公司如何快速达到1亿美元营收，探讨其增长模式和策略。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲B2B AI公司增长模式值得关注，销售驱动策略可能成为AI初创公司规模化的重要参考。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：欧洲 | 来源：The Recursive&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Pay.com.au将奖励平台引入美国</title>
-    <link href="https://www.finextra.com/newsarticle/48293/paycomau-brings-aussie-rewards-platform-to-the-us?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-3fc61494</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Pay.com.au brings Aussie rewards platform to the US&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;澳大利亚Pay.com.au将本国奖励平台引入美国&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付奖励平台拓展市场，寻求国际合作&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：北美 | 来源：Finextra&lt;/p&gt;</summary>
+    <title>Naver数字孪生平台成沙特国家标准</title>
+    <link href="https://www.navercorp.com/en/media/pressReleasesDetail?seq=10034607"/>
+    <id>tag:weekly-report,2026:event-87d2078f</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;TEAM NAVER Digital Twin Platform Adopted as Saudi Arabia’s National Standard&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Naver旗下TEAM NAVER的数字孪生平台被沙特阿拉伯采纳为国家标准，标志着该技术在中东地区的国家级应用落地。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东沙特数字孪生国家标准确立，为ICT企业提供智慧城市和基础设施数字化集成机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：中东 | 公司：Naver | 来源：Naver&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>保时捷与塔塔达成€1.25B AI合作</title>
-    <link href="https://www.mobileworldlive.com/industry/porsche-tata-strike-e1-25b-ai-partnership/"/>
-    <id>tag:weekly-report,2026:event-6382b9b3</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Porsche, Tata strike €1.25B AI partnership&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;保时捷与塔塔达成12.5亿欧元人工智能合作&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球汽车与科技行业开展AI战略合作，推动智能驾驶等领域发展&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
+    <title>Cloudflare MCP门户支持新规范</title>
+    <link href="https://developers.cloudflare.com/changelog/post/2026-08-25-mcp-portals-mcp-2026-07-28/"/>
+    <id>tag:weekly-report,2026:event-307d13ec</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: MCP server portals support MCP 2026-07-28 specification&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare的MCP服务器门户支持MCP 2026-07-28规范，更新了模型上下文协议兼容性。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Tap Global采用数字资产收入战略</title>
-    <link href="https://www.finextra.com/pressarticle/110708/tap-global-adopts-digital-assets-income-strategy?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-94021191</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Tap Global adopts digital assets income strategy&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付公司调整战略，影响数字资产行业合作&lt;/p&gt;&lt;p&gt;标签：战略调整 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
+    <title>Neno获€6.6M融资，加速欧洲扩张</title>
+    <link href="https://tech.eu/2026/08/25/dutch-ai-native-financial-services-startup-neno-secures-eur66m-for-european-expansion/"/>
+    <id>tag:weekly-report,2026:event-89df15f3</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Dutch AI-native financial services startup Neno secures €6.6M for European expansion&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;荷兰AI原生金融服务初创公司Neno获得660万欧元融资，用于欧洲市场扩张。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI金融科技赛道持续升温，Neno的AI原生模式可能吸引银行和保险公司的技术合作需求。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>分析AI中间层商业价值</title>
-    <link href="https://www.techinasia.com/business-case-ais-middle-layer"/>
-    <id>tag:weekly-report,2026:event-b22809c2</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The business case for AI’s middle layer&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;文章探讨AI中间层（模型与终端应用之间的工具层）的商业逻辑与市场机会。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚AI应用层爆发，中间层工具（如编排、监控、安全）成为集成商新切入点。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>Repodo获€8M+融资，专注AI审计</title>
+    <link href="https://tech.eu/2026/08/25/lunar-co-founders-launch-ai-audit-startup-repodo-raising-over-eur8m/"/>
+    <id>tag:weekly-report,2026:event-6165ea1c</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Lunar co-founders launch AI audit startup Repodo, raising over €8M&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Lunar联合创始人创立AI审计初创公司Repodo，并筹集超过800万欧元资金。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI审计赛道早期融资，金融科技背景团队入局，为合规科技和审计软件市场带来新玩家。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>负责任金融科技研究所开展量子试点</title>
-    <link href="https://www.finextra.com/newsarticle/48287/responsible-fintech-institute-debuts-quantum-pilot?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-8f64bed9</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Responsible Fintech Institute debuts quantum pilot&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;负责任金融科技研究所推出量子技术试点项目&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球金融科技领域探索量子技术应用，ICT合作机会涌现&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
+    <title>eComID获€14.6M融资，打造AI购物护照</title>
+    <link href="https://www.eu-startups.com/2026/08/stockholms-ecomid-raises-e14-6-million-to-build-the-shopping-passport-for-ai-powered-personalised-commerce/"/>
+    <id>tag:weekly-report,2026:event-537b3981</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Stockholm’s eComID raises €14.6 million to build the “shopping passport” for AI-powered personalised commerce&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;斯德哥尔摩初创公司eComID获得1460万欧元融资，用于构建AI驱动的个性化商务“购物护照”。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲电商个性化赛道获资本关注，AI驱动的购物体验可能成为电商平台差异化竞争的关键。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>绘制澳大利亚AI领域初创公司</title>
-    <link href="https://www.techinasia.com/visual-story/mapping-trailblazing-startups-australias-ai-sector"/>
-    <id>tag:weekly-report,2026:event-6f3be9a0</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mapping the trailblazing startups in Australia’s AI sector&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;绘制澳大利亚人工智能领域的开创性初创公司&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太地区澳大利亚对AI初创公司进行梳理，利于了解行业发展&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>Topgolf新CEO拟拓展零售媒体与授权</title>
+    <link href="https://www.modernretail.co/marketing/topgolf-hasnt-done-much-retail-media-licensing-its-new-ceo-wants-to-change-that/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
+    <id>tag:weekly-report,2026:event-c2d003fb</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Topgolf hasn’t done much retail media, licensing. Its new CEO wants to change that&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Topgolf新任CEO计划拓展零售媒体和授权业务，此前公司在这两个领域涉足较少。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国娱乐零售巨头转向零售媒体和IP授权，为广告技术平台和品牌合作方提供新渠道，零售媒体网络竞争加剧。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Verizon选用谷歌云推企业AI</title>
-    <link href="https://www.mobileworldlive.com/google/verizon-taps-google-cloud-for-enterprise-wide-ai-push/"/>
-    <id>tag:weekly-report,2026:event-7fc932f6</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Verizon taps Google Cloud for enterprise-wide AI push&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Verizon选择谷歌云推动企业级人工智能发展&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球电信企业借助云服务提供商加速AI布局，重塑行业格局&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
+    <title>InnoGames分享《Heroes of History》实时运营重建经验</title>
+    <link href="https://www.pocketgamer.biz/innogames-zoran-gjorgiev-on-rebuilding-heroes-of-historys-live-ops-one-layer-at-a-time/"/>
+    <id>tag:weekly-report,2026:event-f6c854b5</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;InnoGames&amp;#x27; Zoran Gjorgiev on rebuilding Heroes of History&amp;#x27;s live ops one layer at a time&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;InnoGames的Zoran Gjorgiev分享其团队如何分阶段重建《Heroes of History》的实时运营体系，逐步优化玩家体验和留存。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲游戏公司公开其实时运营方法论，为同类游戏运营团队提供可借鉴的实践案例，可能带动相关工具和服务需求。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Clicx银行恢复数字贷款并加强筛选</title>
-    <link href="https://fintechnews.sg/136214/thailand/clicx-bank-digital-loans/"/>
-    <id>tag:weekly-report,2026:event-f0f4838b</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Clicx Bank Tightens Screening as Digital Loans Resume After Nearly Three Weeks&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;泰国Clicx银行在近三周后恢复数字贷款业务并加强筛选&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太地区银行调整数字贷款策略，影响相关金融科技合作方&lt;/p&gt;&lt;p&gt;标签：战略调整 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>Sensor Tower报告揭示手游D2C收入影响</title>
+    <link href="https://www.pocketgamer.biz/sensor-tower-reveals-the-hidden-impact-of-d2c-revenue-in-mobile-games/"/>
+    <id>tag:weekly-report,2026:event-42d5f1f0</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Sensor Tower reveals the hidden impact of D2C revenue in mobile games&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Sensor Tower发布报告，揭示移动游戏D2C（直接面向消费者）收入对整体市场的影响，量化了绕过应用商店内购渠道的流水规模。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球移动游戏市场D2C渠道数据首次被量化，为游戏发行商和支付服务商提供新的市场洞察和合作切入点。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Orange波兰光纤 deal获欧盟批准</title>
-    <link href="https://www.mobileworldlive.com/europe/orange-poland-fibre-deal-gets-ec-green-light/"/>
-    <id>tag:weekly-report,2026:event-2997d447</id>
-    <published>2026-08-24T00:00:00Z</published>
-    <updated>2026-08-24T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Orange Poland fibre deal gets EC green light&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Orange波兰光纤交易获得欧盟委员会绿灯&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲电信基础设施建设推进，提升网络服务质量，利好相关供应商&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
+    <title>高通联手日企推进机器人产业</title>
+    <link href="https://www.mobileworldlive.com/industry/qualcomm-partners-big-names-for-japan-robotics-push/"/>
+    <id>tag:weekly-report,2026:event-32c63c3d</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Qualcomm partners big names for Japan robotics push&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;高通与多家日本知名企业合作，共同推进日本机器人产业发展。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本机器人产业与高通芯片结合，将加速边缘AI在工业自动化领域的落地，为日本系统集成商和传感器厂商带来新的合作生态。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Mobile World Live&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>供应链压力与材料成本侵蚀品牌利润</title>
+    <link href="https://www.modernretail.co/operations/brands-face-death-by-a-thousand-cuts-as-supply-chain-pressures-and-material-costs-eat-into-profit-margins/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
+    <id>tag:weekly-report,2026:event-b1a81bf8</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Brands face death by a ‘thousand cuts’ as supply chain pressures and material costs eat into profit margins&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;行业分析指出，品牌正面临供应链压力和材料成本上升，利润空间被持续侵蚀，如同遭受&amp;#x27;千刀万剐&amp;#x27;。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球零售供应链成本上升，品牌利润承压，供应链数字化和成本优化工具需求激增，为物流科技和采购软件带来机会。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Block推出Square Base产品</title>
+    <link href="https://www.paymentsdive.com/news/building-blocks-square-base/828712/"/>
+    <id>tag:weekly-report,2026:event-df437f7e</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Building Block’s Square base&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;支付公司Block旗下Building Block业务推出Square Base产品，进一步扩展其商户服务生态。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Block持续扩展商户服务矩阵，Square Base将强化其面向小微商户的数字化工具集，对传统POS和独立软件开发商构成竞争压力。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Payments Dive&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>CommBank推出支付平台以替代支票</title>
+    <link href="https://www.finextra.com/newsarticle/48294/commbank-rolls-out-payout-platform-in-advance-of-cheque-phase-out?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
+    <id>tag:weekly-report,2026:event-15b04f42</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;CommBank rolls out payout platform in advance of cheque phase out&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;澳大利亚联邦银行（CommBank）推出新的支付平台，为逐步淘汰支票做准备，推动企业客户向数字支付迁移。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;澳洲银行加速淘汰支票，企业支付数字化迁移为支付技术公司和系统集成商带来大规模替换机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Nvidia Groq 3 LPX芯片全面投产</title>
+    <link href="https://www.mobileworldlive.com/nvidia/nvidia-groq-3-lpx-enters-full-production/"/>
+    <id>tag:weekly-report,2026:event-1cd8d7bf</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia Groq 3 LPX enters full production&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Nvidia宣布其Groq 3 LPX芯片进入全面生产阶段，标志着该产品从研发走向规模化量产。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI芯片供应格局生变，Groq 3 LPX量产将加剧推理芯片市场竞争，为云服务商和AI应用企业提供新选择。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>亚马逊和Flipkart调整印度卖家费用</title>
+    <link href="https://inc42.com/buzz/amazon-flipkart-revise-seller-fees-penalties-ahead-of-festive-season/"/>
+    <id>tag:weekly-report,2026:event-eb041922</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Amazon, Flipkart Revise Seller Fees, Penalties Ahead Of Festive Season&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;亚马逊和Flipkart在印度节日季前调整卖家费用和处罚政策，以优化平台运营。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度电商平台调整政策，卖家需适应新费用结构，为电商管理工具和服务商带来机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>西班牙电信为啤酒节扩容网络</title>
+    <link href="https://www.mobileworldlive.com/telefonica/telefonica-prepares-for-heavy-weekends-at-oktoberfest/"/>
+    <id>tag:weekly-report,2026:event-2e855478</id>
+    <published>2026-08-25T00:00:00Z</published>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Telefonica prepares for heavy weekends at Oktoberfest&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;西班牙电信为慕尼黑啤酒节周末高峰提前部署网络容量，确保通信服务稳定。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲大型活动网络保障需求凸显，电信运营商对临时容量部署和边缘计算方案的需求增加，为网络设备商和系统集成商提供项目机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
   </entry>
 </feed>

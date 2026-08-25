@@ -1,7 +1,54 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T10:16:36.447279+08:00",
+  "generated_at": "2026-08-26T02:49:40.602007+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-beccc0bb0bdc6ffb",
+      "entity_id": "stripe",
+      "entity": "Stripe",
+      "region": "全球",
+      "sector": "payment_developer_platform",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "sales",
+      "window": "2026-W35",
+      "window_start": "2026-08-26",
+      "window_end": "2026-08-26",
+      "detected_at": "2026-08-26T02:49:40.602007+08:00",
+      "baseline_count": 16,
+      "current_count": 17,
+      "added_count": 2,
+      "removed_count": 1,
+      "clusters": {
+        "sales": 2
+      },
+      "removed_clusters": {
+        "sales": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "8123027",
+          "title": "Account Executive, Commercial (Grower)",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-grower/8123027",
+          "change": "added"
+        },
+        {
+          "job_id": "8141211",
+          "title": "Account Executive, Commercial Hunter",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-hunter/8141211",
+          "change": "added"
+        },
+        {
+          "job_id": "8040874",
+          "title": "Account Executive - Startups, Hunter ANZ",
+          "url": "https://stripe.com/careers/listing/account-executive-startups-hunter-anz/8040874",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-ac9dc02fa078c9f0",
       "entity_id": "grab",

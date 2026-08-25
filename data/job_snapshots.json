@@ -1,32 +1,122 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T10:16:36.447279+08:00",
+  "generated_at": "2026-08-26T02:49:40.602007+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-08-25T10:16:36.447279+08:00",
+      "observed_at": "2026-08-26T02:49:40.602007+08:00",
       "jobs": [
         {
-          "id": "744000145299939",
-          "title": "Senior Merchant Account Manager, F&B",
-          "url": "https://www.grab.careers/en/jobs/744000145299939/senior-merchant-account-manager-fb/",
+          "id": "744000145571700",
+          "title": "Associate, Merchant Enablement",
+          "url": "https://www.grab.careers/en/jobs/744000145571700/associate-merchant-enablement/",
           "function_tags": []
         },
         {
-          "id": "744000145259029",
-          "title": "Sales Associate",
-          "url": "https://www.grab.careers/en/jobs/744000145259029/sales-associate/",
+          "id": "744000145573399",
+          "title": "Associate, Quality & Trust",
+          "url": "https://www.grab.careers/en/jobs/744000145573399/associate-quality-trust/",
+          "function_tags": []
+        },
+        {
+          "id": "744000145479944",
+          "title": "Specialist, GIP Business Insight Analysis",
+          "url": "https://www.grab.careers/en/jobs/744000145479944/specialist-gip-business-insight-analysis/",
+          "function_tags": []
+        },
+        {
+          "id": "744000145456654",
+          "title": "Merchant Growth Manager, Emerging",
+          "url": "https://www.grab.careers/en/jobs/744000145456654/merchant-growth-manager-emerging/",
           "function_tags": [
             "sales"
           ]
         },
         {
-          "id": "744000145249349",
-          "title": "Lead Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000145249349/lead-software-engineer-backend/",
+          "id": "744000145437580",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000145437580/senior-software-engineer-backend/",
           "function_tags": [
             "engineering"
           ]
+        },
+        {
+          "id": "744000145434045",
+          "title": "Internal Audit Associate, Mobility & Deliveries",
+          "url": "https://www.grab.careers/en/jobs/744000145434045/internal-audit-associate-mobility-deliveries/",
+          "function_tags": []
+        },
+        {
+          "id": "744000145423859",
+          "title": "Communications Manager (Product)",
+          "url": "https://www.grab.careers/en/jobs/744000145423859/communications-manager-product/",
+          "function_tags": []
+        },
+        {
+          "id": "744000145423399",
+          "title": "Senior Manager, Growth Strategy & Planning",
+          "url": "https://www.grab.careers/en/jobs/744000145423399/senior-manager-growth-strategy-planning/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000145416309",
+          "title": "Associate, Driver Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000145416309/associate-driver-acquisition/",
+          "function_tags": []
+        },
+        {
+          "id": "744000145413959",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000145413959/lead-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000145413419",
+          "title": "Assistant Manager - Performance Marketing & Paid Media",
+          "url": "https://www.grab.careers/en/jobs/744000145413419/assistant-manager-performance-marketing-paid-media/",
+          "function_tags": []
+        },
+        {
+          "id": "744000145412602",
+          "title": "Assistant Manager, Regional Business Finance – B2B",
+          "url": "https://www.grab.careers/en/jobs/744000145412602/assistant-manager-regional-business-finance-b2b/",
+          "function_tags": []
+        },
+        {
+          "id": "744000145412609",
+          "title": "Senior Data Scientist (Country and Marketing Analytics)",
+          "url": "https://www.grab.careers/en/jobs/744000145412609/senior-data-scientist-country-and-marketing-analytics/",
+          "function_tags": []
+        },
+        {
+          "id": "744000145409979",
+          "title": "Assistant Manager, Key Account Management, Grab For Business",
+          "url": "https://www.grab.careers/en/jobs/744000145409979/assistant-manager-key-account-management-grab-for-business/",
+          "function_tags": []
+        },
+        {
+          "id": "744000145409879",
+          "title": "Manager, Key Account Management, Grab For Business",
+          "url": "https://www.grab.careers/en/jobs/744000145409879/manager-key-account-management-grab-for-business/",
+          "function_tags": []
+        },
+        {
+          "id": "744000145409809",
+          "title": "Senior Software Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000145409809/senior-software-engineer/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000145299939",
+          "title": "Senior Merchant Account Manager, F&B",
+          "url": "https://www.grab.careers/en/jobs/744000145299939/senior-merchant-account-manager-fb/",
+          "function_tags": []
         },
         {
           "id": "744000145228075",
@@ -43,94 +133,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000145201019",
-          "title": "Strategy & Planning Southern Sumatera, Associate",
-          "url": "https://www.grab.careers/en/jobs/744000145201019/strategy-planning-southern-sumatera-associate/",
-          "function_tags": []
-        },
-        {
-          "id": "744000145171159",
-          "title": "Specialist, GIP Business Insight Analysis",
-          "url": "https://www.grab.careers/en/jobs/744000145171159/specialist-gip-business-insight-analysis/",
-          "function_tags": []
-        },
-        {
-          "id": "744000145168298",
-          "title": "Grab Rental Productivity & Compliance Associate",
-          "url": "https://www.grab.careers/en/jobs/744000145168298/grab-rental-productivity-compliance-associate/",
-          "function_tags": [
-            "compliance"
-          ]
-        },
-        {
-          "id": "744000145150751",
-          "title": "Senior Key Account Manager, Grab for Business",
-          "url": "https://www.grab.careers/en/jobs/744000145150751/senior-key-account-manager-grab-for-business/",
-          "function_tags": []
-        },
-        {
-          "id": "744000145128517",
-          "title": "GrabFin Process Management and Data Analyst Associate",
-          "url": "https://www.grab.careers/en/jobs/744000145128517/grabfin-process-management-and-data-analyst-associate/",
-          "function_tags": []
-        },
-        {
-          "id": "744000145109634",
-          "title": "Senior Manager, Ad Operations & GTM",
-          "url": "https://www.grab.careers/en/jobs/744000145109634/senior-manager-ad-operations-gtm/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000145034979",
-          "title": "Software Engineering Manager II - Fulfilment",
-          "url": "https://www.grab.careers/en/jobs/744000145034979/software-engineering-manager-ii-fulfilment/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000145032469",
-          "title": "Software Engineer, Backend (AI)",
-          "url": "https://www.grab.careers/en/jobs/744000145032469/software-engineer-backend-ai/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000145030799",
-          "title": "Strategy & Planning GrabFood, Region Assistant Manager",
-          "url": "https://www.grab.careers/en/jobs/744000145030799/strategy-planning-grabfood-region-assistant-manager/",
-          "function_tags": []
-        },
-        {
-          "id": "744000144751689",
-          "title": "Senior Database Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000144751689/senior-database-engineer/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000144744280",
-          "title": "Strategy & Planning Food, Associate",
-          "url": "https://www.grab.careers/en/jobs/744000144744280/strategy-planning-food-associate/",
-          "function_tags": []
-        },
-        {
-          "id": "744000144745319",
-          "title": "Solution Specialist, Finance Systems",
-          "url": "https://www.grab.careers/en/jobs/744000144745319/solution-specialist-finance-systems/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-08-25T10:16:36.447279+08:00",
+      "observed_at": "2026-08-26T02:49:40.602007+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -224,14 +232,6 @@
           ]
         },
         {
-          "id": "8040874",
-          "title": "Account Executive - Startups, Hunter ANZ",
-          "url": "https://stripe.com/careers/listing/account-executive-startups-hunter-anz/8040874",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
           "id": "8130725",
           "title": "Account Executive, AI Startups (Hunter)",
           "url": "https://stripe.com/careers/listing/account-executive-ai-startups-hunter/8130725",
@@ -255,12 +255,28 @@
           "function_tags": [
             "sales"
           ]
+        },
+        {
+          "id": "8123027",
+          "title": "Account Executive, Commercial (Grower)",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-grower/8123027",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "8141211",
+          "title": "Account Executive, Commercial Hunter",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-hunter/8141211",
+          "function_tags": [
+            "sales"
+          ]
         }
       ]
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-08-25T10:16:36.447279+08:00",
+      "observed_at": "2026-08-26T02:49:40.602007+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
