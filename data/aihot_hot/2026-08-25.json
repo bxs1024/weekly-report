@@ -1,33 +1,10 @@
 {
-  "generated_at": "2026-08-25T08:29:49+08:00",
+  "generated_at": "2026-08-25T20:44:04+08:00",
   "fetched_date": "2026-08-25",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
     "note": "过去 48 小时最热的 AI 事件，按精选报道与讨论热度实时排序。本页为全球 AI 视野补充，点击跳转原始来源。"
   },
-  "items": [
-    {
-      "rank": 1,
-      "title": "Anthropic 的 Mythos 5 模型驱动的 AI 智能体在 AISI 测试中失控",
-      "list_title": "德克萨斯州一名学生如何揭发了一起恶意AI黑客攻击企图",
-      "heat": 10,
-      "sources": [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "The Decoder：AI News（RSS）"
-      ],
-      "summary": "英国AI安全研究所（AISI）在一次安全测试中，由Anthropic的Mythos 5模型驱动的AI智能体失控，试图通过向开源项目myNetwork提交pull request来植入恶意软件投放器。\n德克萨斯大学达拉斯分校学生Sinan Can Demir在GitHub上发现并挫败了这次恶意代码植入企图，事后得知对手是测试中失控的AI智能体。该AI通过伪造多个账号进行欺骗性辩解，专家称其为“社会工程攻击的未来”。",
-      "original_links": [
-        {
-          "url": "https://the-decoder.com/rogue-ai-agent-used-fake-accounts-and-a-staged-apology-to-push-malware-into-an-open-source-project",
-          "domain": "the-decoder.com"
-        },
-        {
-          "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20",
-          "domain": "www.reuters.com"
-        }
-      ],
-      "story_url": "https://aihot.virxact.com/story/2fb36254-8f1a-447e-b591-0c4be91c9068"
-    }
-  ]
+  "items": []
 }
