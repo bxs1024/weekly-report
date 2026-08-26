@@ -1,21 +1,25 @@
 {
-  "observed_at": "2026-08-26T10:22:49.971495+08:00",
+  "observed_at": "2026-08-27T03:55:11.902729+08:00",
   "source_count": 3,
-  "raw_count": 68,
+  "raw_count": 69,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 2,
-      "inventory_count": 19,
-      "signal_count": 0,
-      "added_count": 1,
-      "removed_count": 1,
-      "clusters": {},
+      "count": 13,
+      "inventory_count": 20,
+      "signal_count": 1,
+      "added_count": 7,
+      "removed_count": 6,
+      "clusters": {
+        "engineering": 3,
+        "payments": 2,
+        "partnerships": 1
+      },
       "removed_clusters": {
-        "engineering": 1
+        "engineering": 2
       }
     },
     "Stripe Jobs": {
@@ -23,28 +27,205 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 17,
-      "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
-      "removed_clusters": {}
+      "count": 4,
+      "inventory_count": 15,
+      "signal_count": 1,
+      "added_count": 1,
+      "removed_count": 3,
+      "clusters": {
+        "ai": 1,
+        "engineering": 1
+      },
+      "removed_clusters": {
+        "ai": 2,
+        "payments": 1,
+        "operations": 1,
+        "sales": 1
+      }
     },
     "Shopify Jobs": {
       "method": "jobs_snapshot",
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 32,
+      "count": 2,
+      "inventory_count": 34,
       "signal_count": 0,
-      "added_count": 0,
+      "added_count": 2,
       "removed_count": 0,
-      "clusters": {},
+      "clusters": {
+        "sales": 1
+      },
       "removed_clusters": {}
     }
   },
-  "candidate_signals": [],
+  "candidate_signals": [
+    {
+      "candidate_id": "jobs-ac9dc02fa078c9f0",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W35",
+      "window_start": "2026-08-27",
+      "window_end": "2026-08-27",
+      "detected_at": "2026-08-27T03:55:11.902729+08:00",
+      "baseline_count": 19,
+      "current_count": 20,
+      "added_count": 7,
+      "removed_count": 6,
+      "clusters": {
+        "engineering": 3,
+        "payments": 2,
+        "partnerships": 1
+      },
+      "removed_clusters": {
+        "engineering": 2
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000145701349",
+          "title": "Senior Software Engineer, Fullstack",
+          "url": "https://www.grab.careers/en/jobs/744000145701349/senior-software-engineer-fullstack/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145671760",
+          "title": "Senior Data Scientist (GrabFin)",
+          "url": "https://www.grab.careers/en/jobs/744000145671760/senior-data-scientist-grabfin/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145659649",
+          "title": "Senior Software Engineer, Mobile (iOS) - Payments",
+          "url": "https://www.grab.careers/en/jobs/744000145659649/senior-software-engineer-mobile-ios-payments/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145652638",
+          "title": "Intern - Payment Ecosystem",
+          "url": "https://www.grab.careers/en/jobs/744000145652638/intern-payment-ecosystem/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145647919",
+          "title": "Assistant Manager, Merchant Acquisition (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000145647919/assistant-manager-merchant-acquisition-fb/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145647889",
+          "title": "Senior Analytics Manager",
+          "url": "https://www.grab.careers/en/jobs/744000145647889/senior-analytics-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145647179",
+          "title": "Lead Software Engineer, Backend (Build Automation)",
+          "url": "https://www.grab.careers/en/jobs/744000145647179/lead-software-engineer-backend-build-automation/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145412609",
+          "title": "Senior Data Scientist (Country and Marketing Analytics)",
+          "url": "https://www.grab.careers/en/jobs/744000145412609/senior-data-scientist-country-and-marketing-analytics/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145409979",
+          "title": "Assistant Manager, Key Account Management, Grab For Business",
+          "url": "https://www.grab.careers/en/jobs/744000145409979/assistant-manager-key-account-management-grab-for-business/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145409879",
+          "title": "Manager, Key Account Management, Grab For Business",
+          "url": "https://www.grab.careers/en/jobs/744000145409879/manager-key-account-management-grab-for-business/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145409809",
+          "title": "Senior Software Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000145409809/senior-software-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145299939",
+          "title": "Senior Merchant Account Manager, F&B",
+          "url": "https://www.grab.careers/en/jobs/744000145299939/senior-merchant-account-manager-fb/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145228075",
+          "title": "Senior Software Engineer in Test",
+          "url": "https://www.grab.careers/en/jobs/744000145228075/senior-software-engineer-in-test/",
+          "change": "removed"
+        }
+      ],
+      "status": "qualified",
+      "rejection_reason": "",
+      "promoted_event_id": ""
+    },
+    {
+      "candidate_id": "jobs-f3ed7423e951170e",
+      "entity_id": "stripe",
+      "entity": "Stripe",
+      "region": "全球",
+      "sector": "payment_developer_platform",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "ai",
+      "window": "2026-W35",
+      "window_start": "2026-08-27",
+      "window_end": "2026-08-27",
+      "detected_at": "2026-08-27T03:55:11.902729+08:00",
+      "baseline_count": 17,
+      "current_count": 15,
+      "added_count": 1,
+      "removed_count": 3,
+      "clusters": {
+        "ai": 1,
+        "engineering": 1
+      },
+      "removed_clusters": {
+        "ai": 2,
+        "payments": 1,
+        "operations": 1,
+        "sales": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "8044460",
+          "title": "AI Engineer",
+          "url": "https://stripe.com/careers/listing/ai-engineer/8044460",
+          "change": "added"
+        },
+        {
+          "job_id": "8064526",
+          "title": "AI Product Manager, Professional Services",
+          "url": "https://stripe.com/careers/listing/ai-product-manager-professional-services/8064526",
+          "change": "removed"
+        },
+        {
+          "job_id": "7947074",
+          "title": "AI Specialist, Treasury Finance Operations",
+          "url": "https://stripe.com/careers/listing/ai-specialist-treasury-finance-operations/7947074",
+          "change": "removed"
+        },
+        {
+          "job_id": "8141211",
+          "title": "Account Executive, Commercial Hunter",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-hunter/8141211",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    }
+  ],
   "promoted_count": 0
 }
