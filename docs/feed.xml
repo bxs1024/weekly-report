@@ -1,229 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-08-26</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-08-27</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-08-27T05:22:22Z</updated>
+  <updated>2026-08-27T11:01:36Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Runable获$21M融资，扩展AI业务增长平台</title>
-    <link href="https://ventureburn.com/runable-raises-21m-ai-business-platform/"/>
-    <id>tag:weekly-report,2026:event-1829dc4d</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Runable Raises $21M to Scale AI-Powered Business Growth&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Runable完成2100万美元融资，用于扩展其AI驱动的业务增长平台。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲AI企业级应用获融资，B2B SaaS赛道在非洲持续升温，为本地化部署和渠道合作带来机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
+    <title>加拿大支付商Helcim融资C$53M</title>
+    <link href="https://www.finextra.com/newsarticle/48306/canadian-payment-processor-helcim-raises-c53m?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
+    <id>tag:weekly-report,2026:event-b9ab647f</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Canadian payment processor Helcim raises C$53m&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;加拿大支付处理商Helcim完成5300万加元融资，资金将用于扩展其支付解决方案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美支付处理赛道持续获资本注入，Helcim将加速产品迭代和商户拓展。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：北美 | 来源：Finextra&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Alice获$140M融资，强化AI安全防御</title>
-    <link href="https://ventureburn.com/alice-raises-140-million-for-ai-security-defenses/"/>
-    <id>tag:weekly-report,2026:event-bfd63a9f</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Alice Raises $140 Million for AI Security As Attacks Outpace Defenses&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Alice完成1.4亿美元融资，用于加强AI安全防御，应对日益增长的攻击威胁。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲AI安全领域获大额融资，网络安全赛道在非洲迎来资本关注，为安全咨询和集成服务带来机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
+    <title>英伟达拟$12.9B收购Hugging Face</title>
+    <link href="https://tech.eu/2026/08/27/nvidia-agrees-to-buy-hugging-face-for-12-9bn-says-report/"/>
+    <id>tag:weekly-report,2026:event-5d632ae1</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia agrees to buy Hugging Face for $12.9BN, says report&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;据报道，英伟达同意以129亿美元收购AI模型平台Hugging Face。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI芯片巨头收购AI模型平台，将深度整合硬件与模型生态，可能重塑AI开发工具链和模型分发渠道。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>AI代理平台Runable获$21M融资</title>
-    <link href="https://inc42.com/buzz/ai-agent-platform-runable-raises-21-mn-to-help-small-businesses-grow/"/>
-    <id>tag:weekly-report,2026:event-0ac35019</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AI Agent Platform Runable Raises $21 Mn To Help Small Businesses Grow&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI代理平台Runable筹集2100万美元，旨在帮助小企业增长。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太AI代理平台获融资，聚焦小企业自动化，为本地化AI服务集成商和中小企业SaaS渠道提供合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
+    <title>Techcombank或出售15%股份，估值约20亿美元</title>
+    <link href="https://fintechnews.sg/136369/fintech/bnp-paribas-kb-kookmin-techcombank-stake/"/>
+    <id>tag:weekly-report,2026:event-9fbb9396</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Techcombank Reportedly Weighs 15% Stake Deal Worth US$2 Billion&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;据报，越南科技银行Techcombank正考虑出售15%股份，交易价值约20亿美元，潜在买家包括法国巴黎银行和韩国国民银行。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;越南银行股权交易规模大，国际银行入股将带来跨境金融科技合作与系统升级需求。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：北美 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Agentrys获$24.5M融资，AI代理自动化芯片设计</title>
-    <link href="https://ventureburn.com/agentrys-raises-24-5m-ai-chip-design/"/>
-    <id>tag:weekly-report,2026:event-0b29ed08</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Agentrys Raises $24.5M to Automate Chip Design With AI Agents&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Agentrys完成2450万美元融资，用于开发AI代理以自动化芯片设计流程。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲AI芯片设计自动化获融资，半导体设计工具链在非洲出现新玩家，为EDA工具和IP供应商带来合作可能&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
+    <title>SK电信拟分拆AI数据中心，投资$2.2B</title>
+    <link href="https://www.techinasia.com/news/sk-telecom-plans-ai-data-center-spinoff-22b"/>
+    <id>tag:weekly-report,2026:event-02d0b198</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;SK Telecom plans AI data center spin-off with $2.2b investment&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;韩国SK电信计划分拆AI数据中心业务，并投入22亿美元进行建设。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;韩国电信巨头重仓AI基础设施，亚太数据中心供应链和托管服务商迎来大额订单机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Keenable获$26M融资，构建AI代理搜索引擎</title>
-    <link href="https://ventureburn.com/keenable-raises-26-million-for-ai-agent-search-index/"/>
-    <id>tag:weekly-report,2026:event-0f2110e3</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Keenable Raises $26 Million to Build a Search Engine Made for AI Agents&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Keenable完成2600万美元融资，用于构建专为AI代理设计的搜索引擎索引。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲AI代理搜索基础设施获融资，为AI代理生态提供数据索引服务，吸引数据提供商和开发者合作&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
+    <title>波兰要求欧盟对Meta罚款€250M</title>
+    <link href="https://thenextweb.com/news/poland-eu-fine-meta-250m-scam-ads"/>
+    <id>tag:weekly-report,2026:event-61445fea</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Poland has asked the European Commission to fine Meta €250M over scam ads&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;波兰政府已要求欧盟委员会对Meta处以2.5亿欧元罚款，原因是其平台上存在诈骗广告。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲监管压力升级，Meta广告审核机制面临合规挑战，第三方广告安全技术需求增加&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Flipboard收购Graze以应对DSA合规</title>
-    <link href="https://thenextweb.com/news/flipboard-acquires-graze-custom-feeds-dsa-europe"/>
-    <id>tag:weekly-report,2026:event-e6e1cb4b</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Flipboard acquires Graze, the tool for building your own social algorithm&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Flipboard收购Graze，后者是用于构建自定义社交算法的工具，此次收购与欧洲数字服务法案（DSA）相关。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲数字服务法案推动平台算法透明化，Flipboard收购Graze增强用户自定义信息流能力，为合规技术供应商提供集成机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：ma | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>报告：AI是东盟金融科技最稀缺技能</title>
+    <link href="https://fintechnews.sg/136352/ai/ai-emerges-as-asean-fintechs-most-scarce-skill/"/>
+    <id>tag:weekly-report,2026:event-00eae07d</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AI Emerges as ASEAN Fintech’s Most Scarce Skill&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一份行业报告指出，人工智能已成为东盟金融科技领域最稀缺的技能，反映出该地区在AI人才方面的供需缺口。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚金融科技AI人才缺口显著，为AI培训、招聘和外包服务商带来明确市场机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Oro获$3M融资扩展AI金融平台</title>
-    <link href="http://wamda.com/2026/08/oro-raises-3-million-scale-ai-powered-financial-execution-platform"/>
-    <id>tag:weekly-report,2026:event-c777c5af</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Oro raises $3 million to scale AI-powered financial execution platform&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Oro完成300万美元融资，用于扩展其AI驱动的金融执行平台。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东AI金融科技早期融资活跃，金融执行自动化赛道吸引资本，为金融科技SaaS和AI算法供应商提供合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：中东 | 来源：WAMDA&lt;/p&gt;</summary>
+    <title>TRM Labs聘请MAS前高管负责亚太政策</title>
+    <link href="https://fintechnews.sg/136390/blockchain/ziqing-ang-trm-labs/"/>
+    <id>tag:weekly-report,2026:event-004c7737</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;TRM Labs Taps MAS Veteran Ziqing Ang to Lead APAC Policy&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;区块链分析公司TRM Labs聘请新加坡金融管理局（MAS）资深人士Ziqing Ang担任亚太区政策负责人，以加强区域监管沟通。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡区块链合规与政策沟通需求上升，TRM Labs此举将深化与亚太监管机构的合作。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>StashAway收购MakeGoodwill推在线遗嘱</title>
-    <link href="https://fintechnews.sg/136319/wealthtech/stashaway-makegoodwill/"/>
-    <id>tag:weekly-report,2026:event-390256d8</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;StashAway Acquires MakeGoodwill to Offer Online Wills for S$179&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡财富管理平台StashAway收购在线遗嘱服务商MakeGoodwill，推出定价179新加坡元的在线遗嘱服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太财富科技整合加速，StashAway扩展遗产规划服务，为保险、法律科技和财富管理生态带来协同机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>Instinct获$350M融资，估值$2.5B</title>
+    <link href="https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/"/>
+    <id>tag:weekly-report,2026:event-790443a6</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Viral AI startup Instinct has raised $350M at a $2.5B valuation&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI初创公司Instinct完成3.5亿美元融资，估值达到25亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI初创公司估值飙升，反映资本对AI应用层的高预期，可能带动相关技术服务和算力需求。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Priority Tech收购IntelliPay</title>
-    <link href="https://www.paymentsdive.com/news/priority-tech-buys-intellipay-for-up-to-15m/828831/"/>
-    <id>tag:weekly-report,2026:event-bd48490e</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Priority Tech buys IntelliPay for up to $15M&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Priority Tech以最高1500万美元收购IntelliPay，扩大其支付处理能力，IntelliPay专注于垂直行业支付解决方案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国支付处理商并购垂直行业支付方案商，中小支付公司整合加速，银行和商户服务商需关注市场集中度变化。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：全球 | 来源：Payments Dive&lt;/p&gt;</summary>
+    <title>《Ananta》定档2027年1月，预注册破1700万</title>
+    <link href="https://www.pocketgamer.biz/ananta-sets-january-2027-launch-date-as-pre-registration-passes-17m/"/>
+    <id>tag:weekly-report,2026:event-e2642e85</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ananta sets January 2027 launch date as pre-registration passes 17m&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;游戏《Ananta》宣布将于2027年1月上线，目前预注册用户已超过1700万。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球高期待度游戏定档，发行前营销和云基础设施合作方将提前锁定预算&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>马云增持阿里股票7650万美元，看好AI战略</title>
-    <link href="https://e.vnexpress.net/news/tech/personalities/tech-billionaire-jack-ma-purchases-76-5m-worth-of-alibaba-shares-in-vote-of-ai-confidence-5113513.html"/>
-    <id>tag:weekly-report,2026:event-ad4b20b4</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Tech billionaire Jack Ma purchases $76.5M worth of Alibaba shares in vote of AI confidence&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;阿里巴巴创始人马云斥资7650万美元增持阿里巴巴股票，此举被市场解读为对其AI战略投下信任票。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国科技巨头创始人增持股票，释放对AI业务前景的强烈信心，可能带动市场对阿里云及AI相关业务的关注和投资。&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：strategy | 地区：越南 | 来源：VnExpress Tech&lt;/p&gt;</summary>
+    <title>英伟达接近收购Hugging Face</title>
+    <link href="https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/"/>
+    <id>tag:weekly-report,2026:event-3086d8c5</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia closes in on Hugging Face acquisition&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英伟达（Nvidia）接近完成对Hugging Face的收购。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI芯片巨头英伟达拟收购AI模型平台Hugging Face，AI基础设施与模型生态整合加速，将重塑AI开发工具链和模型分发格局。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Zoom季度利润不及预期，AI投入加大</title>
-    <link href="https://www.techinasia.com/news/zoom-sees-quarterly-profit-estimates-ai-push-grows"/>
-    <id>tag:weekly-report,2026:event-54ebb9af</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Zoom sees quarterly profit below estimates as AI push grows&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Zoom公布最新季度财报，利润低于市场预期，同时公司在AI领域的投入持续增加。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国视频会议巨头AI投入侵蚀利润，亚太企业通信市场或迎来替代方案机会&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>InstaAstro获$12M融资扩展AI法事服务</title>
+    <link href="https://inc42.com/buzz/instaastro-bags-12-mn-to-build-ai-tools-expand-online-pooja-services/"/>
+    <id>tag:weekly-report,2026:event-da351200</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;InstaAstro Bags $12 Mn To Build AI Tools, Expand Online Pooja Services&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度在线宗教服务平台InstaAstro获得1200万美元融资，将用于开发AI工具并扩展在线法事服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度宗教科技赛道获资本注入，AI内容生成和本地化支付解决方案需求上升&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>NVIDIA财报成AI市场晴雨表</title>
-    <link href="https://ventureburn.com/nvidia-earnings-ai-trade-barometer-q2-2026/"/>
-    <id>tag:weekly-report,2026:event-4276c850</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;NVIDIA Earnings Becomes Investors’ Barometer for the State of the AI Market&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;NVIDIA财报被视为AI市场健康状况的投资者晴雨表，市场关注其业绩对AI投资趋势的指示作用。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI算力龙头财报牵动产业链，非洲AI基础设施投资可能受其业绩影响而调整&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
+    <title>新方案自动化桌面任务辅助运动障碍用户</title>
+    <link href="https://www.techinasia.com/automating-desktop-tasks-users-motor-impairments"/>
+    <id>tag:weekly-report,2026:event-c5e30fc2</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Automating desktop tasks for users with motor impairments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一项新技术旨在为运动障碍用户自动化桌面任务，提升无障碍操作体验。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太无障碍科技细分赛道出现新方案，企业级辅助软件和硬件接口集成存在合作空间&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Cloudflare发布紧急WAF规则更新</title>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-08-26-emergency-waf-release/"/>
-    <id>tag:weekly-report,2026:event-2287d823</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: WAF Release - 2026-08-26 - Emergency&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare发布了紧急WAF规则更新，以应对新出现的安全威胁。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
+    <title>Thatgamecompany推出新发行品牌</title>
+    <link href="https://www.pocketgamer.biz/thatgamecompany-launches-new-publishing-label/"/>
+    <id>tag:weekly-report,2026:event-d78b7b79</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Thatgamecompany launches new publishing label&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;游戏公司Thatgamecompany宣布推出新的发行品牌，拓展发行业务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球独立游戏发行赛道再添新玩家，中小开发团队获得新的发行渠道选择&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>报告称AI欺诈挑战传统风控模型</title>
-    <link href="https://techwireasia.com/2026/08/ai-enabled-fraud-risk-management/"/>
-    <id>tag:weekly-report,2026:event-07716310</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AI-enabled fraud challenges traditional risk and compliance models&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;TechWire Asia发布报告，探讨AI驱动的欺诈行为对传统风险与合规管理模式的挑战，指出现有模型需升级以应对新型AI欺诈。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太金融科技与银行风控部门需关注AI欺诈检测技术，传统规则引擎面临升级压力，为AI风控解决方案提供商带来市场机会。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：亚太 | 来源：TechWire Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>西班牙拟加强数据中心监管</title>
-    <link href="https://www.mobileworldlive.com/ai-cloud/spain-weighs-tougher-data-centre-rules/"/>
-    <id>tag:weekly-report,2026:event-23ffeade</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Spain weighs tougher data centre rules&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;西班牙考虑对数据中心实施更严格的监管规则，可能涉及能耗、选址和环境影响要求。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲数据中心监管趋严，西班牙作为南欧枢纽，新规将影响云服务商和托管商布局，合规和绿色能源解决方案需求上升。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare Workers AI新增文本生成模型</title>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-08-26-new-workers-ai-models/"/>
-    <id>tag:weekly-report,2026:event-d4125327</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: New Workers AI text generation models in AI Search&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare在其Workers AI平台中新增了文本生成模型，并集成到AI Search功能中。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Revolut在三国推出欧元稳定币</title>
-    <link href="https://fintechnews.sg/136340/digitalassets/revolut-euro-stablecoin/"/>
-    <id>tag:weekly-report,2026:event-189be0ed</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Revolut Debuts Euro Stablecoin EURR in Denmark, Poland and Portugal&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Revolut在丹麦、波兰和葡萄牙推出欧元稳定币EURR，扩展其数字资产服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲稳定币市场竞争加剧，Revolut利用其用户基础推广EURR，为支付基础设施、合规服务和区块链技术公司带来合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Moonshot AI探索与微软、亚马逊、谷歌合作</title>
-    <link href="https://www.techinasia.com/news/moonshot-ai-explores-k3-deals-microsoft-amazon-google"/>
-    <id>tag:weekly-report,2026:event-04fb7a6e</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Moonshot AI explores K3 deals with Microsoft, Amazon, Google&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Moonshot AI正在探索与微软、亚马逊、谷歌的K3（可能指Kubernetes或特定合作）交易。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太AI公司寻求与全球云巨头合作，可能涉及模型部署或云服务集成，为云基础设施提供商和AI模型托管平台带来合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Roblox限制儿童奖励型媒体流</title>
-    <link href="https://www.pocketgamer.biz/roblox-restricts-reward-driven-media-feeds-in-kids-and-select/"/>
-    <id>tag:weekly-report,2026:event-8276d373</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Roblox restricts reward-driven media feeds in Kids and Select&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Roblox在儿童和特定用户群体中限制基于奖励的媒体信息流，以应对监管和用户保护要求。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球游戏平台加强未成年人保护，Roblox调整内容策略，可能影响广告和内容变现模式，合规技术和服务需求上升。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>越南数据中心建设吸引数十亿美元投资</title>
-    <link href="https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-data-center-boom-draws-billions-of-dollars-as-ai-demand-accelerates-5113451.html"/>
-    <id>tag:weekly-report,2026:event-892ca399</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Vietnam data center boom draws billions of dollars as AI demand accelerates&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;越南数据中心建设热潮兴起，吸引数十亿美元投资，以满足日益增长的AI算力需求。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚数据中心市场进入爆发期，越南作为新兴枢纽，为服务器、冷却、网络设备供应商及数据中心运营商带来巨大商机。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：VnExpress Tech&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Roblox在利雅得设立MENA总部</title>
-    <link href="https://www.pocketgamer.biz/roblox-to-establish-mena-headquarters-in-riyadh/"/>
-    <id>tag:weekly-report,2026:event-18dd99b0</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Roblox to establish MENA headquarters in Riyadh&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Roblox宣布将在沙特利雅得设立中东和北非地区总部，以拓展该区域业务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东游戏市场快速增长，Roblox本地化运营将带动当地游戏开发、支付和云服务需求，为ICT基础设施和内容合作方提供机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：中东 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Sweetwater上线Gr4vy支付平台</title>
-    <link href="https://www.finextra.com/pressarticle/110734/sweetwater-goes-live-with-gr4vy?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-7e8b9eb6</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Sweetwater goes live with Gr4vy&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;乐器零售商Sweetwater上线Gr4vy支付平台，采用其支付编排解决方案以优化交易处理。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国零售电商采用支付编排平台，支付路由和防欺诈需求上升，支付技术供应商可拓展零售行业客户。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Revolut发行欧元稳定币</title>
-    <link href="https://www.finextra.com/newsarticle/48301/revolut-rolls-out-euro-stablecoin?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-f2bef172</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Revolut rolls out euro stablecoin&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Revolut推出欧元稳定币，进入稳定币发行市场，旨在提供欧元计价的数字资产交易和支付解决方案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球金融科技巨头Revolut发行欧元稳定币，欧洲支付和数字资产市场迎来新的合规稳定币选择，银行和支付机构需关注其清算和结算影响。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Target推出Beauty Studio门店活动</title>
-    <link href="https://www.retaildive.com/news/target-beauty-studio-launch/828803/"/>
-    <id>tag:weekly-report,2026:event-645bf296</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Target to host in-store event for Beauty Studio launch&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Target将在门店内举办活动，推广其Beauty Studio新业务，强化美妆零售体验。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国零售巨头Target加码美妆体验式零售，线下门店数字化和互动技术需求增加，零售科技供应商可关注。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Retail Dive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>日本物理AI公司Ropedia完成大额融资</title>
-    <link href="https://36kr.jp/500399/"/>
-    <id>tag:weekly-report,2026:event-ae63d989</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;フィジカルAI、次の争奪戦は「実世界データ」　ロボットに“経験”を教えるRopediaが大型調達&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;日本物理AI初创公司Ropedia完成大额融资，该公司专注于通过真实世界数据训练机器人，以赋予其“经验”。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本物理AI赛道获资本青睐，真实世界数据采集与处理成为机器人技术竞争的新焦点，为传感器、数据标注及仿真平台带来合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>AI医疗接待系统因语言理解缺陷引发安全担忧</title>
-    <link href="https://thenextweb.com/news/ai-gp-receptionist-stroke-patient-accessible-information-standard"/>
-    <id>tag:weekly-report,2026:event-add45532</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AI receptionists seem like a dangerous idea after a patient revealed her doctor’s system could not understand her speech&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一名患者透露其医生的AI接待系统无法理解她的语言，引发对AI接待员在医疗场景中安全性的担忧。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲医疗AI应用暴露无障碍标准缺失，医疗AI供应商需加强多语言和残障适配能力，为医疗IT合规服务商带来改进机会。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>华为与惠普签署Wi-Fi专利许可协议</title>
-    <link href="https://www.mobileworldlive.com/network-tech/huawei-hp-strike-wi-fi-patent-licensing-deal/"/>
-    <id>tag:weekly-report,2026:event-39d5c769</id>
-    <published>2026-08-26T00:00:00Z</published>
-    <updated>2026-08-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Huawei, HP strike Wi-Fi patent licensing deal&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;华为与惠普达成Wi-Fi专利许可协议，双方就无线通信技术专利授权达成合作。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球通信设备巨头与PC巨头达成专利交叉许可，显示标准必要专利（SEP）许可市场活跃，为ICT企业提供专利运营和合规合作参考。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
+    <title>惠普与华为专利和解后划清界限</title>
+    <link href="https://www.mobileworldlive.com/ranvendors/hp-distances-from-huawei-ties-following-patent-deal/"/>
+    <id>tag:weekly-report,2026:event-cf020102</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;HP distances itself from Huawei ties following patent deal&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;惠普在达成专利协议后，公开表态与华为保持距离，强调自身独立立场。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球科技供应链地缘政治敏感度上升，惠普此举或影响其与华为在通信专利交叉授权上的后续合作深度。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-08-27</title>
