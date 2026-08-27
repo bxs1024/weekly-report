@@ -1,0 +1,140 @@
+{
+  "generated_at": "2026-08-21T20:43:47+08:00",
+  "fetched_date": "2026-08-21",
+  "source": {
+    "name": "AIHOT 热点榜",
+    "url": "https://aihot.virxact.com/hot",
+    "note": "过去 48 小时最热的 AI 事件，按精选报道与讨论热度实时排序。本页为全球 AI 视野补充，点击跳转原始来源。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "DeepSeek 发布 DeepSeek-V4-Flash-Vision-Exp",
+      "list_title": "DeepSeek-V4-Flash-Vision-Exp 发布",
+      "heat": 101,
+      "sources": [
+        "IT之家（RSS）",
+        "DeepSeek：API 更新日志",
+        "X：DeepSeek (@deepseek_ai)",
+        "X：阿易 AI Notes (@AYi_AInotes)",
+        "另有 8 组氛围票"
+      ],
+      "summary": "深度求索于2026年8月21日发布实验性多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp，并上线 API 平台。该模型纯文本能力与 V4-Flash 正式版持平，视觉理解 Agent Benchmark 表现大幅跃升，接近 Opus-4.8。\nAPI 按 token 计费，单张图片最多占 384 tokens，价格与 V4-Flash 一致，支持三种调用格式及三种图片传入方式。用户可通过设置 model='deepseek-v4-flash-vision-exp' 访问。\n官方 X 账号补充说明，该模型文本能力涵盖智能体、推理与世界知识。第三方评测显示，多模态 Ag",
+      "original_links": [
+        {
+          "url": "https://x.com/AYi_AInotes/status/2090744882499395685",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-08-21",
+          "domain": "api-docs.deepseek.com"
+        },
+        {
+          "url": "https://www.ithome.com/0/992/755.htm",
+          "domain": "www.ithome.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/65baa744-d848-42a6-a194-495e34f1391d"
+    },
+    {
+      "rank": 2,
+      "title": "Stripe 收购 OpenRouter",
+      "list_title": "OpenRouter 宣布加入 Stripe",
+      "heat": 63,
+      "sources": [
+        "OpenRouter：Announcements（RSS）",
+        "X：Deedy Das (@deedydas)",
+        "X：OpenRouter (@OpenRouter)",
+        "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+        "a16z：News（RSS）",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "X：Rohan Paul (@rohanpaul_ai)",
+        "TechCrunch：AI（RSS）",
+        "IT之家（RSS）",
+        "Artificial Intelligence News（RSS）",
+        "X：小北 (@frxiaobei)",
+        "另有 7 组氛围票"
+      ],
+      "summary": "支付巨头 Stripe 已敲定收购 AI 模型路由平台 OpenRouter 的交易，金额超过 70 亿美元，最新报道称约 75 亿美元。该价格是 OpenRouter 今年 5 月完成 1.13 亿美元 B 轮融资时 13 亿美元估值的 5 倍以上。此前《华尔街日报》曾报道谈判价约为 100 亿美元，最终成交价低于该传闻。\nOpenRouter 提供统一入口，帮助用户按需求和预算选择不同 AI 模型。平台拥有超过 1000 万用户，接入 400 至 500 多个模型，每日处理超过 10 万亿 token，推理量自成立以来每年至少增长 10 倍。其流量数据被认为比 API 更难复制。\nOpen",
+      "original_links": [
+        {
+          "url": "https://x.com/frxiaobei/status/2090748735966040441",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://www.artificialintelligence-news.com/news/stripe-openrouter-acquisition-ai-model-routing",
+          "domain": "www.artificialintelligence-news.com"
+        },
+        {
+          "url": "https://www.ithome.com/0/991/918.htm",
+          "domain": "www.ithome.com"
+        },
+        {
+          "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity",
+          "domain": "techcrunch.com"
+        },
+        {
+          "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+          "domain": "openrouter.ai"
+        },
+        {
+          "url": "https://www.a16z.news/p/openrouter-and-stripe-the-intelligence",
+          "domain": "www.a16z.news"
+        },
+        {
+          "url": "https://the-decoder.com/stripe-is-reportedly-acquiring-ai-startup-openrouter-for-more-than-7-billion",
+          "domain": "the-decoder.com"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+          "domain": "www.bloomberg.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/bca5db53-0103-4fbd-85c6-05d34c5deb4f"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic 发布 Claude Academy",
+      "list_title": "Anthropic 如何开展 AI 教学",
+      "heat": 30,
+      "sources": [
+        "Claude：Blog（网页）",
+        "X：Claude (@claudeai)"
+      ],
+      "summary": "Anthropic 于 2026 年 8 月 20 日发布 Claude Academy，为全球数百万用户提供 AI 教学资源，帮助其安全、有效地使用 AI。该学院课程借鉴其内部员工培训方法，包括 4D AI Fluency Framework 及“ever-boarding”持续学习项目，并强调以问题为中心、培养持久思维模式而非特定操作行为。\nClaude Academy 现已上线，课程和教程免费开放，任何人都可通过 https://academy.claude.com 访问。无论用户是刚开始了解 AI，还是每天都在使用 Claude，都有适合的学习路径。",
+      "original_links": [
+        {
+          "url": "https://x.com/claudeai/status/2090518650251804742",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
+          "domain": "claude.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/36b3d0dc-1d86-4fdb-aa96-1390e2cb6e4a"
+    },
+    {
+      "rank": 4,
+      "title": "xAI 全面开放 Grok 应用构建功能",
+      "list_title": "Grok Build 全面上线网页与移动端，所有套餐可用",
+      "heat": 24,
+      "sources": [
+        "X：Andrew Milich (@milichab)",
+        "xAI：News（网页）"
+      ],
+      "summary": "xAI 宣布 Grok 应用构建功能全面开放，所有 SuperGrok 和 X Premium 套餐用户均可在网页、iOS 和 Android 端使用。用户通过一条提示词即可将创意转化为带独立域名的已发布产品，支持完整认证、数据库、私有共享、自定义域名及 SpaceXAI API 使用。\n该功能自 7 月推出 Early Beta 以来，新增了发布分享、接入 X 及调用 Grok 自身模型等能力。发布的应用可获得 grok.me 链接，并支持自定义域名、导出到 GitHub 等。",
+      "original_links": [
+        {
+          "url": "https://x.ai/news/grok-build-for-everyone",
+          "domain": "x.ai"
+        },
+        {
+          "url": "https://x.com/milichab/status/2090519353087213780",
+          "domain": "x.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/909ed9ae-ebef-478f-b801-67bd70f5c6e6"
+    }
+  ]
+}

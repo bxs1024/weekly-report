@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T08:29:23+08:00",
+  "generated_at": "2026-08-20T20:46:37+08:00",
   "fetched_date": "2026-08-20",
   "source": {
     "name": "AIHOT 热点榜",
@@ -9,9 +9,64 @@
   "items": [
     {
       "rank": 1,
+      "title": "Stripe 收购 OpenRouter",
+      "list_title": "OpenRouter 宣布加入 Stripe",
+      "heat": 112,
+      "sources": [
+        "OpenRouter：Announcements（RSS）",
+        "X：Deedy Das (@deedydas)",
+        "X：OpenRouter (@OpenRouter)",
+        "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+        "a16z：News（RSS）",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "X：Rohan Paul (@rohanpaul_ai)",
+        "TechCrunch：AI（RSS）",
+        "IT之家（RSS）",
+        "Artificial Intelligence News（RSS）",
+        "另有 9 组氛围票"
+      ],
+      "summary": "支付巨头 Stripe 已敲定收购 AI 模型路由平台 OpenRouter 的交易，金额超过 70 亿美元，最新报道称约 75 亿美元。该价格是 OpenRouter 今年 5 月完成 1.13 亿美元 B 轮融资时 13 亿美元估值的 5 倍以上。此前《华尔街日报》曾报道谈判价约为 100 亿美元，最终成交价低于该传闻。\nOpenRouter 提供统一入口，帮助用户按需求和预算选择不同 AI 模型。平台拥有超过 1000 万用户，接入 400 至 500 多个模型，每日处理超过 10 万亿 token，推理量自成立以来每年至少增长 10 倍。其流量数据被认为比 API 更难复制。\nOpen",
+      "original_links": [
+        {
+          "url": "https://www.artificialintelligence-news.com/news/stripe-openrouter-acquisition-ai-model-routing",
+          "domain": "www.artificialintelligence-news.com"
+        },
+        {
+          "url": "https://www.ithome.com/0/991/918.htm",
+          "domain": "www.ithome.com"
+        },
+        {
+          "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity",
+          "domain": "techcrunch.com"
+        },
+        {
+          "url": "https://x.com/rohanpaul_ai/status/2090154779515510855",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+          "domain": "openrouter.ai"
+        },
+        {
+          "url": "https://www.a16z.news/p/openrouter-and-stripe-the-intelligence",
+          "domain": "www.a16z.news"
+        },
+        {
+          "url": "https://the-decoder.com/stripe-is-reportedly-acquiring-ai-startup-openrouter-for-more-than-7-billion",
+          "domain": "the-decoder.com"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+          "domain": "www.bloomberg.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/bca5db53-0103-4fbd-85c6-05d34c5deb4f"
+    },
+    {
+      "rank": 2,
       "title": "OpenAI 暂停 Astra 强化学习训练",
       "list_title": "OpenAI 在“关键网络能力”时代放缓模型开发节奏",
-      "heat": 109,
+      "heat": 76,
       "sources": [
         "TechCrunch：AI（RSS）",
         "X：OpenAI (@OpenAI)",
@@ -51,58 +106,10 @@
       "story_url": "https://aihot.virxact.com/story/1c28288a-22d7-4d4e-9bf1-a384527b1454"
     },
     {
-      "rank": 2,
-      "title": "Stripe 收购 OpenRouter",
-      "list_title": "OpenRouter 宣布加入 Stripe",
-      "heat": 93,
-      "sources": [
-        "OpenRouter：Announcements（RSS）",
-        "X：Deedy Das (@deedydas)",
-        "X：OpenRouter (@OpenRouter)",
-        "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-        "a16z：News（RSS）",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "TechCrunch：AI（RSS）"
-      ],
-      "summary": "支付巨头 Stripe 已敲定收购 AI 模型路由平台 OpenRouter 的交易，金额超过 70 亿美元，最新报道称约 75 亿美元。该价格是 OpenRouter 今年 5 月完成 1.13 亿美元 B 轮融资时 13 亿美元估值的 5 倍以上。此前《华尔街日报》曾报道谈判价约为 100 亿美元，最终成交价低于该传闻。\nOpenRouter 提供统一入口，帮助用户按需求和预算选择不同 AI 模型。平台拥有超过 1000 万用户，接入 400 至 500 多个模型，每日处理超过 10 万亿 token，推理量自成立以来每年至少增长 10 倍。其流量数据被认为比 API 更难复制。\nOpen",
-      "original_links": [
-        {
-          "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity",
-          "domain": "techcrunch.com"
-        },
-        {
-          "url": "https://x.com/rohanpaul_ai/status/2090154779515510855",
-          "domain": "x.com"
-        },
-        {
-          "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
-          "domain": "openrouter.ai"
-        },
-        {
-          "url": "https://www.a16z.news/p/openrouter-and-stripe-the-intelligence",
-          "domain": "www.a16z.news"
-        },
-        {
-          "url": "https://the-decoder.com/stripe-is-reportedly-acquiring-ai-startup-openrouter-for-more-than-7-billion",
-          "domain": "the-decoder.com"
-        },
-        {
-          "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
-          "domain": "www.bloomberg.com"
-        },
-        {
-          "url": "https://www.ithome.com/0/990/410.htm",
-          "domain": "www.ithome.com"
-        }
-      ],
-      "story_url": "https://aihot.virxact.com/story/bca5db53-0103-4fbd-85c6-05d34c5deb4f"
-    },
-    {
       "rank": 3,
       "title": "Z.ai 发布 GLM-5.3 API",
       "list_title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
-      "heat": 57,
+      "heat": 40,
       "sources": [
         "X：智谱 Z.ai (@Zai_org)",
         "X：Artificial Analysis (@ArtificialAnlys)",
@@ -137,7 +144,7 @@
       "rank": 4,
       "title": "Anthropic 公布 Claude 蛋白质设计实验",
       "list_title": "Claude 如何加速蛋白质设计与分析化学研究",
-      "heat": 37,
+      "heat": 26,
       "sources": [
         "Anthropic：Research（发表成果 · 网页）",
         "X：Anthropic (@AnthropicAI)",
@@ -160,39 +167,31 @@
     },
     {
       "rank": 5,
-      "title": "sentence-transformers 发布多向量（后期交互）嵌入模型",
-      "list_title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
-      "heat": 13,
+      "title": "Modular 开源 Mojo 语言",
+      "list_title": "Mojo 语言正式开源，编译器与工具链全面开放",
+      "heat": 18,
       "sources": [
-        "Hugging Face：Blog（RSS）",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "Simon Willison 博客",
+        "IT之家（RSS）",
         "另有 1 组氛围票"
       ],
-      "summary": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
+      "summary": "Mojo 语言于 2026 年 8 月 18 日正式开源，采用 Apache 2.0 许可证（含 LLVM 例外），编译器、工具链及全部源码已发布至 modular GitHub 仓库。此前 Mojo 于上周达成 1.0 版本，源码稳定。目前暂不接受编译器相关贡献，计划年底前开放，标准库自 2024 年起已接受社区贡献。\nMojo 自 2023 年 5 月起承诺开源，此次兑现承诺。该语言已不再追求成为 Python 的超集，而是定位为独立语言，旨在用类 Python 语法简化 GPU 编程，即便与现有代码并非 100% 兼容。\n在 ModCon 2026 上，Modular 宣布 Mojo 1",
       "original_links": [
         {
-          "url": "https://huggingface.co/blog/multi-vector-encoder",
-          "domain": "huggingface.co"
-        }
-      ],
-      "story_url": "https://aihot.virxact.com/story/411a1a5a-e329-4eeb-83d0-34d48dbb7214"
-    },
-    {
-      "rank": 6,
-      "title": "Adaptyv Bio 与 Twist Bioscience 独立构建并测试 Claude 设计的蛋白",
-      "list_title": "Claude 从头设计蛋白结合剂命中 14/15 靶点",
-      "heat": 13,
-      "sources": [
-        "X：Anthropic (@AnthropicAI)",
-        "另有 1 组氛围票"
-      ],
-      "summary": "Claude 从头设计蛋白结合剂命中 14/15 靶点",
-      "original_links": [
+          "url": "https://www.ithome.com/0/991/914.htm",
+          "domain": "www.ithome.com"
+        },
         {
-          "url": "https://x.com/AnthropicAI/status/2089842387845804246",
-          "domain": "x.com"
+          "url": "https://www.modular.com/blog/modcon-announcements",
+          "domain": "www.modular.com"
+        },
+        {
+          "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source",
+          "domain": "simonwillison.net"
         }
       ],
-      "story_url": "https://aihot.virxact.com/story/cb930439-f805-43d0-b823-6336c920d785"
+      "story_url": "https://aihot.virxact.com/story/4b339413-0f68-410d-8a56-720f603e1eaf"
     }
   ]
 }

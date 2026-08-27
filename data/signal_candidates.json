@@ -1,7 +1,246 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T10:15:07.248896+08:00",
+  "generated_at": "2026-08-27T18:52:46.204885+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-f3ed7423e951170e",
+      "entity_id": "stripe",
+      "entity": "Stripe",
+      "region": "全球",
+      "sector": "payment_developer_platform",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "ai",
+      "window": "2026-W35",
+      "window_start": "2026-08-27",
+      "window_end": "2026-08-27",
+      "detected_at": "2026-08-27T03:55:11.902729+08:00",
+      "baseline_count": 17,
+      "current_count": 15,
+      "added_count": 1,
+      "removed_count": 3,
+      "clusters": {
+        "ai": 1,
+        "engineering": 1
+      },
+      "removed_clusters": {
+        "ai": 2,
+        "payments": 1,
+        "operations": 1,
+        "sales": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "8044460",
+          "title": "AI Engineer",
+          "url": "https://stripe.com/careers/listing/ai-engineer/8044460",
+          "change": "added"
+        },
+        {
+          "job_id": "8064526",
+          "title": "AI Product Manager, Professional Services",
+          "url": "https://stripe.com/careers/listing/ai-product-manager-professional-services/8064526",
+          "change": "removed"
+        },
+        {
+          "job_id": "7947074",
+          "title": "AI Specialist, Treasury Finance Operations",
+          "url": "https://stripe.com/careers/listing/ai-specialist-treasury-finance-operations/7947074",
+          "change": "removed"
+        },
+        {
+          "job_id": "8141211",
+          "title": "Account Executive, Commercial Hunter",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-hunter/8141211",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
+    {
+      "candidate_id": "jobs-beccc0bb0bdc6ffb",
+      "entity_id": "stripe",
+      "entity": "Stripe",
+      "region": "全球",
+      "sector": "payment_developer_platform",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "sales",
+      "window": "2026-W35",
+      "window_start": "2026-08-26",
+      "window_end": "2026-08-26",
+      "detected_at": "2026-08-26T02:49:40.602007+08:00",
+      "baseline_count": 16,
+      "current_count": 17,
+      "added_count": 2,
+      "removed_count": 1,
+      "clusters": {
+        "sales": 2
+      },
+      "removed_clusters": {
+        "sales": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "8123027",
+          "title": "Account Executive, Commercial (Grower)",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-grower/8123027",
+          "change": "added"
+        },
+        {
+          "job_id": "8141211",
+          "title": "Account Executive, Commercial Hunter",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-hunter/8141211",
+          "change": "added"
+        },
+        {
+          "job_id": "8040874",
+          "title": "Account Executive - Startups, Hunter ANZ",
+          "url": "https://stripe.com/careers/listing/account-executive-startups-hunter-anz/8040874",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
+    {
+      "candidate_id": "jobs-ac9dc02fa078c9f0",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W35",
+      "window_start": "2026-08-24",
+      "window_end": "2026-08-24",
+      "detected_at": "2026-08-24T02:39:53.846512+08:00",
+      "baseline_count": 16,
+      "current_count": 16,
+      "added_count": 5,
+      "removed_count": 5,
+      "clusters": {
+        "engineering": 4
+      },
+      "removed_clusters": {
+        "engineering": 2
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000145034979",
+          "title": "Software Engineering Manager II - Fulfilment",
+          "url": "https://www.grab.careers/en/jobs/744000145034979/software-engineering-manager-ii-fulfilment/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145032469",
+          "title": "Software Engineer, Backend (AI)",
+          "url": "https://www.grab.careers/en/jobs/744000145032469/software-engineer-backend-ai/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145030799",
+          "title": "Strategy & Planning GrabFood, Region Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000145030799/strategy-planning-grabfood-region-assistant-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145029449",
+          "title": "Senior Software Engineer, Mobile (Android)",
+          "url": "https://www.grab.careers/en/jobs/744000145029449/senior-software-engineer-mobile-android/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145029439",
+          "title": "Software Engineer, iOS",
+          "url": "https://www.grab.careers/en/jobs/744000145029439/software-engineer-ios/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000144696089",
+          "title": "Senior Software Engineer, Fullstack",
+          "url": "https://www.grab.careers/en/jobs/744000144696089/senior-software-engineer-fullstack/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000144675669",
+          "title": "Senior Software Engineer, Fullstack - Web Platform",
+          "url": "https://www.grab.careers/en/jobs/744000144675669/senior-software-engineer-fullstack-web-platform/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000144675569",
+          "title": "Head, Merchant Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000144675569/head-merchant-acquisition/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000144675019",
+          "title": "Senior Merchant Account Manager (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000144675019/senior-merchant-account-manager-fb/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000144673869",
+          "title": "Merchant Account Manager (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000144673869/merchant-account-manager-fb/",
+          "change": "removed"
+        }
+      ],
+      "status": "promoted",
+      "rejection_reason": "",
+      "promoted_event_id": "event-jobs-ac9dc02fa078c9f0"
+    },
+    {
+      "candidate_id": "jobs-16204df9aa05c77f",
+      "entity_id": "shopify",
+      "entity": "Shopify",
+      "region": "全球",
+      "sector": "commerce_saas",
+      "source_type": "jobs_snapshot",
+      "signal_type": "organizational_contraction",
+      "cluster": "partnerships",
+      "window": "2026-W34",
+      "window_start": "2026-08-22",
+      "window_end": "2026-08-22",
+      "detected_at": "2026-08-22T02:48:17.350928+08:00",
+      "baseline_count": 33,
+      "current_count": 30,
+      "added_count": 0,
+      "removed_count": 3,
+      "clusters": {},
+      "removed_clusters": {
+        "partnerships": 1,
+        "engineering": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "5767c7bf-9d1b-4cfc-82db-481301cc39b0",
+          "title": "Director, Brand Partnerships Remote - Americas",
+          "url": "https://www.shopify.com/careers/director-brand-partnerships_5767c7bf-9d1b-4cfc-82db-481301cc39b0",
+          "change": "removed"
+        },
+        {
+          "job_id": "ae4a3af7-a254-4a14-8e2d-e493ca8d1c6a",
+          "title": "Social Lead - Developer Remote - Americas",
+          "url": "https://www.shopify.com/careers/social-lead-developer_ae4a3af7-a254-4a14-8e2d-e493ca8d1c6a",
+          "change": "removed"
+        },
+        {
+          "job_id": "d5256102-c163-428a-ac7f-4e6b6dd95389",
+          "title": "Executive Assistant Remote - Canada",
+          "url": "https://www.shopify.com/careers/executive-assistant_d5256102-c163-428a-ac7f-4e6b6dd95389",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_persistence",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-a5d3b323f3e94434",
       "entity_id": "stripe",
@@ -13,18 +252,18 @@
       "cluster": "sales",
       "window": "2026-W34",
       "window_start": "2026-08-20",
-      "window_end": "2026-08-20",
-      "detected_at": "2026-08-20T02:45:28.556811+08:00",
+      "window_end": "2026-08-21",
+      "detected_at": "2026-08-21T02:51:07.530764+08:00",
       "baseline_count": 14,
-      "current_count": 14,
-      "added_count": 2,
-      "removed_count": 2,
+      "current_count": 16,
+      "added_count": 3,
+      "removed_count": 1,
       "clusters": {
-        "sales": 2,
-        "ai": 1
+        "sales": 3
       },
       "removed_clusters": {
-        "sales": 2
+        "ai": 1,
+        "engineering": 1
       },
       "evidence_refs": [
         {
@@ -50,11 +289,35 @@
           "title": "Account Executive, Commercial (Grower)",
           "url": "https://stripe.com/careers/listing/account-executive-commercial-grower/8123027",
           "change": "removed"
+        },
+        {
+          "job_id": "8023928",
+          "title": "Account Executive, Bridge (Stripe Crypto and Stablecoins)",
+          "url": "https://stripe.com/careers/listing/account-executive-bridge-stripe-crypto-and-stablecoins/8023928",
+          "change": "added"
+        },
+        {
+          "job_id": "8123027",
+          "title": "Account Executive, Commercial (Grower)",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-grower/8123027",
+          "change": "added"
+        },
+        {
+          "job_id": "7789539",
+          "title": "Account Executive, Commercial Hunter (Japanese Fluency)",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-hunter-japanese-fluency/7789539",
+          "change": "added"
+        },
+        {
+          "job_id": "8044460",
+          "title": "AI Engineer",
+          "url": "https://stripe.com/careers/listing/ai-engineer/8044460",
+          "change": "removed"
         }
       ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_cluster_strength",
-      "promoted_event_id": ""
+      "status": "promoted",
+      "rejection_reason": "",
+      "promoted_event_id": "event-jobs-a5d3b323f3e94434"
     },
     {
       "candidate_id": "jobs-0d561f903c3b9954",

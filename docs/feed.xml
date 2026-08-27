@@ -1,44 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-08-20</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-08-27</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-08-27T01:37:22Z</updated>
+  <updated>2026-08-27T11:01:36Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>昆仑万维H1营收同比+43.6%</title>
-    <link href="https://www.techinasia.com/news/chinese-ai-firm-kunlun-tech-revenue-jumps-436-h1"/>
-    <id>tag:weekly-report,2026:event-936d4441</id>
-    <published>2026-08-20T00:00:00Z</published>
-    <updated>2026-08-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Chinese AI firm Kunlun Tech revenue jumps 43.6% in H1&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国AI公司昆仑万维上半年营收同比增长43.6%，显示其AI业务商业化进展顺利。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI公司营收高增长，验证AI应用商业化路径，为国内AI模型服务商和行业解决方案提供商提供市场信心。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>加拿大支付商Helcim融资C$53M</title>
+    <link href="https://www.finextra.com/newsarticle/48306/canadian-payment-processor-helcim-raises-c53m?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
+    <id>tag:weekly-report,2026:event-b9ab647f</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Canadian payment processor Helcim raises C$53m&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;加拿大支付处理商Helcim完成5300万加元融资，资金将用于扩展其支付解决方案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美支付处理赛道持续获资本注入，Helcim将加速产品迭代和商户拓展。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：北美 | 来源：Finextra&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Kraken在美国推出加密借记卡</title>
-    <link href="https://www.finextra.com/newsarticle/48271/kraken-launches-crypto-debit-card-in-the-us?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-ea0e6a65</id>
-    <published>2026-08-20T00:00:00Z</published>
-    <updated>2026-08-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Kraken launches crypto debit card in the US&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;加密货币交易所Kraken在美国推出加密借记卡，用户可直接使用加密货币进行日常消费。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国加密支付场景扩展，Kraken卡产品将推动加密资产与法币支付融合，支付处理商和发卡行迎来新合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：北美 | 来源：Finextra&lt;/p&gt;</summary>
+    <title>英伟达拟$12.9B收购Hugging Face</title>
+    <link href="https://tech.eu/2026/08/27/nvidia-agrees-to-buy-hugging-face-for-12-9bn-says-report/"/>
+    <id>tag:weekly-report,2026:event-5d632ae1</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia agrees to buy Hugging Face for $12.9BN, says report&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;据报道，英伟达同意以129亿美元收购AI模型平台Hugging Face。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI芯片巨头收购AI模型平台，将深度整合硬件与模型生态，可能重塑AI开发工具链和模型分发渠道。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>阿里股价因AI预期上涨34%</title>
-    <link href="https://www.techinasia.com/news/alibaba-shares-rise-34-ai-bets-earnings"/>
-    <id>tag:weekly-report,2026:event-0834033b</id>
-    <published>2026-08-20T00:00:00Z</published>
-    <updated>2026-08-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Alibaba shares rise 34% on AI bets ahead of earnings&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;阿里巴巴股价因市场对其AI业务前景看好而上涨34%，市场正等待其即将发布的财报数据。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国科技巨头AI战略获市场认可，股价大涨反映投资者对AI云服务和电商智能化变现的乐观预期，为云基础设施和AI应用服务商带来需求信号。&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>Techcombank或出售15%股份，估值约20亿美元</title>
+    <link href="https://fintechnews.sg/136369/fintech/bnp-paribas-kb-kookmin-techcombank-stake/"/>
+    <id>tag:weekly-report,2026:event-9fbb9396</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Techcombank Reportedly Weighs 15% Stake Deal Worth US$2 Billion&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;据报，越南科技银行Techcombank正考虑出售15%股份，交易价值约20亿美元，潜在买家包括法国巴黎银行和韩国国民银行。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;越南银行股权交易规模大，国际银行入股将带来跨境金融科技合作与系统升级需求。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：北美 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>全球AI视野 Top5 · 2026-08-20</title>
+    <title>SK电信拟分拆AI数据中心，投资$2.2B</title>
+    <link href="https://www.techinasia.com/news/sk-telecom-plans-ai-data-center-spinoff-22b"/>
+    <id>tag:weekly-report,2026:event-02d0b198</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;SK Telecom plans AI data center spin-off with $2.2b investment&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;韩国SK电信计划分拆AI数据中心业务，并投入22亿美元进行建设。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;韩国电信巨头重仓AI基础设施，亚太数据中心供应链和托管服务商迎来大额订单机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>波兰要求欧盟对Meta罚款€250M</title>
+    <link href="https://thenextweb.com/news/poland-eu-fine-meta-250m-scam-ads"/>
+    <id>tag:weekly-report,2026:event-61445fea</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Poland has asked the European Commission to fine Meta €250M over scam ads&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;波兰政府已要求欧盟委员会对Meta处以2.5亿欧元罚款，原因是其平台上存在诈骗广告。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲监管压力升级，Meta广告审核机制面临合规挑战，第三方广告安全技术需求增加&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>报告：AI是东盟金融科技最稀缺技能</title>
+    <link href="https://fintechnews.sg/136352/ai/ai-emerges-as-asean-fintechs-most-scarce-skill/"/>
+    <id>tag:weekly-report,2026:event-00eae07d</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AI Emerges as ASEAN Fintech’s Most Scarce Skill&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一份行业报告指出，人工智能已成为东盟金融科技领域最稀缺的技能，反映出该地区在AI人才方面的供需缺口。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚金融科技AI人才缺口显著，为AI培训、招聘和外包服务商带来明确市场机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>TRM Labs聘请MAS前高管负责亚太政策</title>
+    <link href="https://fintechnews.sg/136390/blockchain/ziqing-ang-trm-labs/"/>
+    <id>tag:weekly-report,2026:event-004c7737</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;TRM Labs Taps MAS Veteran Ziqing Ang to Lead APAC Policy&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;区块链分析公司TRM Labs聘请新加坡金融管理局（MAS）资深人士Ziqing Ang担任亚太区政策负责人，以加强区域监管沟通。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡区块链合规与政策沟通需求上升，TRM Labs此举将深化与亚太监管机构的合作。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Instinct获$350M融资，估值$2.5B</title>
+    <link href="https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/"/>
+    <id>tag:weekly-report,2026:event-790443a6</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Viral AI startup Instinct has raised $350M at a $2.5B valuation&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI初创公司Instinct完成3.5亿美元融资，估值达到25亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI初创公司估值飙升，反映资本对AI应用层的高预期，可能带动相关技术服务和算力需求。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>《Ananta》定档2027年1月，预注册破1700万</title>
+    <link href="https://www.pocketgamer.biz/ananta-sets-january-2027-launch-date-as-pre-registration-passes-17m/"/>
+    <id>tag:weekly-report,2026:event-e2642e85</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ananta sets January 2027 launch date as pre-registration passes 17m&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;游戏《Ananta》宣布将于2027年1月上线，目前预注册用户已超过1700万。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球高期待度游戏定档，发行前营销和云基础设施合作方将提前锁定预算&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>英伟达接近收购Hugging Face</title>
+    <link href="https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/"/>
+    <id>tag:weekly-report,2026:event-3086d8c5</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia closes in on Hugging Face acquisition&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英伟达（Nvidia）接近完成对Hugging Face的收购。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI芯片巨头英伟达拟收购AI模型平台Hugging Face，AI基础设施与模型生态整合加速，将重塑AI开发工具链和模型分发格局。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>InstaAstro获$12M融资扩展AI法事服务</title>
+    <link href="https://inc42.com/buzz/instaastro-bags-12-mn-to-build-ai-tools-expand-online-pooja-services/"/>
+    <id>tag:weekly-report,2026:event-da351200</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;InstaAstro Bags $12 Mn To Build AI Tools, Expand Online Pooja Services&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度在线宗教服务平台InstaAstro获得1200万美元融资，将用于开发AI工具并扩展在线法事服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度宗教科技赛道获资本注入，AI内容生成和本地化支付解决方案需求上升&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>新方案自动化桌面任务辅助运动障碍用户</title>
+    <link href="https://www.techinasia.com/automating-desktop-tasks-users-motor-impairments"/>
+    <id>tag:weekly-report,2026:event-c5e30fc2</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Automating desktop tasks for users with motor impairments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一项新技术旨在为运动障碍用户自动化桌面任务，提升无障碍操作体验。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太无障碍科技细分赛道出现新方案，企业级辅助软件和硬件接口集成存在合作空间&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Thatgamecompany推出新发行品牌</title>
+    <link href="https://www.pocketgamer.biz/thatgamecompany-launches-new-publishing-label/"/>
+    <id>tag:weekly-report,2026:event-d78b7b79</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Thatgamecompany launches new publishing label&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;游戏公司Thatgamecompany宣布推出新的发行品牌，拓展发行业务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球独立游戏发行赛道再添新玩家，中小开发团队获得新的发行渠道选择&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>惠普与华为专利和解后划清界限</title>
+    <link href="https://www.mobileworldlive.com/ranvendors/hp-distances-from-huawei-ties-following-patent-deal/"/>
+    <id>tag:weekly-report,2026:event-cf020102</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;HP distances itself from Huawei ties following patent deal&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;惠普在达成专利协议后，公开表态与华为保持距离，强调自身独立立场。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球科技供应链地缘政治敏感度上升，惠普此举或影响其与华为在通信专利交叉授权上的后续合作深度。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>全球AI视野 Top5 · 2026-08-27</title>
     <link href="https://aihot.virxact.com/hot"/>
-    <id>tag:weekly-report,2026:aihot-6443ae77</id>
-    <published>2026-08-20T00:00:00Z</published>
-    <updated>2026-08-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-08-20T08:29&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://x.com/frxiaobei/status/2090053415762379075"&gt;OpenAI 暂停 Astra 强化学习训练（热度 109）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity"&gt;Stripe 收购 OpenRouter（热度 93）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://the-decoder.com/glm-5-3-tops-the-open-model-rankings-and-undercuts-rivals-on-price-but-its-release-is-delayed"&gt;Z.ai 发布 GLM-5.3 API（热度 57）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://x.com/frxiaobei/status/2089930103128019287"&gt;Anthropic 公布 Claude 蛋白质设计实验（热度 37）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://huggingface.co/blog/multi-vector-encoder"&gt;sentence-transformers 发布多向量（后期交互）嵌入模型（热度 13）&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <id>tag:weekly-report,2026:aihot-b7eb5e97</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-08-27T13:18&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;amp;mid=2647685603&amp;amp;idx=1&amp;amp;sn=91bbef667086bed84b6f213be79733aa"&gt;智谱发布 GLM-5.3-Flash 原生多模态模型（热度 124）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://x.com/rohanpaul_ai/status/2092723656388677752"&gt;Google DeepMind 发布 Gemini 3.5 Transcribe（热度 101）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.ithome.com/0/994/797.htm"&gt;OpenAI 发布 Hugging Face 泄露事件官方报告（热度 101）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Aug/26/qwen38-flash-next"&gt;Alibaba Qwen 发布 Qwen3.8-Flash-Next（热度 93）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.ithome.com/0/994/791.htm"&gt;Nvidia 发布 Q2 FY2027 财报（热度 46）&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
