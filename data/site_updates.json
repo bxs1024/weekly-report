@@ -1,5 +1,17 @@
 [
  {
+  "date": "2026-08-27",
+  "version": "V5.3",
+  "type": "成本优化",
+  "status": "已提交待推送",
+  "title": "AI_EXAMPLES 精简：每批 prompt 省 62% token",
+  "summary": "AI 分析 prompt 里的 8 个 few-shot 示例精简到 3 个（融资/财报/Report 语义），每批省约 1367 token（-62%），超出方案预期 ~800 token。零行为变化（不动 AI_SYSTEM_PROMPT，保留方向由规则覆盖），全套离线测试 0 失败。月理论省 ~24.6 万 token（180 批 × 1367）。commit 719559e。",
+  "changes": [
+   "scripts/fetch_news.py AI_EXAMPLES：8 例 → 3 例（融资大额/财报/Report 语义），其余方向由 AI_SYSTEM_PROMPT 覆盖",
+   "全套离线测试 0 失败（含 8 个事件价值/7 个信号地理/合同回填/事件指纹等）"
+  ]
+ },
+ {
   "date": "2026-08-24",
   "version": "V5.2",
   "type": "质量修复",
