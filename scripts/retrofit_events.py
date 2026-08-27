@@ -51,7 +51,15 @@ def find_generic_events(data):
 
 
 def _pick_api():
-    """自动选择可用 API，优先 DeepSeek（本地）→ 豆包（GHA）"""
+    """自动选择可用 API，优先方舟 V4 Flash → DeepSeek（本地）→ 豆包（GHA）"""
+    ark_key = os.environ.get('ARK_API_KEY', '')
+    if ark_key and len(ark_key) >= 10:
+        return {
+            'url': 'https://ark.cn-beijing.volces.com/api/v3/chat/completions',
+            'key': ark_key,
+            'model': os.environ.get('ARK_MODEL') or 'ep-20260827101830-qgtm4',
+            'name': '方舟 V4 Flash',
+        }
     ds_key = os.environ.get('DEEPSEEK_API_KEY', '')
     if ds_key and len(ds_key) >= 10:
         return {

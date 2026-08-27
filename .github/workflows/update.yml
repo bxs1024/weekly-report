@@ -112,34 +112,48 @@ jobs:
             echo "⚠️  所有 RSS 信源不可达，跳过采集（可能有网络限制）"
             echo '{}' > data/events.json
           else
-            echo "=== DeepSeek API 可用性检测（主）==="
-            RESP=$(curl -s -w "\n%{http_code}" --max-time 15 -X POST "https://api.deepseek.com/v1/chat/completions" \
-              -H "Authorization: Bearer $DEEPSEEK_API_KEY" \
+            echo "=== 方舟 V4 Flash API 可用性检测（主，降本首选）==="
+            RESP=$(curl -s -w "\n%{http_code}" --max-time 15 -X POST "https://ark.cn-beijing.volces.com/api/v3/chat/completions" \
+              -H "Authorization: Bearer ${ARK_API_KEY}" \
               -H "Content-Type: application/json" \
-              -d '{"model":"deepseek-chat","messages":[{"role":"user","content":"hi"}],"stream":false}')
+              -d '{"model":"'"${ARK_MODEL:-ep-20260827101830-qgtm4}"'","messages":[{"role":"user","content":"hi"}],"stream":false}')
             HTTP_CODE=$(echo "$RESP" | tail -1)
             BODY=$(echo "$RESP" | head -c 300)
             if [ "$HTTP_CODE" = "200" ]; then
-              echo "✅ DeepSeek API 可用"
+              echo "✅ 方舟 V4 Flash API 可用"
             else
-              echo "⚠️ DeepSeek API 失败 (HTTP $HTTP_CODE): $BODY"
-              echo "=== 豆包 API 可用性检测（辅）==="
-              RESP=$(curl -s -w "\n%{http_code}" --max-time 15 -X POST "https://ark.cn-beijing.volces.com/api/v3/chat/completions" \
-                -H "Authorization: Bearer $DOUBAO_API_KEY" \
+              echo "⚠️ 方舟 V4 Flash API 失败 (HTTP $HTTP_CODE): $BODY"
+              echo "=== DeepSeek API 可用性检测（备用）==="
+              RESP=$(curl -s -w "\n%{http_code}" --max-time 15 -X POST "https://api.deepseek.com/v1/chat/completions" \
+                -H "Authorization: Bearer $DEEPSEEK_API_KEY" \
                 -H "Content-Type: application/json" \
-                -d '{"model":"ep-20260409223830-dnt5b","messages":[{"role":"user","content":"hi"}],"stream":false}')
+                -d '{"model":"deepseek-chat","messages":[{"role":"user","content":"hi"}],"stream":false}')
               HTTP_CODE=$(echo "$RESP" | tail -1)
               BODY=$(echo "$RESP" | head -c 300)
               if [ "$HTTP_CODE" = "200" ]; then
-                echo "✅ 豆包 API 可用"
+                echo "✅ DeepSeek API 可用"
               else
-                echo "❌ 豆包 API 失败 (HTTP $HTTP_CODE): $BODY"
+                echo "⚠️ DeepSeek API 失败 (HTTP $HTTP_CODE): $BODY"
+                echo "=== 豆包 API 可用性检测（兜底）==="
+                RESP=$(curl -s -w "\n%{http_code}" --max-time 15 -X POST "https://ark.cn-beijing.volces.com/api/v3/chat/completions" \
+                  -H "Authorization: Bearer $DOUBAO_API_KEY" \
+                  -H "Content-Type: application/json" \
+                  -d '{"model":"ep-20260409223830-dnt5b","messages":[{"role":"user","content":"hi"}],"stream":false}')
+                HTTP_CODE=$(echo "$RESP" | tail -1)
+                BODY=$(echo "$RESP" | head -c 300)
+                if [ "$HTTP_CODE" = "200" ]; then
+                  echo "✅ 豆包 API 可用"
+                else
+                  echo "❌ 豆包 API 失败 (HTTP $HTTP_CODE): $BODY"
+                fi
               fi
             fi
             python scripts/fetch_news.py
             python scripts/check_event_quality.py --date "$(TZ=Asia/Shanghai date +%Y-%m-%d)" --max-repair-ratio 0.6 || true
           fi
         env:
+          ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
+          ARK_MODEL: ${{ secrets.ARK_MODEL }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DOUBAO_API_KEY: ${{ secrets.DOUBAO_API_KEY }}
 
@@ -154,11 +168,15 @@ jobs:
       - name: Repair stale analysis
         run: python scripts/repair_stale_analysis.py || echo "⚠️ 问题事件修复失败，本次跳过（不影响采集）"
         env:
+          ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
+          ARK_MODEL: ${{ secrets.ARK_MODEL }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
       - name: Generate HTML
         run: python scripts/generate_html.py --force
         env:
+          ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
+          ARK_MODEL: ${{ secrets.ARK_MODEL }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DOUBAO_API_KEY: ${{ secrets.DOUBAO_API_KEY }}
 

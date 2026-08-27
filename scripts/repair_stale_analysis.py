@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'scripts'))
 os.chdir(ROOT)  # fetch_news 的 load_dotenv() 按当前工作目录找 .env
 
-from fetch_news import analyze_events_deepseek  # noqa: E402
+from fetch_news import analyze_events_ark, analyze_events_deepseek  # noqa: E402
 
 EVENTS_PATH = ROOT / 'data' / 'events.json'
 STALE_MARKERS = ('暂不可用', 'AI 分析暂不可用')
@@ -74,9 +74,11 @@ def main():
 
     updated = 0
     total_batches = (len(items) + args.batch - 1) // args.batch
+    ark_key = os.environ.get('ARK_API_KEY', '')
+    analyze = analyze_events_ark if ark_key and len(ark_key) >= 10 else analyze_events_deepseek
     for i in range(0, len(items), args.batch):
         chunk = items[i:i + args.batch]
-        result = analyze_events_deepseek(chunk)
+        result = analyze(chunk)
         if not result:
             print(f'  [{(i // args.batch) + 1}/{total_batches}] AI 失败，跳过本批', flush=True)
             continue

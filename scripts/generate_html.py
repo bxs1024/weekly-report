@@ -643,8 +643,7 @@ def infer_frontend_bd_context(event):
         if name not in opportunities:
             opportunities.append(name)
 
-    score = event.get('score') or calculate_score(event)
-    bd_priority = classify_bd_priority(event, score)
+    bd_priority = classify_bd_priority(event)
     follow_up_window = follow_up_window_for_priority(bd_priority)
 
     return {
@@ -737,8 +736,13 @@ def enrich(event):
         event['display_source'] = publisher
     else:
         event['display_source'] = event.get('source', '未知')
-    if event.get('score') in (None, ''):
-        event['score'] = calculate_score(event)
+    # 规则层字段缺失时补算（内存态；AI 0-10 分仅留档，不参与展示决策）
+    if not (event.get('attention_score') or event.get('confidence_score')):
+        try:
+            from signal_scoring import apply_signal_contract
+            apply_signal_contract(event)
+        except Exception:
+            pass
     # 用于 Market Pulse 突出展示
     amt = _parse_amount(event.get('title', ''))
     event['display_amount'] = _format_amount(amt) if amt > 0 else ''
@@ -820,9 +824,9 @@ def get_signal_events(events):
             if ev_type == 'other':
                 continue
 
-            # 排除低评分事件（评分<5视为低质量）
-            score = event.get('score', 0)
-            if score < 5:
+            # 排除低评分事件（规则层注意力分<50视为低质量）
+            score = event_score(event)
+            if score < 50:
                 continue
 
             result.append(event)
@@ -857,7 +861,7 @@ def build_weekly_summary(all_feed, signals, latest_date_events, all_events, summ
     # ── 金额计算（用于 headline）───────────────────────
     # 找最大融资事件
     funding_events = [e for e in non_chinese if e.get('event_types', [''])[0] == 'funding']
-    top_funding = max(funding_events, key=lambda x: x.get('score', 0), default=None)
+    top_funding = max(funding_events, key=lambda x: event_score(x), default=None)
     max_ma = next((e for e in non_chinese if e.get('event_types', [''])[0] == 'ma'), None)
 
     # ── Headline ────────────────────────────────────────
@@ -1261,7 +1265,7 @@ def _build_regional_map(period_events, limit=6):
             'score_sum': 0,
         })
         item['count'] += 1
-        item['score_sum'] += event.get('score', 0)
+        item['score_sum'] += event_score(event)
         if is_period_high_value_event(event):
             item['high'] += 1
         if event.get('company_name'):
@@ -1321,7 +1325,7 @@ def _build_customer_tiers(period_events, limit=6):
             'direction': event.get('opportunity_direction') or '持续观察',
         })
         item['count'] += 1
-        item['score'] = max(item['score'], event.get('score', 0))
+        item['score'] = max(item['score'], event_score(event))
         if is_period_high_value_event(event):
             item['high'] += 1
         if event.get('opportunity_direction'):
@@ -1329,9 +1333,9 @@ def _build_customer_tiers(period_events, limit=6):
 
     result = []
     for item in grouped.values():
-        if item['high'] > 0 or item['score'] >= 7:
+        if item['high'] > 0 or item['score'] >= 70:
             tier = 'A类：优先触达'
-        elif item['count'] >= 2 or item['score'] >= 5:
+        elif item['count'] >= 2 or item['score'] >= 50:
             tier = 'B类：持续经营'
         else:
             tier = 'C类：观察入库'
@@ -1534,7 +1538,9 @@ def build_weekly_editorial(themes, period_id):
 
     for api in apis:
         try:
-            resp = _post_chat(api, prompt, max_tokens=1400, temperature=0.3, timeout=(10, 30))
+            # 方舟 V4 Flash 含 reasoning 生成更慢，读超时放宽；其余通道保持快降级
+            api_timeout = (10, 120) if api.get('id') == 'ark' else (10, 30)
+            resp = _post_chat(api, prompt, max_tokens=1400, temperature=0.3, timeout=api_timeout)
             if resp.status_code != 200:
                 print(f"  ⚠️  周报编辑 {api['name']} 返回 {resp.status_code}，尝试下一个")
                 continue
@@ -1613,7 +1619,9 @@ def build_monthly_editorial(trends, period_id):
 
     for api in apis:
         try:
-            resp = _post_chat(api, prompt, max_tokens=1700, temperature=0.3, timeout=(10, 30))
+            # 方舟 V4 Flash 含 reasoning 生成更慢，读超时放宽；其余通道保持快降级
+            api_timeout = (10, 120) if api.get('id') == 'ark' else (10, 30)
+            resp = _post_chat(api, prompt, max_tokens=1700, temperature=0.3, timeout=api_timeout)
             if resp.status_code != 200:
                 print(f"  ⚠️  月报编辑 {api['name']} 返回 {resp.status_code}，尝试下一个")
                 continue
