@@ -1538,9 +1538,19 @@ def build_weekly_editorial(themes, period_id):
 
     for api in apis:
         try:
-            # 方舟 V4 Flash 含 reasoning 生成更慢，读超时放宽；其余通道保持快降级
-            api_timeout = (10, 120) if api.get('id') == 'ark' else (10, 30)
-            resp = _post_chat(api, prompt, max_tokens=1400, temperature=0.3, timeout=api_timeout)
+            resp = None
+            last_err = None
+            for attempt_timeout in ((10, 60), (10, 90)):
+                try:
+                    # 方舟 GA 已强制关闭思考；偶发瞬时挂起先按标准余量试，失败放宽余量原地重试一次再降级
+                    resp = _post_chat(api, prompt, max_tokens=1400, temperature=0.3,
+                                      timeout=attempt_timeout)
+                    break
+                except Exception as e:
+                    last_err = e
+                    continue
+            if resp is None:
+                raise last_err or RuntimeError('all attempts failed')
             if resp.status_code != 200:
                 print(f"  ⚠️  周报编辑 {api['name']} 返回 {resp.status_code}，尝试下一个")
                 continue
@@ -1619,9 +1629,19 @@ def build_monthly_editorial(trends, period_id):
 
     for api in apis:
         try:
-            # 方舟 V4 Flash 含 reasoning 生成更慢，读超时放宽；其余通道保持快降级
-            api_timeout = (10, 120) if api.get('id') == 'ark' else (10, 30)
-            resp = _post_chat(api, prompt, max_tokens=1700, temperature=0.3, timeout=api_timeout)
+            resp = None
+            last_err = None
+            for attempt_timeout in ((10, 60), (10, 90)):
+                try:
+                    # 方舟 GA 已强制关闭思考；偶发瞬时挂起先按标准余量试，失败放宽余量原地重试一次再降级
+                    resp = _post_chat(api, prompt, max_tokens=1700, temperature=0.3,
+                                      timeout=attempt_timeout)
+                    break
+                except Exception as e:
+                    last_err = e
+                    continue
+            if resp is None:
+                raise last_err or RuntimeError('all attempts failed')
             if resp.status_code != 200:
                 print(f"  ⚠️  月报编辑 {api['name']} 返回 {resp.status_code}，尝试下一个")
                 continue

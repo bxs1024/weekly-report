@@ -42,6 +42,7 @@ try:
     from event_value import classify_bd_priority, follow_up_window_for_priority
     from run_metrics import write_run_metrics
     from scope_gate import apply_scope_contract
+    from internet_relevance import assess_internet_relevance
 except ImportError:
     from scripts.analysis_quality import annotate_event_quality, summarize_quality
     from scripts.event_dates import apply_event_date_metadata, publication_metadata
@@ -49,6 +50,7 @@ except ImportError:
     from scripts.event_value import classify_bd_priority, follow_up_window_for_priority
     from scripts.run_metrics import write_run_metrics
     from scripts.scope_gate import apply_scope_contract
+    from scripts.internet_relevance import assess_internet_relevance
 
 # ============================================================
 # 并行采集优化：aiohttp
@@ -1215,6 +1217,70 @@ def _fingerprint_match(a, b):
     if not ka or not kb:
         return None
     return ka == kb
+
+
+# ============================================================
+# 事实评分账本：同一件事（指纹）只打一次分，跨批次/跨 run 复用
+# （治"同一事实多版本分数漂移"；8-24 指纹定案的延伸，不新建识别体系）
+# ============================================================
+
+_FACT_LEDGER_PATH = Path('data/fact_score_ledger.json')
+_fact_ledger = {}
+
+
+def _load_fact_ledger():
+    global _fact_ledger
+    try:
+        if _FACT_LEDGER_PATH.exists():
+            with open(_FACT_LEDGER_PATH, encoding='utf-8') as f:
+                _fact_ledger = json.load(f)
+            if not isinstance(_fact_ledger, dict):
+                _fact_ledger = {}
+    except Exception:
+        _fact_ledger = {}
+
+
+def _save_fact_ledger():
+    try:
+        _FACT_LEDGER_PATH.parent.mkdir(parents=True, exist_ok=True)
+        with open(_FACT_LEDGER_PATH, 'w', encoding='utf-8') as f:
+            json.dump(_fact_ledger, f, ensure_ascii=False, indent=1)
+    except Exception:
+        pass
+
+
+def _fact_ledger_key(ev):
+    """指纹键：归一化公司 + 主类型 + 归一化金额锚点；缺任一返回 None（不进账本）。"""
+    cc = _normalize_company_key(ev.get('canonical_company') or '')
+    ck = _normalize_canonical_key(ev.get('canonical_key') or '')
+    pt = _primary_event_type(ev)
+    if not cc or not ck:
+        return None
+    return f'{cc}|{pt}|{ck}'
+
+
+def _apply_fact_score_rules(ev):
+    """同事实复用历史分（第1层）；边界外事件不许高分（第3层，落实 A12.4）。
+
+    拦截口径只取明确的 out_of_scope（军工/生物/医疗/纯航天），
+    不含边缘/相邻类（无关键词的财报、产品事件不能被误伤）。"""
+    if assess_internet_relevance(ev).get('label') == 'out_of_scope':
+        cur = ev.get('score') or 0
+        if cur > 4:
+            ev['score'] = 4
+            ev['boundary_capped'] = True
+    key = _fact_ledger_key(ev)
+    if not key:
+        return
+    if key in _fact_ledger:
+        ev['score'] = _fact_ledger[key]['score']
+        ev['score_reused'] = True
+    else:
+        _fact_ledger[key] = {
+            'score': ev.get('score') or 0,
+            'first_seen': ev.get('date') or '',
+            'samples': 1,
+        }
 
 
 def _is_same_event(candidate, existing):
@@ -2462,6 +2528,112 @@ def configure_deepseek():
     return True
 
 
+def configure_ark():
+    """配置火山方舟 DeepSeek V4 Flash（ARK），价格约为官方 DeepSeek 的 1/6"""
+    key = os.environ.get('ARK_API_KEY')
+    model = os.environ.get('ARK_MODEL') or 'ep-20260827101830-qgtm4'
+    print(f"  🔑 ARK_API_KEY: {'已设置 (' + str(len(key)) + ' 字符)' if key else '未设置 ❌'}")
+    if not key:
+        print("  ⚠️  未设置 ARK_API_KEY，跳过方舟 V4 Flash")
+        return False
+    if len(key) < 10:
+        print(f"  ❌ ARK_API_KEY 长度异常（{len(key)} 字符），跳过方舟 V4 Flash")
+        return False
+    print(f"  ✅ 方舟 V4 Flash 配置检查通过，模型: {model}")
+    return True
+
+
+def analyze_events_ark(items):
+    """
+    使用火山方舟 DeepSeek V4 Flash 分析新闻事件（OpenAI 兼容 API）
+    模型：ep-20260827101830-qgtm4（方舟价格约为官方 1/6）
+    """
+    api_key = os.environ.get('ARK_API_KEY')
+    if not api_key:
+        print("  ⚠️  未设置 ARK_API_KEY")
+        return None
+
+    url = "https://ark.cn-beijing.volces.com/api/v3/chat/completions"
+    model = os.environ.get('ARK_MODEL') or 'ep-20260827101830-qgtm4'
+    headers = {
+        "Authorization": "Bearer " + api_key,
+        "Content-Type": "application/json"
+    }
+
+    news = [{'title': it['title'], 'url': it['url'], 'source': it['source'], 'region': it.get('region','')} for it in items]
+    prompt = AI_SYSTEM_PROMPT + "\n" + AI_EXAMPLES + "\n\n分析以下事件，返回JSON数组：\n" + json.dumps(news, ensure_ascii=False) + "\n\n返回JSON："
+
+    payload = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": 4096,
+        "temperature": 0.1,
+        "reasoning": {"effort": "none"},  # 方舟 GA 版支持强制关闭深度思考：降延迟、省 reasoning 计费
+    }
+
+    for attempt in range(2):
+        try:
+            # 关思考后响应快；60s 余量覆盖网络波动与长正文生成
+            resp = _LLM_SESSION.post(url, headers=headers, json=payload, timeout=(10, 60))
+            if resp.status_code == 429:
+                wait = (attempt + 1) * 10
+                print("  ⚠️  方舟 API 配额耗尽（429），等待 " + str(wait) + "s 后重试...")
+                time.sleep(wait)
+                continue
+            if resp.status_code != 200:
+                print(f"  ❌ 方舟 API HTTP {resp.status_code}: {resp.text[:300]}")
+                return None
+            data = resp.json()
+            text = data.get('choices', [{}])[0].get('message', {}).get('content', '')
+            if not text:
+                print("  ⚠️  方舟返回空内容: " + str(data))
+                return None
+            for m in ['```json', '```']:
+                if m in text:
+                    parts = text.split(m)
+                    for p in parts[1:]:
+                        text = p.strip()
+                        if text.endswith('```'):
+                            text = text[:-3].strip()
+                        break
+                    break
+            result = json.loads(re.sub(r'^json\s*', '', text, flags=re.I))
+            if isinstance(result, list):
+                result = [r for r in result if _is_http_url(r.get('url')) and r.get('summary_short')]
+            return result
+        except requests.exceptions.Timeout:
+            print(f"  ⚠️  方舟 API 超时（30s），快速失败，跳过该批次")
+            return None
+        except json.JSONDecodeError as e:
+            if attempt < 2:
+                wait = (attempt + 1) * 5
+                print(f"  ⚠️  方舟返回非JSON，尝试修正解析...")
+                import re as re2
+                match = re2.search(r'\[[\s\S]*\]', text if 'text' in dir() else '')
+                if match:
+                    try:
+                        result = json.loads(match.group())
+                        result = [r for r in result if isinstance(r, dict) and _is_http_url(r.get('url'))]
+                        if result:
+                            print(f"  ✅ 修正解析成功，提取 {len(result)} 条")
+                            return result
+                    except: pass
+                print(f"  解析失败，等待 {wait}s 后重试...")
+                time.sleep(wait)
+                continue
+            print(f"  ❌ 方舟 JSON 解析最终失败")
+            return None
+        except Exception as e:
+            if attempt < 2:
+                wait = (attempt + 1) * 5
+                print(f"  ⚠️  方舟 API 调用失败（{type(e).__name__}），等待 {wait}s 后重试...")
+                time.sleep(wait)
+                continue
+            print(f"  ❌ 方舟 API 最终失败: {type(e).__name__} {str(e)[:200]}")
+            return None
+    return None
+
+
 def analyze_events_deepseek(items):
     """
     使用 DeepSeek 大模型分析新闻事件（OpenAI 兼容 API）
@@ -2570,7 +2742,7 @@ event_types 判定规则（从事件实质判断，不要被标题里的英文�
 content_overview 要求：用1-2句话客观描述事件本身——谁、做了什么、金额/数据、进展，必须从标题提炼事实，禁止写成价值判断或"为什么重要"式的话。比 summary_short 更完整，可含背景或后续进展，两者不得相同。
 reason 要求：必须从标题提取公司名/产品名/技术名，组合地区+行业+具体机会描述，格式固定为"[地区][行业]具体描述"。禁止出现"无法判断""无法确定""待确认""相关"等模糊词。
 impact 要求：指明具体受益方或受损方，如"东南亚电商平台""海湾主权基金""非洲移动支付商"，禁止"相关行业"。
-非中美公司融资≥$100M → score 9；融资≥$20M → score 7-8；并购 → score 7-8；财报盈利稳定 → score 5-6；亏损/下滑 → score 7-9；战略扩张 → score 6-7；裁员/关停 → score 6-8。
+score 打分规则（硬档位，禁止给档外分数）：10分仅限稀缺事件——国家级战略/投资（政府层面资金）、或并购金额≥$5B、或融资≥$500M且改变行业格局，其余一律封顶9；9分——非中美公司融资≥$100M、并购$1B-5B、战略级投资≥$1B；7-8分——融资$20M-100M、并购$100M-1B、重大战略扩张、裁员/关停；5-6分——财报盈利稳定、普通产品发布、常规战略动作；7-9分（强制，禁止给4-5）——财报亏损/下滑/暴跌；1-3分——微小事件（无金额量化、非关键公司、普通功能更新），不要把所有事件都打4分以上，分数从1开始有梯度。
 只返回JSON数组，不要解释。"""
 
 AI_EXAMPLES = """
@@ -2585,6 +2757,14 @@ AI_EXAMPLES = """
 示例3（"Report"是"据报道"而非研报）：
 标题: "Cursor To Open First India Office By 2026 End: Report"
 输出: {"url":"","event_types":"strategy","content_overview":"AI编程公司Cursor计划在2026年底前开设印度首个办公室","summary_short":"Cursor计划2026年底开印度办公室","reason":"AI编程工具公司加速全球化布局，亚太开发者市场战略地位上升","impact":"印度开发者生态、AI工具渠道合作方","insight_label":"合作机会","trend_topic":"AI编程工具全球化","score":5,"canonical_company":"Cursor","canonical_key":""}
+
+示例4（财报亏损必须高分档，禁止给4-5）：
+标题: "Zaggle plunges 20% to hit lower circuit after Q1 profit slump"
+输出: {"url":"","event_types":"earnings","content_overview":"印度金融科技SaaS公司Zaggle一季度利润大幅下滑，股价暴跌20%触及单日跌停","summary_short":"Zaggle利润下滑股价暴跌20%","reason":"印度金融科技高估值股业绩失速引发估值修正，同类SaaS公司财报风险需关注","impact":"印度SaaS板块、金融科技投资者","insight_label":"警示信号","trend_topic":"印度金融科技估值修正","score":8,"canonical_company":"Zaggle","canonical_key":"20%"}
+
+示例5（微小事件必须低分1-3）：
+标题: "X adds video overlays"
+输出: {"url":"","event_types":"strategy","content_overview":"社交平台X为视频功能增加叠加层小工具","summary_short":"X增加视频叠加功能","reason":"社交平台常规功能迭代，为视频创作者提供新工具","impact":"视频创作者、品牌营销方","insight_label":"背景补充","trend_topic":"社交产品功能迭代","score":3,"canonical_company":"X","canonical_key":""}
 """
 
 def analyze_events_doubao(items):
@@ -2716,8 +2896,17 @@ def _results_by_url(results):
 
 
 def _chat_api_candidates():
-    """Return AI chat APIs in priority order: DeepSeek primary, Doubao fallback."""
+    """Return AI chat APIs in priority order: 方舟 V4 Flash primary, DeepSeek, Doubao fallback."""
     apis = []
+    ark_key = os.environ.get('ARK_API_KEY', '')
+    if ark_key and len(ark_key) >= 10:
+        apis.append({
+            'id': 'ark',
+            'name': '方舟 V4 Flash',
+            'url': 'https://ark.cn-beijing.volces.com/api/v3/chat/completions',
+            'key': ark_key,
+            'model': os.environ.get('ARK_MODEL') or 'ep-20260827101830-qgtm4',
+        })
     ds_key = os.environ.get('DEEPSEEK_API_KEY', '')
     if ds_key and len(ds_key) >= 10:
         apis.append({
@@ -2746,6 +2935,9 @@ def _post_chat(api, prompt, max_tokens=1024, temperature=0.1, timeout=(10, 20)):
         "max_tokens": max_tokens,
         "temperature": temperature,
     }
+    if api.get('id') == 'ark':
+        # 方舟 GA 版强制关闭深度思考：响应快（无需 120s 宽限）、reasoning 不计量、输出额度全给正文
+        payload['reasoning'] = {"effort": "none"}
     headers = {
         "Authorization": "Bearer " + api['key'],
         "Content-Type": "application/json"
@@ -3137,8 +3329,7 @@ def infer_bd_context(item, score=None):
         if item_name not in opportunities:
             opportunities.append(item_name)
 
-    s = score if score is not None else _calc_score(item)
-    priority = classify_bd_priority(item, s)
+    priority = classify_bd_priority(item)
     window = follow_up_window_for_priority(priority)
 
     if not triggers:
@@ -3369,6 +3560,7 @@ def main():
     print(f"   {_cn_now().strftime('%Y-%m-%d %H:%M')} | 目标：融资/并购/财报/战略\n")
 
     os.makedirs('data', exist_ok=True)
+    _load_fact_ledger()
     try:
         with open('data/events.json', 'r', encoding='utf-8') as f:
             all_events = json.load(f)
@@ -3660,6 +3852,8 @@ def main():
     today_events = []
     if ai_tier:
         fill_event_images(ai_tier)
+        use_ark = configure_ark()
+        ark_dead = not use_ark
         use_deepseek = configure_deepseek()
         deepseek_dead = not use_deepseek
         use_doubao = False
@@ -3671,8 +3865,18 @@ def main():
             batch_idx = (i // 8) + 1
             total_batches = (len(ai_tier) + 7) // 8
 
-            # DeepSeek 主力；连续失败后本轮后续批次直接走豆包兜底
-            if not deepseek_dead:
+            # 方舟 V4 Flash 主力（降本 6 倍）；连续失败后降级 DeepSeek → 豆包
+            if not ark_dead:
+                results = analyze_events_ark(batch)
+                if results is None:
+                    print(f"  批次 {batch_idx}/{total_batches} 方舟失败→降级...")
+                    ark_dead = True
+                else:
+                    result_source = 'ark'
+                    print(f"  批次 {batch_idx}/{total_batches} 方舟 ✅")
+
+            # DeepSeek 二级；连续失败后本轮后续批次直接走豆包兜底
+            if results is None and not deepseek_dead:
                 results = analyze_events_deepseek(batch)
                 if results is None:
                     print(f"  批次 {batch_idx}/{total_batches} DeepSeek 失败→降级...")
@@ -3710,13 +3914,13 @@ def main():
                 for item in batch:
                     r = result_map.get(item['url'])
                     if r:
-                        today_events.append(
-                            build_event(
-                                item,
-                                r,
-                                analysis_source=result_source or 'ai',
-                            )
+                        ev = build_event(
+                            item,
+                            r,
+                            analysis_source=result_source or 'ai',
                         )
+                        _apply_fact_score_rules(ev)
+                        today_events.append(ev)
                     else:
                         today_events.append(
                             build_event(
@@ -3820,6 +4024,8 @@ def main():
 
     with open('data/events.json', 'w', encoding='utf-8') as f:
         json.dump(all_events, f, ensure_ascii=False, indent=2)
+    _save_fact_ledger()
+    print(f"  📒 事实评分账本：{len(_fact_ledger)} 个指纹")
     run_metrics['finished_at'] = _cn_now().isoformat()
     run_metrics['history'] = {
         'total_events': sum(len(v) for v in all_events.values()),

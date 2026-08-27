@@ -204,15 +204,16 @@ def test_review_selector_keeps_real_google_org_action_out_of_main():
         company_name='Naver',
         is_company=True,
         event_types=['ma'],
-        score=5,
+        attention_score=60,
+        confidence_score=60,
     )
     assert select_review_events([event]) == [event]
 
 
 def test_daily_event_groups_keep_all_homepage_events_visible():
-    selected = base_event(score=7, url='https://example.com/selected')
-    important = base_event(score=4, url='https://example.com/important', event_types=['strategy'])
-    watch = base_event(score=2, url='https://example.com/watch')
+    selected = base_event(attention_score=75, confidence_score=70, url='https://example.com/selected')
+    important = base_event(attention_score=60, confidence_score=60, url='https://example.com/important', event_types=['strategy'])
+    watch = base_event(attention_score=25, confidence_score=30, url='https://example.com/watch')
     homepage_events = select_homepage_events([selected, important, watch], '2026-05-31')
     groups = build_daily_event_groups(homepage_events)
 

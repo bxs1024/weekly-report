@@ -67,11 +67,22 @@ def event_type(event):
     return types[0] if types else 'other'
 
 
-def event_score(event):
+def _rule_layer_score(event):
+    """规则层注意力分（0-100）；存量事件缺字段时实时补算（内存态，不写回）。"""
+    score = signal_score(event, 'attention_score')
+    if score > 0:
+        return score
     try:
-        return float(event.get('score') or 0)
-    except (TypeError, ValueError):
-        return 0
+        from signal_scoring import apply_signal_contract
+        apply_signal_contract(event)
+    except Exception:
+        pass
+    return signal_score(event, 'attention_score')
+
+
+def event_score(event):
+    """展示/排序用分数：统一走规则层注意力分（0-100），AI 0-10 分不再参与展示决策。"""
+    return _rule_layer_score(event)
 
 
 def signal_score(event, field):
@@ -221,21 +232,21 @@ def classify_bd_priority(event, score=None):
         return '观察'
 
     if ev_type == 'other':
-        return '中' if is_company and source_tier == 'L1 官方/IR源' and s >= 4 else '观察'
+        return '中' if is_company and source_tier == 'L1 官方/IR源' and s >= 40 else '观察'
 
-    high_threshold = 7
+    high_threshold = 70
     if source_tier == 'L1 官方/IR源':
-        high_threshold = 5
+        high_threshold = 50
     elif is_google:
-        high_threshold = 7
+        high_threshold = 70
 
     if is_google and is_low_signal_google_news(event):
         return '观察'
     if s >= high_threshold:
         return '高'
-    if ev_type in HIGH_VALUE_SIGNAL_TYPES and s >= 5 and not is_google:
+    if ev_type in HIGH_VALUE_SIGNAL_TYPES and s >= 50 and not is_google:
         return '高'
-    if ev_type in STRONG_EVENT_TYPES and (s >= 4 or is_company):
+    if ev_type in STRONG_EVENT_TYPES and (s >= 40 or is_company):
         return '中'
     return '观察'
 

@@ -25,7 +25,7 @@ def base_event(**overrides):
 
 
 def test_low_score_signal_is_not_high():
-    event = base_event(score=2)
+    event = base_event(attention_score=30, confidence_score=30)
     assert classify_bd_priority(event) == '观察'
     assert not is_high_value_event(event)
     assert should_show_in_main_list(event)
@@ -55,7 +55,8 @@ def test_google_news_real_org_action_can_enter_review_not_main():
         company_name='Naver',
         is_company=True,
         event_types=['ma'],
-        score=5,
+        attention_score=60,
+        confidence_score=60,
     )
     assert classify_bd_priority(event) == '中'
     assert not should_show_in_main_list(event)
@@ -63,7 +64,7 @@ def test_google_news_real_org_action_can_enter_review_not_main():
 
 
 def test_non_google_strong_signal_is_high_value():
-    event = base_event(score=5)
+    event = base_event(attention_score=60, confidence_score=60)
     assert classify_bd_priority(event) == '高'
     assert is_high_value_event(event)
     assert should_show_in_main_list(event)
@@ -91,7 +92,8 @@ def test_actionable_ai_infra_funding_can_stay_homepage_main():
         reason='大额融资明确用于AI基础设施和云服务扩张',
         impact='云服务商、GPU供应链、企业AI集成商',
         signal_taxonomy=['capital', 'ai_infra'],
-        score=7,
+        attention_score=75,
+        confidence_score=70,
     )
     assert classify_bd_priority(event) == '高'
     assert is_high_value_event(event)
