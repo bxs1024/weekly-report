@@ -1,11 +1,19 @@
 {
   "version": 1,
-  "generated_at": "2026-08-27T18:52:46.204885+08:00",
+  "generated_at": "2026-08-27T19:38:00.580240+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-08-27T18:52:46.204885+08:00",
+      "observed_at": "2026-08-27T19:38:00.580240+08:00",
       "jobs": [
+        {
+          "id": "744000145950619",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000145950619/lead-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000145946869",
           "title": "Senior Software Engineer",
@@ -130,21 +138,12 @@
             "engineering",
             "payments"
           ]
-        },
-        {
-          "id": "744000145652638",
-          "title": "Intern - Payment Ecosystem",
-          "url": "https://www.grab.careers/en/jobs/744000145652638/intern-payment-ecosystem/",
-          "function_tags": [
-            "payments",
-            "partnerships"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-08-27T18:52:46.204885+08:00",
+      "observed_at": "2026-08-27T19:38:00.580240+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -265,7 +264,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-08-27T18:52:46.204885+08:00",
+      "observed_at": "2026-08-27T19:38:00.580240+08:00",
       "jobs": [
         {
           "id": "c781fed2-4408-4720-8734-45458585e762",
