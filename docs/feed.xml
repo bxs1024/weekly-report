@@ -3,12 +3,20 @@
   <title>全球互联网百晓生 · 事件流</title>
   <subtitle>高价值事件推送，日报日期：2026-08-27</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-08-27T11:01:36Z</updated>
+  <updated>2026-08-27T21:53:46Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
+  <entry>
+    <title>美国半导体关税范围解析</title>
+    <link href="https://thenextweb.com/news/semiconductor-tariffs-data-centre-exemption-phase-two"/>
+    <id>tag:weekly-report,2026:event-3bf6096c</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;What the US semiconductor tariff does and does not currently touch&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;文章解释了美国半导体关税目前涵盖和不涵盖的内容。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美半导体关税政策影响全球芯片供应链，企业需关注关税对成本和采购策略的影响。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：北美 | 来源：The Next Web&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>加拿大支付商Helcim融资C$53M</title>
     <link href="https://www.finextra.com/newsarticle/48306/canadian-payment-processor-helcim-raises-c53m?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
@@ -18,12 +26,36 @@
     <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Canadian payment processor Helcim raises C$53m&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;加拿大支付处理商Helcim完成5300万加元融资，资金将用于扩展其支付解决方案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美支付处理赛道持续获资本注入，Helcim将加速产品迭代和商户拓展。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：北美 | 来源：Finextra&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>《Ananta》定档2027年1月，预注册破1700万</title>
+    <link href="https://www.pocketgamer.biz/ananta-sets-january-2027-launch-date-as-pre-registration-passes-17m/"/>
+    <id>tag:weekly-report,2026:event-e2642e85</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ananta sets January 2027 launch date as pre-registration passes 17m&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;游戏《Ananta》宣布将于2027年1月上线，目前预注册用户已超过1700万。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球高期待度游戏定档，发行前营销和云基础设施合作方将提前锁定预算&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>英伟达接近收购Hugging Face</title>
+    <link href="https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/"/>
+    <id>tag:weekly-report,2026:event-3086d8c5</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia closes in on Hugging Face acquisition&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英伟达（Nvidia）接近完成对Hugging Face的收购。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI芯片巨头英伟达拟收购AI模型平台Hugging Face，AI基础设施与模型生态整合加速，将重塑AI开发工具链和模型分发格局。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>英伟达拟$12.9B收购Hugging Face</title>
     <link href="https://tech.eu/2026/08/27/nvidia-agrees-to-buy-hugging-face-for-12-9bn-says-report/"/>
     <id>tag:weekly-report,2026:event-5d632ae1</id>
     <published>2026-08-27T00:00:00Z</published>
     <updated>2026-08-27T00:00:00Z</updated>
     <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia agrees to buy Hugging Face for $12.9BN, says report&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;据报道，英伟达同意以129亿美元收购AI模型平台Hugging Face。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI芯片巨头收购AI模型平台，将深度整合硬件与模型生态，可能重塑AI开发工具链和模型分发渠道。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>InstaAstro获$12M融资扩展AI法事服务</title>
+    <link href="https://inc42.com/buzz/instaastro-bags-12-mn-to-build-ai-tools-expand-online-pooja-services/"/>
+    <id>tag:weekly-report,2026:event-da351200</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;InstaAstro Bags $12 Mn To Build AI Tools, Expand Online Pooja Services&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度在线宗教服务平台InstaAstro获得1200万美元融资，将用于开发AI工具并扩展在线法事服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度宗教科技赛道获资本注入，AI内容生成和本地化支付解决方案需求上升&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Techcombank或出售15%股份，估值约20亿美元</title>
@@ -50,12 +82,44 @@
     <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Poland has asked the European Commission to fine Meta €250M over scam ads&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;波兰政府已要求欧盟委员会对Meta处以2.5亿欧元罚款，原因是其平台上存在诈骗广告。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲监管压力升级，Meta广告审核机制面临合规挑战，第三方广告安全技术需求增加&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>新方案自动化桌面任务辅助运动障碍用户</title>
+    <link href="https://www.techinasia.com/automating-desktop-tasks-users-motor-impairments"/>
+    <id>tag:weekly-report,2026:event-c5e30fc2</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Automating desktop tasks for users with motor impairments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一项新技术旨在为运动障碍用户自动化桌面任务，提升无障碍操作体验。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太无障碍科技细分赛道出现新方案，企业级辅助软件和硬件接口集成存在合作空间&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>OpenAI扩大巴西业务布局</title>
+    <link href="https://openai.com/index/expanding-our-presence-in-brazil"/>
+    <id>tag:weekly-report,2026:event-554e3900</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Expanding OpenAI’s presence in Brazil&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;OpenAI宣布扩大在巴西的业务布局，具体举措包括设立办公室或增加本地合作。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;拉美AI市场潜力巨大，OpenAI加大巴西投入，为本地企业提供AI解决方案和合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：拉美 | 公司：OpenAI | 来源：OpenAI News&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>报告：AI是东盟金融科技最稀缺技能</title>
     <link href="https://fintechnews.sg/136352/ai/ai-emerges-as-asean-fintechs-most-scarce-skill/"/>
     <id>tag:weekly-report,2026:event-00eae07d</id>
     <published>2026-08-27T00:00:00Z</published>
     <updated>2026-08-27T00:00:00Z</updated>
     <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AI Emerges as ASEAN Fintech’s Most Scarce Skill&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一份行业报告指出，人工智能已成为东盟金融科技领域最稀缺的技能，反映出该地区在AI人才方面的供需缺口。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚金融科技AI人才缺口显著，为AI培训、招聘和外包服务商带来明确市场机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Naphora Games三款手游进入软启动</title>
+    <link href="https://www.pocketgamer.biz/naphora-games-enters-soft-launch-with-three-mobile-titles/"/>
+    <id>tag:weekly-report,2026:event-50c4ddf2</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Naphora Games enters soft launch with three mobile titles&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;游戏公司Naphora Games携三款移动游戏进入软启动阶段。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球移动游戏市场新入局者，软启动阶段为渠道合作和用户获取提供早期机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Thatgamecompany推出新发行品牌</title>
+    <link href="https://www.pocketgamer.biz/thatgamecompany-launches-new-publishing-label/"/>
+    <id>tag:weekly-report,2026:event-d78b7b79</id>
+    <published>2026-08-27T00:00:00Z</published>
+    <updated>2026-08-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Thatgamecompany launches new publishing label&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;游戏公司Thatgamecompany宣布推出新的发行品牌，拓展发行业务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球独立游戏发行赛道再添新玩家，中小开发团队获得新的发行渠道选择&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>TRM Labs聘请MAS前高管负责亚太政策</title>
@@ -74,59 +138,11 @@
     <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Viral AI startup Instinct has raised $350M at a $2.5B valuation&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI初创公司Instinct完成3.5亿美元融资，估值达到25亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI初创公司估值飙升，反映资本对AI应用层的高预期，可能带动相关技术服务和算力需求。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>《Ananta》定档2027年1月，预注册破1700万</title>
-    <link href="https://www.pocketgamer.biz/ananta-sets-january-2027-launch-date-as-pre-registration-passes-17m/"/>
-    <id>tag:weekly-report,2026:event-e2642e85</id>
-    <published>2026-08-27T00:00:00Z</published>
-    <updated>2026-08-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ananta sets January 2027 launch date as pre-registration passes 17m&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;游戏《Ananta》宣布将于2027年1月上线，目前预注册用户已超过1700万。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球高期待度游戏定档，发行前营销和云基础设施合作方将提前锁定预算&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>英伟达接近收购Hugging Face</title>
-    <link href="https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/"/>
-    <id>tag:weekly-report,2026:event-3086d8c5</id>
-    <published>2026-08-27T00:00:00Z</published>
-    <updated>2026-08-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia closes in on Hugging Face acquisition&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英伟达（Nvidia）接近完成对Hugging Face的收购。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI芯片巨头英伟达拟收购AI模型平台Hugging Face，AI基础设施与模型生态整合加速，将重塑AI开发工具链和模型分发格局。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>InstaAstro获$12M融资扩展AI法事服务</title>
-    <link href="https://inc42.com/buzz/instaastro-bags-12-mn-to-build-ai-tools-expand-online-pooja-services/"/>
-    <id>tag:weekly-report,2026:event-da351200</id>
-    <published>2026-08-27T00:00:00Z</published>
-    <updated>2026-08-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;InstaAstro Bags $12 Mn To Build AI Tools, Expand Online Pooja Services&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度在线宗教服务平台InstaAstro获得1200万美元融资，将用于开发AI工具并扩展在线法事服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度宗教科技赛道获资本注入，AI内容生成和本地化支付解决方案需求上升&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>新方案自动化桌面任务辅助运动障碍用户</title>
-    <link href="https://www.techinasia.com/automating-desktop-tasks-users-motor-impairments"/>
-    <id>tag:weekly-report,2026:event-c5e30fc2</id>
-    <published>2026-08-27T00:00:00Z</published>
-    <updated>2026-08-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Automating desktop tasks for users with motor impairments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一项新技术旨在为运动障碍用户自动化桌面任务，提升无障碍操作体验。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太无障碍科技细分赛道出现新方案，企业级辅助软件和硬件接口集成存在合作空间&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Thatgamecompany推出新发行品牌</title>
-    <link href="https://www.pocketgamer.biz/thatgamecompany-launches-new-publishing-label/"/>
-    <id>tag:weekly-report,2026:event-d78b7b79</id>
-    <published>2026-08-27T00:00:00Z</published>
-    <updated>2026-08-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Thatgamecompany launches new publishing label&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;游戏公司Thatgamecompany宣布推出新的发行品牌，拓展发行业务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球独立游戏发行赛道再添新玩家，中小开发团队获得新的发行渠道选择&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>惠普与华为专利和解后划清界限</title>
-    <link href="https://www.mobileworldlive.com/ranvendors/hp-distances-from-huawei-ties-following-patent-deal/"/>
-    <id>tag:weekly-report,2026:event-cf020102</id>
-    <published>2026-08-27T00:00:00Z</published>
-    <updated>2026-08-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;HP distances itself from Huawei ties following patent deal&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;惠普在达成专利协议后，公开表态与华为保持距离，强调自身独立立场。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球科技供应链地缘政治敏感度上升，惠普此举或影响其与华为在通信专利交叉授权上的后续合作深度。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>全球AI视野 Top5 · 2026-08-27</title>
+    <title>全球AI视野 Top5 · 2026-08-28</title>
     <link href="https://aihot.virxact.com/hot"/>
-    <id>tag:weekly-report,2026:aihot-b7eb5e97</id>
-    <published>2026-08-27T00:00:00Z</published>
-    <updated>2026-08-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-08-27T13:18&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;amp;mid=2647685603&amp;amp;idx=1&amp;amp;sn=91bbef667086bed84b6f213be79733aa"&gt;智谱发布 GLM-5.3-Flash 原生多模态模型（热度 124）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://x.com/rohanpaul_ai/status/2092723656388677752"&gt;Google DeepMind 发布 Gemini 3.5 Transcribe（热度 101）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.ithome.com/0/994/797.htm"&gt;OpenAI 发布 Hugging Face 泄露事件官方报告（热度 101）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Aug/26/qwen38-flash-next"&gt;Alibaba Qwen 发布 Qwen3.8-Flash-Next（热度 93）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.ithome.com/0/994/791.htm"&gt;Nvidia 发布 Q2 FY2027 财报（热度 46）&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <id>tag:weekly-report,2026:aihot-efd392fc</id>
+    <published>2026-08-28T00:00:00Z</published>
+    <updated>2026-08-28T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-08-28T05:49&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://x.com/SiliconFlowAI/status/2092966798136414242"&gt;智谱发布 GLM-5.3-Flash 原生多模态模型（热度 150）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://x.com/rohanpaul_ai/status/2092723656388677752"&gt;Google DeepMind 发布 Gemini 3.5 Transcribe（热度 87）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://x.com/frxiaobei/status/2092965604986699915"&gt;OpenAI 发布 Hugging Face 泄露事件官方报告（热度 83）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash"&gt;Google 发布 Gemini Omni 1.1 Flash（热度 79）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://simonwillison.net/2026/Aug/26/qwen38-flash-next"&gt;Alibaba Qwen 发布 Qwen3.8-Flash-Next（热度 58）&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
