@@ -1,0 +1,422 @@
+{
+  "version": 1,
+  "periods": {
+    "weekly:2026-W19": {
+      "input_hash": "b313577c40a81c2e480025ca777cd2f807f12b50a99c4dc83979c455db010fd8",
+      "editorial": {
+        "editorial_title": "AI重塑云服务，支付跨境加速",
+        "mainline": "本周，AI对云服务商的冲击从概念变为现实：Cloudflare因AI代理替代人力而裁员，股价暴跌；同时Cerebras因需求上调IPO估值，显示资本仍看好AI芯片。另一边，跨境支付与区域合作在亚太、中东、非洲多点开花，从二维码互通到钱包牌照，支付基础设施正加速全球化。",
+        "themes": {
+          "ai_infra": "Cloudflare在盈利的同时裁员1100人，因AI代理已能承担部分工作，市场以股价暴跌四分之一回应，凸显AI对传统云服务商业模式的颠覆。而Cerebras因需求强劲可能上调IPO估值，显示资本对AI芯片的热情未减。基础设施数据平台OpsMill获1400万美元A轮融资，AI交易机器人平台亦在兴起，行业正经历结构性调整。",
+          "expansion": "Careem Pay与Adyen深化跨境转账合作，Paga通过Sui区块链切入加密支付，Bumpa与Vendorcredit为尼日利亚中小企业提供信贷，塔塔与JSW则计划投资10亿美元推动印度电动车以减少对华依赖。这些动作显示中东、非洲及南亚的科技公司正通过合作拓展边界，支付与金融基础设施成为区域扩张的关键抓手。",
+          "payments": "印尼与中国通过Alipay+实现跨境二维码支付，UAE向Tabby发放钱包牌照，使其从BNPL扩展至更广泛的支付服务，Adyen为Lavazza统一全球支付，Balcony获1270万美元融资用于Avalanche资产增长。支付场景从线下到线上、从区域到全球，跨境互联与牌照扩展成为本周主旋律。"
+        },
+        "theme_titles": {
+          "ai_infra": "AI代理冲击云服务商，裁员与IPO并存",
+          "expansion": "中东与非洲支付网络向外延伸，合作密集",
+          "payments": "跨境二维码互通，钱包牌照扩展支付场景"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:35"
+    },
+    "weekly:2026-W20": {
+      "input_hash": "c86e3f0ada0259d996a553e3909634e9cc8160dd150983a676b5ea3ff26d9019",
+      "editorial": {
+        "editorial_title": "AI重塑成本结构，支付巨头转向盈利",
+        "mainline": "本周，AI投资从模型训练转向能源与基础设施，GridCARE与Nscale的大额融资印证了这一趋势。同时，华尔街银行裁员与印度科技股下跌，标志着行业从增长叙事转向盈利优先。Jumia用AI替代岗位，成为这一转变的缩影。",
+        "themes": {
+          "ai_infra": "GridCARE的6400万美元融资将AI引入能源管理，Nscale的7.9亿美元则投向挪威数据中心，显示AI基础设施投资正从模型转向能源与算力部署。Flipkart暂停IPO则提醒市场，资本在追逐AI的同时，对传统电商的耐心正在消退。",
+          "payments": "华尔街六大银行裁员1.5万人，而伦敦金融科技Banked被收购，Kora CFO强调盈利性建设，支付行业正从规模扩张转向利润兑现。印度新经济科技股下跌，进一步强化了市场对盈利能力的审视。",
+          "operations": "Jumia用AI替换200个岗位以在2026年底实现盈利，Delhivery营收增长但利润持平，显示运营效率成为焦点。Cerebras IPO为Benchmark带来巨额回报，但VC差点错过，凸显AI投资的高风险与高回报并存。",
+          "expansion": "DayOne考虑在新加坡和美国双重上市，反映东南亚数字基础设施投资热度。Mastercard与京东合作，Allegro牵手OpenAI，显示支付与电商平台正通过战略合作拓展生态，而非单打独斗。",
+          "commerce": "Naver投资Kurly重燃其IPO希望，黑石收购希腊电商公司，资本看好电商细分市场。但Temu卖家使用假USPS标签，暴露跨境物流合规漏洞，成为行业警示。Allegro盈利预期增长，显示电商平台正通过效率提升实现盈利。"
+        },
+        "theme_titles": {
+          "ai_infra": "",
+          "payments": "",
+          "operations": "",
+          "expansion": "",
+          "commerce": ""
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:36"
+    },
+    "weekly:2026-W21": {
+      "input_hash": "8acab0d6699686bfb28be8372d7466dbb1a6b0b805fc9aba7a6978454a9d6e29",
+      "editorial": {
+        "editorial_title": "东南亚基建大棋局，AI落地转向行业纵深",
+        "mainline": "亚马逊宣布2039年前在东南亚投资超330亿美元，将区域云计算与电商基建推向新阶段。与此同时，AI投资热点从通用平台转向垂直应用，旅行金融、劳动力管理等细分赛道频获大额融资，显示资本正寻找更具确定性的落地场景。",
+        "themes": {
+          "ai_infra": "亚马逊将东南亚视为下一个十年核心增长极，超330亿美元的投资计划覆盖云计算与电商基础设施。此举将直接冲击阿里云、腾讯云在区域内的既有布局，并带动本地数据中心、网络设备及企业服务生态的连锁扩张。",
+          "payments": "Scapia获6300万美元融资，将AI嵌入旅行支付场景，而Checker以800万美元拓展非洲与亚洲稳定币基础设施。与此同时，Branch在肯尼亚和尼日利亚裁员，Cashfree仍困于盈利难题，显示支付行业正从普惠覆盖转向高价值场景深耕。",
+          "expansion": "Mistplay收购后推出激励广告受众网络，Findd获2100万美元拓展AI劳动力管理，Unframe获5000万美元扩张。欧洲AI投资明显偏向能快速产生收入的垂直应用，而非底层模型，资本更看重商业化验证。",
+          "operations": "孩之宝靠《万智牌》成为营收明星，柏林Peec年化收入翻倍至千万美元，但印度Nazara受游戏法案和减值拖累，Yatra利润暴跌46%。同一赛道内，IP运营能力和合规成本正成为决定业绩的关键变量。",
+          "commerce": "Jumia CEO重申对非洲长期机会的信心，而MercadoLibre财报后股价跌13%，但Michael Burry认为其估值偏低。新兴市场电商正经历从增长叙事到盈利验证的转折，投资者对短期波动与长期价值的判断出现明显分歧。",
+          "developer": "StreamElements确认收购谈判，面临关闭传闻，而Fresha获6890万欧元融资成为英国新独角兽。开发者工具与垂直SaaS平台正经历两极分化：缺乏差异化优势的工具面临整合，而深度绑定行业流程的平台仍获资本追捧。"
+        },
+        "theme_titles": {
+          "ai_infra": "亚马逊330亿美金押注东南亚，云基建竞赛升级",
+          "payments": "支付赛道分化：旅行金融受捧，稳定币扩张，传统玩家收缩",
+          "expansion": "欧洲AI应用融资活跃，激励广告与劳动力管理成热点",
+          "operations": "IP驱动增长与盈利预警并存，游戏与旅游企业业绩分化",
+          "commerce": "非洲电商信心不减，拉美巨头股价波动引价值争议",
+          "developer": "SaaS整合潮起：StreamElements寻售，Fresha逆势成独角兽"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:36"
+    },
+    "weekly:2026-W22": {
+      "input_hash": "3f728bfa1303e2e89f789520a6caacf43a36abebdf18371b4a272c50f6d5ca55",
+      "editorial": {
+        "editorial_title": "AI资本涌入实体，支付与内容生态竞速",
+        "mainline": "本周，AI投资从纯软件向物理世界与垂直场景渗透，欧洲与印度市场尤为活跃。同时，支付与内容平台加速全球化扩张，通过并购与新品布局争夺入口。资本流向显示，投资者更青睐能直接产生营收的AI应用与区域龙头，而非基础模型。",
+        "themes": {
+          "ai_infra": "Kopa.ai的电商AI代理融资与Transition Ventures的实体世界基金，共同指向AI落地场景的细化。Airbnb领投WeRoad并吸纳其CEO，显示平台正将AI与旅行体验深度绑定。Meta的付费层尝试则表明，AI变现已从企业服务蔓延至消费端。",
+          "payments": "TrueLayer收购In3将开放银行与结账信贷结合，Scapia与Relay的融资则分别切入旅行与中小企业银行场景。加密货币计算器指南的发布，暗示市场教育需求上升，为合规工具与本地化支付方案创造空间。",
+          "developer": "Airwallex推出全球计费平台，直击跨境收入复杂性痛点；Go Swag与WeRoad的融资则显示礼品与团体旅行平台正通过API化扩张。Mokn的A轮融资表明，身份保护正成为平台信任基础设施的关键模块。",
+          "expansion": "Naver Webtoon将电影IP延伸至前传系列，强化跨媒介叙事生态；Pure DC获27亿美元融资加速欧洲与中东数据中心布局。Line Man与Cognition的扩张则分别代表本地生活与AI工程的全球化，显示资本正同时押注数字与物理基础设施。",
+          "operations": "Menhood与AvenuesAI的营收利润双增，反映DTC与AI服务需求旺盛；而Navi Finserv利润暴跌46%，TBO Tek增收不增利，显示金融科技与旅游平台正面临成本与竞争压力。分化态势将加速行业整合。",
+          "commerce": "MercadoLibre董事增持传递内部信心，Stord获2.5亿美元融资挑战亚马逊履约网络，Tequipy则用自动化设备物流切入跨境供应链。三者共同指向电商后端效率的竞争，物流科技成为拉美市场新投资热点。"
+        },
+        "theme_titles": {
+          "ai_infra": "",
+          "payments": "",
+          "developer": "",
+          "expansion": "",
+          "operations": "",
+          "commerce": ""
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:36"
+    },
+    "weekly:2026-W23": {
+      "input_hash": "402678fa41a312c9d4e150962acb3b81c575c3aa8a4bc86d98d728ff34227ead",
+      "editorial": {
+        "editorial_title": "AI资本涌入，全球科技版图重构",
+        "mainline": "本期，AI基础设施领域迎来巨额融资与跨界合作，从企业支出管理到区域语音AI，资本正加速重塑行业格局。同时，支付与金融科技领域出现高估值交易，非洲市场创新模式涌现，显示全球科技投资热点正从单一赛道向多元化、区域化纵深发展。",
+        "themes": {
+          "ai_infra": "Ramp以7.5亿美元融资和会计产品上线，标志着AI正深度嵌入企业财务流程。Nvidia CEO可能访问Naver，暗示与韩国科技巨头的AI合作将深化。AethexAI和kAIgentic的融资则显示，AI基础设施正从通用算力向垂直行业和新兴市场渗透，语音AI和全球化企业服务成为新增长点。",
+          "developer": "Oxford Quantum Circuits的3.01亿欧元C轮融资，将量子计算与AI数据中心结合，预示下一代计算基础设施的竞争已开启。Snap收购Illumix布局空间AI，Atari和ixigo的收购则显示，成熟平台正通过并购获取新兴技术或市场入口，开发者生态的整合与变现路径日益清晰。",
+          "payments": "非洲公司创新性地将股市与比特币挂钩，为加密资产投资开辟新渠道，可能重塑新兴市场的支付与投资逻辑。Revolut的1150亿美元二级市场出售和GIC对Ramp的加注，表明资本对金融科技高增长赛道的信心不减，同时MobiKwik的IPO资金调整也反映出市场对资金使用效率的更高要求。",
+          "expansion": "Innefu Labs的3000万美元融资，凸显印度网络安全市场的旺盛需求，本地化安全方案成为投资热点。Peak XV减持Go Digit股份，可能暗示早期投资者对保险科技估值见顶的谨慎。Gigaton和PLD Space的融资则显示，能源与航天领域的自主化、商业化进程正在加速，区域扩张不再局限于互联网行业。",
+          "commerce": "Allegro获得欧洲投资银行2.75亿美元贷款专项用于AI研发，表明传统电商巨头正将AI作为核心竞争壁垒。CargoX的2.5亿美元融资推动无人驾驶物流扩张，ONDC获得Uber、Zoho等战略投资，则显示电商基础设施的开放与协同正在成为全球趋势，从欧洲到印度，物流与AI的融合正在重塑商业效率。",
+          "compliance": "SEALSQ收购Wecan Group并投资540万欧元，布局后量子金融安全，预示金融安全硬件将迎来升级换代。Meta追踪工具引发GDPR担忧，凸显合规压力。Bayshore和Oplane的融资则表明，将合规规则转化为代码、为AI开发团队提供安全方案，正成为网络安全领域的新兴增长点，合规与安全的边界日益模糊。"
+        },
+        "theme_titles": {
+          "ai_infra": "AI基础设施融资潮涌，企业级应用成焦点",
+          "developer": "量子AI与空间计算获资本青睐，开发者生态加速整合",
+          "payments": "非洲比特币通道兴起，支付巨头估值飙升",
+          "expansion": "印度安全初创获投，区域扩张聚焦本地化",
+          "commerce": "欧洲电商加码AI，物流无人化加速落地",
+          "compliance": "后量子安全并购开启，合规自动化成新赛道"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:36"
+    },
+    "weekly:2026-W24": {
+      "input_hash": "df2a5d7c48fd6d1a1d3fdac23a80b38f925887463ba8ce8fed84899c2fcd36a3",
+      "editorial": {
+        "editorial_title": "AI资本重构与支付并购潮",
+        "mainline": "本周，AI基础设施投资从通用转向垂直应用，Roblox收购Morpheus AI、SK Telecom与NTT设立基金，显示资本正流向内容生成与行业解决方案。同时，支付领域并购升温，Nuvei与Payoneer谈判、Clip巨额融资，预示行业整合加速。",
+        "themes": {
+          "ai_infra": "Roblox收购Morpheus AI并引入创始人，强化AI内容生成能力；SK Telecom与NTT联合设立5亿美元基金，聚焦AI创新。AI成本下降虽引发短期恐慌，但正催生新收入模式，Creator Fund的融资表明欧洲创新者仍获资本青睐。",
+          "developer": "Pharmaforte吸引PE与战略投资者，Mygate获2400万美元融资，显示东南亚健康与物流科技赛道活跃。Uber增持Delivery Hero股份并探索资产出售，暗示整合与退出并行。Definic更名融资，凸显供应商情报平台价值。",
+          "payments": "Nuvei与Payoneer的27亿美元收购谈判进入高级阶段，支付聚合商整合加速。墨西哥Clip获5亿美元融资并推数字钱包，拉美支付竞争白热化。Grab拟参与Atome Financial融资，东南亚支付生态持续扩张。",
+          "expansion": "NTT全球数据中心寻求10亿美元用于美国扩张，数据中心供应链迎来大单。Google与Walmart Connect合作，强化零售媒体网络。Bed Bath & Beyond持续收购，Rem3dy Health融资扩张，显示多行业区域拓展活跃。",
+          "commerce": "奥斯陆AI电商自动化初创Mimir获种子轮，罗马尼亚Naratix融资，欧洲电商工具早期投资活跃。印度Meesho遭Fidelity减持，Zepto亏损扩大但收入翻倍，显示印度电商高增长伴随高消耗。",
+          "operations": "Lands' End因仓库问题营收下滑，凸显运营风险。Kakao工会罢工要求利润分成，劳资矛盾影响经营。台积电营收增长30%，AI需求持续强劲，VNG利润解读多视角，反映科技公司盈利质量受关注。"
+        },
+        "theme_titles": {
+          "ai_infra": "",
+          "developer": "",
+          "payments": "",
+          "expansion": "",
+          "commerce": "",
+          "operations": ""
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:36"
+    },
+    "weekly:2026-W25": {
+      "input_hash": "b133e039ff4987ff68db4cfb6aab7d3b69ba8980c7ae89c2e6c2059c0fd1cab4",
+      "editorial": {
+        "editorial_title": "AI资本涌入，支付与合规赛道加速重构",
+        "mainline": "本周全球科技投资热度不减，AI基础设施与合规科技成为吸金主力。法国130亿欧元基金与Odyssey高估值融资显示资本对AI长期信心；同时，支付领域并购活跃，Meta拟投CRED，Deluxe收购Celero，行业整合加速。合规方面，新加坡收紧并购规则，AI合规平台获大额融资，监管与科技博弈升级。",
+        "themes": {
+          "ai_infra": "法国政府牵头130亿欧元基金，叠加Odyssey获Amazon等巨头1.45亿美元估值，AI基础设施赛道热度持续。HCLTech投资Sarvam、Vetic获4000万美元，显示企业级AI应用与垂直领域成为资本新宠。",
+          "payments": "Meta拟投印度CRED，估值达40亿美元，社交与支付融合趋势明显。Wise收购Expatica拓展服务链，Deluxe以6.25亿美元收购Celero，支付处理器行业整合加速，巨头通过并购补全生态。",
+          "developer": "非洲项目Re代币登陆币安，流动性大增，吸引全球开发者关注。同时，WakeCap收购Frontline打造建筑智能平台，土耳其游戏双雄贡献80%收入，显示区域开发者生态正在崛起。",
+          "expansion": "印度健康科技Cult.fit转向零售寻求盈利，为线下支付与SaaS带来机会。Monday.com设立2亿美元AI基金，意大利Bestie Bite获150万欧元加速美国扩张，区域扩张与合作模式多样化。",
+          "compliance": "新加坡金管局强化并购监管，保护竞争性报价，合规成本上升。Flagright获930万英镑、Behavox获1.75亿美元，AI合规平台成资本热点，监管科技赛道迎来爆发。",
+          "commerce": "波兰电商Allegro获欧洲投资银行2.75亿美元贷款，加码AI研发，中东欧电商AI应用提速。MercadoLibre股价先涨后跌，市场对其增长支出存疑，拉美电商竞争加剧。"
+        },
+        "theme_titles": {
+          "ai_infra": "AI基础设施全球吸金，法国130亿欧元基金领投",
+          "payments": "支付并购潮起，Meta拟投CRED估值40亿美元",
+          "developer": "币安上线非洲代币RE，开发者生态全球化提速",
+          "expansion": "Cult.fit零售扩张谋盈利，周一.com设2亿美元AI基金",
+          "compliance": "新加坡收紧并购规则，AI合规平台融资激增",
+          "commerce": "Allegro获2.75亿美元贷款，拉美电商MELI股价波动"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:36"
+    },
+    "weekly:2026-W26": {
+      "input_hash": "1efee14981854e9cd0533c2fc0fc17e7a55fc0b44cc31965f7c877f4c8497323",
+      "editorial": {
+        "editorial_title": "AI基建军备赛与支付合规新局",
+        "mainline": "字节跳动、百度昆仑芯等中资巨头以巨额融资押注AI基础设施，全球算力竞争进入资本密集阶段。同时，Airwallex以110亿美元估值完成H轮融资，支付与金融科技领域AI应用加速，而新加坡对加密交易所的监管收紧，凸显合规科技需求上升。",
+        "themes": {
+          "ai_infra": "字节跳动寻求200亿美元离岸贷款，百度昆仑芯拟赴港IPO估值500亿美元，中资科技巨头正以前所未有的规模为AI扩张输血。这不仅是企业行为，更标志着全球AI基础设施投资进入国家资本与商业资本交织的新阶段，亚太算力服务商和芯片供应链将迎来订单潮。",
+          "developer": "Square Enix前瞻市盈率数据发布，沃尔玛收购Vibe.co加码广告，游戏与零售巨头正以新估值锚点调整战略。区块链平台Allium获4000万美元B轮融资，显示数据基础设施在平台生态中的价值凸显，传统行业与Web3的边界进一步模糊。",
+          "payments": "Airwallex完成3.2亿美元H轮融资，估值达110亿美元，资金明确投向AI扩张，跨境支付与AI结合成为新赛道。PayPoint收购Aperidata、移动游戏D2C收入达170亿美元，显示支付渠道正从应用商店向直连模式迁移，金融科技基础设施迎来重构窗口。",
+          "operations": "Fika Jobs获400万美元融资，推出AI视频面试平台，AI代理开始介入招聘核心环节。与此同时，Cerebras财报后股价暴跌、Trip.com增速放缓，市场对高估值科技公司的盈利预期趋于审慎，AI应用落地与商业验证成为焦点。",
+          "commerce": "GameStop放弃CEO薪酬方案，全力推进eBay收购，游戏零售巨头战略转向二手市场。Zalando收购About You后遭德国当局审查，UBS推出挂钩MercadoLibre的票据，拉美电商与全球二手交易平台同时进入资本运作密集期。",
+          "compliance": "Bybit在MAS警示后声明不服务新加坡用户，监管压力迫使交易所调整市场策略。Kalipso获320万美元扩展合规平台，Mitigata获1500万美元融资，合规与网络安全赛道吸引资本涌入，亚太加密市场进入合规驱动的新阶段。"
+        },
+        "theme_titles": {
+          "ai_infra": "中资巨头百亿美元级融资竞逐AI算力",
+          "developer": "游戏与零售巨头估值逻辑生变，平台生态重构",
+          "payments": "Airwallex百亿美元估值领跑，支付AI化加速",
+          "operations": "AI面试平台获融资，招聘流程面临重塑",
+          "commerce": "GameStop聚焦eBay收购，二手电商整合潮起",
+          "compliance": "新加坡加密监管收紧，合规科技需求激增"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:37"
+    },
+    "weekly:2026-W27": {
+      "input_hash": "177b8e81dfbec8cd85b2c10aa8043006a606518910bdb67e37cbec6f7034b291",
+      "editorial": {
+        "editorial_title": "AI资本洪流重塑全球科技版图",
+        "mainline": "本周，AWS、Nvidia与阿联酋MGX以十亿美元级资金押注AI基础设施，显示AI投资从模型竞赛转向工程化部署。同时，Grab收购Stash Financial，超级应用跨界金融科技，区域巨头正通过并购整合生态，出海企业需关注资本流向与平台整合带来的新机遇。",
+        "themes": {
+          "ai_infra": "AWS设立10亿美元AI工程部门，Nvidia推出收入分成模式，MGX筹集490亿美元基金，显示AI投资从模型研发转向基础设施工程化。Wayve员工要约收购估值85亿美元，反映AI人才与资本深度绑定。",
+          "payments": "Grab完成对Stash Financial的收购，将美国投资平台整合入东南亚出行生态，金融科技集成机会凸显。Root从隐身模式推出即时企业支付平台，AXON获百万美元投资推进跨境支付基础设施，支付赛道持续吸引资本。",
+          "developer": "Stabyl获270万美元Pre-Seed融资，专注非洲外汇流动性基础设施，为开发者提供API对接机会。Templewater构建多策略另类资产平台，新加坡健康科技公司获基石投资拟IPO，显示开发者平台与金融科技融合加速。",
+          "expansion": "StockX推出二手及复古商品交易，顺应循环经济趋势。Griffin Gaming Partners收购TinyBuild股份，Amity获1亿美元D轮融资并设新加坡AI中心，显示区域扩张与垂直领域深耕并行。",
+          "operations": "Pikmin Bloom创纪录营收，台湾用户支出激增902%，微信小游戏爆发，显示轻量化游戏机会。Prosus FY26营收增长57%至97亿美元，PayU印度实现EBITDA盈利，区域运营效率提升。",
+          "commerce": "Nua寻求2500万美元融资，The Indus Valley获1700万美元，印度电商物流赛道吸金。MercadoLibre营收增长49%但股价下跌16%，市场对估值存疑。Eternal、Meesho等独角兽挑战卡纳塔克邦零工经济法，监管风险上升。"
+        },
+        "theme_titles": {
+          "ai_infra": "AI投资转向工程化部署，云巨头与主权基金竞相入局",
+          "payments": "Grab收购Stash，超级应用金融版图再扩张",
+          "developer": "非洲外汇基建获早期融资，开发者生态迎来新接口",
+          "expansion": "StockX进军二手市场，平台扩张瞄准循环经济",
+          "operations": "轻量游戏与区域市场驱动，Prosus营收激增57%",
+          "commerce": "印度电商物流融资活跃，零工经济法规成挑战"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:37"
+    },
+    "weekly:2026-W28": {
+      "input_hash": "9d4f0dd3ef744f369204bce13be75aee1c492c9232f421a123d281c14acde2aa",
+      "editorial": {
+        "editorial_title": "AI资本狂潮与支付基建重构",
+        "mainline": "本周，AI领域巨额融资频现，从语音到招聘，资本加速涌入；同时，支付与金融科技公司通过收购和债务工具扩张，重塑全球支付格局。这标志着AI商业化与金融基础设施的深度整合，为出海企业带来新机遇。",
+        "themes": {
+          "ai_infra": "从语音AI到招聘平台，大额融资事件密集出现，显示资本正从基础模型转向高价值应用场景。Mercor的估值谈判和Gradium的巨额种子轮，表明市场对能解决具体问题的AI产品给予极高溢价。",
+          "developer": "Groupe Chaumont整合瑞士制表业，而Phia的欺诈指控则敲响警钟。平台在扩张的同时，必须强化生态治理。游戏市场持续吸金，但开发者需警惕流量质量与合规风险。",
+          "payments": "Aria的债务融资直击欧洲付款痛点，Nium收购Cypher打通法币与加密支付，Tilt进军巴西消费贷。支付公司正通过并购和金融工具，构建更全面的跨境与本地化服务能力。",
+          "expansion": "SK海力士的巨额IPO为AI内存扩产输血，而波兰、土耳其初创则瞄准美国市场。移动应用正将非洲散户引入股市，区域扩张呈现双向流动：巨头寻求全球资本，新锐借力新兴市场。",
+          "commerce": "MercadoLibre股价连涨，Nykaa时尚业务领跑，BIZAY获融资加速整合。电商平台在财报季前展现韧性，投资者对区域龙头的高增长预期回升，物流与SaaS服务商将间接受益。",
+          "operations": "Thought Machine营收破亿，TAC Infosec利润激增，显示银行核心系统云化和网络安全成为刚需。金融科技从前端应用向底层基础设施渗透，为技术供应商创造长期增长空间。"
+        },
+        "theme_titles": {
+          "ai_infra": "",
+          "developer": "",
+          "payments": "",
+          "expansion": "",
+          "commerce": "",
+          "operations": ""
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:37"
+    },
+    "weekly:2026-W29": {
+      "input_hash": "f57bc1e2937b469601b24a60cbbf5a51afe41c258cd224353f0513338ccc37b2",
+      "editorial": {
+        "editorial_title": "AI并购潮起，支付巨头重排座次",
+        "mainline": "本周，SAP以超10亿欧元收购成立仅18个月的Prior Labs，AI资产估值逻辑生变；支付领域，Stripe与Advent联合收购PayPal，Visa推出稳定币平台冲击Circle，行业格局加速重构。资本正以更激进的姿态重划版图。",
+        "themes": {
+          "ai_infra": "SAP以超10亿欧元收购成立仅18个月的Prior Labs，凸显大厂对前沿AI技术的渴求。印度AI编程公司Emergent获1.3亿美元C轮融资晋升独角兽，非营利组织Current AI则试图构建开放的AI基础设施，AI投资热度不减，但方向分化加剧。",
+          "developer": "Stripe与Advent联合收购PayPal，估值超530亿美元，支付行业整合加速。Visa推出稳定币平台，直接冲击Circle股价。游戏领域，Vgames融资5亿美元推出增长融资平台，为中小开发商提供新资金渠道，行业生态悄然生变。",
+          "payments": "新加坡数字银行GXS贷款组合突破10亿新元，企业贷款需求强劲。印尼JULO获现有投资者追加融资，东南亚信贷市场持续活跃。印度投资者增持Paytm至51.6%，本土资本话语权增强。",
+          "commerce": "拉美外卖平台Rappi连续第二年盈利，赚取6480万美元，显示本地生活服务盈利潜力。印度电商Meesho的零佣金模式被深度解析，其卖家中心收入引擎引发行业关注。Snapchat与Dick's Sporting Goods数据合作，探索零售新玩法。",
+          "operations": "印度IT公司LTM称AI营收已超核心业务，而IBM虽AI预订量激增，但Q2营收未达预期，股价暴跌。游戏领域Royal Kingdom营收超7.5亿美元，H1占比42%，显示头部游戏吸金能力。摩根大通创纪录利润，交易业务激增。",
+          "expansion": "新加坡地产科技PILLAR寻求A轮融资以拓展中东市场，中东成新增长点。印度洗衣初创Quick Clean获1400万美元融资，本地生活服务赛道持续吸金。埃及DevOps初创Stakpak被Vercel收购，中东技术人才价值凸显。"
+        },
+        "theme_titles": {
+          "ai_infra": "SAP重金押注AI，Prior Labs估值飙升",
+          "developer": "支付巨头大并购，游戏融资平台崛起",
+          "payments": "东南亚数字信贷升温，Paytm股权回归本土",
+          "commerce": "Rappi连续盈利，Meesho零佣金模式引关注",
+          "operations": "AI营收分化：LTM超核心，IBM股价暴跌",
+          "expansion": "中东成扩张热土，新加坡地产科技东进"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:37"
+    },
+    "weekly:2026-W30": {
+      "input_hash": "12b0040b62f35bef28fa2409b2ff1bfaa2617489a3faeb329ff9e56aa3d97b25",
+      "editorial": {
+        "editorial_title": "AI基建热钱涌动，支付与游戏生态加速重构",
+        "mainline": "本周，英伟达与Naver共建数据中心、蚂蚁国际获12亿美元融资，显示AI与支付基建成为资本焦点。同时，游戏行业并购与独立游戏全球化提速，区域扩张与生态整合并行，市场正从单一增长转向结构性重塑。",
+        "themes": {
+          "ai_infra": "英伟达宣布向Naver AI数据中心投资10亿美元，HCLTech与Sarvam也计划在印度建设15亿美元的数据中心，显示亚太地区AI基础设施投资正加速，资本与技术合作成为主流模式。",
+          "developer": "ETG收购Lightning Reach扩大政府科技组合，Veriqus获3.87亿卢比建设AI投资平台，欧盟批准PIF收购EA，显示欧洲科技领域并购与整合趋势明显，资本正流向公共服务与财富管理数字化。",
+          "payments": "蚂蚁国际完成12亿美元融资以加速全球扩张，Cashea获1亿美元B轮融资，Gopass收购Pluxee哥伦比亚业务，显示拉美支付与金融科技领域资本活跃，区域整合与扩张并行。",
+          "commerce": "美国邮政提高市场卖家包裹费率，Meesho亏损收窄54%且营收增48%，Flipkart和Eight Roads出售Shadowfax股份，显示电商物流成本压力与盈利改善并存，资本开始调整布局。",
+          "expansion": "Kakao Ventures投资Redbrickhouse支持独立游戏全球扩张，Omio获870万欧元战略投资用于亚洲扩张，StarApps收购AppMaker扩展Shopify生态，显示游戏与旅游科技领域区域扩张与合作活跃。",
+          "operations": "SK海力士因AI内存热潮有望创Q2利润纪录，英特尔Q2盈利超预期且AI数据中心营收增59%，Fractal和Thyrocare利润大增，显示AI驱动下半导体与科技服务业绩分化明显。"
+        },
+        "theme_titles": {
+          "ai_infra": "",
+          "developer": "",
+          "payments": "",
+          "commerce": "",
+          "expansion": "",
+          "operations": ""
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:37"
+    },
+    "weekly:2026-W31": {
+      "input_hash": "ac40fb94ddd5e630e47ea47e6047a75eb8ff27a9f86066e094e7cba772d3211d",
+      "editorial": {
+        "editorial_title": "英伟达重注韩国，AI基建进入主权时代",
+        "mainline": "英伟达以10亿美元入股Naver并联合SK提议5000亿美元合作，韩国AI基建成为全球资本焦点。与此同时，Brookfield拟投90亿美元扩建Naver AI工厂，显示主权级AI算力投资正从概念走向大规模落地，亚太地区正成为AI基础设施竞赛的核心战场。",
+        "themes": {
+          "ai_infra": "英伟达以10亿美元收购Naver 4.5%股份，直接参与韩国AI数据中心建设，Brookfield随即承诺90亿美元扩建，显示主权级AI算力投资正从政府主导转向科技巨头与基建基金联合驱动。",
+          "payments": "CAIS以20亿美元估值融资1.7亿美元，InvestiFi获2000万美元扩展信用合作社数字投资，Stripe前高管收购银行，BNPL公司Cashea融资1亿美元，金融科技正从支付向投资基础设施和银行牌照整合延伸。",
+          "developer": "Peacock与YouTube达成捆绑合作，应对竞争对手的收购策略，EA则预计PIF牵头财团收购将于8月完成，流媒体和游戏平台正从独立扩张转向捆绑与资本整合，5G收入增速超过4G也表明基础设施变现加速。",
+          "operations": "LinkedIn Q2营收稳健增长，苹果智能手机收入创纪录，但Visa营收增长放缓，Vodafone则对增长表示乐观，企业级SaaS和硬件表现分化，支付巨头增速放缓可能预示行业进入成熟期。",
+          "expansion": "韩国AI峰会上SK与英伟达提议5000亿美元合作，Naver将AI工厂规模扩大三倍，Multiverse Computing获5.7亿美元C轮融资，Krafton Q2营收增长95%，亚太AI投资和内容变现同步加速。",
+          "compliance": "HashKey拟全资收购MAS持牌机构APEX，Okta以约2亿美元收购AI安全公司Permiso，Inforcer获5000万美元融资，合规与AI安全成为加密和中小企业市场的关键赛道，Meta广告增长虽领先但AI担忧上升。"
+        },
+        "theme_titles": {
+          "ai_infra": "",
+          "payments": "",
+          "developer": "",
+          "operations": "",
+          "expansion": "",
+          "compliance": ""
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:37"
+    },
+    "weekly:2026-W32": {
+      "input_hash": "ac410909648671f523fddcce5ab9b8e5d19aa7ec063da471fdbe7ccd4033f367",
+      "editorial": {
+        "editorial_title": "AI资本重注与支付巨头财报共振",
+        "mainline": "本周AI基础设施投资持续加码，英伟达拟投30亿美元于Lancium，SK海力士斥资380亿美元扩产AI内存，微软在印度启用第四个云区域。同时，支付巨头Adyen财报引发期权策略讨论，MercadoLibre营收首破百亿美元，显示AI与支付赛道正经历资本与业绩的双重验证。",
+        "themes": {
+          "ai_infra": "英伟达拟向Lancium投资30亿美元，SK海力士宣布380亿美元AI内存投资计划，微软在印度海得拉巴启用第四个云区域，兑现175亿美元承诺。这些动作表明AI算力需求正从模型训练向推理和边缘扩展，基础设施投资进入密集落地期。",
+          "payments": "Adyen财报发布后，Saxo推出投资者期权策略指南，显示市场对支付科技估值波动加剧。同时，日本稳定币支付网络JPYC获3800万美元融资，GrabAcademy首批自动驾驶车辆操作员毕业，为按需服务铺路，支付与出行场景加速融合。",
+          "developer": "Tripledot以4000万美元从Unity收购Supersonic，延续游戏行业整合趋势。同时，HealthSnap获2500万美元融资扩展AI虚拟护理，ET Now收购OpiGo扩展投资平台，Meesho股东出售价值约195亿卢比股票，显示资本在多个垂直领域重新配置。",
+          "operations": "Grab上调全年预测，Q2利润达3.23亿美元，受一次性收益提振；Careem营收增长20%但亏损扩大，显示区域出行平台盈利模式分化。Netmarble Q2营收5.05亿美元，七宗罪IP表现强劲，MercadoLibre季度营收首破100亿美元，但财报后股价下跌，市场对高增长持续性存疑。",
+          "commerce": "MercadoLibre Q2营收首破100亿美元，但财报后股价下跌，投资者担忧增长天花板。美国直播电商平台Whatnot获5.45亿美元G轮融资，亚马逊更新商品标题政策，电商竞争与监管规则同步演进。",
+          "expansion": "Volta携74亿英镑AI实验室合作计划亮相，Naver启动AI商业化，Kakao优先生态而非短期营收。Shopify Forms新增WhatsApp营销同意收集功能，Grab上调营收预测，显示平台在AI与区域扩张中寻求平衡。"
+        },
+        "theme_titles": {
+          "ai_infra": "AI基础设施投资热潮不减，内存与云区域扩张并行",
+          "payments": "支付巨头财报引发期权策略关注，稳定币支付网络获融资",
+          "developer": "游戏行业资产重组加速，Unity剥离Supersonic",
+          "operations": "东南亚与拉美平台业绩分化，Grab上调预测而Careem亏损扩大",
+          "commerce": "拉美电商巨头营收破百亿，美国直播电商获巨额融资",
+          "expansion": "英国AI实验室合作浮出水面，韩国平台加速AI商业化"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:38"
+    },
+    "weekly:2026-W33": {
+      "input_hash": "0c5f153847e22858ff35aa757f8e251d117caf07f440025011b0137bcbab3ad7",
+      "editorial": {
+        "editorial_title": "绿色算力与免税投资双线升温",
+        "mainline": "亚洲资本加速涌入北美可持续数据中心，Naver投资波浪能公司，腾讯以营收支撑AI投入，绿色算力成为新基建焦点。同时，日本扩大免税投资额度，乐天证券抢推Junior NISA，金融科技在政策红利下迎来C端获客窗口。",
+        "themes": {
+          "ai_infra": "Naver投资美国波浪能数据中心公司Panthalassa，腾讯以稳健营收支撑AI高投入，Cloudflare发布FIDO2密钥指南。亚洲科技巨头正将资金与技术投向可持续能源与数据中心融合赛道，绿色算力从概念走向落地。",
+          "payments": "乐天证券筹备Junior NISA服务，瞄准年轻客群，同时发布Q2财报。英国两家女性主导的FinTech联合，Cashflows投资Tap & Go，BofA招募前华平高管主导拉美科技业务，支付与投资服务在政策与资本双重驱动下加速渗透。",
+          "developer": "苏格兰水务用Databricks Genie实现资本投资数据对话，Skan AI获$63M融资，企业AI平台从概念验证走向行业应用。乐天股价暴跌超10%，移动投资拖累业绩，而《勇者斗恶龙》开发商因新作热销恢复盈利，显示内容与基础设施分化。",
+          "expansion": "Maybank认为Shopee利润率触底并进入扩张期，Adyen扩大与Toast合作支持$2150亿支付量，曼城与Trendyol达成全球合作。拉美电商与支付巨头通过合作与扩张巩固生态，MercadoLibre与Airbnb的营收轨迹对比凸显增长分化。",
+          "operations": "Women in Games Europe在西班牙成立，推动行业多元化。AST SpaceMobile营收大增，Grab越南H1营收增长12%，但Sea Limited内部人士在营收增48%时减持，警示信号与增长并存，经营策略分化明显。",
+          "commerce": "京东物流H1调整后利润增近40%，海外仓超200万平米，中资物流一体化供应链能力增强。Jumia获IFC和Axian $50M融资，接近盈利，非洲电商在资本助力下加速商业化，Sea Q2营收$7.8B，Shopee占72%，电商格局持续演变。"
+        },
+        "theme_titles": {
+          "ai_infra": "",
+          "payments": "",
+          "developer": "",
+          "expansion": "",
+          "operations": "",
+          "commerce": ""
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:38"
+    },
+    "weekly:2026-W34": {
+      "input_hash": "74c92696f63bd581988e47ce86d63ebd1ceea144dadf516fee1f557031ed0ad5",
+      "editorial": {
+        "editorial_title": "跨境支付互联互通加速，AI安全与合规成新战场",
+        "mainline": "本周，全球支付网络加速互联，东南亚与拉美、中国的扫码支付互通成为焦点，跨境支付基础设施迎来新机遇。同时，AI在安全与合规领域的应用深化，从SaaS策略自动修复到监管科技，AI正重塑企业风险管理与合规流程，指向AI落地从效率工具向安全合规刚需演进。",
+        "themes": {
+          "ai_infra": "Cloudflare推出API驱动的CASB自动修复策略，将SaaS安全从检测推向自动响应；Databricks发布Genie Agents单提示词设计指南，降低AI应用开发门槛。同时，新加坡为律师提供AI培训并开放2000个科技岗位，显示AI正从技术圈渗透至专业服务与合规领域，AI安全与合规工具化成为企业刚需。",
+          "developer": "X推出MCP服务器，开放数据接口供第三方构建AI应用；YouTube扩大Channels实验，允许创作者更灵活分发内容。Starling银行允许用户自建工具并集成AI，平台开放趋势明显。Oakley Capital收购Graphwise多数股权，资本加码数据与AI基础设施，开发者生态正从封闭走向开放，AI应用创新门槛降低。",
+          "payments": "RoamQR钱包接入巴西Pix，微信支付覆盖柬埔寨，ShopeePay用户可在中国扫码支付，跨境支付互联互通从区域走向全球。Kraken在美国推出加密借记卡，加密支付与传统金融融合加速。支付网络正从单一市场转向跨国互联，跨境支付基础设施与合规方案需求激增。",
+          "expansion": "Rakuten Symphony与VIVA Bolivia探索网络现代化合作，开放RAN方案切入拉美电信市场；Visa与able、Onafriq合作扩大非洲信贷，支付网络向新兴市场下沉。谷歌扩大与Marvell合作开发定制AI芯片，算力军备竞赛持续。区域扩张聚焦新兴市场，电信与金融基础设施成合作热点。",
+          "commerce": "前Jumia高管创立杂货电商Kapu获980万肯先令融资，非洲电商从综合平台转向垂直细分。支付宝推出代理商务平台，赋能商家AI工具；迪拜商会与Trendyol合作推动中小企业电商，平台赋能与区域合作并行。沃尔玛门店模式随电商进化，线上线下融合成零售新常态。",
+          "compliance": "Fireblocks任命前SEC高官负责监管，强化加密合规；Flock推出AI驾驶行为搜索工具，执法科技化。老挝Umoney进入数字借贷监管沙盒，新兴市场金融监管创新加速。VP Bank新加坡任命新首席风险官，传统金融机构加码风控。AI与监管科技结合，正成为合规刚需。"
+        },
+        "theme_titles": {
+          "ai_infra": "",
+          "developer": "",
+          "payments": "",
+          "expansion": "",
+          "commerce": "",
+          "compliance": ""
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:38"
+    },
+    "weekly:2026-W35": {
+      "input_hash": "fd0bae5a2d83f2a023e2b33ded17709b641d27194bca8a11557784e1da1547ea",
+      "editorial": {
+        "editorial_title": "AI落地加速，合规与本地化成出海胜负手",
+        "mainline": "本周，AI从云端走向业务前线：腾讯云借TruKKer深入沙特，阿里推国际版办公AI，Rakuten Viber跨界eSIM。同时，版权纠纷与安全合规事件频发，凸显出海企业需将本地化合规视为核心战略，而非附加项。",
+        "themes": {
+          "ai_infra": "MiniMax介入Flova与LibTV的争议，显示中资AI在东南亚内容分发中的角色日益复杂。Cloudflare紧急更新WAF规则，反映针对AI服务的攻击面正在扩大。腾讯云与TruKKer合作，则表明中东云市场对AI能力的需求正从概念走向落地。",
+          "expansion": "Rakuten Viber推出eSIM服务，将通讯入口延伸至旅行服务，挑战传统电信运营商。腾讯云与TruKKer的合作，是云厂商在中东物流垂直领域的深度绑定。阿里发布国际版QwenWork，直接切入亚洲、中东和拉美的生产力市场，办公AI的全球化竞争进入新阶段。",
+          "payments": "Naver和Kakao Pay分别推出信用卡和借记卡关联服务，将流量优势转化为金融产品入口。Revolut在三国推出欧元稳定币，加速欧洲稳定币市场布局。报告指出AI是东盟金融科技最稀缺技能，或成区域竞争的关键瓶颈。",
+          "developer": "Instagram为Reels推出草稿功能，提升创作者体验，可能吸引更多第三方工具集成。Naver音乐平台Vive关停，显示中小型流媒体在巨头竞争下的生存困境。Anthropic资助AI幸福感影响研究，反映头部AI公司开始关注技术的社会影响。",
+          "commerce": "MercadoLibre在巴西的扩张加速卖家增长，股价应声上涨，显示拉美电商市场仍具高弹性。Sea Limited Q2势头强劲，市场情绪乐观。乐天推出Rakuyoko，以发现式购物切入平价市场，探索新零售模式。",
+          "compliance": "TRM Labs聘请MAS前高管负责亚太政策，显示区块链合规需求在亚太升温。韩国启动安全AI开发招标，SKT、Naver、LG竞标，安全AI成国家战略。波兰要求欧盟对Meta罚款，欧洲对平台内容监管持续收紧。"
+        },
+        "theme_titles": {
+          "ai_infra": "",
+          "expansion": "",
+          "payments": "",
+          "developer": "",
+          "commerce": "",
+          "compliance": ""
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-08-28 09:38"
+    }
+  }
+}

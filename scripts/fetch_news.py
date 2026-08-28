@@ -2568,7 +2568,7 @@ def analyze_events_ark(items):
         "messages": [{"role": "user", "content": prompt}],
         "max_tokens": 4096,
         "temperature": 0.1,
-        "reasoning": {"effort": "none"},  # 方舟 GA 版支持强制关闭深度思考：降延迟、省 reasoning 计费
+        "thinking": {"type": "disabled"},  # 关深度思考必须用 thinking 参数（reasoning:{effort:none} 会被静默忽略），降延迟、省 reasoning 计费
     }
 
     for attempt in range(2):
@@ -2936,8 +2936,8 @@ def _post_chat(api, prompt, max_tokens=1024, temperature=0.1, timeout=(10, 20)):
         "temperature": temperature,
     }
     if api.get('id') == 'ark':
-        # 方舟 GA 版强制关闭深度思考：响应快（无需 120s 宽限）、reasoning 不计量、输出额度全给正文
-        payload['reasoning'] = {"effort": "none"}
+        # 方舟 DeepSeek-V4-Flash 关深度思考必须用 thinking 参数（实测 reasoning:{effort:none} 会被静默忽略，思考 token 仍产生）
+        payload['thinking'] = {"type": "disabled"}
     headers = {
         "Authorization": "Bearer " + api['key'],
         "Content-Type": "application/json"

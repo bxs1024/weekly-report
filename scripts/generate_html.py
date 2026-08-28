@@ -3,6 +3,7 @@
 评分系统：基于 Galtung & Ruge 新闻价值理论 + 金融情报平台通用因子
 """
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -1486,8 +1487,65 @@ def _build_weekly_focus_windows(period_events, end_date, limit=6):
     return build_weekly_themes(period_events, _entity_region_map(), limit=limit)
 
 
-def build_weekly_editorial(themes, period_id):
-    """AI 编辑层：把周报主题写成当期标题与叙事导读。失败返回 None，调用方走模板降级。"""
+# ============================================================
+# 编辑层缓存：编辑导读由输入主题唯一决定，封档周期输入冻结即输出冻结，
+# 不应每班重调 AI。缓存键 = 周期 + 输入指纹；prompt 变更时递增版本号全量失效。
+# ============================================================
+EDITORIAL_PROMPT_VERSION = 1
+
+
+def _editorial_cache_path():
+    return os.path.join('data', 'editorial_cache.json')
+
+
+def _load_editorial_cache():
+    try:
+        with open(_editorial_cache_path(), 'r', encoding='utf-8') as handle:
+            return json.load(handle)
+    except (OSError, json.JSONDecodeError, ValueError):
+        return {}
+
+
+def _save_editorial_cache(cache):
+    try:
+        os.makedirs('data', exist_ok=True)
+        with open(_editorial_cache_path(), 'w', encoding='utf-8') as handle:
+            json.dump(cache, handle, ensure_ascii=False, indent=2)
+    except OSError:
+        pass
+
+
+def _editorial_cache_get(cache_key, input_hash):
+    """返回 (exact, stale)：exact 为 hash 完全命中的导读；stale 为同周期旧版导读（AI 全败时 fail-stale 兜底）。"""
+    entry = (_load_editorial_cache().get('periods') or {}).get(cache_key)
+    if not entry:
+        return None, None
+    editorial = entry.get('editorial')
+    if entry.get('input_hash') == input_hash:
+        return editorial, editorial
+    return None, editorial
+
+
+def _editorial_cache_put(cache_key, input_hash, editorial, channel):
+    cache = _load_editorial_cache()
+    cache.setdefault('version', 1)
+    cache.setdefault('periods', {})
+    cache['periods'][cache_key] = {
+        'input_hash': input_hash,
+        'editorial': editorial,
+        'channel': channel,
+        'generated_at': datetime.now().strftime('%Y-%m-%d %H:%M'),
+    }
+    _save_editorial_cache(cache)
+
+
+def _editorial_input_hash(brief):
+    payload = json.dumps(brief, ensure_ascii=False, sort_keys=True)
+    return hashlib.sha256(f"v{EDITORIAL_PROMPT_VERSION}:".encode('utf-8') + payload.encode('utf-8')).hexdigest()
+
+
+def build_weekly_editorial(themes, period_id, cache_key=None):
+    """AI 编辑层：把周报主题写成当期标题与叙事导读。失败优先沿用上一版缓存（fail-stale），无缓存返回 None。"""
     if not themes:
         return None
     try:
@@ -1500,6 +1558,9 @@ def build_weekly_editorial(themes, period_id):
     apis = _chat_api_candidates()
     if not apis:
         return None
+
+    # 任务形状路由：编辑层低频长输出，优先走实测最快最稳的 DeepSeek 官方；方舟留给事件分析主链
+    apis = sorted(apis, key=lambda a: 0 if a.get('id') == 'deepseek' else 1)
 
     theme_brief = []
     for t in themes:
@@ -1516,6 +1577,15 @@ def build_weekly_editorial(themes, period_id):
             'evidence_titles': evs,
             'change_events': change_events,
         })
+
+    input_hash = None
+    stale = None
+    if cache_key:
+        input_hash = _editorial_input_hash(theme_brief)
+        exact, stale = _editorial_cache_get(cache_key, input_hash)
+        if exact:
+            print(f"  📋 周报编辑命中缓存（{period_id}）: {(exact.get('mainline') or '')[:30]}...")
+            return exact
 
     prompt = f"""你是全球互联网科技情报编辑，受众是出海 BD、战略和投资从业者（周期标识：{period_id}）。
 
@@ -1538,19 +1608,8 @@ def build_weekly_editorial(themes, period_id):
 
     for api in apis:
         try:
-            resp = None
-            last_err = None
-            for attempt_timeout in ((10, 60), (10, 90)):
-                try:
-                    # 方舟 GA 已强制关闭思考；偶发瞬时挂起先按标准余量试，失败放宽余量原地重试一次再降级
-                    resp = _post_chat(api, prompt, max_tokens=1400, temperature=0.3,
-                                      timeout=attempt_timeout)
-                    break
-                except Exception as e:
-                    last_err = e
-                    continue
-            if resp is None:
-                raise last_err or RuntimeError('all attempts failed')
+            # 每通道单发：超时说明该通道当前干不了这活，等更久只会放大总时长，直接换下一通道
+            resp = _post_chat(api, prompt, max_tokens=1400, temperature=0.3, timeout=(10, 60))
             if resp.status_code != 200:
                 print(f"  ⚠️  周报编辑 {api['name']} 返回 {resp.status_code}，尝试下一个")
                 continue
@@ -1564,16 +1623,22 @@ def build_weekly_editorial(themes, period_id):
             if len(mainline) < 20 or not tmap:
                 print(f"  ⚠️  周报编辑 {api['name']} 结果不完整，尝试下一个")
                 continue
+            result = {'editorial_title': editorial_title, 'mainline': mainline, 'themes': tmap, 'theme_titles': titles}
+            if cache_key and input_hash:
+                _editorial_cache_put(cache_key, input_hash, result, api['name'])
             print(f"  📝 周报编辑已生成（{api['name']}，{len(tmap)} 个主题导读）: {mainline[:40]}...")
-            return {'editorial_title': editorial_title, 'mainline': mainline, 'themes': tmap, 'theme_titles': titles}
+            return result
         except Exception as e:
             print(f"  ⚠️  周报编辑 {api['name']} 失败: {type(e).__name__}")
             continue
+    if stale:
+        print(f"  ⚠️  AI 编辑全通道失败，沿用上一版缓存导读（{cache_key}）")
+        return stale
     return None
 
 
-def build_monthly_editorial(trends, period_id):
-    """AI 编辑层：把月报趋势写成月度标题与结构变化导读。失败返回 None，调用方走模板降级。"""
+def build_monthly_editorial(trends, period_id, cache_key=None):
+    """AI 编辑层：把月报趋势写成月度标题与结构变化导读。失败优先沿用上一版缓存（fail-stale），无缓存返回 None。"""
     if not trends:
         return None
     try:
@@ -1586,6 +1651,9 @@ def build_monthly_editorial(trends, period_id):
     apis = _chat_api_candidates()
     if not apis:
         return None
+
+    # 任务形状路由：编辑层低频长输出，优先走实测最快最稳的 DeepSeek 官方；方舟留给事件分析主链
+    apis = sorted(apis, key=lambda a: 0 if a.get('id') == 'deepseek' else 1)
 
     trend_brief = []
     for t in trends:
@@ -1601,6 +1669,15 @@ def build_monthly_editorial(trends, period_id):
             'previous_count': t.get('previous_count', 0),
             'evidence_titles': evs,
         })
+
+    input_hash = None
+    stale = None
+    if cache_key:
+        input_hash = _editorial_input_hash(trend_brief)
+        exact, stale = _editorial_cache_get(cache_key, input_hash)
+        if exact:
+            print(f"  📋 月报编辑命中缓存（{period_id}）: {(exact.get('mainline') or '')[:30]}...")
+            return exact
 
     prompt = f"""你是全球互联网科技情报编辑，受众是出海 BD、战略和投资从业者（周期标识：{period_id}）。
 
@@ -1629,19 +1706,8 @@ def build_monthly_editorial(trends, period_id):
 
     for api in apis:
         try:
-            resp = None
-            last_err = None
-            for attempt_timeout in ((10, 60), (10, 90)):
-                try:
-                    # 方舟 GA 已强制关闭思考；偶发瞬时挂起先按标准余量试，失败放宽余量原地重试一次再降级
-                    resp = _post_chat(api, prompt, max_tokens=1700, temperature=0.3,
-                                      timeout=attempt_timeout)
-                    break
-                except Exception as e:
-                    last_err = e
-                    continue
-            if resp is None:
-                raise last_err or RuntimeError('all attempts failed')
+            # 每通道单发：超时说明该通道当前干不了这活，等更久只会放大总时长，直接换下一通道
+            resp = _post_chat(api, prompt, max_tokens=1700, temperature=0.3, timeout=(10, 60))
             if resp.status_code != 200:
                 print(f"  ⚠️  月报编辑 {api['name']} 返回 {resp.status_code}，尝试下一个")
                 continue
@@ -1667,11 +1733,17 @@ def build_monthly_editorial(trends, period_id):
             if len(mainline) < 30 or not tmap:
                 print(f"  ⚠️  月报编辑 {api['name']} 结果不完整，尝试下一个")
                 continue
+            result = {'editorial_title': editorial_title, 'mainline': mainline, 'themes': tmap, 'theme_titles': titles}
+            if cache_key and input_hash:
+                _editorial_cache_put(cache_key, input_hash, result, api['name'])
             print(f"  📝 月报编辑已生成（{api['name']}，{len(tmap)} 个趋势导读）: {mainline[:40]}...")
-            return {'editorial_title': editorial_title, 'mainline': mainline, 'themes': tmap, 'theme_titles': titles}
+            return result
         except Exception as e:
             print(f"  ⚠️  月报编辑 {api['name']} 失败: {type(e).__name__}")
             continue
+    if stale:
+        print(f"  ⚠️  AI 编辑全通道失败，沿用上一版缓存导读（{cache_key}）")
+        return stale
     return None
 
 
@@ -1830,9 +1902,11 @@ def build_period_report(events, start_date, end_date, label, period_id=None, sta
     editorial_title = ''
     editorial_required = bool(themes) and (focus_windows_enabled or status != 'preview')
     if focus_windows_enabled and themes:
-        narrative_result = build_weekly_editorial(themes, period_id)
+        narrative_result = build_weekly_editorial(
+            themes, period_id, cache_key=f"weekly:{period_id or label}")
     elif (not focus_windows_enabled) and monthly_trends and status != 'preview':
-        narrative_result = build_monthly_editorial(monthly_trends, period_id)
+        narrative_result = build_monthly_editorial(
+            monthly_trends, period_id, cache_key=f"monthly:{period_id or start_date[:7]}")
     if require_editorial and editorial_required and not narrative_result:
         period_type = '周报' if focus_windows_enabled else '月报'
         raise RuntimeError(f'{period_type} {period_id or label} 的 AI 编辑层生成失败，已终止页面生成，拒绝发布降级版')

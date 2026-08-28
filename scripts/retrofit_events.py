@@ -55,6 +55,7 @@ def _pick_api():
     ark_key = os.environ.get('ARK_API_KEY', '')
     if ark_key and len(ark_key) >= 10:
         return {
+            'id': 'ark',
             'url': 'https://ark.cn-beijing.volces.com/api/v3/chat/completions',
             'key': ark_key,
             'model': os.environ.get('ARK_MODEL') or 'ep-20260827101830-qgtm4',
@@ -105,6 +106,9 @@ def rewrite_batch(batch, api):
         "max_tokens": 1024,
         "temperature": 0.1,
     }
+    if api.get('id') == 'ark':
+        # 方舟 DeepSeek-V4-Flash 关深度思考必须用 thinking 参数，否则思考默认全开拖慢响应
+        payload["thinking"] = {"type": "disabled"}
 
     for attempt in range(2):
         try:

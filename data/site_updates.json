@@ -1,780 +1,795 @@
 [
- {
-  "date": "2026-08-27",
-  "version": "V5.3",
-  "type": "成本优化",
-  "status": "已提交待推送",
-  "title": "AI_EXAMPLES 精简：每批 prompt 省 62% token",
-  "summary": "AI 分析 prompt 里的 8 个 few-shot 示例精简到 3 个（融资/财报/Report 语义），每批省约 1367 token（-62%），超出方案预期 ~800 token。零行为变化（不动 AI_SYSTEM_PROMPT，保留方向由规则覆盖），全套离线测试 0 失败。月理论省 ~24.6 万 token（180 批 × 1367）。commit 719559e。",
-  "changes": [
-   "scripts/fetch_news.py AI_EXAMPLES：8 例 → 3 例（融资大额/财报/Report 语义），其余方向由 AI_SYSTEM_PROMPT 覆盖",
-   "全套离线测试 0 失败（含 8 个事件价值/7 个信号地理/合同回填/事件指纹等）"
-  ]
- },
- {
-  "date": "2026-08-24",
-  "version": "V5.2",
-  "type": "质量修复",
-  "status": "已提交待推送",
-  "title": "去重改 AI 事件指纹：跨源重复合并不再靠标题相似度",
-  "summary": "去重此前靠「正则提主体 + 标题相似度阈值」，修了几轮仍漏（8-22 Starcloud 融资 2.5 亿美元被两家源各报一篇，标题相似度仅 0.364 被守卫拒合）。本次改为 AI 分析时每条事件输出 canonical_company（主体规范名）+ canonical_key（量化锚点，金额统一 m 单位），入库层与展示层按「主体+类型+锚点」三项全匹配合并——AI 认「同一件事」不再逐类型补正则词表，对融资/并购/财报/合作通用。存量事件无指纹字段自动走旧规则，零影响。",
-  "changes": [
-   "AI 分析输出新增 canonical_company / canonical_key 两字段（提示词与 few-shot 示例同步）",
-   "fetch_news._is_same_event 新增 _fingerprint_match：主体+主类型+锚点全匹配合并，防误并（不同额度/不同类型不并）",
-   "generate_html.dedupe_display_events 加同指纹兜底，绕过正则主体提取错位（如 US space data center startup Starcloud 被误提主体）",
-   "新增 _normalize_canonical_key：金额归一（$250M/$250 Million/2.5亿美元 → 250m）",
-   "新增 scripts/test_event_fingerprint.py：8 用例全绿；存量事件 dedupe 行为与改动前一致",
-   "commit 249e0c2（未推送，与后续改动一并）"
-  ]
- },
- {
-  "date": "2026-08-20",
-  "version": "V5.1",
-  "type": "质量修复",
-  "status": "已上线",
-  "title": "事件质量修复：中资标签误判、零售越界事件清理、重复合并补漏",
-  "summary": "修复三类可见问题：①Kakao Kanana-2 标题里提到\"阿里巴巴\"（作为被超越的对比对象）被误标\"中资出海\"——中资判定改为优先看主角公司，标题中提到但处于对比语境时不再误判；②泛零售媒体（Retail Dive/Modern Retail）借\"电商垂直源\"背书放行建材零售等非互联网事件——摘除两个源的行业背书并清理已入库的 21 条越界事件（家得宝财报等）；③同日/跨天重复漏并（Navi 融资 3 源 2 天、Kakao Mobility IPO 3 条、Kanana-2 评测 2 源）——融资锚点补充 IPO/上市申请类词，存量合并 3 组。新增周度审计脚本 scan 范围外但放行的事件，防止泛行业源卷土重来。",
-  "changes": [
-   "中资判定重构：实体级命中（公司字段）优先，标题中名单词处于对比语境（被超越/领先于）不判中资",
-   "Retail Dive / Modern Retail 摘除电商行业背书（vertical/scope_industries 清空），泛零售报道不再自动放行",
-   "融资锚点补 IPO/listing/filing/registration/上市/上场 等词，IPO 类跨源报道可正确合并",
-   "清理 21 条越界存量（家得宝/劳氏/塔吉特等建材与泛零售财报、旅游/机场/汽车/公益内容）",
-   "Navi 融资、Kakao Mobility IPO、Kakao Kanana-2 共 3 组 6 条重复合并为 3 条，被并入来源记入 merged_from 可追溯",
-   "新增 scripts/audit_scope_misfits.py：周度扫描 scope 放行但互联网相关性不足的事件供人工复核"
-  ]
- },
- {
-  "date": "2026-08-17",
-  "version": "V5.0",
-  "type": "变化聚合+评分校准",
-  "status": "已上线",
-  "title": "变化聚合 MVP（公司+行业）、评分权重用真实数据校准、失效观察点清理、信源登记补全",
-  "summary": "完成 8-12 定案的变化聚合层第一阶段：月报新增「公司变化」「行业变化」区块，复用主题趋势的跨周门槛+基线+覆盖率校正，回答「最近哪些公司/行业在起变化」。评分权重用真实历史事件离线校准：财报从融资中拆出独立 earnings 档，避免财报垄断高分，Top10 从清一色财报变为产品/政策/财报/扩张多样。同时清理 4 个持续失效的观察点源（noon.com 等连接超时，暂停采集）、补全 43 个硬编码信源登记进 Source Registry、signal_taxonomy 接入排序。",
-  "changes": [
-   "period_themes 泛化：新增 build_company_changes / build_industry_changes，公司/行业/主题三轴共用跨周基线+覆盖率校正，输出结构一致",
-   "月报模板新增「公司变化」「行业变化」区块，与「本月结构变化」并列；区域聚合按方案后置未做",
-   "周报/月报聚合改用全量事件（修复展示管线过滤导致公司跨周证据不足、区块为空的问题）",
-   "signal_scoring：新增 earnings 独立 action_type，财报/融资分档；权重按真实数据定案（政策25/产品24/融资22/财报18/扩张18/招聘12）",
-   "calibrate_weights.py：离线权重校准脚本，对比各配置分数分布与 Top 事件构成",
-   "view_selectors：signal_sort_key 增加信号类型+来源 tier 质量加分（同变化分内区分可信度与行动性）",
-   "修复失效观察点：noon-newsroom/traveloka-newsroom/tabby-blog/dlocal-news 持续连接超时，registry+pool 标记 paused 暂停采集，must 覆盖失败点 1→0",
-   "source_registry 补全 43 个硬编码信源登记（含 signal_only 显式字段），采集行为不变，为后续切换加载铺路",
-   "新增 test_change_aggregation（6 个）、test_signal_scoring 补 earnings 拆分测试"
-  ]
- },
- {
-  "date": "2026-08-17",
-  "version": "V4.9",
-  "type": "展示层",
-  "status": "已上线",
-  "title": "AI 热点展示统一回退：当期无数据时用最近一期有效数据顶替",
-  "summary": "AIHOT 上游热点榜从 8/16 起衰减、8/17 归零，导致首页「近期AI热点」与周报/月报「AI 热点」区块因当期无数据而消失。本次将三处展示统一为同一数据结构和回退逻辑：当前/当期快照为空时，自动取最近一期有数据的归档顶替，区块不再静默消失；不修改抓取与源数据。",
-  "changes": [
-   "generate_html 新增 _aihot_items_to_list（快照/归档统一列表结构）与 _latest_aihot_items（取最近一期非空归档）",
-   "今日 tab「近期AI热点」改读统一列表结构，当期为空回退最近一期归档",
-   "周报/月报「本周/本月 AI 热点」当期为空同样回退最近一期归档",
-   "test_aihot_integration 新增 5 个回退测试（统一结构、跳过空期、无归档兜底、周报/月报回退）"
-  ]
- },
- {
-  "date": "2026-08-14",
-  "version": "V4.8",
-  "type": "评分重构",
-  "status": "已上线",
-  "title": "评分底层校准：拆动作/行业正交字段、补市场影响范围、建历史基线与覆盖率校正",
-  "summary": "落实评分与变化聚合三份方案的评审：拆出 action_type/domain 正交字段，类型权重改由动作驱动消除公司低分；补市场影响范围分量（含置信度，权重从低不拍25%）；月报变化检测升级为当前窗口 vs 历史基线均值 + 覆盖率校正。",
-  "changes": [
-   "signal_scoring：新增 action_type（product_release/policy_change/funding/expansion/hiring）与 domain（ai/payment/ecommerce/cloud_saas/telecom）推断，写入事件契约",
-   "signal_change_score：类型权重从 signal_type 改 action_type 驱动（产品发布22/政策25/融资22/扩张18/招聘12），公司产品发布不再天然低分",
-   "signal_change_score：region_specific 换成 market_impact 分量（读侧 signal_geo 标注，含市场影响置信度），权重从低",
-   "period_themes 月报：变化检测从单一前窗口改为当前窗口 vs 前3窗口基线均值，新增 baseline_count/coverage_ratio，覆盖率校正防新增信源误判升温",
-   "月报模板：前一周期口径改基线均值"
-  ]
- },
- {
-  "date": "2026-08-14",
-  "version": "V4.7",
-  "type": "评分重构",
-  "status": "已上线",
-  "title": "砍掉趋势循环：单条 Signal 不再评分趋势，趋势判断交给聚合层",
-  "summary": "移除单条 Signal 的 trend_weight 字段与 signal_change_score 的趋势潜力分量，解决单条先预测趋势、聚合又乘一次的循环计算。周报/月报趋势分改由多事件/跨时间的证据决定（事实数/周次数/环比增量），不再依赖单条事件自我预测。",
-  "changes": [
-   "signal_scoring.py：删除 score_signal 的 trend_weight 输出与 signal_change_score 的 trend_potential 分量（单条 Signal 不评分趋势潜力）",
-   "period_themes.py：周报/月报趋势分去掉 _avg_trend_weight，改用 atom_count/weeks/delta 等聚合证据；代表事件排序键从 trend_weight 换成 attention_score",
-   "signal_funnel_report.py：删除 trend_sum/main_trend_sum 死统计",
-   "测试同步：test_signal_scoring、test_contract_backfill、test_event_value 清理 trend_weight 相关断言"
-  ]
- },
- {
-  "date": "2026-08-14",
-  "version": "V4.6",
-  "type": "公司索引扩充",
-  "status": "已上线",
-  "title": "公司索引新增美国 7 姐妹、超大云厂商与中国模型厂商/头部互联网共 20 家",
-  "summary": "定位调整为全球变化雷达后，将美国 7 姐妹（Microsoft/Apple/NVIDIA/Amazon/Meta/Alphabet/Tesla）、超大云厂商（Oracle/IBM）及中国 6 大模型厂商与头部互联网（字节/阿里/腾讯/百度/智谱/月之暗面/DeepSeek/MiniMax/京东/拼多多/美团）纳入公司索引实体池。",
-  "changes": [
-   "entity_pool 从 32 家扩到 52 家，新增 20 家实体（美国大厂 region=全球、中国大厂 region=中资）",
-   "新增实体全部进入 portfolio experiment 层，公司索引页按现有标准展示",
-   "sector 中文映射与采集 scope 契约同步补全（generate_html 与 fetch_news）"
-  ]
- },
- {
-  "date": "2026-08-14",
-  "version": "V4.5",
-  "type": "AI热点自动化",
-  "status": "已上线",
-  "title": "AIHOT 热点与模型榜独立自动更新，周报月报新增 AI 热点",
-  "summary": "AIHOT 热点与模型榜从主采集管线拆出，独立 workflow 每天北京 8:00/20:00 自动抓取并刷新页面；热点按天归档，周报/月报新增当期 AI 热点小节；RSS 新增全球AI视野 Top5 汇总条。",
-  "changes": [
-   "新增独立 workflow：AIHOT 热点 + 模型榜每日两次（北京 08:00/20:00）自动抓取并刷新页面，与主采集错开、自动合并提交",
-   "热点按天归档 data/aihot_hot/YYYY-MM-DD.json，供周报/月报按自然周期取数",
-   "周报/月报新增「本周/本月 AI 热点」小节，复用热点卡样式",
-   "RSS 新增「全球AI视野 Top5」独立汇总条",
-   "模型榜从手动更新恢复为每日自动更新"
-  ]
- },
- {
-  "date": "2026-08-13",
-  "version": "V4.4",
-  "type": "数据质量与展示",
-  "status": "已完成",
-  "title": "全量事件先 AI 分析 + fallback 文案中性化 + 问题事件自动修复",
-  "summary": "所有合格事件一律先送 AI 深度分析（仅低价值边缘事件丢弃），AI 失败才程序兜底；fallback 不再显示「AI 分析暂不可用」类吓人文案，点评行留空；新增问题事件自动修复脚本；并修复全量 AI 分层引入的 today_events 崩溃，恢复自动采集。",
-  "changes": [
-   "分层重构：所有合格事件一律先进 AI（仅 score<4 且非公司丢弃），替代原「高分走 AI、中分程序生成」两级分流——低分合格事件也获得 AI 分析",
-   "fallback 文案中性化：AI 失败事件 reason 留空（页面不显示点评行），不再出现「AI 分析暂不可用」类提示",
-   "新增 scripts/repair_stale_analysis.py：自动扫描 reason 为空/含旧文案的问题事件重新 AI 分析，接入 GHA 每日自动执行",
-   "修复全量 AI 分层引入的 today_events 未初始化崩溃（ai_tier 为空时 append 失败），自动采集流水线恢复运行"
-  ]
- },
- {
-  "date": "2026-08-13",
-  "version": "V4.3",
-  "type": "信源与界面",
-  "status": "已完成",
-  "title": "今日情报新增「今日热点」排行（AIHOT 数据补充）",
-  "summary": "今日情报页顶部新增「今日热点」紧凑排行，直接展示 AIHOT 全球 AI 热点（过去 48 小时，每天对齐），点击直达原始文章，与情报站自身事件并列为上下布局。",
-  "changes": [
-   "新增 AIHOT 热点抓取脚本 scripts/fetch_aihot_hot.py：抓 /hot 列表 + story 详情，提取标题、热度值、信源数、原始来源链接，输出 data/aihot_hot.json",
-   "今日情报页顶部新增「今日热点」紧凑卡片：排名 + 标题 + 热度值，共 5 条，右上角「查看全部」直达 AIHOT 热点榜",
-   "点击热点条目直达原始文章（微信公众号、科技媒体、官方博客等），不经 AIHOT 中转页",
-   "设计语言与现有事件卡片对齐（同配色、同卡片风格），作为事件列表上方的配菜，不抢主内容"
-  ]
- },
- {
-  "date": "2026-08-13",
-  "version": "V4.2",
-  "type": "数据质量与展示",
-  "status": "已完成",
-  "title": "事件去重重写为事件键优先 + 类型判定AI化 + AI不可用不再编造断言",
-  "summary": "重复事件改为按「谁+什么事+哪一天」事实键合并，修复同日多源报道重复（如 Sea 财报、Jumia 融资）；事件类型改由 AI 判定，AI 不可用时不展示按类型编造的文案，改中性提示。",
-  "changes": [
-   "去重重写：同日/相邻天同一公司同类型事件（财报/融资/并购）直接合并，不再依赖标题相似度——修复同一天多家媒体报道同一事件（Sea Q2财报3篇并为2、Jumia融资2篇并为1）全部入库的问题",
-   "报道方向守卫：财报「利润创新高」与「净利大跌」方向相反的报道视为不同事件，不合并",
-   "公司识别增强：报道标题提到公司名但未打公司标签的事件（如 WeeTracker 的 Jumia 融资）也能归入同一实体合并",
-   "类型判定 AI 化：事件类型改由 AI 从内容实质判定，标题里的「Report」（据报道）、记者手记、公司名含 ranking 等不再误判为行业研究报告",
-   "AI 不可用时的文案中性化：AI 分析暂不可用时不再按猜测类型编造「行业研究报告发布」「财报披露」等断言式文案，改显示「AI 分析暂不可用，请以原文为准」",
-   "存量清理：按新去重逻辑清理全历史同日重复事件（3065 → 3045 条），被合并来源保留在 merged_from 可追溯"
-  ]
- },
- {
-  "date": "2026-08-12",
-  "version": "V4.1",
-  "type": "数据质量与展示",
-  "status": "已完成",
-  "title": "顶部日期实时化 + 事件跨天去重 + 更新日志防断档",
-  "summary": "顶部日期改为浏览器实时显示；采集与展示两层共同拦截相邻天内重复事件（如 Square Enix 财报），官方源栏目页不再误作事件，存量重复已清理；更新日志与页面增加一致性自检。",
-  "changes": [
-   "顶部日期实时化：展示日期改为打开页面时按浏览器本地时间实时生成，不再停留在生成当天；采集/成熟批次仍按数据日期显示",
-   "跨天去重：相邻 3 天内同一财报/并购/融资/战略事件自动合并，保留信息更完整的一条；财报标题须以公司名开头且紧跟报道动词，避免公司名误标导致误并",
-   "官方源栏目过滤：sustainability、presentations、financial-reports 等栏目导航页不再被当作事件入库",
-   "存量清理：清理近 30 天重复事件与 STC 栏目误报（2992 → 2970 条）",
-   "更新日志一致性自检：健康检查新增校验，site_updates.json 最新版本必须出现在生成页面中，防止改日志后忘生成页面再次断档"
-  ]
- },
- {
-  "date": "2026-08-11",
-  "version": "V4.0",
-  "type": "信源与信号质量",
-  "status": "已完成",
-  "title": "信源盲区补齐 + 信号质量升级",
-  "summary": "补齐巴西、日本媒体发现盲区，新增日文信源；上线「失明源」自动告警；首页排序改为「变化重要性」优先。",
-  "changes": [
-   "巴西：修复季度财报标题识别 bug、MercadoLibre 补行业范围、官方源范围放宽——巴西此前是监控盲区，现在能正常产出",
-   "日本：新增 The Bridge（日本创投）+ 36Kr Japan（日文中国科技）两个日文媒体源，日文融资/并购/财报/战略标题识别上线——日本媒体发现层从无到有",
-   "源告警：新增「失明源」检测（曾经出活、最近连续无产出），自动区分抓取失败与供应骤降，第一时间发现源失效",
-   "排序升级：首页与全部事件按「变化重要性」排序（政策/结构变化优先于普通公司动态）"
-  ]
- },
- {
-  "date": "2026-08-10",
-  "version": "V3.9",
-  "type": "功能与界面",
-  "status": "已完成",
-  "title": "新增模型榜 tab",
-  "summary": "新增「模型榜」tab，复刻 AIHOT 大模型排行榜：主榜前 30 共识分排名 + 12 家官方评测榜单明细，数据手动刷新。",
-  "changes": [
-   "新增「模型榜」导航 tab：AIHOT 共识分前 30 名表格（排名/模型/上线日期/评测完整度/输入输出成本/共识分），点击模型名可到原站查看各榜详情",
-   "官方榜单明细：12 家独立来源折叠展开（AA Index、Epoch ECI、LiveBench、LMArena、EQ-Bench、Vals、APEX-Agents、DeepSWE 等），每家含原榜名次与原始分数",
-   "新增抓取脚本 scripts/fetch_model_leaderboard.py，手动运行即可刷新 data/model_leaderboard.json",
-   "页脚标注数据来源与共识分说明，链接回 AIHOT 原站并遵守其公开使用规则"
-  ]
- },
- {
-  "date": "2026-08-10",
-  "version": "V3.8",
-  "type": "功能与界面",
-  "status": "已完成",
-  "title": "公司索引升级为业务雷达",
-  "summary": "公司索引从状态列表升级为企业级情报雷达：卡片按「公司身份→值得关注的变化→情报意义→可信度提示」三层重组，动态标题全中文，首页日期改为实时显示。",
-  "changes": [
-   "公司索引卡片三层化：分层标签+观察方向｜最近值得关注动态（标题/摘要/信号/日期）｜近30天条数+采集角标",
-   "动态选择算法：attention_score × 公司权重(must/strategic加权) × 时间衰减，选出每家公司最近值得关注事件",
-   "动态标题一律中文：优先中文摘要，缺省用点评兜底，避免英文增加理解难度",
-   "采集状态归一三态（正常/部分/无数据），异常角标仅采集失效时显示，避免大面积误报",
-   "首页日期标题改为实时显示（当天日期），不再回退显示成熟批次日期"
-  ]
- },
- {
-  "date": "2026-08-10",
-  "version": "V3.7",
-  "type": "界面与体验",
-  "status": "已完成",
-  "title": "全新界面设计语言上线",
-  "summary": "情报站界面整体改版：以流体质感×编辑编排感的新设计语言替换旧报章风格，今日事件改为平铺卡片+右上角标签，导航整合为玻璃拟态多面板，搜索与地区筛选覆盖全站。",
-  "changes": [
-   "全新设计语言：冷灰蓝渐变底色、玻璃拟态导航、14px 圆角卡片、克制动效（<300ms、仅 transform/opacity）",
-   "今日事件改为平铺卡片流，用右上角标签区分精选/重点/观察，待确认不再打标签、只靠后排序",
-   "导航整合为玻璃 sticky 七面板（今日/周报/月报/公司/全部/日志/反馈），支持 #tab-xxx 直达链接",
-   "搜索与地区筛选覆盖今日页和全部事件，新增命中计数、筛选状态栏与空态提示",
-   "修复历史导航计数（与展开内容一致），点击日期直接跳到全部事件并展开当天",
-   "公司索引点击卡片即按该公司筛选全部事件；地区筛选选项与真实数据对齐（新增「全球」，移除无效的「中资出海」）",
-   "清理旧报章风死代码（--paper-deep、--rust、brief 简介、cluster-card 卡片）"
-  ]
- },
- {
-  "date": "2026-08-10",
-  "version": "V3.6",
-  "type": "信号与内容",
-  "status": "已完成",
-  "title": "行业信号四阶段架构与事件卡片升级",
-  "summary": "行业信号分析从单点评分升级为四阶段架构，并补齐 Signal Score 自检与误分类审计；事件卡片展示区域补北美判定、新增 AI 内容概要字段并整体精简。",
-  "changes": [
-   "行业信号分析流程升级为四阶段架构，新增 Signal Score 计算、范围门控和误分类审计脚本",
-   "新增 verify_signal_score 自检与回归测试，运行测试统一入口 run_tests",
-   "事件卡片展示改造：区域判定补充北美，卡片新增 AI 内容概要字段，整体信息密度更合理",
-   "为最近一周事件批量补齐 content_overview 并重新生成页面与 Feed"
-  ]
- },
- {
-  "date": "2026-08-09",
-  "version": "V3.5",
-  "type": "体验与安全",
-  "status": "已完成",
-  "title": "前端体验、安全加固与反馈功能上线",
-  "summary": "移动端体验优化与页面安全加固，反馈功能由占位正式接线到线上端点；同时清理自嗨主标题和无用旧模板，产品文案更克制。",
-  "changes": [
-   "页面模板启用 autoescape 防 XSS，外部链接做 URL scheme 白名单校验",
-   "反馈功能正式上线，前端接入 weekly-report-feedback-api worker，提交走线上记录",
-   "反馈端点防护加固，降低被滥用风险",
-   "删除公司索引/更新日志/反馈三处自嗨主标题，移除无引用的旧模板与一次性测试产物"
-  ]
- },
- {
-  "date": "2026-08-09",
-  "version": "V3.4",
-  "type": "数据可靠性",
-  "status": "已完成",
-  "title": "采集稳定性修复与可靠性监控",
-  "summary": "修复采集空仓与统计报错两个根因，并上线 CI 测试门控、自动健康检查和 AI 失败率监控，保障数据产出稳定。",
-  "changes": [
-   "修复采集空仓根因：Google News 按时间过滤、官方源日期逻辑、Fintech 过滤银行内容",
-   "扩展事件类型（industry_report、model_release 等）计入采集统计容错，避免 KeyError 中断流程",
-   "GitHub Actions 更新流程增加测试门控，测试失败即拦截发布",
-   "新增自动健康检查脚本，监控 AI 失败率等数据产出指标",
-   "停止跟踪 data/.cache 缓存文件，仓库更干净"
-  ]
- },
- {
-  "date": "2026-08-05",
-  "version": "V3.3",
-  "type": "多类型信号评分",
-  "status": "已完成",
-  "title": "研报、AI模型与区域政策接入统一评分契约",
-  "summary": "在不放松信源筛选和范围闸门的前提下，日报开始识别并排序行业研报、AI模型发布和区域AI/互联网政策；周报/月报使用趋势权重等待独立证据积累。",
-  "changes": [
-   "新增 content_type、subject_type、claim_type、confidence_score、attention_score、trend_weight 和 score_breakdown",
-   "研报发布事实可进入日报，付费全文不可见时只基于公开摘要、目录、新闻稿或公开二次解读",
-   "AI模型发布事实与性能自述分开，模型厂商自报性能不直接视为客观 benchmark",
-   "中国公司重大AI/互联网动作可纳入，但中国地域不自动加分；海外影响记录 origin_region 和 impact_regions",
-   "Source Registry 支持 research_report 及 publisher、权限和方法透明度字段"
-  ]
- },
- {
-  "date": "2026-08-05",
-  "version": "V3.2",
-  "type": "RSS 与存储治理",
-  "status": "已完成",
-  "title": "取消 RSS 条数上限并自动修复错配来源链接",
-  "summary": "RSS 推送当天全部合格事件，保留日报日期与发布时间；采集入口在证据充分时修复 RSS 标题与来源链接错配，同时完整保留事件历史。",
-  "changes": [
-   "取消 RSS 最多 5 条限制，继续复用首页最终事件资格；Google News 和低质量补漏项不进入 RSS",
-   "RSS subtitle 标明实际日报日期，每个 entry 保留 published，alternate URL 统一指向 GitHub Pages",
-   "比较 RSS link、guid/id 等候选链接与标题语义，明显匹配时自动修复并记录原链接、修复标记和原因；无法确认时不猜测",
-   "取消 events.json 的 90 天存储裁剪，首页历史导航仍独立使用近 90 天展示窗口"
-  ]
- },
- {
-  "date": "2026-07-31",
-  "version": "V3.1",
-  "type": "事实链重建",
-  "status": "已完成",
-  "title": "统一事件资格、候选信号与周期主题",
-  "summary": "页面、RSS 和治理报表开始消费同一事件资格；Jobs 变化进入独立候选池，周报与月报改为由独立事实逐级晋级。",
-  "changes": [
-   "新增 view_status、view_reason 和 view_priority，渲染阶段不再重新改变事件资格",
-   "新增 signal_candidates.json，Jobs 差分保留证据、状态和拒绝原因，来源重置不生成事件",
-   "同一对象同一动作的转载合并为一个事实，周报至少两个独立事实，月报至少跨两个周次和三个独立事实",
-   "公司索引统一使用 32 家对象池，并分为 12 家必须覆盖、14 家战略观察和 6 家实验对象",
-   "公司卡同时展示活动状态与覆盖状态，对象时间线按名称和别名匹配全部合格事件",
-   "健康检查新增必须覆盖率、失败观察点、Jobs 失败、候选积压和已晋级候选指标"
-  ]
- },
- {
-  "date": "2026-07-15",
-  "version": "V3.0",
-  "type": "观测系统",
-  "status": "已完成",
-  "title": "恢复日期可信度并上线公司观察账本",
-  "summary": "拆分发布日期与发现时间，阻断未来日期污染；公司索引开始展示采集是否工作、对象是否安静及变化为何未升格为情报。",
-  "changes": [
-   "新增 published_at、observed_at、date_source、date_confidence 和 date_parse_warning，未来日期不再进入发布日期和首页时间桶",
-   "清理 Cloudflare Changelog 误解析产生的 4 条未来日期事件，健康检查新增 future_event_count 硬性校验",
-   "新增 entity_observation_ledger.json，区分近期有动作、已检查无显著变化、有变化未达门槛、接入失效、部分覆盖和待接入",
-   "公司索引以可解释观察状态为主，事件数量退为辅助信息",
-   "接通 Grab、Stripe、Shopify Jobs 快照差分试点，单个职位不进入事件库，只有招聘结构变化才形成候选信号",
-   "MercadoLibre Eightfold 与 Careem 动态职位站保留为待适配，不将页面可访问误记为采集已接通"
-  ]
- },
- {
-  "date": "2026-06-28",
-  "version": "V2.9",
-  "type": "供给治理",
-  "status": "已完成",
-  "title": "收紧融资准入并启动组织行为信号试点",
-  "summary": "把融资从日报主菜降级为趋势温度计，并用 Stripe、Shopify、Grab 验证 changelog/newsroom/IR 等组织行为观察点。",
-  "changes": [
-   "融资事件只有同时属于互联网主赛道并体现扩张、采购、生态合作、产品/API、区域进入等行动信号时才进入日报重点",
-   "军工、疗法/生物制药、纯医疗研发、纯航天和泛工业科技融资默认排除出首页与 RSS",
-   "信源转化报表新增 out_of_scope_industry 和 capital_only_low_actionability 原因，方便看清融资被降级的真实原因",
-   "Shopify Changelog 已能抓取近期开发者变更；Stripe Changelog 和 Grab Newsroom/IR 已接入观察，但近期窗口暂无合格新事件",
-   "对象观察点报表新增 partial 状态，区分完全未接入和部分接入，避免治理口径误判"
-  ]
- },
- {
-  "date": "2026-06-09",
-  "version": "V2.8",
-  "type": "数据质量",
-  "status": "已上线",
-  "title": "修复官方IR旧财报误入今日事件",
-  "summary": "官方IR和财报页必须解析真实发布日期，不能把今天抓到的旧PDF或汇总页当成今日新事件。",
-  "changes": [
-   "官方HTML源新增标题、URL和列表文本日期解析",
-   "官方IR内容无法确认近期发布日期时不再直接入库",
-   "已从今日首页和RSS移除乐天、Square Enix旧财报/IR页面误入事件",
-   "新增回归测试，防止旧IR PDF再次被归入当天事件"
-  ]
- },
- {
-  "date": "2026-06-08",
-  "version": "V2.7",
-  "type": "治理工具",
-  "status": "已上线",
-  "title": "新增信源转化和对象池治理",
-  "summary": "把信源是否工作、为什么没进首页，以及重点对象观察点是否接入，变成可统计的治理报表。",
-  "changes": [
-   "新增 source_conversion_report.py，统计 raw、signal、入库、首页、复核和过滤原因",
-   "新增 entity_pool.json，建立首批重点对象及 newsroom/IR、jobs、changelog/product 观察点",
-   "新增 entity_signal_conversion_report.py，用现有事件统计对象覆盖和未接入观察点",
-   "check_data_health.py 增加信源转化摘要，方便日常巡检高 signal 低首页的来源"
-  ]
- },
- {
-  "date": "2026-06-04",
-  "version": "V2.6",
-  "type": "日报定位",
-  "status": "已上线",
-  "title": "日报改为事件导航层",
-  "summary": "首页日报不再只展示少量叙事证据，而是展示全部合格事件，并按精选、重点、观察排序。",
-  "changes": [
-   "日报顶部改为今日事件导航，说明合格事件总量和分层数量",
-   "首页今日事件按精选、重点、观察分组展示，合格事实不再被叙事层隐藏",
-   "分层只在已通过信源筛选和产品边界的事件内部排序，不放松日报准入",
-   "右侧历史导航改为首页合格事件数，避免和左侧展示数量错位",
-   "workflow 增加北京时间 09:00 补采，和 02:00 早采共同覆盖欧美晚发内容"
-  ]
- },
- {
-  "date": "2026-06-04",
-  "version": "V2.5",
-  "type": "体验修正",
-  "status": "已上线",
-  "title": "统一历史计数和更新日志折叠",
-  "summary": "修正首页历史导航和全部事件数量口径不一致的问题，并把更新日志改为近 90 天折叠展示。",
-  "changes": [
-   "首页事件区文案改为“重要的事件”",
-   "右侧历史导航改用全部事件同源计数，避免 6/2、6/3 数量对不上",
-   "更新日志只展示近 90 天记录",
-   "更新日志卡片默认折叠，展开方式和全部事件保持一致"
-  ]
- },
- {
-  "date": "2026-06-03",
-  "version": "V2.4",
-  "type": "周报试点",
-  "status": "已上线",
-  "title": "周报新增本周关注窗口试点",
-  "summary": "在周报顶部试点展示由近 7 天独立证据聚合出的关注窗口，让周报承接“窗口和方向”的产品职责。",
-  "changes": [
-   "周报顶部新增“本周关注窗口”，展示对象、方向、证据数和下周动作",
-   "关注窗口复用 Signal Cluster 规则，单条事件不会被硬升格为窗口",
-   "原本周优先机会列表继续保留在下方作为证据层和 fallback",
-   "月报暂不深改，仍等待周报试点稳定后再升级趋势和结构变化"
-  ]
- },
- {
-  "date": "2026-06-03",
-  "version": "V2.3",
-  "type": "日报定位",
-  "status": "已上线",
-  "title": "日报改为对象和证据入口",
-  "summary": "把首页日报从“是否形成稳定关注窗口”的裁决，调整为“今日先看谁、证据是什么”的事实入口。",
-  "changes": [
-   "无关注窗口时不再提示“尚未形成稳定关注窗口”",
-   "日报标题改为今日观察主线，优先输出当天对象和证据事件",
-   "页面文案从今日判断/证据事件调整为今日观察/重要事件",
-   "展示契约明确日报看对象和证据，周报再收敛窗口和方向",
-   "README 和使用指南同步移除日报趋势裁决的旧口径"
-  ]
- },
- {
-  "date": "2026-06-03",
-  "version": "V2.2",
-  "type": "历史日期",
-  "status": "已上线",
-  "title": "修复历史日期面板内容串台",
-  "summary": "修正 5/30、5/31、6/1 等历史日期切换后混入当前日期 Top3 和非当天关注窗口证据的问题。",
-  "changes": [
-   "历史日期面板的 Top3 改为只从当前选中日期事件中选择",
-   "关注窗口必须至少包含选中日期的证据事件，避免近 7 天滚动窗口覆盖历史日期",
-   "新增回归测试，防止历史日期再次混入当前日期内容"
-  ]
- },
- {
-  "date": "2026-06-03",
-  "version": "V2.1",
-  "type": "产品边界",
-  "status": "已上线",
-  "title": "新增互联网相关度与独立证据闸门",
-  "summary": "把首页、RSS 和关注窗口从广义科技收紧到全球互联网产业情报，并防止同质事件硬撑趋势判断。",
-  "changes": [
-   "新增 internet_relevance.py，将本站身份边界拆成 core_internet、adjacent_internet、edge_observation、out_of_scope",
-   "首页、RSS、公司优质统计和关注窗口默认要求 internet_relevance >= 2",
-   "军工、纯医疗器械、生物制药、医疗基金等不再进入主展示；医疗 SaaS、EHR、AI notetaker、云与 AI 基础设施保留",
-   "新增 evidence_atoms.py，将同来源、同地区、同动作、同主题的相似事件压成独立证据块",
-   "Narrative 独立证据不足时降级为今日要点，不再展示硬凑关注窗口"
-  ]
- },
- {
-  "date": "2026-06-03",
-  "version": "V2.0",
-  "type": "叙事层",
-  "status": "已上线",
-  "title": "新增 Narrative Layer 与采集时点对比表",
-  "summary": "把首页今日判断、关注窗口和证据事件收束到同一条叙事链，并补充采集时点诊断，区分运行日、事件日和入库来源。",
-  "changes": [
-   "新增 narratives.py，在 Signal Cluster 之上生成统一 Narrative",
-   "首页标题、判断、关注窗口和证据事件改为消费同一个 Narrative",
-   "证据事件只展示当前 Narrative 绑定的事实事件，不再独立从 Top3 或趋势组挑选",
-   "叙事层会去除同公司重复窗口，并只保留同区域或同主题的关注窗口",
-   "没有稳定关注窗口时降级为今日要点，不强行输出趋势判断",
-   "新增 collection_timing_report.py，按最近运行对比 run_date、event_date、入库数和 source_tier 分布"
-  ]
- },
- {
-  "date": "2026-06-01",
-  "version": "V1.9",
-  "type": "产品结构",
-  "status": "已上线",
-  "title": "首页改为关注窗口优先",
-  "summary": "把首页从事件列表前置改为 Signal Cluster 前置，先展示值得观察的信号聚集，再进入证据事件。",
-  "changes": [
-   "新增 signal_clusters.py，从近 7 天事件派生关注窗口，不把单条新闻直接包装成机会",
-   "首页第一屏新增 Top 关注窗口，展示涉及对象、证据事件、信心等级、观察窗口和克制动作",
-   "证据事件下移为事实层，用于支撑关注窗口判断",
-   "展示契约补充关注窗口口径：系统先发现信号聚集，不直接替用户判定商业机会"
-  ]
- },
- {
-  "date": "2026-06-01",
-  "version": "V1.8",
-  "type": "信源质量",
-  "status": "已上线",
-  "title": "新增信源质量报表，RSS 不再推送 Google News",
-  "summary": "用近 7 天真实数据统计各信源对主列表、高价值事件和 RSS 的贡献，并进一步收紧订阅源口径。",
-  "changes": [
-   "新增 source_quality_report.py，按 source 汇总 raw、signals、visible、main、high、rss、google 和 company 指标",
-   "check_data_health.py 增加 top sources 摘要，便于同时观察采集漏斗和信源贡献",
-   "RSS selector 排除 Google News，高价值 Google News 只保留在看板或公司雷达，不进入订阅源",
-   "健康检查默认要求 RSS Google News 占比为 0，防止补漏源重新成为主动推送主体"
-  ]
- },
- {
-  "date": "2026-06-01",
-  "version": "V1.7",
-  "type": "展示口径",
-  "status": "已上线",
-  "title": "成熟批次按主列表计数，更新日志统一左对齐",
-  "summary": "修正薄批次被复核项和公司观察项凑数的问题，并把更新日志版本号改为左侧统一排布。",
-  "changes": [
-   "成熟批次判断改为只统计主列表事件，不再把复核项或低信号 Google News 计入成熟度",
-   "当最新日期主列表事件不足时，首页回退到最近一个主列表信息量更完整的批次",
-   "更新日志版本号从右侧列改到标题下方左对齐，减少换行错位体感",
-   "补充成熟批次 selector 回归测试，锁住主列表计数口径"
-  ]
- },
- {
-  "date": "2026-06-01",
-  "version": "V1.6",
-  "type": "采集监控",
-  "status": "已上线",
-  "title": "采集漏斗写入 run metrics",
-  "summary": "采集流程会把原始抓取、去重、过滤、分层、入库和重复跳过写入结构化指标，方便判断异常发生在哪一层。",
-  "changes": [
-   "新增 run_metrics.py，将每次采集的漏斗指标写入 data/run_metrics.json",
-   "fetch_news.py 记录 RSS、HTML、公司监控的信源命中、信号数和缓存情况",
-   "记录 raw、unique、smart_filtered、ai_filtered、AI分层、程序分层、丢弃、新增入库和重复跳过",
-   "check_data_health.py 会读取最近一次 run metrics，并和展示健康指标一起输出",
-   "补充 run metrics 读写测试，当前不改 workflow，只保留手动健康检查入口"
-  ]
- },
- {
-  "date": "2026-06-01",
-  "version": "V1.5",
-  "type": "质量监控",
-  "status": "已上线",
-  "title": "补齐展示口径契约和数据健康检查",
-  "summary": "把首页、RSS、公司索引、复核区和周/月报的展示口径写成契约，并新增真实数据健康检查，避免问题只靠体感发现。",
-  "changes": [
-   "新增 VIEW_CONTRACT.md，明确采集、评分、选择、展示四层边界",
-   "新增 check_data_health.py，输出近 7 天主列表、复核区、Google News 占比、RSS 和公司优质统计",
-   "新增真实数据回归测试，防止首页为空、公司优质全 0、RSS 被 Google News 主导和重复率异常",
-   "周报/月报高价值统计改为通过 period selector 入口，减少页面直接复用评分函数",
-   "记录采集原始数和过滤数目前仍只在 workflow 日志中，后续需补 run metrics 文件"
-  ]
- },
- {
-  "date": "2026-06-01",
-  "version": "V1.4",
-  "type": "架构收敛",
-  "status": "已上线",
-  "title": "新增展示选择器层，切断页面口径串用",
-  "summary": "把首页、RSS、公司索引和复核区的入选规则收束到独立 selector，避免评分规则调整时误伤不同展示面。",
-  "changes": [
-   "新增 view_selectors.py，集中维护首页、RSS、公司优质线索、复核区和成熟批次选择规则",
-   "首页事件、每日面板和薄批次回退改为调用 selector，不再直接散落调用评分函数",
-   "RSS 推送改为通过 feed selector 选择，高价值事件缺失时回退到最近有效批次",
-   "公司索引优质统计改为通过 company quality selector 计算，和 RSS 高价值口径解耦",
-   "补充 selector 回归测试，覆盖低分非 Google 信号、RSS 回退、公司质量口径和薄批次选择"
-  ]
- },
- {
-  "date": "2026-06-01",
-  "version": "V1.3",
-  "type": "数据口径",
-  "status": "已上线",
-  "title": "修正薄批次展示、公司优质统计和更新日志排版",
-  "summary": "把今日情报从硬性成熟批次回退改为更诚实的薄批次展示，并为公司索引恢复独立的优质线索口径。",
-  "changes": [
-   "通用事件不再因 score < 5 被页面上下文提前过滤，解释完整的低分信号可进入今日情报",
-   "成熟批次阈值从 6 条调低到 3 条，避免周末薄批次直接回退到多天前",
-   "公司索引优质统计改用公司雷达专属口径，不再套用 RSS 高价值规则",
-   "历史事件会重新计算 bd_priority 和 follow_up_window，避免旧字段污染新排序",
-   "RSS 在薄批次无高价值事件时回退到最近一个有高价值事件的批次，避免订阅源空转",
-   "更新日志卡片改为固定版本号列，日期/类型/状态第二行保持左侧对齐"
-  ]
- },
- {
-  "date": "2026-05-28",
-  "version": "V1.2",
-  "type": "质量收敛",
-  "status": "已上线",
-  "title": "高价值口径收紧，Google News 回到补漏位置",
-  "summary": "把高价值事件从“类型命中”改为“分数、解释完整度和信源可信度”共同判断，避免低分 Google News 公司补漏进入主列表和 RSS。",
-  "changes": [
-   "新增共享事件价值规则，采集、页面和 RSS 复用同一套高价值判断",
-   "低分融资/并购标题不再自动升级为高价值事件",
-   "Google News 公司补漏源默认不进入主列表和 RSS，仅保留少量真实组织动作进复核区",
-   "今日判断改为只基于最终落库事件分组生成，避免 summary 与 events 日期错位",
-   "补充事件价值规则测试，锁住低分信号、Google News 补漏和 RSS 高价值口径"
-  ]
- },
- {
-  "date": "2026-05-27",
-  "version": "V1.1",
-  "type": "架构升级",
-  "status": "已上线",
-  "title": "Source Registry 和信号分类开始接管采集口径",
-  "summary": "把信源从 RSS 清单升级为可执行的 Source Registry，并引入最小版信号分类，为后续官方源、changelog、招聘和实体档案打基础。",
-  "changes": [
-   "source_registry.json 新增 source_schema、signal_taxonomy 和可执行 sources 配置",
-   "采集脚本开始读取 registry 中启用的 RSS/HTML 源，并保留 source_type、access_method、credibility_score 等元数据",
-   "事件新增 signal_taxonomy 字段，用 expansion、payment、commerce、ai_infra、capital 等信号维度辅助后续排序",
-   "首批 registry 源优先选择官方 newsroom、developer changelog 和低风险产业源，不接登录态或付费墙来源",
-   "修复候选/需复核事件跨日期不刷新的问题，并加强同主体跨媒体重复的展示去重"
-  ]
- },
- {
-  "date": "2026-05-25",
-  "version": "V1.0",
-  "type": "公司监控",
-  "status": "已上线",
-  "title": "亚太公司名单扩容、中资出海口径校准与 RSS 推送收敛",
-  "summary": "补充 HKTVmall、U-NEXT、Square Enix 等亚太公司监控，把中资客户限定为海外投资、跨境合作和出海业务动向，并将 RSS 收敛为高价值事件推送。",
-  "changes": [
-   "亚太公司索引和公司雷达新增 HKTVmall、U-NEXT、Square Enix",
-   "新增三家公司的官方/IR候选信源，用于补足 Google News 补漏之外的高可信入口",
-   "中资公司雷达新增海外语义过滤，排除国内经营和本土财报噪声",
-   "评分逻辑承认 company_name，让公司雷达事件不再因 companies 列表为空而天然低分",
-   "公司索引新增近 30 天优质线索统计，单独观察中资出海质量",
-   "RSS 订阅源改为复用看板最终事件卡片，并只推送高价值、解释完整的事件"
-  ]
- },
- {
-  "date": "2026-05-25",
-  "version": "V0.9",
-  "type": "信源与数据口径",
-  "status": "已上线",
-  "title": "信源处理库与看板日期修正",
-  "summary": "建立信源处理库，并修正首页成熟批次、最新采集日期、周报状态和反馈入口的口径混淆。",
-  "changes": [
-   "新增 data/source_registry.json，按赛道、信号类型、质量层级和晋级规则维护信源",
-   "Google News 补漏开始保留真实 publisher/source_detail，并限制同媒体重复入选",
-   "采集写入保留 article_date，避免文章日期被运行日覆盖",
-   "顶部时间拆成最新采集日和首页展示批次，周报/月报按最新采集日判断更新中或封存",
-   "反馈入口在 FEEDBACK_ENDPOINT 未配置时明确显示为本机待提交记录，不再误导为线上提交成功"
-  ]
- },
- {
-  "date": "2026-05-22",
-  "version": "V0.8",
-  "type": "首页体验",
-  "status": "已上线",
-  "title": "首页改为成熟批次优先",
-  "summary": "避免凌晨自动更新后，首页切到事件很少的早盘自然日，导致成熟情报被半成品批次覆盖。",
-  "changes": [
-   "首页优先展示主列表事件数足够的成熟批次",
-   "最新自然日事件较少时，以短提示说明早盘信号暂待汇入",
-   "历史导航仍保留最新采集日期，方便查看早盘增量"
-  ]
- },
- {
-  "date": "2026-05-21",
-  "version": "V0.7",
-  "type": "信源质量",
-  "status": "已上线",
-  "title": "Google News 补漏降噪与垂类源扩展",
-  "summary": "复盘近 14 天来源结构后，进一步压低 Google News 补漏量，并接入支付、电商、社交平台和移动广告生态的垂类信源。",
-  "changes": [
-   "Google News 公司雷达默认每家公司最多 2 条，且不再保留 other 类补量",
-   "新增 Finextra Payments、Payments Dive、Retail Dive、Social Media Today、Mobile Marketing Magazine 等垂类源",
-   "补充促销积分、股票预测、加密币、选举、诉讼等 Google News 噪声过滤词",
-   "记录 Twitter/X 作为发生渠道的处理策略：优先接二次沉淀源，后续再评估 X API 或官方变更入口"
-  ]
- },
- {
-  "date": "2026-05-21",
-  "version": "V0.6",
-  "type": "反馈机制",
-  "status": "已上线",
-  "title": "反馈提交改为线上记录优先",
-  "summary": "修正反馈入口的产品边界：用户提交后应由系统自动写入线上记录，本机草稿只作为失败兜底。",
-  "changes": [
-   "反馈页主按钮改为“提交反馈”，不再要求反馈者理解或操作 GitHub",
-   "新增可配置的 FEEDBACK_ENDPOINT，前端可直接提交到受控反馈 API",
-   "提供 Cloudflare Worker 示例，由服务端密钥把反馈写入内部 Issue",
-   "本机保存降级为草稿和失败兜底，并明确不代表线上记录"
-  ]
- },
- {
-  "date": "2026-05-20",
-  "version": "V0.5",
-  "type": "信源质量",
-  "status": "已上线",
-  "title": "第二批官方/IR源接入",
-  "summary": "补充 Sea、Zalando、Allegro、Kaspi.kz、Naver、Kakao、Jumia 等重点公司的官方披露入口，并对官方页启用更保守的导航过滤，减少菜单和分类页误入事件库。",
-  "changes": [
-   "新增第二批 L1 官方/IR源配置，覆盖亚太、欧洲、中东和非洲重点公司",
-   "官方源抓取只保留新闻、公告、财报和战略类链接，避免把投资者首页、财务信息页和分类页误作事件",
-   "本地验证显示 Allegro、Naver、Jumia 已能产出真实公告/新闻；部分 SPA 页面保持低频观察，宁可零命中也不污染数据"
-  ]
- },
- {
-  "date": "2026-05-19",
-  "version": "V0.4",
-  "type": "信源与体验",
-  "status": "已上线",
-  "title": "北京时间口径与垂直赛道信源升级",
-  "summary": "修复自动更新的北京时间日期口径，补充 RSS 订阅入口，并开始把游戏、电商、支付金融、移动生态等精品垂类源纳入情报体系。",
-  "changes": [
-   "采集、生成、GitHub Actions 统一使用北京时间判断今日数据",
-   "页面顶部和 V2 使用指南增加 RSS 订阅地址",
-   "新增垂直赛道精品源层级，首批接入游戏、Fintech、电商和移动生态来源",
-   "公司索引按区域浏览优先，把中资出海公司组移到拉美之后",
-   "强化跨来源同主体事件去重，避免同一融资/并购/财报事件在首页和订阅源重复出现",
-   "周报、月报改为自然周和自然月独立档案，RSS 入口只展示订阅地址，并新增品牌 slogan"
-  ]
- },
- {
-  "date": "2026-05-17",
-  "version": "V0.3",
-  "type": "体验优化",
-  "status": "已上线",
-  "title": "情报看板内容可信度增强",
-  "summary": "围绕目标用户的阅读路径，修正标题、后台标签、公司索引和筛选反馈，让站点更像可持续使用的情报产品。",
-  "changes": [
-   "修复首页标题截断和原英文标题直出的问题",
-   "周报、月报隐藏后台分类词，改为前台可读趋势表达",
-   "公司索引增加近 7 天、近 30 天追踪和最新信号",
-   "增加当前筛选状态和清除筛选入口"
-  ]
- },
- {
-  "date": "2026-05-16",
-  "version": "V0.2",
-  "type": "产品升级",
-  "status": "已上线",
-  "title": "专业情报简报版上线",
-  "summary": "将原有事件列表升级为今日情报、周报、月报、公司索引和全部事件五个工作区。",
-  "changes": [
-   "重构首页信息架构，突出今日判断和高价值事件",
-   "增加周报、月报入口，用周期视角组织事件",
-   "接入公司维度追踪，支持从公司进入事件库",
-   "保留 90 天事件历史，支持搜索和地区筛选"
-  ]
- },
- {
-  "date": "2026-05-16",
-  "version": "V0.1",
-  "type": "数据质量",
-  "status": "已上线",
-  "title": "事件分析质量检查与备用模型",
-  "summary": "针对事件解析不稳定的问题，补充分析质量检查，并加入 DeepSeek 与豆包的主备策略。",
-  "changes": [
-   "增加分析结果质量判断，降低未知字段直接展示",
-   "补充 DeepSeek API 作为主分析模型，豆包作为备用",
-   "保留低质量候选事件的复核入口",
-   "扩展历史视图，支持更长周期回看"
-  ]
- }
+  {
+    "date": "2026-08-28",
+    "version": "V5.4",
+    "type": "性能优化",
+    "status": "已提交待推送",
+    "title": "编辑层缓存化：每班 21 次 AI 调用降至 0-2 次",
+    "summary": "编辑导读由输入主题唯一决定，封档周期输入不变即输出不变，此前每班对全部 17 周+4 月重调 AI（方舟慢时页面生成拖到 32 分钟）。现改为内容寻址缓存：输入指纹一致直接复用，输入变化才重新生成；AI 全部失败时沿用上一版缓存照常发布（此前会中止页面生成并丢弃当班采集数据）。同步修复方舟关思考参数（reasoning:{effort:none} 被静默忽略，换官方 thinking:{type:disabled}，实测思考 token 归零、单流出字速度翻倍）。本地实测：冷启动生成 17 份周报 161 秒，命中缓存后 6.5 秒。",
+    "changes": [
+      "scripts/generate_html.py 新增编辑层缓存（data/editorial_cache.json，内容寻址 + prompt 版本号失效）",
+      "周报/月报编辑通道改为 DeepSeek 官方优先（低频长输出走最快通道，方舟留给事件分析主链），单发不二档超时",
+      "AI 全败 fail-stale：沿用上一版缓存导读，不再中止发布",
+      "scripts/fetch_news.py、scripts/retrofit_events.py 方舟请求改用 thinking:{type:disabled} 关闭深度思考",
+      "随版预播种 17 个历史周的编辑缓存，云端首班即热启动"
+    ]
+  },
+  {
+    "date": "2026-08-27",
+    "version": "V5.3",
+    "type": "成本优化",
+    "status": "已提交待推送",
+    "title": "AI_EXAMPLES 精简：每批 prompt 省 62% token",
+    "summary": "AI 分析 prompt 里的 8 个 few-shot 示例精简到 3 个（融资/财报/Report 语义），每批省约 1367 token（-62%），超出方案预期 ~800 token。零行为变化（不动 AI_SYSTEM_PROMPT，保留方向由规则覆盖），全套离线测试 0 失败。月理论省 ~24.6 万 token（180 批 × 1367）。commit 719559e。",
+    "changes": [
+      "scripts/fetch_news.py AI_EXAMPLES：8 例 → 3 例（融资大额/财报/Report 语义），其余方向由 AI_SYSTEM_PROMPT 覆盖",
+      "全套离线测试 0 失败（含 8 个事件价值/7 个信号地理/合同回填/事件指纹等）"
+    ]
+  },
+  {
+    "date": "2026-08-24",
+    "version": "V5.2",
+    "type": "质量修复",
+    "status": "已提交待推送",
+    "title": "去重改 AI 事件指纹：跨源重复合并不再靠标题相似度",
+    "summary": "去重此前靠「正则提主体 + 标题相似度阈值」，修了几轮仍漏（8-22 Starcloud 融资 2.5 亿美元被两家源各报一篇，标题相似度仅 0.364 被守卫拒合）。本次改为 AI 分析时每条事件输出 canonical_company（主体规范名）+ canonical_key（量化锚点，金额统一 m 单位），入库层与展示层按「主体+类型+锚点」三项全匹配合并——AI 认「同一件事」不再逐类型补正则词表，对融资/并购/财报/合作通用。存量事件无指纹字段自动走旧规则，零影响。",
+    "changes": [
+      "AI 分析输出新增 canonical_company / canonical_key 两字段（提示词与 few-shot 示例同步）",
+      "fetch_news._is_same_event 新增 _fingerprint_match：主体+主类型+锚点全匹配合并，防误并（不同额度/不同类型不并）",
+      "generate_html.dedupe_display_events 加同指纹兜底，绕过正则主体提取错位（如 US space data center startup Starcloud 被误提主体）",
+      "新增 _normalize_canonical_key：金额归一（$250M/$250 Million/2.5亿美元 → 250m）",
+      "新增 scripts/test_event_fingerprint.py：8 用例全绿；存量事件 dedupe 行为与改动前一致",
+      "commit 249e0c2（未推送，与后续改动一并）"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "version": "V5.1",
+    "type": "质量修复",
+    "status": "已上线",
+    "title": "事件质量修复：中资标签误判、零售越界事件清理、重复合并补漏",
+    "summary": "修复三类可见问题：①Kakao Kanana-2 标题里提到\"阿里巴巴\"（作为被超越的对比对象）被误标\"中资出海\"——中资判定改为优先看主角公司，标题中提到但处于对比语境时不再误判；②泛零售媒体（Retail Dive/Modern Retail）借\"电商垂直源\"背书放行建材零售等非互联网事件——摘除两个源的行业背书并清理已入库的 21 条越界事件（家得宝财报等）；③同日/跨天重复漏并（Navi 融资 3 源 2 天、Kakao Mobility IPO 3 条、Kanana-2 评测 2 源）——融资锚点补充 IPO/上市申请类词，存量合并 3 组。新增周度审计脚本 scan 范围外但放行的事件，防止泛行业源卷土重来。",
+    "changes": [
+      "中资判定重构：实体级命中（公司字段）优先，标题中名单词处于对比语境（被超越/领先于）不判中资",
+      "Retail Dive / Modern Retail 摘除电商行业背书（vertical/scope_industries 清空），泛零售报道不再自动放行",
+      "融资锚点补 IPO/listing/filing/registration/上市/上场 等词，IPO 类跨源报道可正确合并",
+      "清理 21 条越界存量（家得宝/劳氏/塔吉特等建材与泛零售财报、旅游/机场/汽车/公益内容）",
+      "Navi 融资、Kakao Mobility IPO、Kakao Kanana-2 共 3 组 6 条重复合并为 3 条，被并入来源记入 merged_from 可追溯",
+      "新增 scripts/audit_scope_misfits.py：周度扫描 scope 放行但互联网相关性不足的事件供人工复核"
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "version": "V5.0",
+    "type": "变化聚合+评分校准",
+    "status": "已上线",
+    "title": "变化聚合 MVP（公司+行业）、评分权重用真实数据校准、失效观察点清理、信源登记补全",
+    "summary": "完成 8-12 定案的变化聚合层第一阶段：月报新增「公司变化」「行业变化」区块，复用主题趋势的跨周门槛+基线+覆盖率校正，回答「最近哪些公司/行业在起变化」。评分权重用真实历史事件离线校准：财报从融资中拆出独立 earnings 档，避免财报垄断高分，Top10 从清一色财报变为产品/政策/财报/扩张多样。同时清理 4 个持续失效的观察点源（noon.com 等连接超时，暂停采集）、补全 43 个硬编码信源登记进 Source Registry、signal_taxonomy 接入排序。",
+    "changes": [
+      "period_themes 泛化：新增 build_company_changes / build_industry_changes，公司/行业/主题三轴共用跨周基线+覆盖率校正，输出结构一致",
+      "月报模板新增「公司变化」「行业变化」区块，与「本月结构变化」并列；区域聚合按方案后置未做",
+      "周报/月报聚合改用全量事件（修复展示管线过滤导致公司跨周证据不足、区块为空的问题）",
+      "signal_scoring：新增 earnings 独立 action_type，财报/融资分档；权重按真实数据定案（政策25/产品24/融资22/财报18/扩张18/招聘12）",
+      "calibrate_weights.py：离线权重校准脚本，对比各配置分数分布与 Top 事件构成",
+      "view_selectors：signal_sort_key 增加信号类型+来源 tier 质量加分（同变化分内区分可信度与行动性）",
+      "修复失效观察点：noon-newsroom/traveloka-newsroom/tabby-blog/dlocal-news 持续连接超时，registry+pool 标记 paused 暂停采集，must 覆盖失败点 1→0",
+      "source_registry 补全 43 个硬编码信源登记（含 signal_only 显式字段），采集行为不变，为后续切换加载铺路",
+      "新增 test_change_aggregation（6 个）、test_signal_scoring 补 earnings 拆分测试"
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "version": "V4.9",
+    "type": "展示层",
+    "status": "已上线",
+    "title": "AI 热点展示统一回退：当期无数据时用最近一期有效数据顶替",
+    "summary": "AIHOT 上游热点榜从 8/16 起衰减、8/17 归零，导致首页「近期AI热点」与周报/月报「AI 热点」区块因当期无数据而消失。本次将三处展示统一为同一数据结构和回退逻辑：当前/当期快照为空时，自动取最近一期有数据的归档顶替，区块不再静默消失；不修改抓取与源数据。",
+    "changes": [
+      "generate_html 新增 _aihot_items_to_list（快照/归档统一列表结构）与 _latest_aihot_items（取最近一期非空归档）",
+      "今日 tab「近期AI热点」改读统一列表结构，当期为空回退最近一期归档",
+      "周报/月报「本周/本月 AI 热点」当期为空同样回退最近一期归档",
+      "test_aihot_integration 新增 5 个回退测试（统一结构、跳过空期、无归档兜底、周报/月报回退）"
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "version": "V4.8",
+    "type": "评分重构",
+    "status": "已上线",
+    "title": "评分底层校准：拆动作/行业正交字段、补市场影响范围、建历史基线与覆盖率校正",
+    "summary": "落实评分与变化聚合三份方案的评审：拆出 action_type/domain 正交字段，类型权重改由动作驱动消除公司低分；补市场影响范围分量（含置信度，权重从低不拍25%）；月报变化检测升级为当前窗口 vs 历史基线均值 + 覆盖率校正。",
+    "changes": [
+      "signal_scoring：新增 action_type（product_release/policy_change/funding/expansion/hiring）与 domain（ai/payment/ecommerce/cloud_saas/telecom）推断，写入事件契约",
+      "signal_change_score：类型权重从 signal_type 改 action_type 驱动（产品发布22/政策25/融资22/扩张18/招聘12），公司产品发布不再天然低分",
+      "signal_change_score：region_specific 换成 market_impact 分量（读侧 signal_geo 标注，含市场影响置信度），权重从低",
+      "period_themes 月报：变化检测从单一前窗口改为当前窗口 vs 前3窗口基线均值，新增 baseline_count/coverage_ratio，覆盖率校正防新增信源误判升温",
+      "月报模板：前一周期口径改基线均值"
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "version": "V4.7",
+    "type": "评分重构",
+    "status": "已上线",
+    "title": "砍掉趋势循环：单条 Signal 不再评分趋势，趋势判断交给聚合层",
+    "summary": "移除单条 Signal 的 trend_weight 字段与 signal_change_score 的趋势潜力分量，解决单条先预测趋势、聚合又乘一次的循环计算。周报/月报趋势分改由多事件/跨时间的证据决定（事实数/周次数/环比增量），不再依赖单条事件自我预测。",
+    "changes": [
+      "signal_scoring.py：删除 score_signal 的 trend_weight 输出与 signal_change_score 的 trend_potential 分量（单条 Signal 不评分趋势潜力）",
+      "period_themes.py：周报/月报趋势分去掉 _avg_trend_weight，改用 atom_count/weeks/delta 等聚合证据；代表事件排序键从 trend_weight 换成 attention_score",
+      "signal_funnel_report.py：删除 trend_sum/main_trend_sum 死统计",
+      "测试同步：test_signal_scoring、test_contract_backfill、test_event_value 清理 trend_weight 相关断言"
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "version": "V4.6",
+    "type": "公司索引扩充",
+    "status": "已上线",
+    "title": "公司索引新增美国 7 姐妹、超大云厂商与中国模型厂商/头部互联网共 20 家",
+    "summary": "定位调整为全球变化雷达后，将美国 7 姐妹（Microsoft/Apple/NVIDIA/Amazon/Meta/Alphabet/Tesla）、超大云厂商（Oracle/IBM）及中国 6 大模型厂商与头部互联网（字节/阿里/腾讯/百度/智谱/月之暗面/DeepSeek/MiniMax/京东/拼多多/美团）纳入公司索引实体池。",
+    "changes": [
+      "entity_pool 从 32 家扩到 52 家，新增 20 家实体（美国大厂 region=全球、中国大厂 region=中资）",
+      "新增实体全部进入 portfolio experiment 层，公司索引页按现有标准展示",
+      "sector 中文映射与采集 scope 契约同步补全（generate_html 与 fetch_news）"
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "version": "V4.5",
+    "type": "AI热点自动化",
+    "status": "已上线",
+    "title": "AIHOT 热点与模型榜独立自动更新，周报月报新增 AI 热点",
+    "summary": "AIHOT 热点与模型榜从主采集管线拆出，独立 workflow 每天北京 8:00/20:00 自动抓取并刷新页面；热点按天归档，周报/月报新增当期 AI 热点小节；RSS 新增全球AI视野 Top5 汇总条。",
+    "changes": [
+      "新增独立 workflow：AIHOT 热点 + 模型榜每日两次（北京 08:00/20:00）自动抓取并刷新页面，与主采集错开、自动合并提交",
+      "热点按天归档 data/aihot_hot/YYYY-MM-DD.json，供周报/月报按自然周期取数",
+      "周报/月报新增「本周/本月 AI 热点」小节，复用热点卡样式",
+      "RSS 新增「全球AI视野 Top5」独立汇总条",
+      "模型榜从手动更新恢复为每日自动更新"
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "version": "V4.4",
+    "type": "数据质量与展示",
+    "status": "已完成",
+    "title": "全量事件先 AI 分析 + fallback 文案中性化 + 问题事件自动修复",
+    "summary": "所有合格事件一律先送 AI 深度分析（仅低价值边缘事件丢弃），AI 失败才程序兜底；fallback 不再显示「AI 分析暂不可用」类吓人文案，点评行留空；新增问题事件自动修复脚本；并修复全量 AI 分层引入的 today_events 崩溃，恢复自动采集。",
+    "changes": [
+      "分层重构：所有合格事件一律先进 AI（仅 score<4 且非公司丢弃），替代原「高分走 AI、中分程序生成」两级分流——低分合格事件也获得 AI 分析",
+      "fallback 文案中性化：AI 失败事件 reason 留空（页面不显示点评行），不再出现「AI 分析暂不可用」类提示",
+      "新增 scripts/repair_stale_analysis.py：自动扫描 reason 为空/含旧文案的问题事件重新 AI 分析，接入 GHA 每日自动执行",
+      "修复全量 AI 分层引入的 today_events 未初始化崩溃（ai_tier 为空时 append 失败），自动采集流水线恢复运行"
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "version": "V4.3",
+    "type": "信源与界面",
+    "status": "已完成",
+    "title": "今日情报新增「今日热点」排行（AIHOT 数据补充）",
+    "summary": "今日情报页顶部新增「今日热点」紧凑排行，直接展示 AIHOT 全球 AI 热点（过去 48 小时，每天对齐），点击直达原始文章，与情报站自身事件并列为上下布局。",
+    "changes": [
+      "新增 AIHOT 热点抓取脚本 scripts/fetch_aihot_hot.py：抓 /hot 列表 + story 详情，提取标题、热度值、信源数、原始来源链接，输出 data/aihot_hot.json",
+      "今日情报页顶部新增「今日热点」紧凑卡片：排名 + 标题 + 热度值，共 5 条，右上角「查看全部」直达 AIHOT 热点榜",
+      "点击热点条目直达原始文章（微信公众号、科技媒体、官方博客等），不经 AIHOT 中转页",
+      "设计语言与现有事件卡片对齐（同配色、同卡片风格），作为事件列表上方的配菜，不抢主内容"
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "version": "V4.2",
+    "type": "数据质量与展示",
+    "status": "已完成",
+    "title": "事件去重重写为事件键优先 + 类型判定AI化 + AI不可用不再编造断言",
+    "summary": "重复事件改为按「谁+什么事+哪一天」事实键合并，修复同日多源报道重复（如 Sea 财报、Jumia 融资）；事件类型改由 AI 判定，AI 不可用时不展示按类型编造的文案，改中性提示。",
+    "changes": [
+      "去重重写：同日/相邻天同一公司同类型事件（财报/融资/并购）直接合并，不再依赖标题相似度——修复同一天多家媒体报道同一事件（Sea Q2财报3篇并为2、Jumia融资2篇并为1）全部入库的问题",
+      "报道方向守卫：财报「利润创新高」与「净利大跌」方向相反的报道视为不同事件，不合并",
+      "公司识别增强：报道标题提到公司名但未打公司标签的事件（如 WeeTracker 的 Jumia 融资）也能归入同一实体合并",
+      "类型判定 AI 化：事件类型改由 AI 从内容实质判定，标题里的「Report」（据报道）、记者手记、公司名含 ranking 等不再误判为行业研究报告",
+      "AI 不可用时的文案中性化：AI 分析暂不可用时不再按猜测类型编造「行业研究报告发布」「财报披露」等断言式文案，改显示「AI 分析暂不可用，请以原文为准」",
+      "存量清理：按新去重逻辑清理全历史同日重复事件（3065 → 3045 条），被合并来源保留在 merged_from 可追溯"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "version": "V4.1",
+    "type": "数据质量与展示",
+    "status": "已完成",
+    "title": "顶部日期实时化 + 事件跨天去重 + 更新日志防断档",
+    "summary": "顶部日期改为浏览器实时显示；采集与展示两层共同拦截相邻天内重复事件（如 Square Enix 财报），官方源栏目页不再误作事件，存量重复已清理；更新日志与页面增加一致性自检。",
+    "changes": [
+      "顶部日期实时化：展示日期改为打开页面时按浏览器本地时间实时生成，不再停留在生成当天；采集/成熟批次仍按数据日期显示",
+      "跨天去重：相邻 3 天内同一财报/并购/融资/战略事件自动合并，保留信息更完整的一条；财报标题须以公司名开头且紧跟报道动词，避免公司名误标导致误并",
+      "官方源栏目过滤：sustainability、presentations、financial-reports 等栏目导航页不再被当作事件入库",
+      "存量清理：清理近 30 天重复事件与 STC 栏目误报（2992 → 2970 条）",
+      "更新日志一致性自检：健康检查新增校验，site_updates.json 最新版本必须出现在生成页面中，防止改日志后忘生成页面再次断档"
+    ]
+  },
+  {
+    "date": "2026-08-11",
+    "version": "V4.0",
+    "type": "信源与信号质量",
+    "status": "已完成",
+    "title": "信源盲区补齐 + 信号质量升级",
+    "summary": "补齐巴西、日本媒体发现盲区，新增日文信源；上线「失明源」自动告警；首页排序改为「变化重要性」优先。",
+    "changes": [
+      "巴西：修复季度财报标题识别 bug、MercadoLibre 补行业范围、官方源范围放宽——巴西此前是监控盲区，现在能正常产出",
+      "日本：新增 The Bridge（日本创投）+ 36Kr Japan（日文中国科技）两个日文媒体源，日文融资/并购/财报/战略标题识别上线——日本媒体发现层从无到有",
+      "源告警：新增「失明源」检测（曾经出活、最近连续无产出），自动区分抓取失败与供应骤降，第一时间发现源失效",
+      "排序升级：首页与全部事件按「变化重要性」排序（政策/结构变化优先于普通公司动态）"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "version": "V3.9",
+    "type": "功能与界面",
+    "status": "已完成",
+    "title": "新增模型榜 tab",
+    "summary": "新增「模型榜」tab，复刻 AIHOT 大模型排行榜：主榜前 30 共识分排名 + 12 家官方评测榜单明细，数据手动刷新。",
+    "changes": [
+      "新增「模型榜」导航 tab：AIHOT 共识分前 30 名表格（排名/模型/上线日期/评测完整度/输入输出成本/共识分），点击模型名可到原站查看各榜详情",
+      "官方榜单明细：12 家独立来源折叠展开（AA Index、Epoch ECI、LiveBench、LMArena、EQ-Bench、Vals、APEX-Agents、DeepSWE 等），每家含原榜名次与原始分数",
+      "新增抓取脚本 scripts/fetch_model_leaderboard.py，手动运行即可刷新 data/model_leaderboard.json",
+      "页脚标注数据来源与共识分说明，链接回 AIHOT 原站并遵守其公开使用规则"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "version": "V3.8",
+    "type": "功能与界面",
+    "status": "已完成",
+    "title": "公司索引升级为业务雷达",
+    "summary": "公司索引从状态列表升级为企业级情报雷达：卡片按「公司身份→值得关注的变化→情报意义→可信度提示」三层重组，动态标题全中文，首页日期改为实时显示。",
+    "changes": [
+      "公司索引卡片三层化：分层标签+观察方向｜最近值得关注动态（标题/摘要/信号/日期）｜近30天条数+采集角标",
+      "动态选择算法：attention_score × 公司权重(must/strategic加权) × 时间衰减，选出每家公司最近值得关注事件",
+      "动态标题一律中文：优先中文摘要，缺省用点评兜底，避免英文增加理解难度",
+      "采集状态归一三态（正常/部分/无数据），异常角标仅采集失效时显示，避免大面积误报",
+      "首页日期标题改为实时显示（当天日期），不再回退显示成熟批次日期"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "version": "V3.7",
+    "type": "界面与体验",
+    "status": "已完成",
+    "title": "全新界面设计语言上线",
+    "summary": "情报站界面整体改版：以流体质感×编辑编排感的新设计语言替换旧报章风格，今日事件改为平铺卡片+右上角标签，导航整合为玻璃拟态多面板，搜索与地区筛选覆盖全站。",
+    "changes": [
+      "全新设计语言：冷灰蓝渐变底色、玻璃拟态导航、14px 圆角卡片、克制动效（<300ms、仅 transform/opacity）",
+      "今日事件改为平铺卡片流，用右上角标签区分精选/重点/观察，待确认不再打标签、只靠后排序",
+      "导航整合为玻璃 sticky 七面板（今日/周报/月报/公司/全部/日志/反馈），支持 #tab-xxx 直达链接",
+      "搜索与地区筛选覆盖今日页和全部事件，新增命中计数、筛选状态栏与空态提示",
+      "修复历史导航计数（与展开内容一致），点击日期直接跳到全部事件并展开当天",
+      "公司索引点击卡片即按该公司筛选全部事件；地区筛选选项与真实数据对齐（新增「全球」，移除无效的「中资出海」）",
+      "清理旧报章风死代码（--paper-deep、--rust、brief 简介、cluster-card 卡片）"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "version": "V3.6",
+    "type": "信号与内容",
+    "status": "已完成",
+    "title": "行业信号四阶段架构与事件卡片升级",
+    "summary": "行业信号分析从单点评分升级为四阶段架构，并补齐 Signal Score 自检与误分类审计；事件卡片展示区域补北美判定、新增 AI 内容概要字段并整体精简。",
+    "changes": [
+      "行业信号分析流程升级为四阶段架构，新增 Signal Score 计算、范围门控和误分类审计脚本",
+      "新增 verify_signal_score 自检与回归测试，运行测试统一入口 run_tests",
+      "事件卡片展示改造：区域判定补充北美，卡片新增 AI 内容概要字段，整体信息密度更合理",
+      "为最近一周事件批量补齐 content_overview 并重新生成页面与 Feed"
+    ]
+  },
+  {
+    "date": "2026-08-09",
+    "version": "V3.5",
+    "type": "体验与安全",
+    "status": "已完成",
+    "title": "前端体验、安全加固与反馈功能上线",
+    "summary": "移动端体验优化与页面安全加固，反馈功能由占位正式接线到线上端点；同时清理自嗨主标题和无用旧模板，产品文案更克制。",
+    "changes": [
+      "页面模板启用 autoescape 防 XSS，外部链接做 URL scheme 白名单校验",
+      "反馈功能正式上线，前端接入 weekly-report-feedback-api worker，提交走线上记录",
+      "反馈端点防护加固，降低被滥用风险",
+      "删除公司索引/更新日志/反馈三处自嗨主标题，移除无引用的旧模板与一次性测试产物"
+    ]
+  },
+  {
+    "date": "2026-08-09",
+    "version": "V3.4",
+    "type": "数据可靠性",
+    "status": "已完成",
+    "title": "采集稳定性修复与可靠性监控",
+    "summary": "修复采集空仓与统计报错两个根因，并上线 CI 测试门控、自动健康检查和 AI 失败率监控，保障数据产出稳定。",
+    "changes": [
+      "修复采集空仓根因：Google News 按时间过滤、官方源日期逻辑、Fintech 过滤银行内容",
+      "扩展事件类型（industry_report、model_release 等）计入采集统计容错，避免 KeyError 中断流程",
+      "GitHub Actions 更新流程增加测试门控，测试失败即拦截发布",
+      "新增自动健康检查脚本，监控 AI 失败率等数据产出指标",
+      "停止跟踪 data/.cache 缓存文件，仓库更干净"
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "version": "V3.3",
+    "type": "多类型信号评分",
+    "status": "已完成",
+    "title": "研报、AI模型与区域政策接入统一评分契约",
+    "summary": "在不放松信源筛选和范围闸门的前提下，日报开始识别并排序行业研报、AI模型发布和区域AI/互联网政策；周报/月报使用趋势权重等待独立证据积累。",
+    "changes": [
+      "新增 content_type、subject_type、claim_type、confidence_score、attention_score、trend_weight 和 score_breakdown",
+      "研报发布事实可进入日报，付费全文不可见时只基于公开摘要、目录、新闻稿或公开二次解读",
+      "AI模型发布事实与性能自述分开，模型厂商自报性能不直接视为客观 benchmark",
+      "中国公司重大AI/互联网动作可纳入，但中国地域不自动加分；海外影响记录 origin_region 和 impact_regions",
+      "Source Registry 支持 research_report 及 publisher、权限和方法透明度字段"
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "version": "V3.2",
+    "type": "RSS 与存储治理",
+    "status": "已完成",
+    "title": "取消 RSS 条数上限并自动修复错配来源链接",
+    "summary": "RSS 推送当天全部合格事件，保留日报日期与发布时间；采集入口在证据充分时修复 RSS 标题与来源链接错配，同时完整保留事件历史。",
+    "changes": [
+      "取消 RSS 最多 5 条限制，继续复用首页最终事件资格；Google News 和低质量补漏项不进入 RSS",
+      "RSS subtitle 标明实际日报日期，每个 entry 保留 published，alternate URL 统一指向 GitHub Pages",
+      "比较 RSS link、guid/id 等候选链接与标题语义，明显匹配时自动修复并记录原链接、修复标记和原因；无法确认时不猜测",
+      "取消 events.json 的 90 天存储裁剪，首页历史导航仍独立使用近 90 天展示窗口"
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "version": "V3.1",
+    "type": "事实链重建",
+    "status": "已完成",
+    "title": "统一事件资格、候选信号与周期主题",
+    "summary": "页面、RSS 和治理报表开始消费同一事件资格；Jobs 变化进入独立候选池，周报与月报改为由独立事实逐级晋级。",
+    "changes": [
+      "新增 view_status、view_reason 和 view_priority，渲染阶段不再重新改变事件资格",
+      "新增 signal_candidates.json，Jobs 差分保留证据、状态和拒绝原因，来源重置不生成事件",
+      "同一对象同一动作的转载合并为一个事实，周报至少两个独立事实，月报至少跨两个周次和三个独立事实",
+      "公司索引统一使用 32 家对象池，并分为 12 家必须覆盖、14 家战略观察和 6 家实验对象",
+      "公司卡同时展示活动状态与覆盖状态，对象时间线按名称和别名匹配全部合格事件",
+      "健康检查新增必须覆盖率、失败观察点、Jobs 失败、候选积压和已晋级候选指标"
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "version": "V3.0",
+    "type": "观测系统",
+    "status": "已完成",
+    "title": "恢复日期可信度并上线公司观察账本",
+    "summary": "拆分发布日期与发现时间，阻断未来日期污染；公司索引开始展示采集是否工作、对象是否安静及变化为何未升格为情报。",
+    "changes": [
+      "新增 published_at、observed_at、date_source、date_confidence 和 date_parse_warning，未来日期不再进入发布日期和首页时间桶",
+      "清理 Cloudflare Changelog 误解析产生的 4 条未来日期事件，健康检查新增 future_event_count 硬性校验",
+      "新增 entity_observation_ledger.json，区分近期有动作、已检查无显著变化、有变化未达门槛、接入失效、部分覆盖和待接入",
+      "公司索引以可解释观察状态为主，事件数量退为辅助信息",
+      "接通 Grab、Stripe、Shopify Jobs 快照差分试点，单个职位不进入事件库，只有招聘结构变化才形成候选信号",
+      "MercadoLibre Eightfold 与 Careem 动态职位站保留为待适配，不将页面可访问误记为采集已接通"
+    ]
+  },
+  {
+    "date": "2026-06-28",
+    "version": "V2.9",
+    "type": "供给治理",
+    "status": "已完成",
+    "title": "收紧融资准入并启动组织行为信号试点",
+    "summary": "把融资从日报主菜降级为趋势温度计，并用 Stripe、Shopify、Grab 验证 changelog/newsroom/IR 等组织行为观察点。",
+    "changes": [
+      "融资事件只有同时属于互联网主赛道并体现扩张、采购、生态合作、产品/API、区域进入等行动信号时才进入日报重点",
+      "军工、疗法/生物制药、纯医疗研发、纯航天和泛工业科技融资默认排除出首页与 RSS",
+      "信源转化报表新增 out_of_scope_industry 和 capital_only_low_actionability 原因，方便看清融资被降级的真实原因",
+      "Shopify Changelog 已能抓取近期开发者变更；Stripe Changelog 和 Grab Newsroom/IR 已接入观察，但近期窗口暂无合格新事件",
+      "对象观察点报表新增 partial 状态，区分完全未接入和部分接入，避免治理口径误判"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "version": "V2.8",
+    "type": "数据质量",
+    "status": "已上线",
+    "title": "修复官方IR旧财报误入今日事件",
+    "summary": "官方IR和财报页必须解析真实发布日期，不能把今天抓到的旧PDF或汇总页当成今日新事件。",
+    "changes": [
+      "官方HTML源新增标题、URL和列表文本日期解析",
+      "官方IR内容无法确认近期发布日期时不再直接入库",
+      "已从今日首页和RSS移除乐天、Square Enix旧财报/IR页面误入事件",
+      "新增回归测试，防止旧IR PDF再次被归入当天事件"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "version": "V2.7",
+    "type": "治理工具",
+    "status": "已上线",
+    "title": "新增信源转化和对象池治理",
+    "summary": "把信源是否工作、为什么没进首页，以及重点对象观察点是否接入，变成可统计的治理报表。",
+    "changes": [
+      "新增 source_conversion_report.py，统计 raw、signal、入库、首页、复核和过滤原因",
+      "新增 entity_pool.json，建立首批重点对象及 newsroom/IR、jobs、changelog/product 观察点",
+      "新增 entity_signal_conversion_report.py，用现有事件统计对象覆盖和未接入观察点",
+      "check_data_health.py 增加信源转化摘要，方便日常巡检高 signal 低首页的来源"
+    ]
+  },
+  {
+    "date": "2026-06-04",
+    "version": "V2.6",
+    "type": "日报定位",
+    "status": "已上线",
+    "title": "日报改为事件导航层",
+    "summary": "首页日报不再只展示少量叙事证据，而是展示全部合格事件，并按精选、重点、观察排序。",
+    "changes": [
+      "日报顶部改为今日事件导航，说明合格事件总量和分层数量",
+      "首页今日事件按精选、重点、观察分组展示，合格事实不再被叙事层隐藏",
+      "分层只在已通过信源筛选和产品边界的事件内部排序，不放松日报准入",
+      "右侧历史导航改为首页合格事件数，避免和左侧展示数量错位",
+      "workflow 增加北京时间 09:00 补采，和 02:00 早采共同覆盖欧美晚发内容"
+    ]
+  },
+  {
+    "date": "2026-06-04",
+    "version": "V2.5",
+    "type": "体验修正",
+    "status": "已上线",
+    "title": "统一历史计数和更新日志折叠",
+    "summary": "修正首页历史导航和全部事件数量口径不一致的问题，并把更新日志改为近 90 天折叠展示。",
+    "changes": [
+      "首页事件区文案改为“重要的事件”",
+      "右侧历史导航改用全部事件同源计数，避免 6/2、6/3 数量对不上",
+      "更新日志只展示近 90 天记录",
+      "更新日志卡片默认折叠，展开方式和全部事件保持一致"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "version": "V2.4",
+    "type": "周报试点",
+    "status": "已上线",
+    "title": "周报新增本周关注窗口试点",
+    "summary": "在周报顶部试点展示由近 7 天独立证据聚合出的关注窗口，让周报承接“窗口和方向”的产品职责。",
+    "changes": [
+      "周报顶部新增“本周关注窗口”，展示对象、方向、证据数和下周动作",
+      "关注窗口复用 Signal Cluster 规则，单条事件不会被硬升格为窗口",
+      "原本周优先机会列表继续保留在下方作为证据层和 fallback",
+      "月报暂不深改，仍等待周报试点稳定后再升级趋势和结构变化"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "version": "V2.3",
+    "type": "日报定位",
+    "status": "已上线",
+    "title": "日报改为对象和证据入口",
+    "summary": "把首页日报从“是否形成稳定关注窗口”的裁决，调整为“今日先看谁、证据是什么”的事实入口。",
+    "changes": [
+      "无关注窗口时不再提示“尚未形成稳定关注窗口”",
+      "日报标题改为今日观察主线，优先输出当天对象和证据事件",
+      "页面文案从今日判断/证据事件调整为今日观察/重要事件",
+      "展示契约明确日报看对象和证据，周报再收敛窗口和方向",
+      "README 和使用指南同步移除日报趋势裁决的旧口径"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "version": "V2.2",
+    "type": "历史日期",
+    "status": "已上线",
+    "title": "修复历史日期面板内容串台",
+    "summary": "修正 5/30、5/31、6/1 等历史日期切换后混入当前日期 Top3 和非当天关注窗口证据的问题。",
+    "changes": [
+      "历史日期面板的 Top3 改为只从当前选中日期事件中选择",
+      "关注窗口必须至少包含选中日期的证据事件，避免近 7 天滚动窗口覆盖历史日期",
+      "新增回归测试，防止历史日期再次混入当前日期内容"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "version": "V2.1",
+    "type": "产品边界",
+    "status": "已上线",
+    "title": "新增互联网相关度与独立证据闸门",
+    "summary": "把首页、RSS 和关注窗口从广义科技收紧到全球互联网产业情报，并防止同质事件硬撑趋势判断。",
+    "changes": [
+      "新增 internet_relevance.py，将本站身份边界拆成 core_internet、adjacent_internet、edge_observation、out_of_scope",
+      "首页、RSS、公司优质统计和关注窗口默认要求 internet_relevance >= 2",
+      "军工、纯医疗器械、生物制药、医疗基金等不再进入主展示；医疗 SaaS、EHR、AI notetaker、云与 AI 基础设施保留",
+      "新增 evidence_atoms.py，将同来源、同地区、同动作、同主题的相似事件压成独立证据块",
+      "Narrative 独立证据不足时降级为今日要点，不再展示硬凑关注窗口"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "version": "V2.0",
+    "type": "叙事层",
+    "status": "已上线",
+    "title": "新增 Narrative Layer 与采集时点对比表",
+    "summary": "把首页今日判断、关注窗口和证据事件收束到同一条叙事链，并补充采集时点诊断，区分运行日、事件日和入库来源。",
+    "changes": [
+      "新增 narratives.py，在 Signal Cluster 之上生成统一 Narrative",
+      "首页标题、判断、关注窗口和证据事件改为消费同一个 Narrative",
+      "证据事件只展示当前 Narrative 绑定的事实事件，不再独立从 Top3 或趋势组挑选",
+      "叙事层会去除同公司重复窗口，并只保留同区域或同主题的关注窗口",
+      "没有稳定关注窗口时降级为今日要点，不强行输出趋势判断",
+      "新增 collection_timing_report.py，按最近运行对比 run_date、event_date、入库数和 source_tier 分布"
+    ]
+  },
+  {
+    "date": "2026-06-01",
+    "version": "V1.9",
+    "type": "产品结构",
+    "status": "已上线",
+    "title": "首页改为关注窗口优先",
+    "summary": "把首页从事件列表前置改为 Signal Cluster 前置，先展示值得观察的信号聚集，再进入证据事件。",
+    "changes": [
+      "新增 signal_clusters.py，从近 7 天事件派生关注窗口，不把单条新闻直接包装成机会",
+      "首页第一屏新增 Top 关注窗口，展示涉及对象、证据事件、信心等级、观察窗口和克制动作",
+      "证据事件下移为事实层，用于支撑关注窗口判断",
+      "展示契约补充关注窗口口径：系统先发现信号聚集，不直接替用户判定商业机会"
+    ]
+  },
+  {
+    "date": "2026-06-01",
+    "version": "V1.8",
+    "type": "信源质量",
+    "status": "已上线",
+    "title": "新增信源质量报表，RSS 不再推送 Google News",
+    "summary": "用近 7 天真实数据统计各信源对主列表、高价值事件和 RSS 的贡献，并进一步收紧订阅源口径。",
+    "changes": [
+      "新增 source_quality_report.py，按 source 汇总 raw、signals、visible、main、high、rss、google 和 company 指标",
+      "check_data_health.py 增加 top sources 摘要，便于同时观察采集漏斗和信源贡献",
+      "RSS selector 排除 Google News，高价值 Google News 只保留在看板或公司雷达，不进入订阅源",
+      "健康检查默认要求 RSS Google News 占比为 0，防止补漏源重新成为主动推送主体"
+    ]
+  },
+  {
+    "date": "2026-06-01",
+    "version": "V1.7",
+    "type": "展示口径",
+    "status": "已上线",
+    "title": "成熟批次按主列表计数，更新日志统一左对齐",
+    "summary": "修正薄批次被复核项和公司观察项凑数的问题，并把更新日志版本号改为左侧统一排布。",
+    "changes": [
+      "成熟批次判断改为只统计主列表事件，不再把复核项或低信号 Google News 计入成熟度",
+      "当最新日期主列表事件不足时，首页回退到最近一个主列表信息量更完整的批次",
+      "更新日志版本号从右侧列改到标题下方左对齐，减少换行错位体感",
+      "补充成熟批次 selector 回归测试，锁住主列表计数口径"
+    ]
+  },
+  {
+    "date": "2026-06-01",
+    "version": "V1.6",
+    "type": "采集监控",
+    "status": "已上线",
+    "title": "采集漏斗写入 run metrics",
+    "summary": "采集流程会把原始抓取、去重、过滤、分层、入库和重复跳过写入结构化指标，方便判断异常发生在哪一层。",
+    "changes": [
+      "新增 run_metrics.py，将每次采集的漏斗指标写入 data/run_metrics.json",
+      "fetch_news.py 记录 RSS、HTML、公司监控的信源命中、信号数和缓存情况",
+      "记录 raw、unique、smart_filtered、ai_filtered、AI分层、程序分层、丢弃、新增入库和重复跳过",
+      "check_data_health.py 会读取最近一次 run metrics，并和展示健康指标一起输出",
+      "补充 run metrics 读写测试，当前不改 workflow，只保留手动健康检查入口"
+    ]
+  },
+  {
+    "date": "2026-06-01",
+    "version": "V1.5",
+    "type": "质量监控",
+    "status": "已上线",
+    "title": "补齐展示口径契约和数据健康检查",
+    "summary": "把首页、RSS、公司索引、复核区和周/月报的展示口径写成契约，并新增真实数据健康检查，避免问题只靠体感发现。",
+    "changes": [
+      "新增 VIEW_CONTRACT.md，明确采集、评分、选择、展示四层边界",
+      "新增 check_data_health.py，输出近 7 天主列表、复核区、Google News 占比、RSS 和公司优质统计",
+      "新增真实数据回归测试，防止首页为空、公司优质全 0、RSS 被 Google News 主导和重复率异常",
+      "周报/月报高价值统计改为通过 period selector 入口，减少页面直接复用评分函数",
+      "记录采集原始数和过滤数目前仍只在 workflow 日志中，后续需补 run metrics 文件"
+    ]
+  },
+  {
+    "date": "2026-06-01",
+    "version": "V1.4",
+    "type": "架构收敛",
+    "status": "已上线",
+    "title": "新增展示选择器层，切断页面口径串用",
+    "summary": "把首页、RSS、公司索引和复核区的入选规则收束到独立 selector，避免评分规则调整时误伤不同展示面。",
+    "changes": [
+      "新增 view_selectors.py，集中维护首页、RSS、公司优质线索、复核区和成熟批次选择规则",
+      "首页事件、每日面板和薄批次回退改为调用 selector，不再直接散落调用评分函数",
+      "RSS 推送改为通过 feed selector 选择，高价值事件缺失时回退到最近有效批次",
+      "公司索引优质统计改为通过 company quality selector 计算，和 RSS 高价值口径解耦",
+      "补充 selector 回归测试，覆盖低分非 Google 信号、RSS 回退、公司质量口径和薄批次选择"
+    ]
+  },
+  {
+    "date": "2026-06-01",
+    "version": "V1.3",
+    "type": "数据口径",
+    "status": "已上线",
+    "title": "修正薄批次展示、公司优质统计和更新日志排版",
+    "summary": "把今日情报从硬性成熟批次回退改为更诚实的薄批次展示，并为公司索引恢复独立的优质线索口径。",
+    "changes": [
+      "通用事件不再因 score < 5 被页面上下文提前过滤，解释完整的低分信号可进入今日情报",
+      "成熟批次阈值从 6 条调低到 3 条，避免周末薄批次直接回退到多天前",
+      "公司索引优质统计改用公司雷达专属口径，不再套用 RSS 高价值规则",
+      "历史事件会重新计算 bd_priority 和 follow_up_window，避免旧字段污染新排序",
+      "RSS 在薄批次无高价值事件时回退到最近一个有高价值事件的批次，避免订阅源空转",
+      "更新日志卡片改为固定版本号列，日期/类型/状态第二行保持左侧对齐"
+    ]
+  },
+  {
+    "date": "2026-05-28",
+    "version": "V1.2",
+    "type": "质量收敛",
+    "status": "已上线",
+    "title": "高价值口径收紧，Google News 回到补漏位置",
+    "summary": "把高价值事件从“类型命中”改为“分数、解释完整度和信源可信度”共同判断，避免低分 Google News 公司补漏进入主列表和 RSS。",
+    "changes": [
+      "新增共享事件价值规则，采集、页面和 RSS 复用同一套高价值判断",
+      "低分融资/并购标题不再自动升级为高价值事件",
+      "Google News 公司补漏源默认不进入主列表和 RSS，仅保留少量真实组织动作进复核区",
+      "今日判断改为只基于最终落库事件分组生成，避免 summary 与 events 日期错位",
+      "补充事件价值规则测试，锁住低分信号、Google News 补漏和 RSS 高价值口径"
+    ]
+  },
+  {
+    "date": "2026-05-27",
+    "version": "V1.1",
+    "type": "架构升级",
+    "status": "已上线",
+    "title": "Source Registry 和信号分类开始接管采集口径",
+    "summary": "把信源从 RSS 清单升级为可执行的 Source Registry，并引入最小版信号分类，为后续官方源、changelog、招聘和实体档案打基础。",
+    "changes": [
+      "source_registry.json 新增 source_schema、signal_taxonomy 和可执行 sources 配置",
+      "采集脚本开始读取 registry 中启用的 RSS/HTML 源，并保留 source_type、access_method、credibility_score 等元数据",
+      "事件新增 signal_taxonomy 字段，用 expansion、payment、commerce、ai_infra、capital 等信号维度辅助后续排序",
+      "首批 registry 源优先选择官方 newsroom、developer changelog 和低风险产业源，不接登录态或付费墙来源",
+      "修复候选/需复核事件跨日期不刷新的问题，并加强同主体跨媒体重复的展示去重"
+    ]
+  },
+  {
+    "date": "2026-05-25",
+    "version": "V1.0",
+    "type": "公司监控",
+    "status": "已上线",
+    "title": "亚太公司名单扩容、中资出海口径校准与 RSS 推送收敛",
+    "summary": "补充 HKTVmall、U-NEXT、Square Enix 等亚太公司监控，把中资客户限定为海外投资、跨境合作和出海业务动向，并将 RSS 收敛为高价值事件推送。",
+    "changes": [
+      "亚太公司索引和公司雷达新增 HKTVmall、U-NEXT、Square Enix",
+      "新增三家公司的官方/IR候选信源，用于补足 Google News 补漏之外的高可信入口",
+      "中资公司雷达新增海外语义过滤，排除国内经营和本土财报噪声",
+      "评分逻辑承认 company_name，让公司雷达事件不再因 companies 列表为空而天然低分",
+      "公司索引新增近 30 天优质线索统计，单独观察中资出海质量",
+      "RSS 订阅源改为复用看板最终事件卡片，并只推送高价值、解释完整的事件"
+    ]
+  },
+  {
+    "date": "2026-05-25",
+    "version": "V0.9",
+    "type": "信源与数据口径",
+    "status": "已上线",
+    "title": "信源处理库与看板日期修正",
+    "summary": "建立信源处理库，并修正首页成熟批次、最新采集日期、周报状态和反馈入口的口径混淆。",
+    "changes": [
+      "新增 data/source_registry.json，按赛道、信号类型、质量层级和晋级规则维护信源",
+      "Google News 补漏开始保留真实 publisher/source_detail，并限制同媒体重复入选",
+      "采集写入保留 article_date，避免文章日期被运行日覆盖",
+      "顶部时间拆成最新采集日和首页展示批次，周报/月报按最新采集日判断更新中或封存",
+      "反馈入口在 FEEDBACK_ENDPOINT 未配置时明确显示为本机待提交记录，不再误导为线上提交成功"
+    ]
+  },
+  {
+    "date": "2026-05-22",
+    "version": "V0.8",
+    "type": "首页体验",
+    "status": "已上线",
+    "title": "首页改为成熟批次优先",
+    "summary": "避免凌晨自动更新后，首页切到事件很少的早盘自然日，导致成熟情报被半成品批次覆盖。",
+    "changes": [
+      "首页优先展示主列表事件数足够的成熟批次",
+      "最新自然日事件较少时，以短提示说明早盘信号暂待汇入",
+      "历史导航仍保留最新采集日期，方便查看早盘增量"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "version": "V0.7",
+    "type": "信源质量",
+    "status": "已上线",
+    "title": "Google News 补漏降噪与垂类源扩展",
+    "summary": "复盘近 14 天来源结构后，进一步压低 Google News 补漏量，并接入支付、电商、社交平台和移动广告生态的垂类信源。",
+    "changes": [
+      "Google News 公司雷达默认每家公司最多 2 条，且不再保留 other 类补量",
+      "新增 Finextra Payments、Payments Dive、Retail Dive、Social Media Today、Mobile Marketing Magazine 等垂类源",
+      "补充促销积分、股票预测、加密币、选举、诉讼等 Google News 噪声过滤词",
+      "记录 Twitter/X 作为发生渠道的处理策略：优先接二次沉淀源，后续再评估 X API 或官方变更入口"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "version": "V0.6",
+    "type": "反馈机制",
+    "status": "已上线",
+    "title": "反馈提交改为线上记录优先",
+    "summary": "修正反馈入口的产品边界：用户提交后应由系统自动写入线上记录，本机草稿只作为失败兜底。",
+    "changes": [
+      "反馈页主按钮改为“提交反馈”，不再要求反馈者理解或操作 GitHub",
+      "新增可配置的 FEEDBACK_ENDPOINT，前端可直接提交到受控反馈 API",
+      "提供 Cloudflare Worker 示例，由服务端密钥把反馈写入内部 Issue",
+      "本机保存降级为草稿和失败兜底，并明确不代表线上记录"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "version": "V0.5",
+    "type": "信源质量",
+    "status": "已上线",
+    "title": "第二批官方/IR源接入",
+    "summary": "补充 Sea、Zalando、Allegro、Kaspi.kz、Naver、Kakao、Jumia 等重点公司的官方披露入口，并对官方页启用更保守的导航过滤，减少菜单和分类页误入事件库。",
+    "changes": [
+      "新增第二批 L1 官方/IR源配置，覆盖亚太、欧洲、中东和非洲重点公司",
+      "官方源抓取只保留新闻、公告、财报和战略类链接，避免把投资者首页、财务信息页和分类页误作事件",
+      "本地验证显示 Allegro、Naver、Jumia 已能产出真实公告/新闻；部分 SPA 页面保持低频观察，宁可零命中也不污染数据"
+    ]
+  },
+  {
+    "date": "2026-05-19",
+    "version": "V0.4",
+    "type": "信源与体验",
+    "status": "已上线",
+    "title": "北京时间口径与垂直赛道信源升级",
+    "summary": "修复自动更新的北京时间日期口径，补充 RSS 订阅入口，并开始把游戏、电商、支付金融、移动生态等精品垂类源纳入情报体系。",
+    "changes": [
+      "采集、生成、GitHub Actions 统一使用北京时间判断今日数据",
+      "页面顶部和 V2 使用指南增加 RSS 订阅地址",
+      "新增垂直赛道精品源层级，首批接入游戏、Fintech、电商和移动生态来源",
+      "公司索引按区域浏览优先，把中资出海公司组移到拉美之后",
+      "强化跨来源同主体事件去重，避免同一融资/并购/财报事件在首页和订阅源重复出现",
+      "周报、月报改为自然周和自然月独立档案，RSS 入口只展示订阅地址，并新增品牌 slogan"
+    ]
+  },
+  {
+    "date": "2026-05-17",
+    "version": "V0.3",
+    "type": "体验优化",
+    "status": "已上线",
+    "title": "情报看板内容可信度增强",
+    "summary": "围绕目标用户的阅读路径，修正标题、后台标签、公司索引和筛选反馈，让站点更像可持续使用的情报产品。",
+    "changes": [
+      "修复首页标题截断和原英文标题直出的问题",
+      "周报、月报隐藏后台分类词，改为前台可读趋势表达",
+      "公司索引增加近 7 天、近 30 天追踪和最新信号",
+      "增加当前筛选状态和清除筛选入口"
+    ]
+  },
+  {
+    "date": "2026-05-16",
+    "version": "V0.2",
+    "type": "产品升级",
+    "status": "已上线",
+    "title": "专业情报简报版上线",
+    "summary": "将原有事件列表升级为今日情报、周报、月报、公司索引和全部事件五个工作区。",
+    "changes": [
+      "重构首页信息架构，突出今日判断和高价值事件",
+      "增加周报、月报入口，用周期视角组织事件",
+      "接入公司维度追踪，支持从公司进入事件库",
+      "保留 90 天事件历史，支持搜索和地区筛选"
+    ]
+  },
+  {
+    "date": "2026-05-16",
+    "version": "V0.1",
+    "type": "数据质量",
+    "status": "已上线",
+    "title": "事件分析质量检查与备用模型",
+    "summary": "针对事件解析不稳定的问题，补充分析质量检查，并加入 DeepSeek 与豆包的主备策略。",
+    "changes": [
+      "增加分析结果质量判断，降低未知字段直接展示",
+      "补充 DeepSeek API 作为主分析模型，豆包作为备用",
+      "保留低质量候选事件的复核入口",
+      "扩展历史视图，支持更长周期回看"
+    ]
+  }
 ]

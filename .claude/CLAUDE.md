@@ -5,7 +5,8 @@
 ## 核心架构
 
 - **数据采集**：`scripts/fetch_news.py` — RSS 并行采集 + HTML 降级 + 31 家公司监控
-- **AI 分析管线**：DeepSeek 主力（GHA 已可达）→ 豆包降级 → 程序降级；所有事件一律先 AI 分析，失败才程序兜底（all-events-ai-first）
+- **AI 分析管线**：方舟 V4 Flash 主链（`ARK_API_KEY`/`ARK_MODEL`，关思考必须用 `thinking:{type:"disabled"}`，`reasoning:{effort:none}` 会被静默忽略）→ DeepSeek 官方 → 豆包降级 → 程序兜底；所有事件一律先 AI 分析，失败才程序兜底（all-events-ai-first）
+- **编辑层缓存**：周报/月报编辑导读存 `data/editorial_cache.json`（内容寻址：周期+输入指纹，`EDITORIAL_PROMPT_VERSION` 递增全量失效）。封档周期输入不变永不重调 AI；AI 全败沿用上一版缓存（fail-stale），无缓存才 fail-closed 终止。编辑通道 DeepSeek 官方优先，方舟留给事件分析（2026-08-28，详见 `docs/plans/2026-08-28-editorial-cache-and-ark-thinking-param.md`）
 - **评分**：`signal_scoring.py` — `confidence_score`/`attention_score`/`signal_change_score`（主排序轴）；`action_type`（政策25/产品24/融资22/财报18/扩张18/招聘12）+ `domain` 正交字段；评分只排序不过滤，权重可用 `calibrate_weights.py` 离线校准
 - **变化聚合**：`period_themes.py` — 月报「本月结构变化/公司变化/行业变化」三轴共用跨周门槛+前3窗口基线+覆盖率校正；区域聚合后置未做
 - **P0 Agent**：`build_daily_ai_summary()` 生成「今日判断」AI 趋势分析 → `data/summary.json` → HTML 读取；`rewrite_titles_for_display()` 改写程序层泛化描述；`ai_quality_judge()` 过滤低价值 other 事件

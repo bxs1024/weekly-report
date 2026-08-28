@@ -2,12 +2,25 @@ import json
 import re
 import unittest.mock as mock
 
-from generate_html import build_period_report
+import generate_html
+from generate_html import (
+    _editorial_input_hash,
+    build_period_report,
+    build_weekly_editorial,
+)
 import fetch_news  # noqa: F401 — 确保模块已导入，便于 patch
 
 # 模块级保护：默认不调真实 LLM，避免测试依赖 API key 或污染线上
 _patch_api = mock.patch('fetch_news._chat_api_candidates', return_value=[])
 _patch_api.start()
+
+# 编辑层缓存读写隔离：测试绝不读写真实 data/editorial_cache.json
+# 注意 side_effect 每次返回新 dict：_editorial_cache_put 是 load→改→存的真实实现，
+# 若共享同一 dict 会把上一条测试写入的缓存泄漏给下一條测试
+_patch_cache_read = mock.patch('generate_html._load_editorial_cache', side_effect=lambda: {})
+_patch_cache_read.start()
+_patch_cache_write = mock.patch('generate_html._save_editorial_cache')
+_patch_cache_write.start()
 
 
 def event(**overrides):
@@ -486,6 +499,68 @@ def test_monthly_theme_title_overrides_fixed_category_label():
     assert trend['title'] != trend['key'] and '金融科技' not in trend['title']
 
 
+def _minimal_themes():
+    return [{'key': 'k1', 'direction': '方向一', 'region': '欧洲', 'evidence': [{'title': 't1'}]}]
+
+
+def test_weekly_editorial_cache_hit_skips_llm():
+    cached = {'editorial_title': '缓存标题', 'mainline': '这是缓存主线内容，长度足够用于校验。', 'themes': {'k1': '缓存导读'}, 'theme_titles': {'k1': '缓存主题标题'}}
+    with mock.patch('generate_html._editorial_cache_get', return_value=(cached, cached)) as m_get, \
+         mock.patch('fetch_news._chat_api_candidates', return_value=_fake_apis()), \
+         mock.patch('fetch_news._post_chat') as m_post:
+        result = build_weekly_editorial(_minimal_themes(), '2026-W23', cache_key='weekly:2026-W23')
+    assert result == cached
+    m_post.assert_not_called()
+    assert m_get.call_args[0][0] == 'weekly:2026-W23'
+
+
+def test_editorial_failure_falls_back_to_stale_cache():
+    stale = {'editorial_title': '旧标题', 'mainline': '上一版主线，内容足够长可用于展示。', 'themes': {'k1': '旧导读'}, 'theme_titles': {}}
+
+    def failing_post(api, prompt, **kw):
+        raise RuntimeError('ReadTimeout')
+
+    with mock.patch('generate_html._editorial_cache_get', return_value=(None, stale)), \
+         mock.patch('fetch_news._chat_api_candidates', return_value=_fake_apis()), \
+         mock.patch('fetch_news._post_chat', side_effect=failing_post):
+        report = build_period_report([
+            event(url='https://example.com/s1', company_name='ExampleAI', companies=['ExampleAI']),
+            event(url='https://example.com/s2', company_name='CloudBox', companies=['CloudBox']),
+        ], '2026-06-01', '2026-06-07', '2026年第23周', '2026-W23', 'open',
+            focus_windows_enabled=True, require_editorial=True)
+    assert report['editorial_title'] == '旧标题'
+
+
+def test_editorial_regenerates_when_input_changes_and_updates_cache():
+    stale = {'editorial_title': '旧标题', 'mainline': '旧版主线内容，将被新版本覆盖。', 'themes': {'k1': '旧导读'}, 'theme_titles': {}}
+
+    def fake_post(api, prompt, **kw):
+        content = json.dumps({
+            'editorial_title': '新标题由AI重新生成',
+            'mainline': '新的主线叙事：AI 基础设施投资与支付并购同期升温，值得持续关注。',
+            'themes': [{'key': 'k1', 'theme_title': '新主题标题', 'narrative': '新导读'}],
+        }, ensure_ascii=False)
+        return mock.Mock(status_code=200, json=lambda: {'choices': [{'message': {'content': content}}]})
+
+    with mock.patch('generate_html._editorial_cache_get', return_value=(None, stale)), \
+         mock.patch('fetch_news._chat_api_candidates', return_value=_fake_apis()), \
+         mock.patch('fetch_news._post_chat', side_effect=fake_post), \
+         mock.patch('generate_html._editorial_cache_put') as m_put:
+        result = build_weekly_editorial(_minimal_themes(), '2026-W23', cache_key='weekly:2026-W23')
+    assert result['editorial_title'] == '新标题由AI重新生成'
+    m_put.assert_called_once()
+    assert m_put.call_args[0][0] == 'weekly:2026-W23'
+
+
+def test_editorial_input_hash_is_content_addressed():
+    brief = [{'key': 'k1', 'title': '标题'}]
+    base = _editorial_input_hash(brief)
+    assert base == _editorial_input_hash([{'title': '标题', 'key': 'k1'}])
+    assert base != _editorial_input_hash([{'key': 'k1', 'title': '标题2'}])
+    with mock.patch.object(generate_html, 'EDITORIAL_PROMPT_VERSION', 2):
+        assert base != _editorial_input_hash(brief)
+
+
 if __name__ == '__main__':
     test_weekly_report_builds_focus_windows_from_repeated_signals()
     test_weekly_report_does_not_promote_single_event_to_focus_window()
@@ -504,4 +579,8 @@ if __name__ == '__main__':
     test_weekly_why_has_no_meta_boilerplate()
     test_weekly_editorial_fed_four_evidence_events()
     test_monthly_theme_title_overrides_fixed_category_label()
+    test_weekly_editorial_cache_hit_skips_llm()
+    test_editorial_failure_falls_back_to_stale_cache()
+    test_editorial_regenerates_when_input_changes_and_updates_cache()
+    test_editorial_input_hash_is_content_addressed()
     print('period report tests passed')
