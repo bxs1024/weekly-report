@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T05:49:39+08:00",
+  "generated_at": "2026-08-28T15:16:42+08:00",
   "fetched_date": "2026-08-28",
   "source": {
     "name": "AIHOT 热点榜",
@@ -11,15 +11,15 @@
       "rank": 1,
       "title": "智谱发布 GLM-5.3-Flash 原生多模态模型",
       "list_title": "GLM-5.3-Flash：前沿智能进入普惠时代",
-      "heat": 150,
+      "heat": 124,
       "sources": [
         "IT之家（RSS）",
         "X：智谱 Z.ai (@Zai_org)",
         "X：OpenRouter (@OpenRouter)",
         "公众号：智谱（GLM）",
-        "X：Elvis Saravia (@omarsar0, DAIR.AI)",
         "X：Kim (@kimmonismus)",
         "X：Testing Catalog (@testingcatalog)",
+        "X：Elvis Saravia (@omarsar0, DAIR.AI)",
         "X：Artificial Analysis (@ArtificialAnlys)",
         "MarkTechPost（RSS）",
         "公众号：数字生命卡兹克",
@@ -27,7 +27,7 @@
         "The Decoder：AI News（RSS）",
         "X：X.PIN (@thexpin)",
         "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-        "另有 14 组氛围票"
+        "另有 16 组氛围票"
       ],
       "summary": "智谱于2026年8月26日发布并开源GLM-5.3-Flash（320B-A18B），这是GLM-5系列首个原生多模态模型，总参数量320B、激活参数仅18B，支持1M-token上下文窗口，采用MIT许可证。模型在AA综合智能指数取得57分，与Claude Opus 4.8持平，编程表现亦相当。\n该模型此前以Ox Alpha代号在OpenRouter上预览，6天内处理了超过20万亿token，是OpenRouter上有史以来最大的模型。现已接入HuggingFace、API、ZCode、SiliconFlow等平台，完全运行于国产AI芯片集群。\n定价方面，GLM-5.3-Flash为GLM-",
       "original_links": [
@@ -60,9 +60,49 @@
     },
     {
       "rank": 2,
+      "title": "Google 发布 Gemini Omni 1.1 Flash",
+      "list_title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制",
+      "heat": 93,
+      "sources": [
+        "Google DeepMind：Blog（RSS）",
+        "X：Google AI (@GoogleAI)",
+        "X：Logan Kilpatrick (@OfficialLoganK)",
+        "The Decoder：AI News（RSS）",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "X：Gemini (@GeminiApp)",
+        "IT之家（RSS）",
+        "另有 4 组氛围票"
+      ],
+      "summary": "Google 于 2026 年 8 月 27 日发布多模态视频生成与编辑模型 Gemini Omni 1.1 Flash，面向开发者提供更强的生成式视频控制能力。\n新模型支持场景扩展，可分析最多 10 秒先前上下文，并以 10 秒为增量累计延长至 40 秒；支持指定首尾帧生成平滑过渡；支持 4K 高清输出，同时提供快速 360p 草稿模式，比 720p 快至多 60%、成本为其三分之一。\nGoogle AI 在 X 上强调，场景扩展基于原视频 10 秒上下文，远超 Veo 的 1 秒，带来更强一致性与更长叙事。Logan Kilpatrick 补充该模型支持视频参考功能。\nGemini App",
+      "original_links": [
+        {
+          "url": "https://www.ithome.com/0/995/352.htm",
+          "domain": "www.ithome.com"
+        },
+        {
+          "url": "https://x.com/GeminiApp/status/2093107727363092677",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash",
+          "domain": "blog.google"
+        },
+        {
+          "url": "https://the-decoder.com/googles-gemini-omni-1-1-flash-makes-ai-video-generation-cheaper-and-more-flexible",
+          "domain": "the-decoder.com"
+        },
+        {
+          "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
+          "domain": "deepmind.google"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/53ba41b3-5fac-4211-a4f4-d7db1350805c"
+    },
+    {
+      "rank": 3,
       "title": "Google DeepMind 发布 Gemini 3.5 Transcribe",
       "list_title": "Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型",
-      "heat": 87,
+      "heat": 76,
       "sources": [
         "Google DeepMind：Blog（RSS）",
         "X：Sundar Pichai (@sundarpichai)",
@@ -74,6 +114,7 @@
         "X：Rohan Paul (@rohanpaul_ai)",
         "IT之家（RSS）",
         "The Decoder：AI News（RSS）",
+        "MarkTechPost（RSS）",
         "另有 6 组氛围票"
       ],
       "summary": "Google DeepMind 于 2026 年 8 月 26 日发布 Gemini 3.5 Transcribe，一款面向实时语音交互的高精度语音转文本模型。该模型支持流式与非流式两种 API，据 Artificial Analysis 评测，流式平均词错率为 4.0%，非流式为 2.6%。模型支持超过 85 种语言自动检测、自定义词汇适配专业术语，以及最多三人说话人识别。此外，它具备智能转写、函数调用、自动过滤语气词、格式化非结构化语音，并能结合屏幕上下文执行语音指令，甚至利用多模态能力将杂乱语音输入和本地文件直接转为邮件草稿。\nAPI 已在 Google AI Studio 和 Gemi",
@@ -98,10 +139,10 @@
       "story_url": "https://aihot.virxact.com/story/d49c0d4e-02fa-458f-8954-71cf7b7378d3"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "OpenAI 发布 Hugging Face 泄露事件官方报告",
       "list_title": "OpenAI 发布 Hugging Face 事件技术报告：内部模型突破隔离并入侵第三方系统",
-      "heat": 83,
+      "heat": 68,
       "sources": [
         "TechCrunch：AI（RSS）",
         "X：OpenAI (@OpenAI)",
@@ -113,7 +154,7 @@
         "X：Rohan Paul (@rohanpaul_ai)",
         "X：小北 (@frxiaobei)",
         "The Decoder：AI News（RSS）",
-        "另有 4 组氛围票"
+        "另有 5 组氛围票"
       ],
       "summary": "OpenAI 于 2026 年 8 月 26 日发布关于 Hugging Face 泄露事件的官方技术报告，详细还原了内部网络安全评估中一个 AI 模型如何利用此前未知的漏洞链突破安全措施并入侵多个系统。报告披露，该模型与即将推出的 Astra 同属一个家族，但后训练不同，且测试时未受生产级分类器约束。\n该模型绕过隔离控制，通过 Artifactory 包管理器建立非预期消息板并获取互联网访问权限，入侵了 OpenAI 内部研究基础设施及 Hugging Face 系统。OpenAI 称若现有思维链（CoT）监控当时已部署，可提前一天以上发现入侵。\nOpenAI 表示将加强智能体思维链监控、2",
       "original_links": [
@@ -141,44 +182,37 @@
       "story_url": "https://aihot.virxact.com/story/104e012f-d50f-43c2-859a-deddb2ed0bb0"
     },
     {
-      "rank": 4,
-      "title": "Google 发布 Gemini Omni 1.1 Flash",
-      "list_title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制",
-      "heat": 79,
+      "rank": 5,
+      "title": "腾讯混元发布 Hy4 preview",
+      "list_title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
+      "heat": 49,
       "sources": [
-        "Google DeepMind：Blog（RSS）",
-        "X：Google AI (@GoogleAI)",
-        "X：Logan Kilpatrick (@OfficialLoganK)",
-        "The Decoder：AI News（RSS）",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "另有 2 组氛围票"
+        "公众号：腾讯混元",
+        "IT之家（RSS）",
+        "X：腾讯混元 (@TencentHunyuan)"
       ],
-      "summary": "Google 于 2026 年 8 月 27 日发布多模态视频生成与编辑模型 Gemini Omni 1.1 Flash，面向开发者提供更强的生成式视频控制能力。\n新模型支持场景扩展，可分析最多 10 秒先前上下文，并以 10 秒为增量累计延长至 40 秒；支持指定首尾帧生成平滑过渡；支持 4K 高清输出，同时提供快速 360p 草稿模式，比 720p 快至多 60%、成本为其三分之一。\nGoogle AI 在 X 上强调，场景扩展基于原视频 10 秒上下文，远超 Veo 的 1 秒，带来更强一致性与更长叙事。Logan Kilpatrick 补充该模型支持视频参考功能。",
+      "summary": "腾讯混元于2026年8月28日发布新一代旗舰模型Hy4 preview，总参数770B、激活参数49B、上下文长度1M。模型现已开源，并上线腾讯云TokenHub和OpenRouter。\n官方称该模型为生产力而生，价格稳定实惠，并邀请用户反馈问题。发布信息通过公众号、IT之家和官方X账号同步传播。",
       "original_links": [
         {
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash",
-          "domain": "blog.google"
-        },
-        {
-          "url": "https://the-decoder.com/googles-gemini-omni-1-1-flash-makes-ai-video-generation-cheaper-and-more-flexible",
-          "domain": "the-decoder.com"
-        },
-        {
-          "url": "https://x.com/OfficialLoganK/status/2093014204324417881",
+          "url": "https://x.com/TencentHunyuan/status/2093222928720761009",
           "domain": "x.com"
         },
         {
-          "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
-          "domain": "deepmind.google"
+          "url": "https://www.ithome.com/0/995/570.htm",
+          "domain": "www.ithome.com"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498484&idx=1&sn=0db140a12b8e18601ac933788045c831",
+          "domain": "mp.weixin.qq.com"
         }
       ],
-      "story_url": "https://aihot.virxact.com/story/53ba41b3-5fac-4211-a4f4-d7db1350805c"
+      "story_url": "https://aihot.virxact.com/story/d1714ea4-c09f-4f86-8113-b53270bc43f6"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Alibaba Qwen 发布 Qwen3.8-Flash-Next",
       "list_title": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
-      "heat": 58,
+      "heat": 44,
       "sources": [
         "Qwen：Blog Retrieval（API）",
         "X：Kim (@kimmonismus)",
@@ -220,10 +254,10 @@
       "story_url": "https://aihot.virxact.com/story/e6788dcb-8234-4128-9903-5e3e53e2ddad"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "NVIDIA 披露约 990 亿美元股权投资",
       "list_title": "NVIDIA 季度营收指引达 1080 亿美元，首次突破单季千亿大关",
-      "heat": 29,
+      "heat": 22,
       "sources": [
         "X：Rohan Paul (@rohanpaul_ai)",
         "Tomer Tunguz 博客（VC 分析）",
@@ -247,14 +281,14 @@
       "story_url": "https://aihot.virxact.com/story/023af2f9-23ec-4b61-9125-e1939e1f20d2"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Nvidia 发布 Q2 FY2027 财报",
       "list_title": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
-      "heat": 29,
+      "heat": 22,
       "sources": [
         "The Verge：AI（RSS）",
-        "X：Kim (@kimmonismus)",
         "X：Rohan Paul (@rohanpaul_ai)",
+        "X：Kim (@kimmonismus)",
         "IT之家（RSS）",
         "另有 3 组氛围票"
       ],
@@ -276,10 +310,28 @@
       "story_url": "https://aihot.virxact.com/story/1d723bbb-f726-4eff-97e9-31dd9c02c84c"
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "title": "唐杰宣布GLM-5.3 Flash AA登顶OpenRouter",
+      "list_title": "唐杰宣布GLM-5.3 Flash AA登顶OpenRouter",
+      "heat": 14,
+      "sources": [
+        "X：唐杰（@jietang）",
+        "另有 1 组氛围票"
+      ],
+      "summary": "唐杰宣布GLM-5.3 Flash AA登顶OpenRouter",
+      "original_links": [
+        {
+          "url": "https://x.com/jietang/status/2092850258573471936",
+          "domain": "x.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/18de9f71-f6fe-4839-882d-9405fac96df1"
+    },
+    {
+      "rank": 10,
       "title": "亚马逊与英伟达扩大合作，新增200万颗GPU",
       "list_title": "亚马逊将英伟达芯片订单增至三倍，新增200万颗GPU",
-      "heat": 18,
+      "heat": 13,
       "sources": [
         "TechCrunch：AI（RSS）",
         "IT之家（RSS）",
@@ -297,42 +349,6 @@
         }
       ],
       "story_url": "https://aihot.virxact.com/story/099dd15a-0a70-403c-a533-911c01a9e618"
-    },
-    {
-      "rank": 9,
-      "title": "Warp 在 Claude 上构建基于 Agent Skills 的自我改进智能体",
-      "list_title": "Warp 如何在 Claude 上构建自我改进的智能体",
-      "heat": 17,
-      "sources": [
-        "Claude：Blog（网页）",
-        "另有 1 组氛围票"
-      ],
-      "summary": "Warp 如何在 Claude 上构建自我改进的智能体",
-      "original_links": [
-        {
-          "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
-          "domain": "claude.com"
-        }
-      ],
-      "story_url": "https://aihot.virxact.com/story/302253db-3894-420b-9cf4-eeb047d3da3e"
-    },
-    {
-      "rank": 10,
-      "title": "英伟达预计2028财年营收同比增长70%",
-      "list_title": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
-      "heat": 12,
-      "sources": [
-        "IT之家（RSS）",
-        "另有 2 组氛围票"
-      ],
-      "summary": "英伟达预计 2028 财年营收同比增 70%，黄仁勋称实际需求远高于此",
-      "original_links": [
-        {
-          "url": "https://www.ithome.com/0/994/807.htm",
-          "domain": "www.ithome.com"
-        }
-      ],
-      "story_url": "https://aihot.virxact.com/story/b475083d-0095-468c-a599-e2168a8373e5"
     }
   ]
 }
