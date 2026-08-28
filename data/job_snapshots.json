@@ -1,23 +1,85 @@
 {
   "version": 1,
-  "generated_at": "2026-08-27T19:38:00.580240+08:00",
+  "generated_at": "2026-08-28T20:28:27.870983+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-08-27T19:38:00.580240+08:00",
+      "observed_at": "2026-08-28T20:28:27.870983+08:00",
       "jobs": [
         {
-          "id": "744000145950619",
-          "title": "Lead Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000145950619/lead-software-engineer-backend/",
+          "id": "744000146170930",
+          "title": "Dry Category Lead",
+          "url": "https://www.grab.careers/en/jobs/744000146170930/dry-category-lead/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146154359",
+          "title": "Senior Software Engineer, Backend - Agent Experience",
+          "url": "https://www.grab.careers/en/jobs/744000146154359/senior-software-engineer-backend-agent-experience/",
           "function_tags": [
             "engineering"
           ]
         },
         {
-          "id": "744000145946869",
-          "title": "Senior Software Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000145946869/senior-software-engineer/",
+          "id": "744000146154299",
+          "title": "Lead Software Engineer, Backend (Build Automation)",
+          "url": "https://www.grab.careers/en/jobs/744000146154299/lead-software-engineer-backend-build-automation/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000146153699",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000146153699/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000146143500",
+          "title": "Senior Data Scientist (Analytics) - Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000146143500/senior-data-scientist-analytics-financial-services/",
+          "function_tags": [
+            "payments"
+          ]
+        },
+        {
+          "id": "744000146137224",
+          "title": "Mart Merchant Partner Associate (Contract)",
+          "url": "https://www.grab.careers/en/jobs/744000146137224/mart-merchant-partner-associate-contract/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
+          "id": "744000146122149",
+          "title": "Regional Assistant Manager, Measurement & Insights",
+          "url": "https://www.grab.careers/en/jobs/744000146122149/regional-assistant-manager-measurement-insights/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146118639",
+          "title": "Marketing Execution Assistant Manager - JABODETABEK",
+          "url": "https://www.grab.careers/en/jobs/744000146118639/marketing-execution-assistant-manager-jabodetabek/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146109989",
+          "title": "Strategy & Planning Omnicommerce, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000146109989/strategy-planning-omnicommerce-assistant-manager/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146106819",
+          "title": "Intern, OmniCommerce",
+          "url": "https://www.grab.careers/en/jobs/744000146106819/intern-omnicommerce/",
+          "function_tags": []
+        },
+        {
+          "id": "744000145950619",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000145950619/lead-software-engineer-backend/",
           "function_tags": [
             "engineering"
           ]
@@ -79,71 +141,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000145889849",
-          "title": "Senior Software Engineer - Deployment Platform",
-          "url": "https://www.grab.careers/en/jobs/744000145889849/senior-software-engineer-deployment-platform/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000145889659",
-          "title": "Intern, SG Partnerships",
-          "url": "https://www.grab.careers/en/jobs/744000145889659/intern-sg-partnerships/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000145888934",
-          "title": "Intern, Growth and Marketing (Autonomous Vehicles)",
-          "url": "https://www.grab.careers/en/jobs/744000145888934/intern-growth-and-marketing-autonomous-vehicles/",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "744000145887229",
-          "title": "Intern, Fleet Systems Analyst",
-          "url": "https://www.grab.careers/en/jobs/744000145887229/intern-fleet-systems-analyst/",
-          "function_tags": []
-        },
-        {
-          "id": "744000145885499",
-          "title": "Intern, Strategy & Insights",
-          "url": "https://www.grab.careers/en/jobs/744000145885499/intern-strategy-insights/",
-          "function_tags": []
-        },
-        {
-          "id": "744000145701349",
-          "title": "Senior Software Engineer, Fullstack",
-          "url": "https://www.grab.careers/en/jobs/744000145701349/senior-software-engineer-fullstack/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000145671760",
-          "title": "Senior Data Scientist (GrabFin)",
-          "url": "https://www.grab.careers/en/jobs/744000145671760/senior-data-scientist-grabfin/",
-          "function_tags": []
-        },
-        {
-          "id": "744000145659649",
-          "title": "Senior Software Engineer, Mobile (iOS) - Payments",
-          "url": "https://www.grab.careers/en/jobs/744000145659649/senior-software-engineer-mobile-ios-payments/",
-          "function_tags": [
-            "engineering",
-            "payments"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-08-27T19:38:00.580240+08:00",
+      "observed_at": "2026-08-28T20:28:27.870983+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -264,7 +267,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-08-27T19:38:00.580240+08:00",
+      "observed_at": "2026-08-28T20:28:27.870983+08:00",
       "jobs": [
         {
           "id": "c781fed2-4408-4720-8734-45458585e762",
@@ -400,6 +403,15 @@
           "title": "Professional Services Delivery Manager Remote - United Kingdom, Ireland",
           "url": "https://www.shopify.com/careers/professional-services-delivery-manager_dcc73211-bed4-478d-bdf7-831ce6d73b09",
           "function_tags": []
+        },
+        {
+          "id": "9f1a97d8-5862-4ee4-b2b1-0dc02e20c11c",
+          "title": "Senior Deal Strategy Manager, Payments & Platform Pricing Remote - Americas",
+          "url": "https://www.shopify.com/careers/senior-deal-strategy-manager-payments-platform-pricing_9f1a97d8-5862-4ee4-b2b1-0dc02e20c11c",
+          "function_tags": [
+            "engineering",
+            "payments"
+          ]
         },
         {
           "id": "5d736d32-f16c-4a40-8adf-e6379943017a",
