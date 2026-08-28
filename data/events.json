@@ -150,7 +150,10 @@
       "companies": [],
       "is_company": true,
       "company_name": "Naver",
-      "date": "2026-05-07"
+      "date": "2026-05-07",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYUUyXzMzdzBVTzFYZjNBbjluVVF5VzRTbEltd3ZZbDNnOVNaNzIxSFdzS0JDaXBjNGVDbV9xa3UwSEF1R0RGLTBDY2ZPVWR2d2Z6MEJFUlNmSGh3UDdpc3ZxZHdhT1JlcTBGY0drajYtbGF0RmtRQ1d1Y1ZzbDZKeU1xb1k5NlFiNHc?oc=5"
+      ]
     },
     {
       "title": "LTZ Therapeutics Raises $38M to Advance Immunotherapy Pipeline",
@@ -417,7 +420,10 @@
       "companies": [],
       "is_company": true,
       "company_name": "Zalando",
-      "date": "2026-05-07"
+      "date": "2026-05-07",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUVlRNU8xbXQ0Q2pkaThPMkkycGJiVE5mSGJuY3c3R1ctSlFNeUFlbnl0ZDJhRUdCRUtCakg4cjBGS1NvMV8wYlZqRVJDSGZoeVBMc2JELXBWczAtQm5qNUplRVg4M3R2Yk1pNGZYVGdEVFhsdVFQNEtyOHVybmMycEVFd2d1X2JxcmlGLUlIWTliSGV1c3ZUV2ZQNUN2V01jcjdBalJBVGFwa1VCN21rSnV4dFVSeGpmcnlLaU1KclQtdHpMTXlBRl9fZllkdXZ6bVUwei1ySU9JTzczX01VdGgxR24?oc=5"
+      ]
     },
     {
       "title": "Adyen Reaffirmed at Outperform as BMO Highlights Stable Q1, Trends - marketscreener.com",
@@ -1147,25 +1153,6 @@
       "date": "2026-05-08"
     },
     {
-      "title": "Germany's Zalando reports robust Q1 growth driven by AI efficiencies - Fibre2Fashion",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUVlRNU8xbXQ0Q2pkaThPMkkycGJiVE5mSGJuY3c3R1ctSlFNeUFlbnl0ZDJhRUdCRUtCakg4cjBGS1NvMV8wYlZqRVJDSGZoeVBMc2JELXBWczAtQm5qNUplRVg4M3R2Yk1pNGZYVGdEVFhsdVFQNEtyOHVybmMycEVFd2d1X2JxcmlGLUlIWTliSGV1c3ZUV2ZQNUN2V01jcjdBalJBVGFwa1VCN21rSnV4dFVSeGpmcnlLaU1KclQtdHpMTXlBRl9fZllkdXZ6bVUwei1ySU9JTzczX01VdGgxR24?oc=5",
-      "source": "Zalando",
-      "region": "欧洲",
-      "event_types": [
-        "other"
-      ],
-      "level": "D",
-      "score": 1,
-      "summary_short": "Germany's Zalando reports",
-      "reason": "欧洲科技行业动态",
-      "impact": "未知",
-      "insight_label": "背景补充",
-      "companies": [],
-      "is_company": true,
-      "company_name": "Zalando",
-      "date": "2026-05-08"
-    },
-    {
       "title": "Intel’s stock tripled under Lip-Bu Tan. He still has not told most employees the plan.",
       "url": "https://thenextweb.com/news/intel-tan-relationships-manufacturing-turnaround",
       "source": "The Next Web",
@@ -1490,25 +1477,6 @@
       "companies": [],
       "is_company": true,
       "company_name": "Zalando",
-      "date": "2026-05-09"
-    },
-    {
-      "title": "Google, Naver push ads into AI search products - Tech in Asia",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYUUyXzMzdzBVTzFYZjNBbjluVVF5VzRTbEltd3ZZbDNnOVNaNzIxSFdzS0JDaXBjNGVDbV9xa3UwSEF1R0RGLTBDY2ZPVWR2d2Z6MEJFUlNmSGh3UDdpc3ZxZHdhT1JlcTBGY0drajYtbGF0RmtRQ1d1Y1ZzbDZKeU1xb1k5NlFiNHc?oc=5",
-      "source": "Naver",
-      "region": "亚太",
-      "event_types": [
-        "other"
-      ],
-      "level": "D",
-      "score": 1,
-      "summary_short": "Google, Naver push ads in",
-      "reason": "亚太科技行业动态",
-      "impact": "未知",
-      "insight_label": "背景补充",
-      "companies": [],
-      "is_company": true,
-      "company_name": "Naver",
       "date": "2026-05-09"
     },
     {
@@ -6838,7 +6806,10 @@
       "quality_flags": [],
       "needs_repair": false,
       "analysis_source": "deepseek",
-      "analysis_status": "complete"
+      "analysis_status": "complete",
+      "merged_from": [
+        "https://inc42.com/features/indian-startup-ipo-tracker-2026/"
+      ]
     },
     {
       "title": "Franq raises $12.4M Series B round",
@@ -7077,7 +7048,10 @@
       ],
       "needs_repair": true,
       "analysis_source": "program",
-      "analysis_status": "fallback"
+      "analysis_status": "fallback",
+      "merged_from": [
+        "https://global.rakuten.com/corp/innovation/rakuten_today/2026/0210-7578/"
+      ]
     },
     {
       "title": "Delhivery Q4 revenue jumps 30%, profit stays flat",
@@ -7342,7 +7316,10 @@
       ],
       "needs_repair": true,
       "analysis_source": "deepseek",
-      "analysis_status": "partial"
+      "analysis_status": "partial",
+      "merged_from": [
+        "https://inc42.com/buzz/delhivery-slides-6-as-flat-q4-profit-overshadows-revenue-growth/"
+      ]
     },
     {
       "title": "Indian Listed New-Age Tech Company Tracker: Market Cap, Revenue & More",
@@ -7479,7 +7456,10 @@
       ],
       "needs_repair": true,
       "analysis_source": "deepseek",
-      "analysis_status": "fallback"
+      "analysis_status": "fallback",
+      "merged_from": [
+        "https://global.rakuten.com/corp/innovation/rnn/2026/2602_015/"
+      ]
     },
     {
       "title": "UK tech funding roundup: This week’s deals from Isomorphic Labs to H2CHP",
@@ -7954,43 +7934,6 @@
   ],
   "2026-05-18": [
     {
-      "title": "Indian Startup IPO Tracker 2026",
-      "url": "https://inc42.com/features/indian-startup-ipo-tracker-2026/",
-      "source": "Inc42",
-      "region": "亚太",
-      "event_types": [
-        "earnings"
-      ],
-      "level": "D",
-      "score": 2,
-      "summary_short": "Indian Startup IPO Tracke",
-      "reason": "亚太科技公司财报披露",
-      "impact": "未知",
-      "insight_label": "背景补充",
-      "trend_topic": "背景补充 — 亚太",
-      "companies": [],
-      "is_company": false,
-      "company_name": "",
-      "date": "2026-05-18",
-      "image_url": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/01/SOC-2-100.jpg",
-      "source_tier": "L2 垂直交易源",
-      "source_role": "venture_media",
-      "bd_triggers": [
-        "预算窗口"
-      ],
-      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
-      "follow_up_window": "持续观察",
-      "bd_priority": "观察",
-      "quality_flags": [
-        "title_prefix_summary",
-        "generic_reason",
-        "unknown_impact"
-      ],
-      "needs_repair": true,
-      "analysis_source": "program",
-      "analysis_status": "failed"
-    },
-    {
       "title": "Cosmico raises €12M in Series B round",
       "url": "https://tech.eu/2026/05/18/cosmico-raises-eur12m-in-series-b-round/",
       "source": "Tech.eu",
@@ -8026,43 +7969,6 @@
       "needs_repair": true,
       "analysis_source": "program",
       "analysis_status": "failed"
-    },
-    {
-      "title": "Rakuten decodes Intelligent Growth at MWC 2026",
-      "url": "https://global.rakuten.com/corp/innovation/rakuten_today/2026/0210-7578/",
-      "source": "Rakuten Group",
-      "region": "亚太",
-      "event_types": [
-        "other"
-      ],
-      "level": "D",
-      "score": 1,
-      "summary_short": "Rakuten decodes Intellige",
-      "reason": "亚太科技行业动态",
-      "impact": "未知",
-      "insight_label": "背景补充",
-      "trend_topic": "背景补充 — 亚太",
-      "companies": [],
-      "is_company": true,
-      "company_name": "Rakuten",
-      "date": "2026-05-18",
-      "image_url": "",
-      "source_tier": "L1 官方/IR源",
-      "source_role": "official_ir",
-      "bd_triggers": [
-        "预算窗口"
-      ],
-      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
-      "follow_up_window": "30天内",
-      "bd_priority": "中",
-      "quality_flags": [
-        "title_prefix_summary",
-        "generic_reason",
-        "unknown_impact"
-      ],
-      "needs_repair": true,
-      "analysis_source": "program",
-      "analysis_status": "fallback"
     },
     {
       "title": "Baidu tops Q1 revenue estimates on AI, cloud growth",
@@ -8327,43 +8233,6 @@
       "analysis_status": "failed"
     },
     {
-      "title": "Delhivery Slides 6% As Flat Q4 Profit Overshadows Revenue Growth",
-      "url": "https://inc42.com/buzz/delhivery-slides-6-as-flat-q4-profit-overshadows-revenue-growth/",
-      "source": "Inc42",
-      "region": "亚太",
-      "event_types": [
-        "earnings"
-      ],
-      "level": "D",
-      "score": 2,
-      "summary_short": "Delhivery Slides 6% As Fl",
-      "reason": "亚太科技公司财报披露",
-      "impact": "未知",
-      "insight_label": "背景补充",
-      "trend_topic": "背景补充 — 亚太",
-      "companies": [],
-      "is_company": false,
-      "company_name": "",
-      "date": "2026-05-18",
-      "image_url": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2025/08/Delhivery-Q2-ftr-1.jpg",
-      "source_tier": "L2 垂直交易源",
-      "source_role": "venture_media",
-      "bd_triggers": [
-        "预算窗口"
-      ],
-      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
-      "follow_up_window": "持续观察",
-      "bd_priority": "观察",
-      "quality_flags": [
-        "title_prefix_summary",
-        "generic_reason",
-        "unknown_impact"
-      ],
-      "needs_repair": true,
-      "analysis_source": "program",
-      "analysis_status": "failed"
-    },
-    {
       "title": "Profitable African Digital Bank Plots Going Public In USD 15 B IPO",
       "url": "https://weetracker.com/2026/05/18/gotyme-mulling-public-listing/",
       "source": "WeeTracker",
@@ -8510,43 +8379,6 @@
       "needs_repair": true,
       "analysis_source": "program",
       "analysis_status": "failed"
-    },
-    {
-      "title": "Rakuten Mobile Launches Spring 2026 Campaigns to Support New Beginnings",
-      "url": "https://global.rakuten.com/corp/innovation/rnn/2026/2602_015/",
-      "source": "Rakuten Group",
-      "region": "亚太",
-      "event_types": [
-        "strategy"
-      ],
-      "level": "D",
-      "score": 1,
-      "summary_short": "Rakuten Mobile Launches S",
-      "reason": "亚太科技公司战略动态",
-      "impact": "未知",
-      "insight_label": "合作机会",
-      "trend_topic": "合作机会 — 亚太",
-      "companies": [],
-      "is_company": true,
-      "company_name": "Rakuten",
-      "date": "2026-05-18",
-      "image_url": "",
-      "source_tier": "L1 官方/IR源",
-      "source_role": "official_ir",
-      "bd_triggers": [
-        "扩张窗口"
-      ],
-      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
-      "follow_up_window": "30天内",
-      "bd_priority": "中",
-      "quality_flags": [
-        "title_prefix_summary",
-        "generic_reason",
-        "unknown_impact"
-      ],
-      "needs_repair": true,
-      "analysis_source": "program",
-      "analysis_status": "fallback"
     },
     {
       "title": "Tunisia’s EYST Raises Funding To Scale Instant Insurance Claims Platform",
@@ -16135,42 +15967,6 @@
       "analysis_status": "complete"
     },
     {
-      "title": "Boba Bhai FY26 Revenue Jumps 1.5X YoY To ₹70 Cr",
-      "url": "https://inc42.com/buzz/boba-bhai-fy26-revenue-jumps-1-5x-yoy-to-%e2%82%b970-cr/",
-      "source": "Inc42",
-      "region": "亚太",
-      "event_types": [
-        "earnings"
-      ],
-      "level": "D",
-      "score": 2,
-      "summary_short": "Boba Bhai FY26营收增长1.5倍至₹70 Cr",
-      "reason": "印度DTC品牌高增长，消费科技赛道供应链和物流合作机会增多",
-      "impact": "印度电商物流商、DTC品牌技术供应商",
-      "insight_label": "资金流向",
-      "trend_topic": "印度DTC品牌崛起",
-      "companies": [],
-      "is_company": false,
-      "company_name": "",
-      "article_date": "2026-05-26",
-      "date": "2026-05-26",
-      "source_detail": "",
-      "publisher": "",
-      "image_url": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/05/Boba-Bhai-Founder-Feature.jpg",
-      "source_tier": "L2 垂直交易源",
-      "source_role": "venture_media",
-      "bd_triggers": [
-        "预算窗口"
-      ],
-      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
-      "follow_up_window": "持续观察",
-      "bd_priority": "观察",
-      "quality_flags": [],
-      "needs_repair": false,
-      "analysis_source": "deepseek",
-      "analysis_status": "complete"
-    },
-    {
       "title": "Boba Bhai Claims 1.5X YoY Jump In FY26 Revenue To ₹70 Cr",
       "url": "https://inc42.com/buzz/boba-bhai-claims-1-5x-yoy-jump-in-fy26-revenue-to-%e2%82%b970-cr/",
       "source": "Inc42",
@@ -16204,7 +16000,10 @@
       "quality_flags": [],
       "needs_repair": false,
       "analysis_source": "deepseek",
-      "analysis_status": "complete"
+      "analysis_status": "complete",
+      "merged_from": [
+        "https://inc42.com/buzz/boba-bhai-fy26-revenue-jumps-1-5x-yoy-to-%e2%82%b970-cr/"
+      ]
     },
     {
       "title": "Line Man expands beyond food delivery, eyes IPO next year",
@@ -20275,7 +20074,10 @@
       ],
       "needs_repair": true,
       "analysis_source": "program",
-      "analysis_status": "fallback"
+      "analysis_status": "fallback",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZGZnRjhGSDlaYW9pekVrTVU3VjZSTkhfc2d2Q0FQcmRVRTJUdVZRT01uNThYNFkzazUtZ0RZSEVfV0hsOHVqV3NKQTBLanhtZ2JadEZyRVlobnE5MEdMNDhKaWF3akwzaVgtNlZOSWY4dTlpMlBFX2N0OWgyMXR3aE1UenV0Zk9rZ2tXVE92STRFRmdQRUg2OXhRbWtwcUxQS0dEeW5lWjlVTU52VS1lLVByc3hvRWs2SlBUTU1VRnpGVFZVam5udEl2TmU5S3paOU12dTRuUQ?oc=5"
+      ]
     },
     {
       "title": "ROLLER launches embedded financing solution with Adyen - IBS Intelligence",
@@ -23259,47 +23061,6 @@
       "analysis_status": "complete"
     },
     {
-      "title": "UAE’s e& to sell part of Careem stake to Uber for $100mln - ZAWYA",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWWNfblpsel9wWDZWNnJyek5WcXBGVDFCeWFCUTdhU0lPbFA2WkhtSV9BNlVFTTRFRDJBUVZUYTRJR010UVFhZjh0QzY1VVFlSjhxdXltMEM5eExKdDB3Q1p5S21jUmJxb1NSeUFnVkZ0cUlzbG55dmNEQ0FzSkNrX0M0dUY3UUpFQ0RVdWJKcTJ2YU5BS3FkYnJjRUliaHZocWJEWnYxUVVoR1NGZjlUUGFxcUd4TDFJ?oc=5",
-      "source": "Google News",
-      "region": "中东",
-      "event_types": [
-        "funding"
-      ],
-      "level": "B",
-      "score": 6,
-      "summary_short": "e&将部分Careem股份出售给Uber，交易额1亿美元",
-      "reason": "中东电信运营商e&调整投资组合，释放出行资产，为ICT服务商带来新的合作与外包机会",
-      "impact": "中东电信IT外包商、出行技术供应商",
-      "insight_label": "资金流向",
-      "trend_topic": "中东出行平台整合",
-      "companies": [],
-      "is_company": true,
-      "company_name": "Careem",
-      "article_date": "2026-06-01",
-      "date": "2026-06-01",
-      "source_detail": "ZAWYA",
-      "publisher": "ZAWYA",
-      "image_url": "",
-      "source_tier": "L5 Google News 补漏源",
-      "source_role": "company_radar",
-      "source_id": "Careem",
-      "credibility_score": 0,
-      "bd_triggers": [
-        "预算窗口"
-      ],
-      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
-      "follow_up_window": "30天内",
-      "bd_priority": "中",
-      "signal_taxonomy": [
-        "capital"
-      ],
-      "quality_flags": [],
-      "needs_repair": false,
-      "analysis_source": "deepseek",
-      "analysis_status": "complete"
-    },
-    {
       "title": "Spiro raises $215 million as race for Africa’s EV market heats up",
       "url": "https://techcabal.com/2026/06/01/spiro-raises-215-million-to-expand/",
       "source": "TechCabal",
@@ -25458,51 +25219,6 @@
       "analysis_status": "complete"
     },
     {
-      "title": "CJ ENM, TBS & U-Next launch Korea-Japan joint venture studio Monowa - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZGZnRjhGSDlaYW9pekVrTVU3VjZSTkhfc2d2Q0FQcmRVRTJUdVZRT01uNThYNFkzazUtZ0RZSEVfV0hsOHVqV3NKQTBLanhtZ2JadEZyRVlobnE5MEdMNDhKaWF3akwzaVgtNlZOSWY4dTlpMlBFX2N0OWgyMXR3aE1UenV0Zk9rZ2tXVE92STRFRmdQRUg2OXhRbWtwcUxQS0dEeW5lWjlVTU52VS1lLVByc3hvRWs2SlBUTU1VRnpGVFZVam5udEl2TmU5S3paOU12dTRuUQ?oc=5",
-      "source": "Google News",
-      "region": "亚太",
-      "event_types": [
-        "strategy"
-      ],
-      "level": "D",
-      "score": 2,
-      "summary_short": "CJ ENM, TBS & U-Next laun",
-      "reason": "亚太科技公司战略动态",
-      "impact": "未知",
-      "insight_label": "合作机会",
-      "trend_topic": "合作机会 — 亚太",
-      "companies": [],
-      "is_company": true,
-      "company_name": "U-NEXT",
-      "article_date": "2026-06-02",
-      "date": "2026-06-02",
-      "source_detail": "MSN",
-      "publisher": "MSN",
-      "image_url": "",
-      "source_tier": "L5 Google News 补漏源",
-      "source_role": "company_radar",
-      "source_id": "U-NEXT",
-      "credibility_score": 0,
-      "bd_triggers": [
-        "生态窗口"
-      ],
-      "opportunity_direction": "联合解决方案 / 商户增长 / 开放平台合作 / 渠道共建",
-      "follow_up_window": "30天内",
-      "bd_priority": "中",
-      "signal_taxonomy": [
-        "partnership"
-      ],
-      "quality_flags": [
-        "title_prefix_summary",
-        "generic_reason",
-        "unknown_impact"
-      ],
-      "needs_repair": true,
-      "analysis_source": "program",
-      "analysis_status": "fallback"
-    },
-    {
       "title": "Alphabet Raises $80 Billion in AI Equity Raise as Berkshire Backs Expansion",
       "url": "https://ventureburn.com/alphabet-80b-ai-equity-raise/",
       "source": "Ventureburn",
@@ -26323,7 +26039,11 @@
       "quality_flags": [],
       "needs_repair": false,
       "analysis_source": "deepseek",
-      "analysis_status": "complete"
+      "analysis_status": "complete",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNUm1xOEV5TzJwSkZKQi1KckF2aHhjZVRvbllqZ05McWphVDB6OTFDUHItXy1qN2F5MjFMMkNySVN5dFBXRTVpVl9tN0tkQXhqaktSTzlIQWJISGxqNXhiM25UQ3dlYnNsWDNPTzM5cllqQV9Dc2duNjVkVlp3a25lR2Q2TTZJY2ROVllHQ1EzdkpZYXYwUEQ2cWJVai00eGdjU01ZUU90SkJmR0ZOQ0MxR0hydEI0Rmk4bUs5XzJJTjdURjI0R190WkFkcTdSbGpDUzhTMmMwd0NBQzExYi00ak5NVGFUNUs5NE5FZFMzdFlsSF9ZLU9DN0N0NnptTEl4UGlyMG9GNnZOQkdwaVNCV1ZEbGQyOWNULWtvLVNjcDlmVU5yd1hnZ2dRZ1JzNDZrSXNRbDNmM05pMmp0akNoZmdXVEhrQ3FEQTdIc0ExNFhMQmMwZlZpMnJNTHR1NkVsMHViNHktYkV6RkNMQTNnZnc0dk1HUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMilwNBVV95cUxOUjMxZnU1S1FSa0dPVE1mbHFPNERXdHRVS0xuMElHUXVsa2V2WVBna0Q1ejdBazU1SlV1UHItSmNnSU1QUVl1c2hUa080NDBDVG5OWHRfRUVyX29zUGlocHJmT0RLQ2xNWUhEYXRzNmEtd0llVmdOU0VydHZ5bzBYa2RHWnp0bENEbUN5OFRyV180X1g1Z1pOdXFaR1lrc25WQnN6OVJnVE9qTDh6Yk5NUDFhWFQ2OWR2V244bjJ5UXRKUlZuTVdSNV9UTUN2ZXpNbjQxUmNxaUtzVTVYUE5LTld5RENBdDY5TTB1OXVuSDdDS1YyQVBvcU90VzNfRlhDbkVMVGt6T1pval9qeFNyVXNSZ1kzLVZnVk41NzJmWkR1WWx3amdpZE1yZlBBQWdEZjhGS3ZSako3MktrbG9oVml1c1BCRjI1Z196S3REWEtST0dINk9TYl9OT05EMnJjZ3VDQ25pY3BfN1Q4blU5S3BJVDlaaVhMT1JJUE5UVzJtWVg2NC1fNktkQ2N1WjBYOUd5NXBzaw?oc=5"
+      ]
     },
     {
       "title": "SEALSQ acquires majority stake in Wecan Group and invests €5.4 million to scale post-quantum financial security solutions",
@@ -27950,7 +27670,10 @@
       "quality_flags": [],
       "needs_repair": false,
       "analysis_source": "deepseek",
-      "analysis_status": "complete"
+      "analysis_status": "complete",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWWNfblpsel9wWDZWNnJyek5WcXBGVDFCeWFCUTdhU0lPbFA2WkhtSV9BNlVFTTRFRDJBUVZUYTRJR010UVFhZjh0QzY1VVFlSjhxdXltMEM5eExKdDB3Q1p5S21jUmJxb1NSeUFnVkZ0cUlzbG55dmNEQ0FzSkNrX0M0dUY3UUpFQ0RVdWJKcTJ2YU5BS3FkYnJjRUliaHZocWJEWnYxUVVoR1NGZjlUUGFxcUd4TDFJ?oc=5"
+      ]
     },
     {
       "title": "Molfar raises €1.5M to bring tactical anti-drone radar systems closer to the frontline",
@@ -28113,49 +27836,6 @@
       "follow_up_window": "30天内",
       "bd_priority": "中",
       "signal_taxonomy": [
-        "ai_infra",
-        "capital"
-      ],
-      "quality_flags": [],
-      "needs_repair": false,
-      "analysis_source": "deepseek",
-      "analysis_status": "complete"
-    },
-    {
-      "title": "Polish ecommerce major Allegro secures $275 million EIB loan for AI, research and development - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNUm1xOEV5TzJwSkZKQi1KckF2aHhjZVRvbllqZ05McWphVDB6OTFDUHItXy1qN2F5MjFMMkNySVN5dFBXRTVpVl9tN0tkQXhqaktSTzlIQWJISGxqNXhiM25UQ3dlYnNsWDNPTzM5cllqQV9Dc2duNjVkVlp3a25lR2Q2TTZJY2ROVllHQ1EzdkpZYXYwUEQ2cWJVai00eGdjU01ZUU90SkJmR0ZOQ0MxR0hydEI0Rmk4bUs5XzJJTjdURjI0R190WkFkcTdSbGpDUzhTMmMwd0NBQzExYi00ak5NVGFUNUs5NE5FZFMzdFlsSF9ZLU9DN0N0NnptTEl4UGlyMG9GNnZOQkdwaVNCV1ZEbGQyOWNULWtvLVNjcDlmVU5yd1hnZ2dRZ1JzNDZrSXNRbDNmM05pMmp0akNoZmdXVEhrQ3FEQTdIc0ExNFhMQmMwZlZpMnJNTHR1NkVsMHViNHktYkV6RkNMQTNnZnc0dk1HUQ?oc=5",
-      "source": "Google News",
-      "region": "欧洲",
-      "event_types": [
-        "funding"
-      ],
-      "level": "C",
-      "score": 5,
-      "summary_short": "波兰电商Allegro获欧洲投资银行2.75亿美元贷款用于AI研发",
-      "reason": "欧洲电商巨头获政策性贷款加码AI，中东欧AI基础设施和电商技术集成需求增长",
-      "impact": "波兰AI技术供应商、欧洲云服务商",
-      "insight_label": "资金流向",
-      "trend_topic": "欧洲电商AI投资",
-      "companies": [],
-      "is_company": true,
-      "company_name": "Allegro",
-      "article_date": "2026-06-03",
-      "date": "2026-06-03",
-      "source_detail": "MSN",
-      "publisher": "MSN",
-      "image_url": "",
-      "source_tier": "L5 Google News 补漏源",
-      "source_role": "company_radar",
-      "source_id": "Allegro",
-      "credibility_score": 0,
-      "bd_triggers": [
-        "预算窗口"
-      ],
-      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
-      "follow_up_window": "30天内",
-      "bd_priority": "中",
-      "signal_taxonomy": [
-        "commerce",
         "ai_infra",
         "capital"
       ],
@@ -30903,53 +30583,6 @@
       "follow_up_window": "持续观察",
       "bd_priority": "观察",
       "signal_taxonomy": [
-        "capital"
-      ],
-      "quality_flags": [
-        "title_prefix_summary",
-        "generic_reason",
-        "unknown_impact"
-      ],
-      "needs_repair": true,
-      "analysis_source": "program",
-      "analysis_status": "failed"
-    },
-    {
-      "title": "Polish ecommerce major Allegro secures $275 million EIB loan for AI, research and development - MSN",
-      "url": "https://news.google.com/rss/articles/CBMilwNBVV95cUxOUjMxZnU1S1FSa0dPVE1mbHFPNERXdHRVS0xuMElHUXVsa2V2WVBna0Q1ejdBazU1SlV1UHItSmNnSU1QUVl1c2hUa080NDBDVG5OWHRfRUVyX29zUGlocHJmT0RLQ2xNWUhEYXRzNmEtd0llVmdOU0VydHZ5bzBYa2RHWnp0bENEbUN5OFRyV180X1g1Z1pOdXFaR1lrc25WQnN6OVJnVE9qTDh6Yk5NUDFhWFQ2OWR2V244bjJ5UXRKUlZuTVdSNV9UTUN2ZXpNbjQxUmNxaUtzVTVYUE5LTld5RENBdDY5TTB1OXVuSDdDS1YyQVBvcU90VzNfRlhDbkVMVGt6T1pval9qeFNyVXNSZ1kzLVZnVk41NzJmWkR1WWx3amdpZE1yZlBBQWdEZjhGS3ZSako3MktrbG9oVml1c1BCRjI1Z196S3REWEtST0dINk9TYl9OT05EMnJjZ3VDQ25pY3BfN1Q4blU5S3BJVDlaaVhMT1JJUE5UVzJtWVg2NC1fNktkQ2N1WjBYOUd5NXBzaw?oc=5",
-      "source": "Google News",
-      "region": "欧洲",
-      "event_types": [
-        "funding"
-      ],
-      "level": "C",
-      "score": 5,
-      "summary_short": "Polish ecommerce major Al",
-      "reason": "欧洲科技公司融资事件，金额待确认",
-      "impact": "未知",
-      "insight_label": "资金流向",
-      "trend_topic": "资金流向 — 欧洲",
-      "companies": [],
-      "is_company": true,
-      "company_name": "Allegro",
-      "article_date": "2026-06-05",
-      "date": "2026-06-05",
-      "source_detail": "MSN",
-      "publisher": "MSN",
-      "image_url": "",
-      "source_tier": "L5 Google News 补漏源",
-      "source_role": "company_radar",
-      "source_id": "Allegro",
-      "credibility_score": 0,
-      "bd_triggers": [
-        "预算窗口"
-      ],
-      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
-      "follow_up_window": "30天内",
-      "bd_priority": "中",
-      "signal_taxonomy": [
-        "commerce",
-        "ai_infra",
         "capital"
       ],
       "quality_flags": [
@@ -33874,50 +33507,6 @@
       "analysis_status": "complete"
     },
     {
-      "title": "Vinyl raises $20m to modernise IPO Infrastructure",
-      "url": "https://www.finextra.com/newsarticle/47889/vinyl-raises-20m-to-modernise-ipo-infrastructure?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "source": "Finextra",
-      "region": "全球",
-      "event_types": [
-        "funding",
-        "earnings"
-      ],
-      "level": "D",
-      "score": 3,
-      "summary_short": "Vinyl获$20M融资，现代化IPO基础设施",
-      "reason": "全球资本市场基础设施赛道获融资，金融科技SaaS和云服务商有集成机会",
-      "impact": "金融科技SaaS供应商、云基础设施服务商",
-      "insight_label": "资金流向",
-      "trend_topic": "全球资本市场科技升级",
-      "companies": [],
-      "is_company": false,
-      "company_name": "",
-      "article_date": "2026-06-09",
-      "date": "2026-06-09",
-      "source_detail": "",
-      "publisher": "",
-      "image_url": "",
-      "source_tier": "L4 垂直赛道精品源",
-      "source_role": "industry_vertical",
-      "source_id": "Finextra Payments",
-      "credibility_score": 0,
-      "vertical": "Fintech/支付",
-      "bd_triggers": [
-        "预算窗口"
-      ],
-      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
-      "follow_up_window": "持续观察",
-      "bd_priority": "观察",
-      "signal_taxonomy": [
-        "ai_infra",
-        "capital"
-      ],
-      "quality_flags": [],
-      "needs_repair": false,
-      "analysis_source": "deepseek",
-      "analysis_status": "complete"
-    },
-    {
       "title": "Morpho Raises $175 Million to Expand DeFi Lending",
       "url": "https://ventureburn.com/morpho-raises-175-million-to-expand-defi-lending/",
       "source": "Ventureburn",
@@ -34507,7 +34096,10 @@
       "quality_flags": [],
       "needs_repair": false,
       "analysis_source": "deepseek",
-      "analysis_status": "complete"
+      "analysis_status": "complete",
+      "merged_from": [
+        "https://www.finextra.com/newsarticle/47889/vinyl-raises-20m-to-modernise-ipo-infrastructure?utm_medium=rssfinextra&utm_source=finextrafeed"
+      ]
     },
     {
       "title": "Rylo Raises $85M Series Growth Funding as AI Accessibility Demand Surges",
@@ -38398,7 +37990,11 @@
       ],
       "needs_repair": true,
       "analysis_source": "deepseek",
-      "analysis_status": "fallback"
+      "analysis_status": "fallback",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMizgJBVV95cUxQQ0NPcW5Eb05SV2w1bWl4UlU1ZGRhQWRSMWF3ZlpVQnFlUGZ2bmdTemlGaG5HUERFcnBVdWNzam4tYnR5MHpvZ040RWhoNXowN3NEX0JaOUZNSG1YUndsWWJxQjR5aWZBSWlIamxYUUdJOFpTYXIzRTZTWkx6djNGLURsYTJGQWZmMTliYmgyTHd6VGJpYTVpUVlHeHd4VXdnSGhsMmN6dU13VWZyOW5oa0MzN0VYSTF2alJLbVk0Z1FDZGFDUkNhcnZkX0pieEs0Q2FmNnNYWmZBSFZSMFRqaHhYVTVFa1ZTeUkxNkNFUERHeE82bkpJUmxmUkV6VW9uZHBUbndBZVJlZkE3UWpBelQzUDA0VjB0RGcwX1c3OFBXZWJHQ2FnbW4wQkl4ZThWYkdVdnNrYVh5RzdnNnB4cDNmNUZCQjB5eGhMU3l3?oc=5",
+        "https://news.google.com/rss/articles/CBMizwJBVV95cUxPSEVYR0tsbnlLbnVmMDk3NjdUQ1gwY214N3FXb05OYmFSNGJ6VUZtelduOEtOSDZCRUl3a1NJMmJrY05HU2xrd18tVUxPOVNnOE40MUdiUnBmZTJsOFVUWjVYaTVrbEd5UlF1NF94a3VPeXI1UGlGbUNpSmgtMUFqZUVKRXJQdG00Y0s3WXZpYzBhSFVGTHRwczg3TjFsaWVKRG8tb0g2SURNLWpVRFFNTGFqZUxkLS1ieVZWUGlUZVhTSkU2SVRtalVSU3A5TWpLUlI1czUxdUx3d2Q3WTRiVkZBaURnZUdMRjg5TUpRbjdWSVRIR01jMk5zMDNBLW1LQ1FVbEM3c2ZVYjV3OHpka3hRV2R3bmw1ZjZra09TMkdlRl8wcUFaMmpvUDNDLTE3VVVPVGNjT2JNblVYRUN5RURDcnh6N3Y5T0ZGT3dnYw?oc=5"
+      ]
     },
     {
       "title": "Is MercadoLibre stock headed to $2,800? 1 Wall Street analyst thinks So - MSN",
@@ -39859,47 +39455,6 @@
       "analysis_status": "complete"
     },
     {
-      "title": "MercadoLibre (MELI) Stock Trades Up, Here Is Why - StockStory",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbVZ6empXeHlrc3ZldjNzYW9aUGhfVFk4d28xYzV4MzBaZjJXdXliSkhNREg3Nm1VUm9RcVRwQ1RybHN1SXJkZE1vSHdUQ2FobVdxQzhsay1CQnVQSVZOSHFZUzBNVXA4SU45cjNvV1ZlVS1QVkFLd0FoNUJXLU84ZUtKQlpEX2VzTEJyTFNGT3NLR2E0bVlRNDhtVUtMSUREcHBZXzBWdmVxRUJpOFE?oc=5",
-      "source": "Google News",
-      "region": "拉美",
-      "event_types": [
-        "earnings"
-      ],
-      "level": "D",
-      "score": 3,
-      "summary_short": "MercadoLibre股价上涨",
-      "reason": "拉美电商平台MercadoLibre股价上涨，反映拉美电商市场持续增长，ICT服务商可关注其平台技术升级和物流数字化需求",
-      "impact": "拉美电商平台、物流技术供应商",
-      "insight_label": "背景补充",
-      "trend_topic": "拉美电商持续增长",
-      "companies": [],
-      "is_company": true,
-      "company_name": "MercadoLibre",
-      "article_date": "2026-06-15",
-      "date": "2026-06-15",
-      "source_detail": "StockStory",
-      "publisher": "StockStory",
-      "image_url": "",
-      "source_tier": "L5 Google News 补漏源",
-      "source_role": "company_radar",
-      "source_id": "MercadoLibre",
-      "credibility_score": 0,
-      "bd_triggers": [
-        "预算窗口"
-      ],
-      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
-      "follow_up_window": "持续观察",
-      "bd_priority": "观察",
-      "signal_taxonomy": [
-        "capital"
-      ],
-      "quality_flags": [],
-      "needs_repair": false,
-      "analysis_source": "deepseek",
-      "analysis_status": "complete"
-    },
-    {
       "title": "Salesforce acquires AI customer service platform Fin for $3.6B",
       "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
       "source": "TechCrunch",
@@ -40121,51 +39676,6 @@
       "needs_repair": true,
       "analysis_source": "program",
       "analysis_status": "fallback"
-    },
-    {
-      "title": "Sarvam Enters Unicorn Club With $234 Mn Funding Round Led By HCLTech",
-      "url": "https://inc42.com/buzz/sarvam-enters-unicorn-club-with-234-mn-funding-round-led-by-hcltech/",
-      "source": "Inc42",
-      "region": "亚太",
-      "event_types": [
-        "funding",
-        "strategy"
-      ],
-      "level": "C",
-      "score": 4,
-      "summary_short": "Sarvam获$234M融资，由HCLTech领投，晋级独角兽",
-      "reason": "亚太印度AI初创Sarvam获大额融资，企业级AI服务赛道竞争加剧",
-      "impact": "印度AI服务商、企业IT采购方",
-      "insight_label": "资金流向",
-      "trend_topic": "印度AI独角兽崛起",
-      "companies": [],
-      "is_company": false,
-      "company_name": "",
-      "article_date": "2026-06-15",
-      "date": "2026-06-15",
-      "source_detail": "",
-      "publisher": "",
-      "image_url": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/03/Sarvam-Open-Source-Story-social.jpg",
-      "source_tier": "L2 垂直交易源",
-      "source_role": "venture_media",
-      "source_id": "Inc42",
-      "credibility_score": 0,
-      "bd_triggers": [
-        "预算窗口",
-        "扩张窗口"
-      ],
-      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
-      "follow_up_window": "30天内",
-      "bd_priority": "中",
-      "signal_taxonomy": [
-        "expansion",
-        "ai_infra",
-        "capital"
-      ],
-      "quality_flags": [],
-      "needs_repair": false,
-      "analysis_source": "deepseek",
-      "analysis_status": "complete"
     },
     {
       "title": "Veefin Names Former Backbase Executive Riddhi Dutta as Chief Revenue Officer",
@@ -40511,7 +40021,10 @@
       "quality_flags": [],
       "needs_repair": false,
       "analysis_source": "deepseek",
-      "analysis_status": "complete"
+      "analysis_status": "complete",
+      "merged_from": [
+        "https://inc42.com/buzz/sarvam-enters-unicorn-club-with-234-mn-funding-round-led-by-hcltech/"
+      ]
     },
     {
       "title": "Ghost Story Commute shatters KakaoPage records with debut-day surge - CHOSUNBIZ - Chosunbiz",
@@ -42097,7 +41610,10 @@
       "quality_flags": [],
       "needs_repair": false,
       "analysis_source": "deepseek",
-      "analysis_status": "complete"
+      "analysis_status": "complete",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxQX1Q3a2lFRkFmcWxlczViem1EdmFmeV9OWkFDUkZPeDZ3YkFXMnVqUjVLUjNGbDkwS01VQ0RZRHFrU3BxTDVVNTNXZ29vbWlmei1IQjcxdWVaVTVmTU5uMWRQNXFPRTdlb1FtVjMydEZPcW1xa21rMENsU3htTDdRUWRZTkRMSjhlVDJtS3JsajR1UXJseDhZbVB6SFhkcXlpRDBfRw?oc=5"
+      ]
     },
     {
       "title": "Kraken-owned NinjaTrader gets $100m loan from Gulf firm",
@@ -46335,49 +45851,6 @@
       "analysis_status": "complete"
     },
     {
-      "title": "Adyen stock jumps after new product announcement - MSN",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQX1Q3a2lFRkFmcWxlczViem1EdmFmeV9OWkFDUkZPeDZ3YkFXMnVqUjVLUjNGbDkwS01VQ0RZRHFrU3BxTDVVNTNXZ29vbWlmei1IQjcxdWVaVTVmTU5uMWRQNXFPRTdlb1FtVjMydEZPcW1xa21rMENsU3htTDdRUWRZTkRMSjhlVDJtS3JsajR1UXJseDhZbVB6SFhkcXlpRDBfRw?oc=5",
-      "source": "Google News",
-      "region": "欧洲",
-      "event_types": [
-        "earnings"
-      ],
-      "level": "D",
-      "score": 3,
-      "summary_short": "Adyen发布新产品后股价上涨",
-      "reason": "欧洲支付科技公司Adyen新产品获市场认可，支付基础设施集成商和商户解决方案供应商迎来合作窗口",
-      "impact": "欧洲支付服务商、电商平台、金融科技集成商",
-      "insight_label": "合作机会",
-      "trend_topic": "欧洲支付科技创新",
-      "companies": [],
-      "is_company": true,
-      "company_name": "Adyen",
-      "article_date": "2026-06-20",
-      "date": "2026-06-20",
-      "source_detail": "MSN",
-      "publisher": "MSN",
-      "image_url": "",
-      "source_tier": "L5 Google News 补漏源",
-      "source_role": "company_radar",
-      "source_id": "Adyen",
-      "credibility_score": 0,
-      "bd_triggers": [
-        "预算窗口"
-      ],
-      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
-      "follow_up_window": "持续观察",
-      "bd_priority": "观察",
-      "signal_taxonomy": [
-        "capital"
-      ],
-      "quality_flags": [
-        "generic_reason"
-      ],
-      "needs_repair": true,
-      "analysis_source": "deepseek",
-      "analysis_status": "partial"
-    },
-    {
       "title": "Japan taxi app Go raises $553m in biggest IPO this year",
       "url": "https://www.techinasia.com/goldmanbacked-japan-taxi-app-prices-ipo-top",
       "source": "Tech in Asia",
@@ -46890,7 +46363,10 @@
       "quality_flags": [],
       "needs_repair": false,
       "analysis_source": "deepseek",
-      "analysis_status": "complete"
+      "analysis_status": "complete",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxObjZOdElNU3p3akpvZUJoY3VpZko2b0pyaDRpZkFfWlh4RUZyTTdaRW93QkFWeXZIOHpXMFp6UzltWDZ5YkNaQmdNR1p1YjJZOGdZN3UwQlZ0THNaYVdKRktvVm5JYjB2dWdOejliaTdsSExibHIxa0ozcTlZamVNUU01WENpRjNFVmQ2NHVVQ3VQYUZXTDE0QWZMemVJb3F2VURTY2FQWGs1Y29HT0RWVmUzTnZ6OHRjcGVZT2VLZnk2RXY3SjRj?oc=5"
+      ]
     },
     {
       "title": "[Rakuten Eagles] Manager Yoshihito Yoshii once again denies his first win; despite a series of pitching changes from the second inning, his strategy fails, resulting in a fifth consecutive loss and a season-worst deficit of 19 games - パ・リーグ.com",
@@ -52496,7 +51972,10 @@
       ],
       "needs_repair": true,
       "analysis_source": "deepseek",
-      "analysis_status": "fallback"
+      "analysis_status": "fallback",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYXJubkRyZnM2T0ZXMXZnV2xKeHR0UGF4Ukhvd09SNEJNbVpkS3pGRXJJbDVxT1hVNkNDQko3Q1JQWkxtRXVNRkFNNVdDQ0YzOXBOejhhVElXd0hlY3hSR1NSMG8yQzh2MXhjZ1ctaTEtNUw5UXlmSllPTmUtTGFSbEFXMWFvOXNw?oc=5"
+      ]
     },
     {
       "title": "Sofina Ventures Offloads Honasa Consumer’s Shares Via ₹177 Cr Bulk Deal",
@@ -53900,51 +53379,6 @@
       "analysis_status": "complete"
     },
     {
-      "title": "Exclusive: Naver Launches 'AI Tab' Conversational Search Service - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYXJubkRyZnM2T0ZXMXZnV2xKeHR0UGF4Ukhvd09SNEJNbVpkS3pGRXJJbDVxT1hVNkNDQko3Q1JQWkxtRXVNRkFNNVdDQ0YzOXBOejhhVElXd0hlY3hSR1NSMG8yQzh2MXhjZ1ctaTEtNUw5UXlmSllPTmUtTGFSbEFXMWFvOXNw?oc=5",
-      "source": "Google News",
-      "region": "亚太",
-      "event_types": [
-        "strategy"
-      ],
-      "level": "D",
-      "score": 2,
-      "summary_short": "Exclusive: Naver Launches",
-      "reason": "亚太科技公司战略动态",
-      "impact": "未知",
-      "insight_label": "合作机会",
-      "trend_topic": "合作机会 — 亚太",
-      "companies": [],
-      "is_company": true,
-      "company_name": "Naver",
-      "article_date": "2026-06-26",
-      "date": "2026-06-26",
-      "source_detail": "조선일보",
-      "publisher": "조선일보",
-      "image_url": "",
-      "source_tier": "L5 Google News 补漏源",
-      "source_role": "company_radar",
-      "source_id": "Naver",
-      "credibility_score": 0,
-      "bd_triggers": [
-        "扩张窗口"
-      ],
-      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
-      "follow_up_window": "30天内",
-      "bd_priority": "中",
-      "signal_taxonomy": [
-        "ai_infra"
-      ],
-      "quality_flags": [
-        "title_prefix_summary",
-        "generic_reason",
-        "unknown_impact"
-      ],
-      "needs_repair": true,
-      "analysis_source": "program",
-      "analysis_status": "fallback"
-    },
-    {
       "title": "Russian hackers were behind $2.5 billion hack of Jaguar Land Rover: Report",
       "url": "https://techcrunch.com/2026/06/26/russian-hackers-were-behind-2-5-billion-hack-of-jaguar-land-rover-report/",
       "source": "TechCrunch",
@@ -54216,47 +53650,6 @@
       "needs_repair": true,
       "analysis_source": "program",
       "analysis_status": "fallback"
-    },
-    {
-      "title": "The market has punished MercadoLibre stock -- is that your buying opportunity? - MSN",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObjZOdElNU3p3akpvZUJoY3VpZko2b0pyaDRpZkFfWlh4RUZyTTdaRW93QkFWeXZIOHpXMFp6UzltWDZ5YkNaQmdNR1p1YjJZOGdZN3UwQlZ0THNaYVdKRktvVm5JYjB2dWdOejliaTdsSExibHIxa0ozcTlZamVNUU01WENpRjNFVmQ2NHVVQ3VQYUZXTDE0QWZMemVJb3F2VURTY2FQWGs1Y29HT0RWVmUzTnZ6OHRjcGVZT2VLZnk2RXY3SjRj?oc=5",
-      "source": "Google News",
-      "region": "拉美",
-      "event_types": [
-        "earnings"
-      ],
-      "level": "D",
-      "score": 3,
-      "summary_short": "市场认为MercadoLibre股价下跌是买入机会",
-      "reason": "拉美电商MercadoLibre股价回调，长期增长逻辑未变，支付和物流技术供应商仍有机会",
-      "impact": "拉美电商平台、金融科技合作方",
-      "insight_label": "背景补充",
-      "trend_topic": "拉美电商市场动态",
-      "companies": [],
-      "is_company": true,
-      "company_name": "MercadoLibre",
-      "article_date": "2026-06-26",
-      "date": "2026-06-26",
-      "source_detail": "MSN",
-      "publisher": "MSN",
-      "image_url": "",
-      "source_tier": "L5 Google News 补漏源",
-      "source_role": "company_radar",
-      "source_id": "MercadoLibre",
-      "credibility_score": 0,
-      "bd_triggers": [
-        "预算窗口"
-      ],
-      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
-      "follow_up_window": "持续观察",
-      "bd_priority": "观察",
-      "signal_taxonomy": [
-        "capital"
-      ],
-      "quality_flags": [],
-      "needs_repair": false,
-      "analysis_source": "deepseek",
-      "analysis_status": "complete"
     },
     {
       "title": "UK BioTech Thalia Therapeutics raises €3.1 million and acquires Sanmirna Therapeutics",
@@ -57862,7 +57255,10 @@
       "quality_flags": [],
       "needs_repair": false,
       "analysis_source": "deepseek",
-      "analysis_status": "complete"
+      "analysis_status": "complete",
+      "merged_from": [
+        "https://www.therecursive.com/hypefy-influencer-marketing-series-a-aymo-ventures/"
+      ]
     },
     {
       "title": "Baubap secures $23M credit facility from BBVA Spark and SixPoint Capital",
@@ -59275,50 +58671,6 @@
       "bd_priority": "观察",
       "signal_taxonomy": [
         "ai_infra",
-        "capital"
-      ],
-      "quality_flags": [],
-      "needs_repair": false,
-      "analysis_source": "deepseek",
-      "analysis_status": "complete"
-    },
-    {
-      "title": "Hypefy AI raises €6.3M Series A to automate influencer marketing",
-      "url": "https://www.therecursive.com/hypefy-influencer-marketing-series-a-aymo-ventures/",
-      "source": "The Recursive",
-      "region": "欧洲",
-      "event_types": [
-        "funding"
-      ],
-      "level": "D",
-      "score": 2,
-      "summary_short": "Hypefy AI获€6.3M A轮融资",
-      "reason": "欧洲AI营销自动化赛道获资本注入，为ICT从业者提供SaaS集成和API合作机会",
-      "impact": "欧洲SaaS集成商、社交媒体API供应商",
-      "insight_label": "资金流向",
-      "trend_topic": "欧洲AI营销自动化",
-      "companies": [],
-      "is_company": false,
-      "company_name": "",
-      "article_date": "2026-07-01",
-      "date": "2026-07-01",
-      "source_detail": "",
-      "publisher": "",
-      "image_url": "https://storage.ghost.io/c/b8/ae/b8aee878-7ddc-40ad-8f68-92a28c560560/content/images/2026/07/PERSON-no-background--1-.png",
-      "source_tier": "L3 区域生态源",
-      "source_role": "regional_ecosystem",
-      "source_id": "The Recursive",
-      "credibility_score": 0,
-      "bd_triggers": [
-        "预算窗口"
-      ],
-      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
-      "follow_up_window": "持续观察",
-      "bd_priority": "观察",
-      "signal_taxonomy": [
-        "expansion",
-        "ai_infra",
-        "developer_change",
         "capital"
       ],
       "quality_flags": [],
@@ -63709,7 +63061,10 @@
       "quality_flags": [],
       "needs_repair": false,
       "analysis_source": "deepseek",
-      "analysis_status": "complete"
+      "analysis_status": "complete",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMihgJBVV95cUxPRC1URFdiVmlfQlp4dWZ6TlRLNnFKU1Q3S09JVUtJWGhsa1pwT1Znc1R4TzZ3Zk1yVnFQMGdUbXh4SDRoWFV6c2x4c1RuRFdOeThiWjA1dnduZmFkeExxX2VYZHV5VjRrSGVzcHU4Y0lmamV4SncyeUJGZXdhdEFNZlU0c2tQS3pUeHB1VGd3d3hBaF9fVFZvNnJlbm84Mm9VMk5oaGxZMDc4aDgzVWFmSzF6TFUzYzI0aTNLNnFBYl9kR0ZhMWRJR1dTeDRnUGhNZWxoZGFSbnNubjFXUVFkY0hrS3MtT0E1akhaaVRJRFNEcU9nN0FOY1R6a0h2TmkxMGF5TG9n?oc=5"
+      ]
     },
     {
       "title": "Naver Unveils 3 Core AI Search Technologies, Shifts Focus from Benchmarks to Real-World Service - finance.biggo.com",
@@ -65074,7 +64429,10 @@
       "quality_flags": [],
       "needs_repair": false,
       "analysis_source": "deepseek",
-      "analysis_status": "complete"
+      "analysis_status": "complete",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVjlEa1ZwODU2TWRDWGhIUVF0R19LQUo0aG5EYjVxUWRmQWRUYjFwQVV2emFsS0g3dkQ1bTFqWEEzOFN3bERJaWJLNmNPR2dNX1FfMkxNQ21iZUxGUnVNWkNOMk9TaXg0ai0xLWwzS1ZRanIwcWRNYjZzY3lLMm1pdFFNWmxuWjl3dklOaWVLcEFlWGlvc2lNTTFHbVVJTFIwdFlNa29NOVhGYjhqbWhXdmkzNGJrT1JmeG5qWDlheVpWUU50YncyeGRKd1otQmRMVWhVcE5FbVlZNkVhdnc?oc=5"
+      ]
     },
     {
       "title": "Hot Five: Love and Deepspace's Valko controversy, Pikmin Bloom’s spending surge, and Umamusume: Pretty Derby’s $100m year overseas",
@@ -65946,53 +65304,6 @@
       "needs_repair": false,
       "analysis_source": "deepseek",
       "analysis_status": "complete"
-    },
-    {
-      "title": "Sea’s e-commerce arm Shopee cuts jobs as reorganization continues - MSN",
-      "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQQ0NPcW5Eb05SV2w1bWl4UlU1ZGRhQWRSMWF3ZlpVQnFlUGZ2bmdTemlGaG5HUERFcnBVdWNzam4tYnR5MHpvZ040RWhoNXowN3NEX0JaOUZNSG1YUndsWWJxQjR5aWZBSWlIamxYUUdJOFpTYXIzRTZTWkx6djNGLURsYTJGQWZmMTliYmgyTHd6VGJpYTVpUVlHeHd4VXdnSGhsMmN6dU13VWZyOW5oa0MzN0VYSTF2alJLbVk0Z1FDZGFDUkNhcnZkX0pieEs0Q2FmNnNYWmZBSFZSMFRqaHhYVTVFa1ZTeUkxNkNFUERHeE82bkpJUmxmUkV6VW9uZHBUbndBZVJlZkE3UWpBelQzUDA0VjB0RGcwX1c3OFBXZWJHQ2FnbW4wQkl4ZThWYkdVdnNrYVh5RzdnNnB4cDNmNUZCQjB5eGhMU3l3?oc=5",
-      "source": "Google News",
-      "region": "亚太",
-      "event_types": [
-        "strategy"
-      ],
-      "level": "D",
-      "score": 2,
-      "summary_short": "Sea’s e-commerce arm Shop",
-      "reason": "亚太科技公司战略动态",
-      "impact": "未知",
-      "insight_label": "合作机会",
-      "trend_topic": "合作机会 — 亚太",
-      "companies": [],
-      "is_company": true,
-      "company_name": "Sea Limited",
-      "article_date": "2026-07-07",
-      "date": "2026-07-07",
-      "source_detail": "MSN",
-      "publisher": "MSN",
-      "image_url": "",
-      "source_tier": "L5 Google News 补漏源",
-      "source_role": "company_radar",
-      "source_id": "Sea Limited",
-      "credibility_score": 0,
-      "bd_triggers": [
-        "降本窗口",
-        "扩张窗口"
-      ],
-      "opportunity_direction": "AI客服 / 自动化运营 / 外包服务 / 成本优化",
-      "follow_up_window": "30天内",
-      "bd_priority": "中",
-      "signal_taxonomy": [
-        "commerce",
-        "org_change"
-      ],
-      "quality_flags": [
-        "title_prefix_summary",
-        "generic_reason",
-        "unknown_impact"
-      ],
-      "needs_repair": true,
-      "analysis_source": "program",
-      "analysis_status": "fallback"
     },
     {
       "title": "Quaise Energy Raises $134M Series B to Advance Superhot Geothermal Power",
@@ -70728,47 +70039,6 @@
       "analysis_status": "complete"
     },
     {
-      "title": "Down 35%, is MercadoLibre stock a better buy than SpaceX and the \"Magnificent Seven\" stocks in July? - MSN",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPRC1URFdiVmlfQlp4dWZ6TlRLNnFKU1Q3S09JVUtJWGhsa1pwT1Znc1R4TzZ3Zk1yVnFQMGdUbXh4SDRoWFV6c2x4c1RuRFdOeThiWjA1dnduZmFkeExxX2VYZHV5VjRrSGVzcHU4Y0lmamV4SncyeUJGZXdhdEFNZlU0c2tQS3pUeHB1VGd3d3hBaF9fVFZvNnJlbm84Mm9VMk5oaGxZMDc4aDgzVWFmSzF6TFUzYzI0aTNLNnFBYl9kR0ZhMWRJR1dTeDRnUGhNZWxoZGFSbnNubjFXUVFkY0hrS3MtT0E1akhaaVRJRFNEcU9nN0FOY1R6a0h2TmkxMGF5TG9n?oc=5",
-      "source": "Google News",
-      "region": "拉美",
-      "event_types": [
-        "earnings"
-      ],
-      "level": "D",
-      "score": 3,
-      "summary_short": "MercadoLibre股价下跌35%，被指不如SpaceX和美股七巨头",
-      "reason": "拉美电商巨头MercadoLibre股价回调，拉美电商基建投资可能放缓，但长期增长逻辑未变，支付和物流技术商可关注抄底合作",
-      "impact": "拉美电商平台、拉美支付服务商、物流技术供应商",
-      "insight_label": "警示信号",
-      "trend_topic": "拉美电商估值调整",
-      "companies": [],
-      "is_company": true,
-      "company_name": "MercadoLibre",
-      "article_date": "2026-07-09",
-      "date": "2026-07-09",
-      "source_detail": "MSN",
-      "publisher": "MSN",
-      "image_url": "",
-      "source_tier": "L5 Google News 补漏源",
-      "source_role": "company_radar",
-      "source_id": "MercadoLibre",
-      "credibility_score": 0,
-      "bd_triggers": [
-        "预算窗口"
-      ],
-      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
-      "follow_up_window": "持续观察",
-      "bd_priority": "观察",
-      "signal_taxonomy": [
-        "capital"
-      ],
-      "quality_flags": [],
-      "needs_repair": false,
-      "analysis_source": "deepseek",
-      "analysis_status": "complete"
-    },
-    {
       "title": "NH Investment Says Naver’s Post-AI Data Center Plunge Is Overdone, Keeps ₩320,000 Target - finance.biggo.com",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6bjBFSldjZl9NQUFuam1VYkx4MUVOSGJqUXJ2eC1CZFNBVGZSaXFBVVRqdVN3RWVzbWhaNWF6RVZxZ2IxaERyQ28yMGRSb05FV29lSEMzbk5oOHdGZVRCd0F5LWRIeFNqMk9OampRWFZxdGo2cEE?oc=5",
       "source": "Google News",
@@ -71768,53 +71038,6 @@
       "needs_repair": false,
       "analysis_source": "deepseek",
       "analysis_status": "complete"
-    },
-    {
-      "title": "Sea’s e-commerce arm Shopee cuts jobs as reorganization continues - MSN",
-      "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPSEVYR0tsbnlLbnVmMDk3NjdUQ1gwY214N3FXb05OYmFSNGJ6VUZtelduOEtOSDZCRUl3a1NJMmJrY05HU2xrd18tVUxPOVNnOE40MUdiUnBmZTJsOFVUWjVYaTVrbEd5UlF1NF94a3VPeXI1UGlGbUNpSmgtMUFqZUVKRXJQdG00Y0s3WXZpYzBhSFVGTHRwczg3TjFsaWVKRG8tb0g2SURNLWpVRFFNTGFqZUxkLS1ieVZWUGlUZVhTSkU2SVRtalVSU3A5TWpLUlI1czUxdUx3d2Q3WTRiVkZBaURnZUdMRjg5TUpRbjdWSVRIR01jMk5zMDNBLW1LQ1FVbEM3c2ZVYjV3OHpka3hRV2R3bmw1ZjZra09TMkdlRl8wcUFaMmpvUDNDLTE3VVVPVGNjT2JNblVYRUN5RURDcnh6N3Y5T0ZGT3dnYw?oc=5",
-      "source": "Google News",
-      "region": "亚太",
-      "event_types": [
-        "strategy"
-      ],
-      "level": "D",
-      "score": 2,
-      "summary_short": "Sea’s e-commerce arm Shop",
-      "reason": "亚太科技公司战略动态",
-      "impact": "未知",
-      "insight_label": "合作机会",
-      "trend_topic": "合作机会 — 亚太",
-      "companies": [],
-      "is_company": true,
-      "company_name": "Sea Limited",
-      "article_date": "2026-07-10",
-      "date": "2026-07-10",
-      "source_detail": "MSN",
-      "publisher": "MSN",
-      "image_url": "",
-      "source_tier": "L5 Google News 补漏源",
-      "source_role": "company_radar",
-      "source_id": "Sea Limited",
-      "credibility_score": 0,
-      "bd_triggers": [
-        "降本窗口",
-        "扩张窗口"
-      ],
-      "opportunity_direction": "AI客服 / 自动化运营 / 外包服务 / 成本优化",
-      "follow_up_window": "30天内",
-      "bd_priority": "中",
-      "signal_taxonomy": [
-        "commerce",
-        "org_change"
-      ],
-      "quality_flags": [
-        "title_prefix_summary",
-        "generic_reason",
-        "unknown_impact"
-      ],
-      "needs_repair": true,
-      "analysis_source": "program",
-      "analysis_status": "fallback"
     },
     {
       "title": "Shopify: Turn automatic hreflang tags on or off from your admin settings",
@@ -76161,47 +75384,6 @@
       "signal_taxonomy": [
         "expansion",
         "partnership",
-        "capital"
-      ],
-      "quality_flags": [],
-      "needs_repair": false,
-      "analysis_source": "doubao",
-      "analysis_status": "complete"
-    },
-    {
-      "title": "MercadoLibre stock has been left for dead. Here's why investors should consider buying more - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVjlEa1ZwODU2TWRDWGhIUVF0R19LQUo0aG5EYjVxUWRmQWRUYjFwQVV2emFsS0g3dkQ1bTFqWEEzOFN3bERJaWJLNmNPR2dNX1FfMkxNQ21iZUxGUnVNWkNOMk9TaXg0ai0xLWwzS1ZRanIwcWRNYjZzY3lLMm1pdFFNWmxuWjl3dklOaWVLcEFlWGlvc2lNTTFHbVVJTFIwdFlNa29NOVhGYjhqbWhXdmkzNGJrT1JmeG5qWDlheVpWUU50YncyeGRKd1otQmRMVWhVcE5FbVlZNkVhdnc?oc=5",
-      "source": "Google News",
-      "region": "拉美",
-      "event_types": [
-        "earnings"
-      ],
-      "level": "D",
-      "score": 3,
-      "summary_short": "MercadoLibre股票被抛售，投资者或应增持",
-      "reason": "拉美电商龙头股票被抛售，可能带来抄底投资机会",
-      "impact": "MercadoLibre、电商供应链合作方",
-      "insight_label": "资金流向",
-      "trend_topic": "拉美电商投资机遇",
-      "companies": [],
-      "is_company": true,
-      "company_name": "MercadoLibre",
-      "article_date": "2026-07-14",
-      "date": "2026-07-14",
-      "source_detail": "MSN",
-      "publisher": "MSN",
-      "image_url": "",
-      "source_tier": "L5 Google News 补漏源",
-      "source_role": "company_radar",
-      "source_id": "MercadoLibre",
-      "credibility_score": 0,
-      "bd_triggers": [
-        "预算窗口"
-      ],
-      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
-      "follow_up_window": "持续观察",
-      "bd_priority": "观察",
-      "signal_taxonomy": [
         "capital"
       ],
       "quality_flags": [],
@@ -87690,7 +86872,10 @@
       "quality_flags": [],
       "needs_repair": false,
       "analysis_source": "deepseek",
-      "analysis_status": "complete"
+      "analysis_status": "complete",
+      "merged_from": [
+        "https://www.finextra.com/pressarticle/110486/neon-commerce-raises-13m-to-scale-direct-to-consumer-commerce-for-game-publishers?utm_medium=rssfinextra&utm_source=finextrafeed"
+      ]
     },
     {
       "title": "Nvidia's Huang to meet Samsung, SK and Naver chiefs in Silicon Valley, reports say - digitimes",
@@ -89575,56 +88760,6 @@
       "needs_repair": true,
       "analysis_source": "deepseek",
       "analysis_status": "fallback"
-    },
-    {
-      "title": "Neon Commerce raises $13m to scale direct-to-consumer commerce for Game publishers",
-      "url": "https://www.finextra.com/pressarticle/110486/neon-commerce-raises-13m-to-scale-direct-to-consumer-commerce-for-game-publishers?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "source": "Finextra",
-      "region": "全球",
-      "event_types": [
-        "funding"
-      ],
-      "level": "D",
-      "score": 2,
-      "summary_short": "Neon Commerce获$13M拓展游戏DTC电商",
-      "reason": "全球游戏DTC电商获融资，为支付、物流和数据分析服务商带来合作机会",
-      "impact": "游戏发行商、电商技术供应商",
-      "insight_label": "资金流向",
-      "trend_topic": "全球游戏电商化加速",
-      "companies": [],
-      "is_company": false,
-      "company_name": "",
-      "article_date": "2026-07-23",
-      "date": "2026-07-23",
-      "source_detail": "",
-      "publisher": "",
-      "image_url": "",
-      "published_at": "2026-07-23",
-      "observed_at": "2026-07-23T19:38:04.112160+00:00",
-      "date_source": "rss_published",
-      "date_confidence": "high",
-      "date_parse_warning": "",
-      "date_basis": "published_at",
-      "source_tier": "L4 垂直赛道精品源",
-      "source_role": "industry_vertical",
-      "source_id": "Finextra Payments",
-      "credibility_score": 0,
-      "vertical": "Fintech/支付",
-      "bd_triggers": [
-        "预算窗口"
-      ],
-      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
-      "follow_up_window": "持续观察",
-      "bd_priority": "观察",
-      "signal_taxonomy": [
-        "commerce",
-        "ai_infra",
-        "capital"
-      ],
-      "quality_flags": [],
-      "needs_repair": false,
-      "analysis_source": "deepseek",
-      "analysis_status": "complete"
     },
     {
       "title": "Kakao’s Melon gains global K-pop fans, yet to turn traffic into profit - KED Global",
@@ -139028,7 +138163,10 @@
       },
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbVZ6empXeHlrc3ZldjNzYW9aUGhfVFk4d28xYzV4MzBaZjJXdXliSkhNREg3Nm1VUm9RcVRwQ1RybHN1SXJkZE1vSHdUQ2FobVdxQzhsay1CQnVQSVZOSHFZUzBNVXA4SU45cjNvV1ZlVS1QVkFLd0FoNUJXLU84ZUtKQlpEX2VzTEJyTFNGT3NLR2E0bVlRNDhtVUtMSUREcHBZXzBWdmVxRUJpOFE?oc=5"
+      ]
     },
     {
       "title": "Edgify raises £6.7m to power AI infrastructure for physical retail",
@@ -156988,7 +156126,8 @@
       "view_reason": "google_not_main",
       "view_priority": "watch",
       "merged_from": [
-        "https://news.google.com/rss/articles/CBMieEFVX3lxTE1hYmdkaVk3QkFkZXp4ekZLdDVtdGZmR0hoQzlTRHZqWGJTT1ptcWlNRGFLeDhpNGpQb042TDRZSENDZC1CLXR2NHdac0pfUlhUNC0wdmhnaGtOQlllWkM5SndLQmdyUmNlYk91dTdoRV9qUGl0VGM4OA?oc=5"
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTE1hYmdkaVk3QkFkZXp4ekZLdDVtdGZmR0hoQzlTRHZqWGJTT1ptcWlNRGFLeDhpNGpQb042TDRZSENDZC1CLXR2NHdac0pfUlhUNC0wdmhnaGtOQlllWkM5SndLQmdyUmNlYk91dTdoRV9qUGl0VGM4OA?oc=5",
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE5IQ0RDY1oweW1zOWo3cE1ZNUlxMmo2Y0QyY0hVZllKdzBFOHpPTVhueXk0UXBUX1NrcFF6VkFGVFlIVGM4dGhfOG03TDBZeUNBQUlONGpIQURIZk85UWpzcm1kLVpZOWpFYmcxMTlkRWpodw?oc=5"
       ]
     },
     {
@@ -199488,105 +198627,6 @@
       "view_priority": "selected"
     },
     {
-      "title": "Tech billionaire Jack Ma purchases $76.5M worth of Alibaba shares in vote of AI confidence",
-      "url": "https://e.vnexpress.net/news/tech/personalities/tech-billionaire-jack-ma-purchases-76-5m-worth-of-alibaba-shares-in-vote-of-ai-confidence-5113513.html",
-      "source": "VnExpress Tech",
-      "region": "越南",
-      "event_types": [
-        "strategy"
-      ],
-      "level": "B",
-      "score": 7,
-      "summary_short": "马云增持阿里股票7650万美元，看好AI战略",
-      "content_overview": "阿里巴巴创始人马云斥资7650万美元增持阿里巴巴股票，此举被市场解读为对其AI战略投下信任票。",
-      "reason": "中国科技巨头创始人增持股票，释放对AI业务前景的强烈信心，可能带动市场对阿里云及AI相关业务的关注和投资。",
-      "impact": "阿里巴巴、中国云计算市场、AI基础设施供应商",
-      "insight_label": "资金流向",
-      "trend_topic": "中国AI信心增强",
-      "companies": [],
-      "is_company": false,
-      "company_name": "",
-      "article_date": "2026-08-26",
-      "date": "2026-08-26",
-      "source_detail": "",
-      "publisher": "",
-      "image_url": "https://vcdn1-english.vnecdn.net/2026/08/26/jackm1679903383799116799034893-3977-1161-1787714344.webp?w=680&h=0&q=100&dpr=1&fit=crop&s=TY5hWuCu33sPghifDa33QQ",
-      "published_at": "2026-08-26",
-      "observed_at": "2026-08-26T19:55:18.603124+00:00",
-      "date_source": "rss_published",
-      "date_confidence": "high",
-      "date_parse_warning": "",
-      "date_basis": "published_at",
-      "source_tier": "L3 区域生态源",
-      "source_role": "industry_vertical",
-      "source_type": "industry_media",
-      "access_method": "rss",
-      "source_id": "vnexpress-tech",
-      "credibility_score": 7,
-      "noise_level": "medium",
-      "scope_enforced": true,
-      "scope_status": "qualified",
-      "scope_reason": "scope_target_change",
-      "scope_layer": "company_action",
-      "scope_industries": [
-        "ai_infra"
-      ],
-      "scope_regions": [
-        "越南"
-      ],
-      "scope_match_basis": "fact",
-      "source_excerpt": "Jack Ma, billionaire founder of Chinese tech giant Alibaba, has ​increased his ​holdings ⁠of the company's Hong Kong-listed shares by more than ​HK$600 million (US$76.5 million).",
-      "report_methodology_visible": false,
-      "source_signal_types": [
-        "regional_ecosystem",
-        "industry_analysis"
-      ],
-      "vertical": "越南科技与产业",
-      "bd_triggers": [
-        "扩张窗口"
-      ],
-      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
-      "follow_up_window": "7天内",
-      "bd_priority": "高",
-      "signal_taxonomy": [
-        "expansion",
-        "ai_infra"
-      ],
-      "quality_flags": [],
-      "needs_repair": false,
-      "analysis_source": "deepseek",
-      "analysis_status": "complete",
-      "content_type": "generic_industry_change",
-      "subject_type": "industry",
-      "claim_type": "industry_change",
-      "confidence_score": 66,
-      "attention_score": 80,
-      "score_breakdown": {
-        "source_authority": 24,
-        "materiality": 15,
-        "decision_relevance": 25,
-        "scope_fit": 20,
-        "novelty": 10,
-        "urgency": 10
-      },
-      "evidence_grade": "B",
-      "action_type": "expansion",
-      "domain": "ai",
-      "signal_type": "market",
-      "signal_change_score": 73,
-      "signal_change_blocked": "",
-      "signal_change_breakdown": {
-        "change_explicit": 35,
-        "action_type_weight": 18,
-        "scope_fit": 20,
-        "market_impact": 0,
-        "market_impact_confidence": 5
-      },
-      "view_status": "main",
-      "view_reason": "qualified_main",
-      "view_priority": "selected"
-    },
-    {
       "title": "Vietnam data center boom draws billions of dollars as AI demand accelerates",
       "url": "https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-data-center-boom-draws-billions-of-dollars-as-ai-demand-accelerates-5113451.html",
       "source": "VnExpress Tech",
@@ -201213,101 +200253,6 @@
         "action_type_weight": 18,
         "scope_fit": 20,
         "market_impact": 8,
-        "market_impact_confidence": 20
-      },
-      "view_status": "filtered",
-      "view_reason": "google_not_main",
-      "view_priority": "watch"
-    },
-    {
-      "title": "Jumia Technologies AG (JMIA) Stock News Today - TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IQ0RDY1oweW1zOWo3cE1ZNUlxMmo2Y0QyY0hVZllKdzBFOHpPTVhueXk0UXBUX1NrcFF6VkFGVFlIVGM4dGhfOG03TDBZeUNBQUlONGpIQURIZk85UWpzcm1kLVpZOWpFYmcxMTlkRWpodw?oc=5",
-      "source": "Google News",
-      "region": "非洲",
-      "event_types": [
-        "other"
-      ],
-      "level": "B",
-      "score": 6,
-      "summary_short": "Jumia股票新闻更新",
-      "content_overview": "Jumia Technologies AG（JMIA）股票新闻更新。",
-      "reason": "非洲电商平台Jumia股价动态受关注，非洲电商市场仍处于早期发展阶段，投资者关注其增长潜力。",
-      "impact": "非洲电商投资者、物流合作方",
-      "insight_label": "背景补充",
-      "trend_topic": "非洲电商市场动态",
-      "companies": [],
-      "is_company": true,
-      "company_name": "Jumia",
-      "article_date": "2026-08-27",
-      "date": "2026-08-27",
-      "source_detail": "TradingKey",
-      "publisher": "TradingKey",
-      "image_url": "",
-      "published_at": "2026-08-27",
-      "observed_at": "2026-08-27T10:54:38.010062+00:00",
-      "date_source": "rss_published",
-      "date_confidence": "high",
-      "date_parse_warning": "",
-      "date_basis": "published_at",
-      "source_tier": "L5 Google News 补漏源",
-      "source_role": "company_radar",
-      "source_id": "Jumia",
-      "credibility_score": 0,
-      "origin_source_id": "Jumia",
-      "observation_entity_id": "Jumia",
-      "discovery_source": "google_news",
-      "publisher_source": "TradingKey",
-      "scope_enforced": true,
-      "scope_status": "qualified",
-      "scope_reason": "scope_target_change",
-      "scope_layer": "company_action",
-      "scope_industries": [
-        "payments",
-        "commerce"
-      ],
-      "scope_regions": [
-        "非洲"
-      ],
-      "scope_match_basis": "source_contract",
-      "report_methodology_visible": false,
-      "vertical": "commerce_payment",
-      "bd_triggers": [
-        "持续观察"
-      ],
-      "opportunity_direction": "持续观察",
-      "follow_up_window": "持续观察",
-      "bd_priority": "观察",
-      "signal_taxonomy": [
-        "general"
-      ],
-      "quality_flags": [],
-      "needs_repair": false,
-      "analysis_source": "deepseek",
-      "analysis_status": "complete",
-      "content_type": "company_action",
-      "subject_type": "company",
-      "claim_type": "company_action",
-      "confidence_score": 42,
-      "attention_score": 85,
-      "score_breakdown": {
-        "source_authority": 10,
-        "materiality": 20,
-        "decision_relevance": 25,
-        "scope_fit": 20,
-        "novelty": 10,
-        "urgency": 10
-      },
-      "evidence_grade": "D",
-      "action_type": "other",
-      "domain": "payment",
-      "signal_type": "company",
-      "signal_change_score": 69,
-      "signal_change_blocked": "",
-      "signal_change_breakdown": {
-        "change_explicit": 20,
-        "action_type_weight": 15,
-        "scope_fit": 20,
-        "market_impact": 14,
         "market_impact_confidence": 20
       },
       "view_status": "filtered",

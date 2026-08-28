@@ -1202,21 +1202,28 @@ def _normalize_canonical_key(value):
 
 
 def _fingerprint_match(a, b):
-    """AI 指纹合并判定：canonical_company + 主类型 + canonical_key 三项全匹配才视为同一事件。
-    任一项缺失（存量事件无指纹）返回 None，交回旧判定逻辑。"""
+    """AI 指纹合并判定：canonical_company + canonical_key 全匹配视为同一事件。
+    类型漂移仲裁：AI 对同一件事前后两班可能判出不同主类型（实测同一增持事件
+    funding/strategy 来回漂），此时用标题相似度（≥0.42，与旧规则 strategy 守卫
+    同档）确认是同一件事的不同报道；不像则不敢单凭指纹判同，返回 None 交回旧规则。
+    任一项缺失（存量事件无指纹）返回 None；锚点明确不同返回 False（不同事件）。"""
     ca = a.get('canonical_company') or ''
     cb = b.get('canonical_company') or ''
     if not ca or not cb:
         return None
     if _normalize_company_key(ca) != _normalize_company_key(cb):
         return None
-    if _primary_event_type(a) != _primary_event_type(b):
-        return None
     ka = _normalize_canonical_key(a.get('canonical_key') or '')
     kb = _normalize_canonical_key(b.get('canonical_key') or '')
     if not ka or not kb:
         return None
-    return ka == kb
+    if ka != kb:
+        return False
+    if _primary_event_type(a) == _primary_event_type(b):
+        return True
+    if _event_similarity(a, b) >= 0.42:
+        return True
+    return None
 
 
 # ============================================================

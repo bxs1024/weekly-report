@@ -28,7 +28,7 @@
 - `canonical_company`：事件主体规范名（去修饰语、统一大小写，行业报告等无主体填空串）—— 去重指纹
 - `canonical_key`：事件量化锚点（融资/财报金额统一 m 单位如"250m"，并购填被收购方，合作填对象，裁员填人数）—— 去重指纹
 
-去重：入库层 `_is_same_event` 与展示层 `dedupe_display_events` 均先按「canonical_company + 主类型 + canonical_key」三项全匹配合并（AI 指纹路径），失败才回退到旧的标题相似度/锚点规则。存量事件无指纹字段自动走旧路径。详见 `docs/plans/2026-08-24-event-dedup-ai-fingerprint.md`。
+去重：入库层 `_is_same_event` 与展示层 `dedupe_display_events` 均先按「canonical_company + canonical_key」两项全匹配合并（AI 指纹路径；主类型不一致时用标题相似度 ≥0.42 仲裁，防 AI 判型漂移漏并），失败才回退到旧的标题相似度/锚点规则。存量事件无指纹字段自动走旧路径。跨天存量重复用 `scripts/cleanup_duplicate_events.py` 清理（默认 dry-run，--apply 生效）。详见 `docs/plans/2026-08-24-event-dedup-ai-fingerprint.md`。
 
 卡片展示规则（template.html SSOT）：顶部只显示分层（精选/重点/观察）+ 公司名；正文 = 标题 + 内容概要（`front_overview`，优先 AI 扩写 `content_overview`，存量缺省用 `summary_short` 兜底且不与标题重复）+ 点评（`reason`）。区域（`region`）保留在数据中供日报统计与筛选，不作为卡片标签。
 

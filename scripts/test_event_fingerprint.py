@@ -5,7 +5,7 @@
 本测试验证 AI 指纹路径三层修复：归一化、入库合并、展示层兜底、防误并、存量降级。
 """
 
-from fetch_news import _is_same_event, _normalize_canonical_key
+from fetch_news import _is_same_event, _normalize_canonical_key, _fingerprint_match
 from generate_html import dedupe_display_events
 
 
@@ -118,6 +118,47 @@ def test_legacy_events_fall_back():
     )
     assert _is_same_event(e1, e2) is False  # 旧规则行为保持不变（允许漏并，不允许误并）
     assert len(dedupe_display_events([e1, e2])) == 2
+
+
+def test_type_drift_with_similar_titles_merges():
+    """类型漂移仲裁（2026-08-28 马云增持真实案例）：同主体同锚点但 AI 前后判型
+    funding/strategy 漂移，标题相同 → 指纹路径合并，两条都入过库时展示层也应合并"""
+    e1 = event(
+        title='Tech billionaire Jack Ma purchases $76.5M worth of Alibaba shares in vote of AI confidence',
+        url='https://e.vnexpress.net/jack-ma-shares.html',
+        canonical_company='Alibaba', canonical_key='76.5m',
+        summary_short='马云斥资$76.5M增持阿里股票',
+    )
+    e2 = event(
+        title='Jack Ma purchases $76.5M worth of Alibaba shares in vote of AI confidence',
+        url='https://example.com/jack-ma-shares-again.html',
+        canonical_company='Alibaba', canonical_key='76.5m',
+        event_types=['strategy'],
+        summary_short='马云增持阿里股票7650万美元',
+    )
+    assert _fingerprint_match(e1, e2) is True
+    assert _is_same_event(e1, e2) is True
+    kept = dedupe_display_events([e1, e2])
+    assert len(kept) == 1
+    assert e2['url'] in kept[0].get('merged_from', [])
+
+
+def test_type_drift_with_dissimilar_titles_falls_back():
+    """类型漂移仲裁防误并：同主体同锚点、判型漂移但标题完全不像 → 指纹不判同
+    （返回 None 交回旧规则），旧规则按类型不同拒绝合并"""
+    e1 = event(
+        title='Tech billionaire Jack Ma purchases $76.5M worth of Alibaba shares in vote of AI confidence',
+        url='https://example.com/jack-ma-shares.html',
+        canonical_company='Alibaba', canonical_key='76.5m',
+    )
+    e2 = event(
+        title='Alibaba reshuffles cloud unit leadership after quarterly review',
+        url='https://example.com/alibaba-cloud-reshuffle.html',
+        canonical_company='Alibaba', canonical_key='76.5m',
+        event_types=['strategy'],
+    )
+    assert _fingerprint_match(e1, e2) is None
+    assert _is_same_event(e1, e2) is False
 
 
 def test_dedupe_display_preserves_other_events():
