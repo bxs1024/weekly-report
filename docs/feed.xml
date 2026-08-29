@@ -1,173 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-08-28</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-08-29</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-08-29T16:17:44Z</updated>
+  <updated>2026-08-29T20:56:23Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Meta与Roblox加强菲律宾儿童安全</title>
-    <link href="https://www.pocketgamer.biz/meta-and-roblox-agree-to-strengthen-child-safety-measures-in-the-philippines/"/>
-    <id>tag:weekly-report,2026:event-aaa16df5</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Meta and Roblox agree to strengthen child safety measures in the Philippines&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Meta和Roblox同意在菲律宾加强儿童安全措施。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球社交和游戏平台在东南亚加强合规，应对当地监管压力，为儿童安全技术和服务提供商带来机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+    <title>A16z推出$1.1B AI硬件基金</title>
+    <link href="https://www.techinasia.com/news/a16z-launches-11b-fund-ai-hardware-infrastructure"/>
+    <id>tag:weekly-report,2026:event-c402c505</id>
+    <published>2026-08-29T00:00:00Z</published>
+    <updated>2026-08-29T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;A16z launches $1.1b fund for AI hardware, infrastructure&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;风险投资公司Andreessen Horowitz推出11亿美元基金，专注于AI硬件和基础设施投资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国顶级风投设立专项基金投资AI硬件，显示该赛道资本热度高，为AI芯片、服务器等初创公司提供融资机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>新加坡发布全球首个AI数据中心液冷标准</title>
-    <link href="https://techwireasia.com/2026/08/singapore-liquid-cooling-standard-ai-data-centres/"/>
-    <id>tag:weekly-report,2026:event-667abb44</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Singapore launches world’s first liquid-cooling standard for AI data centres&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡发布了全球首个AI数据中心液冷标准，为高密度算力设施提供技术规范。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚AI数据中心液冷标准先行，为液冷设备商和工程服务商提供合规入口和区域市场机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：TechWire Asia&lt;/p&gt;</summary>
+    <title>英伟达$12.9B收购Hugging Face</title>
+    <link href="https://thenextweb.com/news/hugging-face-nvidia-acquisition-thomas-wolf-interview"/>
+    <id>tag:weekly-report,2026:event-8c817f48</id>
+    <published>2026-08-29T00:00:00Z</published>
+    <updated>2026-08-29T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Hugging Face built a $4.5 billion empire on free AI models. Now Nvidia is buying it for $12.9 billion&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英伟达以129亿美元收购AI模型平台Hugging Face，后者此前估值45亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI芯片巨头收购开源模型平台，AI生态整合加速，模型分发渠道面临重塑&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>PGC峰会将在蒙特利尔举办</title>
-    <link href="https://www.pocketgamer.biz/cutting-edge-content-in-canada-with-pgc-summit-montral/"/>
-    <id>tag:weekly-report,2026:event-5ee2f103</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cutting edge content in Canada with PGC Summit Montréal&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Pocket Gamer Connects（PGC）峰会将在加拿大蒙特利尔举办，聚焦游戏内容创新与行业交流。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美游戏行业峰会落地蒙特利尔，为游戏开发工具、云服务商和本地化服务商提供展示与合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：北美 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+    <title>Gamescom大厂缺席引发行业讨论</title>
+    <link href="https://www.pocketgamer.biz/gamescoms-loudest-absence-a-masterclass-in-not-showing-up/"/>
+    <id>tag:weekly-report,2026:event-95332581</id>
+    <published>2026-08-29T00:00:00Z</published>
+    <updated>2026-08-29T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Gamescom&amp;#x27;s loudest absence: A masterclass in not showing up&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;评论文章分析Gamescom展会中某大型厂商缺席的现象，探讨其战略影响。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球游戏展会格局生变，数字分发和线上营销渠道重要性上升&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Owner融资$240M，为小企业提供AI平台</title>
-    <link href="https://ventureburn.com/owner-raises-240-million-to-give-small-businesses-ai-platform/"/>
-    <id>tag:weekly-report,2026:event-7d765a3f</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Owner Raises $240 Million To Give Small Businesses That Can’t Afford Big Tech Teams AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;非洲金融科技公司Owner完成2.4亿美元融资，旨在为无力负担大型科技团队的小型企业提供AI平台。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲金融科技领域大额融资，显示AI赋能小企业的市场潜力，为当地AI基础设施和云服务商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>英伟达暂停部分AI云分成计划</title>
-    <link href="https://thenextweb.com/news/nvidia-pauses-ai-cloud-revenue-sharing-deals"/>
-    <id>tag:weekly-report,2026:event-4ecb03f3</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia has paused parts of the revenue-sharing programme it launched in July&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英伟达暂停了其于7月启动的AI云收入分成计划的部分内容。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI算力主导者调整云合作策略，影响AI云服务商的收入预期和算力获取方式。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Lambda获$1B债务融资购买芯片</title>
-    <link href="https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/"/>
-    <id>tag:weekly-report,2026:event-30ea3bf3</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Neocloud Lambda secures $1B in debt to buy more chips&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Neocloud公司Lambda获得10亿美元债务融资，用于购买更多芯片。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国AI云服务商Lambda获大额债务融资，反映AI算力需求旺盛，为芯片供应商带来订单&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>MiniMax阿里云支出上限提高220%</title>
-    <link href="https://www.techinasia.com/news/minimax-raises-alibaba-cloud-spending-cap-220"/>
-    <id>tag:weekly-report,2026:event-02815421</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;MiniMax raises Alibaba cloud spending cap 220%&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国AI公司MiniMax将其在阿里云上的支出上限提高了220%，表明其算力需求大幅增长。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI大模型公司算力需求激增，云服务商订单增长，为GPU算力供应链带来持续需求。&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Stripe-Advent交易告吹，PayPal股价下跌</title>
-    <link href="https://www.finextra.com/newsarticle/48322/paypal-shares-sink-on-reported-collapse-of-stripe-advent-takeover-deal?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-25e88a63</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;PayPal shares sink on reported collapse of Stripe-Advent takeover deal&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;据报道Stripe与Advent的收购交易告吹，PayPal股价因此下跌。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付巨头并购交易失败引发市场连锁反应，PayPal股价受挫，支付行业整合预期生变&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>eBay强制高价值硬币真实性认证</title>
-    <link href="https://www.ecommercebytes.com/2026/08/27/ebay-mandates-authenticity-guarantee-for-high-value-coins/"/>
-    <id>tag:weekly-report,2026:event-e8255435</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;eBay Mandates Authenticity Guarantee for High-Value Coins&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;eBay宣布对高价值硬币交易强制实施真实性保证计划，要求卖家必须通过认证流程，以提升平台商品信任度。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球电商平台eBay强化高价值品类品控，为第三方鉴定服务和防伪技术供应商带来合作机会，尤其在收藏品市场。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：EcommerceBytes&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>COAI称印度6G时代将具优势</title>
-    <link href="https://www.mobileworldlive.com/5g/coai-chief-bullish-india-will-have-edge-on-rivals-in-6g-era/"/>
-    <id>tag:weekly-report,2026:event-b7e71207</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;COAI chief bullish India will have edge on rivals in 6G era&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度蜂窝运营商协会（COAI）负责人表示，印度在6G时代将具备超越竞争对手的优势，强调本土技术研发和市场规模。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度6G战略表态，为电信设备商、芯片厂商和研发机构提供印度市场布局参考，预示6G技术合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Affirm与Shopify在澳推分期付款</title>
-    <link href="https://www.finextra.com/pressarticle/110751/affirm-and-shopify-launch-installments-payments-in-australia?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-60d5cdac</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Affirm and Shopify launch installments payments in Australia&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Affirm与Shopify合作在澳大利亚推出分期付款支付服务，拓展先买后付业务至新市场。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;澳洲BNPL市场竞争加剧，Affirm借Shopify渠道切入，对本地支付生态和商户合作模式带来新变量&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>OpenAI就Cursor被SpaceX收购做出决定</title>
-    <link href="https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"/>
-    <id>tag:weekly-report,2026:event-6b2f222f</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Our decision on Cursor following its acquisition by SpaceX&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;OpenAI宣布其对AI编程工具Cursor被SpaceX收购后的处理决定，具体条款未披露。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国AI编程工具被航天巨头收购，引发AI生态与商业航天交叉领域的合作与竞争格局变化&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：ma | 地区：全球 | 公司：OpenAI | 来源：OpenAI News&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>数据中心热潮面临安全与人才挑战</title>
-    <link href="https://thenextweb.com/news/data-center-boom-safety-workforce-development"/>
-    <id>tag:weekly-report,2026:event-6fbfaeb1</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The data center boom will fail its promise if safety and workforce development continue to lag behind&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;The Next Web发文指出，数据中心建设热潮若在安全和劳动力发展方面持续滞后，将无法兑现其承诺。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球数据中心扩张速度超过人才供给，安全标准和劳动力培训成为行业瓶颈，催生专业服务需求。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>迪拜携最大展馆亮相Gamescom 2026</title>
-    <link href="https://www.pocketgamer.biz/dubai-brings-biggest-ever-pavilion-to-gamescom-2026-with-top-10-gaming-hub-ambition/"/>
-    <id>tag:weekly-report,2026:event-7a520826</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Dubai brings biggest-ever pavilion to Gamescom 2026 with top 10 gaming hub ambition&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;迪拜在Gamescom 2026上设立史上最大展馆，目标是跻身全球十大游戏中心。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东游戏产业加速扩张，迪拜以国家级投入吸引游戏公司和人才，为中东市场进入者提供政策红利。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：中东 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>亚洲网络犯罪转向去中心化和AI工具</title>
-    <link href="https://fintechnews.sg/136418/security/asian-cybercrime-networks-turn-to-decentralization-ai-tools-new-research-finds/"/>
-    <id>tag:weekly-report,2026:event-eedb7061</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Asian Cybercrime Networks Turn to Decentralization, AI Tools, New Research Finds&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新研究显示亚洲网络犯罪网络正转向去中心化架构并利用AI工具，提升攻击复杂度和隐蔽性。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚洲金融科技安全威胁升级，去中心化和AI驱动的攻击手段增加，推动银行和金融机构加大安全投入&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>越南计划收紧数据中心监管规则</title>
-    <link href="https://e.vnexpress.net/news/tech/tech-news/world-s-second-most-visited-country-plans-stricter-data-centers-rules-5113670.html"/>
-    <id>tag:weekly-report,2026:event-16e5c4a9</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;World&amp;#x27;s second most visited country plans stricter data centers rules&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;越南计划对数据中心实施更严格的监管规定，该国是全球访问量第二大的国家。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚数据中心监管趋严，越南市场合规成本上升，为合规咨询和本地化数据中心服务商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：越南 | 来源：VnExpress Tech&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>开放权重AI公司成硅谷收购热点</title>
-    <link href="https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/"/>
-    <id>tag:weekly-report,2026:event-f159523f</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Open-weight AI companies are the Valley’s hottest acquisition targets&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;TechCrunch报道称，开放权重AI公司已成为硅谷最热门的收购目标，反映出市场对开源AI模型资产的强烈需求。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI行业并购风向标转变，开放权重模型公司估值上升，为AI基础设施和模型服务商带来退出机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：industry_report | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Inc42发布8月金融科技初创观察名单</title>
-    <link href="https://inc42.com/startups/fintech-startups-to-watch-startups-that-caught-our-eye-in-august/"/>
-    <id>tag:weekly-report,2026:event-8e565d33</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Fintech Startups To Watch: Startups That Caught Our Eye In August&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Inc42发布8月值得关注的金融科技初创企业名单，列出了多家在当月表现突出的公司。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度金融科技初创生态活跃，该名单为投资者和行业观察者提供了新兴公司的参考。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>多款新游戏发布汇总</title>
-    <link href="https://www.pocketgamer.biz/new-release-roundup-fantasy-life-i-tiny-room-stories-eclipse-ultrapool-and-more/"/>
-    <id>tag:weekly-report,2026:event-ebcdbce0</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;New release roundup: Fantasy Life i, Tiny Room Stories: Eclipse, Ultrapool, and more&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;PocketGamer.biz发布新游戏发布汇总，包括《Fantasy Life i》、《Tiny Room Stories: Eclipse》、《Ultrapool》等作品。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球移动游戏市场持续推出新品，为发行商和开发者提供市场动态参考。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Swift推迟ISO 20022截止日期</title>
-    <link href="https://fintechnews.sg/136448/payments/swift-iso-20022/"/>
-    <id>tag:weekly-report,2026:event-5782cc05</id>
-    <published>2026-08-28T00:00:00Z</published>
-    <updated>2026-08-28T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Swift Pushes Back ISO 20022 Deadline as Industry Readiness Lags&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Swift因行业准备不足，推迟ISO 20022标准迁移截止日期，给予金融机构更多过渡时间。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付标准迁移延期，银行和支付服务商需调整合规时间表，相关技术供应商获得额外窗口期&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>腾讯发布AI模型称超越Z.ai和Moonshot</title>
+    <link href="https://www.techinasia.com/news/tencent-unveils-ai-model-outperforms-zai-moonshot"/>
+    <id>tag:weekly-report,2026:event-a9a11de1</id>
+    <published>2026-08-29T00:00:00Z</published>
+    <updated>2026-08-29T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Tencent unveils AI model it says outperforms Z.ai, Moonshot&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;腾讯发布新AI模型，声称性能优于Z.ai和Moonshot的模型。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国互联网巨头腾讯发布新AI模型，加剧中国AI模型竞争，为开发者提供更多选择，也为云服务商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-08-30</title>

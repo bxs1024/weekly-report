@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-08-29T15:38:06.776100+08:00",
+  "observed_at": "2026-08-30T04:51:02.258393+08:00",
   "source_count": 3,
   "raw_count": 65,
   "source_stats": {
@@ -8,18 +8,13 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 4,
+      "count": 0,
       "inventory_count": 19,
-      "signal_count": 1,
-      "added_count": 2,
-      "removed_count": 2,
-      "clusters": {
-        "engineering": 1,
-        "operations": 1
-      },
-      "removed_clusters": {
-        "engineering": 2
-      }
+      "signal_count": 0,
+      "added_count": 0,
+      "removed_count": 0,
+      "clusters": {},
+      "removed_clusters": {}
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
@@ -39,72 +34,15 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 1,
+      "count": 0,
       "inventory_count": 31,
       "signal_count": 0,
       "added_count": 0,
-      "removed_count": 1,
+      "removed_count": 0,
       "clusters": {},
-      "removed_clusters": {
-        "partnerships": 1
-      }
+      "removed_clusters": {}
     }
   },
-  "candidate_signals": [
-    {
-      "candidate_id": "jobs-ac9dc02fa078c9f0",
-      "entity_id": "grab",
-      "entity": "Grab",
-      "region": "亚太",
-      "sector": "mobility_payment",
-      "source_type": "jobs_snapshot",
-      "signal_type": "function_buildout",
-      "cluster": "engineering",
-      "window": "2026-W35",
-      "window_start": "2026-08-29",
-      "window_end": "2026-08-29",
-      "detected_at": "2026-08-29T15:38:06.776100+08:00",
-      "baseline_count": 19,
-      "current_count": 19,
-      "added_count": 2,
-      "removed_count": 2,
-      "clusters": {
-        "engineering": 1,
-        "operations": 1
-      },
-      "removed_clusters": {
-        "engineering": 2
-      },
-      "evidence_refs": [
-        {
-          "job_id": "744000146296489",
-          "title": "Senior Data Scientist",
-          "url": "https://www.grab.careers/en/jobs/744000146296489/senior-data-scientist/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000146294699",
-          "title": "Senior TechOps & Release Automation Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000146294699/senior-techops-release-automation-engineer/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000145894679",
-          "title": "Software Engineer, Backend - GrabDefence",
-          "url": "https://www.grab.careers/en/jobs/744000145894679/software-engineer-backend-grabdefence/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000145890169",
-          "title": "Senior Software Engineer, Backend - Consumer Experience",
-          "url": "https://www.grab.careers/en/jobs/744000145890169/senior-software-engineer-backend-consumer-experience/",
-          "change": "removed"
-        }
-      ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_cluster_strength",
-      "promoted_event_id": ""
-    }
-  ],
+  "candidate_signals": [],
   "promoted_count": 0
 }
