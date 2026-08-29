@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-08-28T20:28:27.870983+08:00",
+  "generated_at": "2026-08-29T09:42:47.795980+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-08-28T20:28:27.870983+08:00",
+      "observed_at": "2026-08-29T09:42:47.795980+08:00",
       "jobs": [
         {
           "id": "744000146170930",
@@ -146,7 +146,7 @@
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-08-28T20:28:27.870983+08:00",
+      "observed_at": "2026-08-29T09:42:47.795980+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -267,7 +267,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-08-28T20:28:27.870983+08:00",
+      "observed_at": "2026-08-29T09:42:47.795980+08:00",
       "jobs": [
         {
           "id": "c781fed2-4408-4720-8734-45458585e762",
@@ -360,14 +360,6 @@
           ]
         },
         {
-          "id": "c63835a4-3b4b-4591-8b88-7417339bb03d",
-          "title": "Marketing Lead, Growth Marketing Remote - Americas",
-          "url": "https://www.shopify.com/careers/marketing-lead-growth-marketing_c63835a4-3b4b-4591-8b88-7417339bb03d",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
           "id": "5de9add2-829e-4307-8d9e-20ee3353d237",
           "title": "Associate General Counsel, Partnerships Remote - Americas",
           "url": "https://www.shopify.com/careers/associate-general-counsel-partnerships_5de9add2-829e-4307-8d9e-20ee3353d237",
@@ -393,15 +385,15 @@
           ]
         },
         {
-          "id": "32132c55-3c8c-4695-b117-477fe97629aa",
-          "title": "Professional Services Delivery Manager Remote - Americas",
-          "url": "https://www.shopify.com/careers/professional-services-delivery-manager_32132c55-3c8c-4695-b117-477fe97629aa",
-          "function_tags": []
-        },
-        {
           "id": "dcc73211-bed4-478d-bdf7-831ce6d73b09",
           "title": "Professional Services Delivery Manager Remote - United Kingdom, Ireland",
           "url": "https://www.shopify.com/careers/professional-services-delivery-manager_dcc73211-bed4-478d-bdf7-831ce6d73b09",
+          "function_tags": []
+        },
+        {
+          "id": "32132c55-3c8c-4695-b117-477fe97629aa",
+          "title": "Professional Services Delivery Manager Remote - Americas",
+          "url": "https://www.shopify.com/careers/professional-services-delivery-manager_32132c55-3c8c-4695-b117-477fe97629aa",
           "function_tags": []
         },
         {
@@ -419,14 +411,6 @@
           "url": "https://www.shopify.com/careers/senior-lead-product-operations-growth_5d736d32-f16c-4a40-8adf-e6379943017a",
           "function_tags": [
             "sales",
-            "operations"
-          ]
-        },
-        {
-          "id": "a4d308e0-b866-44d2-aefa-7001f3b974b7",
-          "title": "Senior Lead, Strategy & Operations Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-lead-strategy-operations_a4d308e0-b866-44d2-aefa-7001f3b974b7",
-          "function_tags": [
             "operations"
           ]
         },
@@ -459,12 +443,6 @@
           "function_tags": [
             "compliance"
           ]
-        },
-        {
-          "id": "f46db5ed-331d-417e-8d5d-593b76bff8a0",
-          "title": "Manager, AML Transaction Monitoring FCC Remote - Americas",
-          "url": "https://www.shopify.com/careers/manager-aml-transaction-monitoring-fcc_f46db5ed-331d-417e-8d5d-593b76bff8a0",
-          "function_tags": []
         },
         {
           "id": "62efacf8-e3b3-4265-be67-92f1e6f379ed",

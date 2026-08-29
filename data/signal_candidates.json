@@ -1,7 +1,53 @@
 {
   "version": 1,
-  "generated_at": "2026-08-28T20:28:27.870983+08:00",
+  "generated_at": "2026-08-29T09:42:47.795980+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-5ed4d2802c0ef8c6",
+      "entity_id": "shopify",
+      "entity": "Shopify",
+      "region": "全球",
+      "sector": "commerce_saas",
+      "source_type": "jobs_snapshot",
+      "signal_type": "organizational_contraction",
+      "cluster": "sales",
+      "window": "2026-W35",
+      "window_start": "2026-08-29",
+      "window_end": "2026-08-29",
+      "detected_at": "2026-08-29T09:42:47.795980+08:00",
+      "baseline_count": 35,
+      "current_count": 32,
+      "added_count": 0,
+      "removed_count": 3,
+      "clusters": {},
+      "removed_clusters": {
+        "sales": 1,
+        "operations": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "c63835a4-3b4b-4591-8b88-7417339bb03d",
+          "title": "Marketing Lead, Growth Marketing Remote - Americas",
+          "url": "https://www.shopify.com/careers/marketing-lead-growth-marketing_c63835a4-3b4b-4591-8b88-7417339bb03d",
+          "change": "removed"
+        },
+        {
+          "job_id": "a4d308e0-b866-44d2-aefa-7001f3b974b7",
+          "title": "Senior Lead, Strategy & Operations Remote - Americas",
+          "url": "https://www.shopify.com/careers/senior-lead-strategy-operations_a4d308e0-b866-44d2-aefa-7001f3b974b7",
+          "change": "removed"
+        },
+        {
+          "job_id": "f46db5ed-331d-417e-8d5d-593b76bff8a0",
+          "title": "Manager, AML Transaction Monitoring FCC Remote - Americas",
+          "url": "https://www.shopify.com/careers/manager-aml-transaction-monitoring-fcc_f46db5ed-331d-417e-8d5d-593b76bff8a0",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_persistence",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-f3ed7423e951170e",
       "entity_id": "stripe",
