@@ -1,20 +1,25 @@
 {
-  "observed_at": "2026-08-29T09:42:47.795980+08:00",
+  "observed_at": "2026-08-29T15:38:06.776100+08:00",
   "source_count": 3,
-  "raw_count": 66,
+  "raw_count": 65,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
+      "count": 4,
       "inventory_count": 19,
-      "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
-      "removed_clusters": {}
+      "signal_count": 1,
+      "added_count": 2,
+      "removed_count": 2,
+      "clusters": {
+        "engineering": 1,
+        "operations": 1
+      },
+      "removed_clusters": {
+        "engineering": 2
+      }
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
@@ -34,63 +39,70 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 3,
-      "inventory_count": 32,
-      "signal_count": 1,
+      "count": 1,
+      "inventory_count": 31,
+      "signal_count": 0,
       "added_count": 0,
-      "removed_count": 3,
+      "removed_count": 1,
       "clusters": {},
       "removed_clusters": {
-        "sales": 1,
-        "operations": 1
+        "partnerships": 1
       }
     }
   },
   "candidate_signals": [
     {
-      "candidate_id": "jobs-5ed4d2802c0ef8c6",
-      "entity_id": "shopify",
-      "entity": "Shopify",
-      "region": "全球",
-      "sector": "commerce_saas",
+      "candidate_id": "jobs-ac9dc02fa078c9f0",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
       "source_type": "jobs_snapshot",
-      "signal_type": "organizational_contraction",
-      "cluster": "sales",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
       "window": "2026-W35",
       "window_start": "2026-08-29",
       "window_end": "2026-08-29",
-      "detected_at": "2026-08-29T09:42:47.795980+08:00",
-      "baseline_count": 35,
-      "current_count": 32,
-      "added_count": 0,
-      "removed_count": 3,
-      "clusters": {},
-      "removed_clusters": {
-        "sales": 1,
+      "detected_at": "2026-08-29T15:38:06.776100+08:00",
+      "baseline_count": 19,
+      "current_count": 19,
+      "added_count": 2,
+      "removed_count": 2,
+      "clusters": {
+        "engineering": 1,
         "operations": 1
+      },
+      "removed_clusters": {
+        "engineering": 2
       },
       "evidence_refs": [
         {
-          "job_id": "c63835a4-3b4b-4591-8b88-7417339bb03d",
-          "title": "Marketing Lead, Growth Marketing Remote - Americas",
-          "url": "https://www.shopify.com/careers/marketing-lead-growth-marketing_c63835a4-3b4b-4591-8b88-7417339bb03d",
+          "job_id": "744000146296489",
+          "title": "Senior Data Scientist",
+          "url": "https://www.grab.careers/en/jobs/744000146296489/senior-data-scientist/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146294699",
+          "title": "Senior TechOps & Release Automation Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000146294699/senior-techops-release-automation-engineer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000145894679",
+          "title": "Software Engineer, Backend - GrabDefence",
+          "url": "https://www.grab.careers/en/jobs/744000145894679/software-engineer-backend-grabdefence/",
           "change": "removed"
         },
         {
-          "job_id": "a4d308e0-b866-44d2-aefa-7001f3b974b7",
-          "title": "Senior Lead, Strategy & Operations Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-lead-strategy-operations_a4d308e0-b866-44d2-aefa-7001f3b974b7",
-          "change": "removed"
-        },
-        {
-          "job_id": "f46db5ed-331d-417e-8d5d-593b76bff8a0",
-          "title": "Manager, AML Transaction Monitoring FCC Remote - Americas",
-          "url": "https://www.shopify.com/careers/manager-aml-transaction-monitoring-fcc_f46db5ed-331d-417e-8d5d-593b76bff8a0",
+          "job_id": "744000145890169",
+          "title": "Senior Software Engineer, Backend - Consumer Experience",
+          "url": "https://www.grab.careers/en/jobs/744000145890169/senior-software-engineer-backend-consumer-experience/",
           "change": "removed"
         }
       ],
       "status": "accumulating",
-      "rejection_reason": "insufficient_persistence",
+      "rejection_reason": "insufficient_cluster_strength",
       "promoted_event_id": ""
     }
   ],

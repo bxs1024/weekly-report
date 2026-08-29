@@ -208,5 +208,25 @@
   "score": 9,
   "first_seen": "2026-08-29",
   "samples": 1
+ },
+ "jumia|strategy|15m": {
+  "score": 6,
+  "first_seen": "2026-08-28",
+  "samples": 1
+ },
+ "nvidia|ma|12900m": {
+  "score": 10,
+  "first_seen": "2026-08-27",
+  "samples": 1
+ },
+ "andreessen horowitz|funding|1100m": {
+  "score": 9,
+  "first_seen": "2026-08-29",
+  "samples": 1
+ },
+ "openai|ma|cursor": {
+  "score": 6,
+  "first_seen": "2026-08-28",
+  "samples": 1
  }
 }

@@ -419,76 +419,82 @@
       "generated_at": "2026-08-29 09:47"
     },
     "monthly:2026-08": {
-      "input_hash": "99e395e8325fe5d5ac5587f13d4f67dccbbb3b6f98366ffa3e13ff3a27691c00",
+      "input_hash": "0b7dffa2dc955a16883235c247b0a080ee834f570e275c0525717a0950c68385",
       "editorial": {
-        "editorial_title": "AI军备竞赛转向区域落地",
-        "mainline": "本月，AI基础设施投资从全球叙事转向区域落地。阿里、腾讯等中资云厂商在沙特、中东加速布局，同时国内AI投资周期被投行判断将延长。与此同时，东南亚电商与物流在MercadoLibre、Kapu等玩家推动下升温，表明AI与电商的竞争焦点正从技术本身转向具体市场的商业闭环。",
+        "editorial_title": "AI投资周期拉长，区域扩张与电商物流升温",
+        "mainline": "本月AI基础设施投资周期被拉长，摩根大通指出阿里AI投资周期或延长，腾讯财报显示AI投资激增，但整体事实数较上月下降，表明市场从爆发期进入消化期。与此同时，区域扩张与电商物流显著升温，腾讯云与TruKKer合作扩展沙特云业务，MercadoLibre巴西扩张推动股价上涨，支付宝推出代理商务平台，指向中资与全球平台加速向新兴市场渗透，电商基础设施成为新战场。",
         "themes": {
           "ai_infra": {
-            "narrative": "摩根大通判断阿里AI投资周期或延长，腾讯财报显示AI投资激增，中资云厂商的资本开支未见顶。同时阿里发布国际版QwenWork，腾讯云与TruKKer合作扩展沙特业务，AI基础设施竞争从中美转向中东等增量市场。",
+            "narrative": "摩根大通指出阿里AI投资周期或延长，腾讯财报显示AI投资激增，但整体事实数较上月下降25.5，表明AI基础设施投资从爆发期进入消化期，但资本开支仍维持高位，投资周期被拉长。",
             "drivers": [
-              "摩根大通报告指出阿里AI投资周期可能延长",
-              "腾讯财报显示AI投资激增",
-              "腾讯云与TruKKer合作扩展沙特云业务"
+              "摩根大通报告称阿里AI投资周期或延长",
+              "腾讯财报显示AI投资激增"
             ],
-            "uncertainty": "阿里、腾讯的AI投资回报周期未明确，中东项目尚处早期，能否形成持续收入存疑。",
-            "next_validation": "下月观察腾讯云沙特业务是否披露具体客户或收入，以及阿里是否上调资本开支指引。"
+            "uncertainty": "投资周期延长是否意味着回报周期同步拉长，需观察后续资本开支与收入增速的匹配度。",
+            "next_validation": "下月需验证阿里、腾讯等中资云厂商的季度资本开支指引是否继续上调，以及AI相关收入是否加速兑现。"
           },
           "payments": {
-            "narrative": "Naver推出现代信用卡Edition 3，Kakao Pay推出借记卡关联服务，韩国支付竞争从移动钱包转向实体卡绑定。同时亚洲网络犯罪转向去中心化和AI工具，支付安全威胁升级。",
+            "narrative": "亚太支付领域事实数较上月增加6.7，Naver、Kakao Pay、乐天证券等推出新服务，同时亚洲网络犯罪转向去中心化和AI工具，支付安全与创新并行，竞争加剧。",
             "drivers": [
               "Naver推出现代信用卡Edition 3",
-              "Kakao Pay推出借记卡关联服务",
+              "Kakao Pay推借记卡关联服务",
               "亚洲网络犯罪转向去中心化和AI工具"
             ],
-            "uncertainty": "韩国本土卡市场饱和，新卡产品能否带来增量用户未验证。",
-            "next_validation": "下月关注Naver信用卡的申请量或Kakao Pay借记卡交易额数据。"
+            "uncertainty": "新服务能否在监管趋严和犯罪升级下获得用户信任，尚待观察。",
+            "next_validation": "下月关注Kakao Pay和Naver新卡的用户增长数据，以及各国对支付安全的新监管措施。"
           },
           "developer": {
-            "narrative": "《王国之心4》确认2027年底发售，《勇者斗恶龙》开发商因新作热销恢复盈利，日本游戏IP变现能力回升。但乐天股价暴跌10%，移动投资持续拖累业绩，平台生态分化明显。",
+            "narrative": "开发者与平台生态事实数较上月下降10.9，但游戏领域《王国之心4》确认发售时间，《勇者斗恶龙》开发商因新作热销恢复盈利，而乐天股价暴跌10%，生态内部表现分化。",
             "drivers": [
               "《王国之心4》确认2027年底发售",
               "《勇者斗恶龙》开发商因新作热销恢复盈利",
               "乐天股价暴跌10%，移动投资拖累业绩"
             ],
-            "uncertainty": "《王国之心4》发售时间尚远，短期无法贡献收入；乐天移动亏损未见拐点。",
-            "next_validation": "下月观察《勇者斗恶龙》开发商是否上调全年指引，乐天是否披露移动用户增长数据。"
+            "uncertainty": "游戏大作发售时间尚远，短期业绩贡献有限；乐天移动投资拖累可能持续。",
+            "next_validation": "下月验证《勇者斗恶龙》新作销量是否持续，以及乐天移动业务是否有改善迹象。"
           },
           "expansion": {
-            "narrative": "腾讯云与TruKKer合作扩展沙特业务，阿里发布国际版QwenWork，中资云厂商在中东落地加速。同时Rakuten Viber推出eSIM服务，《Star Sailors》联动Naver Webtoon，超级App在东南亚通过本地化合作扩大生态。",
+            "narrative": "区域扩张与合作事实数较上月增加10.8，腾讯云与TruKKer合作扩展沙特云业务，阿里发布国际版QwenWork办公AI，Rakuten Viber推出eSIM服务，中资与亚太平台加速向中东等新兴市场渗透。",
             "drivers": [
               "腾讯云与TruKKer合作扩展沙特云业务",
               "阿里发布国际版QwenWork办公AI",
               "Rakuten Viber推出eSIM服务"
             ],
-            "uncertainty": "中东云业务依赖本地合作伙伴，TruKKer的交付能力未经验证。",
-            "next_validation": "下月关注腾讯云是否披露沙特客户案例，或阿里QwenWork国际版下载量。"
+            "uncertainty": "中东市场本地化竞争激烈，中资云厂商能否持续获得大客户订单存在变数。",
+            "next_validation": "下月关注腾讯云沙特项目是否落地具体客户，以及阿里QwenWork国际版下载量或企业签约数。"
           },
           "commerce": {
-            "narrative": "MercadoLibre巴西扩张推动股价涨7.6%，前Jumia高管创立Kapu获$7.6M融资，新兴市场电商获资本加注。支付宝推出代理商务平台赋能商家AI工具，平台竞争从C端转向B端服务。",
+            "narrative": "电商、商户与物流事实数较上月增加15.4，MercadoLibre巴西扩张推动股价涨7.6%，前Jumia高管创立Kapu获融资，支付宝推出代理商务平台，新兴市场电商基础设施成为增长引擎。",
             "drivers": [
               "MercadoLibre巴西扩张推动股价涨7.6%",
               "前Jumia高管创立Kapu获$7.6M融资",
               "支付宝推出代理商务平台，赋能商家AI工具"
             ],
-            "uncertainty": "Kapu刚获融资，商业模式未验证；支付宝代理商务平台与现有服务商关系待观察。",
-            "next_validation": "下月关注Kapu是否披露试点商户数，或MercadoLibre巴西GMV增速。"
+            "uncertainty": "新兴市场物流成本高企，Kapu等初创能否盈利模式跑通尚待验证。",
+            "next_validation": "下月验证MercadoLibre巴西市场份额变化，以及Kapu融资后用户增长和GMV数据。"
           },
           "operations": {
-            "narrative": "Netmarble Q2营收$505.1M，七宗罪IP表现强劲；AST SpaceMobile营收大幅增长。美团营收同比+14.4%，净利润为正，本地服务龙头在宏观压力下仍保持盈利。",
+            "narrative": "经营与组织变化事实数较上月增加2.2，Netmarble Q2营收$505.1M，美团营收同比+14.4%，AST SpaceMobile营收大幅增长，但乐天股价暴跌，企业间业绩分化明显。",
             "drivers": [
               "Netmarble Q2营收$505.1M，七宗罪IP表现强劲",
-              "AST SpaceMobile营收大幅增长",
-              "美团营收同比+14.4%，净利润为正"
+              "美团营收同比+14.4%，净利润为正",
+              "AST SpaceMobile营收大幅增长"
             ],
-            "uncertainty": "Netmarble依赖单一IP，AST SpaceMobile商业化尚早，美团盈利持续性待观察。",
-            "next_validation": "下月关注Netmarble新IP储备，或美团外卖单量增速是否维持。"
+            "uncertainty": "乐天移动投资拖累可能持续，其他企业业绩增长能否持续需观察。",
+            "next_validation": "下月关注Netmarble和美团下季度业绩指引，以及乐天是否调整移动业务策略。"
           }
         },
-        "theme_titles": {}
+        "theme_titles": {
+          "ai_infra": "AI投资周期拉长，中资云厂商资本开支持续高位",
+          "payments": "亚太支付竞争加剧，网络犯罪与新兴服务并行",
+          "developer": "开发者生态分化，游戏与数据工具表现各异",
+          "expansion": "中资云厂商加速中东扩张，区域合作升温",
+          "commerce": "电商物流全球升温，新兴市场成增长引擎",
+          "operations": "亚太企业经营分化，游戏与科技公司业绩亮眼"
+        }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-08-29 09:48"
+      "generated_at": "2026-08-29 15:43"
     },
     "monthly:2026-07": {
       "input_hash": "23312eeb46ee56cfa5cb7dea5a2584350305c34d9cb51ff97ec3d817aed73c26",

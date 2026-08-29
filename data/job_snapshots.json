@@ -1,11 +1,26 @@
 {
   "version": 1,
-  "generated_at": "2026-08-29T09:42:47.795980+08:00",
+  "generated_at": "2026-08-29T15:38:06.776100+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-08-29T09:42:47.795980+08:00",
+      "observed_at": "2026-08-29T15:38:06.776100+08:00",
       "jobs": [
+        {
+          "id": "744000146296489",
+          "title": "Senior Data Scientist",
+          "url": "https://www.grab.careers/en/jobs/744000146296489/senior-data-scientist/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146294699",
+          "title": "Senior TechOps & Release Automation Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000146294699/senior-techops-release-automation-engineer/",
+          "function_tags": [
+            "engineering",
+            "operations"
+          ]
+        },
         {
           "id": "744000146170930",
           "title": "Dry Category Lead",
@@ -125,28 +140,12 @@
           "title": "Intern, Account Management, Retail/FMCG",
           "url": "https://www.grab.careers/en/jobs/744000145920679/intern-account-management-retailfmcg/",
           "function_tags": []
-        },
-        {
-          "id": "744000145894679",
-          "title": "Software Engineer, Backend - GrabDefence",
-          "url": "https://www.grab.careers/en/jobs/744000145894679/software-engineer-backend-grabdefence/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000145890169",
-          "title": "Senior Software Engineer, Backend - Consumer Experience",
-          "url": "https://www.grab.careers/en/jobs/744000145890169/senior-software-engineer-backend-consumer-experience/",
-          "function_tags": [
-            "engineering"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-08-29T09:42:47.795980+08:00",
+      "observed_at": "2026-08-29T15:38:06.776100+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -267,7 +266,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-08-29T09:42:47.795980+08:00",
+      "observed_at": "2026-08-29T15:38:06.776100+08:00",
       "jobs": [
         {
           "id": "c781fed2-4408-4720-8734-45458585e762",
@@ -355,14 +354,6 @@
           "id": "1fc767ce-3657-4756-8e42-ba30d7d65e6c",
           "title": "Head of Partner Management, Affiliate Channel Remote - Americas",
           "url": "https://www.shopify.com/careers/head-of-partner-management-affiliate-channel_1fc767ce-3657-4756-8e42-ba30d7d65e6c",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "5de9add2-829e-4307-8d9e-20ee3353d237",
-          "title": "Associate General Counsel, Partnerships Remote - Americas",
-          "url": "https://www.shopify.com/careers/associate-general-counsel-partnerships_5de9add2-829e-4307-8d9e-20ee3353d237",
           "function_tags": [
             "partnerships"
           ]
