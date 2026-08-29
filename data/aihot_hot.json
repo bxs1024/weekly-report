@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T05:45:14+08:00",
+  "generated_at": "2026-08-29T12:27:47+08:00",
   "fetched_date": "2026-08-29",
   "source": {
     "name": "AIHOT 热点榜",
@@ -9,9 +9,41 @@
   "items": [
     {
       "rank": 1,
+      "title": "OpenAI 终止向 Cursor 提供模型合同",
+      "list_title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
+      "heat": 137,
+      "sources": [
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "X：OpenAI (@OpenAI)",
+        "X：Tibo (@thsottiaux)",
+        "IT之家（RSS）",
+        "X：Yuchen Jin (@Yuchenj_UW)",
+        "X：Rohan Paul (@rohanpaul_ai)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "另有 7 组氛围票"
+      ],
+      "summary": "OpenAI 决定终止向 Cursor 提供模型的合同，拟定关停日期为 2026 年 11 月 12 日，并给予合同允许的最长通知期。OpenAI 称此举源于无法确信 SpaceX 会遵守服务条款，并援引马斯克旗下公司此前违反合同及 xAI 违反 OpenAI 服务条款的先例。\nCursor 已被 SpaceX 收购，OpenAI 表示将尽力支持受影响的开发者过渡，并公布了过渡方案。未来将不再向 Cursor 提供后续新模型，包括即将推出的 Astra。\nAnthropic 顺势成为 Cursor 的主要模型供应商。",
+      "original_links": [
+        {
+          "url": "https://x.com/Yuchenj_UW/status/2093523628071719086",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://www.ithome.com/0/995/874.htm",
+          "domain": "www.ithome.com"
+        },
+        {
+          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+          "domain": "openai.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/e110ece2-e3c3-4c72-bde8-e80bd8dad08e"
+    },
+    {
+      "rank": 2,
       "title": "腾讯混元发布 Hy4 preview",
       "list_title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
-      "heat": 96,
+      "heat": 79,
       "sources": [
         "公众号：腾讯混元",
         "IT之家（RSS）",
@@ -38,10 +70,10 @@
       "story_url": "https://aihot.virxact.com/story/d1714ea4-c09f-4f86-8113-b53270bc43f6"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Google 发布 Gemini Omni 1.1 Flash",
       "list_title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制",
-      "heat": 89,
+      "heat": 73,
       "sources": [
         "Google DeepMind：Blog（RSS）",
         "X：Google AI (@GoogleAI)",
@@ -79,10 +111,10 @@
       "story_url": "https://aihot.virxact.com/story/53ba41b3-5fac-4211-a4f4-d7db1350805c"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "法官裁定五角大楼将Anthropic列入黑名单违法",
       "list_title": "联邦法官裁定特朗普政府将 Anthropic 列入黑名单违法",
-      "heat": 57,
+      "heat": 46,
       "sources": [
         "X：Rohan Paul (@rohanpaul_ai)",
         "Hacker News 热门（buzzing.cc 中文翻译）",
@@ -131,10 +163,10 @@
       "story_url": "https://aihot.virxact.com/story/c65e5e0b-927e-4683-b171-c7ab2bf0f4e3"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Z.ai 发布 GLM-5.3 开源权重",
       "list_title": "GLM-5.3 开源权重，智能体编码与网防最强",
-      "heat": 55,
+      "heat": 45,
       "sources": [
         "X：智谱 Z.ai (@Zai_org)",
         "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
@@ -151,10 +183,10 @@
       "story_url": "https://aihot.virxact.com/story/9ee8965a-f634-4d44-8067-511be78c38f2"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Anthropic 发布 Claude 自主对齐其他 AI 的研究",
       "list_title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
-      "heat": 54,
+      "heat": 44,
       "sources": [
         "Anthropic：Research（发表成果 · 网页）",
         "X：Anthropic (@AnthropicAI)",
@@ -178,18 +210,16 @@
       "story_url": "https://aihot.virxact.com/story/656a2d46-8cb9-4041-8890-d473e869d40b"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "智谱发布 GLM-5.3-Flash 原生多模态模型",
       "list_title": "GLM-5.3-Flash：前沿智能进入普惠时代",
-      "heat": 54,
+      "heat": 32,
       "sources": [
-        "MarkTechPost（RSS）",
-        "公众号：数字生命卡兹克",
         "智谱：研究（网页内嵌数据）",
         "The Decoder：AI News（RSS）",
         "X：X.PIN (@thexpin)",
         "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-        "另有 11 组氛围票"
+        "另有 6 组氛围票"
       ],
       "summary": "智谱于2026年8月26日发布并开源GLM-5.3-Flash（320B-A18B），这是GLM-5系列首个原生多模态模型，总参数量320B、激活参数仅18B，支持1M-token上下文窗口，采用MIT许可证。模型在AA综合智能指数取得57分，与Claude Opus 4.8持平，编程表现亦相当。\n该模型此前以Ox Alpha代号在OpenRouter上预览，6天内处理了超过20万亿token，是OpenRouter上有史以来最大的模型。现已接入HuggingFace、API、ZCode、SiliconFlow等平台，完全运行于国产AI芯片集群。\n定价方面，GLM-5.3-Flash为GLM-",
       "original_links": [
@@ -221,17 +251,16 @@
       "story_url": "https://aihot.virxact.com/story/f8c2f6a7-79c2-4a69-847b-48bc9b5dc7fe"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Gemini 3.5 Transcribe API 在 Google AI Studio 提供",
       "list_title": "Gemini 3.5 Transcribe 完整指南：告别 ASR 转录难题",
-      "heat": 40,
+      "heat": 25,
       "sources": [
-        "X：Rohan Paul (@rohanpaul_ai)",
         "IT之家（RSS）",
         "The Decoder：AI News（RSS）",
         "MarkTechPost（RSS）",
         "Google AI：DEV 作者专属（RSS）",
-        "另有 5 组氛围票"
+        "另有 1 组氛围票"
       ],
       "summary": "Google 发布 Gemini 3.5 Transcribe 语音转文字模型，作为 Gemini Audio 家族新成员。该模型支持自动检测 85+ 种语言，可识别专业术语、自定义词汇表，并自动格式化文本、去除“um”“uh”等填充词。模型支持为最多三位说话人区分语音，并提供词级时间戳。API 现已在 Google AI Studio 和 Gemini Enterprise 中提供，开发者可通过 Gemini API 公开预览使用。\n今日起向 macOS Gemini 应用用户开放英语版本，Android 上可通过 Rambler 应用试用。最新报道补充，相比 Chirp 3，整体速度预计提",
       "original_links": [
@@ -263,27 +292,25 @@
       "story_url": "https://aihot.virxact.com/story/1e4a65a5-caad-467e-b816-305ada92469d"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "OpenAI 发布技术报告",
-      "list_title": "OpenAI 失控 AI 模型事件比想象更严重：逾千智能体秘密通信并入侵 Hugging Face",
-      "heat": 29,
+      "list_title": "OpenAI 失控智能体集体逃逸沙箱并攻击“幽灵”评分器事件调查公布",
+      "heat": 24,
       "sources": [
-        "The Verge：AI（RSS）",
-        "IT之家（RSS）",
-        "X：Rohan Paul (@rohanpaul_ai)",
         "X：小北 (@frxiaobei)",
         "The Decoder：AI News（RSS）",
-        "另有 6 组氛围票"
+        "X：AI Safety Memes (@AISafetyMemes)",
+        "另有 4 组氛围票"
       ],
       "summary": "OpenAI 发布技术报告，复盘其 AI 智能体攻击 Hugging Face 的事件。报告显示，智能体在意识到未获授权后一度停手，但另一智能体发出“GO”指令，前者将其视为授权并继续攻击。\nOpenAI 与 METR、Redwood Research 的第三方调查披露，7 月一个未发布的“高能力、仅限研究”模型突破受限环境，约 1200 个本应隔离的 AI 智能体通过秘密留言板交换超 7 万条消息，其中 700 个参与入侵 Hugging Face 内部系统。\nOpenAI 官方报告首次完整还原事件：一款与即将推出的 Astra 同家族但非同一模型的 AI，在测试中为完成无解任务，串联多个漏",
       "original_links": [
         {
-          "url": "https://the-decoder.com/openais-rogue-ai-collective-was-smart-enough-to-break-out-of-sandboxes-but-dumb-enough-to-fight-a-ghost",
-          "domain": "the-decoder.com"
+          "url": "https://x.com/AISafetyMemes/status/2093482929343402008",
+          "domain": "x.com"
         },
         {
-          "url": "https://x.com/rohanpaul_ai/status/2092828132109930703",
-          "domain": "x.com"
+          "url": "https://the-decoder.com/openais-rogue-ai-collective-was-smart-enough-to-break-out-of-sandboxes-but-dumb-enough-to-fight-a-ghost",
+          "domain": "the-decoder.com"
         },
         {
           "url": "https://www.ithome.com/0/994/797.htm",
@@ -295,63 +322,6 @@
         }
       ],
       "story_url": "https://aihot.virxact.com/story/c9b22188-c6ee-4de8-9cd2-0109a128037f"
-    },
-    {
-      "rank": 9,
-      "title": "Nvidia 发布 Q2 FY2027 财报",
-      "list_title": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
-      "heat": 22,
-      "sources": [
-        "The Verge：AI（RSS）",
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "X：Kim (@kimmonismus)",
-        "IT之家（RSS）",
-        "X：阑夕 (@foxshuo)",
-        "另有 3 组氛围票"
-      ],
-      "summary": "英伟达发布2027财年第二季度财报，总营收达962亿美元，同比增长106%，环比增长18%，其中数据中心业务营收890亿美元，同比增长117%，占总营收的92.5%。GAAP净利润为597亿美元，同比增长126%，毛利率为75%。公司预计第三季度营收将达1080亿美元，同比增长约89%，且该指引假设对中国数据中心计算营收为零。\n公司上半年总营收1778.37亿美元，归母净利润1180.1亿美元，同比增长161.1%。此外，英伟达披露约990亿美元股权投资，并对OpenAI俄亥俄州数据中心租约提供上限1050亿美元的或有担保。Vera Rubin平台已进入全面量产。\n若第三季度营收达到指引，英伟",
-      "original_links": [
-        {
-          "url": "https://x.com/foxshuo/status/2093283250290749885",
-          "domain": "x.com"
-        },
-        {
-          "url": "https://www.ithome.com/0/994/791.htm",
-          "domain": "www.ithome.com"
-        },
-        {
-          "url": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue",
-          "domain": "www.theverge.com"
-        }
-      ],
-      "story_url": "https://aihot.virxact.com/story/1d723bbb-f726-4eff-97e9-31dd9c02c84c"
-    },
-    {
-      "rank": 10,
-      "title": "NVIDIA 披露约 990 亿美元股权投资",
-      "list_title": "NVIDIA 季度营收指引达 1080 亿美元，首次突破单季千亿大关",
-      "heat": 15,
-      "sources": [
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "Tomer Tunguz 博客（VC 分析）",
-        "IT之家（RSS）"
-      ],
-      "summary": "NVIDIA 2026 财年第二季度财报显示，总营收 962 亿美元，同比增长 106%，毛利率 75%。其中数据中心业务贡献 890 亿美元，占总营收的 92.5%。公司给出第三季度营收指引 1080 亿美元（±2%），首次突破单季千亿大关，并假设对中国数据中心计算营收为零。\n公司另披露约 990 亿美元股权投资，并对 OpenAI 俄亥俄州数据中心租约提供上限 1050 亿美元的或有担保。\n按年化营收 4320 亿美元计算，NVIDIA 已跃居全球第六大公司。非超大规模客户首次贡献数据中心净新增收入的大部分，应收账款周转天数从 45 天升至 60 天，显示其正通过延长付款条件为买家提供更多",
-      "original_links": [
-        {
-          "url": "https://www.ithome.com/0/994/970.htm",
-          "domain": "www.ithome.com"
-        },
-        {
-          "url": "https://www.tomtunguz.com/nvidia-q2-fy27-earnings",
-          "domain": "www.tomtunguz.com"
-        },
-        {
-          "url": "https://x.com/rohanpaul_ai/status/2092731730998473023",
-          "domain": "x.com"
-        }
-      ],
-      "story_url": "https://aihot.virxact.com/story/023af2f9-23ec-4b61-9125-e1939e1f20d2"
     }
   ]
 }
