@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T09:56:24+08:00",
-  "fetched_date": "2026-08-30",
+  "generated_at": "2026-08-31T00:07:05+08:00",
+  "fetched_date": "2026-08-31",
   "source": {
     "name": "AIHOT 大模型排行榜",
     "leaderboard_url": "https://aihot.virxact.com/leaderboard",
@@ -347,7 +347,7 @@
       "short_name": "AA Index",
       "operator": "Artificial Analysis",
       "note": "只使用以统一环境复跑多项当前评测形成的 Intelligence Index；价格只作背景信息。",
-      "fetched_at": "2026-08-30T01:14:57.159Z",
+      "fetched_at": "2026-08-30T14:26:53.983Z",
       "metric_name": "Artificial Analysis Intelligence Index",
       "total_count": 624,
       "models": [
@@ -850,7 +850,7 @@
       "short_name": "LiveBench",
       "operator": "LiveBench",
       "note": "以持续更新、答案可验证的七类任务衡量当前模型。",
-      "fetched_at": "2026-08-30T01:14:57.159Z",
+      "fetched_at": "2026-08-30T14:26:53.983Z",
       "metric_name": "LiveBench Global Average",
       "total_count": 49,
       "models": [
@@ -1156,7 +1156,7 @@
       "short_name": "Arena Text",
       "operator": "LMArena",
       "note": "用匿名两两盲选补充客观题库无法覆盖的整体回答体验。",
-      "fetched_at": "2026-08-30T01:14:57.159Z",
+      "fetched_at": "2026-08-30T14:26:53.983Z",
       "metric_name": "Arena Text Style-Controlled",
       "total_count": 395,
       "models": [
@@ -1659,7 +1659,7 @@
       "short_name": "APEX-Agents",
       "operator": "Mercor",
       "note": "衡量投行、咨询和法律长任务；配置明细保留，但成绩归到基础模型。",
-      "fetched_at": "2026-08-30T01:14:57.159Z",
+      "fetched_at": "2026-08-30T14:26:53.983Z",
       "metric_name": "APEX-Agents Mean Score · Loop",
       "total_count": 26,
       "models": [
@@ -1827,7 +1827,7 @@
       "short_name": "Vals Finance Agent",
       "operator": "Vals AI",
       "note": "",
-      "fetched_at": "2026-08-30T01:14:57.159Z",
+      "fetched_at": "2026-08-30T14:26:53.983Z",
       "metric_name": "Vals Finance Agent",
       "total_count": 51,
       "models": [
@@ -2145,7 +2145,7 @@
       "short_name": "DeepSWE v1.1",
       "operator": "DataCurve",
       "note": "在统一 mini-swe-agent harness 下比较代码模型；成绩按基础模型归并。",
-      "fetched_at": "2026-08-30T01:14:57.159Z",
+      "fetched_at": "2026-08-30T14:26:53.983Z",
       "metric_name": "DeepSWE v1.1",
       "total_count": 63,
       "models": [
@@ -2535,7 +2535,7 @@
       "short_name": "TapTap Maker",
       "operator": "TapTap Maker",
       "note": "",
-      "fetched_at": "2026-08-30T01:14:57.159Z",
+      "fetched_at": "2026-08-30T14:26:53.983Z",
       "metric_name": "TapTap Maker Benchmark",
       "total_count": 29,
       "models": [
