@@ -1,45 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-08-29</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-08-30</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-08-30T16:08:42Z</updated>
+  <updated>2026-08-30T21:01:10Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>A16z推出$1.1B AI硬件基金</title>
-    <link href="https://www.techinasia.com/news/a16z-launches-11b-fund-ai-hardware-infrastructure"/>
-    <id>tag:weekly-report,2026:event-c402c505</id>
-    <published>2026-08-29T00:00:00Z</published>
-    <updated>2026-08-29T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;A16z launches $1.1b fund for AI hardware, infrastructure&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;风险投资公司Andreessen Horowitz推出11亿美元基金，专注于AI硬件和基础设施投资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国顶级风投设立专项基金投资AI硬件，显示该赛道资本热度高，为AI芯片、服务器等初创公司提供融资机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>英国移动运营商称网络未准备好应对AI流量</title>
+    <link href="https://thenextweb.com/news/uk-mobile-networks-ai-planning-reform-eu-gigabit-infrastructure-act"/>
+    <id>tag:weekly-report,2026:event-9f8e7260</id>
+    <published>2026-08-30T00:00:00Z</published>
+    <updated>2026-08-30T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;UK networks are not ready for AI traffic, say mobile operators&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英国移动运营商表示，英国网络基础设施尚未准备好应对AI流量增长，呼吁进行规划改革并参考欧盟千兆基础设施法案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;英国电信运营商预警AI流量压力，为网络设备商和边缘计算解决方案提供商带来升级改造机会。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>英伟达$12.9B收购Hugging Face</title>
-    <link href="https://thenextweb.com/news/hugging-face-nvidia-acquisition-thomas-wolf-interview"/>
-    <id>tag:weekly-report,2026:event-8c817f48</id>
-    <published>2026-08-29T00:00:00Z</published>
-    <updated>2026-08-29T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Hugging Face built a $4.5 billion empire on free AI models. Now Nvidia is buying it for $12.9 billion&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英伟达以129亿美元收购AI模型平台Hugging Face，后者此前估值45亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI芯片巨头收购开源模型平台，AI生态整合加速，模型分发渠道面临重塑&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>亚马逊推出付费SSD配送选项</title>
+    <link href="https://www.ecommercebytes.com/2026/08/29/amazon-lets-sellers-pay-extra-for-ssd-sub-same-day-shipping/"/>
+    <id>tag:weekly-report,2026:event-e4463575</id>
+    <published>2026-08-30T00:00:00Z</published>
+    <updated>2026-08-30T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Amazon Lets Sellers Pay Extra for SSD (Sub Same Day Shipping)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;亚马逊推出新选项，允许卖家付费使用Sub Same Day Shipping（SSD）服务，实现更快的配送时效。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球电商物流竞争加剧，亚马逊通过付费提速服务增加收入，物流服务商和卖家工具生态迎来新机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：EcommerceBytes&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>大型游戏公司缺席 Gamescom 引发关注</title>
-    <link href="https://www.pocketgamer.biz/gamescoms-loudest-absence-a-masterclass-in-not-showing-up/"/>
-    <id>tag:weekly-report,2026:event-95332581</id>
-    <published>2026-08-29T00:00:00Z</published>
-    <updated>2026-08-29T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Gamescom&amp;#x27;s loudest absence: A masterclass in not showing up&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Gamescom 2026 展会中，某大型游戏公司缺席，引发行业关注，被视为一种高调的缺席策略。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球Gamescom缺席引发行业热议&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>腾讯发布AI模型称超越Z.ai和Moonshot</title>
-    <link href="https://www.techinasia.com/news/tencent-unveils-ai-model-outperforms-zai-moonshot"/>
-    <id>tag:weekly-report,2026:event-a9a11de1</id>
-    <published>2026-08-29T00:00:00Z</published>
-    <updated>2026-08-29T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Tencent unveils AI model it says outperforms Z.ai, Moonshot&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;腾讯发布新AI模型，声称性能优于Z.ai和Moonshot的模型。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国互联网巨头腾讯发布新AI模型，加剧中国AI模型竞争，为开发者提供更多选择，也为云服务商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>Cloudflare AI Search支持GLM-5.3 Flash</title>
+    <link href="https://developers.cloudflare.com/changelog/post/2026-08-30-glm-5.3-flash/"/>
+    <id>tag:weekly-report,2026:event-c1e5785d</id>
+    <published>2026-08-30T00:00:00Z</published>
+    <updated>2026-08-30T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: AI Search now supports GLM-5.3 Flash&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare的AI Search功能新增支持智谱AI的GLM-5.3 Flash模型。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-08-31</title>
