@@ -238,5 +238,15 @@
   "score": 6,
   "first_seen": "2026-08-29",
   "samples": 1
+ },
+ "nvidia|funding|1000m": {
+  "score": 10,
+  "first_seen": "2026-08-29",
+  "samples": 1
+ },
+ "hugging face|ma|12900m": {
+  "score": 9,
+  "first_seen": "2026-08-29",
+  "samples": 1
  }
 }
