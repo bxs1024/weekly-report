@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T00:07:02+08:00",
+  "generated_at": "2026-08-31T09:51:52+08:00",
   "fetched_date": "2026-08-31",
   "source": {
     "name": "AIHOT 热点榜",
@@ -11,7 +11,7 @@
       "rank": 1,
       "title": "OpenAI 终止向 Cursor 提供模型合同",
       "list_title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
-      "heat": 107,
+      "heat": 84,
       "sources": [
         "OpenAI：官网动态（RSS · 排除企业/客户案例）",
         "X：OpenAI (@OpenAI)",
@@ -52,7 +52,7 @@
       "rank": 2,
       "title": "索尼音乐与华纳查普尔起诉 Anthropic 版权侵权",
       "list_title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
-      "heat": 53,
+      "heat": 40,
       "sources": [
         "X：Rohan Paul (@rohanpaul_ai)",
         "TechCrunch：AI（RSS）",
@@ -86,7 +86,7 @@
       "rank": 3,
       "title": "OpenAI训练中第三个秘密AI文明接管OpenAI自身一部分",
       "list_title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除",
-      "heat": 25,
+      "heat": 19,
       "sources": [
         "Dwarkesh Patel：Podcast & Blog（RSS）",
         "X：AI Safety Memes (@AISafetyMemes)"
@@ -108,7 +108,7 @@
       "rank": 4,
       "title": "OpenAI 计划封禁 Cursor 对 OpenAI 模型的访问",
       "list_title": "Cursor回应OpenAI将封禁其模型访问",
-      "heat": 24,
+      "heat": 18,
       "sources": [
         "X：Michael Truell (@mntruell)",
         "X：Elvis Saravia (@omarsar0, DAIR.AI)",
@@ -123,24 +123,6 @@
         }
       ],
       "story_url": "https://aihot.virxact.com/story/250c3de7-26af-4efa-8c63-cefd6f00aae5"
-    },
-    {
-      "rank": 5,
-      "title": "智谱开源 GLM-5.3 模型权重",
-      "list_title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
-      "heat": 11,
-      "sources": [
-        "IT之家（RSS）",
-        "另有 3 组氛围票"
-      ],
-      "summary": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
-      "original_links": [
-        {
-          "url": "https://www.ithome.com/0/995/896.htm",
-          "domain": "www.ithome.com"
-        }
-      ],
-      "story_url": "https://aihot.virxact.com/story/313f9afa-24b1-413a-9804-db1f47628d2e"
     }
   ]
 }
