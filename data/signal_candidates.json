@@ -1,7 +1,123 @@
 {
   "version": 1,
-  "generated_at": "2026-08-31T14:37:55.971771+08:00",
+  "generated_at": "2026-09-01T06:44:29.409800+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-66f83b154574b8e6",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "operations",
+      "window": "2026-W36",
+      "window_start": "2026-09-01",
+      "window_end": "2026-09-01",
+      "detected_at": "2026-09-01T06:44:29.409800+08:00",
+      "baseline_count": 18,
+      "current_count": 18,
+      "added_count": 7,
+      "removed_count": 7,
+      "clusters": {
+        "operations": 1,
+        "engineering": 1,
+        "partnerships": 1
+      },
+      "removed_clusters": {
+        "engineering": 2,
+        "sales": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000146514470",
+          "title": "Senior Principal Data Scientist (Fulfilment)",
+          "url": "https://www.grab.careers/en/jobs/744000146514470/senior-principal-data-scientist-fulfilment/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146496451",
+          "title": "Solution Manager, People Systems",
+          "url": "https://www.grab.careers/en/jobs/744000146496451/solution-manager-people-systems/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146462799",
+          "title": "Software Engineering Manager II (Mobile)",
+          "url": "https://www.grab.careers/en/jobs/744000146462799/software-engineering-manager-ii-mobile/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146439114",
+          "title": "Senior Data Scientist (Trust & Fraud)",
+          "url": "https://www.grab.careers/en/jobs/744000146439114/senior-data-scientist-trust-fraud/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146422594",
+          "title": "Manager, Policy and Economic Research",
+          "url": "https://www.grab.careers/en/jobs/744000146422594/manager-policy-and-economic-research/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146408309",
+          "title": "Intern, Analytics & Projects, GrabFood",
+          "url": "https://www.grab.careers/en/jobs/744000146408309/intern-analytics-projects-grabfood/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146401039",
+          "title": "Intern, Marketing and Partnership (GrabRentals)",
+          "url": "https://www.grab.careers/en/jobs/744000146401039/intern-marketing-and-partnership-grabrentals/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146109989",
+          "title": "Strategy & Planning Omnicommerce, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000146109989/strategy-planning-omnicommerce-assistant-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146106819",
+          "title": "Intern, OmniCommerce",
+          "url": "https://www.grab.careers/en/jobs/744000146106819/intern-omnicommerce/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145950619",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000145950619/lead-software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145939369",
+          "title": "Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000145939369/software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145938209",
+          "title": "Manager, Rewards",
+          "url": "https://www.grab.careers/en/jobs/744000145938209/manager-rewards/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145935849",
+          "title": "Intern, Analytics & Projects, GrabMart",
+          "url": "https://www.grab.careers/en/jobs/744000145935849/intern-analytics-projects-grabmart/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145934539",
+          "title": "Intern, Commercial Enablement, Sales Enablement",
+          "url": "https://www.grab.careers/en/jobs/744000145934539/intern-commercial-enablement-sales-enablement/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-feca874b109a8711",
       "entity_id": "grab",

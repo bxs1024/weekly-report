@@ -1,23 +1,25 @@
 {
-  "observed_at": "2026-08-31T14:37:55.971771+08:00",
+  "observed_at": "2026-09-01T06:44:29.409800+08:00",
   "source_count": 3,
-  "raw_count": 64,
+  "raw_count": 63,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 5,
+      "count": 14,
       "inventory_count": 18,
       "signal_count": 1,
-      "added_count": 2,
-      "removed_count": 3,
+      "added_count": 7,
+      "removed_count": 7,
       "clusters": {
-        "engineering": 1
+        "operations": 1,
+        "engineering": 1,
+        "partnerships": 1
       },
       "removed_clusters": {
-        "engineering": 1,
+        "engineering": 2,
         "sales": 1
       }
     },
@@ -26,82 +28,145 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
+      "count": 4,
       "inventory_count": 15,
       "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
-      "removed_clusters": {}
+      "added_count": 2,
+      "removed_count": 2,
+      "clusters": {
+        "ai": 1,
+        "sales": 1
+      },
+      "removed_clusters": {
+        "sales": 1
+      }
     },
     "Shopify Jobs": {
       "method": "jobs_snapshot",
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 31,
+      "count": 3,
+      "inventory_count": 30,
       "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
+      "added_count": 1,
+      "removed_count": 2,
+      "clusters": {
+        "partnerships": 1
+      },
       "removed_clusters": {}
     }
   },
   "candidate_signals": [
     {
-      "candidate_id": "jobs-feca874b109a8711",
+      "candidate_id": "jobs-66f83b154574b8e6",
       "entity_id": "grab",
       "entity": "Grab",
       "region": "亚太",
       "sector": "mobility_payment",
       "source_type": "jobs_snapshot",
       "signal_type": "function_buildout",
-      "cluster": "engineering",
+      "cluster": "operations",
       "window": "2026-W36",
-      "window_start": "2026-08-31",
-      "window_end": "2026-08-31",
-      "detected_at": "2026-08-31T14:37:55.971771+08:00",
-      "baseline_count": 19,
+      "window_start": "2026-09-01",
+      "window_end": "2026-09-01",
+      "detected_at": "2026-09-01T06:44:29.409800+08:00",
+      "baseline_count": 18,
       "current_count": 18,
-      "added_count": 2,
-      "removed_count": 3,
+      "added_count": 7,
+      "removed_count": 7,
       "clusters": {
-        "engineering": 1
+        "operations": 1,
+        "engineering": 1,
+        "partnerships": 1
       },
       "removed_clusters": {
-        "engineering": 1,
+        "engineering": 2,
         "sales": 1
       },
       "evidence_refs": [
         {
-          "job_id": "744000146393159",
-          "title": "Head of Controllership - Thailand",
-          "url": "https://www.grab.careers/en/jobs/744000146393159/head-of-controllership-thailand/",
+          "job_id": "744000146514470",
+          "title": "Senior Principal Data Scientist (Fulfilment)",
+          "url": "https://www.grab.careers/en/jobs/744000146514470/senior-principal-data-scientist-fulfilment/",
           "change": "added"
         },
         {
-          "job_id": "744000146354938",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000146354938/senior-software-engineer-backend/",
+          "job_id": "744000146496451",
+          "title": "Solution Manager, People Systems",
+          "url": "https://www.grab.careers/en/jobs/744000146496451/solution-manager-people-systems/",
           "change": "added"
         },
         {
-          "job_id": "744000146153699",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000146153699/senior-software-engineer-backend/",
+          "job_id": "744000146462799",
+          "title": "Software Engineering Manager II (Mobile)",
+          "url": "https://www.grab.careers/en/jobs/744000146462799/software-engineering-manager-ii-mobile/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146439114",
+          "title": "Senior Data Scientist (Trust & Fraud)",
+          "url": "https://www.grab.careers/en/jobs/744000146439114/senior-data-scientist-trust-fraud/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146422594",
+          "title": "Manager, Policy and Economic Research",
+          "url": "https://www.grab.careers/en/jobs/744000146422594/manager-policy-and-economic-research/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146408309",
+          "title": "Intern, Analytics & Projects, GrabFood",
+          "url": "https://www.grab.careers/en/jobs/744000146408309/intern-analytics-projects-grabfood/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146401039",
+          "title": "Intern, Marketing and Partnership (GrabRentals)",
+          "url": "https://www.grab.careers/en/jobs/744000146401039/intern-marketing-and-partnership-grabrentals/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146109989",
+          "title": "Strategy & Planning Omnicommerce, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000146109989/strategy-planning-omnicommerce-assistant-manager/",
           "change": "removed"
         },
         {
-          "job_id": "744000145933859",
-          "title": "Intern, Business Development",
-          "url": "https://www.grab.careers/en/jobs/744000145933859/intern-business-development/",
+          "job_id": "744000146106819",
+          "title": "Intern, OmniCommerce",
+          "url": "https://www.grab.careers/en/jobs/744000146106819/intern-omnicommerce/",
           "change": "removed"
         },
         {
-          "job_id": "744000145920679",
-          "title": "Intern, Account Management, Retail/FMCG",
-          "url": "https://www.grab.careers/en/jobs/744000145920679/intern-account-management-retailfmcg/",
+          "job_id": "744000145950619",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000145950619/lead-software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145939369",
+          "title": "Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000145939369/software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145938209",
+          "title": "Manager, Rewards",
+          "url": "https://www.grab.careers/en/jobs/744000145938209/manager-rewards/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145935849",
+          "title": "Intern, Analytics & Projects, GrabMart",
+          "url": "https://www.grab.careers/en/jobs/744000145935849/intern-analytics-projects-grabmart/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145934539",
+          "title": "Intern, Commercial Enablement, Sales Enablement",
+          "url": "https://www.grab.careers/en/jobs/744000145934539/intern-commercial-enablement-sales-enablement/",
           "change": "removed"
         }
       ],

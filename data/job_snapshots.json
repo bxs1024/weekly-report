@@ -1,11 +1,59 @@
 {
   "version": 1,
-  "generated_at": "2026-08-31T14:37:55.971771+08:00",
+  "generated_at": "2026-09-01T06:44:29.409800+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-08-31T14:37:55.971771+08:00",
+      "observed_at": "2026-09-01T06:44:29.409800+08:00",
       "jobs": [
+        {
+          "id": "744000146514470",
+          "title": "Senior Principal Data Scientist (Fulfilment)",
+          "url": "https://www.grab.careers/en/jobs/744000146514470/senior-principal-data-scientist-fulfilment/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146496451",
+          "title": "Solution Manager, People Systems",
+          "url": "https://www.grab.careers/en/jobs/744000146496451/solution-manager-people-systems/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000146462799",
+          "title": "Software Engineering Manager II (Mobile)",
+          "url": "https://www.grab.careers/en/jobs/744000146462799/software-engineering-manager-ii-mobile/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000146439114",
+          "title": "Senior Data Scientist (Trust & Fraud)",
+          "url": "https://www.grab.careers/en/jobs/744000146439114/senior-data-scientist-trust-fraud/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146422594",
+          "title": "Manager, Policy and Economic Research",
+          "url": "https://www.grab.careers/en/jobs/744000146422594/manager-policy-and-economic-research/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146408309",
+          "title": "Intern, Analytics & Projects, GrabFood",
+          "url": "https://www.grab.careers/en/jobs/744000146408309/intern-analytics-projects-grabfood/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146401039",
+          "title": "Intern, Marketing and Partnership (GrabRentals)",
+          "url": "https://www.grab.careers/en/jobs/744000146401039/intern-marketing-and-partnership-grabrentals/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
         {
           "id": "744000146393159",
           "title": "Head of Controllership - Thailand",
@@ -84,60 +132,12 @@
           "title": "Marketing Execution Assistant Manager - JABODETABEK",
           "url": "https://www.grab.careers/en/jobs/744000146118639/marketing-execution-assistant-manager-jabodetabek/",
           "function_tags": []
-        },
-        {
-          "id": "744000146109989",
-          "title": "Strategy & Planning Omnicommerce, Assistant Manager",
-          "url": "https://www.grab.careers/en/jobs/744000146109989/strategy-planning-omnicommerce-assistant-manager/",
-          "function_tags": []
-        },
-        {
-          "id": "744000146106819",
-          "title": "Intern, OmniCommerce",
-          "url": "https://www.grab.careers/en/jobs/744000146106819/intern-omnicommerce/",
-          "function_tags": []
-        },
-        {
-          "id": "744000145950619",
-          "title": "Lead Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000145950619/lead-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000145939369",
-          "title": "Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000145939369/software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000145938209",
-          "title": "Manager, Rewards",
-          "url": "https://www.grab.careers/en/jobs/744000145938209/manager-rewards/",
-          "function_tags": []
-        },
-        {
-          "id": "744000145935849",
-          "title": "Intern, Analytics & Projects, GrabMart",
-          "url": "https://www.grab.careers/en/jobs/744000145935849/intern-analytics-projects-grabmart/",
-          "function_tags": []
-        },
-        {
-          "id": "744000145934539",
-          "title": "Intern, Commercial Enablement, Sales Enablement",
-          "url": "https://www.grab.careers/en/jobs/744000145934539/intern-commercial-enablement-sales-enablement/",
-          "function_tags": [
-            "sales"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-08-31T14:37:55.971771+08:00",
+      "observed_at": "2026-09-01T06:44:29.409800+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -155,10 +155,12 @@
           ]
         },
         {
-          "id": "8146159",
-          "title": "AMER Analytical Lead",
-          "url": "https://stripe.com/careers/listing/amer-analytical-lead/8146159",
-          "function_tags": []
+          "id": "8064526",
+          "title": "AI Product Manager, Professional Services",
+          "url": "https://stripe.com/careers/listing/ai-product-manager-professional-services/8064526",
+          "function_tags": [
+            "ai"
+          ]
         },
         {
           "id": "7764914",
@@ -192,14 +194,6 @@
           "id": "7993151",
           "title": "Account Executive - Enterprise, Grower",
           "url": "https://stripe.com/careers/listing/account-executive-enterprise-grower/7993151",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "7997146",
-          "title": "Account Executive - Enterprise, Growth",
-          "url": "https://stripe.com/careers/listing/account-executive-enterprise-growth/7997146",
           "function_tags": [
             "sales"
           ]
@@ -253,12 +247,20 @@
           "function_tags": [
             "sales"
           ]
+        },
+        {
+          "id": "8141211",
+          "title": "Account Executive, Commercial Hunter",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-hunter/8141211",
+          "function_tags": [
+            "sales"
+          ]
         }
       ]
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-08-31T14:37:55.971771+08:00",
+      "observed_at": "2026-09-01T06:44:29.409800+08:00",
       "jobs": [
         {
           "id": "c781fed2-4408-4720-8734-45458585e762",
@@ -302,12 +304,6 @@
           "id": "e1c60e78-e451-4242-8473-5b8217394c36",
           "title": "Lead, Electronic Money Accounting Remote - United Kingdom",
           "url": "https://www.shopify.com/careers/lead-electronic-money-accounting_e1c60e78-e451-4242-8473-5b8217394c36",
-          "function_tags": []
-        },
-        {
-          "id": "10073fb3-5a44-4824-bd75-f2add66901ef",
-          "title": "Product Pricing Lead Remote - Americas",
-          "url": "https://www.shopify.com/careers/product-pricing-lead_10073fb3-5a44-4824-bd75-f2add66901ef",
           "function_tags": []
         },
         {
@@ -420,6 +416,14 @@
           ]
         },
         {
+          "id": "fdf415e5-ba0a-4e50-abf3-86b4657ed99e",
+          "title": "Product Partnerships Manager, Themes (Partnerships, Product Partnerships. C7, Internal) Remote - Global",
+          "url": "https://www.shopify.com/careers/product-partnerships-manager-themes-partnerships-product-partnerships-c7-internal_fdf415e5-ba0a-4e50-abf3-86b4657ed99e",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
           "id": "36f8a594-ba0e-45c2-b2e2-8aaa05db9ca2",
           "title": "Credit Risk Analyst Remote - Americas",
           "url": "https://www.shopify.com/careers/credit-risk-analyst_36f8a594-ba0e-45c2-b2e2-8aaa05db9ca2",
@@ -440,12 +444,6 @@
           "function_tags": [
             "compliance"
           ]
-        },
-        {
-          "id": "0dedbaa5-739f-4c6b-9025-bbf26f7cf908",
-          "title": "Sr. Manager, Account Security Remote - Americas",
-          "url": "https://www.shopify.com/careers/sr-manager-account-security_0dedbaa5-739f-4c6b-9025-bbf26f7cf908",
-          "function_tags": []
         },
         {
           "id": "1ccc66fe-bdc6-442a-94d6-6327fe8c7784",
