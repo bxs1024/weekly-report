@@ -1,37 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-08-30</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-08-31</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-08-31T01:53:26Z</updated>
+  <updated>2026-08-31T06:44:24Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>英国移动运营商称网络未准备好应对AI流量</title>
-    <link href="https://thenextweb.com/news/uk-mobile-networks-ai-planning-reform-eu-gigabit-infrastructure-act"/>
-    <id>tag:weekly-report,2026:event-9f8e7260</id>
-    <published>2026-08-30T00:00:00Z</published>
-    <updated>2026-08-30T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;UK networks are not ready for AI traffic, say mobile operators&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英国移动运营商表示，英国网络基础设施尚未准备好应对AI流量增长，呼吁进行规划改革并参考欧盟千兆基础设施法案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;英国电信运营商预警AI流量压力，为网络设备商和边缘计算解决方案提供商带来升级改造机会。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>前阿里高管物理AI公司融资240亿日元</title>
+    <link href="https://36kr.jp/500797/"/>
+    <id>tag:weekly-report,2026:event-5dcd7a5f</id>
+    <published>2026-08-31T00:00:00Z</published>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;「一つの頭脳で、複数の身体」　元アリババ幹部のフィジカルAI新興が240億円調達&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;由前阿里巴巴高管创立的物理AI（Physical AI）初创公司完成240亿日元（约合1.6亿美元）融资，致力于实现“一个大脑控制多个身体”的具身智能。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本物理AI赛道获大额融资，具身智能产业链上游传感器、芯片和云服务商迎来订单机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>亚马逊推出付费SSD配送选项</title>
-    <link href="https://www.ecommercebytes.com/2026/08/29/amazon-lets-sellers-pay-extra-for-ssd-sub-same-day-shipping/"/>
-    <id>tag:weekly-report,2026:event-e4463575</id>
-    <published>2026-08-30T00:00:00Z</published>
-    <updated>2026-08-30T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Amazon Lets Sellers Pay Extra for SSD (Sub Same Day Shipping)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;亚马逊推出新选项，允许卖家付费使用Sub Same Day Shipping（SSD）服务，实现更快的配送时效。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球电商物流竞争加剧，亚马逊通过付费提速服务增加收入，物流服务商和卖家工具生态迎来新机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：EcommerceBytes&lt;/p&gt;</summary>
+    <title>PayPal股价跌12.7%因收购告吹</title>
+    <link href="https://fintechnews.sg/136508/payments/paypal-takeover/"/>
+    <id>tag:weekly-report,2026:event-3906b691</id>
+    <published>2026-08-31T00:00:00Z</published>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;PayPal Shares Fall 12.7% as Stripe, Advent Reportedly Drop Takeover Bid&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;PayPal股价下跌12.7%，因Stripe和Advent reportedly放弃收购要约，市场对PayPal被收购的预期落空导致股价承压。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国支付巨头收购预期落空引发股价暴跌，全球支付行业整合趋势放缓，中小支付公司估值面临压力&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Cloudflare AI Search支持GLM-5.3 Flash</title>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-08-30-glm-5.3-flash/"/>
-    <id>tag:weekly-report,2026:event-c1e5785d</id>
-    <published>2026-08-30T00:00:00Z</published>
-    <updated>2026-08-30T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: AI Search now supports GLM-5.3 Flash&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare的AI Search功能新增支持智谱AI的GLM-5.3 Flash模型。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
+    <title>Instagram欧盟用户增长持续超Facebook</title>
+    <link href="https://www.socialmediatoday.com/news/instagram-growth-continues-to-outpace-facebook-in-eu/829134/"/>
+    <id>tag:weekly-report,2026:event-7eb4a781</id>
+    <published>2026-08-31T00:00:00Z</published>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Instagram growth continues to outpace Facebook in EU&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;最新数据显示，Instagram在欧盟的用户增长持续超过Facebook，反映出用户偏好向视觉化社交平台迁移。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧盟社交广告预算向Instagram迁移，品牌营销服务商和内容创作者经济持续受益&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：Social Media Today&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>SK海力士考虑在日本建内存厂</title>
+    <link href="https://www.techinasia.com/news/sk-hynix-eyes-japan-memory-plant-ai-demand-rises"/>
+    <id>tag:weekly-report,2026:event-8b5e4b55</id>
+    <published>2026-08-31T00:00:00Z</published>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;SK hynix eyes Japan memory plant as AI demand rises&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;韩国存储芯片制造商SK海力士正考虑在日本建设内存工厂，以应对AI需求增长带来的存储芯片供应压力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太存储芯片巨头扩产应对AI需求，日本半导体供应链和设备商将受益于新增产能投资&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>BIS看好代币化存款而非稳定币</title>
+    <link href="https://fintechnews.sg/136513/digitalassets/bis-tokenised-deposits/"/>
+    <id>tag:weekly-report,2026:event-9bbc8edc</id>
+    <published>2026-08-31T00:00:00Z</published>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;BIS Sees Tokenised Deposits Playing Bigger Role Than Stablecoins in Future Payments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;国际清算银行（BIS）发布观点认为，代币化存款将在未来支付体系中扮演比稳定币更重要的角色，为央行数字货币和商业银行创新指明方向。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球央行和监管机构倾向代币化存款路线，稳定币项目面临监管压力，银行区块链基础设施供应商将获政策红利&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>U-NEXT与NBCUniversal达成全面战略合作</title>
+    <link href="https://unext-hd.co.jp/newsrelease/2026/08/u-next-nbcuniversal.html"/>
+    <id>tag:weekly-report,2026:event-bc2a5f3f</id>
+    <published>2026-08-31T00:00:00Z</published>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;2026.08.31 株式会社U-NEXT U-NEXTとNBCUniversalが、日本市場で包括的戦略パートナーシップを締結 ストリーミングからテーマパーク、日本コンテンツのグローバル展開まで 新たなエンターテイメント経済圏の創出へ&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;日本U-NEXT与NBCUniversal签署全面战略合作伙伴关系，涵盖流媒体、主题公园及日本内容全球发行。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本流媒体与好莱坞巨头合作，推动日本内容出海和主题公园经济，利好内容制作与发行方&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 公司：U-NEXT | 来源：U-NEXT&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>AI已解决成本问题，需求成为新瓶颈</title>
+    <link href="https://www.techinasia.com/ai-solved-costs-demands-catch"/>
+    <id>tag:weekly-report,2026:event-bfe30660</id>
+    <published>2026-08-31T00:00:00Z</published>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AI solved costs. Demand’s the catch&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;行业分析指出AI已大幅降低企业运营成本，但当前主要挑战转向需求端——如何创造和捕捉实际市场需求成为AI商业化的核心瓶颈。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太AI企业面临从技术驱动转向需求驱动的转型，市场拓展和行业解决方案定制成为关键合作切入点&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>NAVER多篇AI论文被顶级会议接收</title>
+    <link href="https://www.navercorp.com/en/media/pressReleasesDetail?seq=10034622"/>
+    <id>tag:weekly-report,2026:event-8472b930</id>
+    <published>2026-08-31T00:00:00Z</published>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;TEAM NAVER Reaffirms Its Global Vision AI Capabilities with Multiple Papers Accepted at a Leading International Conference&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;NAVER团队多篇AI论文被国际顶级学术会议接收，展示其在视觉AI领域的技术实力和全球研究影响力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;韩国科技巨头AI研发实力获国际认可，视觉AI技术输出和产学研合作机会增加&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：亚太 | 公司：Naver | 来源：Naver&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>500 Global据报道将停止募集东南亚专项基金</title>
+    <link href="https://fintechnews.sg/136505/funding/500-global-southeast-asia/"/>
+    <id>tag:weekly-report,2026:event-214acc37</id>
+    <published>2026-08-31T00:00:00Z</published>
+    <updated>2026-08-31T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;500 Global Reportedly to Stop Raising Dedicated Southeast Asia Funds&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;据报道，全球风险投资公司500 Global将停止募集专注于东南亚的专项基金，可能调整其在该地区的投资策略。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚创投生态重要LP收缩，早期初创企业融资渠道收窄，本地VC和加速器迎来替代机会&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-08-31</title>

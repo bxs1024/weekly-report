@@ -1,20 +1,25 @@
 {
-  "observed_at": "2026-08-31T04:56:18.657214+08:00",
+  "observed_at": "2026-08-31T14:37:55.971771+08:00",
   "source_count": 3,
-  "raw_count": 65,
+  "raw_count": 64,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 19,
-      "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
-      "removed_clusters": {}
+      "count": 5,
+      "inventory_count": 18,
+      "signal_count": 1,
+      "added_count": 2,
+      "removed_count": 3,
+      "clusters": {
+        "engineering": 1
+      },
+      "removed_clusters": {
+        "engineering": 1,
+        "sales": 1
+      }
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
@@ -43,6 +48,67 @@
       "removed_clusters": {}
     }
   },
-  "candidate_signals": [],
+  "candidate_signals": [
+    {
+      "candidate_id": "jobs-feca874b109a8711",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W36",
+      "window_start": "2026-08-31",
+      "window_end": "2026-08-31",
+      "detected_at": "2026-08-31T14:37:55.971771+08:00",
+      "baseline_count": 19,
+      "current_count": 18,
+      "added_count": 2,
+      "removed_count": 3,
+      "clusters": {
+        "engineering": 1
+      },
+      "removed_clusters": {
+        "engineering": 1,
+        "sales": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000146393159",
+          "title": "Head of Controllership - Thailand",
+          "url": "https://www.grab.careers/en/jobs/744000146393159/head-of-controllership-thailand/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146354938",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000146354938/senior-software-engineer-backend/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146153699",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000146153699/senior-software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145933859",
+          "title": "Intern, Business Development",
+          "url": "https://www.grab.careers/en/jobs/744000145933859/intern-business-development/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145920679",
+          "title": "Intern, Account Management, Retail/FMCG",
+          "url": "https://www.grab.careers/en/jobs/744000145920679/intern-account-management-retailfmcg/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    }
+  ],
   "promoted_count": 0
 }
