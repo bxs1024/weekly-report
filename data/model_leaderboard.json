@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T10:14:26+08:00",
-  "fetched_date": "2026-09-01",
+  "generated_at": "2026-09-02T00:07:39+08:00",
+  "fetched_date": "2026-09-02",
   "source": {
     "name": "AIHOT 大模型排行榜",
     "leaderboard_url": "https://aihot.virxact.com/leaderboard",
@@ -28,7 +28,7 @@
       "completeness": "84.5%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 86.5,
+      "consensus_score": 86.4,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-5"
     },
     {
@@ -50,7 +50,7 @@
       "completeness": "84.5%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 79.6,
+      "consensus_score": 79.5,
       "detail_url": "https://aihot.virxact.com/leaderboard/kimi-k-3"
     },
     {
@@ -72,7 +72,7 @@
       "completeness": "81.0%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 75.3,
+      "consensus_score": 75.4,
       "detail_url": "https://aihot.virxact.com/leaderboard/glm-5-3"
     },
     {
@@ -138,7 +138,7 @@
       "completeness": "81.0%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 69.7,
+      "consensus_score": 69.6,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-6-terra"
     },
     {
@@ -204,7 +204,7 @@
       "completeness": "69.5%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 57.2,
+      "consensus_score": 57.1,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-4"
     },
     {
@@ -226,7 +226,7 @@
       "completeness": "84.5%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 54.4,
+      "consensus_score": 54.3,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-sonnet-5"
     },
     {
@@ -270,7 +270,7 @@
       "completeness": "84.5%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 46.5,
+      "consensus_score": 46.6,
       "detail_url": "https://aihot.virxact.com/leaderboard/glm-5-2"
     },
     {
@@ -281,7 +281,7 @@
       "completeness": "73.0%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 45.7,
+      "consensus_score": 45.9,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-6"
     },
     {
@@ -325,7 +325,7 @@
       "completeness": "76.5%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 37.7,
+      "consensus_score": 37.8,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-sonnet-4-6"
     },
     {
@@ -336,7 +336,7 @@
       "completeness": "51.0%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 34.7,
+      "consensus_score": 34.8,
       "detail_url": "https://aihot.virxact.com/leaderboard/qwen-3-7-max"
     }
   ],
@@ -347,7 +347,7 @@
       "short_name": "AA Index",
       "operator": "Artificial Analysis",
       "note": "只使用以统一环境复跑多项当前评测形成的 Intelligence Index；价格只作背景信息。",
-      "fetched_at": "2026-08-31T22:14:11.418Z",
+      "fetched_at": "2026-09-01T13:28:09.983Z",
       "metric_name": "Artificial Analysis Intelligence Index",
       "total_count": 624,
       "models": [
@@ -850,9 +850,9 @@
       "short_name": "LiveBench",
       "operator": "LiveBench",
       "note": "以持续更新、答案可验证的七类任务衡量当前模型。",
-      "fetched_at": "2026-08-31T22:14:11.418Z",
+      "fetched_at": "2026-09-01T13:28:09.983Z",
       "metric_name": "LiveBench Global Average",
-      "total_count": 49,
+      "total_count": 50,
       "models": [
         {
           "rank": 1,
@@ -1132,18 +1132,24 @@
         },
         {
           "rank": 47,
+          "name": "nemotron-3-ultra-550b-a55b",
+          "provider": "NVIDIA",
+          "score": "64.2"
+        },
+        {
+          "rank": 48,
           "name": "qwen3.6-27b",
           "provider": "Alibaba",
           "score": "64.0"
         },
         {
-          "rank": 48,
+          "rank": 49,
           "name": "gemini-3.5-flash-lite-high",
           "provider": "Google",
           "score": "63.9"
         },
         {
-          "rank": 49,
+          "rank": 50,
           "name": "grok-4.3",
           "provider": "xAI",
           "score": "62.2"
@@ -1156,7 +1162,7 @@
       "short_name": "Arena Text",
       "operator": "LMArena",
       "note": "用匿名两两盲选补充客观题库无法覆盖的整体回答体验。",
-      "fetched_at": "2026-08-31T22:14:11.418Z",
+      "fetched_at": "2026-09-01T13:28:09.983Z",
       "metric_name": "Arena Text Style-Controlled",
       "total_count": 395,
       "models": [
@@ -1648,7 +1654,7 @@
       "short_name": "Arena WebDev",
       "operator": "LMArena",
       "note": "用匿名两两盲选衡量 Web 开发实战能力。",
-      "fetched_at": "2026-08-31T22:14:11.418Z",
+      "fetched_at": "2026-09-01T13:28:09.983Z",
       "metric_name": "Arena WebDev",
       "total_count": 120,
       "models": [
@@ -2140,7 +2146,7 @@
       "short_name": "APEX-Agents",
       "operator": "Mercor",
       "note": "衡量投行、咨询和法律长任务；配置明细保留，但成绩归到基础模型。",
-      "fetched_at": "2026-08-31T22:14:11.418Z",
+      "fetched_at": "2026-09-01T13:28:09.983Z",
       "metric_name": "APEX-Agents Mean Score · Loop",
       "total_count": 26,
       "models": [
@@ -2308,7 +2314,7 @@
       "short_name": "Vals Finance Agent",
       "operator": "Vals AI",
       "note": "",
-      "fetched_at": "2026-08-31T22:14:11.418Z",
+      "fetched_at": "2026-09-01T13:28:09.983Z",
       "metric_name": "Vals Finance Agent",
       "total_count": 53,
       "models": [
@@ -2638,7 +2644,7 @@
       "short_name": "DeepSWE v1.1",
       "operator": "DataCurve",
       "note": "在统一 mini-swe-agent harness 下比较代码模型；成绩按基础模型归并。",
-      "fetched_at": "2026-08-31T22:14:11.418Z",
+      "fetched_at": "2026-09-01T13:28:09.983Z",
       "metric_name": "DeepSWE v1.1",
       "total_count": 63,
       "models": [
@@ -3028,7 +3034,7 @@
       "short_name": "TapTap Maker",
       "operator": "TapTap Maker",
       "note": "",
-      "fetched_at": "2026-08-31T22:14:11.418Z",
+      "fetched_at": "2026-09-01T13:28:09.983Z",
       "metric_name": "TapTap Maker Benchmark",
       "total_count": 29,
       "models": [
