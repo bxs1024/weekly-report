@@ -1,11 +1,37 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T06:44:29.409800+08:00",
+  "generated_at": "2026-09-01T13:59:29.033368+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-01T06:44:29.409800+08:00",
+      "observed_at": "2026-09-01T13:59:29.033368+08:00",
       "jobs": [
+        {
+          "id": "744000146615660",
+          "title": "Senior Salesforce Business Analyst",
+          "url": "https://www.grab.careers/en/jobs/744000146615660/senior-salesforce-business-analyst/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000146609399",
+          "title": "KAM GrabFood, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000146609399/kam-grabfood-associate/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146609049",
+          "title": "Large Area Associate (Contract)",
+          "url": "https://www.grab.careers/en/jobs/744000146609049/large-area-associate-contract/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146573809",
+          "title": "Intern, Employer Branding and Recruitment Marketing",
+          "url": "https://www.grab.careers/en/jobs/744000146573809/intern-employer-branding-and-recruitment-marketing/",
+          "function_tags": []
+        },
         {
           "id": "744000146514470",
           "title": "Senior Principal Data Scientist (Fulfilment)",
@@ -104,40 +130,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000146143500",
-          "title": "Senior Data Scientist (Analytics) - Financial Services",
-          "url": "https://www.grab.careers/en/jobs/744000146143500/senior-data-scientist-analytics-financial-services/",
-          "function_tags": [
-            "payments"
-          ]
-        },
-        {
-          "id": "744000146137224",
-          "title": "Mart Merchant Partner Associate (Contract)",
-          "url": "https://www.grab.careers/en/jobs/744000146137224/mart-merchant-partner-associate-contract/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000146122149",
-          "title": "Regional Assistant Manager, Measurement & Insights",
-          "url": "https://www.grab.careers/en/jobs/744000146122149/regional-assistant-manager-measurement-insights/",
-          "function_tags": []
-        },
-        {
-          "id": "744000146118639",
-          "title": "Marketing Execution Assistant Manager - JABODETABEK",
-          "url": "https://www.grab.careers/en/jobs/744000146118639/marketing-execution-assistant-manager-jabodetabek/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-01T06:44:29.409800+08:00",
+      "observed_at": "2026-09-01T13:59:29.033368+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -260,7 +258,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-01T06:44:29.409800+08:00",
+      "observed_at": "2026-09-01T13:59:29.033368+08:00",
       "jobs": [
         {
           "id": "c781fed2-4408-4720-8734-45458585e762",

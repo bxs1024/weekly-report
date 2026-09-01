@@ -1,7 +1,85 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T06:44:29.409800+08:00",
+  "generated_at": "2026-09-01T13:59:29.033368+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-7107fd2ff75a231a",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "sales",
+      "window": "2026-W36",
+      "window_start": "2026-09-01",
+      "window_end": "2026-09-01",
+      "detected_at": "2026-09-01T13:59:29.033368+08:00",
+      "baseline_count": 18,
+      "current_count": 18,
+      "added_count": 4,
+      "removed_count": 4,
+      "clusters": {
+        "sales": 1
+      },
+      "removed_clusters": {
+        "payments": 1,
+        "partnerships": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000146615660",
+          "title": "Senior Salesforce Business Analyst",
+          "url": "https://www.grab.careers/en/jobs/744000146615660/senior-salesforce-business-analyst/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146609399",
+          "title": "KAM GrabFood, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000146609399/kam-grabfood-associate/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146609049",
+          "title": "Large Area Associate (Contract)",
+          "url": "https://www.grab.careers/en/jobs/744000146609049/large-area-associate-contract/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146573809",
+          "title": "Intern, Employer Branding and Recruitment Marketing",
+          "url": "https://www.grab.careers/en/jobs/744000146573809/intern-employer-branding-and-recruitment-marketing/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146143500",
+          "title": "Senior Data Scientist (Analytics) - Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000146143500/senior-data-scientist-analytics-financial-services/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146137224",
+          "title": "Mart Merchant Partner Associate (Contract)",
+          "url": "https://www.grab.careers/en/jobs/744000146137224/mart-merchant-partner-associate-contract/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146122149",
+          "title": "Regional Assistant Manager, Measurement & Insights",
+          "url": "https://www.grab.careers/en/jobs/744000146122149/regional-assistant-manager-measurement-insights/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146118639",
+          "title": "Marketing Execution Assistant Manager - JABODETABEK",
+          "url": "https://www.grab.careers/en/jobs/744000146118639/marketing-execution-assistant-manager-jabodetabek/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-66f83b154574b8e6",
       "entity_id": "grab",
