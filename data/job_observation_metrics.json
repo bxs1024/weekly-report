@@ -1,24 +1,27 @@
 {
-  "observed_at": "2026-09-01T13:59:29.033368+08:00",
+  "observed_at": "2026-09-02T04:56:45.552178+08:00",
   "source_count": 3,
-  "raw_count": 63,
+  "raw_count": 61,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 8,
-      "inventory_count": 18,
+      "count": 15,
+      "inventory_count": 17,
       "signal_count": 1,
-      "added_count": 4,
-      "removed_count": 4,
+      "added_count": 7,
+      "removed_count": 8,
       "clusters": {
-        "sales": 1
+        "engineering": 2,
+        "sales": 1,
+        "ai": 1
       },
       "removed_clusters": {
-        "payments": 1,
-        "partnerships": 1
+        "sales": 1,
+        "engineering": 4,
+        "operations": 1
       }
     },
     "Stripe Jobs": {
@@ -39,94 +42,144 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 30,
+      "count": 3,
+      "inventory_count": 29,
       "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
-      "removed_clusters": {}
+      "added_count": 1,
+      "removed_count": 2,
+      "clusters": {
+        "payments": 1
+      },
+      "removed_clusters": {
+        "sales": 1,
+        "partnerships": 1
+      }
     }
   },
   "candidate_signals": [
     {
-      "candidate_id": "jobs-7107fd2ff75a231a",
+      "candidate_id": "jobs-feca874b109a8711",
       "entity_id": "grab",
       "entity": "Grab",
       "region": "亚太",
       "sector": "mobility_payment",
       "source_type": "jobs_snapshot",
       "signal_type": "function_buildout",
-      "cluster": "sales",
+      "cluster": "engineering",
       "window": "2026-W36",
-      "window_start": "2026-09-01",
-      "window_end": "2026-09-01",
-      "detected_at": "2026-09-01T13:59:29.033368+08:00",
+      "window_start": "2026-09-02",
+      "window_end": "2026-09-02",
+      "detected_at": "2026-09-02T04:56:45.552178+08:00",
       "baseline_count": 18,
-      "current_count": 18,
-      "added_count": 4,
-      "removed_count": 4,
+      "current_count": 17,
+      "added_count": 7,
+      "removed_count": 8,
       "clusters": {
-        "sales": 1
+        "engineering": 2,
+        "sales": 1,
+        "ai": 1
       },
       "removed_clusters": {
-        "payments": 1,
-        "partnerships": 1
+        "sales": 1,
+        "engineering": 4,
+        "operations": 1
       },
       "evidence_refs": [
+        {
+          "job_id": "744000146778669",
+          "title": "Illustration Designer",
+          "url": "https://www.grab.careers/en/jobs/744000146778669/illustration-designer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146762091",
+          "title": "Senior Principal Engineer, Consumer Experience & Integrity",
+          "url": "https://www.grab.careers/en/jobs/744000146762091/senior-principal-engineer-consumer-experience-integrity/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146697169",
+          "title": "Enterprise KAM GrabMart, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000146697169/enterprise-kam-grabmart-associate/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146677694",
+          "title": "Senior Salesforce Business Analyst",
+          "url": "https://www.grab.careers/en/jobs/744000146677694/senior-salesforce-business-analyst/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146650079",
+          "title": "Senior AI Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000146650079/senior-ai-engineer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146635539",
+          "title": "Strategy & Planning GrabFood, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000146635539/strategy-planning-grabfood-associate/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146617137",
+          "title": "Regional Commercial Process Manager",
+          "url": "https://www.grab.careers/en/jobs/744000146617137/regional-commercial-process-manager/",
+          "change": "added"
+        },
         {
           "job_id": "744000146615660",
           "title": "Senior Salesforce Business Analyst",
           "url": "https://www.grab.careers/en/jobs/744000146615660/senior-salesforce-business-analyst/",
-          "change": "added"
+          "change": "removed"
         },
         {
           "job_id": "744000146609399",
           "title": "KAM GrabFood, Associate",
           "url": "https://www.grab.careers/en/jobs/744000146609399/kam-grabfood-associate/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000146609049",
-          "title": "Large Area Associate (Contract)",
-          "url": "https://www.grab.careers/en/jobs/744000146609049/large-area-associate-contract/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000146573809",
-          "title": "Intern, Employer Branding and Recruitment Marketing",
-          "url": "https://www.grab.careers/en/jobs/744000146573809/intern-employer-branding-and-recruitment-marketing/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000146143500",
-          "title": "Senior Data Scientist (Analytics) - Financial Services",
-          "url": "https://www.grab.careers/en/jobs/744000146143500/senior-data-scientist-analytics-financial-services/",
           "change": "removed"
         },
         {
-          "job_id": "744000146137224",
-          "title": "Mart Merchant Partner Associate (Contract)",
-          "url": "https://www.grab.careers/en/jobs/744000146137224/mart-merchant-partner-associate-contract/",
+          "job_id": "744000146354938",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000146354938/senior-software-engineer-backend/",
           "change": "removed"
         },
         {
-          "job_id": "744000146122149",
-          "title": "Regional Assistant Manager, Measurement & Insights",
-          "url": "https://www.grab.careers/en/jobs/744000146122149/regional-assistant-manager-measurement-insights/",
+          "job_id": "744000146296489",
+          "title": "Senior Data Scientist",
+          "url": "https://www.grab.careers/en/jobs/744000146296489/senior-data-scientist/",
           "change": "removed"
         },
         {
-          "job_id": "744000146118639",
-          "title": "Marketing Execution Assistant Manager - JABODETABEK",
-          "url": "https://www.grab.careers/en/jobs/744000146118639/marketing-execution-assistant-manager-jabodetabek/",
+          "job_id": "744000146294699",
+          "title": "Senior TechOps & Release Automation Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000146294699/senior-techops-release-automation-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146170930",
+          "title": "Dry Category Lead",
+          "url": "https://www.grab.careers/en/jobs/744000146170930/dry-category-lead/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146154359",
+          "title": "Senior Software Engineer, Backend - Agent Experience",
+          "url": "https://www.grab.careers/en/jobs/744000146154359/senior-software-engineer-backend-agent-experience/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146154299",
+          "title": "Lead Software Engineer, Backend (Build Automation)",
+          "url": "https://www.grab.careers/en/jobs/744000146154299/lead-software-engineer-backend-build-automation/",
           "change": "removed"
         }
       ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_cluster_strength",
+      "status": "qualified",
+      "rejection_reason": "",
       "promoted_event_id": ""
     }
   ],
-  "promoted_count": 0
+  "promoted_count": 1
 }

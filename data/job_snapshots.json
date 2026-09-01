@@ -1,23 +1,58 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T13:59:29.033368+08:00",
+  "generated_at": "2026-09-02T04:56:45.552178+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-01T13:59:29.033368+08:00",
+      "observed_at": "2026-09-02T04:56:45.552178+08:00",
       "jobs": [
         {
-          "id": "744000146615660",
+          "id": "744000146778669",
+          "title": "Illustration Designer",
+          "url": "https://www.grab.careers/en/jobs/744000146778669/illustration-designer/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146762091",
+          "title": "Senior Principal Engineer, Consumer Experience & Integrity",
+          "url": "https://www.grab.careers/en/jobs/744000146762091/senior-principal-engineer-consumer-experience-integrity/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000146697169",
+          "title": "Enterprise KAM GrabMart, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000146697169/enterprise-kam-grabmart-associate/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146677694",
           "title": "Senior Salesforce Business Analyst",
-          "url": "https://www.grab.careers/en/jobs/744000146615660/senior-salesforce-business-analyst/",
+          "url": "https://www.grab.careers/en/jobs/744000146677694/senior-salesforce-business-analyst/",
           "function_tags": [
             "sales"
           ]
         },
         {
-          "id": "744000146609399",
-          "title": "KAM GrabFood, Associate",
-          "url": "https://www.grab.careers/en/jobs/744000146609399/kam-grabfood-associate/",
+          "id": "744000146650079",
+          "title": "Senior AI Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000146650079/senior-ai-engineer/",
+          "function_tags": [
+            "ai",
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000146635539",
+          "title": "Strategy & Planning GrabFood, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000146635539/strategy-planning-grabfood-associate/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146617137",
+          "title": "Regional Commercial Process Manager",
+          "url": "https://www.grab.careers/en/jobs/744000146617137/regional-commercial-process-manager/",
           "function_tags": []
         },
         {
@@ -85,57 +120,12 @@
           "title": "Head of Controllership - Thailand",
           "url": "https://www.grab.careers/en/jobs/744000146393159/head-of-controllership-thailand/",
           "function_tags": []
-        },
-        {
-          "id": "744000146354938",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000146354938/senior-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000146296489",
-          "title": "Senior Data Scientist",
-          "url": "https://www.grab.careers/en/jobs/744000146296489/senior-data-scientist/",
-          "function_tags": []
-        },
-        {
-          "id": "744000146294699",
-          "title": "Senior TechOps & Release Automation Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000146294699/senior-techops-release-automation-engineer/",
-          "function_tags": [
-            "engineering",
-            "operations"
-          ]
-        },
-        {
-          "id": "744000146170930",
-          "title": "Dry Category Lead",
-          "url": "https://www.grab.careers/en/jobs/744000146170930/dry-category-lead/",
-          "function_tags": []
-        },
-        {
-          "id": "744000146154359",
-          "title": "Senior Software Engineer, Backend - Agent Experience",
-          "url": "https://www.grab.careers/en/jobs/744000146154359/senior-software-engineer-backend-agent-experience/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000146154299",
-          "title": "Lead Software Engineer, Backend (Build Automation)",
-          "url": "https://www.grab.careers/en/jobs/744000146154299/lead-software-engineer-backend-build-automation/",
-          "function_tags": [
-            "engineering"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-01T13:59:29.033368+08:00",
+      "observed_at": "2026-09-02T04:56:45.552178+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -258,22 +248,8 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-01T13:59:29.033368+08:00",
+      "observed_at": "2026-09-02T04:56:45.552178+08:00",
       "jobs": [
-        {
-          "id": "c781fed2-4408-4720-8734-45458585e762",
-          "title": "Executive Protection Specialist / Spécialiste de la protection rapprochée Montreal",
-          "url": "https://www.shopify.com/careers/executive-protection-specialist-sp-cialiste-de-la-protection-rapproch-e_c781fed2-4408-4720-8734-45458585e762",
-          "function_tags": []
-        },
-        {
-          "id": "cbefc12f-bbf0-4824-9438-fa69af41b36b",
-          "title": "Senior Enterprise Account Executive - Spanish Speaking Remote - Spain",
-          "url": "https://www.shopify.com/careers/senior-enterprise-account-executive-spanish-speaking_cbefc12f-bbf0-4824-9438-fa69af41b36b",
-          "function_tags": [
-            "sales"
-          ]
-        },
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
           "title": "Senior Lead, Federal Government Affairs (US) Remote - Americas",
@@ -353,6 +329,14 @@
           ]
         },
         {
+          "id": "8441801f-1a0e-42c6-8838-cc15af655923",
+          "title": "Associate General Counsel, Product (Fintech) Remote - Americas",
+          "url": "https://www.shopify.com/careers/associate-general-counsel-product-fintech_8441801f-1a0e-42c6-8838-cc15af655923",
+          "function_tags": [
+            "payments"
+          ]
+        },
+        {
           "id": "55cd396d-fd8e-45dc-ba71-1eca5fe48763",
           "title": "Compliance Lead, Payments Compliance & Licensing Program Remote - Americas",
           "url": "https://www.shopify.com/careers/compliance-lead-payments-compliance-licensing-program_55cd396d-fd8e-45dc-ba71-1eca5fe48763",
@@ -362,15 +346,15 @@
           ]
         },
         {
-          "id": "dcc73211-bed4-478d-bdf7-831ce6d73b09",
-          "title": "Professional Services Delivery Manager Remote - United Kingdom, Ireland",
-          "url": "https://www.shopify.com/careers/professional-services-delivery-manager_dcc73211-bed4-478d-bdf7-831ce6d73b09",
-          "function_tags": []
-        },
-        {
           "id": "32132c55-3c8c-4695-b117-477fe97629aa",
           "title": "Professional Services Delivery Manager Remote - Americas",
           "url": "https://www.shopify.com/careers/professional-services-delivery-manager_32132c55-3c8c-4695-b117-477fe97629aa",
+          "function_tags": []
+        },
+        {
+          "id": "dcc73211-bed4-478d-bdf7-831ce6d73b09",
+          "title": "Professional Services Delivery Manager Remote - United Kingdom, Ireland",
+          "url": "https://www.shopify.com/careers/professional-services-delivery-manager_dcc73211-bed4-478d-bdf7-831ce6d73b09",
           "function_tags": []
         },
         {
@@ -409,14 +393,6 @@
           "id": "d9993b7d-d973-409c-9da3-0c8d48cff776",
           "title": "Product Partnerships Lead Remote - Japan",
           "url": "https://www.shopify.com/careers/product-partnerships-lead_d9993b7d-d973-409c-9da3-0c8d48cff776",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "fdf415e5-ba0a-4e50-abf3-86b4657ed99e",
-          "title": "Product Partnerships Manager, Themes (Partnerships, Product Partnerships. C7, Internal) Remote - Global",
-          "url": "https://www.shopify.com/careers/product-partnerships-manager-themes-partnerships-product-partnerships-c7-internal_fdf415e5-ba0a-4e50-abf3-86b4657ed99e",
           "function_tags": [
             "partnerships"
           ]
@@ -465,6 +441,12 @@
           "id": "5ad7b193-2d97-46ab-b173-5e83e0a4a660",
           "title": "Technical Account Manager, Enterprise West Remote - Canada",
           "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-west_5ad7b193-2d97-46ab-b173-5e83e0a4a660",
+          "function_tags": []
+        },
+        {
+          "id": "c781fed2-4408-4720-8734-45458585e762",
+          "title": "Executive Protection Specialist / Spécialiste de la protection rapprochée Montreal",
+          "url": "https://www.shopify.com/careers/executive-protection-specialist-sp-cialiste-de-la-protection-rapproch-e_c781fed2-4408-4720-8734-45458585e762",
           "function_tags": []
         }
       ]

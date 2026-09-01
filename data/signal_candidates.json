@@ -1,7 +1,160 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T13:59:29.033368+08:00",
+  "generated_at": "2026-09-02T04:56:45.552178+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-feca874b109a8711",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W36",
+      "window_start": "2026-08-31",
+      "window_end": "2026-09-02",
+      "detected_at": "2026-09-02T04:56:45.552178+08:00",
+      "baseline_count": 18,
+      "current_count": 17,
+      "added_count": 7,
+      "removed_count": 8,
+      "clusters": {
+        "engineering": 2,
+        "sales": 1,
+        "ai": 1
+      },
+      "removed_clusters": {
+        "sales": 1,
+        "engineering": 4,
+        "operations": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000146393159",
+          "title": "Head of Controllership - Thailand",
+          "url": "https://www.grab.careers/en/jobs/744000146393159/head-of-controllership-thailand/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146354938",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000146354938/senior-software-engineer-backend/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146153699",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000146153699/senior-software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145933859",
+          "title": "Intern, Business Development",
+          "url": "https://www.grab.careers/en/jobs/744000145933859/intern-business-development/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000145920679",
+          "title": "Intern, Account Management, Retail/FMCG",
+          "url": "https://www.grab.careers/en/jobs/744000145920679/intern-account-management-retailfmcg/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146778669",
+          "title": "Illustration Designer",
+          "url": "https://www.grab.careers/en/jobs/744000146778669/illustration-designer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146762091",
+          "title": "Senior Principal Engineer, Consumer Experience & Integrity",
+          "url": "https://www.grab.careers/en/jobs/744000146762091/senior-principal-engineer-consumer-experience-integrity/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146697169",
+          "title": "Enterprise KAM GrabMart, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000146697169/enterprise-kam-grabmart-associate/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146677694",
+          "title": "Senior Salesforce Business Analyst",
+          "url": "https://www.grab.careers/en/jobs/744000146677694/senior-salesforce-business-analyst/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146650079",
+          "title": "Senior AI Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000146650079/senior-ai-engineer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146635539",
+          "title": "Strategy & Planning GrabFood, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000146635539/strategy-planning-grabfood-associate/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146617137",
+          "title": "Regional Commercial Process Manager",
+          "url": "https://www.grab.careers/en/jobs/744000146617137/regional-commercial-process-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146615660",
+          "title": "Senior Salesforce Business Analyst",
+          "url": "https://www.grab.careers/en/jobs/744000146615660/senior-salesforce-business-analyst/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146609399",
+          "title": "KAM GrabFood, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000146609399/kam-grabfood-associate/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146354938",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000146354938/senior-software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146296489",
+          "title": "Senior Data Scientist",
+          "url": "https://www.grab.careers/en/jobs/744000146296489/senior-data-scientist/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146294699",
+          "title": "Senior TechOps & Release Automation Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000146294699/senior-techops-release-automation-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146170930",
+          "title": "Dry Category Lead",
+          "url": "https://www.grab.careers/en/jobs/744000146170930/dry-category-lead/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146154359",
+          "title": "Senior Software Engineer, Backend - Agent Experience",
+          "url": "https://www.grab.careers/en/jobs/744000146154359/senior-software-engineer-backend-agent-experience/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146154299",
+          "title": "Lead Software Engineer, Backend (Build Automation)",
+          "url": "https://www.grab.careers/en/jobs/744000146154299/lead-software-engineer-backend-build-automation/",
+          "change": "removed"
+        }
+      ],
+      "status": "promoted",
+      "rejection_reason": "",
+      "promoted_event_id": "event-jobs-feca874b109a8711"
+    },
     {
       "candidate_id": "jobs-7107fd2ff75a231a",
       "entity_id": "grab",
@@ -189,66 +342,6 @@
           "job_id": "744000145934539",
           "title": "Intern, Commercial Enablement, Sales Enablement",
           "url": "https://www.grab.careers/en/jobs/744000145934539/intern-commercial-enablement-sales-enablement/",
-          "change": "removed"
-        }
-      ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_cluster_strength",
-      "promoted_event_id": ""
-    },
-    {
-      "candidate_id": "jobs-feca874b109a8711",
-      "entity_id": "grab",
-      "entity": "Grab",
-      "region": "亚太",
-      "sector": "mobility_payment",
-      "source_type": "jobs_snapshot",
-      "signal_type": "function_buildout",
-      "cluster": "engineering",
-      "window": "2026-W36",
-      "window_start": "2026-08-31",
-      "window_end": "2026-08-31",
-      "detected_at": "2026-08-31T14:37:55.971771+08:00",
-      "baseline_count": 19,
-      "current_count": 18,
-      "added_count": 2,
-      "removed_count": 3,
-      "clusters": {
-        "engineering": 1
-      },
-      "removed_clusters": {
-        "engineering": 1,
-        "sales": 1
-      },
-      "evidence_refs": [
-        {
-          "job_id": "744000146393159",
-          "title": "Head of Controllership - Thailand",
-          "url": "https://www.grab.careers/en/jobs/744000146393159/head-of-controllership-thailand/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000146354938",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000146354938/senior-software-engineer-backend/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000146153699",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000146153699/senior-software-engineer-backend/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000145933859",
-          "title": "Intern, Business Development",
-          "url": "https://www.grab.careers/en/jobs/744000145933859/intern-business-development/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000145920679",
-          "title": "Intern, Account Management, Retail/FMCG",
-          "url": "https://www.grab.careers/en/jobs/744000145920679/intern-account-management-retailfmcg/",
           "change": "removed"
         }
       ],
