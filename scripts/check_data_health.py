@@ -9,7 +9,7 @@ import os
 import re
 import sys
 from collections import Counter
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 try:
     from collection_timing_report import build_collection_timing_rows, print_collection_timing_report
@@ -82,11 +82,18 @@ def _future_event_count(path='data/events.json', now=None, data=None):
                 data = json.load(handle)
         except (OSError, json.JSONDecodeError):
             return 0
+    # 事件日期按北京时间落库而 CI runner 是 UTC，跨时区班次会把当天事件误判为未来；
+    # 个别源（changelog 类）日期会提前一天出现，放行 1 天余量，只拦真正超前的脏数据。
+    if now is None:
+        now = datetime.now(timezone(timedelta(hours=8)))
+    elif isinstance(now, str):
+        now = datetime.fromisoformat(now)
+    horizon = (now.date() + timedelta(days=1)).isoformat()
     count = 0
     for bucket, events in (data or {}).items():
         for event in events or []:
             value = event.get('published_at') or event.get('article_date') or event.get('date') or bucket
-            if value and not is_display_date(value, now=now or datetime.now().astimezone()):
+            if value and str(value)[:10] > horizon:
                 count += 1
     return count
 
@@ -162,6 +169,9 @@ def build_quick_health_report(
     now=None,
 ):
     """Read the latest persisted health facts without rebuilding report views."""
+    # 事件日期按北京时间落库，CI runner 是 UTC；不锚定北京时区会把当天数据误判为未来。
+    if now is None:
+        now = datetime.now(timezone(timedelta(hours=8)))
     events = _load_json(events_path, {})
     valid_dates = sorted(
         date_key for date_key in events

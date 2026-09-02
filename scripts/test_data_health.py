@@ -1,5 +1,7 @@
 import io
+import json
 from contextlib import redirect_stdout
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
@@ -93,6 +95,28 @@ def test_future_event_count_detects_polluted_publication_dates(tmp_path):
         encoding='utf-8',
     )
     assert _future_event_count(str(path), now='2026-07-15T14:30:00+08:00') == 1
+
+
+def test_future_event_count_allows_today_and_next_day_dates(tmp_path):
+    path = tmp_path / 'events.json'
+    path.write_text(
+        '{"2026-09-02": [{"date": "2026-09-02"}], '
+        '"2026-09-03": [{"published_at": "2026-09-03"}], '
+        '"2026-09-04": [{"published_at": "2026-09-04"}]}',
+        encoding='utf-8',
+    )
+    assert _future_event_count(str(path), now='2026-09-02T04:56:00+08:00') == 1
+
+
+def test_future_event_count_defaults_to_beijing_time(tmp_path):
+    path = tmp_path / 'events.json'
+    today = datetime.now(timezone(timedelta(hours=8))).date()
+    buckets = [today, today + timedelta(days=1), today + timedelta(days=2)]
+    path.write_text(
+        json.dumps({day.isoformat(): [{'date': day.isoformat()}] for day in buckets}),
+        encoding='utf-8',
+    )
+    assert _future_event_count(str(path)) == 1
 
 
 def test_company_card_uses_observation_status_when_no_event_exists():
@@ -191,6 +215,10 @@ if __name__ == '__main__':
     test_run_metrics_roundtrip()
     with TemporaryDirectory() as temp_dir:
         test_future_event_count_detects_polluted_publication_dates(Path(temp_dir))
+    with TemporaryDirectory() as temp_dir:
+        test_future_event_count_allows_today_and_next_day_dates(Path(temp_dir))
+    with TemporaryDirectory() as temp_dir:
+        test_future_event_count_defaults_to_beijing_time(Path(temp_dir))
     test_company_card_uses_observation_status_when_no_event_exists()
     test_date_panel_does_not_leak_current_day_content()
     test_date_panel_suppresses_stale_rolling_clusters()
