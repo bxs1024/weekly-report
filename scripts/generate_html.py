@@ -26,7 +26,7 @@ try:
     from period_themes import build_monthly_trends, build_weekly_themes, build_company_changes, build_industry_changes
     from entity_signal_conversion_report import event_matches_entity
     from internet_relevance import is_mainline_internet_event
-    from fetch_news import _fingerprint_match
+    from fetch_news import _fingerprint_match, _is_same_event
     from view_selectors import (
         select_company_events,
         select_company_quality_events,
@@ -55,7 +55,7 @@ except ImportError:
     from scripts.period_themes import build_monthly_trends, build_weekly_themes, build_company_changes, build_industry_changes
     from scripts.entity_signal_conversion_report import event_matches_entity
     from scripts.internet_relevance import is_mainline_internet_event
-    from scripts.fetch_news import _fingerprint_match
+    from scripts.fetch_news import _fingerprint_match, _is_same_event
     from scripts.view_selectors import (
         select_company_events,
         select_company_quality_events,
@@ -1179,8 +1179,24 @@ def dedupe_display_events(events):
                         match['merged_from'].append(event['url'])
                 continue
 
-        date_key = (event.get('date') or '')[:10]
+        # 采集层规则兜底：复用 _is_same_event（与入库判定一致），治展示层正则
+        # 主体提取错位导致的无指纹同事件漏并（"US space data center startup
+        # Starcloud" 被 _display_subject_key 错提为 "us space data center"）。
+        # 仅非 strategy 且在 3 天窗口内启用，与下方语义窗口一致，避免误删连续战略动作。
         event_type = (event.get('event_types') or ['other'])[0]
+        if event_type != 'strategy':
+            match = next(
+                (ev for ev in kept if _is_same_event(event, ev)),
+                None,
+            )
+            if match is not None:
+                if event.get('url'):
+                    match.setdefault('merged_from', [])
+                    if event['url'] not in match['merged_from']:
+                        match['merged_from'].append(event['url'])
+                continue
+
+        date_key = (event.get('date') or '')[:10]
         subject_key = _display_subject_key(event)
         if subject_key and event_type in {'funding', 'ma', 'earnings', 'strategy'}:
             dup = False
