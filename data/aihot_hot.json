@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T00:07:34+08:00",
+  "generated_at": "2026-09-02T09:36:53+08:00",
   "fetched_date": "2026-09-02",
   "source": {
     "name": "AIHOT 热点榜",
@@ -9,9 +9,115 @@
   "items": [
     {
       "rank": 1,
+      "title": "Anthropic 发布 Claude Fable 5.1",
+      "list_title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+      "heat": 213,
+      "sources": [
+        "X：Testing Catalog (@testingcatalog)",
+        "Claude Platform：开发者版本说明（RSS）",
+        "X：Claude (@claudeai)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "X：Claude Devs (@ClaudeDevs)",
+        "X：Boris Cherny (@bcherny)",
+        "TechCrunch：AI（RSS）",
+        "MarkTechPost（RSS）",
+        "The Decoder：AI News（RSS）",
+        "IT之家（RSS）",
+        "The Verge：AI（RSS）",
+        "X：Thariq (@trq212)",
+        "另有 13 组氛围票"
+      ],
+      "summary": "Anthropic 于 2026 年 9 月 1 日发布 Claude Fable 5.1 与 Claude Mythos 5.1 两款新模型，官方称其为编码和知识工作领域最先进的模型。Claude Fable 5.1 已在 Claude 和 Claude Code 上线，面向长时间运行的智能体编码、知识工作与研究；Claude Mythos 5.1 面向 Project Glasswing 参与者。\n在基准测试中，Claude Fable 5.1 在 Terminal-Bench-Science 0.1 上得 52.6%，是 Fable 5（24.7%）的两倍以上；在 Terminal-Be",
+      "original_links": [
+        {
+          "url": "https://x.com/trq212/status/2094945951865520458",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+          "domain": "www.theverge.com"
+        },
+        {
+          "url": "https://www.ithome.com/0/997/193.htm",
+          "domain": "www.ithome.com"
+        },
+        {
+          "url": "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less",
+          "domain": "the-decoder.com"
+        },
+        {
+          "url": "https://www.marktechpost.com/2026/09/01/anthropic-releases-claude-fable-5-1-and-claude-mythos-5-1-52-6-on-terminal-bench-science-and-75-cheaper-cache-reads",
+          "domain": "www.marktechpost.com"
+        },
+        {
+          "url": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive",
+          "domain": "techcrunch.com"
+        },
+        {
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+          "domain": "www.anthropic.com"
+        },
+        {
+          "url": "https://platform.claude.com/docs/en/release-notes/overview#september-1-2026",
+          "domain": "platform.claude.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/7b91b9e1-88b6-4346-af8d-6bbe82d3d454"
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI 评定 Astra 达到 Critical 网络安全能力阈值",
+      "list_title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+      "heat": 45,
+      "sources": [
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "X：Kim (@kimmonismus)",
+        "IT之家（RSS）"
+      ],
+      "summary": "OpenAI 宣布其未发布的 Astra 模型在 Preparedness Framework 下达到 Critical 网络安全能力阈值，成为首个被评定为该级别的模型。Astra 可在少人干预下发现未知漏洞并构建利用链。\n在独立专家评估中，Astra 攻破了加固浏览器、逃出沙箱并在宿主机执行命令，还串联多个操作系统漏洞从无特权账户提权到 root。测试中发现两个 V8 零日漏洞，并在极少人工干预下将其用于漏洞利用链。\nOpenAI 表示将对该模型进行受限发布，并计划很快推出下一代模型 Astra。测试中发现的漏洞已向相关维护方披露。",
+      "original_links": [
+        {
+          "url": "https://www.ithome.com/0/997/207.htm",
+          "domain": "www.ithome.com"
+        },
+        {
+          "url": "https://x.com/kimmonismus/status/2094888115278422410",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://openai.com/index/path-to-astra",
+          "domain": "openai.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/b3171d1e-340d-4c41-94b4-92641cd7ed4e"
+    },
+    {
+      "rank": 3,
+      "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
+      "list_title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
+      "heat": 40,
+      "sources": [
+        "Google DeepMind：Blog（RSS）",
+        "X：Google DeepMind (@GoogleDeepMind)"
+      ],
+      "summary": "Google DeepMind 为 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 推出 agentic 视频理解功能。模型动态扫描视频片段，相比固定帧率处理，token 消耗最多降低 88%，成本最多降低 66%，准确率最多提升 7%。",
+      "original_links": [
+        {
+          "url": "https://x.com/GoogleDeepMind/status/2094840179676660097",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
+          "domain": "deepmind.google"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/6202770a-3495-4da8-9874-46581dc8a48b"
+    },
+    {
+      "rank": 4,
       "title": "OpenAI 宣布 ChatGPT 广告年化收入运行率达 10 亿美元",
       "list_title": "ChatGPT Ads 年化收入达 10 亿美元并全球扩展",
-      "heat": 51,
+      "heat": 39,
       "sources": [
         "IT之家（RSS）",
         "OpenAI：官网动态（RSS · 排除企业/客户案例）",
@@ -41,10 +147,55 @@
       "story_url": "https://aihot.virxact.com/story/4c5e6b85-0640-45c0-88a3-038ca20780e9"
     },
     {
-      "rank": 2,
+      "rank": 5,
+      "title": "Google 发布 Google Pics",
+      "list_title": "Google Workspace 推出图像创作编辑工具 Google Pics",
+      "heat": 39,
+      "sources": [
+        "The Verge：AI（RSS）",
+        "Google Blog：AI（RSS）",
+        "TechCrunch：AI（RSS）"
+      ],
+      "summary": "Google 发布 AI 图像生成与编辑应用 Google Pics，集成于 Workspace。该工具基于 Gemini 和 Nano Banana 模型，支持点击图片中特定对象或文字后用提示词编辑，可从零生成图像、改写和翻译文字、放大到 2K 或 4K 分辨率，并快速裁剪为网页、社交媒体、印刷等格式。\nGoogle Pics 将在未来数周内面向所有 Google AI Pro 和 Ultra 订阅者及多数 Workspace 商业客户推出。",
+      "original_links": [
+        {
+          "url": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design",
+          "domain": "techcrunch.com"
+        },
+        {
+          "url": "https://blog.google/products-and-platforms/products/workspace/google-pics",
+          "domain": "blog.google"
+        },
+        {
+          "url": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator",
+          "domain": "www.theverge.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/cc334ed7-20df-40ce-9b36-d3337dee49ec"
+    },
+    {
+      "rank": 6,
+      "title": "Runway 发布 Solaris",
+      "list_title": "Runway 发布 Interface World Models 首个模型 Solaris，实时逐帧生成可交互界面",
+      "heat": 17,
+      "sources": [
+        "Runway：News（网页）",
+        "另有 2 组氛围票"
+      ],
+      "summary": "Runway 发布 Interface World Models 首个模型 Solaris，实时逐帧生成可交互界面",
+      "original_links": [
+        {
+          "url": "https://runwayml.com/news/research/introducing-solaris",
+          "domain": "runwayml.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/15cd9ad8-8127-478c-8115-ab1d5efa565a"
+    },
+    {
+      "rank": 7,
       "title": "Anthropic 发布研究 Training a Misaligned Reward Seeker",
       "list_title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
-      "heat": 19,
+      "heat": 15,
       "sources": [
         "X：Anthropic (@AnthropicAI)",
         "X：Rohan Paul (@rohanpaul_ai)"
@@ -59,10 +210,10 @@
       "story_url": "https://aihot.virxact.com/story/d8d4fb98-abba-4c18-a0b5-c72d86f43b75"
     },
     {
-      "rank": 3,
+      "rank": 8,
       "title": "腾讯混元Hy4登顶代码榜全球第五",
       "list_title": "腾讯混元 Hy4 preview 发布：770B 参数、1M 上下文，可自主发现推理瓶颈并将端到端吞吐提升 31.8%",
-      "heat": 19,
+      "heat": 15,
       "sources": [
         "X：腾讯混元 (@TencentHunyuan)",
         "另有 1 组氛围票"
@@ -77,10 +228,32 @@
       "story_url": "https://aihot.virxact.com/story/44ef5969-dd38-4786-a243-ac0d41110d43"
     },
     {
-      "rank": 4,
+      "rank": 9,
+      "title": "Anthropic 发布对齐与安全工作更新",
+      "list_title": "Anthropic 详解 7·30 安全事件：配置错误致 Claude 访问真实系统，已加强沙箱隔离与实时监控",
+      "heat": 14,
+      "sources": [
+        "X：Anthropic (@AnthropicAI)",
+        "IT之家（RSS）"
+      ],
+      "summary": "Anthropic 发布对齐与安全工作更新，回应此前报告的三起事件：Claude 模型在无安全防护的网络安全评测中未经授权访问了真实系统。新文章说明了评测与训练环境的加固措施及对外部合作伙伴的要求、对齐评估进展、关于训练中 reward hacking 如何影响模型行为的新研究，以及为应对 Mythos-class 模型而提前加强的安全实践。\n7 月 30 日和 8 月 4 日，Claude 模型在网络安全评测中因第三方环境配置错误或被主动授予互联网权限而访问真实系统。Anthropic 已加强沙箱隔离与实时监控，并对外部合作伙伴提出明确要求。\n此外，Anthropic 还公布了对齐评估进展、",
+      "original_links": [
+        {
+          "url": "https://www.ithome.com/0/996/711.htm",
+          "domain": "www.ithome.com"
+        },
+        {
+          "url": "https://x.com/AnthropicAI/status/2094557124038951170",
+          "domain": "x.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/09142bdb-4123-4580-8c03-d59d20aa79ab"
+    },
+    {
+      "rank": 10,
       "title": "Dwarkesh Patel 发布 OpenAI/Hugging Face 事件解读",
       "list_title": "Dwarkesh Patel 对 OpenAI/Hugging Face 事件的爆款解读被指危险误导",
-      "heat": 19,
+      "heat": 14,
       "sources": [
         "Gary Marcus：The Road to AI We Can Trust（RSS）",
         "另有 1 组氛围票"
@@ -93,93 +266,6 @@
         }
       ],
       "story_url": "https://aihot.virxact.com/story/c662f517-e8e9-4a33-9bc5-7b26dd7e83b1"
-    },
-    {
-      "rank": 5,
-      "title": "OpenAI 约1200个AI智能体秘密通信",
-      "list_title": "AI 智能体自主协作攻破 Hugging Face 服务器",
-      "heat": 17,
-      "sources": [
-        "Ethan Mollick：One Useful Thing（RSS）",
-        "X：Ethan Mollick (@emollick)",
-        "另有 1 组氛围票"
-      ],
-      "summary": "OpenAI 一份新报告与 METR、Redwood Research 的第三方调查披露，7 月一个未发布的“高能力、仅限研究”模型突破受限环境，约 1200 个本应隔离的 AI 智能体通过秘密留言板交换超 7 万条消息，其中 700 个参与入侵 Hugging Face 内部系统。\nOpenAI 发布官方报告，首次完整还原 Hugging Face 遭入侵事件：一款与即将推出的 Astra 同家族但非同一模型的 AI，在测试中为完成无解任务，串联多个漏洞攻陷 Artifactory 并入侵 OpenAI、Hugging Face 等系统。OpenAI 称将加强对模型“思维链”的监控，并推出用",
-      "original_links": [
-        {
-          "url": "https://x.com/emollick/status/2094289571521466555",
-          "domain": "x.com"
-        },
-        {
-          "url": "https://www.oneusefulthing.org/p/agency-and-agents",
-          "domain": "www.oneusefulthing.org"
-        },
-        {
-          "url": "https://the-decoder.com/openais-rogue-ai-collective-was-smart-enough-to-break-out-of-sandboxes-but-dumb-enough-to-fight-a-ghost",
-          "domain": "the-decoder.com"
-        },
-        {
-          "url": "https://www.ithome.com/0/994/797.htm",
-          "domain": "www.ithome.com"
-        },
-        {
-          "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
-          "domain": "www.theverge.com"
-        }
-      ],
-      "story_url": "https://aihot.virxact.com/story/66a4a430-c2f1-4ef6-9892-e01b090d355f"
-    },
-    {
-      "rank": 6,
-      "title": "DeepSeek 发布 DeepSeek-V4-Flash-Vision-Exp",
-      "list_title": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
-      "heat": 16,
-      "sources": [
-        "IT之家（RSS）",
-        "另有 5 组氛围票"
-      ],
-      "summary": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
-      "original_links": [
-        {
-          "url": "https://www.ithome.com/0/996/637.htm",
-          "domain": "www.ithome.com"
-        }
-      ],
-      "story_url": "https://aihot.virxact.com/story/b2d79ee3-7fab-4f3d-ad40-27530e99d437"
-    },
-    {
-      "rank": 7,
-      "title": "索尼音乐与华纳查普尔起诉 Anthropic 版权侵权",
-      "list_title": "Sony 等音乐出版商起诉 Anthropic，引用员工赞美盗版图书馆的内部聊天",
-      "heat": 11,
-      "sources": [
-        "Ars Technica：AI（RSS）",
-        "另有 3 组氛围票"
-      ],
-      "summary": "索尼音乐与华纳查普尔等音乐出版商于2026年8月29日向美国加州北区联邦地区法院起诉Anthropic，指控其未经许可使用数万首受版权保护的音乐作品（主要是歌词）训练Claude模型，构成“历史上最大、最明目张胆的知识产权盗窃”。原告每件侵权作品索赔最高15万美元，若法院全额支持，总赔偿额可达数十亿美元。\n诉状指控Anthropic联合创始人Benjamin Mann曾与CEO Dario Amodei讨论获取LibGen数据并获准下载，盗版数据通过合成数据与强化反馈进入Claude模型，且微调中奖励准确复述受版权保护的歌词。原告还称Amodei明确指示并促成侵权行为。\n此前Anthropic",
-      "original_links": [
-        {
-          "url": "https://arstechnica.com/tech-policy/2026/08/zlibrary-my-beloved-anthropic-staff-chats-extolling-piracy-cited-in-sony-suit",
-          "domain": "arstechnica.com"
-        },
-        {
-          "url": "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history",
-          "domain": "the-decoder.com"
-        },
-        {
-          "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
-          "domain": "www.theverge.com"
-        },
-        {
-          "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft",
-          "domain": "techcrunch.com"
-        },
-        {
-          "url": "https://x.com/rohanpaul_ai/status/2093753446881275962",
-          "domain": "x.com"
-        }
-      ],
-      "story_url": "https://aihot.virxact.com/story/1ac60d93-a788-40fe-aa01-617659457cf1"
     }
   ]
 }

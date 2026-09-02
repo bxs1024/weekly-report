@@ -1,197 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-09-01</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-09-02</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-09-01T21:02:52Z</updated>
+  <updated>2026-09-02T05:32:01Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Cloover获€86.2M融资并实现盈利</title>
-    <link href="https://www.eu-startups.com/2026/09/berlin-based-cloover-secures-e86-2-million-facility-as-it-reaches-profitability-and-launches-ai-native-neo-utility/"/>
-    <id>tag:weekly-report,2026:event-930b4d39</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Berlin-based Cloover secures €86.2 million facility as it reaches profitability and launches AI-native neo-utility&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;柏林公司Cloover获得8620万欧元融资，同时实现盈利并推出AI原生新公用事业平台。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲能源科技赛道升温，Cloover的AI原生公用事业模式将吸引更多资本和合作伙伴，为能源管理和AI技术供应商带来机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
+    <title>Tripo获$447M B轮融资</title>
+    <link href="https://www.techinasia.com/news/chinese-3d-ai-startup-tripo-raises-447m-series"/>
+    <id>tag:weekly-report,2026:event-0e6593b2</id>
+    <published>2026-09-02T00:00:00Z</published>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Chinese 3D AI startup Tripo raises $447m in series B&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国3D AI初创公司Tripo完成4.47亿美元B轮融资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国3D AI赛道获巨额融资，全球3D内容生成和元宇宙基建需求旺盛，为GPU供应商和云服务商带来订单机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>AI Fiesta与Giga Globe合作进军东南亚</title>
-    <link href="https://www.techinasia.com/news/indiasai-fiesta-partners-giga-globe-expand-asia"/>
-    <id>tag:weekly-report,2026:event-0a2b2f3e</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Indian consumer app AI Fiesta expands in Southeast Asia&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度消费者应用AI Fiesta与菲律宾电信公司Giga Globe合作，以扩大其在东南亚的业务版图。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚消费应用市场增长迅速，印度AI应用通过本地运营商合作可快速获取用户，为出海企业提供渠道参考。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>Félix融资$200m拓展业务</title>
+    <link href="https://www.finextra.com/newsarticle/48333/flix-raises-200m-in-equity-and-debt-to-expand-beyond-remittances?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
+    <id>tag:weekly-report,2026:event-0d70676f</id>
+    <published>2026-09-02T00:00:00Z</published>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Félix raises $200m in equity and debt to expand beyond remittances&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;跨境汇款公司Félix完成2亿美元股权和债务融资，资金将用于拓展汇款以外的业务领域。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;拉美跨境汇款公司获大额融资，计划拓展至更广泛的金融服务，为支付基础设施和金融科技合作方提供机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>xorlab获€5M融资扩展欧洲主权邮件安全</title>
-    <link href="https://www.eu-startups.com/2026/09/zurich-based-xorlab-secures-e5-million-to-scale-sovereign-email-security-across-europe/"/>
-    <id>tag:weekly-report,2026:event-bd2239b1</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Zurich-based xorlab secures €5 million to scale sovereign email security across Europe&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;苏黎世网络安全公司xorlab获得500万欧元融资，用于在欧洲扩展主权电子邮件安全服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲主权数据安全需求上升，xorlab获得资金将推动本地化邮件安全方案，为政府和企业客户提供新选择。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
+    <title>KAST在170多国推出企业账户</title>
+    <link href="https://fintechnews.sg/136589/digitalassets/kast-business/"/>
+    <id>tag:weekly-report,2026:event-2ab9aa34</id>
+    <published>2026-09-02T00:00:00Z</published>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;KAST Launches Business Accounts in More Than 170 Countries&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;数字资产平台KAST宣布在超过170个国家推出企业账户服务，扩展其全球业务覆盖范围。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太数字资产平台加速全球化扩张，跨境企业支付和数字资产服务需求增长，为相关基础设施和合规服务商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Ibtikar Fund投资AI留存初创Churn Solution</title>
-    <link href="http://wamda.com/2026/09/ibtikar-fund-invests-ai-retention-startup-churn-solution"/>
-    <id>tag:weekly-report,2026:event-b78d1fee</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ibtikar Fund invests in AI retention startup Churn Solution&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中东投资机构Ibtikar Fund对AI客户留存初创公司Churn Solution进行投资，具体金额未披露。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东投资机构加码AI客户留存赛道，为SaaS和电商企业提供降低流失率的工具合作机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：中东 | 来源：WAMDA&lt;/p&gt;</summary>
+    <title>Visa推出增强版A2A Protect防欺诈</title>
+    <link href="https://fintechnews.sg/136584/security/visa-a2a-protect/"/>
+    <id>tag:weekly-report,2026:event-77377580</id>
+    <published>2026-09-02T00:00:00Z</published>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Visa Targets Risky Transfers With Enhanced A2A Protect&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Visa推出增强版A2A Protect服务，旨在防范高风险转账交易，提升账户到账户支付的安全性。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付巨头加强A2A支付安全，亚太地区即时支付和开放银行发展迅速，对反欺诈技术需求激增。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>腾讯系AI芯片商燧原科技拟IPO募资$908m</title>
-    <link href="https://www.techinasia.com/news/tencentbacked-ai-chipmaker-enflame-targets-908m-shanghai-ipo"/>
-    <id>tag:weekly-report,2026:event-8a19684a</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Tencent-backed AI chipmaker Enflame targets $908m Shanghai IPO&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;腾讯投资的AI芯片公司燧原科技（Enflame）计划在上海IPO，目标融资9.08亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI芯片公司燧原科技启动9.08亿美元IPO，腾讯加持，为国产算力生态和半导体供应链带来投资与合作机会。&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>Ace Hardware强化零售媒体策略，新增网红与配送功能</title>
+    <link href="https://www.modernretail.co/marketing/ace-hardware-adds-influencer-doordash-and-weather-features-as-it-builds-out-a-retail-media-strategy/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
+    <id>tag:weekly-report,2026:event-890f08b7</id>
+    <published>2026-09-02T00:00:00Z</published>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ace Hardware adds influencer, DoorDash and weather features as it builds out a retail media strategy&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;五金零售连锁Ace Hardware扩展零售媒体策略，新增网红营销、DoorDash配送及天气相关功能。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球零售媒体网络扩张，传统零售商通过数字化功能增强广告变现能力，为零售科技服务商提供合作空间&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Huscarl获$5.6M融资拓展AI自保险市场</title>
-    <link href="https://contxto.com/en/funding/huscarl-raises-5-6m-to-bring-ai-to-the-growing-self-insurance-market/"/>
-    <id>tag:weekly-report,2026:event-c9cc1fa9</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Huscarl raises $5.6M to bring AI to the growing self-insurance market&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;拉美保险科技公司Huscarl完成560万美元融资，用于将AI技术应用于自保险市场。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;拉美保险科技初创获融资，为AI风控模型和保险数据分析工具提供商带来合作机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：拉美 | 来源：Contxto&lt;/p&gt;</summary>
+    <title>印度EdTech整合，ESDS完成IPO</title>
+    <link href="https://inc42.com/buzz/edtechs-big-consolidation-esds-bumper-ipo-more/"/>
+    <id>tag:weekly-report,2026:event-4d4f91c2</id>
+    <published>2026-09-02T00:00:00Z</published>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Edtech’s Big Consolidation, ESDS’ Bumper IPO &amp;amp; More&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度教育科技行业出现大规模整合，同时ESDS公司完成大规模IPO。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度教育科技行业整合加速，并购和IPO活动为投资银行和SaaS服务商带来业务机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Manus与Meta交易告吹，独立发展</title>
-    <link href="https://www.mobileworldlive.com/ai-cloud/manus-goes-solo-after-meta-deal-collapse/"/>
-    <id>tag:weekly-report,2026:event-db2e7a9e</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Manus goes solo after Meta deal collapse&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI公司Manus在Meta收购谈判破裂后，宣布独立运营，不再寻求被收购。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI行业并购遇阻，Manus独立运营后可能寻求新融资或战略合作，为AI基础设施和开发者工具供应商带来机会。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>新加坡考虑收紧年轻人社交媒体限制</title>
-    <link href="https://e.vnexpress.net/news/tech/tech-news/world-s-second-richest-country-considers-tighter-social-media-restrictions-for-young-people-5115622.html"/>
-    <id>tag:weekly-report,2026:event-6a5554dd</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;World’s second-richest country considers tighter social media restrictions for young people&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;全球第二富裕国家（指新加坡）考虑对年轻人实施更严格的社交媒体限制措施。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚数字监管趋严，为青少年保护技术、内容审核和合规解决方案提供商带来机会&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：越南 | 来源：VnExpress Tech&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Klarna CEO斥资1000万美元增持公司股票</title>
-    <link href="https://www.finextra.com/pressarticle/110765/klarna-ceo-sebastian-siemiatkowski-acquires-692506-shares-for-10-million?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-d917e7af</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Klarna CEO Sebastian Siemiatkowski acquires 692,506 shares for $10 million&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Klarna首席执行官Sebastian Siemiatkowski以1000万美元购入692,506股公司股票。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Klarna CEO增持股票显示对公司前景信心，可能影响市场对BNPL行业和公司估值的看法。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>新加坡推进稳定币专项监管</title>
-    <link href="https://fintechnews.sg/136561/digitalassets/singapore-stablecoin-regulation-mas-rules/"/>
-    <id>tag:weekly-report,2026:event-9fe05478</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Singapore Moves Closer to Dedicated Stablecoin Regulation&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡金融管理局（MAS）推进稳定币专项监管框架，距离正式实施更近一步。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡稳定币监管明确化，将吸引合规稳定币发行商和支付机构，为区块链基础设施供应商带来机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Savvy Games Group CEO卸任</title>
-    <link href="https://www.pocketgamer.biz/savvy-games-group-ceo-brian-ward-steps-down/"/>
-    <id>tag:weekly-report,2026:event-cee43806</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Savvy Games Group CEO Brian Ward steps down&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;沙特游戏集团Savvy Games Group的CEO Brian Ward宣布卸任。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;沙特主权基金旗下游戏集团高层变动，可能影响其投资和并购节奏，需关注中东游戏资本动向。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Verizon部署抗风暴通信保障措施</title>
-    <link href="https://www.mobileworldlive.com/verizon/verizon-outlines-measures-to-counter-storm-disruption/"/>
-    <id>tag:weekly-report,2026:event-46d968bc</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Verizon outlines measures to counter storm disruption&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国电信运营商Verizon宣布一系列措施，以应对风暴对通信网络的干扰，包括备用电源和应急响应预案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美电信运营商加强网络韧性，为应急通信设备、备用电源和网络管理软件供应商带来订单机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare更新D1 Worker Binding API文档</title>
-    <link href="https://developers.cloudflare.com/d1/worker-api/"/>
-    <id>tag:weekly-report,2026:event-d7062cd5</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: Workers Binding API&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare更新其Workers Binding API文档，用于D1数据库的Worker集成。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare AI Gateway整合计费并标准化模型名</title>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-09-01-billing-and-model-names/"/>
-    <id>tag:weekly-report,2026:event-f7e24550</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: AI Gateway consolidates monthly usage invoice line items and standardizes model names&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare对其AI Gateway产品进行更新，将月度使用计费行项目进行整合，并标准化了模型名称。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>全球知名IP手游开启预注册，预示移动游戏市场将迎来重磅产品，相关发行和渠道合作机会增加。</title>
-    <link href="https://www.pocketgamer.biz/monster-hunter-outlanders-opens-pre-registrations-with-elder-dragon-ruger-aidal-unveiled/"/>
-    <id>tag:weekly-report,2026:event-96d73a59</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Monster Hunter Outlanders opens pre-registrations with Elder Dragon Ruger Aidal unveiled&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;游戏《Monster Hunter Outlanders》开启预注册，并公布了新古龙种Ruger Aidal。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球知名IP手游开启预注册，预示移动游戏市场将迎来重磅产品，相关发行和渠道合作机会增加。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>谷歌推出AI提示式设计工具对标Canva</title>
-    <link href="https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/"/>
-    <id>tag:weekly-report,2026:event-12eb0228</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Google’s answer to Canva is an AI tool where you prompt instead of design&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;谷歌发布一款AI设计工具，用户通过提示词而非手动拖拽来生成设计，直接对标Canva。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI设计工具赛道竞争加剧，谷歌入局将推动企业级设计自动化需求，为云服务和API集成商带来新机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>FIS与爱立信合作推出钱包主导金融服务</title>
-    <link href="https://www.finextra.com/pressarticle/110770/fis-and-ericsson-combine-on-wallet-led-financial-services?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-f19fd9ed</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;FIS and Ericsson combine on wallet-led financial services&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;金融科技公司FIS与电信设备商爱立信合作，共同推出以钱包为核心的金融服务解决方案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;金融科技与电信巨头跨界合作，为移动钱包和电信金融服务生态带来新的合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Square Enix回应媒体传闻</title>
-    <link href="https://www.hd.square-enix.com/eng/ir/pdf/20260901_01_en.pdf"/>
-    <id>tag:weekly-report,2026:event-b8754406</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Square Enix: Sep 1, 2026 Regarding Today&amp;#x27;s Media Report 106KB&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Square Enix发布官方声明，回应今日媒体关于公司未来的报道，文件大小106KB。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太Square Enix就媒体报道发布声明&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 公司：Square Enix | 来源：Square Enix&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Icertis因举报人指控更换CEO</title>
-    <link href="https://inc42.com/buzz/icertis-replaced-ceo-after-whistleblower-alleged-favouritism-report/"/>
-    <id>tag:weekly-report,2026:event-7b8e533a</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Icertis Replaced CEO After Whistleblower Alleged Favouritism: Report&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;据Inc42报道，合同管理软件公司Icertis在举报人指控偏袒后更换了CEO。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太Icertis因举报者指控偏袒而撤换CEO&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Visa增强A2A支付欺诈预防技术</title>
-    <link href="https://www.finextra.com/newsarticle/48336/visa-boosts-a2a-fraud-prevention-tech?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-2f9d1e25</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Visa boosts A2A fraud prevention tech&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Visa宣布增强其账户到账户（A2A）支付欺诈预防技术，以应对相关支付风险。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付巨头强化A2A支付安全能力，为支付安全技术供应商和金融机构提供合作与采购机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>土耳其游戏产业蓬勃发展</title>
-    <link href="https://www.pocketgamer.biz/inside-trkiyes-flourishing-and-fast-moving-games-industry/"/>
-    <id>tag:weekly-report,2026:event-9aa9c17b</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;State of Play: Inside Türkiye&amp;#x27;s flourishing and fast-moving games industry&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;PocketGamer.biz发布关于土耳其游戏产业现状的深度报道，称其蓬勃发展且发展迅速。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东游戏产业快速崛起，土耳其作为区域中心，其游戏开发外包和本地化合作机会值得关注。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Anthropic与客户共研企业前沿安全防护</title>
-    <link href="https://www.anthropic.com/news/enterprise-frontier-safeguards"/>
-    <id>tag:weekly-report,2026:event-2b39f825</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Sep 1, 2026 Announcements Developing Enterprise Frontier Safeguards with our customers&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Anthropic宣布与客户合作开发企业级前沿安全防护措施。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI头部企业强化企业级安全合规，为金融、医疗等受监管行业提供定制化AI安全方案。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Anthropic | 来源：Anthropic Newsroom&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Tech in Asia发布关于技术加速流程的视频</title>
-    <link href="https://www.techinasia.com/video/when-minutes-replace-weeks"/>
-    <id>tag:weekly-report,2026:event-0fa2616c</id>
-    <published>2026-09-01T00:00:00Z</published>
-    <updated>2026-09-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;When minutes replaces weeks&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Tech in Asia发布视频，主题为“当分钟取代周”，内容涉及技术如何加速流程，但未提及具体公司或产品。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太科技媒体关注效率提升，视频内容可能涉及AI或自动化工具，对ICT从业者有启发意义。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：other | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>Grab在本周新增7个工程与平台相关职位</title>
+    <link href="https://www.grab.careers/en/jobs/744000146393159/head-of-controllership-thailand/"/>
+    <id>tag:weekly-report,2026:event-80b872ac</id>
+    <published>2026-09-02T00:00:00Z</published>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Grab集中新增7个工程与平台岗位&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;集中招聘显示Grab正在加强工程与平台能力建设，形成可核验的组织投入信号&lt;/p&gt;&lt;p&gt;标签：组织变化 | 类型：strategy | 地区：亚太 | 公司：Grab | 来源：Grab Jobs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-09-02</title>
@@ -199,6 +71,6 @@
     <id>tag:weekly-report,2026:aihot-9550ac8a</id>
     <published>2026-09-02T00:00:00Z</published>
     <updated>2026-09-02T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-09-02T00:07&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://x.com/rohanpaul_ai/status/2094454965502951544"&gt;OpenAI 宣布 ChatGPT 广告年化收入运行率达 10 亿美元（热度 51）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://x.com/rohanpaul_ai/status/2094598319876264232"&gt;Anthropic 发布研究 Training a Misaligned Reward Seeker（热度 19）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://x.com/TencentHunyuan/status/2094730117541155001"&gt;腾讯混元Hy4登顶代码榜全球第五（热度 19）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://garymarcus.substack.com/p/dwarkesh-patelss-wildly-popular-but"&gt;Dwarkesh Patel 发布 OpenAI/Hugging Face 事件解读（热度 19）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://x.com/emollick/status/2094289571521466555"&gt;OpenAI 约1200个AI智能体秘密通信（热度 17）&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-09-02T09:36&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://x.com/trq212/status/2094945951865520458"&gt;Anthropic 发布 Claude Fable 5.1（热度 213）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.ithome.com/0/997/207.htm"&gt;OpenAI 评定 Astra 达到 Critical 网络安全能力阈值（热度 45）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2094840179676660097"&gt;Google DeepMind 为 Gemini 推出 agentic 视频理解功能（热度 40）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://x.com/rohanpaul_ai/status/2094454965502951544"&gt;OpenAI 宣布 ChatGPT 广告年化收入运行率达 10 亿美元（热度 39）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design"&gt;Google 发布 Google Pics（热度 39）&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>

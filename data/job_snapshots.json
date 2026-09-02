@@ -1,11 +1,53 @@
 {
   "version": 1,
-  "generated_at": "2026-09-02T04:56:45.552178+08:00",
+  "generated_at": "2026-09-02T13:25:16.651928+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-02T04:56:45.552178+08:00",
+      "observed_at": "2026-09-02T13:25:16.651928+08:00",
       "jobs": [
+        {
+          "id": "744000146884779",
+          "title": "Enterprise Risk Management, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000146884779/enterprise-risk-management-assistant-manager/",
+          "function_tags": [
+            "compliance"
+          ]
+        },
+        {
+          "id": "744000146883599",
+          "title": "Commercial Lending Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000146883599/commercial-lending-specialist/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146882649",
+          "title": "Key Account Manager, Enterprise Merchants",
+          "url": "https://www.grab.careers/en/jobs/744000146882649/key-account-manager-enterprise-merchants/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146882579",
+          "title": "Senior Product Designer, Payments",
+          "url": "https://www.grab.careers/en/jobs/744000146882579/senior-product-designer-payments/",
+          "function_tags": [
+            "payments"
+          ]
+        },
+        {
+          "id": "744000146880489",
+          "title": "Enterprise Security Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000146880489/enterprise-security-engineer/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000146878924",
+          "title": "Intern, Employer Branding and Recruitment Marketing",
+          "url": "https://www.grab.careers/en/jobs/744000146878924/intern-employer-branding-and-recruitment-marketing/",
+          "function_tags": []
+        },
         {
           "id": "744000146778669",
           "title": "Illustration Designer",
@@ -62,12 +104,6 @@
           "function_tags": []
         },
         {
-          "id": "744000146573809",
-          "title": "Intern, Employer Branding and Recruitment Marketing",
-          "url": "https://www.grab.careers/en/jobs/744000146573809/intern-employer-branding-and-recruitment-marketing/",
-          "function_tags": []
-        },
-        {
           "id": "744000146514470",
           "title": "Senior Principal Data Scientist (Fulfilment)",
           "url": "https://www.grab.careers/en/jobs/744000146514470/senior-principal-data-scientist-fulfilment/",
@@ -88,44 +124,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000146439114",
-          "title": "Senior Data Scientist (Trust & Fraud)",
-          "url": "https://www.grab.careers/en/jobs/744000146439114/senior-data-scientist-trust-fraud/",
-          "function_tags": []
-        },
-        {
-          "id": "744000146422594",
-          "title": "Manager, Policy and Economic Research",
-          "url": "https://www.grab.careers/en/jobs/744000146422594/manager-policy-and-economic-research/",
-          "function_tags": []
-        },
-        {
-          "id": "744000146408309",
-          "title": "Intern, Analytics & Projects, GrabFood",
-          "url": "https://www.grab.careers/en/jobs/744000146408309/intern-analytics-projects-grabfood/",
-          "function_tags": []
-        },
-        {
-          "id": "744000146401039",
-          "title": "Intern, Marketing and Partnership (GrabRentals)",
-          "url": "https://www.grab.careers/en/jobs/744000146401039/intern-marketing-and-partnership-grabrentals/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000146393159",
-          "title": "Head of Controllership - Thailand",
-          "url": "https://www.grab.careers/en/jobs/744000146393159/head-of-controllership-thailand/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-02T04:56:45.552178+08:00",
+      "observed_at": "2026-09-02T13:25:16.651928+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -248,7 +252,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-02T04:56:45.552178+08:00",
+      "observed_at": "2026-09-02T13:25:16.651928+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
