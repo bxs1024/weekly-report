@@ -1,7 +1,110 @@
 {
   "version": 1,
-  "generated_at": "2026-09-02T04:56:45.552178+08:00",
+  "generated_at": "2026-09-02T13:25:16.651928+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-0343cfb9fafa28a1",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "compliance",
+      "window": "2026-W36",
+      "window_start": "2026-09-02",
+      "window_end": "2026-09-02",
+      "detected_at": "2026-09-02T13:25:16.651928+08:00",
+      "baseline_count": 17,
+      "current_count": 17,
+      "added_count": 6,
+      "removed_count": 6,
+      "clusters": {
+        "compliance": 1,
+        "payments": 1,
+        "engineering": 1
+      },
+      "removed_clusters": {
+        "partnerships": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000146884779",
+          "title": "Enterprise Risk Management, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000146884779/enterprise-risk-management-assistant-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146883599",
+          "title": "Commercial Lending Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000146883599/commercial-lending-specialist/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146882649",
+          "title": "Key Account Manager, Enterprise Merchants",
+          "url": "https://www.grab.careers/en/jobs/744000146882649/key-account-manager-enterprise-merchants/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146882579",
+          "title": "Senior Product Designer, Payments",
+          "url": "https://www.grab.careers/en/jobs/744000146882579/senior-product-designer-payments/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146880489",
+          "title": "Enterprise Security Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000146880489/enterprise-security-engineer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146878924",
+          "title": "Intern, Employer Branding and Recruitment Marketing",
+          "url": "https://www.grab.careers/en/jobs/744000146878924/intern-employer-branding-and-recruitment-marketing/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146573809",
+          "title": "Intern, Employer Branding and Recruitment Marketing",
+          "url": "https://www.grab.careers/en/jobs/744000146573809/intern-employer-branding-and-recruitment-marketing/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146439114",
+          "title": "Senior Data Scientist (Trust & Fraud)",
+          "url": "https://www.grab.careers/en/jobs/744000146439114/senior-data-scientist-trust-fraud/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146422594",
+          "title": "Manager, Policy and Economic Research",
+          "url": "https://www.grab.careers/en/jobs/744000146422594/manager-policy-and-economic-research/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146408309",
+          "title": "Intern, Analytics & Projects, GrabFood",
+          "url": "https://www.grab.careers/en/jobs/744000146408309/intern-analytics-projects-grabfood/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146401039",
+          "title": "Intern, Marketing and Partnership (GrabRentals)",
+          "url": "https://www.grab.careers/en/jobs/744000146401039/intern-marketing-and-partnership-grabrentals/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146393159",
+          "title": "Head of Controllership - Thailand",
+          "url": "https://www.grab.careers/en/jobs/744000146393159/head-of-controllership-thailand/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-feca874b109a8711",
       "entity_id": "grab",
