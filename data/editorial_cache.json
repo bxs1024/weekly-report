@@ -394,108 +394,108 @@
       "generated_at": "2026-08-31 04:59"
     },
     "weekly:2026-W35": {
-      "input_hash": "fa3857cf4c2628d4200f1ac212ea278423a326308415c1344a48dcd0d0a6b56f",
+      "input_hash": "f9b323b8e09feba335836cde9ab46ab94e04a0caf9a9ee4065a7f025f750e6e9",
       "editorial": {
-        "editorial_title": "AI投资周期拉长，平台巨头转向纵深",
-        "mainline": "中资科技巨头AI投入周期拉长，腾讯、阿里财报引发市场对资本开支持续性的重估。同时，Rakuten Viber切入eSIM、腾讯云深耕沙特，平台型公司正将AI能力与区域扩张绑定，指向下一阶段竞争从算力军备转向场景落地与合规适配。",
+        "editorial_title": "中资AI重投入，拉美电商加速扩张",
+        "mainline": "阿里腾讯AI资本开支周期拉长，市场重估中资云与芯片需求。同时拉美电商MercadoLibre巴西扩网带动股价，区域平台竞争升温，卖家生态与物流支付服务商迎来窗口期。",
         "themes": {
-          "ai_infra": "摩根大通研判阿里AI投资周期将延长，腾讯财报亦显示AI投入激增，市场开始重新定价中资云厂商的长期资本开支曲线。MiniMax介入Flova与LibTV争议，显示AI应用层竞争已延伸至内容分发环节，投资逻辑从基础设施向生态治理扩散。",
-          "expansion": "Rakuten Viber在通讯应用中直接嵌入eSIM服务，将社交流量转化为电信业务入口，通讯与电信的边界进一步模糊。腾讯云与TruKKer合作扩展沙特云业务，阿里发布国际版QwenWork，中资云厂商正通过绑定本地行业伙伴切入中东和全球办公场景。",
-          "payments": "亚洲网络犯罪转向去中心化和AI工具，攻击手法升级迫使银行和支付机构重估安全投入。Naver和Kakao Pay分别推出信用卡和借记卡关联服务，在扩大用户绑定的同时，也面临更高的反欺诈要求，安全能力正成为支付产品差异化的新维度。",
-          "developer": "Gamescom多家大厂缺席，线下展会作为游戏宣发核心阵地的地位正在松动。CookieRun: Crumble收入超1430万美元，验证了中小体量产品通过线上运营和IP联动也能实现可观回报。X推出企业聊天机器人API，开发者生态的注意力正从传统游戏渠道向社交平台和AI工具迁移。",
-          "commerce": "MercadoLibre巴西市场扩张加速，卖家生态增长直接推动股价上涨7.6%，平台正将优势从交易向物流和金融服务延伸。亚马逊推出付费SSD配送选项，Sur La Table试水二手交易，Block推出Square Base，全球电商平台都在通过细分服务提升单用户价值。",
-          "compliance": "Meta与Roblox在菲律宾加强儿童安全措施，波兰要求欧盟对Meta罚款2.5亿欧元，全球监管对平台内容审核和未成年人保护的要求持续收紧。韩国启动安全AI开发招标，SKT、Naver、LG三方竞标，显示AI安全正从合规成本转化为政府订单驱动的市场机会。"
+          "ai_infra": "摩根大通判断阿里AI投资周期将延长，腾讯财报亦显示资本开支激增，市场对中资云与AI芯片供应链的长期需求预期被系统性上修。MiniMax介入内容平台争议，显示AI应用层竞争已延伸至内容分发环节。",
+          "expansion": "Rakuten Viber推出eSIM服务，将通讯应用与全球旅行数据连接打通，通讯平台向电信虚拟运营商角色延伸。腾讯云与TruKKer合作扩展沙特云业务，阿里发布国际版QwenWork，中资云厂商在中东和亚洲生产力市场的布局同步提速。",
+          "payments": "亚洲网络犯罪转向去中心化和AI工具，攻击手段升级迫使银行与支付平台加大安全投入。Naver与Kakao Pay分别推出新信用卡和借记卡关联服务，在强化用户粘性的同时，也需应对更复杂的欺诈风险。",
+          "developer": "Gamescom多家大厂缺席，线下展会吸引力下降，游戏发行商重新评估投入，转向自有渠道和线上发布。X推出企业聊天机器人API，社交平台向开发者开放新入口，平台生态竞争从游戏延伸至企业服务。",
+          "commerce": "MercadoLibre加速巴西市场扩张，卖家增长提速推动股价上涨7.6%，拉美电商竞争进入新阶段。亚马逊推出付费SSD配送选项，Block发布Square Base，全球电商与支付巨头同步加码物流和商户工具，争夺卖家生态。",
+          "compliance": "Meta与Roblox加强菲律宾儿童安全措施，东南亚社交和游戏平台面临更严监管压力。TRM Labs聘请MAS前高管负责亚太政策，韩国启动安全AI开发招标，SKT、Naver、LG三方竞标，合规与安全技术需求从被动应对转向主动投入。"
         },
         "theme_titles": {
-          "ai_infra": "中资巨头AI投资周期拉长，资本开支预期重估",
-          "expansion": "通讯应用跨界eSIM，云厂商绑定区域物流",
-          "payments": "亚洲金融科技安全威胁升级，支付巨头加码防御",
-          "developer": "游戏展会线下吸引力下降，发行商转向自有渠道",
-          "commerce": "拉美电商加速扩张，平台服务向物流与二手延伸",
-          "compliance": "东南亚合规压力上升，平台加码儿童安全与AI治理"
+          "ai_infra": "阿里腾讯AI投资周期拉长，中资云需求预期上修",
+          "expansion": "Rakuten Viber切入eSIM，通讯与电信服务融合加速",
+          "payments": "亚洲金融科技安全威胁升级，支付平台加速产品防御",
+          "developer": "Gamescom大厂缺席，游戏发行转向自有渠道与线上",
+          "commerce": "MercadoLibre巴西扩网推涨股价，拉美电商竞争升温",
+          "compliance": "东南亚儿童安全合规收紧，平台与安全服务商迎机会"
         }
       },
-      "channel": "方舟 V4 Flash",
-      "generated_at": "2026-09-02 05:01"
+      "channel": "DeepSeek",
+      "generated_at": "2026-09-03 05:20"
     },
     "monthly:2026-08": {
-      "input_hash": "8a7525c939e1be168c8fe0f304e34dd60b90dcf5abb25b7f24937f6c3f0494df",
+      "input_hash": "3c6f7a3a62b149e40aefaf0fa03971af9a462807545ee100b5fcba1ac179a3cf",
       "editorial": {
-        "editorial_title": "AI资本开支外溢，区域电商与支付同步提速",
-        "mainline": "本月AI基础设施投资从美国巨头向中资扩散，腾讯、阿里财报显示资本开支周期拉长，AI投资成为市场定价核心。与此同时，区域扩张与电商物流升温，TikTok Shop日本周年复盘、Sea物流支出扩大、MercadoLibre巴西扩张，显示新兴市场电商进入规模兑现期。支付与金融科技在亚太持续活跃，但网络犯罪向AI工具迁移构成新变量。整体看，AI资本开支正外溢至区域商业基础设施，形成投资与运营的共振。",
+        "editorial_title": "AI军备竞赛与新兴市场扩张双线并进",
+        "mainline": "本月，中资AI基础设施投资持续加码，腾讯、阿里等巨头财报显示资本开支周期延长，指向AI军备竞赛进入持久战。与此同时，区域扩张与电商物流显著升温，TikTok Shop日本、腾讯云中东合作及Sea、MercadoLibre的扩张表明，新兴市场成为增长引擎。上月以支付科技为主，本月转向AI与实体扩张，反映资本从金融创新流向基础设施与市场渗透。",
         "themes": {
           "ai_infra": {
-            "narrative": "腾讯财报引发市场对AI投资激增的关注，摩根大通判断阿里AI投资周期或延长，AI基础设施投入从美国巨头扩散至中资，成为影响估值的关键变量。",
+            "narrative": "本月AI基础设施投资热度不减，腾讯财报显示AI投资激增，摩根大通预计阿里AI投资周期或延长，OpenAI通过广告扩大AI访问，显示头部玩家正将AI视为长期战略，而非短期风口。",
             "drivers": [
               "腾讯财报引发市场关注，AI投资激增",
               "摩根大通：阿里AI投资周期或延长",
               "OpenAI通过ChatGPT广告扩大AI访问"
             ],
-            "uncertainty": "中资AI投资是否转化为实际收入增长，尚待后续财报验证。",
-            "next_validation": "下月关注腾讯、阿里后续资本开支指引及AI相关收入披露。"
+            "uncertainty": "投资回报周期未明，可能因监管或技术瓶颈放缓。",
+            "next_validation": "下月观察腾讯、阿里资本开支指引是否上调，以及AI收入贡献是否提升。"
           },
           "payments": {
-            "narrative": "Naver、Kakao Pay、乐天证券等推出新支付与金融服务，亚太支付创新持续。但亚洲网络犯罪转向去中心化和AI工具，安全风险同步升级。",
+            "narrative": "亚太支付领域活跃度上升，Naver、Kakao Pay推出新信用卡服务，乐天证券筹备NISA，同时亚洲网络犯罪转向AI工具，推动支付公司加强安全投入，嵌入式金融成为竞争焦点。",
             "drivers": [
               "Naver推出现代信用卡Edition 3",
               "Kakao Pay推借记卡关联服务",
               "亚洲网络犯罪转向去中心化和AI工具"
             ],
-            "uncertainty": "新服务用户接受度及监管反应尚不明确。",
-            "next_validation": "下月观察新支付产品的用户增长及监管动态。"
-          },
-          "expansion": {
-            "narrative": "TikTok Shop日本一周年复盘报告发布，腾讯云与TruKKer合作备战LEAP 2026，中资区域扩张从电商延伸至云服务，合作网络加密。",
-            "drivers": [
-              "TikTok Shop日本一周年复盘报告发布",
-              "腾讯云与TruKKer合作，备战LEAP 2026",
-              "Salim收购Keppel数据中心股权，Gojek扩大合作"
-            ],
-            "uncertainty": "日本电商竞争激烈，TikTok Shop能否持续增长待观察。",
-            "next_validation": "下月关注TikTok Shop日本用户留存及腾讯云中东项目进展。"
+            "uncertainty": "监管对嵌入式金融的合规要求可能收紧。",
+            "next_validation": "关注新服务用户采纳率及监管动态。"
           },
           "developer": {
-            "narrative": "《王国之心4》确认发售时间，《勇者斗恶龙》开发商盈利恢复，游戏内容端活跃。但乐天因移动投资股价暴跌10%，平台生态内部业绩分化。",
+            "narrative": "开发者生态延续，游戏公司如《王国之心4》确认发售、《勇者斗恶龙》开发商盈利，但乐天因移动投资股价暴跌，显示平台生态中内容与基础设施投资回报分化。",
             "drivers": [
               "《王国之心4》确认2027年底发售",
               "《勇者斗恶龙》开发商因新作热销恢复盈利",
               "乐天股价暴跌10%，移动投资拖累业绩"
             ],
-            "uncertainty": "游戏大作发售周期长，短期业绩波动大。",
-            "next_validation": "下月观察乐天移动业务减亏进展及新游上线表现。"
+            "uncertainty": "游戏大作发售时间尚远，短期业绩波动大。",
+            "next_validation": "观察乐天移动业务减亏进展及新游上线表现。"
+          },
+          "expansion": {
+            "narrative": "区域扩张显著升温，TikTok Shop日本周年复盘，腾讯云与TruKKer合作备战LEAP 2026，Salim收购数据中心股权，Gojek扩大合作，显示中资平台正通过本地合作渗透新兴市场。",
+            "drivers": [
+              "TikTok Shop日本一周年复盘报告发布",
+              "腾讯云与TruKKer合作，备战LEAP 2026",
+              "Salim收购Keppel数据中心股权，Gojek扩大合作"
+            ],
+            "uncertainty": "地缘政治风险可能阻碍部分合作落地。",
+            "next_validation": "关注LEAP 2026是否带来新订单，及TikTok Shop日本GMV增长。"
           },
           "commerce": {
-            "narrative": "Sea物流支出扩大，MercadoLibre巴西扩张推动股价上涨，前Jumia高管创立Kapu获融资，新兴市场电商从烧钱转向规模兑现，物流成为竞争焦点。",
+            "narrative": "电商与物流升温，Sea Limited物流支出扩大，MercadoLibre巴西扩张推动股价上涨，前Jumia高管创立Kapu获融资，显示新兴市场电商竞争加剧，物流基础设施成为胜负手。",
             "drivers": [
               "Sea Limited上半年营收$14.9B，物流支出扩大",
               "MercadoLibre巴西扩张推动股价涨7.6%",
               "前Jumia高管创立Kapu获$7.6M融资"
             ],
-            "uncertainty": "物流成本上升可能侵蚀利润，新兴市场消费力波动。",
-            "next_validation": "下月关注Sea物流效率及MercadoLibre巴西市场份额变化。"
+            "uncertainty": "物流成本高企可能侵蚀利润，新兴市场货币波动影响业绩。",
+            "next_validation": "观察Sea物流效率指标及Kapu市场拓展进展。"
           },
           "operations": {
-            "narrative": "美团营收同比+14.4%且净利润为正，Netmarble Q2营收$505.1M，AST SpaceMobile营收大幅增长，显示部分企业已实现盈利改善，但乐天等仍受拖累。",
+            "narrative": "经营层面，Netmarble和AST SpaceMobile营收增长，美团净利润为正，显示部分科技公司已实现盈利改善，但Women in Games Europe成立等组织变化显示行业仍在调整。",
             "drivers": [
-              "美团营收同比+14.4%，净利润为正",
               "Netmarble Q2营收$505.1M，七宗罪IP表现强劲",
-              "AST SpaceMobile营收大幅增长"
+              "AST SpaceMobile营收大幅增长",
+              "美团营收同比+14.4%，净利润为正"
             ],
-            "uncertainty": "盈利改善是否可持续，受宏观及竞争影响。",
-            "next_validation": "下月关注美团外卖竞争及Netmarble新游表现。"
+            "uncertainty": "盈利改善是否可持续，受宏观环境影响。",
+            "next_validation": "关注下季度财报是否延续增长趋势。"
           }
         },
         "theme_titles": {
-          "ai_infra": "中资AI投资周期拉长，资本开支成定价焦点",
-          "payments": "亚太支付创新活跃，但网络犯罪转向AI工具",
-          "expansion": "中资区域扩张升温，TikTok Shop日本周年复盘",
-          "developer": "游戏与数据平台分化，乐天移动拖累股价",
-          "commerce": "全球电商物流升温，新兴市场进入规模兑现期",
-          "operations": "亚太经营分化，美团盈利与Netmarble增长并行"
+          "ai_infra": "中资AI投资周期拉长，腾讯阿里领跑",
+          "payments": "亚太支付转向AI风控与嵌入式金融",
+          "developer": "游戏与数据平台生态分化，乐天承压",
+          "expansion": "中资平台加速中东与东南亚落地",
+          "commerce": "电商物流成本攀升，新兴市场成增长极",
+          "operations": "游戏与卫星公司盈利改善，美团稳健"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-01 14:04"
+      "generated_at": "2026-09-03 05:21"
     },
     "monthly:2026-07": {
       "input_hash": "a263edbf2d1b551e8582f3a08bfb9e72350343209f2ffa0ced37689ab67911f5",
@@ -719,29 +719,29 @@
       "generated_at": "2026-08-31 14:44"
     },
     "weekly:2026-W36": {
-      "input_hash": "274bd0894a49c70f2a7c4387f11110da19ff0e2fe3f1d3589dbfc53648e3e58f",
+      "input_hash": "b0cf19db0f1f8ac5ba340d0259d04a329aea51c7951d7dbd5e2506b1a0eb216d",
       "editorial": {
-        "editorial_title": "AI落地与支付合规双线加速",
-        "mainline": "本期AI模型出口松绑与韩国会员支付生态打通并行，显示AI从训练走向场景落地，支付从工具走向生态整合。监管同步收紧，新加坡稳定币框架与AI安全警告为扩张划定边界。",
+        "editorial_title": "韩国平台生态合纵连横，AI出海监管双线并进",
+        "mainline": "本期最值得关注的是韩国平台巨头Naver与Kakao的生态扩张：Naver与CJ ONE打通会员权益，Kakao即将推出会员服务，支付与零售的联动正在加速。同时，谷歌获准出口高精度AI模型，Naver跟进，AI模型的跨境流动成为新变量。",
         "themes": {
-          "ai_infra": "谷歌获准出口高精度模型后，Naver迅速跟进，韩国AI供给端打开新通道。与此同时，本土资本转向垂直场景，Intellicia获Kakao Ventures注资，前大厂团队的AI滑雪项目也获厚雪投资，显示AI投资从通用转向细分落地。",
-          "expansion": "CJ ONE与Naver Pay打通会员权益，Naver-Kurly合作交易额增长，显示韩国本地生态正通过支付+会员绑定提升粘性。TikTok Shop日本发布一周年复盘，中资出海在日进入精细化运营阶段。",
-          "payments": "Visa升级A2A Protect，FIS与爱立信推钱包主导金融服务，支付竞争从功能转向安全与场景。BIS明确看好代币化存款而非稳定币，为机构支付创新定调，稳定币监管框架或加速分化。",
-          "compliance": "新加坡拟为稳定币设专门监管框架，吸引合规发行商。监管机构同时警告金融机构应对前沿AI网络威胁，Anthropic与客户共研防护，显示AI安全从技术议题上升为合规刚需。",
-          "commerce": "Jumia启动20天品牌节，以独家优惠吸引品牌方，测试其物流与营销能力。Sea Limited物流支出扩大，沃尔玛加码履约中心，显示电商竞争重心向履约效率倾斜。",
-          "developer": "Square Enix推出FF系列迷你旋律电视玩具，瞄准怀旧玩家，拓展IP衍生品市场。腾讯音乐拟借款回购并再融资离岸债，显示中资平台在资本运作上更趋主动。"
+          "ai_infra": "谷歌获准向韩国出口高精度AI模型后，Naver迅速跟进推出同类服务，标志着美韩AI模型流通进入新阶段。与此同时，韩国本土AI初创Intellicia获Kakao Ventures投资，前大厂团队的AI滑雪项目也获资本加持，显示AI在垂直场景的落地与资本布局同步加速。",
+          "expansion": "CJ ONE与Naver Pay打通会员权益，Naver与Kurly的合作交易额增长，显示韩国平台正通过跨界合作扩大用户粘性。TikTok Shop日本发布一周年复盘，表明其本地化运营进入深水区。OpenPayd获美国州级牌照，为跨境支付打开新通道。",
+          "payments": "CJ OliveNetworks推出CJ ONE与Naver Pay的联动服务，Kakao也计划下月推出会员服务，支付工具正成为会员体系的核心入口。Visa发布增强版A2A Protect，World开源ProveKit，显示支付安全与身份验证技术同步升级，为开放银行与即时支付铺路。",
+          "developer": "W4 Games获1800万美元投资，押注Godot引擎增长，开源游戏引擎商业化提速。Square Enix推出FF系列迷你旋律电视玩具，IP衍生品瞄准怀旧玩家。Global Game Jam与Zoud合办金融素养游戏赛，奖金14万美元，游戏化教育获关注。Uber以150亿美元收购Delivery Hero获董事会支持，本地生活服务整合加剧。",
+          "commerce": "Jumia品牌节2026启动，20天独家优惠吸引品牌方入驻，非洲电商进入促销驱动增长阶段。Sea Limited上半年营收149亿美元但物流支出扩大，显示履约成本压力。Magalu与Mercado Livre达成合作，拉美电商巨头联手对抗亚马逊。沃尔玛投资13亿美元建履约中心，强化最后一公里配送。",
+          "compliance": "新加坡推进稳定币专门监管，为合规发行商提供明确框架，吸引金融机构入场。xorlab获500万欧元融资扩展欧洲主权邮件安全，监管警告金融机构应对前沿AI网络威胁，Visa加强A2A欺诈预防技术，显示支付安全与AI防御成为合规新重点。"
         },
         "theme_titles": {
-          "ai_infra": "韩国AI模型出口松绑，本土创投加注垂直应用",
-          "expansion": "韩国会员体系与支付深度整合，TikTok Shop日本迎周年考",
-          "payments": "支付巨头转向防欺诈与钱包主导，代币化存款获BIS背书",
-          "compliance": "新加坡推进稳定币专门监管，AI安全成金融合规新议题",
-          "commerce": "Jumia品牌节启动，非洲电商供应链迎考验",
-          "developer": "Square Enix推怀旧周边，腾讯音乐借离岸债回购"
+          "ai_infra": "",
+          "expansion": "",
+          "payments": "",
+          "developer": "",
+          "commerce": "",
+          "compliance": ""
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-02 13:30"
+      "generated_at": "2026-09-03 05:21"
     }
   }
 }

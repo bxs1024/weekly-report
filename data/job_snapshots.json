@@ -1,11 +1,34 @@
 {
   "version": 1,
-  "generated_at": "2026-09-02T13:25:16.651928+08:00",
+  "generated_at": "2026-09-03T04:55:55.252324+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-02T13:25:16.651928+08:00",
+      "observed_at": "2026-09-03T04:55:55.252324+08:00",
       "jobs": [
+        {
+          "id": "744000146986264",
+          "title": "Associate L2 Support Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000146986264/associate-l2-support-engineer/",
+          "function_tags": [
+            "engineering",
+            "operations"
+          ]
+        },
+        {
+          "id": "744000146939559",
+          "title": "Assistant Manager, Finance Controllership",
+          "url": "https://www.grab.careers/en/jobs/744000146939559/assistant-manager-finance-controllership/",
+          "function_tags": []
+        },
+        {
+          "id": "744000146904216",
+          "title": "Sales Manager",
+          "url": "https://www.grab.careers/en/jobs/744000146904216/sales-manager/",
+          "function_tags": [
+            "sales"
+          ]
+        },
         {
           "id": "744000146884779",
           "title": "Enterprise Risk Management, Assistant Manager",
@@ -116,20 +139,12 @@
           "function_tags": [
             "operations"
           ]
-        },
-        {
-          "id": "744000146462799",
-          "title": "Software Engineering Manager II (Mobile)",
-          "url": "https://www.grab.careers/en/jobs/744000146462799/software-engineering-manager-ii-mobile/",
-          "function_tags": [
-            "engineering"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-02T13:25:16.651928+08:00",
+      "observed_at": "2026-09-03T04:55:55.252324+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -144,14 +159,6 @@
           "function_tags": [
             "ai",
             "engineering"
-          ]
-        },
-        {
-          "id": "8064526",
-          "title": "AI Product Manager, Professional Services",
-          "url": "https://stripe.com/careers/listing/ai-product-manager-professional-services/8064526",
-          "function_tags": [
-            "ai"
           ]
         },
         {
@@ -247,12 +254,20 @@
           "function_tags": [
             "sales"
           ]
+        },
+        {
+          "id": "7789539",
+          "title": "Account Executive, Commercial Hunter (Japanese Fluency)",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-hunter-japanese-fluency/7789539",
+          "function_tags": [
+            "sales"
+          ]
         }
       ]
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-02T13:25:16.651928+08:00",
+      "observed_at": "2026-09-03T04:55:55.252324+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
@@ -436,15 +451,15 @@
           "function_tags": []
         },
         {
-          "id": "e966b3cf-3301-4df1-a657-15182f697064",
-          "title": "Technical Account Manager, Enterprise West Remote - Los Angeles",
-          "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-west_e966b3cf-3301-4df1-a657-15182f697064",
-          "function_tags": []
-        },
-        {
           "id": "5ad7b193-2d97-46ab-b173-5e83e0a4a660",
           "title": "Technical Account Manager, Enterprise West Remote - Canada",
           "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-west_5ad7b193-2d97-46ab-b173-5e83e0a4a660",
+          "function_tags": []
+        },
+        {
+          "id": "e966b3cf-3301-4df1-a657-15182f697064",
+          "title": "Technical Account Manager, Enterprise West Remote - Los Angeles",
+          "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-west_e966b3cf-3301-4df1-a657-15182f697064",
           "function_tags": []
         },
         {
