@@ -543,5 +543,40 @@
   "score": 5,
   "first_seen": "2026-09-02",
   "samples": 1
+ },
+ "palo alto networks|ma|console": {
+  "score": 7,
+  "first_seen": "2026-09-02",
+  "samples": 1
+ },
+ "sbf|strategy|kadin": {
+  "score": 7,
+  "first_seen": "2026-09-03",
+  "samples": 1
+ },
+ "mufg|funding|21": {
+  "score": 5,
+  "first_seen": "2026-09-02",
+  "samples": 1
+ },
+ "tabapay|funding|155m": {
+  "score": 8,
+  "first_seen": "2026-09-03",
+  "samples": 1
+ },
+ "hiddenlayer|funding|100m": {
+  "score": 7,
+  "first_seen": "2026-09-02",
+  "samples": 1
+ },
+ "elucid|funding|55m": {
+  "score": 4,
+  "first_seen": "2026-09-02",
+  "samples": 1
+ },
+ "xpeng|strategy|100000": {
+  "score": 6,
+  "first_seen": "2026-09-02",
+  "samples": 1
  }
 }

@@ -1,25 +1,29 @@
 {
-  "observed_at": "2026-09-03T04:55:55.252324+08:00",
+  "observed_at": "2026-09-03T13:27:07.854685+08:00",
   "source_count": 3,
-  "raw_count": 63,
+  "raw_count": 65,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 4,
-      "inventory_count": 19,
+      "count": 15,
+      "inventory_count": 20,
       "signal_count": 1,
-      "added_count": 3,
-      "removed_count": 1,
+      "added_count": 8,
+      "removed_count": 7,
       "clusters": {
-        "engineering": 1,
         "operations": 1,
-        "sales": 1
+        "ai": 1,
+        "engineering": 2,
+        "payments": 1
       },
       "removed_clusters": {
-        "engineering": 1
+        "sales": 1,
+        "ai": 1,
+        "engineering": 1,
+        "operations": 1
       }
     },
     "Stripe Jobs": {
@@ -27,29 +31,27 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 2,
+      "count": 0,
       "inventory_count": 15,
       "signal_count": 0,
-      "added_count": 1,
-      "removed_count": 1,
-      "clusters": {
-        "sales": 1
-      },
-      "removed_clusters": {
-        "ai": 1
-      }
+      "added_count": 0,
+      "removed_count": 0,
+      "clusters": {},
+      "removed_clusters": {}
     },
     "Shopify Jobs": {
       "method": "jobs_snapshot",
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 29,
+      "count": 1,
+      "inventory_count": 30,
       "signal_count": 0,
-      "added_count": 0,
+      "added_count": 1,
       "removed_count": 0,
-      "clusters": {},
+      "clusters": {
+        "partnerships": 1
+      },
       "removed_clusters": {}
     }
   },
@@ -66,47 +68,117 @@
       "window": "2026-W36",
       "window_start": "2026-09-03",
       "window_end": "2026-09-03",
-      "detected_at": "2026-09-03T04:55:55.252324+08:00",
-      "baseline_count": 17,
-      "current_count": 19,
-      "added_count": 3,
-      "removed_count": 1,
+      "detected_at": "2026-09-03T13:27:07.854685+08:00",
+      "baseline_count": 19,
+      "current_count": 20,
+      "added_count": 8,
+      "removed_count": 7,
       "clusters": {
-        "engineering": 1,
         "operations": 1,
-        "sales": 1
+        "ai": 1,
+        "engineering": 2,
+        "payments": 1
       },
       "removed_clusters": {
-        "engineering": 1
+        "sales": 1,
+        "ai": 1,
+        "engineering": 1,
+        "operations": 1
       },
       "evidence_refs": [
         {
-          "job_id": "744000146986264",
-          "title": "Associate L2 Support Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000146986264/associate-l2-support-engineer/",
+          "job_id": "744000147146939",
+          "title": "Training Operations Associate",
+          "url": "https://www.grab.careers/en/jobs/744000147146939/training-operations-associate/",
           "change": "added"
         },
         {
-          "job_id": "744000146939559",
-          "title": "Assistant Manager, Finance Controllership",
-          "url": "https://www.grab.careers/en/jobs/744000146939559/assistant-manager-finance-controllership/",
+          "job_id": "744000147146029",
+          "title": "Principal Machine Learning Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000147146029/principal-machine-learning-engineer/",
           "change": "added"
         },
         {
-          "job_id": "744000146904216",
-          "title": "Sales Manager",
-          "url": "https://www.grab.careers/en/jobs/744000146904216/sales-manager/",
+          "job_id": "744000147145779",
+          "title": "Associate, Driver Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000147145779/associate-driver-acquisition/",
           "change": "added"
         },
         {
-          "job_id": "744000146462799",
-          "title": "Software Engineering Manager II (Mobile)",
-          "url": "https://www.grab.careers/en/jobs/744000146462799/software-engineering-manager-ii-mobile/",
+          "job_id": "744000147145460",
+          "title": "Regional Marketing Manager, B2B",
+          "url": "https://www.grab.careers/en/jobs/744000147145460/regional-marketing-manager-b2b/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000147144249",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000147144249/senior-software-engineer-backend/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000147142749",
+          "title": "Associate, Premium Business - Mobility",
+          "url": "https://www.grab.careers/en/jobs/744000147142749/associate-premium-business-mobility/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000147141290",
+          "title": "Payment & Insurance Associate",
+          "url": "https://www.grab.careers/en/jobs/744000147141290/payment-insurance-associate/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000147140580",
+          "title": "Head of Financial Planning and Analysis",
+          "url": "https://www.grab.careers/en/jobs/744000147140580/head-of-financial-planning-and-analysis/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146677694",
+          "title": "Senior Salesforce Business Analyst",
+          "url": "https://www.grab.careers/en/jobs/744000146677694/senior-salesforce-business-analyst/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146650079",
+          "title": "Senior AI Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000146650079/senior-ai-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146635539",
+          "title": "Strategy & Planning GrabFood, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000146635539/strategy-planning-grabfood-associate/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146617137",
+          "title": "Regional Commercial Process Manager",
+          "url": "https://www.grab.careers/en/jobs/744000146617137/regional-commercial-process-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146609049",
+          "title": "Large Area Associate (Contract)",
+          "url": "https://www.grab.careers/en/jobs/744000146609049/large-area-associate-contract/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146514470",
+          "title": "Senior Principal Data Scientist (Fulfilment)",
+          "url": "https://www.grab.careers/en/jobs/744000146514470/senior-principal-data-scientist-fulfilment/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146496451",
+          "title": "Solution Manager, People Systems",
+          "url": "https://www.grab.careers/en/jobs/744000146496451/solution-manager-people-systems/",
           "change": "removed"
         }
       ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_cluster_strength",
+      "status": "qualified",
+      "rejection_reason": "",
       "promoted_event_id": ""
     }
   ],

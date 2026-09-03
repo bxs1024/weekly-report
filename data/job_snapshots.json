@@ -1,11 +1,68 @@
 {
   "version": 1,
-  "generated_at": "2026-09-03T04:55:55.252324+08:00",
+  "generated_at": "2026-09-03T13:27:07.854685+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-03T04:55:55.252324+08:00",
+      "observed_at": "2026-09-03T13:27:07.854685+08:00",
       "jobs": [
+        {
+          "id": "744000147146939",
+          "title": "Training Operations Associate",
+          "url": "https://www.grab.careers/en/jobs/744000147146939/training-operations-associate/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000147146029",
+          "title": "Principal Machine Learning Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000147146029/principal-machine-learning-engineer/",
+          "function_tags": [
+            "ai",
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000147145779",
+          "title": "Associate, Driver Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000147145779/associate-driver-acquisition/",
+          "function_tags": []
+        },
+        {
+          "id": "744000147145460",
+          "title": "Regional Marketing Manager, B2B",
+          "url": "https://www.grab.careers/en/jobs/744000147145460/regional-marketing-manager-b2b/",
+          "function_tags": []
+        },
+        {
+          "id": "744000147144249",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000147144249/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000147142749",
+          "title": "Associate, Premium Business - Mobility",
+          "url": "https://www.grab.careers/en/jobs/744000147142749/associate-premium-business-mobility/",
+          "function_tags": []
+        },
+        {
+          "id": "744000147141290",
+          "title": "Payment & Insurance Associate",
+          "url": "https://www.grab.careers/en/jobs/744000147141290/payment-insurance-associate/",
+          "function_tags": [
+            "payments"
+          ]
+        },
+        {
+          "id": "744000147140580",
+          "title": "Head of Financial Planning and Analysis",
+          "url": "https://www.grab.careers/en/jobs/744000147140580/head-of-financial-planning-and-analysis/",
+          "function_tags": []
+        },
         {
           "id": "744000146986264",
           "title": "Associate L2 Support Engineer",
@@ -90,61 +147,12 @@
           "title": "Enterprise KAM GrabMart, Associate",
           "url": "https://www.grab.careers/en/jobs/744000146697169/enterprise-kam-grabmart-associate/",
           "function_tags": []
-        },
-        {
-          "id": "744000146677694",
-          "title": "Senior Salesforce Business Analyst",
-          "url": "https://www.grab.careers/en/jobs/744000146677694/senior-salesforce-business-analyst/",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "744000146650079",
-          "title": "Senior AI Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000146650079/senior-ai-engineer/",
-          "function_tags": [
-            "ai",
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000146635539",
-          "title": "Strategy & Planning GrabFood, Associate",
-          "url": "https://www.grab.careers/en/jobs/744000146635539/strategy-planning-grabfood-associate/",
-          "function_tags": []
-        },
-        {
-          "id": "744000146617137",
-          "title": "Regional Commercial Process Manager",
-          "url": "https://www.grab.careers/en/jobs/744000146617137/regional-commercial-process-manager/",
-          "function_tags": []
-        },
-        {
-          "id": "744000146609049",
-          "title": "Large Area Associate (Contract)",
-          "url": "https://www.grab.careers/en/jobs/744000146609049/large-area-associate-contract/",
-          "function_tags": []
-        },
-        {
-          "id": "744000146514470",
-          "title": "Senior Principal Data Scientist (Fulfilment)",
-          "url": "https://www.grab.careers/en/jobs/744000146514470/senior-principal-data-scientist-fulfilment/",
-          "function_tags": []
-        },
-        {
-          "id": "744000146496451",
-          "title": "Solution Manager, People Systems",
-          "url": "https://www.grab.careers/en/jobs/744000146496451/solution-manager-people-systems/",
-          "function_tags": [
-            "operations"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-03T04:55:55.252324+08:00",
+      "observed_at": "2026-09-03T13:27:07.854685+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -267,7 +275,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-03T04:55:55.252324+08:00",
+      "observed_at": "2026-09-03T13:27:07.854685+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
@@ -417,6 +425,14 @@
           ]
         },
         {
+          "id": "10a56956-2acc-448b-91c6-3503fff0f4cc",
+          "title": "Senior Partner Success Manager, Lifecycle Programs - APAC Remote - India",
+          "url": "https://www.shopify.com/careers/senior-partner-success-manager-lifecycle-programs-apac_10a56956-2acc-448b-91c6-3503fff0f4cc",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
           "id": "36f8a594-ba0e-45c2-b2e2-8aaa05db9ca2",
           "title": "Credit Risk Analyst Remote - Americas",
           "url": "https://www.shopify.com/careers/credit-risk-analyst_36f8a594-ba0e-45c2-b2e2-8aaa05db9ca2",
@@ -451,15 +467,15 @@
           "function_tags": []
         },
         {
-          "id": "5ad7b193-2d97-46ab-b173-5e83e0a4a660",
-          "title": "Technical Account Manager, Enterprise West Remote - Canada",
-          "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-west_5ad7b193-2d97-46ab-b173-5e83e0a4a660",
-          "function_tags": []
-        },
-        {
           "id": "e966b3cf-3301-4df1-a657-15182f697064",
           "title": "Technical Account Manager, Enterprise West Remote - Los Angeles",
           "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-west_e966b3cf-3301-4df1-a657-15182f697064",
+          "function_tags": []
+        },
+        {
+          "id": "5ad7b193-2d97-46ab-b173-5e83e0a4a660",
+          "title": "Technical Account Manager, Enterprise West Remote - Canada",
+          "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-west_5ad7b193-2d97-46ab-b173-5e83e0a4a660",
           "function_tags": []
         },
         {

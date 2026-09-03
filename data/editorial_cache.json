@@ -219,29 +219,29 @@
       "generated_at": "2026-08-28 20:34"
     },
     "weekly:2026-W28": {
-      "input_hash": "ac70287ef8be6f9cfc1f0a90e932de64b1186a91608350da9d873473fddd34fb",
+      "input_hash": "ea435ec16e5dc31cc93ccd5adecbfd6d789906bea2a64c6fc834beb1be7410b0",
       "editorial": {
-        "editorial_title": "资本向实：支付与AI基建的欧洲变局",
-        "mainline": "本周欧洲支付与AI基础设施赛道出现显著资本聚集：Aria以2.47亿欧元债务工具切入发票融资，Gradium获1亿美元种子轮，显示资金正从概念转向可落地的金融与AI场景。同时，Naver与Kakao的利润分化揭示亚太科技巨头战略分野，指向下一阶段竞争焦点。",
+        "editorial_title": "云与支付双线重构，平台边界再扩张",
+        "mainline": "本期，Cloudflare与Shopify密集更新产品，强化平台能力；支付领域并购与融资活跃，Nium收购Cypher打通法币与数字资产，Aria获大额债务融资应对欧洲付款危机。云基础设施与支付正在深度融合，平台型企业通过技术迭代与资本运作加速生态扩张，出海企业需关注由此带来的集成机会与竞争格局变化。",
         "themes": {
-          "ai_infra": "Aria的2.47亿欧元债务融资与Gradium的1亿美元种子轮，共同指向欧洲AI投资正从通用平台转向垂直行业解决方案。Cloudflare的网关策略更新则表明，基础设施层开始为特定业务场景优化，而非单纯堆算力。",
-          "developer": "Groupe Chaumont收购瑞士手表初创，显示传统行业通过并购获取数字化能力；而Phia的cookie填充欺诈指控，则暴露联盟营销生态的信任危机。Pokémon Go十年90亿美元收入，印证长线运营价值，但新流量入口的合规风险同步上升。",
-          "payments": "Nium收购Cypher打通法币与数字资产支付，Tilt收购Blipay切入巴西消费贷，Aria以债务工具应对欧洲付款危机——支付公司正通过并购和金融工具双轮驱动，抢占B2B与新兴市场增量。",
-          "expansion": "Shopify的hreflang开关与Android安全更新，看似微小却影响跨境SEO与移动端体验；SK海力士纳斯达克融资265亿美元，则显示亚洲硬件巨头借美股市场为AI内存扩张输血，区域扩张呈现资本与产品双线并进。",
-          "commerce": "MercadoLibre股价七连涨累计12%，Nykaa时尚业务领涨30%营收，显示拉美与印度电商在宏观压力下仍具增长韧性。BIZAY获5500万美元融资用于美国扩张，表明行业整合与跨境复制成为资本偏好路径。",
-          "operations": "Thought Machine年营收破亿美元，TAC Infosec利润同比增137%，显示银行云化与网络安全需求正转化为实际业绩。这不仅是技术替代，更是金融机构运营模式的结构性转变。"
+          "ai_infra": "Cloudflare连续发布One Appliance配置文档与Gateway HTTP策略更新，其安全访问服务边缘（SASE）能力进一步细化，企业可更精细地管控HTTP流量。与此同时，Naver加大投资力度，Kakao则收缩开支，两家韩国互联网巨头的利润走势出现明显分化，反映出AI与云基础设施投入策略的差异正在重塑竞争格局。",
+          "developer": "Groupe Chaumont收购两家瑞士手表初创，将上游制造纳入版图，供应链数字化与溯源需求随之上升。手游领域，越南市场5月下载量达1.21亿次但收入仅2300万美元，而Pokémon Go十周年累计收入突破90亿美元，显示成熟IP与新兴市场的变现效率差距显著。此外，Phia被指控cookie填充欺诈，提醒联盟营销生态存在信任风险。",
+          "payments": "巴黎Aria获700万欧元股权融资并启动2.4亿欧元债务工具，瞄准欧洲付款危机中的发票融资缺口；英国Kord亦获640万英镑融资，B2B支付与应收账款融资赛道吸金明显。跨境支付领域，Nium收购Cypher打通法币与数字资产支付，Tilt收购Blipay进入巴西消费贷款市场，支付基础设施的边界正从传统收单向资产管理与加密资产延伸。",
+          "expansion": "Shopify在管理后台新增自动hreflang标签开关，帮助商家更灵活地管理多语言站点的搜索引擎索引，直接提升跨境店铺的SEO效率。同时，SK海力士在纳斯达克上市融资265亿美元，用于韩国AI内存产能扩张，显示亚洲半导体巨头正借道美国资本市场获取扩张弹药。",
+          "commerce": "MercadoLibre股价连续七日上涨，累计涨幅达12%，投资者在财报季前重新审视其增长故事。印度时尚电商Nykaa预计Q1营收增长近30%，时尚业务成为主要驱动力。拉美与印度两大新兴市场的电商增长均呈现由时尚品类带动的特征，物流与SaaS服务商可关注相关需求。",
+          "operations": "Thought Machine 2025年营收突破1亿美元，标志着核心银行SaaS模式进入规模化验证阶段。印度TAC Infosec Q1利润同比大增137%，显示网络安全服务在银行云化转型中的需求持续释放。两者共同指向金融行业数字化从核心系统到安全防护的全面升级。"
         },
         "theme_titles": {
-          "ai_infra": "欧洲AI基建转向垂直场景融资",
-          "developer": "平台生态分化：收购与欺诈并存",
-          "payments": "支付并购潮起，法币与数字资产加速融合",
-          "expansion": "Shopify生态微调，SK海力士上市引资金",
-          "commerce": "拉美电商韧性增长，时尚品类成引擎",
-          "operations": "银行SaaS与安全服务利润爆发"
+          "ai_infra": "Cloudflare强化网关策略，韩系平台投资分化",
+          "developer": "手表供应链整合，手游市场现分化信号",
+          "payments": "欧洲B2B支付融资升温，跨境支付加速融合",
+          "expansion": "Shopify优化多语言SEO，SK海力士赴美上市",
+          "commerce": "MercadoLibre连涨七日，时尚电商领跑增长",
+          "operations": "银行SaaS营收破亿，印度安全服务利润激增"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-08-28 20:35"
+      "generated_at": "2026-09-03 13:47"
     },
     "weekly:2026-W29": {
       "input_hash": "474ebfb387932ca9d8c52cd687e8a0e10851ac00b1026d5671b539f4ca1f0579",
@@ -719,29 +719,29 @@
       "generated_at": "2026-08-31 14:44"
     },
     "weekly:2026-W36": {
-      "input_hash": "b0cf19db0f1f8ac5ba340d0259d04a329aea51c7951d7dbd5e2506b1a0eb216d",
+      "input_hash": "aa2a2f652c529661b485cd1ad720b41db2d9332ee978b37b2674c3d2b9b6e4d3",
       "editorial": {
-        "editorial_title": "韩国平台生态合纵连横，AI出海监管双线并进",
-        "mainline": "本期最值得关注的是韩国平台巨头Naver与Kakao的生态扩张：Naver与CJ ONE打通会员权益，Kakao即将推出会员服务，支付与零售的联动正在加速。同时，谷歌获准出口高精度AI模型，Naver跟进，AI模型的跨境流动成为新变量。",
+        "editorial_title": "韩国巨头合纵连横，全球支付暗战升级",
+        "mainline": "本周，韩国科技巨头Naver与CJ、Kakao密集打通支付与会员体系，将本土竞争推向生态整合新阶段。同时，美国州级牌照向英国支付公司开放，跨境支付准入门槛松动。这预示着支付不再单点竞争，而是围绕场景、数据与合规的体系化较量。",
         "themes": {
-          "ai_infra": "谷歌获准向韩国出口高精度AI模型后，Naver迅速跟进推出同类服务，标志着美韩AI模型流通进入新阶段。与此同时，韩国本土AI初创Intellicia获Kakao Ventures投资，前大厂团队的AI滑雪项目也获资本加持，显示AI在垂直场景的落地与资本布局同步加速。",
-          "expansion": "CJ ONE与Naver Pay打通会员权益，Naver与Kurly的合作交易额增长，显示韩国平台正通过跨界合作扩大用户粘性。TikTok Shop日本发布一周年复盘，表明其本地化运营进入深水区。OpenPayd获美国州级牌照，为跨境支付打开新通道。",
-          "payments": "CJ OliveNetworks推出CJ ONE与Naver Pay的联动服务，Kakao也计划下月推出会员服务，支付工具正成为会员体系的核心入口。Visa发布增强版A2A Protect，World开源ProveKit，显示支付安全与身份验证技术同步升级，为开放银行与即时支付铺路。",
-          "developer": "W4 Games获1800万美元投资，押注Godot引擎增长，开源游戏引擎商业化提速。Square Enix推出FF系列迷你旋律电视玩具，IP衍生品瞄准怀旧玩家。Global Game Jam与Zoud合办金融素养游戏赛，奖金14万美元，游戏化教育获关注。Uber以150亿美元收购Delivery Hero获董事会支持，本地生活服务整合加剧。",
-          "commerce": "Jumia品牌节2026启动，20天独家优惠吸引品牌方入驻，非洲电商进入促销驱动增长阶段。Sea Limited上半年营收149亿美元但物流支出扩大，显示履约成本压力。Magalu与Mercado Livre达成合作，拉美电商巨头联手对抗亚马逊。沃尔玛投资13亿美元建履约中心，强化最后一公里配送。",
-          "compliance": "新加坡推进稳定币专门监管，为合规发行商提供明确框架，吸引金融机构入场。xorlab获500万欧元融资扩展欧洲主权邮件安全，监管警告金融机构应对前沿AI网络威胁，Visa加强A2A欺诈预防技术，显示支付安全与AI防御成为合规新重点。"
+          "ai_infra": "谷歌获准向特定市场出口高精度AI模型后，Naver迅速跟进推出同类服务，标志着韩国AI企业开始争夺全球模型供应份额。与此同时，本土AI创业公司Intellicia获Kakao Ventures注资，前大厂团队打造的AI滑雪项目也获厚雪投资，显示资本正从通用大模型转向垂直场景落地。",
+          "expansion": "CJ ONE与Naver Pay实现会员权益互通，Naver与Kurly的合作交易额同步增长，韩国零售与支付的生态壁垒正在消融。另一边，TikTok Shop日本发布一周年复盘，跨境卖家开始评估其真实留存与复购效率，而非仅看GMV增速。",
+          "payments": "Visa升级A2A Protect应对账户到账户支付欺诈，World开源ProveKit将身份验证下沉至手机端，全球支付安全竞赛从机构端转向用户端。韩国市场，CJ OliveNetworks推出CJ ONE与Naver Pay联动，Kakao也预告下月上线会员服务，支付工具正演变为用户运营入口。",
+          "developer": "W4 Games获1800万美元融资，Godot引擎商业化提速，开源游戏工具链开始吸引风险资本。Uber以150亿美元收购Delivery Hero获董事会支持，全球本地生活配送进入巨头整合期，独立平台生存空间进一步收窄。",
+          "commerce": "Magalu与Mercado Livre这对巴西老对手宣布合作，拉美电商从零和竞争转向基础设施共享。Jumia启动2026品牌节，以20天独家优惠吸引品牌方入驻，非洲电商正试图用促销节点撬动品牌化升级。Sea Limited上半年物流支出扩大，显示东南亚巨头仍在重资产押注履约能力。",
+          "compliance": "新加坡推进稳定币专门监管框架，为合规发行商提供明确路径，亚太数字资产市场迎来制度性利好。与此同时，监管机构警告金融机构应对前沿AI网络威胁，xorlab获500万欧元融资扩展欧洲主权邮件安全，安全合规正从数据隐私延伸至AI驱动的攻击防御。"
         },
         "theme_titles": {
-          "ai_infra": "",
-          "expansion": "",
-          "payments": "",
-          "developer": "",
-          "commerce": "",
-          "compliance": ""
+          "ai_infra": "韩国AI模型出口松绑，Naver跟进谷歌出海",
+          "expansion": "韩国会员权益跨生态打通，TikTok Shop日本周年考",
+          "payments": "支付巨头加码防欺诈，会员+支付联动成韩国新范式",
+          "developer": "游戏引擎获资本押注，Uber天价收购改写本地生活格局",
+          "commerce": "拉美电商对手转盟友，非洲品牌节激活平台生态",
+          "compliance": "新加坡稳定币监管落地，AI网络威胁成金融监管新焦点"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-03 05:21"
+      "generated_at": "2026-09-03 13:47"
     }
   }
 }
