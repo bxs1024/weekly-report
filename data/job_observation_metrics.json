@@ -1,29 +1,28 @@
 {
-  "observed_at": "2026-09-03T13:27:07.854685+08:00",
+  "observed_at": "2026-09-04T04:54:29.883621+08:00",
   "source_count": 3,
-  "raw_count": 65,
+  "raw_count": 64,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 15,
-      "inventory_count": 20,
+      "count": 21,
+      "inventory_count": 19,
       "signal_count": 1,
-      "added_count": 8,
-      "removed_count": 7,
+      "added_count": 10,
+      "removed_count": 11,
       "clusters": {
+        "sales": 1,
         "operations": 1,
-        "ai": 1,
-        "engineering": 2,
-        "payments": 1
+        "engineering": 3
       },
       "removed_clusters": {
         "sales": 1,
-        "ai": 1,
-        "engineering": 1,
-        "operations": 1
+        "compliance": 1,
+        "payments": 1,
+        "engineering": 2
       }
     },
     "Stripe Jobs": {
@@ -31,13 +30,17 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 15,
-      "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
-      "removed_clusters": {}
+      "count": 5,
+      "inventory_count": 14,
+      "signal_count": 1,
+      "added_count": 2,
+      "removed_count": 3,
+      "clusters": {
+        "sales": 1
+      },
+      "removed_clusters": {
+        "sales": 3
+      }
     },
     "Shopify Jobs": {
       "method": "jobs_snapshot",
@@ -45,7 +48,7 @@
       "status": "ok",
       "fetch_status": "success",
       "count": 1,
-      "inventory_count": 30,
+      "inventory_count": 31,
       "signal_count": 0,
       "added_count": 1,
       "removed_count": 0,
@@ -66,119 +69,213 @@
       "signal_type": "function_buildout",
       "cluster": "engineering",
       "window": "2026-W36",
-      "window_start": "2026-09-03",
-      "window_end": "2026-09-03",
-      "detected_at": "2026-09-03T13:27:07.854685+08:00",
-      "baseline_count": 19,
-      "current_count": 20,
-      "added_count": 8,
-      "removed_count": 7,
+      "window_start": "2026-09-04",
+      "window_end": "2026-09-04",
+      "detected_at": "2026-09-04T04:54:29.883621+08:00",
+      "baseline_count": 20,
+      "current_count": 19,
+      "added_count": 10,
+      "removed_count": 11,
       "clusters": {
+        "sales": 1,
         "operations": 1,
-        "ai": 1,
-        "engineering": 2,
-        "payments": 1
+        "engineering": 3
       },
       "removed_clusters": {
         "sales": 1,
-        "ai": 1,
-        "engineering": 1,
-        "operations": 1
+        "compliance": 1,
+        "payments": 1,
+        "engineering": 2
       },
       "evidence_refs": [
         {
-          "job_id": "744000147146939",
-          "title": "Training Operations Associate",
-          "url": "https://www.grab.careers/en/jobs/744000147146939/training-operations-associate/",
+          "job_id": "744000147218279",
+          "title": "Business Development Manager",
+          "url": "https://www.grab.careers/en/jobs/744000147218279/business-development-manager/",
           "change": "added"
         },
         {
-          "job_id": "744000147146029",
-          "title": "Principal Machine Learning Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000147146029/principal-machine-learning-engineer/",
+          "job_id": "744000147205289",
+          "title": "Intern, GrabFood (Special Projects)",
+          "url": "https://www.grab.careers/en/jobs/744000147205289/intern-grabfood-special-projects/",
           "change": "added"
         },
         {
-          "job_id": "744000147145779",
-          "title": "Associate, Driver Acquisition",
-          "url": "https://www.grab.careers/en/jobs/744000147145779/associate-driver-acquisition/",
+          "job_id": "744000147192955",
+          "title": "Associate, Merchant Acquisition - GrabMart",
+          "url": "https://www.grab.careers/en/jobs/744000147192955/associate-merchant-acquisition-grabmart/",
           "change": "added"
         },
         {
-          "job_id": "744000147145460",
-          "title": "Regional Marketing Manager, B2B",
-          "url": "https://www.grab.careers/en/jobs/744000147145460/regional-marketing-manager-b2b/",
+          "job_id": "744000147192299",
+          "title": "Senior Specialist, Benefits Operations",
+          "url": "https://www.grab.careers/en/jobs/744000147192299/senior-specialist-benefits-operations/",
           "change": "added"
         },
         {
-          "job_id": "744000147144249",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000147144249/senior-software-engineer-backend/",
+          "job_id": "744000147184279",
+          "title": "Solutions Manager II, Finance Systems",
+          "url": "https://www.grab.careers/en/jobs/744000147184279/solutions-manager-ii-finance-systems/",
           "change": "added"
         },
         {
-          "job_id": "744000147142749",
-          "title": "Associate, Premium Business - Mobility",
-          "url": "https://www.grab.careers/en/jobs/744000147142749/associate-premium-business-mobility/",
+          "job_id": "744000147179529",
+          "title": "Assistant Marketing Manager, B2B",
+          "url": "https://www.grab.careers/en/jobs/744000147179529/assistant-marketing-manager-b2b/",
           "change": "added"
         },
         {
-          "job_id": "744000147141290",
-          "title": "Payment & Insurance Associate",
-          "url": "https://www.grab.careers/en/jobs/744000147141290/payment-insurance-associate/",
+          "job_id": "744000147174949",
+          "title": "Senior Software Engineer, Flink",
+          "url": "https://www.grab.careers/en/jobs/744000147174949/senior-software-engineer-flink/",
           "change": "added"
         },
         {
-          "job_id": "744000147140580",
-          "title": "Head of Financial Planning and Analysis",
-          "url": "https://www.grab.careers/en/jobs/744000147140580/head-of-financial-planning-and-analysis/",
+          "job_id": "744000147172280",
+          "title": "Lead Platform Engineer, Flink",
+          "url": "https://www.grab.careers/en/jobs/744000147172280/lead-platform-engineer-flink/",
           "change": "added"
         },
         {
-          "job_id": "744000146677694",
-          "title": "Senior Salesforce Business Analyst",
-          "url": "https://www.grab.careers/en/jobs/744000146677694/senior-salesforce-business-analyst/",
+          "job_id": "744000147159360",
+          "title": "Senior Software Engineer, Customer Data Platform",
+          "url": "https://www.grab.careers/en/jobs/744000147159360/senior-software-engineer-customer-data-platform/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000147156579",
+          "title": "Associate, OmniCommerce",
+          "url": "https://www.grab.careers/en/jobs/744000147156579/associate-omnicommerce/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000146939559",
+          "title": "Assistant Manager, Finance Controllership",
+          "url": "https://www.grab.careers/en/jobs/744000146939559/assistant-manager-finance-controllership/",
           "change": "removed"
         },
         {
-          "job_id": "744000146650079",
-          "title": "Senior AI Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000146650079/senior-ai-engineer/",
+          "job_id": "744000146904216",
+          "title": "Sales Manager",
+          "url": "https://www.grab.careers/en/jobs/744000146904216/sales-manager/",
           "change": "removed"
         },
         {
-          "job_id": "744000146635539",
-          "title": "Strategy & Planning GrabFood, Associate",
-          "url": "https://www.grab.careers/en/jobs/744000146635539/strategy-planning-grabfood-associate/",
+          "job_id": "744000146884779",
+          "title": "Enterprise Risk Management, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000146884779/enterprise-risk-management-assistant-manager/",
           "change": "removed"
         },
         {
-          "job_id": "744000146617137",
-          "title": "Regional Commercial Process Manager",
-          "url": "https://www.grab.careers/en/jobs/744000146617137/regional-commercial-process-manager/",
+          "job_id": "744000146883599",
+          "title": "Commercial Lending Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000146883599/commercial-lending-specialist/",
           "change": "removed"
         },
         {
-          "job_id": "744000146609049",
-          "title": "Large Area Associate (Contract)",
-          "url": "https://www.grab.careers/en/jobs/744000146609049/large-area-associate-contract/",
+          "job_id": "744000146882649",
+          "title": "Key Account Manager, Enterprise Merchants",
+          "url": "https://www.grab.careers/en/jobs/744000146882649/key-account-manager-enterprise-merchants/",
           "change": "removed"
         },
         {
-          "job_id": "744000146514470",
-          "title": "Senior Principal Data Scientist (Fulfilment)",
-          "url": "https://www.grab.careers/en/jobs/744000146514470/senior-principal-data-scientist-fulfilment/",
+          "job_id": "744000146882579",
+          "title": "Senior Product Designer, Payments",
+          "url": "https://www.grab.careers/en/jobs/744000146882579/senior-product-designer-payments/",
           "change": "removed"
         },
         {
-          "job_id": "744000146496451",
-          "title": "Solution Manager, People Systems",
-          "url": "https://www.grab.careers/en/jobs/744000146496451/solution-manager-people-systems/",
+          "job_id": "744000146880489",
+          "title": "Enterprise Security Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000146880489/enterprise-security-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146878924",
+          "title": "Intern, Employer Branding and Recruitment Marketing",
+          "url": "https://www.grab.careers/en/jobs/744000146878924/intern-employer-branding-and-recruitment-marketing/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146778669",
+          "title": "Illustration Designer",
+          "url": "https://www.grab.careers/en/jobs/744000146778669/illustration-designer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146762091",
+          "title": "Senior Principal Engineer, Consumer Experience & Integrity",
+          "url": "https://www.grab.careers/en/jobs/744000146762091/senior-principal-engineer-consumer-experience-integrity/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000146697169",
+          "title": "Enterprise KAM GrabMart, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000146697169/enterprise-kam-grabmart-associate/",
           "change": "removed"
         }
       ],
-      "status": "qualified",
-      "rejection_reason": "",
+      "status": "rejected",
+      "rejection_reason": "source_reset_suspected",
+      "promoted_event_id": ""
+    },
+    {
+      "candidate_id": "jobs-0ecba0d0c6a1ffe8",
+      "entity_id": "stripe",
+      "entity": "Stripe",
+      "region": "全球",
+      "sector": "payment_developer_platform",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "sales",
+      "window": "2026-W36",
+      "window_start": "2026-09-04",
+      "window_end": "2026-09-04",
+      "detected_at": "2026-09-04T04:54:29.883621+08:00",
+      "baseline_count": 15,
+      "current_count": 14,
+      "added_count": 2,
+      "removed_count": 3,
+      "clusters": {
+        "sales": 1
+      },
+      "removed_clusters": {
+        "sales": 3
+      },
+      "evidence_refs": [
+        {
+          "job_id": "8172508",
+          "title": "Abuse Investigator",
+          "url": "https://stripe.com/careers/listing/abuse-investigator/8172508",
+          "change": "added"
+        },
+        {
+          "job_id": "8175830",
+          "title": "Account Executive Product - Tax",
+          "url": "https://stripe.com/careers/listing/account-executive-product-tax/8175830",
+          "change": "added"
+        },
+        {
+          "job_id": "8123027",
+          "title": "Account Executive, Commercial (Grower)",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-grower/8123027",
+          "change": "removed"
+        },
+        {
+          "job_id": "8141211",
+          "title": "Account Executive, Commercial Hunter",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-hunter/8141211",
+          "change": "removed"
+        },
+        {
+          "job_id": "7789539",
+          "title": "Account Executive, Commercial Hunter (Japanese Fluency)",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-hunter-japanese-fluency/7789539",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
       "promoted_event_id": ""
     }
   ],

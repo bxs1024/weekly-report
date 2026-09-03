@@ -1,7 +1,66 @@
 {
   "version": 1,
-  "generated_at": "2026-09-03T13:27:07.854685+08:00",
+  "generated_at": "2026-09-04T04:54:29.883621+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-0ecba0d0c6a1ffe8",
+      "entity_id": "stripe",
+      "entity": "Stripe",
+      "region": "全球",
+      "sector": "payment_developer_platform",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "sales",
+      "window": "2026-W36",
+      "window_start": "2026-09-04",
+      "window_end": "2026-09-04",
+      "detected_at": "2026-09-04T04:54:29.883621+08:00",
+      "baseline_count": 15,
+      "current_count": 14,
+      "added_count": 2,
+      "removed_count": 3,
+      "clusters": {
+        "sales": 1
+      },
+      "removed_clusters": {
+        "sales": 3
+      },
+      "evidence_refs": [
+        {
+          "job_id": "8172508",
+          "title": "Abuse Investigator",
+          "url": "https://stripe.com/careers/listing/abuse-investigator/8172508",
+          "change": "added"
+        },
+        {
+          "job_id": "8175830",
+          "title": "Account Executive Product - Tax",
+          "url": "https://stripe.com/careers/listing/account-executive-product-tax/8175830",
+          "change": "added"
+        },
+        {
+          "job_id": "8123027",
+          "title": "Account Executive, Commercial (Grower)",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-grower/8123027",
+          "change": "removed"
+        },
+        {
+          "job_id": "8141211",
+          "title": "Account Executive, Commercial Hunter",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-hunter/8141211",
+          "change": "removed"
+        },
+        {
+          "job_id": "7789539",
+          "title": "Account Executive, Commercial Hunter (Japanese Fluency)",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-hunter-japanese-fluency/7789539",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-0343cfb9fafa28a1",
       "entity_id": "grab",
