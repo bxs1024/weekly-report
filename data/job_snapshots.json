@@ -1,11 +1,74 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T04:54:29.883621+08:00",
+  "generated_at": "2026-09-04T13:27:15.789220+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-04T04:54:29.883621+08:00",
+      "observed_at": "2026-09-04T13:27:15.789220+08:00",
       "jobs": [
+        {
+          "id": "744000147411329",
+          "title": "Lead Data Scientist (Analytics) - Digital Marketing",
+          "url": "https://www.grab.careers/en/jobs/744000147411329/lead-data-scientist-analytics-digital-marketing/",
+          "function_tags": []
+        },
+        {
+          "id": "744000147408809",
+          "title": "Senior Systems Engineer (Mobile Device Management)",
+          "url": "https://www.grab.careers/en/jobs/744000147408809/senior-systems-engineer-mobile-device-management/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000147408739",
+          "title": "Merchant Sales Executive, GrabMart & GrabPay",
+          "url": "https://www.grab.careers/en/jobs/744000147408739/merchant-sales-executive-grabmart-grabpay/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000147408259",
+          "title": "Head of People Operations Business Partner",
+          "url": "https://www.grab.careers/en/jobs/744000147408259/head-of-people-operations-business-partner/",
+          "function_tags": [
+            "partnerships",
+            "operations"
+          ]
+        },
+        {
+          "id": "744000147407959",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000147407959/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000147407879",
+          "title": "Senior Software Engineer, Backend - Agent Experience",
+          "url": "https://www.grab.careers/en/jobs/744000147407879/senior-software-engineer-backend-agent-experience/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000147406319",
+          "title": "Performance Marketing Strategy Lead",
+          "url": "https://www.grab.careers/en/jobs/744000147406319/performance-marketing-strategy-lead/",
+          "function_tags": []
+        },
+        {
+          "id": "744000147405869",
+          "title": "Off-Platform Payment Operations Manager",
+          "url": "https://www.grab.careers/en/jobs/744000147405869/off-platform-payment-operations-manager/",
+          "function_tags": [
+            "engineering",
+            "payments",
+            "operations"
+          ]
+        },
         {
           "id": "744000147218279",
           "title": "Business Development Manager",
@@ -63,14 +126,6 @@
           ]
         },
         {
-          "id": "744000147159360",
-          "title": "Senior Software Engineer, Customer Data Platform",
-          "url": "https://www.grab.careers/en/jobs/744000147159360/senior-software-engineer-customer-data-platform/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
           "id": "744000147156579",
           "title": "Associate, OmniCommerce",
           "url": "https://www.grab.careers/en/jobs/744000147156579/associate-omnicommerce/",
@@ -83,70 +138,12 @@
           "function_tags": [
             "operations"
           ]
-        },
-        {
-          "id": "744000147146029",
-          "title": "Principal Machine Learning Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000147146029/principal-machine-learning-engineer/",
-          "function_tags": [
-            "ai",
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000147145779",
-          "title": "Associate, Driver Acquisition",
-          "url": "https://www.grab.careers/en/jobs/744000147145779/associate-driver-acquisition/",
-          "function_tags": []
-        },
-        {
-          "id": "744000147145460",
-          "title": "Regional Marketing Manager, B2B",
-          "url": "https://www.grab.careers/en/jobs/744000147145460/regional-marketing-manager-b2b/",
-          "function_tags": []
-        },
-        {
-          "id": "744000147144249",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000147144249/senior-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000147142749",
-          "title": "Associate, Premium Business - Mobility",
-          "url": "https://www.grab.careers/en/jobs/744000147142749/associate-premium-business-mobility/",
-          "function_tags": []
-        },
-        {
-          "id": "744000147141290",
-          "title": "Payment & Insurance Associate",
-          "url": "https://www.grab.careers/en/jobs/744000147141290/payment-insurance-associate/",
-          "function_tags": [
-            "payments"
-          ]
-        },
-        {
-          "id": "744000147140580",
-          "title": "Head of Financial Planning and Analysis",
-          "url": "https://www.grab.careers/en/jobs/744000147140580/head-of-financial-planning-and-analysis/",
-          "function_tags": []
-        },
-        {
-          "id": "744000146986264",
-          "title": "Associate L2 Support Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000146986264/associate-l2-support-engineer/",
-          "function_tags": [
-            "engineering",
-            "operations"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-04T04:54:29.883621+08:00",
+      "observed_at": "2026-09-04T13:27:15.789220+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -259,7 +256,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-04T04:54:29.883621+08:00",
+      "observed_at": "2026-09-04T13:27:15.789220+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
