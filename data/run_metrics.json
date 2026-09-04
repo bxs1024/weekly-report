@@ -1,2000 +1,5 @@
 [
   {
-    "run_id": "20260821-025107",
-    "date": "2026-08-21",
-    "started_at": "2026-08-21T02:51:07.530764+08:00",
-    "environment": "github_actions",
-    "rss": {
-      "source_count": 46,
-      "raw_count": 131,
-      "cache_hits": 0,
-      "source_stats": {
-        "TechCrunch": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 8,
-          "signal_count": 1,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 20,
-            "recent_items": 8,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "TechCrunch VC": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 5,
-          "signal_count": 1,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 19,
-            "recent_items": 5,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "Tech.eu": {
-          "method": "rss",
-          "region": "欧洲",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 8,
-          "signal_count": 4,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 20,
-            "recent_items": 8,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "UKTN": {
-          "method": "rss",
-          "region": "欧洲",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 8,
-          "signal_count": 1,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 10,
-            "recent_items": 8,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "EU-Startups": {
-          "method": "rss",
-          "region": "欧洲",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 8,
-          "signal_count": 4,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 10,
-            "recent_items": 8,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "The Recursive": {
-          "method": "rss",
-          "region": "欧洲",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 5,
-          "signal_count": 2,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 15,
-            "recent_items": 5,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "The Next Web": {
-          "method": "rss",
-          "region": "欧洲",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 6,
-          "signal_count": 2,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 10,
-            "recent_items": 6,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "Tech in Asia": {
-          "method": "rss",
-          "region": "亚太",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 8,
-          "signal_count": 1,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 36,
-            "recent_items": 8,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "Inc42": {
-          "method": "rss",
-          "region": "亚太",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 8,
-          "signal_count": 1,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 24,
-            "recent_items": 8,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "TechWire Asia": {
-          "method": "rss",
-          "region": "亚太",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 2,
-          "signal_count": 1,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 12,
-            "recent_items": 2,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "GamesIndustry.biz": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false,
-          "scope_stats": {}
-        },
-        "PocketGamer.biz": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 7,
-          "signal_count": 4,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 50,
-            "recent_items": 16,
-            "qualified": 9,
-            "candidate": 3,
-            "filtered": 4,
-            "filter_reasons": {
-              "scope_change_not_explicit": 3,
-              "scope_no_target_industry": 4
-            }
-          }
-        },
-        "Fintech News Singapore": {
-          "method": "rss",
-          "region": "亚太",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 7,
-          "signal_count": 4,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 10,
-            "recent_items": 9,
-            "qualified": 6,
-            "candidate": 3,
-            "filtered": 0,
-            "filter_reasons": {
-              "scope_change_not_explicit": 3
-            }
-          }
-        },
-        "Finextra Payments": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 8,
-          "signal_count": 4,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 51,
-            "recent_items": 16,
-            "qualified": 9,
-            "candidate": 5,
-            "filtered": 2,
-            "filter_reasons": {
-              "scope_no_target_industry": 2,
-              "scope_change_not_explicit": 5
-            }
-          }
-        },
-        "Payments Dive": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 4,
-          "signal_count": 3,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 10,
-            "recent_items": 5,
-            "qualified": 4,
-            "candidate": 1,
-            "filtered": 0,
-            "filter_reasons": {
-              "scope_change_not_explicit": 1
-            }
-          }
-        },
-        "EcommerceBytes": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 10,
-            "recent_items": 1,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 1,
-            "filter_reasons": {
-              "scope_no_target_industry": 1
-            }
-          }
-        },
-        "Retail Dive": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 3,
-          "signal_count": 2,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 10,
-            "recent_items": 10,
-            "qualified": 2,
-            "candidate": 1,
-            "filtered": 7,
-            "filter_reasons": {
-              "scope_no_target_industry": 7,
-              "scope_change_not_explicit": 1
-            }
-          }
-        },
-        "Mobile World Live": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 8,
-          "signal_count": 4,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 30,
-            "recent_items": 15,
-            "qualified": 6,
-            "candidate": 4,
-            "filtered": 5,
-            "filter_reasons": {
-              "scope_no_target_industry": 5,
-              "scope_change_not_explicit": 3,
-              "scope_editorial_without_explicit_change": 1
-            }
-          }
-        },
-        "Social Media Today": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 4,
-          "signal_count": 2,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 10,
-            "recent_items": 5,
-            "qualified": 2,
-            "candidate": 2,
-            "filtered": 1,
-            "filter_reasons": {
-              "scope_no_target_industry": 1,
-              "scope_change_not_explicit": 2
-            }
-          }
-        },
-        "Mobile Marketing Magazine": {
-          "method": "rss",
-          "region": "全球",
-          "status": "failed",
-          "fetch_status": "failed",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false
-        },
-        "WAMDA": {
-          "method": "rss",
-          "region": "中东",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 4,
-          "signal_count": 3,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 20,
-            "recent_items": 4,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "MENAbytes": {
-          "method": "rss",
-          "region": "中东",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 10,
-            "recent_items": 0,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "TechCabal": {
-          "method": "rss",
-          "region": "非洲",
-          "status": "failed",
-          "fetch_status": "failed",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false
-        },
-        "Disrupt Africa": {
-          "method": "rss",
-          "region": "非洲",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 10,
-            "recent_items": 0,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "Techpoint": {
-          "method": "rss",
-          "region": "非洲",
-          "status": "failed",
-          "fetch_status": "failed",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false
-        },
-        "Ventureburn": {
-          "method": "rss",
-          "region": "非洲",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 8,
-          "signal_count": 6,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 10,
-            "recent_items": 8,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "WeeTracker": {
-          "method": "rss",
-          "region": "非洲",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 3,
-          "signal_count": 0,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 8,
-            "recent_items": 3,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "LatamList": {
-          "method": "rss",
-          "region": "拉美",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 10,
-            "recent_items": 0,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "LAVCA": {
-          "method": "rss",
-          "region": "拉美",
-          "status": "failed",
-          "fetch_status": "failed",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false
-        },
-        "Contxto": {
-          "method": "rss",
-          "region": "拉美",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 100,
-            "recent_items": 0,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "Rest of World Money": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 12,
-            "recent_items": 0,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "Rest of World Ecommerce": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 12,
-            "recent_items": 0,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "Cyberagent News": {
-          "method": "rss",
-          "region": "亚太",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 100,
-            "recent_items": 0,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "Modern Retail": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 2,
-          "signal_count": 2,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 10,
-            "recent_items": 8,
-            "qualified": 2,
-            "candidate": 0,
-            "filtered": 6,
-            "filter_reasons": {
-              "scope_no_target_industry": 6
-            }
-          }
-        },
-        "Grab IR": {
-          "method": "rss",
-          "region": "亚太",
-          "status": "failed",
-          "fetch_status": "failed",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false
-        },
-        "The Paypers": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false,
-          "scope_stats": {}
-        },
-        "e27 东南亚科技产业分析": {
-          "method": "rss",
-          "region": "东南亚",
-          "status": "failed",
-          "fetch_status": "failed",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false
-        },
-        "OpenAI News": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 1142,
-            "recent_items": 3,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "Databricks Blog": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 1,
-          "signal_count": 1,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 10,
-            "recent_items": 1,
-            "qualified": 1,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "Cloudflare Blog": {
-          "method": "rss",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 1,
-          "signal_count": 1,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 20,
-            "recent_items": 2,
-            "qualified": 1,
-            "candidate": 0,
-            "filtered": 1,
-            "filter_reasons": {
-              "scope_no_target_industry": 1
-            }
-          }
-        },
-        "KoreaTechDesk": {
-          "method": "rss",
-          "region": "韩国",
-          "status": "failed",
-          "fetch_status": "failed",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false
-        },
-        "DailySocial Indonesia": {
-          "method": "rss",
-          "region": "印尼",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 20,
-            "recent_items": 0,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 0,
-            "filter_reasons": {}
-          }
-        },
-        "Brazil Journal": {
-          "method": "rss",
-          "region": "巴西",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 10,
-            "recent_items": 10,
-            "qualified": 0,
-            "candidate": 0,
-            "filtered": 10,
-            "filter_reasons": {
-              "scope_no_target_industry": 10
-            }
-          }
-        },
-        "VnExpress Tech": {
-          "method": "rss",
-          "region": "越南",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 3,
-          "signal_count": 2,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 60,
-            "recent_items": 7,
-            "qualified": 2,
-            "candidate": 1,
-            "filtered": 4,
-            "filter_reasons": {
-              "scope_no_target_industry": 4,
-              "scope_change_not_explicit": 1
-            }
-          }
-        },
-        "The Bridge": {
-          "method": "rss",
-          "region": "日本",
-          "status": "failed",
-          "fetch_status": "failed",
-          "count": 0,
-          "signal_count": 0,
-          "cached": false
-        },
-        "36Kr Japan": {
-          "method": "rss",
-          "region": "亚太",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 2,
-          "signal_count": 0,
-          "cached": false,
-          "scope_stats": {
-            "feed_entries": 10,
-            "recent_items": 10,
-            "qualified": 0,
-            "candidate": 2,
-            "filtered": 8,
-            "filter_reasons": {
-              "scope_no_target_industry": 8,
-              "scope_change_not_explicit": 2
-            }
-          }
-        }
-      }
-    },
-    "html": {
-      "source_count": 33,
-      "raw_count": 45,
-      "source_stats": {
-        "DealStreetAsia": {
-          "method": "html",
-          "region": "亚太",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 4,
-          "signal_count": 2
-        },
-        "Rakuten IR": {
-          "method": "html",
-          "region": "亚太",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 4,
-          "signal_count": 1
-        },
-        "MercadoLibre IR": {
-          "method": "html",
-          "region": "拉美",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Adyen IR": {
-          "method": "html",
-          "region": "欧洲",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 1,
-          "signal_count": 0
-        },
-        "Sea Newsroom": {
-          "method": "html",
-          "region": "亚太",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Zalando IR": {
-          "method": "html",
-          "region": "欧洲",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Allegro Newsroom": {
-          "method": "html",
-          "region": "欧洲",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 1,
-          "signal_count": 1
-        },
-        "Kaspi.kz IR": {
-          "method": "html",
-          "region": "中东",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Naver Press": {
-          "method": "html",
-          "region": "亚太",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 4,
-          "signal_count": 1
-        },
-        "Kakao Press": {
-          "method": "html",
-          "region": "亚太",
-          "status": "failed",
-          "fetch_status": "failed",
-          "count": 0,
-          "signal_count": 0
-        },
-        "HKTVmall IR News": {
-          "method": "html",
-          "region": "亚太",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "U-NEXT News": {
-          "method": "html",
-          "region": "亚太",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Square Enix IR News": {
-          "method": "html",
-          "region": "亚太",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 4,
-          "signal_count": 0
-        },
-        "Jumia Newsroom": {
-          "method": "html",
-          "region": "非洲",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 3,
-          "signal_count": 1
-        },
-        "JD.com IR": {
-          "method": "html",
-          "region": "中资",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 4,
-          "signal_count": 1
-        },
-        "Yahoo Press": {
-          "method": "html",
-          "region": "亚太",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Tabby Press": {
-          "method": "html",
-          "region": "中东",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Grab Newsroom": {
-          "method": "html",
-          "region": "亚太",
-          "status": "failed",
-          "fetch_status": "failed",
-          "count": 0,
-          "signal_count": 0
-        },
-        "GoTo Newsroom": {
-          "method": "html",
-          "region": "亚太",
-          "status": "failed",
-          "fetch_status": "failed",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Mercado Libre News": {
-          "method": "html",
-          "region": "拉美",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 4,
-          "signal_count": 0
-        },
-        "Flutterwave Blog": {
-          "method": "html",
-          "region": "非洲",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Stripe Changelog": {
-          "method": "html",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 4,
-          "signal_count": 4
-        },
-        "Cloudflare Changelog": {
-          "method": "html",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 4,
-          "signal_count": 4
-        },
-        "Shopify Changelog": {
-          "method": "html",
-          "region": "全球",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "VNG Newsroom": {
-          "method": "html",
-          "region": "亚太",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "MoMo Newsroom": {
-          "method": "html",
-          "region": "亚太",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 2,
-          "signal_count": 0
-        },
-        "Tamara Media Center": {
-          "method": "html",
-          "region": "中东",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "stc Media Center": {
-          "method": "html",
-          "region": "中东",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 2,
-          "signal_count": 0
-        },
-        "Nubank Blog": {
-          "method": "html",
-          "region": "拉美",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 4,
-          "signal_count": 0
-        },
-        "Rappi Press Room": {
-          "method": "html",
-          "region": "拉美",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "OPay Newsroom": {
-          "method": "html",
-          "region": "非洲",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Safaricom Media Center": {
-          "method": "html",
-          "region": "非洲",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Anthropic Newsroom": {
-          "method": "html",
-          "region": "全球",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        }
-      }
-    },
-    "company": {
-      "source_count": 32,
-      "raw_count": 13,
-      "unique_count": 13,
-      "source_stats": {
-        "ByteDance/TikTok": {
-          "method": "company",
-          "region": "中资",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Tencent": {
-          "method": "company",
-          "region": "中资",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 1,
-          "signal_count": 1
-        },
-        "Alibaba": {
-          "method": "company",
-          "region": "中资",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "JD.com": {
-          "method": "company",
-          "region": "中资",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Kuaishou": {
-          "method": "company",
-          "region": "中资",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Ant Group": {
-          "method": "company",
-          "region": "中资",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 2,
-          "signal_count": 2
-        },
-        "Meituan": {
-          "method": "company",
-          "region": "中资",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Kakao": {
-          "method": "company",
-          "region": "亚太",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 2,
-          "signal_count": 2
-        },
-        "Naver": {
-          "method": "company",
-          "region": "亚太",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 2,
-          "signal_count": 2
-        },
-        "Rakuten": {
-          "method": "company",
-          "region": "亚太",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 1,
-          "signal_count": 1
-        },
-        "Sea Limited": {
-          "method": "company",
-          "region": "亚太",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Grab": {
-          "method": "company",
-          "region": "亚太",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Gojek": {
-          "method": "company",
-          "region": "亚太",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "VNG Group": {
-          "method": "company",
-          "region": "亚太",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Yahoo": {
-          "method": "company",
-          "region": "亚太",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Cyberagent": {
-          "method": "company",
-          "region": "亚太",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "HKTVmall": {
-          "method": "company",
-          "region": "亚太",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "U-NEXT": {
-          "method": "company",
-          "region": "亚太",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Square Enix": {
-          "method": "company",
-          "region": "亚太",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 1,
-          "signal_count": 1
-        },
-        "Adyen": {
-          "method": "company",
-          "region": "欧洲",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 1,
-          "signal_count": 1
-        },
-        "Zalando": {
-          "method": "company",
-          "region": "欧洲",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 1,
-          "signal_count": 0
-        },
-        "Allegro": {
-          "method": "company",
-          "region": "欧洲",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Trendyol": {
-          "method": "company",
-          "region": "欧洲",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "MercadoLibre": {
-          "method": "company",
-          "region": "拉美",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 2,
-          "signal_count": 2
-        },
-        "Nubank": {
-          "method": "company",
-          "region": "拉美",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Rappi": {
-          "method": "company",
-          "region": "拉美",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Noon": {
-          "method": "company",
-          "region": "中东",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Careem": {
-          "method": "company",
-          "region": "中东",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Tabby": {
-          "method": "company",
-          "region": "中东",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Kaspi.kz": {
-          "method": "company",
-          "region": "中东",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Jumia": {
-          "method": "company",
-          "region": "非洲",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        },
-        "Konga": {
-          "method": "company",
-          "region": "非洲",
-          "status": "empty",
-          "fetch_status": "success",
-          "count": 0,
-          "signal_count": 0
-        }
-      }
-    },
-    "jobs": {
-      "observed_at": "2026-08-21T02:51:07.530764+08:00",
-      "source_count": 3,
-      "raw_count": 67,
-      "source_stats": {
-        "Grab Jobs": {
-          "method": "jobs_snapshot",
-          "region": "亚太",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 10,
-          "inventory_count": 19,
-          "signal_count": 1,
-          "added_count": 5,
-          "removed_count": 5,
-          "clusters": {
-            "engineering": 4,
-            "partnerships": 1
-          },
-          "removed_clusters": {
-            "engineering": 3
-          }
-        },
-        "Stripe Jobs": {
-          "method": "jobs_snapshot",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 4,
-          "inventory_count": 16,
-          "signal_count": 1,
-          "added_count": 3,
-          "removed_count": 1,
-          "clusters": {
-            "sales": 3
-          },
-          "removed_clusters": {
-            "ai": 1,
-            "engineering": 1
-          }
-        },
-        "Shopify Jobs": {
-          "method": "jobs_snapshot",
-          "region": "全球",
-          "status": "ok",
-          "fetch_status": "success",
-          "count": 0,
-          "inventory_count": 32,
-          "signal_count": 0,
-          "added_count": 0,
-          "removed_count": 0,
-          "clusters": {},
-          "removed_clusters": {}
-        }
-      },
-      "candidate_signals": [
-        {
-          "candidate_id": "jobs-0d561f903c3b9954",
-          "entity_id": "grab",
-          "entity": "Grab",
-          "region": "亚太",
-          "sector": "mobility_payment",
-          "source_type": "jobs_snapshot",
-          "signal_type": "function_buildout",
-          "cluster": "engineering",
-          "window": "2026-W34",
-          "window_start": "2026-08-21",
-          "window_end": "2026-08-21",
-          "detected_at": "2026-08-21T02:51:07.530764+08:00",
-          "baseline_count": 19,
-          "current_count": 19,
-          "added_count": 5,
-          "removed_count": 5,
-          "clusters": {
-            "engineering": 4,
-            "partnerships": 1
-          },
-          "removed_clusters": {
-            "engineering": 3
-          },
-          "evidence_refs": [
-            {
-              "job_id": "744000144517077",
-              "title": "Senior Software Engineer, Perception (Robotics)",
-              "url": "https://www.grab.careers/en/jobs/744000144517077/senior-software-engineer-perception-robotics/",
-              "change": "added"
-            },
-            {
-              "job_id": "744000144513679",
-              "title": "Senior Software Engineer, Backend (Fulfillment)",
-              "url": "https://www.grab.careers/en/jobs/744000144513679/senior-software-engineer-backend-fulfillment/",
-              "change": "added"
-            },
-            {
-              "job_id": "744000144511679",
-              "title": "Software Engineering Manager",
-              "url": "https://www.grab.careers/en/jobs/744000144511679/software-engineering-manager/",
-              "change": "added"
-            },
-            {
-              "job_id": "744000144489490",
-              "title": "Team Lead, Partner Social Engagement",
-              "url": "https://www.grab.careers/en/jobs/744000144489490/team-lead-partner-social-engagement/",
-              "change": "added"
-            },
-            {
-              "job_id": "744000144492599",
-              "title": "Senior Principal Engineer– Consumer Experience & Integrity",
-              "url": "https://www.grab.careers/en/jobs/744000144492599/senior-principal-engineer-consumer-experience-integrity/",
-              "change": "added"
-            },
-            {
-              "job_id": "744000144236179",
-              "title": "OmniCommerce Manager",
-              "url": "https://www.grab.careers/en/jobs/744000144236179/omnicommerce-manager/",
-              "change": "removed"
-            },
-            {
-              "job_id": "744000144227409",
-              "title": "Lead Software Engineer, Backend - Consumer Experience",
-              "url": "https://www.grab.careers/en/jobs/744000144227409/lead-software-engineer-backend-consumer-experience/",
-              "change": "removed"
-            },
-            {
-              "job_id": "744000144227389",
-              "title": "Engineering Manager II, Data Platform",
-              "url": "https://www.grab.careers/en/jobs/744000144227389/engineering-manager-ii-data-platform/",
-              "change": "removed"
-            },
-            {
-              "job_id": "744000144226639",
-              "title": "Senior Data Scientist (Analytics)",
-              "url": "https://www.grab.careers/en/jobs/744000144226639/senior-data-scientist-analytics/",
-              "change": "removed"
-            },
-            {
-              "job_id": "744000144225729",
-              "title": "Senior Software Engineer, Mobile (iOS) - Consumer Experience",
-              "url": "https://www.grab.careers/en/jobs/744000144225729/senior-software-engineer-mobile-ios-consumer-experience/",
-              "change": "removed"
-            }
-          ],
-          "status": "qualified",
-          "rejection_reason": "",
-          "promoted_event_id": ""
-        },
-        {
-          "candidate_id": "jobs-a5d3b323f3e94434",
-          "entity_id": "stripe",
-          "entity": "Stripe",
-          "region": "全球",
-          "sector": "payment_developer_platform",
-          "source_type": "jobs_snapshot",
-          "signal_type": "function_buildout",
-          "cluster": "sales",
-          "window": "2026-W34",
-          "window_start": "2026-08-21",
-          "window_end": "2026-08-21",
-          "detected_at": "2026-08-21T02:51:07.530764+08:00",
-          "baseline_count": 14,
-          "current_count": 16,
-          "added_count": 3,
-          "removed_count": 1,
-          "clusters": {
-            "sales": 3
-          },
-          "removed_clusters": {
-            "ai": 1,
-            "engineering": 1
-          },
-          "evidence_refs": [
-            {
-              "job_id": "8023928",
-              "title": "Account Executive, Bridge (Stripe Crypto and Stablecoins)",
-              "url": "https://stripe.com/careers/listing/account-executive-bridge-stripe-crypto-and-stablecoins/8023928",
-              "change": "added"
-            },
-            {
-              "job_id": "8123027",
-              "title": "Account Executive, Commercial (Grower)",
-              "url": "https://stripe.com/careers/listing/account-executive-commercial-grower/8123027",
-              "change": "added"
-            },
-            {
-              "job_id": "7789539",
-              "title": "Account Executive, Commercial Hunter (Japanese Fluency)",
-              "url": "https://stripe.com/careers/listing/account-executive-commercial-hunter-japanese-fluency/7789539",
-              "change": "added"
-            },
-            {
-              "job_id": "8044460",
-              "title": "AI Engineer",
-              "url": "https://stripe.com/careers/listing/ai-engineer/8044460",
-              "change": "removed"
-            }
-          ],
-          "status": "qualified",
-          "rejection_reason": "",
-          "promoted_event_id": ""
-        }
-      ],
-      "promoted_count": 1
-    },
-    "collection": {
-      "raw_count": 189,
-      "unique_count": 184,
-      "same_run_duplicate_skipped": 5,
-      "company_count": 45,
-      "type_counts": {
-        "strategy": 44,
-        "model_release": 2,
-        "earnings": 13,
-        "funding": 29,
-        "other": 91,
-        "ma": 4,
-        "industry_report": 1
-      },
-      "region_counts": {
-        "亚太": 49,
-        "中资": 6,
-        "北美": 8,
-        "欧洲": 38,
-        "拉美": 11,
-        "全球": 49,
-        "中东": 6,
-        "非洲": 14,
-        "越南": 3
-      }
-    },
-    "bank_filtered_count": 0,
-    "filtering": {
-      "smart_filtered_count": 92,
-      "smart_filter_dropped": 0,
-      "scope_qualified_count": 92,
-      "scope_candidate_count": 46,
-      "scope_filtered_count": 46,
-      "scope_reason_counts": {
-        "scope_change_not_explicit": 44,
-        "scope_editorial_without_explicit_change": 2,
-        "scope_no_target_industry": 46
-      },
-      "ai_filtered_count": 92,
-      "ai_filter_dropped": 0,
-      "type_counts_after_smart_filter": {
-        "strategy": 54,
-        "model_release": 2,
-        "earnings": 10,
-        "funding": 22,
-        "ma": 3,
-        "industry_report": 1
-      }
-    },
-    "scoring": {
-      "ai_tier_count": 83,
-      "program_tier_count": 0,
-      "dropped_count": 9
-    },
-    "analysis": {
-      "event_count": 84,
-      "quality": {
-        "total": 84,
-        "needs_repair": 5,
-        "fallback_or_failed": 1,
-        "high_score_needs_repair": 1,
-        "repair_ratio": 0.05952380952380952
-      }
-    },
-    "storage": {
-      "added_count": 33,
-      "duplicate_skipped": 51,
-      "company_added": 4,
-      "generic_added": 29,
-      "pubdate_ok": 31,
-      "pubdate_fallback": 2,
-      "added_event_dates": {
-        "2026-08-20": 32,
-        "2026-08-21": 1
-      },
-      "added_source_tiers": {
-        "L5 Google News 补漏源": 3,
-        "L2 垂直交易源": 15,
-        "L3 区域生态源": 2,
-        "L4 垂直赛道精品源": 11,
-        "L1 官方/IR源": 2
-      }
-    },
-    "source_funnel": {
-      "Tencent": {
-        "raw": 1,
-        "unique": 1,
-        "scope_qualified": 1,
-        "smart_kept": 1,
-        "score_ai_tier": 1,
-        "analysis_events": 1
-      },
-      "Ant Group": {
-        "raw": 2,
-        "unique": 2,
-        "scope_qualified": 2,
-        "smart_kept": 2,
-        "score_ai_tier": 2,
-        "analysis_events": 2
-      },
-      "Kakao": {
-        "raw": 2,
-        "unique": 2,
-        "scope_qualified": 2,
-        "smart_kept": 2,
-        "score_ai_tier": 2,
-        "analysis_events": 2,
-        "added": 1
-      },
-      "Naver": {
-        "raw": 2,
-        "unique": 2,
-        "scope_qualified": 2,
-        "smart_kept": 2,
-        "score_ai_tier": 2,
-        "analysis_events": 2
-      },
-      "Rakuten": {
-        "raw": 1,
-        "unique": 1,
-        "scope_qualified": 1,
-        "smart_kept": 1,
-        "score_ai_tier": 1,
-        "analysis_events": 1
-      },
-      "Square Enix": {
-        "raw": 1,
-        "unique": 1,
-        "scope_qualified": 1,
-        "smart_kept": 1,
-        "score_ai_tier": 1,
-        "analysis_events": 1,
-        "added": 1
-      },
-      "Adyen": {
-        "raw": 1,
-        "unique": 1,
-        "scope_qualified": 1,
-        "smart_kept": 1,
-        "score_ai_tier": 1,
-        "analysis_events": 1
-      },
-      "Zalando": {
-        "raw": 1,
-        "unique": 1,
-        "scope_filtered": 1
-      },
-      "MercadoLibre": {
-        "raw": 2,
-        "unique": 2,
-        "scope_qualified": 2,
-        "smart_kept": 2,
-        "score_ai_tier": 2,
-        "analysis_events": 2,
-        "added": 1
-      },
-      "TechCrunch": {
-        "raw": 8,
-        "unique": 8,
-        "scope_qualified": 2,
-        "scope_candidate": 2,
-        "scope_filtered": 4,
-        "smart_kept": 2,
-        "score_ai_tier": 2,
-        "analysis_events": 2,
-        "added": 2
-      },
-      "TechCrunch VC": {
-        "raw": 5,
-        "unique": 3,
-        "scope_qualified": 1,
-        "scope_candidate": 1,
-        "scope_filtered": 1,
-        "smart_kept": 1,
-        "score_ai_tier": 1,
-        "analysis_events": 1
-      },
-      "Tech.eu": {
-        "raw": 8,
-        "unique": 8,
-        "scope_qualified": 6,
-        "scope_filtered": 2,
-        "smart_kept": 6,
-        "score_ai_tier": 3,
-        "score_dropped": 3,
-        "analysis_events": 3,
-        "added": 1
-      },
-      "UKTN": {
-        "raw": 8,
-        "unique": 8,
-        "scope_qualified": 4,
-        "scope_filtered": 4,
-        "smart_kept": 4,
-        "score_ai_tier": 3,
-        "score_dropped": 1,
-        "analysis_events": 3,
-        "added": 2
-      },
-      "EU-Startups": {
-        "raw": 8,
-        "unique": 8,
-        "scope_qualified": 5,
-        "scope_filtered": 3,
-        "smart_kept": 5,
-        "score_ai_tier": 3,
-        "score_dropped": 2,
-        "analysis_events": 3,
-        "added": 1
-      },
-      "The Recursive": {
-        "raw": 5,
-        "unique": 5,
-        "scope_qualified": 2,
-        "scope_filtered": 3,
-        "smart_kept": 2,
-        "score_ai_tier": 1,
-        "score_dropped": 1,
-        "analysis_events": 1
-      },
-      "The Next Web": {
-        "raw": 6,
-        "unique": 6,
-        "scope_qualified": 2,
-        "scope_filtered": 4,
-        "smart_kept": 2,
-        "score_ai_tier": 2,
-        "analysis_events": 2,
-        "added": 2
-      },
-      "Tech in Asia": {
-        "raw": 8,
-        "unique": 8,
-        "scope_qualified": 1,
-        "scope_candidate": 3,
-        "scope_filtered": 4,
-        "smart_kept": 1,
-        "score_ai_tier": 1,
-        "analysis_events": 1
-      },
-      "Inc42": {
-        "raw": 8,
-        "unique": 8,
-        "scope_qualified": 2,
-        "scope_filtered": 6,
-        "smart_kept": 2,
-        "score_ai_tier": 2,
-        "analysis_events": 2,
-        "added": 2
-      },
-      "TechWire Asia": {
-        "raw": 2,
-        "unique": 2,
-        "scope_qualified": 2,
-        "smart_kept": 2,
-        "score_ai_tier": 2,
-        "analysis_events": 2
-      },
-      "PocketGamer.biz": {
-        "raw": 7,
-        "unique": 6,
-        "scope_qualified": 3,
-        "scope_candidate": 3,
-        "smart_kept": 3,
-        "score_ai_tier": 3,
-        "analysis_events": 3,
-        "added": 3
-      },
-      "Fintech News Singapore": {
-        "raw": 7,
-        "unique": 7,
-        "scope_qualified": 4,
-        "scope_candidate": 3,
-        "smart_kept": 4,
-        "score_ai_tier": 4,
-        "analysis_events": 4
-      },
-      "Finextra Payments": {
-        "raw": 8,
-        "unique": 8,
-        "scope_qualified": 4,
-        "scope_candidate": 4,
-        "smart_kept": 4,
-        "score_ai_tier": 4,
-        "analysis_events": 4,
-        "added": 2
-      },
-      "Payments Dive": {
-        "raw": 4,
-        "unique": 4,
-        "scope_qualified": 3,
-        "scope_candidate": 1,
-        "smart_kept": 3,
-        "score_ai_tier": 3,
-        "analysis_events": 3,
-        "added": 1
-      },
-      "Retail Dive": {
-        "raw": 3,
-        "unique": 3,
-        "scope_qualified": 2,
-        "scope_candidate": 1,
-        "smart_kept": 2,
-        "score_ai_tier": 2,
-        "analysis_events": 2,
-        "added": 2
-      },
-      "Mobile World Live": {
-        "raw": 8,
-        "unique": 8,
-        "scope_qualified": 4,
-        "scope_candidate": 4,
-        "smart_kept": 4,
-        "score_ai_tier": 4,
-        "analysis_events": 4,
-        "added": 3
-      },
-      "Social Media Today": {
-        "raw": 4,
-        "unique": 4,
-        "scope_qualified": 2,
-        "scope_candidate": 2,
-        "smart_kept": 2,
-        "score_ai_tier": 2,
-        "analysis_events": 2
-      },
-      "WAMDA": {
-        "raw": 4,
-        "unique": 4,
-        "scope_qualified": 4,
-        "smart_kept": 4,
-        "score_ai_tier": 2,
-        "score_dropped": 2,
-        "analysis_events": 2
-      },
-      "Ventureburn": {
-        "raw": 8,
-        "unique": 8,
-        "scope_qualified": 6,
-        "scope_filtered": 2,
-        "smart_kept": 6,
-        "score_ai_tier": 6,
-        "analysis_events": 6,
-        "added": 6
-      },
-      "WeeTracker": {
-        "raw": 3,
-        "unique": 3,
-        "scope_filtered": 3
-      },
-      "modern-retail": {
-        "raw": 2,
-        "unique": 2,
-        "scope_qualified": 2,
-        "smart_kept": 2,
-        "score_ai_tier": 2,
-        "analysis_events": 2
-      },
-      "databricks-blog": {
-        "raw": 1,
-        "unique": 1,
-        "scope_qualified": 1,
-        "smart_kept": 1,
-        "score_ai_tier": 1,
-        "analysis_events": 1
-      },
-      "cloudflare-blog": {
-        "raw": 1,
-        "unique": 1,
-        "scope_qualified": 1,
-        "smart_kept": 1,
-        "score_ai_tier": 1,
-        "analysis_events": 1,
-        "added": 1
-      },
-      "vnexpress-tech": {
-        "raw": 3,
-        "unique": 3,
-        "scope_qualified": 2,
-        "scope_candidate": 1,
-        "smart_kept": 2,
-        "score_ai_tier": 2,
-        "analysis_events": 2
-      },
-      "36kr-japan": {
-        "raw": 2,
-        "unique": 2,
-        "scope_candidate": 2
-      },
-      "DealStreetAsia": {
-        "raw": 4,
-        "unique": 3,
-        "scope_qualified": 1,
-        "scope_filtered": 2,
-        "smart_kept": 1,
-        "score_ai_tier": 1,
-        "analysis_events": 1,
-        "added": 1
-      },
-      "Rakuten IR": {
-        "raw": 4,
-        "unique": 4,
-        "scope_qualified": 1,
-        "scope_candidate": 3,
-        "smart_kept": 1,
-        "score_ai_tier": 1,
-        "analysis_events": 1
-      },
-      "Adyen IR": {
-        "raw": 1,
-        "unique": 1,
-        "scope_candidate": 1
-      },
-      "Allegro Newsroom": {
-        "raw": 1,
-        "unique": 1,
-        "scope_qualified": 1,
-        "smart_kept": 1,
-        "score_ai_tier": 1,
-        "analysis_events": 1
-      },
-      "Naver Press": {
-        "raw": 4,
-        "unique": 4,
-        "scope_qualified": 2,
-        "scope_candidate": 2,
-        "smart_kept": 2,
-        "score_ai_tier": 2,
-        "analysis_events": 2
-      },
-      "Square Enix IR News": {
-        "raw": 4,
-        "unique": 4,
-        "scope_candidate": 4
-      },
-      "Jumia Newsroom": {
-        "raw": 3,
-        "unique": 3,
-        "scope_qualified": 2,
-        "scope_candidate": 1,
-        "smart_kept": 2,
-        "score_ai_tier": 2,
-        "analysis_events": 2
-      },
-      "JD.com IR": {
-        "raw": 4,
-        "unique": 4,
-        "scope_qualified": 1,
-        "scope_candidate": 3,
-        "smart_kept": 1,
-        "score_ai_tier": 1,
-        "analysis_events": 1
-      },
-      "mercadolibre-news": {
-        "raw": 4,
-        "unique": 4,
-        "scope_candidate": 4
-      },
-      "stripe-changelog": {
-        "raw": 4,
-        "unique": 4,
-        "scope_qualified": 4,
-        "smart_kept": 4,
-        "score_ai_tier": 4,
-        "analysis_events": 4
-      },
-      "cloudflare-changelog": {
-        "raw": 4,
-        "unique": 3,
-        "scope_qualified": 3,
-        "smart_kept": 3,
-        "score_ai_tier": 3,
-        "analysis_events": 3
-      },
-      "momo-newsroom": {
-        "raw": 2,
-        "unique": 2,
-        "scope_filtered": 2
-      },
-      "stc-media": {
-        "raw": 2,
-        "unique": 2,
-        "scope_candidate": 1,
-        "scope_filtered": 1
-      },
-      "nubank-blog": {
-        "raw": 4,
-        "unique": 4,
-        "scope_filtered": 4
-      },
-      "stripe-jobs": {
-        "analysis_events": 1,
-        "added": 1
-      }
-    },
-    "finished_at": "2026-08-21T02:55:42.396587+08:00",
-    "history": {
-      "total_events": 3402,
-      "company_total": 990,
-      "day_count": 107,
-      "removed_same_day_duplicates": 0,
-      "removed_reasons": {
-        "missing_company_alias": 0,
-        "low_signal_company_title": 0,
-        "same_day_duplicate": 0,
-        "company_daily_cap": 0
-      }
-    }
-  },
-  {
     "run_id": "20260821-102138",
     "date": "2026-08-21",
     "started_at": "2026-08-21T10:21:38.873701+08:00",
@@ -56669,6 +54674,2173 @@
       "total_events": 3887,
       "company_total": 1123,
       "day_count": 121,
+      "removed_same_day_duplicates": 1,
+      "removed_reasons": {
+        "missing_company_alias": 0,
+        "low_signal_company_title": 1,
+        "same_day_duplicate": 0,
+        "company_daily_cap": 0
+      }
+    }
+  },
+  {
+    "run_id": "20260905-044108",
+    "date": "2026-09-05",
+    "started_at": "2026-09-05T04:41:08.086180+08:00",
+    "environment": "github_actions",
+    "rss": {
+      "source_count": 46,
+      "raw_count": 126,
+      "cache_hits": 0,
+      "source_stats": {
+        "TechCrunch": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 8,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 20,
+            "recent_items": 8,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "TechCrunch VC": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 2,
+          "signal_count": 1,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 16,
+            "recent_items": 2,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "Tech.eu": {
+          "method": "rss",
+          "region": "欧洲",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 8,
+          "signal_count": 3,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 20,
+            "recent_items": 8,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "UKTN": {
+          "method": "rss",
+          "region": "欧洲",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 0,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "EU-Startups": {
+          "method": "rss",
+          "region": "欧洲",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 8,
+          "signal_count": 3,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 8,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "The Recursive": {
+          "method": "rss",
+          "region": "欧洲",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 5,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 15,
+            "recent_items": 5,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "The Next Web": {
+          "method": "rss",
+          "region": "欧洲",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 6,
+          "signal_count": 2,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 6,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "Tech in Asia": {
+          "method": "rss",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 8,
+          "signal_count": 4,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 36,
+            "recent_items": 8,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "Inc42": {
+          "method": "rss",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 8,
+          "signal_count": 2,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 24,
+            "recent_items": 8,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "TechWire Asia": {
+          "method": "rss",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 2,
+          "signal_count": 1,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 12,
+            "recent_items": 2,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "GamesIndustry.biz": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {}
+        },
+        "PocketGamer.biz": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 8,
+          "signal_count": 4,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 50,
+            "recent_items": 16,
+            "qualified": 8,
+            "candidate": 6,
+            "filtered": 2,
+            "filter_reasons": {
+              "scope_change_not_explicit": 5,
+              "scope_no_target_industry": 2,
+              "scope_editorial_without_explicit_change": 1
+            }
+          }
+        },
+        "Fintech News Singapore": {
+          "method": "rss",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 8,
+          "signal_count": 4,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 10,
+            "qualified": 5,
+            "candidate": 5,
+            "filtered": 0,
+            "filter_reasons": {
+              "scope_change_not_explicit": 5
+            }
+          }
+        },
+        "Finextra Payments": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 8,
+          "signal_count": 4,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 53,
+            "recent_items": 10,
+            "qualified": 6,
+            "candidate": 4,
+            "filtered": 0,
+            "filter_reasons": {
+              "scope_editorial_without_explicit_change": 1,
+              "scope_change_not_explicit": 3
+            }
+          }
+        },
+        "Payments Dive": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 5,
+          "signal_count": 2,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 5,
+            "qualified": 2,
+            "candidate": 3,
+            "filtered": 0,
+            "filter_reasons": {
+              "scope_change_not_explicit": 3
+            }
+          }
+        },
+        "EcommerceBytes": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 1,
+          "signal_count": 1,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 1,
+            "qualified": 1,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "Retail Dive": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 3,
+          "signal_count": 2,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 10,
+            "qualified": 2,
+            "candidate": 1,
+            "filtered": 7,
+            "filter_reasons": {
+              "scope_no_target_industry": 7,
+              "scope_editorial_without_explicit_change": 1
+            }
+          }
+        },
+        "Mobile World Live": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 5,
+          "signal_count": 4,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 30,
+            "recent_items": 12,
+            "qualified": 5,
+            "candidate": 1,
+            "filtered": 6,
+            "filter_reasons": {
+              "scope_no_target_industry": 6,
+              "scope_change_not_explicit": 1
+            }
+          }
+        },
+        "Social Media Today": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 3,
+          "signal_count": 2,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 3,
+            "qualified": 2,
+            "candidate": 1,
+            "filtered": 0,
+            "filter_reasons": {
+              "scope_change_not_explicit": 1
+            }
+          }
+        },
+        "Mobile Marketing Magazine": {
+          "method": "rss",
+          "region": "全球",
+          "status": "failed",
+          "fetch_status": "failed",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false
+        },
+        "WAMDA": {
+          "method": "rss",
+          "region": "中东",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 8,
+          "signal_count": 5,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 20,
+            "recent_items": 8,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "MENAbytes": {
+          "method": "rss",
+          "region": "中东",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 0,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "TechCabal": {
+          "method": "rss",
+          "region": "非洲",
+          "status": "failed",
+          "fetch_status": "failed",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false
+        },
+        "Disrupt Africa": {
+          "method": "rss",
+          "region": "非洲",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 0,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "Techpoint": {
+          "method": "rss",
+          "region": "非洲",
+          "status": "failed",
+          "fetch_status": "failed",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false
+        },
+        "Ventureburn": {
+          "method": "rss",
+          "region": "非洲",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 8,
+          "signal_count": 3,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 8,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "WeeTracker": {
+          "method": "rss",
+          "region": "非洲",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 6,
+          "signal_count": 1,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 8,
+            "recent_items": 6,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "LatamList": {
+          "method": "rss",
+          "region": "拉美",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 1,
+          "signal_count": 1,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 1,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "LAVCA": {
+          "method": "rss",
+          "region": "拉美",
+          "status": "failed",
+          "fetch_status": "failed",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false
+        },
+        "Contxto": {
+          "method": "rss",
+          "region": "拉美",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 100,
+            "recent_items": 0,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "Rest of World Money": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 12,
+            "recent_items": 0,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "Rest of World Ecommerce": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 12,
+            "recent_items": 0,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "Cyberagent News": {
+          "method": "rss",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 100,
+            "recent_items": 0,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "Modern Retail": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 1,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 4,
+            "qualified": 0,
+            "candidate": 1,
+            "filtered": 3,
+            "filter_reasons": {
+              "scope_change_not_explicit": 1,
+              "scope_no_target_industry": 3
+            }
+          }
+        },
+        "Grab IR": {
+          "method": "rss",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 0,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "The Paypers": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {}
+        },
+        "e27 东南亚科技产业分析": {
+          "method": "rss",
+          "region": "东南亚",
+          "status": "failed",
+          "fetch_status": "failed",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false
+        },
+        "OpenAI News": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 1,
+          "signal_count": 1,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 1169,
+            "recent_items": 4,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "Databricks Blog": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 3,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 5,
+            "qualified": 0,
+            "candidate": 3,
+            "filtered": 2,
+            "filter_reasons": {
+              "scope_change_not_explicit": 3,
+              "scope_no_target_industry": 2
+            }
+          }
+        },
+        "Cloudflare Blog": {
+          "method": "rss",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 20,
+            "recent_items": 1,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 1,
+            "filter_reasons": {
+              "scope_no_target_industry": 1
+            }
+          }
+        },
+        "KoreaTechDesk": {
+          "method": "rss",
+          "region": "韩国",
+          "status": "failed",
+          "fetch_status": "failed",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false
+        },
+        "DailySocial Indonesia": {
+          "method": "rss",
+          "region": "印尼",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 20,
+            "recent_items": 0,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 0,
+            "filter_reasons": {}
+          }
+        },
+        "Brazil Journal": {
+          "method": "rss",
+          "region": "巴西",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 10,
+            "qualified": 0,
+            "candidate": 0,
+            "filtered": 10,
+            "filter_reasons": {
+              "scope_no_target_industry": 10
+            }
+          }
+        },
+        "VnExpress Tech": {
+          "method": "rss",
+          "region": "越南",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 1,
+          "signal_count": 0,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 60,
+            "recent_items": 7,
+            "qualified": 0,
+            "candidate": 1,
+            "filtered": 6,
+            "filter_reasons": {
+              "scope_no_target_industry": 6,
+              "scope_change_not_explicit": 1
+            }
+          }
+        },
+        "The Bridge": {
+          "method": "rss",
+          "region": "日本",
+          "status": "failed",
+          "fetch_status": "failed",
+          "count": 0,
+          "signal_count": 0,
+          "cached": false
+        },
+        "36Kr Japan": {
+          "method": "rss",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 1,
+          "signal_count": 1,
+          "cached": false,
+          "scope_stats": {
+            "feed_entries": 10,
+            "recent_items": 10,
+            "qualified": 1,
+            "candidate": 0,
+            "filtered": 9,
+            "filter_reasons": {
+              "scope_no_target_industry": 9
+            }
+          }
+        }
+      }
+    },
+    "html": {
+      "source_count": 33,
+      "raw_count": 44,
+      "source_stats": {
+        "DealStreetAsia": {
+          "method": "html",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 4,
+          "signal_count": 0
+        },
+        "Rakuten IR": {
+          "method": "html",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 4,
+          "signal_count": 1
+        },
+        "MercadoLibre IR": {
+          "method": "html",
+          "region": "拉美",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Adyen IR": {
+          "method": "html",
+          "region": "欧洲",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 1,
+          "signal_count": 0
+        },
+        "Sea Newsroom": {
+          "method": "html",
+          "region": "亚太",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Zalando IR": {
+          "method": "html",
+          "region": "欧洲",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Allegro Newsroom": {
+          "method": "html",
+          "region": "欧洲",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 1,
+          "signal_count": 1
+        },
+        "Kaspi.kz IR": {
+          "method": "html",
+          "region": "中东",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Naver Press": {
+          "method": "html",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 4,
+          "signal_count": 2
+        },
+        "Kakao Press": {
+          "method": "html",
+          "region": "亚太",
+          "status": "failed",
+          "fetch_status": "failed",
+          "count": 0,
+          "signal_count": 0
+        },
+        "HKTVmall IR News": {
+          "method": "html",
+          "region": "亚太",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "U-NEXT News": {
+          "method": "html",
+          "region": "亚太",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Square Enix IR News": {
+          "method": "html",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 4,
+          "signal_count": 0
+        },
+        "Jumia Newsroom": {
+          "method": "html",
+          "region": "非洲",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 3,
+          "signal_count": 2
+        },
+        "JD.com IR": {
+          "method": "html",
+          "region": "中资",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 4,
+          "signal_count": 1
+        },
+        "Yahoo Press": {
+          "method": "html",
+          "region": "亚太",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Tabby Press": {
+          "method": "html",
+          "region": "中东",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Grab Newsroom": {
+          "method": "html",
+          "region": "亚太",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "GoTo Newsroom": {
+          "method": "html",
+          "region": "亚太",
+          "status": "failed",
+          "fetch_status": "failed",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Mercado Libre News": {
+          "method": "html",
+          "region": "拉美",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 4,
+          "signal_count": 0
+        },
+        "Flutterwave Blog": {
+          "method": "html",
+          "region": "非洲",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Stripe Changelog": {
+          "method": "html",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 4,
+          "signal_count": 4
+        },
+        "Cloudflare Changelog": {
+          "method": "html",
+          "region": "全球",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Shopify Changelog": {
+          "method": "html",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 1,
+          "signal_count": 1
+        },
+        "VNG Newsroom": {
+          "method": "html",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 1,
+          "signal_count": 0
+        },
+        "MoMo Newsroom": {
+          "method": "html",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 3,
+          "signal_count": 0
+        },
+        "Tamara Media Center": {
+          "method": "html",
+          "region": "中东",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "stc Media Center": {
+          "method": "html",
+          "region": "中东",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 2,
+          "signal_count": 0
+        },
+        "Nubank Blog": {
+          "method": "html",
+          "region": "拉美",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 4,
+          "signal_count": 0
+        },
+        "Rappi Press Room": {
+          "method": "html",
+          "region": "拉美",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "OPay Newsroom": {
+          "method": "html",
+          "region": "非洲",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Safaricom Media Center": {
+          "method": "html",
+          "region": "非洲",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Anthropic Newsroom": {
+          "method": "html",
+          "region": "全球",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        }
+      }
+    },
+    "company": {
+      "source_count": 32,
+      "raw_count": 12,
+      "unique_count": 12,
+      "source_stats": {
+        "ByteDance/TikTok": {
+          "method": "company",
+          "region": "中资",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 2,
+          "signal_count": 2
+        },
+        "Tencent": {
+          "method": "company",
+          "region": "中资",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Alibaba": {
+          "method": "company",
+          "region": "中资",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "JD.com": {
+          "method": "company",
+          "region": "中资",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Kuaishou": {
+          "method": "company",
+          "region": "中资",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Ant Group": {
+          "method": "company",
+          "region": "中资",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 1,
+          "signal_count": 1
+        },
+        "Meituan": {
+          "method": "company",
+          "region": "中资",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Kakao": {
+          "method": "company",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 2,
+          "signal_count": 2
+        },
+        "Naver": {
+          "method": "company",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 2,
+          "signal_count": 2
+        },
+        "Rakuten": {
+          "method": "company",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 1,
+          "signal_count": 1
+        },
+        "Sea Limited": {
+          "method": "company",
+          "region": "亚太",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Grab": {
+          "method": "company",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 1,
+          "signal_count": 1
+        },
+        "Gojek": {
+          "method": "company",
+          "region": "亚太",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "VNG Group": {
+          "method": "company",
+          "region": "亚太",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Yahoo": {
+          "method": "company",
+          "region": "亚太",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Cyberagent": {
+          "method": "company",
+          "region": "亚太",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "HKTVmall": {
+          "method": "company",
+          "region": "亚太",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "U-NEXT": {
+          "method": "company",
+          "region": "亚太",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Square Enix": {
+          "method": "company",
+          "region": "亚太",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Adyen": {
+          "method": "company",
+          "region": "欧洲",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 1,
+          "signal_count": 1
+        },
+        "Zalando": {
+          "method": "company",
+          "region": "欧洲",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Allegro": {
+          "method": "company",
+          "region": "欧洲",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Trendyol": {
+          "method": "company",
+          "region": "欧洲",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "MercadoLibre": {
+          "method": "company",
+          "region": "拉美",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 1,
+          "signal_count": 1
+        },
+        "Nubank": {
+          "method": "company",
+          "region": "拉美",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Rappi": {
+          "method": "company",
+          "region": "拉美",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Noon": {
+          "method": "company",
+          "region": "中东",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Careem": {
+          "method": "company",
+          "region": "中东",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Tabby": {
+          "method": "company",
+          "region": "中东",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Kaspi.kz": {
+          "method": "company",
+          "region": "中东",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        },
+        "Jumia": {
+          "method": "company",
+          "region": "非洲",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 1,
+          "signal_count": 1
+        },
+        "Konga": {
+          "method": "company",
+          "region": "非洲",
+          "status": "empty",
+          "fetch_status": "success",
+          "count": 0,
+          "signal_count": 0
+        }
+      }
+    },
+    "jobs": {
+      "observed_at": "2026-09-05T04:41:08.086180+08:00",
+      "source_count": 3,
+      "raw_count": 66,
+      "source_stats": {
+        "Grab Jobs": {
+          "method": "jobs_snapshot",
+          "region": "亚太",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 37,
+          "inventory_count": 19,
+          "signal_count": 1,
+          "added_count": 19,
+          "removed_count": 18,
+          "clusters": {
+            "payments": 1,
+            "partnerships": 3,
+            "engineering": 2,
+            "operations": 2,
+            "sales": 3
+          },
+          "removed_clusters": {
+            "engineering": 6,
+            "sales": 2,
+            "partnerships": 1,
+            "operations": 4,
+            "payments": 1
+          }
+        },
+        "Stripe Jobs": {
+          "method": "jobs_snapshot",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 2,
+          "inventory_count": 14,
+          "signal_count": 0,
+          "added_count": 1,
+          "removed_count": 1,
+          "clusters": {
+            "sales": 1
+          },
+          "removed_clusters": {
+            "sales": 1
+          }
+        },
+        "Shopify Jobs": {
+          "method": "jobs_snapshot",
+          "region": "全球",
+          "status": "ok",
+          "fetch_status": "success",
+          "count": 2,
+          "inventory_count": 33,
+          "signal_count": 1,
+          "added_count": 2,
+          "removed_count": 0,
+          "clusters": {
+            "compliance": 2
+          },
+          "removed_clusters": {}
+        }
+      },
+      "candidate_signals": [
+        {
+          "candidate_id": "jobs-da6bda749c84ccfd",
+          "entity_id": "grab",
+          "entity": "Grab",
+          "region": "亚太",
+          "sector": "mobility_payment",
+          "source_type": "jobs_snapshot",
+          "signal_type": "function_buildout",
+          "cluster": "partnerships",
+          "window": "2026-W36",
+          "window_start": "2026-09-05",
+          "window_end": "2026-09-05",
+          "detected_at": "2026-09-05T04:41:08.086180+08:00",
+          "baseline_count": 18,
+          "current_count": 19,
+          "added_count": 19,
+          "removed_count": 18,
+          "clusters": {
+            "payments": 1,
+            "partnerships": 3,
+            "engineering": 2,
+            "operations": 2,
+            "sales": 3
+          },
+          "removed_clusters": {
+            "engineering": 6,
+            "sales": 2,
+            "partnerships": 1,
+            "operations": 4,
+            "payments": 1
+          },
+          "evidence_refs": [
+            {
+              "job_id": "744000147495489",
+              "title": "Solutions Manager II, Finance Systems",
+              "url": "https://www.grab.careers/en/jobs/744000147495489/solutions-manager-ii-finance-systems/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147430329",
+              "title": "Regional Assistant Marketing Manager – Financial Services",
+              "url": "https://www.grab.careers/en/jobs/744000147430329/regional-assistant-marketing-manager-financial-services/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147427424",
+              "title": "Key Accounts Associate, GFB VN",
+              "url": "https://www.grab.careers/en/jobs/744000147427424/key-accounts-associate-gfb-vn/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147420540",
+              "title": "Intern, Partner Acquisition",
+              "url": "https://www.grab.careers/en/jobs/744000147420540/intern-partner-acquisition/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147422609",
+              "title": "Senior Software Engineer, Business Applications",
+              "url": "https://www.grab.careers/en/jobs/744000147422609/senior-software-engineer-business-applications/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147421249",
+              "title": "Software Engineer, Backend",
+              "url": "https://www.grab.careers/en/jobs/744000147421249/software-engineer-backend/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147419489",
+              "title": "Intern, Support Operations, Merchants",
+              "url": "https://www.grab.careers/en/jobs/744000147419489/intern-support-operations-merchants/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147418154",
+              "title": "Intern, Commercial Enablement, Sales Enablement",
+              "url": "https://www.grab.careers/en/jobs/744000147418154/intern-commercial-enablement-sales-enablement/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147417530",
+              "title": "Intern, Account Management, Retail/FMCG",
+              "url": "https://www.grab.careers/en/jobs/744000147417530/intern-account-management-retailfmcg/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147418061",
+              "title": "Intern, Business Development",
+              "url": "https://www.grab.careers/en/jobs/744000147418061/intern-business-development/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147417909",
+              "title": "Intern, Growth and Marketing (Autonomous Vehicles)",
+              "url": "https://www.grab.careers/en/jobs/744000147417909/intern-growth-and-marketing-autonomous-vehicles/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147417759",
+              "title": "Intern, OmniCommerce",
+              "url": "https://www.grab.careers/en/jobs/744000147417759/intern-omnicommerce/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147417629",
+              "title": "Intern, Fleet Systems Analyst",
+              "url": "https://www.grab.careers/en/jobs/744000147417629/intern-fleet-systems-analyst/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147417509",
+              "title": "Intern, Analytics & Projects, GrabMart",
+              "url": "https://www.grab.careers/en/jobs/744000147417509/intern-analytics-projects-grabmart/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147417349",
+              "title": "Intern, Marketing and Partnership (GrabRentals)",
+              "url": "https://www.grab.careers/en/jobs/744000147417349/intern-marketing-and-partnership-grabrentals/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147417259",
+              "title": "Manager II, IT Operations & Automation",
+              "url": "https://www.grab.careers/en/jobs/744000147417259/manager-ii-it-operations-automation/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147417199",
+              "title": "Intern, Analytics & Projects, GrabFood",
+              "url": "https://www.grab.careers/en/jobs/744000147417199/intern-analytics-projects-grabfood/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147417089",
+              "title": "Intern, Strategy & Insights",
+              "url": "https://www.grab.careers/en/jobs/744000147417089/intern-strategy-insights/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147416849",
+              "title": "Intern, SG Partnerships",
+              "url": "https://www.grab.careers/en/jobs/744000147416849/intern-sg-partnerships/",
+              "change": "added"
+            },
+            {
+              "job_id": "744000147411329",
+              "title": "Lead Data Scientist (Analytics) - Digital Marketing",
+              "url": "https://www.grab.careers/en/jobs/744000147411329/lead-data-scientist-analytics-digital-marketing/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147408809",
+              "title": "Senior Systems Engineer (Mobile Device Management)",
+              "url": "https://www.grab.careers/en/jobs/744000147408809/senior-systems-engineer-mobile-device-management/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147408739",
+              "title": "Merchant Sales Executive, GrabMart & GrabPay",
+              "url": "https://www.grab.careers/en/jobs/744000147408739/merchant-sales-executive-grabmart-grabpay/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147408259",
+              "title": "Head of People Operations Business Partner",
+              "url": "https://www.grab.careers/en/jobs/744000147408259/head-of-people-operations-business-partner/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147407959",
+              "title": "Senior Software Engineer, Backend",
+              "url": "https://www.grab.careers/en/jobs/744000147407959/senior-software-engineer-backend/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147407879",
+              "title": "Senior Software Engineer, Backend - Agent Experience",
+              "url": "https://www.grab.careers/en/jobs/744000147407879/senior-software-engineer-backend-agent-experience/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147406319",
+              "title": "Performance Marketing Strategy Lead",
+              "url": "https://www.grab.careers/en/jobs/744000147406319/performance-marketing-strategy-lead/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147405869",
+              "title": "Off-Platform Payment Operations Manager",
+              "url": "https://www.grab.careers/en/jobs/744000147405869/off-platform-payment-operations-manager/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147218279",
+              "title": "Business Development Manager",
+              "url": "https://www.grab.careers/en/jobs/744000147218279/business-development-manager/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147205289",
+              "title": "Intern, GrabFood (Special Projects)",
+              "url": "https://www.grab.careers/en/jobs/744000147205289/intern-grabfood-special-projects/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147192955",
+              "title": "Associate, Merchant Acquisition - GrabMart",
+              "url": "https://www.grab.careers/en/jobs/744000147192955/associate-merchant-acquisition-grabmart/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147192299",
+              "title": "Senior Specialist, Benefits Operations",
+              "url": "https://www.grab.careers/en/jobs/744000147192299/senior-specialist-benefits-operations/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147184279",
+              "title": "Solutions Manager II, Finance Systems",
+              "url": "https://www.grab.careers/en/jobs/744000147184279/solutions-manager-ii-finance-systems/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147179529",
+              "title": "Assistant Marketing Manager, B2B",
+              "url": "https://www.grab.careers/en/jobs/744000147179529/assistant-marketing-manager-b2b/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147174949",
+              "title": "Senior Software Engineer, Flink",
+              "url": "https://www.grab.careers/en/jobs/744000147174949/senior-software-engineer-flink/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147172280",
+              "title": "Lead Platform Engineer, Flink",
+              "url": "https://www.grab.careers/en/jobs/744000147172280/lead-platform-engineer-flink/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147156579",
+              "title": "Associate, OmniCommerce",
+              "url": "https://www.grab.careers/en/jobs/744000147156579/associate-omnicommerce/",
+              "change": "removed"
+            },
+            {
+              "job_id": "744000147146939",
+              "title": "Training Operations Associate",
+              "url": "https://www.grab.careers/en/jobs/744000147146939/training-operations-associate/",
+              "change": "removed"
+            }
+          ],
+          "status": "rejected",
+          "rejection_reason": "source_reset_suspected",
+          "promoted_event_id": ""
+        },
+        {
+          "candidate_id": "jobs-3aeabc233922573e",
+          "entity_id": "shopify",
+          "entity": "Shopify",
+          "region": "全球",
+          "sector": "commerce_saas",
+          "source_type": "jobs_snapshot",
+          "signal_type": "function_buildout",
+          "cluster": "compliance",
+          "window": "2026-W36",
+          "window_start": "2026-09-05",
+          "window_end": "2026-09-05",
+          "detected_at": "2026-09-05T04:41:08.086180+08:00",
+          "baseline_count": 31,
+          "current_count": 33,
+          "added_count": 2,
+          "removed_count": 0,
+          "clusters": {
+            "compliance": 2
+          },
+          "removed_clusters": {},
+          "evidence_refs": [
+            {
+              "job_id": "d6bd5347-c156-4fa4-bb99-3bf5b43e93d7",
+              "title": "Compliance Lead Remote - Americas",
+              "url": "https://www.shopify.com/careers/compliance-lead_d6bd5347-c156-4fa4-bb99-3bf5b43e93d7",
+              "change": "added"
+            },
+            {
+              "job_id": "8639c248-b9f3-45ca-9ea8-5b66a4c7d208",
+              "title": "Senior Compliance Analyst Remote - Americas",
+              "url": "https://www.shopify.com/careers/senior-compliance-analyst_8639c248-b9f3-45ca-9ea8-5b66a4c7d208",
+              "change": "added"
+            }
+          ],
+          "status": "accumulating",
+          "rejection_reason": "insufficient_cluster_strength",
+          "promoted_event_id": ""
+        }
+      ],
+      "promoted_count": 0
+    },
+    "collection": {
+      "raw_count": 182,
+      "unique_count": 174,
+      "same_run_duplicate_skipped": 8,
+      "company_count": 39,
+      "type_counts": {
+        "strategy": 45,
+        "earnings": 9,
+        "industry_report": 3,
+        "other": 86,
+        "funding": 26,
+        "ma": 5
+      },
+      "region_counts": {
+        "中资": 5,
+        "拉美": 14,
+        "亚太": 50,
+        "欧洲": 30,
+        "非洲": 15,
+        "全球": 42,
+        "北美": 5,
+        "中东": 12,
+        "越南": 1
+      }
+    },
+    "bank_filtered_count": 2,
+    "filtering": {
+      "smart_filtered_count": 82,
+      "smart_filter_dropped": 0,
+      "scope_qualified_count": 82,
+      "scope_candidate_count": 46,
+      "scope_filtered_count": 44,
+      "scope_reason_counts": {
+        "scope_change_not_explicit": 43,
+        "scope_editorial_without_explicit_change": 3,
+        "scope_no_target_industry": 44
+      },
+      "ai_filtered_count": 82,
+      "ai_filter_dropped": 0,
+      "type_counts_after_smart_filter": {
+        "strategy": 52,
+        "earnings": 8,
+        "industry_report": 2,
+        "funding": 17,
+        "ma": 3
+      }
+    },
+    "scoring": {
+      "ai_tier_count": 75,
+      "program_tier_count": 0,
+      "dropped_count": 7
+    },
+    "analysis": {
+      "event_count": 75,
+      "quality": {
+        "total": 75,
+        "needs_repair": 3,
+        "fallback_or_failed": 0,
+        "high_score_needs_repair": 0,
+        "repair_ratio": 0.04
+      }
+    },
+    "storage": {
+      "added_count": 37,
+      "duplicate_skipped": 38,
+      "company_added": 10,
+      "generic_added": 27,
+      "pubdate_ok": 36,
+      "pubdate_fallback": 1,
+      "added_event_dates": {
+        "2026-09-04": 36,
+        "2026-09-03": 1
+      },
+      "added_source_tiers": {
+        "L5 Google News 补漏源": 9,
+        "L2 垂直交易源": 11,
+        "L3 区域生态源": 5,
+        "L4 垂直赛道精品源": 11,
+        "L1 官方/IR源": 1
+      }
+    },
+    "source_funnel": {
+      "ByteDance/TikTok": {
+        "raw": 2,
+        "unique": 2,
+        "scope_qualified": 2,
+        "smart_kept": 2,
+        "score_ai_tier": 2,
+        "analysis_events": 2
+      },
+      "Ant Group": {
+        "raw": 1,
+        "unique": 1,
+        "scope_qualified": 1,
+        "smart_kept": 1,
+        "score_ai_tier": 1,
+        "analysis_events": 1,
+        "added": 1
+      },
+      "Kakao": {
+        "raw": 2,
+        "unique": 2,
+        "scope_qualified": 2,
+        "smart_kept": 2,
+        "score_ai_tier": 2,
+        "analysis_events": 2,
+        "added": 2
+      },
+      "Naver": {
+        "raw": 2,
+        "unique": 2,
+        "scope_qualified": 2,
+        "smart_kept": 2,
+        "score_ai_tier": 2,
+        "analysis_events": 2,
+        "added": 2
+      },
+      "Rakuten": {
+        "raw": 1,
+        "unique": 1,
+        "scope_qualified": 1,
+        "smart_kept": 1,
+        "score_ai_tier": 1,
+        "analysis_events": 1,
+        "added": 1
+      },
+      "Grab": {
+        "raw": 1,
+        "unique": 1,
+        "scope_qualified": 1,
+        "smart_kept": 1,
+        "score_ai_tier": 1,
+        "analysis_events": 1,
+        "added": 1
+      },
+      "Adyen": {
+        "raw": 1,
+        "unique": 1,
+        "scope_qualified": 1,
+        "smart_kept": 1,
+        "score_ai_tier": 1,
+        "analysis_events": 1,
+        "added": 1
+      },
+      "MercadoLibre": {
+        "raw": 1,
+        "unique": 1,
+        "scope_qualified": 1,
+        "smart_kept": 1,
+        "score_ai_tier": 1,
+        "analysis_events": 1,
+        "added": 1
+      },
+      "Jumia": {
+        "raw": 1,
+        "unique": 1,
+        "scope_qualified": 1,
+        "smart_kept": 1,
+        "score_ai_tier": 1,
+        "analysis_events": 1
+      },
+      "TechCrunch": {
+        "raw": 8,
+        "unique": 8,
+        "scope_qualified": 1,
+        "scope_candidate": 1,
+        "scope_filtered": 6,
+        "smart_kept": 1,
+        "score_ai_tier": 1,
+        "analysis_events": 1,
+        "added": 1
+      },
+      "TechCrunch VC": {
+        "raw": 2,
+        "unique": 1,
+        "scope_qualified": 1,
+        "smart_kept": 1,
+        "score_ai_tier": 1,
+        "analysis_events": 1
+      },
+      "Tech.eu": {
+        "raw": 8,
+        "unique": 8,
+        "scope_qualified": 4,
+        "scope_filtered": 4,
+        "smart_kept": 4,
+        "score_ai_tier": 4,
+        "analysis_events": 4,
+        "added": 1
+      },
+      "EU-Startups": {
+        "raw": 8,
+        "unique": 8,
+        "scope_qualified": 4,
+        "scope_filtered": 4,
+        "smart_kept": 4,
+        "score_ai_tier": 3,
+        "score_dropped": 1,
+        "analysis_events": 3,
+        "added": 3
+      },
+      "The Recursive": {
+        "raw": 5,
+        "unique": 5,
+        "scope_qualified": 1,
+        "scope_candidate": 1,
+        "scope_filtered": 3,
+        "smart_kept": 1,
+        "score_dropped": 1
+      },
+      "The Next Web": {
+        "raw": 6,
+        "unique": 6,
+        "scope_qualified": 4,
+        "scope_filtered": 2,
+        "smart_kept": 4,
+        "score_ai_tier": 4,
+        "analysis_events": 4,
+        "added": 4
+      },
+      "Tech in Asia": {
+        "raw": 8,
+        "unique": 7,
+        "scope_qualified": 3,
+        "scope_candidate": 1,
+        "scope_filtered": 3,
+        "smart_kept": 3,
+        "score_ai_tier": 2,
+        "score_dropped": 1,
+        "analysis_events": 2,
+        "added": 2
+      },
+      "Inc42": {
+        "raw": 8,
+        "unique": 8,
+        "scope_qualified": 2,
+        "scope_candidate": 4,
+        "scope_filtered": 2,
+        "smart_kept": 2,
+        "score_ai_tier": 2,
+        "analysis_events": 2,
+        "added": 1
+      },
+      "TechWire Asia": {
+        "raw": 2,
+        "unique": 2,
+        "scope_qualified": 2,
+        "smart_kept": 2,
+        "score_ai_tier": 1,
+        "score_dropped": 1,
+        "analysis_events": 1,
+        "added": 1
+      },
+      "PocketGamer.biz": {
+        "raw": 8,
+        "unique": 8,
+        "scope_qualified": 4,
+        "scope_candidate": 4,
+        "smart_kept": 4,
+        "score_ai_tier": 4,
+        "analysis_events": 4,
+        "added": 2
+      },
+      "Fintech News Singapore": {
+        "raw": 8,
+        "unique": 8,
+        "scope_qualified": 4,
+        "scope_candidate": 4,
+        "bank_filtered": 1,
+        "smart_kept": 3,
+        "score_ai_tier": 3,
+        "analysis_events": 3,
+        "added": 2
+      },
+      "Finextra Payments": {
+        "raw": 8,
+        "unique": 8,
+        "scope_qualified": 4,
+        "scope_candidate": 4,
+        "smart_kept": 4,
+        "score_ai_tier": 4,
+        "analysis_events": 4,
+        "added": 1
+      },
+      "Payments Dive": {
+        "raw": 5,
+        "unique": 5,
+        "scope_qualified": 2,
+        "scope_candidate": 3,
+        "bank_filtered": 1,
+        "smart_kept": 1,
+        "score_ai_tier": 1,
+        "analysis_events": 1
+      },
+      "EcommerceBytes": {
+        "raw": 1,
+        "unique": 1,
+        "scope_qualified": 1,
+        "smart_kept": 1,
+        "score_ai_tier": 1,
+        "analysis_events": 1
+      },
+      "Retail Dive": {
+        "raw": 3,
+        "unique": 3,
+        "scope_qualified": 2,
+        "scope_candidate": 1,
+        "smart_kept": 2,
+        "score_ai_tier": 2,
+        "analysis_events": 2,
+        "added": 2
+      },
+      "Mobile World Live": {
+        "raw": 5,
+        "unique": 5,
+        "scope_qualified": 4,
+        "scope_candidate": 1,
+        "smart_kept": 4,
+        "score_ai_tier": 4,
+        "analysis_events": 4,
+        "added": 4
+      },
+      "Social Media Today": {
+        "raw": 3,
+        "unique": 3,
+        "scope_qualified": 2,
+        "scope_candidate": 1,
+        "smart_kept": 2,
+        "score_ai_tier": 2,
+        "analysis_events": 2
+      },
+      "WAMDA": {
+        "raw": 8,
+        "unique": 8,
+        "scope_qualified": 6,
+        "scope_filtered": 2,
+        "smart_kept": 6,
+        "score_ai_tier": 6,
+        "analysis_events": 6,
+        "added": 3
+      },
+      "Ventureburn": {
+        "raw": 8,
+        "unique": 7,
+        "scope_qualified": 3,
+        "scope_filtered": 4,
+        "smart_kept": 3,
+        "score_ai_tier": 2,
+        "score_dropped": 1,
+        "analysis_events": 2
+      },
+      "WeeTracker": {
+        "raw": 6,
+        "unique": 6,
+        "scope_qualified": 2,
+        "scope_candidate": 1,
+        "scope_filtered": 3,
+        "smart_kept": 2,
+        "score_dropped": 2
+      },
+      "LatamList": {
+        "raw": 1
+      },
+      "modern-retail": {
+        "raw": 1,
+        "unique": 1,
+        "scope_candidate": 1
+      },
+      "openai-news": {
+        "raw": 1,
+        "unique": 1,
+        "scope_qualified": 1,
+        "smart_kept": 1,
+        "score_ai_tier": 1,
+        "analysis_events": 1
+      },
+      "databricks-blog": {
+        "raw": 3,
+        "unique": 3,
+        "scope_candidate": 3
+      },
+      "vnexpress-tech": {
+        "raw": 1,
+        "unique": 1,
+        "scope_candidate": 1
+      },
+      "36kr-japan": {
+        "raw": 1,
+        "unique": 1,
+        "scope_qualified": 1,
+        "smart_kept": 1,
+        "score_ai_tier": 1,
+        "analysis_events": 1
+      },
+      "DealStreetAsia": {
+        "raw": 4,
+        "unique": 3,
+        "scope_filtered": 3
+      },
+      "Rakuten IR": {
+        "raw": 4,
+        "unique": 4,
+        "scope_qualified": 1,
+        "scope_candidate": 3,
+        "smart_kept": 1,
+        "score_ai_tier": 1,
+        "analysis_events": 1
+      },
+      "Adyen IR": {
+        "raw": 1,
+        "unique": 1,
+        "scope_candidate": 1
+      },
+      "Allegro Newsroom": {
+        "raw": 1,
+        "unique": 1,
+        "scope_qualified": 1,
+        "smart_kept": 1,
+        "score_ai_tier": 1,
+        "analysis_events": 1
+      },
+      "Naver Press": {
+        "raw": 4,
+        "unique": 4,
+        "scope_qualified": 4,
+        "smart_kept": 4,
+        "score_ai_tier": 4,
+        "analysis_events": 4
+      },
+      "Square Enix IR News": {
+        "raw": 4,
+        "unique": 2,
+        "scope_candidate": 2
+      },
+      "Jumia Newsroom": {
+        "raw": 3,
+        "unique": 3,
+        "scope_qualified": 2,
+        "scope_candidate": 1,
+        "smart_kept": 2,
+        "score_ai_tier": 2,
+        "analysis_events": 2,
+        "added": 1
+      },
+      "JD.com IR": {
+        "raw": 4,
+        "unique": 3,
+        "scope_qualified": 1,
+        "scope_candidate": 2,
+        "smart_kept": 1,
+        "score_ai_tier": 1,
+        "analysis_events": 1
+      },
+      "mercadolibre-news": {
+        "raw": 4,
+        "unique": 4,
+        "scope_candidate": 4
+      },
+      "stripe-changelog": {
+        "raw": 4,
+        "unique": 4,
+        "scope_qualified": 4,
+        "smart_kept": 4,
+        "score_ai_tier": 4,
+        "analysis_events": 4
+      },
+      "shopify-changelog": {
+        "raw": 1,
+        "unique": 1,
+        "scope_qualified": 1,
+        "smart_kept": 1,
+        "score_ai_tier": 1,
+        "analysis_events": 1
+      },
+      "vng-newsroom": {
+        "raw": 1,
+        "unique": 1,
+        "scope_filtered": 1
+      },
+      "momo-newsroom": {
+        "raw": 3,
+        "unique": 3,
+        "scope_candidate": 1,
+        "scope_filtered": 2
+      },
+      "stc-media": {
+        "raw": 2,
+        "unique": 2,
+        "scope_candidate": 1,
+        "scope_filtered": 1
+      },
+      "nubank-blog": {
+        "raw": 4,
+        "unique": 4,
+        "scope_filtered": 4
+      }
+    },
+    "finished_at": "2026-09-05T04:48:13.565252+08:00",
+    "history": {
+      "total_events": 3923,
+      "company_total": 1132,
+      "day_count": 122,
       "removed_same_day_duplicates": 1,
       "removed_reasons": {
         "missing_company_alias": 0,

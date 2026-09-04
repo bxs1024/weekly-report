@@ -394,29 +394,29 @@
       "generated_at": "2026-08-31 04:59"
     },
     "weekly:2026-W35": {
-      "input_hash": "5447cc2d5511010cb04e782739deebe47e1562b4e093b5e665913b9b8cdfcfef",
+      "input_hash": "880328440b0f81dcc7a57609e994e0403b5609ef3e9a941cdddeba9d69ab4daa",
       "editorial": {
-        "editorial_title": "AI资本开支拉长，平台出海转向纵深",
-        "mainline": "中资云厂商与AI巨头资本开支周期拉长，腾讯、阿里财报显示投入不减，市场对算力供应链的长期需求预期上修。同时，区域平台加速横向整合，Rakuten Viber切入eSIM、腾讯云落地沙特，出海从单点工具转向生态嵌入。",
+        "editorial_title": "AI重投入撞上合规新墙",
+        "mainline": "中资巨头AI资本开支周期拉长，腾讯、阿里财报震动全球市场。与此同时，亚洲监管收紧，Meta、Roblox在菲律宾强化儿童安全，韩国启动安全AI招标。投入与合规赛跑，出海企业需在扩张与安全间找平衡。",
         "themes": {
-          "ai_infra": "摩根大通研判阿里AI投资周期将延长，腾讯财报亦显示AI投入激增，两大中资云厂商的资本开支节奏同步拉长。叠加MiniMax介入Flova与LibTV版权争议，中资AI玩家在模型、内容与基础设施上的投入正形成多线并进的长期格局，供应链需求预期随之上修。",
-          "expansion": "Rakuten Viber在应用内直接推出eSIM服务，将通讯工具延伸至全球旅行电信市场；腾讯云则借TruKKer落地沙特物流云。与此同时，阿里发布国际版QwenWork办公AI，Naver Webtoon IP与游戏联动，平台正以通讯、云、内容和办公为触点，在亚太和中东构建交叉生态。",
-          "payments": "亚洲网络犯罪正采用去中心化和AI工具，攻击手法升级迫使金融机构加大安全投入。Naver与Kakao Pay则分别推出联名信用卡和借记卡关联服务，以场景绑定提升用户粘性。支付赛道在安全与场景双压下，从粗放扩张转向精细化运营。",
-          "developer": "Gamescom多家大厂缺席，线下展会吸引力下降，游戏发行转向线上与自有渠道。CookieRun: Crumble上线即突破1400万美元收入，验证了独立IP的变现潜力。X推出企业聊天机器人API，为开发者提供新的交互入口，平台生态正从游戏向AI工具扩展。",
-          "commerce": "MercadoLibre在巴西市场扩张加速，卖家生态增长直接推动股价上涨7.6%。亚马逊推出付费SSD配送选项，将物流时效变成可售商品；Sur La Table和Block则分别切入二手交易与商户建站，电商竞争从流量转向服务深度与基础设施差异化。",
-          "compliance": "Meta与Roblox在菲律宾加强儿童安全措施，应对当地监管压力。TRM Labs聘请MAS前高管负责亚太政策，显示合规人才从监管机构流向企业。韩国启动安全AI开发招标，SKT、Naver、LG三方竞标，安全合规正从成本项变为竞争壁垒。"
+          "ai_infra": "摩根大通判断阿里AI投资周期将超预期，腾讯财报显示AI投入激增引发全球市场关注。MiniMax介入Flova与LibTV纠纷，显示字节系在AI内容版权领域的布局加深。中资巨头的AI军备竞赛正从算力采购延伸到内容生态。",
+          "expansion": "Rakuten Viber在应用内推出eSIM服务，瞄准全球旅行者，将通讯工具升级为出行基础设施。腾讯云与TruKKer合作扩展沙特业务，阿里发布国际版QwenWork，中资云厂商在中东和亚洲的落地路径更趋具体。",
+          "payments": "亚洲网络犯罪转向去中心化和AI工具，攻击手法升级倒逼金融机构投入。Naver与Hyundai Card合作推新版联名卡，Kakao Pay将借记卡与钱包打通，合法业务创新与黑产攻防同步加速。",
+          "developer": "Gamescom多家大厂缺席，线下展会吸引力下降，游戏发行商转向自有渠道和线上活动。CookieRun: Crumble收入超1430万美元，独立游戏通过线上分发获得成功，行业渠道格局正在重塑。",
+          "commerce": "MercadoLibre加速巴西市场扩张，卖家增长推动股价上涨7.6%。亚马逊推出付费SSD配送选项，Block推出Square Base，电商平台在物流和商家工具上的竞争白热化，二手交易平台Sur La Table也加入战局。",
+          "compliance": "Meta与Roblox在菲律宾加强儿童安全措施，波兰要求欧盟对Meta罚款2.5亿欧元，监管压力从欧美蔓延至东南亚。韩国启动安全AI开发招标，SKT、Naver、LG三方竞标，安全能力成为AI竞争新维度。"
         },
         "theme_titles": {
-          "ai_infra": "中资AI资本开支周期拉长，云与芯片需求预期上修",
-          "expansion": "通讯与云服务跨界融合，亚太平台加速横向扩张",
-          "payments": "亚洲支付安全威胁升级，金融科技转向防御与场景绑定",
-          "developer": "游戏展会模式生变，开发者生态向自有渠道与AI工具迁移",
-          "commerce": "拉美电商加速扩张，物流与二手交易成新战场",
-          "compliance": "东南亚儿童安全合规收紧，平台与政策人才双向流动"
+          "ai_infra": "中资AI资本开支周期拉长，腾讯阿里领跑",
+          "expansion": "Rakuten Viber切入eSIM，通讯与旅行服务融合",
+          "payments": "亚洲金融科技安全威胁升级，机构加码防御",
+          "developer": "Gamescom大厂缺席，游戏发行渠道加速线上化",
+          "commerce": "MercadoLibre巴西扩张提速，卖家生态成引擎",
+          "compliance": "东南亚儿童安全合规收紧，平台被迫加码投入"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-04 05:19"
+      "generated_at": "2026-09-05 05:06"
     },
     "monthly:2026-08": {
       "input_hash": "3c6f7a3a62b149e40aefaf0fa03971af9a462807545ee100b5fcba1ac179a3cf",
@@ -719,29 +719,29 @@
       "generated_at": "2026-08-31 14:44"
     },
     "weekly:2026-W36": {
-      "input_hash": "e2bd6618702cefebcf28cae35ed09449787ebc3d806bf506ddab0dae7fce28a3",
+      "input_hash": "37600d1973bf98015f98c85b7c6ae13c9ae0916cffe106a34d940bbc589019a5",
       "editorial": {
-        "editorial_title": "AI军备竞赛重塑全球科技版图",
-        "mainline": "字节跳动以创纪录的290亿美元贷款加码AI，OpenAI同步投入10亿美元保护关键基础设施，全球AI军备竞赛进入白热化。与此同时，韩国科技巨头Naver与Kakao加速整合支付与会员生态，亚太市场正成为AI与超级应用融合的前沿阵地。",
+        "editorial_title": "韩国巨头合纵，AI与支付双线突围",
+        "mainline": "本期最值得关注的是韩国科技巨头在AI与支付领域的密集结盟。SKT、Kakao、KT联手推AI，Naver Pay与CJ ONE打通会员权益，显示本土生态正通过横向整合对抗全球巨头。同时，蚂蚁国际获巴西牌照、OpenPayd入美，支付出海从单点突破转向牌照与生态双轮驱动。",
         "themes": {
-          "ai_infra": "字节跳动以290亿美元贷款押注AI扩张，OpenAI则投入10亿美元加固关键基础设施，两大巨头同步加码，全球AI算力与基础设施投资进入军备竞赛阶段。",
-          "expansion": "英国支付公司OpenPayd拿下美国州级货币传输牌照，为进入美国市场扫清关键监管障碍。与此同时，TikTok Shop日本业务满周年，Naver与CJ ONE打通会员权益，亚太跨境生态正加速融合。",
-          "payments": "CJ OliveNetworks将CJ ONE与Naver Pay深度联动，Kakao也宣布下月推出自有会员服务，韩国科技巨头正围绕支付场景构建更紧密的用户粘性闭环，超级应用之争进入新阶段。",
-          "developer": "Sony Music Japan收购GungHo 23.29%股份，W4 Games获1800万美元投资押注Godot引擎，游戏行业资本动作频频，从IP持有到开源工具，产业链上下游的整合正在加速。",
-          "commerce": "Jumia启动为期20天的品牌节2026，以独家优惠吸引品牌方入驻，非洲电商正从用户教育转向品牌运营阶段。同期Sea Limited物流支出扩大，沃尔玛加投13亿美元建履约中心，全球电商基建竞赛持续升温。",
-          "compliance": "新加坡正式推进稳定币专门监管框架，为亚太数字资产市场树立合规标杆。与此同时，监管机构警告金融机构应对前沿AI网络威胁，YouTube更新品牌内容披露规则，全球科技合规边界正在收紧。"
+          "ai_infra": "SKT、Kakao、KT罕见联手推出AI计划，标志韩国AI竞争从单打独斗转向生态协同。字节跳动以290亿美元贷款押注AI扩张，显示中资在算力投入上仍激进。Luka发布AI绘画投影仪，则把AI能力推向消费硬件场景。",
+          "payments": "蚂蚁国际拿下巴西支付牌照，意味着其拉美布局进入合规运营阶段。与此同时，CJ ONE与Naver Pay联动、Kakao推会员服务，韩国支付生态正通过权益互通提升用户粘性。WhatsApp在印度上线账单支付，社交平台向金融场景渗透加速。",
+          "expansion": "OpenPayd获得美国州级货币传输牌照，为英国支付公司进入美国扫清监管障碍，显示跨境支付竞争已升级为牌照战。TikTok Shop日本一周年复盘，Naver与Kurly合作交易额增长，区域电商与本地服务商正通过深度绑定争夺市场份额。",
+          "commerce": "Jumia启动品牌节，提供20天独家优惠，显示非洲电商从低价竞争转向品牌合作。Sea Limited上半年营收增长但物流支出扩大，盈利压力下需优化履约成本。Magalu与Mercado Livre合作，巴西本土电商通过联盟对抗全球巨头。",
+          "compliance": "扎克伯格致电特朗普后，美国AI监管政策最终自愿化，科技巨头在安全标准制定中获得更大话语权。泰国对BNPL实施新牌照规则，新加坡推进稳定币专门监管，新兴市场正各自建立规则，全球合规框架碎片化加剧。",
+          "developer": "Square Enix推出FF系列迷你旋律电视玩具，瞄准怀旧玩家，显示游戏公司正将经典IP转化为实物商品。W4 Games获1800万美元投资押注Godot引擎，开源游戏引擎商业化提速。Global Game Jam与Zoud合办金融素养赛，游戏跨界应用场景拓宽。"
         },
         "theme_titles": {
-          "ai_infra": "",
-          "expansion": "",
-          "payments": "",
-          "developer": "",
-          "commerce": "",
-          "compliance": ""
+          "ai_infra": "韩国三大巨头联手，AI服务生态加速整合",
+          "payments": "蚂蚁获巴西牌照，支付出海从单点转向区域深耕",
+          "expansion": "OpenPayd入美，支付合规成跨境扩张新门槛",
+          "commerce": "Jumia品牌节启动，非洲电商转向品牌化运营",
+          "compliance": "美国AI监管转向自愿，全球合规基准面临重构",
+          "developer": "Square Enix推怀旧玩具，游戏IP变现转向实物衍生"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-04 13:51"
+      "generated_at": "2026-09-05 05:06"
     }
   }
 }
