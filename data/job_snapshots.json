@@ -1,11 +1,17 @@
 {
   "version": 1,
-  "generated_at": "2026-09-05T04:41:08.086180+08:00",
+  "generated_at": "2026-09-05T13:14:01.952459+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-05T04:41:08.086180+08:00",
+      "observed_at": "2026-09-05T13:14:01.952459+08:00",
       "jobs": [
+        {
+          "id": "744000147631029",
+          "title": "Lead Product Manager",
+          "url": "https://www.grab.careers/en/jobs/744000147631029/lead-product-manager/",
+          "function_tags": []
+        },
         {
           "id": "744000147495489",
           "title": "Solutions Manager II, Finance Systems",
@@ -133,20 +139,12 @@
           "title": "Intern, Strategy & Insights",
           "url": "https://www.grab.careers/en/jobs/744000147417089/intern-strategy-insights/",
           "function_tags": []
-        },
-        {
-          "id": "744000147416849",
-          "title": "Intern, SG Partnerships",
-          "url": "https://www.grab.careers/en/jobs/744000147416849/intern-sg-partnerships/",
-          "function_tags": [
-            "partnerships"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-05T04:41:08.086180+08:00",
+      "observed_at": "2026-09-05T13:14:01.952459+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -259,7 +257,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-05T04:41:08.086180+08:00",
+      "observed_at": "2026-09-05T13:14:01.952459+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",

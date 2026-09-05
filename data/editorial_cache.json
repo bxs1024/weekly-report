@@ -719,29 +719,29 @@
       "generated_at": "2026-08-31 14:44"
     },
     "weekly:2026-W36": {
-      "input_hash": "37600d1973bf98015f98c85b7c6ae13c9ae0916cffe106a34d940bbc589019a5",
+      "input_hash": "f764e5c2913dfce18c23230dfada9a38c20b3b1902edf9d351cefc6f28df990a",
       "editorial": {
-        "editorial_title": "韩国巨头合纵，AI与支付双线突围",
-        "mainline": "本期最值得关注的是韩国科技巨头在AI与支付领域的密集结盟。SKT、Kakao、KT联手推AI，Naver Pay与CJ ONE打通会员权益，显示本土生态正通过横向整合对抗全球巨头。同时，蚂蚁国际获巴西牌照、OpenPayd入美，支付出海从单点突破转向牌照与生态双轮驱动。",
+        "editorial_title": "韩国AI联盟成形，拉美支付准入松动",
+        "mainline": "韩国三大科技巨头罕见联手推进AI服务，标志着亚太AI竞争从单点突破转向生态协同。与此同时，蚂蚁国际拿下巴西支付牌照，拉美市场准入壁垒正在松动，中资出海进入深水区。这两条线共同指向：区域市场正在被重新划分，先手者将主导下一阶段格局。",
         "themes": {
-          "ai_infra": "SKT、Kakao、KT罕见联手推出AI计划，标志韩国AI竞争从单打独斗转向生态协同。字节跳动以290亿美元贷款押注AI扩张，显示中资在算力投入上仍激进。Luka发布AI绘画投影仪，则把AI能力推向消费硬件场景。",
-          "payments": "蚂蚁国际拿下巴西支付牌照，意味着其拉美布局进入合规运营阶段。与此同时，CJ ONE与Naver Pay联动、Kakao推会员服务，韩国支付生态正通过权益互通提升用户粘性。WhatsApp在印度上线账单支付，社交平台向金融场景渗透加速。",
-          "expansion": "OpenPayd获得美国州级货币传输牌照，为英国支付公司进入美国扫清监管障碍，显示跨境支付竞争已升级为牌照战。TikTok Shop日本一周年复盘，Naver与Kurly合作交易额增长，区域电商与本地服务商正通过深度绑定争夺市场份额。",
-          "commerce": "Jumia启动品牌节，提供20天独家优惠，显示非洲电商从低价竞争转向品牌合作。Sea Limited上半年营收增长但物流支出扩大，盈利压力下需优化履约成本。Magalu与Mercado Livre合作，巴西本土电商通过联盟对抗全球巨头。",
-          "compliance": "扎克伯格致电特朗普后，美国AI监管政策最终自愿化，科技巨头在安全标准制定中获得更大话语权。泰国对BNPL实施新牌照规则，新加坡推进稳定币专门监管，新兴市场正各自建立规则，全球合规框架碎片化加剧。",
-          "developer": "Square Enix推出FF系列迷你旋律电视玩具，瞄准怀旧玩家，显示游戏公司正将经典IP转化为实物商品。W4 Games获1800万美元投资押注Godot引擎，开源游戏引擎商业化提速。Global Game Jam与Zoud合办金融素养赛，游戏跨界应用场景拓宽。"
+          "ai_infra": "SKT、Kakao、KT打破竞争壁垒组成AI同盟，试图在本土市场对抗全球巨头。字节跳动则以29.6B美元贷款为AI扩张备足弹药，中资在算力基础设施上的投入力度远超市场预期。",
+          "payments": "蚂蚁国际拿下巴西支付牌照，直接切入拉美核心市场。与此同时，CJ OliveNetworks与Naver Pay打通会员权益，Kakao筹备会员服务，WhatsApp在印度上线账单支付，支付场景正从交易向生活服务渗透。",
+          "expansion": "乐天携手AST将卫星直连手机服务落地，通信基础设施的边界被推向偏远地区。TikTok Shop日本上线一周年发布复盘报告，中资电商在成熟市场的本地化运营进入精细化阶段。",
+          "compliance": "泰国对BNPL实施牌照管理，新加坡加速稳定币专门立法，东南亚支付监管从宽松走向规范。扎克伯格与特朗普的AI审查通话则暗示美国AI监管可能转向自愿化，全球合规环境分化加剧。",
+          "commerce": "Jumia启动20天品牌节，吸引品牌方直接入驻，非洲电商从低价商品转向品牌运营。Sea Limited物流支出扩大，Magalu与Mercado Livre合作，区域电商巨头正通过强化履约和联盟巩固阵地。",
+          "developer": "Square Enix将FF系列经典旋律做成迷你电视玩具，瞄准怀旧玩家的IP衍生品市场。W4 Games获1800万美元投资，开源引擎Godot的商业化进程加速，开发者生态的竞争格局正在生变。"
         },
         "theme_titles": {
-          "ai_infra": "韩国三大巨头联手，AI服务生态加速整合",
-          "payments": "蚂蚁获巴西牌照，支付出海从单点转向区域深耕",
-          "expansion": "OpenPayd入美，支付合规成跨境扩张新门槛",
-          "commerce": "Jumia品牌节启动，非洲电商转向品牌化运营",
-          "compliance": "美国AI监管转向自愿，全球合规基准面临重构",
-          "developer": "Square Enix推怀旧玩具，游戏IP变现转向实物衍生"
+          "ai_infra": "",
+          "payments": "",
+          "expansion": "",
+          "compliance": "",
+          "commerce": "",
+          "developer": ""
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-05 05:06"
+      "generated_at": "2026-09-05 13:33"
     }
   }
 }

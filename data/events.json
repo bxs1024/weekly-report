@@ -223491,9 +223491,9 @@
       "level": "A",
       "score": 8,
       "summary_short": "Nvidia以$12.93B收购Hugging Face",
-      "content_overview": "Nvidia确认以129.3亿美元收购AI模型平台Hugging Face。",
-      "reason": "全球AI基础设施巨头整合模型分发平台，将重塑AI开发工具链生态，为云服务商和模型托管方带来竞争压力。",
-      "impact": "AI模型托管平台、云服务商、AI开发者工具链",
+      "content_overview": "Nvidia确认以129.3亿美元收购AI模型平台Hugging Face，交易预计将在2027年完成。",
+      "reason": "美国AI芯片巨头收购全球最大AI模型社区，将重塑AI模型分发与部署生态，欧洲AI开发者面临平台迁移风险。",
+      "impact": "全球AI开发者、模型托管平台、AI云服务商",
       "insight_label": "资金流向",
       "trend_topic": "AI基础设施并购潮",
       "companies": [],
@@ -223571,7 +223571,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://tech.eu/2026/09/03/nvidia-confirms-12-93bn-purchase-of-hugging-face/"
+      ]
     },
     {
       "title": "Atira raises $17.5M to bring AI orchestration to industrial sales",
@@ -225287,12 +225290,12 @@
       ],
       "level": "C",
       "score": 4,
-      "summary_short": "TabaPay收购Transact Bank并获$155M投资",
-      "content_overview": "TabaPay计划收购Transact Bank，并获得FTV Capital的1.55亿美元投资，以获取OCC银行牌照。",
-      "reason": "美国支付公司通过收购银行获取OCC牌照，金融科技与银行融合趋势加速，为支付公司提供合规扩张范本。",
-      "impact": "美国金融科技公司、银行监管机构、支付生态参与者",
+      "summary_short": "TabaPay拟收购Transact Bank并获1.55亿美元投资以申请银行牌照",
+      "content_overview": "支付公司TabaPay正寻求收购Transact Bank，并获得了FTV Capital的1.55亿美元投资，以支持其申请美国货币监理署（OCC）银行牌照的计划。",
+      "reason": "美国支付公司通过收购银行牌照实现合规升级，为金融科技与传统银行融合提供新路径，支付基础设施供应商和银行技术合作方将迎来机会。",
+      "impact": "美国金融科技公司、银行技术供应商、支付基础设施服务商",
       "insight_label": "资金流向",
-      "trend_topic": "美国支付牌照并购潮",
+      "trend_topic": "美国支付牌照整合",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -225369,7 +225372,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://www.paymentsdive.com/news/tabapay-to-buy-transact-bank-ftv-capital-155-million-investment-occ-charter/829487/"
+      ]
     },
     {
       "title": "Caterpillar aims to make tracks on industrial AI",
@@ -226711,11 +226717,11 @@
       "level": "C",
       "score": 4,
       "summary_short": "Reddit扩大AI广告活动功能",
-      "content_overview": "Reddit扩大其AI驱动的Max广告活动功能，覆盖更多广告主。",
-      "reason": "全球社交平台AI广告工具竞争加剧，广告技术供应商和品牌方需关注投放效率变化",
-      "impact": "全球广告主、AI广告技术公司、Reddit平台生态",
+      "content_overview": "Reddit扩大其AI驱动的Max广告活动功能，为广告主提供更多自动化投放选项。",
+      "reason": "全球社交平台AI广告工具竞争加剧，广告技术集成商和品牌方需关注投放效率变化",
+      "impact": "广告主、程序化广告平台、AI营销技术商",
       "insight_label": "合作机会",
-      "trend_topic": "社交平台AI广告竞赛",
+      "trend_topic": "社交广告AI化加速",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -226792,7 +226798,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://www.socialmediatoday.com/news/reddit-expands-ai-powered-max-campaigns/829636/"
+      ]
     },
     {
       "title": "Ecommpay rolls out QR code payments",
@@ -227373,11 +227382,11 @@
       "level": "C",
       "score": 5,
       "summary_short": "YouTube视频可直接标记亚马逊产品",
-      "content_overview": "YouTube创作者现在可以在视频中直接标记亚马逊产品，实现更直接的电商导流。",
-      "reason": "全球视频电商融合加速，为电商SaaS工具和联盟营销平台提供新的集成机会",
-      "impact": "电商SaaS工具、联盟营销平台、内容创作者",
+      "content_overview": "YouTube创作者现在可以在视频中直接标记亚马逊产品，实现从内容到电商购买的闭环。",
+      "reason": "美国视频内容与电商购物链路打通，为内容创作者和电商平台提供新的变现与导流渠道，社交电商生态进一步融合。",
+      "impact": "内容创作者、电商平台、品牌营销方",
       "insight_label": "合作机会",
-      "trend_topic": "视频电商融合加速",
+      "trend_topic": "社交电商链路打通",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -227453,7 +227462,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://www.ecommercebytes.com/2026/09/03/youtubers-can-now-tag-amazon-products-directly-in-videos/"
+      ]
     },
     {
       "title": "美団、4~6月は14％増収　AI研究開発に約1800億円",
@@ -228033,7 +228045,7 @@
       "view_priority": "selected"
     },
     {
-      "title": "Japan's Rakuten to debut satellite-to-cell service with Starlink rival AST - Nikkei Asia",
+      "title": "Japan's Rakuten to debut satellite-to-cell service with Starlink rival AST - asia.nikkei.com",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWTFldXlxcC1oWnRodmJ6ajhYVFZfM2tMMHpPRldCdkEyV0xCWk94WmwwX3BVUFpoX2dfUzJvdjIxY3BFSTBVUkpDT0ktQmtyalZjWmw0WXF6ZmlfYXMtV3JyMFlrekxfbHUybzdQZjlsN2pZMGZtR3VBYllwQ05fMlNRaVBGdEg1ajdHTjg4R0JJU3d2RHE5LU5vTFVHem40d1RvMC1ERFdaTWRTZUxTdzRwRGQxa2JGVmJDbE4wUHpIQU0?oc=5",
       "source": "Google News",
       "region": "亚太",
@@ -228042,12 +228054,12 @@
       ],
       "level": "C",
       "score": 4,
-      "summary_short": "乐天将推卫星直连手机服务",
-      "content_overview": "日本乐天将推出卫星直连手机服务，采用Starlink竞争对手AST的技术。",
-      "reason": "日本电商巨头进军卫星通信，亚太卫星通信市场格局生变，相关设备及服务商迎来新合作窗口",
-      "impact": "日本电信运营商、卫星通信设备商、偏远地区用户",
+      "summary_short": "乐天携手AST推出卫星直连手机服务",
+      "content_overview": "日本乐天宣布将推出卫星直连手机服务，合作方为SpaceX Starlink的竞争对手AST SpaceMobile。",
+      "reason": "日本电信巨头布局卫星直连手机，亚太卫星通信赛道竞争加剧，为地面网络设备商和频谱合作方带来新机会。",
+      "impact": "亚太卫星通信运营商、手机终端厂商、电信基础设施供应商",
       "insight_label": "合作机会",
-      "trend_topic": "亚太卫星通信竞争",
+      "trend_topic": "亚太卫星通信竞争升温",
       "companies": [],
       "is_company": true,
       "company_name": "Rakuten",
@@ -228122,7 +228134,10 @@
       "signal_change_breakdown": {},
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWTFldXlxcC1oWnRodmJ6ajhYVFZfM2tMMHpPRldCdkEyV0xCWk94WmwwX3BVUFpoX2dfUzJvdjIxY3BFSTBVUkpDT0ktQmtyalZjWmw0WXF6ZmlfYXMtV3JyMFlrekxfbHUybzdQZjlsN2pZMGZtR3VBYllwQ05fMlNRaVBGdEg1ajdHTjg4R0JJU3d2RHE5LU5vTFVHem40d1RvMC1ERFdaTWRTZUxTdzRwRGQxa2JGVmJDbE4wUHpIQU0?oc=5"
+      ]
     },
     {
       "title": "ASEAN Fintech Shift: Grab & Sea Deepen Monetization in Q2 - Minichart",
@@ -229081,12 +229096,12 @@
       ],
       "level": "C",
       "score": 5,
-      "summary_short": "Luka 发布 AI 绘画投影仪",
-      "content_overview": "Luka 推出新款 AI 投影仪，可自动开始绘画，将剩余创作空间留给孩子。",
-      "reason": "欧洲儿童 AI 玩具市场迎新品类，结合 AI 与创意教育，符合欧盟玩具安全新规。",
-      "impact": "儿童教育产品公司、AI 玩具制造商",
+      "summary_short": "Luka发布AI绘画投影仪",
+      "content_overview": "Luka在IFA 2026上发布了一款AI投影仪，该产品可以开始绘画，然后由儿童完成剩余部分。",
+      "reason": "欧洲AI玩具市场迎来新品，结合欧盟玩具安全法规和AI法案，儿童AI交互产品需关注合规设计",
+      "impact": "欧洲儿童教育硬件商、AI交互技术供应商",
       "insight_label": "合作机会",
-      "trend_topic": "欧洲AI玩具新赛道",
+      "trend_topic": "欧洲AI玩具合规化",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -229162,7 +229177,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://thenextweb.com/news/luka-kids-ai-drawing-projector-ifa-2026-eu-toy-safety-regulation-2025-2509-mental-health-ai-act"
+      ]
     },
     {
       "title": "Every binding AI review Washington has proposed has come back voluntary. Zuckerberg reportedly rang Trump about the latest one.",
@@ -230025,12 +230043,12 @@
       ],
       "level": "B",
       "score": 6,
-      "summary_short": "Ulta使用Flock技术引发争议",
-      "content_overview": "美妆零售商Ulta因使用Flock技术引发用户不满，该技术可能涉及隐私问题。",
-      "reason": "美国美妆零售商Ulta因使用Flock技术引发用户不满，可能影响其品牌形象和客户关系。",
-      "impact": "美妆零售商、隐私保护技术供应商",
+      "summary_short": "Ulta使用Flock监控技术引发消费者抵制",
+      "content_overview": "美妆零售商Ulta Beauty因使用Flock Technology的监控技术而引发消费者在网上的不满和抵制。",
+      "reason": "美国零售业采用安防监控技术引发隐私争议，零售科技供应商需平衡安全与消费者信任，隐私合规解决方案需求上升。",
+      "impact": "零售科技供应商、安防监控公司、消费者隐私保护组织",
       "insight_label": "警示信号",
-      "trend_topic": "零售隐私争议",
+      "trend_topic": "零售隐私技术争议",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -230100,7 +230118,10 @@
       "signal_change_breakdown": {},
       "view_status": "filtered",
       "view_reason": "out_of_scope_industry",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://www.retaildive.com/news/ulta-flock-technology-backlash/829623/"
+      ]
     },
     {
       "title": "Dollar General deploys AI across distribution centers, stores",
@@ -230301,12 +230322,12 @@
       ],
       "level": "C",
       "score": 4,
-      "summary_short": "MWL发布苹果、AI、DT专栏",
-      "content_overview": "Mobile World Live发布关于苹果、AI和德国电信的周五专栏文章。",
-      "reason": "全球科技媒体发布关于苹果、AI和德国电信的专栏，可能包含行业趋势分析。",
-      "impact": "科技行业分析师、投资者",
+      "summary_short": "MWL专栏讨论苹果、AI和德国电信动态",
+      "content_overview": "Mobile World Live的周五专栏文章，讨论苹果、人工智能和德国电信（DT）的最新动态。",
+      "reason": "欧洲电信媒体聚焦苹果AI布局与德国电信战略，为观察全球科技巨头动向提供窗口，相关产业链公司可关注后续动作。",
+      "impact": "全球科技投资者、电信运营商、AI应用开发商",
       "insight_label": "背景补充",
-      "trend_topic": "科技行业动态",
+      "trend_topic": "全球科技巨头动态",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -230382,7 +230403,10 @@
       },
       "view_status": "filtered",
       "view_reason": "other_type",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "merged_from": [
+        "https://www.mobileworldlive.com/ai-cloud/the-friday-file-apple-ai-dt/"
+      ]
     },
     {
       "title": "John Deere expands repair toolkit with AI, mobile access",
@@ -230395,11 +230419,11 @@
       "level": "C",
       "score": 4,
       "summary_short": "John Deere扩展AI维修工具包",
-      "content_overview": "农业机械制造商John Deere扩展其维修工具包，加入AI和移动访问功能。",
-      "reason": "全球农业机械巨头John Deere扩展AI维修工具，将带动农业科技和移动解决方案需求。",
-      "impact": "农业科技公司、移动设备供应商",
+      "content_overview": "农业机械制造商John Deere扩展其维修工具包，新增AI功能和移动端访问能力，以提升设备维修效率。",
+      "reason": "美国农业机械巨头将AI引入维修服务，为农业科技和工业物联网领域带来新应用场景，设备维护软件商和AI服务商可寻求合作。",
+      "impact": "农业科技公司、工业物联网平台、设备维修服务商",
       "insight_label": "合作机会",
-      "trend_topic": "农业科技升级",
+      "trend_topic": "农业AI应用扩展",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -230476,7 +230500,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://www.mobileworldlive.com/industry/john-deere-expands-repair-toolkit-with-ai-mobile-access/"
+      ]
     },
     {
       "title": "HTC debuts AI smart glasses in North America",
@@ -230853,7 +230880,299 @@
       "view_status": "main",
       "view_reason": "qualified_main",
       "view_priority": "selected"
+    },
+    {
+      "title": "SKT, Kakao, KT launch Everyone’s AI as Korea ties funding to usage - CHOSUNBIZ - Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE43aV9kZXVWc1dmdjhpXzFsRENlYkY1ekVZY1RFdkxKMldCUDBsM2x5R0NHUV92Qll3RGZkaHo3RzFEYlV0eTI0TnN1b2FfbGVuRmp1aFZMVzRvdXpDRmx6ajYyMi1Td3pVYkx6NERPelVfVG82TVBiV1pR0gGOAUFVX3lxTFBEQ1p4cmhsd1VVdW5hNkwtY0dWY1Vkb0g3aU9wbWQ3azNrdGFhalFuRURoRE8xS3IzU0xiQnpsQWUxSlR4ZWMwajl0QWFtSzdQOVhic3ZERjd0SDMwc002TjNqMDh5Q0x6TTFlNFM4TE1rUjNvdDZsRFRQODFfOWMzRkw0SV9IZEIxaWlNUGc?oc=5",
+      "source": "Google News",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "韩国三大巨头推Everyone's AI",
+      "content_overview": "SKT、Kakao和KT推出Everyone's AI计划，韩国政府将资金与AI使用量挂钩。",
+      "reason": "韩国政府将AI补贴与使用量挂钩，AI应用开发商和云服务商将直接受益于政策红利",
+      "impact": "韩国AI应用开发商、云服务商",
+      "insight_label": "资金流向",
+      "trend_topic": "韩国AI应用普及潮",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Kakao",
+      "canonical_company": "skt",
+      "canonical_key": "",
+      "article_date": "2026-09-04",
+      "date": "2026-09-04",
+      "source_detail": "Chosunbiz",
+      "publisher": "Chosunbiz",
+      "image_url": "",
+      "published_at": "2026-09-04",
+      "observed_at": "2026-09-05T05:15:27.728132+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Kakao",
+      "credibility_score": 0,
+      "origin_source_id": "Kakao",
+      "observation_entity_id": "Kakao",
+      "discovery_source": "google_news",
+      "publisher_source": "Chosunbiz",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "report_methodology_visible": false,
+      "vertical": "social_payment",
+      "bd_triggers": [
+        "预算窗口",
+        "扩张窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 42,
+      "attention_score": 100,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 35,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "product_release",
+      "domain": "payment",
+      "signal_type": "company",
+      "signal_change_score": 72,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 24,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 20
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected"
+    },
+    {
+      "title": "Grab Holdings (NASDAQ: GRAB) COO sells 145K shares - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUmlid0tNcXhiZWVGQ2JLVjFRZzR2Z29lMU9DTGltc0t4Ymd0VldzMjNLUVU0QjZBTG41WlJfMk43Z3pIdHdhdlRUYklXVnZac3JOaE9VWTFyZFktUkJSNWNGNXJ4ZnhPb1BIYUhrakd0OTNBY2lLOGxCWENtX0tTTUctelh1T3d3SjYtY3NHQXB1Q1k0YUJoT0VxT2lTTTRWWm1xaHFNNkhyRnBpOEpXdw?oc=5",
+      "source": "Google News",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "B",
+      "score": 6,
+      "summary_short": "Grab COO减持14.5万股",
+      "content_overview": "Grab Holdings首席运营官出售了14.5万股公司股票。",
+      "reason": "东南亚超级应用高管减持，市场需关注其盈利前景和股价压力，对投资者情绪构成短期影响。",
+      "impact": "东南亚科技股投资者、Grab股东",
+      "insight_label": "警示信号",
+      "trend_topic": "东南亚科技股高管减持",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Grab",
+      "canonical_company": "grab",
+      "canonical_key": "145000",
+      "article_date": "2026-09-04",
+      "date": "2026-09-04",
+      "source_detail": "Stock Titan",
+      "publisher": "Stock Titan",
+      "image_url": "",
+      "published_at": "2026-09-04",
+      "observed_at": "2026-09-05T05:15:30.833887+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Grab",
+      "credibility_score": 0,
+      "origin_source_id": "Grab",
+      "observation_entity_id": "Grab",
+      "discovery_source": "google_news",
+      "publisher_source": "Stock Titan",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "payments",
+        "local_services_logistics"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "source_contract",
+      "report_methodology_visible": false,
+      "vertical": "mobility_payment",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "持续观察",
+      "bd_priority": "观察",
+      "signal_taxonomy": [
+        "general"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 42,
+      "attention_score": 85,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 20,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "expansion",
+      "domain": "payment",
+      "signal_type": "company",
+      "signal_change_score": 87,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 14,
+        "market_impact_confidence": 20
+      },
+      "view_status": "filtered",
+      "view_reason": "google_not_main",
+      "view_priority": "watch"
     }
   ],
-  "2026-09-05": []
+  "2026-09-05": [
+    {
+      "title": "Moonshot AI files for up to $5b Hong Kong IPO",
+      "url": "https://www.techinasia.com/news/moonshot-ai-files-5b-hong-kong-ipo-2",
+      "source": "Tech in Asia",
+      "region": "亚太",
+      "event_types": [
+        "funding"
+      ],
+      "level": "A",
+      "score": 9,
+      "summary_short": "Moonshot AI申请香港IPO，拟融资$5B",
+      "content_overview": "中国AI公司Moonshot AI已提交香港IPO申请，拟融资高达50亿美元。",
+      "reason": "中国大模型独角兽赴港上市，将吸引全球资本关注中国AI赛道，带动产业链投资机会",
+      "impact": "中国AI算力供应商、港股投资者、大模型应用开发商",
+      "insight_label": "资金流向",
+      "trend_topic": "中国AI资本化加速",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "moonshot ai",
+      "canonical_key": "5000m",
+      "article_date": "2026-09-05",
+      "date": "2026-09-05",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://cdn.techinasia.com/wp-content/uploads/2026/09/1788570503_1785126445_1778135421_1753166552_shutterstock_2519431555-scaled-1.jpg",
+      "published_at": "2026-09-05",
+      "observed_at": "2026-09-05T05:14:05.900179+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L2 垂直交易源",
+      "source_role": "venture_media",
+      "source_id": "Tech in Asia",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_url_original": "https://www.techinasia.com/chinas-moonshot-ai-targets-50b-valuation",
+      "source_url_repaired": true,
+      "source_url_repair_reason": "rss_guid_title_match",
+      "source_excerpt": "Moonshot AI recently reached a US$35 billion valuation after a US$3.5 billion funding round.",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 62,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 20,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "C",
+      "action_type": "funding",
+      "domain": "ai",
+      "signal_type": "capital",
+      "signal_change_score": 85,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 22,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 12
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected"
+    }
+  ]
 }
