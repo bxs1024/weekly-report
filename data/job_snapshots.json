@@ -1,11 +1,20 @@
 {
   "version": 1,
-  "generated_at": "2026-09-06T13:28:19.057254+08:00",
+  "generated_at": "2026-09-07T04:18:40.491967+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-06T13:28:19.057254+08:00",
+      "observed_at": "2026-09-07T04:18:40.491967+08:00",
       "jobs": [
+        {
+          "id": "744000147692499",
+          "title": "Senior Principal Engineer, AI Transformation",
+          "url": "https://www.grab.careers/en/jobs/744000147692499/senior-principal-engineer-ai-transformation/",
+          "function_tags": [
+            "ai",
+            "engineering"
+          ]
+        },
         {
           "id": "744000147631029",
           "title": "Lead Product Manager",
@@ -144,7 +153,7 @@
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-06T13:28:19.057254+08:00",
+      "observed_at": "2026-09-07T04:18:40.491967+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -257,7 +266,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-06T13:28:19.057254+08:00",
+      "observed_at": "2026-09-07T04:18:40.491967+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
