@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-02T09:36:57+08:00",
-  "fetched_date": "2026-09-02",
+  "generated_at": "2026-09-06T09:30:42+08:00",
+  "fetched_date": "2026-09-06",
   "source": {
     "name": "AIHOT 大模型排行榜",
     "leaderboard_url": "https://aihot.virxact.com/leaderboard",
@@ -11,61 +11,83 @@
   "ranking": [
     {
       "rank": 1,
+      "name": "Muse Spark 1.3",
+      "provider": "Meta",
+      "release_date": "2026-09-02",
+      "completeness": "51.0%",
+      "input_price": "",
+      "output_price": "",
+      "consensus_score": 92.0,
+      "detail_url": "https://aihot.virxact.com/leaderboard/muse-spark-1-3"
+    },
+    {
+      "rank": 2,
+      "name": "GPT-6 Astra",
+      "provider": "OpenAI",
+      "release_date": "2026-09-03",
+      "completeness": "62.5%",
+      "input_price": "",
+      "output_price": "",
+      "consensus_score": 90.5,
+      "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-astra"
+    },
+    {
+      "rank": 3,
       "name": "Claude Fable 5",
       "provider": "Anthropic",
       "release_date": "2026-06-09",
       "completeness": "88.0%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 89.4,
+      "consensus_score": 89.9,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-fable-5"
     },
     {
-      "rank": 2,
+      "rank": 4,
       "name": "Claude Opus 5",
       "provider": "Anthropic",
       "release_date": "2026-07-24",
       "completeness": "84.5%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 86.4,
+      "consensus_score": 86.2,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-5"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "name": "GPT-5.6 Sol",
       "provider": "OpenAI",
       "release_date": "2026-07-09",
       "completeness": "84.5%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 83.7,
+      "consensus_score": 83.4,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-6-sol"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "name": "Kimi K3",
       "provider": "Moonshot AI",
       "release_date": "2026-07-16",
       "completeness": "84.5%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 79.5,
+      "consensus_score": 80.1,
       "detail_url": "https://aihot.virxact.com/leaderboard/kimi-k-3"
     },
     {
-      "rank": 5,
-      "name": "Gemini 3.7 Flash",
+      "rank": 7,
+      "name": "Gemini 3.8 Flash",
       "provider": "Google",
-      "release_date": "2026-08-13",
-      "completeness": "81.0%",
+      "release_date": "2026-09-02",
+      "completeness": "59.0%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 75.5,
-      "detail_url": "https://aihot.virxact.com/leaderboard/gemini-3-7-flash"
+      "consensus_score": 79.0,
+      "detail_url": "https://aihot.virxact.com/leaderboard/gemini-3-8-flash"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "name": "GLM-5.3",
       "provider": "Z.ai",
       "release_date": "2026-08-18",
@@ -76,84 +98,95 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/glm-5-3"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "name": "Grok 4.6",
       "provider": "xAI",
       "release_date": "2026-08-12",
       "completeness": "84.5%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 74.7,
+      "consensus_score": 74.1,
       "detail_url": "https://aihot.virxact.com/leaderboard/grok-4-6"
     },
     {
-      "rank": 8,
-      "name": "GPT-5.5",
-      "provider": "OpenAI",
-      "release_date": "2026-04-23",
-      "completeness": "80.0%",
+      "rank": 10,
+      "name": "Gemini 3.7 Flash",
+      "provider": "Google",
+      "release_date": "2026-08-13",
+      "completeness": "81.0%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 73.6,
-      "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-5"
+      "consensus_score": 73.8,
+      "detail_url": "https://aihot.virxact.com/leaderboard/gemini-3-7-flash"
     },
     {
-      "rank": 9,
+      "rank": 11,
       "name": "Muse Spark 1.2",
       "provider": "Meta",
       "release_date": "2026-08-05",
       "completeness": "73.0%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 72.8,
+      "consensus_score": 73.6,
       "detail_url": "https://aihot.virxact.com/leaderboard/muse-spark-1-2"
     },
     {
-      "rank": 10,
+      "rank": 12,
+      "name": "GPT-5.5",
+      "provider": "OpenAI",
+      "release_date": "2026-04-23",
+      "completeness": "80.0%",
+      "input_price": "",
+      "output_price": "",
+      "consensus_score": 72.8,
+      "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-5"
+    },
+    {
+      "rank": 13,
       "name": "Qwen3.8 Max",
       "provider": "Alibaba",
       "release_date": "2026-07-19",
       "completeness": "81.0%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 72.2,
+      "consensus_score": 71.6,
       "detail_url": "https://aihot.virxact.com/leaderboard/qwen-3-8-max"
     },
     {
-      "rank": 11,
-      "name": "Claude Opus 4.8",
-      "provider": "Anthropic",
-      "release_date": "2026-05-28",
-      "completeness": "88.0%",
-      "input_price": "",
-      "output_price": "",
-      "consensus_score": 70.5,
-      "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-8"
-    },
-    {
-      "rank": 12,
+      "rank": 14,
       "name": "GPT-5.6 Terra",
       "provider": "OpenAI",
       "release_date": "2026-07-09",
       "completeness": "81.0%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 69.6,
+      "consensus_score": 70.6,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-6-terra"
     },
     {
-      "rank": 13,
+      "rank": 15,
+      "name": "Claude Opus 4.8",
+      "provider": "Anthropic",
+      "release_date": "2026-05-28",
+      "completeness": "88.0%",
+      "input_price": "",
+      "output_price": "",
+      "consensus_score": 69.7,
+      "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-8"
+    },
+    {
+      "rank": 16,
       "name": "Qwen3.8 Flash Next",
       "provider": "Alibaba",
       "release_date": "2026-08-26",
       "completeness": "49.0%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 65.8,
+      "consensus_score": 68.0,
       "detail_url": "https://aihot.virxact.com/leaderboard/qwen-3-8-flash-next"
     },
     {
-      "rank": 14,
+      "rank": 17,
       "name": "Claude Opus 4.7",
       "provider": "Anthropic",
       "release_date": "2026-04-16",
@@ -164,18 +197,18 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-7"
     },
     {
-      "rank": 15,
+      "rank": 18,
       "name": "GLM-5.3 Flash",
       "provider": "Z.ai",
       "release_date": "2026-08-26",
       "completeness": "81.0%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 63.4,
+      "consensus_score": 62.3,
       "detail_url": "https://aihot.virxact.com/leaderboard/glm-5-3-flash"
     },
     {
-      "rank": 16,
+      "rank": 19,
       "name": "Muse Spark 1.1",
       "provider": "Meta",
       "release_date": "2026-07-09",
@@ -186,18 +219,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/muse-spark-1-1"
     },
     {
-      "rank": 17,
-      "name": "DeepSeek V4 Pro 0813",
-      "provider": "DeepSeek",
-      "release_date": "2026-08-13",
-      "completeness": "73.0%",
-      "input_price": "",
-      "output_price": "",
-      "consensus_score": 58.7,
-      "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-pro-20260813"
-    },
-    {
-      "rank": 18,
+      "rank": 20,
       "name": "GPT-5.4",
       "provider": "OpenAI",
       "release_date": "2026-03-05",
@@ -208,7 +230,18 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-4"
     },
     {
-      "rank": 19,
+      "rank": 21,
+      "name": "DeepSeek V4 Pro 0813",
+      "provider": "DeepSeek",
+      "release_date": "2026-08-13",
+      "completeness": "73.0%",
+      "input_price": "",
+      "output_price": "",
+      "consensus_score": 56.0,
+      "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-pro-20260813"
+    },
+    {
+      "rank": 22,
       "name": "Grok 4.5",
       "provider": "xAI",
       "release_date": "2026-07-08",
@@ -219,51 +252,62 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/grok-4-5"
     },
     {
-      "rank": 20,
+      "rank": 23,
       "name": "Claude Sonnet 5",
       "provider": "Anthropic",
       "release_date": "2026-06-30",
       "completeness": "84.5%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 54.3,
+      "consensus_score": 54.6,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-sonnet-5"
     },
     {
-      "rank": 21,
+      "rank": 24,
       "name": "GPT-5.6 Luna",
       "provider": "OpenAI",
       "release_date": "2026-07-09",
       "completeness": "81.0%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 51.5,
+      "consensus_score": 53.5,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-6-luna"
     },
     {
-      "rank": 22,
+      "rank": 25,
       "name": "Gemini 3.6 Flash",
       "provider": "Google",
       "release_date": "2026-07-21",
       "completeness": "81.0%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 49.8,
+      "consensus_score": 49.9,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-3-6-flash"
     },
     {
-      "rank": 23,
+      "rank": 26,
+      "name": "Claude Opus 4.6",
+      "provider": "Anthropic",
+      "release_date": "2026-02-05",
+      "completeness": "73.0%",
+      "input_price": "",
+      "output_price": "",
+      "consensus_score": 48.2,
+      "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-6"
+    },
+    {
+      "rank": 27,
       "name": "Gemini 3.5 Flash",
       "provider": "Google",
       "release_date": "2026-05-19",
       "completeness": "81.0%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 47.7,
+      "consensus_score": 47.8,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-3-5-flash"
     },
     {
-      "rank": 24,
+      "rank": 28,
       "name": "GLM-5.2",
       "provider": "Z.ai",
       "release_date": "2026-06-16",
@@ -274,29 +318,18 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/glm-5-2"
     },
     {
-      "rank": 25,
-      "name": "Claude Opus 4.6",
-      "provider": "Anthropic",
-      "release_date": "2026-02-05",
-      "completeness": "73.0%",
-      "input_price": "",
-      "output_price": "",
-      "consensus_score": 45.9,
-      "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-6"
-    },
-    {
-      "rank": 26,
+      "rank": 29,
       "name": "Qwen3.8 27 B",
       "provider": "Alibaba",
       "release_date": "2026-08-14",
       "completeness": "73.0%",
       "input_price": "",
       "output_price": "",
-      "consensus_score": 43.7,
+      "consensus_score": 42.9,
       "detail_url": "https://aihot.virxact.com/leaderboard/qwen-3-8-27-b"
     },
     {
-      "rank": 27,
+      "rank": 30,
       "name": "DeepSeek V4 Flash 0731",
       "provider": "DeepSeek",
       "release_date": "2026-07-31",
@@ -305,39 +338,6 @@
       "output_price": "",
       "consensus_score": 42.9,
       "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-flash-20260731"
-    },
-    {
-      "rank": 28,
-      "name": "Gemini 3.1 Pro Preview",
-      "provider": "Google",
-      "release_date": "2026-02-19",
-      "completeness": "88.0%",
-      "input_price": "",
-      "output_price": "",
-      "consensus_score": 42.0,
-      "detail_url": "https://aihot.virxact.com/leaderboard/gemini-3-1-pro-preview"
-    },
-    {
-      "rank": 29,
-      "name": "Claude Sonnet 4.6",
-      "provider": "Anthropic",
-      "release_date": "2026-02-17",
-      "completeness": "76.5%",
-      "input_price": "",
-      "output_price": "",
-      "consensus_score": 37.8,
-      "detail_url": "https://aihot.virxact.com/leaderboard/claude-sonnet-4-6"
-    },
-    {
-      "rank": 30,
-      "name": "Qwen3.7 Max",
-      "provider": "Alibaba",
-      "release_date": "2026-05-19",
-      "completeness": "51.0%",
-      "input_price": "",
-      "output_price": "",
-      "consensus_score": 34.8,
-      "detail_url": "https://aihot.virxact.com/leaderboard/qwen-3-7-max"
     }
   ],
   "official_sources": [
@@ -347,489 +347,489 @@
       "short_name": "AA Index",
       "operator": "Artificial Analysis",
       "note": "只使用以统一环境复跑多项当前评测形成的 Intelligence Index；价格只作背景信息。",
-      "fetched_at": "2026-09-01T23:35:03.350Z",
+      "fetched_at": "2026-09-05T22:34:16.214Z",
       "metric_name": "Artificial Analysis Intelligence Index",
-      "total_count": 631,
+      "total_count": 643,
       "models": [
         {
           "rank": 1,
           "name": "claude-fable-5-1",
           "provider": "Anthropic",
-          "score": "65.7"
-        },
-        {
-          "rank": 2,
-          "name": "claude-fable-5-1-xhigh",
-          "provider": "Anthropic",
-          "score": "64.8"
-        },
-        {
-          "rank": 3,
-          "name": "claude-opus-5",
-          "provider": "Anthropic",
-          "score": "63.1"
-        },
-        {
-          "rank": 4,
-          "name": "claude-opus-5-xhigh",
-          "provider": "Anthropic",
-          "score": "62.5"
-        },
-        {
-          "rank": 4,
-          "name": "claude-fable-5-1-high",
-          "provider": "Anthropic",
-          "score": "62.5"
-        },
-        {
-          "rank": 6,
-          "name": "claude-fable-5",
-          "provider": "Anthropic",
-          "score": "62.1"
-        },
-        {
-          "rank": 7,
-          "name": "claude-opus-5-high",
-          "provider": "Anthropic",
-          "score": "61.5"
-        },
-        {
-          "rank": 8,
-          "name": "grok-4-6",
-          "provider": "xAI",
-          "score": "60.9"
-        },
-        {
-          "rank": 8,
-          "name": "gpt-5-6-sol",
-          "provider": "OpenAI",
-          "score": "60.9"
-        },
-        {
-          "rank": 10,
-          "name": "claude-fable-5-1-medium",
-          "provider": "Anthropic",
-          "score": "60.5"
-        },
-        {
-          "rank": 11,
-          "name": "grok-4-6-xhigh",
-          "provider": "xAI",
-          "score": "60"
-        },
-        {
-          "rank": 12,
-          "name": "kimi-k3",
-          "provider": "Moonshot AI",
-          "score": "59.7"
-        },
-        {
-          "rank": 13,
-          "name": "glm-5-3",
-          "provider": "Z.ai",
-          "score": "59.5"
-        },
-        {
-          "rank": 14,
-          "name": "grok-4-6-medium",
-          "provider": "xAI",
-          "score": "59"
-        },
-        {
-          "rank": 14,
-          "name": "gpt-5-6-sol-xhigh",
-          "provider": "OpenAI",
-          "score": "59"
-        },
-        {
-          "rank": 16,
-          "name": "claude-opus-5-medium",
-          "provider": "Anthropic",
-          "score": "58.6"
-        },
-        {
-          "rank": 17,
-          "name": "claude-fable-5-1-low",
-          "provider": "Anthropic",
-          "score": "58.1"
-        },
-        {
-          "rank": 17,
-          "name": "qwen3-8-max",
-          "provider": "Alibaba",
-          "score": "58.1"
-        },
-        {
-          "rank": 19,
-          "name": "qwen3-8-2-4t-a95b",
-          "provider": "Alibaba",
-          "score": "57.7"
-        },
-        {
-          "rank": 20,
-          "name": "glm-5-3-flash",
-          "provider": "Z.ai",
-          "score": "57.5"
-        },
-        {
-          "rank": 21,
-          "name": "gpt-5-6-sol-high",
-          "provider": "OpenAI",
-          "score": "57.3"
-        },
-        {
-          "rank": 21,
-          "name": "claude-opus-4-8",
-          "provider": "Anthropic",
-          "score": "57.3"
-        },
-        {
-          "rank": 23,
-          "name": "muse-spark-1-2",
-          "provider": "Meta",
           "score": "56.8"
         },
         {
-          "rank": 24,
-          "name": "gpt-5-6-terra",
-          "provider": "OpenAI",
-          "score": "56.6"
-        },
-        {
-          "rank": 25,
-          "name": "gpt-5-5",
-          "provider": "OpenAI",
-          "score": "56.3"
-        },
-        {
-          "rank": 26,
-          "name": "gemini-3-7-flash",
-          "provider": "Google",
-          "score": "56"
-        },
-        {
-          "rank": 27,
-          "name": "grok-4-5",
-          "provider": "xAI",
-          "score": "55.8"
-        },
-        {
-          "rank": 27,
-          "name": "qwen3-8-flash-next",
-          "provider": "Alibaba",
-          "score": "55.8"
-        },
-        {
-          "rank": 29,
-          "name": "gpt-5-6-sol-medium",
-          "provider": "OpenAI",
-          "score": "55.6"
-        },
-        {
-          "rank": 30,
-          "name": "claude-sonnet-5",
-          "provider": "Anthropic",
-          "score": "55.3"
-        },
-        {
-          "rank": 31,
-          "name": "claude-opus-4-7",
-          "provider": "Anthropic",
-          "score": "55"
-        },
-        {
-          "rank": 32,
-          "name": "gpt-5-5-high",
+          "rank": 2,
+          "name": "gpt-6-astra",
           "provider": "OpenAI",
           "score": "54.7"
         },
         {
-          "rank": 33,
-          "name": "gemini-3-7-flash-medium",
-          "provider": "Google",
+          "rank": 3,
+          "name": "gpt-6-astra-xhigh",
+          "provider": "OpenAI",
+          "score": "54.3"
+        },
+        {
+          "rank": 4,
+          "name": "claude-opus-5",
+          "provider": "Anthropic",
+          "score": "54.1"
+        },
+        {
+          "rank": 5,
+          "name": "claude-fable-5-1-xhigh",
+          "provider": "Anthropic",
+          "score": "53.8"
+        },
+        {
+          "rank": 6,
+          "name": "claude-opus-5-xhigh",
+          "provider": "Anthropic",
           "score": "53.4"
         },
         {
-          "rank": 34,
-          "name": "deepseek-v4-pro",
-          "provider": "DeepSeek",
-          "score": "53.2"
-        },
-        {
-          "rank": 34,
-          "name": "muse-spark-1-1",
-          "provider": "Meta",
-          "score": "53.2"
-        },
-        {
-          "rank": 36,
-          "name": "gpt-5-4",
+          "rank": 6,
+          "name": "gpt-6-astra-high",
           "provider": "OpenAI",
-          "score": "53.1"
+          "score": "53.4"
         },
         {
-          "rank": 37,
-          "name": "gpt-5-6-terra-xhigh",
-          "provider": "OpenAI",
-          "score": "52.8"
-        },
-        {
-          "rank": 38,
-          "name": "glm-5-2",
-          "provider": "Z.ai",
-          "score": "52.6"
-        },
-        {
-          "rank": 39,
-          "name": "claude-opus-5-low",
+          "rank": 8,
+          "name": "claude-fable-5",
           "provider": "Anthropic",
-          "score": "52.5"
+          "score": "53.2"
         },
         {
-          "rank": 40,
-          "name": "gpt-5-6-luna",
+          "rank": 9,
+          "name": "muse-spark-1-3",
+          "provider": "Meta",
+          "score": "53"
+        },
+        {
+          "rank": 10,
+          "name": "gpt-6-astra-medium",
           "provider": "OpenAI",
-          "score": "52.3"
+          "score": "52.2"
         },
         {
-          "rank": 41,
-          "name": "gemini-3-5-flash",
-          "provider": "Google",
+          "rank": 11,
+          "name": "claude-opus-5-high",
+          "provider": "Anthropic",
           "score": "52"
         },
         {
-          "rank": 41,
-          "name": "qwen3-8-27b",
-          "provider": "Alibaba",
-          "score": "52"
-        },
-        {
-          "rank": 43,
-          "name": "deepseek-v4-flash",
-          "provider": "DeepSeek",
-          "score": "51.8"
-        },
-        {
-          "rank": 44,
-          "name": "grok-4-6-low",
-          "provider": "xAI",
+          "rank": 12,
+          "name": "claude-fable-5-1-high",
+          "provider": "Anthropic",
           "score": "51.7"
         },
         {
-          "rank": 45,
-          "name": "gemini-3-6-flash",
-          "provider": "Google",
+          "rank": 13,
+          "name": "muse-spark-1-3-xhigh",
+          "provider": "Meta",
           "score": "51.6"
         },
         {
-          "rank": 46,
-          "name": "deepseek-v4-flash-vision",
-          "provider": "DeepSeek",
-          "score": "51.5"
-        },
-        {
-          "rank": 47,
-          "name": "gpt-5-5-medium",
+          "rank": 14,
+          "name": "gpt-5-6-sol",
           "provider": "OpenAI",
-          "score": "51.4"
+          "score": "51.3"
         },
         {
-          "rank": 48,
-          "name": "gemini-3-7-flash-low",
-          "provider": "Google",
-          "score": "50.9"
+          "rank": 15,
+          "name": "grok-4-6",
+          "provider": "xAI",
+          "score": "50.6"
         },
         {
-          "rank": 49,
-          "name": "gpt-5-6-sol-low",
-          "provider": "OpenAI",
-          "score": "50.7"
+          "rank": 16,
+          "name": "kimi-k3",
+          "provider": "Moonshot AI",
+          "score": "50.2"
         },
         {
-          "rank": 50,
-          "name": "gpt-5-6-terra-high",
-          "provider": "OpenAI",
-          "score": "50.1"
-        },
-        {
-          "rank": 50,
-          "name": "gpt-5-6-luna-xhigh",
-          "provider": "OpenAI",
-          "score": "50.1"
-        },
-        {
-          "rank": 52,
-          "name": "agnes-2-5-pro-beta",
-          "provider": "Sapiens AI",
-          "score": "49.1"
-        },
-        {
-          "rank": 53,
-          "name": "claude-sonnet-4-6-adaptive",
+          "rank": 17,
+          "name": "claude-fable-5-1-medium",
           "provider": "Anthropic",
+          "score": "49.9"
+        },
+        {
+          "rank": 18,
+          "name": "gpt-5-6-sol-xhigh",
+          "provider": "OpenAI",
+          "score": "49.8"
+        },
+        {
+          "rank": 19,
+          "name": "claude-opus-5-medium",
+          "provider": "Anthropic",
+          "score": "49.5"
+        },
+        {
+          "rank": 20,
+          "name": "gpt-6-astra-low",
+          "provider": "OpenAI",
+          "score": "49.3"
+        },
+        {
+          "rank": 20,
+          "name": "grok-4-6-xhigh",
+          "provider": "xAI",
+          "score": "49.3"
+        },
+        {
+          "rank": 22,
+          "name": "glm-5-3",
+          "provider": "Z.ai",
+          "score": "48.6"
+        },
+        {
+          "rank": 23,
+          "name": "grok-4-6-medium",
+          "provider": "xAI",
           "score": "48.4"
         },
         {
-          "rank": 54,
-          "name": "kimi-k3-low",
-          "provider": "Moonshot AI",
+          "rank": 24,
+          "name": "gpt-5-6-sol-high",
+          "provider": "OpenAI",
           "score": "48.3"
         },
         {
-          "rank": 55,
-          "name": "gemini-3-1-pro-preview",
-          "provider": "Google",
-          "score": "47.7"
-        },
-        {
-          "rank": 56,
-          "name": "motif-3",
-          "provider": "Motif Technologies",
-          "score": "47.4"
-        },
-        {
-          "rank": 57,
-          "name": "gpt-5-6-luna-high",
+          "rank": 25,
+          "name": "gpt-6-astra-non-reasoning",
           "provider": "OpenAI",
-          "score": "47"
+          "score": "47.8"
         },
         {
-          "rank": 58,
-          "name": "gpt-5-6-terra-medium",
+          "rank": 25,
+          "name": "claude-fable-5-1-low",
+          "provider": "Anthropic",
+          "score": "47.8"
+        },
+        {
+          "rank": 27,
+          "name": "gemini-3-8-flash",
+          "provider": "Google",
+          "score": "47.1"
+        },
+        {
+          "rank": 28,
+          "name": "qwen3-8-max",
+          "provider": "Alibaba",
+          "score": "46.9"
+        },
+        {
+          "rank": 29,
+          "name": "gemini-3-8-flash-medium",
+          "provider": "Google",
+          "score": "46.8"
+        },
+        {
+          "rank": 29,
+          "name": "gpt-5-6-terra",
           "provider": "OpenAI",
           "score": "46.8"
         },
         {
-          "rank": 59,
-          "name": "gemini-3-5-flash-medium",
-          "provider": "Google",
-          "score": "46.7"
+          "rank": 29,
+          "name": "muse-spark-1-2",
+          "provider": "Meta",
+          "score": "46.8"
         },
         {
-          "rank": 59,
-          "name": "qwen3-7-max",
+          "rank": 32,
+          "name": "qwen3-8-2-4t-a95b",
           "provider": "Alibaba",
           "score": "46.7"
         },
         {
-          "rank": 61,
-          "name": "gpt-5-3-codex",
+          "rank": 33,
+          "name": "claude-opus-4-8",
+          "provider": "Anthropic",
+          "score": "46.4"
+        },
+        {
+          "rank": 34,
+          "name": "glm-5-3-flash",
+          "provider": "Z.ai",
+          "score": "46.2"
+        },
+        {
+          "rank": 35,
+          "name": "gpt-5-6-sol-medium",
           "provider": "OpenAI",
+          "score": "46"
+        },
+        {
+          "rank": 36,
+          "name": "gpt-5-5",
+          "provider": "OpenAI",
+          "score": "45.6"
+        },
+        {
+          "rank": 36,
+          "name": "qwen3-8-flash-next",
+          "provider": "Alibaba",
+          "score": "45.6"
+        },
+        {
+          "rank": 38,
+          "name": "grok-4-5",
+          "provider": "xAI",
           "score": "45.5"
         },
         {
-          "rank": 62,
-          "name": "minimax-m3",
-          "provider": "MiniMax",
-          "score": "45.4"
+          "rank": 39,
+          "name": "gemini-3-7-flash",
+          "provider": "Google",
+          "score": "45.2"
         },
         {
-          "rank": 63,
-          "name": "deepseek-v4-pro-0424",
-          "provider": "DeepSeek",
-          "score": "45.3"
-        },
-        {
-          "rank": 63,
-          "name": "motif-0714",
-          "provider": "Motif Technologies",
-          "score": "45.3"
-        },
-        {
-          "rank": 65,
-          "name": "kimi-k2-6",
-          "provider": "Moonshot AI",
+          "rank": 40,
+          "name": "claude-sonnet-5",
+          "provider": "Anthropic",
           "score": "45.1"
         },
         {
-          "rank": 66,
-          "name": "claude-opus-4-6-adaptive",
-          "provider": "Anthropic",
-          "score": "44.9"
-        },
-        {
-          "rank": 67,
-          "name": "gpt-5-5-low",
+          "rank": 41,
+          "name": "gpt-5-6-terra-xhigh",
           "provider": "OpenAI",
-          "score": "44.5"
+          "score": "44.4"
         },
         {
-          "rank": 67,
-          "name": "qwen3-8-27b-medium",
-          "provider": "Alibaba",
-          "score": "44.5"
-        },
-        {
-          "rank": 69,
-          "name": "muse-spark",
-          "provider": "Meta",
+          "rank": 42,
+          "name": "claude-opus-4-7",
+          "provider": "Anthropic",
           "score": "44.3"
         },
         {
-          "rank": 70,
-          "name": "apodex-1-1",
-          "provider": "Apodex",
-          "score": "44"
-        },
-        {
-          "rank": 71,
-          "name": "claude-opus-4-7-non-reasoning",
-          "provider": "Anthropic",
-          "score": "43.9"
-        },
-        {
-          "rank": 72,
-          "name": "deepseek-v4-pro-0424-high",
-          "provider": "DeepSeek",
-          "score": "43.7"
-        },
-        {
-          "rank": 73,
-          "name": "gpt-5-2",
+          "rank": 43,
+          "name": "gpt-5-5-high",
           "provider": "OpenAI",
+          "score": "44.1"
+        },
+        {
+          "rank": 44,
+          "name": "claude-opus-5-low",
+          "provider": "Anthropic",
+          "score": "43.8"
+        },
+        {
+          "rank": 45,
+          "name": "gemini-3-7-flash-medium",
+          "provider": "Google",
+          "score": "43.4"
+        },
+        {
+          "rank": 45,
+          "name": "gpt-5-6-luna",
+          "provider": "OpenAI",
+          "score": "43.4"
+        },
+        {
+          "rank": 47,
+          "name": "muse-spark-1-1",
+          "provider": "Meta",
           "score": "43.3"
         },
         {
-          "rank": 74,
-          "name": "kimi-k2-7-code",
-          "provider": "Moonshot AI",
-          "score": "43"
+          "rank": 48,
+          "name": "gpt-5-4",
+          "provider": "OpenAI",
+          "score": "42.8"
         },
         {
-          "rank": 74,
-          "name": "quasar-438b",
-          "provider": "Multiverse Computing",
-          "score": "43"
+          "rank": 49,
+          "name": "glm-5-2",
+          "provider": "Z.ai",
+          "score": "42.5"
         },
         {
-          "rank": 76,
-          "name": "qwen3-8-27b-low",
+          "rank": 50,
+          "name": "gemini-3-8-flash-low",
+          "provider": "Google",
+          "score": "42.4"
+        },
+        {
+          "rank": 51,
+          "name": "deepseek-v4-pro",
+          "provider": "DeepSeek",
+          "score": "42.1"
+        },
+        {
+          "rank": 52,
+          "name": "gemini-3-5-flash",
+          "provider": "Google",
+          "score": "41.9"
+        },
+        {
+          "rank": 53,
+          "name": "grok-4-6-low",
+          "provider": "xAI",
+          "score": "41.8"
+        },
+        {
+          "rank": 54,
+          "name": "gpt-5-5-medium",
+          "provider": "OpenAI",
+          "score": "41.6"
+        },
+        {
+          "rank": 54,
+          "name": "gpt-5-6-luna-xhigh",
+          "provider": "OpenAI",
+          "score": "41.6"
+        },
+        {
+          "rank": 56,
+          "name": "deepseek-v4-flash-vision",
+          "provider": "DeepSeek",
+          "score": "41.5"
+        },
+        {
+          "rank": 57,
+          "name": "qwen3-8-27b",
           "provider": "Alibaba",
-          "score": "42.9"
+          "score": "41.4"
+        },
+        {
+          "rank": 58,
+          "name": "gpt-5-6-terra-high",
+          "provider": "OpenAI",
+          "score": "41.3"
+        },
+        {
+          "rank": 59,
+          "name": "gemini-3-7-flash-low",
+          "provider": "Google",
+          "score": "41.1"
+        },
+        {
+          "rank": 60,
+          "name": "gpt-5-6-sol-low",
+          "provider": "OpenAI",
+          "score": "40.8"
+        },
+        {
+          "rank": 60,
+          "name": "deepseek-v4-flash",
+          "provider": "DeepSeek",
+          "score": "40.8"
+        },
+        {
+          "rank": 62,
+          "name": "gemini-3-6-flash",
+          "provider": "Google",
+          "score": "40.3"
+        },
+        {
+          "rank": 63,
+          "name": "agnes-2-5-pro-beta",
+          "provider": "Sapiens AI",
+          "score": "39.5"
+        },
+        {
+          "rank": 64,
+          "name": "kimi-k3-low",
+          "provider": "Moonshot AI",
+          "score": "38.8"
+        },
+        {
+          "rank": 65,
+          "name": "claude-sonnet-4-6-adaptive",
+          "provider": "Anthropic",
+          "score": "38.5"
+        },
+        {
+          "rank": 66,
+          "name": "gemini-3-5-flash-medium",
+          "provider": "Google",
+          "score": "38"
+        },
+        {
+          "rank": 66,
+          "name": "motif-3",
+          "provider": "Motif Technologies",
+          "score": "38"
+        },
+        {
+          "rank": 68,
+          "name": "k2-horizon-375b-a23b",
+          "provider": "MBZUAI Institute of Foundation Models",
+          "score": "37.8"
+        },
+        {
+          "rank": 69,
+          "name": "gpt-5-6-luna-high",
+          "provider": "OpenAI",
+          "score": "37.4"
+        },
+        {
+          "rank": 70,
+          "name": "gpt-5-6-terra-medium",
+          "provider": "OpenAI",
+          "score": "37.2"
+        },
+        {
+          "rank": 71,
+          "name": "qwen3-7-max",
+          "provider": "Alibaba",
+          "score": "37"
+        },
+        {
+          "rank": 72,
+          "name": "gpt-5-3-codex",
+          "provider": "OpenAI",
+          "score": "36.9"
+        },
+        {
+          "rank": 73,
+          "name": "motif-0714",
+          "provider": "Motif Technologies",
+          "score": "36.8"
+        },
+        {
+          "rank": 74,
+          "name": "gemini-3-1-pro-preview",
+          "provider": "Google",
+          "score": "36.7"
+        },
+        {
+          "rank": 75,
+          "name": "claude-opus-4-6-adaptive",
+          "provider": "Anthropic",
+          "score": "36.4"
         },
         {
           "rank": 76,
-          "name": "mimo-v2-5-pro",
-          "provider": "Xiaomi",
-          "score": "42.9"
+          "name": "deepseek-v4-pro-0424",
+          "provider": "DeepSeek",
+          "score": "35.8"
         },
         {
-          "rank": 78,
-          "name": "claude-sonnet-5-non-reasoning",
-          "provider": "Anthropic",
-          "score": "42.6"
+          "rank": 76,
+          "name": "kimi-k2-6",
+          "provider": "Moonshot AI",
+          "score": "35.8"
+        },
+        {
+          "rank": 76,
+          "name": "muse-spark",
+          "provider": "Meta",
+          "score": "35.8"
         },
         {
           "rank": 79,
-          "name": "inkling",
-          "provider": "其他",
-          "score": "42.3"
+          "name": "minimax-m3",
+          "provider": "MiniMax",
+          "score": "35.7"
         },
         {
           "rank": 80,
-          "name": "hy3",
-          "provider": "Tencent",
-          "score": "42.2"
+          "name": "claude-opus-4-7-non-reasoning",
+          "provider": "Anthropic",
+          "score": "35.4"
         }
       ]
     },
@@ -850,9 +850,9 @@
       "short_name": "LiveBench",
       "operator": "LiveBench",
       "note": "以持续更新、答案可验证的七类任务衡量当前模型。",
-      "fetched_at": "2026-09-01T23:35:03.350Z",
+      "fetched_at": "2026-09-05T22:34:16.214Z",
       "metric_name": "LiveBench Global Average",
-      "total_count": 51,
+      "total_count": 54,
       "models": [
         {
           "rank": 1,
@@ -868,294 +868,312 @@
         },
         {
           "rank": 3,
+          "name": "gpt-6-astra-max",
+          "provider": "OpenAI",
+          "score": "82.2"
+        },
+        {
+          "rank": 4,
+          "name": "muse-spark-1.3-xhigh",
+          "provider": "Meta",
+          "score": "81.6"
+        },
+        {
+          "rank": 5,
           "name": "gpt-5.6-sol-max",
           "provider": "OpenAI",
           "score": "81.1"
         },
         {
-          "rank": 4,
+          "rank": 6,
           "name": "gpt-5.5-xhigh",
           "provider": "OpenAI",
           "score": "80.2"
         },
         {
-          "rank": 5,
+          "rank": 7,
           "name": "claude-opus-5-max-effort",
           "provider": "Anthropic",
           "score": "80.1"
         },
         {
-          "rank": 6,
+          "rank": 8,
           "name": "smaug-agentic",
           "provider": "其他",
           "score": "79.5"
         },
         {
-          "rank": 7,
+          "rank": 9,
           "name": "kimi-k3",
           "provider": "Moonshot AI",
           "score": "79.2"
         },
         {
-          "rank": 8,
+          "rank": 10,
           "name": "gemini-3.7-flash-high",
           "provider": "Google",
           "score": "78.8"
         },
         {
-          "rank": 9,
+          "rank": 11,
           "name": "qwen3.8-max",
           "provider": "Alibaba",
           "score": "78.5"
         },
         {
-          "rank": 10,
+          "rank": 12,
           "name": "grok-4.6",
           "provider": "xAI",
           "score": "78.0"
         },
         {
-          "rank": 11,
+          "rank": 13,
           "name": "gpt-5.4-xhigh",
           "provider": "OpenAI",
           "score": "78.0"
         },
         {
-          "rank": 12,
+          "rank": 14,
           "name": "muse-spark-1.2-xhigh",
           "provider": "Meta",
           "score": "78.0"
         },
         {
-          "rank": 13,
+          "rank": 15,
           "name": "gpt-5.6-terra-max",
           "provider": "OpenAI",
           "score": "77.9"
         },
         {
-          "rank": 14,
+          "rank": 16,
           "name": "deepseek-v4-pro-0813",
           "provider": "DeepSeek",
           "score": "77.4"
         },
         {
-          "rank": 15,
+          "rank": 17,
           "name": "gemini-3.1-pro-preview-high",
           "provider": "Google",
           "score": "77.0"
         },
         {
-          "rank": 16,
+          "rank": 18,
           "name": "deepseek-v4-flash-vision-exp",
           "provider": "DeepSeek",
           "score": "76.8"
         },
         {
-          "rank": 17,
+          "rank": 19,
           "name": "claude-opus-4-7-xhigh-effort",
           "provider": "Anthropic",
           "score": "76.5"
         },
         {
-          "rank": 18,
+          "rank": 20,
           "name": "claude-opus-4-8-max-effort",
           "provider": "Anthropic",
           "score": "76.2"
         },
         {
-          "rank": 19,
+          "rank": 21,
           "name": "qwen3.8-flash-next",
           "provider": "Alibaba",
           "score": "76.2"
         },
         {
-          "rank": 20,
+          "rank": 22,
           "name": "glm-5.3",
           "provider": "Z.ai",
           "score": "76.1"
         },
         {
-          "rank": 21,
+          "rank": 23,
           "name": "claude-sonnet-5-xhigh-effort",
           "provider": "Anthropic",
           "score": "76.0"
         },
         {
-          "rank": 22,
+          "rank": 24,
+          "name": "gemini-3.8-flash-high",
+          "provider": "Google",
+          "score": "75.8"
+        },
+        {
+          "rank": 25,
           "name": "grok-4.5",
           "provider": "xAI",
           "score": "75.8"
         },
         {
-          "rank": 23,
+          "rank": 26,
           "name": "muse-spark-1.1-xhigh",
           "provider": "Meta",
           "score": "75.3"
         },
         {
-          "rank": 24,
+          "rank": 27,
           "name": "qwen3.8-27b",
           "provider": "Alibaba",
           "score": "75.3"
         },
         {
-          "rank": 25,
+          "rank": 28,
           "name": "gemini-3.5-flash-high",
           "provider": "Google",
           "score": "74.6"
         },
         {
-          "rank": 26,
+          "rank": 29,
           "name": "gpt-5.2-2025-12-11-high",
           "provider": "OpenAI",
           "score": "74.6"
         },
         {
-          "rank": 27,
+          "rank": 30,
           "name": "claude-opus-4-6-thinking-auto-high-effort",
           "provider": "Anthropic",
           "score": "74.5"
         },
         {
-          "rank": 28,
+          "rank": 31,
           "name": "deepseek-v4-flash-0731",
           "provider": "DeepSeek",
           "score": "74.2"
         },
         {
-          "rank": 29,
+          "rank": 32,
           "name": "gpt-5.2-codex",
           "provider": "OpenAI",
           "score": "74.0"
         },
         {
-          "rank": 30,
+          "rank": 33,
           "name": "gemini-3.6-flash-high",
           "provider": "Google",
           "score": "73.6"
         },
         {
-          "rank": 31,
+          "rank": 34,
           "name": "gpt-5.6-luna-max",
           "provider": "OpenAI",
           "score": "73.6"
         },
         {
-          "rank": 32,
+          "rank": 35,
           "name": "glm-5.2",
           "provider": "Z.ai",
           "score": "73.2"
         },
         {
-          "rank": 33,
+          "rank": 36,
           "name": "qwen3.7-max",
           "provider": "Alibaba",
           "score": "73.1"
         },
         {
-          "rank": 34,
+          "rank": 37,
           "name": "claude-sonnet-4-6-thinking-auto-medium-effort",
           "provider": "Anthropic",
           "score": "73.0"
         },
         {
-          "rank": 35,
+          "rank": 38,
           "name": "claude-opus-4-5-20251101-thinking-64k-high-effort",
           "provider": "Anthropic",
           "score": "72.6"
         },
         {
-          "rank": 36,
+          "rank": 39,
           "name": "inkling-xhigh",
           "provider": "其他",
           "score": "71.9"
         },
         {
-          "rank": 37,
+          "rank": 40,
           "name": "glm-5.3-flash",
           "provider": "Z.ai",
           "score": "71.6"
         },
         {
-          "rank": 38,
+          "rank": 41,
           "name": "deepseek-v4-pro",
           "provider": "DeepSeek",
           "score": "71.6"
         },
         {
-          "rank": 39,
+          "rank": 42,
           "name": "kimi-k2.6-thinking",
           "provider": "Moonshot AI",
           "score": "70.5"
         },
         {
-          "rank": 40,
+          "rank": 43,
           "name": "gpt-5.4-nano-xhigh",
           "provider": "OpenAI",
           "score": "69.6"
         },
         {
-          "rank": 41,
+          "rank": 44,
           "name": "ox-alpha-max",
           "provider": "其他",
           "score": "69.2"
         },
         {
-          "rank": 42,
+          "rank": 45,
           "name": "qwen3.6-plus",
           "provider": "Alibaba",
           "score": "68.9"
         },
         {
-          "rank": 43,
+          "rank": 46,
           "name": "kimi-k2.7-code",
           "provider": "Moonshot AI",
           "score": "68.4"
         },
         {
-          "rank": 44,
+          "rank": 47,
           "name": "grok-build-0.1",
           "provider": "xAI",
           "score": "67.8"
         },
         {
-          "rank": 45,
+          "rank": 48,
+          "name": "nemotron-3-ultra-550b-a55b",
+          "provider": "NVIDIA",
+          "score": "67.4"
+        },
+        {
+          "rank": 49,
           "name": "minimax-m3",
           "provider": "MiniMax",
           "score": "67.3"
         },
         {
-          "rank": 46,
+          "rank": 50,
           "name": "gpt-5.4-mini-xhigh",
           "provider": "OpenAI",
           "score": "66.4"
         },
         {
-          "rank": 47,
+          "rank": 51,
           "name": "deepseek-v4-flash",
           "provider": "DeepSeek",
           "score": "65.5"
         },
         {
-          "rank": 48,
-          "name": "nemotron-3-ultra-550b-a55b",
-          "provider": "NVIDIA",
-          "score": "64.2"
-        },
-        {
-          "rank": 49,
+          "rank": 52,
           "name": "qwen3.6-27b",
           "provider": "Alibaba",
           "score": "64.0"
         },
         {
-          "rank": 50,
+          "rank": 53,
           "name": "gemini-3.5-flash-lite-high",
           "provider": "Google",
           "score": "63.9"
         },
         {
-          "rank": 51,
+          "rank": 54,
           "name": "grok-4.3",
           "provider": "xAI",
           "score": "62.2"
@@ -1168,81 +1186,81 @@
       "short_name": "Arena Text",
       "operator": "LMArena",
       "note": "用匿名两两盲选补充客观题库无法覆盖的整体回答体验。",
-      "fetched_at": "2026-09-01T23:35:03.350Z",
+      "fetched_at": "2026-09-05T22:34:16.214Z",
       "metric_name": "Arena Text Style-Controlled",
-      "total_count": 395,
+      "total_count": 398,
       "models": [
         {
           "rank": 1,
           "name": "claude-fable-5",
           "provider": "Anthropic",
-          "score": "1507.5"
+          "score": "1507.4"
         },
         {
           "rank": 2,
           "name": "claude-opus-4-6-high",
           "provider": "Anthropic",
-          "score": "1504.8"
+          "score": "1504.7"
         },
         {
           "rank": 3,
           "name": "claude-opus-4-7-high",
           "provider": "Anthropic",
-          "score": "1502.1"
+          "score": "1501.9"
         },
         {
           "rank": 4,
           "name": "muse-spark-1.2 (xHigh)",
           "provider": "Meta",
-          "score": "1498.3"
+          "score": "1498.7"
         },
         {
           "rank": 5,
           "name": "claude-opus-4-6",
           "provider": "Anthropic",
-          "score": "1497.4"
+          "score": "1497.6"
         },
         {
           "rank": 6,
           "name": "claude-opus-4-7",
           "provider": "Anthropic",
-          "score": "1494.3"
+          "score": "1494.4"
         },
         {
           "rank": 7,
           "name": "claude-opus-5-high",
           "provider": "Anthropic",
-          "score": "1491.9"
+          "score": "1492.0"
         },
         {
           "rank": 8,
           "name": "muse-spark-1.1",
           "provider": "Meta",
-          "score": "1490.4"
+          "score": "1491.6"
         },
         {
           "rank": 9,
           "name": "gemini-3.7-flash-high",
           "provider": "Google",
-          "score": "1490.0"
+          "score": "1490.6"
         },
         {
           "rank": 10,
           "name": "kimi-k3-max",
           "provider": "Moonshot AI",
-          "score": "1488.8"
+          "score": "1489.0"
         },
         {
           "rank": 11,
           "name": "muse-spark",
           "provider": "Meta",
-          "score": "1488.4"
+          "score": "1488.3"
         },
         {
           "rank": 12,
           "name": "claude-opus-5-max",
           "provider": "Anthropic",
-          "score": "1487.9"
+          "score": "1487.8"
         },
         {
           "rank": 13,
@@ -1260,55 +1278,55 @@
           "rank": 15,
           "name": "glm-5.3-max",
           "provider": "Z.ai",
-          "score": "1483.9"
+          "score": "1482.9"
         },
         {
           "rank": 16,
-          "name": "gpt-5.5-high",
+          "name": "gpt-5.6-sol-xhigh",
           "provider": "OpenAI",
-          "score": "1482.4"
+          "score": "1482.9"
         },
         {
           "rank": 17,
-          "name": "gpt-5.6-sol-xhigh",
+          "name": "gpt-5.5-high",
           "provider": "OpenAI",
-          "score": "1482.2"
+          "score": "1482.3"
         },
         {
           "rank": 18,
           "name": "claude-opus-4-8-high",
           "provider": "Anthropic",
-          "score": "1481.4"
+          "score": "1481.8"
         },
         {
           "rank": 19,
           "name": "gemini-3.6-flash-high",
           "provider": "Google",
-          "score": "1480.6"
+          "score": "1480.2"
         },
         {
           "rank": 20,
           "name": "qwen3.8-max",
           "provider": "Alibaba",
-          "score": "1479.4"
+          "score": "1479.2"
         },
         {
           "rank": 21,
           "name": "gemini-3.5-flash-high",
           "provider": "Google",
-          "score": "1478.8"
+          "score": "1479.1"
         },
         {
           "rank": 22,
           "name": "gpt-5.5",
           "provider": "OpenAI",
-          "score": "1476.7"
+          "score": "1477.2"
         },
         {
           "rank": 23,
           "name": "gpt-5.4-high",
           "provider": "OpenAI",
-          "score": "1476.6"
+          "score": "1476.5"
         },
         {
           "rank": 24,
@@ -1324,153 +1342,153 @@
         },
         {
           "rank": 26,
-          "name": "gemini-3-flash",
+          "name": "gemini-3.5-flash-medium",
           "provider": "Google",
-          "score": "1473.8"
+          "score": "1474.4"
         },
         {
           "rank": 27,
+          "name": "glm-5.3-flash",
+          "provider": "Z.ai",
+          "score": "1474.1"
+        },
+        {
+          "rank": 28,
+          "name": "gemini-3-flash",
+          "provider": "Google",
+          "score": "1473.7"
+        },
+        {
+          "rank": 29,
           "name": "qwen3.7-max-preview",
           "provider": "Alibaba",
           "score": "1473.7"
         },
         {
-          "rank": 28,
-          "name": "gemini-3.5-flash-medium",
-          "provider": "Google",
-          "score": "1473.5"
-        },
-        {
-          "rank": 29,
+          "rank": 30,
           "name": "gpt-5.5-instant",
           "provider": "OpenAI",
-          "score": "1473.4"
-        },
-        {
-          "rank": 30,
-          "name": "claude-opus-4-5-20251101-high-32k",
-          "provider": "Anthropic",
-          "score": "1472.9"
+          "score": "1473.6"
         },
         {
           "rank": 31,
           "name": "claude-opus-4-8",
           "provider": "Anthropic",
-          "score": "1472.9"
+          "score": "1473.0"
         },
         {
           "rank": 32,
-          "name": "claude-sonnet-4-6",
+          "name": "claude-opus-4-5-20251101-high-32k",
           "provider": "Anthropic",
-          "score": "1472.2"
+          "score": "1472.9"
         },
         {
           "rank": 33,
+          "name": "claude-sonnet-4-6",
+          "provider": "Anthropic",
+          "score": "1472.4"
+        },
+        {
+          "rank": 34,
           "name": "glm-5.2-max",
           "provider": "Z.ai",
           "score": "1471.9"
         },
         {
-          "rank": 34,
+          "rank": 35,
           "name": "grok-4.20-beta-0309-reasoning",
           "provider": "xAI",
-          "score": "1471.7"
+          "score": "1471.8"
         },
         {
-          "rank": 35,
+          "rank": 36,
           "name": "grok-4.20-multi-agent-beta-0309",
           "provider": "xAI",
           "score": "1470.5"
         },
         {
-          "rank": 36,
+          "rank": 37,
           "name": "grok-4.5",
           "provider": "xAI",
-          "score": "1469.6"
-        },
-        {
-          "rank": 37,
-          "name": "claude-opus-4-5-20251101",
-          "provider": "Anthropic",
-          "score": "1469.5"
+          "score": "1470.0"
         },
         {
           "rank": 38,
-          "name": "glm-5.3-flash",
-          "provider": "Z.ai",
+          "name": "claude-opus-4-5-20251101",
+          "provider": "Anthropic",
           "score": "1469.4"
         },
         {
           "rank": 39,
-          "name": "ernie-5.1",
-          "provider": "Baidu",
-          "score": "1468.1"
+          "name": "mimo-v2.5-pro",
+          "provider": "Xiaomi",
+          "score": "1468.3"
         },
         {
           "rank": 40,
-          "name": "mimo-v2.5-pro",
-          "provider": "Xiaomi",
-          "score": "1467.7"
+          "name": "ernie-5.1",
+          "provider": "Baidu",
+          "score": "1467.8"
         },
         {
           "rank": 41,
-          "name": "glm-5.1",
-          "provider": "Z.ai",
-          "score": "1466.3"
-        },
-        {
-          "rank": 42,
           "name": "gpt-5.6-terra-xhigh",
           "provider": "OpenAI",
           "score": "1466.2"
         },
         {
+          "rank": 42,
+          "name": "glm-5.1",
+          "provider": "Z.ai",
+          "score": "1466.0"
+        },
+        {
           "rank": 43,
-          "name": "gpt-5.4",
-          "provider": "OpenAI",
-          "score": "1465.6"
+          "name": "grok-4.1-thinking",
+          "provider": "xAI",
+          "score": "1465.5"
         },
         {
           "rank": 44,
+          "name": "gpt-5.4",
+          "provider": "OpenAI",
+          "score": "1465.5"
+        },
+        {
+          "rank": 45,
           "name": "qwen3.5-max-preview",
           "provider": "Alibaba",
           "score": "1465.5"
         },
         {
-          "rank": 45,
-          "name": "grok-4.1-thinking",
-          "provider": "xAI",
-          "score": "1465.3"
-        },
-        {
           "rank": 46,
-          "name": "deepseek-v4-pro-high-20260813",
-          "provider": "DeepSeek",
-          "score": "1461.5"
+          "name": "claude-sonnet-5-high",
+          "provider": "Anthropic",
+          "score": "1462.2"
         },
         {
           "rank": 47,
-          "name": "claude-sonnet-5-high",
-          "provider": "Anthropic",
-          "score": "1461.4"
+          "name": "grok-4.6-high",
+          "provider": "xAI",
+          "score": "1461.1"
         },
         {
           "rank": 48,
-          "name": "grok-4.6-high",
-          "provider": "xAI",
-          "score": "1461.3"
+          "name": "kimi-k2.6",
+          "provider": "Moonshot AI",
+          "score": "1460.6"
         },
         {
           "rank": 49,
-          "name": "kimi-k2.6",
-          "provider": "Moonshot AI",
-          "score": "1460.7"
+          "name": "qwen3.6-max-preview",
+          "provider": "Alibaba",
+          "score": "1460.0"
         },
         {
           "rank": 50,
-          "name": "qwen3.6-max-preview",
-          "provider": "Alibaba",
-          "score": "1460.1"
+          "name": "deepseek-v4-pro-high-20260813",
+          "provider": "DeepSeek",
+          "score": "1459.8"
         },
         {
           "rank": 51,
@@ -1494,73 +1512,73 @@
           "rank": 54,
           "name": "deepseek-v4-pro",
           "provider": "DeepSeek",
-          "score": "1457.8"
+          "score": "1457.7"
         },
         {
           "rank": 55,
           "name": "gemini-3.5-flash-lite",
           "provider": "Google",
-          "score": "1457.7"
+          "score": "1456.8"
         },
         {
           "rank": 56,
-          "name": "qwen3.7-plus",
-          "provider": "Alibaba",
-          "score": "1456.3"
+          "name": "claude-sonnet-4-5-20250929-high-32k",
+          "provider": "Anthropic",
+          "score": "1456.2"
         },
         {
           "rank": 57,
-          "name": "claude-sonnet-4-5-20250929-high-32k",
-          "provider": "Anthropic",
-          "score": "1456.3"
-        },
-        {
-          "rank": 58,
           "name": "dola-seed-2.0-pro",
           "provider": "ByteDance",
           "score": "1455.7"
         },
         {
-          "rank": 59,
+          "rank": 58,
           "name": "hy3",
           "provider": "Tencent",
-          "score": "1455.6"
+          "score": "1455.4"
+        },
+        {
+          "rank": 59,
+          "name": "qwen3.7-plus",
+          "provider": "Alibaba",
+          "score": "1455.2"
         },
         {
           "rank": 60,
-          "name": "gpt-5.1-high",
-          "provider": "OpenAI",
-          "score": "1455.1"
-        },
-        {
-          "rank": 61,
-          "name": "deepseek-v4-pro-high-preview",
-          "provider": "DeepSeek",
-          "score": "1455.1"
-        },
-        {
-          "rank": 62,
           "name": "claude-sonnet-4-5-20250929",
           "provider": "Anthropic",
           "score": "1455.1"
         },
         {
+          "rank": 61,
+          "name": "gpt-5.1-high",
+          "provider": "OpenAI",
+          "score": "1455.1"
+        },
+        {
+          "rank": 62,
+          "name": "deepseek-v4-pro-high-preview",
+          "provider": "DeepSeek",
+          "score": "1455.0"
+        },
+        {
           "rank": 63,
           "name": "gpt-5.6-luna-xhigh",
           "provider": "OpenAI",
-          "score": "1451.6"
+          "score": "1452.4"
         },
         {
           "rank": 64,
           "name": "gemma-4-31b",
           "provider": "Google",
-          "score": "1451.2"
+          "score": "1451.3"
         },
         {
           "rank": 65,
           "name": "kimi-k2.5-thinking",
           "provider": "Moonshot AI",
-          "score": "1450.5"
+          "score": "1450.6"
         },
         {
           "rank": 66,
@@ -1578,31 +1596,31 @@
           "rank": 68,
           "name": "ernie-5.0-preview-1203",
           "provider": "Baidu",
-          "score": "1448.8"
+          "score": "1449.1"
         },
         {
           "rank": 69,
           "name": "mimo-v2-pro",
           "provider": "Xiaomi",
-          "score": "1448.5"
+          "score": "1448.4"
         },
         {
           "rank": 70,
           "name": "gpt-5.4-mini-high",
           "provider": "OpenAI",
-          "score": "1448.3"
+          "score": "1448.1"
         },
         {
           "rank": 71,
           "name": "claude-opus-4-1-20250805",
           "provider": "Anthropic",
-          "score": "1447.6"
+          "score": "1447.7"
         },
         {
           "rank": 72,
           "name": "ernie-5.0-0110",
           "provider": "Baidu",
-          "score": "1446.1"
+          "score": "1446.0"
         },
         {
           "rank": 73,
@@ -1614,7 +1632,7 @@
           "rank": 74,
           "name": "gpt-4.5-preview-2025-02-27",
           "provider": "OpenAI",
-          "score": "1444.6"
+          "score": "1444.5"
         },
         {
           "rank": 75,
@@ -1630,27 +1648,27 @@
         },
         {
           "rank": 77,
-          "name": "grok-4.3",
-          "provider": "xAI",
-          "score": "1442.4"
+          "name": "minimax-m3",
+          "provider": "MiniMax",
+          "score": "1443.0"
         },
         {
           "rank": 78,
-          "name": "minimax-m3",
-          "provider": "MiniMax",
-          "score": "1442.0"
+          "name": "grok-4.3",
+          "provider": "xAI",
+          "score": "1442.6"
         },
         {
           "rank": 79,
           "name": "glm-4.7",
           "provider": "Z.ai",
-          "score": "1441.7"
+          "score": "1441.8"
         },
         {
           "rank": 80,
           "name": "qwen3.5-397b-a17b",
           "provider": "Alibaba",
-          "score": "1441.5"
+          "score": "1441.4"
         }
       ]
     },
@@ -1660,393 +1678,393 @@
       "short_name": "Arena WebDev",
       "operator": "LMArena",
       "note": "用匿名两两盲选衡量 Web 开发实战能力。",
-      "fetched_at": "2026-09-01T23:35:03.350Z",
+      "fetched_at": "2026-09-05T22:34:16.214Z",
       "metric_name": "Arena WebDev",
-      "total_count": 120,
+      "total_count": 121,
       "models": [
         {
           "rank": 1,
-          "name": "claude-opus-5-max",
-          "provider": "Anthropic",
-          "score": "1688.3"
+          "name": "qwen3.8-max-0902",
+          "provider": "Alibaba",
+          "score": "1690.7"
         },
         {
           "rank": 2,
+          "name": "claude-opus-5-max",
+          "provider": "Anthropic",
+          "score": "1687.9"
+        },
+        {
+          "rank": 3,
           "name": "kimi-k3-max",
           "provider": "Moonshot AI",
           "score": "1673.6"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "qwen3.8-max",
           "provider": "Alibaba",
           "score": "1669.1"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "claude-opus-5-high",
           "provider": "Anthropic",
-          "score": "1660.7"
-        },
-        {
-          "rank": 5,
-          "name": "hy4-preview",
-          "provider": "Tencent",
-          "score": "1630.8"
+          "score": "1661.1"
         },
         {
           "rank": 6,
+          "name": "hy4-preview",
+          "provider": "Tencent",
+          "score": "1629.2"
+        },
+        {
+          "rank": 7,
           "name": "grok-4.6-high",
           "provider": "xAI",
           "score": "1629.0"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "claude-fable-5",
           "provider": "Anthropic",
-          "score": "1628.0"
-        },
-        {
-          "rank": 8,
-          "name": "qwen3.8-flash-next",
-          "provider": "Alibaba",
-          "score": "1621.7"
+          "score": "1627.8"
         },
         {
           "rank": 9,
-          "name": "gpt-5.6-sol-xhigh (codex-harness)",
-          "provider": "OpenAI",
-          "score": "1616.2"
+          "name": "qwen3.8-flash-next",
+          "provider": "Alibaba",
+          "score": "1620.0"
         },
         {
           "rank": 10,
-          "name": "glm-5.3-max",
-          "provider": "Z.ai",
-          "score": "1607.9"
+          "name": "gpt-5.6-sol-xhigh (codex-harness)",
+          "provider": "OpenAI",
+          "score": "1616.5"
         },
         {
           "rank": 11,
-          "name": "glm-5.3-flash",
+          "name": "glm-5.3-max",
           "provider": "Z.ai",
-          "score": "1605.6"
+          "score": "1608.2"
         },
         {
           "rank": 12,
-          "name": "qwen3.8-27b",
-          "provider": "Alibaba",
-          "score": "1598.3"
+          "name": "glm-5.3-flash",
+          "provider": "Z.ai",
+          "score": "1604.2"
         },
         {
           "rank": 13,
-          "name": "gemini-3.7-flash-high",
-          "provider": "Google",
-          "score": "1586.5"
+          "name": "qwen3.8-27b",
+          "provider": "Alibaba",
+          "score": "1599.1"
         },
         {
           "rank": 14,
-          "name": "glm-5.2-max",
-          "provider": "Z.ai",
-          "score": "1584.6"
+          "name": "gemini-3.7-flash-high",
+          "provider": "Google",
+          "score": "1586.6"
         },
         {
           "rank": 15,
-          "name": "deepseek-v4-pro-high-20260813",
-          "provider": "DeepSeek",
-          "score": "1583.0"
+          "name": "glm-5.2-max",
+          "provider": "Z.ai",
+          "score": "1585.0"
         },
         {
           "rank": 16,
-          "name": "deepseek-v4-flash-high",
+          "name": "deepseek-v4-pro-high-20260813",
           "provider": "DeepSeek",
-          "score": "1580.4"
+          "score": "1583.8"
         },
         {
           "rank": 17,
-          "name": "claude-opus-4-8-high",
-          "provider": "Anthropic",
-          "score": "1563.2"
+          "name": "deepseek-v4-flash-high",
+          "provider": "DeepSeek",
+          "score": "1580.6"
         },
         {
           "rank": 18,
-          "name": "claude-opus-4-7",
+          "name": "claude-opus-4-8-high",
           "provider": "Anthropic",
-          "score": "1557.0"
+          "score": "1562.8"
         },
         {
           "rank": 19,
-          "name": "claude-opus-4-7-high",
+          "name": "claude-opus-4-7",
           "provider": "Anthropic",
-          "score": "1556.5"
+          "score": "1556.9"
         },
         {
           "rank": 20,
-          "name": "grok-4.5",
-          "provider": "xAI",
-          "score": "1555.6"
+          "name": "claude-opus-4-7-high",
+          "provider": "Anthropic",
+          "score": "1556.4"
         },
         {
           "rank": 21,
-          "name": "claude-opus-4-6-high",
-          "provider": "Anthropic",
-          "score": "1546.0"
+          "name": "grok-4.5",
+          "provider": "xAI",
+          "score": "1555.4"
         },
         {
           "rank": 22,
-          "name": "claude-opus-4-8",
+          "name": "claude-opus-4-6-high",
           "provider": "Anthropic",
-          "score": "1539.8"
+          "score": "1546.1"
         },
         {
           "rank": 23,
-          "name": "muse-spark-1.1",
-          "provider": "Meta",
-          "score": "1539.6"
+          "name": "claude-opus-4-8",
+          "provider": "Anthropic",
+          "score": "1539.9"
         },
         {
           "rank": 24,
-          "name": "gemini-3.6-flash-high",
-          "provider": "Google",
-          "score": "1538.3"
+          "name": "muse-spark-1.1",
+          "provider": "Meta",
+          "score": "1539.7"
         },
         {
           "rank": 25,
-          "name": "claude-sonnet-5-high",
-          "provider": "Anthropic",
-          "score": "1537.0"
+          "name": "gemini-3.6-flash-high",
+          "provider": "Google",
+          "score": "1538.1"
         },
         {
           "rank": 26,
-          "name": "claude-opus-4-6",
+          "name": "claude-sonnet-5-high",
           "provider": "Anthropic",
-          "score": "1536.4"
+          "score": "1537.1"
         },
         {
           "rank": 27,
-          "name": "muse-spark-1.2 (xHigh)",
-          "provider": "Meta",
-          "score": "1534.0"
+          "name": "claude-opus-4-6",
+          "provider": "Anthropic",
+          "score": "1536.5"
         },
         {
           "rank": 28,
-          "name": "seed-2.1-pro-preview",
-          "provider": "ByteDance",
-          "score": "1522.4"
+          "name": "muse-spark-1.2 (xHigh)",
+          "provider": "Meta",
+          "score": "1534.2"
         },
         {
           "rank": 29,
-          "name": "claude-sonnet-4-6",
-          "provider": "Anthropic",
-          "score": "1521.7"
+          "name": "seed-2.1-pro-preview",
+          "provider": "ByteDance",
+          "score": "1522.0"
         },
         {
           "rank": 30,
-          "name": "gpt-5.6-terra-xhigh (codex-harness)",
-          "provider": "OpenAI",
-          "score": "1518.9"
+          "name": "claude-sonnet-4-6",
+          "provider": "Anthropic",
+          "score": "1521.6"
         },
         {
           "rank": 31,
           "name": "gpt-5.6-luna-xhigh (codex-harness)",
           "provider": "OpenAI",
-          "score": "1518.3"
+          "score": "1519.0"
         },
         {
           "rank": 32,
+          "name": "gpt-5.6-terra-xhigh (codex-harness)",
+          "provider": "OpenAI",
+          "score": "1518.1"
+        },
+        {
+          "rank": 33,
           "name": "qwen3.7-max-20260517",
           "provider": "Alibaba",
           "score": "1516.8"
         },
         {
-          "rank": 33,
+          "rank": 34,
           "name": "hy3",
           "provider": "Tencent",
-          "score": "1512.6"
+          "score": "1511.5"
         },
         {
-          "rank": 34,
+          "rank": 35,
           "name": "gpt-5.5-xhigh (codex-harness)",
           "provider": "OpenAI",
           "score": "1509.6"
         },
         {
-          "rank": 35,
+          "rank": 36,
           "name": "kimi-k2.6",
           "provider": "Moonshot AI",
-          "score": "1508.7"
-        },
-        {
-          "rank": 36,
-          "name": "glm-5.1",
-          "provider": "Z.ai",
           "score": "1508.6"
         },
         {
           "rank": 37,
-          "name": "gemini-3.5-flash-high",
-          "provider": "Google",
-          "score": "1501.1"
+          "name": "glm-5.1",
+          "provider": "Z.ai",
+          "score": "1508.5"
         },
         {
           "rank": 38,
-          "name": "claude-opus-4-5-20251101-high-32k",
-          "provider": "Anthropic",
-          "score": "1494.8"
+          "name": "gemini-3.5-flash-high",
+          "provider": "Google",
+          "score": "1500.9"
         },
         {
           "rank": 39,
+          "name": "claude-opus-4-5-20251101-high-32k",
+          "provider": "Anthropic",
+          "score": "1494.7"
+        },
+        {
+          "rank": 40,
           "name": "gemini-3.5-flash-medium",
           "provider": "Google",
           "score": "1491.9"
         },
         {
-          "rank": 40,
+          "rank": 41,
           "name": "minimax-m3",
           "provider": "MiniMax",
-          "score": "1487.1"
-        },
-        {
-          "rank": 41,
-          "name": "gpt-5.5-high (codex-harness)",
-          "provider": "OpenAI",
-          "score": "1486.3"
+          "score": "1486.8"
         },
         {
           "rank": 42,
-          "name": "qwen3.6-max-preview",
-          "provider": "Alibaba",
-          "score": "1478.4"
+          "name": "gpt-5.5-high (codex-harness)",
+          "provider": "OpenAI",
+          "score": "1486.2"
         },
         {
           "rank": 43,
+          "name": "qwen3.6-max-preview",
+          "provider": "Alibaba",
+          "score": "1478.7"
+        },
+        {
+          "rank": 44,
           "name": "mimo-v2.5-pro",
           "provider": "Xiaomi",
           "score": "1475.9"
         },
         {
-          "rank": 44,
+          "rank": 45,
           "name": "kimi-k2.7-code",
           "provider": "Moonshot AI",
           "score": "1472.7"
         },
         {
-          "rank": 45,
+          "rank": 46,
           "name": "claude-opus-4-5-20251101",
           "provider": "Anthropic",
-          "score": "1467.9"
+          "score": "1468.0"
         },
         {
-          "rank": 46,
+          "rank": 47,
           "name": "deepseek-v4-pro-high-preview",
           "provider": "DeepSeek",
           "score": "1463.7"
         },
         {
-          "rank": 47,
+          "rank": 48,
           "name": "gpt-5.4-high (codex-harness)",
           "provider": "OpenAI",
-          "score": "1462.9"
+          "score": "1463.0"
         },
         {
-          "rank": 48,
+          "rank": 49,
           "name": "qwen3.6-plus",
           "provider": "Alibaba",
           "score": "1460.2"
         },
         {
-          "rank": 49,
+          "rank": 50,
           "name": "gpt-5.5 (codex-harness)",
           "provider": "OpenAI",
-          "score": "1457.8"
-        },
-        {
-          "rank": 50,
-          "name": "gemini-3.5-flash-lite",
-          "provider": "Google",
-          "score": "1449.0"
+          "score": "1457.4"
         },
         {
           "rank": 51,
+          "name": "gemini-3.5-flash-lite",
+          "provider": "Google",
+          "score": "1449.1"
+        },
+        {
+          "rank": 52,
           "name": "gemini-3.1-pro-preview",
           "provider": "Google",
           "score": "1445.7"
         },
         {
-          "rank": 52,
+          "rank": 53,
           "name": "deepseek-v4-pro",
           "provider": "DeepSeek",
-          "score": "1445.3"
-        },
-        {
-          "rank": 53,
-          "name": "gpt-5.4-medium (codex-harness)",
-          "provider": "OpenAI",
-          "score": "1442.3"
+          "score": "1445.5"
         },
         {
           "rank": 54,
-          "name": "gemini-3-pro",
-          "provider": "Google",
-          "score": "1438.2"
+          "name": "gpt-5.4-medium (codex-harness)",
+          "provider": "OpenAI",
+          "score": "1442.4"
         },
         {
           "rank": 55,
-          "name": "gemini-3-flash",
+          "name": "gemini-3-pro",
           "provider": "Google",
-          "score": "1437.7"
+          "score": "1438.3"
         },
         {
           "rank": 56,
           "name": "mimo-v2.5",
           "provider": "Xiaomi",
-          "score": "1437.5"
+          "score": "1437.8"
         },
         {
           "rank": 57,
-          "name": "kimi-k2.5-thinking",
-          "provider": "Moonshot AI",
-          "score": "1436.4"
+          "name": "gemini-3-flash",
+          "provider": "Google",
+          "score": "1437.6"
         },
         {
           "rank": 58,
-          "name": "glm-5",
-          "provider": "Z.ai",
-          "score": "1435.6"
+          "name": "kimi-k2.5-thinking",
+          "provider": "Moonshot AI",
+          "score": "1436.5"
         },
         {
           "rank": 59,
-          "name": "glm-4.7",
+          "name": "glm-5",
           "provider": "Z.ai",
-          "score": "1434.5"
+          "score": "1435.7"
         },
         {
           "rank": 60,
-          "name": "mimo-v2-pro",
-          "provider": "Xiaomi",
-          "score": "1433.4"
+          "name": "glm-4.7",
+          "provider": "Z.ai",
+          "score": "1434.7"
         },
         {
           "rank": 61,
-          "name": "deepseek-v4-flash-high-preview",
-          "provider": "DeepSeek",
-          "score": "1430.8"
+          "name": "mimo-v2-pro",
+          "provider": "Xiaomi",
+          "score": "1433.6"
         },
         {
           "rank": 62,
-          "name": "gpt-5-medium",
-          "provider": "OpenAI",
-          "score": "1418.9"
+          "name": "deepseek-v4-flash-high-preview",
+          "provider": "DeepSeek",
+          "score": "1431.1"
         },
         {
           "rank": 63,
-          "name": "gpt-5.2",
+          "name": "gpt-5-medium",
           "provider": "OpenAI",
-          "score": "1416.3"
+          "score": "1419.0"
         },
         {
           "rank": 64,
-          "name": "inkling",
-          "provider": "其他",
-          "score": "1408.4"
+          "name": "gpt-5.2",
+          "provider": "OpenAI",
+          "score": "1416.4"
         },
         {
           "rank": 65,
@@ -2056,93 +2074,93 @@
         },
         {
           "rank": 66,
-          "name": "kimi-k2.5-instant",
-          "provider": "Moonshot AI",
-          "score": "1405.4"
+          "name": "inkling",
+          "provider": "其他",
+          "score": "1407.9"
         },
         {
           "rank": 67,
-          "name": "Inkling Small",
-          "provider": "Thinking Machines",
-          "score": "1402.8"
+          "name": "kimi-k2.5-instant",
+          "provider": "Moonshot AI",
+          "score": "1405.3"
         },
         {
           "rank": 68,
-          "name": "glm-5v-turbo",
-          "provider": "Z.ai",
-          "score": "1399.9"
+          "name": "Inkling Small",
+          "provider": "Thinking Machines",
+          "score": "1402.9"
         },
         {
           "rank": 69,
-          "name": "minimax-m2.7",
-          "provider": "MiniMax",
-          "score": "1398.8"
+          "name": "glm-5v-turbo",
+          "provider": "Z.ai",
+          "score": "1400.1"
         },
         {
           "rank": 70,
+          "name": "minimax-m2.7",
+          "provider": "MiniMax",
+          "score": "1398.7"
+        },
+        {
+          "rank": 71,
           "name": "qwen3.5-397b-a17b",
           "provider": "Alibaba",
           "score": "1398.2"
         },
         {
-          "rank": 71,
+          "rank": 72,
           "name": "gpt-5.4-mini-high",
           "provider": "OpenAI",
-          "score": "1397.1"
-        },
-        {
-          "rank": 72,
-          "name": "claude-sonnet-4-5-20250929-high-32k",
-          "provider": "Anthropic",
-          "score": "1392.5"
+          "score": "1397.2"
         },
         {
           "rank": 73,
+          "name": "claude-sonnet-4-5-20250929-high-32k",
+          "provider": "Anthropic",
+          "score": "1392.6"
+        },
+        {
+          "rank": 74,
           "name": "gpt-5.1-medium",
           "provider": "OpenAI",
           "score": "1391.3"
         },
         {
-          "rank": 74,
+          "rank": 75,
           "name": "claude-opus-4-1-20250805",
           "provider": "Anthropic",
-          "score": "1388.7"
-        },
-        {
-          "rank": 75,
-          "name": "gpt-5.4",
-          "provider": "OpenAI",
-          "score": "1388.1"
+          "score": "1389.1"
         },
         {
           "rank": 76,
-          "name": "minimax-m2.1-preview",
-          "provider": "MiniMax",
-          "score": "1387.0"
+          "name": "gpt-5.4",
+          "provider": "OpenAI",
+          "score": "1388.9"
         },
         {
           "rank": 77,
-          "name": "claude-sonnet-4-5-20250929",
-          "provider": "Anthropic",
-          "score": "1385.5"
+          "name": "minimax-m2.1-preview",
+          "provider": "MiniMax",
+          "score": "1387.3"
         },
         {
           "rank": 78,
-          "name": "minimax-m2.5",
-          "provider": "MiniMax",
-          "score": "1384.0"
+          "name": "claude-sonnet-4-5-20250929",
+          "provider": "Anthropic",
+          "score": "1385.6"
         },
         {
           "rank": 79,
-          "name": "gemini-3-flash (thinking-minimal)",
-          "provider": "Google",
-          "score": "1383.0"
+          "name": "minimax-m2.5",
+          "provider": "MiniMax",
+          "score": "1384.1"
         },
         {
           "rank": 80,
-          "name": "grok-4.20-beta-0309-reasoning",
-          "provider": "xAI",
-          "score": "1373.6"
+          "name": "gemini-3-flash (thinking-minimal)",
+          "provider": "Google",
+          "score": "1383.0"
         }
       ]
     },
@@ -2152,174 +2170,180 @@
       "short_name": "APEX-Agents",
       "operator": "Mercor",
       "note": "衡量投行、咨询和法律长任务；配置明细保留，但成绩归到基础模型。",
-      "fetched_at": "2026-09-01T23:35:03.350Z",
+      "fetched_at": "2026-09-05T22:34:16.214Z",
       "metric_name": "APEX-Agents Mean Score · Loop",
-      "total_count": 28,
+      "total_count": 29,
       "models": [
         {
           "rank": 1,
+          "name": "gpt-6-astra",
+          "provider": "OpenAI",
+          "score": "62.4"
+        },
+        {
+          "rank": 2,
           "name": "claude-fable-5.1",
           "provider": "Anthropic",
           "score": "62"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "claude-opus-5",
           "provider": "Anthropic",
           "score": "60.6"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "claude-fable-5.1-high",
           "provider": "Anthropic",
           "score": "60"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "claude-fable-5",
           "provider": "Anthropic",
           "score": "59.2"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "muse-spark-1-1",
           "provider": "Meta",
           "score": "58.1"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "grok-4-6",
           "provider": "xAI",
           "score": "57.5"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "gpt-5-6-sol-max",
           "provider": "OpenAI",
           "score": "56.7"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "gpt-5-6-sol-max-pro",
           "provider": "OpenAI",
           "score": "56.4"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "claude-opus-4-8",
           "provider": "Anthropic",
           "score": "56.2"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "name": "gpt-5.5-xhigh",
           "provider": "OpenAI",
           "score": "55.5"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "name": "kimi-k3",
           "provider": "Moonshot AI",
           "score": "55.4"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "name": "gpt-5-6-sol-xhigh",
           "provider": "OpenAI",
           "score": "54.3"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "zai-org/GLM-5.2-FP8",
           "provider": "Z.ai",
           "score": "52.2"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "name": "deepseek-v4-flash",
           "provider": "DeepSeek",
           "score": "51.6"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "name": "responses/gpt-5.4",
           "provider": "OpenAI",
           "score": "51.3"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "name": "claude-opus-4-7",
           "provider": "Anthropic",
           "score": "50.1"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "name": "claude-opus-4-6-high",
           "provider": "Anthropic",
           "score": "48.7"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "name": "gemini-3.1-pro-preview-high",
           "provider": "Google",
           "score": "48.7"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "name": "claude-sonnet-5",
           "provider": "Anthropic",
           "score": "48.5"
         },
         {
-          "rank": 20,
+          "rank": 21,
           "name": "gpt-5.2-xhigh",
           "provider": "OpenAI",
           "score": "47.8"
         },
         {
-          "rank": 21,
+          "rank": 22,
           "name": "grok-4-5",
           "provider": "xAI",
           "score": "47.1"
         },
         {
-          "rank": 22,
+          "rank": 23,
           "name": "gemini-3-pro-preview-high",
           "provider": "Google",
           "score": "46.7"
         },
         {
-          "rank": 23,
+          "rank": 24,
           "name": "gpt-5.3-codex-high",
           "provider": "OpenAI",
           "score": "44.6"
         },
         {
-          "rank": 24,
+          "rank": 25,
           "name": "gpt-5.2-codex-high",
           "provider": "OpenAI",
           "score": "42.5"
         },
         {
-          "rank": 25,
+          "rank": 26,
           "name": "kimi-k2-7-code",
           "provider": "Moonshot AI",
           "score": "41.9"
         },
         {
-          "rank": 26,
+          "rank": 27,
           "name": "iter-39",
           "provider": "Applied Compute",
           "score": "40.1"
         },
         {
-          "rank": 27,
+          "rank": 28,
           "name": "claude-opus-4-5-high",
           "provider": "Anthropic",
           "score": "37.1"
         },
         {
-          "rank": 28,
+          "rank": 29,
           "name": "zai-org/GLM-4.7",
           "provider": "Z.ai",
           "score": "21.2"
@@ -2332,330 +2356,348 @@
       "short_name": "Vals Finance Agent",
       "operator": "Vals AI",
       "note": "",
-      "fetched_at": "2026-09-01T23:35:03.350Z",
+      "fetched_at": "2026-09-05T22:34:16.214Z",
       "metric_name": "Vals Finance Agent",
-      "total_count": 54,
+      "total_count": 57,
       "models": [
         {
           "rank": 1,
+          "name": "google/gemini-3.8-flash",
+          "provider": "Google",
+          "score": "61.4"
+        },
+        {
+          "rank": 2,
           "name": "meta/muse_spark_1_2",
           "provider": "Meta",
           "score": "60.6"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "google/gemini-3.7-flash",
           "provider": "Google",
           "score": "59.0"
         },
         {
-          "rank": 3,
+          "rank": 4,
+          "name": "meta/muse_spark_1_3",
+          "provider": "Meta",
+          "score": "58.9"
+        },
+        {
+          "rank": 5,
           "name": "anthropic/claude-fable-5-1",
           "provider": "Anthropic",
           "score": "58.9"
         },
         {
-          "rank": 4,
+          "rank": 6,
           "name": "anthropic/claude-opus-5",
           "provider": "Anthropic",
           "score": "58.6"
         },
         {
-          "rank": 5,
+          "rank": 7,
           "name": "google/gemini-3.5-flash",
           "provider": "Google",
           "score": "57.9"
         },
         {
-          "rank": 6,
+          "rank": 8,
           "name": "zai/glm-5.3-flash",
           "provider": "Z.ai",
           "score": "57.9"
         },
         {
-          "rank": 7,
+          "rank": 9,
           "name": "meta/muse_spark_1_1",
           "provider": "Meta",
           "score": "57.2"
         },
         {
-          "rank": 8,
+          "rank": 10,
           "name": "anthropic/claude-fable-5",
           "provider": "Anthropic",
           "score": "56.3"
         },
         {
-          "rank": 9,
+          "rank": 11,
           "name": "google/gemini-3.6-flash",
           "provider": "Google",
           "score": "56.3"
         },
         {
-          "rank": 10,
+          "rank": 12,
           "name": "zai/glm-5.3",
           "provider": "Z.ai",
           "score": "55.8"
         },
         {
-          "rank": 11,
+          "rank": 13,
           "name": "openai/gpt-5.6-luna",
           "provider": "OpenAI",
           "score": "55.0"
         },
         {
-          "rank": 12,
+          "rank": 14,
           "name": "openai/gpt-5.6-terra",
           "provider": "OpenAI",
           "score": "54.4"
         },
         {
-          "rank": 13,
+          "rank": 15,
           "name": "kimi/kimi-k3",
           "provider": "Moonshot AI",
           "score": "54.4"
         },
         {
-          "rank": 14,
+          "rank": 16,
           "name": "anthropic/claude-opus-4-8",
           "provider": "Anthropic",
           "score": "53.9"
         },
         {
-          "rank": 15,
+          "rank": 17,
           "name": "anthropic/claude-sonnet-5",
           "provider": "Anthropic",
           "score": "53.9"
         },
         {
-          "rank": 16,
+          "rank": 18,
           "name": "openai/gpt-5.6-sol",
           "provider": "OpenAI",
           "score": "53.8"
         },
         {
-          "rank": 17,
+          "rank": 19,
           "name": "grok/grok-4.6",
           "provider": "xAI",
           "score": "53.7"
         },
         {
-          "rank": 18,
+          "rank": 20,
+          "name": "openai/gpt-6-astra",
+          "provider": "OpenAI",
+          "score": "53.5"
+        },
+        {
+          "rank": 21,
           "name": "openai/gpt-5.5",
           "provider": "OpenAI",
           "score": "51.8"
         },
         {
-          "rank": 19,
+          "rank": 22,
           "name": "anthropic/claude-opus-4-7",
           "provider": "Anthropic",
           "score": "51.5"
         },
         {
-          "rank": 20,
+          "rank": 23,
           "name": "anthropic/claude-sonnet-4-6",
           "provider": "Anthropic",
           "score": "51.0"
         },
         {
-          "rank": 21,
+          "rank": 24,
           "name": "alibaba/qwen3.8-max",
           "provider": "Alibaba",
           "score": "50.6"
         },
         {
-          "rank": 22,
+          "rank": 25,
           "name": "deepseek/deepseek-v4-pro-0813",
           "provider": "DeepSeek",
           "score": "50.4"
         },
         {
-          "rank": 23,
+          "rank": 26,
           "name": "zai/glm-5.2",
           "provider": "Z.ai",
           "score": "49.7"
         },
         {
-          "rank": 24,
+          "rank": 27,
           "name": "deepseek/deepseek-v4-flash-0731",
           "provider": "DeepSeek",
           "score": "49.5"
         },
         {
-          "rank": 25,
+          "rank": 28,
           "name": "alibaba/qwen3.8-27b",
           "provider": "Alibaba",
           "score": "48.6"
         },
         {
-          "rank": 26,
+          "rank": 29,
           "name": "grok/grok-4.5",
           "provider": "xAI",
           "score": "48.3"
         },
         {
-          "rank": 27,
+          "rank": 30,
           "name": "minimax/MiniMax-M3",
           "provider": "MiniMax",
           "score": "48.3"
         },
         {
-          "rank": 28,
+          "rank": 31,
           "name": "alibaba/qwen3.7-max",
           "provider": "Alibaba",
           "score": "47.8"
         },
         {
-          "rank": 29,
+          "rank": 32,
           "name": "google/gemini-3.5-flash-lite",
           "provider": "Google",
           "score": "47.4"
         },
         {
-          "rank": 30,
+          "rank": 33,
           "name": "thinkingmachines/inkling",
           "provider": "其他",
           "score": "46.6"
         },
         {
-          "rank": 31,
+          "rank": 34,
           "name": "openai/gpt-5.4-mini-2026-03-17",
           "provider": "OpenAI",
           "score": "45.4"
         },
         {
-          "rank": 32,
+          "rank": 35,
           "name": "kimi/kimi-k2.6",
           "provider": "Moonshot AI",
           "score": "44.9"
         },
         {
-          "rank": 33,
+          "rank": 36,
           "name": "zai/glm-5.1",
           "provider": "Z.ai",
           "score": "44.8"
         },
         {
-          "rank": 34,
+          "rank": 37,
           "name": "deepseek/deepseek-v4-pro",
           "provider": "DeepSeek",
           "score": "44.1"
         },
         {
-          "rank": 35,
+          "rank": 38,
           "name": "google/gemini-3.1-pro-preview",
           "provider": "Google",
           "score": "43.0"
         },
         {
-          "rank": 36,
+          "rank": 39,
           "name": "google/gemini-3-flash-preview",
           "provider": "Google",
           "score": "42.6"
         },
         {
-          "rank": 37,
+          "rank": 40,
           "name": "xiaomi/mimo-v2.5-pro",
           "provider": "Xiaomi",
           "score": "41.5"
         },
         {
-          "rank": 38,
+          "rank": 41,
           "name": "thinkingmachines/inkling-small",
           "provider": "Thinking Machines",
           "score": "41.3"
         },
         {
-          "rank": 39,
+          "rank": 42,
           "name": "alibaba/qwen3.6-plus",
           "provider": "Alibaba",
           "score": "40.8"
         },
         {
-          "rank": 40,
+          "rank": 43,
           "name": "alibaba/qwen3.7-plus",
           "provider": "Alibaba",
           "score": "38.2"
         },
         {
-          "rank": 41,
+          "rank": 44,
           "name": "openai/gpt-5.4-nano-2026-03-17",
           "provider": "OpenAI",
           "score": "38.2"
         },
         {
-          "rank": 42,
+          "rank": 45,
           "name": "grok/grok-4.3",
           "provider": "xAI",
           "score": "37.7"
         },
         {
-          "rank": 43,
+          "rank": 46,
           "name": "nvidia/nemotron-3-ultra-550b-a55b",
           "provider": "NVIDIA",
           "score": "37.7"
         },
         {
-          "rank": 44,
+          "rank": 47,
           "name": "xiaomi/mimo-v2.5",
           "provider": "Xiaomi",
           "score": "36.7"
         },
         {
-          "rank": 45,
+          "rank": 48,
           "name": "kimi/kimi-k2.5-thinking",
           "provider": "Moonshot AI",
           "score": "35.8"
         },
         {
-          "rank": 46,
+          "rank": 49,
           "name": "mistralai/mistral-medium-3.5",
           "provider": "Mistral AI",
           "score": "32.1"
         },
         {
-          "rank": 47,
+          "rank": 50,
           "name": "anthropic/claude-haiku-4-5-20251001-thinking",
           "provider": "Anthropic",
           "score": "31.0"
         },
         {
-          "rank": 48,
+          "rank": 51,
           "name": "ant/ling-3.0-flash-2607",
           "provider": "Ant",
           "score": "30.3"
         },
         {
-          "rank": 49,
+          "rank": 52,
           "name": "google/gemini-3.1-flash-lite-preview",
           "provider": "Google",
           "score": "30.0"
         },
         {
-          "rank": 50,
+          "rank": 53,
           "name": "grok/grok-4.20-0309-reasoning",
           "provider": "xAI",
           "score": "28.5"
         },
         {
-          "rank": 51,
+          "rank": 54,
           "name": "minimax/MiniMax-M2.7",
           "provider": "MiniMax",
           "score": "27.9"
         },
         {
-          "rank": 52,
+          "rank": 55,
           "name": "poolside/laguna-m.1",
           "provider": "poolside",
           "score": "25.0"
         },
         {
-          "rank": 53,
+          "rank": 56,
           "name": "fireworks/nemotron-lightning-3p5-30b-a3b",
           "provider": "NVIDIA",
           "score": "18.5"
         },
         {
-          "rank": 54,
+          "rank": 57,
           "name": "poolside/laguna-xs.2",
           "provider": "poolside",
           "score": "15.6"
@@ -2668,384 +2710,426 @@
       "short_name": "DeepSWE v1.1",
       "operator": "DataCurve",
       "note": "在统一 mini-swe-agent harness 下比较代码模型；成绩按基础模型归并。",
-      "fetched_at": "2026-09-01T23:35:03.350Z",
+      "fetched_at": "2026-09-05T22:34:16.214Z",
       "metric_name": "DeepSWE v1.1",
-      "total_count": 63,
+      "total_count": 70,
       "models": [
         {
           "rank": 1,
-          "name": "claude-opus-5",
-          "provider": "Anthropic",
-          "score": "0.736"
+          "name": "gpt-6-astra",
+          "provider": "OpenAI",
+          "score": "0.741"
         },
         {
           "rank": 2,
-          "name": "claude-opus-5",
-          "provider": "Anthropic",
-          "score": "0.732"
+          "name": "gemini-3-8-flash",
+          "provider": "Google",
+          "score": "0.738"
         },
         {
           "rank": 3,
           "name": "claude-opus-5",
           "provider": "Anthropic",
-          "score": "0.728"
+          "score": "0.736"
         },
         {
           "rank": 4,
-          "name": "gpt-5-6-sol",
+          "name": "gpt-6-astra",
           "provider": "OpenAI",
-          "score": "0.727"
+          "score": "0.732"
         },
         {
-          "rank": 5,
-          "name": "gpt-5-6-sol",
+          "rank": 4,
+          "name": "gpt-6-astra",
           "provider": "OpenAI",
-          "score": "0.707"
+          "score": "0.732"
         },
         {
           "rank": 6,
-          "name": "claude-fable-5",
+          "name": "claude-opus-5",
           "provider": "Anthropic",
-          "score": "0.699"
+          "score": "0.732"
         },
         {
           "rank": 7,
-          "name": "claude-fable-5",
+          "name": "claude-opus-5",
           "provider": "Anthropic",
-          "score": "0.697"
+          "score": "0.728"
         },
         {
           "rank": 8,
-          "name": "gpt-5-6-terra",
+          "name": "gpt-6-astra",
           "provider": "OpenAI",
-          "score": "0.696"
+          "score": "0.728"
         },
         {
           "rank": 9,
           "name": "gpt-5-6-sol",
           "provider": "OpenAI",
-          "score": "0.694"
+          "score": "0.727"
         },
         {
           "rank": 10,
-          "name": "glm-5-3",
-          "provider": "Z.ai",
-          "score": "0.690"
+          "name": "gemini-3-8-flash",
+          "provider": "Google",
+          "score": "0.710"
         },
         {
           "rank": 11,
-          "name": "claude-opus-5",
-          "provider": "Anthropic",
-          "score": "0.689"
+          "name": "gpt-5-6-sol",
+          "provider": "OpenAI",
+          "score": "0.707"
         },
         {
           "rank": 12,
           "name": "claude-fable-5",
           "provider": "Anthropic",
-          "score": "0.686"
+          "score": "0.699"
         },
         {
           "rank": 13,
+          "name": "claude-fable-5",
+          "provider": "Anthropic",
+          "score": "0.697"
+        },
+        {
+          "rank": 14,
+          "name": "gpt-5-6-terra",
+          "provider": "OpenAI",
+          "score": "0.696"
+        },
+        {
+          "rank": 15,
+          "name": "gpt-5-6-sol",
+          "provider": "OpenAI",
+          "score": "0.694"
+        },
+        {
+          "rank": 16,
+          "name": "glm-5-3",
+          "provider": "Z.ai",
+          "score": "0.690"
+        },
+        {
+          "rank": 17,
+          "name": "claude-opus-5",
+          "provider": "Anthropic",
+          "score": "0.689"
+        },
+        {
+          "rank": 18,
+          "name": "claude-fable-5",
+          "provider": "Anthropic",
+          "score": "0.686"
+        },
+        {
+          "rank": 19,
           "name": "kimi-k3",
           "provider": "Moonshot AI",
           "score": "0.685"
         },
         {
-          "rank": 14,
+          "rank": 20,
           "name": "grok-4-6",
           "provider": "xAI",
           "score": "0.675"
         },
         {
-          "rank": 15,
+          "rank": 21,
           "name": "gpt-5-6-luna",
           "provider": "OpenAI",
           "score": "0.672"
         },
         {
-          "rank": 16,
-          "name": "gpt-5-5",
+          "rank": 22,
+          "name": "gpt-6-astra",
           "provider": "OpenAI",
           "score": "0.670"
-        },
-        {
-          "rank": 17,
-          "name": "grok-4-6",
-          "provider": "xAI",
-          "score": "0.667"
-        },
-        {
-          "rank": 18,
-          "name": "gemini-3-7-flash",
-          "provider": "Google",
-          "score": "0.655"
-        },
-        {
-          "rank": 19,
-          "name": "claude-fable-5",
-          "provider": "Anthropic",
-          "score": "0.654"
-        },
-        {
-          "rank": 20,
-          "name": "gemini-3-7-flash",
-          "provider": "Google",
-          "score": "0.653"
-        },
-        {
-          "rank": 21,
-          "name": "grok-4-6",
-          "provider": "xAI",
-          "score": "0.652"
         },
         {
           "rank": 22,
           "name": "gpt-5-5",
           "provider": "OpenAI",
+          "score": "0.670"
+        },
+        {
+          "rank": 24,
+          "name": "grok-4-6",
+          "provider": "xAI",
+          "score": "0.667"
+        },
+        {
+          "rank": 25,
+          "name": "gemini-3-7-flash",
+          "provider": "Google",
+          "score": "0.655"
+        },
+        {
+          "rank": 26,
+          "name": "claude-fable-5",
+          "provider": "Anthropic",
+          "score": "0.654"
+        },
+        {
+          "rank": 27,
+          "name": "gemini-3-7-flash",
+          "provider": "Google",
+          "score": "0.653"
+        },
+        {
+          "rank": 28,
+          "name": "grok-4-6",
+          "provider": "xAI",
+          "score": "0.652"
+        },
+        {
+          "rank": 29,
+          "name": "gpt-5-5",
+          "provider": "OpenAI",
           "score": "0.644"
         },
         {
-          "rank": 23,
+          "rank": 30,
           "name": "glm-5-3-flash",
           "provider": "Z.ai",
           "score": "0.634"
         },
         {
-          "rank": 24,
+          "rank": 31,
           "name": "deepseek-v4-pro",
           "provider": "DeepSeek",
           "score": "0.628"
         },
         {
-          "rank": 25,
+          "rank": 32,
           "name": "gpt-5-6-sol",
           "provider": "OpenAI",
           "score": "0.611"
         },
         {
-          "rank": 26,
+          "rank": 33,
           "name": "gpt-5-6-terra",
           "provider": "OpenAI",
           "score": "0.602"
         },
         {
-          "rank": 27,
+          "rank": 34,
           "name": "claude-fable-5",
           "provider": "Anthropic",
           "score": "0.596"
         },
         {
-          "rank": 28,
+          "rank": 35,
           "name": "claude-opus-4-8",
           "provider": "Anthropic",
           "score": "0.590"
         },
         {
-          "rank": 29,
+          "rank": 36,
           "name": "claude-opus-5",
           "provider": "Anthropic",
           "score": "0.581"
         },
         {
-          "rank": 30,
+          "rank": 37,
           "name": "qwen3-8-max",
           "provider": "Alibaba",
           "score": "0.575"
         },
         {
-          "rank": 31,
+          "rank": 38,
           "name": "gpt-5-6-luna",
           "provider": "OpenAI",
           "score": "0.569"
         },
         {
-          "rank": 32,
+          "rank": 39,
           "name": "muse-spark-1-2",
           "provider": "Meta",
           "score": "0.549"
         },
         {
-          "rank": 33,
+          "rank": 40,
           "name": "claude-opus-4-8",
           "provider": "Anthropic",
           "score": "0.544"
         },
         {
-          "rank": 34,
+          "rank": 41,
           "name": "gpt-5-5",
           "provider": "OpenAI",
           "score": "0.540"
         },
         {
-          "rank": 35,
+          "rank": 42,
           "name": "claude-sonnet-5",
           "provider": "Anthropic",
           "score": "0.538"
         },
         {
-          "rank": 36,
+          "rank": 43,
           "name": "gpt-5-6-terra",
           "provider": "OpenAI",
           "score": "0.538"
         },
         {
-          "rank": 36,
+          "rank": 43,
           "name": "gemini-3-7-flash",
           "provider": "Google",
           "score": "0.538"
         },
         {
-          "rank": 36,
+          "rank": 43,
           "name": "grok-4-5",
           "provider": "xAI",
           "score": "0.538"
         },
         {
-          "rank": 39,
+          "rank": 46,
           "name": "deepseek-v4-flash",
           "provider": "DeepSeek",
           "score": "0.533"
         },
         {
-          "rank": 39,
+          "rank": 46,
           "name": "muse-spark-1-1",
           "provider": "Meta",
           "score": "0.533"
         },
         {
-          "rank": 41,
+          "rank": 48,
           "name": "claude-opus-4-8",
           "provider": "Anthropic",
           "score": "0.518"
         },
         {
-          "rank": 41,
+          "rank": 48,
           "name": "gpt-5-4",
           "provider": "OpenAI",
           "score": "0.518"
         },
         {
-          "rank": 43,
+          "rank": 50,
           "name": "claude-sonnet-5",
           "provider": "Anthropic",
           "score": "0.497"
         },
         {
-          "rank": 44,
+          "rank": 51,
           "name": "claude-opus-4-8",
           "provider": "Anthropic",
           "score": "0.487"
         },
         {
-          "rank": 45,
+          "rank": 52,
           "name": "claude-sonnet-5",
           "provider": "Anthropic",
           "score": "0.482"
         },
         {
-          "rank": 46,
+          "rank": 53,
           "name": "gemini-3-6-flash",
           "provider": "Google",
           "score": "0.467"
         },
         {
-          "rank": 47,
+          "rank": 54,
           "name": "gpt-5-6-sol",
           "provider": "OpenAI",
           "score": "0.454"
         },
         {
-          "rank": 48,
+          "rank": 55,
           "name": "gpt-5-6-luna",
           "provider": "OpenAI",
           "score": "0.442"
         },
         {
-          "rank": 49,
+          "rank": 56,
           "name": "glm-5-2",
           "provider": "Z.ai",
           "score": "0.438"
         },
         {
-          "rank": 50,
+          "rank": 57,
           "name": "grok-4-6",
           "provider": "xAI",
           "score": "0.416"
         },
         {
-          "rank": 51,
+          "rank": 58,
           "name": "claude-opus-4-8",
           "provider": "Anthropic",
           "score": "0.408"
         },
         {
-          "rank": 52,
+          "rank": 59,
           "name": "claude-sonnet-5",
           "provider": "Anthropic",
           "score": "0.398"
         },
         {
-          "rank": 53,
+          "rank": 60,
           "name": "glm-5-2",
           "provider": "Z.ai",
           "score": "0.363"
         },
         {
-          "rank": 54,
+          "rank": 61,
           "name": "gemini-3-5-flash",
           "provider": "Google",
           "score": "0.361"
         },
         {
-          "rank": 55,
+          "rank": 62,
           "name": "gpt-5-6-terra",
           "provider": "OpenAI",
           "score": "0.351"
         },
         {
-          "rank": 56,
+          "rank": 63,
           "name": "kimi-k2-7-code",
           "provider": "Moonshot AI",
           "score": "0.305"
         },
         {
-          "rank": 57,
+          "rank": 64,
           "name": "claude-sonnet-5",
           "provider": "Anthropic",
           "score": "0.305"
         },
         {
-          "rank": 58,
+          "rank": 65,
           "name": "claude-sonnet-4-6",
           "provider": "Anthropic",
           "score": "0.299"
         },
         {
-          "rank": 59,
+          "rank": 66,
           "name": "gpt-5-5",
           "provider": "OpenAI",
           "score": "0.270"
         },
         {
-          "rank": 60,
+          "rank": 67,
           "name": "gpt-5-6-terra",
           "provider": "OpenAI",
           "score": "0.241"
         },
         {
-          "rank": 61,
+          "rank": 68,
           "name": "gemini-3-1-pro-preview",
           "provider": "Google",
           "score": "0.117"
         },
         {
-          "rank": 62,
+          "rank": 69,
           "name": "gpt-5-6-luna",
           "provider": "OpenAI",
           "score": "0.113"
         },
         {
-          "rank": 63,
+          "rank": 70,
           "name": "gpt-5-6-luna",
           "provider": "OpenAI",
           "score": "0.015"
@@ -3058,7 +3142,7 @@
       "short_name": "TapTap Maker",
       "operator": "TapTap Maker",
       "note": "",
-      "fetched_at": "2026-09-01T23:35:03.350Z",
+      "fetched_at": "2026-09-04T12:00:00.770Z",
       "metric_name": "TapTap Maker Benchmark",
       "total_count": 29,
       "models": [
