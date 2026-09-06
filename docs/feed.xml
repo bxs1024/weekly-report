@@ -1,45 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-09-05</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-09-06</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-09-06T01:58:27Z</updated>
+  <updated>2026-09-06T06:09:51Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Moonshot AI申请港股IPO，拟募$5B</title>
-    <link href="https://www.techinasia.com/news/moonshot-ai-files-5b-hong-kong-ipo-2"/>
-    <id>tag:weekly-report,2026:event-c7752b33</id>
-    <published>2026-09-05T00:00:00Z</published>
-    <updated>2026-09-05T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Moonshot AI files for up to $5b Hong Kong IPO&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国AI公司月之暗面（Moonshot AI）提交香港IPO申请，拟融资最高50亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国大模型独角兽赴港上市，AI应用商业化加速，为港股科技板块注入新活力，吸引全球资本关注。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>Fluidstack估值达$18B</title>
+    <link href="https://e.vnexpress.net/news/tech/personalities/oxford-dropout-and-two-fluidstack-co-founders-become-billionaires-after-ai-startup-reaches-18b-valuation-5116862.html"/>
+    <id>tag:weekly-report,2026:event-18ab5a08</id>
+    <published>2026-09-06T00:00:00Z</published>
+    <updated>2026-09-06T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Oxford dropout and two Fluidstack co-founders become billionaires after AI startup reaches $18B valuation&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI初创公司Fluidstack估值达到180亿美元，其创始人和一位牛津辍学者因此成为亿万富翁。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI基础设施公司估值飙升，为GPU云服务和AI算力提供商带来市场关注&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：越南 | 来源：VnExpress Tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>TCS投资$7.4B建1GW AI园区</title>
-    <link href="https://thenextweb.com/news/tcs-hypervault-one-gigawatt-hyderabad-campus-7-4-billion-water-neutral-claim-eu-data-centre-reporting-delegated-regulation-2024-1364"/>
-    <id>tag:weekly-report,2026:event-fbf9a0a2</id>
-    <published>2026-09-05T00:00:00Z</published>
-    <updated>2026-09-05T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;TCS commits $7.4B to a one-gigawatt AI campus in Hyderabad&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度IT巨头TCS宣布投资74亿美元，在海德拉巴建设一座1吉瓦的AI数据中心园区。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度IT巨头重金布局AI基础设施，1GW级数据中心将带动当地电力、冷却及网络设备需求，为供应链伙伴提供长期订单。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>中国家庭烹饪机器人公司5个月融资160亿日元，小米参投</title>
+    <link href="https://36kr.jp/500934/"/>
+    <id>tag:weekly-report,2026:event-2a7eba75</id>
+    <published>2026-09-06T00:00:00Z</published>
+    <updated>2026-09-06T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;創業5カ月で160億円調達　「麻婆豆腐を作る」中国家庭用ロボット、シャオミも出資&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国一家开发家庭烹饪机器人的初创公司成立仅5个月即完成160亿日元（约合1.07亿美元）融资，小米参与投资。该机器人主打麻婆豆腐等中式菜肴的自动化烹饪。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国家庭机器人赛道获小米等巨头加持，家庭自动化与AI结合场景受资本追捧，相关供应链和传感器厂商迎来机会&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Astra模型推理不透明引发争议</title>
-    <link href="https://thenextweb.com/news/astra-chain-of-thought-monitorability-debate-greenblatt-pachocki-2025-position-paper-gpai-code-model-report-ai-office"/>
-    <id>tag:weekly-report,2026:event-6acbab5f</id>
-    <published>2026-09-05T00:00:00Z</published>
-    <updated>2026-09-05T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Astra appears to think without showing its work, and the people arguing about it co-wrote the warning&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Astra的AI模型在推理时隐藏思考过程，引发关于可监控性的争议，相关专家联合发布警告。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI模型可解释性争议升级，监管压力增大，推动可监控AI技术需求，为审计与合规工具创造市场。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>美光计划HBM产量翻倍</title>
-    <link href="https://www.techinasia.com/news/micron-plans-double-hbm-output-ai-demand-grows"/>
-    <id>tag:weekly-report,2026:event-09b8ff4d</id>
-    <published>2026-09-05T00:00:00Z</published>
-    <updated>2026-09-05T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Micron plans to double HBM output as AI demand grows&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美光科技计划将高带宽内存（HBM）产量翻倍，以应对AI芯片带来的需求增长。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球存储巨头扩产HBM，AI芯片对高带宽内存需求旺盛，供应链上游材料与设备商将受益。&lt;/p&gt;&lt;p&gt;标签：供应链变化 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>富士康预计Q3业绩超预期，AI需求强劲</title>
+    <link href="https://www.techinasia.com/news/foxconn-expects-q3-beat-forecasts-ai-demand"/>
+    <id>tag:weekly-report,2026:event-9a1955d7</id>
+    <published>2026-09-06T00:00:00Z</published>
+    <updated>2026-09-06T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Foxconn expects Q3 to beat forecasts on AI demand&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;富士康预计第三季度业绩将超出预期，主要受AI服务器需求强劲推动。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太电子代工龙头受益于AI服务器需求，产业链上游芯片、散热、电源等供应商将获订单增量。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-09-06</title>
