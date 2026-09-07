@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-09-07T04:18:40.491967+08:00",
+  "observed_at": "2026-09-07T13:38:51.536825+08:00",
   "source_count": 3,
   "raw_count": 67,
   "source_stats": {
@@ -8,16 +8,21 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 1,
+      "count": 16,
       "inventory_count": 20,
-      "signal_count": 0,
-      "added_count": 1,
-      "removed_count": 0,
+      "signal_count": 1,
+      "added_count": 8,
+      "removed_count": 8,
       "clusters": {
-        "ai": 1,
-        "engineering": 1
+        "engineering": 2,
+        "operations": 1,
+        "sales": 1
       },
-      "removed_clusters": {}
+      "removed_clusters": {
+        "sales": 1,
+        "partnerships": 1,
+        "operations": 1
+      }
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
@@ -46,6 +51,136 @@
       "removed_clusters": {}
     }
   },
-  "candidate_signals": [],
-  "promoted_count": 0
+  "candidate_signals": [
+    {
+      "candidate_id": "jobs-3e1bdecec58520e7",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W37",
+      "window_start": "2026-09-07",
+      "window_end": "2026-09-07",
+      "detected_at": "2026-09-07T13:38:51.536825+08:00",
+      "baseline_count": 20,
+      "current_count": 20,
+      "added_count": 8,
+      "removed_count": 8,
+      "clusters": {
+        "engineering": 2,
+        "operations": 1,
+        "sales": 1
+      },
+      "removed_clusters": {
+        "sales": 1,
+        "partnerships": 1,
+        "operations": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000147833469",
+          "title": "Assistant Manager - City Marketing Execution",
+          "url": "https://www.grab.careers/en/jobs/744000147833469/assistant-manager-city-marketing-execution/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000147830604",
+          "title": "Ads Commercial Operation, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000147830604/ads-commercial-operation-associate/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000147831203",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000147831203/lead-software-engineer-backend/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000147831519",
+          "title": "Engineering Manager II, Business Applications",
+          "url": "https://www.grab.careers/en/jobs/744000147831519/engineering-manager-ii-business-applications/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000147830179",
+          "title": "Manager, Country Vendor Management",
+          "url": "https://www.grab.careers/en/jobs/744000147830179/manager-country-vendor-management/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000147829840",
+          "title": "Grab Customer Experience Professional",
+          "url": "https://www.grab.careers/en/jobs/744000147829840/grab-customer-experience-professional/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000147782597",
+          "title": "Lead Data Scientist, People Science",
+          "url": "https://www.grab.careers/en/jobs/744000147782597/lead-data-scientist-people-science/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000147731850",
+          "title": "Manager, User Growth and Seller Programme",
+          "url": "https://www.grab.careers/en/jobs/744000147731850/manager-user-growth-and-seller-programme/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000147417909",
+          "title": "Intern, Growth and Marketing (Autonomous Vehicles)",
+          "url": "https://www.grab.careers/en/jobs/744000147417909/intern-growth-and-marketing-autonomous-vehicles/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000147417759",
+          "title": "Intern, OmniCommerce",
+          "url": "https://www.grab.careers/en/jobs/744000147417759/intern-omnicommerce/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000147417629",
+          "title": "Intern, Fleet Systems Analyst",
+          "url": "https://www.grab.careers/en/jobs/744000147417629/intern-fleet-systems-analyst/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000147417509",
+          "title": "Intern, Analytics & Projects, GrabMart",
+          "url": "https://www.grab.careers/en/jobs/744000147417509/intern-analytics-projects-grabmart/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000147417349",
+          "title": "Intern, Marketing and Partnership (GrabRentals)",
+          "url": "https://www.grab.careers/en/jobs/744000147417349/intern-marketing-and-partnership-grabrentals/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000147417259",
+          "title": "Manager II, IT Operations & Automation",
+          "url": "https://www.grab.careers/en/jobs/744000147417259/manager-ii-it-operations-automation/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000147417199",
+          "title": "Intern, Analytics & Projects, GrabFood",
+          "url": "https://www.grab.careers/en/jobs/744000147417199/intern-analytics-projects-grabfood/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000147417089",
+          "title": "Intern, Strategy & Insights",
+          "url": "https://www.grab.careers/en/jobs/744000147417089/intern-strategy-insights/",
+          "change": "removed"
+        }
+      ],
+      "status": "qualified",
+      "rejection_reason": "",
+      "promoted_event_id": ""
+    }
+  ],
+  "promoted_count": 1
 }

@@ -194,29 +194,29 @@
       "generated_at": "2026-08-28 20:34"
     },
     "weekly:2026-W27": {
-      "input_hash": "7b10310d0e78bd101a995f9bb1bb701840b76de7dd0c99d1acf8efd20117765d",
+      "input_hash": "987aae0fe87adb4ba431b90efc559167b4e5259d880f44e70247da0d3fd95ab9",
       "editorial": {
-        "editorial_title": "AI资本重构云生态，支付巨头跨界并购",
-        "mainline": "本周，AI基础设施领域资本与商业模式双线剧变：AWS设立10亿美元工程部门，Nvidia推出云收入分成，MGX募资490亿美元，显示AI云竞争从技术转向资本绑定。同时，Grab收购Stash Financial，标志超级应用向财富管理渗透，金融科技边界再度拓宽。",
+        "editorial_title": "AI资本洪流重塑全球云与支付版图",
+        "mainline": "本周，AWS、Nvidia与中东主权资本同步加码AI基础设施，云服务商与芯片巨头竞相锁定算力收益。同时，Grab收购Stash切入财富管理，超级应用金融版图再扩张。AI投资正从模型层向云与支付等垂直场景渗透，生态位争夺加速。",
         "themes": {
-          "ai_infra": "AWS以10亿美元成立AI工程部门，直接加码垂直行业解决方案；Nvidia不再只卖芯片，转而与云商共享收入，将自身利益与客户增长深度绑定。MGX的490亿美元基金则为这场军备竞赛注入主权资本，AI云市场正从技术比拼转向资本与生态的全面对抗。",
-          "payments": "Grab完成对Stash Financial的收购，将投资平台嵌入其出行与支付生态，东南亚用户可直接在超级应用内进行美股投资。Root从隐身模式推出，瞄准企业即时支付，与AXON的跨境支付基础设施投资共同指向支付价值链向B2B和跨境场景延伸。",
-          "developer": "Stabyl获270万美元Pre-Seed，专注非洲外汇流动性，暴露了跨境交易中货币兑换的痛点。Templewater另类资产平台与新加坡健康科技IPO则显示资本正流向基础设施类项目，开发者工具和API对接需求随之上升。",
-          "expansion": "StockX从球鞋扩展到二手及复古商品，验证了转售市场的品类外溢。Shopify更新巴西CNPJ验证支持字母数字，为本地商户合规铺路，显示平台正通过技术适配新兴市场的监管变化，而非仅靠营销扩张。",
-          "operations": "Pikmin Bloom在台湾用户支出暴涨902%，叠加微信小游戏爆发，表明轻量化和社交化游戏正成为新的收入引擎。Prosus营收同比增57%，PayU印度实现EBITDA盈利，显示成熟业务在区域市场开始兑现利润。",
-          "commerce": "Nua寻求2500万美元融资，The Indus Valley获1700万美元，印度电商物流和D2C品牌仍在吸金。但Eternal、Meesho等独角兽联合挑战卡纳塔克邦零工经济法，预示用工合规将成为印度电商扩张的隐形门槛。"
+          "ai_infra": "AWS设立10亿美元AI工程部门，Nvidia推出云收入分成模式，直接改变AI算力的商业分配逻辑。阿联酋MGX筹集490亿美元基金，主权资本大举注入，AI基础设施的军备竞赛已从技术竞争升级为资本与生态的双重博弈。",
+          "payments": "Grab完成对美国投资平台Stash的收购，将财富管理能力嵌入东南亚出行与支付生态。Root等即时企业支付平台从隐身模式推出，跨境支付基础设施获早期投资，支付赛道正从交易处理向综合金融服务延伸。",
+          "developer": "Stabyl获270万美元Pre-Seed融资，专注非洲外汇流动性基础设施，为跨境支付与金融科技提供底层支持。新加坡健康科技公司获9100万美元基石投资拟IPO，亚洲科技资产在资本市场的吸引力持续升温。",
+          "expansion": "StockX扩展二手及复古商品交易，验证二手电商的全球增长趋势。Shopify更新巴西CNPJ验证规则，支持字母数字标识符，为商户在巴西市场的合规运营扫清障碍，区域化适配成为平台扩张的关键动作。",
+          "operations": "Pikmin Bloom营收创纪录，台湾市场用户支出同比激增902%，显示轻量化社交游戏在特定区域的爆发力。Prosus FY26营收同比增长57%，PayU印度实现EBITDA盈利，成熟市场与新兴市场的运营分化加剧。",
+          "commerce": "电商物流公司Nua寻求2500万美元融资，印度D2C厨具品牌The Indus Valley获1700万美元融资，资本持续押注印度电商供应链。Eternal、Meesho等独角兽挑战卡纳塔克邦零工经济法，平台用工模式面临监管博弈。"
         },
         "theme_titles": {
-          "ai_infra": "AI云资本战升级，Nvidia推收入分成绑定伙伴",
-          "payments": "Grab收购Stash，超级应用跨界财富管理",
-          "developer": "非洲外汇基建获种子融资，开发者生态现缺口",
-          "expansion": "StockX进军二手服饰，Shopify适配巴西税改",
-          "operations": "Pikmin Bloom台湾营收激增902%，轻量游戏成增长极",
-          "commerce": "印度电商物流融资活跃，零工经济法成合规变量"
+          "ai_infra": "AWS与Nvidia竞逐AI云收益，中东资本490亿入局",
+          "payments": "Grab收购Stash，超级应用金融版图再扩张",
+          "developer": "非洲外汇流动性基建获270万美元种子轮，开发者生态向东移",
+          "expansion": "StockX拓展二手交易，Shopify巴西CNPJ规则更新",
+          "operations": "Pikmin Bloom营收创新高，台湾用户支出激增902%",
+          "commerce": "印度电商物流融资活跃，零工经济法引发独角兽反弹"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-08-28 20:34"
+      "generated_at": "2026-09-07 14:02"
     },
     "weekly:2026-W28": {
       "input_hash": "ea435ec16e5dc31cc93ccd5adecbfd6d789906bea2a64c6fc834beb1be7410b0",
@@ -571,81 +571,77 @@
       "generated_at": "2026-09-06 04:29"
     },
     "monthly:2026-06": {
-      "input_hash": "3998efb50fd6e41fe213feb33bd6c550c26923a2a828a01c64da0ee39b6b6567",
+      "input_hash": "77ad10a14225c0d47dfff2bfe18ce5edea51cfd0ee9d77a11608ea48fe082ea0",
       "editorial": {
         "editorial_title": "AI资本开支重塑全球科技版图",
-        "mainline": "本月AI基础设施投资持续高位，字节跳动寻求200亿美元离岸贷款，Cloudflare、Roblox等平台动作频繁，显示AI军备竞赛从云厂商向应用层蔓延。同时，开发者与平台生态在亚太显著升温，事实数较上月激增近三倍，加密交易平台与游戏公司动态密集，指向AI与Web3融合加速。支付与金融科技领域，Airwallex、Clip等获大额融资并扩张AI能力，区域扩张与电商物流亦获资本加持，但经营组织类变化降温，市场更重增长而非内部调整。",
+        "mainline": "本月全球科技投资主线从消费端转向基础设施与AI能力建设。字节跳动寻求200亿美元离岸贷款、Airwallex完成3.2亿美元融资用于AI扩张、波兰电商Allegro获2.75亿欧元贷款投入AI研发，均显示大型平台与垂直领域玩家正将资本集中投向AI基础设施。与此同时，开发者生态与电商物流领域活跃度显著升温，而传统经营与组织类变化降温，表明市场更关注技术驱动的增长而非内部调整。",
         "themes": {
           "ai_infra": {
-            "narrative": "字节跳动寻求200亿美元离岸贷款用于AI扩张，Cloudflare发布产品更新，Roblox收购AI团队，显示AI基础设施投资从云厂商向应用层蔓延，资本开支规模空前。",
+            "narrative": "本月AI与云基础设施领域延续高活跃度，字节跳动寻求200亿美元离岸贷款用于AI扩张，Cloudflare计划更新WAF规则，Roblox收购AI公司Morpheus，显示头部企业正加大AI底层投入。",
             "drivers": [
-              "字节跳动200亿美元离岸贷款需求",
-              "Cloudflare产品更新",
-              "Roblox收购Morpheus AI"
+              "字节跳动寻求200亿美元离岸贷款用于AI扩张",
+              "Cloudflare计划2026年9月更新WAF规则",
+              "Roblox收购Morpheus AI并引入创始人"
             ],
-            "uncertainty": "字节贷款是否获批及具体用途未明，云厂商资本开支是否持续高增需观察。",
-            "next_validation": "下月关注字节贷款落地情况，以及Cloudflare、Roblox的AI产品是否带来收入增长。"
+            "uncertainty": "字节跳动贷款是否获批及具体投向尚未披露，可能受监管影响。",
+            "next_validation": "关注字节跳动贷款落地及AI基础设施支出是否持续增长。"
           },
           "developer": {
-            "narrative": "本月开发者与平台生态事实数较上月激增近三倍，主要受加密资产交易平台上线（如Re在币安上市）、高收益加密自营公司排名发布，以及游戏公司Square Enix估值数据驱动，显示亚太开发者对Web3和游戏变现兴趣浓厚。",
+            "narrative": "开发者与平台生态本月显著升温，事实数较基线增长近3倍。高收益加密自营交易公司排名发布、Re在币安上线现货交易，以及Square Enix数据发布，显示加密与游戏领域开发者活动密集。",
             "drivers": [
-              "Re (RE) 在币安上线现货交易",
               "2026年高收益加密自营交易公司排名发布",
+              "Re (RE) 在币安上线现货交易",
               "Square Enix前瞻市盈率数据发布"
             ],
-            "uncertainty": "加密市场波动性大，监管政策可能影响生态持续性。",
-            "next_validation": "下月观察币安是否上线更多项目，以及Square Enix是否推出区块链相关产品。"
+            "uncertainty": "部分事件如Rapido投资者出售股份可能反映短期套现而非生态长期升温。",
+            "next_validation": "观察下月加密交易平台上线数量及开发者工具融资是否持续。"
           },
           "payments": {
-            "narrative": "Airwallex完成3.2亿美元H轮融资，估值110亿美元，将用于AI扩张；墨西哥Clip获5亿美元融资并推数字钱包，Meta拟投资印度CRED，显示支付平台正通过AI和区域扩张巩固市场。",
+            "narrative": "支付与金融科技领域延续热度，Airwallex完成3.2亿美元H轮融资估值达110亿美元，用于AI扩张；墨西哥Clip获5亿美元融资推出数字钱包，Meta拟投资印度CRED，显示新兴市场支付竞争加剧。",
             "drivers": [
-              "Airwallex融资3.2亿美元用于AI扩张",
-              "Clip获5亿美元融资并推出数字钱包",
-              "Meta拟投资CRED估值40亿美元"
+              "Airwallex完成3.2亿美元H轮融资，估值110亿美元，用于AI扩张",
+              "墨西哥Clip获5亿美元融资并推出数字钱包",
+              "Meta拟投资CRED，估值$4B"
             ],
-            "uncertainty": "Meta投资CRED尚未最终确认，拉美和印度市场竞争激烈。",
-            "next_validation": "下月关注Airwallex AI产品落地，以及Clip数字钱包用户增长。"
+            "uncertainty": "Meta对CRED的投资尚处于拟议阶段，可能未最终完成。",
+            "next_validation": "确认Airwallex融资后AI产品落地情况，以及Meta投资CRED是否官宣。"
           },
           "expansion": {
-            "narrative": "NTT全球数据中心寻求10亿美元用于美国扩张，Google与Walmart合作更新房地产列表，Bed Bath & Beyond持续收购，显示区域扩张仍以美国市场为核心，但交易规模分化。",
+            "narrative": "区域扩张与合作延续，NTT全球数据中心寻求10亿美元用于美国扩张，Google与Walmart Connect合作更新房地产列表，Griffin Gaming Partners收购TinyBuild股份，显示基础设施与零售领域跨国布局持续。",
             "drivers": [
-              "NTT数据中心寻求10亿美元美国扩张",
-              "Google与Walmart Connect合作",
-              "Bed Bath & Beyond持续收购"
+              "NTT全球数据中心寻求$1B用于美国扩张",
+              "Google与Walmart Connect合作并更新房地产列表",
+              "Griffin Gaming Partners收购TinyBuild 3.24%股份"
             ],
-            "uncertainty": "NTT融资能否成功及美国数据中心需求是否持续。",
-            "next_validation": "下月观察NTT融资进展，以及Google-Walmart合作是否扩大。"
+            "uncertainty": "Bed Bath & Beyond持续收购扩张可能属于个案，不代表整体趋势。",
+            "next_validation": "关注NTT数据中心融资进展及Google-Walmart合作的实际业务落地。"
           },
           "commerce": {
-            "narrative": "波兰电商Allegro获欧洲投资银行2.75亿欧元贷款用于AI研发，CargoX获2.5亿美元融资扩张无人驾驶物流，显示欧洲电商和物流正通过AI和自动化提升效率。",
+            "narrative": "欧洲电商物流升温，波兰电商Allegro获欧洲投资银行2.75亿美元贷款用于AI研发，CargoX获2.5亿美元融资推进无人驾驶物流，显示欧洲电商正通过AI和自动化提升效率。",
             "drivers": [
-              "Allegro获2.75亿欧元贷款用于AI研发",
-              "CargoX获2.5亿美元融资用于无人驾驶物流扩张"
+              "波兰电商Allegro获欧洲投资银行2.75亿美元贷款用于AI研发",
+              "CargoX获$250M融资，用于无人驾驶物流扩张"
             ],
-            "uncertainty": "Allegro贷款用途具体细节未披露，欧洲电商竞争激烈。",
-            "next_validation": "下月关注Allegro AI产品发布，以及CargoX无人驾驶物流商业化进展。"
+            "uncertainty": "GameStop放弃CEO薪酬方案聚焦收购eBay，可能分散电商主业精力。",
+            "next_validation": "验证Allegro的AI研发投入是否转化为实际业务增长。"
           },
           "operations": {
-            "narrative": "Fika Jobs获400万美元融资推AI视频面试，Orbio获2100万美元融资自动化招聘，但整体经营组织类事实数较上月下降，显示企业更聚焦AI工具应用而非内部重组。",
+            "narrative": "经营与组织变化降温，但AI招聘领域逆势活跃：Fika Jobs获400万美元推AI视频面试，Orbio获2100万美元自动化招聘入职，StashAway营收增长44%，显示AI正渗透HR科技。",
             "drivers": [
-              "Fika Jobs获400万美元融资推AI视频面试",
-              "Orbio获2100万美元融资自动化招聘"
+              "Fika Jobs获$4M融资，推AI视频面试平台",
+              "Orbio获$21M融资，自动化一线员工招聘与入职",
+              "StashAway 2024营收增长44%，资管费收入提升"
             ],
-            "uncertainty": "AI招聘工具市场接受度未知，组织变化降温可能为短期波动。",
-            "next_validation": "下月观察AI招聘工具客户增长，以及经营组织类事实数是否回升。"
+            "uncertainty": "整体降温可能反映企业减少组织调整，但AI招聘融资是否持续待观察。",
+            "next_validation": "关注下月HR科技领域融资数量及AI招聘产品用户增长。"
           }
         },
         "theme_titles": {
-          "ai_infra": "字节跳动200亿美元贷款推动AI扩张，云平台竞争白热化",
-          "developer": "亚太开发者生态升温：加密交易与游戏公司动作密集",
-          "payments": "Airwallex估值110亿美元融资，支付平台AI化加速",
-          "expansion": "NTT数据中心募资10亿美元，美国扩张成焦点",
-          "commerce": "Allegro获2.75亿欧元贷款，欧洲电商AI竞赛升温",
-          "operations": "AI招聘工具获融资，但经营组织变化降温"
+          "ai_infra": "字节跳动200亿美元贷款领衔AI基础设施投资潮"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-06 04:30"
+      "generated_at": "2026-09-07 14:03"
     },
     "monthly:2026-05": {
       "input_hash": "6e77641923a610f8e05c652fd5e61d2a5e7a4d6e7548458114f047708b3ea1f0",
@@ -723,29 +719,48 @@
       "generated_at": "2026-09-06 04:30"
     },
     "weekly:2026-W36": {
-      "input_hash": "e08d67cc6af53a14980d3bdadc653de2961ec4d0764275f9934341615b191004",
+      "input_hash": "90c1e0c83100ff3be794b5a47aaadaf5cea45de94f0e3296748353ee0c6a3b74",
       "editorial": {
-        "editorial_title": "巨头合纵连横，AI与支付双线重塑全球市场",
-        "mainline": "韩国三大电信商联手推AI，OpenAI斥资十亿护基建，AI从云端走向关键行业。支付侧，蚂蚁获巴西牌照，卫星直连手机落地，新兴市场支付与连接正被重新定义。巨头正以合纵连横方式抢占下一轮增长点。",
+        "editorial_title": "云网融合与支付牌照争夺战",
+        "mainline": "本周，电信运营商加速将云化网络与卫星直连结合，重塑基础设施版图；同时，支付牌照在巴西、泰国等地收紧，蚂蚁国际等巨头抢滩，合规成本与本地化能力成为出海分水岭。",
         "themes": {
-          "ai_infra": "SKT、Kakao与KT罕见联合，将分散的AI能力整合为统一服务层，直接挑战Naver与OpenAI的本地合作。OpenAI同期向关键基础设施投入10亿美元，显示AI竞争正从模型层下沉到能源、网络等实体底座，行业门槛被快速抬高。",
-          "expansion": "乐天与AST的卫星直连服务，将日本偏远地区纳入移动覆盖，迫使传统运营商重估网络投资。TikTok Shop日本一周年复盘，显示内容电商在成熟市场已跑通模型。CJ ONE与Naver Pay打通，则让本地生活会员体系开始跨平台流动。",
-          "payments": "蚂蚁国际拿下巴西支付牌照，直接进入拉美最大市场，与本地收单机构正面竞争。WhatsApp在印度上线账单支付，将社交入口转化为金融入口。Kakao与CJ则通过会员权益联动，把支付绑定到高频生活场景，支付战争已从交易环节延伸到账单与权益层。",
-          "compliance": "泰国对BNPL实施牌照管理，意味着先买后付从灰色地带走向持牌经营，合规成本将淘汰中小玩家。新加坡同步推进稳定币专门监管，为合规机构划定清晰跑道。扎克伯格与特朗普的AI审查通话，则暴露美国AI政策正被巨头私下协商左右。",
-          "commerce": "Jumia以20天品牌节吸引国际品牌入驻，标志非洲电商从低价白牌转向品牌溢价。Sea Limited上半年物流支出扩大，显示东南亚电商正重仓履约网络。eBay推出捆绑折扣，则是成熟市场对客单价的精细化运营。",
-          "developer": "Square Enix将FF系列经典旋律做成迷你电视玩具，把游戏IP从软件延伸到实体周边，瞄准怀旧玩家的情感消费。W4 Games获1800万美元投资，显示开源游戏引擎的商业化潜力被资本认可，开发者工具链正成为新的投资焦点。"
+          "ai_infra": "乐天 Symphony 将 Cloud RAN 带入沙特，标志开放云化网络在中东落地。SKT、Kakao、KT 罕见联手推进 AI 计划，显示亚太运营商正从竞争转向生态共建，以对抗云厂商的垂直整合压力。",
+          "expansion": "乐天携手 AST 推出卫星直连服务，填补日本地面网络盲区，卫星通信从应急走向商用。CJ ONE 与 Naver Pay 打通会员权益，韩日积分体系开始跨境流动，本地生活生态出现互联互通苗头。",
+          "payments": "蚂蚁国际拿下巴西支付牌照，直接切入拉美最大市场，对本地收单机构构成压力。Kakao 筹备会员服务、WhatsApp 在印度推账单支付，超级应用正将支付与生活场景深度绑定，争夺用户钱包入口。",
+          "compliance": "Luka 发布 AI 绘画投影仪，瞄准儿童市场，但欧盟玩具安全指令与 AI 法案叠加，合规设计成为准入门槛。扎克伯格与特朗普沟通后 AI 审查政策转向自愿化，行业自律能否替代硬性监管仍是未知数。",
+          "commerce": "Jumia 品牌节 2026 启动，20 天独家优惠吸引品牌方入驻，非洲电商进入旺季。Sea Limited 上半年营收增长但物流支出扩大，显示配送网络投入正吞噬利润，本地化履约能力决定平台扩张上限。",
+          "developer": "W4 Games 获 1800 万美元投资，开源引擎 Godot 商业化提速，挑战 Unity 与虚幻的垄断格局。Square Enix 推出 FF 迷你旋律电视玩具，将经典 IP 转化为实体周边，怀旧经济在游戏衍生市场显现潜力。"
         },
         "theme_titles": {
-          "ai_infra": "韩国电信三强联手，AI基建投资转向关键领域",
-          "expansion": "乐天携手AST推开卫星直连，区域扩张进入新维度",
-          "payments": "蚂蚁获巴西牌照，支付竞争从线上打到账单场景",
-          "compliance": "泰国BNPL新规落地，东南亚支付监管进入深水区",
-          "commerce": "Jumia品牌节启动，非洲电商转向品牌化运营",
-          "developer": "Square Enix推怀旧玩具，游戏IP变现走向硬件周边"
+          "ai_infra": "中东电信云化加速，日韩巨头抱团AI",
+          "expansion": "卫星直连手机开闸，日韩会员生态互通",
+          "payments": "蚂蚁获巴西牌照，拉美支付战局升温",
+          "compliance": "AI玩具入欧需过合规关，监管自愿化引忧",
+          "commerce": "非洲电商促销季启动，物流成本成胜负手",
+          "developer": "游戏引擎获资本押注，IP衍生品瞄准怀旧"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-07 04:40"
+      "generated_at": "2026-09-07 14:02"
+    },
+    "weekly:2026-W37": {
+      "input_hash": "a358f9025bd385615b81357e0275347a90053a9b7b951b2b09ebc2ca27fea18f",
+      "editorial": {
+        "editorial_title": "韩国云商切入台湾政企，AI落地转向行业纵深",
+        "mainline": "本周，韩国云服务商Naver Cloud旗下Line Works首次进入台湾公共部门，标志着韩国云厂商在东亚政企市场的实质性突破。与此同时，AI应用在东盟银行业与科大讯飞新模型发布中均指向行业深度落地，而非泛化能力竞赛。云与AI的竞争正从基础设施转向垂直场景与区域渗透。",
+        "themes": {
+          "ai_infra": "Line Works拿下台湾政府机构协同办公云服务，是韩国云厂商在东亚政企市场的一次关键渗透。同期，科大讯飞发布Spark X2.5模型，东盟银行则暴露AI应用的数据、人才与合规瓶颈。云与AI的竞争正从通用能力转向垂直场景与区域合规的深度适配。",
+          "expansion": "Square Enix明确不为《Final Fantasy Resonance》推出DLC，打破其近年依赖扩展内容变现的惯例，转向一次性完整交付以维护口碑。同期Manus与Meta收购传闻终结，独立运营路线得到确认。两家公司都在收缩外部依赖，强化自身内容与产品控制力。",
+          "commerce": "Kakao酝酿七年的整合型会员服务终于上线，将电商、内容订阅与本地生活绑定在同一付费体系内，直接对标Naver的生态打法。紧接着两家在中秋档期同步推出大规模购物促销，韩国电商的流量入口争夺正从单一折扣升级为会员生态的全面对抗。"
+        },
+        "theme_titles": {
+          "ai_infra": "韩国云商切入台湾政企市场，AI落地转向行业纵深",
+          "expansion": "游戏巨头放弃DLC策略，内容生态转向完整交付",
+          "commerce": "韩国巨头整合会员与促销，电商流量入口再洗牌"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-09-07 14:02"
     }
   }
 }
