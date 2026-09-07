@@ -1,11 +1,126 @@
 {
   "version": 1,
-  "generated_at": "2026-09-07T13:38:51.536825+08:00",
+  "generated_at": "2026-09-08T05:26:05.556594+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-07T13:38:51.536825+08:00",
+      "observed_at": "2026-09-08T05:26:05.556594+08:00",
       "jobs": [
+        {
+          "id": "744000147923790",
+          "title": "Assistant Manager, Regional Business Finance (Deliveries Segment)",
+          "url": "https://www.grab.careers/en/jobs/744000147923790/assistant-manager-regional-business-finance-deliveries-segment/",
+          "function_tags": []
+        },
+        {
+          "id": "744000147914720",
+          "title": "Assistant Manager, Regional Business Finance (Mobility Segment)",
+          "url": "https://www.grab.careers/en/jobs/744000147914720/assistant-manager-regional-business-finance-mobility-segment/",
+          "function_tags": []
+        },
+        {
+          "id": "744000147914679",
+          "title": "Head of CX Operations Excellence",
+          "url": "https://www.grab.careers/en/jobs/744000147914679/head-of-cx-operations-excellence/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000147908829",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000147908829/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000147898439",
+          "title": "Intern, Employer Branding and Recruitment Marketing",
+          "url": "https://www.grab.careers/en/jobs/744000147898439/intern-employer-branding-and-recruitment-marketing/",
+          "function_tags": []
+        },
+        {
+          "id": "744000147887616",
+          "title": "Software Engineering Manager II - Transaction Platform",
+          "url": "https://www.grab.careers/en/jobs/744000147887616/software-engineering-manager-ii-transaction-platform/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000147875540",
+          "title": "Software Engineering Manager II",
+          "url": "https://www.grab.careers/en/jobs/744000147875540/software-engineering-manager-ii/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000147861499",
+          "title": "Manager, Controllership (Regional & Insurance)",
+          "url": "https://www.grab.careers/en/jobs/744000147861499/manager-controllership-regional-insurance/",
+          "function_tags": []
+        },
+        {
+          "id": "744000147853847",
+          "title": "Senior Workplace Technology Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000147853847/senior-workplace-technology-engineer/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000147846689",
+          "title": "Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000147846689/software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000147836629",
+          "title": "Senior Merchant Account Manager, F&B",
+          "url": "https://www.grab.careers/en/jobs/744000147836629/senior-merchant-account-manager-fb/",
+          "function_tags": []
+        },
+        {
+          "id": "744000147836609",
+          "title": "Merchant Account Manager (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000147836609/merchant-account-manager-fb/",
+          "function_tags": []
+        },
+        {
+          "id": "744000147836489",
+          "title": "Senior Client Partner (Sales)",
+          "url": "https://www.grab.careers/en/jobs/744000147836489/senior-client-partner-sales/",
+          "function_tags": [
+            "partnerships",
+            "sales"
+          ]
+        },
+        {
+          "id": "744000147836320",
+          "title": "Merchant Sales Executive, GrabMart & GrabPay",
+          "url": "https://www.grab.careers/en/jobs/744000147836320/merchant-sales-executive-grabmart-grabpay/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000147836095",
+          "title": "Merchant Sales Executive (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000147836095/merchant-sales-executive-fb/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000147836369",
+          "title": "Assistant Manager, Merchant Acquisition (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000147836369/assistant-manager-merchant-acquisition-fb/",
+          "function_tags": []
+        },
         {
           "id": "744000147833469",
           "title": "Assistant Manager - City Marketing Execution",
@@ -17,145 +132,12 @@
           "title": "Ads Commercial Operation, Associate",
           "url": "https://www.grab.careers/en/jobs/744000147830604/ads-commercial-operation-associate/",
           "function_tags": []
-        },
-        {
-          "id": "744000147831203",
-          "title": "Lead Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000147831203/lead-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000147831519",
-          "title": "Engineering Manager II, Business Applications",
-          "url": "https://www.grab.careers/en/jobs/744000147831519/engineering-manager-ii-business-applications/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000147830179",
-          "title": "Manager, Country Vendor Management",
-          "url": "https://www.grab.careers/en/jobs/744000147830179/manager-country-vendor-management/",
-          "function_tags": []
-        },
-        {
-          "id": "744000147829840",
-          "title": "Grab Customer Experience Professional",
-          "url": "https://www.grab.careers/en/jobs/744000147829840/grab-customer-experience-professional/",
-          "function_tags": []
-        },
-        {
-          "id": "744000147782597",
-          "title": "Lead Data Scientist, People Science",
-          "url": "https://www.grab.careers/en/jobs/744000147782597/lead-data-scientist-people-science/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000147731850",
-          "title": "Manager, User Growth and Seller Programme",
-          "url": "https://www.grab.careers/en/jobs/744000147731850/manager-user-growth-and-seller-programme/",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "744000147692499",
-          "title": "Senior Principal Engineer, AI Transformation",
-          "url": "https://www.grab.careers/en/jobs/744000147692499/senior-principal-engineer-ai-transformation/",
-          "function_tags": [
-            "ai",
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000147631029",
-          "title": "Lead Product Manager",
-          "url": "https://www.grab.careers/en/jobs/744000147631029/lead-product-manager/",
-          "function_tags": []
-        },
-        {
-          "id": "744000147495489",
-          "title": "Solutions Manager II, Finance Systems",
-          "url": "https://www.grab.careers/en/jobs/744000147495489/solutions-manager-ii-finance-systems/",
-          "function_tags": []
-        },
-        {
-          "id": "744000147430329",
-          "title": "Regional Assistant Marketing Manager – Financial Services",
-          "url": "https://www.grab.careers/en/jobs/744000147430329/regional-assistant-marketing-manager-financial-services/",
-          "function_tags": [
-            "payments"
-          ]
-        },
-        {
-          "id": "744000147427424",
-          "title": "Key Accounts Associate, GFB VN",
-          "url": "https://www.grab.careers/en/jobs/744000147427424/key-accounts-associate-gfb-vn/",
-          "function_tags": []
-        },
-        {
-          "id": "744000147420540",
-          "title": "Intern, Partner Acquisition",
-          "url": "https://www.grab.careers/en/jobs/744000147420540/intern-partner-acquisition/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000147422609",
-          "title": "Senior Software Engineer, Business Applications",
-          "url": "https://www.grab.careers/en/jobs/744000147422609/senior-software-engineer-business-applications/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000147421249",
-          "title": "Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000147421249/software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000147419489",
-          "title": "Intern, Support Operations, Merchants",
-          "url": "https://www.grab.careers/en/jobs/744000147419489/intern-support-operations-merchants/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000147418154",
-          "title": "Intern, Commercial Enablement, Sales Enablement",
-          "url": "https://www.grab.careers/en/jobs/744000147418154/intern-commercial-enablement-sales-enablement/",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "744000147417530",
-          "title": "Intern, Account Management, Retail/FMCG",
-          "url": "https://www.grab.careers/en/jobs/744000147417530/intern-account-management-retailfmcg/",
-          "function_tags": []
-        },
-        {
-          "id": "744000147418061",
-          "title": "Intern, Business Development",
-          "url": "https://www.grab.careers/en/jobs/744000147418061/intern-business-development/",
-          "function_tags": [
-            "sales"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-07T13:38:51.536825+08:00",
+      "observed_at": "2026-09-08T05:26:05.556594+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -268,7 +250,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-07T13:38:51.536825+08:00",
+      "observed_at": "2026-09-08T05:26:05.556594+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
