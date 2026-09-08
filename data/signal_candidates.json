@@ -1,7 +1,79 @@
 {
   "version": 1,
-  "generated_at": "2026-09-08T05:26:05.556594+08:00",
+  "generated_at": "2026-09-08T13:34:39.661946+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-bae90fecb5617ae7",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "operations",
+      "window": "2026-W37",
+      "window_start": "2026-09-08",
+      "window_end": "2026-09-08",
+      "detected_at": "2026-09-08T13:34:39.661946+08:00",
+      "baseline_count": 18,
+      "current_count": 17,
+      "added_count": 3,
+      "removed_count": 4,
+      "clusters": {
+        "operations": 1,
+        "sales": 1
+      },
+      "removed_clusters": {
+        "operations": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000148089497",
+          "title": "Team Lead, Merchant Acquisition (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000148089497/team-lead-merchant-acquisition-fb/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148066898",
+          "title": "Head of CX Operations Excellence",
+          "url": "https://www.grab.careers/en/jobs/744000148066898/head-of-cx-operations-excellence/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148045930",
+          "title": "Merchant Growth Lead",
+          "url": "https://www.grab.careers/en/jobs/744000148045930/merchant-growth-lead/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000147914679",
+          "title": "Head of CX Operations Excellence",
+          "url": "https://www.grab.careers/en/jobs/744000147914679/head-of-cx-operations-excellence/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000147836369",
+          "title": "Assistant Manager, Merchant Acquisition (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000147836369/assistant-manager-merchant-acquisition-fb/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000147833469",
+          "title": "Assistant Manager - City Marketing Execution",
+          "url": "https://www.grab.careers/en/jobs/744000147833469/assistant-manager-city-marketing-execution/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000147830604",
+          "title": "Ads Commercial Operation, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000147830604/ads-commercial-operation-associate/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-3e1bdecec58520e7",
       "entity_id": "grab",
