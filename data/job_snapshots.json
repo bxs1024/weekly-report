@@ -1,11 +1,67 @@
 {
   "version": 1,
-  "generated_at": "2026-09-08T13:34:39.661946+08:00",
+  "generated_at": "2026-09-09T05:02:29.732759+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-08T13:34:39.661946+08:00",
+      "observed_at": "2026-09-09T05:02:29.732759+08:00",
       "jobs": [
+        {
+          "id": "744000148234775",
+          "title": "Software Engineering Manager",
+          "url": "https://www.grab.careers/en/jobs/744000148234775/software-engineering-manager/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000148200349",
+          "title": "Software Engineering Manager II (Mobile)",
+          "url": "https://www.grab.careers/en/jobs/744000148200349/software-engineering-manager-ii-mobile/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000148194054",
+          "title": "Key Accounts Associate, GFB VN",
+          "url": "https://www.grab.careers/en/jobs/744000148194054/key-accounts-associate-gfb-vn/",
+          "function_tags": []
+        },
+        {
+          "id": "744000148149519",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000148149519/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000148147399",
+          "title": "Partnership Strategy Manager",
+          "url": "https://www.grab.careers/en/jobs/744000148147399/partnership-strategy-manager/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
+          "id": "744000148146069",
+          "title": "Assistant Manager, Regional Performance Management",
+          "url": "https://www.grab.careers/en/jobs/744000148146069/assistant-manager-regional-performance-management/",
+          "function_tags": []
+        },
+        {
+          "id": "744000148141980",
+          "title": "Intern, Account Management, Commercial",
+          "url": "https://www.grab.careers/en/jobs/744000148141980/intern-account-management-commercial/",
+          "function_tags": []
+        },
+        {
+          "id": "744000148139949",
+          "title": "City Marketing Execution Associate",
+          "url": "https://www.grab.careers/en/jobs/744000148139949/city-marketing-execution-associate/",
+          "function_tags": []
+        },
         {
           "id": "744000148089497",
           "title": "Team Lead, Merchant Acquisition (F&B)",
@@ -41,14 +97,6 @@
           "function_tags": []
         },
         {
-          "id": "744000147908829",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000147908829/senior-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
           "id": "744000147898439",
           "title": "Intern, Employer Branding and Recruitment Marketing",
           "url": "https://www.grab.careers/en/jobs/744000147898439/intern-employer-branding-and-recruitment-marketing/",
@@ -69,71 +117,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000147861499",
-          "title": "Manager, Controllership (Regional & Insurance)",
-          "url": "https://www.grab.careers/en/jobs/744000147861499/manager-controllership-regional-insurance/",
-          "function_tags": []
-        },
-        {
-          "id": "744000147853847",
-          "title": "Senior Workplace Technology Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000147853847/senior-workplace-technology-engineer/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000147846689",
-          "title": "Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000147846689/software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000147836629",
-          "title": "Senior Merchant Account Manager, F&B",
-          "url": "https://www.grab.careers/en/jobs/744000147836629/senior-merchant-account-manager-fb/",
-          "function_tags": []
-        },
-        {
-          "id": "744000147836609",
-          "title": "Merchant Account Manager (F&B)",
-          "url": "https://www.grab.careers/en/jobs/744000147836609/merchant-account-manager-fb/",
-          "function_tags": []
-        },
-        {
-          "id": "744000147836489",
-          "title": "Senior Client Partner (Sales)",
-          "url": "https://www.grab.careers/en/jobs/744000147836489/senior-client-partner-sales/",
-          "function_tags": [
-            "partnerships",
-            "sales"
-          ]
-        },
-        {
-          "id": "744000147836320",
-          "title": "Merchant Sales Executive, GrabMart & GrabPay",
-          "url": "https://www.grab.careers/en/jobs/744000147836320/merchant-sales-executive-grabmart-grabpay/",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "744000147836095",
-          "title": "Merchant Sales Executive (F&B)",
-          "url": "https://www.grab.careers/en/jobs/744000147836095/merchant-sales-executive-fb/",
-          "function_tags": [
-            "sales"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-08T13:34:39.661946+08:00",
+      "observed_at": "2026-09-09T05:02:29.732759+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -193,6 +182,14 @@
           ]
         },
         {
+          "id": "8178881",
+          "title": "Account Executive - Enterprise, Growth",
+          "url": "https://stripe.com/careers/listing/account-executive-enterprise-growth/8178881",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
           "id": "8122192",
           "title": "Account Executive - LATAM",
           "url": "https://stripe.com/careers/listing/account-executive-latam/8122192",
@@ -233,20 +230,12 @@
           "function_tags": [
             "sales"
           ]
-        },
-        {
-          "id": "8123027",
-          "title": "Account Executive, Commercial (Grower)",
-          "url": "https://stripe.com/careers/listing/account-executive-commercial-grower/8123027",
-          "function_tags": [
-            "sales"
-          ]
         }
       ]
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-08T13:34:39.661946+08:00",
+      "observed_at": "2026-09-09T05:02:29.732759+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
@@ -319,6 +308,14 @@
           ]
         },
         {
+          "id": "44bd4c1c-6887-470f-90e0-b470f234fe49",
+          "title": "Senior Lead, External Partnerships & Social, Shop Remote - Americas",
+          "url": "https://www.shopify.com/careers/senior-lead-external-partnerships-social-shop_44bd4c1c-6887-470f-90e0-b470f234fe49",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
           "id": "5de9add2-829e-4307-8d9e-20ee3353d237",
           "title": "Associate General Counsel, Partnerships Remote - Americas",
           "url": "https://www.shopify.com/careers/associate-general-counsel-partnerships_5de9add2-829e-4307-8d9e-20ee3353d237",
@@ -368,15 +365,15 @@
           ]
         },
         {
-          "id": "dcc73211-bed4-478d-bdf7-831ce6d73b09",
-          "title": "Professional Services Delivery Manager Remote - United Kingdom, Ireland",
-          "url": "https://www.shopify.com/careers/professional-services-delivery-manager_dcc73211-bed4-478d-bdf7-831ce6d73b09",
-          "function_tags": []
-        },
-        {
           "id": "32132c55-3c8c-4695-b117-477fe97629aa",
           "title": "Professional Services Delivery Manager Remote - Americas",
           "url": "https://www.shopify.com/careers/professional-services-delivery-manager_32132c55-3c8c-4695-b117-477fe97629aa",
+          "function_tags": []
+        },
+        {
+          "id": "dcc73211-bed4-478d-bdf7-831ce6d73b09",
+          "title": "Professional Services Delivery Manager Remote - United Kingdom, Ireland",
+          "url": "https://www.shopify.com/careers/professional-services-delivery-manager_dcc73211-bed4-478d-bdf7-831ce6d73b09",
           "function_tags": []
         },
         {
@@ -421,7 +418,7 @@
         },
         {
           "id": "10a56956-2acc-448b-91c6-3503fff0f4cc",
-          "title": "Senior Partner Success Manager, Lifecycle Programs - APAC Remote - India",
+          "title": "Senior Partner Success Manager, Lifecycle Programs - APAC Remote - India, Singapore",
           "url": "https://www.shopify.com/careers/senior-partner-success-manager-lifecycle-programs-apac_10a56956-2acc-448b-91c6-3503fff0f4cc",
           "function_tags": [
             "partnerships"
