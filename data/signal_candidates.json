@@ -1,7 +1,252 @@
 {
   "version": 1,
-  "generated_at": "2026-09-09T13:41:40.211947+08:00",
+  "generated_at": "2026-09-10T04:51:22.559223+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-8f47d16a06cf2963",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "sales",
+      "window": "2026-W37",
+      "window_start": "2026-09-10",
+      "window_end": "2026-09-10",
+      "detected_at": "2026-09-10T04:51:22.559223+08:00",
+      "baseline_count": 17,
+      "current_count": 17,
+      "added_count": 12,
+      "removed_count": 12,
+      "clusters": {
+        "sales": 3,
+        "partnerships": 1,
+        "engineering": 2
+      },
+      "removed_clusters": {
+        "engineering": 1,
+        "partnerships": 1,
+        "operations": 1,
+        "sales": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000148505648",
+          "title": "Senior Manager, Strategic Projects",
+          "url": "https://www.grab.careers/en/jobs/744000148505648/senior-manager-strategic-projects/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148458125",
+          "title": "Merchant Growth Manager, Emerging",
+          "url": "https://www.grab.careers/en/jobs/744000148458125/merchant-growth-manager-emerging/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148460230",
+          "title": "Merchant Account Manager (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000148460230/merchant-account-manager-fb/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148461779",
+          "title": "Senior Client Partner (Sales)",
+          "url": "https://www.grab.careers/en/jobs/744000148461779/senior-client-partner-sales/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148461490",
+          "title": "Senior Merchant Account Manager (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000148461490/senior-merchant-account-manager-fb/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148459935",
+          "title": "Team Lead, Merchant Acquisition (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000148459935/team-lead-merchant-acquisition-fb/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148461599",
+          "title": "Senior Key Account Manager, Grab for Business",
+          "url": "https://www.grab.careers/en/jobs/744000148461599/senior-key-account-manager-grab-for-business/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148461559",
+          "title": "Merchant Sales Executive (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000148461559/merchant-sales-executive-fb/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148460389",
+          "title": "Senior Manager, Deliveries Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000148460389/senior-manager-deliveries-strategy/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148422939",
+          "title": "Lead Engineer, Innovation",
+          "url": "https://www.grab.careers/en/jobs/744000148422939/lead-engineer-innovation/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148416399",
+          "title": "Manager, D&S Strategy, Planning & Special Project",
+          "url": "https://www.grab.careers/en/jobs/744000148416399/manager-ds-strategy-planning-special-project/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148410300",
+          "title": "Senior Site Reliability Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000148410300/senior-site-reliability-engineer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148402299",
+          "title": "Senior Manager, Strategic Projects",
+          "url": "https://www.grab.careers/en/jobs/744000148402299/senior-manager-strategic-projects/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000148399659",
+          "title": "Senior Merchant Account Manager (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000148399659/senior-merchant-account-manager-fb/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000148149519",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000148149519/senior-software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000148147399",
+          "title": "Partnership Strategy Manager",
+          "url": "https://www.grab.careers/en/jobs/744000148147399/partnership-strategy-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000148146069",
+          "title": "Assistant Manager, Regional Performance Management",
+          "url": "https://www.grab.careers/en/jobs/744000148146069/assistant-manager-regional-performance-management/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000148141980",
+          "title": "Intern, Account Management, Commercial",
+          "url": "https://www.grab.careers/en/jobs/744000148141980/intern-account-management-commercial/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000148139949",
+          "title": "City Marketing Execution Associate",
+          "url": "https://www.grab.careers/en/jobs/744000148139949/city-marketing-execution-associate/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000148089497",
+          "title": "Team Lead, Merchant Acquisition (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000148089497/team-lead-merchant-acquisition-fb/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000148066898",
+          "title": "Head of CX Operations Excellence",
+          "url": "https://www.grab.careers/en/jobs/744000148066898/head-of-cx-operations-excellence/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000148045930",
+          "title": "Merchant Growth Lead",
+          "url": "https://www.grab.careers/en/jobs/744000148045930/merchant-growth-lead/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000147923790",
+          "title": "Assistant Manager, Regional Business Finance (Deliveries Segment)",
+          "url": "https://www.grab.careers/en/jobs/744000147923790/assistant-manager-regional-business-finance-deliveries-segment/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000147914720",
+          "title": "Assistant Manager, Regional Business Finance (Mobility Segment)",
+          "url": "https://www.grab.careers/en/jobs/744000147914720/assistant-manager-regional-business-finance-mobility-segment/",
+          "change": "removed"
+        }
+      ],
+      "status": "rejected",
+      "rejection_reason": "source_reset_suspected",
+      "promoted_event_id": ""
+    },
+    {
+      "candidate_id": "jobs-8705bf7f2926f251",
+      "entity_id": "stripe",
+      "entity": "Stripe",
+      "region": "全球",
+      "sector": "payment_developer_platform",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W37",
+      "window_start": "2026-09-10",
+      "window_end": "2026-09-10",
+      "detected_at": "2026-09-10T04:51:22.559223+08:00",
+      "baseline_count": 14,
+      "current_count": 14,
+      "added_count": 3,
+      "removed_count": 3,
+      "clusters": {
+        "engineering": 1,
+        "sales": 1
+      },
+      "removed_clusters": {
+        "ai": 1,
+        "sales": 2
+      },
+      "evidence_refs": [
+        {
+          "job_id": "8172510",
+          "title": "Abuse Investigator",
+          "url": "https://stripe.com/careers/listing/abuse-investigator/8172510",
+          "change": "added"
+        },
+        {
+          "job_id": "8172503",
+          "title": "Abuse Research Engineer",
+          "url": "https://stripe.com/careers/listing/abuse-research-engineer/8172503",
+          "change": "added"
+        },
+        {
+          "job_id": "8181024",
+          "title": "Account Executive Product - Radar",
+          "url": "https://stripe.com/careers/listing/account-executive-product-radar/8181024",
+          "change": "added"
+        },
+        {
+          "job_id": "8172508",
+          "title": "Abuse Investigator",
+          "url": "https://stripe.com/careers/listing/abuse-investigator/8172508",
+          "change": "removed"
+        },
+        {
+          "job_id": "8130725",
+          "title": "Account Executive, AI Startups (Hunter)",
+          "url": "https://stripe.com/careers/listing/account-executive-ai-startups-hunter/8130725",
+          "change": "removed"
+        },
+        {
+          "job_id": "8077887",
+          "title": "Account Executive, Bridge",
+          "url": "https://stripe.com/careers/listing/account-executive-bridge/8077887",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-bae90fecb5617ae7",
       "entity_id": "grab",
