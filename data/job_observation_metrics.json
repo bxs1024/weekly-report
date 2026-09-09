@@ -1,26 +1,23 @@
 {
-  "observed_at": "2026-09-09T05:02:29.732759+08:00",
+  "observed_at": "2026-09-09T13:41:40.211947+08:00",
   "source_count": 3,
-  "raw_count": 64,
+  "raw_count": 66,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 17,
-      "inventory_count": 16,
+      "count": 7,
+      "inventory_count": 17,
       "signal_count": 1,
-      "added_count": 8,
-      "removed_count": 9,
+      "added_count": 4,
+      "removed_count": 3,
       "clusters": {
-        "engineering": 3,
-        "partnerships": 1
+        "engineering": 1
       },
       "removed_clusters": {
-        "engineering": 3,
-        "partnerships": 1,
-        "sales": 3
+        "engineering": 2
       }
     },
     "Stripe Jobs": {
@@ -28,17 +25,13 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 2,
+      "count": 0,
       "inventory_count": 14,
       "signal_count": 0,
-      "added_count": 1,
-      "removed_count": 1,
-      "clusters": {
-        "sales": 1
-      },
-      "removed_clusters": {
-        "sales": 1
-      }
+      "added_count": 0,
+      "removed_count": 0,
+      "clusters": {},
+      "removed_clusters": {}
     },
     "Shopify Jobs": {
       "method": "jobs_snapshot",
@@ -46,13 +39,11 @@
       "status": "ok",
       "fetch_status": "success",
       "count": 1,
-      "inventory_count": 34,
+      "inventory_count": 35,
       "signal_count": 0,
       "added_count": 1,
       "removed_count": 0,
-      "clusters": {
-        "partnerships": 1
-      },
+      "clusters": {},
       "removed_clusters": {}
     }
   },
@@ -69,126 +60,63 @@
       "window": "2026-W37",
       "window_start": "2026-09-09",
       "window_end": "2026-09-09",
-      "detected_at": "2026-09-09T05:02:29.732759+08:00",
-      "baseline_count": 17,
-      "current_count": 16,
-      "added_count": 8,
-      "removed_count": 9,
+      "detected_at": "2026-09-09T13:41:40.211947+08:00",
+      "baseline_count": 16,
+      "current_count": 17,
+      "added_count": 4,
+      "removed_count": 3,
       "clusters": {
-        "engineering": 3,
-        "partnerships": 1
+        "engineering": 1
       },
       "removed_clusters": {
-        "engineering": 3,
-        "partnerships": 1,
-        "sales": 3
+        "engineering": 2
       },
       "evidence_refs": [
         {
-          "job_id": "744000148234775",
-          "title": "Software Engineering Manager",
-          "url": "https://www.grab.careers/en/jobs/744000148234775/software-engineering-manager/",
+          "job_id": "744000148404359",
+          "title": "Manager, Strategic Projects",
+          "url": "https://www.grab.careers/en/jobs/744000148404359/manager-strategic-projects/",
           "change": "added"
         },
         {
-          "job_id": "744000148200349",
-          "title": "Software Engineering Manager II (Mobile)",
-          "url": "https://www.grab.careers/en/jobs/744000148200349/software-engineering-manager-ii-mobile/",
+          "job_id": "744000148402299",
+          "title": "Senior Manager, Strategic Projects",
+          "url": "https://www.grab.careers/en/jobs/744000148402299/senior-manager-strategic-projects/",
           "change": "added"
         },
         {
-          "job_id": "744000148194054",
-          "title": "Key Accounts Associate, GFB VN",
-          "url": "https://www.grab.careers/en/jobs/744000148194054/key-accounts-associate-gfb-vn/",
+          "job_id": "744000148399659",
+          "title": "Senior Merchant Account Manager (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000148399659/senior-merchant-account-manager-fb/",
           "change": "added"
         },
         {
-          "job_id": "744000148149519",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000148149519/senior-software-engineer-backend/",
+          "job_id": "744000148399141",
+          "title": "Intern, Software Engineer Mobile",
+          "url": "https://www.grab.careers/en/jobs/744000148399141/intern-software-engineer-mobile/",
           "change": "added"
         },
         {
-          "job_id": "744000148147399",
-          "title": "Partnership Strategy Manager",
-          "url": "https://www.grab.careers/en/jobs/744000148147399/partnership-strategy-manager/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000148146069",
-          "title": "Assistant Manager, Regional Performance Management",
-          "url": "https://www.grab.careers/en/jobs/744000148146069/assistant-manager-regional-performance-management/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000148141980",
-          "title": "Intern, Account Management, Commercial",
-          "url": "https://www.grab.careers/en/jobs/744000148141980/intern-account-management-commercial/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000148139949",
-          "title": "City Marketing Execution Associate",
-          "url": "https://www.grab.careers/en/jobs/744000148139949/city-marketing-execution-associate/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000147908829",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000147908829/senior-software-engineer-backend/",
+          "job_id": "744000147898439",
+          "title": "Intern, Employer Branding and Recruitment Marketing",
+          "url": "https://www.grab.careers/en/jobs/744000147898439/intern-employer-branding-and-recruitment-marketing/",
           "change": "removed"
         },
         {
-          "job_id": "744000147861499",
-          "title": "Manager, Controllership (Regional & Insurance)",
-          "url": "https://www.grab.careers/en/jobs/744000147861499/manager-controllership-regional-insurance/",
+          "job_id": "744000147887616",
+          "title": "Software Engineering Manager II - Transaction Platform",
+          "url": "https://www.grab.careers/en/jobs/744000147887616/software-engineering-manager-ii-transaction-platform/",
           "change": "removed"
         },
         {
-          "job_id": "744000147853847",
-          "title": "Senior Workplace Technology Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000147853847/senior-workplace-technology-engineer/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000147846689",
-          "title": "Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000147846689/software-engineer-backend/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000147836629",
-          "title": "Senior Merchant Account Manager, F&B",
-          "url": "https://www.grab.careers/en/jobs/744000147836629/senior-merchant-account-manager-fb/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000147836609",
-          "title": "Merchant Account Manager (F&B)",
-          "url": "https://www.grab.careers/en/jobs/744000147836609/merchant-account-manager-fb/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000147836489",
-          "title": "Senior Client Partner (Sales)",
-          "url": "https://www.grab.careers/en/jobs/744000147836489/senior-client-partner-sales/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000147836320",
-          "title": "Merchant Sales Executive, GrabMart & GrabPay",
-          "url": "https://www.grab.careers/en/jobs/744000147836320/merchant-sales-executive-grabmart-grabpay/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000147836095",
-          "title": "Merchant Sales Executive (F&B)",
-          "url": "https://www.grab.careers/en/jobs/744000147836095/merchant-sales-executive-fb/",
+          "job_id": "744000147875540",
+          "title": "Software Engineering Manager II",
+          "url": "https://www.grab.careers/en/jobs/744000147875540/software-engineering-manager-ii/",
           "change": "removed"
         }
       ],
-      "status": "rejected",
-      "rejection_reason": "source_reset_suspected",
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
       "promoted_event_id": ""
     }
   ],
