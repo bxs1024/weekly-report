@@ -719,54 +719,54 @@
       "generated_at": "2026-09-06 04:30"
     },
     "weekly:2026-W36": {
-      "input_hash": "c68e578bc08462031b6fd7b9f058eacbee7308850ee73d4138fd47f58651eae2",
+      "input_hash": "7325fbd504f4eab0fd949c263776c8d3cbde5df5cdb8fd91ec100ddfab9f6f6e",
       "editorial": {
-        "editorial_title": "云网融合与支付准入双线加速",
-        "mainline": "本期最值得关注的是电信与互联网基础设施的云化、开放化趋势，以及支付牌照在全球关键市场的密集落地。Rakuten Symphony在沙特推出Cloud RAN，SKT等韩国运营商联合推AI计划，显示传统电信商正转向云原生与AI融合。同时，蚂蚁国际获巴西支付牌照、OpenPayd获美国州级牌照，支付准入壁垒正在被突破，跨境支付竞争将进入新阶段。",
+        "editorial_title": "中东云网开放，亚洲支付与卫星竞合",
+        "mainline": "中东电信市场出现开放云化网络落地，Rakuten Symphony与TAWAL在沙特部署Cloud RAN共享室内网络，指向运营商基础设施解耦的可行路径；同时亚洲支付与卫星通信密集联动，蚂蚁国际拿下巴西牌照、乐天联合AST推手机直连卫星，出海BD需重新评估中东云网与亚洲跨境支付、卫星频谱的合作窗口。",
         "themes": {
-          "ai_infra": "Rakuten Symphony与沙特TAWAL合作部署Cloud RAN，将开放云化网络首次带入中东电信市场，挑战传统设备商格局。与此同时，SKT、Kakao、KT联合推出AI计划，显示韩国运营商正通过结盟整合资源，以应对AI基础设施的高昂投入。电信行业正从硬件主导转向软件与AI能力竞争。",
-          "expansion": "乐天携手AST推出卫星直连手机服务，将非地面网络商业化，直接冲击偏远地区通信市场。另一边，CJ ONE与Naver Pay打通会员权益，覆盖3400万用户，标志着韩国跨行业会员生态的深度整合。TikTok Shop日本运营满一年，复盘显示其市场进入策略已见成效，但增长挑战仍存。",
-          "payments": "蚂蚁国际获得巴西支付牌照，得以在拉美最大经济体开展本地收单业务，对巴西本土支付公司构成直接竞争。同时，Kakao筹备推出会员服务，CJ OliveNetworks上线联动服务，韩国支付巨头正通过会员权益绑定用户。加密支付网关评测发布，显示支付工具多元化趋势加剧。",
-          "compliance": "Luka发布AI绘画投影仪，瞄准儿童市场，但需同时满足欧盟玩具安全指令与AI法案要求，合规设计成为产品入欧的关键门槛。泰国对BNPL实施新牌照规则，新加坡推进稳定币专门监管，东南亚支付监管框架正快速成型，跨境支付服务商需提前调整合规策略。",
-          "commerce": "Jumia启动2026品牌节，推出20天独家优惠，吸引品牌方入驻，试图在非洲电商市场建立价格优势。Sea Limited上半年营收达149亿美元，但物流支出同步扩大，显示电商平台在扩张中面临成本压力。eBay推出捆绑折扣功能，但卖家反应不一，平台政策调整需谨慎。",
-          "developer": "Square Enix推出FF系列迷你旋律电视玩具，将经典游戏音乐与复古CRT造型结合，瞄准怀旧玩家，拓展IP衍生品市场。W4 Games获1800万美元投资，押注Godot引擎增长，开源游戏引擎商业化加速。Phil Schiller退出App Store管理，或预示苹果应用商店政策将调整。"
+          "ai_infra": "Rakuten Symphony与TAWAL在沙特把Cloud RAN共享室内网络推入商用，中东电信开始接受开放解耦架构；韩国三大运营商SKT、Kakao、KT罕见联合推AI计划，本土AI基础设施从单打转向合纵。两件事叠加，亚太云网供给正从封闭设备转向开放生态与联合投资。",
+          "expansion": "乐天联手AST推出卫星直连手机服务，把日本电信竞争推向天基覆盖；CJ ONE与Naver Pay打通3400万用户会员权益，韩国本地生态从支付向积分互通延伸。OpenPayd拿下美国州级货币传输牌照，TikTok Shop日本一周年复盘显示中资电商正从流量扩张转向本地合规深耕。",
+          "payments": "蚂蚁国际获巴西支付牌照，直接进入拉美本地收单与跨境支付市场，对巴西本地支付公司和跨境服务商构成竞争；CJ OliveNetworks上线CJ ONE与Naver Pay联动服务，Kakao筹备下月推出会员服务，韩国支付竞争从通道转向会员权益绑定。加密支付网关评测升温，说明稳定币结算通道正被更多商户纳入备选。",
+          "compliance": "Luka发布AI绘画投影仪，儿童AI交互硬件在欧洲上架，直接撞上欧盟玩具安全法规与AI法案的合规设计门槛；扎克伯格就AI审查致电特朗普后政策最终自愿化，美国AI监管走向软约束。泰国BNPL将实施新牌照规则、新加坡推进稳定币专门监管，东南亚金融创新正从宽松试验转向持牌经营。",
+          "commerce": "Jumia品牌节2026启动20天独家优惠，非洲电商平台用促销吸引品牌方入驻，供应链与营销服务需求同步上升；Sea Limited上半年营收149亿美元且物流支出扩大，东南亚电商竞争转向履约基建。eBay推出捆绑折扣功能但卖家评价分化，Rwaj获120万美元融资，中小商户工具与非洲本地服务仍在吸金。",
+          "developer": "Square Enix推出FF系列迷你旋律电视玩具，把主机IP延伸到复古CRT风格周边，授权与制造合作窗口打开；W4 Games获1800万美元投资押注Godot引擎增长，开源引擎商业化获资本背书。Global Game Jam与Zoud合办金融素养游戏赛设14万美元奖金，Phil Schiller退出App Store管理，平台生态决策层出现谨慎信号。"
         },
         "theme_titles": {
-          "ai_infra": "",
-          "expansion": "",
-          "payments": "",
-          "compliance": "",
-          "commerce": "",
-          "developer": ""
+          "ai_infra": "中东开放云网落地，韩系AI联盟成形",
+          "expansion": "日韩卫星直连与会员互通加速",
+          "payments": "蚂蚁拿下巴西牌照，韩系会员支付联动",
+          "compliance": "AI玩具与BNPL新规同步收紧",
+          "commerce": "非洲电商促销开闸，东南亚物流加码",
+          "developer": "游戏IP衍生与引擎投资双向升温"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-10 05:19"
+      "generated_at": "2026-09-11 05:11"
     },
     "weekly:2026-W37": {
-      "input_hash": "7c6a8f3963f2904a44e147629eedc465311bb3087436d98b9b1b8a5bd0376085",
+      "input_hash": "305260f21249c03e1a34a4fbe79acfbc2d9d2ad7d69ac66139de5da58ae0f927",
       "editorial": {
-        "editorial_title": "AI支付标准争夺与亚太本地化扩张",
-        "mainline": "蚂蚁国际与Visa、万事达联手制定AI支付安全标准，Adyen同步进军印度，支付底层规则正被重写；与此同时，Grab从出行切入汽车交易、Kakao上线付费会员，亚太平台集体向交易与订阅要收入。出海BD需重新评估收单合作与本地化产品的窗口期。",
+        "editorial_title": "中东资本重构游戏版图，AI支付与云基建加速出海",
+        "mainline": "中东主权基金拟整合EA与Savvy，若落地将改变全球游戏发行格局；与此同时，阿里、蚂蚁、Naver以AI代理、AI支付和AI工厂切入欧美与印度市场，出海路径从产品输出转向基础设施与合规能力输出。",
         "themes": {
-          "ai_infra": "阿里将AI代理铺向跨平台场景以支撑全球扩张，Kakao则用付费会员把流量转为经常性收入；波士顿动力分拆公司切入娱乐机器人，为文旅场景提供新硬件入口。基础设施竞争正从算力转向代理层与场景绑定。",
-          "payments": "Adyen计划在印度扩张，直接冲击本地收单与商户解决方案格局；Mastercard、Visa与蚂蚁国际合作提升AI支付安全，Finmo交易量破10亿美元并把全球总部设在新加坡。支付竞争焦点从费率转向安全标准与合规能力。",
-          "expansion": "蚂蚁国际与Visa、万事达共同开发AI支付，意味着跨境支付基础设施的规则制定权开始向中资参与方倾斜；Stryv借Shopee在亚洲快速放量，验证平台代运营仍是品牌出海最短路径。Square Enix则用IP联名与重制维持区域热度。",
-          "compliance": "新加坡新法案要求大型金融机构增加资本缓冲，Databricks随即推出Solvency II报告方案承接合规需求；印尼OJK考虑限制IDX持股、Gojek推封顶票价，显示监管同时收紧金融与出行定价。合规技术供应商迎来窗口。",
-          "developer": "阿布扎比宣称金融中心坐拥1000亿美元AI资本，但具体投向未明，令全球AI融资方既兴奋又难对接；Savvy Wealth获1亿美元扩展AI财富平台，Actionable融资860万欧元扩平台。中东资本与AI财富管理正形成新配对。",
-          "commerce": "Grab从出行平台延伸出汽车销售市场，把司机与车主流量直接变现；Kakao在延迟七年后推出会员服务，补齐订阅收入短板。MercadoLibre发债10亿美元、Nuuly自动化履约中心，电商竞争转向资金与履约效率。"
+          "ai_infra": "阿里部署跨平台AI代理推动全球扩张，Cloudflare同步更新API参考降低集成门槛；Kakao推出付费会员服务，试图以订阅收入反哺AI与云投入。波士顿动力分拆公司切入娱乐机器人，为云边协同提供新场景。",
+          "payments": "Nubank以高收益储蓄和信用卡进军美国，直接挑战本土数字银行；Adyen计划在印度扩张，Kakao Bank推出MMA2026产品。Mastercard、Visa与蚂蚁国际合作提升AI支付安全，跨境支付竞争转向风控与合规能力。",
+          "expansion": "Naver提议与法国共建AI工厂，欧洲算力市场迎来亚洲新玩家；蚂蚁国际与Visa、万事达合作开发AI支付，Stryv借Shopee在亚洲快速起量。Square Enix与graniph联名DQ周边，IP变现路径向服饰零售延伸。",
+          "developer": "沙特PIF考虑合并EA与Savvy，若落地将重塑全球游戏发行格局；STV AI基金获Arcapita投资，阿布扎比称金融中心坐拥千亿美元AI资本。Savvy Wealth获1亿美元融资扩展AI财富平台，中东资本正从LP转向直投与整合。",
+          "compliance": "新加坡新法案拟加强大型金融机构倒闭保障，并实施投资诈骗责任框架，合规成本上升；Databricks发布Solvency II报告解决方案，瞄准保险合规技术需求。Robinhood入股Crypto.com及OG.com，加密资产合规化进程加速。",
+          "commerce": "Grab推出汽车销售市场，从出行平台向汽车电商延伸；Kakao推出延迟七年的会员服务，补足电商闭环。Mastercard推出AI购物代理服务，Nuuly推进履约中心自动化，商户侧竞争转向AI导购与物流效率。"
         },
         "theme_titles": {
-          "ai_infra": "阿里跨平台AI代理出海，韩系平台转向付费",
-          "payments": "Adyen进军印度，AI支付安全联盟成形",
-          "expansion": "蚂蚁联合卡组织定标准，Shopee助品牌扩亚洲",
-          "compliance": "新加坡加码金融机构退出保障，印尼收紧持股",
-          "developer": "阿布扎比千亿AI资本待配置，财富平台吸金",
-          "commerce": "Grab开卖汽车，Kakao补上会员课"
+          "ai_infra": "阿里AI代理出海，Kakao推付费会员补云生态",
+          "payments": "Nubank攻美，Adyen拓印，AI支付安全联盟成形",
+          "expansion": "Naver提议法国建AI工厂，蚂蚁联合卡组织拓支付",
+          "developer": "沙特PIF拟合并EA与Savvy，中东游戏资本整合提速",
+          "compliance": "新加坡强化金融机构退出保障，Databricks推Solvency II方案",
+          "commerce": "Grab切入汽车销售，Mastercard推AI购物代理"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-10 14:01"
+      "generated_at": "2026-09-11 05:11"
     }
   }
 }

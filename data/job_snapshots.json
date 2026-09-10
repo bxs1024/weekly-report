@@ -1,11 +1,37 @@
 {
   "version": 1,
-  "generated_at": "2026-09-10T13:33:32.599903+08:00",
+  "generated_at": "2026-09-11T04:45:52.186989+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-10T13:33:32.599903+08:00",
+      "observed_at": "2026-09-11T04:45:52.186989+08:00",
       "jobs": [
+        {
+          "id": "744000148837829",
+          "title": "Software Engineer, Full Stack",
+          "url": "https://www.grab.careers/en/jobs/744000148837829/software-engineer-full-stack/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000148741809",
+          "title": "Manager, Driver Communications",
+          "url": "https://www.grab.careers/en/jobs/744000148741809/manager-driver-communications/",
+          "function_tags": []
+        },
+        {
+          "id": "744000148732859",
+          "title": "Country GrabKios Commercial Manager",
+          "url": "https://www.grab.careers/en/jobs/744000148732859/country-grabkios-commercial-manager/",
+          "function_tags": []
+        },
+        {
+          "id": "744000148718262",
+          "title": "Senior Specialist, End-user Computing",
+          "url": "https://www.grab.careers/en/jobs/744000148718262/senior-specialist-end-user-computing/",
+          "function_tags": []
+        },
         {
           "id": "744000148668029",
           "title": "Senior Insider Threat Engineer",
@@ -102,36 +128,12 @@
           "title": "Manager, Strategic Projects",
           "url": "https://www.grab.careers/en/jobs/744000148404359/manager-strategic-projects/",
           "function_tags": []
-        },
-        {
-          "id": "744000148399141",
-          "title": "Intern, Software Engineer Mobile",
-          "url": "https://www.grab.careers/en/jobs/744000148399141/intern-software-engineer-mobile/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000148234775",
-          "title": "Software Engineering Manager",
-          "url": "https://www.grab.careers/en/jobs/744000148234775/software-engineering-manager/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000148200349",
-          "title": "Software Engineering Manager II (Mobile)",
-          "url": "https://www.grab.careers/en/jobs/744000148200349/software-engineering-manager-ii-mobile/",
-          "function_tags": [
-            "engineering"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-10T13:33:32.599903+08:00",
+      "observed_at": "2026-09-11T04:45:52.186989+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -186,7 +188,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-10T13:33:32.599903+08:00",
+      "observed_at": "2026-09-11T04:45:52.186989+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
@@ -257,6 +259,12 @@
           "function_tags": [
             "partnerships"
           ]
+        },
+        {
+          "id": "ec2c737d-049a-4c12-8d9d-6b0fbefad30b",
+          "title": "Lifecycle & CRM Manager, Shop Remote - Americas",
+          "url": "https://www.shopify.com/careers/lifecycle-crm-manager-shop_ec2c737d-049a-4c12-8d9d-6b0fbefad30b",
+          "function_tags": []
         },
         {
           "id": "44bd4c1c-6887-470f-90e0-b470f234fe49",

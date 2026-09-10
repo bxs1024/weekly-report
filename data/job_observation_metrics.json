@@ -1,48 +1,47 @@
 {
-  "observed_at": "2026-09-10T13:33:32.599903+08:00",
+  "observed_at": "2026-09-11T04:45:52.186989+08:00",
   "source_count": 3,
-  "raw_count": 59,
+  "raw_count": 61,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 2,
-      "inventory_count": 17,
-      "signal_count": 0,
-      "added_count": 1,
-      "removed_count": 1,
+      "count": 7,
+      "inventory_count": 18,
+      "signal_count": 1,
+      "added_count": 4,
+      "removed_count": 3,
       "clusters": {
         "engineering": 1
       },
-      "removed_clusters": {}
+      "removed_clusters": {
+        "engineering": 3
+      }
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 7,
+      "count": 0,
       "inventory_count": 7,
-      "signal_count": 1,
+      "signal_count": 0,
       "added_count": 0,
-      "removed_count": 7,
+      "removed_count": 0,
       "clusters": {},
-      "removed_clusters": {
-        "sales": 7,
-        "engineering": 1
-      }
+      "removed_clusters": {}
     },
     "Shopify Jobs": {
       "method": "jobs_snapshot",
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 35,
+      "count": 1,
+      "inventory_count": 36,
       "signal_count": 0,
-      "added_count": 0,
+      "added_count": 1,
       "removed_count": 0,
       "clusters": {},
       "removed_clusters": {}
@@ -50,73 +49,74 @@
   },
   "candidate_signals": [
     {
-      "candidate_id": "jobs-779ebcad853b68cb",
-      "entity_id": "stripe",
-      "entity": "Stripe",
-      "region": "全球",
-      "sector": "payment_developer_platform",
+      "candidate_id": "jobs-3e1bdecec58520e7",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
       "source_type": "jobs_snapshot",
-      "signal_type": "organizational_contraction",
-      "cluster": "sales",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
       "window": "2026-W37",
-      "window_start": "2026-09-10",
-      "window_end": "2026-09-10",
-      "detected_at": "2026-09-10T13:33:32.599903+08:00",
-      "baseline_count": 14,
-      "current_count": 7,
-      "added_count": 0,
-      "removed_count": 7,
-      "clusters": {},
-      "removed_clusters": {
-        "sales": 7,
+      "window_start": "2026-09-11",
+      "window_end": "2026-09-11",
+      "detected_at": "2026-09-11T04:45:52.186989+08:00",
+      "baseline_count": 17,
+      "current_count": 18,
+      "added_count": 4,
+      "removed_count": 3,
+      "clusters": {
         "engineering": 1
+      },
+      "removed_clusters": {
+        "engineering": 3
       },
       "evidence_refs": [
         {
-          "job_id": "8138662",
-          "title": "Account Executive , Grower - Iberia Market",
-          "url": "https://stripe.com/careers/listing/account-executive-grower-iberia-market/8138662",
+          "job_id": "744000148837829",
+          "title": "Software Engineer, Full Stack",
+          "url": "https://www.grab.careers/en/jobs/744000148837829/software-engineer-full-stack/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148741809",
+          "title": "Manager, Driver Communications",
+          "url": "https://www.grab.careers/en/jobs/744000148741809/manager-driver-communications/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148732859",
+          "title": "Country GrabKios Commercial Manager",
+          "url": "https://www.grab.careers/en/jobs/744000148732859/country-grabkios-commercial-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148718262",
+          "title": "Senior Specialist, End-user Computing",
+          "url": "https://www.grab.careers/en/jobs/744000148718262/senior-specialist-end-user-computing/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000148399141",
+          "title": "Intern, Software Engineer Mobile",
+          "url": "https://www.grab.careers/en/jobs/744000148399141/intern-software-engineer-mobile/",
           "change": "removed"
         },
         {
-          "job_id": "7993151",
-          "title": "Account Executive - Enterprise, Grower",
-          "url": "https://stripe.com/careers/listing/account-executive-enterprise-grower/7993151",
+          "job_id": "744000148234775",
+          "title": "Software Engineering Manager",
+          "url": "https://www.grab.careers/en/jobs/744000148234775/software-engineering-manager/",
           "change": "removed"
         },
         {
-          "job_id": "8178881",
-          "title": "Account Executive - Enterprise, Growth",
-          "url": "https://stripe.com/careers/listing/account-executive-enterprise-growth/8178881",
-          "change": "removed"
-        },
-        {
-          "job_id": "8122192",
-          "title": "Account Executive - LATAM",
-          "url": "https://stripe.com/careers/listing/account-executive-latam/8122192",
-          "change": "removed"
-        },
-        {
-          "job_id": "8108891",
-          "title": "Account Executive - SEA, Platforms (Grower)",
-          "url": "https://stripe.com/careers/listing/account-executive-sea-platforms-grower/8108891",
-          "change": "removed"
-        },
-        {
-          "job_id": "8181024",
-          "title": "Account Executive Product - Radar",
-          "url": "https://stripe.com/careers/listing/account-executive-product-radar/8181024",
-          "change": "removed"
-        },
-        {
-          "job_id": "8175830",
-          "title": "Account Executive Product - Tax",
-          "url": "https://stripe.com/careers/listing/account-executive-product-tax/8175830",
+          "job_id": "744000148200349",
+          "title": "Software Engineering Manager II (Mobile)",
+          "url": "https://www.grab.careers/en/jobs/744000148200349/software-engineering-manager-ii-mobile/",
           "change": "removed"
         }
       ],
       "status": "accumulating",
-      "rejection_reason": "insufficient_persistence",
+      "rejection_reason": "insufficient_cluster_strength",
       "promoted_event_id": ""
     }
   ],
