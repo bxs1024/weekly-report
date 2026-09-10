@@ -1,7 +1,77 @@
 {
   "version": 1,
-  "generated_at": "2026-09-10T04:51:22.559223+08:00",
+  "generated_at": "2026-09-10T13:33:32.599903+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-779ebcad853b68cb",
+      "entity_id": "stripe",
+      "entity": "Stripe",
+      "region": "全球",
+      "sector": "payment_developer_platform",
+      "source_type": "jobs_snapshot",
+      "signal_type": "organizational_contraction",
+      "cluster": "sales",
+      "window": "2026-W37",
+      "window_start": "2026-09-10",
+      "window_end": "2026-09-10",
+      "detected_at": "2026-09-10T13:33:32.599903+08:00",
+      "baseline_count": 14,
+      "current_count": 7,
+      "added_count": 0,
+      "removed_count": 7,
+      "clusters": {},
+      "removed_clusters": {
+        "sales": 7,
+        "engineering": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "8138662",
+          "title": "Account Executive , Grower - Iberia Market",
+          "url": "https://stripe.com/careers/listing/account-executive-grower-iberia-market/8138662",
+          "change": "removed"
+        },
+        {
+          "job_id": "7993151",
+          "title": "Account Executive - Enterprise, Grower",
+          "url": "https://stripe.com/careers/listing/account-executive-enterprise-grower/7993151",
+          "change": "removed"
+        },
+        {
+          "job_id": "8178881",
+          "title": "Account Executive - Enterprise, Growth",
+          "url": "https://stripe.com/careers/listing/account-executive-enterprise-growth/8178881",
+          "change": "removed"
+        },
+        {
+          "job_id": "8122192",
+          "title": "Account Executive - LATAM",
+          "url": "https://stripe.com/careers/listing/account-executive-latam/8122192",
+          "change": "removed"
+        },
+        {
+          "job_id": "8108891",
+          "title": "Account Executive - SEA, Platforms (Grower)",
+          "url": "https://stripe.com/careers/listing/account-executive-sea-platforms-grower/8108891",
+          "change": "removed"
+        },
+        {
+          "job_id": "8181024",
+          "title": "Account Executive Product - Radar",
+          "url": "https://stripe.com/careers/listing/account-executive-product-radar/8181024",
+          "change": "removed"
+        },
+        {
+          "job_id": "8175830",
+          "title": "Account Executive Product - Tax",
+          "url": "https://stripe.com/careers/listing/account-executive-product-tax/8175830",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_persistence",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-8f47d16a06cf2963",
       "entity_id": "grab",

@@ -1,316 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-09-09</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-09-10</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-09-09T21:40:31Z</updated>
+  <updated>2026-09-10T06:23:13Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Webull以$100M收购泰国券商Pi Securities</title>
-    <link href="https://fintechnews.sg/136903/thailand/webull-thailand-pi-securities-acquisition/"/>
-    <id>tag:weekly-report,2026:event-d8c9bad5</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Webull Expands Thai Footprint With US$100 Million Acquisition&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国券商Webull以1亿美元收购泰国券商Pi Securities，以扩大其在东南亚的足迹。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美券商通过并购进入东南亚市场，泰国证券经纪行业竞争加剧，为本地金融科技基础设施和跨境投资服务带来机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：北美 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>Listen Labs取消$1.5B融资，与Salesforce谈判</title>
+    <link href="https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/"/>
+    <id>tag:weekly-report,2026:event-965f9134</id>
+    <published>2026-09-10T00:00:00Z</published>
+    <updated>2026-09-10T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI研究初创公司Listen Labs取消了15亿美元的融资轮，转而与Salesforce进行收购谈判。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI研究初创公司Listen Labs放弃15亿美元融资转而与Salesforce谈判，显示AI领域并购整合加速，大厂通过收购获取前沿技术。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Limetax融资€36M建AI税务集团</title>
-    <link href="https://www.eu-startups.com/2026/09/limetax-lands-e36-million-to-build-an-ai-powered-group-of-german-tax-and-accounting-firms/"/>
-    <id>tag:weekly-report,2026:event-6a1ea1e9</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Limetax lands €36 million to build an AI-powered group of German tax and accounting firms&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;德国税务和会计AI公司Limetax获得3600万欧元融资，用于构建AI驱动的德国税务和会计师事务所集团。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲财税SaaS赛道获资本关注，AI驱动税务服务整合传统会计师事务所，为财税数字化提供新路径。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
+    <title>阿里AI资本支出激增但非增长信号</title>
+    <link href="https://www.techinasia.com/alibabas-capex-spike-story-investors"/>
+    <id>tag:weekly-report,2026:event-daf3371d</id>
+    <published>2026-09-10T00:00:00Z</published>
+    <updated>2026-09-10T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Alibaba’s AI capex spike isn’t the story investors think&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;阿里巴巴AI资本支出大幅增加，但分析认为该支出增长并非投资者所预期的业务增长信号。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国科技巨头AI投入加大但回报存疑，亚太云计算与AI算力供应链需求仍将维持高位&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>肯尼亚统一短代码规则</title>
-    <link href="https://techpoint.africa/insight/techpoint-digest-1428/"/>
-    <id>tag:weekly-report,2026:event-8220085d</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Kenya changes short code rules, making one code work across networks&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;肯尼亚更改短代码规则，使一个短代码可以在所有网络上通用。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲电信监管政策调整，降低跨网络服务成本，利好移动支付和增值服务商。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：非洲 | 来源：Techpoint&lt;/p&gt;</summary>
+    <title>智谱上市后首份财报营收增400%</title>
+    <link href="https://36kr.jp/501387/"/>
+    <id>tag:weekly-report,2026:event-a5f0588a</id>
+    <published>2026-09-10T00:00:00Z</published>
+    <updated>2026-09-10T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;中国「Zhipu AI」、上場後初決算は増収400％　トークン利用量は年初から40倍超に&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国AI公司智谱在上市后首份财报中显示营收同比增长400%，API和模型调用量大幅增长。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI大模型公司商业化加速，企业级API服务需求旺盛，为算力供应商和行业解决方案商带来合作空间。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：earnings | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>阿布扎比称金融中心有$100B AI资本</title>
-    <link href="https://thenextweb.com/news/adgm-100bn-ai-capital-held-or-deployed-mgx-concentratio"/>
-    <id>tag:weekly-report,2026:event-36ab0a5e</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Abu Dhabi says $100bn of AI capital sits in its financial centre. Its own announcement cannot decide whether that money is held there or spent.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;阿布扎比宣称其金融中心持有1000亿美元AI资本，但公告未明确该资金是存放于当地还是用于支出。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东主权基金AI资本规模庞大，但资金流向不明，为全球AI项目融资带来不确定性。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>MiniMax上半年营收增283%</title>
+    <link href="https://36kr.jp/501385/"/>
+    <id>tag:weekly-report,2026:event-e50e2aad</id>
+    <published>2026-09-10T00:00:00Z</published>
+    <updated>2026-09-10T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;中国AI「MiniMax」、上半期増収283％　API・基盤モデルが新たな収益の柱に&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国AI公司MiniMax上半年营收同比增长283%，API和基础模型成为新的收入支柱。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI公司MiniMax营收高增长，API和基础模型业务成为支柱，为云服务商和开发者工具链带来合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：earnings | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>CloudNC再获€17.2M融资</title>
-    <link href="https://www.eu-startups.com/2026/09/london-based-cloudnc-raises-e17-2-million-to-scale-ai-powered-precision-machining/"/>
-    <id>tag:weekly-report,2026:event-a8cef63e</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;London-based CloudNC raises €17.2 million to scale AI-powered precision machining&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;伦敦AI精密加工公司CloudNC完成1720万欧元融资，用于扩大AI驱动的精密加工业务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲工业AI赛道持续吸金，精密加工领域AI应用加速落地，为制造业升级提供新方案。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
+    <title>Mastercard、Visa、蚂蚁国际合作提升AI支付安全</title>
+    <link href="https://fintechnews.sg/136993/ai/mastercard-visa-ant-ai-agent-payments/"/>
+    <id>tag:weekly-report,2026:event-c5b27795</id>
+    <published>2026-09-10T00:00:00Z</published>
+    <updated>2026-09-10T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mastercard, Visa and Ant International Move to Make AI Agent Payments Safer&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Mastercard、Visa和蚂蚁国际宣布合作，共同提升AI代理支付的安全性。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付巨头联手制定AI代理支付安全标准，将影响跨境支付和数字钱包的技术架构，为安全服务商带来新需求。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Actionable融资€8.6M扩展平台</title>
-    <link href="https://www.eu-startups.com/2026/09/paris-based-actionable-raises-e8-6-million-to-scale-its-predictive-customer-experience-platform/"/>
-    <id>tag:weekly-report,2026:event-11c0e6cd</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Paris-based Actionable raises €8.6 million to scale its predictive customer experience platform&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;巴黎预测性客户体验平台Actionable完成860万欧元融资，用于扩大其平台规模。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲客户体验AI赛道获小额融资，预测性客户体验平台为零售和电商提供新工具。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Zankore获$3.1B贷款建AI基建</title>
-    <link href="https://www.techinasia.com/news/indonesiafocused-zankore-secures-31b-ai-infrastructure-loan"/>
-    <id>tag:weekly-report,2026:event-312dd984</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Indonesia AI infrastructure firm Zankore secures $3.1b loan&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印尼AI基础设施公司Zankore获得31亿美元贷款，用于建设AI基础设施。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚AI基建获巨额贷款，印尼数据中心和算力服务商迎来扩张机遇&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>谷歌与NASA JPL发布甲烷地图AI模型</title>
-    <link href="https://thenextweb.com/news/google-methane-map-eu-rules"/>
-    <id>tag:weekly-report,2026:event-8277d2a2</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Google and NASA JPL release an AI model that maps methane plumes worldwide&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;谷歌与美国宇航局喷气推进实验室合作发布一款AI模型，可全球范围内绘制甲烷羽流地图。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球环境监测AI应用落地，为碳追踪和气候合规提供新工具，欧洲环保监管趋严带来合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>CloudNC获$20M融资扩展AI精密制造软件</title>
-    <link href="https://tech.eu/2026/09/09/cloudnc-lands-20m-to-expand-its-ai-software-for-precision-manufacturing/"/>
-    <id>tag:weekly-report,2026:event-0a024802</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;CloudNC lands $20M to expand its AI software for precision manufacturing&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英国精密制造AI软件公司CloudNC获得2000万美元融资，用于扩展其AI驱动的精密制造软件。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲工业AI赛道持续升温，精密制造软件获得资本青睐，为制造业数字化转型提供新工具。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Savvy Wealth获$100M融资扩展AI财富平台</title>
-    <link href="https://ventureburn.com/savvy-wealth-raises-100m-ai-platform/"/>
-    <id>tag:weekly-report,2026:event-84661753</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Savvy Wealth Raises $100M to Expand AI Wealth Platform&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI财富管理平台Savvy Wealth完成1亿美元融资，用于扩展其AI驱动的财富管理服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲AI财富管理赛道获大额融资，显示投资者对AI金融服务的信心。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Harvey估值达$15.5B</title>
-    <link href="https://techcrunch.com/2026/09/09/harvey-hits-15-5b-valuation-months-after-reaching-11b/"/>
-    <id>tag:weekly-report,2026:event-c60885fb</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Harvey hits $15.5B valuation, months after reaching $11B&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI法律科技公司Harvey估值达到155亿美元，数月前其估值刚达到110亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国AI法律科技独角兽Harvey估值飙升至155亿美元，为法律科技和AI应用赛道带来重大投资信号&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Tripo再获$445M融资</title>
-    <link href="https://www.pocketgamer.biz/genai-firm-tripo-raises-445m-two-months-after-series-a3-round/"/>
-    <id>tag:weekly-report,2026:event-0260fa06</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;GenAI firm Tripo raises $445m two months after Series A3 round&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;生成式AI公司Tripo在A3轮融资两个月后，再次获得4.45亿美元融资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;GenAI firm Tripo获$445M融资&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Euno获$23M融资扩展企业AI平台</title>
-    <link href="https://ventureburn.com/euno-raises-23m-enterprise-ai-context/"/>
-    <id>tag:weekly-report,2026:event-7e42f4a1</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Euno Raises $23M to Scale Enterprise AI Context Platform&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;企业AI上下文平台Euno完成2300万美元融资，用于扩展其平台。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲企业AI赛道获资本关注，Euno的上下文平台有望提升企业数据处理效率。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Wint获$36M融资扩展AI水务</title>
-    <link href="https://ventureburn.com/wint-raises-36m-ai-water-intelligence/"/>
-    <id>tag:weekly-report,2026:event-cae104a3</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Wint Raises $36M to Expand AI Water Intelligence&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI水资源智能公司Wint完成3600万美元融资，用于扩展其AI水务解决方案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲水资源管理需求迫切，AI水务技术获资本青睐，市场潜力大。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>ZeroRisk获$10M A轮融资</title>
-    <link href="https://ventureburn.com/zerorisk-secures-10m-series-a/"/>
-    <id>tag:weekly-report,2026:event-821803dd</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;ZeroRisk Secures $10M Series A to Transform Merchant Cybersecurity&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;网络安全公司ZeroRisk完成1000万美元A轮融资，用于转型商户网络安全业务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲网络安全赛道获千万级美元融资，显示该地区数字支付安全需求增长，为安全服务商提供合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Finmo交易量破$1B，新加坡设全球总部</title>
-    <link href="https://www.techinasia.com/news/finmo-opens-global-hq-in-singapore-after-1b-volume-milestone"/>
-    <id>tag:weekly-report,2026:event-dee0cc33</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Finmo opens global HQ in Singapore after $1b volume milestone&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;金融科技公司Finmo在交易量突破10亿美元后，于新加坡开设全球总部。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡金融科技枢纽地位强化，Finmo扩张为本地支付和合规服务带来合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Databricks发布Solvency II报告方案</title>
-    <link href="https://www.databricks.com/blog/practical-approach-end-end-solvency-ii-reporting-databricks"/>
-    <id>tag:weekly-report,2026:event-12530ae5</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;A practical approach to end-to-end Solvency II reporting in Databricks&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Databricks发布博客，介绍在其平台上实现端到端Solvency II（欧洲偿付能力监管标准）报告的实际方法。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲保险业监管合规需求推动数据平台方案落地，Databricks此举为保险科技和数据服务商提供合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Databricks | 来源：Databricks Blog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>新加坡新法案拟加强大型金融机构倒闭保障</title>
-    <link href="https://fintechnews.sg/136879/regtech/mas-loss-absorbing-capacity-rules/"/>
-    <id>tag:weekly-report,2026:event-fb1f797c</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;New Singapore Bill Proposes Safeguards for Major Financial Firm Failures&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡提出新法案，拟为大型金融机构倒闭时提供保障措施，包括损失吸收能力规则。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡强化金融监管框架，大型金融机构需增加资本缓冲，为合规咨询和风险管理技术供应商带来业务机会。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PolicyStreet获三项行业大奖</title>
-    <link href="https://fintechnews.sg/136881/insurtech/policystreet-awards-2026/"/>
-    <id>tag:weekly-report,2026:event-15162ea8</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;PolicyStreet Bags Three Industry Wins, Including Two Regional Accolades&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;马来西亚保险科技公司PolicyStreet获得三项行业奖项，其中包括两项区域性荣誉。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚保险科技赛道竞争加剧，PolicyStreet的区域认可度提升，为保险科技合作方提供品牌背书和渠道机会。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>越南2Gbps家庭宽带市场竞争加剧</title>
-    <link href="https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-s-2-gbps-home-internet-battle-heats-up-5117887.html"/>
-    <id>tag:weekly-report,2026:event-29114cc5</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Vietnam’s 2 Gbps home internet battle heats up&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;越南多家电信运营商正在就2Gbps家庭宽带服务展开激烈竞争，以争夺高端用户市场。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;越南电信市场竞争升级，为网络设备供应商和内容分发网络服务商带来新订单机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：VnExpress Tech&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>苹果欧盟App Store新条款遭开发者反对</title>
-    <link href="https://www.pocketgamer.biz/apples-new-eu-app-store-terms-face-backlash-from-game-developer-groups/"/>
-    <id>tag:weekly-report,2026:event-96d204b1</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Apple’s new EU App Store terms face backlash from game and app developer groups&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;苹果在欧盟的新App Store条款遭到游戏和应用开发者团体的强烈反对。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧盟数字市场法案下苹果政策调整引发开发者反弹，游戏和应用开发商面临分成和合规压力&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Q2数据中心组件收入同比+182%</title>
-    <link href="https://www.mobileworldlive.com/ai-cloud/delloro-finds-q2-data-centre-component-revenue-jumps-182/"/>
-    <id>tag:weekly-report,2026:event-4c6387c9</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Data centre component revenue surges in Q2&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Dell&amp;#x27;Oro报告显示，第二季度数据中心组件收入同比增长182%。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球数据中心建设热潮推动组件需求爆发，光模块、电源、散热等供应链环节景气度高。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：industry_report | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>印度欺诈办公室建议调查小米</title>
-    <link href="https://www.mobileworldlive.com/regulation/indian-fraud-office-recommends-xiaomi-probe/"/>
-    <id>tag:weekly-report,2026:event-9e87f4fd</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Indian fraud office recommends Xiaomi probe&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度欺诈调查办公室建议对小米公司展开调查。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度监管风险上升，中国手机厂商在印运营面临合规挑战，本地化合作需求增加。&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：other | 地区：亚太 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Robinhood入股Crypto.com及OG.com</title>
-    <link href="https://fintechnews.sg/136908/crypto/robinhood-crypto-com-stake-og-com/"/>
-    <id>tag:weekly-report,2026:event-ea4141cf</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Robinhood Takes Equity Stakes in Crypto.com and Its Spin-Off OG.com&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国券商Robinhood宣布对Crypto.com及其分拆公司OG.com进行股权投资，具体金额未披露。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美头部券商入股全球加密交易所，显示传统金融与加密资产融合加速，为跨平台交易基础设施和合规服务带来需求。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>TerraPay连接Xend至Alipay+</title>
-    <link href="https://www.finextra.com/pressarticle/110845/terrapay-connects-xend-to-alipay?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-b2132240</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;TerraPay connects Xend to Alipay+&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;跨境支付公司TerraPay将菲律宾支付平台Xend连接到支付宝+（Alipay+）网络。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚跨境支付网络互联互通加速，TerraPay连接Xend至Alipay+，为跨境支付服务商提供新的合作通道。&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>8月手游榜：FGO周年庆强，Valorant Mobile上升</title>
-    <link href="https://www.pocketgamer.biz/august-2026-mobile-game-charts/"/>
-    <id>tag:weekly-report,2026:event-344c5406</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;August 2026 mobile game charts: Fate/Grand Order’s big anniversary, Valorant Mobile&amp;#x27;s rise and Brawl Stars’ worst month of the year&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;2026年8月移动游戏榜单显示，Fate/Grand Order周年庆表现强劲，Valorant Mobile上升，Brawl Stars遭遇年度最差月份。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球移动游戏市场格局变化，FGO和Valorant Mobile的强势表现反映IP和电竞化趋势&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Visa更新新加坡安全路线图应对AI支付诈骗</title>
-    <link href="https://fintechnews.sg/136892/ai/visa-singapore-security-roadmap-ai-scams/"/>
-    <id>tag:weekly-report,2026:event-4698f470</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Visa Updates Singapore Security Roadmap as AI Payment Scams Rise&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Visa更新了新加坡安全路线图，以应对日益上升的AI支付诈骗。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚AI诈骗风险上升，支付巨头加强安全布局，为反欺诈技术、AI安全解决方案和支付风控服务商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>圣淘沙名胜世界支持UPI支付</title>
-    <link href="https://fintechnews.sg/136950/payments/upi-payments-singapore-resorts-world-sentosa/"/>
-    <id>tag:weekly-report,2026:event-296f276c</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Indian Travellers Can Now Pay With UPI on Resorts World Sentosa Website&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度游客现在可以在新加坡圣淘沙名胜世界网站使用UPI支付。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度UPI支付跨境扩展至新加坡旅游场景，支付服务商和旅游平台迎来合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>波士顿动力分拆公司进军娱乐机器人</title>
-    <link href="https://thenextweb.com/news/dynamic-creatures-aldebaran"/>
-    <id>tag:weekly-report,2026:event-6704b3e0</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Boston Dynamics spinoff looks to build robots for entertainment&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;波士顿动力分拆公司Dynamic Creatures计划开发用于娱乐领域的机器人。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球机器人巨头布局娱乐场景，为文旅和主题公园行业带来新应用可能。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Meta推出AI助手Muse，Stripe提供支付支持</title>
-    <link href="https://www.finextra.com/newsarticle/48367/meta-rolls-out-personal-ai-assistant-muse-with-support-from-stripe?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-4897cca2</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Meta rolls out personal AI assistant Muse, with support from Stripe&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Meta推出个人AI助手Muse，Stripe将为其提供支付支持。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球科技巨头Meta进军个人AI助手领域，与Stripe合作，将推动AI商业化应用和支付集成需求。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>埃森哲与谷歌云成立企业AI小组</title>
-    <link href="https://www.mobileworldlive.com/google/accenture-google-cloud-form-enterprise-ai-group/"/>
-    <id>tag:weekly-report,2026:event-359a3270</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Accenture, Google Cloud form enterprise AI group&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;埃森哲与谷歌云宣布成立企业AI合作小组，共同推动企业级AI解决方案落地。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球企业AI服务市场快速增长，系统集成商与云巨头合作将加速企业AI应用落地，为行业客户提供转型路径。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Eftsure收购Relish</title>
-    <link href="https://www.finextra.com/pressarticle/110846/eftsure-acquires-relish?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-b2222706</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Eftsure acquires Relish&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;澳大利亚支付安全公司Eftsure收购了Relish，具体金额未披露。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;澳大利亚支付安全领域并购活跃，Eftsure收购Relish将增强其支付安全产品线，为B2B支付安全市场带来整合机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：ma | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Visa用链上借贷支持稳定币卡</title>
-    <link href="https://fintechnews.sg/136931/digitalassets/visa-onchain-lending-stablecoin-cards/"/>
-    <id>tag:weekly-report,2026:event-79e5bd45</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Visa Taps Onchain Lending to Help Fund Stablecoin Cards&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Visa利用链上借贷为稳定币卡提供资金支持。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付巨头Visa探索链上借贷，稳定币支付和DeFi基础设施迎来合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>零售商加大AI在供应链和智能购物中的应用</title>
-    <link href="https://www.retaildive.com/news/retailers-AI-supply-chain-smart-shopping/829609/"/>
-    <id>tag:weekly-report,2026:event-11cdda62</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Retailers bet on AI for supply chain, ‘smart’ shopping&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;零售商正加大在供应链管理和智能购物体验中应用AI技术的投入。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球零售业AI应用加速，供应链优化和个性化购物体验成为核心场景，为AI解决方案商提供市场机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Retail Dive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>FCC拟就太空服务频谱投票</title>
-    <link href="https://www.mobileworldlive.com/fcc/fcc-eyes-spectrum-vote-for-space-based-services/"/>
-    <id>tag:weekly-report,2026:event-691214b9</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;FCC eyes spectrum vote for space-based services&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国联邦通信委员会（FCC）计划就太空服务频谱分配进行投票。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国太空通信频谱政策将影响卫星互联网和太空服务市场格局，相关企业需关注政策动向。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Zepto用Databricks扩展AI客服</title>
-    <link href="https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow"/>
-    <id>tag:weekly-report,2026:event-6e866a0f</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Databricks发布博客，介绍Zepto如何利用Databricks和MLflow，以评估优先的方式扩展AI客服代理。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度电商Zepto的AI客服实践展示评估驱动开发模式，为AI客服技术供应商和电商平台提供参考。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Databricks | 来源：Databricks Blog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Apple Watch新AI功能引发监听常态化讨论</title>
-    <link href="https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/"/>
-    <id>tag:weekly-report,2026:event-185cf912</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Apple Watch’s new AI features are normalizing the idea that technology is always listening&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Apple Watch新增AI功能，引发关于技术设备持续监听常态化的讨论。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球消费电子巨头Apple Watch引入AI功能，为可穿戴设备和隐私技术领域带来新议题&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>探讨隐私与小额储蓄的权衡</title>
-    <link href="https://ventureburn.com/privacy-matters-more-than-chasing-small-savings/"/>
-    <id>tag:weekly-report,2026:event-b57c654d</id>
-    <published>2026-09-09T00:00:00Z</published>
-    <updated>2026-09-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Privacy Matters More Than Chasing Small Savings&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;文章讨论在追求小额储蓄时隐私的重要性，可能涉及金融科技或消费者数据保护议题。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲金融科技市场关注隐私保护，为数据合规服务商提供机会&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：other | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
+    <title>世界银行推动新兴市场数字支付</title>
+    <link href="https://www.finextra.com/newsarticle/48373/world-bank-targets-more-digital-payments-in-emerging-markets?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
+    <id>tag:weekly-report,2026:event-d20d30e1</id>
+    <published>2026-09-10T00:00:00Z</published>
+    <updated>2026-09-10T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;World Bank targets more digital payments in emerging markets&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;世界银行计划推动新兴市场扩大数字支付使用。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球多边机构加大新兴市场数字支付投入，将带动金融基础设施建设和普惠金融项目，为支付技术公司提供政策红利。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
   </entry>
 </feed>

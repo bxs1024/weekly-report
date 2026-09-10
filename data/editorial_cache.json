@@ -744,29 +744,29 @@
       "generated_at": "2026-09-10 05:19"
     },
     "weekly:2026-W37": {
-      "input_hash": "fe4a31d6e151573fb460ef4e781a2829bdb3c9a066c5479119dfac49b580002e",
+      "input_hash": "7c6a8f3963f2904a44e147629eedc465311bb3087436d98b9b1b8a5bd0376085",
       "editorial": {
-        "editorial_title": "平台巨头跨界，支付与AI基建重塑亚太",
-        "mainline": "本周，支付巨头Adyen加速印度扩张，Grab跨界汽车销售，Naver与法国企业洽谈AI合作，显示平台正突破原有边界。同时，新加坡强化金融监管，中东主权基金AI资本规模庞大但流向不明，为出海企业带来机遇与不确定性。",
+        "editorial_title": "AI支付标准争夺与亚太本地化扩张",
+        "mainline": "蚂蚁国际与Visa、万事达联手制定AI支付安全标准，Adyen同步进军印度，支付底层规则正被重写；与此同时，Grab从出行切入汽车交易、Kakao上线付费会员，亚太平台集体向交易与订阅要收入。出海BD需重新评估收单合作与本地化产品的窗口期。",
         "themes": {
-          "ai_infra": "波士顿动力分拆公司转向娱乐机器人，为文旅场景提供新可能。Kakao推出付费会员，腾讯云支持Bookme沙特扩张，显示亚太云厂商正以AI服务绑定海外客户，从基础设施向行业解决方案延伸。",
-          "payments": "Adyen计划在印度扩张，直接挑战本地支付服务商。Kakao Bank推出MMA2026产品，Finmo交易量破10亿美元并设新加坡总部，圣淘沙名胜世界支持UPI支付，显示支付基础设施正加速向高增长市场渗透。",
-          "expansion": "Square Enix宣布重制《Romancing SaGa 3》，重启经典IP吸引全球玩家。Grab与柬埔寨合作推进EV政策与基建，Naver与法国企业讨论AI合作，显示区域扩张从单纯市场进入转向本地化生态共建。",
-          "developer": "阿布扎比称金融中心有1000亿美元AI资本，但具体投资方向不明。Q2数据中心组件收入同比增182%，Savvy Wealth获1亿美元融资扩展AI财富平台，显示AI硬件与财富管理吸金强劲，但主权基金动向需警惕。",
-          "compliance": "新加坡新法案拟加强大型金融机构倒闭保障，Databricks发布Solvency II报告方案，Robinhood入股Crypto.com及OG.com，显示监管收紧与合规工具需求同步增长，为风险管理技术供应商带来窗口。",
-          "commerce": "Grab推出汽车销售市场，从出行平台向汽车交易延伸。Kakao推出延迟七年的会员服务，Nuuly推进履约中心自动化，MercadoLibre拟发债15亿美元，显示电商平台正通过新品类与融资巩固生态。"
+          "ai_infra": "阿里将AI代理铺向跨平台场景以支撑全球扩张，Kakao则用付费会员把流量转为经常性收入；波士顿动力分拆公司切入娱乐机器人，为文旅场景提供新硬件入口。基础设施竞争正从算力转向代理层与场景绑定。",
+          "payments": "Adyen计划在印度扩张，直接冲击本地收单与商户解决方案格局；Mastercard、Visa与蚂蚁国际合作提升AI支付安全，Finmo交易量破10亿美元并把全球总部设在新加坡。支付竞争焦点从费率转向安全标准与合规能力。",
+          "expansion": "蚂蚁国际与Visa、万事达共同开发AI支付，意味着跨境支付基础设施的规则制定权开始向中资参与方倾斜；Stryv借Shopee在亚洲快速放量，验证平台代运营仍是品牌出海最短路径。Square Enix则用IP联名与重制维持区域热度。",
+          "compliance": "新加坡新法案要求大型金融机构增加资本缓冲，Databricks随即推出Solvency II报告方案承接合规需求；印尼OJK考虑限制IDX持股、Gojek推封顶票价，显示监管同时收紧金融与出行定价。合规技术供应商迎来窗口。",
+          "developer": "阿布扎比宣称金融中心坐拥1000亿美元AI资本，但具体投向未明，令全球AI融资方既兴奋又难对接；Savvy Wealth获1亿美元扩展AI财富平台，Actionable融资860万欧元扩平台。中东资本与AI财富管理正形成新配对。",
+          "commerce": "Grab从出行平台延伸出汽车销售市场，把司机与车主流量直接变现；Kakao在延迟七年后推出会员服务，补齐订阅收入短板。MercadoLibre发债10亿美元、Nuuly自动化履约中心，电商竞争转向资金与履约效率。"
         },
         "theme_titles": {
-          "ai_infra": "娱乐机器人落地，亚太云厂商借AI出海",
-          "payments": "Adyen进军印度，支付巨头争夺亚太商户",
-          "expansion": "Square Enix重制经典，Grab深耕柬埔寨EV",
-          "developer": "中东AI资本规模庞大，但流向成谜",
-          "compliance": "新加坡强化金融监管，合规科技需求上升",
-          "commerce": "Grab跨界卖车，电商平台向高客单价延伸"
+          "ai_infra": "阿里跨平台AI代理出海，韩系平台转向付费",
+          "payments": "Adyen进军印度，AI支付安全联盟成形",
+          "expansion": "蚂蚁联合卡组织定标准，Shopee助品牌扩亚洲",
+          "compliance": "新加坡加码金融机构退出保障，印尼收紧持股",
+          "developer": "阿布扎比千亿AI资本待配置，财富平台吸金",
+          "commerce": "Grab开卖汽车，Kakao补上会员课"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-10 05:19"
+      "generated_at": "2026-09-10 14:01"
     }
   }
 }

@@ -1,11 +1,19 @@
 {
   "version": 1,
-  "generated_at": "2026-09-10T04:51:22.559223+08:00",
+  "generated_at": "2026-09-10T13:33:32.599903+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-10T04:51:22.559223+08:00",
+      "observed_at": "2026-09-10T13:33:32.599903+08:00",
       "jobs": [
+        {
+          "id": "744000148668029",
+          "title": "Senior Insider Threat Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000148668029/senior-insider-threat-engineer/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000148505648",
           "title": "Senior Manager, Strategic Projects",
@@ -118,18 +126,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000148194054",
-          "title": "Key Accounts Associate, GFB VN",
-          "url": "https://www.grab.careers/en/jobs/744000148194054/key-accounts-associate-gfb-vn/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-10T04:51:22.559223+08:00",
+      "observed_at": "2026-09-10T13:33:32.599903+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -179,69 +181,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "8138662",
-          "title": "Account Executive , Grower - Iberia Market",
-          "url": "https://stripe.com/careers/listing/account-executive-grower-iberia-market/8138662",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "7993151",
-          "title": "Account Executive - Enterprise, Grower",
-          "url": "https://stripe.com/careers/listing/account-executive-enterprise-grower/7993151",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "8178881",
-          "title": "Account Executive - Enterprise, Growth",
-          "url": "https://stripe.com/careers/listing/account-executive-enterprise-growth/8178881",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "8122192",
-          "title": "Account Executive - LATAM",
-          "url": "https://stripe.com/careers/listing/account-executive-latam/8122192",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "8108891",
-          "title": "Account Executive - SEA, Platforms (Grower)",
-          "url": "https://stripe.com/careers/listing/account-executive-sea-platforms-grower/8108891",
-          "function_tags": [
-            "engineering",
-            "sales"
-          ]
-        },
-        {
-          "id": "8181024",
-          "title": "Account Executive Product - Radar",
-          "url": "https://stripe.com/careers/listing/account-executive-product-radar/8181024",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "8175830",
-          "title": "Account Executive Product - Tax",
-          "url": "https://stripe.com/careers/listing/account-executive-product-tax/8175830",
-          "function_tags": [
-            "sales"
-          ]
         }
       ]
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-10T04:51:22.559223+08:00",
+      "observed_at": "2026-09-10T13:33:32.599903+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
