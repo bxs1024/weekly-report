@@ -744,29 +744,29 @@
       "generated_at": "2026-09-11 05:11"
     },
     "weekly:2026-W37": {
-      "input_hash": "305260f21249c03e1a34a4fbe79acfbc2d9d2ad7d69ac66139de5da58ae0f927",
+      "input_hash": "11f751997bb416579caef7de73d970963460d4d38edfc5dc1b82d7e9e01015ce",
       "editorial": {
-        "editorial_title": "中东资本重构游戏版图，AI支付与云基建加速出海",
-        "mainline": "中东主权基金拟整合EA与Savvy，若落地将改变全球游戏发行格局；与此同时，阿里、蚂蚁、Naver以AI代理、AI支付和AI工厂切入欧美与印度市场，出海路径从产品输出转向基础设施与合规能力输出。",
+        "editorial_title": "亚太支付与AI基建双线并进，中东资本重塑游戏版图",
+        "mainline": "本周亚太支付网络加速互联，蚂蚁国际将代理支付铺向十个钱包，Nubank反向进军美国；同时中东主权基金酝酿整合全球游戏资产，AI资本在阿布扎比与沙特加速集结。两条线索共同指向：跨境金融基建与区域资本正在重新划分出海版图。",
         "themes": {
-          "ai_infra": "阿里部署跨平台AI代理推动全球扩张，Cloudflare同步更新API参考降低集成门槛；Kakao推出付费会员服务，试图以订阅收入反哺AI与云投入。波士顿动力分拆公司切入娱乐机器人，为云边协同提供新场景。",
-          "payments": "Nubank以高收益储蓄和信用卡进军美国，直接挑战本土数字银行；Adyen计划在印度扩张，Kakao Bank推出MMA2026产品。Mastercard、Visa与蚂蚁国际合作提升AI支付安全，跨境支付竞争转向风控与合规能力。",
-          "expansion": "Naver提议与法国共建AI工厂，欧洲算力市场迎来亚洲新玩家；蚂蚁国际与Visa、万事达合作开发AI支付，Stryv借Shopee在亚洲快速起量。Square Enix与graniph联名DQ周边，IP变现路径向服饰零售延伸。",
-          "developer": "沙特PIF考虑合并EA与Savvy，若落地将重塑全球游戏发行格局；STV AI基金获Arcapita投资，阿布扎比称金融中心坐拥千亿美元AI资本。Savvy Wealth获1亿美元融资扩展AI财富平台，中东资本正从LP转向直投与整合。",
-          "compliance": "新加坡新法案拟加强大型金融机构倒闭保障，并实施投资诈骗责任框架，合规成本上升；Databricks发布Solvency II报告解决方案，瞄准保险合规技术需求。Robinhood入股Crypto.com及OG.com，加密资产合规化进程加速。",
-          "commerce": "Grab推出汽车销售市场，从出行平台向汽车电商延伸；Kakao推出延迟七年的会员服务，补足电商闭环。Mastercard推出AI购物代理服务，Nuuly推进履约中心自动化，商户侧竞争转向AI导购与物流效率。"
+          "ai_infra": "阿里将AI代理推向跨平台全球扩张，Kakao在韩国推出付费会员服务，Rakuten Travel以酒店连锁特惠刺激预订。亚太平台正从流量竞争转向AI驱动的服务分层与会员变现。",
+          "payments": "Nubank以高收益储蓄和信用卡切入美国市场，Adyen计划印度扩张，蚂蚁国际将代理支付接入十个亚太钱包。拉美数字银行与亚洲支付网络同时向外延伸，跨境金融产品竞争升温。",
+          "expansion": "Eastar Jet与飞猪合作瞄准中国出境游复苏，Naver提议与法国共建AI工厂，蚂蚁国际联合Visa和万事达开发AI支付。亚太企业正以旅游和AI为切口，同时向中国与欧洲延伸合作网络。",
+          "developer": "沙特PIF考虑将EA与Savvy合并，STV新兴科技基金获Arcapita支持，阿布扎比宣称金融中心坐拥千亿美元AI资本。中东主权基金正从财务投资转向产业整合，游戏与AI成为核心标的。",
+          "commerce": "DHL与阿里合作推出AI物流方案，Grab上线汽车销售市场，Kakao延迟七年的会员服务终于落地。电商与物流平台正把AI能力嵌入供应链和商户服务，寻找会员与交易之外的新收入。",
+          "compliance": "新加坡新法案拟加强大型金融机构倒闭保障，并实施投资诈骗责任框架，Databricks同步发布Solvency II报告方案。监管收紧正推动合规科技与风险管理工具成为金融机构的刚性支出。"
         },
         "theme_titles": {
-          "ai_infra": "阿里AI代理出海，Kakao推付费会员补云生态",
-          "payments": "Nubank攻美，Adyen拓印，AI支付安全联盟成形",
-          "expansion": "Naver提议法国建AI工厂，蚂蚁联合卡组织拓支付",
-          "developer": "沙特PIF拟合并EA与Savvy，中东游戏资本整合提速",
-          "compliance": "新加坡强化金融机构退出保障，Databricks推Solvency II方案",
-          "commerce": "Grab切入汽车销售，Mastercard推AI购物代理"
+          "ai_infra": "阿里跨平台AI代理落地，Kakao付费会员破局",
+          "payments": "Nubank反向进军美国，蚂蚁代理支付扩至十钱包",
+          "expansion": "Eastar Jet联手飞猪，Naver提议法国共建AI工厂",
+          "developer": "沙特PIF拟合并EA与Savvy，中东AI资本集结",
+          "commerce": "DHL与阿里共推AI物流，Grab切入汽车销售",
+          "compliance": "新加坡强化金融机构退出保障与诈骗责任"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-11 05:11"
+      "generated_at": "2026-09-11 13:59"
     }
   }
 }

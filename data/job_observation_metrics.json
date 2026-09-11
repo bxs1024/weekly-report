@@ -1,24 +1,24 @@
 {
-  "observed_at": "2026-09-11T04:45:52.186989+08:00",
+  "observed_at": "2026-09-11T13:35:55.272430+08:00",
   "source_count": 3,
-  "raw_count": 61,
+  "raw_count": 63,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 7,
-      "inventory_count": 18,
+      "count": 4,
+      "inventory_count": 20,
       "signal_count": 1,
-      "added_count": 4,
-      "removed_count": 3,
+      "added_count": 3,
+      "removed_count": 1,
       "clusters": {
-        "engineering": 1
+        "engineering": 1,
+        "operations": 1,
+        "partnerships": 1
       },
-      "removed_clusters": {
-        "engineering": 3
-      }
+      "removed_clusters": {}
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
@@ -38,10 +38,10 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 1,
+      "count": 0,
       "inventory_count": 36,
       "signal_count": 0,
-      "added_count": 1,
+      "added_count": 0,
       "removed_count": 0,
       "clusters": {},
       "removed_clusters": {}
@@ -60,58 +60,40 @@
       "window": "2026-W37",
       "window_start": "2026-09-11",
       "window_end": "2026-09-11",
-      "detected_at": "2026-09-11T04:45:52.186989+08:00",
-      "baseline_count": 17,
-      "current_count": 18,
-      "added_count": 4,
-      "removed_count": 3,
+      "detected_at": "2026-09-11T13:35:55.272430+08:00",
+      "baseline_count": 18,
+      "current_count": 20,
+      "added_count": 3,
+      "removed_count": 1,
       "clusters": {
-        "engineering": 1
+        "engineering": 1,
+        "operations": 1,
+        "partnerships": 1
       },
-      "removed_clusters": {
-        "engineering": 3
-      },
+      "removed_clusters": {},
       "evidence_refs": [
         {
-          "job_id": "744000148837829",
-          "title": "Software Engineer, Full Stack",
-          "url": "https://www.grab.careers/en/jobs/744000148837829/software-engineer-full-stack/",
+          "job_id": "744000148920619",
+          "title": "Senior Software Engineer, Backend - Business Platform",
+          "url": "https://www.grab.careers/en/jobs/744000148920619/senior-software-engineer-backend-business-platform/",
           "change": "added"
         },
         {
-          "job_id": "744000148741809",
-          "title": "Manager, Driver Communications",
-          "url": "https://www.grab.careers/en/jobs/744000148741809/manager-driver-communications/",
+          "job_id": "744000148920149",
+          "title": "Manager II, IT Operations & Automation",
+          "url": "https://www.grab.careers/en/jobs/744000148920149/manager-ii-it-operations-automation/",
           "change": "added"
         },
         {
-          "job_id": "744000148732859",
-          "title": "Country GrabKios Commercial Manager",
-          "url": "https://www.grab.careers/en/jobs/744000148732859/country-grabkios-commercial-manager/",
+          "job_id": "744000148915775",
+          "title": "Intern, Social Media & Partner Engagement",
+          "url": "https://www.grab.careers/en/jobs/744000148915775/intern-social-media-partner-engagement/",
           "change": "added"
         },
         {
-          "job_id": "744000148718262",
-          "title": "Senior Specialist, End-user Computing",
-          "url": "https://www.grab.careers/en/jobs/744000148718262/senior-specialist-end-user-computing/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000148399141",
-          "title": "Intern, Software Engineer Mobile",
-          "url": "https://www.grab.careers/en/jobs/744000148399141/intern-software-engineer-mobile/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000148234775",
-          "title": "Software Engineering Manager",
-          "url": "https://www.grab.careers/en/jobs/744000148234775/software-engineering-manager/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000148200349",
-          "title": "Software Engineering Manager II (Mobile)",
-          "url": "https://www.grab.careers/en/jobs/744000148200349/software-engineering-manager-ii-mobile/",
+          "job_id": "744000148404359",
+          "title": "Manager, Strategic Projects",
+          "url": "https://www.grab.careers/en/jobs/744000148404359/manager-strategic-projects/",
           "change": "removed"
         }
       ],
