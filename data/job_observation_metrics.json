@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-09-12T04:52:51.583179+08:00",
+  "observed_at": "2026-09-12T13:22:26.775962+08:00",
   "source_count": 3,
   "raw_count": 61,
   "source_stats": {
@@ -8,22 +8,13 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 22,
+      "count": 0,
       "inventory_count": 20,
-      "signal_count": 1,
-      "added_count": 11,
-      "removed_count": 11,
-      "clusters": {
-        "engineering": 4,
-        "operations": 2,
-        "ai": 2,
-        "partnerships": 1
-      },
-      "removed_clusters": {
-        "sales": 3,
-        "partnerships": 1,
-        "engineering": 2
-      }
+      "signal_count": 0,
+      "added_count": 0,
+      "removed_count": 0,
+      "clusters": {},
+      "removed_clusters": {}
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
@@ -43,182 +34,15 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 2,
+      "count": 0,
       "inventory_count": 34,
       "signal_count": 0,
       "added_count": 0,
-      "removed_count": 2,
+      "removed_count": 0,
       "clusters": {},
       "removed_clusters": {}
     }
   },
-  "candidate_signals": [
-    {
-      "candidate_id": "jobs-3e1bdecec58520e7",
-      "entity_id": "grab",
-      "entity": "Grab",
-      "region": "亚太",
-      "sector": "mobility_payment",
-      "source_type": "jobs_snapshot",
-      "signal_type": "function_buildout",
-      "cluster": "engineering",
-      "window": "2026-W37",
-      "window_start": "2026-09-12",
-      "window_end": "2026-09-12",
-      "detected_at": "2026-09-12T04:52:51.583179+08:00",
-      "baseline_count": 20,
-      "current_count": 20,
-      "added_count": 11,
-      "removed_count": 11,
-      "clusters": {
-        "engineering": 4,
-        "operations": 2,
-        "ai": 2,
-        "partnerships": 1
-      },
-      "removed_clusters": {
-        "sales": 3,
-        "partnerships": 1,
-        "engineering": 2
-      },
-      "evidence_refs": [
-        {
-          "job_id": "744000149061045",
-          "title": "Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000149061045/software-engineer-backend/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000148989219",
-          "title": "Product Marketing Manager – Digital Ads",
-          "url": "https://www.grab.careers/en/jobs/744000148989219/product-marketing-manager-digital-ads/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000148988609",
-          "title": "Project Manager, GrabAds Solutions",
-          "url": "https://www.grab.careers/en/jobs/744000148988609/project-manager-grabads-solutions/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000148976099",
-          "title": "Associate, Internal Audit - Mobility & Deliveries",
-          "url": "https://www.grab.careers/en/jobs/744000148976099/associate-internal-audit-mobility-deliveries/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000148964129",
-          "title": "Specialist, HR Operations (People Experience)",
-          "url": "https://www.grab.careers/en/jobs/744000148964129/specialist-hr-operations-people-experience/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000148949208",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000148949208/senior-software-engineer-backend/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000148948299",
-          "title": "GS - Service Success Specialist",
-          "url": "https://www.grab.careers/en/jobs/744000148948299/gs-service-success-specialist/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000148945093",
-          "title": "Senior Localization Engineer / Research Engineer, Robotics AI (Visual Navigation)",
-          "url": "https://www.grab.careers/en/jobs/744000148945093/senior-localization-engineer-research-engineer-robotics-ai-visual-navigation/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000148941964",
-          "title": "People Operations Business Partner",
-          "url": "https://www.grab.careers/en/jobs/744000148941964/people-operations-business-partner/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000148930019",
-          "title": "Senior AI Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000148930019/senior-ai-engineer/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000148928215",
-          "title": "Intern, Grab for Business",
-          "url": "https://www.grab.careers/en/jobs/744000148928215/intern-grab-for-business/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000148458125",
-          "title": "Merchant Growth Manager, Emerging",
-          "url": "https://www.grab.careers/en/jobs/744000148458125/merchant-growth-manager-emerging/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000148460230",
-          "title": "Merchant Account Manager (F&B)",
-          "url": "https://www.grab.careers/en/jobs/744000148460230/merchant-account-manager-fb/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000148461779",
-          "title": "Senior Client Partner (Sales)",
-          "url": "https://www.grab.careers/en/jobs/744000148461779/senior-client-partner-sales/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000148461490",
-          "title": "Senior Merchant Account Manager (F&B)",
-          "url": "https://www.grab.careers/en/jobs/744000148461490/senior-merchant-account-manager-fb/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000148459935",
-          "title": "Team Lead, Merchant Acquisition (F&B)",
-          "url": "https://www.grab.careers/en/jobs/744000148459935/team-lead-merchant-acquisition-fb/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000148461599",
-          "title": "Senior Key Account Manager, Grab for Business",
-          "url": "https://www.grab.careers/en/jobs/744000148461599/senior-key-account-manager-grab-for-business/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000148461559",
-          "title": "Merchant Sales Executive (F&B)",
-          "url": "https://www.grab.careers/en/jobs/744000148461559/merchant-sales-executive-fb/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000148460389",
-          "title": "Senior Manager, Deliveries Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000148460389/senior-manager-deliveries-strategy/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000148422939",
-          "title": "Lead Engineer, Innovation",
-          "url": "https://www.grab.careers/en/jobs/744000148422939/lead-engineer-innovation/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000148416399",
-          "title": "Manager, D&S Strategy, Planning & Special Project",
-          "url": "https://www.grab.careers/en/jobs/744000148416399/manager-ds-strategy-planning-special-project/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000148410300",
-          "title": "Senior Site Reliability Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000148410300/senior-site-reliability-engineer/",
-          "change": "removed"
-        }
-      ],
-      "status": "rejected",
-      "rejection_reason": "source_reset_suspected",
-      "promoted_event_id": ""
-    }
-  ],
+  "candidate_signals": [],
   "promoted_count": 0
 }
