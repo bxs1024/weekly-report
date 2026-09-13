@@ -1,69 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-09-12</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-09-13</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-09-13T16:08:39Z</updated>
+  <updated>2026-09-13T21:28:12Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>苹果高价iPhone与欧盟App Store规则引发讨论</title>
-    <link href="https://www.pocketgamer.biz/apples-2000-iphone-duo-and-the-backlash-against-new-eu-app-store-rules-week-in-mobile-games-podcast/"/>
-    <id>tag:weekly-report,2026:event-96931bb7</id>
-    <published>2026-09-12T00:00:00Z</published>
-    <updated>2026-09-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Apple&amp;#x27;s $2,000+ iPhone Duo and the backlash against new EU App Store rules | Week in Mobile Games podcast&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;播客讨论苹果推出2000美元以上的iPhone组合，以及欧盟新App Store规则引发的开发者反弹。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;苹果高端定价策略与欧盟监管变化影响移动游戏分发和支付生态，开发者需调整合规策略。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+    <title>Z.ai获$5B融资含$3B零息债券</title>
+    <link href="https://thenextweb.com/news/z-ai-5bn-hong-kong-zero-interest-convertible-bonds"/>
+    <id>tag:weekly-report,2026:event-773289ef</id>
+    <published>2026-09-13T00:00:00Z</published>
+    <updated>2026-09-13T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Z.ai raises $5bn in Hong Kong including $3bn of zero-interest bonds&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI公司Z.ai在香港完成50亿美元融资，其中包括30亿美元零息可转换债券。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;香港AI公司Z.ai获50亿美元巨额融资，零息债券结构创新，显示香港AI融资市场活跃，对亚太AI基础设施和算力服务商是重大机遇。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：The Next Web&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>NPCI FY26利润同比降32%至₹989Cr</title>
-    <link href="https://inc42.com/buzz/npcis-fy26-profit-drops-32-yoy-to-%e2%82%b9989-cr-as-tax-outgo-bhim-loss-surge/"/>
-    <id>tag:weekly-report,2026:event-ea4eec82</id>
-    <published>2026-09-12T00:00:00Z</published>
-    <updated>2026-09-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;NPCI’s FY26 Profit Drops 32% YoY To ₹989 Cr As Tax Outgo, BHIM Loss Surge&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度国家支付公司（NPCI）2026财年利润同比下降32%至98.9亿卢比，主要因税务支出增加及BHIM应用亏损扩大。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度支付基础设施核心机构利润下滑，反映UPI生态成本上升，支付服务商和银行合作方需关注费率调整风险。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Zomato对COD用户加收最高₹21费用</title>
-    <link href="https://inc42.com/buzz/zomato-starts-charging-cash-on-delivery-customers-up-to-%e2%82%b921-extra/"/>
-    <id>tag:weekly-report,2026:event-8814e7e2</id>
-    <published>2026-09-12T00:00:00Z</published>
-    <updated>2026-09-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Zomato Starts Charging Cash-On-Delivery Customers Up To ₹21 Extra&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度外卖平台Zomato开始对货到付款（COD）用户额外收取最高21卢比的费用。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度外卖平台Zomato对COD用户加收费用，旨在优化支付成本，可能影响用户支付习惯和平台利润率。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Flipkart旗下Super.money推出AI购物代理</title>
-    <link href="https://www.techinasia.com/news/flipkart-fintech-arm-supermoney-launches-ai-shopping-agents"/>
-    <id>tag:weekly-report,2026:event-b40f893f</id>
-    <published>2026-09-12T00:00:00Z</published>
-    <updated>2026-09-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Flipkart fintech arm Super.money launches AI shopping agents&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Flipkart旗下金融科技部门Super.money推出AI购物代理功能。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度电商巨头将AI融入金融科技场景，探索AI购物代理，为电商和金融科技融合提供新方向&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>群青智能获约24亿日元融资</title>
-    <link href="https://36kr.jp/501471/"/>
-    <id>tag:weekly-report,2026:event-a7f97a2e</id>
-    <published>2026-09-12T00:00:00Z</published>
-    <updated>2026-09-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;溶接工不足300万人、AIロボットが救う　中国「群青智能」が約24億円調達&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国焊接机器人公司群青智能完成约24亿日元（约合人民币1.2亿元）融资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国焊接机器人公司获融资，为工业自动化零部件供应商和AI视觉技术商带来合作机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>甲骨文因AI支出增加计提$700m重组成本</title>
-    <link href="https://www.techinasia.com/news/oracle-adds-700m-restructuring-costs-ai-spending-rises"/>
-    <id>tag:weekly-report,2026:event-fbe58112</id>
-    <published>2026-09-12T00:00:00Z</published>
-    <updated>2026-09-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Oracle adds $700m to restructuring costs as AI spending rises&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;甲骨文因AI支出增加，额外计提7亿美元重组成本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球云巨头加大AI投入导致成本上升，反映AI基础设施投资热潮，云服务商和硬件厂商将受益&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>中国AI产业转向智能体应用</title>
-    <link href="https://thenextweb.com/news/china-agents-inference-eu-compute"/>
-    <id>tag:weekly-report,2026:event-4fd0c9bc</id>
-    <published>2026-09-12T00:00:00Z</published>
-    <updated>2026-09-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;China’s AI industry is moving from models to agents, a state report says&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一份中国官方报告指出，中国人工智能产业正从模型开发转向智能体（Agent）应用，并提及欧盟计算资源相关议题。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI产业重心从模型转向智能体，为全球AI应用开发、算力服务及跨境合作带来新方向。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>日本AI初创企业图谱发布</title>
+    <link href="https://www.techinasia.com/visual-story/mapping-japans-leading-ai-startups"/>
+    <id>tag:weekly-report,2026:event-abf4fdd6</id>
+    <published>2026-09-13T00:00:00Z</published>
+    <updated>2026-09-13T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mapping the AI startups making waves in Japan&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Tech in Asia发布日本领先AI初创企业图谱，梳理了日本AI领域的代表性公司。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本AI初创企业图谱发布，为投资者和合作伙伴提供日本AI市场全景视图，便于发现合作与投资标的。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-09-13</title>
