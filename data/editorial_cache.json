@@ -744,46 +744,50 @@
       "generated_at": "2026-09-14 05:05"
     },
     "weekly:2026-W37": {
-      "input_hash": "8f0ccec567829dedbbb03cee5311f3274ba2ec4cc9d54bd1ea64b9a5aeac8420",
+      "input_hash": "c6cd001dc1ad230524de36c864792c42a6b8e4bd4693afc234f912d63d75d1fc",
       "editorial": {
-        "editorial_title": "中资平台借道旅游与物流重返亚洲增量市场",
-        "mainline": "本周中资平台以旅游和物流为切口重新连接亚太消费市场：飞猪与大众点评同步加码海外华人游客服务，DHL与阿里把AI引入跨境物流。与此同时，东南亚支付与韩国平台金融各自向跨境场景和付费会员延伸，出海BD应重新评估旅游分销、跨境收单与会员订阅三条合作路径。",
+        "editorial_title": "亚太平台竞逐AI代理与跨境支付新入口",
+        "mainline": "阿里部署跨平台AI代理、Naver提议共建欧洲AI工厂，亚太平台正把AI能力输出到全球；同时ZaloPay、Adyen、Nubank在跨境支付与海外市场加速落子。两条线交汇指向同一判断：亚太科技公司正从本土竞争转向以AI和支付为杠杆的全球化扩张。",
         "themes": {
-          "ai_infra": "阿里把跨平台AI代理推向全球扩张，Kakao则用付费会员服务把存量用户转为订阅收入，Rakuten Travel以酒店连锁特惠刺激预订。亚太平台竞争正从拉新补贴转向AI工具与会员体系的双轨变现。",
-          "payments": "ZaloPay上线海外旅行俱乐部，把支付账户嵌入出境消费场景；Adyen计划进入印度，Nubank则借美国扩张冲击1.5亿客户目标。支付机构的增量已从本土渗透转向跨境场景与新兴市场牌照。",
-          "expansion": "Eastar Jet与飞猪合作吸引中国游客，大众点评同步在海外扩张服务中国游客，Naver则提议与法国共建欧洲AI工厂。中资平台正以旅游流量为筹码，换取亚太航司与本地服务商的合作位。",
-          "developer": "沙特PIF考虑合并EA与Savvy，阿布扎比宣称金融中心握有千亿美元AI资本，STV的AI基金获Arcapita支持。中东资本正把游戏、AI与体育俱乐部整合为同一投资组合，体育科技与球迷互动平台将迎来并购窗口。",
-          "compliance": "新加坡拟立法加强大型金融机构倒闭保障并实施投资诈骗责任框架，加州则立法限制16岁以下儿童使用社交媒体，欧盟App Store新规争议持续。合规成本正从金融业向平台内容与未成年人保护扩散。",
-          "commerce": "DHL与阿里合作推出AI物流服务，Grab上线汽车销售市场，Kakao延迟七年的会员服务终于落地。电商竞争正从商品交易延伸至物流智能化、耐用消费品与会员订阅的复合闭环。"
+          "ai_infra": "阿里把AI代理推向跨平台全球扩张，Naver则提议与法国共建欧洲AI工厂；Kakao上线付费会员、Rakuten Travel用酒店连锁特惠拉动预订。平台正把AI能力与会员变现捆绑，向海外市场输出。",
+          "payments": "ZaloPay把支付嵌入海外旅行俱乐部，Nubank借赞助银行加速美国扩张并瞄准1.5亿客户，Adyen计划进入印度。支付公司正从本土收单转向跨境场景与海外牌照，旅行和电商成为新入口。",
+          "expansion": "Eastar Jet与飞猪合作吸引中国游客，大众点评海外扩张服务出境游人群；Naver扩大与法国AI合作。中资平台正把出境游流量导向海外航司与本地服务，AI合作则成为进入欧洲的跳板。",
+          "developer": "沙特PIF考虑合并EA与Savvy，阿布扎比称金融中心坐拥千亿美元AI资本，STV新兴科技基金获Arcapita支持；游戏高管跨界收购Bath City FC。中东正把游戏、体育与AI资产纳入同一资本平台。",
+          "compliance": "新加坡拟加强大型金融机构倒闭保障并实施投资诈骗责任框架，加州立法限制16岁以下儿童使用社交媒体，欧盟App Store新规与苹果高价iPhone组合引发争议。合规成本正从金融向平台与消费电子传导。",
+          "commerce": "DHL与阿里合作推AI物流服务，Grab推出汽车销售市场，Kakao上线延迟七年的会员服务，Reformation活跃客户增长23%。物流与会员体系正成为电商平台提升跨境履约和复购的关键抓手。"
         },
         "theme_titles": {
-          "ai_infra": "亚太平台从流量补贴转向AI代理与付费会员变现",
-          "payments": "东南亚支付商把跨境旅行与印度市场作为新增长极",
-          "expansion": "中资旅游平台与韩航联手争夺中国出境客流",
-          "developer": "中东主权资本把游戏与AI资产打包进体育娱乐版图",
-          "compliance": "新加坡与加州同步收紧金融与社媒责任边界",
-          "commerce": "跨境物流与出行平台把AI和汽车交易纳入电商闭环"
+          "ai_infra": "亚太平台AI代理与会员服务同步外扩",
+          "payments": "东南亚与拉美支付商同步抢滩海外场景",
+          "expansion": "中资旅游平台与韩航司联手承接出境游",
+          "developer": "中东资本把游戏与AI资产打包整合",
+          "compliance": "新加坡与加州同步收紧金融与社媒监管",
+          "commerce": "DHL与阿里把AI引入跨境物流履约"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-14 05:05"
+      "generated_at": "2026-09-15 06:03"
     },
     "weekly:2026-W38": {
-      "input_hash": "fcea07acc3369379110503d0673ad294e5e3f33524f798b5aa9db740b46769cc",
+      "input_hash": "edfc983e5cf80c1cf88c9b75145f77757d0f8a4f0be19b3191b6a4abb51eab04",
       "editorial": {
-        "editorial_title": "韩气候科技开门，AI重组与芯片狂飙",
-        "mainline": "韩国气候科技生态首次向外部资本开放对接窗口，同时甲骨文因AI投入承受巨额重组成本、燧原科技上市首日暴涨，显示AI基础设施正经历从传统软件向算力硬件的价值迁移，出海BD应关注韩国气候科技入口与AI算力链的再定价机会。",
+        "editorial_title": "中东共享网络开闸，AI治理与支付合规收紧",
+        "mainline": "中东电信基建转向共享室内网络，Rakuten Symphony与TAWAL在沙特落地，云化RAN供应商迎来新入口；同时微软自定AI控制规则、RBI草案标准化欺诈账户冻结，AI与支付的合规边界正被重新划定，出海企业需同步调整产品与风控架构。",
         "themes": {
-          "expansion": "Kakao Impact与Sopung Ventures将气候科技展示平台落地韩国，2027年首办即锁定本土初创对接；ElevenLabs则挖来Adyen前CFO操盘全球扩张，显示支付与语音AI的跨境人才流动正在加速。",
-          "ai_infra": "甲骨文为AI支出承担最高28亿美元重组成本，传统软件向AI转型的代价显性化；燧原科技上市首日股价涨2.8倍，资本正用真金白银为国产AI芯片定价，算力硬件与云服务的价值分化在加速。"
+          "ai_infra": "TAWAL与Rakuten Symphony在沙特推出共享室内网络，把电信基建从自建转向云化共享；甲骨文AI支出推高重组成本至28亿美元，Databricks加码Spark流处理，Meta Lab门店翻倍，算力与零售场景同步扩张。",
+          "expansion": "Kakao Impact与Sopung Ventures发起韩国气候周，为气候科技初创提供对接入口；ElevenLabs聘请前Adyen CFO推进全球扩张，微软新AI准则与Anthropic研究相悖，扩张与治理分歧并行。",
+          "payments": "Thunes将跨境支付扩至中东六国，爱尔兰银行与Stripe合作推进数字化转型；Tabby以65亿美元估值融资2.33亿美元，电商支付与欺诈趋势报告同步发布，中东与欧洲支付基建加速重构。",
+          "compliance": "微软制定AI控制规则，试图在监管落地前自设治理框架；RBI发布草案标准化欺诈账户冻结流程，印度支付风控从个案处理转向统一规则，合规科技与AI安全服务商迎来接口机会。"
         },
         "theme_titles": {
-          "expansion": "Kakao联合Sopung发起韩国气候周，ElevenLabs挖Adyen前CFO",
-          "ai_infra": "甲骨文AI重组成本达28亿美元，燧原上市首日涨2.8倍"
+          "ai_infra": "沙特共享室内网络落地，云化RAN打开中东入口",
+          "expansion": "Kakao发起韩国气候周，ElevenLabs挖角Adyen CFO",
+          "payments": "Thunes扩中东六国跨境支付，Tabby估值冲65亿美元",
+          "compliance": "微软自定AI控制规则，RBI草案标准化账户冻结"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-14 14:11"
+      "generated_at": "2026-09-15 06:03"
     }
   }
 }
