@@ -1,29 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-09-13</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-09-14</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-09-13T21:28:12Z</updated>
+  <updated>2026-09-14T06:33:58Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Z.ai获$5B融资含$3B零息债券</title>
-    <link href="https://thenextweb.com/news/z-ai-5bn-hong-kong-zero-interest-convertible-bonds"/>
-    <id>tag:weekly-report,2026:event-773289ef</id>
-    <published>2026-09-13T00:00:00Z</published>
-    <updated>2026-09-13T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Z.ai raises $5bn in Hong Kong including $3bn of zero-interest bonds&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI公司Z.ai在香港完成50亿美元融资，其中包括30亿美元零息可转换债券。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;香港AI公司Z.ai获50亿美元巨额融资，零息债券结构创新，显示香港AI融资市场活跃，对亚太AI基础设施和算力服务商是重大机遇。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>甲骨文AI支出导致重组成本或达28亿美元</title>
+    <link href="https://fintechnews.sg/137182/ai/oracle-restructuring-costs-ai-spending/"/>
+    <id>tag:weekly-report,2026:event-b917cb9c</id>
+    <published>2026-09-14T00:00:00Z</published>
+    <updated>2026-09-14T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Oracle Restructuring Costs Could Reach US$2.8 Billion as AI Spending Grows&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;甲骨文公司因加大AI支出，重组成本可能高达28亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美企业级IT巨头重组成本高企，反映传统软件向AI转型的阵痛，为云迁移和AI基础设施服务商带来机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：北美 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>日本AI初创企业图谱发布</title>
-    <link href="https://www.techinasia.com/visual-story/mapping-japans-leading-ai-startups"/>
-    <id>tag:weekly-report,2026:event-abf4fdd6</id>
-    <published>2026-09-13T00:00:00Z</published>
-    <updated>2026-09-13T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mapping the AI startups making waves in Japan&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Tech in Asia发布日本领先AI初创企业图谱，梳理了日本AI领域的代表性公司。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本AI初创企业图谱发布，为投资者和合作伙伴提供日本AI市场全景视图，便于发现合作与投资标的。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>2026年电商支付与欺诈趋势报告发布</title>
+    <link href="https://fintechnews.sg/137156/e-commerce/top-e-commerce-payment-and-fraud-trends-in-2026/"/>
+    <id>tag:weekly-report,2026:event-a7ca8765</id>
+    <published>2026-09-14T00:00:00Z</published>
+    <updated>2026-09-14T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Top E-Commerce Payment and Fraud Trends in 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;发布2026年电商支付与欺诈趋势报告，分析行业未来发展方向。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太电商支付与反欺诈趋势报告发布，为支付服务商和风控技术公司提供市场方向参考。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>某富裕国家PC价格飙升近40%</title>
+    <link href="https://e.vnexpress.net/news/tech/tech-news/pc-prices-in-world-s-second-richest-country-surge-nearly-40-5119905.html"/>
+    <id>tag:weekly-report,2026:event-57813838</id>
+    <published>2026-09-14T00:00:00Z</published>
+    <updated>2026-09-14T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;PC prices in world&amp;#x27;s second-richest country surge nearly 40%&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;全球第二富裕国家的PC价格飙升近40%。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚PC市场价格大幅上涨，反映供应链成本压力，为本地组装和替代方案带来机会。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：越南 | 来源：VnExpress Tech&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Meta Lab零售门店数量将翻倍</title>
+    <link href="https://www.modernretail.co/operations/meta-lab-known-for-ai-glasses-is-nearly-doubling-its-retail-store-footprint/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
+    <id>tag:weekly-report,2026:event-c247799d</id>
+    <published>2026-09-14T00:00:00Z</published>
+    <updated>2026-09-14T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Meta Lab, known for AI glasses, is nearly doubling its retail store footprint&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Meta Lab（以AI眼镜闻名）计划将其零售门店数量增加近一倍。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球科技巨头扩张AI硬件零售渠道，为线下零售和AI硬件供应链带来机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>燧原科技上市首日股价涨2.8倍</title>
+    <link href="https://36kr.jp/501504/"/>
+    <id>tag:weekly-report,2026:event-d967e934</id>
+    <published>2026-09-14T00:00:00Z</published>
+    <updated>2026-09-14T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;赤字でも時価総額4兆円　中国AI半導体「燧原科技」、上場初日に株価2.8倍&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国AI半导体公司燧原科技上市首日股价上涨2.8倍，市值达4万亿日元（约合人民币2000亿元），尽管公司仍处于亏损状态。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI芯片公司上市首日暴涨，反映市场对国产AI算力的强烈需求，为相关产业链带来投资机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-09-13</title>

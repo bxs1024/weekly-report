@@ -1,11 +1,19 @@
 {
   "version": 1,
-  "generated_at": "2026-09-14T04:39:56.166413+08:00",
+  "generated_at": "2026-09-14T13:45:00.925745+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-14T04:39:56.166413+08:00",
+      "observed_at": "2026-09-14T13:45:00.925745+08:00",
       "jobs": [
+        {
+          "id": "744000149229199",
+          "title": "Senior Infrastructure Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000149229199/senior-infrastructure-engineer/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000149061045",
           "title": "Software Engineer, Backend",
@@ -136,26 +144,12 @@
           "title": "Senior Specialist, End-user Computing",
           "url": "https://www.grab.careers/en/jobs/744000148718262/senior-specialist-end-user-computing/",
           "function_tags": []
-        },
-        {
-          "id": "744000148668029",
-          "title": "Senior Insider Threat Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000148668029/senior-insider-threat-engineer/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000148505648",
-          "title": "Senior Manager, Strategic Projects",
-          "url": "https://www.grab.careers/en/jobs/744000148505648/senior-manager-strategic-projects/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-14T04:39:56.166413+08:00",
+      "observed_at": "2026-09-14T13:45:00.925745+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -210,7 +204,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-14T04:39:56.166413+08:00",
+      "observed_at": "2026-09-14T13:45:00.925745+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
