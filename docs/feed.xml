@@ -1,213 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-09-14</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-09-15</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-09-14T22:18:17Z</updated>
+  <updated>2026-09-15T06:39:40Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>甲骨文AI支出导致重组成本或达28亿美元</title>
-    <link href="https://fintechnews.sg/137182/ai/oracle-restructuring-costs-ai-spending/"/>
-    <id>tag:weekly-report,2026:event-b917cb9c</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Oracle Restructuring Costs Could Reach US$2.8 Billion as AI Spending Grows&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;甲骨文公司因加大AI支出，重组成本可能高达28亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美企业级IT巨头重组成本高企，反映传统软件向AI转型的阵痛，为云迁移和AI基础设施服务商带来机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：北美 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>TrueMoney与Fireblocks合作推进泰国区块链支付</title>
+    <link href="https://www.techinasia.com/news/truemoney-fireblocks-work-blockchain-payments-thailand"/>
+    <id>tag:weekly-report,2026:event-888905a8</id>
+    <published>2026-09-15T00:00:00Z</published>
+    <updated>2026-09-15T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;TrueMoney, Fireblocks work on blockchain payments in Thailand&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;泰国支付公司TrueMoney与区块链安全公司Fireblocks合作，在泰国开展区块链支付业务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;泰国数字支付龙头引入区块链技术，东南亚支付基础设施升级带来合规与技术服务需求&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>2026年电商支付与欺诈趋势报告发布</title>
-    <link href="https://fintechnews.sg/137156/e-commerce/top-e-commerce-payment-and-fraud-trends-in-2026/"/>
-    <id>tag:weekly-report,2026:event-a7ca8765</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Top E-Commerce Payment and Fraud Trends in 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;发布2026年电商支付与欺诈趋势报告，分析行业未来发展方向。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太电商支付与反欺诈趋势报告发布，为支付服务商和风控技术公司提供市场方向参考。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>ASML EUV订单排至2027年</title>
+    <link href="https://www.techinasia.com/news/asml-ai-demand-fills-euv-tool-orders-2027"/>
+    <id>tag:weekly-report,2026:event-c19a5d07</id>
+    <published>2026-09-15T00:00:00Z</published>
+    <updated>2026-09-15T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;ASML says AI demand fills EUV tool orders through 2027&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;ASML表示AI需求已填满其EUV光刻机2027年前的订单。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI算力需求拉动半导体设备订单，利好上游设备供应链与晶圆厂扩产计划。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Buildots获$130M融资扩展建筑AI</title>
-    <link href="https://ventureburn.com/buildots-raises-130m-construction-ai/"/>
-    <id>tag:weekly-report,2026:event-db71e97a</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Buildots Raises $130M to Scale Construction Intelligence&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;建筑智能公司Buildots完成1.3亿美元融资，用于扩展建筑AI解决方案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球建筑AI赛道获大额融资，建筑行业数字化转型加速。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
+    <title>Jumio在亚太推出自拍身份验证</title>
+    <link href="https://fintechnews.sg/137241/security/jumio-selfie-verification-asia-pacific/"/>
+    <id>tag:weekly-report,2026:event-0e9f6cb5</id>
+    <published>2026-09-15T00:00:00Z</published>
+    <updated>2026-09-15T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Jumio Rolls Out Selfie-Based Identity Checks in Asia Pacific&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Jumio在亚太地区推出基于自拍的身份证验证服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太数字身份验证需求上升，生物识别技术供应商在金融科技和电商领域机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Cornelis融资$205m挑战Nvidia</title>
-    <link href="https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/"/>
-    <id>tag:weekly-report,2026:event-13cf7f45</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI基础设施公司Cornelis完成2.05亿美元融资，旨在挑战Nvidia在AI芯片市场的主导地位。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI芯片赛道竞争加剧，新玩家获大额融资，为数据中心运营商和云服务商提供更多硬件选择。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
+    <title>Flam获$40M B轮融资</title>
+    <link href="https://www.techinasia.com/news/global-ai-startup-flam-raises-40m-series"/>
+    <id>tag:weekly-report,2026:event-72121349</id>
+    <published>2026-09-15T00:00:00Z</published>
+    <updated>2026-09-15T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Global AI startup Flam raises $40m in series B&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;全球AI初创公司Flam完成4000万美元B轮融资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太AI初创获B轮融资，显示全球资本对AI应用层持续关注，为区域合作提供标的。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Ciena设立$200M AI风投基金</title>
-    <link href="https://www.mobileworldlive.com/north-america/ciena-unveils-200m-ai-venture-fund/"/>
-    <id>tag:weekly-report,2026:event-2677fbc0</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ciena unveils $200M AI venture fund&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;网络设备商Ciena宣布设立2亿美元AI风险投资基金，用于投资AI相关初创企业。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美网络设备巨头设立专项AI基金，为AI基础设施初创企业提供资金和合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
+    <title>Finastra考虑出售或合并，估值或达$12B</title>
+    <link href="https://fintechnews.sg/137234/digital-transformation/finastra-sale-merger-valuation/"/>
+    <id>tag:weekly-report,2026:event-22f43a2e</id>
+    <published>2026-09-15T00:00:00Z</published>
+    <updated>2026-09-15T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Finastra Owner Weighs Sale or Merger as Valuation Could Reach US$12 Billion&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;金融科技公司Finastra的所有者正在考虑出售或合并，估值可能达到120亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美金融科技核心软件商估值达120亿美元，并购将重塑银行软件市场格局&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：北美 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>BRKZ获$31M融资扩展AI建筑采购</title>
-    <link href="http://wamda.com/2026/09/brkz-secures-31-million-scale-ai-powered-construction-procurement"/>
-    <id>tag:weekly-report,2026:event-94bdc4b0</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;BRKZ secures $31 million to scale AI-powered construction procurement&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中东建筑采购平台BRKZ获得3100万美元融资，用于扩展AI驱动的建筑采购业务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东建筑科技赛道获融资，AI采购平台将提升建筑行业供应链效率。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：中东 | 来源：WAMDA&lt;/p&gt;</summary>
+    <title>苹果Siri AI战略推进，Moneyview缩减IPO规模</title>
+    <link href="https://inc42.com/buzz/apples-siri-ai-gambit-moneyview-trims-ipo-size-more/"/>
+    <id>tag:weekly-report,2026:event-05ffe3fe</id>
+    <published>2026-09-15T00:00:00Z</published>
+    <updated>2026-09-15T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Apple’s Siri AI Gambit, Moneyview Trims IPO Size &amp;amp; More&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;苹果在Siri上推进AI战略，同时印度金融科技公司Moneyview缩减IPO规模。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;苹果AI战略升级影响全球开发者生态，印度金融科技IPO收缩反映市场融资环境变化&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Synapse Analytics获$13M A轮融资</title>
-    <link href="http://wamda.com/2026/09/synapse-analytics-secures-13-million-series-led-partech"/>
-    <id>tag:weekly-report,2026:event-fc3d1e6e</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Synapse Analytics secures $13 million Series A led by Partech&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中东AI数据分析公司Synapse Analytics完成1300万美元A轮融资，由Partech领投。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东AI数据分析公司获国际风投领投，AI企业服务市场在中东持续扩张。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：中东 | 来源：WAMDA&lt;/p&gt;</summary>
+    <title>Banking Circle与OSL扩展稳定币支付至五种货币</title>
+    <link href="https://fintechnews.sg/137256/hong-kong/banking-circle-osl-stablecoin-payments/"/>
+    <id>tag:weekly-report,2026:event-e8c78240</id>
+    <published>2026-09-15T00:00:00Z</published>
+    <updated>2026-09-15T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Banking Circle Expands OSL Stablecoin Payments to Five More Currencies&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Banking Circle与OSL合作，将稳定币支付扩展到五种更多货币。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太稳定币支付基础设施扩张，跨境支付和数字资产结算需求增长&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Temporal获$550M融资扩展AI基础设施</title>
-    <link href="https://ventureburn.com/temporal-raises-550m-ai-infrastructure/"/>
-    <id>tag:weekly-report,2026:event-dd081948</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Temporal Raises $550M to Scale AI Application Infrastructure&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI应用基础设施公司Temporal完成5.5亿美元融资，用于扩展AI基础设施服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI基础设施赛道获巨额融资，AI应用开发工具链将加速成熟。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
+    <title>商家呼吁法官拒绝Visa-Mastercard交换费和解</title>
+    <link href="https://www.finextra.com/newsarticle/48398/merchants-call-on-judge-to-reject-visa-mastercard-interchange-fee-settlement?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
+    <id>tag:weekly-report,2026:event-dc95de46</id>
+    <published>2026-09-15T00:00:00Z</published>
+    <updated>2026-09-15T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Merchants call on judge to reject Visa-Mastercard interchange fee settlement&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;商家呼吁法官拒绝Visa和Mastercard的交换费和解协议。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付费率争议持续，商家支付成本可能影响支付行业利润结构&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>微软新AI准则与Anthropic研究相悖</title>
-    <link href="https://thenextweb.com/news/microsoft-ai-code-of-conduct-model-welfare-anthropic"/>
-    <id>tag:weekly-report,2026:event-f8941882</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Microsoft’s new AI rulebook rejects the research its $5bn partner is doing&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;微软发布新的AI行为准则，该准则拒绝了其50亿美元合作伙伴Anthropic正在进行的研究方向。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国AI巨头与头部实验室研究路线分歧，影响AI安全与对齐技术合作生态&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>YouLend与Dojo合作融资达20亿美元</title>
-    <link href="https://www.finextra.com/pressarticle/110888/youlend-and-dojo-partnership-reaches-2bn-funding-milestone?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-9972591c</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;YouLend and Dojo partnership reaches $2bn funding milestone&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;YouLend与Dojo的合作伙伴关系达到20亿美元融资里程碑。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲嵌入式金融赛道持续升温，为中小企业贷款平台和支付服务商提供增长机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>某富裕国家PC价格飙升近40%</title>
-    <link href="https://e.vnexpress.net/news/tech/tech-news/pc-prices-in-world-s-second-richest-country-surge-nearly-40-5119905.html"/>
-    <id>tag:weekly-report,2026:event-57813838</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;PC prices in world&amp;#x27;s second-richest country surge nearly 40%&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;全球第二富裕国家的PC价格飙升近40%。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚PC市场价格大幅上涨，反映供应链成本压力，为本地组装和替代方案带来机会。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：越南 | 来源：VnExpress Tech&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Moneyview缩减IPO规模至75亿卢比</title>
-    <link href="https://inc42.com/buzz/moneyview-cuts-ipo-size-after-sebi-nod-halves-fresh-issue-component-to-%e2%82%b9750-cr/"/>
-    <id>tag:weekly-report,2026:event-b1042893</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Moneyview Cuts IPO Size After SEBI Nod, Halves Fresh Issue Component To ₹750 Cr&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度金融科技公司Moneyview在获得SEBI批准后缩减IPO规模，将新发行部分减半至75亿卢比。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度金融科技IPO市场降温，融资规模收缩反映投资者情绪变化&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Space42与Viasat承诺$1B建卫星合资公司</title>
-    <link href="https://www.mobileworldlive.com/network-tech/space42-viasat-commit-1b-to-satellite-jv/"/>
-    <id>tag:weekly-report,2026:event-626167c2</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Space42, Viasat commit $1B to satellite JV&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Space42与Viasat宣布承诺向卫星合资企业投资10亿美元，以扩大卫星通信业务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球卫星通信领域重大合资，10亿美元级投资将重塑卫星服务市场格局。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Databricks推出Spark流处理新功能</title>
-    <link href="https://www.databricks.com/blog/announcing-demand-state-repartitioning-apache-sparktm-structured-streaming-databricks"/>
-    <id>tag:weekly-report,2026:event-310d2374</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Announcing On-Demand State Repartitioning for Apache Spark™ Structured Streaming on Databricks&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Databricks宣布为Apache Spark Structured Streaming推出按需状态重新分区功能。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球云数据平台增强流处理能力，为实时数据管道优化提供新工具。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Databricks | 来源：Databricks Blog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>报告警告欧洲AI投资不足面临边缘化</title>
-    <link href="https://tech.eu/2026/09/14/europe-at-acute-risk-of-marginalisation-unless-billions-in-ai-funding-are-committed-warns-new-report/"/>
-    <id>tag:weekly-report,2026:event-044d05dd</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Europe at &amp;amp;quot;acute risk of marginalisation&amp;amp;quot; unless billions in AI funding committed, warns new report&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一份新报告警告称，除非欧洲承诺投入数十亿欧元用于AI资金，否则将面临被边缘化的严重风险。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI投资缺口引发政策关注，为AI初创和基础设施提供商带来政策红利和资金机会。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>审计代理经济AI预测</title>
-    <link href="https://thenextweb.com/news/auditing-agent-economy-agentic-ai-forecasts"/>
-    <id>tag:weekly-report,2026:event-7451d0cb</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Auditing the agent economy: what the forecasts actually say&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;文章对代理经济（Agentic AI）的预测进行了审计，分析了相关市场预测的准确性。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;代理经济预测审计为AI投资决策提供参考，帮助投资者识别高增长领域和潜在泡沫。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>报告：35%游戏创始人因AI不招聘</title>
-    <link href="https://www.pocketgamer.biz/report-35-of-game-founders-have-skipped-hiring-because-of-ai/"/>
-    <id>tag:weekly-report,2026:event-32dfb109</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Report: 35% of game founders have decided against hiring because AI can do the work&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一份报告显示，35%的游戏公司创始人因AI能完成相关工作而决定不招聘。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球游戏行业AI替代人力趋势明确，影响游戏开发人才市场&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Meta Lab零售门店数量将翻倍</title>
-    <link href="https://www.modernretail.co/operations/meta-lab-known-for-ai-glasses-is-nearly-doubling-its-retail-store-footprint/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
-    <id>tag:weekly-report,2026:event-c247799d</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Meta Lab, known for AI glasses, is nearly doubling its retail store footprint&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Meta Lab（以AI眼镜闻名）计划将其零售门店数量增加近一倍。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球科技巨头扩张AI硬件零售渠道，为线下零售和AI硬件供应链带来机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>微软制定AI控制规则</title>
-    <link href="https://www.mobileworldlive.com/ai-cloud/microsoft-sets-out-rules-to-keep-ai-under-control/"/>
-    <id>tag:weekly-report,2026:event-51c5b47f</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Microsoft sets out rules to keep AI under control&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;微软制定规则以控制AI。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球科技巨头加强AI治理，为合规科技和AI安全服务商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>燧原科技上市首日股价涨2.8倍</title>
-    <link href="https://36kr.jp/501504/"/>
-    <id>tag:weekly-report,2026:event-d967e934</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;赤字でも時価総額4兆円　中国AI半導体「燧原科技」、上場初日に株価2.8倍&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国AI半导体公司燧原科技上市首日股价上涨2.8倍，市值达4万亿日元（约合人民币2000亿元），尽管公司仍处于亏损状态。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI芯片公司上市首日暴涨，反映市场对国产AI算力的强烈需求，为相关产业链带来投资机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Thunes扩展中东六国跨境支付</title>
-    <link href="https://fintechnews.sg/137202/payments/thunes-middle-east-payouts/"/>
-    <id>tag:weekly-report,2026:event-134039b6</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Thunes Expands Cross Border Payouts Across Six Middle East Markets&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;跨境支付公司Thunes将其跨境支付服务扩展至中东六个市场。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东跨境支付基建加速，全球支付网络布局中东市场&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：中东 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Netflix开发暗黑破坏神动画</title>
-    <link href="https://www.pocketgamer.biz/diablo-animated-series-in-development-at-netflix/"/>
-    <id>tag:weekly-report,2026:event-b5d7f677</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Diablo animated series in development at Netflix&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Netflix正在开发《暗黑破坏神》动画系列。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球游戏IP影视化趋势延续，游戏与流媒体跨界合作加深&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>爱尔兰银行与Stripe达成数字化转型合作</title>
-    <link href="https://www.finextra.com/newsarticle/48394/bank-of-ireland-and-stripe-strike-digital-transformation-deal?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-d8c0e015</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Bank of Ireland and Stripe strike digital transformation deal&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;爱尔兰银行与Stripe达成数字化转型合作。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲传统银行与金融科技巨头合作，为支付基础设施和银行SaaS服务商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>印度政府免除小额UPI交易MDR</title>
-    <link href="https://inc42.com/buzz/govt-notifies-new-rules-no-mdr-for-upi-transactions-under-%e2%82%b92000/"/>
-    <id>tag:weekly-report,2026:event-06587967</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Govt Notifies New Rules, No MDR For UPI Transactions Under ₹2,000&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度政府通知新规，对2000卢比以下的UPI交易免除商户贴现率（MDR）。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度支付监管新政影响支付服务商收入模型，推动小额支付普及&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>RBI发布草案标准化欺诈账户冻结</title>
-    <link href="https://inc42.com/buzz/rbi-floats-draft-rules-to-standardise-account-blocking-in-cyber-fraud-cases/"/>
-    <id>tag:weekly-report,2026:event-5f9a813e</id>
-    <published>2026-09-14T00:00:00Z</published>
-    <updated>2026-09-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;RBI Floats Draft Rules To Standardise Account Blocking In Cyber Fraud Cases&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度储备银行（RBI）发布草案规则，旨在标准化网络欺诈案件中的账户冻结流程。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度央行规范反欺诈流程，利好金融科技风控与合规服务商&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
+    <title>Grab在本周新增3个工程与平台相关职位</title>
+    <link href="https://www.grab.careers/en/jobs/744000149388244/senior-data-scientist-ads-demand-optimization/"/>
+    <id>tag:weekly-report,2026:event-208dc561</id>
+    <published>2026-09-15T00:00:00Z</published>
+    <updated>2026-09-15T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Grab集中新增3个工程与平台岗位&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;集中招聘显示Grab正在加强工程与平台能力建设，形成可核验的组织投入信号&lt;/p&gt;&lt;p&gt;标签：组织变化 | 类型：strategy | 地区：亚太 | 公司：Grab | 来源：Grab Jobs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-09-13</title>

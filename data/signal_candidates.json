@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T05:44:20.977267+08:00",
+  "generated_at": "2026-09-15T13:46:12.016927+08:00",
   "candidates": [
     {
       "candidate_id": "jobs-7e1ec5893dbdf23c",
@@ -14,21 +14,16 @@
       "window": "2026-W38",
       "window_start": "2026-09-15",
       "window_end": "2026-09-15",
-      "detected_at": "2026-09-15T05:44:20.977267+08:00",
-      "baseline_count": 19,
-      "current_count": 18,
-      "added_count": 16,
-      "removed_count": 17,
+      "detected_at": "2026-09-15T13:46:12.016927+08:00",
+      "baseline_count": 18,
+      "current_count": 19,
+      "added_count": 3,
+      "removed_count": 2,
       "clusters": {
-        "partnerships": 4,
-        "engineering": 6,
-        "operations": 3
+        "engineering": 2
       },
       "removed_clusters": {
-        "engineering": 6,
-        "operations": 3,
-        "ai": 2,
-        "partnerships": 2
+        "engineering": 1
       },
       "evidence_refs": [
         {
@@ -228,11 +223,41 @@
           "title": "Senior Specialist, End-user Computing",
           "url": "https://www.grab.careers/en/jobs/744000148718262/senior-specialist-end-user-computing/",
           "change": "removed"
+        },
+        {
+          "job_id": "744000149499439",
+          "title": "Senior Threat Detection Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000149499439/senior-threat-detection-engineer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000149498279",
+          "title": "Strategy and Planning GrabBike, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000149498279/strategy-and-planning-grabbike-assistant-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000149495109",
+          "title": "Senior Site Reliability Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000149495109/senior-site-reliability-engineer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000149229199",
+          "title": "Senior Infrastructure Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000149229199/senior-infrastructure-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000148988609",
+          "title": "Project Manager, GrabAds Solutions",
+          "url": "https://www.grab.careers/en/jobs/744000148988609/project-manager-grabads-solutions/",
+          "change": "removed"
         }
       ],
-      "status": "rejected",
-      "rejection_reason": "source_reset_suspected",
-      "promoted_event_id": ""
+      "status": "promoted",
+      "rejection_reason": "",
+      "promoted_event_id": "event-jobs-7e1ec5893dbdf23c"
     },
     {
       "candidate_id": "jobs-779ebcad853b68cb",

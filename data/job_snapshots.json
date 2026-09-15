@@ -1,11 +1,33 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T05:44:20.977267+08:00",
+  "generated_at": "2026-09-15T13:46:12.016927+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-15T05:44:20.977267+08:00",
+      "observed_at": "2026-09-15T13:46:12.016927+08:00",
       "jobs": [
+        {
+          "id": "744000149499439",
+          "title": "Senior Threat Detection Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000149499439/senior-threat-detection-engineer/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000149498279",
+          "title": "Strategy and Planning GrabBike, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000149498279/strategy-and-planning-grabbike-assistant-manager/",
+          "function_tags": []
+        },
+        {
+          "id": "744000149495109",
+          "title": "Senior Site Reliability Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000149495109/senior-site-reliability-engineer/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000149388244",
           "title": "Senior Data Scientist (Ads & Demand Optimization)",
@@ -124,26 +146,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000149229199",
-          "title": "Senior Infrastructure Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000149229199/senior-infrastructure-engineer/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000148988609",
-          "title": "Project Manager, GrabAds Solutions",
-          "url": "https://www.grab.careers/en/jobs/744000148988609/project-manager-grabads-solutions/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-15T05:44:20.977267+08:00",
+      "observed_at": "2026-09-15T13:46:12.016927+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -198,7 +206,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-15T05:44:20.977267+08:00",
+      "observed_at": "2026-09-15T13:46:12.016927+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
@@ -390,6 +398,14 @@
           ]
         },
         {
+          "id": "1af1c305-5882-4bfb-8a83-8969d372115d",
+          "title": "Live Site Operations Specialist Remote - Singapore",
+          "url": "https://www.shopify.com/careers/live-site-operations-specialist_1af1c305-5882-4bfb-8a83-8969d372115d",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
           "id": "62efacf8-e3b3-4265-be67-92f1e6f379ed",
           "title": "Security Incident Response, Senior Analyst Remote - Americas",
           "url": "https://www.shopify.com/careers/security-incident-response-senior-analyst_62efacf8-e3b3-4265-be67-92f1e6f379ed",
@@ -416,15 +432,15 @@
           "function_tags": []
         },
         {
-          "id": "5ad7b193-2d97-46ab-b173-5e83e0a4a660",
-          "title": "Technical Account Manager, Enterprise West Remote - Canada",
-          "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-west_5ad7b193-2d97-46ab-b173-5e83e0a4a660",
-          "function_tags": []
-        },
-        {
           "id": "e966b3cf-3301-4df1-a657-15182f697064",
           "title": "Technical Account Manager, Enterprise West Remote - Los Angeles",
           "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-west_e966b3cf-3301-4df1-a657-15182f697064",
+          "function_tags": []
+        },
+        {
+          "id": "5ad7b193-2d97-46ab-b173-5e83e0a4a660",
+          "title": "Technical Account Manager, Enterprise West Remote - Canada",
+          "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-west_5ad7b193-2d97-46ab-b173-5e83e0a4a660",
           "function_tags": []
         },
         {
