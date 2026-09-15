@@ -1,11 +1,111 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T13:46:12.016927+08:00",
+  "generated_at": "2026-09-16T05:11:18.743873+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-15T13:46:12.016927+08:00",
+      "observed_at": "2026-09-16T05:11:18.743873+08:00",
       "jobs": [
+        {
+          "id": "744000149615591",
+          "title": "Senior Data Scientist (Analytics), Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000149615591/senior-data-scientist-analytics-financial-services/",
+          "function_tags": [
+            "payments"
+          ]
+        },
+        {
+          "id": "744000149584204",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000149584204/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000149567085",
+          "title": "Senior Software Engineer, iOS",
+          "url": "https://www.grab.careers/en/jobs/744000149567085/senior-software-engineer-ios/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000149562399",
+          "title": "Marketplace Assistant Manager (Deliveries)",
+          "url": "https://www.grab.careers/en/jobs/744000149562399/marketplace-assistant-manager-deliveries/",
+          "function_tags": []
+        },
+        {
+          "id": "744000149558879",
+          "title": "Assistant Manager, Paid Media - Thailand",
+          "url": "https://www.grab.careers/en/jobs/744000149558879/assistant-manager-paid-media-thailand/",
+          "function_tags": []
+        },
+        {
+          "id": "744000149554470",
+          "title": "Senior Software Engineer, Mobile (Android)",
+          "url": "https://www.grab.careers/en/jobs/744000149554470/senior-software-engineer-mobile-android/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000149536679",
+          "title": "Lead, Strategy & Operations (GrabMart)",
+          "url": "https://www.grab.careers/en/jobs/744000149536679/lead-strategy-operations-grabmart/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000149525991",
+          "title": "Associate, Commercial Enabler & Expansion",
+          "url": "https://www.grab.careers/en/jobs/744000149525991/associate-commercial-enabler-expansion/",
+          "function_tags": []
+        },
+        {
+          "id": "744000149524219",
+          "title": "Senior Data Scientist (Consumer Experience)",
+          "url": "https://www.grab.careers/en/jobs/744000149524219/senior-data-scientist-consumer-experience/",
+          "function_tags": []
+        },
+        {
+          "id": "744000149514989",
+          "title": "FP&A Lead",
+          "url": "https://www.grab.careers/en/jobs/744000149514989/fpa-lead/",
+          "function_tags": []
+        },
+        {
+          "id": "744000149509569",
+          "title": "Manager, Insurance Procurement (GrabInsure)",
+          "url": "https://www.grab.careers/en/jobs/744000149509569/manager-insurance-procurement-grabinsure/",
+          "function_tags": []
+        },
+        {
+          "id": "744000149506774",
+          "title": "Lead Software Engineer in Test",
+          "url": "https://www.grab.careers/en/jobs/744000149506774/lead-software-engineer-in-test/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000149505489",
+          "title": "Senior IT Cloud Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000149505489/senior-it-cloud-engineer/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000149504979",
+          "title": "Senior Software Engineer, Full Stack",
+          "url": "https://www.grab.careers/en/jobs/744000149504979/senior-software-engineer-full-stack/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000149499439",
           "title": "Senior Threat Detection Engineer",
@@ -39,119 +139,12 @@
           "title": "Project Manager & GTM, Self-Serve Business",
           "url": "https://www.grab.careers/en/jobs/744000149306719/project-manager-gtm-self-serve-business/",
           "function_tags": []
-        },
-        {
-          "id": "744000149291839",
-          "title": "Intern, Marketing and Partnership (GrabRentals)",
-          "url": "https://www.grab.careers/en/jobs/744000149291839/intern-marketing-and-partnership-grabrentals/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000149291459",
-          "title": "Intern, Social Media & Partner Engagement",
-          "url": "https://www.grab.careers/en/jobs/744000149291459/intern-social-media-partner-engagement/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000149291219",
-          "title": "Intern, SG Partnerships",
-          "url": "https://www.grab.careers/en/jobs/744000149291219/intern-sg-partnerships/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000149277039",
-          "title": "Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000149277039/software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000149255234",
-          "title": "Country Controller Associate",
-          "url": "https://www.grab.careers/en/jobs/744000149255234/country-controller-associate/",
-          "function_tags": []
-        },
-        {
-          "id": "744000149252423",
-          "title": "Lead, Strategic Projects (GrabMart)",
-          "url": "https://www.grab.careers/en/jobs/744000149252423/lead-strategic-projects-grabmart/",
-          "function_tags": []
-        },
-        {
-          "id": "744000149254139",
-          "title": "Marketing Execution Assistant Manager - JABODETABEK",
-          "url": "https://www.grab.careers/en/jobs/744000149254139/marketing-execution-assistant-manager-jabodetabek/",
-          "function_tags": []
-        },
-        {
-          "id": "744000149250369",
-          "title": "Intern, Partner Acquisition",
-          "url": "https://www.grab.careers/en/jobs/744000149250369/intern-partner-acquisition/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000149248569",
-          "title": "IT Executive",
-          "url": "https://www.grab.careers/en/jobs/744000149248569/it-executive/",
-          "function_tags": []
-        },
-        {
-          "id": "744000149244250",
-          "title": "Software Engineer, Fullstack (Insurance Operations)",
-          "url": "https://www.grab.careers/en/jobs/744000149244250/software-engineer-fullstack-insurance-operations/",
-          "function_tags": [
-            "engineering",
-            "operations"
-          ]
-        },
-        {
-          "id": "744000149244294",
-          "title": "Senior Software Engineer, Fullstack (Insurance Operations)",
-          "url": "https://www.grab.careers/en/jobs/744000149244294/senior-software-engineer-fullstack-insurance-operations/",
-          "function_tags": [
-            "engineering",
-            "operations"
-          ]
-        },
-        {
-          "id": "744000149244019",
-          "title": "Senior Software Engineer, Mobile iOS",
-          "url": "https://www.grab.careers/en/jobs/744000149244019/senior-software-engineer-mobile-ios/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000149242910",
-          "title": "Senior Software Engineer, Backend (Insurance Operations)",
-          "url": "https://www.grab.careers/en/jobs/744000149242910/senior-software-engineer-backend-insurance-operations/",
-          "function_tags": [
-            "engineering",
-            "operations"
-          ]
-        },
-        {
-          "id": "744000149241083",
-          "title": "Senior Software Engineer, Android",
-          "url": "https://www.grab.careers/en/jobs/744000149241083/senior-software-engineer-android/",
-          "function_tags": [
-            "engineering"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-15T13:46:12.016927+08:00",
+      "observed_at": "2026-09-16T05:11:18.743873+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -206,18 +199,12 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-15T13:46:12.016927+08:00",
+      "observed_at": "2026-09-16T05:11:18.743873+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
           "title": "Senior Lead, Federal Government Affairs (US) Remote - Americas",
           "url": "https://www.shopify.com/careers/senior-lead-federal-government-affairs-us_7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
-          "function_tags": []
-        },
-        {
-          "id": "11a67059-84b1-406e-a5b9-11e509f3d52c",
-          "title": "Head of Merch Programs Remote - Americas",
-          "url": "https://www.shopify.com/careers/head-of-merch-programs_11a67059-84b1-406e-a5b9-11e509f3d52c",
           "function_tags": []
         },
         {
@@ -277,12 +264,6 @@
           "function_tags": [
             "partnerships"
           ]
-        },
-        {
-          "id": "ec2c737d-049a-4c12-8d9d-6b0fbefad30b",
-          "title": "Lifecycle & CRM Manager, Shop Remote - Americas",
-          "url": "https://www.shopify.com/careers/lifecycle-crm-manager-shop_ec2c737d-049a-4c12-8d9d-6b0fbefad30b",
-          "function_tags": []
         },
         {
           "id": "44bd4c1c-6887-470f-90e0-b470f234fe49",
@@ -453,6 +434,12 @@
           "id": "c781fed2-4408-4720-8734-45458585e762",
           "title": "Executive Protection Specialist / Spécialiste de la protection rapprochée Montreal",
           "url": "https://www.shopify.com/careers/executive-protection-specialist-sp-cialiste-de-la-protection-rapproch-e_c781fed2-4408-4720-8734-45458585e762",
+          "function_tags": []
+        },
+        {
+          "id": "ed446689-e031-4f41-aa1d-e0de6a5940c8",
+          "title": "Technical Security Analyst, IAM Remote - Americas, Canada",
+          "url": "https://www.shopify.com/careers/technical-security-analyst-iam_ed446689-e031-4f41-aa1d-e0de6a5940c8",
           "function_tags": []
         }
       ]
