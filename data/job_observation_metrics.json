@@ -1,20 +1,26 @@
 {
-  "observed_at": "2026-09-16T13:36:45.646165+08:00",
+  "observed_at": "2026-09-17T05:12:28.692301+08:00",
   "source_count": 3,
-  "raw_count": 61,
+  "raw_count": 62,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 19,
-      "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
-      "removed_clusters": {}
+      "count": 17,
+      "inventory_count": 20,
+      "signal_count": 1,
+      "added_count": 9,
+      "removed_count": 8,
+      "clusters": {
+        "ai": 1,
+        "engineering": 3,
+        "sales": 1
+      },
+      "removed_clusters": {
+        "engineering": 5
+      }
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
@@ -34,15 +40,149 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 1,
+      "count": 2,
       "inventory_count": 35,
       "signal_count": 0,
       "added_count": 1,
-      "removed_count": 0,
+      "removed_count": 1,
       "clusters": {},
       "removed_clusters": {}
     }
   },
-  "candidate_signals": [],
+  "candidate_signals": [
+    {
+      "candidate_id": "jobs-7e1ec5893dbdf23c",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W38",
+      "window_start": "2026-09-17",
+      "window_end": "2026-09-17",
+      "detected_at": "2026-09-17T05:12:28.692301+08:00",
+      "baseline_count": 19,
+      "current_count": 20,
+      "added_count": 9,
+      "removed_count": 8,
+      "clusters": {
+        "ai": 1,
+        "engineering": 3,
+        "sales": 1
+      },
+      "removed_clusters": {
+        "engineering": 5
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000149892914",
+          "title": "Manager, Learning & Culture",
+          "url": "https://www.grab.careers/en/jobs/744000149892914/manager-learning-culture/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000149889977",
+          "title": "AI Platform Architect, AI Transformation",
+          "url": "https://www.grab.careers/en/jobs/744000149889977/ai-platform-architect-ai-transformation/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000149887880",
+          "title": "Senior Principal Engineer, Consumer Experience & Integrity",
+          "url": "https://www.grab.careers/en/jobs/744000149887880/senior-principal-engineer-consumer-experience-integrity/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000149839324",
+          "title": "Senior Software Engineer in Test",
+          "url": "https://www.grab.careers/en/jobs/744000149839324/senior-software-engineer-in-test/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000149802909",
+          "title": "Lead Data Scientist (Analytics), Financial Systems",
+          "url": "https://www.grab.careers/en/jobs/744000149802909/lead-data-scientist-analytics-financial-systems/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000149794720",
+          "title": "Assistant Manager, Technical Accounting",
+          "url": "https://www.grab.careers/en/jobs/744000149794720/assistant-manager-technical-accounting/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000149795174",
+          "title": "Intern, Commercial Enablement, Sales Enablement",
+          "url": "https://www.grab.careers/en/jobs/744000149795174/intern-commercial-enablement-sales-enablement/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000149793152",
+          "title": "Intern, Strategy & Analytics, Transport",
+          "url": "https://www.grab.careers/en/jobs/744000149793152/intern-strategy-analytics-transport/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000149787079",
+          "title": "Intern, Account Management, Retail/FMCG",
+          "url": "https://www.grab.careers/en/jobs/744000149787079/intern-account-management-retailfmcg/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000149506774",
+          "title": "Lead Software Engineer in Test",
+          "url": "https://www.grab.careers/en/jobs/744000149506774/lead-software-engineer-in-test/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000149505489",
+          "title": "Senior IT Cloud Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000149505489/senior-it-cloud-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000149504979",
+          "title": "Senior Software Engineer, Full Stack",
+          "url": "https://www.grab.careers/en/jobs/744000149504979/senior-software-engineer-full-stack/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000149499439",
+          "title": "Senior Threat Detection Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000149499439/senior-threat-detection-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000149498279",
+          "title": "Strategy and Planning GrabBike, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000149498279/strategy-and-planning-grabbike-assistant-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000149495109",
+          "title": "Senior Site Reliability Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000149495109/senior-site-reliability-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000149388244",
+          "title": "Senior Data Scientist (Ads & Demand Optimization)",
+          "url": "https://www.grab.careers/en/jobs/744000149388244/senior-data-scientist-ads-demand-optimization/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000149306719",
+          "title": "Project Manager & GTM, Self-Serve Business",
+          "url": "https://www.grab.careers/en/jobs/744000149306719/project-manager-gtm-self-serve-business/",
+          "change": "removed"
+        }
+      ],
+      "status": "qualified",
+      "rejection_reason": "",
+      "promoted_event_id": ""
+    }
+  ],
   "promoted_count": 0
 }
