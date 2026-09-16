@@ -1803,5 +1803,35 @@
   "score": 4,
   "first_seen": "2026-09-14",
   "samples": 1
+ },
+ "gates foundation|funding|1000m": {
+  "score": 9,
+  "first_seen": "2026-09-16",
+  "samples": 1
+ },
+ "databricks|strategy|350m": {
+  "score": 7,
+  "first_seen": "2026-09-16",
+  "samples": 1
+ },
+ "velocity|funding|10m": {
+  "score": 4,
+  "first_seen": "2026-09-16",
+  "samples": 1
+ },
+ "fin com|funding|20m": {
+  "score": 7,
+  "first_seen": "2026-09-16",
+  "samples": 1
+ },
+ "a5x|funding|70m": {
+  "score": 5,
+  "first_seen": "2026-09-15",
+  "samples": 1
+ },
+ "nelo|funding|100m": {
+  "score": 6,
+  "first_seen": "2026-09-15",
+  "samples": 1
  }
 }

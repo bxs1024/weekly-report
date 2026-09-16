@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-09-16T05:11:18.743873+08:00",
+  "generated_at": "2026-09-16T13:36:45.646165+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-16T05:11:18.743873+08:00",
+      "observed_at": "2026-09-16T13:36:45.646165+08:00",
       "jobs": [
         {
           "id": "744000149615591",
@@ -144,7 +144,7 @@
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-16T05:11:18.743873+08:00",
+      "observed_at": "2026-09-16T13:36:45.646165+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -199,7 +199,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-16T05:11:18.743873+08:00",
+      "observed_at": "2026-09-16T13:36:45.646165+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
@@ -250,6 +250,12 @@
           "function_tags": [
             "payments"
           ]
+        },
+        {
+          "id": "f413fbc5-b346-4690-b5d9-4468cbbd0cc1",
+          "title": "Director, Lifecycle & CRM, Shop Remote - Americas",
+          "url": "https://www.shopify.com/careers/director-lifecycle-crm-shop_f413fbc5-b346-4690-b5d9-4468cbbd0cc1",
+          "function_tags": []
         },
         {
           "id": "8982e974-6cb3-4fbe-9d4f-4a1dfd5e5a1f",
