@@ -1,11 +1,19 @@
 {
   "version": 1,
-  "generated_at": "2026-09-18T05:14:18.136253+08:00",
+  "generated_at": "2026-09-18T13:31:35.694614+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-18T05:14:18.136253+08:00",
+      "observed_at": "2026-09-18T13:31:35.694614+08:00",
       "jobs": [
+        {
+          "id": "744000150269709",
+          "title": "GrabForBusiness Planning & Partnerships Manager",
+          "url": "https://www.grab.careers/en/jobs/744000150269709/grabforbusiness-planning-partnerships-manager/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
         {
           "id": "744000150076354",
           "title": "Head, Grab Support Customer Operations",
@@ -137,20 +145,12 @@
           "title": "Intern, Account Management, Retail/FMCG",
           "url": "https://www.grab.careers/en/jobs/744000149787079/intern-account-management-retailfmcg/",
           "function_tags": []
-        },
-        {
-          "id": "744000149615591",
-          "title": "Senior Data Scientist (Analytics), Financial Services",
-          "url": "https://www.grab.careers/en/jobs/744000149615591/senior-data-scientist-analytics-financial-services/",
-          "function_tags": [
-            "payments"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-18T05:14:18.136253+08:00",
+      "observed_at": "2026-09-18T13:31:35.694614+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -199,7 +199,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-18T05:14:18.136253+08:00",
+      "observed_at": "2026-09-18T13:31:35.694614+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",

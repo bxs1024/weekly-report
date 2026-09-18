@@ -1,269 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-09-17</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-09-18</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-09-17T22:10:24Z</updated>
+  <updated>2026-09-18T06:15:27Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Lendo与Quantic推$200M沙特中小企业融资计划</title>
-    <link href="http://wamda.com/2026/09/lendo-quantic-launch-200-million-sme-financing-programme-saudi-arabia"/>
-    <id>tag:weekly-report,2026:event-5a9a372f</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Lendo, Quantic launch $200 million SME financing programme in Saudi Arabia&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;沙特金融科技公司Lendo与Quantic合作推出2亿美元的中小企业融资计划。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东金融科技联合推出大规模中小企业融资计划，为沙特中小企业提供新的资金渠道。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：中东 | 来源：WAMDA&lt;/p&gt;</summary>
+    <title>加拿大风投Portage募资$600m</title>
+    <link href="https://www.finextra.com/newsarticle/48427/canadian-fintech-vc-portage-closes-us600m-fund?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
+    <id>tag:weekly-report,2026:event-df581e33</id>
+    <published>2026-09-18T00:00:00Z</published>
+    <updated>2026-09-18T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Canadian fintech VC Portage closes US$600m fund&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;加拿大金融科技风投Portage完成6亿美元基金募集。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美金融科技风投募资活跃，为早期金融科技创业公司提供资金池，带动区域创新生态。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：北美 | 来源：Finextra&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Arcee AI获$150M融资开发开放企业AI模型</title>
-    <link href="https://ventureburn.com/arcee-raises-150-million-to-build-open-enterprise-ai-models/"/>
-    <id>tag:weekly-report,2026:event-5477e0d1</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Arcee AI Raises $150 Millon to Build American Open Models That Enterprises Can Own&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国AI公司Arcee AI完成1.5亿美元融资，用于构建企业可拥有的开放AI模型。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美AI初创获大额融资，专注开放企业级模型，为企业AI部署提供新选择。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：北美 | 来源：Ventureburn&lt;/p&gt;</summary>
+    <title>PaXini累计融资$596M</title>
+    <link href="https://www.techinasia.com/news/chinese-robot-maker-paxini-raises-596m-cumulative-funding"/>
+    <id>tag:weekly-report,2026:event-57329974</id>
+    <published>2026-09-18T00:00:00Z</published>
+    <updated>2026-09-18T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Chinese robot maker PaXini raises $596m in cumulative funding&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国机器人制造商PaXini累计融资达5.96亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国机器人赛道持续吸金，为智能制造和物流自动化提供技术供应商。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Comp AI获$34M A轮融资</title>
-    <link href="https://thenextweb.com/news/comp-ai-34m-series-a-agentic-compliance-security"/>
-    <id>tag:weekly-report,2026:event-96364429</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Comp AI raises $34m to turn compliance into continuous monitoring&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI合规公司Comp AI完成3400万美元A轮融资，将合规流程转化为持续监控。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI合规赛道获资本关注，持续监控模式将替代传统合规审计，对金融和医疗行业有吸引力。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>PHYMI半年融资150亿日元进军物理AI</title>
+    <link href="https://36kr.jp/501690/"/>
+    <id>tag:weekly-report,2026:event-f7b100ab</id>
+    <published>2026-09-18T00:00:00Z</published>
+    <updated>2026-09-18T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;設立半年で150億円調達　中国「PHYMI」、自動運転の知見でフィジカルAIに挑む&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国公司PHYMI成立半年即融资150亿日元，利用自动驾驶技术挑战物理AI领域。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国物理AI赛道获巨额融资，为自动驾驶技术迁移和机器人硬件供应商带来合作机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>苹果发布可折叠iPhone Duo</title>
-    <link href="https://www.pocketgamer.biz/apples-new-foldable-changes-the-canvas-ios-developers-are-designing-for-the-mobile-mavens-on-the-iphone-duo/"/>
-    <id>tag:weekly-report,2026:event-90355f7b</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;“Apple&amp;#x27;s new foldable changes the canvas iOS developers are designing for”: The Mobile Mavens on the iPhone Duo&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;苹果发布可折叠设备iPhone Duo，改变了iOS开发者设计适配的画布尺寸。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球移动开发者需适配新折叠屏形态，带来UI/UX设计工具与适配服务需求。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+    <title>InstAdapt完成物理AI基础设施融资</title>
+    <link href="https://36kr.jp/501617/"/>
+    <id>tag:weekly-report,2026:event-10bde475</id>
+    <published>2026-09-18T00:00:00Z</published>
+    <updated>2026-09-18T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;データ不足を「世界モデル」で補う　中国InstAdapt、フィジカルAI基盤で資金調達&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国公司InstAdapt通过世界模型补充数据不足，在物理AI基础设施领域完成融资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国物理AI数据方案获资本认可，为数据合成和仿真技术供应商带来合作机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Magentic获$18M融资，推进工业AI自动化</title>
-    <link href="https://tech.eu/2026/09/17/magentic-raises-18m-to-automate-industrial-operations-with-ai-agents/"/>
-    <id>tag:weekly-report,2026:event-dde9d148</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Magentic raises $18M to automate industrial operations with AI agents&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Magentic完成1800万美元融资，用于以AI智能体自动化工业运营。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲工业AI智能体赛道获资本加持，为制造业数字化转型提供新工具。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
+    <title>SBI集团投资Dtcpay $25M</title>
+    <link href="https://www.techinasia.com/news/sbi-group-joins-sg-payments-firm-dtcpays-25m-series"/>
+    <id>tag:weekly-report,2026:event-78f587bb</id>
+    <published>2026-09-18T00:00:00Z</published>
+    <updated>2026-09-18T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;SBI Group joins SG payments firm Dtcpay’s $25m series A&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;日本SBI集团参与新加坡支付公司Dtcpay的2500万美元A轮融资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本金融巨头入股东南亚支付公司，为跨境支付和数字资产结算带来合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Ryft获€23M融资，加速欧洲扩张</title>
-    <link href="https://www.eu-startups.com/2026/09/uk-fintech-startup-ryft-secures-e23-million-to-accelerate-european-expansion/"/>
-    <id>tag:weekly-report,2026:event-cda9eb4c</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;UK FinTech startup Ryft secures €23 million to accelerate European expansion&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英国金融科技初创公司Ryft获得2300万欧元融资，以加速欧洲扩张。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;英国金融科技支付公司获资本支持，为欧洲电商和中小企业提供支付基础设施。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Hang Ten Systems获$53M融资</title>
-    <link href="https://ventureburn.com/hang-ten-systems-raises-53m-enterprise-ai/"/>
-    <id>tag:weekly-report,2026:event-bc8b6e29</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Hang Ten Systems Raises $53M to Scale Enterprise AI Services&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;非洲企业AI服务公司Hang Ten Systems完成5300万美元融资，用于扩大企业AI服务规模。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲企业AI服务赛道获大额融资，为本地及国际AI解决方案提供商带来合作与竞争机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Treble获$18M融资，扩展物理AI声学模拟</title>
-    <link href="https://tech.eu/2026/09/17/treble-raises-18m-to-scale-acoustic-simulation-for-physical-ai/"/>
-    <id>tag:weekly-report,2026:event-06dd42e8</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Treble raises $18M to scale acoustic simulation for physical AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Treble完成1800万美元融资，用于扩展面向物理AI的声学模拟技术。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲物理AI声学模拟技术获资本关注，为机器人、自动驾驶等场景提供感知增强方案。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Treble获€15M融资，推动物理AI声音技术</title>
-    <link href="https://www.eu-startups.com/2026/09/reykjavik-based-treble-raises-e15-million-to-bring-sound-and-voice-to-physical-ai/"/>
-    <id>tag:weekly-report,2026:event-5ca86cec</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Reykjavík-based Treble raises nearly €15 million to bring sound and voice to physical AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;冰岛雷克雅未克公司Treble筹集近1500万欧元，用于将声音和语音带入物理AI。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北欧物理AI声学技术获资本青睐，为智能设备、机器人提供声音交互能力。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Crusoe获$3.9B融资，估值$30.9B</title>
-    <link href="https://thenextweb.com/news/crusoe-3-9-billion-series-f-30-9-billion-valuation-spark"/>
-    <id>tag:weekly-report,2026:event-78e4b129</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Crusoe raises $3.9bn and starts trucking data centres to spare power&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国AI数据中心公司Crusoe完成39亿美元F轮融资，估值达309亿美元，并开始用卡车运输数据中心以解决电力短缺。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国AI基础设施公司获巨额融资，移动数据中心模式将改变电力受限地区的算力供给格局。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Ryft获£20m融资进军欧洲</title>
-    <link href="https://www.finextra.com/newsarticle/48426/uk-payments-firm-ryft-raises-20m-for-european-push?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-c54d4852</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;UK payments firm Ryft raises £20m for European push&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英国支付公司Ryft完成2000万英镑融资，用于欧洲市场扩张。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲支付市场竞争加剧，Ryft的融资将用于扩展业务，为本地商户提供新的支付解决方案。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>西湖机器人获约$80M融资，开发全身控制AI</title>
-    <link href="https://36kr.jp/500985/"/>
-    <id>tag:weekly-report,2026:event-8bb72bf4</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;ロボットは「考える」だけでは働けない　中国・西湖機器人、「全身制御AI」で120億円調達&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国机器人公司西湖机器人（Westlake Robotics）完成约120亿日元（约合8000万美元）融资，资金将用于开发全身控制AI技术。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国机器人公司获大额融资，全身控制AI是具身智能关键，亚太机器人供应链和AI算法合作机会凸显&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Bekia获$765K融资推B2B回收平台</title>
-    <link href="http://wamda.com/2026/09/bekia-secures-765000-launch-b2b-recycling-platform"/>
-    <id>tag:weekly-report,2026:event-c691bfed</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Bekia secures $765,000 to launch B2B recycling platform&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中东初创公司Bekia获得76.5万美元融资，用于推出B2B回收平台。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东环保科技初创获种子轮融资，为废弃物管理和循环经济领域带来新参与者。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：中东 | 来源：WAMDA&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Allegro Q2增长加速，上调全年指引</title>
-    <link href="https://allegro.eu/wp-content/uploads/2026/09/Press-release-Q2-2026.pdf"/>
-    <id>tag:weekly-report,2026:event-31f09fe4</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Growth acceleration across Allegro Group and new marketplace boosters pave the way for significant guidance upgrade&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;波兰电商平台Allegro公布2026年第二季度财报，增长加速，新市场业务表现强劲，并大幅上调全年业绩指引。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东欧电商平台增长强劲，上调指引，欧洲电商物流和支付服务商合作机会增加&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：earnings | 地区：欧洲 | 公司：Allegro | 来源：Allegro&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>用更多AI解决失控AI代理问题</title>
-    <link href="https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/"/>
-    <id>tag:weekly-report,2026:event-fbe0a2af</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The fix for rogue AI agents could be more AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;TechCrunch报道称，解决失控AI代理问题的方法可能是使用更多AI，即利用AI系统来监控和约束其他AI代理的行为。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI代理安全治理新思路，为AI安全监控和治理工具创造新市场&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Pinterest预告AI房间重设计功能'Restyle'</title>
-    <link href="https://techcrunch.com/2026/09/17/pinterest-teases-a-new-restyle-feature-that-lets-you-redesign-your-room-with-ai/"/>
-    <id>tag:weekly-report,2026:event-9948034c</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Pinterest teases a new ‘Restyle’ feature that lets you redesign your room with AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Pinterest预告推出名为&amp;#x27;Restyle&amp;#x27;的新功能，用户可通过AI重新设计房间。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球社交电商平台Pinterest将AI应用于家居场景，为家居品牌和室内设计工具提供新流量入口。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Rubrik股价飙升三位创始人成亿万富翁</title>
-    <link href="https://e.vnexpress.net/news/tech/personalities/three-cofounders-of-cybersecurity-firm-rubrik-become-billionaires-as-ai-fears-send-stock-soaring-5121243.html"/>
-    <id>tag:weekly-report,2026:event-62437f77</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Three cofounders of cybersecurity firm Rubrik become billionaires as AI fears send stock soaring&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;网络安全公司Rubrik三位联合创始人因AI担忧推动股价飙升而成为亿万富翁。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球网络安全公司因AI担忧股价大涨，为网络安全投资和并购提供参考。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：越南 | 来源：VnExpress Tech&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Ludus: Merge Arena累计营收超$50m</title>
-    <link href="https://www.pocketgamer.biz/ludus-merge-arena-generates-29m-in-the-first-half-of-2026/"/>
-    <id>tag:weekly-report,2026:event-8da6ea7b</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ludus: Merge Arena surpasses $50m in lifetime revenue&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Ludus: Merge Arena累计营收突破5000万美元，2026年上半年收入2900万美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球合并类手游市场持续增长，该产品表现验证了休闲游戏变现能力，为同类产品提供参考。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>FCC目标频谱拍卖筹$100B</title>
-    <link href="https://www.mobileworldlive.com/regulation/fcc-chief-targets-100b-from-spectrum-auctions/"/>
-    <id>tag:weekly-report,2026:event-80f3bd73</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;FCC chief targets $100B from spectrum auctions&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国联邦通信委员会（FCC）主席表示，目标通过频谱拍卖筹集1000亿美元资金。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国FCC计划通过频谱拍卖筹集1000亿美元，将释放大量中频段频谱，为5G和6G网络建设提供关键资源，影响电信运营商资本开支&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>乐天音乐推出AI代理功能</title>
-    <link href="https://global.rakuten.com/corp/news/press/2026/0916_02.html"/>
-    <id>tag:weekly-report,2026:event-b0b59e40</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Rakuten Music Launches AI Agent &amp;quot;Rakuten AI for Music&amp;quot;on Mobile App&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;乐天音乐（Rakuten Music）在移动应用上推出AI代理功能“Rakuten AI for Music”，提供个性化音乐推荐等服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本音乐流媒体平台引入AI代理，亚太音乐科技和AI个性化推荐技术合作机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 公司：Rakuten | 来源：Rakuten Group&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>吴恩达称AI灭绝警告为科幻</title>
-    <link href="https://thenextweb.com/news/andrew-ng-extinction-science-fiction"/>
-    <id>tag:weekly-report,2026:event-054f49a0</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Andrew Ng calls the AI extinction warnings science fiction&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI专家吴恩达公开表示AI灭绝警告是科幻小说，呼吁理性看待AI风险。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI行业领袖观点影响监管风向，可能减缓过度监管压力，利好AI创新企业。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Advanced AI Society加入Linux基金会</title>
-    <link href="https://thenextweb.com/news/advanced-ai-society-linux-foundation-proof-of-control"/>
-    <id>tag:weekly-report,2026:event-5cb61c8a</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Advanced AI Society joins the Linux Foundation, launches open verification ecosystem as Congress moves on agent security&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Advanced AI Society加入Linux基金会，并推出开放验证生态系统，同时美国国会推进AI代理安全立法。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI治理组织加入开源基金会，开放验证生态将影响AI安全标准和合规工具市场。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Circle发布Arc主网</title>
-    <link href="https://fintechnews.sg/137378/blockchain/circle-arc-mainnet-launch/"/>
-    <id>tag:weekly-report,2026:event-febd9cea</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Circle Launches Arc Mainnet, Calling It Its Most ‘Significant Launch’ Since USDC&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Circle推出Arc主网，称其为USDC以来最重要的发布。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太区块链基础设施迎来新公链，为稳定币应用和DeFi项目提供新平台，带来迁移与集成机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Brawl Stars与Duolingo联动</title>
-    <link href="https://www.pocketgamer.biz/brawl-stars-and-duolingo-launch-global-mascot-crossover/"/>
-    <id>tag:weekly-report,2026:event-89745c9b</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Brawl Stars and Duolingo launch global mascot crossover&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;游戏《Brawl Stars》与语言学习应用Duolingo宣布全球吉祥物联动活动。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球游戏与教育应用跨界合作，探索用户增长和品牌曝光新模式。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SEON扩展AI欺诈检测功能</title>
-    <link href="https://fintechnews.sg/137381/security/seon-fraud-detection-signal-intelligence/"/>
-    <id>tag:weekly-report,2026:event-5dbf5dc9</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;SEON Expands Fraud Checks as AI Makes Fake Identities Easier to Create&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;SEON扩展欺诈检测功能，以应对AI生成的虚假身份。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太金融科技面临AI伪造身份欺诈威胁，SEON的更新为金融机构提供更全面的风控工具。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>苹果考虑用Nvidia设备进军AI服务器</title>
-    <link href="https://www.mobileworldlive.com/apple/apple-mulls-move-into-ai-server-market-using-nvidia-gear/"/>
-    <id>tag:weekly-report,2026:event-5b69d5bc</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Apple mulls move into AI server market using Nvidia gear&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;苹果正考虑使用Nvidia设备进入AI服务器市场。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;苹果拟采用Nvidia设备进军AI服务器市场，将加剧AI算力基础设施竞争，为Nvidia带来新客户，同时改变云服务市场格局&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>丹格特炼油厂IPO引发金融科技应用崩溃</title>
-    <link href="https://weetracker.com/2026/09/17/dangote-refinery-ipo-fintech-apps-crash-worth-it/"/>
-    <id>tag:weekly-report,2026:event-399cb6c8</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Africa’s Hottest IPO Broke Fintech Apps, But Jury Is Out On Whether It’s Worth It&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;非洲丹格特炼油厂IPO导致金融科技应用崩溃，市场对其价值存在争议。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲大型IPO对金融科技基础设施造成压力，凸显本地金融系统承载能力问题。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：非洲 | 来源：WeeTracker&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>报告：代理式商务需新支付基建</title>
-    <link href="https://fintechnews.sg/137364/ai/payment-infrastructure-for-the-age-of-agentic-commerce/"/>
-    <id>tag:weekly-report,2026:event-5c1744ec</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Payment Infrastructure for the Age of Agentic Commerce&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;行业分析指出，代理式商务（Agentic Commerce）时代需要新的支付基础设施。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太支付基础设施面临AI代理交易新需求，为支付服务商提供技术升级与产品创新方向。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare支持API创建账户</title>
-    <link href="https://developers.cloudflare.com/api/resources/accounts/methods/create/"/>
-    <id>tag:weekly-report,2026:event-e7aa44c7</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: Create an account via the API&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare新增通过API创建账户的功能。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare企业组织可创建免费账户</title>
-    <link href="https://developers.cloudflare.com/fundamentals/organizations/for-enterprise/#create-new-accounts"/>
-    <id>tag:weekly-report,2026:event-78150158</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: Create Free accounts in an Enterprise Organization&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare支持在企业组织中创建免费账户。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Comp AI聚焦安全合规智能体未来</title>
-    <link href="https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince/"/>
-    <id>tag:weekly-report,2026:event-bf4e6863</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Comp AI sets eyes on a continuously agentic future for security and compliance&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Comp AI宣布将专注于安全与合规领域的持续智能体（agentic）未来发展方向。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球网络安全合规领域向AI智能体演进，为安全自动化工具和合规SaaS提供新方向。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>分析数字购买中账户隐私与密码强度的重要性</title>
-    <link href="https://ventureburn.com/does-account-privacy-carry-equal-weight-alongside-password-strength-in-digital-purchases/"/>
-    <id>tag:weekly-report,2026:event-89427730</id>
-    <published>2026-09-17T00:00:00Z</published>
-    <updated>2026-09-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Does Account Privacy Carry Equal Weight Alongside Password Strength in Digital Purchases&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一篇分析文章探讨在数字购买中，账户隐私是否与密码强度同等重要。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲数字支付安全讨论，为电商平台和支付服务商提供安全策略参考。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
+    <title>Grab-Atome交易或增2028年收益$220m</title>
+    <link href="https://fintechnews.sg/137447/lending/grab-atome-earnings/"/>
+    <id>tag:weekly-report,2026:event-e5711573</id>
+    <published>2026-09-18T00:00:00Z</published>
+    <updated>2026-09-18T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Atome Deal Could Lift Grab’s 2028 Earnings by Up to US$220 Million&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Grab与Atome的交易预计将提升其2028年收益，最高达2.2亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚超级应用整合先买后付业务，强化信贷生态，为区域支付和借贷基础设施带来增量需求。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：北美 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-09-13</title>
