@@ -1,7 +1,50 @@
 {
   "version": 1,
-  "generated_at": "2026-09-18T13:31:35.694614+08:00",
+  "generated_at": "2026-09-19T04:49:05.386429+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-97f4a5c7c54c168e",
+      "entity_id": "shopify",
+      "entity": "Shopify",
+      "region": "全球",
+      "sector": "commerce_saas",
+      "source_type": "jobs_snapshot",
+      "signal_type": "organizational_contraction",
+      "cluster": "mixed",
+      "window": "2026-W38",
+      "window_start": "2026-09-19",
+      "window_end": "2026-09-19",
+      "detected_at": "2026-09-19T04:49:05.386429+08:00",
+      "baseline_count": 35,
+      "current_count": 32,
+      "added_count": 0,
+      "removed_count": 3,
+      "clusters": {},
+      "removed_clusters": {},
+      "evidence_refs": [
+        {
+          "job_id": "059c7d72-aed5-43a3-ab5b-1129adeef356",
+          "title": "Technical Account Manager, Enterprise East Remote - Americas",
+          "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-east_059c7d72-aed5-43a3-ab5b-1129adeef356",
+          "change": "removed"
+        },
+        {
+          "job_id": "5ad7b193-2d97-46ab-b173-5e83e0a4a660",
+          "title": "Technical Account Manager, Enterprise West Remote - Canada",
+          "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-west_5ad7b193-2d97-46ab-b173-5e83e0a4a660",
+          "change": "removed"
+        },
+        {
+          "job_id": "e966b3cf-3301-4df1-a657-15182f697064",
+          "title": "Technical Account Manager, Enterprise West Remote - Los Angeles",
+          "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-west_e966b3cf-3301-4df1-a657-15182f697064",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_persistence",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-7e1ec5893dbdf23c",
       "entity_id": "grab",

@@ -1,11 +1,80 @@
 {
   "version": 1,
-  "generated_at": "2026-09-18T13:31:35.694614+08:00",
+  "generated_at": "2026-09-19T04:49:05.386429+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-18T13:31:35.694614+08:00",
+      "observed_at": "2026-09-19T04:49:05.386429+08:00",
       "jobs": [
+        {
+          "id": "744000150349040",
+          "title": "Senior DevOps Engineer, Streaming Platform",
+          "url": "https://www.grab.careers/en/jobs/744000150349040/senior-devops-engineer-streaming-platform/",
+          "function_tags": [
+            "engineering",
+            "operations"
+          ]
+        },
+        {
+          "id": "744000150346299",
+          "title": "Lead Product Strategist",
+          "url": "https://www.grab.careers/en/jobs/744000150346299/lead-product-strategist/",
+          "function_tags": []
+        },
+        {
+          "id": "744000150345419",
+          "title": "Principal Product Strategist",
+          "url": "https://www.grab.careers/en/jobs/744000150345419/principal-product-strategist/",
+          "function_tags": []
+        },
+        {
+          "id": "744000150321529",
+          "title": "Assistant Marketing Manager, Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000150321529/assistant-marketing-manager-financial-services/",
+          "function_tags": [
+            "payments"
+          ]
+        },
+        {
+          "id": "744000150317835",
+          "title": "Data Analyst (Risk analytics)",
+          "url": "https://www.grab.careers/en/jobs/744000150317835/data-analyst-risk-analytics/",
+          "function_tags": [
+            "compliance"
+          ]
+        },
+        {
+          "id": "744000150314369",
+          "title": "Software Engineer, Backend - FinID",
+          "url": "https://www.grab.careers/en/jobs/744000150314369/software-engineer-backend-finid/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000150310200",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000150310200/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000150308125",
+          "title": "Regional Assistant Marketing Manager – Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000150308125/regional-assistant-marketing-manager-financial-services/",
+          "function_tags": [
+            "payments"
+          ]
+        },
+        {
+          "id": "744000150284849",
+          "title": "Ads Automation Product Management & Ops Lead",
+          "url": "https://www.grab.careers/en/jobs/744000150284849/ads-automation-product-management-ops-lead/",
+          "function_tags": [
+            "operations"
+          ]
+        },
         {
           "id": "744000150269709",
           "title": "GrabForBusiness Planning & Partnerships Manager",
@@ -73,84 +142,12 @@
           "function_tags": [
             "partnerships"
           ]
-        },
-        {
-          "id": "744000149976243",
-          "title": "Senior Product Operations Specialist, AI Enablement",
-          "url": "https://www.grab.careers/en/jobs/744000149976243/senior-product-operations-specialist-ai-enablement/",
-          "function_tags": [
-            "ai",
-            "operations"
-          ]
-        },
-        {
-          "id": "744000149892914",
-          "title": "Manager, Learning & Culture",
-          "url": "https://www.grab.careers/en/jobs/744000149892914/manager-learning-culture/",
-          "function_tags": []
-        },
-        {
-          "id": "744000149889977",
-          "title": "AI Platform Architect, AI Transformation",
-          "url": "https://www.grab.careers/en/jobs/744000149889977/ai-platform-architect-ai-transformation/",
-          "function_tags": [
-            "ai",
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000149887880",
-          "title": "Senior Principal Engineer, Consumer Experience & Integrity",
-          "url": "https://www.grab.careers/en/jobs/744000149887880/senior-principal-engineer-consumer-experience-integrity/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000149839324",
-          "title": "Senior Software Engineer in Test",
-          "url": "https://www.grab.careers/en/jobs/744000149839324/senior-software-engineer-in-test/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000149802909",
-          "title": "Lead Data Scientist (Analytics), Financial Systems",
-          "url": "https://www.grab.careers/en/jobs/744000149802909/lead-data-scientist-analytics-financial-systems/",
-          "function_tags": []
-        },
-        {
-          "id": "744000149794720",
-          "title": "Assistant Manager, Technical Accounting",
-          "url": "https://www.grab.careers/en/jobs/744000149794720/assistant-manager-technical-accounting/",
-          "function_tags": []
-        },
-        {
-          "id": "744000149795174",
-          "title": "Intern, Commercial Enablement, Sales Enablement",
-          "url": "https://www.grab.careers/en/jobs/744000149795174/intern-commercial-enablement-sales-enablement/",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "744000149793152",
-          "title": "Intern, Strategy & Analytics, Transport",
-          "url": "https://www.grab.careers/en/jobs/744000149793152/intern-strategy-analytics-transport/",
-          "function_tags": []
-        },
-        {
-          "id": "744000149787079",
-          "title": "Intern, Account Management, Retail/FMCG",
-          "url": "https://www.grab.careers/en/jobs/744000149787079/intern-account-management-retailfmcg/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-18T13:31:35.694614+08:00",
+      "observed_at": "2026-09-19T04:49:05.386429+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -199,7 +196,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-18T13:31:35.694614+08:00",
+      "observed_at": "2026-09-19T04:49:05.386429+08:00",
       "jobs": [
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
@@ -413,21 +410,9 @@
           ]
         },
         {
-          "id": "059c7d72-aed5-43a3-ab5b-1129adeef356",
-          "title": "Technical Account Manager, Enterprise East Remote - Americas",
-          "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-east_059c7d72-aed5-43a3-ab5b-1129adeef356",
-          "function_tags": []
-        },
-        {
-          "id": "5ad7b193-2d97-46ab-b173-5e83e0a4a660",
-          "title": "Technical Account Manager, Enterprise West Remote - Canada",
-          "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-west_5ad7b193-2d97-46ab-b173-5e83e0a4a660",
-          "function_tags": []
-        },
-        {
-          "id": "e966b3cf-3301-4df1-a657-15182f697064",
-          "title": "Technical Account Manager, Enterprise West Remote - Los Angeles",
-          "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-west_e966b3cf-3301-4df1-a657-15182f697064",
+          "id": "ed446689-e031-4f41-aa1d-e0de6a5940c8",
+          "title": "Technical Security Analyst, IAM Remote - Americas, Canada",
+          "url": "https://www.shopify.com/careers/technical-security-analyst-iam_ed446689-e031-4f41-aa1d-e0de6a5940c8",
           "function_tags": []
         },
         {
@@ -440,12 +425,6 @@
           "id": "c781fed2-4408-4720-8734-45458585e762",
           "title": "Executive Protection Specialist / Spécialiste de la protection rapprochée Montreal",
           "url": "https://www.shopify.com/careers/executive-protection-specialist-sp-cialiste-de-la-protection-rapproch-e_c781fed2-4408-4720-8734-45458585e762",
-          "function_tags": []
-        },
-        {
-          "id": "ed446689-e031-4f41-aa1d-e0de6a5940c8",
-          "title": "Technical Security Analyst, IAM Remote - Americas, Canada",
-          "url": "https://www.shopify.com/careers/technical-security-analyst-iam_ed446689-e031-4f41-aa1d-e0de6a5940c8",
           "function_tags": []
         }
       ]
