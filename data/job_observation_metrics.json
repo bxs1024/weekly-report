@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-09-19T04:49:05.386429+08:00",
+  "observed_at": "2026-09-19T13:28:29.374917+08:00",
   "source_count": 3,
   "raw_count": 56,
   "source_stats": {
@@ -8,23 +8,13 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 19,
+      "count": 0,
       "inventory_count": 18,
-      "signal_count": 1,
-      "added_count": 9,
-      "removed_count": 10,
-      "clusters": {
-        "engineering": 3,
-        "operations": 2,
-        "payments": 2,
-        "compliance": 1
-      },
-      "removed_clusters": {
-        "ai": 2,
-        "operations": 1,
-        "engineering": 3,
-        "sales": 1
-      }
+      "signal_count": 0,
+      "added_count": 0,
+      "removed_count": 0,
+      "clusters": {},
+      "removed_clusters": {}
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
@@ -44,208 +34,15 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 3,
+      "count": 0,
       "inventory_count": 32,
-      "signal_count": 1,
+      "signal_count": 0,
       "added_count": 0,
-      "removed_count": 3,
+      "removed_count": 0,
       "clusters": {},
       "removed_clusters": {}
     }
   },
-  "candidate_signals": [
-    {
-      "candidate_id": "jobs-7e1ec5893dbdf23c",
-      "entity_id": "grab",
-      "entity": "Grab",
-      "region": "亚太",
-      "sector": "mobility_payment",
-      "source_type": "jobs_snapshot",
-      "signal_type": "function_buildout",
-      "cluster": "engineering",
-      "window": "2026-W38",
-      "window_start": "2026-09-19",
-      "window_end": "2026-09-19",
-      "detected_at": "2026-09-19T04:49:05.386429+08:00",
-      "baseline_count": 19,
-      "current_count": 18,
-      "added_count": 9,
-      "removed_count": 10,
-      "clusters": {
-        "engineering": 3,
-        "operations": 2,
-        "payments": 2,
-        "compliance": 1
-      },
-      "removed_clusters": {
-        "ai": 2,
-        "operations": 1,
-        "engineering": 3,
-        "sales": 1
-      },
-      "evidence_refs": [
-        {
-          "job_id": "744000150349040",
-          "title": "Senior DevOps Engineer, Streaming Platform",
-          "url": "https://www.grab.careers/en/jobs/744000150349040/senior-devops-engineer-streaming-platform/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000150346299",
-          "title": "Lead Product Strategist",
-          "url": "https://www.grab.careers/en/jobs/744000150346299/lead-product-strategist/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000150345419",
-          "title": "Principal Product Strategist",
-          "url": "https://www.grab.careers/en/jobs/744000150345419/principal-product-strategist/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000150321529",
-          "title": "Assistant Marketing Manager, Financial Services",
-          "url": "https://www.grab.careers/en/jobs/744000150321529/assistant-marketing-manager-financial-services/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000150317835",
-          "title": "Data Analyst (Risk analytics)",
-          "url": "https://www.grab.careers/en/jobs/744000150317835/data-analyst-risk-analytics/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000150314369",
-          "title": "Software Engineer, Backend - FinID",
-          "url": "https://www.grab.careers/en/jobs/744000150314369/software-engineer-backend-finid/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000150310200",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000150310200/senior-software-engineer-backend/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000150308125",
-          "title": "Regional Assistant Marketing Manager – Financial Services",
-          "url": "https://www.grab.careers/en/jobs/744000150308125/regional-assistant-marketing-manager-financial-services/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000150284849",
-          "title": "Ads Automation Product Management & Ops Lead",
-          "url": "https://www.grab.careers/en/jobs/744000150284849/ads-automation-product-management-ops-lead/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000149976243",
-          "title": "Senior Product Operations Specialist, AI Enablement",
-          "url": "https://www.grab.careers/en/jobs/744000149976243/senior-product-operations-specialist-ai-enablement/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000149892914",
-          "title": "Manager, Learning & Culture",
-          "url": "https://www.grab.careers/en/jobs/744000149892914/manager-learning-culture/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000149889977",
-          "title": "AI Platform Architect, AI Transformation",
-          "url": "https://www.grab.careers/en/jobs/744000149889977/ai-platform-architect-ai-transformation/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000149887880",
-          "title": "Senior Principal Engineer, Consumer Experience & Integrity",
-          "url": "https://www.grab.careers/en/jobs/744000149887880/senior-principal-engineer-consumer-experience-integrity/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000149839324",
-          "title": "Senior Software Engineer in Test",
-          "url": "https://www.grab.careers/en/jobs/744000149839324/senior-software-engineer-in-test/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000149802909",
-          "title": "Lead Data Scientist (Analytics), Financial Systems",
-          "url": "https://www.grab.careers/en/jobs/744000149802909/lead-data-scientist-analytics-financial-systems/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000149794720",
-          "title": "Assistant Manager, Technical Accounting",
-          "url": "https://www.grab.careers/en/jobs/744000149794720/assistant-manager-technical-accounting/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000149795174",
-          "title": "Intern, Commercial Enablement, Sales Enablement",
-          "url": "https://www.grab.careers/en/jobs/744000149795174/intern-commercial-enablement-sales-enablement/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000149793152",
-          "title": "Intern, Strategy & Analytics, Transport",
-          "url": "https://www.grab.careers/en/jobs/744000149793152/intern-strategy-analytics-transport/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000149787079",
-          "title": "Intern, Account Management, Retail/FMCG",
-          "url": "https://www.grab.careers/en/jobs/744000149787079/intern-account-management-retailfmcg/",
-          "change": "removed"
-        }
-      ],
-      "status": "rejected",
-      "rejection_reason": "source_reset_suspected",
-      "promoted_event_id": ""
-    },
-    {
-      "candidate_id": "jobs-97f4a5c7c54c168e",
-      "entity_id": "shopify",
-      "entity": "Shopify",
-      "region": "全球",
-      "sector": "commerce_saas",
-      "source_type": "jobs_snapshot",
-      "signal_type": "organizational_contraction",
-      "cluster": "mixed",
-      "window": "2026-W38",
-      "window_start": "2026-09-19",
-      "window_end": "2026-09-19",
-      "detected_at": "2026-09-19T04:49:05.386429+08:00",
-      "baseline_count": 35,
-      "current_count": 32,
-      "added_count": 0,
-      "removed_count": 3,
-      "clusters": {},
-      "removed_clusters": {},
-      "evidence_refs": [
-        {
-          "job_id": "059c7d72-aed5-43a3-ab5b-1129adeef356",
-          "title": "Technical Account Manager, Enterprise East Remote - Americas",
-          "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-east_059c7d72-aed5-43a3-ab5b-1129adeef356",
-          "change": "removed"
-        },
-        {
-          "job_id": "5ad7b193-2d97-46ab-b173-5e83e0a4a660",
-          "title": "Technical Account Manager, Enterprise West Remote - Canada",
-          "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-west_5ad7b193-2d97-46ab-b173-5e83e0a4a660",
-          "change": "removed"
-        },
-        {
-          "job_id": "e966b3cf-3301-4df1-a657-15182f697064",
-          "title": "Technical Account Manager, Enterprise West Remote - Los Angeles",
-          "url": "https://www.shopify.com/careers/technical-account-manager-enterprise-west_e966b3cf-3301-4df1-a657-15182f697064",
-          "change": "removed"
-        }
-      ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_persistence",
-      "promoted_event_id": ""
-    }
-  ],
+  "candidate_signals": [],
   "promoted_count": 0
 }
