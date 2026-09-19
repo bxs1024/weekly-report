@@ -1,213 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-09-18</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-09-19</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-09-19T06:13:14Z</updated>
+  <updated>2026-09-19T21:24:22Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Portage完成$600M基金募集</title>
-    <link href="https://www.finextra.com/newsarticle/48427/canadian-fintech-vc-portage-closes-us600m-fund?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-df581e33</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Canadian fintech VC Portage closes US$600m fund&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;加拿大金融科技风投机构Portage完成6亿美元基金募集，资金将用于投资金融科技初创企业。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美金融科技风投基金规模扩大，为加拿大及北美金融科技初创企业提供更多早期融资机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：北美 | 来源：Finextra&lt;/p&gt;</summary>
+    <title>Vantora获$100M，投资物理AI初创</title>
+    <link href="https://www.techinasia.com/news/startup-builder-vantora-raises-100m-physical-ai-ventures"/>
+    <id>tag:weekly-report,2026:event-9c642272</id>
+    <published>2026-09-19T00:00:00Z</published>
+    <updated>2026-09-19T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;US startup builder Vantora raises $100m for physical AI ventures&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国创业公司Vantora筹集1亿美元，用于投资物理AI领域的初创企业。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国物理AI赛道获大额资金，Vantora作为创业公司投资方，为机器人技术和自动化硬件初创公司带来合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：北美 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>MWL综述AI、欧盟及FCC动态</title>
-    <link href="https://www.mobileworldlive.com/ai-cloud/the-friday-file-ai-eu-fcc/"/>
-    <id>tag:weekly-report,2026:event-6c76766b</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The Friday File: AI; EU; FCC&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Mobile World Live发布每周综述，汇总AI、欧盟监管及美国FCC的最新动态。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球电信媒体周报聚合欧美AI监管与频谱政策动向，为跨国ICT企业提供合规与市场准入的宏观背景参考。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：other | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
+    <title>Expense AI获融资并达1000用户</title>
+    <link href="https://techcabal.com/2026/09/19/expense-ai-day-1-1000/"/>
+    <id>tag:weekly-report,2026:event-1823bd76</id>
+    <published>2026-09-19T00:00:00Z</published>
+    <updated>2026-09-19T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;These founders turned a lockdown problem into an AI startup&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;非洲初创公司Expense AI由创始人将疫情期间的困境转化为创业机会，获得首日1000名用户，并完成新一轮融资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲AI支出管理赛道获资本关注，企业支出数字化需求上升，为本地支付和SaaS集成商提供合作窗口。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：TechCabal&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>蚂蚁国际发布近100款AI产品</title>
-    <link href="https://fintechnews.sg/137471/ai/ant-international-ai-products/"/>
-    <id>tag:weekly-report,2026:event-753c348d</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ant International Launches Nearly 100 AI Products, Spanning Payments and Treasury&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;蚂蚁国际推出近100款AI产品，覆盖支付和资金管理领域。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太金融科技巨头大规模AI产品化，跨境支付和财资管理赛道将迎来智能化升级，第三方技术供应商和云服务商有合作空间&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>Disha获$5.96M A轮融资</title>
+    <link href="https://ventureburn.com/disha-secures-5-96m-series-a/"/>
+    <id>tag:weekly-report,2026:event-4195c957</id>
+    <published>2026-09-19T00:00:00Z</published>
+    <updated>2026-09-19T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Disha Secures $5.96M Series A Led by General Catalyst to Scale AI Health Coaching&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Disha获得由General Catalyst领投的596万美元A轮融资，用于扩展AI健康教练服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲AI健康赛道获国际资本加持，数字健康服务需求增长，为本地医疗数据平台和远程医疗合作方带来机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>初创孵化公司融资$100M押注物理AI</title>
-    <link href="https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/"/>
-    <id>tag:weekly-report,2026:event-36ce6b31</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;A startup that builds other startups raised $100M and is all-in on physical AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一家专门孵化其他初创公司的创业公司融资1亿美元，并全力押注物理AI领域。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球创投孵化器融资1亿美元专注物理AI，为机器人等实体智能领域带来新资本&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PaXini累计融资$596M</title>
-    <link href="https://www.techinasia.com/news/chinese-robot-maker-paxini-raises-596m-cumulative-funding"/>
-    <id>tag:weekly-report,2026:event-57329974</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Chinese robot maker PaXini raises $596m in cumulative funding&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国机器人制造商PaXini累计融资达5.96亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国机器人赛道持续吸金，为智能制造和物流自动化提供技术供应商。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PHYMI半年融资150亿日元进军物理AI</title>
-    <link href="https://36kr.jp/501690/"/>
-    <id>tag:weekly-report,2026:event-f7b100ab</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;設立半年で150億円調達　中国「PHYMI」、自動運転の知見でフィジカルAIに挑む&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国公司PHYMI成立半年即融资150亿日元，利用自动驾驶技术挑战物理AI领域。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国物理AI赛道获巨额融资，为自动驾驶技术迁移和机器人硬件供应商带来合作机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>InstAdapt完成物理AI基础设施融资</title>
-    <link href="https://36kr.jp/501617/"/>
-    <id>tag:weekly-report,2026:event-10bde475</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;データ不足を「世界モデル」で補う　中国InstAdapt、フィジカルAI基盤で資金調達&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国公司InstAdapt通过世界模型补充数据不足，在物理AI基础设施领域完成融资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国物理AI数据方案获资本认可，为数据合成和仿真技术供应商带来合作机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Luzern Risk获$45M融资扩展AI保险网络</title>
-    <link href="https://ventureburn.com/luzern-risk-raises-45-million-ai-captive-insurance-platform/"/>
-    <id>tag:weekly-report,2026:event-f50aa14c</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Luzern Risk Raises $45 Million To Scale AI Captive Insurance Network&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Luzern Risk完成4500万美元融资，用于扩展其AI驱动的专属保险网络。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲保险科技Luzern Risk获4500万美元融资，AI驱动的专属保险模式在非洲市场扩张，为保险科技SaaS和再保险合作伙伴提供增长机遇。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>MIND获$72M融资，开发AI时代DLP</title>
-    <link href="https://ventureburn.com/mind-raises-72-million-ai-data-loss-prevention/"/>
-    <id>tag:weekly-report,2026:event-fa3c61e0</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;MIND Raises $72 Million To Rebuild Data Loss Prevention For The AI Era&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;MIND公司完成7200万美元融资，用于开发面向AI时代的数据丢失防护（DLP）产品。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲网络安全赛道获大额融资，AI数据安全需求激增，为全球DLP厂商提供非洲市场合作机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SBI集团投资Dtcpay $25M</title>
-    <link href="https://www.techinasia.com/news/sbi-group-joins-sg-payments-firm-dtcpays-25m-series"/>
-    <id>tag:weekly-report,2026:event-78f587bb</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;SBI Group joins SG payments firm Dtcpay’s $25m series A&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;日本SBI集团参与新加坡支付公司Dtcpay的2500万美元A轮融资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本金融巨头入股东南亚支付公司，为跨境支付和数字资产结算带来合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cycloid接入欧盟€180M主权云框架</title>
-    <link href="https://www.eu-startups.com/2026/09/paris-based-cycloid-plugs-into-european-commissions-e180-million-sovereign-cloud-framework-following-series-a/"/>
-    <id>tag:weekly-report,2026:event-2ac103bd</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cycloid plugs into European Commission’s €180 million sovereign cloud framework following Series A&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;巴黎公司Cycloid在完成A轮融资后，接入欧盟委员会1.8亿欧元的主权云框架。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲主权云框架落地，Cycloid作为服务商获得官方背书，云基础设施和合规服务商迎来政府采购机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>TextNow营收突破$1B，自筹资金模式成功</title>
-    <link href="https://www.mobileworldlive.com/north-america/textnow-revenue-tops-1b-driven-by-self-funded-growth/"/>
-    <id>tag:weekly-report,2026:event-a608eac8</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;TextNow self-funded model fuels revenue milestone&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;TextNow宣布其营收突破10亿美元，该公司采用自筹资金模式实现增长，未依赖外部融资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美通信应用自筹资金模式跑通，为其他初创公司提供融资替代路径参考&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Grab预计Atome合作2028年增收$220m</title>
-    <link href="https://fintechnews.sg/137447/lending/grab-atome-earnings/"/>
-    <id>tag:weekly-report,2026:event-e5711573</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Atome Deal Could Lift Grab’s 2028 Earnings by Up to US$220 Million&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;东南亚超级应用Grab预计其与Atome的合作将在2028年带来最高2.2亿美元的收益提升。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚先买后付（BNPL）与超级应用生态深度绑定，Grab的信贷业务扩张将带动区域消费金融基础设施需求&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：北美 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>中国AI开发者ARR达$10.7B</title>
-    <link href="https://www.techinasia.com/news/chinese-ai-developers-generated-107b-arr-report"/>
-    <id>tag:weekly-report,2026:event-3b9b39f2</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Chinese AI developers generated $10.7b ARR: report&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;据报道，中国AI开发者创造了107亿美元的年经常性收入（ARR）。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI商业化规模可观，全球AI产业链中中国开发者生态的变现能力值得关注，为跨国合作提供参考。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Anthropic 与埃森哲合作嵌入式评估</title>
-    <link href="https://www.anthropic.com/news/accenture-embedded-evaluation"/>
-    <id>tag:weekly-report,2026:event-ccb54d1f</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Anthropic 宣布与埃森哲合作，将嵌入式评估能力整合到企业服务中，帮助企业客户评估和优化AI模型性能。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI头部公司与顶级咨询公司合作，将AI评估能力嵌入企业服务流程，为金融、医疗等行业的AI合规和治理提供新方案，欧洲和北美大型企业客户将率先受益。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Anthropic | 来源：Anthropic Newsroom&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Macy's推出AI库存补货工具</title>
-    <link href="https://www.retaildive.com/news/macys-rolls-out-ai-inventory-replenishment-tool/830751/"/>
-    <id>tag:weekly-report,2026:event-ec81051f</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Macy’s rolls out AI inventory replenishment tool&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;梅西百货推出AI库存补货工具，以优化库存管理和供应链效率。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;零售巨头应用AI优化供应链，为AI解决方案提供商提供合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Retail Dive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>多款新游戏集中发售</title>
-    <link href="https://www.pocketgamer.biz/new-release-roundup-dave-the-diver-knightica-disney-epic-mickey-rebrushed-and-more/"/>
-    <id>tag:weekly-report,2026:event-4012da56</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;New release roundup: Dave the Diver, Knightica, Disney Epic Mickey: Rebrushed, and more&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;PocketGamer.biz发布新游戏发售汇总，涵盖《Dave the Diver》《Knightica》《Disney Epic Mickey: Rebrushed》等多款作品。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球游戏市场新品密集发布，发行商和渠道商迎来短期流量与变现窗口&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>苹果调整欧盟ATT系统</title>
-    <link href="https://www.pocketgamer.biz/apple-changes-eu-app-tracking-transparency-system-with-ios-272/"/>
-    <id>tag:weekly-report,2026:event-9e7722fe</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Apple changes EU app tracking transparency with iOS 27.2&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;苹果在iOS 27.2中调整欧盟地区的应用追踪透明度（ATT）系统，具体改动细节未披露。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧盟数字广告生态将因苹果ATT调整而重塑，移动广告平台和开发者需重新适配归因与追踪策略&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>OpenAI缩小差距，欧洲押注主权AI</title>
-    <link href="https://tech.eu/2026/09/18/open-ai-closes-the-gap-as-europe-bets-on-sovereignty-and-infrastructure/"/>
-    <id>tag:weekly-report,2026:event-2b72cb4f</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Open AI closes the gap as Europe bets on sovereignty and infrastructure&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;OpenAI正在缩小与欧洲竞争对手的差距，同时欧洲各国加大对主权AI和基础设施的投资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲主权AI和基础设施投资加速，OpenAI与欧洲本土AI公司竞争加剧，为欧洲算力供应商带来机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Newsom提议加州AI紧急关闭开关</title>
-    <link href="https://thenextweb.com/news/newsom-ai-kill-switch-order"/>
-    <id>tag:weekly-report,2026:event-6d9cbc1d</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Newsom pitches an AI kill switch for California&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;加州州长Newsom提出为AI系统设置紧急关闭开关的行政命令。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国加州AI监管新动向，AI安全技术需求上升，合规咨询和AI安全工具供应商将受益。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>GSMA警告AI可能加剧数字鸿沟</title>
-    <link href="https://www.mobileworldlive.com/ai-cloud/ai-boom-could-deepen-digital-divide-warns-gsma/"/>
-    <id>tag:weekly-report,2026:event-aec49e7e</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;GSMA warns AI boom could deepen digital divide&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;GSMA发布警告，指出AI技术的快速发展可能加剧全球数字鸿沟，呼吁行业关注基础设施和技能差距。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球电信行业监管风向标GSMA发声，提示AI基础设施投资需兼顾普惠性，为新兴市场网络设备商和数字技能培训服务商带来政策导向性机会。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>GDC顾问委员会新增四名成员</title>
-    <link href="https://www.pocketgamer.biz/gdc-welcomes-four-new-members-to-its-advisory-board/"/>
-    <id>tag:weekly-report,2026:event-8bd7742f</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;GDC welcomes four new members to its Advisory Board&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;游戏开发者大会（GDC）宣布新增四名顾问委员会成员，具体人选未披露。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球游戏行业顶级会议调整治理结构，反映行业话语权格局变化，对游戏开发者社区生态有间接影响&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Swiggy围绕外卖核心构建多元垂直业务</title>
-    <link href="https://inc42.com/features/swiggys-money-map-the-verticals-built-around-food-delivery-core/"/>
-    <id>tag:weekly-report,2026:event-28027592</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Swiggy’s Money Map: The Verticals Built Around Food Delivery Core&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度外卖平台Swiggy围绕其核心送餐业务，构建了包括快速杂货、出行、酒店预订等多个垂直业务板块。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度外卖平台多元化扩张，为东南亚本地生活服务商提供业务拓展参考。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Vodafone推动网络关闭政策改革</title>
-    <link href="https://www.mobileworldlive.com/vodafone/vodafone-pushes-for-change-in-network-shutdowns/"/>
-    <id>tag:weekly-report,2026:event-8116a771</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Vodafone pushes for change in network shutdowns&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Vodafone呼吁改变网络关闭政策，推动行业和政府重新审视网络中断的决策流程。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲电信巨头Vodafone倡导网络关闭政策改革，影响全球运营商在紧急情况下的网络管理标准，为网络韧性解决方案提供商创造合作空间。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare新增API检索网络活动功能</title>
-    <link href="https://developers.cloudflare.com/browser-run/features/session-recording/#retrieve-network-activity-via-api"/>
-    <id>tag:weekly-report,2026:event-3f4c12ef</id>
-    <published>2026-09-18T00:00:00Z</published>
-    <updated>2026-09-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: retrieve recorded network activity via API&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare为其浏览器会话录制功能新增通过API检索网络活动的功能。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
+    <title>Vals获a16z支持，目标成为AI基准测试黄金标准</title>
+    <link href="https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/"/>
+    <id>tag:weekly-report,2026:event-0f3b05d8</id>
+    <published>2026-09-19T00:00:00Z</published>
+    <updated>2026-09-19T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;由Andreessen Horowitz支持的AI基准测试公司Vals宣布，其目标是成为AI模型评估领域的黄金标准。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国AI评测赛道出现新玩家，AI模型评估标准化需求上升，为模型开发商和评测工具商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-09-13</title>

@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-09-19T13:28:29.374917+08:00",
+  "observed_at": "2026-09-20T04:29:46.727926+08:00",
   "source_count": 3,
   "raw_count": 56,
   "source_stats": {
@@ -8,13 +8,15 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
+      "count": 2,
       "inventory_count": 18,
       "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
+      "added_count": 1,
+      "removed_count": 1,
       "clusters": {},
-      "removed_clusters": {}
+      "removed_clusters": {
+        "engineering": 1
+      }
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
