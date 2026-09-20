@@ -284709,12 +284709,12 @@
       ],
       "level": "C",
       "score": 4,
-      "summary_short": "Swiggy围绕外卖核心构建多元垂直业务",
-      "content_overview": "印度外卖平台Swiggy围绕其核心送餐业务，构建了包括快速杂货、出行、酒店预订等多个垂直业务板块。",
-      "reason": "印度外卖平台多元化扩张，为东南亚本地生活服务商提供业务拓展参考。",
-      "impact": "东南亚本地生活服务平台、印度物流科技公司",
+      "summary_short": "Swiggy围绕外卖核心构建多元化垂直业务",
+      "content_overview": "印度外卖平台Swiggy围绕其核心送餐业务，构建了包括杂货配送、出行、酒店预订等多个垂直业务板块，本文对其收入来源和业务结构进行了梳理。",
+      "reason": "印度超级应用Swiggy多元化扩张，为东南亚及中东本地生活平台提供业务拓展参考，并带来物流、支付等基础设施合作机会。",
+      "impact": "印度本地生活服务商、物流技术供应商",
       "insight_label": "背景补充",
-      "trend_topic": "印度本地生活服务扩张",
+      "trend_topic": "印度超级应用扩张",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -285176,12 +285176,12 @@
       ],
       "level": "B",
       "score": 6,
-      "summary_short": "蚂蚁国际发布近100款AI产品",
-      "content_overview": "蚂蚁国际推出近100款AI产品，覆盖支付和资金管理领域。",
-      "reason": "亚太金融科技巨头大规模AI产品化，跨境支付和财资管理赛道将迎来智能化升级，第三方技术供应商和云服务商有合作空间",
-      "impact": "跨境支付服务商、企业财资管理系统、AI技术供应商",
+      "summary_short": "蚂蚁国际推出近100款AI产品",
+      "content_overview": "蚂蚁国际推出近100款AI产品，覆盖支付、财资管理等业务场景，加速AI技术在全球金融业务中的应用。",
+      "reason": "中国金融科技巨头蚂蚁国际大规模落地AI产品，为东南亚及全球支付和财资管理市场带来AI解决方案合作与竞争机会。",
+      "impact": "东南亚支付服务商、企业财资管理平台、AI技术供应商",
       "insight_label": "合作机会",
-      "trend_topic": "亚太金融科技AI化",
+      "trend_topic": "金融科技AI应用爆发",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -285259,7 +285259,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://fintechnews.sg/137471/ai/ant-international-ai-products/"
+      ]
     },
     {
       "title": "Ex-Monzo execs’ Sync Savings completes funding round",
@@ -286035,12 +286038,12 @@
       ],
       "level": "C",
       "score": 5,
-      "summary_short": "Anthropic 与埃森哲合作嵌入式评估",
-      "content_overview": "Anthropic 宣布与埃森哲合作，将嵌入式评估能力整合到企业服务中，帮助企业客户评估和优化AI模型性能。",
-      "reason": "全球AI头部公司与顶级咨询公司合作，将AI评估能力嵌入企业服务流程，为金融、医疗等行业的AI合规和治理提供新方案，欧洲和北美大型企业客户将率先受益。",
-      "impact": "大型企业客户、AI治理服务商、咨询公司",
+      "summary_short": "Anthropic与埃森哲合作嵌入式AI评估",
+      "content_overview": "Anthropic宣布与埃森哲合作，将嵌入式评估能力整合到企业AI应用中，帮助企业客户在业务场景中直接评估AI模型性能。",
+      "reason": "全球AI头部公司Anthropic与顶级咨询公司埃森哲合作，推动企业级AI评估标准化，为大型企业客户提供AI治理和优化服务，相关咨询和实施服务商可跟进。",
+      "impact": "大型企业客户、AI咨询与实施服务商、AI治理工具提供商",
       "insight_label": "合作机会",
-      "trend_topic": "AI评估与治理服务",
+      "trend_topic": "企业AI评估标准化",
       "companies": [],
       "is_company": false,
       "company_name": "Anthropic",
@@ -286127,7 +286130,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://www.anthropic.com/news/accenture-embedded-evaluation"
+      ]
     },
     {
       "title": "Kakao Merger at Risk Over 20% Opposition - 조선일보",
