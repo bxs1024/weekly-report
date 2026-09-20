@@ -287189,5 +287189,318 @@
       "view_priority": "selected"
     }
   ],
-  "2026-09-20": []
+  "2026-09-20": [
+    {
+      "title": "Grab Stock Is Down 7.5% Since Its Atome Deal as Cash Commitments Stack Up - TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaHQ4dVRBN1FFWDVPeFVQUkV3ZF9kZWRFUkgzcmwtWUNNMElRQXN4d3g5X3BZMnlEZDBiSTJGZmZLNTRSbzJfRlZSQXI2Y243STBQUVB0RWl6UVhCZVp4NU1RQUlvcWMxX1VDVmZ5SlZGVDdZWUlpWTQtUGkxX3EyU3JVYzRTTEFuZTR6WFlZRFpqdFFRb3ZaYw?oc=5",
+      "source": "Google News",
+      "region": "亚太",
+      "event_types": [
+        "earnings"
+      ],
+      "level": "B",
+      "score": 6,
+      "summary_short": "Grab股价因Atome交易现金压力下跌7.5%",
+      "content_overview": "Grab股价自Atome交易以来下跌7.5%，市场担忧其现金承诺累积带来的财务压力。",
+      "reason": "东南亚超级应用Grab因收购Atome导致现金支出增加，股价承压，反映市场对高投入扩张模式的担忧，影响东南亚科技股估值。",
+      "impact": "东南亚科技股投资者、Grab股东、数字金融并购方",
+      "insight_label": "警示信号",
+      "trend_topic": "东南亚科技股估值承压",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Grab",
+      "canonical_company": "grab",
+      "canonical_key": "75%",
+      "article_date": "2026-09-20",
+      "date": "2026-09-20",
+      "source_detail": "TechStock²",
+      "publisher": "TechStock²",
+      "image_url": "",
+      "published_at": "2026-09-20",
+      "observed_at": "2026-09-20T20:43:20.022834+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Grab",
+      "credibility_score": 0,
+      "origin_source_id": "Grab",
+      "observation_entity_id": "Grab",
+      "discovery_source": "google_news",
+      "publisher_source": "TechStock²",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "payments",
+        "local_services_logistics"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "source_contract",
+      "report_methodology_visible": false,
+      "vertical": "mobility_payment",
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "持续观察",
+      "bd_priority": "观察",
+      "signal_taxonomy": [
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "company",
+      "claim_type": "industry_change",
+      "confidence_score": 47,
+      "attention_score": 85,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 20,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "earnings",
+      "domain": "payment",
+      "signal_type": "capital",
+      "signal_change_score": 87,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 14,
+        "market_impact_confidence": 20
+      },
+      "view_status": "filtered",
+      "view_reason": "google_not_main",
+      "view_priority": "watch"
+    },
+    {
+      "title": "Zuckerberg’s reason for refusing to coordinate on AI safety is now the argument in an antitrust suit against four rivals.",
+      "url": "https://thenextweb.com/news/suleyman-zuckerberg-dissent-matches-antitrust-argument",
+      "source": "The Next Web",
+      "region": "欧洲",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 5,
+      "summary_short": "扎克伯格AI安全立场与反垄断诉讼论点吻合",
+      "content_overview": "扎克伯格拒绝协调AI安全的理由，与一项针对四家竞争对手的反垄断诉讼中的论点相吻合。",
+      "reason": "欧美AI巨头在安全协调上的分歧演变为法律争议，反垄断诉讼可能重塑AI行业合作与竞争格局，影响AI技术授权和开源策略。",
+      "impact": "大型AI模型开发商、AI安全研究机构、反垄断监管机构",
+      "insight_label": "警示信号",
+      "trend_topic": "AI监管与反垄断博弈",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "meta",
+      "canonical_key": "",
+      "article_date": "2026-09-20",
+      "date": "2026-09-20",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://media.thenextweb.com/2026/06/microsoft-suleyman-anthropic-expensive-models.jpg",
+      "published_at": "2026-09-20",
+      "observed_at": "2026-09-20T20:41:34.803611+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L3 区域生态源",
+      "source_role": "regional_ecosystem",
+      "source_id": "The Next Web",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "regional_policy",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "欧洲"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "Microsoft AI chief Mustafa Suleyman told CNBC that controlling advanced AI will be a very large challenge, defended regulation, and said the industry’s safety shift is responsible rather than self-interested. He spoke the same day four consumers filed an antitrust complaint alleging the pacing push is exactly that. Mark Zuckerberg declined to join the coordination […] This story continues at The Next Web",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "竞争窗口",
+        "扩张窗口"
+      ],
+      "opportunity_direction": "竞品替代 / 差异化增长 / 市场进入策略 / 客户防守",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "expansion",
+        "ai_infra",
+        "compliance"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "regional_policy",
+      "subject_type": "region_policy",
+      "claim_type": "policy_change",
+      "confidence_score": 65,
+      "attention_score": 100,
+      "score_breakdown": {
+        "source_authority": 23,
+        "materiality": 40,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 15,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "policy_change",
+      "domain": "ai",
+      "signal_type": "policy",
+      "signal_change_score": 65,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 25,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected"
+    }
+  ],
+  "2026-09-21": [
+    {
+      "event_id": "event-jobs-6283923f704a1970",
+      "candidate_id": "jobs-6283923f704a1970",
+      "title": "Grab集中新增3个运营岗位",
+      "url": "https://www.grab.careers/en/jobs/744000150545769/senior-data-scientist-analytics-financial-services/",
+      "source": "Grab Jobs",
+      "source_id": "grab-jobs",
+      "origin_source_id": "grab-jobs",
+      "observation_entity_id": "grab",
+      "discovery_source": "jobs_snapshot",
+      "source_type": "jobs_snapshot",
+      "source_tier": "L1 官方/IR源",
+      "source_role": "official_ir",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 5,
+      "summary_short": "Grab在本周新增3个运营相关职位",
+      "reason": "集中招聘显示Grab正在加强运营能力建设，形成可核验的组织投入信号",
+      "impact": "相关技术供应商、渠道伙伴和企业服务商",
+      "insight_label": "组织变化",
+      "trend_topic": "Grab运营能力建设",
+      "companies": [
+        "Grab"
+      ],
+      "is_company": true,
+      "company_name": "Grab",
+      "date": "2026-09-21",
+      "observed_at": "2026-09-21T04:41:30.326075+08:00",
+      "date_basis": "observed_at",
+      "analysis_source": "jobs_candidate",
+      "analysis_status": "complete",
+      "needs_repair": false,
+      "quality_flags": [],
+      "signal_taxonomy": [
+        "org_change"
+      ],
+      "evidence_refs": [
+        {
+          "job_id": "744000150545769",
+          "title": "Senior Data Scientist (Analytics), Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000150545769/senior-data-scientist-analytics-financial-services/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150534629",
+          "title": "Senior Solution Specialist, People Systems (Time and Absence)",
+          "url": "https://www.grab.careers/en/jobs/744000150534629/senior-solution-specialist-people-systems-time-and-absence/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150534619",
+          "title": "Senior Solution Specialist, People Systems (Compensation and Core HCM)",
+          "url": "https://www.grab.careers/en/jobs/744000150534619/senior-solution-specialist-people-systems-compensation-and-core-hcm/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150045226",
+          "title": "Assistant Manager, Paid Media - Thailand",
+          "url": "https://www.grab.careers/en/jobs/744000150045226/assistant-manager-paid-media-thailand/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150043010",
+          "title": "Senior Strategy Manager, Financial Services & Omnicommerce",
+          "url": "https://www.grab.careers/en/jobs/744000150043010/senior-strategy-manager-financial-services-omnicommerce/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150037390",
+          "title": "Lead Product Manager, Transaction Platform",
+          "url": "https://www.grab.careers/en/jobs/744000150037390/lead-product-manager-transaction-platform/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150018969",
+          "title": "Senior Software Engineer, Fullstack",
+          "url": "https://www.grab.careers/en/jobs/744000150018969/senior-software-engineer-fullstack/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150018459",
+          "title": "Senior Associate, Talent Acquisition Business Partner",
+          "url": "https://www.grab.careers/en/jobs/744000150018459/senior-associate-talent-acquisition-business-partner/",
+          "change": "removed"
+        }
+      ],
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 60,
+      "attention_score": 58,
+      "score_breakdown": {
+        "source_authority": 33,
+        "materiality": 20,
+        "decision_relevance": 15,
+        "scope_fit": 8,
+        "novelty": 10,
+        "urgency": 5
+      },
+      "evidence_grade": "C",
+      "action_type": "expansion",
+      "domain": "other",
+      "signal_type": "company",
+      "signal_change_score": 0,
+      "signal_change_blocked": "out_of_target_industry",
+      "signal_change_breakdown": {},
+      "view_status": "filtered",
+      "view_reason": "out_of_scope_industry",
+      "view_priority": "selected",
+      "published_at": "",
+      "date_source": "observed_at",
+      "date_confidence": "observed",
+      "date_parse_warning": "missing_published_at",
+      "article_date": ""
+    }
+  ]
 }

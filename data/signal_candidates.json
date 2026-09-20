@@ -1,7 +1,87 @@
 {
   "version": 1,
-  "generated_at": "2026-09-20T13:41:00.319015+08:00",
+  "generated_at": "2026-09-21T04:41:30.326075+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-6283923f704a1970",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "operations",
+      "window": "2026-W39",
+      "window_start": "2026-09-21",
+      "window_end": "2026-09-21",
+      "detected_at": "2026-09-21T04:41:30.326075+08:00",
+      "baseline_count": 18,
+      "current_count": 16,
+      "added_count": 3,
+      "removed_count": 5,
+      "clusters": {
+        "payments": 1,
+        "operations": 2
+      },
+      "removed_clusters": {
+        "payments": 1,
+        "engineering": 2,
+        "partnerships": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000150545769",
+          "title": "Senior Data Scientist (Analytics), Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000150545769/senior-data-scientist-analytics-financial-services/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150534629",
+          "title": "Senior Solution Specialist, People Systems (Time and Absence)",
+          "url": "https://www.grab.careers/en/jobs/744000150534629/senior-solution-specialist-people-systems-time-and-absence/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150534619",
+          "title": "Senior Solution Specialist, People Systems (Compensation and Core HCM)",
+          "url": "https://www.grab.careers/en/jobs/744000150534619/senior-solution-specialist-people-systems-compensation-and-core-hcm/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150045226",
+          "title": "Assistant Manager, Paid Media - Thailand",
+          "url": "https://www.grab.careers/en/jobs/744000150045226/assistant-manager-paid-media-thailand/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150043010",
+          "title": "Senior Strategy Manager, Financial Services & Omnicommerce",
+          "url": "https://www.grab.careers/en/jobs/744000150043010/senior-strategy-manager-financial-services-omnicommerce/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150037390",
+          "title": "Lead Product Manager, Transaction Platform",
+          "url": "https://www.grab.careers/en/jobs/744000150037390/lead-product-manager-transaction-platform/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150018969",
+          "title": "Senior Software Engineer, Fullstack",
+          "url": "https://www.grab.careers/en/jobs/744000150018969/senior-software-engineer-fullstack/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150018459",
+          "title": "Senior Associate, Talent Acquisition Business Partner",
+          "url": "https://www.grab.careers/en/jobs/744000150018459/senior-associate-talent-acquisition-business-partner/",
+          "change": "removed"
+        }
+      ],
+      "status": "promoted",
+      "rejection_reason": "",
+      "promoted_event_id": "event-jobs-6283923f704a1970"
+    },
     {
       "candidate_id": "jobs-97f4a5c7c54c168e",
       "entity_id": "shopify",

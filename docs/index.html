@@ -426,9 +426,9 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
         </div>
       </div>
       <div class="m-issue">
-        <div class="m-vol" id="volLabel">VOL.2026-09-20</div>
-        <div class="m-line" id="cnDate">2026年9月20日 星期日</div>
-        <div class="m-line"><span class="m-live"></span>最新采集 2026-09-19｜展示 2026-09-19 成熟批次</div>
+        <div class="m-vol" id="volLabel">VOL.2026-09-21</div>
+        <div class="m-line" id="cnDate">2026年9月21日 星期一</div>
+        <div class="m-line"><span class="m-live"></span>最新采集 2026-09-21｜展示 2026-09-19 成熟批次</div>
       </div>
     </div>
   </header>
@@ -633,7 +633,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
         <aside class="f-rail">
           <section class="f-glass">
             <h3>今日摘要</h3>
-
+            <div class="f-notice">最新批次仅 1 条，当前展示最近一个信息量更完整的批次</div>
             <div class="f-scoreboard">
               <div class="f-score"><strong>4</strong><span>合格事件</span></div>
               <div class="f-score"><strong>3</strong><span>覆盖地区</span></div>
@@ -643,11 +643,13 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
           </section>
           <section class="f-glass">
             <h3>报告入口</h3>
-            <a class="f-report" href="#tab-weekly" data-goto="weekly"><strong>本周报告</strong><span>263 条事件，18 家重点公司</span></a>
-            <a class="f-report" href="#tab-monthly" data-goto="monthly"><strong>本月报告</strong><span>794 条事件，22 家重点公司</span></a>
+            <a class="f-report" href="#tab-weekly" data-goto="weekly"><strong>本周报告</strong><span>1 条事件，1 家重点公司</span></a>
+            <a class="f-report" href="#tab-monthly" data-goto="monthly"><strong>本月报告</strong><span>797 条事件，22 家重点公司</span></a>
           </section>
           <section class="f-glass">
             <h3>历史导航</h3>
+
+            <button class="f-date hisdate" data-date="2026-09-20" type="button"><span>2026-09-20</span><span>1 条</span></button>
 
             <button class="f-date hisdate" data-date="2026-09-18" type="button"><span>2026-09-18</span><span>35 条</span></button>
 
@@ -657,9 +659,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
 
             <button class="f-date hisdate" data-date="2026-09-15" type="button"><span>2026-09-15</span><span>57 条</span></button>
 
-            <button class="f-date hisdate" data-date="2026-09-14" type="button"><span>2026-09-14</span><span>38 条</span></button>
-
-            <button class="f-date" id="goAll" type="button"><span>全部历史</span><span>133 天</span></button>
+            <button class="f-date" id="goAll" type="button"><span>全部历史</span><span>134 天</span></button>
           </section>
         </aside>
       </div>
@@ -677,45 +677,156 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
       <div class="pshell">
         <div>
 
-          <div class="period-panel active" id="wp-2026-W38">
+          <div class="period-panel active" id="wp-2026-W39">
             <article class="pcover">
               <div class="p-tags">
                 <span class="p-ptag">周报</span>
-                <span class="p-ptag">2026-09-14 至 2026-09-19</span>
+                <span class="p-ptag">2026-09-21</span>
                 <span class="p-ptag p-ptag-green">更新中</span>
               </div>
-              <p class="p-editorial">亚太AI医疗落子，支付基建重构提速</p>
-              <h2>2026年第38周（更新中）关注主题周报</h2>
-              <div class="p-mainline"><strong>本期主线</strong><p>Naver以千万美元级投资切入AI医疗诊断，蚂蚁国际则用AI平台自动化全球金融运营，两笔动作分别指向亚太科技资本向垂直AI应用与跨境金融基础设施的纵深渗透。前者验证AI医疗商业化窗口，后者为支付与风控供应商打开嵌入全球清算链路的合作切口。</p></div>
+
+              <h2>2026年第39周（更新中）关注主题周报</h2>
+              <div class="p-mainline"><strong>本期主线</strong><p>本周期收录 1 条合格事实，但尚未形成满足独立证据门槛的主题。本周只保留事件导航，不硬凑结论。</p></div>
+              <div class="pcover-stats">
+                <div class="pcover-stat"><strong>0</strong><span>本周主题</span></div>
+                <div class="pcover-stat"><strong>0</strong><span>重要事件</span></div>
+                <div class="pcover-stat"><strong>1</strong><span>合格事实</span></div>
+              </div>
+            </article>
+
+            <div class="pempty">本周尚未形成满足独立证据门槛的主题，先查看日报事实。</div>
+
+
+          <section class="f-hot p-hot">
+            <div class="f-hot-head">
+              <h3>本周 AI 热点</h3>
+            </div>
+            <ol class="f-hot-list">
+
+              <li class="f-hot-row">
+                <a href="https://www.ithome.com/1/001/819.htm" target="_blank" rel="noopener" class="f-hot-main">
+                  <span class="f-hot-rank">1</span>
+                  <span class="f-hot-title">Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问</span>
+
+                </a>
+              </li>
+
+              <li class="f-hot-row">
+                <a href="https://terrytao.wordpress.com/2026/09/12/after-math" target="_blank" rel="noopener" class="f-hot-main">
+                  <span class="f-hot-rank">2</span>
+                  <span class="f-hot-title">The Verge 深度报道：OpenAI 以 88 小时解决 Navier-Stokes 引发数学界信任危机</span>
+
+                </a>
+              </li>
+
+              <li class="f-hot-row">
+                <a href="https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack" target="_blank" rel="noopener" class="f-hot-main">
+                  <span class="f-hot-rank">3</span>
+                  <span class="f-hot-title">研究者披露 OpenAI 智能体在 Hugging Face 被黑前两个月曾攻击 RubyGems 与 RubyDoc</span>
+
+                </a>
+              </li>
+
+              <li class="f-hot-row">
+                <a href="https://x.com/hongming731/status/2098937113991684225" target="_blank" rel="noopener" class="f-hot-main">
+                  <span class="f-hot-rank">4</span>
+                  <span class="f-hot-title">OpenAI 推出 Agents API，基于 Codex harness 在云端构建智能体</span>
+
+                </a>
+              </li>
+
+              <li class="f-hot-row">
+                <a href="https://the-decoder.com/nvidia-wants-to-pour-up-to-10-billion-into-anthropics-record-breaking-ipo" target="_blank" rel="noopener" class="f-hot-main">
+                  <span class="f-hot-rank">5</span>
+                  <span class="f-hot-title">Nvidia 拟向 Anthropic IPO 投资至多 100 亿美元</span>
+
+                </a>
+              </li>
+
+              <li class="f-hot-row">
+                <a href="https://x.com/hongming731/status/2098937113991684225" target="_blank" rel="noopener" class="f-hot-main">
+                  <span class="f-hot-rank">6</span>
+                  <span class="f-hot-title">Anthropic 发布 Claude Mythos 5 网络安全事件对齐评估，METR 将独立调查</span>
+
+                </a>
+              </li>
+
+              <li class="f-hot-row">
+                <a href="https://x.com/dongxi_nlp/status/2098945504289669481" target="_blank" rel="noopener" class="f-hot-main">
+                  <span class="f-hot-rank">7</span>
+                  <span class="f-hot-title">实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现</span>
+
+                </a>
+              </li>
+
+              <li class="f-hot-row">
+                <a href="https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models" target="_blank" rel="noopener" class="f-hot-main">
+                  <span class="f-hot-rank">8</span>
+                  <span class="f-hot-title">NSA、CISA 与 FBI 指控 DeepSeek 等六家中国 AI 公司大规模蒸馏美国前沿模型</span>
+
+                </a>
+              </li>
+
+              <li class="f-hot-row">
+                <a href="https://x.com/arena/status/2098803224601903334" target="_blank" rel="noopener" class="f-hot-main">
+                  <span class="f-hot-rank">9</span>
+                  <span class="f-hot-title">OpenAI 发布 ChatGPT Images 2.5 双图像模型，主打更快生成与局部编辑</span>
+
+                </a>
+              </li>
+
+              <li class="f-hot-row">
+                <a href="https://www.baseten.co/blog/deepseek-v41-flash-more-efficient-prefill-for-coding-agents" target="_blank" rel="noopener" class="f-hot-main">
+                  <span class="f-hot-rank">10</span>
+                  <span class="f-hot-title">DeepSeek 开源 V4.1-Flash：CED 架构降低编码 Agent 的 prefill 开销</span>
+
+                </a>
+              </li>
+
+            </ol>
+          </section>
+
+          </div>
+
+          <div class="period-panel" id="wp-2026-W38">
+            <article class="pcover">
+              <div class="p-tags">
+                <span class="p-ptag">周报</span>
+                <span class="p-ptag">2026-09-14 至 2026-09-20</span>
+                <span class="p-ptag p-ptag-green">已封存</span>
+              </div>
+              <p class="p-editorial">亚太AI医疗与金融基建双线提速</p>
+              <h2>2026年第38周关注主题周报</h2>
+              <div class="p-mainline"><strong>本期主线</strong><p>Naver以千万美元级资金押注AI医疗诊断，蚂蚁国际则用AI平台重构跨境金融运营，两者共同指向亚太科技巨头正把AI从通用能力转向垂直行业的基础设施层。这一转向意味着出海BD与投资方需要重新评估医疗、支付等受监管赛道的本地化合作窗口。</p></div>
               <div class="pcover-stats">
                 <div class="pcover-stat"><strong>6</strong><span>本周主题</span></div>
-                <div class="pcover-stat"><strong>196</strong><span>重要事件</span></div>
-                <div class="pcover-stat"><strong>263</strong><span>合格事实</span></div>
+                <div class="pcover-stat"><strong>197</strong><span>重要事件</span></div>
+                <div class="pcover-stat"><strong>265</strong><span>合格事实</span></div>
               </div>
             </article>
 
             <nav class="ptoc" aria-label="本期看点">
               <strong>本期看点</strong>
 
-              <a href="#wt-2026-W38-ai_infra"><span class="toc-num">01</span>Naver押注AI医疗诊断，云厂商转向代理评估<em>74 条</em></a>
+              <a href="#wt-2026-W38-ai_infra"><span class="toc-num">01</span>Naver领投AI医疗诊断，云厂商转向代理评估<em>74 条</em></a>
 
-              <a href="#wt-2026-W38-payments"><span class="toc-num">02</span>蚂蚁国际AI自动化清算，Nubank登陆美国存款<em>41 条</em></a>
+              <a href="#wt-2026-W38-payments"><span class="toc-num">02</span>蚂蚁国际推AI金融运营，Nubank落地美国存款<em>41 条</em></a>
 
-              <a href="#wt-2026-W38-expansion"><span class="toc-num">03</span>乐天联手法拉利，Kakao向韩中小企业输出AI<em>37 条</em></a>
+              <a href="#wt-2026-W38-expansion"><span class="toc-num">03</span>乐天签法拉利，Kakao联合创新中心培训韩企<em>37 条</em></a>
 
-              <a href="#wt-2026-W38-developer"><span class="toc-num">04</span>Kakao Games完成900亿韩元融资出售，苹果欧盟ATT再调整<em>16 条</em></a>
+              <a href="#wt-2026-W38-developer"><span class="toc-num">04</span>韩投证券出售Kakao Games，苹果调整欧盟ATT<em>17 条</em></a>
 
-              <a href="#wt-2026-W38-compliance"><span class="toc-num">05</span>欧洲电信监管松绑预期升温，安全合规赛道密集融资<em>16 条</em></a>
+              <a href="#wt-2026-W38-compliance"><span class="toc-num">05</span>扎克伯格AI安全立场卷入反垄断诉讼<em>17 条</em></a>
 
-              <a href="#wt-2026-W38-commerce"><span class="toc-num">06</span>Jumia在肯尼亚推联盟营销，欧洲央行邀商户试点数字欧元<em>8 条</em></a>
+              <a href="#wt-2026-W38-commerce"><span class="toc-num">06</span>Jumia在肯尼亚推联盟营销，欧央行邀商户试点数字欧元<em>8 条</em></a>
 
             </nav>
             <section class="pblock">
               <div class="pblock-head"><h2>本周主题</h2><span>先读主线，再回到独立事实</span></div>
 
               <article class="pwin" id="wt-2026-W38-ai_infra">
-                <h3>Naver押注AI医疗诊断，云厂商转向代理评估</h3>
-                <p class="p-narrative">Naver旗下D2SF以千万美元级资金进入AI医疗诊断赛道，同期Databricks推出AI代理数据库评估标准、Cloudflare发布客户端安全方案，云与AI基础设施的竞争正从算力堆叠转向代理可靠性与终端安全的能力验证。</p>
+                <h3>Naver领投AI医疗诊断，云厂商转向代理评估</h3>
+                <p class="p-narrative">Naver旗下D2SF把千万美元级A2轮资金投向AI医疗诊断公司ImpriMed，同期Databricks发布AI代理数据库评估标准、Cloudflare补上客户端安全方案。亚太巨头正把AI基础设施从算力堆叠转向医疗等垂直场景的落地工具链。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
@@ -741,8 +852,8 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </article>
 
               <article class="pwin" id="wt-2026-W38-payments">
-                <h3>蚂蚁国际AI自动化清算，Nubank登陆美国存款</h3>
-                <p class="p-narrative">蚂蚁国际推出AI平台自动化全球金融运营，Grab收购Atome补齐金融科技版图，Nubank正式进入美国并推出存款账户。亚太金融科技正以AI重构跨境运营效率，同时拉美数字银行开始反向渗透美国零售银行市场。</p>
+                <h3>蚂蚁国际推AI金融运营，Nubank落地美国存款</h3>
+                <p class="p-narrative">蚂蚁国际用AI平台自动化全球金融运营，Grab收购Atome补齐金融科技版图，Nubank则在美国正式推出存款账户。亚太金融科技正从本地收单转向跨境运营自动化与发达市场持牌落地两条路径并行。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
@@ -768,8 +879,8 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </article>
 
               <article class="pwin" id="wt-2026-W38-expansion">
-                <h3>乐天联手法拉利，Kakao向韩中小企业输出AI</h3>
-                <p class="p-narrative">乐天与法拉利达成2027年合作，Kakao联合11个创新中心为韩国中小企业提供AI培训，Anthropic与埃森哲合作嵌入式AI评估。亚太平台企业正通过顶级品牌联名与AI能力下沉，同时锁定企业级AI评估的落地入口。</p>
+                <h3>乐天签法拉利，Kakao联合创新中心培训韩企</h3>
+                <p class="p-narrative">乐天与法拉利达成2027年合作伙伴关系，Kakao联合11个创新中心为韩国中小企业提供AI培训，Anthropic与埃森哲合作嵌入式AI评估。亚太平台正用品牌联名和政企培训两种方式，把生态扩张从流量合作推向能力嵌入。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
@@ -795,16 +906,16 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </article>
 
               <article class="pwin" id="wt-2026-W38-developer">
-                <h3>Kakao Games完成900亿韩元融资出售，苹果欧盟ATT再调整</h3>
-                <p class="p-narrative">韩国投资证券完成Kakao Games 900亿韩元融资出售，苹果在欧盟调整ATT系统并发布可折叠iPhone Duo。游戏资产退出通道保持活跃，而苹果对欧盟隐私框架的持续调整正在改变开发者获客与变现的底层规则。</p>
+                <h3>韩投证券出售Kakao Games，苹果调整欧盟ATT</h3>
+                <p class="p-narrative">韩国投资证券完成Kakao Games 900亿韩元融资出售，苹果在欧盟调整ATT系统并发布可折叠iPhone Duo。游戏资产退出与平台规则变动同时发生，开发者生态的资本流动和分发规则正在被重新定价。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
                     <span class="p-lbl p-lbl-green">高</span>
                     <span class="p-lbl">全球</span>
-                    <span class="p-lbl p-lbl-copper">16 条证据</span>
+                    <span class="p-lbl p-lbl-copper">17 条证据</span>
                   </div>
-                  <p>对象：Kakao、Square Enix｜主要区域：全球</p>
+                  <p>对象：Kakao、Square Enix、Grab｜主要区域：全球</p>
                   <h4 class="p-evidence-title">证据事件</h4>
                   <ul class="pwin-evidence">
 
@@ -822,18 +933,20 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </article>
 
               <article class="pwin" id="wt-2026-W38-compliance">
-                <h3>欧洲电信监管松绑预期升温，安全合规赛道密集融资</h3>
-                <p class="p-narrative">欧洲电信高管集体呼吁欧盟调整政策，Comp AI获3400万美元A轮、Exein以2.34亿欧元成为独角兽，Advanced AI Society加入Linux基金会。监管松绑预期与安全合规融资同步升温，网络设备商和基础设施投资者面临资本开支与整合窗口。</p>
+                <h3>扎克伯格AI安全立场卷入反垄断诉讼</h3>
+                <p class="p-narrative">扎克伯格在AI安全上的公开立场与反垄断诉讼论点吻合，欧洲电信高管呼吁欧盟调整政策，Advanced AI Society加入Linux基金会。AI安全协调正从技术共识滑向法律争议，开源与授权策略面临合规重估。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
                     <span class="p-lbl p-lbl-green">高</span>
                     <span class="p-lbl">欧洲</span>
-                    <span class="p-lbl p-lbl-copper">16 条证据</span>
+                    <span class="p-lbl p-lbl-copper">17 条证据</span>
                   </div>
                   <p>对象：ByteDance/TikTok｜主要区域：欧洲</p>
                   <h4 class="p-evidence-title">证据事件</h4>
                   <ul class="pwin-evidence">
+
+                    <li><a href="https://thenextweb.com/news/suleyman-zuckerberg-dissent-matches-antitrust-argument" target="_blank">扎克伯格AI安全立场与反垄断诉讼论点吻合</a><span>2026-09-20 · The Next Web · 警示信号</span></li>
 
                     <li><a href="https://www.mobileworldlive.com/operators/europe-telco-bosses-call-for-eu-to-correct-the-course/" target="_blank">欧洲电信高管呼吁欧盟调整政策</a><span>2026-09-15 · Mobile World Live · 背景补充</span></li>
 
@@ -841,16 +954,14 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
 
                     <li><a href="https://thenextweb.com/news/comp-ai-34m-series-a-agentic-compliance-security" target="_blank">Comp AI获$34M A轮融资</a><span>2026-09-17 · The Next Web · 资金流向</span></li>
 
-                    <li><a href="https://www.eu-startups.com/2026/09/facing-5000-new-attacks-weekly-italys-exein-raises-e234-million-for-physical-ai-cybersecurity/" target="_blank">Exein获€234M融资成独角兽</a><span>2026-09-15 · EU-Startups · 资金流向</span></li>
-
                   </ul>
                   <div class="pwin-action"><strong>后续观察</strong>继续跟踪对象动作和第二来源确认</div>
                 </details>
               </article>
 
               <article class="pwin" id="wt-2026-W38-commerce">
-                <h3>Jumia在肯尼亚推联盟营销，欧洲央行邀商户试点数字欧元</h3>
-                <p class="p-narrative">Jumia在肯尼亚推出联盟营销计划，欧洲央行邀请商户参与数字欧元试点，Allegro上调2026年展望，Shopify改版管理后台。非洲电商正借创作者经济扩圈，而欧洲央行直接触达商户的试点动作，正在为数字欧元落地铺设商业侧基础设施。</p>
+                <h3>Jumia在肯尼亚推联盟营销，欧央行邀商户试点数字欧元</h3>
+                <p class="p-narrative">Jumia在肯尼亚上线联盟营销计划，欧洲央行邀请商户参与数字欧元试点，Allegro上调2026年展望。非洲创作者经济与欧洲支付主权实验同步推进，电商平台正把增长杠杆从补贴转向本地分销网络。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
@@ -976,9 +1087,9 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="p-ptag">2026-09-07 至 2026-09-13</span>
                 <span class="p-ptag p-ptag-green">已封存</span>
               </div>
-              <p class="p-editorial">中资平台借旅游与物流加速出海亚太</p>
+              <p class="p-editorial">中资平台借道旅游与物流加速亚太渗透</p>
               <h2>2026年第37周关注主题周报</h2>
-              <div class="p-mainline"><strong>本期主线</strong><p>中资平台本周在旅游与物流两端同时加速：飞猪、大众点评以服务中国出境游客切入韩国与海外市场，DHL与阿里则把AI物流能力开放给全球中小企业。与此同时，亚太本地平台以会员、支付和区域扩张回应竞争，出海BD需重新评估中资渠道的入口价值。</p></div>
+              <div class="p-mainline"><strong>本期主线</strong><p>阿里系飞猪、大众点评与DHL同时向亚太和跨境场景输出AI与流量能力，而Adyen、Nubank则反向切入印度和美国市场。双向渗透正在重塑支付、旅游和物流的竞合边界，出海BD需重新评估本地伙伴的替代风险。</p></div>
               <div class="pcover-stats">
                 <div class="pcover-stat"><strong>6</strong><span>本周主题</span></div>
                 <div class="pcover-stat"><strong>226</strong><span>重要事件</span></div>
@@ -989,25 +1100,25 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
             <nav class="ptoc" aria-label="本期看点">
               <strong>本期看点</strong>
 
-              <a href="#wt-2026-W37-ai_infra"><span class="toc-num">01</span>亚太平台竞相以AI代理与会员制锁定用户<em>84 条</em></a>
+              <a href="#wt-2026-W37-ai_infra"><span class="toc-num">01</span>阿里AI代理出海，Kakao付费会员遭分拆抵制<em>84 条</em></a>
 
-              <a href="#wt-2026-W37-payments"><span class="toc-num">02</span>越南与巴西支付商同步向海外旅行场景扩围<em>45 条</em></a>
+              <a href="#wt-2026-W37-payments"><span class="toc-num">02</span>ZaloPay切旅行场景，Adyen与Nubank互攻腹地<em>45 条</em></a>
 
-              <a href="#wt-2026-W37-expansion"><span class="toc-num">03</span>中资旅游平台与韩航联手争夺出境游客流<em>37 条</em></a>
+              <a href="#wt-2026-W37-expansion"><span class="toc-num">03</span>飞猪与大众点评联手抢中国出境游客<em>37 条</em></a>
 
-              <a href="#wt-2026-W37-developer"><span class="toc-num">04</span>中东资本同时押注游戏并购与AI基金<em>19 条</em></a>
+              <a href="#wt-2026-W37-developer"><span class="toc-num">04</span>沙特PIF酝酿EA与Savvy合并，中东AI资本加码<em>19 条</em></a>
 
-              <a href="#wt-2026-W37-compliance"><span class="toc-num">05</span>新加坡与加州同步收紧金融与社媒责任<em>17 条</em></a>
+              <a href="#wt-2026-W37-compliance"><span class="toc-num">05</span>新加坡加码金融机构倒闭与诈骗责任<em>17 条</em></a>
 
-              <a href="#wt-2026-W37-commerce"><span class="toc-num">06</span>DHL与阿里把AI物流开放给全球中小企业<em>14 条</em></a>
+              <a href="#wt-2026-W37-commerce"><span class="toc-num">06</span>DHL与阿里共推AI物流，Grab开卖汽车<em>14 条</em></a>
 
             </nav>
             <section class="pblock">
               <div class="pblock-head"><h2>本周主题</h2><span>先读主线，再回到独立事实</span></div>
 
               <article class="pwin" id="wt-2026-W37-ai_infra">
-                <h3>亚太平台竞相以AI代理与会员制锁定用户</h3>
-                <p class="p-narrative">阿里把跨平台AI代理推向全球企业客户，Kakao在分拆争议中上线付费会员，Rakuten Travel则以酒店连锁特惠刺激预订。亚太平台正从流量争夺转向AI工具与订阅留存的组合打法。</p>
+                <h3>阿里AI代理出海，Kakao付费会员遭分拆抵制</h3>
+                <p class="p-narrative">阿里将跨平台AI代理推向全球企业客户，试图把云与电商能力打包输出；同期Kakao在分拆争议中强推付费会员，Naver则借法国合作切入欧洲AI工厂。亚太平台正从本地流量竞争转向能力外溢。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
@@ -1033,8 +1144,8 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </article>
 
               <article class="pwin" id="wt-2026-W37-payments">
-                <h3>越南与巴西支付商同步向海外旅行场景扩围</h3>
-                <p class="p-narrative">ZaloPay推出海外旅行俱乐部，把支付入口延伸至出境消费；Nubank借赞助银行模式进入美国并瞄准1.5亿客户，Adyen则计划在印度本地扩张。新兴市场支付商正以旅行和跨境场景寻找第二增长曲线。</p>
+                <h3>ZaloPay切旅行场景，Adyen与Nubank互攻腹地</h3>
+                <p class="p-narrative">越南ZaloPay用海外旅行俱乐部把支付嵌入出境游，Adyen宣布印度本地扩张，Nubank借赞助银行进入美国。新兴市场金融科技不再守土，而是以场景和牌照为跳板互相渗透。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
@@ -1060,8 +1171,8 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </article>
 
               <article class="pwin" id="wt-2026-W37-expansion">
-                <h3>中资旅游平台与韩航联手争夺出境游客流</h3>
-                <p class="p-narrative">Eastar Jet与飞猪合作吸引中国游客，大众点评在海外扩张服务中国旅客，Naver则向法国提议共建欧洲AI工厂。中资平台正把出境游流量转化为区域航空与本地服务的增量入口。</p>
+                <h3>飞猪与大众点评联手抢中国出境游客</h3>
+                <p class="p-narrative">Eastar Jet接入飞猪吸引中国游客赴韩，美团大众点评在海外扩张服务中国旅客，Naver则向法国提议共建欧洲AI工厂。中资平台正把国内流量优势复制到出境链路，本地服务商面临站队选择。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
@@ -1087,8 +1198,8 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </article>
 
               <article class="pwin" id="wt-2026-W37-developer">
-                <h3>中东资本同时押注游戏并购与AI基金</h3>
-                <p class="p-narrative">沙特PIF考虑合并EA与Savvy，阿布扎比宣称金融中心握有千亿美元AI资本，STV新兴科技基金获Arcapita支持。中东主权资本正把游戏与AI作为区域科技生态的锚点，体育俱乐部收购成为娱乐融合的侧翼。</p>
+                <h3>沙特PIF酝酿EA与Savvy合并，中东AI资本加码</h3>
+                <p class="p-narrative">沙特PIF考虑将EA与Savvy合并，阿布扎比宣称金融中心坐拥千亿美元AI资本，STV新兴科技基金获Arcapita支持。中东主权资本正从财务投资转向直接整合游戏与AI资产。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
@@ -1114,8 +1225,8 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </article>
 
               <article class="pwin" id="wt-2026-W37-compliance">
-                <h3>新加坡与加州同步收紧金融与社媒责任</h3>
-                <p class="p-narrative">新加坡新法案拟加强大型金融机构倒闭保障并实施投资诈骗责任框架，加州立法限制16岁以下儿童使用社交媒体，欧盟App Store新规与苹果定价组合再起争议。合规成本正从金融向平台内容与分发环节扩散。</p>
+                <h3>新加坡加码金融机构倒闭与诈骗责任</h3>
+                <p class="p-narrative">新加坡新法案要求大型金融机构增加倒闭缓冲，并实施投资诈骗责任框架；加州限制16岁以下用户使用社交媒体，欧盟App Store新规再引争议。合规成本正从金融向平台和消费应用扩散。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
@@ -1141,8 +1252,8 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </article>
 
               <article class="pwin" id="wt-2026-W37-commerce">
-                <h3>DHL与阿里把AI物流开放给全球中小企业</h3>
-                <p class="p-narrative">DHL与阿里合作为全球中小企业提供AI物流能力，Grab上线新车与二手车交易市场，Kakao推出延迟七年的会员服务。电商竞争正从流量补贴转向物流效率与商户工具的基础设施比拼。</p>
+                <h3>DHL与阿里共推AI物流，Grab开卖汽车</h3>
+                <p class="p-narrative">DHL与阿里合作为中小企业提供AI物流能力，Grab上线新车与二手车市场，Kakao拖延七年后终于推出会员服务。电商与出行平台正把物流、交易和会员体系串成闭环，跨境卖家获得新工具但平台抽成风险上升。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
@@ -6398,10 +6509,16 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
           <section class="f-glass">
             <h3>周报档案</h3>
 
-            <button class="pbtn active" data-period-target="wp-2026-W38" type="button">
-              <strong>2026年第38周（更新中）</strong>
-              <span>2026-09-14 至 2026-09-19</span>
+            <button class="pbtn active" data-period-target="wp-2026-W39" type="button">
+              <strong>2026年第39周（更新中）</strong>
+              <span>2026-09-21</span>
               <em>更新中</em>
+            </button>
+
+            <button class="pbtn" data-period-target="wp-2026-W38" type="button">
+              <strong>2026年第38周</strong>
+              <span>2026-09-14 至 2026-09-20</span>
+              <em>已封存</em>
             </button>
 
             <button class="pbtn" data-period-target="wp-2026-W37" type="button">
@@ -6539,15 +6656,15 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
             <article class="pcover">
               <div class="p-tags">
                 <span class="p-ptag">月报</span>
-                <span class="p-ptag">2026-09-01 至 2026-09-19</span>
+                <span class="p-ptag">2026-09-01 至 2026-09-21</span>
                 <span class="p-ptag p-ptag-green">更新中</span>
               </div>
-              <p class="p-editorial">亚太AI基建与支付扩张提速，开发者生态收缩</p>
+              <p class="p-editorial">亚太支付扩张提速，AI基建延续</p>
               <h2>2026-09 月度趋势更新趋势与结构月报</h2>
-              <div class="p-mainline"><strong>本月主线</strong><p>本月亚太AI与云基础设施延续223条事实、较基线增20.6条，支付金融科技升温至120条、较基线增28.7条，区域扩张合作更从37.7条跃至105条。三者共同指向亚太企业以AI为底座、以支付和本地合作为杠杆加速跨境落地；对照上月，扩张从零散合作转为成规模动作。判断：亚太正成为AI商业化与金融科技出海的密集试验场。</p></div>
+              <div class="p-mainline"><strong>本月主线</strong><p>本月亚太支付金融科技与区域扩张同步升温，前者事实量较基线增23.7，后者增38.1，Grab收购Atome、Nubank进入美国、法拉利与乐天合作等事件指向亚太企业加速跨境整合。与此同时，AI与云基础设施延续高位，Databricks、Cloudflare等发布新工具，但开发者生态降温28.2，显示资源向头部平台集中。判断：出海BD应优先关注亚太金融科技整合与AI基建落地，而非开发者工具层。</p></div>
               <div class="pcover-stats">
                 <div class="pcover-stat"><strong>6</strong><span>结构趋势</span></div>
-                <div class="pcover-stat"><strong>794</strong><span>合格事实</span></div>
+                <div class="pcover-stat"><strong>797</strong><span>合格事实</span></div>
                 <div class="pcover-stat"><strong>22</strong><span>涉及对象</span></div>
               </div>
             </article>
@@ -6555,17 +6672,17 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
             <nav class="ptoc" aria-label="本月看点">
               <strong>本月看点</strong>
 
-              <a href="#mt-2026-09-ai_infra"><span class="toc-num">01</span>Naver、Databricks、Cloudflare加码AI基建与代理标准<em>延续 · 223 个独立事实</em></a>
+              <a href="#mt-2026-09-ai_infra"><span class="toc-num">01</span>Databricks与Cloudflare发布AI代理与安全新工具<em>延续 · 223 个独立事实</em></a>
 
-              <a href="#mt-2026-09-payments"><span class="toc-num">02</span>蚂蚁国际推AI金融平台，Grab收购Atome，Nubank入美<em>升温 · 120 个独立事实</em></a>
+              <a href="#mt-2026-09-payments"><span class="toc-num">02</span>Grab收购Atome，Nubank进入美国市场<em>升温 · 120 个独立事实</em></a>
 
-              <a href="#mt-2026-09-expansion"><span class="toc-num">03</span>法拉利与乐天、Anthropic与埃森哲、Adyen与SNKRDUNK结盟<em>升温 · 105 个独立事实</em></a>
+              <a href="#mt-2026-09-expansion"><span class="toc-num">03</span>法拉利与乐天达成2027年合作，Kakao联合创新中心<em>升温 · 105 个独立事实</em></a>
 
-              <a href="#mt-2026-09-compliance"><span class="toc-num">04</span>欧洲电信呼吁调政策，新加坡拟强化金融机构倒闭保障<em>升温 · 46 个独立事实</em></a>
+              <a href="#mt-2026-09-compliance"><span class="toc-num">04</span>欧洲电信高管呼吁调整政策，新加坡拟加强金融机构倒闭保障<em>升温 · 47 个独立事实</em></a>
 
-              <a href="#mt-2026-09-developer"><span class="toc-num">05</span>韩国投资证券售Kakao Games，苹果调整欧盟ATT<em>降温 · 48 个独立事实</em></a>
+              <a href="#mt-2026-09-developer"><span class="toc-num">05</span>韩国投资证券出售Kakao Games融资，苹果调整欧盟ATT<em>降温 · 49 个独立事实</em></a>
 
-              <a href="#mt-2026-09-commerce"><span class="toc-num">06</span>Jumia肯尼亚推联盟营销，DHL与阿里合作AI物流<em>延续 · 31 个独立事实</em></a>
+              <a href="#mt-2026-09-commerce"><span class="toc-num">06</span>Jumia在肯尼亚推联盟营销，DHL与阿里合作AI物流<em>延续 · 31 个独立事实</em></a>
 
             </nav>
             <section class="pblock">
@@ -6576,15 +6693,15 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                   <span class="p-lbl p-lbl-green">延续</span>
                   <span class="p-lbl">亚太</span>
                 </div>
-                <h3>Naver、Databricks、Cloudflare加码AI基建与代理标准</h3>
-                <p class="p-narrative">本月亚太AI与云基础设施延续223条事实，较基线增20.6条。Naver D2SF投资ImpriMed、Databricks发布AI代理数据库评估标准、Cloudflare发布客户端安全方案，显示投资与标准同步推进。</p>
-                <p class="p-narrative">本月在 3 个周次持续出现，共 223 个独立事实；较基线 +20.6 个事实。</p>
+                <h3>Databricks与Cloudflare发布AI代理与安全新工具</h3>
+                <p class="p-narrative">本月AI与云基础设施延续高位，Databricks发布AI代理数据库评估标准，Cloudflare推出客户端安全方案，Naver D2SF投资ImpriMed。这些动作表明AI基建正从模型层向代理评估与端侧安全延伸，值得出海企业关注工具链标准化机会。</p>
+                <p class="p-narrative">本月在 3 个周次持续出现，共 223 个独立事实；较基线 +5.2 个事实。</p>
                 <details class="pwin-details">
                   <summary>变化详情</summary>
-                  <p>跨周：3 周 · 223 个独立事实（基线均值 146.7 个）</p>
-                  <p>驱动因素：Naver D2SF投资ImpriMed 1000万美元A2轮；Databricks发布AI代理数据库评估标准；Cloudflare发布客户端安全方案</p>
-                  <p>不确定性：吴恩达称AI灭绝警告为科幻，头部对AI风险叙事分歧可能影响监管与投资节奏。</p>
-                  <p>下月验证：下月验证Databricks代理评估标准是否被更多厂商采纳，以及Naver D2SF是否继续出手。</p>
+                  <p>跨周：3 周 · 223 个独立事实（基线均值 162.0 个）</p>
+                  <p>驱动因素：Databricks发布AI代理数据库评估标准；Cloudflare发布客户端安全方案；Naver D2SF投资ImpriMed 1000万美元A2轮</p>
+                  <p>不确定性：吴恩达称AI灭绝警告为科幻，可能削弱监管紧迫性，影响基建投资节奏。</p>
+                  <p>下月验证：下月验证Databricks评估标准是否被更多厂商采纳，以及Cloudflare安全方案的企业采用率。</p>
                   <h4 class="p-evidence-title">代表证据</h4>
                   <ul class="pwin-evidence">
 
@@ -6605,15 +6722,15 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                   <span class="p-lbl p-lbl-green">升温</span>
                   <span class="p-lbl">亚太</span>
                 </div>
-                <h3>蚂蚁国际推AI金融平台，Grab收购Atome，Nubank入美</h3>
-                <p class="p-narrative">支付与金融科技本月升温至120条，较基线增28.7条。蚂蚁国际推出AI平台自动化全球金融运营，Grab收购Atome扩张金融科技，Nubank正式进入美国并推出存款账户，亚太与拉美玩家同步跨境。</p>
-                <p class="p-narrative">本月在 3 个周次持续出现，共 120 个独立事实；较基线 +28.7 个事实。</p>
+                <h3>Grab收购Atome，Nubank进入美国市场</h3>
+                <p class="p-narrative">亚太支付金融科技升温，Grab收购Atome以扩张金融科技业务，Nubank正式进入美国并推出存款账户，蚂蚁国际推出AI平台自动化全球金融运营。这些动作显示亚太金融科技公司正通过并购与跨境展业加速全球化，值得出海BD关注整合机会。</p>
+                <p class="p-narrative">本月在 3 个周次持续出现，共 120 个独立事实；较基线 +23.7 个事实。</p>
                 <details class="pwin-details">
                   <summary>变化详情</summary>
-                  <p>跨周：3 周 · 120 个独立事实（基线均值 61.3 个）</p>
-                  <p>驱动因素：蚂蚁国际推出AI平台自动化全球金融运营；Grab收购Atome以扩张金融科技业务；Nubank正式进入美国市场并在美推出存款账户</p>
-                  <p>不确定性：Nubank入美后存款账户能否规模化，以及Grab整合Atome的监管审批仍待观察。</p>
-                  <p>下月验证：下月验证Nubank美国存款账户用户数据，以及Grab对Atome的整合进展。</p>
+                  <p>跨周：3 周 · 120 个独立事实（基线均值 66.3 个）</p>
+                  <p>驱动因素：Grab收购Atome以扩张金融科技业务；Nubank正式进入美国市场并推出存款账户；蚂蚁国际推出AI平台自动化全球金融运营</p>
+                  <p>不确定性：Nubank美国存款账户能否突破本土银行竞争尚不明确。</p>
+                  <p>下月验证：下月验证Grab对Atome的整合进展，以及Nubank美国用户增长数据。</p>
                   <h4 class="p-evidence-title">代表证据</h4>
                   <ul class="pwin-evidence">
 
@@ -6634,15 +6751,15 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                   <span class="p-lbl p-lbl-green">升温</span>
                   <span class="p-lbl">亚太</span>
                 </div>
-                <h3>法拉利与乐天、Anthropic与埃森哲、Adyen与SNKRDUNK结盟</h3>
-                <p class="p-narrative">区域扩张与合作从基线37.7条跃至105条。法拉利与乐天达成2027年合作，Kakao联合11个创新中心培训韩中小企业AI，Anthropic与埃森哲合作嵌入式AI评估，Adyen与SNKRDUNK达成支付合作，跨行业结盟密集。</p>
-                <p class="p-narrative">本月在 3 个周次持续出现，共 105 个独立事实；较基线 +41.1 个事实。</p>
+                <h3>法拉利与乐天达成2027年合作，Kakao联合创新中心</h3>
+                <p class="p-narrative">区域扩张与合作升温，法拉利与乐天达成2027年合作伙伴关系，Kakao联合11个创新中心为韩中小企业提供AI培训，Anthropic与埃森哲合作嵌入式AI评估。这些动作显示亚太企业正通过跨界合作拓展市场与能力，值得出海战略关注合作网络。</p>
+                <p class="p-narrative">本月在 3 个周次持续出现，共 105 个独立事实；较基线 +38.1 个事实。</p>
                 <details class="pwin-details">
                   <summary>变化详情</summary>
-                  <p>跨周：3 周 · 105 个独立事实（基线均值 37.7 个）</p>
+                  <p>跨周：3 周 · 105 个独立事实（基线均值 40.7 个）</p>
                   <p>驱动因素：法拉利与乐天达成2027年合作伙伴关系；Kakao联合11个创新中心为韩中小企业提供AI培训；Anthropic与埃森哲合作嵌入式AI评估</p>
-                  <p>不确定性：法拉利与乐天合作2027年才落地，短期收入贡献有限，合作深度待验证。</p>
-                  <p>下月验证：下月验证Kakao中小企业AI培训覆盖数，以及Anthropic与埃森哲合作是否新增客户。</p>
+                  <p>不确定性：法拉利与乐天合作的具体落地形式与收入贡献尚不清晰。</p>
+                  <p>下月验证：下月验证Kakao AI培训的参与企业数量，以及Anthropic与埃森哲合作的项目落地案例。</p>
                   <h4 class="p-evidence-title">代表证据</h4>
                   <ul class="pwin-evidence">
 
@@ -6663,25 +6780,25 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                   <span class="p-lbl p-lbl-green">升温</span>
                   <span class="p-lbl">欧洲</span>
                 </div>
-                <h3>欧洲电信呼吁调政策，新加坡拟强化金融机构倒闭保障</h3>
-                <p class="p-narrative">合规与安全本月升温至46条，较基线增19.5条。欧洲电信高管呼吁欧盟调整政策，新加坡新法案拟加强大型金融机构倒闭保障，扎克伯格就AI审查致电特朗普后政策最终自愿化，监管博弈加剧。</p>
-                <p class="p-narrative">本月在 3 个周次持续出现，共 46 个独立事实；较基线 +19.5 个事实。</p>
+                <h3>欧洲电信高管呼吁调整政策，新加坡拟加强金融机构倒闭保障</h3>
+                <p class="p-narrative">合规与安全升温，欧洲电信高管呼吁欧盟调整政策，新加坡新法案拟加强大型金融机构倒闭保障，扎克伯格AI安全立场与反垄断诉讼论点吻合。这些动作显示监管与安全议题正从欧洲向亚太扩散，值得出海企业关注合规成本变化。</p>
+                <p class="p-narrative">本月在 3 个周次持续出现，共 47 个独立事实；较基线 +19.9 个事实。</p>
                 <details class="pwin-details">
                   <summary>变化详情</summary>
-                  <p>跨周：3 周 · 46 个独立事实（基线均值 15.0 个）</p>
-                  <p>驱动因素：欧洲电信高管呼吁欧盟调整政策；新加坡新法案拟加强大型金融机构倒闭保障；扎克伯格就AI审查致电特朗普，政策最终自愿化</p>
-                  <p>不确定性：AI审查政策最终自愿化，实际约束力存疑，欧洲电信诉求能否转化为立法未知。</p>
-                  <p>下月验证：下月验证新加坡法案是否进入表决，以及欧盟是否回应电信高管政策调整诉求。</p>
+                  <p>跨周：3 周 · 47 个独立事实（基线均值 15.3 个）</p>
+                  <p>驱动因素：欧洲电信高管呼吁欧盟调整政策；新加坡新法案拟加强大型金融机构倒闭保障；扎克伯格AI安全立场与反垄断诉讼论点吻合</p>
+                  <p>不确定性：新加坡新法案的具体适用范围与执行时间尚未明确。</p>
+                  <p>下月验证：下月验证欧盟是否回应电信高管呼吁，以及新加坡新法案的立法进展。</p>
                   <h4 class="p-evidence-title">代表证据</h4>
                   <ul class="pwin-evidence">
+
+                    <li><a href="https://thenextweb.com/news/suleyman-zuckerberg-dissent-matches-antitrust-argument" target="_blank">扎克伯格AI安全立场与反垄断诉讼论点吻合</a><span>2026-09-20 · The Next Web · 警示信号</span></li>
 
                     <li><a href="https://www.mobileworldlive.com/operators/europe-telco-bosses-call-for-eu-to-correct-the-course/" target="_blank">欧洲电信高管呼吁欧盟调整政策</a><span>2026-09-15 · Mobile World Live · 背景补充</span></li>
 
                     <li><a href="https://fintechnews.sg/136879/regtech/mas-loss-absorbing-capacity-rules/" target="_blank">新加坡新法案拟加强大型金融机构倒闭保障</a><span>2026-09-09 · Fintech News Singapore · 警示信号</span></li>
 
                     <li><a href="https://thenextweb.com/news/luka-kids-ai-drawing-projector-ifa-2026-eu-toy-safety-regulation-2025-2509-mental-health-ai-act" target="_blank">Luka发布AI绘画投影仪</a><span>2026-09-04 · The Next Web · 合作机会</span></li>
-
-                    <li><a href="https://thenextweb.com/news/every-binding-ai-review-washington-has-proposed-has-come-back-voluntary-zuckerberg-reportedly-rang-trump-about-the-latest-one" target="_blank">扎克伯格就AI审查致电特朗普，政策最终自愿化</a><span>2026-09-04 · The Next Web · 警示信号</span></li>
 
                   </ul>
                 </details>
@@ -6692,15 +6809,15 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                   <span class="p-lbl p-lbl-green">降温</span>
                   <span class="p-lbl">全球</span>
                 </div>
-                <h3>韩国投资证券售Kakao Games，苹果调整欧盟ATT</h3>
-                <p class="p-narrative">开发者与平台生态降温至48条，较基线减24.7条。韩国投资证券完成Kakao Games 900亿韩元融资出售，Square Enix推FF迷你旋律电视玩具，GDC顾问委员会新增四名成员，苹果调整欧盟ATT系统，平台侧动作收缩。</p>
-                <p class="p-narrative">本月在 3 个周次持续出现，共 48 个独立事实；较基线 -24.7 个事实。</p>
+                <h3>韩国投资证券出售Kakao Games融资，苹果调整欧盟ATT</h3>
+                <p class="p-narrative">开发者与平台生态降温，韩国投资证券完成Kakao Games 900亿韩元融资出售，苹果调整欧盟ATT系统，Square Enix推出FF系列迷你旋律电视玩具。这些动作显示平台生态资源正从开发者工具向内容与合规转移，值得出海企业关注平台政策变化。</p>
+                <p class="p-narrative">本月在 3 个周次持续出现，共 49 个独立事实；较基线 -28.2 个事实。</p>
                 <details class="pwin-details">
                   <summary>变化详情</summary>
-                  <p>跨周：3 周 · 48 个独立事实（基线均值 60.7 个）</p>
-                  <p>驱动因素：韩国投资证券完成Kakao Games 900亿韩元融资出售；苹果调整欧盟ATT系统；GDC顾问委员会新增四名成员</p>
-                  <p>不确定性：苹果ATT调整对开发者广告收入影响方向不明，Kakao Games出售后战略走向待观察。</p>
-                  <p>下月验证：下月验证苹果ATT调整后开发者广告收入变化，以及Kakao Games新股东动作。</p>
+                  <p>跨周：3 周 · 49 个独立事实（基线均值 65.0 个）</p>
+                  <p>驱动因素：韩国投资证券完成Kakao Games 900亿韩元融资出售；苹果调整欧盟ATT系统；Square Enix推出FF系列迷你旋律电视玩具</p>
+                  <p>不确定性：苹果ATT调整对开发者广告收入的实际影响尚待观察。</p>
+                  <p>下月验证：下月验证苹果ATT调整后开发者广告收入变化，以及Kakao Games融资出售后的战略调整。</p>
                   <h4 class="p-evidence-title">代表证据</h4>
                   <ul class="pwin-evidence">
 
@@ -6721,15 +6838,15 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                   <span class="p-lbl p-lbl-green">延续</span>
                   <span class="p-lbl">亚太</span>
                 </div>
-                <h3>Jumia肯尼亚推联盟营销，DHL与阿里合作AI物流</h3>
-                <p class="p-narrative">电商、商户与物流延续31条，较基线减5.8条。Jumia在肯尼亚推出联盟营销计划，DHL与阿里合作推AI物流服务，Reformation活跃客户增长23%，Grab推出汽车销售市场，非洲与亚太电商物流同步试探。</p>
-                <p class="p-narrative">本月在 3 个周次持续出现，共 31 个独立事实；较基线 -5.8 个事实。</p>
+                <h3>Jumia在肯尼亚推联盟营销，DHL与阿里合作AI物流</h3>
+                <p class="p-narrative">电商、商户与物流延续，Jumia在肯尼亚推出联盟营销计划，DHL与阿里合作推AI物流服务，Grab推出汽车销售市场。这些动作显示亚太电商与物流正通过AI与联盟模式拓展非洲与东南亚市场，值得出海BD关注区域落地机会。</p>
+                <p class="p-narrative">本月在 3 个周次持续出现，共 31 个独立事实；较基线 -7.4 个事实。</p>
                 <details class="pwin-details">
                   <summary>变化详情</summary>
-                  <p>跨周：3 周 · 31 个独立事实（基线均值 29.0 个）</p>
-                  <p>驱动因素：Jumia在肯尼亚推出联盟营销计划；DHL与阿里合作推AI物流服务；Reformation活跃客户增长23%</p>
-                  <p>不确定性：Jumia联盟营销在肯尼亚的转化率未知，DHL与阿里AI物流合作规模尚未披露。</p>
-                  <p>下月验证：下月验证Jumia肯尼亚联盟营销商家参与数，以及DHL与阿里AI物流覆盖线路。</p>
+                  <p>跨周：3 周 · 31 个独立事实（基线均值 30.7 个）</p>
+                  <p>驱动因素：Jumia在肯尼亚推出联盟营销计划；DHL与阿里合作推AI物流服务；Grab推出汽车销售市场</p>
+                  <p>不确定性：Jumia肯尼亚联盟营销计划的转化率与ROI尚不明确。</p>
+                  <p>下月验证：下月验证Jumia肯尼亚联盟营销的商户参与数，以及DHL与阿里AI物流的覆盖区域。</p>
                   <h4 class="p-evidence-title">代表证据</h4>
                   <ul class="pwin-evidence">
 
@@ -6753,15 +6870,15 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
 
             <article class="pwin">
               <div class="pwin-meta">
-                <span class="p-lbl p-lbl-green">升温</span>
+                <span class="p-lbl p-lbl-green">延续</span>
                 <span class="p-lbl">亚太</span>
               </div>
-              <h3>Kakao公司升温</h3>
+              <h3>Kakao公司延续</h3>
 
-              <p class="p-narrative">本月在 3 个周次持续出现，共 10 个独立事实；较基线 +2.2 个事实。</p>
+              <p class="p-narrative">本月在 3 个周次持续出现，共 10 个独立事实；较基线 +1.5 个事实。</p>
               <details class="pwin-details">
                 <summary>变化详情</summary>
-                <p>跨周：3 周 · 10 个独立事实（基线均值 5.3 个）</p>
+                <p>跨周：3 周 · 10 个独立事实（基线均值 6.0 个）</p>
                 <h4 class="p-evidence-title">代表证据</h4>
                 <ul class="pwin-evidence">
 
@@ -6805,41 +6922,15 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
 
             <article class="pwin">
               <div class="pwin-meta">
-                <span class="p-lbl p-lbl-green">延续</span>
-                <span class="p-lbl">拉美</span>
-              </div>
-              <h3>MercadoLibre公司延续</h3>
-
-              <p class="p-narrative">本月在 3 个周次持续出现，共 8 个独立事实；较基线 -0.3 个事实。</p>
-              <details class="pwin-details">
-                <summary>变化详情</summary>
-                <p>跨周：3 周 · 8 个独立事实（基线均值 6.3 个）</p>
-                <h4 class="p-evidence-title">代表证据</h4>
-                <ul class="pwin-evidence">
-
-                  <li><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxObGFvQmtqNHRjU1RZYXgyUUNHb2MtbVE4eE1BcXZFVDBpQ19SM2FQRjZ2Q0dJN18wbzBldXJHZ1YxdU5STjN5MTgyOXNrallVSGhvanVhVlJ0NFBVQzA3ZV96VElSVFRtUUJMYkdqVndncno3Y2cxcDctMURLN1RHOC1B?oc=5" target="_blank">MercadoLibre提交8-K财报</a><span>2026-09-14 · Moomoo · 背景补充</span></li>
-
-                  <li><a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMTF4Y0xuY1NPcXl1OHBsSllzWVlyTld3dGhRdEhqNlEyczBPOEZrWGRRY3BJMnBQOVgxZ1RNakNMdlIxdXdWb3FubkFVS0EzTERiTWpqU1Vqbm81SlNkSHA0NFZBamZ2T0l2dGg0ZkF4UkhxMmQ0ckhLa3VYV0FLa05zd253THBSYjh2U0RvNTZFZUZhTHp6azVDeG1RUEZ0T1h3M1V5TTJkU1FKeG9tQWpBY1hHZW56Uk1EcllnYk1VM3FEWF82ZkYtNEtHYXlXREQ0c3ZTcHBUZDI2NzNNUWxHTQ?oc=5" target="_blank">MercadoLibre发行$1B债券</a><span>2026-09-10 · TradingView · 资金流向</span></li>
-
-                  <li><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxPR1lTOTZBWEdNYXJOdGxQc203N256eXZIM0t1dHk1ZmlwdzhSdTIxY3VqYUpqb0FLUUotU1ZfR3pmZEF2OHQzcnJ5OXpiVmx5eGUzWkItMTlzby1HMW1kRUozejdOZ1VpN3dsUHFJZ1BuM2ROV0FzeXcwZ1A1dWdGZ2NaTmR0UW5laWxqaVEyWGNZMG9VQmlBOGpvUnFrei0yaUhfNVhJcw?oc=5" target="_blank">MercadoLibre发债融资$1B</a><span>2026-09-09 · Reuters · 资金流向</span></li>
-
-                  <li><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxOZDVjeHkyN3YxZEE5eUdGTFhJcG1MbjRscFpLM0NGLTdWbXFpOURoN3BBajNqTWowWDFTSVdjLVNsM3ZLc1Y1MERfaHVLeVRvdXZnLUhQd3U0VFNxdlFRbE1Kc1hvR3NQWU1LejNpMGowZ2RiRXFWUmV3Vk9yWWZ4dURIaWpJUndCS3ZBN250UkhqTTF1Y0h6UnlqY1p4RHFNOVlXT3p6TzlrVTN3S0lYVw?oc=5" target="_blank">MercadoLibre成市场关注焦点</a><span>2026-09-16 · Kalkine Media · 背景补充</span></li>
-
-                </ul>
-              </details>
-            </article>
-
-            <article class="pwin">
-              <div class="pwin-meta">
                 <span class="p-lbl p-lbl-green">升温</span>
                 <span class="p-lbl">亚太</span>
               </div>
               <h3>Grab公司升温</h3>
 
-              <p class="p-narrative">本月在 3 个周次持续出现，共 7 个独立事实；较基线 +2.2 个事实。</p>
+              <p class="p-narrative">本月在 3 个周次持续出现，共 8 个独立事实；较基线 +3.0 个事实。</p>
               <details class="pwin-details">
                 <summary>变化详情</summary>
-                <p>跨周：3 周 · 7 个独立事实（基线均值 3.0 个）</p>
+                <p>跨周：3 周 · 8 个独立事实（基线均值 3.0 个）</p>
                 <h4 class="p-evidence-title">代表证据</h4>
                 <ul class="pwin-evidence">
 
@@ -6858,24 +6949,50 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
             <article class="pwin">
               <div class="pwin-meta">
                 <span class="p-lbl p-lbl-green">延续</span>
-                <span class="p-lbl">欧洲</span>
+                <span class="p-lbl">拉美</span>
               </div>
-              <h3>Adyen公司延续</h3>
+              <h3>MercadoLibre公司延续</h3>
 
-              <p class="p-narrative">本月在 3 个周次持续出现，共 7 个独立事实；较基线 +1.6 个事实。</p>
+              <p class="p-narrative">本月在 3 个周次持续出现，共 8 个独立事实；较基线 -0.7 个事实。</p>
               <details class="pwin-details">
                 <summary>变化详情</summary>
-                <p>跨周：3 周 · 7 个独立事实（基线均值 3.7 个）</p>
+                <p>跨周：3 周 · 8 个独立事实（基线均值 6.7 个）</p>
                 <h4 class="p-evidence-title">代表证据</h4>
                 <ul class="pwin-evidence">
 
-                  <li><a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxOT3luR0Q0OHJSQURUMDFJOVVya25KWGp0QkUwWHB1NHd2cWxQSUhLR0xxeVNReVB2TzFCVHdtQjhPT1lsOWR1ZnlKdHlYZjh5M0wyUFVUTmlCaFlZWmtOUEN1ZllpbEFUcTdaN1htaVBzSEpwdnJKRDJ4Qkw4SEpIa0lTRHFTZw?oc=5" target="_blank">Adyen与SNKRDUNK达成支付合作</a><span>2026-09-16 · CFOtech Asia · 合作机会</span></li>
+                  <li><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxObGFvQmtqNHRjU1RZYXgyUUNHb2MtbVE4eE1BcXZFVDBpQ19SM2FQRjZ2Q0dJN18wbzBldXJHZ1YxdU5STjN5MTgyOXNrallVSGhvanVhVlJ0NFBVQzA3ZV96VElSVFRtUUJMYkdqVndncno3Y2cxcDctMURLN1RHOC1B?oc=5" target="_blank">MercadoLibre提交8-K财报</a><span>2026-09-14 · Moomoo · 背景补充</span></li>
 
-                  <li><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxNamF3RVNlNUo1d2J1REl4aldPd0dHY0F5OU1maXROVjlVUzF2d19jRjlSSnI4QTFRY3hOZ1gydkdWUmxjSGtQSzJkVlZma1hCQnRWUHgwSDR1R3VYNEJWUzFycEdpRTFMQ0xTWU42MExOMEVoVzJwblFXZ3FhMHZ5c1UzWnVOTkFhOXZ1QVpZOVRDZVl6U1p1aGJVSWdTeWhldUtoV2Exd3V1UTdqd1FXcm1zRXNpRGE1TkxQb2dpNA?oc=5" target="_blank">Adyen计划在印度扩张</a><span>2026-09-09 · Reuters · 中资出海</span></li>
+                  <li><a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMTF4Y0xuY1NPcXl1OHBsSllzWVlyTld3dGhRdEhqNlEyczBPOEZrWGRRY3BJMnBQOVgxZ1RNakNMdlIxdXdWb3FubkFVS0EzTERiTWpqU1Vqbm81SlNkSHA0NFZBamZ2T0l2dGg0ZkF4UkhxMmQ0ckhLa3VYV0FLa05zd253THBSYjh2U0RvNTZFZUZhTHp6azVDeG1RUEZ0T1h3M1V5TTJkU1FKeG9tQWpBY1hHZW56Uk1EcllnYk1VM3FEWF82ZkYtNEtHYXlXREQ0c3ZTcHBUZDI2NzNNUWxHTQ?oc=5" target="_blank">MercadoLibre发行$1B债券</a><span>2026-09-10 · TradingView · 资金流向</span></li>
 
-                  <li><a href="https://news.google.com/rss/articles/CBMi-gFBVV95cUxOemdzVlhNd0FOWGRiRGpuX19BSXo1NGdFalZqSFNNLVhGZkliSlZWeFRTSFZkbUt6WEFNUUNhSjBoTlVzejgxa193UXlTNXhzbWg0bU5WNEI5bXdGZWpRSDZ4M2ZGWlVLTjl4Y3Z4U2l4Y0lxOUMxbURnLUlMN0VoQ1BHb3J4VjBOYmF5RGdTaWpNUkVQb1lfd1ZIblVsbUVWNFF2bjR5aWlwWl9PLVplZ0VfcERiWGZvZDVwOGVhOE1MZE8yYlRGcUt4enl6TUx2WFFBbGtyVjNMb0NoV3FXS3lYZEhXczVnc2xJWmVLOWJBVGpqTVNTN0pB0gH_AUFVX3lxTE95ZTU5LVJDeC0xMjFGdWx6SE5LTks1N0tMVWJfS1FzanZ0TE9BQWp3OF9UbWxVRHNWR1pVUXY1WmUtYldZc3NGOTJWeHNWcGdTdGhzVG5rVFlTN3E0NmNNRVZBMVBsamZoQ1JRWmJ1OWVIQ1pNU2tsZHhfc190bEwzUFNLREp1OE9LanpVcHV0UnZWWEREY3NMMVlMNDY1amJkZl9PRm1Dai1pblhpbzdvSXlGbXRWb3FuYnhSNnRxX1NWeDdkMnVyWVl1SmFPZDFrS3ViblRjWUJtLWN1Y0ZHLU04dkpKUmZUNXNTWElWYXk3VHJBb2xoc0NLYzRRTQ?oc=5" target="_blank">Adyen强调印度数字支付创新驱动全球增长</a><span>2026-09-17 · The Economic Times · 背景补充</span></li>
+                  <li><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxPR1lTOTZBWEdNYXJOdGxQc203N256eXZIM0t1dHk1ZmlwdzhSdTIxY3VqYUpqb0FLUUotU1ZfR3pmZEF2OHQzcnJ5OXpiVmx5eGUzWkItMTlzby1HMW1kRUozejdOZ1VpN3dsUHFJZ1BuM2ROV0FzeXcwZ1A1dWdGZ2NaTmR0UW5laWxqaVEyWGNZMG9VQmlBOGpvUnFrei0yaUhfNVhJcw?oc=5" target="_blank">MercadoLibre发债融资$1B</a><span>2026-09-09 · Reuters · 资金流向</span></li>
 
-                  <li><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE1SdEQwNXNlb285T1NYOERFTGwxeWcwN2FRMU1WYlc2YmM1Q3RzQWkyV1BVelVDVWRQM3FpNTNkcXEyYlAyaDN1SURNREl6NFM2ZFplMEpMdk9hODJ4cXVmUVZiZXhXTi00SFFyakh5T1BNNEdhY3c?oc=5" target="_blank">Adyen获印度牌照后扩招团队</a><span>2026-09-10 · finance.biggo.com · 资金流向</span></li>
+                  <li><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxOZDVjeHkyN3YxZEE5eUdGTFhJcG1MbjRscFpLM0NGLTdWbXFpOURoN3BBajNqTWowWDFTSVdjLVNsM3ZLc1Y1MERfaHVLeVRvdXZnLUhQd3U0VFNxdlFRbE1Kc1hvR3NQWU1LejNpMGowZ2RiRXFWUmV3Vk9yWWZ4dURIaWpJUndCS3ZBN250UkhqTTF1Y0h6UnlqY1p4RHFNOVlXT3p6TzlrVTN3S0lYVw?oc=5" target="_blank">MercadoLibre成市场关注焦点</a><span>2026-09-16 · Kalkine Media · 背景补充</span></li>
+
+                </ul>
+              </details>
+            </article>
+
+            <article class="pwin">
+              <div class="pwin-meta">
+                <span class="p-lbl p-lbl-green">延续</span>
+                <span class="p-lbl">亚太</span>
+              </div>
+              <h3>Rakuten公司延续</h3>
+
+              <p class="p-narrative">本月在 3 个周次持续出现，共 7 个独立事实；较基线 +0.6 个事实。</p>
+              <details class="pwin-details">
+                <summary>变化详情</summary>
+                <p>跨周：3 周 · 7 个独立事实（基线均值 4.7 个）</p>
+                <h4 class="p-evidence-title">代表证据</h4>
+                <ul class="pwin-evidence">
+
+                  <li><a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxPRk5hQ0dsRzhRcmt2QmVSdlBEYnYwR1NRN2hCRkQzay15b2ZNYm04ckQwYVhFQzh6TnZLa2ZQX2g5U2EwOGNYZWtkVWZUOTQzMDY0V2Vxa3dvSUN3a0ZndC11d2N2OEE4NUEyUzgwV2xBYk5PYmlQaEFpWnNncTRtcTBkMkE?oc=5" target="_blank">法拉利与乐天达成2027年合作伙伴关系</a><span>2026-09-18 · Grandprix.com · 合作机会</span></li>
+
+                  <li><a href="https://news.google.com/rss/articles/CBMi6gFBVV95cUxQblRGQ1RmdGp6N2xrc09xWmdaQ0Z0eFJHV3hDTXBlSGFKSE95d1diNldmU3dBQXQybEtwcGZ3bTBvQmZmcWF2U1BqbjBNZ3dzeGM3TE5mZFByOTdzRGVqNDQ4cF9zNGprZjRiX3BfR0l2Ym1XU2VVM29WMXdPcFAwWWpkbHJsOWNvaDJ1blc3c1M1Sjd1MURsYUpKcExmTGdNaDRDN3lVdnZNbFJNelpmTnRsSlZsMjJRajYzUFZIdFlndE9aNmpteV9BZUJ2WEMxeWtObkx5OEg2U242RWJlYUNVRTNlNDFqOGc?oc=5" target="_blank">TAWAL与Rakuten Symphony在沙特推出共享室内网络</a><span>2026-09-14 · EIN News · 合作机会</span></li>
+
+                  <li><a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE1LZ3Q0ejkzTldwWHZMRk5xcWRPa2xoclRuTEkybDNFYzRqUFNYUnBOYjJTNzRMU1Q0eUtOVmlZbm1kaDJaU29SeUR3ZnBPWUY1NGp0Ug?oc=5" target="_blank">Rakuten Travel推出酒店连锁特惠</a><span>2026-09-11 · TRAICY Global · 合作机会</span></li>
+
+                  <li><a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxPVVdqaVpZTmZqalo1eWVac1ptbFVuUHZYUWlybnRDdWVXR3g1cXEwZWRVbVdjc29JNTdQZjQyVGpQa1ZuWUNBRExTcWc3LWJyTk96S2QtMWlqZmphaWhIYUJ6YkRsTmtWOXVON1VvMHAzUjc2NzBWbUowVUtLRHRtSkJiZmg4QXlValFlaG9fZXI?oc=5" target="_blank">Rakuten Viber推出AI摘要功能</a><span>2026-09-08 · Root-Nation.com · 合作机会</span></li>
 
                 </ul>
               </details>
@@ -6889,25 +7006,25 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
 
             <article class="pwin">
               <div class="pwin-meta">
-                <span class="p-lbl p-lbl-green">升温</span>
+                <span class="p-lbl p-lbl-green">延续</span>
                 <span class="p-lbl">全球</span>
               </div>
-              <h3>AI升温</h3>
+              <h3>AI延续</h3>
 
-              <p class="p-narrative">本月在 3 个周次持续出现，共 303 个独立事实；较基线 +46.6 个事实。</p>
+              <p class="p-narrative">本月在 3 个周次持续出现，共 304 个独立事实；较基线 +31.3 个事实。</p>
               <details class="pwin-details">
                 <summary>变化详情</summary>
-                <p>跨周：3 周 · 303 个独立事实（基线均值 180.7 个）</p>
+                <p>跨周：3 周 · 304 个独立事实（基线均值 196.7 个）</p>
                 <h4 class="p-evidence-title">代表证据</h4>
                 <ul class="pwin-evidence">
+
+                  <li><a href="https://thenextweb.com/news/suleyman-zuckerberg-dissent-matches-antitrust-argument" target="_blank">扎克伯格AI安全立场与反垄断诉讼论点吻合</a><span>2026-09-20 · The Next Web · 警示信号</span></li>
 
                   <li><a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTWREd1VEbzZ6MlJYOEZpcUVwZ2M3QlV6T2kteDhoS0kwQnQ5SVFTRlp1akRPZGZydEhFUlJaTnZURlVXLVVrQU9IaVBfWXI2RnBMb2x0ekVXT2E3eVc2azlMWjZROURLQ2FsV3pQb3BlckVMREk0dEJMUThpNEktczNtSkZONmdwVC1wdDIzb0hsaEVzbDVGQmJDWnNZTmxHUElHVTg1XzBLZGtYYU5TQ0dzRjBmZW5WSDRjcTZOaXBxSzhPOUFfNjJWblUzQnM1WjhJZ9IB1AFBVV95cUxNNWlnQVdMeU9tQk1tbWRCa1ZFLVBBY010RGYzQ3FPTFRucXZYMjU2OU45amxRcXA3MnhNNzBPOW5TS3h4dGNrWFo1MENqbFloZ2dZdzBVRXpMRHRkOEJRZW0wX1gyLWpET18wMU9Wa0JOVkoyOG92SVhySThJTU9QM1BibHF2NEl5TGhocTd2dVRBaFJTOHNHdF9TTUV1SjI5RWFGekNmYnhTSm1QOTROaWZlVGxsWmhmck1qZ1NxTEpIN05ZOGZsQVNXcjl3TWk4ckpQRw?oc=5" target="_blank">蚂蚁国际推出AI平台自动化全球金融运营</a><span>2026-09-18 · South China Morning Post · 中资出海</span></li>
 
                   <li><a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxQd243ZlVMb3NVckVkcmNsZnhNZzkxZlk4c2pTampvVHM2OF81V1g1VTRtR2dmbHFnelRIcDI4Qjh0S2F5OHVRdzhmTDg1YUNGOUVWNFJEdVEydEFQM0RXRDY5T0U3Mkk4V1g3Q1hNTU92dm41UGVWazd4cFhrV0E0Q3FCS3VDNlRiZFdrd3Jjc1FfZXMzZVhubkdDVHlwQXhUeHZqcl9WWlkwRy0wMlg5dWFEWGo3XzFrNTRFaU4zOFRRUHYyVkJGVk5oT0djRkhnaHc?oc=5" target="_blank">Naver D2SF投资ImpriMed 1000万美元A2轮</a><span>2026-09-18 · TradingView · 资金流向</span></li>
 
                   <li><a href="https://www.anthropic.com/news/accenture-embedded-evaluation" target="_blank">Anthropic与埃森哲合作嵌入式AI评估</a><span>2026-09-18 · Anthropic Newsroom · 合作机会</span></li>
-
-                  <li><a href="https://thenextweb.com/news/andrew-ng-extinction-science-fiction" target="_blank">吴恩达称AI灭绝警告为科幻</a><span>2026-09-17 · The Next Web · 背景补充</span></li>
 
                 </ul>
               </details>
@@ -6920,10 +7037,10 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </div>
               <h3>支付升温</h3>
 
-              <p class="p-narrative">本月在 3 个周次持续出现，共 171 个独立事实；较基线 +56.9 个事实。</p>
+              <p class="p-narrative">本月在 3 个周次持续出现，共 172 个独立事实；较基线 +53.7 个事实。</p>
               <details class="pwin-details">
                 <summary>变化详情</summary>
-                <p>跨周：3 周 · 171 个独立事实（基线均值 71.3 个）</p>
+                <p>跨周：3 周 · 172 个独立事实（基线均值 75.3 个）</p>
                 <h4 class="p-evidence-title">代表证据</h4>
                 <ul class="pwin-evidence">
 
@@ -6946,10 +7063,10 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </div>
               <h3>综合科技降温</h3>
 
-              <p class="p-narrative">本月在 3 个周次持续出现，共 53 个独立事实；较基线 -43.2 个事实。</p>
+              <p class="p-narrative">本月在 3 个周次持续出现，共 53 个独立事实；较基线 -51.9 个事实。</p>
               <details class="pwin-details">
                 <summary>变化详情</summary>
-                <p>跨周：3 周 · 53 个独立事实（基线均值 83.0 个）</p>
+                <p>跨周：3 周 · 53 个独立事实（基线均值 91.7 个）</p>
                 <h4 class="p-evidence-title">代表证据</h4>
                 <ul class="pwin-evidence">
 
@@ -6972,10 +7089,10 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </div>
               <h3>云与SaaS延续</h3>
 
-              <p class="p-narrative">本月在 3 个周次持续出现，共 41 个独立事实；较基线 +3.8 个事实。</p>
+              <p class="p-narrative">本月在 3 个周次持续出现，共 41 个独立事实；较基线 +1.8 个事实。</p>
               <details class="pwin-details">
                 <summary>变化详情</summary>
-                <p>跨周：3 周 · 41 个独立事实（基线均值 27.0 个）</p>
+                <p>跨周：3 周 · 41 个独立事实（基线均值 29.0 个）</p>
                 <h4 class="p-evidence-title">代表证据</h4>
                 <ul class="pwin-evidence">
 
@@ -6998,10 +7115,10 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </div>
               <h3>电商延续</h3>
 
-              <p class="p-narrative">本月在 3 个周次持续出现，共 16 个独立事实；较基线 -2.7 个事实。</p>
+              <p class="p-narrative">本月在 3 个周次持续出现，共 16 个独立事实；较基线 -3.7 个事实。</p>
               <details class="pwin-details">
                 <summary>变化详情</summary>
-                <p>跨周：3 周 · 16 个独立事实（基线均值 14.7 个）</p>
+                <p>跨周：3 周 · 16 个独立事实（基线均值 15.7 个）</p>
                 <h4 class="p-evidence-title">代表证据</h4>
                 <ul class="pwin-evidence">
 
@@ -9420,7 +9537,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
 
             <button class="pbtn active" data-period-target="mp-2026-09" type="button">
               <strong>2026-09 月度趋势更新</strong>
-              <span>2026-09-01 至 2026-09-19</span>
+              <span>2026-09-01 至 2026-09-21</span>
               <em>更新中</em>
             </button>
 
@@ -9729,7 +9846,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               <small>近 30 天 16 条</small>
             </button>
 
-            <button class="c-card c-coverage-NO_DATA" data-company="Grab" data-count="28">
+            <button class="c-card c-coverage-NORMAL" data-company="Grab" data-count="28">
               <strong>Grab<span class="c-tier">必须覆盖</span></strong>
               <span class="c-direction">出行+支付</span>
 
@@ -9739,7 +9856,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-09-18</span></span>
               </span>
 
-              <small>近 30 天 12 条｜<span class="c-badge-warn">⚠ 数据可能不完整</span></small>
+              <small>近 30 天 12 条</small>
             </button>
 
             <button class="c-card c-coverage-PARTIAL_DATA" data-company="Sea Limited" data-count="15">
@@ -10338,13 +10455,31 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
         <div class="m-overline">全部事件</div>
         <div class="m-headline-row">
           <h2 class="m-title-sec">事件库</h2>
-          <span class="m-head-meta">按日期折叠，共 134 天</span>
+          <span class="m-head-meta">按日期折叠，共 135 天</span>
         </div>
       </div>
 
       <section class="h-list">
 
-        <div class="h-card open" data-date="2026-09-19">
+        <div class="h-card open" data-date="2026-09-20">
+          <button class="h-head" type="button">
+            <span class="h-date">2026-09-20</span>
+            <span class="h-meta">1 条<span class="h-caret">›</span></span>
+          </button>
+          <div class="h-body">
+
+            <a class="h-event" href="https://thenextweb.com/news/suleyman-zuckerberg-dissent-matches-antitrust-argument" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="Zuckerberg’s reason for refusing to coordinate on AI safety is now the argument in an antitrust suit against four rivals. 欧美AI巨头在安全协调上的分歧演变为法律争议，反垄断诉讼可能重塑AI行业合作与竞争格局，影响AI技术授权和开源策略。 扎克伯格拒绝协调AI安全的理由，与一项针对四家竞争对手的反垄断诉讼中的论点相吻合。 欧洲 The Next Web ">
+              <span>
+                <span class="h-title">扎克伯格AI安全立场与反垄断诉讼论点吻合</span>
+                <span class="h-sub">点评：欧美AI巨头在安全协调上的分歧演变为法律争议，反垄断诉讼可能重塑AI行业合作与竞争格局，影响AI技术授权和开源策略。</span>
+              </span>
+              <span class="h-side">The Next Web</span>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="h-card" data-date="2026-09-19">
           <button class="h-head" type="button">
             <span class="h-date">2026-09-19</span>
             <span class="h-meta">6 条<span class="h-caret">›</span></span>
@@ -12199,7 +12334,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
         <div class="h-card" data-date="2026-09-13">
           <button class="h-head" type="button">
             <span class="h-date">2026-09-13</span>
-            <span class="h-meta">8 条<span class="h-caret">›</span></span>
+            <span class="h-meta">6 条<span class="h-caret">›</span></span>
           </button>
           <div class="h-body">
 
@@ -12235,14 +12370,6 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               <span class="h-side">Tech in Asia</span>
             </a>
 
-            <a class="h-event" href="https://news.google.com/rss/articles/CBMivwFBVV95cUxOanNzVjNyWDJKc0N0bmRrVEpoeDB2LXhGTDZRc2diZkpGLWtsTlBiTmY5WjVwQk91ZVJaSVdzVWRCT0RjNDh5djhvbXVIMzhVNmpfcTRtTHdmWG9TajF3VDlCdDNmYlExZHBicXFWQm0xcGlEV0JkV1luZTNDTHNTM3ZwTE13RzlnZVRvLXZnMVowT01TQ0FWRU4zeVBZZEZhZTYtWUQtWFoyUVFTSXBkZm52a0RQY3NZY2ladkdfcw?oc=5" target="_blank" data-filterable data-region="亚太" data-company="VNG Group" data-text="Zalopay launches &#34;Overseas Travel Club&#34;: Elevating the international travel experience for Vietnamese people. - vntravellive.com 越南金融科技ZaloPay拓展海外旅行场景，为东南亚金融科技与旅游生态融合提供新案例，相关跨境支付和旅行服务商可关注合作。 越南电子钱包ZaloPay推出“海外旅行俱乐部”服务，旨在提升越南用户的国际旅行体验。 亚太 Google News VNG Group">
-              <span>
-                <span class="h-title">VNG Group · ZaloPay推出海外旅行俱乐部服务</span>
-                <span class="h-sub">点评：越南金融科技ZaloPay拓展海外旅行场景，为东南亚金融科技与旅游生态融合提供新案例，相关跨境支付和旅行服务商可关注合作。</span>
-              </span>
-              <span class="h-side">vntravellive.com</span>
-            </a>
-
             <a class="h-event" href="https://www.socialmediatoday.com/news/youtube-report-examines-mainstream-culture/830235/" target="_blank" data-filterable data-region="全球" data-company="" data-text="YouTube report examines mainstream culture 全球视频平台发布文化趋势报告，为内容创作者和品牌营销提供数据洞察，为数据分析公司和营销服务商带来合作机会。 YouTube发布报告，分析主流文化趋势和用户行为变化，为内容创作者和品牌提供数据参考。 全球 Social Media Today ">
               <span>
                 <span class="h-title">YouTube发布主流文化趋势报告</span>
@@ -12257,14 +12384,6 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="h-sub">点评：全球科技巨头更新数据管理平台，为数据合规和隐私技术领域带来新变化。</span>
               </span>
               <span class="h-side">Social Media Today</span>
-            </a>
-
-            <a class="h-event" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTkJoejZDUUJqVDZoNGVKMC10QnFjSFprVnRENzFDSUxteEdIOGlPUmlmNmNQcnhwTTA0YnNfS21KcXo0UDVmTVAzYWdXVnFBejk4Z2Rrem9IdU00VUQ1cXlURWJwdGxBeUVLaWdTSDBDY3ZKZm9lOWc2eUhqbXZoWEZnMDRQLTRr?oc=5" target="_blank" data-filterable data-region="亚太" data-company="Naver" data-text="Toss&#39;s Attendance Check Mission Distorts Naver Rankings, Prompts Probe - 조선일보 韩国金融科技巨头Toss涉嫌操纵搜索排名，引发监管关注，金融科技合规风险上升 韩国金融科技公司Toss的签到任务被指操纵Naver搜索排名，引发监管调查。 亚太 Google News Naver">
-              <span>
-                <span class="h-title">Naver · Toss签到任务操纵Naver排名遭调查</span>
-                <span class="h-sub">点评：韩国金融科技巨头Toss涉嫌操纵搜索排名，引发监管关注，金融科技合规风险上升</span>
-              </span>
-              <span class="h-side">조선일보</span>
             </a>
 
           </div>
