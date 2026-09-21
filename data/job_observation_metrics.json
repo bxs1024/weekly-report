@@ -1,23 +1,30 @@
 {
-  "observed_at": "2026-09-21T13:52:05.618406+08:00",
+  "observed_at": "2026-09-22T05:55:15.624474+08:00",
   "source_count": 3,
-  "raw_count": 55,
+  "raw_count": 59,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 5,
+      "count": 14,
       "inventory_count": 17,
       "signal_count": 1,
-      "added_count": 3,
-      "removed_count": 2,
+      "added_count": 7,
+      "removed_count": 7,
       "clusters": {
-        "engineering": 2
+        "engineering": 4,
+        "ai": 1,
+        "sales": 1,
+        "operations": 1
       },
       "removed_clusters": {
-        "operations": 1
+        "payments": 2,
+        "compliance": 1,
+        "engineering": 2,
+        "operations": 1,
+        "partnerships": 1
       }
     },
     "Stripe Jobs": {
@@ -38,12 +45,15 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 32,
-      "signal_count": 0,
-      "added_count": 0,
+      "count": 4,
+      "inventory_count": 36,
+      "signal_count": 1,
+      "added_count": 4,
       "removed_count": 0,
-      "clusters": {},
+      "clusters": {
+        "engineering": 1,
+        "operations": 1
+      },
       "removed_clusters": {}
     }
   },
@@ -58,55 +68,168 @@
       "signal_type": "function_buildout",
       "cluster": "engineering",
       "window": "2026-W39",
-      "window_start": "2026-09-21",
-      "window_end": "2026-09-21",
-      "detected_at": "2026-09-21T13:52:05.618406+08:00",
-      "baseline_count": 16,
+      "window_start": "2026-09-22",
+      "window_end": "2026-09-22",
+      "detected_at": "2026-09-22T05:55:15.624474+08:00",
+      "baseline_count": 17,
       "current_count": 17,
-      "added_count": 3,
-      "removed_count": 2,
+      "added_count": 7,
+      "removed_count": 7,
       "clusters": {
-        "engineering": 2
+        "engineering": 4,
+        "ai": 1,
+        "sales": 1,
+        "operations": 1
       },
       "removed_clusters": {
-        "operations": 1
+        "payments": 2,
+        "compliance": 1,
+        "engineering": 2,
+        "operations": 1,
+        "partnerships": 1
       },
       "evidence_refs": [
         {
-          "job_id": "744000150597009",
-          "title": "Senior Software Engineer in Test",
-          "url": "https://www.grab.careers/en/jobs/744000150597009/senior-software-engineer-in-test/",
+          "job_id": "744000150666319",
+          "title": "Lead Product Manager, Data Platform",
+          "url": "https://www.grab.careers/en/jobs/744000150666319/lead-product-manager-data-platform/",
           "change": "added"
         },
         {
-          "job_id": "744000150596299",
-          "title": "Software Engineer, Mobile (iOS)",
-          "url": "https://www.grab.careers/en/jobs/744000150596299/software-engineer-mobile-ios/",
+          "job_id": "744000150640499",
+          "title": "Senior Data Scientist (Supply Planning)",
+          "url": "https://www.grab.careers/en/jobs/744000150640499/senior-data-scientist-supply-planning/",
           "change": "added"
         },
         {
-          "job_id": "744000150586969",
-          "title": "Assistant Marketing Manager, Mobility",
-          "url": "https://www.grab.careers/en/jobs/744000150586969/assistant-marketing-manager-mobility/",
+          "job_id": "744000150619063",
+          "title": "Senior Manager, Deliveries Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000150619063/senior-manager-deliveries-strategy/",
           "change": "added"
         },
         {
-          "job_id": "744000150076354",
-          "title": "Head, Grab Support Customer Operations",
-          "url": "https://www.grab.careers/en/jobs/744000150076354/head-grab-support-customer-operations/",
+          "job_id": "744000150614725",
+          "title": "Software Engineering Manager",
+          "url": "https://www.grab.careers/en/jobs/744000150614725/software-engineering-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150615581",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000150615581/senior-software-engineer-backend/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150614295",
+          "title": "Senior Machine Learning Engineer - Trust Platform",
+          "url": "https://www.grab.careers/en/jobs/744000150614295/senior-machine-learning-engineer-trust-platform/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150611490",
+          "title": "Associate, Growth & Business Operations, Transport",
+          "url": "https://www.grab.careers/en/jobs/744000150611490/associate-growth-business-operations-transport/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150321529",
+          "title": "Assistant Marketing Manager, Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000150321529/assistant-marketing-manager-financial-services/",
           "change": "removed"
         },
         {
-          "job_id": "744000150068390",
-          "title": "Manager, Rewards",
-          "url": "https://www.grab.careers/en/jobs/744000150068390/manager-rewards/",
+          "job_id": "744000150317835",
+          "title": "Data Analyst (Risk analytics)",
+          "url": "https://www.grab.careers/en/jobs/744000150317835/data-analyst-risk-analytics/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150314369",
+          "title": "Software Engineer, Backend - FinID",
+          "url": "https://www.grab.careers/en/jobs/744000150314369/software-engineer-backend-finid/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150310200",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000150310200/senior-software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150308125",
+          "title": "Regional Assistant Marketing Manager – Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000150308125/regional-assistant-marketing-manager-financial-services/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150284849",
+          "title": "Ads Automation Product Management & Ops Lead",
+          "url": "https://www.grab.careers/en/jobs/744000150284849/ads-automation-product-management-ops-lead/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150269709",
+          "title": "GrabForBusiness Planning & Partnerships Manager",
+          "url": "https://www.grab.careers/en/jobs/744000150269709/grabforbusiness-planning-partnerships-manager/",
           "change": "removed"
         }
       ],
       "status": "qualified",
       "rejection_reason": "",
       "promoted_event_id": ""
+    },
+    {
+      "candidate_id": "jobs-71dff2d99e6a75d8",
+      "entity_id": "shopify",
+      "entity": "Shopify",
+      "region": "全球",
+      "sector": "commerce_saas",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W39",
+      "window_start": "2026-09-22",
+      "window_end": "2026-09-22",
+      "detected_at": "2026-09-22T05:55:15.624474+08:00",
+      "baseline_count": 32,
+      "current_count": 36,
+      "added_count": 4,
+      "removed_count": 0,
+      "clusters": {
+        "engineering": 1,
+        "operations": 1
+      },
+      "removed_clusters": {},
+      "evidence_refs": [
+        {
+          "job_id": "ef12f6c3-34f8-4e9e-9d92-c549f16a3848",
+          "title": "Affiliate Marketing Lead, Shop Remote - Americas",
+          "url": "https://www.shopify.com/careers/affiliate-marketing-lead-shop_ef12f6c3-34f8-4e9e-9d92-c549f16a3848",
+          "change": "added"
+        },
+        {
+          "job_id": "bc82a976-cfef-48b5-8c2d-8a323f3114cf",
+          "title": "Creator & Influencer Marketing Lead, Shop Remote - Americas",
+          "url": "https://www.shopify.com/careers/creator-influencer-marketing-lead-shop_bc82a976-cfef-48b5-8c2d-8a323f3114cf",
+          "change": "added"
+        },
+        {
+          "job_id": "ec2c737d-049a-4c12-8d9d-6b0fbefad30b",
+          "title": "Lifecycle & CRM Manager, Shop Remote - Americas",
+          "url": "https://www.shopify.com/careers/lifecycle-crm-manager-shop_ec2c737d-049a-4c12-8d9d-6b0fbefad30b",
+          "change": "added"
+        },
+        {
+          "job_id": "88865df0-0622-4687-b8e1-a03b64918e5e",
+          "title": "Developer Support Specialist, PST & EST Remote - Americas",
+          "url": "https://www.shopify.com/careers/developer-support-specialist-pst-est_88865df0-0622-4687-b8e1-a03b64918e5e",
+          "change": "added"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
     }
   ],
-  "promoted_count": 1
+  "promoted_count": 0
 }

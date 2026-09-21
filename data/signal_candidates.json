@@ -1,7 +1,59 @@
 {
   "version": 1,
-  "generated_at": "2026-09-21T13:52:05.618406+08:00",
+  "generated_at": "2026-09-22T05:55:15.624474+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-71dff2d99e6a75d8",
+      "entity_id": "shopify",
+      "entity": "Shopify",
+      "region": "全球",
+      "sector": "commerce_saas",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W39",
+      "window_start": "2026-09-22",
+      "window_end": "2026-09-22",
+      "detected_at": "2026-09-22T05:55:15.624474+08:00",
+      "baseline_count": 32,
+      "current_count": 36,
+      "added_count": 4,
+      "removed_count": 0,
+      "clusters": {
+        "engineering": 1,
+        "operations": 1
+      },
+      "removed_clusters": {},
+      "evidence_refs": [
+        {
+          "job_id": "ef12f6c3-34f8-4e9e-9d92-c549f16a3848",
+          "title": "Affiliate Marketing Lead, Shop Remote - Americas",
+          "url": "https://www.shopify.com/careers/affiliate-marketing-lead-shop_ef12f6c3-34f8-4e9e-9d92-c549f16a3848",
+          "change": "added"
+        },
+        {
+          "job_id": "bc82a976-cfef-48b5-8c2d-8a323f3114cf",
+          "title": "Creator & Influencer Marketing Lead, Shop Remote - Americas",
+          "url": "https://www.shopify.com/careers/creator-influencer-marketing-lead-shop_bc82a976-cfef-48b5-8c2d-8a323f3114cf",
+          "change": "added"
+        },
+        {
+          "job_id": "ec2c737d-049a-4c12-8d9d-6b0fbefad30b",
+          "title": "Lifecycle & CRM Manager, Shop Remote - Americas",
+          "url": "https://www.shopify.com/careers/lifecycle-crm-manager-shop_ec2c737d-049a-4c12-8d9d-6b0fbefad30b",
+          "change": "added"
+        },
+        {
+          "job_id": "88865df0-0622-4687-b8e1-a03b64918e5e",
+          "title": "Developer Support Specialist, PST & EST Remote - Americas",
+          "url": "https://www.shopify.com/careers/developer-support-specialist-pst-est_88865df0-0622-4687-b8e1-a03b64918e5e",
+          "change": "added"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-db428e8289329fc4",
       "entity_id": "grab",
