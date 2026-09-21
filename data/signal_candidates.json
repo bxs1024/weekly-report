@@ -1,7 +1,66 @@
 {
   "version": 1,
-  "generated_at": "2026-09-21T04:41:30.326075+08:00",
+  "generated_at": "2026-09-21T13:52:05.618406+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-db428e8289329fc4",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W39",
+      "window_start": "2026-09-21",
+      "window_end": "2026-09-21",
+      "detected_at": "2026-09-21T13:52:05.618406+08:00",
+      "baseline_count": 16,
+      "current_count": 17,
+      "added_count": 3,
+      "removed_count": 2,
+      "clusters": {
+        "engineering": 2
+      },
+      "removed_clusters": {
+        "operations": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000150597009",
+          "title": "Senior Software Engineer in Test",
+          "url": "https://www.grab.careers/en/jobs/744000150597009/senior-software-engineer-in-test/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150596299",
+          "title": "Software Engineer, Mobile (iOS)",
+          "url": "https://www.grab.careers/en/jobs/744000150596299/software-engineer-mobile-ios/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150586969",
+          "title": "Assistant Marketing Manager, Mobility",
+          "url": "https://www.grab.careers/en/jobs/744000150586969/assistant-marketing-manager-mobility/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150076354",
+          "title": "Head, Grab Support Customer Operations",
+          "url": "https://www.grab.careers/en/jobs/744000150076354/head-grab-support-customer-operations/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150068390",
+          "title": "Manager, Rewards",
+          "url": "https://www.grab.careers/en/jobs/744000150068390/manager-rewards/",
+          "change": "removed"
+        }
+      ],
+      "status": "promoted",
+      "rejection_reason": "",
+      "promoted_event_id": "event-jobs-db428e8289329fc4"
+    },
     {
       "candidate_id": "jobs-6283923f704a1970",
       "entity_id": "grab",

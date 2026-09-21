@@ -1,26 +1,23 @@
 {
-  "observed_at": "2026-09-21T04:41:30.326075+08:00",
+  "observed_at": "2026-09-21T13:52:05.618406+08:00",
   "source_count": 3,
-  "raw_count": 54,
+  "raw_count": 55,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 8,
-      "inventory_count": 16,
+      "count": 5,
+      "inventory_count": 17,
       "signal_count": 1,
       "added_count": 3,
-      "removed_count": 5,
+      "removed_count": 2,
       "clusters": {
-        "payments": 1,
-        "operations": 2
+        "engineering": 2
       },
       "removed_clusters": {
-        "payments": 1,
-        "engineering": 2,
-        "partnerships": 1
+        "operations": 1
       }
     },
     "Stripe Jobs": {
@@ -52,78 +49,57 @@
   },
   "candidate_signals": [
     {
-      "candidate_id": "jobs-6283923f704a1970",
+      "candidate_id": "jobs-db428e8289329fc4",
       "entity_id": "grab",
       "entity": "Grab",
       "region": "亚太",
       "sector": "mobility_payment",
       "source_type": "jobs_snapshot",
       "signal_type": "function_buildout",
-      "cluster": "operations",
+      "cluster": "engineering",
       "window": "2026-W39",
       "window_start": "2026-09-21",
       "window_end": "2026-09-21",
-      "detected_at": "2026-09-21T04:41:30.326075+08:00",
-      "baseline_count": 18,
-      "current_count": 16,
+      "detected_at": "2026-09-21T13:52:05.618406+08:00",
+      "baseline_count": 16,
+      "current_count": 17,
       "added_count": 3,
-      "removed_count": 5,
+      "removed_count": 2,
       "clusters": {
-        "payments": 1,
-        "operations": 2
+        "engineering": 2
       },
       "removed_clusters": {
-        "payments": 1,
-        "engineering": 2,
-        "partnerships": 1
+        "operations": 1
       },
       "evidence_refs": [
         {
-          "job_id": "744000150545769",
-          "title": "Senior Data Scientist (Analytics), Financial Services",
-          "url": "https://www.grab.careers/en/jobs/744000150545769/senior-data-scientist-analytics-financial-services/",
+          "job_id": "744000150597009",
+          "title": "Senior Software Engineer in Test",
+          "url": "https://www.grab.careers/en/jobs/744000150597009/senior-software-engineer-in-test/",
           "change": "added"
         },
         {
-          "job_id": "744000150534629",
-          "title": "Senior Solution Specialist, People Systems (Time and Absence)",
-          "url": "https://www.grab.careers/en/jobs/744000150534629/senior-solution-specialist-people-systems-time-and-absence/",
+          "job_id": "744000150596299",
+          "title": "Software Engineer, Mobile (iOS)",
+          "url": "https://www.grab.careers/en/jobs/744000150596299/software-engineer-mobile-ios/",
           "change": "added"
         },
         {
-          "job_id": "744000150534619",
-          "title": "Senior Solution Specialist, People Systems (Compensation and Core HCM)",
-          "url": "https://www.grab.careers/en/jobs/744000150534619/senior-solution-specialist-people-systems-compensation-and-core-hcm/",
+          "job_id": "744000150586969",
+          "title": "Assistant Marketing Manager, Mobility",
+          "url": "https://www.grab.careers/en/jobs/744000150586969/assistant-marketing-manager-mobility/",
           "change": "added"
         },
         {
-          "job_id": "744000150045226",
-          "title": "Assistant Manager, Paid Media - Thailand",
-          "url": "https://www.grab.careers/en/jobs/744000150045226/assistant-manager-paid-media-thailand/",
+          "job_id": "744000150076354",
+          "title": "Head, Grab Support Customer Operations",
+          "url": "https://www.grab.careers/en/jobs/744000150076354/head-grab-support-customer-operations/",
           "change": "removed"
         },
         {
-          "job_id": "744000150043010",
-          "title": "Senior Strategy Manager, Financial Services & Omnicommerce",
-          "url": "https://www.grab.careers/en/jobs/744000150043010/senior-strategy-manager-financial-services-omnicommerce/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000150037390",
-          "title": "Lead Product Manager, Transaction Platform",
-          "url": "https://www.grab.careers/en/jobs/744000150037390/lead-product-manager-transaction-platform/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000150018969",
-          "title": "Senior Software Engineer, Fullstack",
-          "url": "https://www.grab.careers/en/jobs/744000150018969/senior-software-engineer-fullstack/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000150018459",
-          "title": "Senior Associate, Talent Acquisition Business Partner",
-          "url": "https://www.grab.careers/en/jobs/744000150018459/senior-associate-talent-acquisition-business-partner/",
+          "job_id": "744000150068390",
+          "title": "Manager, Rewards",
+          "url": "https://www.grab.careers/en/jobs/744000150068390/manager-rewards/",
           "change": "removed"
         }
       ],
