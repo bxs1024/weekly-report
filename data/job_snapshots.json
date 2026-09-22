@@ -1,11 +1,83 @@
 {
   "version": 1,
-  "generated_at": "2026-09-22T13:50:00.547424+08:00",
+  "generated_at": "2026-09-23T05:11:35.361043+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-22T13:50:00.547424+08:00",
+      "observed_at": "2026-09-23T05:11:35.361043+08:00",
       "jobs": [
+        {
+          "id": "744000151077710",
+          "title": "Marketplace Assistant Manager (Deliveries)",
+          "url": "https://www.grab.careers/en/jobs/744000151077710/marketplace-assistant-manager-deliveries/",
+          "function_tags": []
+        },
+        {
+          "id": "744000151046129",
+          "title": "Manager, Category Management",
+          "url": "https://www.grab.careers/en/jobs/744000151046129/manager-category-management/",
+          "function_tags": []
+        },
+        {
+          "id": "744000151045580",
+          "title": "Regional Manager, Category Management",
+          "url": "https://www.grab.careers/en/jobs/744000151045580/regional-manager-category-management/",
+          "function_tags": []
+        },
+        {
+          "id": "744000151028388",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000151028388/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000151020889",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000151020889/lead-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000150994808",
+          "title": "Senior Software Engineer, Fullstack (Consumer Experience)",
+          "url": "https://www.grab.careers/en/jobs/744000150994808/senior-software-engineer-fullstack-consumer-experience/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000150981069",
+          "title": "Senior Software Engineer, Mobile (iOS)",
+          "url": "https://www.grab.careers/en/jobs/744000150981069/senior-software-engineer-mobile-ios/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000150980369",
+          "title": "Program Manager (Developer Education)",
+          "url": "https://www.grab.careers/en/jobs/744000150980369/program-manager-developer-education/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000150971179",
+          "title": "Lead Product Manager, Technical Infrastructure",
+          "url": "https://www.grab.careers/en/jobs/744000150971179/lead-product-manager-technical-infrastructure/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000150952505",
+          "title": "Marketplace Assistant Manager (Mobility)",
+          "url": "https://www.grab.careers/en/jobs/744000150952505/marketplace-assistant-manager-mobility/",
+          "function_tags": []
+        },
         {
           "id": "744000150930189",
           "title": "Client Partner - Brands & Agencies, GrabAds",
@@ -25,14 +97,6 @@
           "title": "Head, Merchant Acquisition",
           "url": "https://www.grab.careers/en/jobs/744000150928267/head-merchant-acquisition/",
           "function_tags": []
-        },
-        {
-          "id": "744000150896584",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000150896584/senior-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
         },
         {
           "id": "744000150878778",
@@ -61,76 +125,12 @@
           "title": "Senior Manager, Deliveries Strategy",
           "url": "https://www.grab.careers/en/jobs/744000150619063/senior-manager-deliveries-strategy/",
           "function_tags": []
-        },
-        {
-          "id": "744000150614725",
-          "title": "Software Engineering Manager",
-          "url": "https://www.grab.careers/en/jobs/744000150614725/software-engineering-manager/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000150614295",
-          "title": "Senior Machine Learning Engineer - Trust Platform",
-          "url": "https://www.grab.careers/en/jobs/744000150614295/senior-machine-learning-engineer-trust-platform/",
-          "function_tags": [
-            "ai",
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000150611490",
-          "title": "Associate, Growth & Business Operations, Transport",
-          "url": "https://www.grab.careers/en/jobs/744000150611490/associate-growth-business-operations-transport/",
-          "function_tags": [
-            "sales",
-            "operations"
-          ]
-        },
-        {
-          "id": "744000150596299",
-          "title": "Software Engineer, Mobile (iOS)",
-          "url": "https://www.grab.careers/en/jobs/744000150596299/software-engineer-mobile-ios/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000150586969",
-          "title": "Assistant Marketing Manager, Mobility",
-          "url": "https://www.grab.careers/en/jobs/744000150586969/assistant-marketing-manager-mobility/",
-          "function_tags": []
-        },
-        {
-          "id": "744000150545769",
-          "title": "Senior Data Scientist (Analytics), Financial Services",
-          "url": "https://www.grab.careers/en/jobs/744000150545769/senior-data-scientist-analytics-financial-services/",
-          "function_tags": [
-            "payments"
-          ]
-        },
-        {
-          "id": "744000150534629",
-          "title": "Senior Solution Specialist, People Systems (Time and Absence)",
-          "url": "https://www.grab.careers/en/jobs/744000150534629/senior-solution-specialist-people-systems-time-and-absence/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000150534619",
-          "title": "Senior Solution Specialist, People Systems (Compensation and Core HCM)",
-          "url": "https://www.grab.careers/en/jobs/744000150534619/senior-solution-specialist-people-systems-compensation-and-core-hcm/",
-          "function_tags": [
-            "operations"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-22T13:50:00.547424+08:00",
+      "observed_at": "2026-09-23T05:11:35.361043+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -188,7 +188,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-22T13:50:00.547424+08:00",
+      "observed_at": "2026-09-23T05:11:35.361043+08:00",
       "jobs": [
         {
           "id": "ef12f6c3-34f8-4e9e-9d92-c549f16a3848",
@@ -201,6 +201,15 @@
           "title": "Creator & Influencer Marketing Lead, Shop Remote - Americas",
           "url": "https://www.shopify.com/careers/creator-influencer-marketing-lead-shop_bc82a976-cfef-48b5-8c2d-8a323f3114cf",
           "function_tags": []
+        },
+        {
+          "id": "7a3c7fb9-c3fd-49b2-84c0-9e93542b13b4",
+          "title": "Senior Partner Solution Architect Remote - United Kingdom",
+          "url": "https://www.shopify.com/careers/senior-partner-solution-architect_7a3c7fb9-c3fd-49b2-84c0-9e93542b13b4",
+          "function_tags": [
+            "engineering",
+            "partnerships"
+          ]
         },
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
@@ -398,9 +407,18 @@
           ]
         },
         {
+          "id": "c03ce74c-7300-4254-a54e-c5e662c8f1b0",
+          "title": "Developer Support Expert Remote - United Kingdom, Ireland",
+          "url": "https://www.shopify.com/careers/developer-support-expert_c03ce74c-7300-4254-a54e-c5e662c8f1b0",
+          "function_tags": [
+            "engineering",
+            "operations"
+          ]
+        },
+        {
           "id": "88865df0-0622-4687-b8e1-a03b64918e5e",
-          "title": "Developer Support Specialist, PST & EST Remote - Americas",
-          "url": "https://www.shopify.com/careers/developer-support-specialist-pst-est_88865df0-0622-4687-b8e1-a03b64918e5e",
+          "title": "Developer Support Expert, PST & EST Remote - Americas",
+          "url": "https://www.shopify.com/careers/developer-support-expert-pst-est_88865df0-0622-4687-b8e1-a03b64918e5e",
           "function_tags": [
             "engineering",
             "operations"
