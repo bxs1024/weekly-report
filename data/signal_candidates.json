@@ -1,7 +1,105 @@
 {
   "version": 1,
-  "generated_at": "2026-09-22T05:55:15.624474+08:00",
+  "generated_at": "2026-09-22T13:50:00.547424+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-77fa0cf90dd51265",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "partnerships",
+      "window": "2026-W39",
+      "window_start": "2026-09-22",
+      "window_end": "2026-09-22",
+      "detected_at": "2026-09-22T13:50:00.547424+08:00",
+      "baseline_count": 17,
+      "current_count": 16,
+      "added_count": 5,
+      "removed_count": 6,
+      "clusters": {
+        "partnerships": 1,
+        "engineering": 1,
+        "operations": 1
+      },
+      "removed_clusters": {
+        "engineering": 3,
+        "operations": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000150930189",
+          "title": "Client Partner - Brands & Agencies, GrabAds",
+          "url": "https://www.grab.careers/en/jobs/744000150930189/client-partner-brands-agencies-grabads/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150930109",
+          "title": "Analytics Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000150930109/analytics-assistant-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150928267",
+          "title": "Head, Merchant Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000150928267/head-merchant-acquisition/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150896584",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000150896584/senior-software-engineer-backend/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150878778",
+          "title": "People Research Scientist, People Analytics",
+          "url": "https://www.grab.careers/en/jobs/744000150878778/people-research-scientist-people-analytics/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000150615581",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000150615581/senior-software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150597009",
+          "title": "Senior Software Engineer in Test",
+          "url": "https://www.grab.careers/en/jobs/744000150597009/senior-software-engineer-in-test/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150507729",
+          "title": "Intern, Content Creation (HungryGoWhere)",
+          "url": "https://www.grab.careers/en/jobs/744000150507729/intern-content-creation-hungrygowhere/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150349040",
+          "title": "Senior DevOps Engineer, Streaming Platform",
+          "url": "https://www.grab.careers/en/jobs/744000150349040/senior-devops-engineer-streaming-platform/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150346299",
+          "title": "Lead Product Strategist",
+          "url": "https://www.grab.careers/en/jobs/744000150346299/lead-product-strategist/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000150345419",
+          "title": "Principal Product Strategist",
+          "url": "https://www.grab.careers/en/jobs/744000150345419/principal-product-strategist/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-71dff2d99e6a75d8",
       "entity_id": "shopify",

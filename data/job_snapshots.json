@@ -1,11 +1,47 @@
 {
   "version": 1,
-  "generated_at": "2026-09-22T05:55:15.624474+08:00",
+  "generated_at": "2026-09-22T13:50:00.547424+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-22T05:55:15.624474+08:00",
+      "observed_at": "2026-09-22T13:50:00.547424+08:00",
       "jobs": [
+        {
+          "id": "744000150930189",
+          "title": "Client Partner - Brands & Agencies, GrabAds",
+          "url": "https://www.grab.careers/en/jobs/744000150930189/client-partner-brands-agencies-grabads/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
+          "id": "744000150930109",
+          "title": "Analytics Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000150930109/analytics-assistant-manager/",
+          "function_tags": []
+        },
+        {
+          "id": "744000150928267",
+          "title": "Head, Merchant Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000150928267/head-merchant-acquisition/",
+          "function_tags": []
+        },
+        {
+          "id": "744000150896584",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000150896584/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000150878778",
+          "title": "People Research Scientist, People Analytics",
+          "url": "https://www.grab.careers/en/jobs/744000150878778/people-research-scientist-people-analytics/",
+          "function_tags": [
+            "operations"
+          ]
+        },
         {
           "id": "744000150666319",
           "title": "Lead Product Manager, Data Platform",
@@ -35,14 +71,6 @@
           ]
         },
         {
-          "id": "744000150615581",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000150615581/senior-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
           "id": "744000150614295",
           "title": "Senior Machine Learning Engineer - Trust Platform",
           "url": "https://www.grab.careers/en/jobs/744000150614295/senior-machine-learning-engineer-trust-platform/",
@@ -58,14 +86,6 @@
           "function_tags": [
             "sales",
             "operations"
-          ]
-        },
-        {
-          "id": "744000150597009",
-          "title": "Senior Software Engineer in Test",
-          "url": "https://www.grab.careers/en/jobs/744000150597009/senior-software-engineer-in-test/",
-          "function_tags": [
-            "engineering"
           ]
         },
         {
@@ -105,39 +125,12 @@
           "function_tags": [
             "operations"
           ]
-        },
-        {
-          "id": "744000150507729",
-          "title": "Intern, Content Creation (HungryGoWhere)",
-          "url": "https://www.grab.careers/en/jobs/744000150507729/intern-content-creation-hungrygowhere/",
-          "function_tags": []
-        },
-        {
-          "id": "744000150349040",
-          "title": "Senior DevOps Engineer, Streaming Platform",
-          "url": "https://www.grab.careers/en/jobs/744000150349040/senior-devops-engineer-streaming-platform/",
-          "function_tags": [
-            "engineering",
-            "operations"
-          ]
-        },
-        {
-          "id": "744000150346299",
-          "title": "Lead Product Strategist",
-          "url": "https://www.grab.careers/en/jobs/744000150346299/lead-product-strategist/",
-          "function_tags": []
-        },
-        {
-          "id": "744000150345419",
-          "title": "Principal Product Strategist",
-          "url": "https://www.grab.careers/en/jobs/744000150345419/principal-product-strategist/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-22T05:55:15.624474+08:00",
+      "observed_at": "2026-09-22T13:50:00.547424+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -149,6 +142,15 @@
           "id": "8044460",
           "title": "AI Engineer",
           "url": "https://stripe.com/careers/listing/ai-engineer/8044460",
+          "function_tags": [
+            "ai",
+            "engineering"
+          ]
+        },
+        {
+          "id": "8221776",
+          "title": "AI Solutions Developer",
+          "url": "https://stripe.com/careers/listing/ai-solutions-developer/8221776",
           "function_tags": [
             "ai",
             "engineering"
@@ -186,7 +188,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-22T05:55:15.624474+08:00",
+      "observed_at": "2026-09-22T13:50:00.547424+08:00",
       "jobs": [
         {
           "id": "ef12f6c3-34f8-4e9e-9d92-c549f16a3848",

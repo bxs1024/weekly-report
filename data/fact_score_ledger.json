@@ -2273,5 +2273,45 @@
   "score": 10,
   "first_seen": "2026-09-21",
   "samples": 1
+ },
+ "kakao|strategy|23%": {
+  "score": 4,
+  "first_seen": "2026-09-22",
+  "samples": 1
+ },
+ "spott|funding|21m": {
+  "score": 5,
+  "first_seen": "2026-09-22",
+  "samples": 1
+ },
+ "benford|funding|5m": {
+  "score": 4,
+  "first_seen": "2026-09-22",
+  "samples": 1
+ },
+ "spott|funding|18.30mm": {
+  "score": 4,
+  "first_seen": "2026-09-22",
+  "samples": 1
+ },
+ "project ventures|funding|5.80mm": {
+  "score": 4,
+  "first_seen": "2026-09-21",
+  "samples": 1
+ },
+ "nvidia|ma|sbenergy": {
+  "score": 4,
+  "first_seen": "2026-09-21",
+  "samples": 1
+ },
+ "syfe|earnings|20000m": {
+  "score": 10,
+  "first_seen": "2026-09-22",
+  "samples": 1
+ },
+ "google|other|400m": {
+  "score": 9,
+  "first_seen": "2026-09-21",
+  "samples": 1
  }
 }
