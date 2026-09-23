@@ -1,7 +1,53 @@
 {
   "version": 1,
-  "generated_at": "2026-09-23T05:11:35.361043+08:00",
+  "generated_at": "2026-09-24T05:25:07.580601+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-6bfd0621f37ff964",
+      "entity_id": "shopify",
+      "entity": "Shopify",
+      "region": "全球",
+      "sector": "commerce_saas",
+      "source_type": "jobs_snapshot",
+      "signal_type": "organizational_contraction",
+      "cluster": "payments",
+      "window": "2026-W39",
+      "window_start": "2026-09-24",
+      "window_end": "2026-09-24",
+      "detected_at": "2026-09-24T05:25:07.580601+08:00",
+      "baseline_count": 38,
+      "current_count": 35,
+      "added_count": 0,
+      "removed_count": 3,
+      "clusters": {},
+      "removed_clusters": {
+        "payments": 2,
+        "compliance": 2
+      },
+      "evidence_refs": [
+        {
+          "job_id": "b83d465d-45d0-444c-99a6-419de5a8b944",
+          "title": "Treasury Manager, Payments Remote - Americas",
+          "url": "https://www.shopify.com/careers/treasury-manager-payments_b83d465d-45d0-444c-99a6-419de5a8b944",
+          "change": "removed"
+        },
+        {
+          "job_id": "55cd396d-fd8e-45dc-ba71-1eca5fe48763",
+          "title": "Compliance Lead, Payments Compliance & Licensing Program Remote - Americas",
+          "url": "https://www.shopify.com/careers/compliance-lead-payments-compliance-licensing-program_55cd396d-fd8e-45dc-ba71-1eca5fe48763",
+          "change": "removed"
+        },
+        {
+          "job_id": "36f8a594-ba0e-45c2-b2e2-8aaa05db9ca2",
+          "title": "Credit Risk Analyst Remote - Americas",
+          "url": "https://www.shopify.com/careers/credit-risk-analyst_36f8a594-ba0e-45c2-b2e2-8aaa05db9ca2",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_persistence",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-71dff2d99e6a75d8",
       "entity_id": "shopify",

@@ -1,11 +1,92 @@
 {
   "version": 1,
-  "generated_at": "2026-09-23T05:11:35.361043+08:00",
+  "generated_at": "2026-09-24T05:25:07.580601+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-23T05:11:35.361043+08:00",
+      "observed_at": "2026-09-24T05:25:07.580601+08:00",
       "jobs": [
+        {
+          "id": "744000151329019",
+          "title": "City Associate, Sukabumi",
+          "url": "https://www.grab.careers/en/jobs/744000151329019/city-associate-sukabumi/",
+          "function_tags": []
+        },
+        {
+          "id": "744000151320451",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000151320451/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000151320164",
+          "title": "Key Accounts Associate, GFB VN",
+          "url": "https://www.grab.careers/en/jobs/744000151320164/key-accounts-associate-gfb-vn/",
+          "function_tags": []
+        },
+        {
+          "id": "744000151317370",
+          "title": "Associate, Strategy & Operations, Transport",
+          "url": "https://www.grab.careers/en/jobs/744000151317370/associate-strategy-operations-transport/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000151315722",
+          "title": "Data Scientist (Supply Planning)",
+          "url": "https://www.grab.careers/en/jobs/744000151315722/data-scientist-supply-planning/",
+          "function_tags": []
+        },
+        {
+          "id": "744000151313094",
+          "title": "Senior Infrastructure Engineer, Data Compute Platform",
+          "url": "https://www.grab.careers/en/jobs/744000151313094/senior-infrastructure-engineer-data-compute-platform/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000151303598",
+          "title": "Senior Software Engineer, Backend - Business Platform",
+          "url": "https://www.grab.careers/en/jobs/744000151303598/senior-software-engineer-backend-business-platform/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000151301089",
+          "title": "KAM GrabFood, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000151301089/kam-grabfood-associate/",
+          "function_tags": []
+        },
+        {
+          "id": "744000151296669",
+          "title": "Country Head of People Operations, The Philippines",
+          "url": "https://www.grab.careers/en/jobs/744000151296669/country-head-of-people-operations-the-philippines/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000151255572",
+          "title": "Senior Mechanical Engineer, DFM",
+          "url": "https://www.grab.careers/en/jobs/744000151255572/senior-mechanical-engineer-dfm/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000151208265",
+          "title": "Senior Manager, Regional Group Business Development & Strategic Partnership",
+          "url": "https://www.grab.careers/en/jobs/744000151208265/senior-manager-regional-group-business-development-strategic-partnership/",
+          "function_tags": [
+            "partnerships",
+            "sales"
+          ]
+        },
         {
           "id": "744000151077710",
           "title": "Marketplace Assistant Manager (Deliveries)",
@@ -23,14 +104,6 @@
           "title": "Regional Manager, Category Management",
           "url": "https://www.grab.careers/en/jobs/744000151045580/regional-manager-category-management/",
           "function_tags": []
-        },
-        {
-          "id": "744000151028388",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000151028388/senior-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
         },
         {
           "id": "744000151020889",
@@ -55,82 +128,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000150980369",
-          "title": "Program Manager (Developer Education)",
-          "url": "https://www.grab.careers/en/jobs/744000150980369/program-manager-developer-education/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000150971179",
-          "title": "Lead Product Manager, Technical Infrastructure",
-          "url": "https://www.grab.careers/en/jobs/744000150971179/lead-product-manager-technical-infrastructure/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000150952505",
-          "title": "Marketplace Assistant Manager (Mobility)",
-          "url": "https://www.grab.careers/en/jobs/744000150952505/marketplace-assistant-manager-mobility/",
-          "function_tags": []
-        },
-        {
-          "id": "744000150930189",
-          "title": "Client Partner - Brands & Agencies, GrabAds",
-          "url": "https://www.grab.careers/en/jobs/744000150930189/client-partner-brands-agencies-grabads/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000150930109",
-          "title": "Analytics Assistant Manager",
-          "url": "https://www.grab.careers/en/jobs/744000150930109/analytics-assistant-manager/",
-          "function_tags": []
-        },
-        {
-          "id": "744000150928267",
-          "title": "Head, Merchant Acquisition",
-          "url": "https://www.grab.careers/en/jobs/744000150928267/head-merchant-acquisition/",
-          "function_tags": []
-        },
-        {
-          "id": "744000150878778",
-          "title": "People Research Scientist, People Analytics",
-          "url": "https://www.grab.careers/en/jobs/744000150878778/people-research-scientist-people-analytics/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000150666319",
-          "title": "Lead Product Manager, Data Platform",
-          "url": "https://www.grab.careers/en/jobs/744000150666319/lead-product-manager-data-platform/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000150640499",
-          "title": "Senior Data Scientist (Supply Planning)",
-          "url": "https://www.grab.careers/en/jobs/744000150640499/senior-data-scientist-supply-planning/",
-          "function_tags": []
-        },
-        {
-          "id": "744000150619063",
-          "title": "Senior Manager, Deliveries Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000150619063/senior-manager-deliveries-strategy/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-23T05:11:35.361043+08:00",
+      "observed_at": "2026-09-24T05:25:07.580601+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -177,18 +180,18 @@
           "function_tags": []
         },
         {
-          "id": "8172503",
-          "title": "Abuse Research Engineer",
-          "url": "https://stripe.com/careers/listing/abuse-research-engineer/8172503",
+          "id": "8178881",
+          "title": "Account Executive - Enterprise, Growth",
+          "url": "https://stripe.com/careers/listing/account-executive-enterprise-growth/8178881",
           "function_tags": [
-            "engineering"
+            "sales"
           ]
         }
       ]
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-23T05:11:35.361043+08:00",
+      "observed_at": "2026-09-24T05:25:07.580601+08:00",
       "jobs": [
         {
           "id": "ef12f6c3-34f8-4e9e-9d92-c549f16a3848",
@@ -252,14 +255,6 @@
           "title": "Senior Indirect Tax Analyst Remote - Americas",
           "url": "https://www.shopify.com/careers/senior-indirect-tax-analyst_c49bee91-d6d8-405c-8367-2fa7c42ecf3d",
           "function_tags": []
-        },
-        {
-          "id": "b83d465d-45d0-444c-99a6-419de5a8b944",
-          "title": "Treasury Manager, Payments Remote - Americas",
-          "url": "https://www.shopify.com/careers/treasury-manager-payments_b83d465d-45d0-444c-99a6-419de5a8b944",
-          "function_tags": [
-            "payments"
-          ]
         },
         {
           "id": "f413fbc5-b346-4690-b5d9-4468cbbd0cc1",
@@ -334,15 +329,6 @@
           ]
         },
         {
-          "id": "55cd396d-fd8e-45dc-ba71-1eca5fe48763",
-          "title": "Compliance Lead, Payments Compliance & Licensing Program Remote - Americas",
-          "url": "https://www.shopify.com/careers/compliance-lead-payments-compliance-licensing-program_55cd396d-fd8e-45dc-ba71-1eca5fe48763",
-          "function_tags": [
-            "payments",
-            "compliance"
-          ]
-        },
-        {
           "id": "8639c248-b9f3-45ca-9ea8-5b66a4c7d208",
           "title": "Senior Compliance Analyst Remote - Americas",
           "url": "https://www.shopify.com/careers/senior-compliance-analyst_8639c248-b9f3-45ca-9ea8-5b66a4c7d208",
@@ -396,14 +382,6 @@
           "url": "https://www.shopify.com/careers/senior-partner-success-manager-lifecycle-programs-apac_10a56956-2acc-448b-91c6-3503fff0f4cc",
           "function_tags": [
             "partnerships"
-          ]
-        },
-        {
-          "id": "36f8a594-ba0e-45c2-b2e2-8aaa05db9ca2",
-          "title": "Credit Risk Analyst Remote - Americas",
-          "url": "https://www.shopify.com/careers/credit-risk-analyst_36f8a594-ba0e-45c2-b2e2-8aaa05db9ca2",
-          "function_tags": [
-            "compliance"
           ]
         },
         {
