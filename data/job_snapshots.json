@@ -1,11 +1,76 @@
 {
   "version": 1,
-  "generated_at": "2026-09-24T13:50:07.763712+08:00",
+  "generated_at": "2026-09-25T13:45:52.131453+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-24T13:50:07.763712+08:00",
+      "observed_at": "2026-09-25T13:45:52.131453+08:00",
       "jobs": [
+        {
+          "id": "744000151754129",
+          "title": "Strategy & Planning Northern Sumatera, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000151754129/strategy-planning-northern-sumatera-assistant-manager/",
+          "function_tags": []
+        },
+        {
+          "id": "744000151752489",
+          "title": "Business Excellence Manager, Food",
+          "url": "https://www.grab.careers/en/jobs/744000151752489/business-excellence-manager-food/",
+          "function_tags": []
+        },
+        {
+          "id": "744000151585180",
+          "title": "Senior Software Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000151585180/senior-software-engineer/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000151574059",
+          "title": "Head of Engineering, AI Transformation",
+          "url": "https://www.grab.careers/en/jobs/744000151574059/head-of-engineering-ai-transformation/",
+          "function_tags": [
+            "ai",
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000151573440",
+          "title": "Senior Principal Engineer, Consumer Experience & Integrity",
+          "url": "https://www.grab.careers/en/jobs/744000151573440/senior-principal-engineer-consumer-experience-integrity/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000151545222",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000151545222/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000151544874",
+          "title": "Senior Product Designer, Support",
+          "url": "https://www.grab.careers/en/jobs/744000151544874/senior-product-designer-support/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000151545489",
+          "title": "Senior Product Designer, Integrity",
+          "url": "https://www.grab.careers/en/jobs/744000151545489/senior-product-designer-integrity/",
+          "function_tags": []
+        },
+        {
+          "id": "744000151535660",
+          "title": "Business Analytics Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000151535660/business-analytics-specialist/",
+          "function_tags": []
+        },
         {
           "id": "744000151522869",
           "title": "Assistant Manager, Merchant Core Operations - Onboarding",
@@ -42,14 +107,6 @@
           "function_tags": []
         },
         {
-          "id": "744000151320451",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000151320451/senior-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
           "id": "744000151320164",
           "title": "Key Accounts Associate, GFB VN",
           "url": "https://www.grab.careers/en/jobs/744000151320164/key-accounts-associate-gfb-vn/",
@@ -84,61 +141,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000151301089",
-          "title": "KAM GrabFood, Associate",
-          "url": "https://www.grab.careers/en/jobs/744000151301089/kam-grabfood-associate/",
-          "function_tags": []
-        },
-        {
-          "id": "744000151296669",
-          "title": "Country Head of People Operations, The Philippines",
-          "url": "https://www.grab.careers/en/jobs/744000151296669/country-head-of-people-operations-the-philippines/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000151255572",
-          "title": "Senior Mechanical Engineer, DFM",
-          "url": "https://www.grab.careers/en/jobs/744000151255572/senior-mechanical-engineer-dfm/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000151208265",
-          "title": "Senior Manager, Regional Group Business Development & Strategic Partnership",
-          "url": "https://www.grab.careers/en/jobs/744000151208265/senior-manager-regional-group-business-development-strategic-partnership/",
-          "function_tags": [
-            "partnerships",
-            "sales"
-          ]
-        },
-        {
-          "id": "744000151077710",
-          "title": "Marketplace Assistant Manager (Deliveries)",
-          "url": "https://www.grab.careers/en/jobs/744000151077710/marketplace-assistant-manager-deliveries/",
-          "function_tags": []
-        },
-        {
-          "id": "744000151046129",
-          "title": "Manager, Category Management",
-          "url": "https://www.grab.careers/en/jobs/744000151046129/manager-category-management/",
-          "function_tags": []
-        },
-        {
-          "id": "744000151045580",
-          "title": "Regional Manager, Category Management",
-          "url": "https://www.grab.careers/en/jobs/744000151045580/regional-manager-category-management/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-24T13:50:07.763712+08:00",
+      "observed_at": "2026-09-25T13:45:52.131453+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -157,11 +165,10 @@
         },
         {
           "id": "8221776",
-          "title": "AI Solutions Developer",
-          "url": "https://stripe.com/careers/listing/ai-solutions-developer/8221776",
+          "title": "AI Solutions Program Manager, Finance",
+          "url": "https://stripe.com/careers/listing/ai-solutions-program-manager-finance/8221776",
           "function_tags": [
-            "ai",
-            "engineering"
+            "ai"
           ]
         },
         {
@@ -196,7 +203,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-24T13:50:07.763712+08:00",
+      "observed_at": "2026-09-25T13:45:52.131453+08:00",
       "jobs": [
         {
           "id": "7a3c7fb9-c3fd-49b2-84c0-9e93542b13b4",
