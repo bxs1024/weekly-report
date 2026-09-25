@@ -1,7 +1,54 @@
 {
   "version": 1,
-  "generated_at": "2026-09-25T13:45:52.131453+08:00",
+  "generated_at": "2026-09-26T05:27:08.253912+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-96ecf11f613e5eb6",
+      "entity_id": "shopify",
+      "entity": "Shopify",
+      "region": "全球",
+      "sector": "commerce_saas",
+      "source_type": "jobs_snapshot",
+      "signal_type": "organizational_contraction",
+      "cluster": "engineering",
+      "window": "2026-W39",
+      "window_start": "2026-09-26",
+      "window_end": "2026-09-26",
+      "detected_at": "2026-09-26T05:27:08.253912+08:00",
+      "baseline_count": 38,
+      "current_count": 35,
+      "added_count": 0,
+      "removed_count": 3,
+      "clusters": {},
+      "removed_clusters": {
+        "engineering": 1,
+        "partnerships": 1,
+        "operations": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "7a3c7fb9-c3fd-49b2-84c0-9e93542b13b4",
+          "title": "Senior Partner Solution Architect Remote - United Kingdom",
+          "url": "https://www.shopify.com/careers/senior-partner-solution-architect_7a3c7fb9-c3fd-49b2-84c0-9e93542b13b4",
+          "change": "removed"
+        },
+        {
+          "job_id": "340d5b64-db15-47eb-955b-47aeec97ece7",
+          "title": "Senior Lead, Strategy & Operations -Revenue Marketing Remote - Americas",
+          "url": "https://www.shopify.com/careers/senior-lead-strategy-operations-revenue-marketing_340d5b64-db15-47eb-955b-47aeec97ece7",
+          "change": "removed"
+        },
+        {
+          "job_id": "c781fed2-4408-4720-8734-45458585e762",
+          "title": "Executive Protection Specialist / Spécialiste de la protection rapprochée Montreal",
+          "url": "https://www.shopify.com/careers/executive-protection-specialist-sp-cialiste-de-la-protection-rapproch-e_c781fed2-4408-4720-8734-45458585e762",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_persistence",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-8e47a225d24bc4e2",
       "entity_id": "shopify",

@@ -1,11 +1,65 @@
 {
   "version": 1,
-  "generated_at": "2026-09-25T13:45:52.131453+08:00",
+  "generated_at": "2026-09-26T05:27:08.253912+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-09-25T13:45:52.131453+08:00",
+      "observed_at": "2026-09-26T05:27:08.253912+08:00",
       "jobs": [
+        {
+          "id": "744000151842122",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000151842122/lead-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000151790519",
+          "title": "Regional Commercial Strategy & Partnerships Manager – Mandarin-Speaking",
+          "url": "https://www.grab.careers/en/jobs/744000151790519/regional-commercial-strategy-partnerships-manager-mandarin-speaking/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
+          "id": "744000151782946",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000151782946/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000151778689",
+          "title": "Analytics Manager II, Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000151778689/analytics-manager-ii-financial-services/",
+          "function_tags": [
+            "payments"
+          ]
+        },
+        {
+          "id": "744000151772709",
+          "title": "Territory Sales Manager",
+          "url": "https://www.grab.careers/en/jobs/744000151772709/territory-sales-manager/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000151769657",
+          "title": "Acquisition & Market Expansion Lead",
+          "url": "https://www.grab.careers/en/jobs/744000151769657/acquisition-market-expansion-lead/",
+          "function_tags": []
+        },
+        {
+          "id": "744000151765409",
+          "title": "Senior Software Engineer, Backend - Agent Experience",
+          "url": "https://www.grab.careers/en/jobs/744000151765409/senior-software-engineer-backend-agent-experience/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000151754129",
           "title": "Strategy & Planning Northern Sumatera, Assistant Manager",
@@ -39,14 +93,6 @@
           "id": "744000151573440",
           "title": "Senior Principal Engineer, Consumer Experience & Integrity",
           "url": "https://www.grab.careers/en/jobs/744000151573440/senior-principal-engineer-consumer-experience-integrity/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000151545222",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000151545222/senior-software-engineer-backend/",
           "function_tags": [
             "engineering"
           ]
@@ -99,54 +145,12 @@
           "title": "Lead Product Marketing Manager",
           "url": "https://www.grab.careers/en/jobs/744000151519159/lead-product-marketing-manager/",
           "function_tags": []
-        },
-        {
-          "id": "744000151329019",
-          "title": "City Associate, Sukabumi",
-          "url": "https://www.grab.careers/en/jobs/744000151329019/city-associate-sukabumi/",
-          "function_tags": []
-        },
-        {
-          "id": "744000151320164",
-          "title": "Key Accounts Associate, GFB VN",
-          "url": "https://www.grab.careers/en/jobs/744000151320164/key-accounts-associate-gfb-vn/",
-          "function_tags": []
-        },
-        {
-          "id": "744000151317370",
-          "title": "Associate, Strategy & Operations, Transport",
-          "url": "https://www.grab.careers/en/jobs/744000151317370/associate-strategy-operations-transport/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000151315722",
-          "title": "Data Scientist (Supply Planning)",
-          "url": "https://www.grab.careers/en/jobs/744000151315722/data-scientist-supply-planning/",
-          "function_tags": []
-        },
-        {
-          "id": "744000151313094",
-          "title": "Senior Infrastructure Engineer, Data Compute Platform",
-          "url": "https://www.grab.careers/en/jobs/744000151313094/senior-infrastructure-engineer-data-compute-platform/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000151303598",
-          "title": "Senior Software Engineer, Backend - Business Platform",
-          "url": "https://www.grab.careers/en/jobs/744000151303598/senior-software-engineer-backend-business-platform/",
-          "function_tags": [
-            "engineering"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-09-25T13:45:52.131453+08:00",
+      "observed_at": "2026-09-26T05:27:08.253912+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -190,30 +194,13 @@
           "title": "Abuse Investigator",
           "url": "https://stripe.com/careers/listing/abuse-investigator/8172510",
           "function_tags": []
-        },
-        {
-          "id": "8178881",
-          "title": "Account Executive - Enterprise, Growth",
-          "url": "https://stripe.com/careers/listing/account-executive-enterprise-growth/8178881",
-          "function_tags": [
-            "sales"
-          ]
         }
       ]
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-09-25T13:45:52.131453+08:00",
+      "observed_at": "2026-09-26T05:27:08.253912+08:00",
       "jobs": [
-        {
-          "id": "7a3c7fb9-c3fd-49b2-84c0-9e93542b13b4",
-          "title": "Senior Partner Solution Architect Remote - United Kingdom",
-          "url": "https://www.shopify.com/careers/senior-partner-solution-architect_7a3c7fb9-c3fd-49b2-84c0-9e93542b13b4",
-          "function_tags": [
-            "engineering",
-            "partnerships"
-          ]
-        },
         {
           "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
           "title": "Senior Lead, Federal Government Affairs (US) Remote - Americas",
@@ -375,31 +362,23 @@
           ]
         },
         {
-          "id": "340d5b64-db15-47eb-955b-47aeec97ece7",
-          "title": "Senior Lead, Strategy & Operations -Revenue Marketing Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-lead-strategy-operations-revenue-marketing_340d5b64-db15-47eb-955b-47aeec97ece7",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
           "id": "6738f2e2-3da3-4dd5-a6b2-ccbe2ecd3863",
           "title": "Senior Project Manager, Real Estate Toronto",
           "url": "https://www.shopify.com/careers/senior-project-manager-real-estate_6738f2e2-3da3-4dd5-a6b2-ccbe2ecd3863",
           "function_tags": []
         },
         {
-          "id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
-          "title": "Director, Partnerships, Greater China Remote - Singapore",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "id": "e251966b-1acd-43c6-9a76-c3c88e11e4c7",
+          "title": "Director, Partnerships, Greater China Remote - Hong Kong",
+          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_e251966b-1acd-43c6-9a76-c3c88e11e4c7",
           "function_tags": [
             "partnerships"
           ]
         },
         {
-          "id": "e251966b-1acd-43c6-9a76-c3c88e11e4c7",
-          "title": "Director, Partnerships, Greater China Remote - Hong Kong",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_e251966b-1acd-43c6-9a76-c3c88e11e4c7",
+          "id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "title": "Director, Partnerships, Greater China Remote - Singapore",
+          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
           "function_tags": [
             "partnerships"
           ]
@@ -470,12 +449,6 @@
           "id": "a58f82d8-9d35-49a4-88cd-5c7c6fbc861c",
           "title": "AV Technician, Technical Services Toronto",
           "url": "https://www.shopify.com/careers/av-technician-technical-services_a58f82d8-9d35-49a4-88cd-5c7c6fbc861c",
-          "function_tags": []
-        },
-        {
-          "id": "c781fed2-4408-4720-8734-45458585e762",
-          "title": "Executive Protection Specialist / Spécialiste de la protection rapprochée Montreal",
-          "url": "https://www.shopify.com/careers/executive-protection-specialist-sp-cialiste-de-la-protection-rapproch-e_c781fed2-4408-4720-8734-45458585e762",
           "function_tags": []
         }
       ]
