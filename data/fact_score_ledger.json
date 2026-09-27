@@ -2673,5 +2673,50 @@
   "score": 6,
   "first_seen": "2026-09-25",
   "samples": 1
+ },
+ "keppel|ma|m1": {
+  "score": 6,
+  "first_seen": "2026-09-27",
+  "samples": 1
+ },
+ "socar|strategy|vng": {
+  "score": 4,
+  "first_seen": "2026-09-26",
+  "samples": 1
+ },
+ "monzo|ma|nubank": {
+  "score": 5,
+  "first_seen": "2026-09-26",
+  "samples": 1
+ },
+ "nubank|ma|monzo": {
+  "score": 5,
+  "first_seen": "2026-09-26",
+  "samples": 1
+ },
+ "crusoe|strategy|1250m": {
+  "score": 8,
+  "first_seen": "2026-09-25",
+  "samples": 1
+ },
+ "google|strategy|251gw": {
+  "score": 4,
+  "first_seen": "2026-09-26",
+  "samples": 1
+ },
+ "inmobi|ma|inmobi": {
+  "score": 4,
+  "first_seen": "2026-09-26",
+  "samples": 1
+ },
+ "trebellar|funding|18m": {
+  "score": 5,
+  "first_seen": "2026-09-26",
+  "samples": 1
+ },
+ "midcentury|funding|15m": {
+  "score": 6,
+  "first_seen": "2026-09-26",
+  "samples": 1
  }
 }
