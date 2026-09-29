@@ -773,108 +773,108 @@
       "generated_at": "2026-09-21 05:09"
     },
     "weekly:2026-W38": {
-      "input_hash": "9f90a990c33572dc5fd7696c6842ed91d091959d86409c5c2b59ec5823d87b56",
+      "input_hash": "b43ce9e5022b832494519b8b408d2bd0134d3e7cc7e55865bdf0a8339e615100",
       "editorial": {
-        "editorial_title": "亚太AI医疗与支付基建双线提速",
-        "mainline": "Naver以千万美元级资金投向AI医疗诊断，蚂蚁国际则用AI平台重构跨境金融运营，两条动作线共同指向亚太科技资本正从通用AI叙事转向垂直场景的落地卡位。对出海BD与投资而言，医疗AI的合规数据壁垒和跨境支付的自动化基础设施，是下一阶段最值得盯住的合作切口。",
+        "editorial_title": "亚太AI资本转向医疗与代理基建",
+        "mainline": "Naver以千万美元投向AI医疗诊断，Databricks同步推出代理数据库评估标准，亚太AI资本正从通用模型转向垂直场景与代理基础设施。与此同时，Nubank正式进入美国市场，数字银行跨区域竞争从拉美蔓延至北美，出海BD需重新评估金融科技合作窗口。",
         "themes": {
-          "ai_infra": "Naver旗下D2SF把资金投向AI医疗诊断公司ImpriMed，同期Databricks发布AI代理数据库评估标准、Cloudflare补上客户端安全方案。云与AI基础设施的竞争焦点正从算力堆叠转向医疗垂直场景和代理运行时的标准化。",
-          "expansion": "乐天与法拉利F1车队签下全球合作，Kakao则联合11个创新中心为韩国中小企业提供AI转型培训，Anthropic与埃森哲推进嵌入式AI评估。亚太平台正用体育营销和政企培训两条路径同时扩大品牌与生态触达。",
-          "payments": "蚂蚁国际推出AI平台自动化全球金融运营，Nubank正式进入美国并落地存款账户，Maybank维持Grab买入评级并关注Atome交易。跨境支付与数字银行的竞争正从牌照扩张转向运营自动化与本地化产品落地。",
-          "developer": "韩国投资证券完成Kakao Games 900亿韩元收购融资的出售，GDC顾问委员会新增四名成员，苹果则调整欧盟ATT系统并发布可折叠iPhone Duo。游戏资产退出与平台规则变动同时发生，开发者生态的资本与合规成本都在重新定价。",
-          "compliance": "扎克伯格的AI安全立场与反垄断诉讼论点出现吻合，欧洲电信高管呼吁调整欧盟政策，Advanced AI Society加入Linux基金会，Comp AI拿下3400万美元A轮。AI安全与反垄断的交叉正在成为欧美监管博弈的新前线。",
-          "commerce": "Jumia在肯尼亚上线联盟营销计划，欧洲央行邀请商户参与数字欧元试点，Allegro上调2026年展望，Shopify改版管理后台。非洲创作者经济与欧洲支付基建同步推进，电商平台的增长抓手正从流量采买转向本地化分佣和支付接入。"
+          "ai_infra": "Naver旗下D2SF向ImpriMed注入千万美元A2轮桥接资金，将AI医疗诊断纳入其亚太投资版图；Databricks同期发布AI代理数据库评估标准，试图为代理应用建立可量化的选型依据。Cloudflare则从客户端安全切入，补齐代理部署的防护缺口。",
+          "expansion": "乐天与法拉利F1车队达成全球合作，将体育营销作为日本电商与支付业务国际化的新触点；Kakao则联合11个创新中心为韩国中小企业提供AI转型培训，从平台侧拉动商户数字化。Adyen拿下SNKRDUNK支付合作，Anthropic与埃森哲推进嵌入式AI评估，亚太合作网络正从流量扩张转向能力嵌入。",
+          "payments": "蚂蚁国际推出AI平台自动化全球金融运营，将跨境支付与风控从人力密集转向系统驱动；Nubank正式进入美国并推出存款账户，数字银行竞争从拉美本土延伸至北美腹地。Maybank维持Grab买入评级并关注Atome交易，东南亚金融科技整合仍在加速。",
+          "developer": "韩国投资证券完成Kakao Games 900亿韩元收购融资的出售，游戏行业并购退出通道重新打开；GDC顾问委员会新增四名成员，开发者生态的决策圈层正在换血。苹果调整欧盟ATT系统并发布可折叠iPhone Duo，平台规则与硬件形态同步变动，开发者需重新评估欧盟合规成本与设备适配策略。",
+          "compliance": "扎克伯格在AI安全上的公开立场与反垄断诉讼论点出现吻合，AI巨头的安全协调分歧正从技术辩论升级为法律争议；欧洲电信高管呼吁欧盟调整政策，试图在AI监管与网络投资之间重新找平衡。Advanced AI Society加入Linux基金会，Comp AI获3400万美元A轮，合规与安全赛道同时出现开源协作与资本加注。",
+          "commerce": "Jumia在肯尼亚上线联盟营销计划，将创作者经济纳入非洲电商增长引擎；欧洲央行邀请商户参与数字欧元试点，支付基础设施的公共选项开始向商户端渗透。Allegro上调2026年展望，波兰电商增速加快；Shopify管理后台改版，商户运营工具持续迭代。"
         },
         "theme_titles": {
-          "ai_infra": "Naver领投AI医疗诊断，云厂商转向代理数据库标准",
-          "expansion": "乐天冠名法拉利F1，Kakao联合创新中心培训中小企业",
-          "payments": "蚂蚁国际AI重构金融运营，Nubank在美推存款账户",
-          "developer": "Kakao Games完成900亿韩元融资出售，苹果调整欧盟ATT",
-          "compliance": "扎克伯格AI安全立场卷入反垄断诉讼，Comp AI获3400万美元",
+          "ai_infra": "Naver领投AI医疗诊断，Databricks定义代理数据库标准",
+          "expansion": "乐天借F1全球营销，Kakao联合创新中心推AI转型培训",
+          "payments": "蚂蚁国际AI重构金融运营，Nubank登陆美国存款市场",
+          "developer": "Kakao Games融资退出完成，苹果欧盟ATT再调整",
+          "compliance": "扎克伯格AI安全立场卷入反垄断诉讼，欧洲电信施压欧盟",
           "commerce": "Jumia在肯尼亚推联盟营销，欧洲央行邀商户试点数字欧元"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-26 05:53"
+      "generated_at": "2026-09-29 14:56"
     },
     "monthly:2026-09": {
-      "input_hash": "d779ddaf8a43296c79121127eee0094d37159cc8c662b26dd1a2fb41ed1d6227",
+      "input_hash": "83a301bc22db00e70e1c981741351c31e2549d5c7006202c70b112d04a736b85",
       "editorial": {
-        "editorial_title": "亚太拉美扩张提速，合规与AI基建并进",
-        "mainline": "本月结构变化从AI基建的延续转向区域扩张与支付金融科技的显著升温。亚太区域扩张事实数较基线增加63.2，拉美支付金融科技增加30.6，而开发者生态降温33.0。这一升一降表明，出海BD与投资重心正从平台工具层向本地化运营与金融基础设施迁移，合规安全升温26.8则构成同步收紧的约束条件。",
+        "editorial_title": "亚太拉美双线升温，合规与AI基建并进",
+        "mainline": "与上月相比，本月结构变化从分散试探转向区域集中：亚太扩张合作事实量较基线增加65.5条，拉美支付金融科技增加31.8条，两者共同指向新兴市场成为出海落地的主战场。同时，AI与云基础设施延续302条高位事实，合规与安全从20条基线跃升至64条，说明扩张越深入，监管与基础设施的配套压力越同步上升。判断：下阶段竞争焦点将从进入市场转向在合规框架内完成本地化闭环。",
         "themes": {
           "ai_infra": {
-            "narrative": "AI与云基础设施本月延续高活跃度，Cloudflare发布自定义span文档和GraphQL Analytics API，Adyen推出新一代身份验证方案。基础设施层工具迭代仍在加速，但美国日常AI用户仍存担忧，表明落地端信任问题未解。",
+            "narrative": "Databricks首日向员工推出前沿模型，Cloudflare发布自定义span文档与GraphQL Analytics API，Adyen发布新一代身份验证方案。AI基础设施从模型层向可观测、身份验证等配套工具层延伸。",
             "drivers": [
-              "Cloudflare发布自定义span文档与GraphQL Analytics API",
-              "Adyen发布新一代身份验证方案",
-              "美国日常AI用户仍存担忧"
+              "Databricks首日向员工推出前沿模型",
+              "Cloudflare发布自定义span文档并推出GraphQL Analytics API",
+              "Adyen发布新一代身份验证方案"
             ],
-            "uncertainty": "用户担忧可能延缓AI应用层付费转化，基建投入回报周期拉长。",
-            "next_validation": "下月验证Cloudflare新API的开发者采用率及Adyen身份验证方案的商户接入数据。"
+            "uncertainty": "上述工具多为开发者侧更新，尚未显示企业采购或收入转化的直接证据。",
+            "next_validation": "下月验证Databricks前沿模型是否对外开放、Cloudflare新API的采用数据是否披露。"
           },
           "expansion": {
-            "narrative": "亚太区域扩张与合作显著升温，Grab与OpenAI合作推广AI技能，MercadoLibre在巴西推出小时达并扩展药房业务。同时Naver Z员工罢工抗议工资冻结，显示扩张伴随本地劳资摩擦。",
+            "narrative": "Meta与Naver合作推AI眼镜导航，Alpaca获MAS原则性批准将取得CMS牌照，乐天移动将发布摩托罗拉Edge 70 Fusion，MercadoLibre巴西推小时达并扩药房业务。亚太区域合作与牌照落地同步升温。",
             "drivers": [
-              "Grab与OpenAI合作推广AI技能",
-              "MercadoLibre巴西推小时达并扩药房业务",
-              "Naver Z员工罢工抗议工资冻结"
+              "Meta与Naver合作推AI眼镜导航",
+              "Alpaca获MAS原则性批准，将取得CMS牌照",
+              "MercadoLibre巴西推小时达并扩药房业务"
             ],
-            "uncertainty": "Naver Z罢工可能影响韩国市场运营稳定性，扩张节奏存在扰动。",
-            "next_validation": "下月验证Grab与OpenAI合作的具体落地项目及MercadoLibre小时达覆盖城市数。"
+            "uncertainty": "Alpaca仅获原则性批准，最终牌照与展业范围仍可能调整。",
+            "next_validation": "下月验证Alpaca是否正式取得CMS牌照，以及Meta与Naver合作是否公布产品时间表。"
           },
           "payments": {
-            "narrative": "拉美支付与金融科技升温，Adyen高管讨论支付本地化和印度UPI，腾讯推出TenPayGo便利国际游客在华支付，DOKU换帅且蚂蚁国际深化投资。高盛看好Nubank美国扩张，预计70%上涨空间，跨境支付与本地化并行推进。",
+            "narrative": "腾讯推出TenPayGo便利国际游客在华支付，DOKU换帅且蚂蚁国际深化投资，Adyen高管讨论支付本地化和印度UPI，高盛看好Nubank美国扩张。支付本地化与跨境游客场景同时推进。",
             "drivers": [
-              "Adyen高管讨论支付本地化和印度UPI",
-              "腾讯推出TenPayGo便利国际游客在华支付",
-              "DOKU换帅，蚂蚁国际深化投资"
+              "腾讯推出TenPayGo，便利国际游客在华支付",
+              "DOKU换帅，蚂蚁国际深化投资",
+              "Adyen高管讨论支付本地化和印度UPI"
             ],
-            "uncertainty": "高盛对Nubank的乐观预期依赖美国扩张执行，监管与竞争风险未定价。",
-            "next_validation": "下月验证TenPayGo的境外用户开通量及蚂蚁国际对DOKU的追加投资动作。"
+            "uncertainty": "高盛对Nubank的70%上涨空间为卖方预测，实际扩张节奏未验证。",
+            "next_validation": "下月验证TenPayGo的受理商户规模及DOKU换帅后蚂蚁国际的具体投资动作。"
           },
           "compliance": {
-            "narrative": "合规与安全升温，盖茨警告AI风险需强监管，Bengio提议联合国对前沿AI实施许可制。欧盟儿童法案或限制游戏每日奖励机制，欧洲移动游戏面临三重威胁分析，监管从AI向游戏内容延伸。",
+            "narrative": "欧盟儿童法案为游戏公司提供合规指南，并可能限制游戏每日奖励机制，欧洲移动游戏面临三重威胁分析，盖茨警告AI风险需强监管。合规从支付金融向游戏与AI治理扩散。",
             "drivers": [
-              "盖茨警告AI风险需强监管",
-              "Bengio提议联合国对前沿AI实施许可制",
-              "欧盟儿童法案或限制游戏每日奖励机制"
+              "欧盟儿童法案为游戏公司提供合规指南",
+              "欧盟儿童法案或限制游戏每日奖励机制",
+              "盖茨警告AI风险需强监管"
             ],
-            "uncertainty": "联合国许可制提议落地周期长，欧盟儿童法案最终条款可能弱化。",
-            "next_validation": "下月验证欧盟儿童法案是否进入正式表决，及联合国AI许可制是否形成草案。"
+            "uncertainty": "欧盟儿童法案对每日奖励的限制尚处指南阶段，最终立法文本未定。",
+            "next_validation": "下月验证欧盟儿童法案是否进入正式立法程序，以及游戏公司是否公开调整奖励机制。"
           },
           "developer": {
-            "narrative": "开发者与平台生态降温，韩国投资证券完成Kakao Games 900亿韩元融资出售，Kingnet投2.98亿美元参与Wemade 6.84亿美元收购。Square Enix推出FF系列迷你旋律电视玩具，50skills获530万欧元融资扩展HR自动化，资本退出与小额融资并存。",
+            "narrative": "韩国投资证券完成Kakao Games 900亿韩元融资出售，Kingnet投2.98亿美元参与Wemade 6.84亿美元收购，Square Enix推出FF系列迷你旋律电视玩具，50skills获530万欧元融资扩展HR自动化。亚太开发者生态资金退出与并购并行。",
             "drivers": [
               "韩国投资证券完成Kakao Games 900亿韩元融资出售",
               "Kingnet投$298m参与Wemade $684m收购",
               "50skills获€5.3M融资扩展HR自动化"
             ],
-            "uncertainty": "Kakao Games融资出售可能反映韩国游戏资产估值承压，降温或持续。",
-            "next_validation": "下月验证Wemade收购是否完成交割，及Kakao Games后续融资是否重启。"
+            "uncertainty": "Kakao Games融资出售与Wemade收购均为单笔交易，不代表开发者生态整体回暖。",
+            "next_validation": "下月验证Wemade收购是否完成交割，以及Kakao Games后续融资或估值变化。"
           },
           "commerce": {
-            "narrative": "电商、商户与物流延续，京东物流公布全球网络扩张及JoyLogistics扩展计划，DHL与阿里合作推AI物流服务。Jumia在肯尼亚推出联盟营销计划，MercadoLibre被投资者视为拉美市场门户，中资物流与本地平台并行扩张。",
+            "narrative": "京东物流公布全球网络扩张及JoyLogistics扩展计划，DHL与阿里合作推AI物流服务，Jumia在肯尼亚推出联盟营销计划，投资者分享MercadoLibre作为拉美市场门户策略。中资物流与拉美电商门户策略同步推进。",
             "drivers": [
               "京东物流公布全球网络扩张及JoyLogistics扩展计划",
               "DHL与阿里合作推AI物流服务",
               "Jumia在肯尼亚推出联盟营销计划"
             ],
-            "uncertainty": "京东物流全球扩张面临地缘与本地竞争，JoyLogistics落地效果待观察。",
-            "next_validation": "下月验证京东物流JoyLogistics新增国家数及DHL与阿里AI物流的试点覆盖。"
+            "uncertainty": "京东物流全球扩张与DHL阿里合作均处计划或合作宣布阶段，落地效果未验证。",
+            "next_validation": "下月验证京东物流JoyLogistics是否在新增区域上线，以及DHL与阿里AI物流服务的具体覆盖线路。"
           }
         },
         "theme_titles": {
-          "ai_infra": "Cloudflare与Adyen更新AI基建与身份验证工具",
-          "expansion": "Grab与OpenAI合作，MercadoLibre巴西推小时达",
-          "payments": "腾讯推TenPayGo，蚂蚁国际深化DOKU投资",
-          "compliance": "盖茨与Bengio齐声呼吁AI强监管与许可制",
-          "developer": "韩国投资证券出售Kakao Games融资，开发者生态降温",
+          "ai_infra": "Databricks与Cloudflare推进AI基础设施工具链",
+          "expansion": "Meta与Naver合作AI眼镜，Alpaca获MAS牌照批准",
+          "payments": "腾讯推TenPayGo，DOKU换帅蚂蚁国际深化投资",
+          "compliance": "欧盟儿童法案为游戏公司提供合规指南并限制每日奖励",
+          "developer": "韩国投资证券出售Kakao Games 900亿韩元融资",
           "commerce": "京东物流全球扩张，DHL与阿里合作AI物流"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-27 14:38"
+      "generated_at": "2026-09-29 14:56"
     },
     "weekly:2026-W39": {
       "input_hash": "864bd6321f44a3a2c7b4d339be460aafe94f60974f5306a111c0565e75e72987",
@@ -900,6 +900,31 @@
       },
       "channel": "DeepSeek",
       "generated_at": "2026-09-27 14:37"
+    },
+    "weekly:2026-W40": {
+      "input_hash": "f90c7203cf377ec6e9c9a6417ac2b1d195f9af7bb4322434c3eb3f32612629c5",
+      "editorial": {
+        "editorial_title": "AI基础设施融资狂飙，韩国巨头联手Meta破局",
+        "mainline": "本周AI基础设施单日涌入近9亿美元融资，Modal Labs估值冲至157.5亿美元，Databricks向全员部署前沿模型，企业AI部署竞赛从模型层转向工程化交付。与此同时，Naver与Meta合作将地图数据接入AI眼镜，韩国互联网巨头以场景合作绕开硬件自研，为可穿戴导航开辟新路径。",
+        "themes": {
+          "ai_infra": "Modal Labs以157.5亿美元估值完成7.5亿美元融资，SiMa.ai同步拿下1.5亿美元，边缘推理与模型部署平台成为资本新靶心。Databricks在融资同日向全体员工开放前沿模型，内部落地先于外部商业化，企业AI竞争正从模型能力转向部署速度与组织渗透。",
+          "expansion": "Meta与Naver将地图数据接入AI眼镜导航，韩国平台以数据合作切入可穿戴场景，绕开硬件自研。Alpaca获新加坡MAS原则性批准将取得CMS牌照，YouTube Playables覆盖50余市场，亚太平台正以持牌与内容分发双线推进区域扩张。",
+          "payments": "花旗与Coinbase扩大稳定币支付合作，Mastercard推出AI工具识别卡支付供应商，传统金融与加密基础设施的接口加速标准化。蚂蚁集团新加坡新办公室开业，中资支付平台加码东南亚；尼日利亚数据规则重叠则警示合规碎片化风险。",
+          "commerce": "Shopify为POS系统加入本地配送功能，将线上履约能力下沉至线下商户，直接挑战即时配送平台。MercadoLibre同期出现股票警示信号，拉美电商龙头的增长质量与估值匹配度正被市场重新审视，本地化履约效率成为分水岭。",
+          "operations": "Xbox裁员与AppLovin广告收入增长同时发生，游戏行业利润正从内容制作向广告变现迁移，Lilith新游发布则显示中小厂商仍在押注新品突围。亚马逊印度亏损扩大48%至近4000亿卢比营收规模，重资产扩张与盈利压力之间的矛盾持续加剧。",
+          "compliance": "欧盟儿童法案为游戏公司提供合规指南，未成年人保护从原则宣示进入可操作阶段，游戏厂商需调整年龄验证与内容分级流程。美联储同步提议稳定币规则，支付创新与金融稳定之间的监管边界正在收窄，合规技术需求随之上升。"
+        },
+        "theme_titles": {
+          "ai_infra": "AI基础设施单日吸金近9亿美元，Databricks全员部署前沿模型",
+          "expansion": "Naver联手Meta推AI眼镜导航，亚太平台加速跨境持牌",
+          "payments": "花旗Coinbase扩大稳定币合作，蚂蚁新加坡设新办公室",
+          "commerce": "Shopify POS新增本地配送，MercadoLibre现警示信号",
+          "operations": "Xbox裁员与AppLovin广告增长并行，亚马逊印度亏损扩大",
+          "compliance": "欧盟儿童法案发布游戏合规指南，美联储提议稳定币规则"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-09-29 14:56"
     }
   }
 }
