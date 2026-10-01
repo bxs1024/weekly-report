@@ -1,37 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-09-29</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-10-01</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-09-29T07:13:26Z</updated>
+  <updated>2026-10-01T07:46:08Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Alpaca获MAS原则性批准，将取得CMS牌照</title>
-    <link href="https://fintechnews.sg/138110/wealthtech/alpaca-mas-approval-singapore-cms-license/"/>
-    <id>tag:weekly-report,2026:event-cf40ff50</id>
-    <published>2026-09-29T00:00:00Z</published>
-    <updated>2026-09-29T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Alpaca Secures MAS In-Principle Approval for CMS License&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Alpaca获得新加坡金融管理局（MAS）的原则性批准，将取得资本市场服务（CMS）牌照。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡财富科技赛道升温，Alpaca获牌照后可在东南亚开展证券交易业务，为本地金融科技生态带来合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>GMI Cloud获$668M融资，英伟达参投</title>
+    <link href="https://www.techinasia.com/news/nvidia-joins-ai-cloud-startup-gmi-clouds-668m"/>
+    <id>tag:weekly-report,2026:event-89e77ff3</id>
+    <published>2026-10-01T00:00:00Z</published>
+    <updated>2026-10-01T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia joins AI cloud startup GMI Cloud’s $668m round&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI云初创公司GMI Cloud完成6.68亿美元融资，英伟达参与投资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太AI云基础设施获芯片巨头注资，GPU云服务供给将增加，为区域AI推理需求提供算力保障&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Mastercard推出AI工具识别潜在卡支付供应商</title>
-    <link href="https://fintechnews.sg/138112/ai/mastercard-ai-analytics-supplier-card-payments/"/>
-    <id>tag:weekly-report,2026:event-0b319da1</id>
-    <published>2026-09-29T00:00:00Z</published>
-    <updated>2026-09-29T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mastercard Introduces AI Tool to Identify Suppliers Likely to Accept Card Payments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Mastercard推出了一款AI工具，旨在帮助识别可能接受卡支付的供应商，以扩大其商户网络。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付巨头Mastercard利用AI拓展商户网络，为亚太地区收单机构和支付服务商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>日本AI设计团队OJO融资约23亿日元</title>
+    <link href="https://36kr.jp/502734/"/>
+    <id>tag:weekly-report,2026:event-7ad49255</id>
+    <published>2026-10-01T00:00:00Z</published>
+    <updated>2026-10-01T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;企画から試作まで、AIデザインチームが分業　CapCut元責任者の「OJO」、約23億円調達&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;日本AI设计团队OJO（由CapCut前负责人创立）完成约23亿日元（约合1500万美元）融资，用于从企划到试作的分工协作。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本AI设计初创获融资，CapCut前负责人背景，AI设计工具赛道受关注&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>花旗与Coinbase扩大稳定币支付合作</title>
-    <link href="https://fintechnews.sg/138125/payments/citi-coinbase-stablecoin-payments/"/>
-    <id>tag:weekly-report,2026:event-8919129f</id>
-    <published>2026-09-29T00:00:00Z</published>
-    <updated>2026-09-29T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Citi and Coinbase Expand Collaboration on Stablecoin Payments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;花旗集团与Coinbase扩大在稳定币支付领域的合作。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球传统银行与加密平台合作加深，稳定币支付基础设施需求增长，亚太市场或成下一站&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>MAS拟加强银行和保险董事会监管</title>
+    <link href="https://fintechnews.sg/138340/regtech/mas-board-rules-banks-insurers/"/>
+    <id>tag:weekly-report,2026:event-6463db36</id>
+    <published>2026-10-01T00:00:00Z</published>
+    <updated>2026-10-01T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;MAS Seeks Tighter Rules on Boards and Key Appointments at Banks, Insurers&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡金融管理局（MAS）拟加强对银行和保险公司董事会及关键任命的监管规则。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡金融监管趋严，金融机构需调整治理结构，合规科技需求上升。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>DoorDash新增零售商并推出短信购物助手</title>
+    <link href="https://www.modernretail.co/ai-strategies/doordash-adds-new-retailers-texting-shopping-assistant/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
+    <id>tag:weekly-report,2026:event-a745b968</id>
+    <published>2026-10-01T00:00:00Z</published>
+    <updated>2026-10-01T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;DoorDash adds new retailers, texting shopping assistant&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;DoorDash新增了零售商合作伙伴，并推出了短信购物助手功能。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球即时零售平台扩展AI购物助手，为零售科技和对话式AI服务商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>花旗推出SWIFT多市场即时支付</title>
+    <link href="https://www.finextra.com/newsarticle/48508/citi-launches-multi-market-instant-payments-on-swift-scheme?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
+    <id>tag:weekly-report,2026:event-9991735c</id>
+    <published>2026-10-01T00:00:00Z</published>
+    <updated>2026-10-01T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Citi launches multi-market instant payments on Swift scheme&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;花旗银行在SWIFT体系上推出多市场即时支付服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球跨境支付效率提升，为跨国企业及金融机构提供更快的资金流转方案。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>bolttech与Bold Penguin合作推全球保险</title>
+    <link href="https://fintechnews.sg/138345/insurtech/bolttech-bold-penguin-global-insurance/"/>
+    <id>tag:weekly-report,2026:event-22fc0ed7</id>
+    <published>2026-10-01T00:00:00Z</published>
+    <updated>2026-10-01T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;bolttech and Bold Penguin Plan Joint Global Insurance Offering&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;保险科技公司bolttech与Bold Penguin计划联合推出全球保险产品。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球保险科技合作，为保险分销和承保技术提供新的市场拓展机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>品牌从创作者合作中学习经验</title>
+    <link href="https://www.modernretail.co/marketing/it-scared-the-hell-out-of-me-to-hand-over-the-keys-what-brands-have-learned-from-creator-partnerships/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
+    <id>tag:weekly-report,2026:event-b878c8ba</id>
+    <published>2026-10-01T00:00:00Z</published>
+    <updated>2026-10-01T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;‘It scared the hell out of me to hand over the keys’: What brands have learned from creator partnerships&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;文章探讨了品牌在与创作者合作中获得的经验教训，包括对控制权的担忧和信任建立。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球品牌营销向创作者经济倾斜，为内容管理工具和数据分析平台带来需求。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>淡马锡计划2027上半年开设中东办公室</title>
+    <link href="https://fintechnews.sg/138332/fintech/temasek-middle-east-offices/"/>
+    <id>tag:weekly-report,2026:event-66d889a8</id>
+    <published>2026-10-01T00:00:00Z</published>
+    <updated>2026-10-01T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Temasek Plans New Middle East Offices for First Half of 2027&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡主权基金淡马锡计划在2027年上半年在中东开设新办公室。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东地区投资吸引力增强，淡马锡布局中东，为当地科技和金融企业带来资金与合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：中东 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-09-23</title>
