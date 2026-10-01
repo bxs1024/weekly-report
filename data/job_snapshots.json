@@ -1,145 +1,138 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T14:48:04.173258+08:00",
+  "generated_at": "2026-10-02T06:35:54.182975+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-01T14:48:04.173258+08:00",
+      "observed_at": "2026-10-02T06:35:54.182975+08:00",
       "jobs": [
         {
-          "id": "744000152827460",
-          "title": "S&P Budgeting and Monitoring, Associate",
-          "url": "https://www.grab.careers/en/jobs/744000152827460/sp-budgeting-and-monitoring-associate/",
+          "id": "744000152909100",
+          "title": "Marketing Associate, Marketing Solutions, VN",
+          "url": "https://www.grab.careers/en/jobs/744000152909100/marketing-associate-marketing-solutions-vn/",
           "function_tags": []
         },
         {
-          "id": "744000152823079",
-          "title": "Head, Payment and Insurance - Thailand",
-          "url": "https://www.grab.careers/en/jobs/744000152823079/head-payment-and-insurance-thailand/",
-          "function_tags": [
-            "payments"
-          ]
-        },
-        {
-          "id": "744000152820954",
-          "title": "Assistant Marketing Manager, GrabMaps & Special Projects",
-          "url": "https://www.grab.careers/en/jobs/744000152820954/assistant-marketing-manager-grabmaps-special-projects/",
+          "id": "744000152905299",
+          "title": "Head of Cybersecurity",
+          "url": "https://www.grab.careers/en/jobs/744000152905299/head-of-cybersecurity/",
           "function_tags": []
         },
         {
-          "id": "744000152723079",
-          "title": "Senior Software Engineer, Mobile (Android)",
-          "url": "https://www.grab.careers/en/jobs/744000152723079/senior-software-engineer-mobile-android/",
+          "id": "744000152899085",
+          "title": "Software Engineer, Backend - FinID",
+          "url": "https://www.grab.careers/en/jobs/744000152899085/software-engineer-backend-finid/",
           "function_tags": [
             "engineering"
           ]
         },
         {
-          "id": "744000152649059",
-          "title": "Senior Data Scientist (Analytics) - Financial Services",
-          "url": "https://www.grab.careers/en/jobs/744000152649059/senior-data-scientist-analytics-financial-services/",
-          "function_tags": [
-            "payments"
-          ]
-        },
-        {
-          "id": "744000152615521",
-          "title": "Senior Software Engineer, Backend - Insurance",
-          "url": "https://www.grab.careers/en/jobs/744000152615521/senior-software-engineer-backend-insurance/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000152601399",
-          "title": "Assistant Manager, Consumer Payments, GrabFin",
-          "url": "https://www.grab.careers/en/jobs/744000152601399/assistant-manager-consumer-payments-grabfin/",
-          "function_tags": [
-            "payments"
-          ]
-        },
-        {
-          "id": "744000152595529",
-          "title": "Manager, Insurance Partnership",
-          "url": "https://www.grab.careers/en/jobs/744000152595529/manager-insurance-partnership/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000152589644",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000152589644/senior-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000152590419",
-          "title": "Lead Software Engineer, Mobile (iOS)",
-          "url": "https://www.grab.careers/en/jobs/744000152590419/lead-software-engineer-mobile-ios/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000152588969",
-          "title": "Communications Senior Manager (Product)",
-          "url": "https://www.grab.careers/en/jobs/744000152588969/communications-senior-manager-product/",
+          "id": "744000152892756",
+          "title": "Lead Product Marketing Manager",
+          "url": "https://www.grab.careers/en/jobs/744000152892756/lead-product-marketing-manager/",
           "function_tags": []
         },
         {
-          "id": "744000152588579",
-          "title": "Lead Software Engineer, Scribe",
-          "url": "https://www.grab.careers/en/jobs/744000152588579/lead-software-engineer-scribe/",
+          "id": "744000152888229",
+          "title": "Head Economist, Marketplace Strategy (Dispatch & Pricing)",
+          "url": "https://www.grab.careers/en/jobs/744000152888229/head-economist-marketplace-strategy-dispatch-pricing/",
+          "function_tags": []
+        },
+        {
+          "id": "744000152878659",
+          "title": "Software Engineer, Mobile (Android)",
+          "url": "https://www.grab.careers/en/jobs/744000152878659/software-engineer-mobile-android/",
           "function_tags": [
             "engineering"
           ]
         },
         {
-          "id": "744000152585089",
-          "title": "Senior Software Engineer, Backend - Agent Experience",
-          "url": "https://www.grab.careers/en/jobs/744000152585089/senior-software-engineer-backend-agent-experience/",
+          "id": "744000152869829",
+          "title": "Lead Product Manager, Transaction Platform",
+          "url": "https://www.grab.careers/en/jobs/744000152869829/lead-product-manager-transaction-platform/",
           "function_tags": [
             "engineering"
           ]
         },
         {
-          "id": "744000152581689",
-          "title": "Senior Machine Learning Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000152581689/senior-machine-learning-engineer/",
+          "id": "744000152863500",
+          "title": "Assistant Manager, Technology Audit",
+          "url": "https://www.grab.careers/en/jobs/744000152863500/assistant-manager-technology-audit/",
+          "function_tags": []
+        },
+        {
+          "id": "744000152863029",
+          "title": "Data Scientist (Supply Planning)",
+          "url": "https://www.grab.careers/en/jobs/744000152863029/data-scientist-supply-planning/",
+          "function_tags": []
+        },
+        {
+          "id": "744000152862349",
+          "title": "Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000152862349/software-engineer-backend/",
           "function_tags": [
-            "ai",
             "engineering"
           ]
         },
         {
-          "id": "744000152580719",
-          "title": "Assistant Manager, Commercial Operations (Deal Desk)",
-          "url": "https://www.grab.careers/en/jobs/744000152580719/assistant-manager-commercial-operations-deal-desk/",
+          "id": "744000152860664",
+          "title": "Customer Escalations & Service Success Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000152860664/customer-escalations-service-success-specialist/",
+          "function_tags": []
+        },
+        {
+          "id": "744000152859565",
+          "title": "GS - Service Success Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000152859565/gs-service-success-specialist/",
+          "function_tags": []
+        },
+        {
+          "id": "744000152858500",
+          "title": "Associate, Strategy & Operations, Transport",
+          "url": "https://www.grab.careers/en/jobs/744000152858500/associate-strategy-operations-transport/",
           "function_tags": [
             "operations"
           ]
         },
         {
-          "id": "744000152386620",
-          "title": "Senior Engineer, Finance Systems",
-          "url": "https://www.grab.careers/en/jobs/744000152386620/senior-engineer-finance-systems/",
+          "id": "744000152844331",
+          "title": "Senior Data Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000152844331/senior-data-engineer/",
           "function_tags": [
             "engineering"
           ]
         },
         {
-          "id": "744000152374800",
-          "title": "Assistant Manager, CRM",
-          "url": "https://www.grab.careers/en/jobs/744000152374800/assistant-manager-crm/",
+          "id": "744000152843812",
+          "title": "Assistant Manager, Paid Media",
+          "url": "https://www.grab.careers/en/jobs/744000152843812/assistant-manager-paid-media/",
+          "function_tags": []
+        },
+        {
+          "id": "744000152841949",
+          "title": "Intern, Product Support",
+          "url": "https://www.grab.careers/en/jobs/744000152841949/intern-product-support/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000152836950",
+          "title": "Intern, Special Projects",
+          "url": "https://www.grab.careers/en/jobs/744000152836950/intern-special-projects/",
+          "function_tags": []
+        },
+        {
+          "id": "744000152827460",
+          "title": "S&P Budgeting and Monitoring, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000152827460/sp-budgeting-and-monitoring-associate/",
           "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-01T14:48:04.173258+08:00",
+      "observed_at": "2026-10-02T06:35:54.182975+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -182,7 +175,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-01T14:48:04.173258+08:00",
+      "observed_at": "2026-10-02T06:35:54.182975+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
@@ -241,6 +234,14 @@
           "title": "Senior Indirect Tax Analyst Remote - Americas",
           "url": "https://www.shopify.com/careers/senior-indirect-tax-analyst_c49bee91-d6d8-405c-8367-2fa7c42ecf3d",
           "function_tags": []
+        },
+        {
+          "id": "367f287b-b6c0-4bd5-aa8c-639c0a1c009e",
+          "title": "Senior Treasury Analyst Remote - Americas",
+          "url": "https://www.shopify.com/careers/senior-treasury-analyst_367f287b-b6c0-4bd5-aa8c-639c0a1c009e",
+          "function_tags": [
+            "payments"
+          ]
         },
         {
           "id": "ef12f6c3-34f8-4e9e-9d92-c549f16a3848",
@@ -353,17 +354,17 @@
           ]
         },
         {
-          "id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
-          "title": "Director, Partnerships, Greater China Remote - Singapore",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "id": "bff44652-fe22-44bc-84b0-691d8f996322",
+          "title": "Director, Partnerships, Greater China Remote - Hong Kong",
+          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_bff44652-fe22-44bc-84b0-691d8f996322",
           "function_tags": [
             "partnerships"
           ]
         },
         {
-          "id": "bff44652-fe22-44bc-84b0-691d8f996322",
-          "title": "Director, Partnerships, Greater China Remote - Hong Kong",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_bff44652-fe22-44bc-84b0-691d8f996322",
+          "id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "title": "Director, Partnerships, Greater China Remote - Singapore",
+          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
           "function_tags": [
             "partnerships"
           ]
