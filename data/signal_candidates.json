@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-02T06:35:54.182975+08:00",
+  "generated_at": "2026-10-02T14:39:17.400469+08:00",
   "candidates": [
     {
       "candidate_id": "jobs-ee5d0b5771ae850f",
@@ -14,20 +14,15 @@
       "window": "2026-W40",
       "window_start": "2026-09-29",
       "window_end": "2026-10-02",
-      "detected_at": "2026-10-02T06:35:54.182975+08:00",
-      "baseline_count": 17,
+      "detected_at": "2026-10-02T14:39:17.400469+08:00",
+      "baseline_count": 18,
       "current_count": 18,
-      "added_count": 17,
-      "removed_count": 16,
+      "added_count": 3,
+      "removed_count": 3,
       "clusters": {
-        "engineering": 5,
-        "operations": 2
+        "engineering": 2
       },
       "removed_clusters": {
-        "payments": 3,
-        "engineering": 8,
-        "partnerships": 1,
-        "ai": 1,
         "operations": 1
       },
       "evidence_refs": [
@@ -636,11 +631,47 @@
           "title": "Assistant Manager, CRM",
           "url": "https://www.grab.careers/en/jobs/744000152374800/assistant-manager-crm/",
           "change": "removed"
+        },
+        {
+          "job_id": "744000153089529",
+          "title": "Senior Software Engineer in Test",
+          "url": "https://www.grab.careers/en/jobs/744000153089529/senior-software-engineer-in-test/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153087179",
+          "title": "Senior Systems Engineer (Mobile Device Management)",
+          "url": "https://www.grab.careers/en/jobs/744000153087179/senior-systems-engineer-mobile-device-management/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153077940",
+          "title": "Associate, Key Account Management, Enterprise",
+          "url": "https://www.grab.careers/en/jobs/744000153077940/associate-key-account-management-enterprise/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152841949",
+          "title": "Intern, Product Support",
+          "url": "https://www.grab.careers/en/jobs/744000152841949/intern-product-support/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152836950",
+          "title": "Intern, Special Projects",
+          "url": "https://www.grab.careers/en/jobs/744000152836950/intern-special-projects/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152827460",
+          "title": "S&P Budgeting and Monitoring, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000152827460/sp-budgeting-and-monitoring-associate/",
+          "change": "removed"
         }
       ],
-      "status": "rejected",
-      "rejection_reason": "source_reset_suspected",
-      "promoted_event_id": ""
+      "status": "promoted",
+      "rejection_reason": "",
+      "promoted_event_id": "event-jobs-ee5d0b5771ae850f"
     },
     {
       "candidate_id": "jobs-96ecf11f613e5eb6",

@@ -281533,10 +281533,10 @@
       ],
       "level": "C",
       "score": 5,
-      "summary_short": "Allegro Q2增长加速，上调全年指引",
-      "content_overview": "波兰电商平台Allegro公布2026年第二季度财报，增长加速，新市场业务表现强劲，并大幅上调全年业绩指引。",
-      "reason": "中东欧电商平台增长强劲，上调指引，欧洲电商物流和支付服务商合作机会增加",
-      "impact": "中东欧电商卖家、物流服务商、支付网关",
+      "summary_short": "Allegro Q2增长加速并大幅上调全年指引",
+      "content_overview": "波兰电商平台Allegro集团发布2026年第二季度财报，显示增长加速，新市场平台业务表现强劲，并大幅上调全年业绩指引。",
+      "reason": "中东欧电商龙头Allegro增长提速并上调指引，欧洲电商市场复苏信号明确，相关物流与支付服务商受益。",
+      "impact": "中东欧电商卖家、物流服务商、支付机构",
       "insight_label": "资金流向",
       "trend_topic": "中东欧电商加速",
       "companies": [],
@@ -281615,7 +281615,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://allegro.eu/wp-content/uploads/2026/09/Press-release-Q2-2026.pdf"
+      ]
     },
     {
       "title": "Cloudflare: Create an account via the API",
@@ -319169,12 +319172,12 @@
       ],
       "level": "C",
       "score": 4,
-      "summary_short": "弗吉尼亚国民警卫队与芬兰军队加强合作",
-      "content_overview": "弗吉尼亚国民警卫队与芬兰军队在演习中加强伙伴关系。",
-      "reason": "军事演习合作与ICT行业无直接关联，但可能涉及国防通信和网络安全技术交流",
-      "impact": "国防通信技术供应商",
-      "insight_label": "背景补充",
-      "trend_topic": "国防ICT合作",
+      "summary_short": "弗吉尼亚国民警卫队与芬兰军队深化演习合作",
+      "content_overview": "美国弗吉尼亚国民警卫队与芬兰国防军在一次演习中深化了合作伙伴关系，具体合作内容未披露。",
+      "reason": "亚太地区军事合作演习增加，可能带动国防科技与通信设备采购需求。",
+      "impact": "国防承包商、军事通信设备供应商",
+      "insight_label": "合作机会",
+      "trend_topic": "亚太国防合作深化",
       "companies": [],
       "is_company": true,
       "company_name": "VNG Group",
@@ -319255,7 +319258,10 @@
       },
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPY2pNMVN3ZGdxRjN3X3NLaVhYTjlwNUZHTzZ2R1Axb25mdzVyUXN2M1hNWlpqb0V1cmh2WFlPZU11YnFvSnVHbjFHQ2c1aGZSX1FuY1FSaWpLdm91TzVEVXNwc1c1VUJpaHhxSTJBVkYzYlEyb2kxZ1VMS1F6TGREeEtMVFoxOWRZUzk5bkNxa1RRWjNDdjNlVkNjMzM?oc=5"
+      ]
     },
     {
       "title": "NU Stock Jumps As Nubank Clarifies Strategy And Goes Global - timothysykes.com",
@@ -320775,11 +320781,11 @@
       "level": "C",
       "score": 4,
       "summary_short": "Stripe收购Parafin",
-      "content_overview": "Stripe收购金融科技公司Parafin。",
-      "reason": "全球支付巨头Stripe通过收购Parafin增强其金融科技服务能力，为商户提供更全面的资金解决方案。",
-      "impact": "支付服务商、中小企业商户",
-      "insight_label": "资金流向",
-      "trend_topic": "支付巨头并购扩张",
+      "content_overview": "支付公司Stripe收购了金融科技公司Parafin，后者专注于为中小企业提供嵌入式金融服务。",
+      "reason": "全球支付巨头Stripe通过收购Parafin强化嵌入式金融能力，为中小企业提供贷款等增值服务，加剧金融科技竞争。",
+      "impact": "中小企业金融服务平台、嵌入式金融技术提供商、Stripe的竞争对手",
+      "insight_label": "合作机会",
+      "trend_topic": "嵌入式金融整合加速",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -320855,7 +320861,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://www.paymentsdive.com/news/stripe-swallows-parafin/831903/"
+      ]
     },
     {
       "title": "Meta debuts AI agent for small businesses",
@@ -320867,12 +320876,12 @@
       ],
       "level": "C",
       "score": 5,
-      "summary_short": "Meta发布小企业AI代理Muse",
-      "content_overview": "Meta推出面向小企业的AI代理Muse。",
-      "reason": "全球小企业数字化需求增长，Meta通过AI代理提供自动化营销工具，为小企业主降低运营门槛。",
-      "impact": "小企业主、数字营销服务商",
+      "summary_short": "Meta推出AI代理Muse服务小企业",
+      "content_overview": "Meta推出面向小企业的新AI代理产品Muse，旨在帮助商家自动化营销和客户互动。",
+      "reason": "全球社交媒体巨头Meta加码AI商业化，为小企业提供自动化营销工具，可能改变数字广告和客户管理生态。",
+      "impact": "小企业主、数字营销平台、AI客服供应商",
       "insight_label": "合作机会",
-      "trend_topic": "AI代理赋能小企业",
+      "trend_topic": "AI代理商业化加速",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -320948,7 +320957,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://www.retaildive.com/news/meta-debuts-ai-agent-muse-small-businesses/831890/"
+      ]
     },
     {
       "title": "Consumer AI use a boon for the holidays as AI traffic doubles",
@@ -320961,11 +320973,11 @@
       "level": "C",
       "score": 5,
       "summary_short": "假日季AI流量翻倍，消费者AI使用激增",
-      "content_overview": "零售行业数据显示，假日季消费者AI使用量翻倍，AI流量成为零售增长新引擎。",
-      "reason": "全球零售业AI应用加速，零售科技供应商和AI客服解决方案需求上升",
-      "impact": "零售电商平台、AI客服服务商、营销科技公司",
+      "content_overview": "数据显示，假日季消费者AI使用量激增，AI相关流量翻倍，表明AI在零售领域的应用正在快速增长。",
+      "reason": "全球零售业AI应用加速，消费者对AI购物助手等工具需求上升，为零售科技和AI解决方案提供商带来市场机会。",
+      "impact": "零售电商平台、AI购物助手开发商、数字营销公司",
       "insight_label": "背景补充",
-      "trend_topic": "零售AI应用加速",
+      "trend_topic": "零售AI应用爆发",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -321041,7 +321053,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://www.retaildive.com/news/consumer-ai-use-boon-holidays-ai-traffic-doubles/831790/"
+      ]
     },
     {
       "title": "Inseego wraps up deal to buy Nokia FWA CPE unit",
@@ -321054,11 +321069,11 @@
       "level": "C",
       "score": 5,
       "summary_short": "Inseego完成收购诺基亚FWA CPE业务",
-      "content_overview": "Inseego完成收购诺基亚的FWA CPE业务部门，交易金额未披露。",
-      "reason": "全球FWA设备市场整合，Inseego扩大产品线，诺基亚聚焦核心业务，相关供应链和渠道将调整",
-      "impact": "FWA设备制造商、电信运营商、网络设备分销商",
+      "content_overview": "Inseego完成对诺基亚固定无线接入（FWA）客户终端设备（CPE）业务的收购，交易金额未披露。",
+      "reason": "全球电信设备市场整合，Inseego通过收购诺基亚FWA CPE业务扩大固定无线接入市场份额，为相关供应链带来变化。",
+      "impact": "固定无线接入设备制造商、电信运营商、诺基亚",
       "insight_label": "合作机会",
-      "trend_topic": "FWA设备市场整合",
+      "trend_topic": "电信设备市场整合",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -321135,7 +321150,10 @@
       },
       "view_status": "filtered",
       "view_reason": "out_of_scope_industry",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://www.mobileworldlive.com/nokia/inseego-wraps-up-deal-to-buy-nokia-fwa-cpe-unit/"
+      ]
     },
     {
       "title": "Infineon opens doors to Thai chip site",
@@ -321241,10 +321259,10 @@
       ],
       "level": "C",
       "score": 4,
-      "summary_short": "软银完成DigitalBridge收购",
-      "content_overview": "软银完成对DigitalBridge的收购交易，具体金额未披露。",
-      "reason": "全球数字基础设施投资整合，软银扩大数据中心和通信基建布局，相关资产管理和运营方受益",
-      "impact": "数据中心运营商、通信基建投资方、数字基础设施服务商",
+      "summary_short": "软银完成收购DigitalBridge",
+      "content_overview": "软银完成对DigitalBridge的收购交易，具体金额未披露，DigitalBridge专注于数字基础设施投资。",
+      "reason": "日本科技投资巨头软银收购数字基础设施投资公司DigitalBridge，强化其在数据中心、光纤等领域的布局，影响全球数字基建投资格局。",
+      "impact": "数字基础设施运营商、数据中心供应商、软银投资组合公司",
       "insight_label": "资金流向",
       "trend_topic": "数字基建投资整合",
       "companies": [],
@@ -321323,7 +321341,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://www.mobileworldlive.com/softbank/softbank-seals-digitalbridge-deal/"
+      ]
     },
     {
       "title": "US FTC opens investigation into top AI players",
@@ -321430,11 +321451,11 @@
       "level": "B",
       "score": 6,
       "summary_short": "Volantis获$88M融资，开发AI推理架构",
-      "content_overview": "Volantis完成8800万美元融资，用于构建新的AI推理架构。",
-      "reason": "非洲AI推理架构初创获大额融资，AI基础设施赛道在非洲升温，相关芯片和云服务商受益",
-      "impact": "非洲AI初创、AI芯片供应商、云服务商",
+      "content_overview": "AI推理架构公司Volantis完成8800万美元融资，用于构建新型AI推理架构。",
+      "reason": "非洲AI基础设施投资升温，Volantis的融资为AI推理优化领域带来技术合作和供应链机会",
+      "impact": "AI芯片供应商、云服务商、非洲科技初创",
       "insight_label": "资金流向",
-      "trend_topic": "非洲AI基建升温",
+      "trend_topic": "非洲AI基建投资",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -321510,7 +321531,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://ventureburn.com/volantis-raises-88m-ai-inference/"
+      ]
     },
     {
       "title": "Satlyt Secures $8M Seed to Run AI on Satellites Without Building Hardware",
@@ -322593,6 +322617,480 @@
       "signal_change_score": 0,
       "signal_change_blocked": "no_explicit_change",
       "signal_change_breakdown": {},
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected"
+    },
+    {
+      "title": "Apple Pay arrives in India",
+      "url": "https://www.finextra.com/newsarticle/48512/apple-pay-arrives-in-india?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "source": "Finextra",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "B",
+      "score": 6,
+      "summary_short": "Apple Pay登陆印度",
+      "content_overview": "Apple Pay正式进入印度市场。",
+      "reason": "印度移动支付市场格局生变，Apple Pay入局加剧竞争",
+      "impact": "印度支付平台、手机厂商、商户收单机构",
+      "insight_label": "警示信号",
+      "trend_topic": "印度支付竞争加剧",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "apple pay",
+      "canonical_key": "",
+      "article_date": "2026-10-01",
+      "date": "2026-10-01",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "",
+      "published_at": "2026-10-01",
+      "observed_at": "2026-10-02T06:39:22.559858+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L4 垂直赛道精品源",
+      "source_role": "industry_vertical",
+      "source_id": "Finextra Payments",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "industry_change",
+      "scope_industries": [
+        "payments"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "source_contract",
+      "source_excerpt": "Apple Pay is finally launching in India, entering a huge but competitive market via a partnership with Axis Bank.",
+      "report_methodology_visible": false,
+      "vertical": "Fintech/支付",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "general"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "generic_industry_change",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 71,
+      "attention_score": 95,
+      "score_breakdown": {
+        "source_authority": 29,
+        "materiality": 30,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "expansion",
+      "domain": "payment",
+      "signal_type": "market",
+      "signal_change_score": 66,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 12
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected"
+    },
+    {
+      "title": "Meta’s Muse app surpasses 5M downloads and 3M weekly users",
+      "url": "https://www.socialmediatoday.com/news/metas-muse-app-surpasses-5m-downloads-and-3m-weekly-users/831979/",
+      "source": "Social Media Today",
+      "region": "全球",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 5,
+      "summary_short": "Meta的Muse应用下载超500万，周活300万",
+      "content_overview": "Meta旗下AI创作应用Muse累计下载量突破500万次，周活跃用户达300万。",
+      "reason": "全球AI创作工具赛道升温，Meta的Muse用户增长验证了AI内容生成需求，为创作者工具生态带来合作机会",
+      "impact": "AI创作工具开发者、内容创作者平台",
+      "insight_label": "合作机会",
+      "trend_topic": "AI创作工具用户增长",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "meta",
+      "canonical_key": "5m",
+      "article_date": "2026-10-01",
+      "date": "2026-10-01",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "",
+      "published_at": "2026-10-01",
+      "observed_at": "2026-10-02T06:39:22.678162+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L4 垂直赛道精品源",
+      "source_role": "industry_vertical",
+      "source_id": "Social Media Today",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "industry_change",
+      "scope_industries": [
+        "ads_social"
+      ],
+      "scope_regions": [
+        "全球"
+      ],
+      "scope_match_basis": "source_contract",
+      "source_excerpt": "Only 23 apps have historically been able to report that level of uptake, according to Yahoo Finance and data from Sensor Tower.",
+      "report_methodology_visible": false,
+      "vertical": "社交平台",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "generic_industry_change",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 76,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 29,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "expansion",
+      "domain": "other",
+      "signal_type": "consumer",
+      "signal_change_score": 73,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected"
+    },
+    {
+      "title": "YouTube updates Shorts algorithm to put more focus on original content",
+      "url": "https://www.socialmediatoday.com/news/youtube-updates-shorts-algorithm-to-put-more-focus-on-original-content/831976/",
+      "source": "Social Media Today",
+      "region": "全球",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "YouTube调整Shorts算法，侧重原创内容",
+      "content_overview": "YouTube更新Shorts算法，将更重视原创内容，减少对转载和低质内容的推荐。",
+      "reason": "全球短视频平台竞争加剧，YouTube通过算法调整激励原创，为内容创作者和MCN机构带来流量红利",
+      "impact": "短视频创作者、MCN机构、内容版权方",
+      "insight_label": "合作机会",
+      "trend_topic": "短视频算法调整",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "youtube",
+      "canonical_key": "",
+      "article_date": "2026-10-01",
+      "date": "2026-10-01",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "",
+      "published_at": "2026-10-01",
+      "observed_at": "2026-10-02T06:39:22.679586+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L4 垂直赛道精品源",
+      "source_role": "industry_vertical",
+      "source_id": "Social Media Today",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ads_social"
+      ],
+      "scope_regions": [
+        "全球"
+      ],
+      "scope_match_basis": "source_contract",
+      "source_excerpt": "YouTube's updating its recommendation systems to prioritize creator-made videos, which will also reduce the reach of aggregator accounts.",
+      "report_methodology_visible": false,
+      "vertical": "社交平台",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "general"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "generic_industry_change",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 71,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 29,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "expansion",
+      "domain": "other",
+      "signal_type": "technology",
+      "signal_change_score": 58,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected"
+    },
+    {
+      "title": "Threads tests more visual options for quote posts",
+      "url": "https://www.socialmediatoday.com/news/threads-tests-more-visual-options-for-quote-posts/831975/",
+      "source": "Social Media Today",
+      "region": "全球",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 5,
+      "summary_short": "Threads测试引用帖视觉新选项",
+      "content_overview": "Threads正在测试为引用帖子增加更多视觉选项，以提升用户互动体验。",
+      "reason": "全球社交平台竞争白热化，Threads通过功能迭代增强用户粘性，为社交产品设计团队提供参考",
+      "impact": "社交平台用户、UI/UX设计团队",
+      "insight_label": "背景补充",
+      "trend_topic": "社交产品功能迭代",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "threads",
+      "canonical_key": "",
+      "article_date": "2026-10-01",
+      "date": "2026-10-01",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "",
+      "published_at": "2026-10-01",
+      "observed_at": "2026-10-02T06:39:22.681021+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L4 垂直赛道精品源",
+      "source_role": "industry_vertical",
+      "source_id": "Social Media Today",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "industry_change",
+      "scope_industries": [
+        "ads_social"
+      ],
+      "scope_regions": [
+        "全球"
+      ],
+      "scope_match_basis": "source_contract",
+      "source_excerpt": "The feature aligns with similar tools on TikTok and X, and offers users a new way to add context to their posts in the app.",
+      "report_methodology_visible": false,
+      "vertical": "社交平台",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "general"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "generic_industry_change",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 76,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 29,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "expansion",
+      "domain": "other",
+      "signal_type": "consumer",
+      "signal_change_score": 73,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected"
+    },
+    {
+      "title": "'Godmother of AI' Fei-Fei Li’s fortune set to hit $1.6B after $8.2B AMD deal",
+      "url": "https://e.vnexpress.net/news/tech/personalities/godmother-of-ai-fei-fei-li-s-fortune-set-to-hit-1-6b-after-8-2b-amd-deal-5126761.html",
+      "source": "VnExpress Tech",
+      "region": "越南",
+      "event_types": [
+        "ma"
+      ],
+      "level": "A",
+      "score": 9,
+      "summary_short": "AMD 82亿美元收购，李飞飞财富达16亿美元",
+      "content_overview": "AMD以82亿美元收购AI基础设施公司，李飞飞财富预计增至16亿美元。",
+      "reason": "全球AI芯片巨头AMD大手笔收购，AI基础设施赛道整合加速，相关技术供应商和投资者关注。",
+      "impact": "AI芯片公司、AI基础设施供应商、投资者",
+      "insight_label": "资金流向",
+      "trend_topic": "AI基础设施并购潮",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "amd",
+      "canonical_key": "8200m",
+      "article_date": "2026-10-01",
+      "date": "2026-10-01",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://vcdn1-english.vnecdn.net/2026/09/30/amdchi82tyusdmualaicongtycuame-1840-5390-1790761754.png?w=680&h=0&q=100&dpr=1&fit=crop&s=bBHyME8lU3JIijq5IZy8iA",
+      "published_at": "2026-10-01",
+      "observed_at": "2026-10-02T06:39:23.587041+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L3 区域生态源",
+      "source_role": "industry_vertical",
+      "source_type": "industry_media",
+      "access_method": "rss",
+      "source_id": "vnexpress-tech",
+      "credibility_score": 7,
+      "noise_level": "medium",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "越南"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "AI pioneer Fei-Fei Li's net worth will rise to at least some $1.6 billion after chipmaker AMD completes its $8.2 billion acquisition of her startup World Labs.",
+      "report_methodology_visible": false,
+      "source_signal_types": [
+        "regional_ecosystem",
+        "industry_analysis"
+      ],
+      "vertical": "越南科技与产业",
+      "bd_triggers": [
+        "整合窗口"
+      ],
+      "opportunity_direction": "系统整合 / 数据迁移 / 组织协同工具 / 生态打通",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "expansion",
+        "ai_infra",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 66,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 24,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "funding",
+      "domain": "ai",
+      "signal_type": "capital",
+      "signal_change_score": 77,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 22,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
       "view_status": "main",
       "view_reason": "qualified_main",
       "view_priority": "selected"
@@ -324305,12 +324803,12 @@
       ],
       "level": "C",
       "score": 5,
-      "summary_short": "中小企业跨境支付转向金融科技",
-      "content_overview": "报告显示，中小企业正从传统银行转向金融科技公司进行跨境支付。",
-      "reason": "中小企业跨境支付需求变化，金融科技公司获得市场机会，传统银行需应对竞争。",
-      "impact": "金融科技跨境支付公司、传统银行及中小企业",
-      "insight_label": "资金流向",
-      "trend_topic": "跨境支付市场转移",
+      "summary_short": "报告：中小企业跨境支付从银行转向金融科技",
+      "content_overview": "一份报告显示，中小企业正从传统银行转向金融科技公司处理跨境支付，反映出支付服务格局的转变。",
+      "reason": "全球跨境支付市场正被金融科技公司蚕食，银行与金融科技合作或成趋势，为支付基础设施供应商带来机会。",
+      "impact": "跨境支付金融科技公司、传统银行、支付基础设施提供商",
+      "insight_label": "背景补充",
+      "trend_topic": "跨境支付赛道升温",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -324388,7 +324886,10 @@
       },
       "view_status": "review",
       "view_reason": "qualified_review",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://www.finextra.com/newsarticle/48497/smes-turn-from-banks-to-fintechs-for-cross-border-payments?utm_medium=rssfinextra&utm_source=finextrafeed"
+      ]
     },
     {
       "title": "EC plots regional emergency service network",
@@ -325745,5 +326246,1475 @@
       "view_priority": "selected"
     }
   ],
-  "2026-10-02": []
+  "2026-10-02": [
+    {
+      "title": "NAVER Expands Overseas Travel Search to 45 Asian Cities - en.sedaily.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNTA5Y195cDRVQVBfNUpsOVZ4NWs4TXNidlBiT3p1OUNuS0lZR0NRMXRLVm1aeDRZYjgxeTYxMlBhel9oMzJQNDJyWWlDczc1ZUFveW1lbXhRaURIZkU1bnJHT1dBd2NGNnllZmFVT0lhMXpTSWNJMmhyRFFrYnpxcmIzNm84Q244c19rd2RfWXI1TTJNTVNRMTdISVVibnNtdHc?oc=5",
+      "source": "Google News",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "NAVER旅行搜索扩至45个亚洲城市",
+      "content_overview": "NAVER将海外旅行搜索服务扩展至45个亚洲城市。",
+      "reason": "韩国互联网巨头扩大亚洲旅行搜索覆盖，为本地旅游服务商和内容平台带来合作机会",
+      "impact": "亚洲旅游服务商、本地生活平台、内容提供商",
+      "insight_label": "合作机会",
+      "trend_topic": "亚洲旅行搜索扩张",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Naver",
+      "canonical_company": "naver",
+      "canonical_key": "",
+      "article_date": "2026-10-02",
+      "date": "2026-10-02",
+      "source_detail": "en.sedaily.com",
+      "publisher": "en.sedaily.com",
+      "image_url": "",
+      "published_at": "2026-10-02",
+      "observed_at": "2026-10-02T06:41:00.650910+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Naver",
+      "credibility_score": 0,
+      "origin_source_id": "Naver",
+      "observation_entity_id": "Naver",
+      "discovery_source": "google_news",
+      "publisher_source": "en.sedaily.com",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra",
+        "cloud_saas_developer"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "source_contract",
+      "report_methodology_visible": false,
+      "vertical": "search_ai_cloud",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "expansion",
+        "ai_infra"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 42,
+      "attention_score": 100,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 35,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "expansion",
+      "domain": "ai",
+      "signal_type": "company",
+      "signal_change_score": 69,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 11,
+        "market_impact_confidence": 20
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected"
+    },
+    {
+      "title": "NH Investment & Securities Offers Naver Pay Vouchers to New DC Retirement Pension Subscribers - 아시아경제",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDbWo0TDFNTENoZlNLMUs5aDJma0s3eXZ3MVhSRWN4T2RtMXd3NFlfcUVkM0FoTzV6YklhR0FXaTlFT3JCVGxLdTVYUFZ2Ni1fY1RvX2hzUzV5cEV6ZThfbUdoWDhuRG9aOGJrb3F1aFNSUQ?oc=5",
+      "source": "Google News",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "B",
+      "score": 6,
+      "summary_short": "NH证券向养老金新客送Naver Pay券",
+      "content_overview": "NH投资证券向新开DC退休养老金账户的客户提供Naver Pay优惠券。",
+      "reason": "韩国券商与支付平台合作吸引养老金客户，为金融科技和支付服务商带来合作机会",
+      "impact": "韩国金融科技公司、支付平台、券商",
+      "insight_label": "合作机会",
+      "trend_topic": "韩国养老金金融科技",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Naver",
+      "canonical_company": "nh investment and securities",
+      "canonical_key": "",
+      "article_date": "2026-10-02",
+      "date": "2026-10-02",
+      "source_detail": "아시아경제",
+      "publisher": "아시아경제",
+      "image_url": "",
+      "published_at": "2026-10-02",
+      "observed_at": "2026-10-02T06:41:00.651104+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Naver",
+      "credibility_score": 0,
+      "origin_source_id": "Naver",
+      "observation_entity_id": "Naver",
+      "discovery_source": "google_news",
+      "publisher_source": "아시아경제",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra",
+        "cloud_saas_developer"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "source_contract",
+      "report_methodology_visible": false,
+      "vertical": "search_ai_cloud",
+      "bd_triggers": [
+        "预算窗口",
+        "扩张窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "general"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 42,
+      "attention_score": 100,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 35,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "expansion",
+      "domain": "ai",
+      "signal_type": "consumer",
+      "signal_change_score": 69,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 11,
+        "market_impact_confidence": 20
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected"
+    },
+    {
+      "title": "Billionaire Forrest Li’s Sea becomes Southeast Asia’s first to use Nvidia’s next-generation AI chips - VnExpress International",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNQ1BETnI0eVUtUGdSUTlpeGJWRFpkSDZmWDUwRElsNENpYTl2eXVIa29nalRQZDBwUzhHcG83SHpGMTJKeHh1NzJxS0plVkZOOFZzX1JIc3RSTF96blkwQ0ZEUHVVUHpuYVdwcENpekJfYXJQaW5xeGFIUGgzOXJxUFZYcU03Y0xJTGNOeUNHT0FMcVF6dzBqV05yejlBcG5XTkJOeGZ5WXZqcG9IcUl6bE9CMXBTR1BCS3BKanQtdkZVZlY0bXhRUjI0RjllYU9xY2R2TnlEZkMtcmpyMmRLaFpYZU5CM3M4ZTBXblJ3?oc=5",
+      "source": "Google News",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "Sea成东南亚首家采用Nvidia新AI芯片",
+      "content_overview": "新加坡Sea集团成为东南亚首家使用Nvidia下一代AI芯片的企业。",
+      "reason": "东南亚科技巨头率先采用Nvidia新芯片，为AI基础设施和云服务商带来合作机会",
+      "impact": "东南亚AI公司、云服务商、芯片分销商",
+      "insight_label": "资金流向",
+      "trend_topic": "东南亚AI芯片布局",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Sea Limited",
+      "canonical_company": "sea",
+      "canonical_key": "",
+      "article_date": "2026-10-02",
+      "date": "2026-10-02",
+      "source_detail": "VnExpress International",
+      "publisher": "VnExpress International",
+      "image_url": "",
+      "published_at": "2026-10-02",
+      "observed_at": "2026-10-02T06:41:02.247716+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Sea Limited",
+      "credibility_score": 0,
+      "origin_source_id": "Sea Limited",
+      "observation_entity_id": "Sea Limited",
+      "discovery_source": "google_news",
+      "publisher_source": "VnExpress International",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "report_methodology_visible": false,
+      "vertical": "commerce_gaming_fintech",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 42,
+      "attention_score": 85,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 20,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "expansion",
+      "domain": "ai",
+      "signal_type": "technology",
+      "signal_change_score": 0,
+      "signal_change_blocked": "no_explicit_change",
+      "signal_change_breakdown": {},
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected"
+    },
+    {
+      "title": "Researchers Flag AI Overreach, Moneyview’s Bumper IPO & More",
+      "url": "https://inc42.com/buzz/researchers-flag-ai-overreach-moneyviews-bumper-ipo-more/",
+      "source": "Inc42",
+      "region": "亚太",
+      "event_types": [
+        "other"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "研究人员警告AI过度扩张，Moneyview启动IPO",
+      "content_overview": "研究人员对AI过度扩张提出警告，同时印度金融科技公司Moneyview启动大规模IPO。",
+      "reason": "印度金融科技IPO与AI风险警示并存，反映市场对高估值科技股的分歧",
+      "impact": "印度金融科技投资者、AI监管机构、科技股市场",
+      "insight_label": "警示信号",
+      "trend_topic": "印度金融科技IPO潮",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "moneyview",
+      "canonical_key": "",
+      "article_date": "2026-10-02",
+      "date": "2026-10-02",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/10/Social-Daily-Brief-17.png",
+      "published_at": "2026-10-02",
+      "observed_at": "2026-10-02T06:39:22.441728+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L2 垂直交易源",
+      "source_role": "venture_media",
+      "source_id": "Inc42",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "OpenAI Dispute Sparks Academic Panic Last month, OpenAI’s Codex possibly solved the Navier-Stokes equations in days. But mathematician Tristan Buckmaster…",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "持续观察",
+      "bd_priority": "观察",
+      "signal_taxonomy": [
+        "ai_infra",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "generic_industry_change",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 62,
+      "attention_score": 95,
+      "score_breakdown": {
+        "source_authority": 20,
+        "materiality": 30,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "C",
+      "action_type": "expansion",
+      "domain": "ai",
+      "signal_type": "market",
+      "signal_change_score": 58,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "filtered",
+      "view_reason": "other_type",
+      "view_priority": "watch"
+    },
+    {
+      "title": "Thales Unveils Cybersecurity Tools for AI, Quantum Threats",
+      "url": "https://fintechnews.sg/138425/ai/thales-cybersecurity-ai-quantum-threats/",
+      "source": "Fintech News Singapore",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "Thales发布AI与量子安全工具",
+      "content_overview": "Thales推出针对AI和量子威胁的网络安全工具。",
+      "reason": "亚太企业面临AI和量子计算安全威胁，Thales提供前瞻性防护方案",
+      "impact": "亚太金融机构、网络安全服务商",
+      "insight_label": "合作机会",
+      "trend_topic": "量子安全技术布局",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "thales",
+      "canonical_key": "",
+      "article_date": "2026-10-02",
+      "date": "2026-10-02",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://fintechnewssg-22e90.kxcdn.com/wp-content/uploads/2026/10/Thales-Unveils-Cybersecurity-Tools-for-AI-and-Quantum-Threats.webp",
+      "published_at": "2026-10-02",
+      "observed_at": "2026-10-02T06:39:22.521219+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L4 垂直赛道精品源",
+      "source_role": "industry_vertical",
+      "source_id": "Fintech News Singapore",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra",
+        "payments",
+        "cloud_saas_developer",
+        "security"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "Thales has launched cybersecurity tools to help organisations secure AI operations and prepare for quantum computing threats. The company announced the developments at its Cyber Summit in Paris, where it also unveiled a partnership with Google Cloud to help organisations secure agentic AI operations. The partnership will use Thales’ AI Security Fabric, which is designed [...] The post Thales Unveils Cybersecurity Tools for AI, Quantum Threats appeared first on Fintech Singapore .",
+      "report_methodology_visible": false,
+      "vertical": "Fintech/支付",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "generic_industry_change",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 71,
+      "attention_score": 95,
+      "score_breakdown": {
+        "source_authority": 29,
+        "materiality": 30,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "product_release",
+      "domain": "ai",
+      "signal_type": "technology",
+      "signal_change_score": 64,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 24,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected"
+    },
+    {
+      "title": "Backbase Names Roland Booijen Chief Product Officer for Agentic Banking",
+      "url": "https://fintechnews.sg/138416/ai/backbase-roland-booijen-agentic-banking/",
+      "source": "Fintech News Singapore",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "Backbase任命新CPO推动Agentic Banking",
+      "content_overview": "Backbase任命Roland Booijen为首席产品官，负责Agentic Banking方向。",
+      "reason": "亚太银行数字化向智能代理演进，Backbase强化产品领导力",
+      "impact": "亚太银行客户、金融科技合作伙伴",
+      "insight_label": "背景补充",
+      "trend_topic": "Agentic Banking兴起",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "backbase",
+      "canonical_key": "",
+      "article_date": "2026-10-02",
+      "date": "2026-10-02",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://fintechnewssg-22e90.kxcdn.com/wp-content/uploads/2026/10/Backbase-Names-Roland-Booijen-Chief-Product-Officer-for-Agentic-Banking.webp",
+      "published_at": "2026-10-02",
+      "observed_at": "2026-10-02T06:39:22.526194+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L4 垂直赛道精品源",
+      "source_role": "industry_vertical",
+      "source_id": "Fintech News Singapore",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra",
+        "payments"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "Backbase has appointed Tikkie founder Roland Booijen as its new Chief Product Officer for Agentic Banking. He will lead product strategy across Conversational Banking, Relationship Intelligence and Customer Operations. The appointment comes five months after Backbase launched its AI-native Banking OS and follows its recent acquisition of Kasisto, which develops conversational and agentic AI for [...] The post Backbase Names Roland Booijen Chief Product Officer for Agentic Banking appeared first on Fintech Singapore .",
+      "report_methodology_visible": false,
+      "vertical": "Fintech/支付",
+      "bd_triggers": [
+        "合规窗口",
+        "扩张窗口"
+      ],
+      "opportunity_direction": "合规科技 / 数据治理 / 安全风控 / 牌照合作",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "generic_industry_change",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 71,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 29,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "product_release",
+      "domain": "ai",
+      "signal_type": "market",
+      "signal_change_score": 64,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 24,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected"
+    },
+    {
+      "title": "Kazakhstan’s Fintech Sector Shifts Focus to BaaS, AI, Digital Assets",
+      "url": "https://fintechnews.sg/138383/fintechkazakhstan/kazakhstans-fintech-sector-shifts-focus-to-baas-ai-digital-assets/",
+      "source": "Fintech News Singapore",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "B",
+      "score": 6,
+      "summary_short": "哈萨克斯坦FinTech转向BaaS、AI和数字资产",
+      "content_overview": "哈萨克斯坦金融科技行业将重点转向BaaS、AI和数字资产领域。",
+      "reason": "中亚金融科技赛道转型，为BaaS和数字资产服务商提供新市场",
+      "impact": "中亚金融科技初创、数字资产交易所",
+      "insight_label": "资金流向",
+      "trend_topic": "中亚FinTech转型",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "",
+      "canonical_key": "",
+      "article_date": "2026-10-02",
+      "date": "2026-10-02",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://fintechnewssg-22e90.kxcdn.com/wp-content/uploads/2026/10/Kazakhstans-Fintech-Sector-Shifts-Focus-to-BaaS-AI-Digital-Assets.webp",
+      "published_at": "2026-10-02",
+      "observed_at": "2026-10-02T06:39:22.528427+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L4 垂直赛道精品源",
+      "source_role": "industry_vertical",
+      "source_id": "Fintech News Singapore",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "industry_change",
+      "scope_industries": [
+        "ai_infra",
+        "payments"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "Kazakhstan’s first wave of fintech innovation was driven by banks and incumbents, which now lead consumer fintech through broad super-apps and digital ecosystems. This sector is now moving towards infrastructure, especially banking-as-a-service (BaaS), artificial intelligence (AI), and digital assets, according to a new report by RISE Research and Advisory in partnership with Tarlan Payments, BCC [...] The post Kazakhstan’s Fintech Sector Shifts Focus to BaaS, AI, Digital Assets appeared first on Fintech Singapore .",
+      "report_methodology_visible": false,
+      "vertical": "Fintech/支付",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "payment",
+        "ai_infra"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "generic_industry_change",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 71,
+      "attention_score": 95,
+      "score_breakdown": {
+        "source_authority": 29,
+        "materiality": 30,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "expansion",
+      "domain": "payment",
+      "signal_type": "market",
+      "signal_change_score": 58,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected"
+    },
+    {
+      "title": "Notice Concerning Reorganization of Rakuten Group’s FinTech Business Taking Effect and Recording of Income Tax Expense",
+      "url": "https://global.rakuten.com/corp/news/press/2026/1001_11.html",
+      "source": "Rakuten Group",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "B",
+      "score": 6,
+      "summary_short": "乐天金融科技重组生效并计入所得税费用",
+      "content_overview": "乐天集团宣布其金融科技业务重组正式生效，并确认将计入相应所得税费用。",
+      "reason": "日本乐天集团金融科技板块重组落地，亚太金融科技市场格局或将调整，关注其后续业务分拆与合作机会。",
+      "impact": "日本金融科技生态、乐天集团投资者",
+      "insight_label": "背景补充",
+      "trend_topic": "日本金融科技重组",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Rakuten",
+      "canonical_company": "rakuten group",
+      "canonical_key": "",
+      "article_date": "",
+      "date": "2026-10-02",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://jp.rakuten-static.com/1/bu/corp/im/news/sns_thumbnail_logo_gl_investor.png",
+      "observed_at": "2026-10-02T06:39:27.812160+00:00",
+      "date_source": "observed_at",
+      "date_confidence": "observed",
+      "date_parse_warning": "missing_published_at",
+      "published_at": "",
+      "date_basis": "observed_at",
+      "source_tier": "L1 官方/IR源",
+      "source_role": "official_ir",
+      "source_id": "Rakuten IR",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "payments"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "report_methodology_visible": false,
+      "vertical": "commerce_fintech",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "payment"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 57,
+      "attention_score": 95,
+      "score_breakdown": {
+        "source_authority": 33,
+        "materiality": 35,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 5
+      },
+      "evidence_grade": "C",
+      "action_type": "policy_change",
+      "domain": "payment",
+      "signal_type": "policy",
+      "signal_change_score": 73,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 25,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 20
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected"
+    },
+    {
+      "event_id": "event-jobs-ee5d0b5771ae850f",
+      "candidate_id": "jobs-ee5d0b5771ae850f",
+      "title": "Grab集中新增3个工程与平台岗位",
+      "url": "https://www.grab.careers/en/jobs/744000152327724/senior-merchant-account-manager-retailfmcg/",
+      "source": "Grab Jobs",
+      "source_id": "grab-jobs",
+      "origin_source_id": "grab-jobs",
+      "observation_entity_id": "grab",
+      "discovery_source": "jobs_snapshot",
+      "source_type": "jobs_snapshot",
+      "source_tier": "L1 官方/IR源",
+      "source_role": "official_ir",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 5,
+      "summary_short": "Grab在本周新增3个工程与平台相关职位",
+      "reason": "集中招聘显示Grab正在加强工程与平台能力建设，形成可核验的组织投入信号",
+      "impact": "相关技术供应商、渠道伙伴和企业服务商",
+      "insight_label": "组织变化",
+      "trend_topic": "Grab工程与平台能力建设",
+      "companies": [
+        "Grab"
+      ],
+      "is_company": true,
+      "company_name": "Grab",
+      "date": "2026-10-02",
+      "observed_at": "2026-10-02T14:39:17.400469+08:00",
+      "date_basis": "observed_at",
+      "analysis_source": "jobs_candidate",
+      "analysis_status": "complete",
+      "needs_repair": false,
+      "quality_flags": [],
+      "signal_taxonomy": [
+        "org_change"
+      ],
+      "evidence_refs": [
+        {
+          "job_id": "744000152327724",
+          "title": "Senior Merchant Account Manager (Retail/FMCG)",
+          "url": "https://www.grab.careers/en/jobs/744000152327724/senior-merchant-account-manager-retailfmcg/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152322399",
+          "title": "Associate L2 Support Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000152322399/associate-l2-support-engineer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152321739",
+          "title": "Head Economist, Marketplace Strategy (Dispatch & Pricing)",
+          "url": "https://www.grab.careers/en/jobs/744000152321739/head-economist-marketplace-strategy-dispatch-pricing/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152321499",
+          "title": "Assistant Manager, Self-Serve Business Strategy & Planning",
+          "url": "https://www.grab.careers/en/jobs/744000152321499/assistant-manager-self-serve-business-strategy-planning/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152321069",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000152321069/senior-software-engineer-backend/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152318149",
+          "title": "GrabFood Marketing Associate (Other cities)",
+          "url": "https://www.grab.careers/en/jobs/744000152318149/grabfood-marketing-associate-other-cities/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152189429",
+          "title": "Lead Product Manager, Technical Infrastructure",
+          "url": "https://www.grab.careers/en/jobs/744000152189429/lead-product-manager-technical-infrastructure/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152140280",
+          "title": "Lead, Business Development - OneGrab",
+          "url": "https://www.grab.careers/en/jobs/744000152140280/lead-business-development-onegrab/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152135025",
+          "title": "Manager, Technology Audit",
+          "url": "https://www.grab.careers/en/jobs/744000152135025/manager-technology-audit/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152130527",
+          "title": "Operation Excellence Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000152130527/operation-excellence-assistant-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152120089",
+          "title": "Senior Data Scientist",
+          "url": "https://www.grab.careers/en/jobs/744000152120089/senior-data-scientist/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152079420",
+          "title": "Senior Systems Engineer (Mobile Device Management)",
+          "url": "https://www.grab.careers/en/jobs/744000152079420/senior-systems-engineer-mobile-device-management/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152076389",
+          "title": "Assistant Manager, Merchant Sales (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000152076389/assistant-manager-merchant-sales-fb/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152067419",
+          "title": "Senior Backend & Reliability Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000152067419/senior-backend-reliability-engineer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152066979",
+          "title": "Associate, Key Account Management, Enterprise",
+          "url": "https://www.grab.careers/en/jobs/744000152066979/associate-key-account-management-enterprise/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152064949",
+          "title": "Senior Manager, Regional Strategic Partnerships (Deliveries & Dine-out)",
+          "url": "https://www.grab.careers/en/jobs/744000152064949/senior-manager-regional-strategic-partnerships-deliveries-dine-out/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000151782946",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000151782946/senior-software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151778689",
+          "title": "Analytics Manager II, Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000151778689/analytics-manager-ii-financial-services/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151772709",
+          "title": "Territory Sales Manager",
+          "url": "https://www.grab.careers/en/jobs/744000151772709/territory-sales-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151769657",
+          "title": "Acquisition & Market Expansion Lead",
+          "url": "https://www.grab.careers/en/jobs/744000151769657/acquisition-market-expansion-lead/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151765409",
+          "title": "Senior Software Engineer, Backend - Agent Experience",
+          "url": "https://www.grab.careers/en/jobs/744000151765409/senior-software-engineer-backend-agent-experience/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151754129",
+          "title": "Strategy & Planning Northern Sumatera, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000151754129/strategy-planning-northern-sumatera-assistant-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151752489",
+          "title": "Business Excellence Manager, Food",
+          "url": "https://www.grab.careers/en/jobs/744000151752489/business-excellence-manager-food/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151585180",
+          "title": "Senior Software Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000151585180/senior-software-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151574059",
+          "title": "Head of Engineering, AI Transformation",
+          "url": "https://www.grab.careers/en/jobs/744000151574059/head-of-engineering-ai-transformation/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151573440",
+          "title": "Senior Principal Engineer, Consumer Experience & Integrity",
+          "url": "https://www.grab.careers/en/jobs/744000151573440/senior-principal-engineer-consumer-experience-integrity/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151544874",
+          "title": "Senior Product Designer, Support",
+          "url": "https://www.grab.careers/en/jobs/744000151544874/senior-product-designer-support/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151545489",
+          "title": "Senior Product Designer, Integrity",
+          "url": "https://www.grab.careers/en/jobs/744000151545489/senior-product-designer-integrity/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151535660",
+          "title": "Business Analytics Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000151535660/business-analytics-specialist/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151522869",
+          "title": "Assistant Manager, Merchant Core Operations - Onboarding",
+          "url": "https://www.grab.careers/en/jobs/744000151522869/assistant-manager-merchant-core-operations-onboarding/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151520539",
+          "title": "Strategy & Business Operations, Manager (Seller & Growth)",
+          "url": "https://www.grab.careers/en/jobs/744000151520539/strategy-business-operations-manager-seller-growth/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151520069",
+          "title": "Pricing Analyst, Deal Desk",
+          "url": "https://www.grab.careers/en/jobs/744000151520069/pricing-analyst-deal-desk/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151519159",
+          "title": "Lead Product Marketing Manager",
+          "url": "https://www.grab.careers/en/jobs/744000151519159/lead-product-marketing-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152827460",
+          "title": "S&P Budgeting and Monitoring, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000152827460/sp-budgeting-and-monitoring-associate/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152823079",
+          "title": "Head, Payment and Insurance - Thailand",
+          "url": "https://www.grab.careers/en/jobs/744000152823079/head-payment-and-insurance-thailand/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152820954",
+          "title": "Assistant Marketing Manager, GrabMaps & Special Projects",
+          "url": "https://www.grab.careers/en/jobs/744000152820954/assistant-marketing-manager-grabmaps-special-projects/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152723079",
+          "title": "Senior Software Engineer, Mobile (Android)",
+          "url": "https://www.grab.careers/en/jobs/744000152723079/senior-software-engineer-mobile-android/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152649059",
+          "title": "Senior Data Scientist (Analytics) - Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000152649059/senior-data-scientist-analytics-financial-services/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152615521",
+          "title": "Senior Software Engineer, Backend - Insurance",
+          "url": "https://www.grab.careers/en/jobs/744000152615521/senior-software-engineer-backend-insurance/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152601399",
+          "title": "Assistant Manager, Consumer Payments, GrabFin",
+          "url": "https://www.grab.careers/en/jobs/744000152601399/assistant-manager-consumer-payments-grabfin/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152595529",
+          "title": "Manager, Insurance Partnership",
+          "url": "https://www.grab.careers/en/jobs/744000152595529/manager-insurance-partnership/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152589644",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000152589644/senior-software-engineer-backend/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152590419",
+          "title": "Lead Software Engineer, Mobile (iOS)",
+          "url": "https://www.grab.careers/en/jobs/744000152590419/lead-software-engineer-mobile-ios/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152588969",
+          "title": "Communications Senior Manager (Product)",
+          "url": "https://www.grab.careers/en/jobs/744000152588969/communications-senior-manager-product/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152588579",
+          "title": "Lead Software Engineer, Scribe",
+          "url": "https://www.grab.careers/en/jobs/744000152588579/lead-software-engineer-scribe/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152585089",
+          "title": "Senior Software Engineer, Backend - Agent Experience",
+          "url": "https://www.grab.careers/en/jobs/744000152585089/senior-software-engineer-backend-agent-experience/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152581689",
+          "title": "Senior Machine Learning Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000152581689/senior-machine-learning-engineer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152580719",
+          "title": "Assistant Manager, Commercial Operations (Deal Desk)",
+          "url": "https://www.grab.careers/en/jobs/744000152580719/assistant-manager-commercial-operations-deal-desk/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152386620",
+          "title": "Senior Engineer, Finance Systems",
+          "url": "https://www.grab.careers/en/jobs/744000152386620/senior-engineer-finance-systems/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152374800",
+          "title": "Assistant Manager, CRM",
+          "url": "https://www.grab.careers/en/jobs/744000152374800/assistant-manager-crm/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152327724",
+          "title": "Senior Merchant Account Manager (Retail/FMCG)",
+          "url": "https://www.grab.careers/en/jobs/744000152327724/senior-merchant-account-manager-retailfmcg/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152322399",
+          "title": "Associate L2 Support Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000152322399/associate-l2-support-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152321739",
+          "title": "Head Economist, Marketplace Strategy (Dispatch & Pricing)",
+          "url": "https://www.grab.careers/en/jobs/744000152321739/head-economist-marketplace-strategy-dispatch-pricing/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152321499",
+          "title": "Assistant Manager, Self-Serve Business Strategy & Planning",
+          "url": "https://www.grab.careers/en/jobs/744000152321499/assistant-manager-self-serve-business-strategy-planning/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152321069",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000152321069/senior-software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152318149",
+          "title": "GrabFood Marketing Associate (Other cities)",
+          "url": "https://www.grab.careers/en/jobs/744000152318149/grabfood-marketing-associate-other-cities/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152189429",
+          "title": "Lead Product Manager, Technical Infrastructure",
+          "url": "https://www.grab.careers/en/jobs/744000152189429/lead-product-manager-technical-infrastructure/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152140280",
+          "title": "Lead, Business Development - OneGrab",
+          "url": "https://www.grab.careers/en/jobs/744000152140280/lead-business-development-onegrab/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152135025",
+          "title": "Manager, Technology Audit",
+          "url": "https://www.grab.careers/en/jobs/744000152135025/manager-technology-audit/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152130527",
+          "title": "Operation Excellence Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000152130527/operation-excellence-assistant-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152120089",
+          "title": "Senior Data Scientist",
+          "url": "https://www.grab.careers/en/jobs/744000152120089/senior-data-scientist/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152079420",
+          "title": "Senior Systems Engineer (Mobile Device Management)",
+          "url": "https://www.grab.careers/en/jobs/744000152079420/senior-systems-engineer-mobile-device-management/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152076389",
+          "title": "Assistant Manager, Merchant Sales (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000152076389/assistant-manager-merchant-sales-fb/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152067419",
+          "title": "Senior Backend & Reliability Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000152067419/senior-backend-reliability-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152066979",
+          "title": "Associate, Key Account Management, Enterprise",
+          "url": "https://www.grab.careers/en/jobs/744000152066979/associate-key-account-management-enterprise/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152064949",
+          "title": "Senior Manager, Regional Strategic Partnerships (Deliveries & Dine-out)",
+          "url": "https://www.grab.careers/en/jobs/744000152064949/senior-manager-regional-strategic-partnerships-deliveries-dine-out/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151842122",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000151842122/lead-software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000151790519",
+          "title": "Regional Commercial Strategy & Partnerships Manager – Mandarin-Speaking",
+          "url": "https://www.grab.careers/en/jobs/744000151790519/regional-commercial-strategy-partnerships-manager-mandarin-speaking/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152909100",
+          "title": "Marketing Associate, Marketing Solutions, VN",
+          "url": "https://www.grab.careers/en/jobs/744000152909100/marketing-associate-marketing-solutions-vn/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152905299",
+          "title": "Head of Cybersecurity",
+          "url": "https://www.grab.careers/en/jobs/744000152905299/head-of-cybersecurity/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152899085",
+          "title": "Software Engineer, Backend - FinID",
+          "url": "https://www.grab.careers/en/jobs/744000152899085/software-engineer-backend-finid/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152892756",
+          "title": "Lead Product Marketing Manager",
+          "url": "https://www.grab.careers/en/jobs/744000152892756/lead-product-marketing-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152888229",
+          "title": "Head Economist, Marketplace Strategy (Dispatch & Pricing)",
+          "url": "https://www.grab.careers/en/jobs/744000152888229/head-economist-marketplace-strategy-dispatch-pricing/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152878659",
+          "title": "Software Engineer, Mobile (Android)",
+          "url": "https://www.grab.careers/en/jobs/744000152878659/software-engineer-mobile-android/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152869829",
+          "title": "Lead Product Manager, Transaction Platform",
+          "url": "https://www.grab.careers/en/jobs/744000152869829/lead-product-manager-transaction-platform/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152863500",
+          "title": "Assistant Manager, Technology Audit",
+          "url": "https://www.grab.careers/en/jobs/744000152863500/assistant-manager-technology-audit/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152863029",
+          "title": "Data Scientist (Supply Planning)",
+          "url": "https://www.grab.careers/en/jobs/744000152863029/data-scientist-supply-planning/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152862349",
+          "title": "Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000152862349/software-engineer-backend/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152860664",
+          "title": "Customer Escalations & Service Success Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000152860664/customer-escalations-service-success-specialist/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152859565",
+          "title": "GS - Service Success Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000152859565/gs-service-success-specialist/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152858500",
+          "title": "Associate, Strategy & Operations, Transport",
+          "url": "https://www.grab.careers/en/jobs/744000152858500/associate-strategy-operations-transport/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152844331",
+          "title": "Senior Data Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000152844331/senior-data-engineer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152843812",
+          "title": "Assistant Manager, Paid Media",
+          "url": "https://www.grab.careers/en/jobs/744000152843812/assistant-manager-paid-media/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152841949",
+          "title": "Intern, Product Support",
+          "url": "https://www.grab.careers/en/jobs/744000152841949/intern-product-support/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152836950",
+          "title": "Intern, Special Projects",
+          "url": "https://www.grab.careers/en/jobs/744000152836950/intern-special-projects/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152823079",
+          "title": "Head, Payment and Insurance - Thailand",
+          "url": "https://www.grab.careers/en/jobs/744000152823079/head-payment-and-insurance-thailand/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152820954",
+          "title": "Assistant Marketing Manager, GrabMaps & Special Projects",
+          "url": "https://www.grab.careers/en/jobs/744000152820954/assistant-marketing-manager-grabmaps-special-projects/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152723079",
+          "title": "Senior Software Engineer, Mobile (Android)",
+          "url": "https://www.grab.careers/en/jobs/744000152723079/senior-software-engineer-mobile-android/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152649059",
+          "title": "Senior Data Scientist (Analytics) - Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000152649059/senior-data-scientist-analytics-financial-services/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152615521",
+          "title": "Senior Software Engineer, Backend - Insurance",
+          "url": "https://www.grab.careers/en/jobs/744000152615521/senior-software-engineer-backend-insurance/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152601399",
+          "title": "Assistant Manager, Consumer Payments, GrabFin",
+          "url": "https://www.grab.careers/en/jobs/744000152601399/assistant-manager-consumer-payments-grabfin/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152595529",
+          "title": "Manager, Insurance Partnership",
+          "url": "https://www.grab.careers/en/jobs/744000152595529/manager-insurance-partnership/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152589644",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000152589644/senior-software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152590419",
+          "title": "Lead Software Engineer, Mobile (iOS)",
+          "url": "https://www.grab.careers/en/jobs/744000152590419/lead-software-engineer-mobile-ios/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152588969",
+          "title": "Communications Senior Manager (Product)",
+          "url": "https://www.grab.careers/en/jobs/744000152588969/communications-senior-manager-product/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152588579",
+          "title": "Lead Software Engineer, Scribe",
+          "url": "https://www.grab.careers/en/jobs/744000152588579/lead-software-engineer-scribe/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152585089",
+          "title": "Senior Software Engineer, Backend - Agent Experience",
+          "url": "https://www.grab.careers/en/jobs/744000152585089/senior-software-engineer-backend-agent-experience/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152581689",
+          "title": "Senior Machine Learning Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000152581689/senior-machine-learning-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152580719",
+          "title": "Assistant Manager, Commercial Operations (Deal Desk)",
+          "url": "https://www.grab.careers/en/jobs/744000152580719/assistant-manager-commercial-operations-deal-desk/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152386620",
+          "title": "Senior Engineer, Finance Systems",
+          "url": "https://www.grab.careers/en/jobs/744000152386620/senior-engineer-finance-systems/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152374800",
+          "title": "Assistant Manager, CRM",
+          "url": "https://www.grab.careers/en/jobs/744000152374800/assistant-manager-crm/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000153089529",
+          "title": "Senior Software Engineer in Test",
+          "url": "https://www.grab.careers/en/jobs/744000153089529/senior-software-engineer-in-test/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153087179",
+          "title": "Senior Systems Engineer (Mobile Device Management)",
+          "url": "https://www.grab.careers/en/jobs/744000153087179/senior-systems-engineer-mobile-device-management/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153077940",
+          "title": "Associate, Key Account Management, Enterprise",
+          "url": "https://www.grab.careers/en/jobs/744000153077940/associate-key-account-management-enterprise/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152841949",
+          "title": "Intern, Product Support",
+          "url": "https://www.grab.careers/en/jobs/744000152841949/intern-product-support/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152836950",
+          "title": "Intern, Special Projects",
+          "url": "https://www.grab.careers/en/jobs/744000152836950/intern-special-projects/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152827460",
+          "title": "S&P Budgeting and Monitoring, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000152827460/sp-budgeting-and-monitoring-associate/",
+          "change": "removed"
+        }
+      ],
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 60,
+      "attention_score": 58,
+      "score_breakdown": {
+        "source_authority": 33,
+        "materiality": 20,
+        "decision_relevance": 15,
+        "scope_fit": 8,
+        "novelty": 10,
+        "urgency": 5
+      },
+      "evidence_grade": "C",
+      "action_type": "expansion",
+      "domain": "other",
+      "signal_type": "company",
+      "signal_change_score": 0,
+      "signal_change_blocked": "out_of_target_industry",
+      "signal_change_breakdown": {},
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "published_at": "",
+      "date_source": "observed_at",
+      "date_confidence": "observed",
+      "date_parse_warning": "missing_published_at",
+      "article_date": ""
+    }
+  ]
 }

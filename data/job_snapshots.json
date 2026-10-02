@@ -1,11 +1,33 @@
 {
   "version": 1,
-  "generated_at": "2026-10-02T06:35:54.182975+08:00",
+  "generated_at": "2026-10-02T14:39:17.400469+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-02T06:35:54.182975+08:00",
+      "observed_at": "2026-10-02T14:39:17.400469+08:00",
       "jobs": [
+        {
+          "id": "744000153089529",
+          "title": "Senior Software Engineer in Test",
+          "url": "https://www.grab.careers/en/jobs/744000153089529/senior-software-engineer-in-test/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000153087179",
+          "title": "Senior Systems Engineer (Mobile Device Management)",
+          "url": "https://www.grab.careers/en/jobs/744000153087179/senior-systems-engineer-mobile-device-management/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000153077940",
+          "title": "Associate, Key Account Management, Enterprise",
+          "url": "https://www.grab.careers/en/jobs/744000153077940/associate-key-account-management-enterprise/",
+          "function_tags": []
+        },
         {
           "id": "744000152909100",
           "title": "Marketing Associate, Marketing Solutions, VN",
@@ -107,32 +129,12 @@
           "title": "Assistant Manager, Paid Media",
           "url": "https://www.grab.careers/en/jobs/744000152843812/assistant-manager-paid-media/",
           "function_tags": []
-        },
-        {
-          "id": "744000152841949",
-          "title": "Intern, Product Support",
-          "url": "https://www.grab.careers/en/jobs/744000152841949/intern-product-support/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000152836950",
-          "title": "Intern, Special Projects",
-          "url": "https://www.grab.careers/en/jobs/744000152836950/intern-special-projects/",
-          "function_tags": []
-        },
-        {
-          "id": "744000152827460",
-          "title": "S&P Budgeting and Monitoring, Associate",
-          "url": "https://www.grab.careers/en/jobs/744000152827460/sp-budgeting-and-monitoring-associate/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-02T06:35:54.182975+08:00",
+      "observed_at": "2026-10-02T14:39:17.400469+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -175,7 +177,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-02T06:35:54.182975+08:00",
+      "observed_at": "2026-10-02T14:39:17.400469+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
