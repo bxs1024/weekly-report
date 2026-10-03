@@ -773,29 +773,29 @@
       "generated_at": "2026-09-21 05:09"
     },
     "weekly:2026-W38": {
-      "input_hash": "b43ce9e5022b832494519b8b408d2bd0134d3e7cc7e55865bdf0a8339e615100",
+      "input_hash": "01b0e79fb1ce0c63a425b3527fb2c7ccebb547322f043dd287b8d5ca4ddf7600",
       "editorial": {
-        "editorial_title": "亚太AI资本转向医疗与代理基建",
-        "mainline": "Naver以千万美元投向AI医疗诊断，Databricks同步推出代理数据库评估标准，亚太AI资本正从通用模型转向垂直场景与代理基础设施。与此同时，Nubank正式进入美国市场，数字银行跨区域竞争从拉美蔓延至北美，出海BD需重新评估金融科技合作窗口。",
+        "editorial_title": "亚太AI医疗与支付出海双线提速",
+        "mainline": "Naver以千万美元级资金押注AI医疗诊断，蚂蚁国际则用AI平台重构跨境金融运营，两件事指向同一判断：亚太科技巨头的出海正从流量扩张转向基础设施与垂直场景的深度嵌入，BD与投资窗口随之从消费端移向底层能力层。",
         "themes": {
-          "ai_infra": "Naver旗下D2SF向ImpriMed注入千万美元A2轮桥接资金，将AI医疗诊断纳入其亚太投资版图；Databricks同期发布AI代理数据库评估标准，试图为代理应用建立可量化的选型依据。Cloudflare则从客户端安全切入，补齐代理部署的防护缺口。",
-          "expansion": "乐天与法拉利F1车队达成全球合作，将体育营销作为日本电商与支付业务国际化的新触点；Kakao则联合11个创新中心为韩国中小企业提供AI转型培训，从平台侧拉动商户数字化。Adyen拿下SNKRDUNK支付合作，Anthropic与埃森哲推进嵌入式AI评估，亚太合作网络正从流量扩张转向能力嵌入。",
-          "payments": "蚂蚁国际推出AI平台自动化全球金融运营，将跨境支付与风控从人力密集转向系统驱动；Nubank正式进入美国并推出存款账户，数字银行竞争从拉美本土延伸至北美腹地。Maybank维持Grab买入评级并关注Atome交易，东南亚金融科技整合仍在加速。",
-          "developer": "韩国投资证券完成Kakao Games 900亿韩元收购融资的出售，游戏行业并购退出通道重新打开；GDC顾问委员会新增四名成员，开发者生态的决策圈层正在换血。苹果调整欧盟ATT系统并发布可折叠iPhone Duo，平台规则与硬件形态同步变动，开发者需重新评估欧盟合规成本与设备适配策略。",
-          "compliance": "扎克伯格在AI安全上的公开立场与反垄断诉讼论点出现吻合，AI巨头的安全协调分歧正从技术辩论升级为法律争议；欧洲电信高管呼吁欧盟调整政策，试图在AI监管与网络投资之间重新找平衡。Advanced AI Society加入Linux基金会，Comp AI获3400万美元A轮，合规与安全赛道同时出现开源协作与资本加注。",
-          "commerce": "Jumia在肯尼亚上线联盟营销计划，将创作者经济纳入非洲电商增长引擎；欧洲央行邀请商户参与数字欧元试点，支付基础设施的公共选项开始向商户端渗透。Allegro上调2026年展望，波兰电商增速加快；Shopify管理后台改版，商户运营工具持续迭代。"
+          "ai_infra": "Naver旗下D2SF向ImpriMed注入千万美元，把AI能力从通用云推向肿瘤诊断这类高壁垒场景；同期Databricks发布代理数据库评估标准、Cloudflare补上客户端安全，云基础设施的竞争焦点正从算力规模转向代理可靠性与终端防护。",
+          "expansion": "乐天与法拉利F1车队签下全球合作，把品牌触达嵌入高净值赛事场景，为电商与支付国际化铺路；Kakao则联合11个创新中心向中小企业输出AI转型培训，Adyen拿下SNKRDUNK支付单，亚太平台的扩张正从流量采买转向本地生态绑定。",
+          "payments": "蚂蚁国际推出AI平台自动化全球金融运营，把跨境支付与风控从人力密集推向系统输出；Nubank在美国上线存款账户，正式从拉美走向成熟市场，Maybank维持Grab买入并关注Atome交易，金融科技的区域壁垒正在被AI基建与持牌扩张同时击穿。",
+          "developer": "韩国投资证券完成Kakao Games 900亿韩元收购融资的出售，游戏资产在亚太投行手中完成一轮退出；苹果一边调整欧盟ATT规则，一边发布可折叠iPhone Duo，平台规则与硬件形态同步变化，开发者生态的合规成本与适配窗口都在重估。",
+          "compliance": "扎克伯格关于AI安全的公开立场与其反垄断诉讼论点高度吻合，安全话语正被用作竞争防御工具；欧洲电信高管呼吁调整政策，Advanced AI Society加入Linux基金会，Comp AI拿下3400万美元A轮，合规与安全赛道在监管博弈中反而加速吸金。",
+          "commerce": "Jumia在肯尼亚上线联盟营销，把创作者与普通用户变成分销节点，非洲电商开始复制亚太的社交裂变路径；欧洲央行邀请商户参与数字欧元试点，Allegro上调2026年展望，Shopify后台新增三种语言，商户端的支付与语言基建正在同步扩容。"
         },
         "theme_titles": {
-          "ai_infra": "Naver领投AI医疗诊断，Databricks定义代理数据库标准",
-          "expansion": "乐天借F1全球营销，Kakao联合创新中心推AI转型培训",
-          "payments": "蚂蚁国际AI重构金融运营，Nubank登陆美国存款市场",
-          "developer": "Kakao Games融资退出完成，苹果欧盟ATT再调整",
-          "compliance": "扎克伯格AI安全立场卷入反垄断诉讼，欧洲电信施压欧盟",
-          "commerce": "Jumia在肯尼亚推联盟营销，欧洲央行邀商户试点数字欧元"
+          "ai_infra": "Naver领投AI医疗诊断，云厂商转向代理评估",
+          "expansion": "乐天借F1全球曝光，Kakao下沉AI培训",
+          "payments": "蚂蚁AI重构跨境运营，Nubank落地美国存款",
+          "developer": "Kakao Games融资退出，苹果折叠屏与ATT调整",
+          "compliance": "扎克伯格安全立场撞上反垄断诉讼",
+          "commerce": "Jumia在肯尼亚推联盟计划，欧央行试水数字欧元"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-09-29 14:56"
+      "generated_at": "2026-10-03 14:23"
     },
     "monthly:2026-09": {
       "input_hash": "a88df3f2f09dff7942fad9ae3c329f417256696c9da51ffb9c3aa0095bc02a8e",
@@ -877,54 +877,54 @@
       "generated_at": "2026-10-01 15:20"
     },
     "weekly:2026-W39": {
-      "input_hash": "293194618591ab06da5b848b95f7efb6070f8d244b86ef46d390f7c38749ba16",
+      "input_hash": "65a35973bb18f061442a2c283769c9328f0f45b3c36f8a33616e9ba3967deed3",
       "editorial": {
-        "editorial_title": "AI基建竞速与支付出海重构",
-        "mainline": "Cloudflare密集更新分析能力、Adyen推新一代身份验证，AI基础设施竞争从算力转向可观测与安全；同时Nubank洽购Monzo、腾讯推TenPayGo、蚂蚁加码印尼DOKU，支付巨头以本地化与跨境并购抢占市场。两条线共同指向：出海企业的竞争壁垒正从产品功能转向合规基建与本地生态卡位。",
+        "editorial_title": "AI基建竞速与新兴市场支付重构",
+        "mainline": "Cloudflare密集更新分析工具链，Adyen与腾讯各自推进支付本地化，AI基础设施与跨境支付正从通用能力转向区域深耕。与此同时，Nubank考虑收购Monzo、京东物流扩建全球网络，出海企业开始用并购和基建卡位成熟市场。",
         "themes": {
-          "ai_infra": "Cloudflare两天内先后开放自定义span文档与GraphQL Analytics API，把AI与云服务的性能监控能力交到开发者手中；Adyen同期推出新一代身份验证方案，支付环节的安全与可观测性同步升级。美国日常AI用户担忧情绪升温，说明基础设施的信任层正成为下一竞争焦点。",
-          "expansion": "乐天移动联手摩托罗拉发布Edge 70 Fusion，以终端产品线扩张争夺日本用户；MercadoLibre在巴西上线小时达并扩药房品类，把履约时效压到极限。Naver Z员工罢工抗议工资冻结，Grab则与OpenAI合作推广AI技能，亚太扩张正从规模竞赛转向组织与能力的内功比拼。",
-          "payments": "Nubank考虑收购Monzo进军英国，拉美数字银行开始反向渗透欧洲市场；腾讯推出TenPayGo便利国际游客在华支付，蚂蚁国际深化对印尼DOKU的投资并推动其换帅。Adyen高管公开讨论印度UPI与本地化策略，全球支付竞争已从费率战转向牌照、本地收单与跨境场景的卡位战。",
-          "compliance": "盖茨警告AI风险需强监管，Bengio提议联合国对前沿AI实施许可制，两位重量级人物在同一周把AI安全推上政策议程。欧盟儿童法案拟限制游戏每日奖励机制，欧洲移动游戏面临三重威胁分析同步出炉，合规压力正从AI模型层向游戏、内容与用户激励设计蔓延。",
-          "developer": "Kingnet投入2.98亿美元参与Wemade 6.84亿美元收购，中国游戏资本加速整合韩国市场；腾讯领投Circle Games 2500万美元A轮，中资在游戏与互动内容领域的出海路径从发行转向股权绑定。50skills与Rightway分别获融资扩展HR自动化与AI药房平台，开发者生态的资本正流向垂直场景的自动化改造。",
-          "commerce": "京东物流公布全球网络扩张及JoyLogistics扩展计划，中资物流基建继续向海外延伸；J.C. Penney在Q2销售下滑后推出marketplace，传统零售商被迫向平台模式转型。Shopify开发者后台新增日志筛选与健康指标，MercadoLibre被投资者视为拉美市场门户，电商竞争正从流量争夺转向履约网络与开发者工具的效率比拼。"
+          "ai_infra": "Cloudflare两天内先后上线自定义span文档与GraphQL Analytics API，把AI服务的性能追踪和用量分析做成标准化能力。Adyen同期推出新一代身份验证方案，支付风控也在向AI驱动演进。美国日常AI用户担忧情绪升温，基础设施的信任层正成为竞争焦点。",
+          "expansion": "乐天移动将发布摩托罗拉Edge 70 Fusion，以终端合作补强日本市场产品线。MercadoLibre在巴西推小时达并扩药房业务，Grab则与OpenAI合作推广AI技能。Naver Z员工罢工抗议工资冻结，提示区域扩张中劳资关系正成为隐性成本。",
+          "payments": "Nubank考虑收购Monzo进军英国，拉美数字银行开始反向渗透欧洲。腾讯推出TenPayGo便利国际游客在华支付，蚂蚁国际深化对印尼DOKU的投资并推动换帅。Adyen高管公开讨论印度UPI和本地化策略，全球支付竞争正从覆盖率转向区域合规与场景嵌入。",
+          "compliance": "盖茨警告AI风险需强监管，Bengio提议联合国对前沿AI实施许可制，政策讨论从原则声明转向具体准入机制。欧盟儿童法案可能限制游戏每日奖励机制，欧洲移动游戏面临合规三重威胁。AI安全技术、合规咨询与政策研究的需求窗口正在打开。",
+          "developer": "Kingnet投入2.98亿美元参与Wemade 6.84亿美元收购，腾讯领投Circle Games 2500万美元A轮，中国游戏资本正加速整合韩国和全球工作室。50skills和Rightway分别完成HR自动化与AI药房平台融资，开发者生态的垂直工具层持续吸金。",
+          "commerce": "京东物流公布全球网络扩张及JoyLogistics扩展计划，中国电商基建加速出海。MercadoLibre被投资者视为进入拉美的战略入口，市场地位进一步巩固。J.C. Penney销售下滑后推出marketplace，传统零售商被迫向平台模式转型。"
         },
         "theme_titles": {
           "ai_infra": "Cloudflare连发分析工具，AI基建转向可观测性",
-          "expansion": "乐天移动扩终端，MercadoLibre巴西推小时达",
-          "payments": "Nubank洽购Monzo，腾讯蚂蚁加码跨境支付",
-          "compliance": "盖茨与Bengio齐声警告，AI监管进入许可制讨论",
-          "developer": "Kingnet近3亿美元入股Wemade，中资游戏并购提速",
-          "commerce": "京东物流扩全球网络，J.C. Penney上线marketplace"
+          "expansion": "乐天移动联手摩托罗拉，亚太本地化合作提速",
+          "payments": "Nubank拟收购Monzo，支付巨头抢滩成熟市场",
+          "compliance": "AI安全监管升温，联合国许可制提议引关注",
+          "developer": "中国游戏资本出海，亚洲并购整合加速",
+          "commerce": "京东物流扩建全球网络，拉美电商门户效应凸显"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-10-02 07:08"
+      "generated_at": "2026-10-03 14:23"
     },
     "weekly:2026-W40": {
-      "input_hash": "a301a774457d444d4c59648d331b3811b8df04aa5b98a369a66099323e121b53",
+      "input_hash": "91b4be0df1d0a3bf99ec98b92cf1d085b7785238afd984b22145350ff1ac9a3d",
       "editorial": {
-        "editorial_title": "云厂商托管AI代理，亚洲支付与合规同步收紧",
-        "mainline": "Cloudflare把企业代理工作空间做成托管OS，Databricks同日向全员开放前沿模型，AI基础设施从卖算力转向卖可落地的代理运行环境；与此同时，韩国券商用Naver Pay券争夺养老金客户、乐天金融科技重组生效，亚洲支付入口与合规监管同步收紧，出海BD需重新评估本地收单与持牌合作路径。",
+        "editorial_title": "云安全可观测性升级，亚太支付重组提速",
+        "mainline": "Cloudflare一周内连发可观测性更新、托管OS和Web Search API，把边缘平台能力打包成企业级工具；同时乐天完成金融科技重组、Kakao推统一会员，亚太支付与超级App的整合正在重塑本地竞争格局。两股力量交汇，指向云基础设施与区域金融生态的深度绑定。",
         "themes": {
-          "ai_infra": "Cloudflare推出托管式OS服务，Databricks首日向员工开放前沿模型，Naver Whale浏览器内嵌AI Chat，DoorDash用短信购物助手把零售商拉进对话式交易。云厂商正把代理运行环境打包成标准服务，SaaS集成商和IT服务商的合作接口从API转向托管工作空间。",
-          "expansion": "Naver把旅行搜索覆盖扩到45个亚洲城市，韩国券商联手Kakao布局数字资产并推AI交易，信用担保基金联合Naver Pay和CodeBox为初创融资，Konga与Mikano Motors在非洲拓展电商。韩国互联网平台正把支付、内容和金融能力打包输出到亚洲本地服务商。",
-          "payments": "NH证券向养老金新客送Naver Pay券，乐天集团金融科技重组生效，哈萨克斯坦FinTech转向BaaS、AI和数字资产，MAS拟加强银行和保险董事会监管。支付平台正从通道变成获客和合规的双重入口，金融科技服务商需同时适配本地牌照和监管审查。",
-          "developer": "Leus推出移动游戏群体购买平台，Pinnacle增持沙特酒店初创Gathern，Inseego完成收购诺基亚FWA CPE业务，Restate获2000万美元融资。游戏内消费正从单人付费转向群体拼单，开发者与平台生态的变现接口可能被重新定义。",
-          "compliance": "欧盟儿童法案为游戏公司提供合规指南，Thales发布AI与量子安全工具，美联储提议稳定币规则，FTC对顶级AI公司启动调查。未成年人保护、稳定币和AI审查三条线同时收紧，合规技术和服务需求从可选变成出海必选项。",
-          "operations": "领英更新AI招聘机器人，Xbox裁员、AppLovin广告增长、Lilith发布新游戏，Snyk裁员200+但营收超3亿美元，亚马逊印度亏损扩大48%。AI招聘工具迭代与组织收缩并行，HR科技服务商和招聘流程外包公司需跟进新接口和成本结构。"
+          "ai_infra": "Cloudflare一周内将可观测性平台更新八项功能、上线托管式OS并发布Web Search API，把边缘网络能力打包成企业级运维与搜索工具。Anthropic同期投入1亿美元培训AI工程师，Naver Whale浏览器嵌入AI Chat，基础设施层的工具化与人才供给同步加速。",
+          "payments": "乐天完成金融科技重组，乐天银行成为母公司，银行主导地位增强。NH证券用Naver Pay券拉新养老金客户，Kakao推4900韩元月费整合购物支付内容，而MoneyHero激进投资者推动出售，显示亚太支付与财富管理正从独立App向银行和超级App生态收敛。",
+          "expansion": "Naver将旅行搜索扩至45个亚洲城市，韩国券商升级App推AI交易并联手Kakao布局数字资产，韩国信用担保基金联合Naver Pay和CodeBox支持初创融资。韩国互联网平台正把支付、内容和金融服务打包成可复制的区域扩张模板。",
+          "developer": "Cloudflare发布Web Search API，将搜索能力以API形式开放给边缘开发者。Kortext收购AI学习平台StudyStash，Leus推出移动游戏群体购买平台，Pinnacle增持沙特酒店初创Gathern，显示开发者工具与垂直场景的AI集成正在加速。",
+          "commerce": "Databricks推出实时电商推荐方案，Shopify上线折扣安排与测试功能，Commerce Robotics发布Rakuten-Shopify同步连接器，电商平台正用AI推荐和跨平台工具提升转化。Kakao推4900韩元月费统一会员，把购物、支付和内容打包，对本地电商格局形成挤压。",
+          "compliance": "欧盟儿童法案为游戏公司提供合规指南，Thales发布AI与量子安全工具，美联储提议稳定币规则，苹果收紧macOS磁盘访问控制应对AI风险。监管与安全威胁同步升级，合规技术从可选变为出海企业的准入门槛。"
         },
         "theme_titles": {
-          "ai_infra": "云厂商把AI代理做成托管OS，企业集成入口前移",
-          "expansion": "Naver旅行搜索扩至45城，韩国平台加速亚洲本地化",
-          "payments": "韩国券商用Naver Pay券抢养老金客户，支付入口战升级",
-          "developer": "移动游戏群体购买平台出现，变现模式试探新路径",
-          "compliance": "欧盟儿童法案落地，游戏与AI公司同步面对合规审查",
-          "operations": "领英更新AI招聘机器人，招聘与裁员同步重塑组织"
+          "ai_infra": "Cloudflare连发可观测性与托管OS，边缘平台向企业IT运维渗透",
+          "payments": "乐天金融科技重组落地，银行主导亚太支付整合",
+          "expansion": "Naver旅行搜索覆盖45城，韩国平台加速亚洲服务输出",
+          "developer": "Cloudflare开放Web Search API，边缘搜索成开发者新入口",
+          "commerce": "Databricks推实时电商推荐，Kakao统一会员搅动韩式电商",
+          "compliance": "欧盟儿童法案落地，游戏与AI安全合规工具需求升温"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-10-02 15:07"
+      "generated_at": "2026-10-03 14:23"
     }
   }
 }

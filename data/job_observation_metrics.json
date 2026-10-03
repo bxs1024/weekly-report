@@ -1,23 +1,25 @@
 {
-  "observed_at": "2026-10-02T14:39:17.400469+08:00",
+  "observed_at": "2026-10-03T13:59:58.485105+08:00",
   "source_count": 3,
-  "raw_count": 59,
+  "raw_count": 60,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 6,
+      "count": 8,
       "inventory_count": 18,
       "signal_count": 1,
-      "added_count": 3,
-      "removed_count": 3,
+      "added_count": 4,
+      "removed_count": 4,
       "clusters": {
-        "engineering": 2
+        "sales": 1,
+        "operations": 1
       },
       "removed_clusters": {
-        "operations": 1
+        "operations": 1,
+        "engineering": 1
       }
     },
     "Stripe Jobs": {
@@ -38,74 +40,161 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 36,
-      "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
-      "removed_clusters": {}
+      "count": 5,
+      "inventory_count": 37,
+      "signal_count": 1,
+      "added_count": 3,
+      "removed_count": 2,
+      "clusters": {
+        "ai": 1,
+        "engineering": 1,
+        "partnerships": 1,
+        "operations": 2
+      },
+      "removed_clusters": {
+        "payments": 1,
+        "engineering": 1,
+        "operations": 1
+      }
     }
   },
   "candidate_signals": [
     {
-      "candidate_id": "jobs-ee5d0b5771ae850f",
+      "candidate_id": "jobs-3f675df58accc10b",
       "entity_id": "grab",
       "entity": "Grab",
       "region": "亚太",
       "sector": "mobility_payment",
       "source_type": "jobs_snapshot",
       "signal_type": "function_buildout",
-      "cluster": "engineering",
+      "cluster": "sales",
       "window": "2026-W40",
-      "window_start": "2026-10-02",
-      "window_end": "2026-10-02",
-      "detected_at": "2026-10-02T14:39:17.400469+08:00",
+      "window_start": "2026-10-03",
+      "window_end": "2026-10-03",
+      "detected_at": "2026-10-03T13:59:58.485105+08:00",
       "baseline_count": 18,
       "current_count": 18,
-      "added_count": 3,
-      "removed_count": 3,
+      "added_count": 4,
+      "removed_count": 4,
       "clusters": {
-        "engineering": 2
+        "sales": 1,
+        "operations": 1
       },
       "removed_clusters": {
+        "operations": 1,
+        "engineering": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000153152879",
+          "title": "Assistant Marketing Manager - OneGrab, VN",
+          "url": "https://www.grab.careers/en/jobs/744000153152879/assistant-marketing-manager-onegrab-vn/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153138305",
+          "title": "Specialist, GIP Demand Planning",
+          "url": "https://www.grab.careers/en/jobs/744000153138305/specialist-gip-demand-planning/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153116519",
+          "title": "GrabForBusiness Enterprise Sales Manager",
+          "url": "https://www.grab.careers/en/jobs/744000153116519/grabforbusiness-enterprise-sales-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153113579",
+          "title": "Strategy and Operations Manager, Deliveries",
+          "url": "https://www.grab.careers/en/jobs/744000153113579/strategy-and-operations-manager-deliveries/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000152859565",
+          "title": "GS - Service Success Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000152859565/gs-service-success-specialist/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152858500",
+          "title": "Associate, Strategy & Operations, Transport",
+          "url": "https://www.grab.careers/en/jobs/744000152858500/associate-strategy-operations-transport/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152844331",
+          "title": "Senior Data Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000152844331/senior-data-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152843812",
+          "title": "Assistant Manager, Paid Media",
+          "url": "https://www.grab.careers/en/jobs/744000152843812/assistant-manager-paid-media/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
+    {
+      "candidate_id": "jobs-e7ec5248c2b73eff",
+      "entity_id": "shopify",
+      "entity": "Shopify",
+      "region": "全球",
+      "sector": "commerce_saas",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "operations",
+      "window": "2026-W40",
+      "window_start": "2026-10-03",
+      "window_end": "2026-10-03",
+      "detected_at": "2026-10-03T13:59:58.485105+08:00",
+      "baseline_count": 36,
+      "current_count": 37,
+      "added_count": 3,
+      "removed_count": 2,
+      "clusters": {
+        "ai": 1,
+        "engineering": 1,
+        "partnerships": 1,
+        "operations": 2
+      },
+      "removed_clusters": {
+        "payments": 1,
+        "engineering": 1,
         "operations": 1
       },
       "evidence_refs": [
         {
-          "job_id": "744000153089529",
-          "title": "Senior Software Engineer in Test",
-          "url": "https://www.grab.careers/en/jobs/744000153089529/senior-software-engineer-in-test/",
+          "job_id": "6d41cb89-ee55-4ec6-ba34-a09277dc399c",
+          "title": "Partner Marketing Lead, Strategic Partners (Platform, AI & Marketplace) Remote - Americas",
+          "url": "https://www.shopify.com/careers/partner-marketing-lead-strategic-partners-platform-ai-marketplace_6d41cb89-ee55-4ec6-ba34-a09277dc399c",
           "change": "added"
         },
         {
-          "job_id": "744000153087179",
-          "title": "Senior Systems Engineer (Mobile Device Management)",
-          "url": "https://www.grab.careers/en/jobs/744000153087179/senior-systems-engineer-mobile-device-management/",
+          "job_id": "1126767c-59e0-4931-9fbc-dce99daee4b6",
+          "title": "Lead, Support Operations Remote - Americas, Canada",
+          "url": "https://www.shopify.com/careers/lead-support-operations_1126767c-59e0-4931-9fbc-dce99daee4b6",
           "change": "added"
         },
         {
-          "job_id": "744000153077940",
-          "title": "Associate, Key Account Management, Enterprise",
-          "url": "https://www.grab.careers/en/jobs/744000153077940/associate-key-account-management-enterprise/",
+          "job_id": "8e20a084-b833-4cf0-b81b-58dc3fbcfbbd",
+          "title": "Performance Excellence Lead, Support Operations Remote - Americas, Canada",
+          "url": "https://www.shopify.com/careers/performance-excellence-lead-support-operations_8e20a084-b833-4cf0-b81b-58dc3fbcfbbd",
           "change": "added"
         },
         {
-          "job_id": "744000152841949",
-          "title": "Intern, Product Support",
-          "url": "https://www.grab.careers/en/jobs/744000152841949/intern-product-support/",
+          "job_id": "8441801f-1a0e-42c6-8838-cc15af655923",
+          "title": "Associate General Counsel, Product (Fintech) Remote - Americas",
+          "url": "https://www.shopify.com/careers/associate-general-counsel-product-fintech_8441801f-1a0e-42c6-8838-cc15af655923",
           "change": "removed"
         },
         {
-          "job_id": "744000152836950",
-          "title": "Intern, Special Projects",
-          "url": "https://www.grab.careers/en/jobs/744000152836950/intern-special-projects/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000152827460",
-          "title": "S&P Budgeting and Monitoring, Associate",
-          "url": "https://www.grab.careers/en/jobs/744000152827460/sp-budgeting-and-monitoring-associate/",
+          "job_id": "c03ce74c-7300-4254-a54e-c5e662c8f1b0",
+          "title": "Developer Support Expert Remote - United Kingdom, Ireland",
+          "url": "https://www.shopify.com/careers/developer-support-expert_c03ce74c-7300-4254-a54e-c5e662c8f1b0",
           "change": "removed"
         }
       ],

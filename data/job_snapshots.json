@@ -1,11 +1,39 @@
 {
   "version": 1,
-  "generated_at": "2026-10-02T14:39:17.400469+08:00",
+  "generated_at": "2026-10-03T13:59:58.485105+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-02T14:39:17.400469+08:00",
+      "observed_at": "2026-10-03T13:59:58.485105+08:00",
       "jobs": [
+        {
+          "id": "744000153152879",
+          "title": "Assistant Marketing Manager - OneGrab, VN",
+          "url": "https://www.grab.careers/en/jobs/744000153152879/assistant-marketing-manager-onegrab-vn/",
+          "function_tags": []
+        },
+        {
+          "id": "744000153138305",
+          "title": "Specialist, GIP Demand Planning",
+          "url": "https://www.grab.careers/en/jobs/744000153138305/specialist-gip-demand-planning/",
+          "function_tags": []
+        },
+        {
+          "id": "744000153116519",
+          "title": "GrabForBusiness Enterprise Sales Manager",
+          "url": "https://www.grab.careers/en/jobs/744000153116519/grabforbusiness-enterprise-sales-manager/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000153113579",
+          "title": "Strategy and Operations Manager, Deliveries",
+          "url": "https://www.grab.careers/en/jobs/744000153113579/strategy-and-operations-manager-deliveries/",
+          "function_tags": [
+            "operations"
+          ]
+        },
         {
           "id": "744000153089529",
           "title": "Senior Software Engineer in Test",
@@ -101,40 +129,12 @@
           "title": "Customer Escalations & Service Success Specialist",
           "url": "https://www.grab.careers/en/jobs/744000152860664/customer-escalations-service-success-specialist/",
           "function_tags": []
-        },
-        {
-          "id": "744000152859565",
-          "title": "GS - Service Success Specialist",
-          "url": "https://www.grab.careers/en/jobs/744000152859565/gs-service-success-specialist/",
-          "function_tags": []
-        },
-        {
-          "id": "744000152858500",
-          "title": "Associate, Strategy & Operations, Transport",
-          "url": "https://www.grab.careers/en/jobs/744000152858500/associate-strategy-operations-transport/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000152844331",
-          "title": "Senior Data Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000152844331/senior-data-engineer/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000152843812",
-          "title": "Assistant Manager, Paid Media",
-          "url": "https://www.grab.careers/en/jobs/744000152843812/assistant-manager-paid-media/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-02T14:39:17.400469+08:00",
+      "observed_at": "2026-10-03T13:59:58.485105+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -177,7 +177,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-02T14:39:17.400469+08:00",
+      "observed_at": "2026-10-03T13:59:58.485105+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
@@ -192,6 +192,16 @@
           "title": "Senior Lead, Federal Government Affairs (US) Remote - Americas",
           "url": "https://www.shopify.com/careers/senior-lead-federal-government-affairs-us_7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
           "function_tags": []
+        },
+        {
+          "id": "6d41cb89-ee55-4ec6-ba34-a09277dc399c",
+          "title": "Partner Marketing Lead, Strategic Partners (Platform, AI & Marketplace) Remote - Americas",
+          "url": "https://www.shopify.com/careers/partner-marketing-lead-strategic-partners-platform-ai-marketplace_6d41cb89-ee55-4ec6-ba34-a09277dc399c",
+          "function_tags": [
+            "ai",
+            "engineering",
+            "partnerships"
+          ]
         },
         {
           "id": "23139158-81cb-4924-a080-5d38e490d687",
@@ -314,14 +324,6 @@
           ]
         },
         {
-          "id": "8441801f-1a0e-42c6-8838-cc15af655923",
-          "title": "Associate General Counsel, Product (Fintech) Remote - Americas",
-          "url": "https://www.shopify.com/careers/associate-general-counsel-product-fintech_8441801f-1a0e-42c6-8838-cc15af655923",
-          "function_tags": [
-            "payments"
-          ]
-        },
-        {
           "id": "d6bd5347-c156-4fa4-bb99-3bf5b43e93d7",
           "title": "Compliance Lead Remote - Americas",
           "url": "https://www.shopify.com/careers/compliance-lead_d6bd5347-c156-4fa4-bb99-3bf5b43e93d7",
@@ -356,17 +358,17 @@
           ]
         },
         {
-          "id": "bff44652-fe22-44bc-84b0-691d8f996322",
-          "title": "Director, Partnerships, Greater China Remote - Hong Kong",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_bff44652-fe22-44bc-84b0-691d8f996322",
+          "id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "title": "Director, Partnerships, Greater China Remote - Singapore",
+          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
           "function_tags": [
             "partnerships"
           ]
         },
         {
-          "id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
-          "title": "Director, Partnerships, Greater China Remote - Singapore",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "id": "bff44652-fe22-44bc-84b0-691d8f996322",
+          "title": "Director, Partnerships, Greater China Remote - Hong Kong",
+          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_bff44652-fe22-44bc-84b0-691d8f996322",
           "function_tags": [
             "partnerships"
           ]
@@ -388,15 +390,6 @@
           ]
         },
         {
-          "id": "c03ce74c-7300-4254-a54e-c5e662c8f1b0",
-          "title": "Developer Support Expert Remote - United Kingdom, Ireland",
-          "url": "https://www.shopify.com/careers/developer-support-expert_c03ce74c-7300-4254-a54e-c5e662c8f1b0",
-          "function_tags": [
-            "engineering",
-            "operations"
-          ]
-        },
-        {
           "id": "88865df0-0622-4687-b8e1-a03b64918e5e",
           "title": "Developer Support Expert, PST & EST Remote - Americas",
           "url": "https://www.shopify.com/careers/developer-support-expert-pst-est_88865df0-0622-4687-b8e1-a03b64918e5e",
@@ -406,9 +399,25 @@
           ]
         },
         {
+          "id": "1126767c-59e0-4931-9fbc-dce99daee4b6",
+          "title": "Lead, Support Operations Remote - Americas, Canada",
+          "url": "https://www.shopify.com/careers/lead-support-operations_1126767c-59e0-4931-9fbc-dce99daee4b6",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
           "id": "1af1c305-5882-4bfb-8a83-8969d372115d",
           "title": "Live Site Operations Specialist Remote - Singapore",
           "url": "https://www.shopify.com/careers/live-site-operations-specialist_1af1c305-5882-4bfb-8a83-8969d372115d",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "8e20a084-b833-4cf0-b81b-58dc3fbcfbbd",
+          "title": "Performance Excellence Lead, Support Operations Remote - Americas, Canada",
+          "url": "https://www.shopify.com/careers/performance-excellence-lead-support-operations_8e20a084-b833-4cf0-b81b-58dc3fbcfbbd",
           "function_tags": [
             "operations"
           ]
