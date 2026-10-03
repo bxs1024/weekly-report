@@ -877,29 +877,29 @@
       "generated_at": "2026-10-01 15:20"
     },
     "weekly:2026-W39": {
-      "input_hash": "65a35973bb18f061442a2c283769c9328f0f45b3c36f8a33616e9ba3967deed3",
+      "input_hash": "05a5fd900465e6f261e11ada665522d5fa45cb9801ad479ed51516378507ad21",
       "editorial": {
-        "editorial_title": "AI基建竞速与新兴市场支付重构",
-        "mainline": "Cloudflare密集更新分析工具链，Adyen与腾讯各自推进支付本地化，AI基础设施与跨境支付正从通用能力转向区域深耕。与此同时，Nubank考虑收购Monzo、京东物流扩建全球网络，出海企业开始用并购和基建卡位成熟市场。",
+        "editorial_title": "AI基建与支付出海双线提速",
+        "mainline": "Cloudflare连发可观测性工具、Adyen推新一代身份验证，AI基础设施正从算力堆叠转向可运营性竞争；同时腾讯TenPayGo落地、Nubank洽购Monzo、蚂蚁加注印尼DOKU，支付出海从通道铺设进入本地收单与合规深耕阶段。两条线交汇于同一判断：出海竞争已从产品复制转向本地化运营能力。",
         "themes": {
-          "ai_infra": "Cloudflare两天内先后上线自定义span文档与GraphQL Analytics API，把AI服务的性能追踪和用量分析做成标准化能力。Adyen同期推出新一代身份验证方案，支付风控也在向AI驱动演进。美国日常AI用户担忧情绪升温，基础设施的信任层正成为竞争焦点。",
-          "expansion": "乐天移动将发布摩托罗拉Edge 70 Fusion，以终端合作补强日本市场产品线。MercadoLibre在巴西推小时达并扩药房业务，Grab则与OpenAI合作推广AI技能。Naver Z员工罢工抗议工资冻结，提示区域扩张中劳资关系正成为隐性成本。",
-          "payments": "Nubank考虑收购Monzo进军英国，拉美数字银行开始反向渗透欧洲。腾讯推出TenPayGo便利国际游客在华支付，蚂蚁国际深化对印尼DOKU的投资并推动换帅。Adyen高管公开讨论印度UPI和本地化策略，全球支付竞争正从覆盖率转向区域合规与场景嵌入。",
-          "compliance": "盖茨警告AI风险需强监管，Bengio提议联合国对前沿AI实施许可制，政策讨论从原则声明转向具体准入机制。欧盟儿童法案可能限制游戏每日奖励机制，欧洲移动游戏面临合规三重威胁。AI安全技术、合规咨询与政策研究的需求窗口正在打开。",
-          "developer": "Kingnet投入2.98亿美元参与Wemade 6.84亿美元收购，腾讯领投Circle Games 2500万美元A轮，中国游戏资本正加速整合韩国和全球工作室。50skills和Rightway分别完成HR自动化与AI药房平台融资，开发者生态的垂直工具层持续吸金。",
-          "commerce": "京东物流公布全球网络扩张及JoyLogistics扩展计划，中国电商基建加速出海。MercadoLibre被投资者视为进入拉美的战略入口，市场地位进一步巩固。J.C. Penney销售下滑后推出marketplace，传统零售商被迫向平台模式转型。"
+          "ai_infra": "Cloudflare在两天内先后上线自定义span文档与GraphQL Analytics API，把分布式追踪和查询能力开放给开发者；Adyen同步推出新一代身份验证方案。美国日常AI用户担忧情绪仍在，说明基础设施竞争已从算力规模转向可观测、可验证的运营能力。",
+          "expansion": "乐天移动引入摩托罗拉新机型扩充日本终端货架，MercadoLibre在巴西把配送压到一小时内并扩药房品类，Grab与OpenAI合作向东南亚推广AI技能。Naver Z员工罢工抗议工资冻结，则暴露韩系平台在扩张同时面临劳资张力。",
+          "payments": "腾讯推出TenPayGo让国际游客仅凭手机在华支付，蚂蚁国际通过Antom深化对印尼DOKU的战略投资并推动其换帅，Nubank则考虑收购Monzo进军英国。Adyen高管同期强调印度UPI与支付本地化，全球支付竞争正从通道转向本地收单与合规深耕。",
+          "compliance": "盖茨警告AI风险需强监管，Bengio提议联合国对前沿AI实施许可制，欧盟儿童法案拟限制游戏每日奖励机制，欧洲移动游戏面临三重威胁分析。监管讨论从原则声明进入具体立法与许可框架设计，AI安全合规需求随之升温。",
+          "developer": "Kingnet出资2.98亿美元参与Wemade 6.84亿美元收购，腾讯领投Circle Games 2500万美元A轮，50skills与Rightway分别获530万欧元和1.55亿美元融资。中国游戏资本出海收购韩国公司，亚洲游戏市场整合与跨境IP合作同步加速。",
+          "commerce": "京东物流公布全球网络扩张及JoyLogistics扩展计划，MercadoLibre被个人投资者视为进入拉美的战略门户，J.C. Penney销售下滑后推出marketplace，Shopify为开发者后台新增日志筛选与健康指标。电商竞争正从流量转向履约网络与开发者工具。"
         },
         "theme_titles": {
-          "ai_infra": "Cloudflare连发分析工具，AI基建转向可观测性",
-          "expansion": "乐天移动联手摩托罗拉，亚太本地化合作提速",
-          "payments": "Nubank拟收购Monzo，支付巨头抢滩成熟市场",
-          "compliance": "AI安全监管升温，联合国许可制提议引关注",
-          "developer": "中国游戏资本出海，亚洲并购整合加速",
-          "commerce": "京东物流扩建全球网络，拉美电商门户效应凸显"
+          "ai_infra": "Cloudflare补全可观测性，AI基建转向运营层",
+          "expansion": "乐天移动扩终端，Grab联手OpenAI推技能",
+          "payments": "腾讯推TenPayGo，蚂蚁加注印尼DOKU",
+          "compliance": "盖茨与Bengio齐声呼吁AI强监管",
+          "developer": "Kingnet近3亿美元参与Wemade收购",
+          "commerce": "京东物流扩全球网，MercadoLibre成拉美入口"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-10-03 14:23"
+      "generated_at": "2026-10-04 05:19"
     },
     "weekly:2026-W40": {
       "input_hash": "91b4be0df1d0a3bf99ec98b92cf1d085b7785238afd984b22145350ff1ac9a3d",

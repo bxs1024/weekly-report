@@ -328978,9 +328978,9 @@
       "level": "C",
       "score": 4,
       "summary_short": "Kortext收购AI学习平台StudyStash",
-      "content_overview": "AI学习平台StudyStash在快速全球扩张后被Kortext收购。",
-      "reason": "欧洲教育科技整合加速，AI个性化学习工具成为收购热点，为教育内容和技术供应商带来整合机会。",
-      "impact": "欧洲教育科技公司、AI教育内容方",
+      "content_overview": "英国教育科技公司Kortext收购了AI学习平台StudyStash，后者此前经历了快速全球扩张。",
+      "reason": "欧洲教育科技整合加速，AI学习工具成为收购热点，为教育内容分发提供新渠道。",
+      "impact": "教育科技平台、高校数字化服务商",
       "insight_label": "合作机会",
       "trend_topic": "欧洲教育科技整合",
       "companies": [],
@@ -329062,7 +329062,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://tech.eu/2026/10/02/ai-study-platform-studystash-acquired-by-kortext-after-rapid-global-expansion/"
+      ]
     },
     {
       "title": "Berlin-based Kuro raises €10 million to build the AI ​​foundation for general contractors",
@@ -329628,10 +329631,10 @@
       ],
       "level": "C",
       "score": 5,
-      "summary_short": "游戏D2C定价策略分析发布",
-      "content_overview": "行业分析文章探讨游戏内购与网页商店的定价和打包策略，以平衡D2C销售与游戏经济。",
-      "reason": "全球游戏D2C渠道兴起，定价策略直接影响游戏公司收入结构",
-      "impact": "移动游戏开发商、D2C平台服务商",
+      "summary_short": "行业分析：游戏D2C定价策略",
+      "content_overview": "PocketGamer.biz发布关于游戏内购与网页商店（D2C）定价策略的行业分析文章，探讨如何在不破坏游戏经济的前提下进行定价与打包。",
+      "reason": "全球游戏行业D2C渠道兴起，定价策略直接影响游戏经济平衡与开发者收入，对游戏发行商和平台方有参考价值。",
+      "impact": "游戏开发商、发行商、D2C平台服务商",
       "insight_label": "背景补充",
       "trend_topic": "游戏D2C渠道策略",
       "companies": [],
@@ -329709,7 +329712,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://www.pocketgamer.biz/in-game-vs-web-store-how-to-price-and-package-for-d2c-without-breaking-your-game-economy/"
+      ]
     },
     {
       "title": "Vietnam’s MB Bank Taps OceanBase to Modernise Database Infrastructure",
@@ -329721,10 +329727,10 @@
       ],
       "level": "C",
       "score": 4,
-      "summary_short": "越南MB Bank采用OceanBase数据库",
-      "content_overview": "越南MB Bank选择OceanBase对其数据库基础设施进行现代化改造。",
-      "reason": "东南亚银行数字化升级需求旺盛，中国数据库厂商出海东南亚市场机会明确",
-      "impact": "OceanBase、东南亚银行IT部门、数据库服务商",
+      "summary_short": "越南MB银行采用OceanBase数据库",
+      "content_overview": "越南MB银行选择蚂蚁集团旗下的OceanBase数据库来现代化其数据库基础设施。",
+      "reason": "东南亚银行加速核心系统现代化，中国数据库技术出海越南市场，为国产数据库厂商提供东南亚合作机会。",
+      "impact": "国产数据库厂商、东南亚银行IT供应商",
       "insight_label": "合作机会",
       "trend_topic": "东南亚银行数字化升级",
       "companies": [],
@@ -329804,7 +329810,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://fintechnews.sg/138440/vietnam/mb-bank-oceanbase-modernisation/"
+      ]
     },
     {
       "title": "Visa Reports Nearly 200% Annual Growth in Stablecoin Card Payments",
@@ -332017,6 +332026,198 @@
       "date_confidence": "observed",
       "date_parse_warning": "missing_published_at",
       "article_date": ""
+    },
+    {
+      "title": "Nu Holdings dispels Monzo acquisition rumours - FinTech Futures",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTmthWExaZjVBcXNROWlJTVBweXA1cUI4Wlo0aDdoeUFMdnI0bnQxcTN3Tm5yVjE5RE83dnRHY05sRGUwRHZKNWdWbnZhZ0Z2b2J6SnJybThwZklUQkRsRlVKcjhCTVhaMDJaSkI0cG50SnhYRnBkUEJhNGZPbDNPdUplN3I2bU00VElWa0R3?oc=5",
+      "source": "Google News",
+      "region": "拉美",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 5,
+      "summary_short": "Nu Holdings否认收购Monzo传闻",
+      "content_overview": "巴西数字银行Nu Holdings否认了关于其收购英国数字银行Monzo的传闻。",
+      "reason": "拉美金融科技巨头否认收购传闻，市场关注其跨境扩张策略及对欧洲市场的潜在兴趣。",
+      "impact": "英国数字银行、拉美金融科技投资者",
+      "insight_label": "背景补充",
+      "trend_topic": "拉美金融科技扩张",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Nubank",
+      "canonical_company": "nu",
+      "canonical_key": "",
+      "article_date": "2026-10-03",
+      "date": "2026-10-03",
+      "source_detail": "FinTech Futures",
+      "publisher": "FinTech Futures",
+      "image_url": "",
+      "published_at": "2026-10-03",
+      "observed_at": "2026-10-03T20:59:39.878050+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Nubank",
+      "credibility_score": 0,
+      "origin_source_id": "Nubank",
+      "observation_entity_id": "Nubank",
+      "discovery_source": "google_news",
+      "publisher_source": "FinTech Futures",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "payments"
+      ],
+      "scope_regions": [
+        "拉美"
+      ],
+      "scope_match_basis": "fact",
+      "report_methodology_visible": false,
+      "vertical": "digital_bank",
+      "bd_triggers": [
+        "整合窗口",
+        "生态窗口"
+      ],
+      "opportunity_direction": "系统整合 / 数据迁移 / 组织协同工具 / 生态打通",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "partnership",
+        "payment",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 42,
+      "attention_score": 85,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 20,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "expansion",
+      "domain": "payment",
+      "signal_type": "company",
+      "signal_change_score": 72,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 14,
+        "market_impact_confidence": 20
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected"
+    },
+    {
+      "title": "Apple to tighten Full Disk Access rules for Mac apps",
+      "url": "https://www.techinasia.com/news/apple-tighten-mac-data-access-meta-muse-backlash",
+      "source": "Tech in Asia",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "苹果收紧Mac应用磁盘访问权限",
+      "content_overview": "苹果公司计划收紧Mac应用程序的完全磁盘访问权限规则，此举可能引发Meta等公司的反弹。",
+      "reason": "全球科技监管趋严，苹果强化隐私保护，影响Mac应用生态的数据访问模式。",
+      "impact": "Mac应用开发者、数据安全公司",
+      "insight_label": "警示信号",
+      "trend_topic": "全球数据隐私监管",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "apple",
+      "canonical_key": "",
+      "article_date": "2026-10-03",
+      "date": "2026-10-03",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://cdn.techinasia.com/wp-content/uploads/2026/10/1790989567_1787359072_1784335107_1783378497_1781740891_1779148302_1777953944_1648913831_118183657_s-1.jpg",
+      "published_at": "2026-10-03",
+      "observed_at": "2026-10-03T20:57:41.765008+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L2 垂直交易源",
+      "source_role": "venture_media",
+      "source_id": "Tech in Asia",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_regional_policy_title",
+      "scope_layer": "regional_policy",
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "regional_policy_title",
+      "source_url_original": "https://www.techinasia.com/apple-trains-china-ai-model-alibaba-sources",
+      "source_url_repaired": true,
+      "source_url_repair_reason": "rss_guid_title_match",
+      "source_excerpt": "macOS apps are sandboxed by default, but Full Disk Access can expose Mail and Messages.",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "30天内",
+      "bd_priority": "中",
+      "signal_taxonomy": [
+        "general"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "regional_policy",
+      "subject_type": "region_policy",
+      "claim_type": "policy_change",
+      "confidence_score": 57,
+      "attention_score": 85,
+      "score_breakdown": {
+        "source_authority": 20,
+        "materiality": 25,
+        "decision_relevance": 15,
+        "scope_fit": 20,
+        "novelty": 15,
+        "urgency": 10
+      },
+      "evidence_grade": "C",
+      "action_type": "policy_change",
+      "domain": "ai",
+      "signal_type": "policy",
+      "signal_change_score": 57,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 25,
+        "scope_fit": 12,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "important"
     }
-  ]
+  ],
+  "2026-10-04": []
 }
