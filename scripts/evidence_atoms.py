@@ -2,6 +2,7 @@
 
 import re
 from datetime import datetime
+from functools import lru_cache
 
 
 def _event_date(event):
@@ -64,11 +65,20 @@ def _fact_tokens(event):
     return {token for token in tokens if token not in FACT_STOP_WORDS and len(token) > 1}
 
 
-def _dates_close(left, right, max_days=2):
+@lru_cache(maxsize=16384)
+def _parse_date(value):
+    """缓存日期解析。_dates_close 被 events_describe_same_fact 以 O(n²) 调用，
+    每次两次 datetime.strptime，实测 78 万次、占全量生成约 30s。"""
     try:
-        a = datetime.strptime(_event_date(left), '%Y-%m-%d')
-        b = datetime.strptime(_event_date(right), '%Y-%m-%d')
-    except (TypeError, ValueError):
+        return datetime.strptime(value, '%Y-%m-%d')
+    except ValueError:
+        return None
+
+
+def _dates_close(left, right, max_days=2):
+    a = _parse_date(_event_date(left))
+    b = _parse_date(_event_date(right))
+    if a is None or b is None:
         return True
     return abs((a - b).days) <= max_days
 

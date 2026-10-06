@@ -6,6 +6,7 @@ driven business opportunities.
 """
 
 import re
+from functools import lru_cache
 
 
 CORE_INTERNET_TERMS = {
@@ -261,8 +262,44 @@ def assess_internet_relevance(event):
     return {'score': score, 'label': label, 'reason': reason}
 
 
+def _relevance_key(event):
+    """缓存键：assess_internet_relevance 只读这 8 个字段（见 _event_text/_event_fact_text）。"""
+    return (
+        event.get('title') or '',
+        event.get('display_title') or '',
+        event.get('summary_short') or '',
+        event.get('reason') or '',
+        event.get('trend_topic') or '',
+        event.get('source') or '',
+        event.get('company_name') or '',
+        tuple(event.get('companies') or []),
+    )
+
+
+@lru_cache(maxsize=65536)
+def _assess_cached(key):
+    title, display_title, summary_short, reason, trend_topic, source, company_name, companies = key
+    return assess_internet_relevance({
+        'title': title,
+        'display_title': display_title,
+        'summary_short': summary_short,
+        'reason': reason,
+        'trend_topic': trend_topic,
+        'source': source,
+        'company_name': company_name,
+        'companies': list(companies),
+    })
+
+
 def internet_relevance_score(event):
-    return assess_internet_relevance(event)['score']
+    """互联网相关度分值。
+
+    性能：本函数是事件内容的纯函数，但被 period_themes 的窗口统计以
+    「窗口 × 维度 × 事件」三重循环反复调用，实测单次全量生成命中约 100 万次，
+    其中 assess_internet_relevance 内部要跑上千个词表正则。按内容字段缓存后
+    相同事件只算一次。
+    """
+    return _assess_cached(_relevance_key(event))['score']
 
 
 def is_mainline_internet_event(event):
