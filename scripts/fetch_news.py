@@ -489,135 +489,18 @@ except ImportError:
 
 # >>> MOVED: fetch_html -> html_fallback.py
 
-# ============================================================
-# 智能过滤：控制每天总条数，优先保留高价值事件
-# ============================================================
-
-MAX_DAILY = 40      # 每天最多保留 40 条
-MAX_PER_REGION = 12  # 每个区域最多保留多少条
-
-def smart_filter(items):
-    """
-    策略：
-    1. 所有融资/并购/财报事件全部保留
-    2. 官方/IR 公司事件全部保留，Google News 公司 other 只有限补漏
-    3. 其他事件按 priority 排序，每天最多 40 条（通用部分）
-    """
-    # 信号事件（全部保留）
-    signal = [it for it in items if it['event_types'][0] != 'other']
-    company = [
-        it for it in items
-        if it.get('is_company') and it['event_types'][0] == 'other' and _is_official_company_source(it)
-    ]
-    # 非信号、非公司事件（按 priority 排序，取剩余名额）
-    others = [it for it in items if it['event_types'][0] == 'other' and not it.get('is_company')]
-    others.sort(key=lambda x: x.get('priority', 1), reverse=True)
-
-    result = []
-    used_urls = set()
-    seen_items = []
-
-    def _add_unique(it):
-        if it['url'] in used_urls:
-            return False
-        if any(_is_same_event(it, existing) for existing in seen_items):
-            return False
-        result.append(it)
-        seen_items.append(it)
-        if it['url']:
-            used_urls.add(it['url'])
-        return True
-
-    # 1. 官方/IR 公司事件（高可信，低频保留）
-    company_sorted = sorted(
-        company,
-        key=lambda x: (
-            0 if x['event_types'][0] != 'other' else 1,
-            -x.get('priority', 1),
-            x.get('company_name', ''),
-        )
+# 智能过滤与存储策略已外置到 content/filter.py（P4）。
+try:
+    from content.filter import (
+        MAX_DAILY, MAX_PER_REGION, smart_filter, dedupe_events_by_day,
+        apply_event_storage_policy,
     )
-    company_counts = {}
-    company_other_counts = {}
-    for it in company_sorted:
-        cname = it.get('company_name', '')
-        if cname:
-            if company_counts.get(cname, 0) >= 3:
-                continue
-            if it['event_types'][0] == 'other' and company_other_counts.get(cname, 0) >= 1:
-                continue
-        _add_unique(it)
-        if cname:
-            company_counts[cname] = company_counts.get(cname, 0) + 1
-            if it['event_types'][0] == 'other':
-                company_other_counts[cname] = company_other_counts.get(cname, 0) + 1
+except ImportError:
+    from scripts.content.filter import (
+        MAX_DAILY, MAX_PER_REGION, smart_filter, dedupe_events_by_day,
+        apply_event_storage_policy,
+    )
 
-    # 2. 全部信号事件
-    for it in signal:
-        _add_unique(it)
-
-    # 3. 非信号事件补足到 MAX_DAILY，每个区域最多 MAX_PER_REGION 条
-    regions = list(dict.fromkeys(it['region'] for it in items))  # 保持原始顺序
-    for region in regions:
-        remaining = MAX_DAILY - len(result)
-        if remaining <= 0: break
-        region_others = [it for it in others if it['region'] == region and it['url'] not in used_urls]
-        signal_in_region = sum(1 for it in result if it['region'] == region)
-        max_other_for_region = max(0, MAX_PER_REGION - signal_in_region)
-        for it in region_others[:max_other_for_region]:
-            _add_unique(it)
-            if len(result) >= MAX_DAILY: break
-
-    return result
-
-
-def dedupe_events_by_day(all_events):
-    """清理历史 events.json 中同一天的重复/低信号事件，保持原始顺序。"""
-    cleaned = {}
-    removed = 0
-    reasons = {
-        'missing_company_alias': 0,
-        'low_signal_company_title': 0,
-        'same_day_duplicate': 0,
-        'company_daily_cap': 0,
-    }
-    for date_key, events in all_events.items():
-        kept = []
-        company_counts = {}
-        for event in events:
-            event.setdefault('date', date_key)
-            if event.get('is_company') and not _title_mentions_aliases(event.get('title', ''), _get_company_aliases(event.get('company_name', ''))):
-                removed += 1
-                reasons['missing_company_alias'] += 1
-                continue
-            if event.get('is_company') and _is_low_signal_company_title(event.get('title', '')):
-                removed += 1
-                reasons['low_signal_company_title'] += 1
-                continue
-            if any(_is_same_event(event, existing) for existing in kept):
-                # 记录被合并来源，保留可追溯性（原 URL 不丢失）
-                match = next(existing for existing in kept if _is_same_event(event, existing))
-                match.setdefault('merged_from', [])
-                if event.get('url') and event['url'] not in match['merged_from']:
-                    match['merged_from'].append(event['url'])
-                removed += 1
-                reasons['same_day_duplicate'] += 1
-                continue
-            company_name = event.get('company_name', '')
-            if event.get('is_company') and company_name:
-                if company_counts.get(company_name, 0) >= 3:
-                    removed += 1
-                    reasons['company_daily_cap'] += 1
-                    continue
-                company_counts[company_name] = company_counts.get(company_name, 0) + 1
-            kept.append(event)
-        cleaned[date_key] = kept
-    return cleaned, removed, reasons
-
-
-def apply_event_storage_policy(all_events):
-    """Keep the complete event archive; presentation applies its own windows."""
-    return all_events
 
 # ============================================================
 # MiniMax API（主力）
@@ -1723,42 +1606,11 @@ def build_event(item, analysis=None, analysis_source=None, analysis_status=None)
 # og:image 补抓 — 为没有 RSS 图片的事件获取文章配图
 # ============================================================
 
-def fill_event_images(events):
-    """并发获取事件文章的 og:image，只处理没有 image_url 的事件"""
-    batch = [e for e in events if not e.get('image_url') and e.get('url') and not e['url'].startswith('https://news.google.com')]
-    if not batch:
-        return
-    print(f"  🖼️  补抓 og:image（{len(batch)} 条无图片）...")
-    import asyncio
-    async def fetch_one(session, ev):
-        try:
-            async with session.get(ev['url'], timeout=aiohttp.ClientTimeout(total=4)) as resp:
-                if resp.status != 200:
-                    return
-                html = await resp.text()
-                for m in ["og:image", "twitter:image"]:
-                    for pattern in [f'<meta property="{m}" content="', f'<meta name="{m}" content="']:
-                        idx = html.find(pattern)
-                        if idx >= 0:
-                            start = idx + len(pattern)
-                            end = html.find('"', start)
-                            if end > start:
-                                url = html[start:end]
-                                if url.startswith('http'):
-                                    ev['image_url'] = url
-                                    return
-        except Exception:
-            pass
-    async def run():
-        async with aiohttp.ClientSession(headers=HEADERS) as session:
-            tasks = [fetch_one(session, ev) for ev in batch]
-            await asyncio.gather(*tasks, return_exceptions=True)
-    try:
-        asyncio.run(run())
-    except Exception:
-        pass
-    filled = sum(1 for e in batch if e.get('image_url'))
-    print(f"    → 成功获取 {filled}/{len(batch)} 张")
+# og:image 补抓已外置到 content/og_image.py（P4）。
+try:
+    from content.og_image import fill_event_images
+except ImportError:
+    from scripts.content.og_image import fill_event_images
 
 # ============================================================
 # 主函数
