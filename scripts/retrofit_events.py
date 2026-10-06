@@ -19,6 +19,11 @@ try:
 except ImportError:
     pass
 
+try:
+    from repo_paths import data_path
+except ImportError:
+    from scripts.repo_paths import data_path
+
 GENERIC_PATTERNS = [
     '科技动态', '有新动态', '战略调整', '融资事件', '并购/收购',
     '财报披露', '金额待确认', '完成融资', '达成并购',
@@ -27,13 +32,13 @@ GENERIC_PATTERNS = [
 ]
 
 
-def load_events(path='data/events.json'):
-    with open(path, encoding='utf-8') as f:
+def load_events(path=None):
+    with open(path or data_path('events.json'), encoding='utf-8') as f:
         return json.load(f)
 
 
-def save_events(data, path='data/events.json'):
-    with open(path, 'w', encoding='utf-8') as f:
+def save_events(data, path=None):
+    with open(path or data_path('events.json'), 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 

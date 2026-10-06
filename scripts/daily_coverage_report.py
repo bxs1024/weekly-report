@@ -21,6 +21,7 @@ try:
         should_show_in_review,
     )
     from view_selectors import is_main_view_event, is_review_view_event
+    from repo_paths import data_path
 except ImportError:
     from scripts.event_contract import prepare_event_contract
     from scripts.event_value import (
@@ -30,6 +31,7 @@ except ImportError:
         should_show_in_main_list,
         should_show_in_review,
     )
+    from scripts.repo_paths import data_path
     from scripts.view_selectors import is_main_view_event, is_review_view_event
 
 
@@ -131,8 +133,9 @@ def _coverage_action(row):
     return 'observe'
 
 
-def build_daily_coverage_report(days=15, events_path='data/events.json', events=None):
+def build_daily_coverage_report(days=15, events_path=None, events=None):
     if events is None:
+        events_path = events_path or data_path('events.json')
         events = [prepare_event_contract(event) for event in _flatten_events(_load_json(events_path))]
     else:
         events = _flatten_events(events)
@@ -213,7 +216,7 @@ def print_report(report, limit=30):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--days', type=int, default=15)
-    parser.add_argument('--events-path', default='data/events.json')
+    parser.add_argument('--events-path')
     parser.add_argument('--limit', type=int, default=30)
     parser.add_argument('--json-out', help='Optional path to write JSON report')
     args = parser.parse_args()

@@ -29,7 +29,10 @@ from datetime import datetime, timedelta
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 # 路径一律锚定仓库根（不依赖调用进程 CWD，见 docs/ARCHITECTURE.md「路径锚定仓库根」）。
-_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+try:
+    from repo_paths import REPO_ROOT as _REPO_ROOT
+except ImportError:
+    from scripts.repo_paths import REPO_ROOT as _REPO_ROOT
 GOLD_DEFAULT = os.path.join(_REPO_ROOT, '.data', 'gold.jsonl')
 EVAL_DIR = os.path.join(_REPO_ROOT, '.data', 'eval')
 EVENTS_DEFAULT = os.path.join(_REPO_ROOT, 'data', 'events.json')

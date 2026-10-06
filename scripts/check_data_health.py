@@ -35,17 +35,10 @@ except ImportError:
 # 仓库路径一律锚定 __file__，不依赖调用进程 CWD（见 docs/ARCHITECTURE.md）。
 # 本模块会被 test_data_health.py 从 scripts/ 目录直接执行，
 # 裸相对路径 'data/...' 在那种情况下指向 scripts/data/，会 FileNotFoundError。
-REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(REPO_ROOT, 'data')
-DOCS_DIR = os.path.join(REPO_ROOT, 'docs')
-
-
-def data_path(*parts):
-    return os.path.join(DATA_DIR, *parts)
-
-
-def docs_path(*parts):
-    return os.path.join(DOCS_DIR, *parts)
+try:
+    from repo_paths import REPO_ROOT, DATA_DIR, DOCS_DIR, data_path, docs_path
+except ImportError:
+    from scripts.repo_paths import REPO_ROOT, DATA_DIR, DOCS_DIR, data_path, docs_path
 
 
 def _event_date(event):

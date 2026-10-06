@@ -16,9 +16,11 @@ from pathlib import Path
 try:
     from event_contract import prepare_event_contract
     from event_value import should_show_in_main_list, should_show_in_review
+    from repo_paths import data_path
 except ImportError:
     from scripts.event_contract import prepare_event_contract
     from scripts.event_value import should_show_in_main_list, should_show_in_review
+    from scripts.repo_paths import data_path
 
 
 def _safe_print(text):
@@ -184,7 +186,9 @@ def _recommended_action(row):
     return 'observe'
 
 
-def build_entity_signal_conversion_report(days=30, pool_path='data/entity_pool.json', events_path='data/events.json'):
+def build_entity_signal_conversion_report(days=30, pool_path=None, events_path=None):
+    pool_path = pool_path or data_path('entity_pool.json')
+    events_path = events_path or data_path('events.json')
     pool = _load_json(pool_path)
     events = _flatten_events(_load_json(events_path))
     dates = sorted({_event_date(event) for event in events if _event_date(event)})
@@ -326,8 +330,8 @@ def print_report(report, limit=50):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--days', type=int, default=30)
-    parser.add_argument('--pool-path', default='data/entity_pool.json')
-    parser.add_argument('--events-path', default='data/events.json')
+    parser.add_argument('--pool-path')
+    parser.add_argument('--events-path')
     parser.add_argument('--limit', type=int, default=50)
     parser.add_argument('--json-out', help='Optional path to write JSON report')
     args = parser.parse_args()

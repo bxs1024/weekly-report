@@ -7,15 +7,13 @@ use these helpers to report country x sector x source coverage.
 """
 
 import json
-import os
 import re
 
 # 仓库路径锚定 __file__，不依赖调用进程 CWD（见 docs/ARCHITECTURE.md「路径锚定仓库根」）。
-_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-
-def data_path(*parts):
-    return os.path.join(_REPO_ROOT, 'data', *parts)
+try:
+    from repo_paths import data_path
+except ImportError:
+    from scripts.repo_paths import data_path
 
 
 def load_entity_pool(path=None):

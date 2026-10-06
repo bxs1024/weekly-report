@@ -34,8 +34,11 @@ except ImportError:
 _MAX_ENTRIES = 20000
 
 # 仓库根下的 data/。基于 __file__ 定位，不依赖调用进程 CWD——
-# 与项目既有约定一致（fetch_aihot_hot.py / fetch_model_leaderboard.py 同款写法）。
-_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# 与项目既有约定一致（见 docs/ARCHITECTURE.md「路径锚定仓库根」）。
+try:
+    from repo_paths import REPO_ROOT as _REPO_ROOT
+except ImportError:
+    from scripts.repo_paths import REPO_ROOT as _REPO_ROOT
 RECEIPTS_PATH = os.path.join(_REPO_ROOT, 'data', 'ai_receipts.json')
 
 # 进程内缓存，避免同一批处理里反复读盘

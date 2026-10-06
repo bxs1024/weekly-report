@@ -34,13 +34,10 @@ except ImportError:
 # 仓库路径锚定 __file__，不依赖调用进程 CWD（见 docs/ARCHITECTURE.md「路径锚定仓库根」）。
 # 裸相对路径 'data/...' 只在 CWD=仓库根 时正确；从 scripts/ 直接运行脚本或测试时
 # 会指向 scripts/data/，读出空数据或抛 FileNotFoundError。
-REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(REPO_ROOT, 'data')
-
-
-def data_path(*parts):
-    """拼出仓库 data/ 下的绝对路径。"""
-    return os.path.join(DATA_DIR, *parts)
+try:
+    from repo_paths import REPO_ROOT, DATA_DIR, data_path, docs_path
+except ImportError:
+    from scripts.repo_paths import REPO_ROOT, DATA_DIR, data_path, docs_path
 
 # DeepSeek/豆包均为国内 API，直连即可；trust_env=False 忽略系统代理（含 ALL_PROXY），
 # 避免依赖 socks 库且更快。所有 AI 通道共用此 session（新闻抓取仍走系统代理，不受影响）。

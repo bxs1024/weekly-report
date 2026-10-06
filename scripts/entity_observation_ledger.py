@@ -7,6 +7,12 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
+# 仓库路径锚定仓库根（见 docs/ARCHITECTURE.md「路径锚定仓库根」）。
+try:
+    from repo_paths import data_path
+except ImportError:
+    from scripts.repo_paths import data_path
+
 try:
     from entity_signal_conversion_report import event_matches_entity
     from event_dates import is_display_date
@@ -131,14 +137,21 @@ def _entity_status(point_statuses):
 
 
 def build_entity_observation_ledger(
-    pool_path='data/entity_pool.json',
-    registry_path='data/source_registry.json',
-    metrics_path='data/run_metrics.json',
-    events_path='data/events.json',
+    pool_path=None,
+    registry_path=None,
+    metrics_path=None,
+    events_path=None,
     as_of=None,
-    job_metrics_path='data/job_observation_metrics.json',
-    candidate_path='data/signal_candidates.json',
+    job_metrics_path=None,
+    candidate_path=None,
 ):
+    # 默认路径锚定仓库根（见 docs/ARCHITECTURE.md「路径锚定仓库根」）
+    pool_path = pool_path or data_path('entity_pool.json')
+    registry_path = registry_path or data_path('source_registry.json')
+    metrics_path = metrics_path or data_path('run_metrics.json')
+    events_path = events_path or data_path('events.json')
+    job_metrics_path = job_metrics_path or data_path('job_observation_metrics.json')
+    candidate_path = candidate_path or data_path('signal_candidates.json')
     pool = _load(pool_path, {})
     registry = _load(registry_path, {})
     records = _load(metrics_path, [])
@@ -264,8 +277,8 @@ def build_entity_observation_ledger(
     }
 
 
-def write_entity_observation_ledger(report, path='data/entity_observation_ledger.json'):
-    target = Path(path)
+def write_entity_observation_ledger(report, path=None):
+    target = Path(path or data_path('entity_observation_ledger.json'))
     target.parent.mkdir(parents=True, exist_ok=True)
     with open(target, 'w', encoding='utf-8') as handle:
         json.dump(report, handle, ensure_ascii=False, indent=2)
@@ -274,13 +287,13 @@ def write_entity_observation_ledger(report, path='data/entity_observation_ledger
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--pool-path', default='data/entity_pool.json')
-    parser.add_argument('--registry-path', default='data/source_registry.json')
-    parser.add_argument('--metrics-path', default='data/run_metrics.json')
-    parser.add_argument('--events-path', default='data/events.json')
+    parser.add_argument('--pool-path')
+    parser.add_argument('--registry-path')
+    parser.add_argument('--metrics-path')
+    parser.add_argument('--events-path')
     parser.add_argument('--as-of')
-    parser.add_argument('--json-out', default='data/entity_observation_ledger.json')
-    parser.add_argument('--candidate-path', default='data/signal_candidates.json')
+    parser.add_argument('--json-out')
+    parser.add_argument('--candidate-path')
     args = parser.parse_args()
     report = build_entity_observation_ledger(
         args.pool_path, args.registry_path, args.metrics_path, args.events_path, args.as_of,

@@ -14,7 +14,10 @@ from collections import Counter, defaultdict
 from datetime import datetime, timedelta
 from pathlib import Path
 
-_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+try:
+    from repo_paths import REPO_ROOT as _REPO_ROOT
+except ImportError:
+    from scripts.repo_paths import REPO_ROOT as _REPO_ROOT
 
 try:
     from event_contract import prepare_event_contract

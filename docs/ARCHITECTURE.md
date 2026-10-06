@@ -22,12 +22,15 @@
 | **旧文不刷屏** | 已发布超 48 小时的存量按原文时间归档，不进今日批次 | `select_mature_main_date()` |
 | **迁移不可改写** | 已落库数据结构的语义变更必须向后兼容（存量事件无新字段时走旧路径） | 全项目 |
 | **不提交密钥与缓存** | `.env`、`data/.cache/`、`.data/`、`data/ai_receipts.json`、`__pycache__` 不入库 | `.gitignore` |
-| **路径锚定仓库根** | 读写 `data/` 等仓库内路径必须基于 `__file__` 推导，禁止用相对路径（相对路径随调用进程 CWD 漂移，会把同一份状态写成两份） | `ai_receipts.py`、`prompt_loader.py`、`eval_selection.py` 已按此写法 |
+| **路径锚定仓库根** | 读写 `data/` 等仓库内路径必须基于 `__file__` 推导，禁止用相对路径（相对路径随调用进程 CWD 漂移，会把同一份状态写成两份）。统一从 `repo_paths.py` 取 `REPO_ROOT`/`DATA_DIR`/`DOCS_DIR`/`repo_path()`/`data_path()`/`docs_path()`，不要各文件重复推导 `_REPO_ROOT` | `repo_paths.py` 唯一入口 |
+| ↳ 豁免 | 一次性/离线诊断脚本（`cleanup_2026-*.py`、`verify_signal_score.py`、`audit_scope_misfits.py`、`calibrate_weights.py`）保持裸相对路径，约定只在仓库根手动执行 | 上述文件 |
+| ↳ `git_ref` 例外 | 经 `git show <ref>:<path>` 读取时必须用仓库相对路径，此时不要传绝对路径 | `source_health_report.py`、`source_conversion_report.py` 的 `_load_json` |
 
 ## 目标目录结构
 
 ```text
 scripts/
+  repo_paths.py # 仓库内路径的唯一锚点（REPO_ROOT/DATA_DIR/DOCS_DIR/repo_path/data_path/docs_path）
   sources/      # 信源读取与调度（六类读取器 + collect）
   content/      # 资料入库、判重、正文清洗
   editorial/    # AI 分析：prompts 加载、结构化、双评分、写作

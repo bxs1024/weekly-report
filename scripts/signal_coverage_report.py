@@ -12,9 +12,11 @@ from collections import Counter, defaultdict
 
 try:
     from event_value import should_show_in_main_list
+    from repo_paths import data_path
     from signal_geo import entity_country_map, tag_event_country
 except ImportError:
     from scripts.event_value import should_show_in_main_list
+    from scripts.repo_paths import data_path
     from scripts.signal_geo import entity_country_map, tag_event_country
 
 
@@ -101,13 +103,13 @@ def build_report(events, entity_map):
 def main():
     ap = argparse.ArgumentParser(description='Country x sector x source signal coverage')
     ap.add_argument('--days', type=int, default=30)
-    ap.add_argument('--events', default='data/events.json')
-    ap.add_argument('--pool', default='data/entity_pool.json')
+    ap.add_argument('--events')
+    ap.add_argument('--pool')
     args = ap.parse_args()
 
-    raw = _load_json(args.events)
+    raw = _load_json(args.events or data_path('events.json'))
     events = _flatten_events(raw)
-    pool = _load_json(args.pool)
+    pool = _load_json(args.pool or data_path('entity_pool.json'))
     entity_map = entity_country_map(pool)
 
     # filter to last N days

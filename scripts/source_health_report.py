@@ -9,11 +9,17 @@ The goal is source governance, not another event ranking table:
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta
 from pathlib import Path
+
+try:
+    from repo_paths import REPO_ROOT as _REPO_ROOT
+except ImportError:
+    from scripts.repo_paths import REPO_ROOT as _REPO_ROOT
 
 
 def _safe_print(text):
@@ -21,9 +27,14 @@ def _safe_print(text):
 
 
 def _load_json(path, git_ref=None):
+    # 约定：path 为「仓库相对路径」或「绝对路径」。
+    #   - git_ref 分支：必须是仓库相对路径（git show <ref>:<path> 语义）。
+    #   - 本地分支：相对路径锚定仓库根，不随 CWD 漂移。
     if git_ref:
         raw = subprocess.check_output(['git', 'show', f'{git_ref}:{path}'])
         return json.loads(raw.decode('utf-8'))
+    if not os.path.isabs(path):
+        path = os.path.join(_REPO_ROOT, path)
     with open(path, encoding='utf-8') as f:
         return json.load(f)
 

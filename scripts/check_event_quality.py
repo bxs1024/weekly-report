@@ -11,8 +11,10 @@ from pathlib import Path
 
 try:
     from analysis_quality import annotate_event_quality, summarize_quality
+    from repo_paths import data_path
 except ImportError:
     from scripts.analysis_quality import annotate_event_quality, summarize_quality
+    from scripts.repo_paths import data_path
 
 
 def _load_events(path):
@@ -34,13 +36,13 @@ def _select_events(data, date_key):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--path', default='data/events.json')
+    parser.add_argument('--path')
     parser.add_argument('--date', help='Only check one YYYY-MM-DD bucket')
     parser.add_argument('--max-repair-ratio', type=float, default=0.35)
     parser.add_argument('--fail-on-high-score-repair', action='store_true')
     args = parser.parse_args()
 
-    path = Path(args.path)
+    path = Path(args.path or data_path('events.json'))
     if not path.exists():
         print(f"ERROR: {path} not found")
         return 1

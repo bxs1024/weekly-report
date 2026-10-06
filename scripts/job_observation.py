@@ -12,6 +12,12 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 
+# 仓库路径锚定仓库根（见 docs/ARCHITECTURE.md「路径锚定仓库根」）。
+try:
+    from repo_paths import data_path
+except ImportError:
+    from scripts.repo_paths import data_path
+
 
 HEADERS = {'User-Agent': 'Mozilla/5.0 (compatible; WeeklyReportObserver/1.0)'}
 
@@ -268,11 +274,14 @@ def _load(path, default):
 
 
 def collect_job_observations(
-    pool_path='data/entity_pool.json',
-    snapshot_path='data/job_snapshots.json',
-    candidate_path='data/signal_candidates.json',
+    pool_path=None,
+    snapshot_path=None,
+    candidate_path=None,
     observed_at=None,
 ):
+    pool_path = pool_path or data_path('entity_pool.json')
+    snapshot_path = snapshot_path or data_path('job_snapshots.json')
+    candidate_path = candidate_path or data_path('signal_candidates.json')
     pool = _load(pool_path, {})
     previous = _load(snapshot_path, {'entities': {}})
     existing_candidates = _load(candidate_path, {'version': 1, 'candidates': []})
@@ -339,24 +348,24 @@ def collect_job_observations(
     }, {'version': 1, 'generated_at': observed_at, 'entities': snapshots}, candidate_pool
 
 
-def write_job_snapshots(snapshot, path='data/job_snapshots.json'):
-    target = Path(path)
+def write_job_snapshots(snapshot, path=None):
+    target = Path(path or data_path('job_snapshots.json'))
     target.parent.mkdir(parents=True, exist_ok=True)
     with open(target, 'w', encoding='utf-8') as handle:
         json.dump(snapshot, handle, ensure_ascii=False, indent=2)
     return target
 
 
-def write_job_observation_metrics(metrics, path='data/job_observation_metrics.json'):
-    target = Path(path)
+def write_job_observation_metrics(metrics, path=None):
+    target = Path(path or data_path('job_observation_metrics.json'))
     target.parent.mkdir(parents=True, exist_ok=True)
     with open(target, 'w', encoding='utf-8') as handle:
         json.dump(metrics, handle, ensure_ascii=False, indent=2)
     return target
 
 
-def write_signal_candidates(candidate_pool, path='data/signal_candidates.json'):
-    target = Path(path)
+def write_signal_candidates(candidate_pool, path=None):
+    target = Path(path or data_path('signal_candidates.json'))
     target.parent.mkdir(parents=True, exist_ok=True)
     with open(target, 'w', encoding='utf-8') as handle:
         json.dump(candidate_pool, handle, ensure_ascii=False, indent=2)
@@ -365,10 +374,10 @@ def write_signal_candidates(candidate_pool, path='data/signal_candidates.json'):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--pool-path', default='data/entity_pool.json')
-    parser.add_argument('--snapshot-path', default='data/job_snapshots.json')
-    parser.add_argument('--metrics-path', default='data/job_observation_metrics.json')
-    parser.add_argument('--candidate-path', default='data/signal_candidates.json')
+    parser.add_argument('--pool-path')
+    parser.add_argument('--snapshot-path')
+    parser.add_argument('--metrics-path')
+    parser.add_argument('--candidate-path')
     args = parser.parse_args()
     metrics, snapshot, candidate_pool = collect_job_observations(
         args.pool_path, args.snapshot_path, args.candidate_path,

@@ -18,12 +18,14 @@ from pathlib import Path
 try:
     from event_contract import prepare_event_contract
     from event_value import should_show_in_main_list, should_show_in_review
+    from repo_paths import data_path
     from scope_gate import is_scope_qualified
     from signal_scoring import CONTENT_TYPES, infer_content_type
     from source_conversion_report import classify_filter_reason
 except ImportError:
     from scripts.event_contract import prepare_event_contract
     from scripts.event_value import should_show_in_main_list, should_show_in_review
+    from scripts.repo_paths import data_path
     from scripts.scope_gate import is_scope_qualified
     from scripts.signal_scoring import CONTENT_TYPES, infer_content_type
     from scripts.source_conversion_report import classify_filter_reason
@@ -133,9 +135,11 @@ def _pipeline_header(metrics, selected_dates):
 
 def build_signal_funnel_report(
     days=15,
-    events_path='data/events.json',
-    metrics_path='data/run_metrics.json',
+    events_path=None,
+    metrics_path=None,
 ):
+    events_path = events_path or data_path('events.json')
+    metrics_path = metrics_path or data_path('run_metrics.json')
     events = [prepare_event_contract(event) for event in _flatten_events(_load_json(events_path))]
     metrics = _load_json(metrics_path)
     dates = sorted({_event_date(event) for event in events if _event_date(event)})
@@ -244,8 +248,8 @@ def print_report(report):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--days', type=int, default=15)
-    parser.add_argument('--events-path', default='data/events.json')
-    parser.add_argument('--metrics-path', default='data/run_metrics.json')
+    parser.add_argument('--events-path')
+    parser.add_argument('--metrics-path')
     parser.add_argument('--json-out', help='Optional path to write JSON report')
     args = parser.parse_args()
 

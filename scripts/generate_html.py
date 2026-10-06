@@ -14,19 +14,10 @@ from jinja2 import Environment, select_autoescape
 # 历史上这里用裸相对路径 'data/xxx.json'，CI 从仓库根跑没问题，
 # 但从 scripts/ 目录跑（如直接执行 scripts/test_*.py）会找不到文件。
 # 见 docs/ARCHITECTURE.md「路径锚定仓库根」。
-REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(REPO_ROOT, 'data')
-DOCS_DIR = os.path.join(REPO_ROOT, 'docs')
-
-
-def data_path(*parts):
-    """拼出仓库 data/ 下的绝对路径。"""
-    return os.path.join(DATA_DIR, *parts)
-
-
-def docs_path(*parts):
-    """拼出仓库 docs/ 下的绝对路径。"""
-    return os.path.join(DOCS_DIR, *parts)
+try:
+    from repo_paths import REPO_ROOT, DATA_DIR, DOCS_DIR, data_path, docs_path
+except ImportError:
+    from scripts.repo_paths import REPO_ROOT, DATA_DIR, DOCS_DIR, data_path, docs_path
 
 # 提示词外置：编辑层提示词在 scripts/prompts/editorial-{weekly,monthly}.md（P1）
 try:
