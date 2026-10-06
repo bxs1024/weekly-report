@@ -94,3 +94,46 @@ scripts/
 ## 附：本站已达标、无需动的部分
 
 四道闸门与产品边界（比 AIHOT 更强）、日报规则化编排、观察账本七态、Evidence Atom、周月报晋级门槛与编辑缓存、fail-stale 策略、离线测试门控——这些是本站领先项，全部保留。
+
+## 七、P4 详细执行方案（2026-10-06 定稿）
+
+### 前置（已完成）
+
+- 测试基线：`bash scripts/run_all_tests.sh` → **PASS=31 FAIL=0 SKIP=3**，全量约 5–7 分钟。
+- 路径收口：`scripts/repo_paths.py` 已作为唯一锚点；裸路径实质性清零（59→16，余下为注释/git_ref 正确用法/一次性脚本豁免）。
+
+### 硬验收（每步都跑）
+
+1. `bash scripts/run_all_tests.sh` 全绿（31 项）。
+2. **生成物 diff 为空**：对固定输入跑 `scripts/generate_html.py`，逐字节比对 `docs/index.html`。
+   - 注意 `--force` 会调 AI（编辑层多通道重试），验收用离线路径，避免 API 依赖与长等待。
+3. 导入冒烟：新增模块可独立 import，无循环依赖。
+
+### fetch_news.py（4221 行）拆分地图
+
+文件内已有天然分区注释，按此搬迁，**不改任何函数体逻辑**：
+
+| 现区块（行范围） | 目标模块 | 说明 |
+|---|---|---|
+| 1–70 头部/`_cn_now` 等 | `content/util.py` | 日期与通用工具 |
+| 71–118 aiohttp 并行 | `sources/http.py` | 并发抓取底座 |
+| 119–171 信源标注 | `sources/meta.py` | 融资专属源等标注 |
+| 172–490 27 家重点公司监控 | `sources/company_watch.py` | Google News RSS |
+| 491–1279 关键词检测/归类/指纹（~790 行） | `content/classify.py` | 判型、区域、别名、主体键 |
+| 1280–1620 事实评分账本 + 去重（~340 行） | `content/dedupe.py` | `_is_same_event`、`_fingerprint_match` |
+| 1621–1704 工具函数 | `content/util.py`（并入） | |
+| 1705–1832 采集 | `sources/collect.py` | |
+| 1833–2408 HTML 备用采集（~580 行） | `sources/html_fallback.py` | 独立成文件，体量最大 |
+| 2409–2537 智能过滤 | `content/filter.py` | |
+| 2538–2882 AI 分析（MiniMax/豆包） | `providers/llm.py` | 通道与调用 |
+| 2883–3650 P0 Agent 系列（~770 行） | `editorial/agents.py` | 标题改写/趋势/价值评分 |
+| 3650–3690 og:image 补抓 | `content/og_image.py` | |
+| 3691–4221 `main()` 流水线 | `pipeline.py` | 编排入口 |
+
+### 实施纪律
+
+- **每搬一个模块一个 commit**，commit 内只做搬迁 + import 修正，绝不夹带行为改动。
+- `fetch_news.py` 保留为**兼容转发层**（re-export 全部公开符号），使现有 import 与测试零改动；待全部搬完后再决定是否删除。
+- 搬迁完成后 `fetch_news.py` 应只剩 re-export 与 `main()` 入口。
+- `generate_html.py`（2902 行）同理：先按渲染域（卡片/日期面板/信号簇/报告/发布）分区，再做同样处理。
+
