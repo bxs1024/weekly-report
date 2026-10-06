@@ -101,9 +101,19 @@ def cmd_verify(mod=DEFAULT_MOD):
         base = json.load(f)
     now = snapshot_module(m)
 
+    # 有意改动的白名单：{名字: 原因}。与基线一并存，verify 时豁免并回显原因，
+    # 避免「已知必要改动」每轮都报红、把真正的意外改动淹没在噪音里。
+    known = base.pop('_known_changes', {})
+
     missing = sorted(set(base) - set(now))
     changed = sorted(n for n in set(base) & set(now) if base[n] != now[n])
     added = sorted(set(now) - set(base))
+    exempt = [n for n in changed if n in known]
+    changed = [n for n in changed if n not in known]
+    if exempt:
+        print('[info] 白名单内（有意改动）:')
+        for n in exempt:
+            print(f'   ~ {n}: {known[n]}')
 
     print(f'baseline={len(base)}  now={len(now)}')
     if missing:

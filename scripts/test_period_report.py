@@ -8,18 +8,21 @@ from generate_html import (
     build_period_report,
     build_weekly_editorial,
 )
-import fetch_news  # noqa: F401 — 确保模块已导入，便于 patch
+import editorial.editorial as _editorial
+import providers.llm as _llm
 
-# 模块级保护：默认不调真实 LLM，避免测试依赖 API key 或污染线上
-_patch_api = mock.patch('fetch_news._chat_api_candidates', return_value=[])
+# 模块级保护：默认不调真实 LLM，避免测试依赖 API key 或污染线上。
+# 打 providers.llm（真实模块）——AI 通道已从 fetch_news 搬走，打转发层
+# 是值绑定，补丁会静默失效，等于裸奔调真实 API。
+_patch_api = mock.patch.object(_llm, '_chat_api_candidates', return_value=[])
 _patch_api.start()
 
 # 编辑层缓存读写隔离：测试绝不读写真实 data/editorial_cache.json
 # 注意 side_effect 每次返回新 dict：_editorial_cache_put 是 load→改→存的真实实现，
 # 若共享同一 dict 会把上一条测试写入的缓存泄漏给下一條测试
-_patch_cache_read = mock.patch('generate_html._load_editorial_cache', side_effect=lambda: {})
+_patch_cache_read = mock.patch('editorial.editorial._load_editorial_cache', side_effect=lambda: {})
 _patch_cache_read.start()
-_patch_cache_write = mock.patch('generate_html._save_editorial_cache')
+_patch_cache_write = mock.patch('editorial.editorial._save_editorial_cache')
 _patch_cache_write.start()
 
 
@@ -140,8 +143,8 @@ def test_weekly_narrative_overrides_mainline_when_llm_succeeds():
         }, ensure_ascii=False)
         return mock.Mock(status_code=200, json=lambda: {'choices': [{'message': {'content': content}}]})
 
-    ctx_api = mock.patch('fetch_news._chat_api_candidates', return_value=_fake_apis())
-    ctx_llm = mock.patch('fetch_news._post_chat', side_effect=fake_post_chat)
+    ctx_api = mock.patch('providers.llm._chat_api_candidates', return_value=_fake_apis())
+    ctx_llm = mock.patch('providers.llm._post_chat', side_effect=fake_post_chat)
     ctx_api.start()
     ctx_llm.start()
     try:
@@ -158,8 +161,8 @@ def test_weekly_narrative_overrides_mainline_when_llm_succeeds():
 
 
 def test_weekly_narrative_falls_back_to_template_when_llm_fails():
-    ctx_api = mock.patch('fetch_news._chat_api_candidates', return_value=_fake_apis())
-    ctx_llm = mock.patch('fetch_news._post_chat', side_effect=Exception('boom'))
+    ctx_api = mock.patch('providers.llm._chat_api_candidates', return_value=_fake_apis())
+    ctx_llm = mock.patch('providers.llm._post_chat', side_effect=Exception('boom'))
     ctx_api.start()
     ctx_llm.start()
     try:
@@ -176,8 +179,8 @@ def test_weekly_narrative_falls_back_to_template_when_llm_fails():
 
 
 def test_weekly_editorial_failure_blocks_production_output():
-    ctx_api = mock.patch('fetch_news._chat_api_candidates', return_value=_fake_apis())
-    ctx_llm = mock.patch('fetch_news._post_chat', side_effect=Exception('boom'))
+    ctx_api = mock.patch('providers.llm._chat_api_candidates', return_value=_fake_apis())
+    ctx_llm = mock.patch('providers.llm._post_chat', side_effect=Exception('boom'))
     ctx_api.start()
     ctx_llm.start()
     try:
@@ -339,8 +342,8 @@ def test_monthly_editorial_overrides_mainline_when_llm_succeeds():
         }, ensure_ascii=False)
         return mock.Mock(status_code=200, json=lambda: {'choices': [{'message': {'content': content}}]})
 
-    ctx_api = mock.patch('fetch_news._chat_api_candidates', return_value=_fake_apis())
-    ctx_llm = mock.patch('fetch_news._post_chat', side_effect=fake_post_chat)
+    ctx_api = mock.patch('providers.llm._chat_api_candidates', return_value=_fake_apis())
+    ctx_llm = mock.patch('providers.llm._post_chat', side_effect=fake_post_chat)
     ctx_api.start()
     ctx_llm.start()
     try:
@@ -361,8 +364,8 @@ def test_monthly_editorial_overrides_mainline_when_llm_succeeds():
 
 
 def test_monthly_editorial_falls_back_to_template_when_llm_fails():
-    ctx_api = mock.patch('fetch_news._chat_api_candidates', return_value=_fake_apis())
-    ctx_llm = mock.patch('fetch_news._post_chat', side_effect=Exception('boom'))
+    ctx_api = mock.patch('providers.llm._chat_api_candidates', return_value=_fake_apis())
+    ctx_llm = mock.patch('providers.llm._post_chat', side_effect=Exception('boom'))
     ctx_api.start()
     ctx_llm.start()
     try:
@@ -391,8 +394,8 @@ def test_weekly_theme_title_overrides_fixed_category_label():
         }, ensure_ascii=False)
         return mock.Mock(status_code=200, json=lambda: {'choices': [{'message': {'content': content}}]})
 
-    ctx_api = mock.patch('fetch_news._chat_api_candidates', return_value=_fake_apis())
-    ctx_llm = mock.patch('fetch_news._post_chat', side_effect=fake_post_chat)
+    ctx_api = mock.patch('providers.llm._chat_api_candidates', return_value=_fake_apis())
+    ctx_llm = mock.patch('providers.llm._post_chat', side_effect=fake_post_chat)
     ctx_api.start()
     ctx_llm.start()
     try:
@@ -438,8 +441,8 @@ def test_weekly_editorial_fed_four_evidence_events():
         }, ensure_ascii=False)
         return mock.Mock(status_code=200, json=lambda: {'choices': [{'message': {'content': content}}]})
 
-    ctx_api = mock.patch('fetch_news._chat_api_candidates', return_value=_fake_apis())
-    ctx_llm = mock.patch('fetch_news._post_chat', side_effect=fake_post_chat)
+    ctx_api = mock.patch('providers.llm._chat_api_candidates', return_value=_fake_apis())
+    ctx_llm = mock.patch('providers.llm._post_chat', side_effect=fake_post_chat)
     ctx_api.start()
     ctx_llm.start()
     try:
@@ -480,8 +483,8 @@ def test_monthly_theme_title_overrides_fixed_category_label():
         }, ensure_ascii=False)
         return mock.Mock(status_code=200, json=lambda: {'choices': [{'message': {'content': content}}]})
 
-    ctx_api = mock.patch('fetch_news._chat_api_candidates', return_value=_fake_apis())
-    ctx_llm = mock.patch('fetch_news._post_chat', side_effect=fake_post_chat)
+    ctx_api = mock.patch('providers.llm._chat_api_candidates', return_value=_fake_apis())
+    ctx_llm = mock.patch('providers.llm._post_chat', side_effect=fake_post_chat)
     ctx_api.start()
     ctx_llm.start()
     try:
@@ -505,9 +508,9 @@ def _minimal_themes():
 
 def test_weekly_editorial_cache_hit_skips_llm():
     cached = {'editorial_title': '缓存标题', 'mainline': '这是缓存主线内容，长度足够用于校验。', 'themes': {'k1': '缓存导读'}, 'theme_titles': {'k1': '缓存主题标题'}}
-    with mock.patch('generate_html._editorial_cache_get', return_value=(cached, cached)) as m_get, \
-         mock.patch('fetch_news._chat_api_candidates', return_value=_fake_apis()), \
-         mock.patch('fetch_news._post_chat') as m_post:
+    with mock.patch('editorial.editorial._editorial_cache_get', return_value=(cached, cached)) as m_get, \
+         mock.patch('providers.llm._chat_api_candidates', return_value=_fake_apis()), \
+         mock.patch('providers.llm._post_chat') as m_post:
         result = build_weekly_editorial(_minimal_themes(), '2026-W23', cache_key='weekly:2026-W23')
     assert result == cached
     m_post.assert_not_called()
@@ -520,9 +523,9 @@ def test_editorial_failure_falls_back_to_stale_cache():
     def failing_post(api, prompt, **kw):
         raise RuntimeError('ReadTimeout')
 
-    with mock.patch('generate_html._editorial_cache_get', return_value=(None, stale)), \
-         mock.patch('fetch_news._chat_api_candidates', return_value=_fake_apis()), \
-         mock.patch('fetch_news._post_chat', side_effect=failing_post):
+    with mock.patch('editorial.editorial._editorial_cache_get', return_value=(None, stale)), \
+         mock.patch('providers.llm._chat_api_candidates', return_value=_fake_apis()), \
+         mock.patch('providers.llm._post_chat', side_effect=failing_post):
         report = build_period_report([
             event(url='https://example.com/s1', company_name='ExampleAI', companies=['ExampleAI']),
             event(url='https://example.com/s2', company_name='CloudBox', companies=['CloudBox']),
@@ -542,10 +545,10 @@ def test_editorial_regenerates_when_input_changes_and_updates_cache():
         }, ensure_ascii=False)
         return mock.Mock(status_code=200, json=lambda: {'choices': [{'message': {'content': content}}]})
 
-    with mock.patch('generate_html._editorial_cache_get', return_value=(None, stale)), \
-         mock.patch('fetch_news._chat_api_candidates', return_value=_fake_apis()), \
-         mock.patch('fetch_news._post_chat', side_effect=fake_post), \
-         mock.patch('generate_html._editorial_cache_put') as m_put:
+    with mock.patch('editorial.editorial._editorial_cache_get', return_value=(None, stale)), \
+         mock.patch('providers.llm._chat_api_candidates', return_value=_fake_apis()), \
+         mock.patch('providers.llm._post_chat', side_effect=fake_post), \
+         mock.patch('editorial.editorial._editorial_cache_put') as m_put:
         result = build_weekly_editorial(_minimal_themes(), '2026-W23', cache_key='weekly:2026-W23')
     assert result['editorial_title'] == '新标题由AI重新生成'
     m_put.assert_called_once()
@@ -560,7 +563,7 @@ def test_editorial_input_hash_is_content_addressed():
     # 提示词版本 = 文件内容哈希（P1 起替代手动 EDITORIAL_PROMPT_VERSION）。
     # 带 prompt_kind 时版本才进哈希：版本不同 → input_hash 必须不同。
     base_kind = _editorial_input_hash(brief, 'weekly')
-    with mock.patch.object(generate_html, '_editorial_prompt_version', return_value='deadbeef'):
+    with mock.patch.object(_editorial, '_editorial_prompt_version', return_value='deadbeef'):
         assert base_kind != _editorial_input_hash(brief, 'weekly')
 
 

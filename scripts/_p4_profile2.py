@@ -18,10 +18,11 @@ def mark(msg):
 
 mark('import ...')
 import fetch_news
+import providers.llm
 import generate_html as G
 mark('imported')
 
-fetch_news._chat_api_candidates = lambda: []
+providers.llm._chat_api_candidates = lambda: []  # AI 通道已搬到 providers.llm；打 fetch_news 转发层是值绑定，会静默失效
 G._editorial_cache_get = lambda *a, **k: (None, None)
 G._editorial_cache_put = lambda *a, **k: None
 

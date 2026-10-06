@@ -21,6 +21,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import fetch_news  # noqa: E402
 import generate_html as G  # noqa: E402
+import editorial.editorial as _editorial  # noqa: E402
+import providers.llm as _llm  # noqa: E402
 
 BASELINE_PATH = os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
@@ -31,10 +33,13 @@ BASELINE_PATH = os.path.join(
 def _neutralize_ai():
     """关闭一切非确定性来源：AI 通道 + 编辑缓存。"""
     # 编辑层：_chat_api_candidates() 返回空 → build_*_editorial 立刻返回 None → 走模板
-    fetch_news._chat_api_candidates = lambda: []
+    # 必须打在真实模块上。AI 通道已在 providers/llm.py，编辑部已在
+    # editorial/editorial.py；打在 fetch_news / generate_html 的转发层上是
+    # 值绑定，补丁静默失效 → 渲染会去调真实 API，既慢又让输出不确定。
+    _llm._chat_api_candidates = lambda: []
     # 缓存：强制 miss，避免缓存文件内容随时间变化影响输出
-    G._editorial_cache_get = lambda *a, **k: (None, None)
-    G._editorial_cache_put = lambda *a, **k: None
+    _editorial._editorial_cache_get = lambda *a, **k: (None, None)
+    _editorial._editorial_cache_put = lambda *a, **k: None
 
 
 def _render():
