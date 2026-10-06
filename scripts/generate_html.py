@@ -10,6 +10,12 @@ import re
 from datetime import datetime, timedelta, timezone
 from jinja2 import Environment, select_autoescape
 
+# 提示词外置：编辑层提示词在 scripts/prompts/editorial-{weekly,monthly}.md（P1）
+try:
+    from prompt_loader import prompt_version, render_prompt
+except ImportError:
+    from scripts.prompt_loader import prompt_version, render_prompt
+
 try:
     from event_dates import is_display_date
     from event_contract import prepare_event_contract
@@ -1505,9 +1511,18 @@ def _build_weekly_focus_windows(period_events, end_date, limit=6):
 
 # ============================================================
 # 编辑层缓存：编辑导读由输入主题唯一决定，封档周期输入冻结即输出冻结，
-# 不应每班重调 AI。缓存键 = 周期 + 输入指纹；prompt 变更时递增版本号全量失效。
+# 不应每班重调 AI。缓存键 = 周期 + 输入指纹 + 提示词版本；
+# 提示词版本 = scripts/prompts/editorial-*.md 的内容哈希，
+# 改提示词自动让旧缓存失效，不再需要手工递增版本号（2026-10-06 P1）。
 # ============================================================
-EDITORIAL_PROMPT_VERSION = 1
+
+
+def _editorial_prompt_version(kind):
+    """编辑层提示词版本（内容哈希）。kind: weekly | monthly。"""
+    try:
+        return prompt_version(f'editorial-{kind}')
+    except Exception:
+        return 'unknown'
 
 
 def _editorial_cache_path():
@@ -1555,9 +1570,13 @@ def _editorial_cache_put(cache_key, input_hash, editorial, channel):
     _save_editorial_cache(cache)
 
 
-def _editorial_input_hash(brief):
+def _editorial_input_hash(brief, prompt_kind=None):
+    """输入指纹。带上提示词版本，改提示词即自动全量失效。"""
     payload = json.dumps(brief, ensure_ascii=False, sort_keys=True)
-    return hashlib.sha256(f"v{EDITORIAL_PROMPT_VERSION}:".encode('utf-8') + payload.encode('utf-8')).hexdigest()
+    prefix = 'v?'
+    if prompt_kind:
+        prefix = f'p{prompt_kind}:{_editorial_prompt_version(prompt_kind)}'
+    return hashlib.sha256(f"{prefix}:".encode('utf-8') + payload.encode('utf-8')).hexdigest()
 
 
 def build_weekly_editorial(themes, period_id, cache_key=None):
@@ -1597,30 +1616,16 @@ def build_weekly_editorial(themes, period_id, cache_key=None):
     input_hash = None
     stale = None
     if cache_key:
-        input_hash = _editorial_input_hash(theme_brief)
+        input_hash = _editorial_input_hash(theme_brief, 'weekly')
         exact, stale = _editorial_cache_get(cache_key, input_hash)
         if exact:
             print(f"  📋 周报编辑命中缓存（{period_id}）: {(exact.get('mainline') or '')[:30]}...")
             return exact
 
-    prompt = f"""你是全球互联网科技情报编辑，受众是出海 BD、战略和投资从业者（周期标识：{period_id}）。
-
-以下是本周期聚类出的主题（每主题含代表事件标题与日期）。请把它们编辑成一份可读的周报：
-
-1. 写一个"本期编辑标题"（editorial_title，10-20字）：概括本期最值得关注的方向，像一期周刊的封面标题，不要使用"周报"字样，不要罗列数字。
-2. 写一段"本期主线"（mainline，60-90字）：把本周最值得关注的 1-2 个方向串成一段叙事，说明发生了什么、为什么值得关注、指向什么判断。要像编辑写导读，不要罗列统计数字。
-3. 为每个主题写一段叙事导读（narrative，40-70字）：把该主题的事件串成一条故事线，说明这些事件合起来意味着什么。不要重复事件标题，不要用"本周XX公司融资"这类清单式表达。
-
-反格式化硬约束（必须遵守）：
-- 每个主题的标题（theme_title）必须是具体变化描述，不能直接套用大类标签（如"AI与云基础设施"）。例如"拉美支付基建加速，本地收单商集体扩网"或"欧洲AI算力转向推理部署"。10-25字，含具体对象或区域，体现本周发生了什么变化。
-- 禁止套话：不要写"本周…预示…"、"资本涌动"、"开启新篇章"、"值得关注"这类空话；不要用"由 N 条事实支持"这类元描述。每句话都要有可验证的信息。
-- 叙事要写"变化"，不写"存在哪些话题"：说明本周在某个方向实际发生了什么（谁做了什么动作、市场怎么变），而不是罗列本周有哪些主题。
-
-主题列表：
-{json.dumps(theme_brief, ensure_ascii=False, indent=2)}
-
-只输出 JSON，不要输出其他内容，格式：
-{{"editorial_title": "本期编辑标题", "mainline": "本期主线", "themes": [{{"key": "主题key", "theme_title": "具体标题", "narrative": "该主题导读"}}]}}"""
+    prompt = render_prompt('editorial-weekly', {
+        'period_id': period_id,
+        'theme_brief': json.dumps(theme_brief, ensure_ascii=False, indent=2),
+    })
 
     for api in apis:
         try:
@@ -1689,36 +1694,16 @@ def build_monthly_editorial(trends, period_id, cache_key=None):
     input_hash = None
     stale = None
     if cache_key:
-        input_hash = _editorial_input_hash(trend_brief)
+        input_hash = _editorial_input_hash(trend_brief, 'monthly')
         exact, stale = _editorial_cache_get(cache_key, input_hash)
         if exact:
             print(f"  📋 月报编辑命中缓存（{period_id}）: {(exact.get('mainline') or '')[:30]}...")
             return exact
 
-    prompt = f"""你是全球互联网科技情报编辑，受众是出海 BD、战略和投资从业者（周期标识：{period_id}）。
-
-以下是本月聚类出的结构趋势（每趋势含代表事件标题、变化类型、周次跨度和事实数对比）。请把它们编辑成一份可读的月报：
-
-1. 写一个"月度编辑标题"（editorial_title，10-20字）：概括本月最值得关注的结构变化方向，像一期月刊的封面标题，不要使用"月报"字样，不要罗列数字。
-2. 写一段"本期主线"（mainline，100-160字）：把本月最重要的 1-2 个结构变化串成一段叙事，与上月对照，说明发生了什么、为什么发生、指向什么判断。
-3. 为每个趋势写：
-   - theme_title（10-25字）：该趋势本月具体发生了什么变化的具体标题，不能直接套用大类标签（如"支付与金融科技"）。含具体对象、区域或动作。
-   - narrative（40-80字）：该趋势本月到底发生了什么变化，为什么值得关注。
-   - drivers（最多3条）：驱动该变化的因素，只能基于证据标题/摘要中已出现的事实，不要编造。
-   - uncertainty（20-50字）：当前判断的不确定性或反证。
-   - next_validation（20-50字）：下月应验证什么才能确认该趋势继续成立。
-
-反格式化硬约束（必须遵守）：
-- 禁止套话：不要写"资本涌动"、"开启新篇章"、"值得关注"这类空话；不要用"由 N 条事实支持"这类元描述。每句话都要有可验证的信息。
-- 叙事写"变化"，不写"存在哪些话题"：说明本月在某个方向实际发生了什么变化，而不是罗列本月有哪些趋势。
-
-硬约束：不得提及证据中不存在的公司、区域或动作；不要凭空增加事实。
-
-趋势列表：
-{json.dumps(trend_brief, ensure_ascii=False, indent=2)}
-
-只输出 JSON，不要输出其他内容，格式：
-{{"editorial_title": "月度编辑标题", "mainline": "本期主线", "themes": [{{"key": "趋势key", "theme_title": "具体标题", "narrative": "...", "drivers": ["..."], "uncertainty": "...", "next_validation": "..."}}]}}"""
+    prompt = render_prompt('editorial-monthly', {
+        'period_id': period_id,
+        'trend_brief': json.dumps(trend_brief, ensure_ascii=False, indent=2),
+    })
 
     for api in apis:
         try:

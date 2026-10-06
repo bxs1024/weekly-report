@@ -24,6 +24,12 @@ import warnings; warnings.filterwarnings('ignore')
 import requests
 from bs4 import BeautifulSoup
 
+# 提示词外置：全部 AI 提示词在 scripts/prompts/*.md（P1，见 docs/ARCHITECTURE.md）
+try:
+    from prompt_loader import load_prompt, prompt_version
+except ImportError:
+    from scripts.prompt_loader import load_prompt, prompt_version
+
 # DeepSeek/豆包均为国内 API，直连即可；trust_env=False 忽略系统代理（含 ALL_PROXY），
 # 避免依赖 socks 库且更快。所有 AI 通道共用此 session（新闻抓取仍走系统代理，不受影响）。
 _LLM_SESSION = requests.Session()
@@ -2530,7 +2536,7 @@ def analyze_events_minimax(items):
     }
 
     news = [{'title': it['title'], 'url': it['url'], 'source': it['source'], 'region': it.get('region','')} for it in items]
-    prompt = AI_SYSTEM_PROMPT + "\n" + AI_EXAMPLES + "\n\n分析以下事件，返回JSON数组：\n" + json.dumps(news, ensure_ascii=False) + "\n\n返回JSON："
+    prompt = build_analysis_prompt(news)
 
     payload = {
         "model": model,
@@ -2675,7 +2681,7 @@ def analyze_events_ark(items):
     }
 
     news = [{'title': it['title'], 'url': it['url'], 'source': it['source'], 'region': it.get('region','')} for it in items]
-    prompt = AI_SYSTEM_PROMPT + "\n" + AI_EXAMPLES + "\n\n分析以下事件，返回JSON数组：\n" + json.dumps(news, ensure_ascii=False) + "\n\n返回JSON："
+    prompt = build_analysis_prompt(news)
 
     payload = {
         "model": model,
@@ -2766,7 +2772,7 @@ def analyze_events_deepseek(items):
     }
 
     news = [{'title': it['title'], 'url': it['url'], 'source': it['source'], 'region': it.get('region','')} for it in items]
-    prompt = AI_SYSTEM_PROMPT + "\n" + AI_EXAMPLES + "\n\n分析以下事件，返回JSON数组：\n" + json.dumps(news, ensure_ascii=False) + "\n\n返回JSON："
+    prompt = build_analysis_prompt(news)
 
     payload = {
         "model": model,
@@ -2838,48 +2844,39 @@ def analyze_events_deepseek(items):
 
 
 # ============================================================
-# AI 分析 Prompt 模板（Few-shot，输出稳定）
+# AI 分析 Prompt（已外置到 scripts/prompts/，改提示词不用改代码）
+#   analysis-system.md   系统提示词与 9 字段契约
+#   analysis-examples.md Few-shot 示例
+# 版本 = 文件内容 sha256 前 12 位，见 prompt_loader.prompt_version()
 # ============================================================
 
-AI_SYSTEM_PROMPT = """你是全球互联网科技情报分析师。受众是ICT从业者，关注：合作机会、供应链变化、预算流向。
-每条事件输出9个字段：event_types（事件类型，见下）、content_overview（内容概要，1-2句客观复述事件本身发生了什么）、summary_short（一句话事实摘要）、reason（点评/为什么重要，ICT视角）、impact（影响谁）、insight_label（资金流向/合作机会/警示信号/背景补充）、trend_topic（所属趋势主题，如"中东FinTech赛道升温""拉美电商基建加速""欧洲AI融资热潮""东南亚新能源布局"等，15字以内）、canonical_company（事件主体的规范名，如"Mistral""Nubank""Cafeyn"——公司/产品/机构名本身，去修饰语、统一大小写；行业报告等无明确主体的事件填空字符串""）、canonical_key（事件的量化/识别锚点，统一格式：融资或财报填金额，数字+单位——金额低于1亿的用m为单位如"250m""5m"，1亿以上的用b为单位如"2.8b""830m"，保留小数不超过2位；并购填被收购方规范名如"Readly"；战略合作填合作对象规范名如"Qistas"；裁员填人数数字如"2000"；无合适锚点填空字符串""）。
+ANALYSIS_PROMPT_FILES = ('analysis-system', 'analysis-examples')
 
-event_types 判定规则（从事件实质判断，不要被标题里的英文单词误导）：
-- funding：融资/投资/估值
-- ma：并购/收购/入股
-- earnings：财报/营收/利润/股价对财报的反应
-- strategy：战略/合作/扩张/产品发布/运营/人事/监管
-- industry_report：真正的行业研究报告/市场数据/榜单/趋势调查（如"2026东南亚数字银行报告"）。公司新闻里出现"report"表示"据报道"（如"Cursor...: Report"），归为 strategy，不要误判成研究报告
-- other：以上都不符合
-只能选一个，返回字符串。
 
-content_overview 要求：用1-2句话客观描述事件本身——谁、做了什么、金额/数据、进展，必须从标题提炼事实，禁止写成价值判断或"为什么重要"式的话。比 summary_short 更完整，可含背景或后续进展，两者不得相同。
-reason 要求：必须从标题提取公司名/产品名/技术名，组合地区+行业+具体机会描述，格式固定为"[地区][行业]具体描述"。禁止出现"无法判断""无法确定""待确认""相关"等模糊词。
-impact 要求：指明具体受益方或受损方，如"东南亚电商平台""海湾主权基金""非洲移动支付商"，禁止"相关行业"。
-score 打分规则（硬档位，禁止给档外分数）：10分仅限稀缺事件——国家级战略/投资（政府层面资金）、或并购金额≥$5B、或融资≥$500M且改变行业格局，其余一律封顶9；9分——非中美公司融资≥$100M、并购$1B-5B、战略级投资≥$1B；7-8分——融资$20M-100M、并购$100M-1B、重大战略扩张、裁员/关停；5-6分——财报盈利稳定、普通产品发布、常规战略动作；7-9分（强制，禁止给4-5）——财报亏损/下滑/暴跌；1-3分——微小事件（无金额量化、非关键公司、普通功能更新），不要把所有事件都打4分以上，分数从1开始有梯度。
-只返回JSON数组，不要解释。"""
+def build_analysis_prompt(news):
+    """组装一次事件分析的完整 prompt。提示词文本来自 scripts/prompts/。
 
-AI_EXAMPLES = """
-示例1（融资大额）：
-标题: "Mistral raises $830M, 9fin hits unicorn status"
-输出: {"url":"","event_types":"funding","content_overview":"法国AI公司Mistral完成8.3亿美元融资，金融科技公司9fin同期晋级独角兽","summary_short":"Mistral获$830M融资，9fin晋级独角兽","reason":"欧洲AI独角兽获顶级融资，后续可能开放生态合作和API采购","impact":"AI基础设施供应商、云服务商、API集成商","insight_label":"资金流向","trend_topic":"欧洲AI融资热潮","score":9,"canonical_company":"Mistral","canonical_key":"830m"}
+    段落间隔与提示词外置前的拼接结果逐字节一致（见下方注释），
+    调整时必须同步核对，避免悄悄改变喂给模型的分段结构。
 
-示例2（财报方向）：
-标题: "Nubank Q1 revenue up 34% to $2.8B"
-输出: {"url":"","event_types":"earnings","content_overview":"巴西数字银行Nubank一季度营收28亿美元，同比增长34%","summary_short":"Nubank营收$2.8B，同比+34%","reason":"拉美数字银行持续高增长，东南亚复制模式具有参考价值","impact":"拉美金融科技合作方、银行科技供应商","insight_label":"背景补充","trend_topic":"拉美FinTech高增长","score":6,"canonical_company":"Nubank","canonical_key":"2.8b"}
+    外置前源码为：
+        AI_SYSTEM_PROMPT + "\\n" + AI_EXAMPLES
+        + "\\n\\n分析以下事件，返回JSON数组：\\n" + json + "\\n\\n返回JSON："
+    其中 AI_EXAMPLES 常量以换行开头、以换行结尾，因此净间隔是：
+        system 与 examples 之间 2 个换行；examples 与说明之间 3 个换行。
+    本函数直接写净效果，不依赖提示词文件的首尾空行。
+    """
+    system = load_prompt('analysis-system')
+    examples = load_prompt('analysis-examples')
+    return (system + "\n\n" + examples
+            + "\n\n\n分析以下事件，返回JSON数组：\n"
+            + json.dumps(news, ensure_ascii=False) + "\n\n返回JSON：")
 
-示例3（"Report"是"据报道"而非研报）：
-标题: "Cursor To Open First India Office By 2026 End: Report"
-输出: {"url":"","event_types":"strategy","content_overview":"AI编程公司Cursor计划在2026年底前开设印度首个办公室","summary_short":"Cursor计划2026年底开印度办公室","reason":"AI编程工具公司加速全球化布局，亚太开发者市场战略地位上升","impact":"印度开发者生态、AI工具渠道合作方","insight_label":"合作机会","trend_topic":"AI编程工具全球化","score":5,"canonical_company":"Cursor","canonical_key":""}
 
-示例4（财报亏损必须高分档，禁止给4-5）：
-标题: "Zaggle plunges 20% to hit lower circuit after Q1 profit slump"
-输出: {"url":"","event_types":"earnings","content_overview":"印度金融科技SaaS公司Zaggle一季度利润大幅下滑，股价暴跌20%触及单日跌停","summary_short":"Zaggle利润下滑股价暴跌20%","reason":"印度金融科技高估值股业绩失速引发估值修正，同类SaaS公司财报风险需关注","impact":"印度SaaS板块、金融科技投资者","insight_label":"警示信号","trend_topic":"印度金融科技估值修正","score":8,"canonical_company":"Zaggle","canonical_key":"20%"}
+def analysis_prompt_versions():
+    """当前分析提示词版本，用于 run_metrics 审计与缓存键。"""
+    return {name: prompt_version(name) for name in ANALYSIS_PROMPT_FILES}
 
-示例5（微小事件必须低分1-3）：
-标题: "X adds video overlays"
-输出: {"url":"","event_types":"strategy","content_overview":"社交平台X为视频功能增加叠加层小工具","summary_short":"X增加视频叠加功能","reason":"社交平台常规功能迭代，为视频创作者提供新工具","impact":"视频创作者、品牌营销方","insight_label":"背景补充","trend_topic":"社交产品功能迭代","score":3,"canonical_company":"X","canonical_key":""}
-"""
 
 def analyze_events_doubao(items):
     """
@@ -2900,7 +2897,7 @@ def analyze_events_doubao(items):
     }
 
     news = [{'title': it['title'], 'url': it['url'], 'source': it['source'], 'region': it.get('region','')} for it in items]
-    prompt = AI_SYSTEM_PROMPT + "\n" + AI_EXAMPLES + "\n\n分析以下事件，返回JSON数组：\n" + json.dumps(news, ensure_ascii=False) + "\n\n返回JSON："
+    prompt = build_analysis_prompt(news)
 
     payload = {
         "model": model,
