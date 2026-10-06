@@ -1,20 +1,30 @@
 {
-  "observed_at": "2026-10-04T04:57:36.416632+08:00",
+  "observed_at": "2026-10-06T07:58:12.118383+08:00",
   "source_count": 3,
-  "raw_count": 60,
+  "raw_count": 61,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 18,
-      "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
-      "removed_clusters": {}
+      "count": 37,
+      "inventory_count": 19,
+      "signal_count": 1,
+      "added_count": 19,
+      "removed_count": 18,
+      "clusters": {
+        "sales": 4,
+        "operations": 4,
+        "engineering": 2,
+        "partnerships": 1,
+        "compliance": 2
+      },
+      "removed_clusters": {
+        "sales": 1,
+        "operations": 1,
+        "engineering": 6
+      }
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
@@ -43,6 +53,264 @@
       "removed_clusters": {}
     }
   },
-  "candidate_signals": [],
+  "candidate_signals": [
+    {
+      "candidate_id": "jobs-9386b35f14df3803",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "sales",
+      "window": "2026-W41",
+      "window_start": "2026-10-06",
+      "window_end": "2026-10-06",
+      "detected_at": "2026-10-06T07:58:12.118383+08:00",
+      "baseline_count": 18,
+      "current_count": 19,
+      "added_count": 19,
+      "removed_count": 18,
+      "clusters": {
+        "sales": 4,
+        "operations": 4,
+        "engineering": 2,
+        "partnerships": 1,
+        "compliance": 2
+      },
+      "removed_clusters": {
+        "sales": 1,
+        "operations": 1,
+        "engineering": 6
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000153509469",
+          "title": "Associate, Business Development",
+          "url": "https://www.grab.careers/en/jobs/744000153509469/associate-business-development/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153474945",
+          "title": "Strategy & Planning Food, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000153474945/strategy-planning-food-associate/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153474259",
+          "title": "Associate, GrabMart & GrabExpress Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000153474259/associate-grabmart-grabexpress-strategy/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153472063",
+          "title": "Manager, Merchant Acquisition - GrabMart",
+          "url": "https://www.grab.careers/en/jobs/744000153472063/manager-merchant-acquisition-grabmart/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153472569",
+          "title": "Associate, Merchant Acquisition & Sales Operations - GrabMart",
+          "url": "https://www.grab.careers/en/jobs/744000153472569/associate-merchant-acquisition-sales-operations-grabmart/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153445206",
+          "title": "Associate L2 Support Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000153445206/associate-l2-support-engineer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153432949",
+          "title": "Senior Map Operations Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000153432949/senior-map-operations-specialist/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153427615",
+          "title": "Senior Associate, Talent Acquisition Business Partner",
+          "url": "https://www.grab.careers/en/jobs/744000153427615/senior-associate-talent-acquisition-business-partner/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153418175",
+          "title": "Assistant Manager, Public Affairs",
+          "url": "https://www.grab.careers/en/jobs/744000153418175/assistant-manager-public-affairs/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153419129",
+          "title": "Merchant Growth Manager, Emerging",
+          "url": "https://www.grab.careers/en/jobs/744000153419129/merchant-growth-manager-emerging/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153410339",
+          "title": "Senior Software Engineer, Customer Data Platform",
+          "url": "https://www.grab.careers/en/jobs/744000153410339/senior-software-engineer-customer-data-platform/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153408689",
+          "title": "Associate, Risk and Compliance",
+          "url": "https://www.grab.careers/en/jobs/744000153408689/associate-risk-and-compliance/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153404279",
+          "title": "Senior Associate, Regional Operational Risk",
+          "url": "https://www.grab.careers/en/jobs/744000153404279/senior-associate-regional-operational-risk/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153402549",
+          "title": "Merchant Sales Executive, GrabMart & GrabPay",
+          "url": "https://www.grab.careers/en/jobs/744000153402549/merchant-sales-executive-grabmart-grabpay/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153399889",
+          "title": "Communications Manager, Singapore",
+          "url": "https://www.grab.careers/en/jobs/744000153399889/communications-manager-singapore/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153399879",
+          "title": "Senior Product Manager, Grab Support",
+          "url": "https://www.grab.careers/en/jobs/744000153399879/senior-product-manager-grab-support/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153399839",
+          "title": "Project Manager, GrabAds Solutions",
+          "url": "https://www.grab.careers/en/jobs/744000153399839/project-manager-grabads-solutions/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153399359",
+          "title": "Associate, Commercial Planning - Longtail",
+          "url": "https://www.grab.careers/en/jobs/744000153399359/associate-commercial-planning-longtail/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153385439",
+          "title": "Lending Marketing & Communications Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000153385439/lending-marketing-communications-specialist/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000153152879",
+          "title": "Assistant Marketing Manager - OneGrab, VN",
+          "url": "https://www.grab.careers/en/jobs/744000153152879/assistant-marketing-manager-onegrab-vn/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000153138305",
+          "title": "Specialist, GIP Demand Planning",
+          "url": "https://www.grab.careers/en/jobs/744000153138305/specialist-gip-demand-planning/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000153116519",
+          "title": "GrabForBusiness Enterprise Sales Manager",
+          "url": "https://www.grab.careers/en/jobs/744000153116519/grabforbusiness-enterprise-sales-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000153113579",
+          "title": "Strategy and Operations Manager, Deliveries",
+          "url": "https://www.grab.careers/en/jobs/744000153113579/strategy-and-operations-manager-deliveries/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000153089529",
+          "title": "Senior Software Engineer in Test",
+          "url": "https://www.grab.careers/en/jobs/744000153089529/senior-software-engineer-in-test/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000153087179",
+          "title": "Senior Systems Engineer (Mobile Device Management)",
+          "url": "https://www.grab.careers/en/jobs/744000153087179/senior-systems-engineer-mobile-device-management/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000153077940",
+          "title": "Associate, Key Account Management, Enterprise",
+          "url": "https://www.grab.careers/en/jobs/744000153077940/associate-key-account-management-enterprise/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152909100",
+          "title": "Marketing Associate, Marketing Solutions, VN",
+          "url": "https://www.grab.careers/en/jobs/744000152909100/marketing-associate-marketing-solutions-vn/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152905299",
+          "title": "Head of Cybersecurity",
+          "url": "https://www.grab.careers/en/jobs/744000152905299/head-of-cybersecurity/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152899085",
+          "title": "Software Engineer, Backend - FinID",
+          "url": "https://www.grab.careers/en/jobs/744000152899085/software-engineer-backend-finid/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152892756",
+          "title": "Lead Product Marketing Manager",
+          "url": "https://www.grab.careers/en/jobs/744000152892756/lead-product-marketing-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152888229",
+          "title": "Head Economist, Marketplace Strategy (Dispatch & Pricing)",
+          "url": "https://www.grab.careers/en/jobs/744000152888229/head-economist-marketplace-strategy-dispatch-pricing/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152878659",
+          "title": "Software Engineer, Mobile (Android)",
+          "url": "https://www.grab.careers/en/jobs/744000152878659/software-engineer-mobile-android/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152869829",
+          "title": "Lead Product Manager, Transaction Platform",
+          "url": "https://www.grab.careers/en/jobs/744000152869829/lead-product-manager-transaction-platform/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152863500",
+          "title": "Assistant Manager, Technology Audit",
+          "url": "https://www.grab.careers/en/jobs/744000152863500/assistant-manager-technology-audit/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152863029",
+          "title": "Data Scientist (Supply Planning)",
+          "url": "https://www.grab.careers/en/jobs/744000152863029/data-scientist-supply-planning/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152862349",
+          "title": "Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000152862349/software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000152860664",
+          "title": "Customer Escalations & Service Success Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000152860664/customer-escalations-service-success-specialist/",
+          "change": "removed"
+        }
+      ],
+      "status": "rejected",
+      "rejection_reason": "source_reset_suspected",
+      "promoted_event_id": ""
+    }
+  ],
   "promoted_count": 0
 }

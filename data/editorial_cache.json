@@ -902,29 +902,54 @@
       "generated_at": "2026-10-04 05:19"
     },
     "weekly:2026-W40": {
-      "input_hash": "91b4be0df1d0a3bf99ec98b92cf1d085b7785238afd984b22145350ff1ac9a3d",
+      "input_hash": "feb6bc20801da5ee069204cddf07eb76ed5c072388b937dd16f31ad9373f70da",
       "editorial": {
-        "editorial_title": "云安全可观测性升级，亚太支付重组提速",
-        "mainline": "Cloudflare一周内连发可观测性更新、托管OS和Web Search API，把边缘平台能力打包成企业级工具；同时乐天完成金融科技重组、Kakao推统一会员，亚太支付与超级App的整合正在重塑本地竞争格局。两股力量交汇，指向云基础设施与区域金融生态的深度绑定。",
+        "editorial_title": "云平台竞逐AI搜索与可观测性，亚洲支付生态加速整合",
+        "mainline": "Cloudflare一周内连发Web Search API与可观测性八项更新，Databricks同步推出实时电商推荐，云厂商正把AI能力封装成即插即用的基础设施。与此同时，乐天完成金融科技重组、Kakao推出统一会员、Naver旅行搜索覆盖45城，亚洲超级App加速把支付、内容与本地服务收进同一账户体系。",
         "themes": {
-          "ai_infra": "Cloudflare一周内将可观测性平台更新八项功能、上线托管式OS并发布Web Search API，把边缘网络能力打包成企业级运维与搜索工具。Anthropic同期投入1亿美元培训AI工程师，Naver Whale浏览器嵌入AI Chat，基础设施层的工具化与人才供给同步加速。",
-          "payments": "乐天完成金融科技重组，乐天银行成为母公司，银行主导地位增强。NH证券用Naver Pay券拉新养老金客户，Kakao推4900韩元月费整合购物支付内容，而MoneyHero激进投资者推动出售，显示亚太支付与财富管理正从独立App向银行和超级App生态收敛。",
-          "expansion": "Naver将旅行搜索扩至45个亚洲城市，韩国券商升级App推AI交易并联手Kakao布局数字资产，韩国信用担保基金联合Naver Pay和CodeBox支持初创融资。韩国互联网平台正把支付、内容和金融服务打包成可复制的区域扩张模板。",
-          "developer": "Cloudflare发布Web Search API，将搜索能力以API形式开放给边缘开发者。Kortext收购AI学习平台StudyStash，Leus推出移动游戏群体购买平台，Pinnacle增持沙特酒店初创Gathern，显示开发者工具与垂直场景的AI集成正在加速。",
-          "commerce": "Databricks推出实时电商推荐方案，Shopify上线折扣安排与测试功能，Commerce Robotics发布Rakuten-Shopify同步连接器，电商平台正用AI推荐和跨平台工具提升转化。Kakao推4900韩元月费统一会员，把购物、支付和内容打包，对本地电商格局形成挤压。",
-          "compliance": "欧盟儿童法案为游戏公司提供合规指南，Thales发布AI与量子安全工具，美联储提议稳定币规则，苹果收紧macOS磁盘访问控制应对AI风险。监管与安全威胁同步升级，合规技术从可选变为出海企业的准入门槛。"
+          "ai_infra": "Cloudflare一周内先推托管式OS，再将Web Search API和可观测性平台八项更新接连落地，把搜索与监控能力封装成边缘侧即用模块。Anthropic同期投入1亿美元培训AI工程师，Naver Whale浏览器嵌入AI Chat，基础设施层的工具供给与人才供给同步扩张。",
+          "expansion": "Naver把旅行搜索铺到45个亚洲城市，直接对接本地旅游服务商的内容与库存。韩国券商升级App引入AI交易并联合Kakao布局数字资产，信用担保基金则联手Naver Pay和CodeBox为初创输血，平台、券商与政策资金正形成一条本地化服务链。",
+          "payments": "乐天完成重组后银行成为母公司，金融科技业务从集团子板块升格为控股主体。Kakao以4900韩元月费把购物、支付与内容打包进同一会员，NH证券用Naver Pay券拉养老金新客，而MoneyHero激进投资者推动出售，亚洲支付入口的整合与资本退出同步发生。",
+          "developer": "Cloudflare把搜索能力做成API开放给开发者，边缘计算场景接入AI搜索的门槛显著降低。Kortext收购AI学习平台StudyStash、Leus推出移动游戏群体购买平台、Pinnacle增持沙特酒店初创Gathern，开发者生态正从通用工具向教育、游戏和区域垂直场景分流。",
+          "commerce": "Databricks把实时推荐做成电商可直接调用的方案，Shopify上线折扣安排与测试功能，Commerce Robotics则推出Rakuten-Shopify同步连接器，跨平台库存与促销开始自动化对齐。Kakao以统一会员把购物支付内容收进同一入口，商户侧的流量与工具竞争同时升温。",
+          "compliance": "欧盟儿童法案为游戏公司给出合规指南，未成年人保护从原则进入可执行条款。Thales发布AI与量子安全工具承接需求，美联储提议稳定币规则、苹果收紧macOS磁盘访问控制应对AI风险，合规与安全正从单点工具变成平台级准入门槛。"
         },
         "theme_titles": {
-          "ai_infra": "Cloudflare连发可观测性与托管OS，边缘平台向企业IT运维渗透",
-          "payments": "乐天金融科技重组落地，银行主导亚太支付整合",
-          "expansion": "Naver旅行搜索覆盖45城，韩国平台加速亚洲服务输出",
-          "developer": "Cloudflare开放Web Search API，边缘搜索成开发者新入口",
-          "commerce": "Databricks推实时电商推荐，Kakao统一会员搅动韩式电商",
-          "compliance": "欧盟儿童法案落地，游戏与AI安全合规工具需求升温"
+          "ai_infra": "Cloudflare连发搜索API与可观测性更新，云平台竞逐AI原生工具链",
+          "expansion": "Naver旅行搜索覆盖45城，韩国平台联手券商与担保基金扩生态",
+          "payments": "乐天金融科技重组落地，Kakao推统一会员整合支付与内容",
+          "developer": "Cloudflare开放Web Search API，开发者工具链向AI搜索与垂直场景延伸",
+          "commerce": "Databricks推实时推荐方案，Shopify与Rakuten打通跨平台同步",
+          "compliance": "欧盟儿童法案落地游戏合规，美联储稳定币规则与苹果磁盘管控同步收紧"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-10-03 14:23"
+      "generated_at": "2026-10-06 08:27"
+    },
+    "weekly:2026-W41": {
+      "input_hash": "01bacf2b06c9fe5ac37b3077595dc734820b477a4174d42916923fd982ea6342",
+      "editorial": {
+        "editorial_title": "AI推理算力与代理支付重构出海基建",
+        "mainline": "Cloudflare密集发布边缘推理与安全产品，Etched以40B估值验证专用芯片路线，代理支付平台开始落地；同时拉美与中东收单整合、亚太合规合作加速。基础设施正从训练转向推理与交易闭环，出海BD应关注边缘节点、代理支付与合规科技的交集。",
+        "themes": {
+          "ai_infra": "Cloudflare在生日周集中发布边缘推理与安全新品，Etched以40B估值融资验证专用推理芯片路线，Constructor推出代理支付平台，OneByZero获20M美元帮企业落地AI。基础设施竞争从训练集群转向边缘推理与代理交易，云厂商与芯片新贵开始争夺企业AI部署入口。",
+          "expansion": "BMI预测2026年新加坡EV销量占比超50%，充电与电池投资窗口打开；诺基亚CEO指出数据中心建设受供应链制约，扩张节奏可能放缓。Unity与Grok Build达成官方插件合作，而Nerial进入休眠模式，显示工具生态整合加速、独立团队生存压力上升。",
+          "payments": "NEOPAY收购noon payments 65%股权，中东收单市场加速整合；Nubank前员工创立Decade，用AI助手切入资金管理。Shopify结账提速并支持跨设备购物车同步，Basware收购Trustpair强化支付欺诈检测。收单整合与AI原生金融工具同步推进，跨境支付竞争转向体验与风控。",
+          "compliance": "FOMO Pay与Sumsub合作加强亚太合规能力，Nubank与Cardamon用AI扩展全球合规业务，跨境支付公司正把合规从成本中心转为可输出能力。同时AI时代零售定价策略受审视，监管对算法定价的关注上升，合规科技合作窗口打开。",
+          "developer": "Namespace获€37M扩展跨平台开发基础设施，欧洲开发者工具赛道融资回暖；谷歌在英国面临£1B Play Store佣金诉讼，平台抽成模式承压。Valon获$150M推进AI抵押贷款平台，金融基础设施与开发者工具同时吸引资本，跨平台与合规成本成为关键变量。",
+          "operations": "富士康营收同比增长47%，AI服务器需求强劲，亚太电子制造供应链景气度持续；Toast与Square在POS折扣上正面竞争，商户收单利润空间被压缩。硬件代工与商户软件两端同时出现分化，AI服务器红利与POS价格战并存。"
+        },
+        "theme_titles": {
+          "ai_infra": "Cloudflare推边缘推理，Etched估值冲40B",
+          "expansion": "新加坡EV渗透过半，诺基亚警示数据中心供应链",
+          "payments": "NEOPAY收购noon payments，拉美AI金融创业升温",
+          "compliance": "FOMO Pay与Nubank引入AI合规合作",
+          "developer": "Namespace获€37M，谷歌在英面临Play佣金诉讼",
+          "operations": "富士康营收+47%，Toast与Square打POS折扣战"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-10-06 08:27"
     }
   }
 }
