@@ -66,12 +66,14 @@ def main():
     ap.add_argument('--names', nargs='+', required=True)
     ap.add_argument('--out', required=True)
     ap.add_argument('--header', default='')
+    ap.add_argument('--src', default=SRC, help='源文件（默认 fetch_news.py；拆 generate_html 时显式传入）')
     ap.add_argument('--dry', action='store_true')
     ap.add_argument('--keep-comments', action='store_true',
                     help='原文件里保留注释（默认只留 MOVED 标记）')
     args = ap.parse_args()
 
-    lines, tree = parse(SRC)
+    src_path = args.src if os.path.isabs(args.src) else os.path.join(HERE, args.src)
+    lines, tree = parse(src_path)
     defs = find_defs(tree)
 
     missing = [n for n in args.names if n not in defs]
@@ -112,7 +114,7 @@ def main():
     for s, e, n in reversed(spans):
         marker = f'# >>> MOVED: {n} -> {os.path.basename(out_path)}\n'
         out_lines[s:e + 1] = [marker] if not args.keep_comments else [marker]
-    with open(SRC, 'w', encoding='utf-8', newline='\n') as f:
+    with open(src_path, 'w', encoding='utf-8', newline='\n') as f:
         f.writelines(out_lines)
     print(f'原文件已就地替换为 {len(spans)} 个 MOVED 标记')
     return 0

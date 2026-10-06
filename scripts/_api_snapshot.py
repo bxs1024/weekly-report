@@ -12,6 +12,8 @@ P4 拆包的不变量是「只搬家、不改动」。本工具在搬迁前把�
     python scripts/_api_snapshot.py --save           # 搬迁前：存快照
     python scripts/_api_snapshot.py --verify         # 搬迁后：比对
     python scripts/_api_snapshot.py --checkmod MOD   # 静态检查某模块的全局解析
+
+--mod 指定目标模块（默认 fetch_news）；快照按模块分文件存放，互不覆盖。
 """
 
 import argparse
@@ -23,7 +25,19 @@ import os
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SNAPSHOT = os.path.join(HERE, '..', '.data', 'p4_api_snapshot.json')
+SNAP_DIR = os.path.join(HERE, '..', '.data')
+
+# 快照按模块分文件：fetch_news 那份是 P4 前半段的基线，不能被后半段的
+# generate_html 覆盖。缺省仍为 fetch_news，保持既有用法不变。
+DEFAULT_MOD = 'fetch_news'
+
+
+def _snapshot_path(mod):
+    # fetch_news 沿用既有文件名，避免既有基线失效。
+    if mod == DEFAULT_MOD:
+        return os.path.join(SNAP_DIR, 'p4_api_snapshot.json')
+    return os.path.join(SNAP_DIR, f'p4_api_snapshot.{mod}.json')
+
 
 sys.path.insert(0, HERE)
 
@@ -69,21 +83,23 @@ def snapshot_module(mod):
     return out
 
 
-def cmd_save():
-    import fetch_news
-    data = snapshot_module(fetch_news)
-    os.makedirs(os.path.dirname(SNAPSHOT), exist_ok=True)
-    with open(SNAPSHOT, 'w', encoding='utf-8') as f:
+def cmd_save(mod=DEFAULT_MOD):
+    import importlib
+    m = importlib.import_module(mod)
+    data = snapshot_module(m)
+    os.makedirs(SNAP_DIR, exist_ok=True)
+    with open(_snapshot_path(mod), 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=1, sort_keys=True)
-    print(f'snapshot saved: {len(data)} names -> {os.path.normpath(SNAPSHOT)}')
+    print(f'snapshot saved: {len(data)} names -> {os.path.normpath(_snapshot_path(mod))}')
     return 0
 
 
-def cmd_verify():
-    import fetch_news
-    with open(SNAPSHOT, encoding='utf-8') as f:
+def cmd_verify(mod=DEFAULT_MOD):
+    import importlib
+    m = importlib.import_module(mod)
+    with open(_snapshot_path(mod), encoding='utf-8') as f:
         base = json.load(f)
-    now = snapshot_module(fetch_news)
+    now = snapshot_module(m)
 
     missing = sorted(set(base) - set(now))
     changed = sorted(n for n in set(base) & set(now) if base[n] != now[n])
@@ -101,7 +117,7 @@ def cmd_verify():
     if added:
         print(f'\n[info] 新增 {len(added)} 个名字: {added[:20]}')
     if not missing and not changed:
-        print('\n[OK] API 快照完全一致：只搬家、未改动')
+        print(f'\n[OK] API 快照完全一致（{mod}）：只搬家、未改动')
         return 0
     return 1
 
@@ -223,11 +239,12 @@ def main():
     ap.add_argument('--save', action='store_true')
     ap.add_argument('--verify', action='store_true')
     ap.add_argument('--checkmod')
+    ap.add_argument('--mod', default=DEFAULT_MOD)
     args = ap.parse_args()
     if args.save:
-        return cmd_save()
+        return cmd_save(args.mod)
     if args.verify:
-        return cmd_verify()
+        return cmd_verify(args.mod)
     if args.checkmod:
         return cmd_checkmod(args.checkmod)
     ap.error('pass --save / --verify / --checkmod MOD')
