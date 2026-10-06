@@ -57,8 +57,11 @@ class _FakeApi(dict):
 
 
 def _install_fake(monkeypatch_scores):
-    """把 fetch_news._post_chat 换成假实现，记录调用次数。"""
-    import fetch_news
+    """把 providers.llm._post_chat 换成假实现，记录调用次数。
+
+    P4 后 AI 通道住在 providers/llm.py，补丁必须打在真实模块上：
+    调用方是「函数调用时 import」，打 fetch_news 转发层会打空。"""
+    from providers import llm
 
     calls = {'n': 0}
 
@@ -70,7 +73,7 @@ def _install_fake(monkeypatch_scores):
             return _FakeResp({}, status=500)
         return _FakeResp({'attentionScore': score})
 
-    fetch_news._post_chat = fake_post
+    llm._post_chat = fake_post
     return calls
 
 

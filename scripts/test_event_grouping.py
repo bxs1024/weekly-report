@@ -53,7 +53,7 @@ class _FakeResp:
 
 
 def _install_fake(verdicts):
-    import fetch_news
+    from providers import llm
 
     calls = {'n': 0}
 
@@ -62,7 +62,7 @@ def _install_fake(verdicts):
         calls['n'] += 1
         return _FakeResp(verdicts[idx])
 
-    fetch_news._post_chat = fake_post
+    llm._post_chat = fake_post
     return calls
 
 

@@ -140,7 +140,7 @@ def judge_pair(a, b, api=None, model_name=None):
 
     if api is None:
         try:
-            from fetch_news import _chat_api_candidates
+            from providers.llm import _chat_api_candidates
             candidates = _chat_api_candidates()
             api = candidates[0] if candidates else None
         except Exception:
@@ -157,7 +157,7 @@ def judge_pair(a, b, api=None, model_name=None):
     if cached is not None:
         return cached
 
-    from fetch_news import _post_chat
+    from providers.llm import _post_chat  # 直连真实模块（P4）；不走 fetch_news 转发层
 
     body = system + "\n\n报道 A：\n" + json.dumps(material['a'], ensure_ascii=False) \
         + "\n\n报道 B：\n" + json.dumps(material['b'], ensure_ascii=False) + "\n\n只返回 JSON。"

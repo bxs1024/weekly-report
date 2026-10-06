@@ -96,7 +96,7 @@ def _call_once(system, material, api, model_name, pass_index):
         return cached, True
 
     body = system + "\n\n待评材料：\n" + json.dumps(material, ensure_ascii=False) + "\n\n只返回 JSON。"
-    from fetch_news import _post_chat
+    from providers.llm import _post_chat  # 直连真实模块（P4）；不走 fetch_news 转发层
 
     resp = _post_chat(api, body, max_tokens=32, temperature=0.0, timeout=(10, 60))
     if resp.status_code != 200:
@@ -122,7 +122,7 @@ def score_events(events, apis=None, model_name=None):
 
     if apis is None:
         try:
-            from fetch_news import _chat_api_candidates
+            from providers.llm import _chat_api_candidates
             apis = _chat_api_candidates()
         except Exception:
             apis = []
