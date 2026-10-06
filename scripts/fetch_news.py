@@ -58,6 +58,20 @@ except ImportError:
         TITLE_STOPWORDS, EVENT_ENTITY_STOPWORDS, SECTOR_SCOPE_MAP,
     )
 
+# 通用工具已外置到 content/util.py（P4）。此处 re-export 保持既有 import 不变。
+try:
+    from content.util import (
+        _cn_now, _cn_today, _parse_date, _recent_article_date,
+        _normalize_text, _title_tokens, _strip_title_source,
+        _extract_title_publisher, _parse_iso_date, _is_http_url, _same_host_url,
+    )
+except ImportError:
+    from scripts.content.util import (
+        _cn_now, _cn_today, _parse_date, _recent_article_date,
+        _normalize_text, _title_tokens, _strip_title_source,
+        _extract_title_publisher, _parse_iso_date, _is_http_url, _same_host_url,
+    )
+
 # DeepSeek/豆包均为国内 API，直连即可；trust_env=False 忽略系统代理（含 ALL_PROXY），
 # 避免依赖 socks 库且更快。所有 AI 通道共用此 session（新闻抓取仍走系统代理，不受影响）。
 _LLM_SESSION = requests.Session()
@@ -108,27 +122,16 @@ except ImportError:
 # >>> MOVED: REQUEST_TIMEOUT -> constants.py
 
 
-def _cn_now():
-    return datetime.now(SHANGHAI_TZ)
+# >>> MOVED: _cn_now -> util.py
 
 
-def _cn_today():
-    return _cn_now().strftime('%Y-%m-%d')
+# >>> MOVED: _cn_today -> util.py
 
 
-def _parse_date(value):
-    try:
-        return datetime.strptime((value or '')[:10], '%Y-%m-%d').date()
-    except (TypeError, ValueError):
-        return None
+# >>> MOVED: _parse_date -> util.py
 
 
-def _recent_article_date(article_date, days=2):
-    parsed = _parse_date(article_date)
-    if not parsed:
-        return True
-    cutoff = (_cn_now() - timedelta(days=days)).date()
-    return parsed >= cutoff
+# >>> MOVED: _recent_article_date -> util.py
 
 # ============================================================
 # ���源：重点标注是否为融资专属源
@@ -618,48 +621,16 @@ def is_blacklisted(title, official=False):
     return False
 
 
-def _strip_title_source(title):
-    """去掉标题末尾的媒体名尾缀，避免同事件因来源不同被拆成多条。"""
-    title = (title or '').strip()
-    for sep in [' - ', ' | ', ' — ', ' – ', ' —']:
-        if sep in title:
-            left, right = title.rsplit(sep, 1)
-            if right and len(right) <= 40:
-                return left.strip()
-    return title
+# >>> MOVED: _strip_title_source -> util.py
 
 
-def _extract_title_publisher(title):
-    """提取 Google News 标题尾部媒体名，保留真实来源用于控噪和展示。"""
-    title = (title or '').strip()
-    for sep in [' - ', ' | ', ' — ', ' – ', ' —']:
-        if sep in title:
-            left, right = title.rsplit(sep, 1)
-            right = right.strip()
-            if left.strip() and 1 < len(right) <= 40:
-                return right
-    return ''
+# >>> MOVED: _extract_title_publisher -> util.py
 
 
-def _normalize_text(text):
-    text = _strip_title_source(text).lower()
-    text = text.replace('&', ' and ')
-    text = re.sub(r'[\u2018\u2019\u201c\u201d]', ' ', text)
-    text = re.sub(r'[^a-z0-9\u4e00-\u9fff]+', ' ', text)
-    return re.sub(r'\s+', ' ', text).strip()
+# >>> MOVED: _normalize_text -> util.py
 
 
-def _title_tokens(title):
-    tokens = []
-    for token in _normalize_text(title).split():
-        if token in TITLE_STOPWORDS:
-            continue
-        if len(token) <= 2 and token not in {'q1', 'q2', 'q3', 'q4', 'ai', 'ipo'}:
-            continue
-        if token.isdigit():
-            continue
-        tokens.append(token)
-    return tokens
+# >>> MOVED: _title_tokens -> util.py
 
 
 def _normalize_event_subject(subject):
@@ -935,19 +906,7 @@ def _has_ma_signal(title):
     return any(w in t for w in _MA_SIGNAL_WORDS)
 
 
-@lru_cache(maxsize=16384)
-def _parse_iso_date(value):
-    """缓存 'YYYY-MM-DD' 解析结果。
-
-    性能：_dates_adjacent 被展示层去重以 O(n²) 调用，每次要跑两次
-    datetime.strptime（CPython 下约 20µs/次），实测成为 build_display_context
-    在修掉 _entity_key_info 之后的下一处瓶颈。日期字符串取值域很小，缓存
-    命中率接近 100%。
-    """
-    try:
-        return datetime.strptime(value, '%Y-%m-%d')
-    except ValueError:
-        return None
+# >>> MOVED: _parse_iso_date -> util.py
 
 
 def _dates_adjacent(a, b, window_days=3):
@@ -1850,13 +1809,7 @@ def _extract_official_article_date(title, link, node_text=''):
     return _extract_official_article_date_meta(title, link, node_text)['published_at'] or None
 
 
-def _same_host_url(base_url, href):
-    absolute = urljoin(base_url, href or '')
-    base_host = urlparse(base_url).netloc.lower().replace('www.', '')
-    link_host = urlparse(absolute).netloc.lower().replace('www.', '')
-    if not absolute.startswith('http') or base_host != link_host:
-        return ''
-    return absolute
+# >>> MOVED: _same_host_url -> util.py
 
 
 def _select_changelog_items(soup, cfg):
@@ -2775,8 +2728,7 @@ def analyze_single_event_doubao(item):
         return None
 
 
-def _is_http_url(url):
-    return isinstance(url, str) and url.startswith(('http://', 'https://'))
+# >>> MOVED: _is_http_url -> util.py
 
 
 def _results_by_url(results):

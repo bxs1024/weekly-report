@@ -139,12 +139,20 @@ def test_changelog_items_extract_direct_dated_links():
         'region': '全球',
         'priority': 3,
     })
+    # _cn_now 已外置到 content/util.py（P4）。函数搬到新模块后，其内部引用在
+    # util 的命名空间解析，只补丁 fetch_news 打不到（from-import 是值绑定），
+    # 因此两个命名空间都要补丁。
+    from content import util as _util
+    frozen = lambda: datetime.fromisoformat('2026-06-29T12:00:00+08:00')  # noqa: E731
     old_cn_now = fetch_news._cn_now
+    old_util_cn_now = _util._cn_now
     try:
-        fetch_news._cn_now = lambda: datetime.fromisoformat('2026-06-29T12:00:00+08:00')
+        fetch_news._cn_now = frozen
+        _util._cn_now = frozen
         items = _select_changelog_items(soup, cfg)
     finally:
         fetch_news._cn_now = old_cn_now
+        _util._cn_now = old_util_cn_now
     assert len(items) == 1
     assert items[0]['company_name'] == 'Shopify'
     assert items[0]['article_date'] == '2026-06-28'
