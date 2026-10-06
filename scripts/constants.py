@@ -66,6 +66,31 @@ RSS_SOURCES = [
     {'name': 'Cyberagent News', 'url': 'https://www.cyberagent.co.jp/en/news/rss/data_format=xml', 'source': 'Cyberagent', 'region': '亚太', 'priority': 1, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Cyberagent', 'is_company': True, 'max_scan': 20, 'max': 4},
 ]
 
+HTML_SOURCES = [
+    # DealStreetAsia RSS 停用（"Temporarily Disabled"），主站为 JS SPA
+    # 低频尝试：只采集新闻类页面，报告/评论页已过滤
+    {'name': 'DealStreetAsia', 'url': 'https://dealstreetasia.com/', 'source': 'DealStreetAsia', 'region': '亚太', 'priority': 1, 'source_tier': 'L2 垂直交易源', 'source_role': 'venture_media'},
+    # e27：Angular JS + Cloudflare 双层保护，RSS + HTML 均无法采集，已移除
+    # 官方/IR源：用于校准重点客户自身披露，低频但高可信
+    {'name': 'Rakuten IR', 'url': 'https://global.rakuten.com/corp/news/press/?category=ir', 'source': 'Rakuten Group', 'region': '亚太', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Rakuten', 'is_company': True, 'max': 4},
+    {'name': 'MercadoLibre IR', 'url': 'https://investor.mercadolibre.com/news-and-events', 'source': 'MercadoLibre', 'region': '拉美', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'MercadoLibre', 'is_company': True, 'max': 4},
+    {'name': 'Adyen IR', 'url': 'https://www.adyen.com/press-and-media', 'source': 'Adyen', 'region': '欧洲', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Adyen', 'is_company': True, 'max': 4},
+    {'name': 'Sea Newsroom', 'url': 'https://www.sea.com/media/news', 'source': 'Sea Limited', 'region': '亚太', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Sea Limited', 'is_company': True, 'max': 4},
+    {'name': 'Zalando IR', 'url': 'https://www.zalando.com/en/investor-relations/news-stories/', 'source': 'Zalando', 'region': '欧洲', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Zalando', 'is_company': True, 'max': 4},
+    {'name': 'Allegro Newsroom', 'url': 'https://allegro.eu/newsroom', 'source': 'Allegro', 'region': '欧洲', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Allegro', 'is_company': True, 'max': 4},
+    {'name': 'Kaspi.kz IR', 'url': 'https://ir.kaspi.kz/news-releases/', 'source': 'Kaspi.kz', 'region': '中东', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Kaspi.kz', 'is_company': True, 'max': 4},
+    {'name': 'Naver Press', 'url': 'https://www.navercorp.com/en/media/pressReleases', 'source': 'Naver', 'region': '亚太', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Naver', 'is_company': True, 'max': 4},
+    {'name': 'Kakao Press', 'url': 'https://www.kakaocorp.com/page/detail/pr?lang=en', 'source': 'Kakao', 'region': '亚太', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Kakao', 'is_company': True, 'max': 4},
+    {'name': 'HKTVmall IR News', 'url': 'https://ir.hktv.com.hk/media-news', 'source': 'HKTVmall', 'region': '亚太', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'HKTVmall', 'is_company': True, 'max': 4},
+    {'name': 'U-NEXT News', 'url': 'https://unext-hd.co.jp/newsrelease/', 'source': 'U-NEXT', 'region': '亚太', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'U-NEXT', 'is_company': True, 'max': 4},
+    {'name': 'Square Enix IR News', 'url': 'https://www.hd.square-enix.com/eng/ir/irnews/', 'source': 'Square Enix', 'region': '亚太', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Square Enix', 'is_company': True, 'max': 4},
+    {'name': 'Jumia Newsroom', 'url': 'https://group.jumia.com/news', 'source': 'Jumia', 'region': '非洲', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Jumia', 'is_company': True, 'max': 4},
+    # 2026-08 补缺：JD/Yahoo/Tabby/Cyberagent 官方源（Google News 两路都空，补官方披露）
+    {'name': 'JD.com IR', 'url': 'https://ir.jd.com/news-releases', 'source': 'JD.com', 'region': '中资', 'priority': 2, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'JD.com', 'is_company': True, 'max': 4},
+    {'name': 'Yahoo Press', 'url': 'https://www.yahooinc.com/press/', 'source': 'Yahoo', 'region': '亚太', 'priority': 1, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Yahoo', 'is_company': True, 'max': 4},
+    {'name': 'Tabby Press', 'url': 'https://www.tabby.ai/press/', 'source': 'Tabby', 'region': '中东', 'priority': 2, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Tabby', 'is_company': True, 'max': 4},
+]
+
 COMPANY_SOURCES = [
     # 中国企业海外
     {'name': 'ByteDance/TikTok', 'query': 'ByteDance', 'region': '中资', 'priority': 3},

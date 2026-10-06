@@ -44,7 +44,7 @@ except ImportError:
 try:
     from constants import (
         HEADERS, REQUEST_DELAY, REQUEST_TIMEOUT,
-        RSS_SOURCES, COMPANY_SOURCES, COMPANY_ALIASES, COMPANY_BLACKLIST,
+        RSS_SOURCES, HTML_SOURCES, COMPANY_SOURCES, COMPANY_ALIASES, COMPANY_BLACKLIST,
         COMPANY_LOW_SIGNAL_PATTERNS, CHINESE_OUTBOUND_PATTERNS,
         TRADITIONAL_BANKS, BANK_PROTECTED_FINTECH,
         TITLE_STOPWORDS, EVENT_ENTITY_STOPWORDS, SECTOR_SCOPE_MAP,
@@ -52,7 +52,7 @@ try:
 except ImportError:
     from scripts.constants import (
         HEADERS, REQUEST_DELAY, REQUEST_TIMEOUT,
-        RSS_SOURCES, COMPANY_SOURCES, COMPANY_ALIASES, COMPANY_BLACKLIST,
+        RSS_SOURCES, HTML_SOURCES, COMPANY_SOURCES, COMPANY_ALIASES, COMPANY_BLACKLIST,
         COMPANY_LOW_SIGNAL_PATTERNS, CHINESE_OUTBOUND_PATTERNS,
         TRADITIONAL_BANKS, BANK_PROTECTED_FINTECH,
         TITLE_STOPWORDS, EVENT_ENTITY_STOPWORDS, SECTOR_SCOPE_MAP,
@@ -70,6 +70,60 @@ except ImportError:
         _cn_now, _cn_today, _parse_date, _recent_article_date,
         _normalize_text, _title_tokens, _strip_title_source,
         _extract_title_publisher, _parse_iso_date, _is_http_url, _same_host_url,
+    )
+
+# 判型/身份识别与信源元数据已外置到 content/classify.py 与 content/source_meta.py（P4）。
+try:
+    from content.classify import (
+        detect_event_types, SIGNAL_TAXONOMY, infer_signal_taxonomy,
+        REGION_TITLE_KEYWORDS, infer_event_region,
+        BLACKLIST_COMPANIES, BLACKLIST_PATTERNS, is_blacklisted,
+        _normalize_event_subject, _title_subject_key, _event_subject_key,
+        _FINANCIAL_NEGATIVE_WORDS, _has_negative_financial_word,
+        _financial_direction_consistent, _get_company_aliases,
+        _title_mentions_aliases, _title_mentions_company,
+        _is_low_signal_company_title, _is_traditional_bank_item,
+        _is_chinese_outbound_title, _is_official_company_source,
+        _is_vertical_source, _is_high_signal_vertical_title,
+        _event_similarity, _COMPANY_KEY_SUFFIXES, _GENERIC_ALIAS_TOKENS,
+        _SINGULAR_EVENT_TYPES, _EVENT_TYPE_PRIORITY, _normalize_company_key,
+        _entity_key_info, _entity_key_info_cached, _primary_event_type,
+        _FINANCIAL_ANCHOR_WORDS, _FUNDING_SIGNAL_WORDS, _MA_SIGNAL_WORDS,
+        _has_financial_anchor, _has_funding_signal, _has_ma_signal,
+        _dates_adjacent, _normalize_canonical_key, _fingerprint_match,
+        _VALID_EVENT_TYPES, _ai_event_types,
+    )
+    from sources.meta import (
+        _source_meta, _with_source_meta, REGISTRY_TIER_MAP, REGISTRY_ROLE_MAP,
+        _registry_source_to_cfg, _source_entity_name, _source_metric_key,
+        _count_by_source, _source_funnel_stage, _merge_source_funnel,
+        load_registry_sources,
+    )
+except ImportError:
+    from scripts.content.classify import (
+        detect_event_types, SIGNAL_TAXONOMY, infer_signal_taxonomy,
+        REGION_TITLE_KEYWORDS, infer_event_region,
+        BLACKLIST_COMPANIES, BLACKLIST_PATTERNS, is_blacklisted,
+        _normalize_event_subject, _title_subject_key, _event_subject_key,
+        _FINANCIAL_NEGATIVE_WORDS, _has_negative_financial_word,
+        _financial_direction_consistent, _get_company_aliases,
+        _title_mentions_aliases, _title_mentions_company,
+        _is_low_signal_company_title, _is_traditional_bank_item,
+        _is_chinese_outbound_title, _is_official_company_source,
+        _is_vertical_source, _is_high_signal_vertical_title,
+        _event_similarity, _COMPANY_KEY_SUFFIXES, _GENERIC_ALIAS_TOKENS,
+        _SINGULAR_EVENT_TYPES, _EVENT_TYPE_PRIORITY, _normalize_company_key,
+        _entity_key_info, _entity_key_info_cached, _primary_event_type,
+        _FINANCIAL_ANCHOR_WORDS, _FUNDING_SIGNAL_WORDS, _MA_SIGNAL_WORDS,
+        _has_financial_anchor, _has_funding_signal, _has_ma_signal,
+        _dates_adjacent, _normalize_canonical_key, _fingerprint_match,
+        _VALID_EVENT_TYPES, _ai_event_types,
+    )
+    from scripts.sources.meta import (
+        _source_meta, _with_source_meta, REGISTRY_TIER_MAP, REGISTRY_ROLE_MAP,
+        _registry_source_to_cfg, _source_entity_name, _source_metric_key,
+        _count_by_source, _source_funnel_stage, _merge_source_funnel,
+        load_registry_sources,
     )
 
 # DeepSeek/豆包均为国内 API，直连即可；trust_env=False 忽略系统代理（含 ALL_PROXY），
@@ -227,398 +281,54 @@ for _company_cfg in COMPANY_SOURCES:
 # 关键词检测（宽松模式，宁多不漏）
 # ============================================================
 
-def detect_event_types(title):
-    t = title.lower()
-    types = []
-    # 融资（最高优先）
-    if any(k in t for k in ['raises', 'secures $', 'closes $', 'raises £',
-                       'closes funding', 'series ', 'seed round', 'valued at', 'unicorn',
-                       'pre-series', 'investment of $', 'received $', 'attracts $',
-                       'ltd raises', 'funding of', 'funding to',
-                       # 融资金额直接出现
-                       '$50m', '$100m', '$200m', '$500m', '$1b', '$1b+', 'bags $',
-                       # 融资进展
-                       'funding round', 'raises in ', 'closes $', 'm series',
-                       'attracts gulf',  # WAMDA 常见格式
-                       # 估值相关
-                       'valuation', 'valued at', 'eyes $', '$b valuation',
-                       # 日文融资信号（日本创投媒体：The Bridge 等）
-                       '調達', 'シード', 'シリーズ', '出資', 'ラウンド',
-                       '億円', '億ドル', 'ファンド', '融資']):
-        types.append('funding')
-    # 并购/收购
-    if any(k in t for k in ['acquires', 'acquired', 'acquisition', 'merger', 'merges',
-                       'takeover', 'takes control', 'stake in', 'buys', 'purchases',
-                       'buyout', 'sold to',
-                       # 日文并购
-                       '買収', '合併', '過半数', '公開買付']):
-        types.append('ma')
-    # 财报/IPO
-    if any(k in t for k in ['revenue', 'earnings', 'profit', 'quarterly results',
-                       'fiscal year', 'ipo ', 'listing', 'goes public',
-                       'files to go public', 'quarterly profit', 'quarterly loss',
-                       'q1 ', 'q2 ', 'q3 ', 'q4 ', 'financial results',
-                       'goes live', 'stock ',
-                       # 日文财报/上市
-                       '決算', '上場', 'IPO', '営業利益', '増収', '減益',
-                       '純利益', '黒字', '赤字', '四半期']):
-        types.append('earnings')
-    # 精品研报/行业数据：先单独标记，避免被普通 strategy 吞掉。
-    is_report = any(k in t for k in [
-        'report', 'forecast', 'market size', 'market share', 'market outlook',
-        'market map', 'benchmark', 'ranking', 'rankings', 'consumer spend',
-        'consumer spending', 'monthly active users', 'subscribers', 'gmv',
-        'gross merchandise', 'payment volume', 'gaming market',
-        'mobile games market', 'games market', '行业报告', '市场预测',
-        '市场规模', '市场份额', '基准测试',
-        # 日文行业数据
-        '調査', 'レポート', 'ランキング', '市場規模', '市場シェア',
-        '予測', '導入率', 'アンケート',
-    ])
-    # 排除"据报道"语境：report/reported/reporter 或 "X: Report" 结尾是媒体报道/记者手记，
-    # 不是行业研报本体（如 "Cursor...: Report"、"Reporter's Notebook"、"Nvidia reportedly..."）。
-    reported_ctx = bool(re.search(r'\b(reportedly|reported|reporter)\b', t)) \
-        or bool(re.search(r'(:\s*report|\|\s*report|-\s*report)\b', t))
-    if is_report and reported_ctx:
-        is_report = False
-    if is_report:
-        types.append('industry_report')
+# >>> MOVED: detect_event_types -> classify.py
 
-    # AI 模型发布：事实进入日报，性能结论另存 claim_type。
-    is_model_release = (
-        any(k in t for k in [
-            'foundation model', 'language model', 'large language model',
-            'multimodal model', 'ai model', 'open-source model',
-            'open source model', '模型发布', '大模型', '多模态模型', '开源模型',
-            'aiモデル', '言語モデル', 'マルチモーダル',
-        ])
-        and any(k in t for k in [
-            'launch', 'launches', 'launched', 'release', 'released', 'unveils',
-            'available', '推出', '发布', '上线', '开放',
-            '発表', 'リリース', '公開', 'ローンチ',
-        ])
-    )
-    if is_model_release:
-        types.append('model_release')
+# >>> MOVED: _source_meta -> source_meta.py
 
-    # 战略/市场（出海、全球化、产品发布）
-    if any(k in t for k in ['partners with', 'partnership', 'strategic',
-                       'joint venture', 'expands to', 'flagship store',
-                       'exits ', 'layoffs', 'shutdown', 'spins off',
-                       'disrupts', 'CEO says', 'CEO on', 'ceo on', 'expansion',
-                       'launches ', 'rolls out', 'deploys', 'to launch',
-                       'launches in', 'listing ', 'eyes $', '$ valuation',
-                       # 出海/国际化关键词（扩充）
-                       'overseas', 'offshore', 'abroad', 'foreign market',
-                       'international', 'global launch', 'global push', 'global ambition',
-                       'enter', 'enters', 'entering', 'to expand', 'expanding',
-                       'global expansion', 'international expansion',
-                       'digital hub', 'digital status', 'digital economy',
-                       'tech hub', 'tech investment', 'AI investment',
-                       # 产品/市场动作（扩充）
-                       'debut', 'debuts', 'debuting', 'launch', 'launched',
-                       'available in', 'rollout', 'available internationally',
-                       'files for IPO', 'goes public', 'listing',
-                       'turnaround', 'restructure', 'reorganization',
-                       'cloud service', 'cloud expansion', 'data center',
-                       'partners with', 'signs MOU', 'joint venture',
-                        # 垂直赛道报告词已单独归类，这里保留其余市场动作词
-                        'report', 'forecast', 'market size', 'market share',
-                       'ranking', 'rankings', 'benchmark', 'consumer spend',
-                       'consumer spending', 'downloads', 'monthly active users',
-                       'subscribers', 'gmv', 'gross merchandise', 'payment volume',
-                        'digital payments', 'mobile wallet', 'social commerce',
-                        'gaming market', 'mobile games market', 'games market',
-                        # 日文战略/市场动作
-                        '提携', 'パートナー', '進出', '撤退', '上場申請',
-                        '提供開始', '新規事業', '販売開始', '事業拡大', '参入']):
-        if not is_report and not is_model_release:
-            types.append('strategy')
-    return types if types else ['other']
-
-def _source_meta(cfg):
-    """保留信源分层，供后续日报/周报/月报按业务口径组织。"""
-    return {
-        'source_tier': cfg.get('source_tier', 'L3 区域生态源'),
-        'source_role': cfg.get('source_role', 'regional_ecosystem'),
-        'vertical': cfg.get('vertical', ''),
-        'source_type': cfg.get('source_type', ''),
-        'access_method': cfg.get('access_method', ''),
-        'signal_types': cfg.get('signal_types', []),
-        'source_id': cfg.get('id', cfg.get('name', '')),
-        'credibility_score': cfg.get('credibility_score', 0),
-        'noise_level': cfg.get('noise_level', ''),
-        'scope_industries': cfg.get('scope_industries', []),
-        'scope_regions': cfg.get('scope_regions', []),
-        'publisher_type': cfg.get('publisher_type', ''),
-        'authority_domains': cfg.get('authority_domains', []),
-        'claim_roles': cfg.get('claim_roles', []),
-        'access_level': cfg.get('access_level', ''),
-        'report_access_level': cfg.get('report_access_level', cfg.get('access_level', '')),
-        'methodology_visibility': cfg.get('methodology_visibility', ''),
-        'report_methodology_visible': cfg.get('report_methodology_visible', False),
-    }
-
-def _with_source_meta(item, cfg):
-    item.update(_source_meta(cfg))
-    company = item.get('company_name') or ''
-    if company and item.get('is_company') and not _title_mentions_aliases(item.get('title', ''), _get_company_aliases(company)):
-        item['title'] = f"{company}: {item.get('title', '')}"
-    item['region'] = infer_event_region(item.get('title', ''), item.get('region', cfg.get('region', '未知')))
-    item['signal_taxonomy'] = infer_signal_taxonomy(item)
-    return item
+# >>> MOVED: _with_source_meta -> source_meta.py
 
 
-SIGNAL_TAXONOMY = {
-    'expansion': ['expands', 'expansion', 'launches in', 'enters', 'new market', 'country', 'localization', 'regional'],
-    'partnership': ['partner', 'partnership', 'collaboration', 'alliance', 'mou', 'co-chair', 'joint'],
-    'payment': ['payment', 'payments', 'wallet', 'bnpl', 'remittance', 'acquiring', 'checkout', 'card', 'fintech'],
-    'commerce': ['commerce', 'ecommerce', 'e-commerce', 'marketplace', 'seller', 'merchant', 'logistics', 'fulfillment'],
-    'ai_infra': ['ai', 'agent', 'model', 'inference', 'gpu', 'cloud', 'data center', 'datacenter', 'compute'],
-    'developer_change': ['api', 'sdk', 'developer', 'changelog', 'release notes', 'platform update'],
-    'capital': ['funding', 'raises', 'raised', 'series ', 'acquires', 'acquisition', 'ipo', 'earnings', 'revenue', 'profit', 'valuation'],
-    'org_change': ['hiring', 'jobs', 'layoffs', 'appoints', 'ceo', 'executive', 'head of'],
-    'compliance': ['license', 'regulation', 'regulatory', 'compliance', 'approval', 'antitrust'],
-}
+# >>> MOVED: SIGNAL_TAXONOMY -> classify.py
 
 
-def infer_signal_taxonomy(item):
-    text = ' '.join([
-        item.get('title', ''),
-        item.get('summary_short', ''),
-        item.get('reason', ''),
-        ' '.join(item.get('signal_types') or []),
-        ' '.join(item.get('source_signal_types') or []),
-        ' '.join(item.get('event_types') or []),
-        item.get('source_role', ''),
-        item.get('source_type', ''),
-    ]).lower()
-    signals = []
-    for signal, keywords in SIGNAL_TAXONOMY.items():
-        if any(keyword in text for keyword in keywords):
-            signals.append(signal)
-    ev_type = (item.get('event_types') or ['other'])[0]
-    if ev_type in {'funding', 'ma', 'earnings'} and 'capital' not in signals:
-        signals.append('capital')
-    return signals or ['general']
+# >>> MOVED: infer_signal_taxonomy -> classify.py
 
 
-REGISTRY_TIER_MAP = {
-    'L1': 'L1 官方/IR源',
-    'L2': 'L2 垂直交易源',
-    'L3': 'L3 区域生态源',
-    'L4': 'L4 垂直赛道精品源',
-    'L5': 'L5 Google News 补漏源',
-}
+# >>> MOVED: REGISTRY_TIER_MAP -> source_meta.py
 
-REGISTRY_ROLE_MAP = {
-    'newsroom': 'official_ir',
-    'ir': 'official_ir',
-    'changelog': 'developer_change',
-    'developer_changelog': 'developer_change',
-    'engineering_blog': 'industry_vertical',
-    'research_report': 'industry_vertical',
-    'industry_media': 'industry_vertical',
-    'media': 'regional_ecosystem',
-}
+# >>> MOVED: REGISTRY_ROLE_MAP -> source_meta.py
 
 
-def _registry_source_to_cfg(src):
-    tier = REGISTRY_TIER_MAP.get(src.get('tier'), src.get('source_tier') or src.get('tier') or 'L3 区域生态源')
-    source_type = src.get('source_type') or 'media'
-    role = src.get('source_role') or REGISTRY_ROLE_MAP.get(source_type, 'regional_ecosystem')
-    cfg = {
-        'id': src.get('id') or src.get('name'),
-        'name': src.get('name'),
-        'url': src.get('url'),
-        'source': src.get('source') or src.get('name'),
-        'region': src.get('region', '全球'),
-        'priority': src.get('priority', 2),
-        'source_tier': tier,
-        'source_role': role,
-        'source_type': source_type,
-        'access_method': src.get('access_method') or src.get('method') or 'rss',
-        'signal_types': src.get('signal_types') or src.get('bd_signal_types') or [],
-        'vertical': src.get('track', ''),
-        'max_scan': src.get('max_scan', 12),
-        'max': src.get('max', 4),
-        'signal_only': src.get('signal_only', True),
-        'credibility_score': src.get('credibility_score', 0),
-        'noise_level': src.get('noise_level', ''),
-        'scope_industries': src.get('scope_industries') or [],
-        'scope_regions': src.get('scope_regions') or [],
-    }
-    for key in ('company_name', 'is_company', 'include_url_patterns', 'allowed_scope_layers'):
-        if key in src:
-            cfg[key] = src[key]
-    for key in ('access_level', 'report_access_level', 'methodology_visibility', 'report_methodology_visible'):
-        if key in src:
-            cfg[key] = src[key]
-    if (
-        tier == 'L1 官方/IR源'
-        and source_type in {'changelog', 'developer_changelog', 'newsroom', 'ir'}
-        and not cfg.get('company_name')
-    ):
-        cfg['company_name'] = src.get('company_name') or _source_entity_name(src.get('source') or src.get('name'))
-        cfg['is_company'] = True
-    return cfg
+# >>> MOVED: _registry_source_to_cfg -> source_meta.py
 
 
-def _source_entity_name(value):
-    name = (value or '').strip()
-    for suffix in (
-        ' Developer Changelog',
-        ' Changelog',
-        ' Newsroom',
-        ' IR News',
-        ' IR',
-        ' Press',
-        ' News',
-    ):
-        if name.endswith(suffix):
-            return name[:-len(suffix)].strip()
-    return name
+# >>> MOVED: _source_entity_name -> source_meta.py
 
 
-def _source_metric_key(item):
-    return item.get('source_id') or item.get('source') or item.get('display_source') or item.get('source_detail') or '未知来源'
+# >>> MOVED: _source_metric_key -> source_meta.py
 
 
-def _count_by_source(items):
-    counts = {}
-    for item in items:
-        key = _source_metric_key(item)
-        counts[key] = counts.get(key, 0) + 1
-    return counts
+# >>> MOVED: _count_by_source -> source_meta.py
 
 
-def _source_funnel_stage(items, total_key):
-    rows = {}
-    for key, count in _count_by_source(items).items():
-        rows[key] = {total_key: count}
-    return rows
+# >>> MOVED: _source_funnel_stage -> source_meta.py
 
 
-def _merge_source_funnel(target, stage_counts):
-    for key, counts in stage_counts.items():
-        row = target.setdefault(key, {})
-        for metric, count in counts.items():
-            row[metric] = row.get(metric, 0) + count
+# >>> MOVED: _merge_source_funnel -> source_meta.py
 
 
-def load_registry_sources(path=None):
-    """从 source_registry 读动态源。
-
-    读不到时返回空列表（调用方据此只用内置 RSS_SOURCES/HTML_SOURCES），
-    与历史行为一致；但会打一行警告——此前静默吞异常，配合相对路径 bug
-    会让整个动态源清单悄悄失效且无人察觉。
-    """
-    path = path or data_path('source_registry.json')
-    try:
-        with open(path, 'r', encoding='utf-8') as f:
-            registry = json.load(f)
-    except (OSError, json.JSONDecodeError) as exc:
-        print(f'⚠️ 读取 source_registry 失败，动态源退化为空: {path} ({type(exc).__name__})',
-              file=sys.stderr)
-        return [], []
-    sources = registry.get('sources') or registry.get('active_sources') or []
-    rss, html = [], []
-    existing_names = {cfg.get('name') for cfg in RSS_SOURCES + HTML_SOURCES}
-    existing_urls = {cfg.get('url') for cfg in RSS_SOURCES + HTML_SOURCES}
-    for src in sources:
-        if src.get('status') not in {'active', 'enabled'}:
-            continue
-        if not src.get('url') or src.get('name') in existing_names or src.get('url') in existing_urls:
-            continue
-        cfg = _registry_source_to_cfg(src)
-        method = cfg.get('access_method')
-        if method in {'rss', 'atom'}:
-            rss.append(cfg)
-        elif method in {'html', 'sitemap', 'pressroom', 'changelog'}:
-            html.append(cfg)
-    return rss, html
+# >>> MOVED: load_registry_sources -> source_meta.py
 
 
-REGION_TITLE_KEYWORDS = [
-    ('亚太', [
-        'india', 'indian', 'vietnam', 'vietnamese', 'singapore', 'malaysia',
-        'indonesia', 'philippines', 'thailand', 'japan', 'japanese', 'korea',
-        'korean', 'australia', 'australian', 'hong kong', 'taiwan',
-        '印度', '越南', '新加坡', '马来西亚', '印尼', '菲律宾', '泰国', '日本', '韩国', '澳大利亚', '香港', '台湾',
-    ]),
-    ('非洲', [
-        'africa', 'african', 'south africa', 'kenya', 'kenyan', 'nigeria',
-        'nigerian', 'egypt', 'egyptian', 'ghana', 'morocco',
-        '非洲', '南非', '肯尼亚', '尼日利亚', '埃及', '加纳', '摩洛哥',
-    ]),
-    ('拉美', [
-        'latin america', 'latam', 'brazil', 'brazilian', 'mexico', 'mexican',
-        'colombia', 'colombian', 'argentina', 'argentine', 'chile', 'chilean',
-        '拉美', '巴西', '墨西哥', '哥伦比亚', '阿根廷', '智利',
-    ]),
-    ('中东', [
-        'middle east', 'mena', 'uae', 'dubai', 'saudi', 'riyadh', 'kuwait',
-        'qatar', 'turkey', 'turkish',
-        '中东', '阿联酋', '迪拜', '沙特', '科威特', '卡塔尔', '土耳其',
-    ]),
-    ('欧洲', [
-        'europe', 'european', 'uk ', 'britain', 'british', 'germany', 'german',
-        'france', 'french', 'spain', 'spanish', 'italy', 'italian', 'finland',
-        'finnish', 'denmark', 'danish', 'sweden', 'swedish', 'norway',
-        '欧洲', '英国', '德国', '法国', '西班牙', '意大利', '芬兰', '丹麦', '瑞典', '挪威',
-    ]),
-    # 注意：不用裸 "us"（子串会误伤 focus/campus/status/august 等），"us" 由 infer_event_region 按单词边界匹配
-    ('北美', [
-        'north america', 'united states', 'u.s.', 'us', 'usa', 'american', 'america',
-        'canada', 'canadian', 'silicon valley',
-        '美国', '北美', '加拿大', '硅谷',
-    ]),
-]
+# >>> MOVED: REGION_TITLE_KEYWORDS -> classify.py
 
 
-def infer_event_region(title, fallback):
-    text = f' {(title or "").lower()} '
-    for region, keywords in REGION_TITLE_KEYWORDS:
-        for keyword in keywords:
-            kw = keyword.lower()
-            # ASCII 短缩写关键词（"us"/"uae"）按单词边界匹配，避免子串误伤 focus/campus/status 等；
-            # "uk " 这类带尾空格的和中文关键词保持子串匹配（中文连排字符间无词边界）
-            if len(kw) <= 3 and not kw.endswith(' ') and kw.isascii():
-                if re.search(rf'\b{re.escape(kw)}\b', text):
-                    return region
-            elif kw in text:
-                return region
-    return fallback or '未知'
+# >>> MOVED: infer_event_region -> classify.py
 
-# 中美公司关键词（匹配标题中出现的公司名，排除不相关内容）
-# 用非贪婪匹配 + 上下文判断，避免误杀（如 "DeepMind raises" 才排除，纯叙述不排除）
-BLACKLIST_COMPANIES = [
-    # 美国公司/产品
-    'OpenAI', 'Anthropic', 'xAI', 'x.AI', 'SpaceX', 'Starlink', 'Palantir',
-    'ChatGPT', 'GPT-4', 'GPT-5', 'Claude ', 'Perplexity', 'Character.AI',
-    'Waymo', 'Cruise',  # 自动驾驶（美）
-    # 中国公司/产品
-    'ByteDance', 'TikTok', 'Douyin', 'DeepSeek', 'Kimi', 'Qwen',
-    # AI 产品名
-    'Gemini ', 'Gemini,', 'Gemini.', 'Gemini/',  # Google AI 产品
-]
-BLACKLIST_PATTERNS = [re.compile(r'\b' + re.escape(c) + r'\b', re.IGNORECASE) for c in BLACKLIST_COMPANIES]
+# >>> MOVED: BLACKLIST_COMPANIES -> classify.py
+# >>> MOVED: BLACKLIST_PATTERNS -> classify.py
 
-def is_blacklisted(title, official=False):
-    # 官方源豁免：黑名单用于压制媒体对非监控中美公司的噪声，
-    # 监控对象自己的官方披露标题含公司名（如 OpenAI/Anthropic）不得被误杀。
-    if official:
-        return False
-    t = title
-    for pat in BLACKLIST_PATTERNS:
-        if pat.search(t):
-            return True
-    # 域名黑名单（URL 中出现这些域名也算排除）
-    for dom in ['openai.com', 'anthropic.com', 'x.ai', 'spacex.com', 'byteDance.com',
-                'tiktok.com', 'deepmind.google', 'waymo.com']:
-        if dom in t.lower():
-            return True
-    return False
+# >>> MOVED: is_blacklisted -> classify.py
 
 
 # >>> MOVED: _strip_title_source -> util.py
@@ -633,353 +343,99 @@ def is_blacklisted(title, official=False):
 # >>> MOVED: _title_tokens -> util.py
 
 
-def _normalize_event_subject(subject):
-    tokens = []
-    for token in _normalize_text(subject).split():
-        if token in EVENT_ENTITY_STOPWORDS:
-            continue
-        if len(token) <= 1:
-            continue
-        tokens.append(token)
-    return ' '.join(tokens[:4])
+# >>> MOVED: _normalize_event_subject -> classify.py
 
 
-def _title_subject_key(title):
-    clean = _strip_title_source(title or '').strip()
-    clean = re.sub(r'^[^A-Za-z0-9\u4e00-\u9fff]{0,3}(?:[^:]{2,36}:\s*)', '', clean)
-    patterns = [
-        r'\b([A-Z][A-Za-z0-9\.\-]{2,})\s+(?:raises?|raised|secures?|secured|closes?|closed)\b',
-        r'\b([A-Z][A-Za-z0-9\.\-]{2,})\s+(?:doubles?|doubled|hits?|hit|reaches?|reached|is\s+valued|was\s+valued|valued)\b',
-        r'^([A-Z][A-Za-z0-9\s&\.,\'\-\u2019]+?)\s+(?:raises?|raised|secures?|secured|closes?|closed|lands?|landed|bags?|bagged|gets?|got|receives?|received|attracts?|attracted|wins?|won)\b',
-        r'^([A-Z][A-Za-z0-9\s&\.,\'\-\u2019]+?)\s+(?:doubles?|doubled|hits?|hit|reaches?|reached|is\s+valued|was\s+valued|valued)\b',
-        r'^([A-Z][A-Za-z0-9\s&\.,\'\-\u2019]+?)\s+(?:acquires?|acquired|buys?|bought|purchases?|purchased|merges?|merged)\b',
-        r'^([A-Z][A-Za-z0-9\s&\.,\'\-\u2019]+?)\s+(?:announces?|announced|reports?|reported|posts?|posted|files?|filed|plans?|planned|launches?|launched|expands?|expanded|partners?|partnered)\b',
-    ]
-    for pattern in patterns:
-        match = re.search(pattern, clean, re.I)
-        if not match:
-            continue
-        subject = match.group(1).strip().strip(',;:-')
-        subject = re.sub(r'^(?:why|how|what|when|where|inside|after)\s+', '', subject, flags=re.I)
-        if 2 <= len(subject) <= 60:
-            key = _normalize_event_subject(subject)
-            if key:
-                return key
-    return ''
+# >>> MOVED: _title_subject_key -> classify.py
 
 
-def _event_subject_key(item):
-    company = item.get('company_name') or ''
-    if company:
-        key = _normalize_event_subject(company)
-        if key:
-            return key
-    companies = item.get('companies') or []
-    if isinstance(companies, list) and companies:
-        key = _normalize_event_subject(str(companies[0]))
-        if key:
-            return key
-    return _title_subject_key(item.get('title', ''))
+# >>> MOVED: _event_subject_key -> classify.py
 
 
-_FINANCIAL_NEGATIVE_WORDS = (
-    'down', 'drop', 'falls', 'fall', 'fell', 'loss', 'losses', 'miss',
-    'misses', 'decline', 'declines', 'plunge', 'plunges', 'slump', '下滑', '下降', '亏损',
-)
+# >>> MOVED: _FINANCIAL_NEGATIVE_WORDS -> classify.py
 
 
-def _has_negative_financial_word(title):
-    t = (title or '').lower()
-    return any(w in t for w in _FINANCIAL_NEGATIVE_WORDS)
+# >>> MOVED: _has_negative_financial_word -> classify.py
 
 
-def _financial_direction_consistent(a, b):
-    """财报方向一致才判同：一条「利润创新高」一条「净利大跌」方向相反，是不同事件。"""
-    return _has_negative_financial_word(a.get('title', '')) == _has_negative_financial_word(b.get('title', ''))
+# >>> MOVED: _financial_direction_consistent -> classify.py
 
 
-def _get_company_aliases(cfg_or_name):
-    name = cfg_or_name if isinstance(cfg_or_name, str) else cfg_or_name.get('name', '')
-    aliases = list(COMPANY_ALIASES.get(name, []))
-    if name and name not in aliases:
-        aliases.append(name)
-    return aliases
+# >>> MOVED: _get_company_aliases -> classify.py
 
 
-def _title_mentions_aliases(title, aliases):
-    norm_title = ' ' + _normalize_text(title) + ' '
-    for alias in aliases:
-        alias_norm = _normalize_text(alias)
-        if not alias_norm:
-            continue
-        if f' {alias_norm} ' in norm_title:
-            return True
-        if alias_norm.replace(' ', '') and alias_norm.replace(' ', '') in norm_title.replace(' ', ''):
-            return True
-    return False
+# >>> MOVED: _title_mentions_aliases -> classify.py
 
 
-def _title_mentions_company(title, cfg):
-    """
-    Google News 查询会放大相关词，这里要求标题至少命中一个公司别名，
-    防止把行业新闻误记到监控公司名下。
-    """
-    return _title_mentions_aliases(title, _get_company_aliases(cfg))
+# >>> MOVED: _title_mentions_company -> classify.py
 
 
-def _is_low_signal_company_title(title):
-    title_lower = title.lower()
-    return any(pattern in title_lower for pattern in COMPANY_LOW_SIGNAL_PATTERNS)
+# >>> MOVED: _is_low_signal_company_title -> classify.py
 
 
-def _is_traditional_bank_item(item):
-    """Fintech 源会带回传统商业银行事件（财报/贷款/资产出售），
-    这些机构主体不是互联网/科技公司，不属于情报站定位，排除。
-    数字银行/金融科技公司（名字含 bank 但属于科技）优先豁免。"""
-    if item.get('is_company') or _is_official_company_source(item):
-        return False
-    text = ' '.join([
-        item.get('title', ''),
-        item.get('company_name', ''),
-        item.get('publisher', ''),
-    ]).lower()
-    if any(p.lower() in text for p in BANK_PROTECTED_FINTECH):
-        return False
-    return any(b.lower() in text for b in TRADITIONAL_BANKS)
+# >>> MOVED: _is_traditional_bank_item -> classify.py
 
 
-def _is_chinese_outbound_title(title):
-    title_lower = (title or '').lower()
-    return any(pattern in title_lower for pattern in CHINESE_OUTBOUND_PATTERNS)
+# >>> MOVED: _is_chinese_outbound_title -> classify.py
 
 
-def _is_official_company_source(item):
-    return item.get('source_tier') == 'L1 官方/IR源' or item.get('source_role') == 'official_ir'
+# >>> MOVED: _is_official_company_source -> classify.py
 
 
-def _is_vertical_source(item):
-    return item.get('source_role') == 'industry_vertical' or item.get('source_tier') == 'L4 垂直赛道精品源'
+# >>> MOVED: _is_vertical_source -> classify.py
 
 
-def _is_high_signal_vertical_title(title):
-    t = (title or '').lower()
-    keywords = [
-        'report', 'market', 'forecast', 'ranking', 'rankings', 'top ', 'top-', 'trend',
-        'trends', 'benchmark', 'data', 'revenue', 'spend', 'spending', 'downloads',
-        'users', 'subscribers', 'gmv', 'payment', 'payments', 'wallet', 'license',
-        'regulation', 'regulatory', 'launches', 'expands', 'partners', 'partnership',
-        'acquires', 'acquisition', 'merger', 'raises', 'funding', 'investment',
-        'gaming market', 'mobile games', 'ecommerce', 'e-commerce', 'fintech',
-        'digital commerce', 'social commerce', 'super app',
-    ]
-    return any(k in t for k in keywords)
+# >>> MOVED: _is_high_signal_vertical_title -> classify.py
 
 
-def _event_similarity(a, b):
-    ta = set(_title_tokens(a.get('title', '')))
-    tb = set(_title_tokens(b.get('title', '')))
-    if not ta or not tb:
-        return 0.0
-    return len(ta & tb) / len(ta | tb)
+# >>> MOVED: _event_similarity -> classify.py
 
 
-# 公司名后缀归一：Sea Limited → sea、Square Enix Holdings → square enix
-_COMPANY_KEY_SUFFIXES = (
-    'inc', 'incorporated', 'limited', 'ltd', 'corporation', 'corp',
-    'holdings', 'technologies', 'technology', 'plc', 'ag',
-)
+# >>> MOVED: _COMPANY_KEY_SUFFIXES -> classify.py
 
-# 与常见英文词冲突的公司别名：子串/词边界匹配会把 "credit line"、"SeABank"、
-# "to grab share" 等普通词误判为公司，禁止用它们做别名对齐（公司名来源不受影响）。
-_GENERIC_ALIAS_TOKENS = {
-    'line', 'sea', 'noon', 'grab', 'stc', 'jd', 'mo', 'tab', 'tabby', 'allegro',
-}
+# >>> MOVED: _GENERIC_ALIAS_TOKENS -> classify.py
 
-# 事实性事件类型：同一实体同日只可能有一件，直接以实体键合并。
-# strategy/industry_report 等允许一实体一日多事，仍走标题相似度，避免误并。
-_SINGULAR_EVENT_TYPES = {'funding', 'ma', 'earnings'}
+# >>> MOVED: _SINGULAR_EVENT_TYPES -> classify.py
 
-_EVENT_TYPE_PRIORITY = (
-    'funding', 'ma', 'earnings', 'industry_report', 'model_release',
-    'regional_policy', 'strategy', 'other',
-)
+# >>> MOVED: _EVENT_TYPE_PRIORITY -> classify.py
 
 
-def _normalize_company_key(name):
-    """公司实体键：去公司后缀、归一为小写词序列，用于跨报道对齐。"""
-    if not name:
-        return ''
-    norm = _normalize_text(str(name))
-    if not norm:
-        return ''
-    tokens = norm.split()
-    while tokens and tokens[-1] in _COMPANY_KEY_SUFFIXES:
-        tokens.pop()
-    if not tokens:
-        tokens = norm.split()[:1]
-    return ' '.join(tokens[:4])
+# >>> MOVED: _normalize_company_key -> classify.py
 
 
-def _entity_key_info(item):
-    """
-    提取事件实体键，返回 (entity_key, source)。
-    source 标识键的可靠度：
-      'company' — company_name 权威（监控公司）
-      'alias'   — 标题命中已知公司别名（补 company_name 缺失的缺口，如 Jumia 融资第二条）
-      'title'   — 标题动词提取（弱信号，合并时需相似度防误并）
-
-    性能：本函数只依赖 (company_name, title)，是纯函数；但别名遍历要做
-    上百次 re.search，而展示层去重是 O(n²) 调用，实测 3796 条事件时
-    单点耗时累积到 40 分钟以上。因此内部按 (company_name, title) 缓存。
-    """
-    return _entity_key_info_cached(item.get('company_name') or '', item.get('title') or '')
+# >>> MOVED: _entity_key_info -> classify.py
 
 
-@lru_cache(maxsize=200000)
-def _entity_key_info_cached(company_name, title):
-    item = {'company_name': company_name, 'title': title}
-    company = item.get('company_name') or ''
-    key = _normalize_company_key(company)
-    if key:
-        return key, 'company'
-    title_lower = (item.get('title') or '').lower()
-    best_alias = ''
-    for aliases in COMPANY_ALIASES.values():
-        for alias in aliases:
-            a = str(alias).lower()
-            if len(a) < 3 or a in _GENERIC_ALIAS_TOKENS:
-                continue
-            if len(a) > len(best_alias) and re.search(r'\b' + re.escape(a) + r'\b', title_lower):
-                best_alias = a
-    if best_alias:
-        return _normalize_company_key(best_alias), 'alias'
-    subj = _event_subject_key(item)
-    if subj:
-        return subj, 'title'
-    return '', 'none'
+# >>> MOVED: _entity_key_info_cached -> classify.py
 
 
-def _primary_event_type(item):
-    """事件类型主键：多类型归一为优先级最高的那个（Jumia funding+earnings → funding）。"""
-    types = item.get('event_types') or ['other']
-    for t in _EVENT_TYPE_PRIORITY:
-        if t in types:
-            return t
-    return types[0] if types else 'other'
+# >>> MOVED: _primary_event_type -> classify.py
 
 
-# 事件锚点词：同公司同日不同文章是否指向同一事件（财报/融资/并购）
-_FINANCIAL_ANCHOR_WORDS = (
-    'revenue', 'earnings', 'profit', 'quarter', 'quarterly', 'result',
-    'financial', 'fiscal', 'income', 'operating', 'net income',
-    '财报', '营收', '净利', '净亏', '決算', '営業利益', '純利益', '増収', '減益',
-)
-_FUNDING_SIGNAL_WORDS = (
-    'raise', 'raises', 'raised', 'funding', 'seed', 'valuation', 'valued',
-    'investment', 'secures', 'secured', 'closes', 'closed', 'bags', 'landed',
-    '$', '€', '£', 'series ', 'unicorn', '融资', '調達', '出資', '億円',
-    'ipo', 'listing', 'filing', 'registration', '上市', '上場',
-)
-_MA_SIGNAL_WORDS = (
-    'acquire', 'acquires', 'acquired', 'acquisition', 'merger', 'merges', 'merging',
-    'merge', 'buy', 'buys', 'buying', 'purchase', 'takeover',
-    'deal', 'deals', 'deal to', 'agreement', 'bid', '收购', '并购', '買収', '合併',
-)
+# >>> MOVED: _FINANCIAL_ANCHOR_WORDS -> classify.py
+# >>> MOVED: _FUNDING_SIGNAL_WORDS -> classify.py
+# >>> MOVED: _MA_SIGNAL_WORDS -> classify.py
 
 
-def _has_financial_anchor(title):
-    t = (title or '').lower()
-    if re.search(r'\bq[1-4]\b', t):
-        return True
-    return any(w in t for w in _FINANCIAL_ANCHOR_WORDS)
+# >>> MOVED: _has_financial_anchor -> classify.py
 
 
-def _has_funding_signal(title):
-    t = (title or '').lower()
-    if re.search(r'\bseries\s+[a-e]\b', t):
-        return True
-    return any(w in t for w in _FUNDING_SIGNAL_WORDS)
+# >>> MOVED: _has_funding_signal -> classify.py
 
 
-def _has_ma_signal(title):
-    t = (title or '').lower()
-    return any(w in t for w in _MA_SIGNAL_WORDS)
+# >>> MOVED: _has_ma_signal -> classify.py
 
 
 # >>> MOVED: _parse_iso_date -> util.py
 
 
-def _dates_adjacent(a, b, window_days=3):
-    date_a = (a.get('article_date') or a.get('date') or '')[:10]
-    date_b = (b.get('article_date') or b.get('date') or '')[:10]
-    if not date_a or not date_b:
-        return True
-    parsed_a = _parse_iso_date(date_a)
-    parsed_b = _parse_iso_date(date_b)
-    if parsed_a is None or parsed_b is None:
-        return False
-    return abs((parsed_a - parsed_b).days) <= window_days
+# >>> MOVED: _dates_adjacent -> classify.py
 
 
-def _normalize_canonical_key(value):
-    """归一化事件量化锚点：金额统一成 数字+m 格式（$250M / $250 Million / 2.5亿美元 → 250m）；
-    非金额（公司名/人数/百分比）小写去标点。空或无识别内容返回空串（指纹路径不触发）。"""
-    if not value:
-        return ''
-    v = str(value).strip()
-    if not v:
-        return ''
-    m = re.search(r'([\d.]+)\s*(bn|billion|b|mn|million|m|k|亿|万)', v.lower())
-    if m:
-        try:
-            num = float(m.group(1))
-        except ValueError:
-            return ''
-        unit = m.group(2)
-        if unit in ('bn', 'billion', 'b'):
-            num *= 1000
-        elif unit == '亿':
-            num *= 100
-        elif unit == '万':
-            num *= 0.01
-        elif unit == 'k':
-            num *= 0.001
-        if abs(num - round(num)) < 1e-9:
-            return f'{int(round(num))}m'
-        return f'{num:.2f}m'.rstrip('0').rstrip('.') + 'm'
-    return re.sub(r'[^a-z0-9%一-鿿]+', '', v.lower())
+# >>> MOVED: _normalize_canonical_key -> classify.py
 
 
-def _fingerprint_match(a, b):
-    """AI 指纹合并判定：canonical_company + canonical_key 全匹配视为同一事件。
-    类型漂移仲裁：AI 对同一件事前后两班可能判出不同主类型（实测同一增持事件
-    funding/strategy 来回漂），此时用标题相似度（≥0.42，与旧规则 strategy 守卫
-    同档）确认是同一件事的不同报道；不像则不敢单凭指纹判同，返回 None 交回旧规则。
-    锚点缺失放宽：无量化锚点的事件（股价异动、合作等）canonical_key 常为空，
-    原逻辑直接不判导致漏并（PayPal 股价案）；改为公司主体相同 + 主类型相同 +
-    标题相似度达标也判同。任一项缺失（存量事件无指纹）返回 None；
-    锚点明确不同返回 False（不同事件）。"""
-    ca = a.get('canonical_company') or ''
-    cb = b.get('canonical_company') or ''
-    if not ca or not cb:
-        return None
-    if _normalize_company_key(ca) != _normalize_company_key(cb):
-        return None
-    ka = _normalize_canonical_key(a.get('canonical_key') or '')
-    kb = _normalize_canonical_key(b.get('canonical_key') or '')
-    if not ka or not kb:
-        # 无锚点：主体+类型+相似度三重确认，防同公司不同事件误并
-        sim = _event_similarity(a, b)
-        if _primary_event_type(a) == _primary_event_type(b) and sim >= 0.42:
-            return True
-        return None
-    if ka != kb:
-        return False
-    if _primary_event_type(a) == _primary_event_type(b):
-        return True
-    if _event_similarity(a, b) >= 0.42:
-        return True
-    return None
+# >>> MOVED: _fingerprint_match -> classify.py
 
 
 # ============================================================
@@ -1599,30 +1055,7 @@ OFFICIAL_SOURCE_NAV_PREFIXES = (
     'latest stories business consumers',
 )
 
-HTML_SOURCES = [
-    # DealStreetAsia RSS 停用（"Temporarily Disabled"），主站为 JS SPA
-    # 低频尝试：只采集新闻类页面，报告/评论页已过滤
-    {'name': 'DealStreetAsia', 'url': 'https://dealstreetasia.com/', 'source': 'DealStreetAsia', 'region': '亚太', 'priority': 1, 'source_tier': 'L2 垂直交易源', 'source_role': 'venture_media'},
-    # e27：Angular JS + Cloudflare 双层保护，RSS + HTML 均无法采集，已移除
-    # 官方/IR源：用于校准重点客户自身披露，低频但高可信
-    {'name': 'Rakuten IR', 'url': 'https://global.rakuten.com/corp/news/press/?category=ir', 'source': 'Rakuten Group', 'region': '亚太', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Rakuten', 'is_company': True, 'max': 4},
-    {'name': 'MercadoLibre IR', 'url': 'https://investor.mercadolibre.com/news-and-events', 'source': 'MercadoLibre', 'region': '拉美', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'MercadoLibre', 'is_company': True, 'max': 4},
-    {'name': 'Adyen IR', 'url': 'https://www.adyen.com/press-and-media', 'source': 'Adyen', 'region': '欧洲', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Adyen', 'is_company': True, 'max': 4},
-    {'name': 'Sea Newsroom', 'url': 'https://www.sea.com/media/news', 'source': 'Sea Limited', 'region': '亚太', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Sea Limited', 'is_company': True, 'max': 4},
-    {'name': 'Zalando IR', 'url': 'https://www.zalando.com/en/investor-relations/news-stories/', 'source': 'Zalando', 'region': '欧洲', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Zalando', 'is_company': True, 'max': 4},
-    {'name': 'Allegro Newsroom', 'url': 'https://allegro.eu/newsroom', 'source': 'Allegro', 'region': '欧洲', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Allegro', 'is_company': True, 'max': 4},
-    {'name': 'Kaspi.kz IR', 'url': 'https://ir.kaspi.kz/news-releases/', 'source': 'Kaspi.kz', 'region': '中东', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Kaspi.kz', 'is_company': True, 'max': 4},
-    {'name': 'Naver Press', 'url': 'https://www.navercorp.com/en/media/pressReleases', 'source': 'Naver', 'region': '亚太', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Naver', 'is_company': True, 'max': 4},
-    {'name': 'Kakao Press', 'url': 'https://www.kakaocorp.com/page/detail/pr?lang=en', 'source': 'Kakao', 'region': '亚太', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Kakao', 'is_company': True, 'max': 4},
-    {'name': 'HKTVmall IR News', 'url': 'https://ir.hktv.com.hk/media-news', 'source': 'HKTVmall', 'region': '亚太', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'HKTVmall', 'is_company': True, 'max': 4},
-    {'name': 'U-NEXT News', 'url': 'https://unext-hd.co.jp/newsrelease/', 'source': 'U-NEXT', 'region': '亚太', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'U-NEXT', 'is_company': True, 'max': 4},
-    {'name': 'Square Enix IR News', 'url': 'https://www.hd.square-enix.com/eng/ir/irnews/', 'source': 'Square Enix', 'region': '亚太', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Square Enix', 'is_company': True, 'max': 4},
-    {'name': 'Jumia Newsroom', 'url': 'https://group.jumia.com/news', 'source': 'Jumia', 'region': '非洲', 'priority': 3, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Jumia', 'is_company': True, 'max': 4},
-    # 2026-08 补缺：JD/Yahoo/Tabby/Cyberagent 官方源（Google News 两路都空，补官方披露）
-    {'name': 'JD.com IR', 'url': 'https://ir.jd.com/news-releases', 'source': 'JD.com', 'region': '中资', 'priority': 2, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'JD.com', 'is_company': True, 'max': 4},
-    {'name': 'Yahoo Press', 'url': 'https://www.yahooinc.com/press/', 'source': 'Yahoo', 'region': '亚太', 'priority': 1, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Yahoo', 'is_company': True, 'max': 4},
-    {'name': 'Tabby Press', 'url': 'https://www.tabby.ai/press/', 'source': 'Tabby', 'region': '中东', 'priority': 2, 'source_tier': 'L1 官方/IR源', 'source_role': 'official_ir', 'company_name': 'Tabby', 'is_company': True, 'max': 4},
-]
+# >>> MOVED: HTML_SOURCES -> constants.py
 
 def _is_official_cfg(cfg):
     return cfg.get('source_tier') == 'L1 官方/IR源' or cfg.get('source_role') == 'official_ir'
@@ -3254,20 +2687,10 @@ def attach_date_context(event, item):
     return apply_event_date_metadata(event, fallback_observed_at=_cn_now())
 
 
-_VALID_EVENT_TYPES = {
-    'funding', 'ma', 'earnings', 'strategy', 'industry_report',
-    'model_release', 'regional_policy', 'other',
-}
+# >>> MOVED: _VALID_EVENT_TYPES -> classify.py
 
 
-def _ai_event_types(analysis_types, fallback_types):
-    """AI 判定的事件类型：合法单值才采用，否则用采集侧类型兜底（防模型幻觉输出垃圾）。"""
-    t = analysis_types
-    if isinstance(t, str):
-        t = [t]
-    if isinstance(t, list) and t and all(x in _VALID_EVENT_TYPES for x in t):
-        return t
-    return fallback_types or ['other']
+# >>> MOVED: _ai_event_types -> classify.py
 
 
 def build_event(item, analysis=None, analysis_source=None, analysis_status=None):
