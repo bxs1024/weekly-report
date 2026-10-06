@@ -5,6 +5,7 @@
 
 import json, os, time, re, hashlib
 from datetime import datetime, timedelta, timezone
+from functools import lru_cache
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 import feedparser
@@ -1097,7 +1098,17 @@ def _entity_key_info(item):
       'company' — company_name 权威（监控公司）
       'alias'   — 标题命中已知公司别名（补 company_name 缺失的缺口，如 Jumia 融资第二条）
       'title'   — 标题动词提取（弱信号，合并时需相似度防误并）
+
+    性能：本函数只依赖 (company_name, title)，是纯函数；但别名遍历要做
+    上百次 re.search，而展示层去重是 O(n²) 调用，实测 3796 条事件时
+    单点耗时累积到 40 分钟以上。因此内部按 (company_name, title) 缓存。
     """
+    return _entity_key_info_cached(item.get('company_name') or '', item.get('title') or '')
+
+
+@lru_cache(maxsize=200000)
+def _entity_key_info_cached(company_name, title):
+    item = {'company_name': company_name, 'title': title}
     company = item.get('company_name') or ''
     key = _normalize_company_key(company)
     if key:
