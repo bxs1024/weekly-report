@@ -165,6 +165,7 @@ def cmd_checkmod(modname):
                 (bound if isinstance(n.ctx, ast.Store) else used).add(n.id)
 
             def visit_FunctionDef(self, n):
+                bound.add(n.name)
                 for a in n.args.args + n.args.kwonlyargs + n.args.posonlyargs:
                     bound.add(a.arg)
                 if n.args.vararg:

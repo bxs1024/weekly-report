@@ -184,3 +184,7 @@ def load_registry_sources(path=None):
         elif method in {'html', 'sitemap', 'pressroom', 'changelog'}:
             html.append(cfg)
     return rss, html
+
+
+def _is_official_cfg(cfg):
+    return cfg.get('source_tier') == 'L1 官方/IR源' or cfg.get('source_role') == 'official_ir'

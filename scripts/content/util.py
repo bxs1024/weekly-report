@@ -104,3 +104,17 @@ def _same_host_url(base_url, href):
 
 def _is_http_url(url):
     return isinstance(url, str) and url.startswith(('http://', 'https://'))
+
+
+def _extract_date_from_url(url):
+    """从 URL 提取日期兜底，如 /2026/04/15/"""
+    m = re.search(r'/(\d{4})/(\d{2})/(\d{2})/', url)
+    if m:
+        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+    m = re.search(r'(?<!\d)(20\d{2})[-_.](\d{2})[-_.](\d{2})(?!\d)', url or '')
+    if m:
+        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+    m = re.search(r'(?<!\d)(20\d{2})(\d{2})(\d{2})(?!\d)', url or '')
+    if m:
+        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+    return None
