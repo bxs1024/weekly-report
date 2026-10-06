@@ -202,314 +202,46 @@ except ImportError:
         enrich,
     )
 
-def load_events():
-    with open(data_path('events.json'), 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    if isinstance(data, list):
-        grouped = {}
-        for event in data:
-            date = event.get('date', _cn_today())[:10]
-            grouped.setdefault(date, []).append(enrich(prepare_event_contract(dict(event))))
-        return grouped
-    return {
-        k: [enrich(prepare_event_contract(dict(e))) for e in v]
-        for k, v in data.items()
-        if is_display_date(k, now=_cn_now())
-    }
-
-
-def split_company_events(events):
-    """
-    将事件拆分为公司动态和通用热点
-    - 公司动态只保留7天内，不过滤
-    - 通用热点：排除 other 类型，保留可解释、可展示的信号事件
-    """
-    week_ago = (_cn_now() - timedelta(days=7)).strftime('%Y-%m-%d')
-    for evs in events.values():
-        for e in evs:
-            if not e.get('is_company'):
-                ensure_business_fields(e)
-    return select_company_events(events, week_ago)
-
-def get_signal_events(events):
-    """
-    获取信号事件：
-    1. 只取最近7天内的信号事件
-    2. 排除中资出海
-    3. 排除other类型
-    4. 排除低评分（<5）事件
-    5. 按日期倒序排序
-    """
-    seen = set()
-    result = []
-
-    week_ago = (_cn_now() - timedelta(days=7)).strftime('%Y-%m-%d')
-
-    for date in sorted(events.keys(), reverse=True):
-        # 只处理最近7天内的日期
-        if date < week_ago:
-            continue
-
-        for event in events[date]:
-            if event['url'] in seen:
-                continue
-            seen.add(event['url'])
-
-            # 排除中资出海
-            if event.get('is_chinese_capital'):
-                continue
-
-            # 只取信号事件（排除other类型）
-            ev_type = event.get('event_types', ['other'])[0]
-            if ev_type == 'other':
-                continue
-
-            # 排除低评分事件（规则层注意力分<50视为低质量）
-            score = event_score(event)
-            if score < 50:
-                continue
-
-            result.append(event)
-
-    return result  # 已经在日期倒序遍历，返回即有序
-
-def build_weekly_summary(all_feed, signals, latest_date_events, all_events, summary_date=None):
-    """生成周报摘要：排除中资出海，只展示真正的"非中美"动态"""
-    # 排除中资出海（中资有独立标签页）
-    non_chinese = [e for e in all_feed if not e.get('is_chinese_capital')]
-    # ── 数字统计 ───────────────────────────────────────────
-    funding = sum(1 for e in non_chinese if e.get('event_types', [''])[0] == 'funding')
-    ma      = sum(1 for e in non_chinese if e.get('event_types', [''])[0] == 'ma')
-    earnings= sum(1 for e in non_chinese if e.get('event_types', [''])[0] == 'earnings')
-    strategy= sum(1 for e in non_chinese if e.get('event_types', [''])[0] == 'strategy')
-    total   = len(non_chinese)
-
-    # ── type_counts：动态生成筛选按钮用 ───────────────────
-    type_counts = {
-        '融资': funding, '并购': ma, '财报': earnings, '战略': strategy,
-    }
-
-    # 区域分布
-    region_counts = {}
-    for e in non_chinese:
-        r = e.get('region', '未知')
-        if r != '未知':
-            region_counts[r] = region_counts.get(r, 0) + 1
-    region_counts = dict(sorted(region_counts.items(), key=lambda x: x[1], reverse=True))
-    hot_region = max(region_counts, key=region_counts.get) if region_counts else ''
-
-    # ── 金额计算（用于 headline）───────────────────────
-    # 找最大融资事件
-    funding_events = [e for e in non_chinese if e.get('event_types', [''])[0] == 'funding']
-    top_funding = max(funding_events, key=lambda x: event_score(x), default=None)
-    max_ma = next((e for e in non_chinese if e.get('event_types', [''])[0] == 'ma'), None)
-
-    # ── Headline ────────────────────────────────────────
-    # 用趋势描述，不用单一事件（避免"说亚太最强但Top3全是欧洲"的尴尬）
-    parts_hl = []
-    if funding > 0:
-        parts_hl.append(f"融资{int(funding)}起")
-    if ma > 0:
-        parts_hl.append(f"并购{int(ma)}起")
-    if earnings > 0:
-        parts_hl.append(f"财报{int(earnings)}起")
-    if hot_region and region_counts.get(hot_region):
-        parts_hl.append(f"{hot_region}{region_counts[hot_region]}起")
-    headline = "、".join(parts_hl) if parts_hl else f"共{int(total)}条动态"
-    if len(region_counts) > 1:
-        headline += f"覆盖{len(region_counts)}地区"
-
-    # ── Summary ─────────────────────────────────────────
-    parts = []
-    if hot_region and region_counts.get(hot_region):
-        parts.append(f"{hot_region}事件最多（{region_counts[hot_region]}起），占今日大头。")
-    if funding >= 3:
-        tf = top_funding
-        top_co = tf.get('companies', [''])[0] if tf and tf.get('companies') else ''
-        top_amt = _format_amount(_parse_amount(tf.get('title', ''))) if tf else ''
-        if top_co and top_amt:
-            parts.append(f"融资仍是主旋律，共{funding}起，最大单笔{top_co} {top_amt}。")
-        elif top_co:
-            parts.append(f"融资仍是主旋律，共{funding}起，最大单笔来自{top_co}。")
-        else:
-            parts.append(f"融资仍是主旋律，共{funding}起。")
-    elif funding >= 1:
-        parts.append(f"有{funding}起融资落地。")
-    if ma >= 1:
-        parts.append(f"另有{ma}起并购，显示{hot_region or '该地区'}行业整合加速。")
-    if earnings >= 1:
-        parts.append(f"本周财报季有{earnings}起值得关注。")
-    if strategy >= 1:
-        parts.append(f"另有{strategy}起战略动态值得关注。")
-    if not parts:
-        parts.append(f"共{total}条动态，覆盖{', '.join(region_counts.keys()) if region_counts else '各地区'}。")
-    summary = ' '.join(parts)
-
-    # Market Pulse must be scoped to the displayed batch. Otherwise historical
-    # date panels show today's signals under an older date.
-    mp_events = [
-        e for e in non_chinese
-        if e.get('event_types', ['other'])[0] != 'other'
-    ]
-    mp_events.sort(key=lambda e: (event_score(e), e.get('date', '')), reverse=True)
-    mp_events = mp_events[:7]
-
-    # ── P0 Agent：读取 AI 趋势分析，覆盖程序摘要 ──
-    try:
-        summary_path = data_path('summary.json')
-        if os.path.exists(summary_path):
-            with open(summary_path, 'r', encoding='utf-8') as sf:
-                ai_summaries = json.load(sf)
-            today_s = summary_date or _cn_today()
-            if total and today_s in ai_summaries:
-                ai_text = ai_summaries[today_s].strip()
-                if len(ai_text) >= 20:
-                    summary = ai_text  # 用 AI 生成的趋势分析代替程序摘要
-    except Exception:
-        pass  # 降级：保留程序生成摘要
-
-    return {
-        'total_events': total,
-        'total_signals': len(signals),
-        'funding': funding,
-        'ma': ma,
-        'earnings': earnings,
-        'strategy': strategy,
-        'regions': len(region_counts),
-        'region_distribution': region_counts,
-        'type_counts': type_counts,
-        'headline': headline,
-        'summary': summary,
-        'top3': mp_events[:3],  # 保持兼容
-        'top7': mp_events,  # 新增：今日要点7条
-    }
-
-def build_trend_groups(events):
-    """将事件按趋势主题分组，如果没有 trend_topic 则按 company_name / insight_label 降级"""
-    groups = {}
-    for e in events:
-        topic = e.get('trend_topic')
-        if not topic:
-            region = e.get('region', '')
-            company = e.get('company_name', '')
-            if company:
-                topic = f"{company}动态 — {region}" if region else f"{company}动态"
-            else:
-                label = e.get('insight_label', '其他')
-                topic = f"{label} — {region}" if region else label
-        groups.setdefault(topic, []).append(e)
-    result = [{'topic': k, 'events': v} for k, v in groups.items()]
-    result.sort(key=lambda x: len(x['events']), reverse=True)
-    return result
-
-
-def keep_focus_date_clusters(clusters, limit=3):
-    """Only keep rolling-window clusters that actually touch the selected date."""
-    return [cluster for cluster in clusters or [] if cluster.get('has_focus_date')][:limit]
-
-
-DAILY_EVENT_GROUPS = [
-    ('selected', '精选', '最先看，强信号、强相关、可直接进入判断'),
-    ('important', '重点', '值得继续跟，有明确对象或方向'),
-    ('watch', '观察', '保留事实，用于背景留档和后续跟踪'),
-]
-
-
-def _daily_event_group_key(event):
-    frozen = event.get('view_priority')
-    if frozen in {'selected', 'important', 'watch'}:
-        return frozen
-    priority = classify_bd_priority(event)
-    if priority == '高':
-        return 'selected'
-    if priority == '中':
-        return 'important'
-    return 'watch'
-
-
-def build_daily_event_groups(events):
-    """Group qualified daily events without weakening the main-list gate."""
-    grouped = {key: [] for key, _, _ in DAILY_EVENT_GROUPS}
-    for event in events:
-        grouped[_daily_event_group_key(event)].append(event)
-    return [
-        {
-            'key': key,
-            'label': label,
-            'description': description,
-            'events': grouped[key],
-        }
-        for key, label, description in DAILY_EVENT_GROUPS
-        if grouped[key]
-    ]
-
-
-def build_daily_navigation_copy(groups):
-    """Build plain daily copy for the event-navigation layer."""
-    total = sum(len(group['events']) for group in groups)
-    if total <= 0:
-        return '今日事件导航', '当前没有通过本站边界和信源筛选的日报事件。'
-    counts = '，'.join(f"{group['label']} {len(group['events'])} 条" for group in groups)
-    return (
-        f"今日事件导航：{total} 条合格事件",
-        f"{counts}。信源筛选和产品边界仍是准入门槛，分层只负责帮你决定先看什么。",
+try:
+    from publication.date_panel import (
+        DAILY_EVENT_GROUPS,
+        _daily_event_group_key,
+        build_daily_event_groups,
+        build_daily_navigation_copy,
+        build_date_panel,
+        select_homepage_events_for_date,
+        strip_cluster_event_payloads,
+        group_events_by_date,
     )
-
-
-def build_date_panel(date_str, day_events, all_events, raw_day_events=None, cluster_events=None):
-    """预计算某日期的今日面板数据（趋势分组 + 判断 + 统计），供 JS 翻页切换"""
-    signals = get_signal_events(all_events)
-    weekly = build_weekly_summary(day_events, signals, day_events, all_events, summary_date=date_str)
-    trend_groups = build_trend_groups(day_events)
-    repair_events = build_review_events(raw_day_events or day_events)
-    signal_clusters = keep_focus_date_clusters(
-        build_signal_clusters(cluster_events or all_events, date_str, limit=12)
+except ImportError:
+    from scripts.publication.date_panel import (
+        DAILY_EVENT_GROUPS,
+        _daily_event_group_key,
+        build_daily_event_groups,
+        build_daily_navigation_copy,
+        build_date_panel,
+        select_homepage_events_for_date,
+        strip_cluster_event_payloads,
+        group_events_by_date,
     )
-    narrative = build_narrative(signal_clusters, fallback_events=day_events)
-    daily_event_groups = build_daily_event_groups(day_events)
-    daily_headline, daily_judgment = build_daily_navigation_copy(daily_event_groups)
-
-    dt = datetime.strptime(date_str, '%Y-%m-%d')
-    return {
-        'trend_groups': trend_groups,
-        'repair_events': repair_events,
-        'judgment': daily_judgment,
-        'top3': weekly.get('top3', []),
-        'signal_clusters': strip_cluster_event_payloads(narrative.get('clusters', [])),
-        'evidence_events': narrative.get('evidence_events', []),
-        'daily_event_groups': daily_event_groups,
-        'total_stories': len(day_events),
-        'vol_label': f"VOL.{date_str}",
-        'cn_date': f"{dt.year}年{dt.month}月{dt.day}日 星期{CHINESE_WEEKDAYS[dt.weekday()]}",
-        'headline': daily_headline,
-        'funding': weekly.get('funding', 0),
-        'ma': weekly.get('ma', 0),
-        'earnings': weekly.get('earnings', 0),
-        'regions': weekly.get('regions', 0),
-    }
-
-
-def select_homepage_events_for_date(all_visible_events, date_str, fallback_events=None):
-    return select_homepage_events(all_visible_events, date_str, fallback_events)
-
-
-def strip_cluster_event_payloads(clusters):
-    public_clusters = []
-    for cluster in clusters or []:
-        public_cluster = dict(cluster)
-        public_cluster.pop('evidence_events', None)
-        public_clusters.append(public_cluster)
-    return public_clusters
-
-
-def group_events_by_date(events):
-    """将事件按日期分组，按时间倒序"""
-    groups = {}
-    for e in events:
-        d = (e.get('date') or '')[:10]
-        groups.setdefault(d, []).append(e)
-    result = [{'date': k, 'events': v} for k, v in sorted(groups.items(), reverse=True)]
-    return result
+try:
+    from publication.summary import (
+        load_events,
+        split_company_events,
+        get_signal_events,
+        build_weekly_summary,
+        build_trend_groups,
+        keep_focus_date_clusters,
+    )
+except ImportError:
+    from scripts.publication.summary import (
+        load_events,
+        split_company_events,
+        get_signal_events,
+        build_weekly_summary,
+        build_trend_groups,
+        keep_focus_date_clusters,
+    )
 
 
 try:
@@ -685,197 +417,10 @@ except ImportError:
     from scripts.publication.review import _quality_main_events, build_review_events
 
 
-def build_display_context():
-    """Return the same final event model used by the HTML dashboard and RSS feed."""
-    events = load_events()
-    sorted_dates = sorted(events.keys(), reverse=True)
-
-    # 主tab：最近一次有内容的采集批次（回退到昨天兜底）
-    # 历史tab：除主tab批次之外的所有日期
-    today_str = _cn_today()
-    main_date = None
-    main_events = []
-
-    # 找最近一个有内容的批次
-    for d in sorted_dates:
-        evs = events.get(d, [])
-        if evs:
-            main_date = d
-            main_events = evs
-            break
-
-    # 今天批次为空 → 回退到昨天
-    if main_date == today_str and not main_events:
-        for d in sorted_dates:
-            if d != today_str:
-                evs = events.get(d, [])
-                if evs:
-                    main_date = d
-                    main_events = evs
-                    break
-
-    all_feed = _quality_main_events(main_events)
-
-    # 公司动态单独处理
-    company_events, generic_events = split_company_events(events)
-
-    # 收集每家公司所有事件（时间窗口内，不过滤数量上限）
-    company_by_company = {}
-    qualified_company_events = select_company_quality_events(company_events)
-    for e in qualified_company_events:
-        name = e.get('company_name', '其他')
-        company_by_company.setdefault(name, []).append(e)
-
-    # 按事件数量排序，有事件的排前面
-    preset_company_list = []
-    entity_pool = load_entity_pool()
-    portfolio = _portfolio_by_entity(entity_pool)
-    entity_timelines = build_entity_event_timelines(events, entity_pool.get('entities') or [])
-    for entity in entity_pool.get('entities') or []:
-        company_name = entity.get('name') or ''
-        evs = entity_timelines.get(entity.get('id') or company_name, [])
-        preset_company_list.append({
-            'entity_id': entity.get('id') or '',
-            'name': company_name,
-            'region': entity.get('region') or '全球',
-            'sector': entity.get('sector') or '',
-            'priority': entity.get('priority') or 'watch',
-            **portfolio.get(entity.get('id'), {'portfolio_tier': 'experiment', 'decision_use': ''}),
-            'count': len(evs),
-            'events': evs,
-        })
-
-    # 按事件数量排序，有事件的排前面
-    preset_company_list.sort(key=lambda x: x['count'], reverse=True)
-
-    # 阶段2：实体池拆分 Watchlist / Mention。
-    # Watchlist = entity_pool（人工关注对象）；Mention = 监控雷达（COMPANY_SOURCES）
-    # 中未纳入 Watchlist 的公司 + 事件中自动发现的公司。07-31 实体池重构把 14 家
-    # 被监控公司（Zalando/Allegro/Trendyol/Kaspi.kz/中资7家等）从索引里丢掉，
-    # 此处让"在监控"的公司持久出现：有近 7 天合格事件就带事件，没有就显示
-    # "监控中"状态而非直接消失。
-    try:
-        from fetch_news import COMPANY_ALIASES as _RADAR_ALIASES
-        from fetch_news import COMPANY_SOURCES as _RADAR_SOURCES
-    except Exception:
-        _RADAR_ALIASES = {}
-        _RADAR_SOURCES = []
-    watchlist_name_lower = {
-        (entity.get('name') or '').lower()
-        for entity in (entity_pool.get('entities') or [])
-        if entity.get('name')
-    }
-    watchlist_alias_lower = {
-        alias.lower()
-        for entity in (entity_pool.get('entities') or [])
-        for alias in (entity.get('aliases') or [])
-        if alias
-    }
-    watch_all = watchlist_name_lower | watchlist_alias_lower
-
-    def _mention_events_for(radar_name):
-        """收集公司近 7 天合格事件：公司名 + 别名命中 company_by_company。"""
-        names = [radar_name] + list(_RADAR_ALIASES.get(radar_name, []))
-        found = []
-        for n in names:
-            evs = company_by_company.get(n)
-            if evs:
-                found.extend(evs)
-        seen = set()
-        dedup = []
-        for e in found:
-            key = e.get('url') or f"{e.get('date')}|{e.get('title')}"
-            if key in seen:
-                continue
-            seen.add(key)
-            dedup.append(e)
-        return dedup
-
-    mention_names = set()
-    # 1) 监控雷达公司：持久卡片
-    for _cfg in _RADAR_SOURCES:
-        radar_name = _cfg.get('name') or ''
-        if not radar_name or radar_name.lower() in watch_all:
-            continue
-        evs = _mention_events_for(radar_name)
-        mention_names.add(radar_name.lower())
-        preset_company_list.append({
-            'entity_id': '',
-            'name': radar_name,
-            'region': _cfg.get('region') or '全球',
-            'sector': '',
-            'priority': 'mention',
-            'portfolio_tier': 'mention',
-            'decision_use': '监控中：公司雷达覆盖，未纳入人工观察清单',
-            'count': len(evs),
-            'events': evs,
-        })
-    # 2) 自动发现：事件中出现、既不在 Watchlist 也不在雷达配置的公司
-    for name, evs in company_by_company.items():
-        if not name or name == '其他':
-            continue
-        key = name.lower()
-        if key in watch_all or key in mention_names:
-            continue
-        region_counts = {}
-        for e in evs:
-            r = e.get('region') or ''
-            if r:
-                region_counts[r] = region_counts.get(r, 0) + 1
-        region = max(region_counts, key=region_counts.get) if region_counts else '全球'
-        preset_company_list.append({
-            'entity_id': '',
-            'name': name,
-            'region': region,
-            'sector': '',
-            'priority': 'mention',
-            'portfolio_tier': 'mention',
-            'decision_use': '自动发现：出现在公司源事件中，未纳入人工观察清单',
-            'count': len(evs),
-            'events': evs,
-        })
-
-    # 全部事件 = 通用热点 + 公司动态（筛选后），统一按时间排序
-    company_events_filtered = [e for evs in company_by_company.values() for e in evs]
-    all_events_for_list = list(generic_events) + company_events_filtered
-    all_events_for_list.sort(key=signal_sort_key, reverse=True)
-    enrich_frontend_fields(all_events_for_list)
-    all_events_for_list = dedupe_display_events(all_events_for_list)
-    mature_main_date, latest_data_date, latest_visible_count, batch_notice = select_mature_main_date(sorted_dates, all_events_for_list, events)
-    period_reference_date = latest_data_date or main_date or today_str
-    if mature_main_date:
-        main_date = mature_main_date
-        main_events = events.get(main_date, [])
-        all_feed = _quality_main_events(main_events)
-
-    # 今日要点 = what'll be displayed — 从 all_events_for_list 中取今天的可展示事件
-    raw_today_events = [
-        e for e in all_events_for_list
-        if (e.get('date') or '')[:10] == main_date
-    ]
-    today_events = select_homepage_events(all_events_for_list, main_date, all_feed)
-
-    return {
-        'events': events,
-        'sorted_dates': sorted_dates,
-        'today_str': today_str,
-        'main_date': main_date,
-        'main_events': main_events,
-        'all_feed': all_feed,
-        'company_events': company_events,
-        'generic_events': generic_events,
-        'company_by_company': company_by_company,
-        'company_events_filtered': company_events_filtered,
-        'preset_company_list': preset_company_list,
-        'all_events_for_list': all_events_for_list,
-        'today_events': today_events,
-        'raw_today_events': raw_today_events,
-        'latest_data_date': latest_data_date,
-        'latest_visible_count': latest_visible_count,
-        'batch_notice': batch_notice,
-        'period_reference_date': period_reference_date,
-        'entity_observation_ledger': load_entity_observation_ledger(),
-    }
+try:
+    from publication.context import build_display_context
+except ImportError:
+    from scripts.publication.context import build_display_context
 
 
 def generate_html(force=False, preview_mode=False):
