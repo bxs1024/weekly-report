@@ -137,3 +137,29 @@ scripts/
 - 搬迁完成后 `fetch_news.py` 应只剩 re-export 与 `main()` 入口。
 - `generate_html.py`（2902 行）同理：先按渲染域（卡片/日期面板/信号簇/报告/发布）分区，再做同样处理。
 
+### ⚠️ 核心风险：转发层会让 mock patch 静默失效
+
+**风险描述**：现有 25 处引用 `fetch_news`，其中大量是私有符号。更要紧的是
+`test_period_report.py` 有 20+ 处 `mock.patch('fetch_news._post_chat')` /
+`'fetch_news._chat_api_candidates'`，其它文件则有
+`from fetch_news import _post_chat` 这样的值绑定。
+
+Python 的 `from X import f` 会把 `f` **绑定到导入方的命名空间**。一旦函数搬到
+`providers/llm.py`：
+
+- patch `fetch_news._post_chat` 只改转发层的名字，
+- 而 `generate_html` 等导入方持有的是**搬迁前那一刻的引用**，
+- 结果是测试**仍然通过，但根本没拦到真实调用** —— 静默失效，比直接报错危险得多。
+
+**对策（按优先级）**：
+
+1. **搬迁顺序上把 provider 层放最后**，且搬迁 `providers/llm.py` 时**同步改写所有
+   调用点为 `from providers.llm import _post_chat`**，同时把测试的 patch 目标改到
+   `providers.llm._post_chat`。这属于「import 修正」，在允许范围内。
+2. **禁止调用方直接从 `fetch_news` 取 provider 函数**（即使是过渡期）——转发层只给
+   外部脚本与测试兜底，主链路一律直连真实模块。
+3. **每个模块搬完后，专门验证 mock 是否仍生效**：临时把被 patch 的函数改成抛异常，
+   确认测试确实失败（证明 patch 命中了真实调用点），再恢复。不能只看「测试通过」。
+
+这一条是 P4 里唯一可能造成**隐性质量损失**的地方，评审时请重点确认。
+
