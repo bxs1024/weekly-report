@@ -187,6 +187,14 @@ def cmd_checkmod(modname):
                 for sub in n.body:
                     self.visit(sub)
 
+            def visit_Import(self, n):
+                for a in n.names:
+                    bound.add((a.asname or a.name).split('.')[0])
+
+            def visit_ImportFrom(self, n):
+                for a in n.names:
+                    bound.add(a.asname or a.name)
+
             def visit_ExceptHandler(self, n):
                 if n.type:
                     self.visit(n.type)
