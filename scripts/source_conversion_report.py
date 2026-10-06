@@ -7,11 +7,14 @@ daily surface.
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta
 from pathlib import Path
+
+_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 try:
     from event_contract import prepare_event_contract
@@ -59,9 +62,15 @@ def _safe_print(text):
 
 
 def _load_json(path, git_ref=None):
+    # 约定：path 为「仓库相对路径」或「绝对路径」。
+    #   - git_ref 分支：必须是仓库相对路径（git show <ref>:<path> 语义），
+    #     因此测试注入绝对路径时不要同时传 git_ref。
+    #   - 本地分支：相对路径锚定仓库根，不随 CWD 漂移。
     if git_ref:
         raw = subprocess.check_output(['git', 'show', f'{git_ref}:{path}'])
         return json.loads(raw.decode('utf-8'))
+    if not os.path.isabs(path):
+        path = os.path.join(_REPO_ROOT, path)
     with open(path, encoding='utf-8') as f:
         return json.load(f)
 
@@ -314,7 +323,8 @@ def _build_governance_actions(rows, limit_per_action=8):
     return result
 
 
-def build_source_conversion_report(days=7, git_ref=None, events=None):
+def build_source_conversion_report(days=7, git_ref=None, events=None,
+                                   metrics_path=None, registry_path=None):
     if events is None:
         events_data = _load_json('data/events.json', git_ref)
         events = _flatten_events(events_data)
@@ -322,8 +332,8 @@ def build_source_conversion_report(days=7, git_ref=None, events=None):
     else:
         events = _flatten_events(events)
         prepared = True
-    metrics = _load_json('data/run_metrics.json', git_ref)
-    registry = _load_json('data/source_registry.json', git_ref)
+    metrics = _load_json(metrics_path or 'data/run_metrics.json', git_ref)
+    registry = _load_json(registry_path or 'data/source_registry.json', git_ref)
 
     event_dates = sorted({_event_date(event) for event in events if _event_date(event)})
     run_dates = sorted({_run_date(run) for run in (metrics if isinstance(metrics, list) else []) if _run_date(run)})

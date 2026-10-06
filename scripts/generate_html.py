@@ -10,6 +10,24 @@ import re
 from datetime import datetime, timedelta, timezone
 from jinja2 import Environment, select_autoescape
 
+# 仓库根与 data 目录：一律基于 __file__ 定位，不依赖调用进程的 CWD。
+# 历史上这里用裸相对路径 'data/xxx.json'，CI 从仓库根跑没问题，
+# 但从 scripts/ 目录跑（如直接执行 scripts/test_*.py）会找不到文件。
+# 见 docs/ARCHITECTURE.md「路径锚定仓库根」。
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(REPO_ROOT, 'data')
+DOCS_DIR = os.path.join(REPO_ROOT, 'docs')
+
+
+def data_path(*parts):
+    """拼出仓库 data/ 下的绝对路径。"""
+    return os.path.join(DATA_DIR, *parts)
+
+
+def docs_path(*parts):
+    """拼出仓库 docs/ 下的绝对路径。"""
+    return os.path.join(DOCS_DIR, *parts)
+
 # 提示词外置：编辑层提示词在 scripts/prompts/editorial-{weekly,monthly}.md（P1）
 try:
     from prompt_loader import prompt_version, render_prompt
@@ -298,9 +316,9 @@ def calculate_score(event):
 REGION_ORDER = ['全球', '北美', '亚太', '欧洲', '中东', '拉美', '非洲', '中资']
 
 
-def load_entity_pool(path='data/entity_pool.json'):
+def load_entity_pool(path=None):
     try:
-        with open(path, encoding='utf-8') as handle:
+        with open(path or data_path('entity_pool.json'), encoding='utf-8') as handle:
             return json.load(handle)
     except (OSError, json.JSONDecodeError):
         return {'entities': [], 'portfolio': {}}
@@ -770,7 +788,7 @@ def enrich(event):
     return ensure_business_fields(event)
 
 def load_events():
-    with open('data/events.json', 'r', encoding='utf-8') as f:
+    with open(data_path('events.json'), 'r', encoding='utf-8') as f:
         data = json.load(f)
     if isinstance(data, list):
         grouped = {}
@@ -923,7 +941,7 @@ def build_weekly_summary(all_feed, signals, latest_date_events, all_events, summ
 
     # ── P0 Agent：读取 AI 趋势分析，覆盖程序摘要 ──
     try:
-        summary_path = 'data/summary.json'
+        summary_path = data_path('summary.json')
         if os.path.exists(summary_path):
             with open(summary_path, 'r', encoding='utf-8') as sf:
                 ai_summaries = json.load(sf)
@@ -2870,8 +2888,8 @@ def generate_html(force=False, preview_mode=False):
     )
     html = '\n'.join(line.rstrip() for line in html.splitlines()) + '\n'
 
-    os.makedirs('docs', exist_ok=True)
-    index_path = 'docs/preview.html' if preview_mode else 'docs/index.html'
+    os.makedirs(DOCS_DIR, exist_ok=True)
+    index_path = docs_path('preview.html') if preview_mode else docs_path('index.html')
 
     with open(index_path, 'w', encoding='utf-8') as f:
         f.write(html)

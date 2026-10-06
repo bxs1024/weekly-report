@@ -32,6 +32,21 @@ except ImportError:
     from scripts.source_quality_report import build_source_quality_report
     from scripts.view_selectors import select_feed_events, select_main_list_events, select_review_events
 
+# 仓库路径一律锚定 __file__，不依赖调用进程 CWD（见 docs/ARCHITECTURE.md）。
+# 本模块会被 test_data_health.py 从 scripts/ 目录直接执行，
+# 裸相对路径 'data/...' 在那种情况下指向 scripts/data/，会 FileNotFoundError。
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(REPO_ROOT, 'data')
+DOCS_DIR = os.path.join(REPO_ROOT, 'docs')
+
+
+def data_path(*parts):
+    return os.path.join(DATA_DIR, *parts)
+
+
+def docs_path(*parts):
+    return os.path.join(DOCS_DIR, *parts)
+
 
 def _event_date(event):
     return (event.get('date') or '')[:10]
@@ -75,7 +90,8 @@ def _duplicate_ratio(events):
     return duplicate_items / len(keys), duplicate_items
 
 
-def _future_event_count(path='data/events.json', now=None, data=None):
+def _future_event_count(path=None, now=None, data=None):
+    path = path or data_path('events.json')
     if data is None:
         try:
             with open(path, encoding='utf-8') as handle:
@@ -98,12 +114,13 @@ def _future_event_count(path='data/events.json', now=None, data=None):
     return count
 
 
-def _load_prepared_events(path='data/events.json'):
+def _load_prepared_events(path=None):
     """Load full events.json and prepare every event once for shared reuse.
 
     Unlike load_events() (display window, filtered by is_display_date), this
     keeps all dates so reports counting stored events see the full set.
     """
+    path = path or data_path('events.json')
     with open(path, encoding='utf-8') as handle:
         data = json.load(handle)
     if isinstance(data, list):
@@ -160,15 +177,22 @@ def _observation_health(ledger, pool, jobs, candidates):
 
 
 def build_quick_health_report(
-    events_path='data/events.json',
-    metrics_path='data/run_metrics.json',
-    ledger_path='data/entity_observation_ledger.json',
-    pool_path='data/entity_pool.json',
-    jobs_path='data/job_observation_metrics.json',
-    candidates_path='data/signal_candidates.json',
+    events_path=None,
+    metrics_path=None,
+    ledger_path=None,
+    pool_path=None,
+    jobs_path=None,
+    candidates_path=None,
     now=None,
 ):
     """Read the latest persisted health facts without rebuilding report views."""
+    # 路径默认值在这里补全（不写成函数默认参数，避免 import 期求值的坑）
+    events_path = events_path or data_path('events.json')
+    metrics_path = metrics_path or data_path('run_metrics.json')
+    ledger_path = ledger_path or data_path('entity_observation_ledger.json')
+    pool_path = pool_path or data_path('entity_pool.json')
+    jobs_path = jobs_path or data_path('job_observation_metrics.json')
+    candidates_path = candidates_path or data_path('signal_candidates.json')
     # 事件日期按北京时间落库，CI runner 是 UTC；不锚定北京时区会把当天数据误判为未来。
     if now is None:
         now = datetime.now(timezone(timedelta(hours=8)))
@@ -279,9 +303,9 @@ def build_health_report(days=7):
     future_event_count = _future_event_count(data=all_events)
     observation_health = _observation_health(
         context.get('entity_observation_ledger') or {},
-        _load_json('data/entity_pool.json', {}),
-        _load_json('data/job_observation_metrics.json', {}),
-        _load_json('data/signal_candidates.json', {}),
+        _load_json(data_path('entity_pool.json'), {}),
+        _load_json(data_path('job_observation_metrics.json'), {}),
+        _load_json(data_path('signal_candidates.json'), {}),
     )
 
     return {
@@ -503,15 +527,15 @@ def check_updates_log_sync():
     """防更新日志断档：site_updates.json 最新版本若未出现在 docs/index.html，说明页面未重新生成。"""
     failures = []
     try:
-        if not os.path.exists('data/site_updates.json') or not os.path.exists('docs/index.html'):
+        if not os.path.exists(data_path('site_updates.json')) or not os.path.exists(docs_path('index.html')):
             return failures
-        with open('data/site_updates.json', encoding='utf-8') as f:
+        with open(data_path('site_updates.json'), encoding='utf-8') as f:
             updates = json.load(f)
         if not updates:
             return failures
         latest_version = updates[0].get('version', '')
         if latest_version:
-            with open('docs/index.html', encoding='utf-8') as f:
+            with open(docs_path('index.html'), encoding='utf-8') as f:
                 if latest_version not in f.read():
                     failures.append(
                         f"更新日志断档：site_updates.json 最新版本 {latest_version} 未出现在 docs/index.html，页面未重新生成"

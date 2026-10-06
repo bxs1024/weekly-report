@@ -31,6 +31,17 @@ try:
 except ImportError:
     from scripts.prompt_loader import load_prompt, prompt_version
 
+# 仓库路径锚定 __file__，不依赖调用进程 CWD（见 docs/ARCHITECTURE.md「路径锚定仓库根」）。
+# 裸相对路径 'data/...' 只在 CWD=仓库根 时正确；从 scripts/ 直接运行脚本或测试时
+# 会指向 scripts/data/，读出空数据或抛 FileNotFoundError。
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(REPO_ROOT, 'data')
+
+
+def data_path(*parts):
+    """拼出仓库 data/ 下的绝对路径。"""
+    return os.path.join(DATA_DIR, *parts)
+
 # DeepSeek/豆包均为国内 API，直连即可；trust_env=False 忽略系统代理（含 ALL_PROXY），
 # 避免依赖 socks 库且更快。所有 AI 通道共用此 session（新闻抓取仍走系统代理，不受影响）。
 _LLM_SESSION = requests.Session()
@@ -427,11 +438,20 @@ SECTOR_SCOPE_MAP = {
 }
 
 
-def _load_company_scope_contracts(path='data/entity_pool.json'):
+def _load_company_scope_contracts(path=None):
+    """从 entity_pool 读取公司观察范围契约。
+
+    读不到文件时**返回空字典但不改语义**：调用方（capture 层）据此退化为
+    「不施加额外范围约束」，与历史行为一致。但会打一行警告——此前静默吞掉
+    异常，配合相对路径 bug 会让整站范围契约悄悄失效且无人察觉。
+    """
+    path = path or data_path('entity_pool.json')
     try:
         with open(path, encoding='utf-8') as f:
             pool = json.load(f)
-    except (OSError, json.JSONDecodeError):
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f'⚠️ 读取 entity_pool 失败，公司范围契约退化为空: {path} ({type(exc).__name__})',
+              file=sys.stderr)
         return {}
     contracts = {}
     for entity in pool.get('entities') or []:
