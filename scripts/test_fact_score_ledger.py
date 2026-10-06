@@ -1,4 +1,9 @@
-"""Tests for fact-score ledger: fingerprint-based score anchoring + boundary capping."""
+"""Tests for fact-score ledger: fingerprint-based score anchoring + boundary capping.
+
+P4 后账本状态与路径住在 content/dedupe.py。测试必须打在**真实模块**上：
+打在 fetch_news 转发层会静默失效（_save_fact_ledger 读的是 dedupe 的全局，
+那样测试会往真实的 data/fact_score_ledger.json 里写）。
+"""
 
 import os
 import sys
@@ -8,27 +13,37 @@ from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-import fetch_news  # noqa: E402
+try:
+    from content import dedupe
+except ImportError:
+    from scripts.content import dedupe
 
 
 class TestFactLedgerKey(unittest.TestCase):
     def test_key_built_from_fingerprint(self):
         ev = {'canonical_company': 'Fasset', 'canonical_key': '68m', 'event_types': ['funding']}
-        key = fetch_news._fact_ledger_key(ev)
+        key = dedupe._fact_ledger_key(ev)
         self.assertTrue(key)
         self.assertIn('fasset', key.lower())
         self.assertIn('funding', key)
 
     def test_no_anchor_not_in_ledger(self):
         ev = {'canonical_company': 'X', 'canonical_key': '', 'event_types': ['strategy']}
-        self.assertIsNone(fetch_news._fact_ledger_key(ev))
+        self.assertIsNone(dedupe._fact_ledger_key(ev))
         ev2 = {'canonical_company': '', 'canonical_key': '5m', 'event_types': ['funding']}
-        self.assertIsNone(fetch_news._fact_ledger_key(ev2))
+        self.assertIsNone(dedupe._fact_ledger_key(ev2))
 
 
 class TestFactScoreRules(unittest.TestCase):
     def setUp(self):
-        fetch_news._fact_ledger = {}
+        dedupe._fact_ledger = {}
+        # 记住真实路径，用完还原（原测试还原成裸相对路径，属既存瑕疵）
+        self._orig_path = dedupe._FACT_LEDGER_PATH
+        self.addCleanup(setattr, dedupe, '_FACT_LEDGER_PATH', self._orig_path)
+        self.addCleanup(setattr, dedupe, '_fact_ledger', {})
+
+    def _ledger_in(self, td, name='ledger.json'):
+        dedupe._FACT_LEDGER_PATH = Path(td) / name
 
     def test_boundary_outside_caps_score(self):
         ev = {
@@ -39,7 +54,7 @@ class TestFactScoreRules(unittest.TestCase):
             'canonical_company': 'ExampleDefense',
             'canonical_key': '500m',
         }
-        fetch_news._apply_fact_score_rules(ev)
+        dedupe._apply_fact_score_rules(ev)
         self.assertEqual(ev['score'], 4)
         self.assertTrue(ev.get('boundary_capped'))
 
@@ -52,7 +67,7 @@ class TestFactScoreRules(unittest.TestCase):
             'canonical_company': 'Nubank',
             'canonical_key': '2.8b',
         }
-        fetch_news._apply_fact_score_rules(ev)
+        dedupe._apply_fact_score_rules(ev)
         self.assertEqual(ev['score'], 6)
         self.assertFalse(ev.get('boundary_capped'))
 
@@ -65,9 +80,9 @@ class TestFactScoreRules(unittest.TestCase):
             'canonical_company': 'Fasset',
             'canonical_key': '68m',
         }
-        fetch_news._apply_fact_score_rules(ev1)
+        dedupe._apply_fact_score_rules(ev1)
         self.assertFalse(ev1.get('score_reused'))
-        self.assertEqual(len(fetch_news._fact_ledger), 1)
+        self.assertEqual(len(dedupe._fact_ledger), 1)
 
         ev2 = {
             'title': 'Stablecoin platform Fasset hits $1bn valuation',
@@ -77,13 +92,13 @@ class TestFactScoreRules(unittest.TestCase):
             'canonical_company': 'Fasset',
             'canonical_key': '68m',
         }
-        fetch_news._apply_fact_score_rules(ev2)
+        dedupe._apply_fact_score_rules(ev2)
         self.assertTrue(ev2.get('score_reused'))
         self.assertEqual(ev2['score'], 10)
 
     def test_save_load_roundtrip(self):
         with tempfile.TemporaryDirectory() as td:
-            fetch_news._FACT_LEDGER_PATH = Path(td) / 'ledger.json'
+            self._ledger_in(td)
             ev = {
                 'title': 'SK hynix plans $28.6b buyback',
                 'reason': '存储芯片回购',
@@ -92,19 +107,17 @@ class TestFactScoreRules(unittest.TestCase):
                 'canonical_company': 'SK hynix',
                 'canonical_key': '28.6b',
             }
-            fetch_news._apply_fact_score_rules(ev)
-            fetch_news._save_fact_ledger()
-            fetch_news._fact_ledger = {}
-            fetch_news._load_fact_ledger()
-            self.assertEqual(len(fetch_news._fact_ledger), 1)
-        fetch_news._FACT_LEDGER_PATH = Path('data/fact_score_ledger.json')
+            dedupe._apply_fact_score_rules(ev)
+            dedupe._save_fact_ledger()
+            dedupe._fact_ledger = {}
+            dedupe._load_fact_ledger()
+            self.assertEqual(len(dedupe._fact_ledger), 1)
 
     def test_missing_ledger_file_loads_empty(self):
         with tempfile.TemporaryDirectory() as td:
-            fetch_news._FACT_LEDGER_PATH = Path(td) / 'nope.json'
-            fetch_news._load_fact_ledger()
-            self.assertEqual(fetch_news._fact_ledger, {})
-        fetch_news._FACT_LEDGER_PATH = Path('data/fact_score_ledger.json')
+            self._ledger_in(td, 'nope.json')
+            dedupe._load_fact_ledger()
+            self.assertEqual(dedupe._fact_ledger, {})
 
 
 if __name__ == '__main__':

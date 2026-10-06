@@ -1,15 +1,28 @@
-import fetch_news
+"""信源标注与 HTML 降级采集的判据测试。
+
+P4 后这些函数住在 sources/meta.py、sources/html_fallback.py、content/*.py。
+测试一律**直接引真实模块**：转发层只给外部脚本兜底，测试若打在 fetch_news 上，
+`fetch_news.X = fake` 会静默打空（打不到真实调用点），比报错危险得多。
+"""
+
+import os
+import sys
 from datetime import datetime
 
-from fetch_news import (
-    _extract_official_article_date,
-    _extract_official_article_date_meta,
-    _registry_source_to_cfg,
-    _select_changelog_items,
-    _title_mentions_aliases,
-    _with_source_meta,
-    _get_company_aliases,
-)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from bs4 import BeautifulSoup  # noqa: E402
+
+try:
+    from content import util as _util
+    from content.classify import _get_company_aliases, _title_mentions_aliases
+    from sources import html_fallback
+    from sources.meta import _registry_source_to_cfg, _with_source_meta
+except ImportError:
+    from scripts.content import util as _util
+    from scripts.content.classify import _get_company_aliases, _title_mentions_aliases
+    from scripts.sources import html_fallback
+    from scripts.sources.meta import _registry_source_to_cfg, _with_source_meta
 
 
 def test_official_company_title_gets_entity_prefix():
@@ -48,18 +61,18 @@ def test_l1_changelog_infers_entity_name_without_changelog_suffix():
 
 
 def test_official_article_date_extracted_from_title_and_url():
-    assert _extract_official_article_date(
+    assert html_fallback._extract_official_article_date(
         'Square Enix: May 14, 2026 Results Briefing Session',
         'https://www.hd.square-enix.com/eng/ir/pdf/26q4slides.pdf',
     ) == '2026-05-14'
-    assert _extract_official_article_date(
+    assert html_fallback._extract_official_article_date(
         'Notice of Revisions to Full-Year Consolidated Financial Forecasts',
         'https://www.hd.square-enix.com/eng/ir/pdf/20260205_02_en.pdf',
     ) == '2026-02-05'
 
 
 def test_official_date_prefers_dashed_url_over_future_body_date():
-    meta = _extract_official_article_date_meta(
+    meta = html_fallback._extract_official_article_date_meta(
         'Cloudflare: New options to manage AI traffic',
         'https://developers.cloudflare.com/changelog/post/2026-07-01-ai-traffic-options/',
         'This option becomes effective on September 15, 2026.',
@@ -71,7 +84,7 @@ def test_official_date_prefers_dashed_url_over_future_body_date():
 
 
 def test_future_body_date_is_not_used_as_publication_date():
-    meta = _extract_official_article_date_meta(
+    meta = html_fallback._extract_official_article_date_meta(
         'Cloudflare Tunnel API',
         'https://developers.cloudflare.com/api/resources/zero_trust/subresources/tunnels/',
         'The change is scheduled for October 5, 2026.',
@@ -83,16 +96,17 @@ def test_future_body_date_is_not_used_as_publication_date():
 
 
 def test_official_html_skips_stale_ir_items():
-    old_fetch_url = fetch_news.fetch_url
+    # 补丁必须打在 html_fallback 上：fetch_html 解析的是本模块的全局 fetch_url。
+    old_fetch_url = html_fallback.fetch_url
     try:
-        fetch_news.fetch_url = lambda url: """
+        html_fallback.fetch_url = lambda url: """
         <html><body>
           <a href="/eng/ir/pdf/26q4slides.pdf">
             May 14, 2026 Results Briefing Session for the Fiscal Year ended March 31, 2026
           </a>
         </body></html>
         """
-        items = fetch_news.fetch_html({
+        items = html_fallback.fetch_html({
             'name': 'Square Enix IR News',
             'url': 'https://www.hd.square-enix.com/eng/ir/irnews/',
             'source': 'Square Enix',
@@ -105,13 +119,13 @@ def test_official_html_skips_stale_ir_items():
             'max': 4,
         })
     finally:
-        fetch_news.fetch_url = old_fetch_url
+        html_fallback.fetch_url = old_fetch_url
 
     assert items == []
 
 
 def test_changelog_items_extract_direct_dated_links():
-    soup = fetch_news.BeautifulSoup(
+    soup = BeautifulSoup(
         """
         <html><body>
           <nav><a href="/pricing">Pricing</a></nav>
@@ -139,19 +153,14 @@ def test_changelog_items_extract_direct_dated_links():
         'region': '全球',
         'priority': 3,
     })
-    # _cn_now 已外置到 content/util.py（P4）。函数搬到新模块后，其内部引用在
-    # util 的命名空间解析，只补丁 fetch_news 打不到（from-import 是值绑定），
-    # 因此两个命名空间都要补丁。
-    from content import util as _util
+    # _cn_now 住在 content/util.py，_recent_article_date 在 util 命名空间解析它；
+    # html_fallback 只是 import 了 _recent_article_date，因此补丁打在 util 上即可。
     frozen = lambda: datetime.fromisoformat('2026-06-29T12:00:00+08:00')  # noqa: E731
-    old_cn_now = fetch_news._cn_now
     old_util_cn_now = _util._cn_now
     try:
-        fetch_news._cn_now = frozen
         _util._cn_now = frozen
-        items = _select_changelog_items(soup, cfg)
+        items = html_fallback._select_changelog_items(soup, cfg)
     finally:
-        fetch_news._cn_now = old_cn_now
         _util._cn_now = old_util_cn_now
     assert len(items) == 1
     assert items[0]['company_name'] == 'Shopify'
