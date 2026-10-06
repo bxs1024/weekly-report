@@ -165,419 +165,42 @@ except ImportError:
 
 # ─── BD opportunity fallback ────────────────────────────────
 
-VERTICAL_DEAL_SOURCES = {
-    'techcrunch', 'tech.eu', 'uktn', 'eu-startups', 'tech in asia', 'inc42',
-    'wamda', 'menabytes', 'disrupt africa', 'ventureburn', 'latamlist', 'lavca',
-}
-REGIONAL_ECOSYSTEM_SOURCES = {
-    'the recursive', 'the next web', 'techwire asia', 'techcabal',
-    'techpoint', 'weetracker', 'contxto', 'dealstreetasia',
-}
-OFFICIAL_IR_SOURCE_HINTS = {
-    'official', 'ir', 'investor', 'newsroom', 'press release',
-    'rakuten group', 'grab holdings', 'mercado libre', 'sea limited',
-}
-
-BD_TRIGGER_RULES = [
-    ('预算窗口', [
-        'raises', 'raised', 'funding', 'investment', 'series ', 'seed', 'revenue',
-        'earnings', 'profit', 'financial results', 'growth', 'margin', 'cash flow',
-        '融资', '财报', '营收', '利润',
-    ]),
-    ('扩张窗口', [
-        'launch', 'expands', 'expansion', 'enters', 'rolls out', 'available in',
-        'international', 'overseas', 'global', 'new market', 'debut',
-        '扩张', '出海', '上线', '进入',
-    ]),
-    ('降本窗口', [
-        'layoff', 'cuts', 'cost', 'efficiency', 'automation', 'restructure',
-        'turnaround', 'loss narrows', '亏损', '降本', '重组',
-    ]),
-    ('合规窗口', [
-        'regulator', 'license', 'compliance', 'fine', 'lawsuit', 'probe',
-        'antitrust', 'data protection', 'ban', '牌照', '监管', '合规',
-    ]),
-    ('整合窗口', [
-        'acquires', 'acquisition', 'merger', 'stake', 'takeover', 'buys',
-        'integration', '并购', '收购', '整合',
-    ]),
-    ('生态窗口', [
-        'partner', 'partnership', 'alliance', 'ecosystem', 'platform',
-        'merchant', 'developer', 'channel', 'mou', '合作', '生态',
-    ]),
-    ('竞争窗口', [
-        'rival', 'competition', 'competes', 'market share', 'overtakes',
-        'beats', 'challenges', 'versus', 'vs ', '竞争',
-    ]),
-]
-
-OPPORTUNITY_BY_TRIGGER = {
-    '预算窗口': ['增长方案', '云与AI基础设施', '广告商业化', '支付与风控'],
-    '扩张窗口': ['本地化合作', '渠道伙伴', '跨境支付', '云服务'],
-    '降本窗口': ['AI客服', '自动化运营', '外包服务', '成本优化'],
-    '合规窗口': ['合规科技', '数据治理', '安全风控', '牌照合作'],
-    '整合窗口': ['系统整合', '数据迁移', '组织协同工具', '生态打通'],
-    '生态窗口': ['联合解决方案', '商户增长', '开放平台合作', '渠道共建'],
-    '竞争窗口': ['竞品替代', '差异化增长', '市场进入策略', '客户防守'],
-}
-
-OPPORTUNITY_BY_TYPE = {
-    'funding': ['增长方案', '云与AI基础设施', '市场拓展合作'],
-    'ma': ['系统整合', '数据迁移', '生态打通'],
-    'earnings': ['广告商业化', '支付与风控', '成本优化'],
-    'strategy': ['联合解决方案', '本地化合作', '渠道伙伴'],
-    'other': ['持续观察'],
-}
-
-SOURCE_ROLE_BY_TIER = {
-    'L1 官方/IR源': 'official_ir',
-    'L2 垂直交易源': 'venture_media',
-    'L3 区域生态源': 'regional_ecosystem',
-    'L4 深度趋势源': 'deep_trend',
-    'L4 垂直赛道精品源': 'industry_vertical',
-    'L5 Google News 补漏源': 'company_radar',
-}
-
-# ─── Fallback reason 生成 ───────────────────────────────────
-
-# 常见监控公司名（用于从标题提取当事人）
-# 标题中包含这些词时直接用作 subject
-KNOWN_COMPANIES = {
-    'tabby', 'grab', 'gojek', 'noon', 'jumia', 'konga', 'trendyol',
-    'rakuten', 'adyen', 'zalando', 'mercado', 'rappi', 'meesho',
-    'swiggy', 'zomato', 'deliveroo', 'gorillas', 'getir',
-    'ant group', 'alibaba', 'tencent', 'bytedance', 'tiktok',
-    'jd.com', 'jd.com', 'kuaishou', 'shein', 'temu',
-    'hktvmall', 'hong kong technology venture', 'u-next', 'square enix',
-    'mercadoli', 'nubank', 'dlocal', 'paystack', 'flutterwave',
-    'uber', 'lyft', 'grab', 'ola', 'bolt', 'inDrive',
-    'flipkart', 'amazon', 'shopee', 'lazada',
-    'stc pay', 'urpay', 'tala', 'chime', 'klarna', 'marqeta',
-    'allegro', 'olx', 'letgo', '不成',
-    'stord', 'openrouter', 'quantinuum',
-}
-
-# 中资出海关键词
-CHINESE_OUTBOUND = {
-    '字节', 'tiktok', 'bytedance', '抖音', 'temu', 'shein',
-    '希音', '腾讯', 'tencent', '阿里', 'alibaba', '蚂蚁',
-    'ant group', '京东', 'jd.com', '快手', 'kuaishou', '拼多多',
-    '美团', 'meituan', '滴滴', 'didi', '百度', 'baidu',
-}
-
-def _extract_subject(title):
-    """从标题提取当事人公司/产品名，优先级：已知公司 > 正则模式"""
-    # 清理标题（去掉来源后缀）
-    clean = re.sub(r'\s*[-|]\s*(Forbes|Reuters|TechCrunch|WIRED|BBC|CNBC|Bloomberg|Al Arabiya|cairoscene| african businessNewswire|Business Wire|PRNewswire|Euronews|Arab News).*$', '', title, flags=re.I)
-    clean = clean.strip()
-
-    # 策略1：已知名公司匹配（最优先）
-    title_lower = clean.lower()
-    for kw in sorted(KNOWN_COMPANIES, key=len, reverse=True):  # 长的先匹配
-        if kw in title_lower:
-            # 从标题中提取原始大小写版本
-            idx = title_lower.find(kw)
-            # 往回找到词边界（只吃字母不吃数字，避免 "000 MercadoLibre"）
-            start = max(0, idx - 1)
-            while start > 0 and title[start-1].isalpha():
-                start -= 1
-            # 往后取词
-            end = idx + len(kw)
-            while end < len(title) and title[end].isalnum():
-                end += 1
-            name = title[start:end].strip().rstrip(' -').strip()
-            if len(name) >= 2:
-                return name
-
-    # 策略2：正则提取
-    patterns = [
-        # "X Raises/Closes/Secures $NNNM" → X 是主角
-        (r'^([A-Z][A-Za-z0-9\s&\.,\'\-\u2019]+?)\s+(?:raises|closes|secures|wins|gets|attracts|draws)\s+', 1),
-        # "X Raises $NNNM in/on Y" → X 是主角
-        (r'^([A-Z][A-Za-z0-9\s&\.,\'\-\u2019]+?)\s+raises?\s+\$', 1),
-        # "X acquires/buys Y" → X 是主角
-        (r'^([A-Z][A-Za-z0-9\s&\.,\'\-\u2019]+?)\s+(?:acquires|acquisition|buys|purchases|merges)', 1),
-        # "X to acquire Y" → X 是主角
-        (r'^([A-Z][A-Za-z0-9\s&\.,\'\-\u2019]+?)\s+to\s+acquire', 1),
-        # "X posts/reports QN revenue/profit" → X 是主角
-        (r'^([A-Z][A-Za-z0-9\s&\.\-\u2019]+?)[\'’]?(?:\s+\w+)?\s+(?:posts|reports|beats|misses|revenue|profit|earnings)', 1),
-        # "X launches/expands into Y" → X 是主角
-        (r'^([A-Z][A-Za-z0-9\s&\.\-\u2019]+?)\s+(?:launches|expands|enters|rolls out|partners)', 1),
-        # "X valued at $Y" → X 是主角
-        (r'^([A-Z][A-Za-z0-9\s&\.\-\u2019]+?)\s+valued\s+at', 1),
-        # "X files for IPO" → X 是主角
-        (r'^([A-Z][A-Za-z0-9\s&\.\-\u2019]+?)\s+(?:files|plans|ready)\s+(?:for|to)', 1),
-    ]
-    for pat, group in patterns:
-        m = re.search(pat, clean, re.I)
-        if m:
-            name = m.group(group).strip().rstrip(',;:').strip()
-            # 清理常见前缀词
-            skip = {'why ', 'how ', 'what ', 'who ', 'where ', 'when ', 'this ', 'the '}
-            for s in skip:
-                if name.lower().startswith(s):
-                    name = name[len(s):].strip()
-            if len(name) >= 2 and len(name) <= 40:
-                return name
-
-    return None
-
-def _build_reason(title, ev_type, region, company_name=None):
-    """生成 fallback reason：必须包含当事人 + 事件 + 金额（从标题提取）"""
-    subject = _extract_subject(title) or company_name
-    r = region or ''
-
-    # 金额提取
-    amt = _parse_amount(title)
-    amt_str = _format_amount(amt) if amt > 0 else ''
-
-    # 中资出海检测
-    is_chinese = any(kw.lower() in title.lower() for kw in CHINESE_OUTBOUND)
-
-    if subject:
-        # 包含公司名的 reason
-        if ev_type == 'funding':
-            if amt_str:
-                reason = f"{subject}获{amt_str}融资"
-            else:
-                reason = f"{subject}完成融资"
-        elif ev_type == 'ma':
-            # 尝试提取收购对象
-            m = re.search(r'(?:acquires?|buys|purchases)\s+([A-Z][A-Za-z0-9\s&\-]+?)(?:\s+for|\s+in|\s*$|\.)', title, re.I)
-            target = m.group(1).strip() if m else None
-            if target and len(target) < 30:
-                reason = f"{subject}收购{target}"
-            else:
-                reason = f"{subject}达成并购"
-        elif ev_type == 'earnings':
-            # 尝试提取增长数字
-            m = re.search(r'(up|down|growth|jumped|rose|fell|slumped)\s+(\d+(?:\.\d+)?%?)', title, re.I)
-            if m:
-                reason = f"{subject}营收{m.group(1)} {m.group(2)}"
-            else:
-                reason = f"{subject}发布财报"
-        elif ev_type == 'strategy':
-            m = re.search(r'(?:launches|expands|enters|partners|files for IPO|plans to go)', title, re.I)
-            if m:
-                reason = f"{subject}战略新动向"
-            else:
-                reason = f"{subject}战略调整"
-        else:
-            # 从标题提取首段代替"有新动态"（零成本提高信息量）
-            title_short = re.split(r'[,;、。.!！?？]', title)[0].strip()
-            if len(title_short) > 40:
-                title_short = title_short[:40] + '…'
-            if len(title_short) >= 10:
-                if title_short.startswith(subject) and len(title_short) > len(subject):
-                    reason = title_short  # 标题以公司名开头，直接用标题
-                elif title_short != subject:
-                    reason = f"{subject}：{title_short}"
-                else:
-                    reason = f"{subject}有新动态"
-            else:
-                reason = f"{subject}有新动态"
-    else:
-        # 没有任何信息时的最后兜底：用标题前段代替泛化模板
-        # 取第一个句子（句号/问号/叹号前），最长 35 字
-        title_short = re.split(r'[.。!！?？]', title)[0].strip()
-        if len(title_short) > 35:
-            title_short = title_short[:35] + '…'
-        if len(title_short) >= 8:
-            reason = f"{r or '全球'}：{title_short}"
-        elif is_chinese:
-            for kw in ['tiktok', 'shein', 'temu', 'bytedance', 'alibaba', 'tencent', 'ant', 'jd.com', 'kuaishou']:
-                if kw in title.lower():
-                    reason = f"{kw.capitalize()}有新动态"
-                    break
-            else:
-                reason = "中资科技公司动态"
-        elif r:
-            templates = {
-                'funding': f"{r}科技公司融资{amt_str}落地" if amt_str else f"{r}科技公司融资",
-                'ma':      f"{r}科技公司并购",
-                'earnings':f"{r}科技公司财报",
-                'strategy':f"{r}科技公司战略",
-                'other':   f"{r}科技动态",
-            }
-            reason = templates.get(ev_type, f"{r}科技动态")
-        else:
-            reason = "全球科技动态"
-
-    return reason
-
-
-def _infer_source_tier(event):
-    """为历史事件补齐信源分层，保证周/月报能按业务价值排序。"""
-    source = (event.get('source') or '').lower()
-    url = (event.get('url') or '').lower()
-    combined = f'{source} {url}'
-    if event.get('source_tier'):
-        return event['source_tier']
-    if any(hint in combined for hint in OFFICIAL_IR_SOURCE_HINTS):
-        return 'L1 官方/IR源'
-    if 'google news' in source or 'news.google.com' in url:
-        return 'L5 Google News 补漏源'
-    if any(name in source for name in ['newzoo', 'gamesindustry', 'pocketgamer', 'paypers', 'fintech futures', 'fintech news singapore', 'ecommercebytes', 'retail4growth', 'mobile world live']):
-        return 'L4 垂直赛道精品源'
-    if 'rest of world' in source:
-        return 'L4 深度趋势源'
-    if any(name in source for name in VERTICAL_DEAL_SOURCES):
-        return 'L2 垂直交易源'
-    if any(name in source for name in REGIONAL_ECOSYSTEM_SOURCES):
-        return 'L3 区域生态源'
-    return 'L3 区域生态源'
-
-
-def infer_frontend_bd_context(event):
-    """从既有事件字段推断 BD 触发器，修复历史数据缺字段的问题。"""
-    ev_type = (event.get('event_types') or ['other'])[0]
-    text = ' '.join([
-        event.get('title', ''),
-        event.get('summary_short', ''),
-        event.get('reason', ''),
-        event.get('impact', ''),
-        event.get('insight_label', ''),
-    ]).lower()
-    triggers = []
-    for name, keywords in BD_TRIGGER_RULES:
-        if any(kw in text for kw in keywords):
-            triggers.append(name)
-    if ev_type == 'funding' and '预算窗口' not in triggers:
-        triggers.append('预算窗口')
-    if ev_type == 'ma' and '整合窗口' not in triggers:
-        triggers.append('整合窗口')
-    if ev_type == 'earnings' and '预算窗口' not in triggers:
-        triggers.append('预算窗口')
-    if ev_type == 'strategy' and not any(t in triggers for t in ['扩张窗口', '生态窗口']):
-        triggers.append('扩张窗口')
-
-    opportunities = []
-    for trigger in triggers:
-        for name in OPPORTUNITY_BY_TRIGGER.get(trigger, []):
-            if name not in opportunities:
-                opportunities.append(name)
-    for name in OPPORTUNITY_BY_TYPE.get(ev_type, []):
-        if name not in opportunities:
-            opportunities.append(name)
-
-    bd_priority = classify_bd_priority(event)
-    follow_up_window = follow_up_window_for_priority(bd_priority)
-
-    return {
-        'bd_triggers': triggers[:3] or ['持续观察'],
-        'opportunity_direction': ' / '.join(opportunities[:4] or ['持续观察']),
-        'follow_up_window': follow_up_window,
-        'bd_priority': bd_priority,
-    }
-
-
-def ensure_business_fields(event):
-    """补齐 BD 机会字段；新旧事件都走同一口径。"""
-    source_tier = _infer_source_tier(event)
-    event['source_tier'] = source_tier
-    event.setdefault('source_role', SOURCE_ROLE_BY_TIER.get(source_tier, 'regional_ecosystem'))
-    bd = infer_frontend_bd_context(event)
-    for key, value in bd.items():
-        if key in {'bd_priority', 'follow_up_window'} or not event.get(key):
-            event[key] = value
-    if isinstance(event.get('bd_triggers'), str):
-        event['bd_triggers'] = [event['bd_triggers']]
-    return event
-
-# ─── Enrich ─────────────────────────────────────────────────
-
-def enrich(event):
-    """统一事件格式 + 自动评分"""
-    if 'event_types' not in event:
-        event['event_types'] = [CATEGORY_MAP.get(event.get('category', '其他'), 'other')]
-
-    ev_type = event['event_types'][0]
-    region = event.get('region', '')
-    title = event.get('title', '')
-
-    # 判断 reason 是否有效（通用模板也算无效，必须重新生成）
-    why = event.get('why_important', '')
-    existing_reason = event.get('reason', '')
-    # 通用模板 reason 列表——这些是 AI 生成的烂 reason，必须重新生成
-    GENERIC_REASONS = {
-        # 短模式（子串匹配 — 覆盖 "亚太科技公司财报披露" 等程序生成变体）
-        '科技动态', '财报披露', '融资事件', '战略动态', '并购/收购', '金额待确认',
-        '战略调整', '有新动态', '科技公司融资', '科技公司并购', '科技公司战略',
-        '科技行业动态', '的高估值',
-        # 完整短语保留兼容
-        '中东科技公司融资事件，金额待确认',
-        '中资科技动态', '亚太科技动态', '欧洲科技动态', '中东科技动态',
-        '非洲科技动态', '拉美科技动态',
-        '中资科技公司战略动态',
-        '中资科技公司财报披露',
-        '中资科技公司并购/收购',
-        '中资科技巨头持续增长，巩固行业地位，吸引更多合作资源',
-        '中资电商巨头海外拓展成功，为国际市场ICT合作带来新机遇',
-        '中资视频平台增长强劲提升行业影响力，吸引资金和合作关注',
-        '中资金融科技巨头战略布局，吸引资金流入，提升行业关注度',
-        '亚太地区出行平台拓展外卖业务版图，加强本地服务能力',
-    }
-    is_generic = any(p in existing_reason for p in GENERIC_REASONS)
-    reason_ok = (existing_reason
-                 and len(existing_reason) >= 10
-                 and '⚠️' not in existing_reason
-                 and '待分析' not in existing_reason
-                 and existing_reason not in TRUNCATED_JUNK
-                 and not is_generic)
-    why_ok = why and len(why) >= 10 and why not in TRUNCATED_JUNK
-
-    if why_ok:
-        event['reason'] = why
-    elif reason_ok:
-        pass  # 保留 AI 生成的 reason
-    else:
-        # 生成有信息量的 fallback：提取公司名 + 事件类型
-        event['reason'] = _build_reason(title, ev_type, region, event.get('company_name'))
-
-    # summary_short fallback：AI 没生成时用 reason 兜底
-    ss = event.get('summary_short', '')
-    if not ss or len(ss) < 8 or ss[:25] == title[:25]:
-        event['summary_short'] = event.get('reason', '')
-
-    event.setdefault('impact', event.get('impact_scope', '未知'))
-    event.setdefault('insight_label', INSIGHT_LABEL_MAP.get(ev_type, '其他'))
-    event.setdefault('region', '未知')
-    event.setdefault('companies', [])
-    event.setdefault('source', '未知')
-    publisher = event.get('publisher') or event.get('source_detail')
-    if not publisher and event.get('source') == 'Google News':
-        publisher = _extract_title_publisher(title)
-    event['publisher'] = publisher or ''
-    event['source_detail'] = event.get('source_detail') or publisher or ''
-    if event.get('source') == 'Google News' and publisher:
-        event['display_source'] = publisher
-    else:
-        event['display_source'] = event.get('source', '未知')
-    # 规则层字段缺失时补算（内存态；AI 0-10 分仅留档，不参与展示决策）
-    if not (event.get('attention_score') or event.get('confidence_score')):
-        try:
-            from signal_scoring import apply_signal_contract
-            apply_signal_contract(event)
-        except Exception:
-            pass
-    # 用于 Market Pulse 突出展示
-    amt = _parse_amount(event.get('title', ''))
-    event['display_amount'] = _format_amount(amt) if amt > 0 else ''
-
-    # 检测中资出海：若涉及中国科技公司出海，追加"中资"标签
-    is_chinese = _is_chinese_capital(event)
-    event['is_chinese_capital'] = is_chinese
-    if is_chinese:
-        ev_type = event.get('event_types', ['other'])[0]
-        event['insight_label'] = '中资出海'
-
-    for old_key in ('summary', 'category', 'impact_range', 'impact_scope', 'why_important'):
-        event.pop(old_key, None)
-    # 保留 date 字段用于 Market Pulse 日期权重
-    if not event.get('date'):
-        event['date'] = _cn_today()
-
-    return ensure_business_fields(event)
+try:
+    from publication.bd import (
+        VERTICAL_DEAL_SOURCES,
+        REGIONAL_ECOSYSTEM_SOURCES,
+        OFFICIAL_IR_SOURCE_HINTS,
+        BD_TRIGGER_RULES,
+        OPPORTUNITY_BY_TRIGGER,
+        OPPORTUNITY_BY_TYPE,
+        SOURCE_ROLE_BY_TIER,
+        KNOWN_COMPANIES,
+        CHINESE_OUTBOUND,
+        _extract_subject,
+        _build_reason,
+        _infer_source_tier,
+        infer_frontend_bd_context,
+        ensure_business_fields,
+        enrich,
+    )
+except ImportError:
+    from scripts.publication.bd import (
+        VERTICAL_DEAL_SOURCES,
+        REGIONAL_ECOSYSTEM_SOURCES,
+        OFFICIAL_IR_SOURCE_HINTS,
+        BD_TRIGGER_RULES,
+        OPPORTUNITY_BY_TRIGGER,
+        OPPORTUNITY_BY_TYPE,
+        SOURCE_ROLE_BY_TIER,
+        KNOWN_COMPANIES,
+        CHINESE_OUTBOUND,
+        _extract_subject,
+        _build_reason,
+        _infer_source_tier,
+        infer_frontend_bd_context,
+        ensure_business_fields,
+        enrich,
+    )
 
 def load_events():
     with open(data_path('events.json'), 'r', encoding='utf-8') as f:
@@ -889,148 +512,30 @@ def group_events_by_date(events):
     return result
 
 
-DISPLAY_ENTITY_STOPWORDS = {
-    'inc', 'corp', 'corporation', 'company', 'co', 'ltd', 'limited', 'group',
-    'holdings', 'holding', 'technologies', 'technology', 'tech', 'systems',
-    'platform', 'platforms', 'analytics', 'computing', 'apps', 'app', 'software',
-    'ai', 'digital', 'global', 'online', 'the', 'amazon', 'fulfillment',
-    'competitor', 'more', 'than', 'korea', 'regional', 'local', 'studio',
-    'busan', 'cloud', 'hands', 'training', 'startups',
-}
-
-
-def _normalize_display_subject(subject):
-    text = re.sub(r'[^a-z0-9\u4e00-\u9fff]+', ' ', (subject or '').lower())
-    tokens = [t for t in text.split() if t and t not in DISPLAY_ENTITY_STOPWORDS and len(t) > 1]
-    return ' '.join(tokens[:4])
-
-
-def _title_subject_key(title):
-    subject = _extract_subject(title or '') or ''
-    if subject:
-        key = _normalize_display_subject(subject)
-        if key:
-            return key
-    patterns = [
-        r'\b([A-Z][A-Za-z0-9\.\-]{2,})\s+(?:raises?|raised|secures?|secured|closes?|closed)\b',
-        r'\b([A-Z][A-Za-z0-9\.\-]{2,})\s+(?:doubles?|doubled|hits?|hit|reaches?|reached|is\s+valued|was\s+valued|valued)\b',
-        r'^([A-Z][A-Za-z0-9\s&\.,\'\-\u2019]+?)\s+(?:raises?|raised|secures?|secured|closes?|closed|lands?|landed|bags?|bagged|gets?|got|receives?|received|attracts?|attracted)\b',
-        r'^([A-Z][A-Za-z0-9\s&\.,\'\-\u2019]+?)\s+(?:doubles?|doubled|hits?|hit|reaches?|reached|is\s+valued|was\s+valued|valued)\b',
-        r'^([A-Z][A-Za-z0-9\s&\.,\'\-\u2019]+?)\s+(?:acquires?|acquired|buys?|bought|merges?|merged|announces?|announced|reports?|reported|posts?|posted)\b',
-    ]
-    for pattern in patterns:
-        match = re.search(pattern, title or '', re.I)
-        if match:
-            return _normalize_display_subject(match.group(1))
-    return ''
-
-
-def _display_subject_key(event):
-    # 优先从标题提取主体：company_name 粒度粗（Kakao Pay 与 Kakao Bank 都标为 Kakao），
-    # 标题能区分到子公司/具体实体，避免展示层误合并不同事件。
-    key = _title_subject_key(event.get('title', ''))
-    if key:
-        return key
-    key = _normalize_display_subject(event.get('company_name') or '')
-    if key:
-        return key
-    companies = event.get('companies') or []
-    if isinstance(companies, list) and companies:
-        key = _normalize_display_subject(str(companies[0]))
-        if key:
-            return key
-    return ''
-
-
-def _normalized_title_key(title):
-    return re.sub(r'[^a-z0-9\u4e00-\u9fff]+', '', (title or '').lower())
-
-
-def _nearby_days(date_a, date_b, window=3):
-    if not date_a or not date_b:
-        return date_a == date_b
-    try:
-        gap = abs((datetime.strptime(date_a, '%Y-%m-%d')
-                   - datetime.strptime(date_b, '%Y-%m-%d')).days)
-    except ValueError:
-        return False
-    return gap <= window
-
-
-def _title_similarity(a, b):
-    ta = _title_tokens(a or '')
-    tb = _title_tokens(b or '')
-    if not ta or not tb:
-        return 0.0
-    return len(ta & tb) / len(ta | tb)
-
-
-def _title_tokens(title):
-    words = re.findall(r'[a-z0-9]+', (title or '').lower())
-    return set(w for w in words if len(w) > 2)
-
-
-def dedupe_display_events(events):
-    """展示前按同日、同主体、同类型兜底去重；财报/并购/融资类事件相邻 3 天内
-    且标题相似度 ≥0.3 时合并，避免同一事件被多家媒体在相邻日期反复占据列表。
-    strategy 仅同日合并，防止误删连续战略动作。低相似度（标题 token 差异大的同事件
-    多源报道，如 Square Enix 财报）由采集层跨天去重负责，此处不做。"""
-    kept = []
-    seen_titles = set()
-    seen_semantic = []  # [(date, event_type, subject_key, title)]
-    for event in events:
-        title_key = _normalized_title_key(event.get('title', ''))
-        if title_key and title_key in seen_titles:
-            continue
-        if title_key:
-            seen_titles.add(title_key)
-
-        # AI 指纹兜底：主体+类型+量化锚点全匹配直接合并，绕过正则主体提取与标题相似度
-        if event.get('canonical_company'):
-            match = next((ev for ev in kept if _fingerprint_match(event, ev)), None)
-            if match is not None:
-                if event.get('url'):
-                    match.setdefault('merged_from', [])
-                    if event['url'] not in match['merged_from']:
-                        match['merged_from'].append(event['url'])
-                continue
-
-        # 采集层规则兜底：复用 _is_same_event（与入库判定一致），治展示层正则
-        # 主体提取错位导致的无指纹同事件漏并（"US space data center startup
-        # Starcloud" 被 _display_subject_key 错提为 "us space data center"）。
-        # 仅非 strategy 且在 3 天窗口内启用，与下方语义窗口一致，避免误删连续战略动作。
-        event_type = (event.get('event_types') or ['other'])[0]
-        if event_type != 'strategy':
-            match = next(
-                (ev for ev in kept if _is_same_event(event, ev)),
-                None,
-            )
-            if match is not None:
-                if event.get('url'):
-                    match.setdefault('merged_from', [])
-                    if event['url'] not in match['merged_from']:
-                        match['merged_from'].append(event['url'])
-                continue
-
-        date_key = (event.get('date') or '')[:10]
-        subject_key = _display_subject_key(event)
-        if subject_key and event_type in {'funding', 'ma', 'earnings', 'strategy'}:
-            dup = False
-            for seen_date, seen_type, seen_subject, seen_title in seen_semantic:
-                if seen_type != event_type or seen_subject != subject_key:
-                    continue
-                if event_type == 'strategy':
-                    same_window = (seen_date == date_key)
-                else:
-                    same_window = _nearby_days(seen_date, date_key, window=3)
-                if same_window and _title_similarity(event.get('title', ''), seen_title) >= 0.3:
-                    dup = True
-                    break
-            if dup:
-                continue
-            seen_semantic.append((date_key, event_type, subject_key, event.get('title', '')))
-        kept.append(event)
-    return kept
+try:
+    from publication.display_dedupe import (
+        DISPLAY_ENTITY_STOPWORDS,
+        _normalize_display_subject,
+        _title_subject_key,
+        _display_subject_key,
+        _normalized_title_key,
+        _nearby_days,
+        _title_similarity,
+        _title_tokens,
+        dedupe_display_events,
+    )
+except ImportError:
+    from scripts.publication.display_dedupe import (
+        DISPLAY_ENTITY_STOPWORDS,
+        _normalize_display_subject,
+        _title_subject_key,
+        _display_subject_key,
+        _normalized_title_key,
+        _nearby_days,
+        _title_similarity,
+        _title_tokens,
+        dedupe_display_events,
+    )
 
 
 def _bd_priority_rank(event):
@@ -2234,31 +1739,10 @@ except ImportError:
     )
 
 
-def _quality_main_events(main_events):
-    """Build the quality-filtered main batch used as a fallback display list."""
-    seen_titles = set()
-    deduped = []
-    for e in main_events:
-        norm = re.sub(r'[^\w]', '', e.get('title', '').lower())
-        if norm in seen_titles or len(norm) <= 10:
-            continue
-        seen_titles.add(norm)
-
-        if not select_main_list_events([e]):
-            continue
-
-        deduped.append(e)
-
-    deduped.sort(key=signal_sort_key, reverse=True)
-    return deduped
-
-
-def build_review_events(today_events, limit=12):
-    """Build a deduped review list from the same display batch as high-value events."""
-    review_events = select_review_events(today_events, limit=None)
-    review_events = dedupe_display_events(review_events)
-    review_events.sort(key=signal_sort_key, reverse=True)
-    return review_events[:limit]
+try:
+    from publication.review import _quality_main_events, build_review_events
+except ImportError:
+    from scripts.publication.review import _quality_main_events, build_review_events
 
 
 def build_display_context():

@@ -21,9 +21,18 @@ MARK = re.compile(r'^# >>> MOVED: (\S+) -> (\S+)$')
 
 
 def _is_filler(line):
-    """标记之间允许的填充：空行，或被搬走代码区的分区 banner（# ─── 标题 ───）。"""
+    """标记之间允许的填充：空行，或被搬走代码区的分区 banner。
+
+    banner 按「# 开头 + 含连续框线」判定（# ─── 信源分层 ───），不枚举中文——
+    枚举具体标题字会让规则一遇到新 banner 就失效。
+    """
     s = line.strip()
-    return s == '' or (s.startswith('#') and set(s) <= set('#─ 　') | set('评分因子'))
+    if s == '':
+        return True
+    if not s.startswith('#'):
+        return False
+    body = s.lstrip('#').strip()
+    return '─' * 3 in body or '=' * 3 in body or '-' * 3 in body
 
 
 def group_marks(lines):

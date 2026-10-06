@@ -146,8 +146,12 @@ def cmd_checkmod(modname):
     with open(path, encoding='utf-8') as f:
         tree = ast.parse(f.read())
 
-    mod = importlib.import_module(modname)
-    ns = set(dir(mod))
+    try:
+        mod = importlib.import_module(modname)
+        ns = set(dir(mod))
+    except Exception as exc:  # 补 import 阶段模块尚未可导入，静态检查仍要做
+        print(f'[warn] {modname} 当前不可导入（{type(exc).__name__}: {exc}），仅做静态检查')
+        ns = set()
 
     # 模块级绑定：函数/类/赋值/import（含 try 内的）
     local = set()
