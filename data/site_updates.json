@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-10-06",
+    "version": "V6.0",
+    "type": "架构重构",
+    "status": "已上线",
+    "title": "架构重构 P0-P3/P5：提示词外置、AI 双评分、事件归组、公开读取出口",
+    "summary": "参照开源项目 AIHOT 的工程方法论对现有架构做渐进重构（不换框架、保 $0 成本、保全部产品资产）。核心是把散落在代码里的规则收进「契约 + 提示词 + 独立模块」三层，让改标准不用改代码、让付费调用不重复花钱、让同一事件不再刷屏。本批完成 P0 架构契约、P1 提示词外置、P2 AI 双评分与付费回执、P3 事件四关系归组与独立来源热度、P5 校准工具与 Agent 出口五个阶段，每阶段含独立测试。关键验收：外置后的 prompt 与改动前逐字节等价（analysis 3518=3518、weekly 874=874、monthly 996=996），确保重构零行为变化。P4（巨石拆包）留待下批。",
+    "changes": [
+      "docs/ARCHITECTURE.md 新增：架构契约 SSOT，定义 13 条不变规则（页面不调模型 / 一个公开读取层 / 付费请求有回执 / 提示词改标准不改代码 / 评分只排序不过滤 / 闸门先于评分 / 资格冻结一次 / 安全阀只关不绕 / 来源可追溯 / 旧文不刷屏 / 迁移不可改写 / 不提交密钥与缓存 / 路径锚定仓库根）与目标目录结构",
+      "scripts/prompts/ 新增 8 份提示词：analysis-system、analysis-examples（从 fetch_news.py 外置）、editorial-weekly、editorial-monthly（从 generate_html.py 外置）、score（五轴评分，按本站 BD 口径改写）、group-definitions、group-method、group-pair（事件归组）。全部 LF 换行",
+      "scripts/prompt_loader.py 新增：提示词加载器，版本 = 归一化内容 sha256 前 12 位，改提示词自动让旧缓存失效（替代手工递增 EDITORIAL_PROMPT_VERSION）；支持 {{> 文件名}} 引用展开",
+      "scripts/ai_receipts.py 新增：付费回执，键含提示词版本+模型+输入指纹，重试复用已付过钱的结果，只缓存成功结果，上限 2 万条按时间裁剪",
+      "scripts/ai_scoring.py 新增：AI 双评分（同一标准独立评两次取均值，门槛 60），刻意不把信源层级/来源名/旧分数传给模型以避免锚定；评分只排序不过滤，另提供与程序分的一致性对比报告",
+      "scripts/event_grouping.py 新增：事件四关系归组（SAME_OCCURRENCE / SAME_STORY / UNRELATED / ROUNDUP），规则层指纹优先、AI 层兜底；本站取舍为「证据不足判 UNRELATED」——误并的伤害大于漏并。独立来源热度：48 小时内每个来源只算一次、24 小时减半",
+      "scripts/eval_selection.py 新增：选材校准工具，从 events.json 抽样生成待标注骨架（.data/gold.jsonl），对 programScore 与 aiScoreAvg 分别扫描阈值并给出最优 F1，供双轨期切换决策",
+      "docs/llms.txt、docs/agent.md 新增：给 AI Agent 的公开读取出口，说明内容组织、RSS 地址、请求约定与使用许可",
+      "scripts/fetch_news.py：删除硬编码 AI_SYSTEM_PROMPT / AI_EXAMPLES 常量（约 3300 字符），改用 build_analysis_prompt() 组装；拼接间隔与外置前逐字节一致",
+      "scripts/generate_html.py：编辑层提示词改用 render_prompt；缓存指纹改为「输入 + 提示词版本」，改提示词即自动全量失效",
+      "新增 4 个测试：test_architecture（含渲染层不得调模型、路径锚定、提示词 LF 与版本口径）、test_ai_scoring（9 项，含回执不重复调用、双评分独立、评分不过滤事件）、test_event_grouping（12 项，含历史回归案例与热度算法）、test_eval_selection（8 项）",
+      ".gitattributes 新增：统一行尾为 LF（修复此前仓库内 LF/CRLF 混存，避免提示词版本哈希随平台漂移）",
+      ".gitignore：忽略 .data/（评测样本）、data/ai_receipts.json（回执缓存）、.workbuddy-ai/（AI 工具工作记忆）"
+    ]
+  },
+  {
     "date": "2026-08-28",
     "version": "V5.5",
     "type": "功能修复",

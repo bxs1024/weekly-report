@@ -14,6 +14,15 @@ data/archive/
 data/.cache/
 scripts/data/.cache/
 
+# 评测样本与报告（gold 标注、阈值扫描结果，仅供本地校准用，不入库）
+.data/
+
+# AI 回执缓存（付费请求去重，本地状态）
+data/ai_receipts.json
+
+# AI 协作工具的工作记忆（非项目代码）
+.workbuddy-ai/
+
 # macOS
 .DS_Store
 

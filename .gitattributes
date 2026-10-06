@@ -1,0 +1,43 @@
+# 行尾与文本属性统一约定
+#
+# 背景：此前仓库无本文件，且本地 core.autocrlf=true，导致同一仓库里
+# 行尾不一致（多数 .py/.md 为 LF，README.md/requirements.txt 为 CRLF，
+# scripts/test_google_news.py 为混合）。
+# 混合行尾会造成：diff 出现虚假整文件改动、提示词版本哈希随平台漂移、
+# 跨机器协作时无谓冲突。
+#
+# 约定：仓库内一律存 LF。
+
+# 默认：自动识别文本文件，检出与入库都用 LF
+* text=auto eol=lf
+
+# 明确按文本处理的类型（保证入库 LF）
+*.py    text eol=lf
+*.md    text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.html  text eol=lf
+*.css   text eol=lf
+*.js    text eol=lf
+*.xml   text eol=lf
+*.txt   text eol=lf
+*.sh    text eol=lf
+
+# 提示词：版本 = 内容哈希，换行符必须稳定，绝不允许 CRLF 污染
+scripts/prompts/*.md text eol=lf
+
+# 二进制文件不做行尾转换
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.gif   binary
+*.ico   binary
+*.pdf   binary
+*.zip   binary
+*.woff  binary
+*.woff2 binary
+
+# Git 内部文件
+.gitattributes text eol=lf
+.gitignore     text eol=lf
