@@ -31,17 +31,43 @@
 ```text
 scripts/
   repo_paths.py # 仓库内路径的唯一锚点（REPO_ROOT/DATA_DIR/DOCS_DIR/repo_path/data_path/docs_path）
-  sources/      # 信源读取与调度（六类读取器 + collect）
-  content/      # 资料入库、判重、正文清洗
-  editorial/    # AI 分析：prompts 加载、结构化、双评分、写作
-  events/       # 事件归组、四关系判断、热度
-  publication/  # 唯一公开读取层（view_selectors 的 selector 入口）
-  reports/      # 周期报告（period_themes）
-  providers/    # AI 通道、回执、预算熔断
+  sources/      # 信源读取：HTTP 底座、RSS/HTML/官方源采集、公司观察契约、信源元数据
+  content/      # 内容处理：通用工具、判型、判重与事实评分账本、智能过滤、og:image 补抓
+  editorial/    # 编辑部：agents（改写/摘要/裁判/BD 上下文）+ editorial（周月报成稿与缓存）
+  providers/    # AI 通道：llm（四家供应商、结构化分析、共享会话）
+  publication/  # 渲染出版域：score/entity/loaders/bd/display_dedupe/review/
+                #            display/opportunity/clusters/summary/date_panel/context
+  reports/      # 周期报告：period.py（AIHOT 档案、周月归档、周期报告构建）
   prompts/      # 全部 AI 提示词（.md，版本 = 内容 sha256）
+
+  fetch_news.py     # P4 后只剩 main 入口 + re-export 转发层（4221 → 899 行）
+  generate_html.py  # 同上（2903 → 607 行）
 ```
 
-迁移纪律：P4 拆包**行为不变**，以「`generate_html.py --force` 生成物 diff 为空」为硬验收；不满足不合并。
+迁移纪律：P4 拆包**行为不变**，硬验收三条——
+① `_api_snapshot.py --verify --mod <模块>`：顶层名字的源码/取值哈希逐项一致；
+② `verify_render_output.py --check`：离线渲染与基线逐字节一致；
+③ `run_all_tests.sh`：全绿。任一不满足不合并。
+
+### re-export 转发层的四条铁律（P4 血泪）
+
+`fetch_news.py` / `generate_html.py` 保留 re-export 给外部脚本兜底，但
+`from X import f` 是**值绑定**，不是别名。凡是下面四类，转发层一律失效：
+
+1. **会重新绑定的模块级状态**：`_load_fact_ledger()` 用 `global` 重绑
+   `_fact_ledger`，转发层那份只是 import 时的空 dict 快照。读它必须走
+   `content.dedupe._fact_ledger`。
+2. **被 monkeypatch 的函数**：测试/脚本打补丁**必须打在真实模块**上。
+   打在转发层上会静默失效——测试仍然 PASS，但实际跑的是真实逻辑。
+3. **函数体内的延迟 import**：`from fetch_news import _post_chat` 每次调用
+   都重新取值，patch `providers.llm._post_chat` 对它无效。调用方一律改模块
+   引用：`from providers import llm` + `llm._post_chat(...)`。
+4. **隐式副作用依赖**：搬出前调用方靠 `import fetch_news` 顺带触发
+   `load_dotenv()`，AI 通道才拿到 key。依赖一断，`_chat_api_candidates()`
+   返回空，AI 分支整段静默跳过。模块自己要加载自己需要的环境。
+
+**验证补丁是否真的命中**：把被 patch 的函数改成抛异常跑一遍，确认真的抛了。
+看测试是否 PASS 不算数——失效的补丁也会 PASS。
 
 ## 六步流水线（目标态）
 
