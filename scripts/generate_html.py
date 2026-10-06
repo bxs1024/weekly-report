@@ -1535,7 +1535,7 @@ def _editorial_prompt_version(kind):
 
 
 def _editorial_cache_path():
-    return os.path.join('data', 'editorial_cache.json')
+    return data_path('editorial_cache.json')
 
 
 def _load_editorial_cache():
@@ -1772,7 +1772,7 @@ def _load_aihot_archive(start_date, end_date, weekly=False):
         natural_end_dt = datetime(start_dt.year, start_dt.month, last_day)
     end = max(end_date, natural_end_dt.strftime('%Y-%m-%d'))
 
-    archive_dir = os.path.join('data', 'aihot_hot')
+    archive_dir = data_path('aihot_hot')
     if not os.path.isdir(archive_dir):
         return []
     items = []
@@ -1841,7 +1841,7 @@ def _latest_aihot_items(limit=10):
 
     当前/当期快照为空时用它兜底展示：宁可用最近一期有效数据，也不让区块消失。
     """
-    archive_dir = os.path.join('data', 'aihot_hot')
+    archive_dir = data_path('aihot_hot')
     if not os.path.isdir(archive_dir):
         return []
     for filename in sorted(os.listdir(archive_dir), reverse=True):
@@ -2415,7 +2415,7 @@ def group_company_cards(company_list):
 
 def load_site_updates():
     """读取网站更新日志。"""
-    path = os.path.join('data', 'site_updates.json')
+    path = data_path('site_updates.json')
     fallback = [{
         'date': _cn_today(),
         'version': 'V0.1',
@@ -2453,7 +2453,7 @@ def load_site_updates():
 
 
 def load_entity_observation_ledger():
-    path = os.path.join('data', 'entity_observation_ledger.json')
+    path = data_path('entity_observation_ledger.json')
     try:
         with open(path, 'r', encoding='utf-8') as handle:
             data = json.load(handle)
@@ -2464,7 +2464,7 @@ def load_entity_observation_ledger():
 
 def load_model_leaderboard():
     """读取 AIHOT 模型榜数据（由 scripts/fetch_model_leaderboard.py 生成）。"""
-    path = os.path.join('data', 'model_leaderboard.json')
+    path = data_path('model_leaderboard.json')
     try:
         with open(path, 'r', encoding='utf-8') as handle:
             data = json.load(handle)
@@ -2475,7 +2475,7 @@ def load_model_leaderboard():
 
 def load_aihot_hot():
     """读取 AIHOT 热点榜数据（由 scripts/fetch_aihot_hot.py 生成）。"""
-    path = os.path.join('data', 'aihot_hot.json')
+    path = data_path('aihot_hot.json')
     try:
         with open(path, 'r', encoding='utf-8') as handle:
             data = json.load(handle)
