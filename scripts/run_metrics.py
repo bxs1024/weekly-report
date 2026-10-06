@@ -1,10 +1,14 @@
 """Persist collection-run metrics for later health checks."""
 
 import json
+import os
 from pathlib import Path
 
+# 路径锚定仓库根（见 docs/ARCHITECTURE.md「路径锚定仓库根」）：
+# 模块级常量在 import 时求值，裸相对路径会随调用方 CWD 漂移。
+_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-DEFAULT_PATH = Path('data/run_metrics.json')
+DEFAULT_PATH = Path(_REPO_ROOT) / 'data' / 'run_metrics.json'
 
 
 def _read_metrics(path):

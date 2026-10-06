@@ -2,10 +2,13 @@
 
 import argparse
 import json
+import os
 from pathlib import Path
 
+# 路径锚定仓库根（见 docs/ARCHITECTURE.md「路径锚定仓库根」）。
+_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-DEFAULT_METRICS_PATH = Path('data/run_metrics.json')
+DEFAULT_METRICS_PATH = Path(_REPO_ROOT) / 'data' / 'run_metrics.json'
 
 
 def _read_metrics(path=DEFAULT_METRICS_PATH):

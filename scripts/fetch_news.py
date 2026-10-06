@@ -774,11 +774,20 @@ def _merge_source_funnel(target, stage_counts):
             row[metric] = row.get(metric, 0) + count
 
 
-def load_registry_sources(path='data/source_registry.json'):
+def load_registry_sources(path=None):
+    """从 source_registry 读动态源。
+
+    读不到时返回空列表（调用方据此只用内置 RSS_SOURCES/HTML_SOURCES），
+    与历史行为一致；但会打一行警告——此前静默吞异常，配合相对路径 bug
+    会让整个动态源清单悄悄失效且无人察觉。
+    """
+    path = path or data_path('source_registry.json')
     try:
         with open(path, 'r', encoding='utf-8') as f:
             registry = json.load(f)
-    except (OSError, json.JSONDecodeError):
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f'⚠️ 读取 source_registry 失败，动态源退化为空: {path} ({type(exc).__name__})',
+              file=sys.stderr)
         return [], []
     sources = registry.get('sources') or registry.get('active_sources') or []
     rss, html = [], []
@@ -1276,7 +1285,7 @@ def _fingerprint_match(a, b):
 # （治"同一事实多版本分数漂移"；8-24 指纹定案的延伸，不新建识别体系）
 # ============================================================
 
-_FACT_LEDGER_PATH = Path('data/fact_score_ledger.json')
+_FACT_LEDGER_PATH = Path(data_path('fact_score_ledger.json'))
 _fact_ledger = {}
 
 
@@ -1511,7 +1520,7 @@ def _upgrade_event(existing, new):
 
 
 # --- 缓存（仅用于单次运行内去重，不跨天保留）---
-CACHE_DIR = Path('data/.cache')
+CACHE_DIR = Path(data_path('.cache'))
 CACHE_TTL = 60 * 60 * 24  # 24小时
 
 def _cache_key(url):
@@ -3220,15 +3229,15 @@ def build_daily_ai_summary(today_events, summary_date=None):
                 continue
 
             # 保存到 data/summary.json
-            os.makedirs('data', exist_ok=True)
+            os.makedirs(DATA_DIR, exist_ok=True)
             summary_data = {}
             try:
-                with open('data/summary.json', 'r', encoding='utf-8') as f:
+                with open(data_path('summary.json'), 'r', encoding='utf-8') as f:
                     summary_data = json.load(f)
             except (FileNotFoundError, json.JSONDecodeError):
                 pass
             summary_data[today] = text
-            with open('data/summary.json', 'w', encoding='utf-8') as f:
+            with open(data_path('summary.json'), 'w', encoding='utf-8') as f:
                 json.dump(summary_data, f, ensure_ascii=False, indent=2)
 
             print(f"  📊 AI趋势分析已生成（{api['name']}，{len(text)}字）: {text[:60]}...")
@@ -3701,10 +3710,10 @@ def main():
     print(f"\n🌍 全球互联网动态情报站")
     print(f"   {_cn_now().strftime('%Y-%m-%d %H:%M')} | 目标：融资/并购/财报/战略\n")
 
-    os.makedirs('data', exist_ok=True)
+    os.makedirs(DATA_DIR, exist_ok=True)
     _load_fact_ledger()
     try:
-        with open('data/events.json', 'r', encoding='utf-8') as f:
+        with open(data_path('events.json'), 'r', encoding='utf-8') as f:
             all_events = json.load(f)
         if isinstance(all_events, list): all_events = {}
     except: all_events = {}
@@ -4164,7 +4173,7 @@ def main():
     if removed_dups:
         print(f"  🧹 历史去重：清理 {removed_dups} 条同日重复事件")
 
-    with open('data/events.json', 'w', encoding='utf-8') as f:
+    with open(data_path('events.json'), 'w', encoding='utf-8') as f:
         json.dump(all_events, f, ensure_ascii=False, indent=2)
     _save_fact_ledger()
     print(f"  📒 事实评分账本：{len(_fact_ledger)} 个指纹")
