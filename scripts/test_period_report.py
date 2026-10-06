@@ -557,8 +557,11 @@ def test_editorial_input_hash_is_content_addressed():
     base = _editorial_input_hash(brief)
     assert base == _editorial_input_hash([{'title': '标题', 'key': 'k1'}])
     assert base != _editorial_input_hash([{'key': 'k1', 'title': '标题2'}])
-    with mock.patch.object(generate_html, 'EDITORIAL_PROMPT_VERSION', 2):
-        assert base != _editorial_input_hash(brief)
+    # 提示词版本 = 文件内容哈希（P1 起替代手动 EDITORIAL_PROMPT_VERSION）。
+    # 带 prompt_kind 时版本才进哈希：版本不同 → input_hash 必须不同。
+    base_kind = _editorial_input_hash(brief, 'weekly')
+    with mock.patch.object(generate_html, '_editorial_prompt_version', return_value='deadbeef'):
+        assert base_kind != _editorial_input_hash(brief, 'weekly')
 
 
 if __name__ == '__main__':

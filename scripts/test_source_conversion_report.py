@@ -1,3 +1,5 @@
+import json
+
 from source_conversion_report import build_source_conversion_report, classify_filter_reason
 
 
@@ -95,12 +97,13 @@ def test_conversion_aggregates_run_and_event_stats(tmp_path):
     )
     registry_path.write_text('{"sources": []}', encoding='utf-8')
 
-    old_cwd = __import__('os').getcwd()
-    try:
-        __import__('os').chdir(tmp_path)
-        report = build_source_conversion_report(days=1)
-    finally:
-        __import__('os').chdir(old_cwd)
+    # 路径按架构契约显式注入（读路径锚定仓库根，不靠 chdir 漂移）
+    report = build_source_conversion_report(
+        days=1,
+        events=json.loads(events_path.read_text(encoding='utf-8')),
+        metrics_path=str(metrics_path),
+        registry_path=str(registry_path),
+    )
 
     row = report['rows'][0]
     assert row['source'] == 'TechCrunch'
@@ -135,12 +138,12 @@ def test_conversion_marks_high_signal_zero_main_for_governance(tmp_path):
     )
     (data_path / 'source_registry.json').write_text('{"sources": []}', encoding='utf-8')
 
-    old_cwd = __import__('os').getcwd()
-    try:
-        __import__('os').chdir(tmp_path)
-        report = build_source_conversion_report(days=1)
-    finally:
-        __import__('os').chdir(old_cwd)
+    report = build_source_conversion_report(
+        days=1,
+        events={},  # 该用例只考察 run_metrics 侧的漏斗，事件集为空
+        metrics_path=str(data_path / 'run_metrics.json'),
+        registry_path=str(data_path / 'source_registry.json'),
+    )
 
     row = report['rows'][0]
     assert row['source'] == 'Stripe Changelog'
@@ -159,12 +162,12 @@ def test_company_query_keeps_entity_source_lineage(tmp_path):
         encoding='utf-8',
     )
     (data_path / 'source_registry.json').write_text('{"sources":[]}', encoding='utf-8')
-    old_cwd = __import__('os').getcwd()
-    try:
-        __import__('os').chdir(tmp_path)
-        report = build_source_conversion_report(days=1)
-    finally:
-        __import__('os').chdir(old_cwd)
+    report = build_source_conversion_report(
+        days=1,
+        events=json.loads((data_path / 'events.json').read_text(encoding='utf-8')),
+        metrics_path=str(data_path / 'run_metrics.json'),
+        registry_path=str(data_path / 'source_registry.json'),
+    )
     row = next(row for row in report['rows'] if row['source'] == 'Naver')
     assert row['raw'] == 1
     assert row['stored'] == 1
