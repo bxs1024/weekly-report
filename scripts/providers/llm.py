@@ -32,6 +32,18 @@ except ImportError:
 _LLM_SESSION = requests.Session()
 _LLM_SESSION.trust_env = False
 
+# 总闸：AI 请求的最终开关。只决定「发不发出去」，不改变任何逻辑分支——
+# 关掉后 _chat_api_candidates() 返回空，等价于没配 key。
+AI_CALLS_ENABLED_ENV = 'AI_CALLS_ENABLED'
+
+
+def ai_calls_enabled():
+    """没设或设成 true/1/yes/on 时开启；显式关掉则所有 AI 通道一律不发请求。"""
+    raw = (os.environ.get(AI_CALLS_ENABLED_ENV) or '').strip().lower()
+    if raw == '':
+        return True
+    return raw in ('1', 'true', 'yes', 'on')
+
 
 def configure_minimax():
     """配置 MiniMax API，优先使用"""
@@ -509,7 +521,14 @@ def _results_by_url(results):
     }
 
 def _chat_api_candidates():
-    """Return AI chat APIs in priority order: 方舟 V4 Flash primary, DeepSeek, Doubao fallback."""
+    """Return AI chat APIs in priority order: 方舟 V4 Flash primary, DeepSeek, Doubao fallback.
+
+    总闸 `AI_CALLS_ENABLED` 关掉时返回空列表——与「一个 key 都没配」完全同路，
+    调用方各自的降级路径自然接管。这是全部付费请求的唯一决策点：任何 AI 调用
+    都要先从这里拿到 api，拿不到就发不出去。
+    """
+    if not ai_calls_enabled():
+        return []
     apis = []
     ark_key = os.environ.get('ARK_API_KEY', '')
     if ark_key and len(ark_key) >= 10:
