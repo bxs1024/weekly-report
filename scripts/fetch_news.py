@@ -31,6 +31,14 @@ try:
 except ImportError:
     from scripts.prompt_loader import load_prompt, prompt_version
 
+# P2/P3 新链路：AI 双评分与事件归组。两者各自带安全阀（默认开，可单独关停回退）。
+# 直连真实模块——走 fetch_news 转发层会让 monkeypatch 静默打空（见 ARCHITECTURE.md 四条铁律）。
+try:
+    import ai_scoring
+    import event_grouping
+except ImportError:
+    from scripts import ai_scoring, event_grouping
+
 # 仓库路径锚定 __file__，不依赖调用进程 CWD（见 docs/ARCHITECTURE.md「路径锚定仓库根」）。
 # 裸相对路径 'data/...' 只在 CWD=仓库根 时正确；从 scripts/ 直接运行脚本或测试时
 # 会指向 scripts/data/，读出空数据或抛 FileNotFoundError。
@@ -366,6 +374,65 @@ except ImportError:
 # ============================================================
 # 主函数
 # ============================================================
+
+# ============================================================
+# P2/P3 新链路接线：AI 双评分 + 事件归组与热度
+# ============================================================
+
+# 归组/热度的处理窗口（天）。不设窗口就要每天重扫全部历史——3796 条约 20 秒 CPU，
+# 外加最多 200 次 AI 调用；而归组的候选窗口本身只有 14 天，30 天足够覆盖。
+# 历史事件的 group_id 在它们「当新」的那几次运行里已定，不需要每天重算。
+GROUP_WINDOW_DAYS = 30
+
+# 评分补漏窗口（天）。每天只评「窗口内且还没有 ai_score_avg」的事件——幂等，
+# 重跑不重复付费（回执再兜一层）。对齐方案「日均 60 事件」的成本模型。
+SCORE_WINDOW_DAYS = 7
+
+
+def _window_events(all_events, days):
+    """取最近 N 天的事件。日期键是 YYYY-MM-DD，字典序即时间序。"""
+    keys = sorted(all_events.keys())[-days:]
+    return [e for key in keys for e in all_events[key]]
+
+
+def _run_ai_scoring(all_events, run_metrics):
+    """P2：对窗口内还没评过的事件跑 AI 双评分，并排落库（不替换程序分）。
+
+    安全阀 AI_SCORE_ENABLED 默认开；关掉则整层跳过，一个字段都不写。
+    评分只排序不过滤，失败也不影响事件入库。
+    """
+    if not ai_scoring.ai_score_enabled():
+        return
+    targets = [e for e in _window_events(all_events, SCORE_WINDOW_DAYS)
+               if e.get('ai_score_avg') is None]
+    if not targets:
+        return
+    stats = ai_scoring.score_events(targets)
+    run_metrics['ai_scoring'] = stats
+    if stats['scored'] == 0 and stats['failed']:
+        print(f"  🧮 AI 双评分：跳过 {stats['failed']} 条（AI 通道不可用）")
+    else:
+        print(f"  🧮 AI 双评分：{stats['scored']} 条"
+              f"（回执复用 {stats['reused']}，失败 {stats['failed']}）")
+
+
+def _run_event_grouping(all_events, run_metrics):
+    """P3：窗口内事件做四关系归组 + 独立来源热度，原地写 group_* / event_heat。
+
+    安全阀 GROUP_ENABLED 默认开；关掉则整层跳过。规则层（指纹合并）不依赖 AI，
+    所以即使 AI 通道不可用，group_id 与热度仍然成立。
+    """
+    if not event_grouping.group_enabled():
+        return
+    window = _window_events(all_events, GROUP_WINDOW_DAYS)
+    if not window:
+        return
+    stats = event_grouping.assign_groups(window)
+    event_grouping.compute_heat(window)
+    run_metrics['event_grouping'] = stats
+    print(f"  🧩 事件归组：{stats['groups']} 组"
+          f"（规则并 {stats['rule_merges']} / AI 并 {stats['ai_merges']}，AI 调用 {stats['ai_calls']}）")
+
 
 def main():
     today = _cn_today()
@@ -845,6 +912,11 @@ def main():
     all_events, removed_dups, removed_reasons = dedupe_events_by_day(all_events)
     if removed_dups:
         print(f"  🧹 历史去重：清理 {removed_dups} 条同日重复事件")
+
+    # P2/P3：先双评分（并排落库），再归组与热度（热度按归组后的组算）。
+    # 两者都有安全阀，关掉即完全不改 all_events。
+    _run_ai_scoring(all_events, run_metrics)
+    _run_event_grouping(all_events, run_metrics)
 
     with open(data_path('events.json'), 'w', encoding='utf-8') as f:
         json.dump(all_events, f, ensure_ascii=False, indent=2)
