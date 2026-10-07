@@ -130,6 +130,12 @@ scripts/
 | 3650–3690 og:image 补抓 | `content/og_image.py` | |
 | 3691–4221 `main()` 流水线 | `pipeline.py` | 编排入口 |
 
+> **注（2026-10-07 收口）**：上表最后一行与本文件下方实施纪律「搬迁完成后
+> `fetch_news.py` 应只剩 re-export 与 `main()` 入口」自相矛盾。实际采用后者：
+> `main()` 仍在 `fetch_news.py`，**未新建 `pipeline.py`**。理由：`main()` 是
+> 编排入口而非领域逻辑，单独抽一个只被一个调用方使用的模块，收益不抵多一层
+> 间接。目标结构以 `docs/ARCHITECTURE.md` 为准（那里写的就是 main + 转发层）。
+
 ### 实施纪律
 
 - **每搬一个模块一个 commit**，commit 内只做搬迁 + import 修正，绝不夹带行为改动。
