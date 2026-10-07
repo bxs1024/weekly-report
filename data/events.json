@@ -199698,7 +199698,12 @@
       },
       "view_status": "review",
       "view_reason": "qualified_review",
-      "view_priority": "important"
+      "view_priority": "important",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Tencent Cloud Partners with Logistics Platform TruKKer in Saudi Amid Regional Expansion - PR Newswire",
@@ -199797,7 +199802,12 @@
       },
       "view_status": "review",
       "view_reason": "qualified_review",
-      "view_priority": "important"
+      "view_priority": "important",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Kakao Pay Insurance speeds overseas claim reviews with AI, stresses value - CHOSUNBIZ - Chosunbiz",
@@ -199887,7 +199897,12 @@
       "signal_change_breakdown": {},
       "view_status": "filtered",
       "view_reason": "quality_review",
-      "view_priority": "important"
+      "view_priority": "important",
+      "ai_score_1": 48,
+      "ai_score_2": 38,
+      "ai_score_avg": 43,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Naver's music streaming platform \"Vive,\" launched in 2018, will close on December 31 this year. - 매일경제",
@@ -199984,7 +199999,12 @@
       "view_priority": "important",
       "merged_from": [
         "https://news.google.com/rss/articles/CBMiS0FVX3lxTE54S1owUTlWeTl0MTE1Tm9uVDJtMGhsMlc1cm0xWVRwaHM5WERNdmZhTHZhUzRpYk9lVnRnT1R2ZVNTa3dvNDZYWmV1WQ?oc=5"
-      ]
+      ],
+      "ai_score_1": 48,
+      "ai_score_2": 38,
+      "ai_score_avg": 43,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Rakuten Viber rolls out in-app eSIM service for global travelers - adobo Magazine",
@@ -200079,7 +200099,12 @@
       },
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "important"
+      "view_priority": "important",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Adyen reports strong H1/26 growth, plans >20% r... - Pluang",
@@ -200177,7 +200202,12 @@
       },
       "view_status": "filtered",
       "view_reason": "out_of_scope_industry",
-      "view_priority": "important"
+      "view_priority": "important",
+      "ai_score_1": 68,
+      "ai_score_2": 62,
+      "ai_score_avg": 65,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Adyen stock holds above the EUR 1,070 mark as H1 2026 growth accelerates - Ad-hoc-news.de",
@@ -200271,7 +200301,12 @@
       },
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Nvidia closes in on Hugging Face acquisition",
@@ -200363,7 +200398,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "important"
+      "view_priority": "important",
+      "ai_score_1": 78,
+      "ai_score_2": 78,
+      "ai_score_avg": 78,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
@@ -200454,7 +200494,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "important"
+      "view_priority": "important",
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Nvidia agrees to buy Hugging Face for $12.9BN, says report",
@@ -200548,7 +200593,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://tech.eu/2026/08/27/nvidia-agrees-to-buy-hugging-face-for-12-9bn-says-report/"
-      ]
+      ],
+      "ai_score_1": 78,
+      "ai_score_2": 78,
+      "ai_score_avg": 78,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "South Korea’s regulator says Meta’s teen limits should apply everywhere, not just America",
@@ -200641,7 +200691,12 @@
       "view_priority": "watch",
       "merged_from": [
         "https://thenextweb.com/news/korea-kmcc-meta-youth-protections-global"
-      ]
+      ],
+      "ai_score_1": 58,
+      "ai_score_2": 62,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Poland has asked the European Commission to fine Meta €250M over scam ads",
@@ -200731,7 +200786,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "SK Telecom plans AI data center spin-off with $2.2b investment",
@@ -200825,7 +200885,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 68,
+      "ai_score_2": 78,
+      "ai_score_avg": 73,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Automating desktop tasks for users with motor impairments",
@@ -200915,7 +200980,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "important"
+      "view_priority": "important",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "InstaAstro Bags $12 Mn To Build AI Tools, Expand Online Pooja Services",
@@ -201006,7 +201076,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "important"
+      "view_priority": "important",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Ananta sets January 2027 launch date as pre-registration passes 17m",
@@ -201097,7 +201172,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "important"
+      "view_priority": "important",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Thatgamecompany launches new publishing label",
@@ -201188,7 +201268,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "important"
+      "view_priority": "important",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "AI Emerges as ASEAN Fintech’s Most Scarce Skill",
@@ -201281,7 +201366,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "TRM Labs Taps MAS Veteran Ziqing Ang to Lead APAC Policy",
@@ -201366,7 +201456,12 @@
       "signal_change_breakdown": {},
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Techcombank Reportedly Weighs 15% Stake Deal Worth US$2 Billion",
@@ -201458,7 +201553,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 68,
+      "ai_score_avg": 65,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Canadian payment processor Helcim raises C$53m",
@@ -201551,7 +201651,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "HP distances itself from Huawei ties following patent deal",
@@ -201646,7 +201751,12 @@
       "view_priority": "important",
       "merged_from": [
         "https://www.mobileworldlive.com/ranvendors/hp-distances-from-huawei-ties-following-patent-deal/"
-      ]
+      ],
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Rakuten Securities to Launch Conversational AI Chat Support on September 2 - finance.biggo.com",
@@ -201742,7 +201852,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "What the US semiconductor tariff does and does not currently touch",
@@ -201835,7 +201950,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Naphora Games enters soft launch with three mobile titles",
@@ -201928,7 +202048,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Nvidia to acquire Hugging Face in $13B deal — report",
@@ -202022,7 +202147,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 78,
+      "ai_score_2": 78,
+      "ai_score_avg": 78,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Expanding OpenAI’s presence in Brazil",
@@ -202123,7 +202253,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Nvidia invests $1 billion in NAVER to expand South Korea AI datacenter capacity - scanx.trade",
@@ -202223,7 +202358,12 @@
       "view_priority": "watch",
       "merged_from": [
         "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMVBPYVFCVUNTYXB2ZVVDWTZCYmtJSU5jZjdrSFpKYnpRS2VmejNrYWI1N29wUDVTXzdUeWpqVFQyVDVtaGp6Y2NQSjZ2cGpTN1Ewcm4yLUxyZk94eWUwaWs4Q29UZEc0Z0tPQVB6b2M5UnEzeGxSR1piR0JwMWJ0dS02SDFZMWpWVVlUNllmUUozdDJxdzgxZTVrNGQ3cjJYQmJFWkRCeWU3bTJESFBCSmx2bTh5WTdKX09IbnVNTmowZmxFTnl5R1BTVlVKcjg5?oc=5"
-      ]
+      ],
+      "ai_score_1": 78,
+      "ai_score_2": 78,
+      "ai_score_avg": 78,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Rakuten Kobo's major in-store e-reader expansion at Best Buy makes it so easy to shop - Android Central",
@@ -202320,7 +202460,12 @@
       },
       "view_status": "filtered",
       "view_reason": "out_of_scope_industry",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "MercadoLibre (MELI) Earnings History & Trends - 24/7 Wall St.",
@@ -202417,7 +202562,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 42,
+      "ai_score_2": 42,
+      "ai_score_avg": 42,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Jumia Technologies AG (JMIA) Stock News Today - TradingKey",
@@ -202508,7 +202658,12 @@
       "signal_change_breakdown": {},
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 28,
+      "ai_score_2": 28,
+      "ai_score_avg": 28,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "YouTube now lets creators tag Amazon products and earn commissions from purchases",
@@ -202600,7 +202755,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "CookieRun: Crumble surpasses $14.3m revenue ahead of first major update",
@@ -202694,7 +202854,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 48,
+      "ai_score_avg": 43,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Visa expands open-source AI cyber defence system",
@@ -202794,7 +202959,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://www.finextra.com/pressarticle/110747/visa-expands-open-source-ai-cyber-defence-system?utm_medium=rssfinextra&utm_source=finextrafeed"
-      ]
+      ],
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Card fees have staying power",
@@ -202887,7 +203057,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 28,
+      "ai_score_2": 38,
+      "ai_score_avg": 33,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Bath & Body Works e-commerce returns to growth",
@@ -202981,7 +203156,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Sur La Table launches peer-to-peer marketplace",
@@ -203074,7 +203254,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "SKT heralds new horizon with AI data centre spin-off",
@@ -203170,7 +203355,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://www.mobileworldlive.com/asia-pacific/skt-heralds-new-horizon-with-ai-data-centre-spin-off/"
-      ]
+      ],
+      "ai_score_1": 62,
+      "ai_score_2": 68,
+      "ai_score_avg": 65,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Google adds DMs and travel activity recommendations to Demand Gen ads",
@@ -203266,7 +203456,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://www.socialmediatoday.com/news/google-adds-dms-and-travel-activity-recommendations-to-demand-gen-ads/829030/"
-      ]
+      ],
+      "ai_score_1": 48,
+      "ai_score_2": 38,
+      "ai_score_avg": 43,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "X launches API for business chatbot accounts",
@@ -203362,7 +203557,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://www.socialmediatoday.com/news/x-launches-api-for-business-chatbot-accounts/829029/"
-      ]
+      ],
+      "ai_score_1": 58,
+      "ai_score_2": 62,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Socure Raises $156M at $5.2B Valuation to Expand AI Trust Platform",
@@ -203457,7 +203657,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Core Scientific Secures $600M Credit Facilities to Expand AI Infrastructure",
@@ -203550,7 +203755,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 58,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Adaptyv Raises $40 Million To Build the Automated AI Lab for Agentic Biology",
@@ -203643,7 +203853,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Deep Cogito Raises $43 Million To Build AI Models That Improve Themselves",
@@ -203736,7 +203951,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 58,
+      "ai_score_avg": 53,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Voya Energy Raises $35M to Power Data Centers With Aluminum Fuel",
@@ -203831,7 +204051,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 62,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "World’s best airport embraces AI, automation with new Terminal 2",
@@ -203932,7 +204157,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Aug 27, 2026 Announcements Expanding our support for scientists",
@@ -204030,7 +204260,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://www.anthropic.com/news/expanding-support-for-scientists"
-      ]
+      ],
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Autonomy raises $8M Series A",
@@ -204123,7 +204358,12 @@
       },
       "view_status": "filtered",
       "view_reason": "out_of_scope_industry",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Capacity acquires Chilean AI customer support startup Chattigo",
@@ -204216,7 +204456,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     }
   ],
   "2026-08-28": [
@@ -204309,7 +204554,12 @@
       "signal_change_breakdown": {},
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Overseas Research Daily 0828 | JPMorgan: Alibaba's AI investment cycle may be longer than expected; market sell-off is an overreaction - Moomoo",
@@ -204406,7 +204656,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "South Korea picks SK Telecom, Kakao, KT for national AI project, Yonhap reports - Reuters",
@@ -204502,7 +204757,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 68,
+      "ai_score_2": 68,
+      "ai_score_avg": 68,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Kakao Games to Launch ‘Path of Exile 2’ on Dec. 12 - thelec.net",
@@ -204599,7 +204859,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Square Enix has a Kingdom Hearts loremaster due to the complexity of the series - GoNintendo",
@@ -204690,7 +204955,12 @@
       "signal_change_breakdown": {},
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 18,
+      "ai_score_2": 18,
+      "ai_score_avg": 18,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Adyen stock gains support from Toast partnership expansion and APAC growth - Ad-hoc-news.de",
@@ -204790,7 +205060,12 @@
       },
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Nvidia has paused parts of the revenue-sharing programme it launched in July",
@@ -204886,7 +205161,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "MiniMax raises Alibaba cloud spending cap 220%",
@@ -204986,7 +205266,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://www.techinasia.com/news/minimax-raises-alibaba-cloud-spending-cap-220"
-      ]
+      ],
+      "ai_score_1": 62,
+      "ai_score_2": 58,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Fintech Startups To Watch: Startups That Caught Our Eye In August",
@@ -205078,7 +205363,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Meta and Roblox agree to strengthen child safety measures in the Philippines",
@@ -205171,7 +205461,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 62,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "New release roundup: Fantasy Life i, Tiny Room Stories: Eclipse, Ultrapool, and more",
@@ -205264,7 +205559,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 18,
+      "ai_score_2": 18,
+      "ai_score_avg": 18,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Cutting edge content in Canada with PGC Summit Montréal",
@@ -205358,7 +205658,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 18,
+      "ai_score_2": 18,
+      "ai_score_avg": 18,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Asian Cybercrime Networks Turn to Decentralization, AI Tools, New Research Finds",
@@ -205456,7 +205761,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://fintechnews.sg/136418/security/asian-cybercrime-networks-turn-to-decentralization-ai-tools-new-research-finds/"
-      ]
+      ],
+      "ai_score_1": 48,
+      "ai_score_2": 38,
+      "ai_score_avg": 43,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Swift Pushes Back ISO 20022 Deadline as Industry Readiness Lags",
@@ -205552,7 +205862,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://fintechnews.sg/136448/payments/swift-iso-20022/"
-      ]
+      ],
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "eBay Mandates Authenticity Guarantee for High-Value Coins",
@@ -205649,7 +205964,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://www.ecommercebytes.com/2026/08/27/ebay-mandates-authenticity-guarantee-for-high-value-coins/"
-      ]
+      ],
+      "ai_score_1": 58,
+      "ai_score_2": 48,
+      "ai_score_avg": 53,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "The Friday File: Meta; HP; Spain",
@@ -205745,7 +206065,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://www.mobileworldlive.com/big-tech/the-friday-file-meta-hp-spain/"
-      ]
+      ],
+      "ai_score_1": 18,
+      "ai_score_2": 38,
+      "ai_score_avg": 28,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "COAI chief bullish India will have edge on rivals in 6G era",
@@ -205843,7 +206168,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://www.mobileworldlive.com/5g/coai-chief-bullish-india-will-have-edge-on-rivals-in-6g-era/"
-      ]
+      ],
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "World's second most visited country plans stricter data centers rules",
@@ -205947,7 +206277,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://e.vnexpress.net/news/tech/tech-news/world-s-second-most-visited-country-plans-stricter-data-centers-rules-5113670.html"
-      ]
+      ],
+      "ai_score_1": 68,
+      "ai_score_2": 68,
+      "ai_score_avg": 68,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Why Brazil fined TikTok $30 million over children’s data protection failures - Brazil Reports",
@@ -206045,7 +206380,12 @@
       },
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 68,
+      "ai_score_2": 62,
+      "ai_score_avg": 65,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Tencent Revenue Shakes Global Markets Amid Surging AI Investment - streamlinefeed.co.ke",
@@ -206143,7 +206483,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 58,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Meituan: Revenue up 14.4% YoY, net profit positive, with strong AI, grocery, and overseas growth - TradingView",
@@ -206241,7 +206586,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "As more consumers buy groceries and household goods through online shopping, the center of shopping - 매일경제",
@@ -206332,7 +206682,12 @@
       "signal_change_breakdown": {},
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Ariana Grande's Fans in Total Meltdown as Pop Star Changes 'Thank U Next' Lyrics About Ricky Alvarez Again - International Business Times UK",
@@ -206428,7 +206783,12 @@
       },
       "view_status": "filtered",
       "view_reason": "out_of_scope_industry",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 0,
+      "ai_score_2": 0,
+      "ai_score_avg": 0,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Square Enix reportedly hired a loremaster to keep Kingdom Hearts’ plot coherent - Nintendo Wire",
@@ -206518,7 +206878,12 @@
       "signal_change_breakdown": {},
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 18,
+      "ai_score_2": 18,
+      "ai_score_avg": 18,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Square Enix Music shares a Chocobo Theme cover from the Final Fantasy series - GoNintendo",
@@ -206612,7 +206977,12 @@
       "view_priority": "watch",
       "merged_from": [
         "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMmF6WVdycXJHYnZrX1FLOGsxNklEXzV5bWRkVFdoQm1PZVFzTHE5QkROYlNqT2hhcURoZFVtMUZPdWdEMUFpYjhCTGp5Mm9vSEVfVGJsbTlMcFUxQmMwdzk0dkJabGw0TUtadndNVzdBMVRFeDVUZTBUVDVtNmlyWjNQMWRfM3ROZDF4SDlaWWxxaWlBcmZ3cTJ3aG00M0pXMDRYWTBaV284SmxEbFlGaWxpNnY?oc=5"
-      ]
+      ],
+      "ai_score_1": 8,
+      "ai_score_2": 8,
+      "ai_score_avg": 8,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Neocloud Lambda secures $1B in debt to buy more chips",
@@ -206705,7 +207075,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
@@ -206798,7 +207173,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 58,
+      "ai_score_avg": 53,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "The data center boom will fail its promise if safety and workforce development continue to lag behind",
@@ -206891,7 +207271,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Singapore launches world’s first liquid-cooling standard for AI data centres",
@@ -206984,7 +207369,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 78,
+      "ai_score_2": 78,
+      "ai_score_avg": 78,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Dubai brings biggest-ever pavilion to Gamescom 2026 with top 10 gaming hub ambition",
@@ -207077,7 +207467,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "PayPal shares sink on reported collapse of Stripe-Advent takeover deal",
@@ -207173,7 +207568,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://www.finextra.com/newsarticle/48322/paypal-shares-sink-on-reported-collapse-of-stripe-advent-takeover-deal?utm_medium=rssfinextra&utm_source=finextrafeed"
-      ]
+      ],
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Affirm and Shopify launch installments payments in Australia",
@@ -207269,7 +207669,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://www.finextra.com/pressarticle/110751/affirm-and-shopify-launch-installments-payments-in-australia?utm_medium=rssfinextra&utm_source=finextrafeed"
-      ]
+      ],
+      "ai_score_1": 62,
+      "ai_score_2": 58,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Owner Raises $240 Million To Give Small Businesses That Can’t Afford Big Tech Teams AI",
@@ -207362,7 +207767,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 72,
+      "ai_score_2": 62,
+      "ai_score_avg": 67,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Jumia Files to Let Four Investors Sell $15m of Shares Two Weeks After Rescue Raise - Launch Base Africa",
@@ -207459,7 +207869,12 @@
       },
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Our decision on Cursor following its acquisition by SpaceX",
@@ -207565,7 +207980,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
-      ]
+      ],
+      "ai_score_1": 18,
+      "ai_score_2": 0,
+      "ai_score_avg": 9,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     }
   ],
   "2026-08-29": [
@@ -207664,7 +208084,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 62,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Tencent unveils AI model it says outperforms Z.ai, Moonshot",
@@ -207759,7 +208184,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "important"
+      "view_priority": "important",
+      "ai_score_1": 58,
+      "ai_score_2": 62,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Hugging Face built a $4.5 billion empire on free AI models. Now Nvidia is buying it for $12.9 billion",
@@ -207854,7 +208284,12 @@
       "view_status": "main",
       "view_reason": "qualified_main",
       "view_priority": "selected",
-      "score_reused": true
+      "score_reused": true,
+      "ai_score_1": 78,
+      "ai_score_2": 78,
+      "ai_score_avg": 78,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Gamescom's loudest absence: A masterclass in not showing up",
@@ -207950,7 +208385,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://www.pocketgamer.biz/gamescoms-loudest-absence-a-masterclass-in-not-showing-up/"
-      ]
+      ],
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Could This Hot Growth Stock Be the Next MercadoLibre? Why It Looks Like a Screaming Buy - The Globe and Mail",
@@ -208048,7 +208488,12 @@
       },
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 28,
+      "ai_score_2": 18,
+      "ai_score_avg": 23,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     }
   ],
   "2026-08-30": [
@@ -208149,7 +208594,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://developers.cloudflare.com/changelog/post/2026-08-30-glm-5.3-flash/"
-      ]
+      ],
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Amazon Lets Sellers Pay Extra for SSD (Sub Same Day Shipping)",
@@ -208242,7 +208692,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 62,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Naver Nears Grip on Korea's Unlisted Stock Market as Review Begins - Seoul Economic Daily",
@@ -208339,7 +208794,12 @@
       },
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 62,
+      "ai_score_2": 58,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Better International E-Commerce Stock: MercadoLibre vs. Sea Limited - The Globe and Mail",
@@ -208430,7 +208890,12 @@
       "signal_change_breakdown": {},
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "UK networks are not ready for AI traffic, say mobile operators",
@@ -208526,7 +208991,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://thenextweb.com/news/uk-mobile-networks-ai-planning-reform-eu-gigabit-infrastructure-act"
-      ]
+      ],
+      "ai_score_1": 58,
+      "ai_score_2": 62,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "MIT report says AI can complete almost any undergraduate assignment it sets",
@@ -208621,7 +209091,12 @@
       },
       "view_status": "review",
       "view_reason": "qualified_review",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "X offers free API credits for its Grok Bot",
@@ -208716,7 +209191,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Pinterest sets date for annual marketing showcase",
@@ -208809,7 +209289,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     }
   ],
   "2026-08-31": [
@@ -208909,7 +209394,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Naver-Kurly grocery venture reports 10-fold rise in 1st-year transactions - The Korea Times",
@@ -209006,7 +209496,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "The online shopping service \"Curly N Mart,\" introduced by Naver and kurly in partnership, has increa.. - 매일경제",
@@ -209105,7 +209600,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "SEA Digest: Salim Group buys out Keppel from data centre JV; Gojek expands tie-up with ComfortDelGro - DealStreetAsia",
@@ -209204,7 +209704,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "SK hynix eyes Japan memory plant as AI demand rises",
@@ -209299,7 +209804,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 68,
+      "ai_score_avg": 65,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "AI solved costs. Demand’s the catch",
@@ -209391,7 +209901,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "AI Set to Contribute up to US$130B to the Vietnamese Economy by 2040",
@@ -209487,7 +210002,12 @@
       },
       "view_status": "review",
       "view_reason": "qualified_review",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "BIS Sees Tokenised Deposits Playing Bigger Role Than Stablecoins in Future Payments",
@@ -209580,7 +210100,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 62,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "PayPal Shares Fall 12.7% as Stripe, Advent Reportedly Drop Takeover Bid",
@@ -209673,7 +210198,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "500 Global Reportedly to Stop Raising Dedicated Southeast Asia Funds",
@@ -209760,7 +210290,12 @@
       "signal_change_breakdown": {},
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 62,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Instagram growth continues to outpace Facebook in EU",
@@ -209853,7 +210388,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "「一つの頭脳で、複数の身体」　元アリババ幹部のフィジカルAI新興が240億円調達",
@@ -209956,7 +210496,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "TEAM NAVER Reaffirms Its Global Vision AI Capabilities with Multiple Papers Accepted at a Leading International Conference",
@@ -210042,7 +210587,12 @@
       "signal_change_breakdown": {},
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "2026.08.31 株式会社U-NEXT U-NEXTとNBCUniversalが、日本市場で包括的戦略パートナーシップを締結 ストリーミングからテーマパーク、日本コンテンツのグローバル展開まで 新たなエンターテイメント経済圏の創出へ",
@@ -210137,7 +210687,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://unext-hd.co.jp/newsrelease/2026/08/u-next-nbcuniversal.html"
-      ]
+      ],
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Tencent Cloud partners with TruKKer in Saudi Arabia ahead of LEAP 2026 - TahawulTech.com",
@@ -210236,7 +210791,12 @@
       "view_status": "main",
       "view_reason": "qualified_main",
       "view_priority": "selected",
-      "score_reused": true
+      "score_reused": true,
+      "ai_score_1": 58,
+      "ai_score_2": 68,
+      "ai_score_avg": 63,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Sea Limited Posts $14.9 Billion First-Half Revenue as Logistics Spending Expands - retailnews.asia",
@@ -210338,7 +210898,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "NBCUniversal, U-Next Ink Sweeping Japan Partnership Spanning Streaming and Theme Parks - Variety",
@@ -210434,7 +210999,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 72,
+      "ai_score_2": 62,
+      "ai_score_avg": 67,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "A group funded by Andreessen, Horowitz, and Brockman plans data center ads to sway midterms",
@@ -210526,7 +211096,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
@@ -210619,7 +211194,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "important"
+      "view_priority": "important",
+      "ai_score_1": 48,
+      "ai_score_2": 38,
+      "ai_score_avg": 43,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "UK-based BatteryTech firm Nexeon secures €116.7 million with National Wealth Fund backing",
@@ -210711,7 +211291,12 @@
       },
       "view_status": "filtered",
       "view_reason": "out_of_scope_industry",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 72,
+      "ai_score_2": 72,
+      "ai_score_avg": 72,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "London’s HITAI acquires YC-backed fitness gaming studio Quell to boost its sports motion-tracking platform",
@@ -210808,7 +211393,12 @@
       },
       "view_status": "review",
       "view_reason": "qualified_review",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Chinese AI chipmakers MetaX, Iluvatar swing to profit",
@@ -210904,7 +211494,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "MAS Commits S$220 Million Funding to Singapore’s Next Fintech Push",
@@ -210998,7 +211593,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 78,
+      "ai_score_2": 78,
+      "ai_score_avg": 78,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Financial Firms Told to Brace for Frontier AI Cyber Threats",
@@ -211095,7 +211695,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://fintechnews.sg/136520/ai/frontier-ai-risks/"
-      ]
+      ],
+      "ai_score_1": 58,
+      "ai_score_2": 48,
+      "ai_score_avg": 53,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "MoonPay's PayBox launches in Grok",
@@ -211190,7 +211795,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Aleta launches limited-edition Hello Kitty Visa debit cards",
@@ -211283,7 +211893,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "EWA grows despite legal limbo",
@@ -211378,7 +211993,12 @@
       },
       "view_status": "review",
       "view_reason": "qualified_review",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Beyond the booking: How Navan scaled global card issuing with embedded finance",
@@ -211471,7 +212091,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Best Buy emphasizes expert support with AI shopping assistant",
@@ -211564,7 +212189,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Walmart to build $1.3B fulfillment center in Georgia",
@@ -211657,7 +212287,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Reframe Systems Raises $40M to Scale AI-Powered Homebuilding",
@@ -211750,7 +212385,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Dongxi Fusion Raises $44.6 Million To Make Commercial Laser Fusion A Reality",
@@ -211843,7 +212483,12 @@
       },
       "view_status": "filtered",
       "view_reason": "out_of_scope_industry",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 58,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "A milestone in expanding access to AI",
@@ -211944,7 +212589,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "World's second-richest country launches world's first liquid cooling standard for tropical data centers",
@@ -212045,7 +212695,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 68,
+      "ai_score_2": 62,
+      "ai_score_avg": 65,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "中国のパワー半導体新興、数億円調達　SST・AIデータセンター向けを強化",
@@ -212148,7 +212803,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "The hardest problem in physical AI may be the magnet, not the model",
@@ -212241,7 +212901,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Snapchat expands Unified Attribution to all advertisers",
@@ -212334,7 +212999,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 58,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Instagram updates tags for AI profiles",
@@ -212427,7 +213097,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     }
   ],
   "2026-09-01": [
@@ -212527,7 +213202,12 @@
       },
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 72,
+      "ai_score_2": 72,
+      "ai_score_avg": 72,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Mercado Libre Stock Investors Celebrate as Company Hits Huge Milestone - The Globe and Mail",
@@ -212625,7 +213305,12 @@
       },
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 38,
+      "ai_score_2": 48,
+      "ai_score_avg": 43,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Tencent-backed AI chipmaker Enflame targets $908m Shanghai IPO",
@@ -212721,7 +213406,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 72,
+      "ai_score_avg": 67,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Cloudflare: Workers Binding API",
@@ -212823,7 +213513,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Naver Cloud Deploys 4,000 B200 GPUs Ahead of Government Evaluation, Preemptively Begins Pre-Training for Security AI - finance.biggo.com",
@@ -212917,7 +213612,12 @@
       "signal_change_breakdown": {},
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 72,
+      "ai_score_2": 78,
+      "ai_score_avg": 75,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "While Google has obtained permission to export high-precision basics overseas, Naver has launched a - 매일경제",
@@ -213014,7 +213714,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 68,
+      "ai_score_2": 68,
+      "ai_score_avg": 68,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Japan Endorses 700 MHz Rakuten-ASTS (NASDAQ: ASTS) Satellite Network, Ending Two-Month Stock Decline - foreignpolicyjournal.com",
@@ -213111,7 +213816,12 @@
       },
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 68,
+      "ai_score_2": 72,
+      "ai_score_avg": 70,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Square Enix denies Sentaku report that it is going to take the company private - Shacknews",
@@ -213207,7 +213917,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Square Enix Unveils \"FINAL FANTASY Series Mini Melody TV\" Box Toys: Retro CRT Style Plays Iconic Game Tracks! - 玩具人 TOY PEOPLE",
@@ -213304,7 +214019,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 18,
+      "ai_score_2": 18,
+      "ai_score_avg": 18,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Jumia Brand Festival 2026 Launches 20 Days Of \"Beta Prices, Direct From Source\" Exclusive Deals - pmexpressng.com",
@@ -213401,7 +214121,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 18,
+      "ai_score_2": 18,
+      "ai_score_avg": 18,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Google’s answer to Canva is an AI tool where you prompt instead of design",
@@ -213494,7 +214219,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 55,
+      "ai_score_avg": 56,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "GoPro to be acquired for $285M, will remain a public company",
@@ -213587,7 +214317,12 @@
       },
       "view_status": "filtered",
       "view_reason": "out_of_scope_industry",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Instarc raises €1.25M to scale its cloud-native compliance platform",
@@ -213685,7 +214420,12 @@
       },
       "view_status": "filtered",
       "view_reason": "quality_review",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 48,
+      "ai_score_2": 42,
+      "ai_score_avg": 45,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "ID Finance secures €21M from nordIX to grow its Spanish lending business",
@@ -213777,7 +214517,12 @@
       },
       "view_status": "review",
       "view_reason": "qualified_review",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 58,
+      "ai_score_2": 62,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Zurich-based xorlab secures €5 million to scale sovereign email security across Europe",
@@ -213870,7 +214615,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Berlin-based Cloover secures €86.2 million facility as it reaches profitability and launches AI-native neo-utility",
@@ -213965,7 +214715,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "India’s payments body preps UPI rules for AI agents: sources",
@@ -214064,7 +214819,12 @@
       },
       "view_status": "filtered",
       "view_reason": "quality_review",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 68,
+      "ai_score_2": 68,
+      "ai_score_avg": 68,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Indian consumer app AI Fiesta expands in Southeast Asia",
@@ -214160,7 +214920,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 62,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "When minutes replaces weeks",
@@ -214252,7 +215017,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "important"
+      "view_priority": "important",
+      "ai_score_1": 18,
+      "ai_score_2": 18,
+      "ai_score_avg": 18,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Icertis Replaced CEO After Whistleblower Alleged Favouritism: Report",
@@ -214344,7 +215114,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Monster Hunter Outlanders opens pre-registrations with Elder Dragon Ruger Aidal unveiled",
@@ -214437,7 +215212,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "State of Play: Inside Türkiye's flourishing and fast-moving games industry",
@@ -214530,7 +215310,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 45,
+      "ai_score_2": 48,
+      "ai_score_avg": 46,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Savvy Games Group CEO Brian Ward steps down",
@@ -214623,7 +215408,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 55,
+      "ai_score_avg": 56,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Saudi Esports Federation signs MoU with BSF to support esports growth",
@@ -214717,7 +215507,12 @@
       },
       "view_status": "filtered",
       "view_reason": "out_of_scope_industry",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 38,
+      "ai_score_avg": 43,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Singapore Moves Closer to Dedicated Stablecoin Regulation",
@@ -214813,7 +215608,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://fintechnews.sg/136561/digitalassets/singapore-stablecoin-regulation-mas-rules/"
-      ]
+      ],
+      "ai_score_1": 72,
+      "ai_score_2": 78,
+      "ai_score_avg": 75,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Visa boosts A2A fraud prevention tech",
@@ -214909,7 +215709,12 @@
       "view_priority": "selected",
       "merged_from": [
         "https://www.finextra.com/newsarticle/48336/visa-boosts-a2a-fraud-prevention-tech?utm_medium=rssfinextra&utm_source=finextrafeed"
-      ]
+      ],
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "FIS and Ericsson combine on wallet-led financial services",
@@ -215002,7 +215807,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Klarna CEO Sebastian Siemiatkowski acquires 692,506 shares for $10 million",
@@ -215098,7 +215908,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Manus goes solo after Meta deal collapse",
@@ -215191,7 +216006,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 45,
+      "ai_score_2": 58,
+      "ai_score_avg": 51,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Verizon outlines measures to counter storm disruption",
@@ -215285,7 +216105,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 18,
+      "ai_score_avg": 28,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Feature: John Deere debuts AI assistant to put farm data to work",
@@ -215378,7 +216203,12 @@
       },
       "view_status": "filtered",
       "view_reason": "out_of_scope_industry",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 48,
+      "ai_score_avg": 53,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Rural wireless innovation zone gets FCC nod",
@@ -215472,7 +216302,12 @@
       },
       "view_status": "filtered",
       "view_reason": "out_of_scope_industry",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 62,
+      "ai_score_avg": 55,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Jordan’s Abwaab acquires Egyptian edtech Eduact",
@@ -215565,7 +216400,12 @@
       },
       "view_status": "filtered",
       "view_reason": "out_of_scope_industry",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Ibtikar Fund invests in AI retention startup Churn Solution",
@@ -215659,7 +216499,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Arada partners with Syrian Sovereign Fund on $7 billion joint venture project",
@@ -215754,7 +216599,12 @@
       "view_priority": "selected",
       "merged_from": [
         "http://wamda.com/2026/09/arada-partners-syrian-sovereign-fund-7-billion-joint-venture-project"
-      ]
+      ],
+      "ai_score_1": 78,
+      "ai_score_2": 78,
+      "ai_score_avg": 78,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Huscarl raises $5.6M to bring AI to the growing self-insurance market",
@@ -215848,7 +216698,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 48,
+      "ai_score_avg": 53,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Brands Briefing: Fjällräven is going beyond Kånken backpacks as it builds stores in North America",
@@ -215949,7 +216804,12 @@
       },
       "view_status": "filtered",
       "view_reason": "out_of_scope_industry",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "World’s second-richest country considers tighter social media restrictions for young people",
@@ -216049,7 +216909,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Square Enix: Sep 1, 2026 Regarding Today's Media Report 106KB",
@@ -216141,7 +217006,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 18,
+      "ai_score_2": 18,
+      "ai_score_avg": 18,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Cloudflare: AI Gateway consolidates monthly usage invoice line items and standardizes model names",
@@ -216243,7 +217113,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Sep 1, 2026 Announcements Developing Enterprise Frontier Safeguards with our customers",
@@ -216338,7 +217213,12 @@
       "signal_change_breakdown": {},
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "A music platform plans to borrow money for share buybacks. Tencent Music would also refinance offshore debt. - Stock Titan",
@@ -216436,7 +217316,12 @@
       },
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 48,
+      "ai_score_2": 38,
+      "ai_score_avg": 43,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "CJ ONE partners with Naver Pay to link membership benefits for 34 million users - 헤럴드경제",
@@ -216533,7 +217418,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Mercado Libre Stock Investors Celebrate as Company Hits Huge Milestone - fool.com",
@@ -216630,7 +217520,12 @@
       },
       "view_status": "filtered",
       "view_reason": "google_not_main",
-      "view_priority": "watch"
+      "view_priority": "watch",
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
@@ -216723,7 +217618,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 58,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "X continues to lose EU users",
@@ -216816,7 +217716,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Snapchat introduces Harry Potter-themed activations",
@@ -216909,7 +217814,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Google rolls out new AI image and video tools",
@@ -217002,7 +217912,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Odyssey Raises $74 Million to Scale Solar Financing and Support Data Centers",
@@ -217097,7 +218012,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "VAST Raises $446 Million in Series B & B+ To Revolutionize Generative AI 3D",
@@ -217190,7 +218110,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     }
   ],
   "2026-09-02": [
@@ -217382,7 +218307,12 @@
       "date_source": "observed_at",
       "date_confidence": "observed",
       "date_parse_warning": "missing_published_at",
-      "article_date": ""
+      "article_date": "",
+      "ai_score_1": 38,
+      "ai_score_2": 42,
+      "ai_score_avg": 40,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Product Watch: Ex-Bytedance, DJI & Tencent Team-Backed Startup Enters AI Skiing Track, Secures Investment from Thick Snow Investment - 36氪",
@@ -217481,7 +218411,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Intellicia Secures 3.4 Billion Won Pre-Series A Investment with Kakao Ventures - 조선일보",
@@ -217579,7 +218514,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "CJ OliveNetworks launches CJ ONE-Naver Pay linked service - 디지털투데이",
@@ -217676,7 +218616,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Square Enix firmly denies reports that it \"may go private,\" says claims are baseless - AUTOMATON",
@@ -217766,7 +218711,12 @@
       "signal_change_breakdown": {},
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Chinese 3D AI startup Tripo raises $447m in series B",
@@ -217862,7 +218812,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Quick commerce is losing money, but investors keep coming",
@@ -217954,7 +218909,12 @@
       },
       "view_status": "filtered",
       "view_reason": "out_of_scope_industry",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 38,
+      "ai_score_avg": 43,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Edtech’s Big Consolidation, ESDS’ Bumper IPO & More",
@@ -218043,7 +219003,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 58,
+      "ai_score_avg": 53,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "KAST Launches Business Accounts in More Than 170 Countries",
@@ -218136,7 +219101,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 68,
+      "ai_score_2": 68,
+      "ai_score_avg": 68,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Visa Targets Risky Transfers With Enhanced A2A Protect",
@@ -218230,7 +219200,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Félix raises $200m in equity and debt to expand beyond remittances",
@@ -218325,7 +219300,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     },
     {
       "title": "Ace Hardware adds influencer, DoorDash and weather features as it builds out a retail media strategy",
@@ -218427,7 +219407,12 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
     }
   ]
 }
