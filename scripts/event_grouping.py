@@ -300,31 +300,47 @@ def _parse_date(value):
 # 热度：按事件算，不按文章算
 # ============================================================
 
-def compute_heat(events, now=None):
+def compute_heat(events, now):
     """计算事件热度：48 小时内每个独立来源只算一次，24 小时以上减半。
 
     热度 = Σ(来源权重) ，来源权重 = 1.0（48h 内）/ 0.5（超过 24h 的衰减档）。
-    返回 {group_id: {'heat', 'sources', 'size'}}，并原地写 event_heat。
+
+    来源要把**同日被合并的兄弟报道**算进来。本站的去重层比 AIHOT 先跑，同一事件
+    的多家报道在入库时就被合并成一个事件了，只剩 merged_from（URL）与
+    merged_sources（信源名）。只看幸存事件的 source 字段，任何事件都会数成 1 家，
+    热度就退化成一个常数——这不是热度，是恒等式。
+
+    `now` 是必填锚点，由调用方给（见 fetch_news._data_now）。这里刻意不回落
+    datetime.now()：拿机器时钟去减数据日期，数据停更一段时间后所有来源都会
+    超出 48h 窗口、热度集体归零，而且同一份数据每天跑出的值都不同、无法复现。
+    少传参数应当当场报错，而不是悄悄换一个「现在」。
+
+    返回 {group_id: {'heat', 'sources', 'size', 'reports'}}，并原地写
+    event_heat / event_source_count / event_report_count。
     """
-    now = now or datetime.now()
-    per_group = defaultdict(lambda: {'sources': set(), 'size': 0, 'per_source': {}})
+    per_group = defaultdict(lambda: {'sources': set(), 'size': 0, 'reports': 0,
+                                     'per_source': {}})
 
     for event in events:
         gid = event.get('group_id')
         if not gid:
             continue
-        source = str(event.get('source') or event.get('origin_source_id') or '').strip().lower()
         published = _parse_date(event.get('date') or event.get('published_at'))
         age_hours = (now - published).total_seconds() / 3600 if published else 0
 
         bucket = per_group[gid]
         bucket['size'] += 1
-        if not source or age_hours > HEAT_WINDOW_HOURS:
+        # 报道篇数：幸存事件本身 1 篇，加上同日被并进来的每条 URL。
+        # 这个数在存量数据里就有（merged_from），不依赖 AI。
+        bucket['reports'] += 1 + len(event.get('merged_from') or [])
+
+        if age_hours > HEAT_WINDOW_HOURS:
             continue
         weight = 1.0 if age_hours <= HEAT_HALF_LIFE_HOURS else 0.5
         # 同一来源只算一次：取该来源出现过的最大权重
-        bucket['sources'].add(source)
-        bucket['per_source'][source] = max(bucket['per_source'].get(source, 0.0), weight)
+        for source in _event_sources(event):
+            bucket['sources'].add(source)
+            bucket['per_source'][source] = max(bucket['per_source'].get(source, 0.0), weight)
 
     result = {}
     for gid, bucket in per_group.items():
@@ -332,6 +348,7 @@ def compute_heat(events, now=None):
             'heat': round(sum(bucket['per_source'].values()), 3),
             'sources': len(bucket['sources']),
             'size': bucket['size'],
+            'reports': bucket['reports'],
         }
 
     for event in events:
@@ -339,7 +356,29 @@ def compute_heat(events, now=None):
         if gid in result:
             event['event_heat'] = result[gid]['heat']
             event['event_source_count'] = result[gid]['sources']
+            event['event_report_count'] = result[gid]['reports']
     return result
+
+
+def _event_sources(event):
+    """一条事件背后出现过的全部媒体信源（含同日被合并的兄弟报道），已归一化去重。
+
+    只认「谁发的稿」：publisher 是原始媒体（本站经 Google News 转载时，source
+    会写成聚合器 "Google News"，真实媒体落在 publisher），其余情况下 source
+    本身就是媒体。实测数据里 publisher 非空 ⟺ source == 'Google News'，所以
+    「publisher or source」即可，不会漏也不会重。
+
+    刻意排除 origin_source_id：它是**被报道的公司**（Adyen、Naver 这类），
+    不是信源。把它算进来，任何一条公司新闻都会凭空多出一个「来源」。
+    """
+    raw = [event.get('publisher') or event.get('source')]
+    raw.extend(event.get('merged_sources') or [])
+    seen = []
+    for value in raw:
+        name = str(value or '').strip().lower()
+        if name and name not in seen:
+            seen.append(name)
+    return seen
 
 
 def heat_rank(events):

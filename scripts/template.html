@@ -134,6 +134,11 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
 .f-amount { font-size:14px; font-weight:700; color:var(--copper); font-variant-numeric:tabular-nums; }
 .f-card-review { opacity:0.72; }
 .f-card-review .f-title { color:var(--muted); }
+/* 覆盖面角标：多家在报的事件比单篇更值得先看 */
+.f-src { font-size:10.5px; font-weight:600; color:var(--copper); background:rgba(164,113,58,0.1);
+  border:1px solid rgba(164,113,58,0.22); padding:1px 8px; border-radius:999px; white-space:nowrap; }
+.c-src { font-size:10.5px; font-weight:600; color:var(--copper); background:rgba(164,113,58,0.1);
+  padding:1px 7px; border-radius:999px; margin-left:5px; }
 
 /* 玻璃侧栏 */
 .f-rail { display:grid; gap:16px; position:sticky; top:64px; }
@@ -518,6 +523,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               <span class="f-meta">
                 {% if item.ev.is_company and item.ev.company_name %}<span class="f-co">{{ item.ev.company_name }}</span>{% endif %}
                 <span>{{ item.ev.region }}{% if item.ev.insight_label %} · {{ item.ev.insight_label }}{% endif %}</span>
+                {%- if item.ev.heat_label %}<span class="f-src" title="同一事件被多家媒体/多篇报道覆盖">{{ item.ev.heat_label }}</span>{% endif %}
               </span>
               <span class="f-title">{{ item.ev.display_title or item.ev.title }}</span>
               {% if item.ev.front_overview %}<span class="f-overview">{{ item.ev.front_overview }}</span>{% endif %}
@@ -842,7 +848,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta">{% if c.signal %}<span class="c-signal">{{ c.signal }}</span>{% endif %}{% if c.featured_date %}<span class="c-feat-time">{{ c.featured_date }}</span>{% endif %}</span>
               </span>
               {% endif %}
-              <small>近 30 天 {{ c.recent_30 }} 条{% if c.coverage_degraded %}｜<span class="c-badge-warn">⚠ 数据可能不完整</span>{% endif %}</small>
+              <small>近 30 天 {{ c.recent_30 }} 条{% if c.heat_label %}<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">{{ c.heat_label }}</span>{% endif %}{% if c.coverage_degraded %}｜<span class="c-badge-warn">⚠ 数据可能不完整</span>{% endif %}</small>
             </button>
             {% endfor %}
           </div>

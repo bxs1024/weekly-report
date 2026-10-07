@@ -119,12 +119,37 @@ class TestScoringPass(_EnvIsolated):
         self.assertEqual(metrics['ai_scoring']['scored'], 0)
 
 
+class TestHeatAnchor(unittest.TestCase):
+    """热度的时间锚点必须来自数据，不能来自机器时钟。"""
+
+    def test_anchor_is_newest_event_date(self):
+        anchor = fetch_news._data_now([{'date': '2026-09-01'}, {'date': '2026-09-02'}])
+        self.assertEqual(anchor.strftime('%Y-%m-%d'), '2026-09-02')
+
+    def test_anchor_falls_back_to_published_at(self):
+        anchor = fetch_news._data_now([{'published_at': '2026-08-30T10:00:00Z'}])
+        self.assertEqual(anchor.strftime('%Y-%m-%d'), '2026-08-30')
+
+    def test_anchor_none_without_dates(self):
+        self.assertIsNone(fetch_news._data_now([{'title': 'no date'}]))
+
+    def test_anchor_ignores_machine_clock(self):
+        """数据停更后锚点仍停在数据日——否则来源全部超出 48h 窗口，热度集体归零。"""
+        anchor = fetch_news._data_now([{'date': '2020-01-01'}])
+        self.assertEqual(anchor.year, 2020)
+
+
 class TestWiringIsPresent(unittest.TestCase):
     def test_main_calls_both_passes(self):
         """接线不能被无声删掉：main() 里必须真的调用这两层。"""
         src = inspect.getsource(fetch_news.main)
         self.assertIn('_run_ai_scoring(all_events', src)
         self.assertIn('_run_event_grouping(all_events', src)
+
+    def test_grouping_anchors_heat_to_data(self):
+        """热度必须传锚点；退回 datetime.now() 会让热度随机器时钟漂、且不可复现。"""
+        src = inspect.getsource(fetch_news._run_event_grouping)
+        self.assertIn('now=_data_now(', src)
 
 
 if __name__ == '__main__':

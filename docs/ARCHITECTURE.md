@@ -18,6 +18,10 @@
 | **闸门先于评分** | 事件先过闸门拿资格，再参与评分排序；高分不救边界外内容 | `event_contract.py::apply_view_contract()` |
 | **资格冻结一次** | `view_status`/`view_reason`/`view_priority` 由契约层统一生成，页面、RSS、报表消费同一结果 | `event_contract.py` |
 | **安全阀只关不绕** | `AI_CALLS_ENABLED`、`AI_SCORE_ENABLED`、`GROUP_ENABLED` 只决定发不发出去，不改变逻辑分支；默认开，出问题可单独关停新链路 | 各新模块入口 |
+| **热度锚点来自数据** | 事件热度的「现在」取窗口内最新事件日期（`_data_now`），不取机器时钟。数据停更后机器时钟跑在前面，所有来源都会超出 48h 窗口、热度集体归零；且同一份数据今天跑和明天跑结果不同，无法复现、无法做回归比对 | `fetch_news.py::_data_now()` → `event_grouping.compute_heat(now=…)` |
+| **信源口径** | 「谁发的稿」= `publisher or source`：`source` 常是聚合器（`Google News`），真实媒体落在 `publisher`；`origin_source_id` 是**被报道的公司**（Adyen 这类），不是信源，计入会让每条公司新闻凭空多一家来源 | `event_grouping.py::_event_sources()`、`content/filter.py` 合并记录 |
+| **统计要区分「没跑」与「跑了没结果」** | `ai_calls` 只数真的发起的判定；没通道时整层跳过并记 `ai_channel=False`。否则 `ai_calls=N / ai_merges=0` 会把排查引向「提示词不行」，真实原因却是 key 没配或总闸被关 | `event_grouping.py::assign_groups()` |
+| **覆盖面角标按实际证据说话** | 首页事件卡与公司索引的「N 家来源 / N 篇报道」：优先独立来源数，信源名缺失时退回报道篇数（存量数据只有 `merged_from` 的 URL）。两种都只表示覆盖面，不夸大 | `publication/display.py::heat_label()` |
 | **来源可追溯** | 每条事件保留原始链接、来源层级、`source_url_original/repaired/reason`；不猜测替换 | `fetch_news.py` 链接修复逻辑 |
 | **旧文不刷屏** | 已发布超 48 小时的存量按原文时间归档，不进今日批次 | `select_mature_main_date()` |
 | **迁移不可改写** | 已落库数据结构的语义变更必须向后兼容（存量事件无新字段时走旧路径） | 全项目 |
@@ -79,6 +83,21 @@ scripts/
 | 结构化 | 资料 | 事件类型/主体/动作/领域/锚点 | `structure.md` |
 | 写作 | 资料 | 中文标题/概要/点评/影响 | `understand.md` |
 | 归组 | 入库事件 | SAME_OCCURRENCE/SAME_STORY/UNRELATED/ROUNDUP + 事件热度 | `group-pair.md`、`group-definitions.md` |
+
+### 归组规则层为什么比同日去重更严
+
+同日去重（`content/classify.py::_fingerprint_match`）有一条**锚点缺失放宽**：
+`canonical_key` 为空时，只要主体相同 + 主类型相同 + 标题相似度 ≥0.42 就判同。
+
+归组规则层（`event_grouping.py::rule_merge`）**刻意不要这条放宽**，只认完整指纹
+（`canonical_company` + `canonical_key` 都非空且相等）。差别在作用范围：去重只在
+**同一天**内比，放宽的误并风险被日期天然兜住；归组要跨 30 天比，同样的放宽会把
+同公司不同时间的两件事（如两次独立融资）并成一件。跨日的「同事件不同阶段」是
+AI 层 `SAME_STORY` 的职责，规则层只做保守预筛。
+
+实测：存量 30 天窗口 1235 条事件里 `canonical_key` 填充率仅 4.6%，规则层合并 0 条
+（放宽后也只多 1 条）——这不是 bug，而是同日报的多来源报道已被去重层先合并掉了。
+所以归组的产出主要来自 AI 层，规则层只兜底。
 
 ## 四道闸门（本站独有，AIHOT 无对应物，全部保留）
 

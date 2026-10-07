@@ -78,6 +78,29 @@ def _front_trend_topic(event):
         return f'{region}{label}'
     return f'{region}区域动态'
 
+def heat_label(event):
+    """「不止一家在报」的角标文案；只有一个信源时返回空串，不占版面。
+
+    优先说独立来源数，退而用报道篇数。差别来自本站的流水线顺序：去重层比归组层
+    先跑，同一事件的多家报道入库时就被合并成一个事件。存量数据只留了被并 URL
+    （merged_from），信源名已丢失，只能说「N 篇报道」；新数据起信源名会随合并
+    一起记进 merged_sources，就能说「N 家来源」。两种都只表示覆盖面，不夸大。
+    """
+    try:
+        sources = int(event.get('event_source_count') or 0)
+    except (TypeError, ValueError):
+        sources = 0
+    if sources >= 2:
+        return f'{sources} 家来源'
+    try:
+        reports = int(event.get('event_report_count') or 0)
+    except (TypeError, ValueError):
+        reports = 0
+    if reports >= 2:
+        return f'{reports} 篇报道'
+    return ''
+
+
 def enrich_frontend_fields(events):
     """补齐前台专用字段，让模板少做判断。"""
     for event in events:
@@ -98,6 +121,7 @@ def enrich_frontend_fields(events):
         event['front_trend_topic'] = _front_trend_topic(event)
         event['display_impact'] = '' if event.get('impact') == '未知' else event.get('impact', '')
         event['front_overview'] = _front_overview(event, title, summary, reason, display_title)
+        event['heat_label'] = heat_label(event)
     return events
 
 def _front_overview(event, title, summary, reason, display_title):
@@ -168,6 +192,13 @@ def build_company_cards(company_list, now_date, observation_ledger=None):
         recent_7 = [e for e in events if (e.get('date') or '')[:10] >= start_7]
         recent_30 = [e for e in events if (e.get('date') or '')[:10] >= start_30]
         quality_events = [event for event in recent_30 if is_main_view_event(event) or is_company_quality_signal(event)]
+        # 公司热度：近 30 天里覆盖面最广的那条事件的角标（多家在报比单篇更值得先看）
+        _heat_rows = sorted(
+            (e for e in recent_30 if heat_label(e)),
+            key=lambda e: (e.get('event_source_count') or 0, e.get('event_report_count') or 0),
+            reverse=True,
+        )
+        company_heat_label = heat_label(_heat_rows[0]) if _heat_rows else ''
 
         def _signal_worth(event):
             """一条事件是否值得作为「最近值得关注动态」展示（排除平凡信号）。"""
@@ -285,6 +316,7 @@ def build_company_cards(company_list, now_date, observation_ledger=None):
             'featured_title': latest_title,
             'featured_overview': featured_overview,
             'featured_date': (latest.get('date') or '')[:10],
+            'heat_label': company_heat_label,
             'attention_score': float(latest.get('attention_score') or 0),
             'signal': signal,
             'observation_status': observation_status,

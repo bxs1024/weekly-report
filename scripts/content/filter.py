@@ -118,11 +118,19 @@ def dedupe_events_by_day(all_events):
                 reasons['low_signal_company_title'] += 1
                 continue
             if any(_is_same_event(event, existing) for existing in kept):
-                # 记录被合并来源，保留可追溯性（原 URL 不丢失）
+                # 记录被合并来源，保留可追溯性（原 URL 不丢失）。
+                # 同时记下被合并报道的信源名：事件热度要数「独立来源」，
+                # 而合并后只剩一个事件，光看它的 source 会永远数成 1 家。
                 match = next(existing for existing in kept if _is_same_event(event, existing))
                 match.setdefault('merged_from', [])
                 if event.get('url') and event['url'] not in match['merged_from']:
                     match['merged_from'].append(event['url'])
+                # publisher 优先：source 为 'Google News' 时它才是真实媒体
+                merged_source = str(event.get('publisher') or event.get('source') or '').strip()
+                if merged_source:
+                    match.setdefault('merged_sources', [])
+                    if merged_source not in match['merged_sources']:
+                        match['merged_sources'].append(merged_source)
                 removed += 1
                 reasons['same_day_duplicate'] += 1
                 continue

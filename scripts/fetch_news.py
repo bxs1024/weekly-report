@@ -395,6 +395,24 @@ def _window_events(all_events, days):
     return [e for key in keys for e in all_events[key]]
 
 
+def _data_now(events):
+    """热度的时间锚点：取窗口内最新事件的日期（当天 23:59:59），不用机器时钟。
+
+    热度的定义是「48 小时内有多少家独立来源」，本身就要一个「现在」。用
+    datetime.now() 有两个毛病：①数据一旦停更，机器时钟跑在前面，所有来源都
+    超出 48h 窗口，热度集体归零；②同一份数据今天跑和明天跑结果不同，没法复现，
+    也就没法做回归比对。锚在数据自己的最新日，这两个问题一起消失。
+    """
+    newest = max(((e.get('date') or e.get('published_at') or '')[:10] for e in events),
+                 default='')
+    if not newest:
+        return None
+    try:
+        return datetime.strptime(newest, '%Y-%m-%d').replace(hour=23, minute=59, second=59)
+    except ValueError:
+        return None
+
+
 def _run_ai_scoring(all_events, run_metrics):
     """P2：对窗口内还没评过的事件跑 AI 双评分，并排落库（不替换程序分）。
 
@@ -416,22 +434,27 @@ def _run_ai_scoring(all_events, run_metrics):
               f"（回执复用 {stats['reused']}，失败 {stats['failed']}）")
 
 
-def _run_event_grouping(all_events, run_metrics):
+def _run_event_grouping(all_events, run_metrics, days=GROUP_WINDOW_DAYS):
     """P3：窗口内事件做四关系归组 + 独立来源热度，原地写 group_* / event_heat。
 
     安全阀 GROUP_ENABLED 默认开；关掉则整层跳过。规则层（指纹合并）不依赖 AI，
     所以即使 AI 通道不可用，group_id 与热度仍然成立。
+
+    days 可覆盖，供 backfill_event_heat.py 回填更长的历史；生产调用用默认值。
     """
     if not event_grouping.group_enabled():
         return
-    window = _window_events(all_events, GROUP_WINDOW_DAYS)
+    window = _window_events(all_events, days)
     if not window:
         return
     stats = event_grouping.assign_groups(window)
-    event_grouping.compute_heat(window)
+    heat = event_grouping.compute_heat(window, now=_data_now(window))
+    hot = sum(1 for row in heat.values() if row['sources'] > 1)
     run_metrics['event_grouping'] = stats
     print(f"  🧩 事件归组：{stats['groups']} 组"
-          f"（规则并 {stats['rule_merges']} / AI 并 {stats['ai_merges']}，AI 调用 {stats['ai_calls']}）")
+          f"（规则并 {stats['rule_merges']} / AI 并 {stats['ai_merges']}，"
+          f"AI 调用 {stats['ai_calls']}，通道 {stats['ai_channel']}）；"
+          f"多来源事件 {hot} 条")
 
 
 def main():
