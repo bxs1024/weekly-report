@@ -134,17 +134,28 @@ def parse_relation(text):
     }
 
 
+def _default_api():
+    """取当前可用的 AI 通道；没有（未配 key 或总闸关闭）时返回 None。
+
+    单独抽出来，是为了让 assign_groups 在进循环前就能知道「有没有通道」。
+    否则每一对都会去问一次、问不到又记一次 ai_calls，统计会把
+    「AI 跑了但一条没并」和「AI 根本没跑」混成一件事——排查时会往
+    「提示词不行」的方向查，而真实原因是 key 没配或总闸被关了。
+    """
+    try:
+        from providers.llm import _chat_api_candidates
+        candidates = _chat_api_candidates()
+        return candidates[0] if candidates else None
+    except Exception:
+        return None
+
+
 def judge_pair(a, b, api=None, model_name=None):
     """判断两篇报道的关系。走回执，重复运行不重复付费。"""
     import json
 
     if api is None:
-        try:
-            from providers.llm import _chat_api_candidates
-            candidates = _chat_api_candidates()
-            api = candidates[0] if candidates else None
-        except Exception:
-            api = None
+        api = _default_api()
     if api is None:
         return None
     if model_name is None:
@@ -203,6 +214,11 @@ def assign_groups(events, model_name=None, min_confidence=DEFAULT_MIN_CONFIDENCE
     if not events:
         return stats
 
+    # 通道先探一次：没通道就直接跳过 AI 层，ai_calls 保持 0，
+    # 免得把「没跑」记成「跑了没并」。
+    api = _default_api()
+    stats['ai_channel'] = api is not None
+
     ordered = sorted(events, key=lambda e: (e.get('date') or '', e.get('event_id') or ''))
     groups = {}           # group_id -> 代表事件
     group_events = defaultdict(list)
@@ -222,10 +238,11 @@ def assign_groups(events, model_name=None, min_confidence=DEFAULT_MIN_CONFIDENCE
                 merged = True
                 break
 
-        if not merged and stats['enabled'] and stats['ai_calls'] < max_ai_pairs:
+        if not merged and api is not None and stats['enabled'] \
+                and stats['ai_calls'] < max_ai_pairs:
             # 第二道：AI 判断与最近事件的 SAME_STORY 关系（进展）
             for gid, rep in _recent_groups(groups, event, candidate_window_days):
-                verdict = judge_pair(rep, event, model_name=model_name)
+                verdict = judge_pair(rep, event, api=api, model_name=model_name)
                 stats['ai_calls'] += 1
                 if should_group(verdict, min_confidence):
                     event['group_id'] = gid

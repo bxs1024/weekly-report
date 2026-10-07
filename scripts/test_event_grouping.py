@@ -52,8 +52,22 @@ class _FakeResp:
         return {'choices': [{'message': {'content': json.dumps(self._payload)}}]}
 
 
+_REAL_CANDIDATES = None
+
+
 def _install_fake(verdicts):
+    """把 AI 传输层与通道查询都换成假的，让归组逻辑可完全离线验证。
+
+    通道查询也要换：`_chat_api_candidates()` 是总闸 AI_CALLS_ENABLED 的唯一
+    决策点，运行者若在环境里设了 AI_CALLS_ENABLED=0（跑测试省钱是常规做法），
+    它会返回空列表，AI 合并这条路就静默失效——测试结果会随环境变量变红变绿。
+    本测试用的是假响应，不产生任何付费请求，所以直接把通道顶开。
+    """
+    global _REAL_CANDIDATES
     from providers import llm
+
+    if _REAL_CANDIDATES is None:
+        _REAL_CANDIDATES = llm._chat_api_candidates
 
     calls = {'n': 0}
 
@@ -63,7 +77,18 @@ def _install_fake(verdicts):
         return _FakeResp(verdicts[idx])
 
     llm._post_chat = fake_post
+    llm._chat_api_candidates = lambda: [{'id': 'fake', 'name': 'FakeModel',
+                                         'key': 'test', 'model': 'FakeModel',
+                                         'url': 'http://localhost/fake'}]
     return calls
+
+
+def _remove_fake():
+    """还原通道查询，避免假通道漏到同一进程里的其它测试。"""
+    if _REAL_CANDIDATES is None:
+        return
+    from providers import llm
+    llm._chat_api_candidates = _REAL_CANDIDATES
 
 
 def test_group_prompt_contract():
@@ -120,36 +145,72 @@ def test_assign_groups_ai_merges_followup():
     ai_receipts.reset_memo()
     _install_fake([{'relation': 'SAME_STORY', 'confidence': 0.88,
                     'a': 'A 发布产品', 'b': 'B 报道该产品上架第三方平台'}])
-    events = [
-        _event(event_id='p1', title='Acme Launches Pay Widget',
-               canonical_company='Acme', canonical_key='', date='2026-08-01',
-               event_types=['strategy']),
-        _event(event_id='p2', title='Acme Pay Widget Arrives On Partner Platform',
-               canonical_company='', canonical_key='', date='2026-08-03',
-               source='OtherMedia', event_types=['strategy']),
-    ]
-    stats = event_grouping.assign_groups(events, model_name='FakeModel')
-    assert stats['ai_merges'] == 1, stats
-    assert stats['followups'] == 1, 'SAME_STORY 应标为 followup'
-    assert events[0]['group_id'] == events[1]['group_id'], '进展应挂同一事件'
-    assert events[1]['group_role'] == 'followup'
+    try:
+        events = [
+            _event(event_id='p1', title='Acme Launches Pay Widget',
+                   canonical_company='Acme', canonical_key='', date='2026-08-01',
+                   event_types=['strategy']),
+            _event(event_id='p2', title='Acme Pay Widget Arrives On Partner Platform',
+                   canonical_company='', canonical_key='', date='2026-08-03',
+                   source='OtherMedia', event_types=['strategy']),
+        ]
+        stats = event_grouping.assign_groups(events, model_name='FakeModel')
+        assert stats['ai_merges'] == 1, stats
+        assert stats['followups'] == 1, 'SAME_STORY 应标为 followup'
+        assert events[0]['group_id'] == events[1]['group_id'], '进展应挂同一事件'
+        assert events[1]['group_role'] == 'followup'
+    finally:
+        _remove_fake()
 
 
 def test_assign_groups_unrelated_not_merged():
     ai_receipts.reset_memo()
     _install_fake([{'relation': 'UNRELATED', 'confidence': 0.95,
                     'difference': '不同公司不同产品'}])
-    events = [
-        _event(event_id='u1', title='Acme Launches Pay Widget',
-               canonical_company='Acme', canonical_key='', date='2026-08-01',
-               event_types=['strategy']),
-        _event(event_id='u2', title='Beta Opens New Office In Jakarta',
-               canonical_company='Beta', canonical_key='', date='2026-08-02',
-               source='OtherMedia', event_types=['strategy']),
-    ]
-    stats = event_grouping.assign_groups(events, model_name='FakeModel')
-    assert stats['ai_merges'] == 0, stats
-    assert events[0]['group_id'] != events[1]['group_id'], '不同事不应合并'
+    try:
+        events = [
+            _event(event_id='u1', title='Acme Launches Pay Widget',
+                   canonical_company='Acme', canonical_key='', date='2026-08-01',
+                   event_types=['strategy']),
+            _event(event_id='u2', title='Beta Opens New Office In Jakarta',
+                   canonical_company='Beta', canonical_key='', date='2026-08-02',
+                   source='OtherMedia', event_types=['strategy']),
+        ]
+        stats = event_grouping.assign_groups(events, model_name='FakeModel')
+        assert stats['ai_merges'] == 0, stats
+        assert events[0]['group_id'] != events[1]['group_id'], '不同事不应合并'
+    finally:
+        _remove_fake()
+
+
+def test_no_channel_reports_zero_ai_calls():
+    """没通道时必须报「没跑」，而不是「跑了没并」。
+
+    这条锁的是 ai_calls 的口径：它应该数「真的发起的 AI 判定」，
+    而不是「想判定的对数」。否则日志里 ai_calls=37 / ai_merges=0 会
+    把人引向「提示词不行」，真实原因却是 key 没配或总闸被关。
+    """
+    _remove_fake()
+    old = os.environ.get('AI_CALLS_ENABLED')
+    try:
+        os.environ['AI_CALLS_ENABLED'] = '0'
+        events = [
+            _event(event_id='n1', title='Acme Launches Pay Widget',
+                   canonical_company='Acme', canonical_key='', date='2026-08-01',
+                   event_types=['strategy']),
+            _event(event_id='n2', title='Acme Pay Widget Arrives On Partner Platform',
+                   canonical_company='', canonical_key='', date='2026-08-03',
+                   source='OtherMedia', event_types=['strategy']),
+        ]
+        stats = event_grouping.assign_groups(events, model_name='FakeModel')
+        assert stats['ai_channel'] is False, stats
+        assert stats['ai_calls'] == 0, stats
+        assert stats['ai_merges'] == 0, stats
+    finally:
+        if old is None:
+            os.environ.pop('AI_CALLS_ENABLED', None)
+        else:
+            os.environ['AI_CALLS_ENABLED'] = old
 
 
 def test_safety_valve_disables_ai_grouping():
@@ -229,6 +290,7 @@ def _run_all():
     test_parse_relation_rejects_garbage()
     test_assign_groups_ai_merges_followup()
     test_assign_groups_unrelated_not_merged()
+    test_no_channel_reports_zero_ai_calls()
     test_safety_valve_disables_ai_grouping()
     test_heat_counts_independent_sources_once()
     test_heat_decays_after_24h()
