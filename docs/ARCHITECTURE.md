@@ -22,6 +22,10 @@
 | **信源口径** | 「谁发的稿」= `publisher or source`：`source` 常是聚合器（`Google News`），真实媒体落在 `publisher`；`origin_source_id` 是**被报道的公司**（Adyen 这类），不是信源，计入会让每条公司新闻凭空多一家来源 | `event_grouping.py::_event_sources()`、`content/filter.py` 合并记录 |
 | **统计要区分「没跑」与「跑了没结果」** | `ai_calls` 只数真的发起的判定；没通道时整层跳过并记 `ai_channel=False`。否则 `ai_calls=N / ai_merges=0` 会把排查引向「提示词不行」，真实原因却是 key 没配或总闸被关 | `event_grouping.py::assign_groups()` |
 | **覆盖面角标按实际证据说话** | 首页事件卡与公司索引的「N 家来源 / N 篇报道」：优先独立来源数，信源名缺失时退回报道篇数（存量数据只有 `merged_from` 的 URL）。两种都只表示覆盖面，不夸大 | `publication/display.py::heat_label()` |
+| **数据先落库，渲染后提交** | 采集数据（`data/`）与生成页面（`docs/`）分属两个 job：采集 job 一结束就提交数据，渲染 job 再提交页面。job 级 `timeout-minutes` 到点会杀进程，但**已完成的步骤仍然生效**——所以只要提交排在渲染之前，渲染超时就只丢页面、不丢数据。旧结构把 `git add data/ docs/` 排在渲染之后，渲染一超时当天数据全丢，这才是数据断档的直接原因 | `.github/workflows/update.yml` 的 `collect` / `render` job |
+| **已封档周期只读缓存** | 周报/月报一旦封档（`status == 'closed'`）就不再重算：编辑层只用缓存（旧版也接受），不发起付费调用；完全没有缓存时才退回一次 AI，避免整页生成失败。编辑层的输入指纹随事件累计持续漂移，不设这条规则会让每次渲染都为 18 个历史周 + 5 个历史月重发请求 | `reports/period.py::build_period_report()` → `editorial/editorial.py` 的 `allow_ai` 参数 |
+| **展示层判重按日期分桶** | `dedupe_display_events` 是 O(n²) 热点，按「日期 ±7 天」（`_SAME_EVENT_MAX_WINDOW_DAYS`，取自 `_dates_adjacent` 的最长窗口）分桶。但 `_is_same_event` 里有两条判同路径**不看日期**——URL 相等、`_fingerprint_match`（只比 `canonical_company` + `canonical_key`），另有空日期走 `_dates_adjacent` 的 True 分支；这三类必须分别用 url 索引 / company 索引 / undated 集合显式补上，否则分桶会漏并。候选按 kept 下标升序回放，保证与全量扫描结果逐条一致 | `publication/display_dedupe.py`，回归见 `test_display_dedupe_window.py` |
+| **渲染只装配一次** | 整站展示上下文（`build_display_context`）在一次渲染里只跑一遍：HTML 生成后把 RSS 需要的字段落到 `data/.cache/rss_context.json` 并附 `events.json` 指纹，`generate_feed.py` 指纹相符就直接复用，否则重算。RSS 原先自己再跑一遍装配，等于每次渲染付两遍 | `generate_html.py::dump_rss_context()` → `generate_feed.py::_load_cached_display_context()` |
 | **来源可追溯** | 每条事件保留原始链接、来源层级、`source_url_original/repaired/reason`；不猜测替换 | `fetch_news.py` 链接修复逻辑 |
 | **旧文不刷屏** | 已发布超 48 小时的存量按原文时间归档，不进今日批次 | `select_mature_main_date()` |
 | **迁移不可改写** | 已落库数据结构的语义变更必须向后兼容（存量事件无新字段时走旧路径） | 全项目 |

@@ -8,8 +8,41 @@ sys.path.insert(0, str(SCRIPTS_DIR))
 from generate_html import build_display_context
 from view_selectors import select_feed_events
 
-context = build_display_context()
-feed_date = context['main_date']
+
+def _load_cached_display_context():
+    """复用 generate_html 刚落下的展示上下文（同一次运行里紧接着执行）。
+
+    整站装配是渲染里最大的一块固定成本（本地单次约 25 秒，其中展示层判重是
+    O(n²) 的主要来源），而 RSS 只需要其中三个字段。原先 RSS 自己再跑一遍
+    build_display_context()，等于每次渲染付两遍。
+
+    指纹 = data/events.json 的 size+mtime；不符就返回 None 由调用方重算，
+    所以不存在「用了过期上下文」的窗口。缓存缺失时行为与改造前完全一致。
+    """
+    path = ROOT / 'data' / '.cache' / 'rss_context.json'
+    try:
+        with open(path, 'r', encoding='utf-8') as handle:
+            payload = json.load(handle)
+        stat = os.stat(ROOT / 'data' / 'events.json')
+    except (OSError, json.JSONDecodeError, ValueError):
+        return None
+    if payload.get('fingerprint') != f'{stat.st_size}:{int(stat.st_mtime)}':
+        return None
+    return payload
+
+
+cached_context = _load_cached_display_context()
+if cached_context is not None:
+    print('  ♻️  RSS 复用 HTML 落下的展示上下文（跳过重复装配）')
+    feed_date = cached_context.get('main_date')
+    today_events = cached_context.get('today_events') or []
+    all_events_for_list = cached_context.get('all_events_for_list') or []
+else:
+    context = build_display_context()
+    feed_date = context['main_date']
+    today_events = context['today_events']
+    all_events_for_list = context.get('all_events_for_list', [])
+
 SITE_URL = 'https://bxs1024.github.io/weekly-report/'
 
 
@@ -46,8 +79,8 @@ def xml_text(value):
 
 
 feed_events, fallback_feed_date = select_feed_events(
-    context['today_events'],
-    context.get('all_events_for_list', []),
+    today_events,
+    all_events_for_list,
     limit=None,
 )
 if fallback_feed_date:

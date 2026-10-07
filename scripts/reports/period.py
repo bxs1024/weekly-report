@@ -173,15 +173,20 @@ def build_period_report(events, start_date, end_date, label, period_id=None, sta
     high_count = len(select_period_high_value_events(period_events))
 
     # AI 编辑层：生产档案要求成功生成；单元测试可显式允许模板降级
+    # allow_ai：已封档周期（status='closed'）只用缓存，不再每次重算——
+    # 编辑层输入随事件累计而漂移，旧实现导致每次渲染都为历史周/月重发付费请求
+    # （实测本地一次渲染发起 7 次调用、占渲染总耗时约 2/3，CI 上直接顶穿 60 分钟超时）。
+    # 已封档周期有缓存就用（旧版也接受），完全没缓存才退回一次 AI，避免整页生成失败。
     narrative_result = None
     editorial_title = ''
     editorial_required = bool(themes) and (focus_windows_enabled or status != 'preview')
+    allow_ai = status != 'closed'
     if focus_windows_enabled and themes:
         narrative_result = build_weekly_editorial(
-            themes, period_id, cache_key=f"weekly:{period_id or label}")
+            themes, period_id, cache_key=f"weekly:{period_id or label}", allow_ai=allow_ai)
     elif (not focus_windows_enabled) and monthly_trends and status != 'preview':
         narrative_result = build_monthly_editorial(
-            monthly_trends, period_id, cache_key=f"monthly:{period_id or start_date[:7]}")
+            monthly_trends, period_id, cache_key=f"monthly:{period_id or start_date[:7]}", allow_ai=allow_ai)
     if require_editorial and editorial_required and not narrative_result:
         period_type = '周报' if focus_windows_enabled else '月报'
         raise RuntimeError(f'{period_type} {period_id or label} 的 AI 编辑层生成失败，已终止页面生成，拒绝发布降级版')

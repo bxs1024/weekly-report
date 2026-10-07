@@ -423,8 +423,45 @@ except ImportError:
     from scripts.publication.context import build_display_context
 
 
+# ─── RSS 上下文缓存（避免整站装配跑两遍）─────────────────────────
+# generate_feed.py 需要同一份展示上下文。原先它自己再调一次
+# build_display_context()，于是整站装配在每次渲染里跑两遍——本地单次约 25 秒
+# （其中展示层判重是 O(n²) 的主要来源），是渲染里最大的一块固定成本，也是
+# CI 渲染顶穿超时的主因之一（2026-10-07 实测）。
+# 这里把 RSS 真正需要的最小字段落到 data/.cache/（.gitignore 已排除），
+# 并带上 data/events.json 的指纹；指纹不符就丢弃缓存、由 RSS 侧重算，
+# 所以不存在「用了过期上下文」的窗口。
+def _rss_context_path():
+    return data_path('.cache', 'rss_context.json')
+
+
+def _events_fingerprint():
+    try:
+        stat = os.stat(data_path('events.json'))
+    except OSError:
+        return None
+    return f'{stat.st_size}:{int(stat.st_mtime)}'
+
+
+def dump_rss_context(context):
+    """把 RSS 需要的展示上下文落到本地缓存。失败不影响渲染。"""
+    payload = {
+        'fingerprint': _events_fingerprint(),
+        'main_date': context.get('main_date'),
+        'today_events': context.get('today_events') or [],
+        'all_events_for_list': context.get('all_events_for_list') or [],
+    }
+    try:
+        os.makedirs(os.path.dirname(_rss_context_path()), exist_ok=True)
+        with open(_rss_context_path(), 'w', encoding='utf-8') as handle:
+            json.dump(payload, handle, ensure_ascii=False)
+    except OSError:
+        pass
+
+
 def generate_html(force=False, preview_mode=False):
     context = build_display_context()
+    dump_rss_context(context)
     events = context['events']
     sorted_dates = context['sorted_dates']
     today_str = context['today_str']

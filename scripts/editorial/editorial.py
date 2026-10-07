@@ -68,25 +68,14 @@ def _editorial_input_hash(brief, prompt_kind=None):
         prefix = f'p{prompt_kind}:{_editorial_prompt_version(prompt_kind)}'
     return hashlib.sha256(f"{prefix}:".encode('utf-8') + payload.encode('utf-8')).hexdigest()
 
-def build_weekly_editorial(themes, period_id, cache_key=None):
-    """AI 编辑层：把周报主题写成当期标题与叙事导读。失败优先沿用上一版缓存（fail-stale），无缓存返回 None。"""
+def build_weekly_editorial(themes, period_id, cache_key=None, allow_ai=True):
+    """AI 编辑层：把周报主题写成当期标题与叙事导读。失败优先沿用上一版缓存（fail-stale），无缓存返回 None。
+
+    allow_ai=False 用于**已封档周期**：只用缓存，绝不发起付费调用（缓存有旧版也接受）。
+    顺带修一个旧顺序问题——原实现把 `if not apis: return None` 放在缓存查询之前，
+    导致 AI 总闸关闭时连已缓存周期也一并失败；现在缓存优先，无 AI 也能复用已生成导读。"""
     if not themes:
         return None
-    try:
-        from providers import llm as _llm
-    except ImportError:
-        try:
-            from scripts.providers import llm as _llm
-        except ImportError:
-            return None
-    # 走模块引用而非 `from X import f`：后者是值绑定，测试 patch
-    # providers.llm._post_chat 会静默失效，表现为「补丁写了却在调真实 API」。
-    apis = _llm._chat_api_candidates()
-    if not apis:
-        return None
-
-    # 任务形状路由：编辑层低频长输出，优先走实测最快最稳的 DeepSeek 官方；方舟留给事件分析主链
-    apis = sorted(apis, key=lambda a: 0 if a.get('id') == 'deepseek' else 1)
 
     theme_brief = []
     for t in themes:
@@ -112,6 +101,29 @@ def build_weekly_editorial(themes, period_id, cache_key=None):
         if exact:
             print(f"  📋 周报编辑命中缓存（{period_id}）: {(exact.get('mainline') or '')[:30]}...")
             return exact
+
+    if not allow_ai:
+        if stale:
+            print(f"  📦 周报编辑沿用已封档缓存（{period_id}）")
+            return stale
+        # 无任何缓存（首次运行/缓存被清）→ 不能让整页生成失败，退回一次 AI 生成
+        print(f"  ⚠️  周报编辑已封档但无缓存（{period_id}），退回一次 AI 生成")
+
+    try:
+        from providers import llm as _llm
+    except ImportError:
+        try:
+            from scripts.providers import llm as _llm
+        except ImportError:
+            return stale
+    # 走模块引用而非 `from X import f`：后者是值绑定，测试 patch
+    # providers.llm._post_chat 会静默失效，表现为「补丁写了却在调真实 API」。
+    apis = _llm._chat_api_candidates()
+    if not apis:
+        return stale
+
+    # 任务形状路由：编辑层低频长输出，优先走实测最快最稳的 DeepSeek 官方；方舟留给事件分析主链
+    apis = sorted(apis, key=lambda a: 0 if a.get('id') == 'deepseek' else 1)
 
     prompt = render_prompt('editorial-weekly', {
         'period_id': period_id,
@@ -148,25 +160,13 @@ def build_weekly_editorial(themes, period_id, cache_key=None):
         return stale
     return None
 
-def build_monthly_editorial(trends, period_id, cache_key=None):
-    """AI 编辑层：把月报趋势写成月度标题与结构变化导读。失败优先沿用上一版缓存（fail-stale），无缓存返回 None。"""
+def build_monthly_editorial(trends, period_id, cache_key=None, allow_ai=True):
+    """AI 编辑层：把月报趋势写成月度标题与结构变化导读。失败优先沿用上一版缓存（fail-stale），无缓存返回 None。
+
+    allow_ai=False 用于**已封档月份**：只用缓存，绝不发起付费调用。缓存优先于 AI 通道探测，
+    理由同 build_weekly_editorial。"""
     if not trends:
         return None
-    try:
-        from providers import llm as _llm
-    except ImportError:
-        try:
-            from scripts.providers import llm as _llm
-        except ImportError:
-            return None
-    # 走模块引用而非 `from X import f`：后者是值绑定，测试 patch
-    # providers.llm._post_chat 会静默失效，表现为「补丁写了却在调真实 API」。
-    apis = _llm._chat_api_candidates()
-    if not apis:
-        return None
-
-    # 任务形状路由：编辑层低频长输出，优先走实测最快最稳的 DeepSeek 官方；方舟留给事件分析主链
-    apis = sorted(apis, key=lambda a: 0 if a.get('id') == 'deepseek' else 1)
 
     trend_brief = []
     for t in trends:
@@ -191,6 +191,29 @@ def build_monthly_editorial(trends, period_id, cache_key=None):
         if exact:
             print(f"  📋 月报编辑命中缓存（{period_id}）: {(exact.get('mainline') or '')[:30]}...")
             return exact
+
+    if not allow_ai:
+        if stale:
+            print(f"  📦 月报编辑沿用已封档缓存（{period_id}）")
+            return stale
+        # 无任何缓存（首次运行/缓存被清）→ 不能让整页生成失败，退回一次 AI 生成
+        print(f"  ⚠️  月报编辑已封档但无缓存（{period_id}），退回一次 AI 生成")
+
+    try:
+        from providers import llm as _llm
+    except ImportError:
+        try:
+            from scripts.providers import llm as _llm
+        except ImportError:
+            return stale
+    # 走模块引用而非 `from X import f`：后者是值绑定，测试 patch
+    # providers.llm._post_chat 会静默失效，表现为「补丁写了却在调真实 API」。
+    apis = _llm._chat_api_candidates()
+    if not apis:
+        return stale
+
+    # 任务形状路由：编辑层低频长输出，优先走实测最快最稳的 DeepSeek 官方；方舟留给事件分析主链
+    apis = sorted(apis, key=lambda a: 0 if a.get('id') == 'deepseek' else 1)
 
     prompt = render_prompt('editorial-monthly', {
         'period_id': period_id,

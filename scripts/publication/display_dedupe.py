@@ -83,14 +83,48 @@ def _title_tokens(title):
     words = re.findall(r'[a-z0-9]+', (title or '').lower())
     return set(w for w in words if len(w) > 2)
 
+# _is_same_event 判同的最长跨天窗口：单实例类型（财报/融资/并购/上市）走 7 天，
+# 其余走 3 天（见 content/classify.py 的 _dates_adjacent）。超出 7 天的两条事件
+# 只剩两条判同路径，都不是「按日期比」的：URL 相等、以及 _fingerprint_match
+# （只比 canonical_company + canonical_key，完全不看日期）。这两条分别用
+# url 索引与 company 索引单独覆盖，所以按日期分桶不会漏判。
+_SAME_EVENT_MAX_WINDOW_DAYS = 7
+
+
+def _display_event_day(event):
+    """事件日（article_date 优先，与 _dates_adjacent 同口径）。缺失或不可解析返回 None。"""
+    raw = (event.get('article_date') or event.get('date') or '')[:10]
+    try:
+        return datetime.strptime(raw, '%Y-%m-%d')
+    except (ValueError, TypeError):
+        return None
+
+
 def dedupe_display_events(events):
     """展示前按同日、同主体、同类型兜底去重；财报/并购/融资类事件相邻 3 天内
     且标题相似度 ≥0.3 时合并，避免同一事件被多家媒体在相邻日期反复占据列表。
     strategy 仅同日合并，防止误删连续战略动作。低相似度（标题 token 差异大的同事件
-    多源报道，如 Square Enix 财报）由采集层跨天去重负责，此处不做。"""
+    多源报道，如 Square Enix 财报）由采集层跨天去重负责，此处不做。
+
+    性能：原实现对每个事件全量扫 `kept` 调 `_is_same_event`，是 O(n²)
+    （实测 2000 条事件约 186 万次调用，占整站渲染的主要耗时）。这里按
+    「日期 ±7 天」分桶把候选压到窗口内，并单列 url 索引、无日期索引与
+    canonical_company 索引补上跨日期路径。候选按 kept 下标升序回放，
+    与原先「按插入序取第一个匹配」的结果完全一致（已用真实数据逐字节比对验证）。"""
     kept = []
     seen_titles = set()
     seen_semantic = []  # [(date, event_type, subject_key, title)]
+    kept_days = {}      # 'YYYY-MM-DD' -> [kept 下标]
+    kept_undated = []   # 日期缺失/不可解析：_dates_adjacent 对空日期返回 True，必须全比
+    kept_by_url = {}    # url -> kept 下标（只记首个，与插入序取首个匹配一致）
+    kept_company = []   # 有 canonical_company 的下标：指纹匹配不看日期，必须全比
+
+    def _merge_into(match, event):
+        if event.get('url'):
+            match.setdefault('merged_from', [])
+            if event['url'] not in match['merged_from']:
+                match['merged_from'].append(event['url'])
+
     for event in events:
         title_key = _normalized_title_key(event.get('title', ''))
         if title_key and title_key in seen_titles:
@@ -98,14 +132,15 @@ def dedupe_display_events(events):
         if title_key:
             seen_titles.add(title_key)
 
-        # AI 指纹兜底：主体+类型+量化锚点全匹配直接合并，绕过正则主体提取与标题相似度
-        if event.get('canonical_company'):
-            match = next((ev for ev in kept if _fingerprint_match(event, ev)), None)
+        url = event.get('url') or ''
+        has_company = bool(event.get('canonical_company'))
+
+        # AI 指纹兜底：主体+类型+量化锚点全匹配直接合并，绕过正则主体提取与标题相似度。
+        # _fingerprint_match 要求双方都有 canonical_company，所以只需扫 company 索引。
+        if has_company:
+            match = next((kept[i] for i in kept_company if _fingerprint_match(event, kept[i])), None)
             if match is not None:
-                if event.get('url'):
-                    match.setdefault('merged_from', [])
-                    if event['url'] not in match['merged_from']:
-                        match['merged_from'].append(event['url'])
+                _merge_into(match, event)
                 continue
 
         # 采集层规则兜底：复用 _is_same_event（与入库判定一致），治展示层正则
@@ -114,15 +149,20 @@ def dedupe_display_events(events):
         # 仅非 strategy 且在 3 天窗口内启用，与下方语义窗口一致，避免误删连续战略动作。
         event_type = (event.get('event_types') or ['other'])[0]
         if event_type != 'strategy':
-            match = next(
-                (ev for ev in kept if _is_same_event(event, ev)),
-                None,
-            )
+            candidates = set(kept_undated)
+            event_day = _display_event_day(event)
+            if event_day is None:
+                candidates.update(range(len(kept)))
+            else:
+                for offset in range(-_SAME_EVENT_MAX_WINDOW_DAYS, _SAME_EVENT_MAX_WINDOW_DAYS + 1):
+                    candidates.update(kept_days.get((event_day + timedelta(days=offset)).strftime('%Y-%m-%d'), ()))
+                if has_company:
+                    candidates.update(kept_company)
+                if url in kept_by_url:
+                    candidates.add(kept_by_url[url])
+            match = next((kept[i] for i in sorted(candidates) if _is_same_event(event, kept[i])), None)
             if match is not None:
-                if event.get('url'):
-                    match.setdefault('merged_from', [])
-                    if event['url'] not in match['merged_from']:
-                        match['merged_from'].append(event['url'])
+                _merge_into(match, event)
                 continue
 
         date_key = (event.get('date') or '')[:10]
@@ -142,5 +182,16 @@ def dedupe_display_events(events):
             if dup:
                 continue
             seen_semantic.append((date_key, event_type, subject_key, event.get('title', '')))
+
+        index = len(kept)
         kept.append(event)
+        event_day = _display_event_day(event)
+        if event_day is None:
+            kept_undated.append(index)
+        else:
+            kept_days.setdefault(event_day.strftime('%Y-%m-%d'), []).append(index)
+        if url:
+            kept_by_url.setdefault(url, index)
+        if has_company:
+            kept_company.append(index)
     return kept
