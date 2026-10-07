@@ -68,12 +68,22 @@ def load_events(path=None, prepare=True):
 
 
 def build_sample(events, size=120, days=30, seed=7):
-    """按时间窗抽样，生成待标注骨架。人工只需补 gold.decision。"""
+    """按时间窗抽样，生成待标注骨架。人工只需补 gold.decision。
+
+    窗口内没有事件时**会退回全量，但要吵一声**：静默回退会抽到早已归档的老事件，
+    而那些事件的派生分（signal_change_score）往往缺失或为 0，标注完才发现门槛
+    扫描全是空转——排查方向还容易被带偏到「映射写错了」。
+    """
     import random
 
     cutoff = (datetime.now() - timedelta(days=days)).strftime('%Y-%m-%d')
     pool = [e for e in events if (e.get('date') or '') >= cutoff]
     if not pool:
+        print(f'⚠️ 最近 {days} 天（{cutoff} 起）没有事件，已退回全量事件库抽样。\n'
+              f'   注意：老事件的 signal_change_score 多为 0/缺失，直接标 gold 会得到'
+              f'一份无法扫描门槛的样本。\n'
+              f'   建议先确认数据是否过期，或把 --days 调大到覆盖最新数据。',
+              file=sys.stderr)
         pool = events
     random.Random(seed).shuffle(pool)
 
@@ -92,6 +102,10 @@ def build_sample(events, size=120, days=30, seed=7):
             'aiScoreAvg': event.get('ai_score_avg'),
             'gold': {'decision': ''},   # 待人工填写
         })
+    unusable = sum(1 for r in rows if not r['programScore'])
+    if unusable:
+        print(f'⚠️ 抽出的 {len(rows)} 条里有 {unusable} 条 programScore 为 0/缺失，'
+              f'这些行无法参与门槛扫描，标注前先剔除。', file=sys.stderr)
     return rows
 
 

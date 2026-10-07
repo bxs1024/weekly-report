@@ -31,12 +31,15 @@ except ImportError:
 
 
 def load_window(days):
-    """取 events.json 最近 N 天的事件（日期键 YYYY-MM-DD，字典序即时间序）。"""
+    """取 events.json 最近 N 天的事件（日期键 YYYY-MM-DD，字典序即时间序）。
+
+    返回 (store, keys, events)。store 是整份事件库——--persist 要写回它。
+    """
     with open(data_path('events.json'), encoding='utf-8') as f:
         store = json.load(f)
     keys = sorted(store.keys())[-days:]
     events = [e for key in keys for e in store[key]]
-    return keys, events
+    return store, keys, events
 
 
 def backfill(events):
@@ -84,10 +87,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--days', type=int, default=7, help='对比窗口天数（默认 7）')
     ap.add_argument('--no-backfill', action='store_true', help='只用已有分数，不补评')
+    ap.add_argument('--persist', action='store_true',
+                    help='把补出来的 AI 分数写回 events.json（默认只在内存里算，不动数据）')
     ap.add_argument('--out-dir', default=None, help='报告输出目录（默认 .data/eval）')
     args = ap.parse_args()
 
-    keys, events = load_window(args.days)
+    store, keys, events = load_window(args.days)
     if not keys:
         print('events.json 为空')
         return 1
@@ -95,6 +100,12 @@ def main():
     score_stats = {'scored': 0, 'failed': 0, 'reused': 0, 'skipped': len(events)}
     if not args.no_backfill:
         score_stats = backfill(events)
+
+    if args.persist and score_stats['scored']:
+        # 与 main() 同一写法，避免格式差异把整份文件都变成 diff
+        with open(data_path('events.json'), 'w', encoding='utf-8') as f:
+            json.dump(store, f, ensure_ascii=False, indent=2)
+        print(f'已把 {score_stats["scored"]} 条 AI 分数写回 {data_path("events.json")}')
 
     report = ai_scoring.compare_with_program_score(events)
     print_report(args.days, keys, events, report, score_stats)
