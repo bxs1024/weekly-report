@@ -9,12 +9,17 @@
     python scripts/verify_render_output.py --check      # 与基线逐字节比对
 
 退出码：0 一致 / 1 不一致（打印首个差异行）。
+
+基线里含**运行当天**的日期戳（版本号 VOL.2026-10-07 与页头「2026年10月7日 星期三」）。
+这些随日历变化、与代码行为无关，若不归一化，验收门第二天就会恒红、失去鉴别力。
+故比对前先把这两处日期戳替换成占位符；真差异照旧报错。
 """
 
 import argparse
 import difflib
 import hashlib
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -28,6 +33,19 @@ BASELINE_PATH = os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
     '.data', 'p4_baseline_preview.html',
 )
+
+# 随运行当天变化、与代码行为无关的日期戳
+_DATE_STAMPS = (
+    (re.compile(r'VOL\.\d{4}-\d{2}-\d{2}'), 'VOL.<DATE>'),
+    (re.compile(r'\d{4}年\d{1,2}月\d{1,2}日\s*星期[一二三四五六日]'), '<CN-DATE>'),
+)
+
+
+def _normalize(text):
+    """抹掉日期戳，只留与代码行为相关的部分。"""
+    for pattern, placeholder in _DATE_STAMPS:
+        text = pattern.sub(placeholder, text)
+    return text
 
 
 def _neutralize_ai():
@@ -76,8 +94,13 @@ def main():
         if base == html:
             print('MATCH: 生成物与基线逐字节一致')
             return 0
+        # 逐字节不同：再看抹掉日期戳后是否一致（跨天运行的正常情况）
+        base_n, html_n = _normalize(base), _normalize(html)
+        if base_n == html_n:
+            print('MATCH: 生成物与基线一致（仅日期戳不同，已归一化）')
+            return 0
         diff = list(difflib.unified_diff(
-            base.splitlines(), html.splitlines(),
+            base_n.splitlines(), html_n.splitlines(),
             fromfile='baseline', tofile='current', lineterm='', n=1,
         ))
         print(f'MISMATCH: 生成物有差异（{len(diff)} 行 diff），前 40 行：', file=sys.stderr)
