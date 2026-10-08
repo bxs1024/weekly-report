@@ -1,76 +1,252 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-09-02</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-10-05</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-09-02T05:32:01Z</updated>
+  <updated>2026-10-06T00:50:39Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Tripo获$447M B轮融资</title>
-    <link href="https://www.techinasia.com/news/chinese-3d-ai-startup-tripo-raises-447m-series"/>
-    <id>tag:weekly-report,2026:event-0e6593b2</id>
-    <published>2026-09-02T00:00:00Z</published>
-    <updated>2026-09-02T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Chinese 3D AI startup Tripo raises $447m in series B&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国3D AI初创公司Tripo完成4.47亿美元B轮融资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国3D AI赛道获巨额融资，全球3D内容生成和元宇宙基建需求旺盛，为GPU供应商和云服务商带来订单机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>谷歌在英国面临£1B Play Store佣金诉讼</title>
+    <link href="https://www.pocketgamer.biz/google-faces-1bn-play-store-commission-trial-in-the-uk/"/>
+    <id>tag:weekly-report,2026:event-2d5795c3</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Google faces £1bn Play Store commission trial in the UK&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;谷歌在英国面临10亿英镑的Play Store佣金诉讼，涉及应用商店抽成政策。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲应用商店监管压力加大，谷歌佣金政策受挑战，可能影响移动应用生态和开发者收益，欧洲应用开发者或受益。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Félix融资$200m拓展业务</title>
-    <link href="https://www.finextra.com/newsarticle/48333/flix-raises-200m-in-equity-and-debt-to-expand-beyond-remittances?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-0d70676f</id>
-    <published>2026-09-02T00:00:00Z</published>
-    <updated>2026-09-02T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Félix raises $200m in equity and debt to expand beyond remittances&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;跨境汇款公司Félix完成2亿美元股权和债务融资，资金将用于拓展汇款以外的业务领域。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;拉美跨境汇款公司获大额融资，计划拓展至更广泛的金融服务，为支付基础设施和金融科技合作方提供机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
+    <title>0G设新加坡为全球总部，AI研究拓展至羽毛球</title>
+    <link href="https://e27.co/0g-picks-singapore-as-global-base-expands-ai-research-into-badminton-20261005/"/>
+    <id>tag:weekly-report,2026:event-17cf8636</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;0G picks Singapore as global base, expands AI research into badminton&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI公司0G选择新加坡作为全球总部，并将AI研究扩展至羽毛球运动分析领域。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚AI公司选择新加坡作为全球基地，并跨界体育分析，为本地AI人才和体育科技合作创造新机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>KAST在170多国推出企业账户</title>
-    <link href="https://fintechnews.sg/136589/digitalassets/kast-business/"/>
-    <id>tag:weekly-report,2026:event-2ab9aa34</id>
-    <published>2026-09-02T00:00:00Z</published>
-    <updated>2026-09-02T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;KAST Launches Business Accounts in More Than 170 Countries&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;数字资产平台KAST宣布在超过170个国家推出企业账户服务，扩展其全球业务覆盖范围。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太数字资产平台加速全球化扩张，跨境企业支付和数字资产服务需求增长，为相关基础设施和合规服务商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>BMI预测2026年新加坡EV销量占比超50%</title>
+    <link href="https://e27.co/evs-to-make-up-over-half-of-singapore-vehicle-sales-in-2026-bmi-says-20261005/"/>
+    <id>tag:weekly-report,2026:event-5277feff</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;EVs to make up over half of Singapore vehicle sales in 2026, BMI says&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;BMI预测，到2026年电动汽车将占新加坡新车销量的一半以上。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚电动车市场加速渗透，新加坡EV销量占比过半将带动充电基础设施和电池技术投资，为相关企业提供合作机会。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Visa推出增强版A2A Protect防欺诈</title>
-    <link href="https://fintechnews.sg/136584/security/visa-a2a-protect/"/>
-    <id>tag:weekly-report,2026:event-77377580</id>
-    <published>2026-09-02T00:00:00Z</published>
-    <updated>2026-09-02T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Visa Targets Risky Transfers With Enhanced A2A Protect&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Visa推出增强版A2A Protect服务，旨在防范高风险转账交易，提升账户到账户支付的安全性。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付巨头加强A2A支付安全，亚太地区即时支付和开放银行发展迅速，对反欺诈技术需求激增。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>Etched融资估值达$40B</title>
+    <link href="https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/"/>
+    <id>tag:weekly-report,2026:event-f9c594b0</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Etched fields funding offers at $40B+ valuation, sources say&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI芯片初创公司Etched收到融资要约，估值高达400亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI芯片赛道估值飙升，Etched获高估值融资，反映AI算力需求旺盛，利好AI芯片产业链&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Ace Hardware强化零售媒体策略，新增网红与配送功能</title>
-    <link href="https://www.modernretail.co/marketing/ace-hardware-adds-influencer-doordash-and-weather-features-as-it-builds-out-a-retail-media-strategy/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
-    <id>tag:weekly-report,2026:event-890f08b7</id>
-    <published>2026-09-02T00:00:00Z</published>
-    <updated>2026-09-02T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ace Hardware adds influencer, DoorDash and weather features as it builds out a retail media strategy&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;五金零售连锁Ace Hardware扩展零售媒体策略，新增网红营销、DoorDash配送及天气相关功能。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球零售媒体网络扩张，传统零售商通过数字化功能增强广告变现能力，为零售科技服务商提供合作空间&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
+    <title>OneByZero获$20M A轮融资，助力企业AI落地</title>
+    <link href="https://e27.co/onebyzero-raises-us20m-series-a-to-help-enterprises-move-ai-from-pilots-to-production-20261005/"/>
+    <id>tag:weekly-report,2026:event-626b97a5</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;OneByZero raises US$20M Series A to help enterprises move AI from pilots to production&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;北美AI公司OneByZero完成2000万美元A轮融资，帮助企业将AI项目从试点推进到生产环境。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美AI落地服务商获融资，东南亚企业AI部署需求增长，为区域系统集成商和云服务商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：北美 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>印度EdTech整合，ESDS完成IPO</title>
-    <link href="https://inc42.com/buzz/edtechs-big-consolidation-esds-bumper-ipo-more/"/>
-    <id>tag:weekly-report,2026:event-4d4f91c2</id>
-    <published>2026-09-02T00:00:00Z</published>
-    <updated>2026-09-02T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Edtech’s Big Consolidation, ESDS’ Bumper IPO &amp;amp; More&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度教育科技行业出现大规模整合，同时ESDS公司完成大规模IPO。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度教育科技行业整合加速，并购和IPO活动为投资银行和SaaS服务商带来业务机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
+    <title>Ghost获$11M融资，开发个人AI计算机</title>
+    <link href="https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/"/>
+    <id>tag:weekly-report,2026:event-82c373e8</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;19岁创始人创立Ghost公司，为个人AI应用开发售价3499美元的计算机，已融资1100万美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球个人AI硬件赛道兴起，年轻创始人获融资，为AI硬件供应链带来新机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Grab在本周新增7个工程与平台相关职位</title>
-    <link href="https://www.grab.careers/en/jobs/744000146393159/head-of-controllership-thailand/"/>
-    <id>tag:weekly-report,2026:event-80b872ac</id>
-    <published>2026-09-02T00:00:00Z</published>
-    <updated>2026-09-02T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Grab集中新增7个工程与平台岗位&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;集中招聘显示Grab正在加强工程与平台能力建设，形成可核验的组织投入信号&lt;/p&gt;&lt;p&gt;标签：组织变化 | 类型：strategy | 地区：亚太 | 公司：Grab | 来源：Grab Jobs&lt;/p&gt;</summary>
+    <title>Pandektes获€13.5M融资</title>
+    <link href="https://www.eu-startups.com/2026/10/copenhagens-pandektes-raises-e13-5-million-to-build-the-data-infrastructure-for-ai-powered-legal-research/"/>
+    <id>tag:weekly-report,2026:event-760d66fe</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Copenhagen’s Pandektes raises €13.5 million to build the data infrastructure for AI-powered legal research&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;哥本哈根法律科技公司Pandektes完成1350万欧元融资，用于构建AI法律研究的数据基础设施。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲法律科技赛道融资活跃，AI法律研究数据基础设施需求增长，北欧法律科技市场存在合作与投资机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>全球AI视野 Top5 · 2026-09-02</title>
+    <title>Valon获$150M融资，推进AI抵押贷款平台</title>
+    <link href="https://ventureburn.com/valon-raises-150m-ai-mortgage-servicing-platform/"/>
+    <id>tag:weekly-report,2026:event-7af4c918</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Valon Raises $150M for AI-Native Mortgage Servicing Platform&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国抵押贷款服务公司Valon完成1.5亿美元融资，用于扩展其AI原生抵押贷款服务平台。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲市场关注美国AI金融科技融资动态，Valon的AI原生模式为非洲抵押贷款服务数字化提供参考和潜在合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Clockwork.io获$31M融资，优化GPU利用率</title>
+    <link href="https://ventureburn.com/clockwork-raises-31-million-stop-ai-gpu-waste/"/>
+    <id>tag:weekly-report,2026:event-d97311b0</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Clockwork.io Raises $31 Million to Eliminate GPU Waste in AI Workloads and Training&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI基础设施公司Clockwork.io完成3100万美元融资，旨在通过优化GPU利用率减少AI工作负载和训练中的算力浪费。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲AI开发者关注GPU资源优化技术，Clockwork的解决方案可帮助降低AI训练成本，为非洲AI初创企业提供合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Namespace获€37M融资，扩展跨平台开发基础设施</title>
+    <link href="https://www.eu-startups.com/2026/10/namespace-secures-e37-million-to-scale-coding-build-and-test-infrastructure-across-mac-windows-and-linux/"/>
+    <id>tag:weekly-report,2026:event-c2367d0f</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Namespace secures €37 million to scale coding, build and test infrastructure across Mac, Windows and Linux&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Namespace获得3700万欧元融资，用于扩展跨Mac、Windows和Linux的编码、构建和测试基础设施。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲开发者工具赛道获融资，跨平台开发基础设施需求增长，利好欧洲开发者工具生态&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>诺基亚CEO称数据中心建设受供应链制约</title>
+    <link href="https://thenextweb.com/news/nokia-hotard-data-centres-europe"/>
+    <id>tag:weekly-report,2026:event-b76e2931</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nokia CEO says data centres would go up twice as fast if supply allowed&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;诺基亚CEO表示，如果供应链允许，数据中心建设速度可提升一倍，反映欧洲数据中心需求旺盛但受制于供应瓶颈。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲数据中心建设需求强劲，供应链瓶颈为网络设备商和云基础设施供应商带来机会，诺基亚有望受益于数据中心扩张。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>富士康营收+47%，AI服务器需求强劲</title>
+    <link href="https://www.techinasia.com/news/foxconn-revenue-jumps-47-strong-ai-server-demand"/>
+    <id>tag:weekly-report,2026:event-ef8d7170</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Foxconn revenue jumps 47% on strong AI server demand&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;富士康营收同比增长47%，主要受AI服务器需求强劲推动。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚洲AI服务器供应链景气度高，富士康作为代工龙头受益，亚太电子制造和AI硬件供应链存在投资与合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>德国电信看好主权AI收入增长</title>
+    <link href="https://www.mobileworldlive.com/industry/dt-eyes-sovereign-ai-revenue-bump/"/>
+    <id>tag:weekly-report,2026:event-34cd5d19</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;DT eyes sovereign AI revenue bump&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;德国电信（DT）预计主权AI业务将带来收入增长，正在推动相关产品和服务落地。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲主权AI需求上升，电信运营商布局AI基础设施，云服务和AI算力供应商迎来合作窗口。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>AMD市值破万亿，苏姿丰创历史</title>
+    <link href="https://e.vnexpress.net/news/tech/personalities/amd-chief-lisa-su-becomes-first-female-ceo-to-lead-company-past-1-trillion-market-value-5128452.html"/>
+    <id>tag:weekly-report,2026:event-7dc1c398</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AMD chief Lisa Su becomes first female CEO to lead company past $1 trillion market value&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AMD CEO苏姿丰成为首位带领公司市值突破1万亿美元的女性CEO，标志着AMD在半导体行业的重大里程碑。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国芯片巨头市值突破万亿，凸显AI算力需求强劲，为产业链上下游带来增长机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：越南 | 来源：VnExpress Tech&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Toast与Square在POS折扣上竞争</title>
+    <link href="https://www.paymentsdive.com/news/toast-square-jockey-on-pos-discounts/832111/"/>
+    <id>tag:weekly-report,2026:event-53c4bde6</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Toast, Square jockey on POS discounts&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Toast和Square在POS终端领域展开价格折扣竞争，双方通过调整定价策略争夺市场份额。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美POS市场竞争加剧，餐饮零售SaaS服务商面临价格战压力，渠道伙伴和集成商需关注利润率变化。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：Payments Dive&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Cloudflare Birthday Week发布多项新产品</title>
+    <link href="https://blog.cloudflare.com/birthday-week-2026-wrap-up/"/>
+    <id>tag:weekly-report,2026:event-c1c9990a</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Everything we launched during Birthday Week 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare在2026年Birthday Week期间发布了一系列新产品和功能更新，涵盖安全、性能、开发者工具等多个领域。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球CDN和安全巨头密集发布新功能，为企业和开发者提供新的基础设施服务选项&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Blog&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Cloudflare 1.1.1.1实习生项目周年回顾</title>
+    <link href="https://blog.cloudflare.com/one-year-later-1111-interns/"/>
+    <id>tag:weekly-report,2026:event-88d86c74</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;One year later: the power of 1.1.1.1 interns&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare回顾其1.1.1.1实习生项目一年来的成果，展示该项目对人才培养和社区贡献的影响。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球云服务商通过实习生项目培养技术人才，为行业输送新鲜血液，同时强化品牌影响力&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Blog&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>东南亚移动行为创新领先，非新兴市场</title>
+    <link href="https://e27.co/stop-calling-southeast-asia-an-emerging-market-in-mobile-it-is-where-the-behaviour-gets-invented-20261004/"/>
+    <id>tag:weekly-report,2026:event-4e1ffefa</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Stop calling Southeast Asia an emerging market in mobile. It is where the behaviour gets invented&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27发布分析文章，指出东南亚在移动端行为创新上已领先，不应再被视为新兴市场，强调该地区在移动应用、支付和社交电商等领域的原生创新地位。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚移动生态成熟度高，为出海企业提供本地化创新参考和合作切入点&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>WIDTH获泛亚洲RegTech年度奖</title>
+    <link href="https://fintechnews.sg/138358/regtech/width-regtech-award-2026/"/>
+    <id>tag:weekly-report,2026:event-0ee87a11</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;WIDTH Wins Pan Asian RegTech Solution Provider of the Year&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;WIDTH获得泛亚洲监管科技解决方案提供商年度奖项。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太监管科技赛道竞争激烈，获奖企业有望获得更多合作机会&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>FOMO Pay与Sumsub合作加强合规</title>
+    <link href="https://fintechnews.sg/138487/payments/fomo-pay-sumsub/"/>
+    <id>tag:weekly-report,2026:event-b315e406</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;FOMO Pay Taps Sumsub to Support Compliance Across Markets&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡支付公司FOMO Pay与Sumsub合作，以支持跨市场合规。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太支付公司合规需求上升，跨境合规技术合作机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Constructor发布代理支付平台</title>
+    <link href="https://www.finextra.com/pressarticle/111119/constructor-launches-agentic-payment-platform?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
+    <id>tag:weekly-report,2026:event-34830a53</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Constructor launches agentic payment platform&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Constructor推出代理型支付平台。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付行业AI代理应用兴起，新型支付平台有望改变交易流程&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Basware收购Trustpair</title>
+    <link href="https://www.finextra.com/newsarticle/48532/basware-buys-payment-fraud-prevention-platform-trustpair?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
+    <id>tag:weekly-report,2026:event-7b3a67eb</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Basware buys payment fraud prevention platform Trustpair&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Basware收购支付欺诈预防平台Trustpair。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付欺诈预防领域整合加速，企业支付安全技术成为并购热点&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Nerial宣布进入休眠模式</title>
+    <link href="https://www.pocketgamer.biz/nerial-enters-hibernation-mode-after-13-years-and-11-games/"/>
+    <id>tag:weekly-report,2026:event-0b947be8</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nerial enters hibernation mode after 13 years and 11 games&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;游戏开发商Nerial在运营13年并推出11款游戏后宣布进入休眠模式，暂停新游戏开发。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球游戏行业独立开发商收缩，中小团队生存压力增大，行业整合趋势明显&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Unity与Grok Build达成官方插件合作</title>
+    <link href="https://www.pocketgamer.biz/unity-brings-official-plugin-to-grok-build-in-new-partnership/"/>
+    <id>tag:weekly-report,2026:event-c133758c</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Unity brings official plugin to Grok Build in new partnership&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Unity与Grok Build达成合作，为其提供官方插件支持。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球游戏引擎与AI工具合作深化，为开发者提供新集成方案&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Foren在Leatherback危机及Zedcrest收购后重生</title>
+    <link href="https://weetracker.com/2026/10/05/foren-emerges-from-leatherbacks-ghost-after-crisis-zedcrest-takeover/"/>
+    <id>tag:weekly-report,2026:event-86b2a8b6</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Foren Emerges From Leatherback’s Ghost After Crisis &amp;amp; Zedcrest Takeover&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;非洲金融科技公司Foren在Leatherback经历危机并被Zedcrest收购后，以新实体身份重新出现。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲金融科技行业整合加速，Zedcrest收购Leatherback后推出Foren，为尼日利亚及非洲支付市场带来新的竞争格局和合作机会。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：非洲 | 来源：WeeTracker&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>前Verizon CEO Vestberg加入Evercore</title>
+    <link href="https://www.mobileworldlive.com/north-america/former-verizon-ceo-vestberg-joins-evercore-as-senior-advisor/"/>
+    <id>tag:weekly-report,2026:event-ce2f9e00</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Former Verizon CEO Vestberg joins Evercore as senior adviser&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;前Verizon CEO Hans Vestberg加入Evercore担任高级顾问，为并购和战略事务提供咨询。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美电信高管加入投行，电信行业并购咨询需求上升，可能带动通信领域交易活动。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>AI时代零售定价策略受审视</title>
+    <link href="https://www.modernretail.co/operations/pricing-tactics-come-under-scrutiny-in-the-age-of-ai/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
+    <id>tag:weekly-report,2026:event-617dd2b1</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Pricing tactics come under scrutiny in the age of AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;行业分析指出，在AI时代，零售商的定价策略正受到更严格的审视，AI驱动的动态定价引发监管和消费者关注。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球零售业AI定价应用引发监管风险，为合规科技和定价优化软件供应商带来市场机会。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Shopify结账提速并支持跨设备购物车同步</title>
+    <link href="https://changelog.shopify.com/posts/faster-checkout-carts-synced-across-devices-via-shop"/>
+    <id>tag:weekly-report,2026:event-273584ea</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Shopify: Faster checkout, carts synced across devices via Shop&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Shopify升级结账流程，通过Shop应用实现跨设备购物车同步，提升购物体验。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Shopify发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Shopify | 来源：Shopify Changelog&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Aleph Alpha发布主权AI模型Kolibri</title>
+    <link href="https://www.eu-startups.com/2026/10/germanys-aleph-alpha-releases-kolibri-a-sovereign-ai-model-for-mission-critical-government-and-industry-applications/"/>
+    <id>tag:weekly-report,2026:event-70b37fe2</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Germany’s Aleph Alpha releases Kolibri, a sovereign AI model for mission-critical government and industry applications&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;德国AI公司Aleph Alpha发布主权AI模型Kolibri，面向政府和关键行业应用，强调数据主权和本地化部署。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲主权AI需求上升，德国政府及工业客户对本地化大模型采购机会增加，Aleph Alpha有望成为欧洲公共部门AI供应商。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>全球AI视野 Top5 · 2026-09-23</title>
     <link href="https://aihot.virxact.com/hot"/>
-    <id>tag:weekly-report,2026:aihot-9550ac8a</id>
-    <published>2026-09-02T00:00:00Z</published>
-    <updated>2026-09-02T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-09-02T09:36&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://x.com/trq212/status/2094945951865520458"&gt;Anthropic 发布 Claude Fable 5.1（热度 213）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.ithome.com/0/997/207.htm"&gt;OpenAI 评定 Astra 达到 Critical 网络安全能力阈值（热度 45）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://x.com/GoogleDeepMind/status/2094840179676660097"&gt;Google DeepMind 为 Gemini 推出 agentic 视频理解功能（热度 40）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://x.com/rohanpaul_ai/status/2094454965502951544"&gt;OpenAI 宣布 ChatGPT 广告年化收入运行率达 10 亿美元（热度 39）&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design"&gt;Google 发布 Google Pics（热度 39）&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <id>tag:weekly-report,2026:aihot-9017522d</id>
+    <published>2026-09-23T00:00:00Z</published>
+    <updated>2026-09-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-09-23T10:01&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://x.com/testingcatalog/status/2102523754186256535"&gt;Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://x.com/ArtificialAnlys/status/2102527962201624915"&gt;OpenAI发布GPT-6 Sol，价格较GPT-5.6 Sol减半至$2/$10每百万tokens；AA测试显示智力指数持平、编码代理指数57分升2分，幻觉率由92%降至60%&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://x.com/arena/status/2102497076831818113"&gt;Grok 4.7 发布，宣称更智能且能力更强，保持相同速度与成本&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money"&gt;OpenAI发布GPT-6 Luna，API成本较5.6系列减半，并将向桌面应用和Free/Go用户开放&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://x.com/karminski3/status/2102427860585841100"&gt;小米发布MiMo-V2.6-Pro开源权重模型，以46分登顶Artificial Analysis智能指数开源权重榜首&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>

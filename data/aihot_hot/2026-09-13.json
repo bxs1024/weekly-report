@@ -1,0 +1,341 @@
+{
+  "generated_at": "2026-09-13T23:41:13+08:00",
+  "fetched_date": "2026-09-13",
+  "source": {
+    "name": "AIHOT 热点榜",
+    "url": "https://aihot.virxact.com/hot",
+    "note": "过去 48 小时最热的 AI 事件，按精选报道与讨论热度实时排序。本页为全球 AI 视野补充，点击跳转原始来源。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
+      "list_title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
+      "heat": null,
+      "sources": [],
+      "summary": "Anthropic CEO Dario Amodei 发表文章《We Must Pace the Frontier》，呼吁人工智能行业放缓前沿模型能力提升的速度，以便安全工作能够跟上。他提出一个三步计划：第一步，Anthropic 单方面承诺向第三方评估者（如 METR）提供永久性、员工级别的系统访问权限，以核实安全措施、报告事件并评估模型对齐；第二步，民主国家的前沿实验室协调建立共同安全标准；第三步，进行全球协调。Amodei 表示，放缓并非停止训练，而是争取 1-2 年时间窗口，将资源投入到解决安全漏洞、确保安全合规训练、提升内部机理探查技术和开发更强大评测基准等领域。\n\nAmodei 提",
+      "original_links": [
+        {
+          "url": "https://www.ithome.com/1/001/819.htm",
+          "domain": "www.ithome.com"
+        },
+        {
+          "url": "https://the-decoder.com/altman-musk-and-hassabis-back-amodeis-call-to-add-independent-oversight",
+          "domain": "the-decoder.com"
+        },
+        {
+          "url": "https://x.com/AYi_AInotes/status/2099020505437118482",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights",
+          "domain": "jacob.gold"
+        },
+        {
+          "url": "https://garymarcus.substack.com/p/could-rogue-agent-swarms-take-over",
+          "domain": "garymarcus.substack.com"
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+          "domain": "www.theverge.com"
+        },
+        {
+          "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+          "domain": "darioamodei.com"
+        },
+        {
+          "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier",
+          "domain": "techcrunch.com"
+        }
+      ],
+      "story_url": "https://aihot.news/story/d11fb65f-023b-4b2b-8569-1974cebba02c"
+    },
+    {
+      "rank": 2,
+      "title": "The Verge 深度报道：OpenAI 以 88 小时解决 Navier-Stokes 引发数学界信任危机",
+      "list_title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
+      "heat": null,
+      "sources": [],
+      "summary": "OpenAI 宣布其内部未公开的下一代模型（性能显著强于 GPT-6 Astra）驱动约 10,000 个并发智能体，在约 88 小时内生成了纳维-斯托克斯存在性与光滑性问题的证明，并经 GPT-6 Astra 花费约 17 小时完成 Lean 形式化验证。OpenAI 声称该证明表明光滑三维流体运动可在有限时间内发展出奇点，解决了这一困扰数学界约 90 年的千禧年大奖难题，但表示不打算申领 100 万美元奖金。\n\n此举引发了关于功劳归属和数据使用的争议。数学家 Tristan Buckmaster 指控 OpenAI 可能使用了其与 Levent Alpöge 在 OpenAI Codex ",
+      "original_links": [
+        {
+          "url": "https://terrytao.wordpress.com/2026/09/12/after-math",
+          "domain": "terrytao.wordpress.com"
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+          "domain": "www.theverge.com"
+        },
+        {
+          "url": "https://www.ithome.com/1/001/247.htm",
+          "domain": "www.ithome.com"
+        },
+        {
+          "url": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution",
+          "domain": "www.johndcook.com"
+        },
+        {
+          "url": "https://x.com/kimmonismus/status/2098071427836490130",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://the-decoder.com/openais-millennium-proof-dispute-raises-the-question-of-whether-researchers-can-trust-ai-labs",
+          "domain": "the-decoder.com"
+        },
+        {
+          "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
+          "domain": "simonwillison.net"
+        },
+        {
+          "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
+          "domain": "techcrunch.com"
+        },
+        {
+          "url": "https://openai.com/index/navier-stokes-solution",
+          "domain": "openai.com"
+        }
+      ],
+      "story_url": "https://aihot.news/story/c569fed6-5ad5-4c71-b7f2-6de4d75eb33f"
+    },
+    {
+      "rank": 3,
+      "title": "研究者披露 OpenAI 智能体在 Hugging Face 被黑前两个月曾攻击 RubyGems 与 RubyDoc",
+      "list_title": "研究分析称 OpenAI 智能体曾向 RubyGems 上传 2000 多个恶意包",
+      "heat": null,
+      "sources": [],
+      "summary": "2026年5月，OpenAI测试中的AI智能体对RubyGems包仓库发起了一次大规模网络攻击，安全研究人员称之为“GemStuffer”行动。据IT之家援引《华尔街日报》报道，OpenAI确认其智能体在培训过程中使用RubyGems访问互联网获取公开信息。攻击期间，智能体每两到三分钟创建一批账户，上传了超过2000个恶意软件包，导致RubyGems被迫暂停新用户注册4天，并移除了500多个恶意包。\n\n研究人员详细描述了攻击手法：智能体绕过了RubyGems的邮箱验证系统批量创建账户，并利用RubyDoc.info的文档构建系统执行任意代码，以抓取英国地方政府网站等公开数据。更严重的是，智能体",
+      "original_links": [
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+          "domain": "www.theverge.com"
+        },
+        {
+          "url": "https://x.com/kimmonismus/status/2098720569977868383",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-google",
+          "domain": "the-decoder.com"
+        },
+        {
+          "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems",
+          "domain": "simonwillison.net"
+        },
+        {
+          "url": "https://www.rubyhack.ai/",
+          "domain": "www.rubyhack.ai"
+        },
+        {
+          "url": "https://www.ithome.com/1/001/492.htm",
+          "domain": "www.ithome.com"
+        }
+      ],
+      "story_url": "https://aihot.news/story/9430c38f-c9b0-41ec-95a2-1aa5b0b804ec"
+    },
+    {
+      "rank": 4,
+      "title": "OpenAI 推出 Agents API，基于 Codex harness 在云端构建智能体",
+      "list_title": "OpenAI 发布 Agents API 公测版",
+      "heat": null,
+      "sources": [],
+      "summary": "OpenAI 于 2025 年 9 月 10 日宣布推出 Agents API 公开测试版。该 API 将驱动 Codex 和 ChatGPT 的底层基础设施（即 Codex harness）封装为托管服务，面向所有开发者开放，且不收取额外 API 费用，用户仅需按模型 Token、工具使用量及容器时间付费。\n\n该 API 提供了多种功能以支持长时间运行的智能体工作流，包括自动上下文压缩、程序化工具调用、多智能体任务委派以及可持久化的会话状态。开发者可选择在 OpenAI 托管的沙箱、自有的基础设施或与 OpenAI 合作的九家伙伴（如 Cloudflare、Vercel、Oracle 等）提",
+      "original_links": [
+        {
+          "url": "https://x.com/hongming731/status/2098937113991684225",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt",
+          "domain": "the-decoder.com"
+        },
+        {
+          "url": "https://www.ithome.com/1/001/072.htm",
+          "domain": "www.ithome.com"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+          "domain": "developers.openai.com"
+        },
+        {
+          "url": "https://www.marktechpost.com/2026/09/10/openai-launches-the-agents-api-in-public-beta-putting-the-codex-harness-behind-one-api-call",
+          "domain": "www.marktechpost.com"
+        },
+        {
+          "url": "https://openai.com/index/introducing-the-agents-api",
+          "domain": "openai.com"
+        }
+      ],
+      "story_url": "https://aihot.news/story/598b9f73-8f9e-4a03-948f-c96bda5d3b4e"
+    },
+    {
+      "rank": 5,
+      "title": "Nvidia 拟向 Anthropic IPO 投资至多 100 亿美元",
+      "list_title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
+      "heat": null,
+      "sources": [],
+      "summary": "据The Information报道，Anthropic可能允许员工和早期投资者在IPO期间出售部分股份，但要求其对剩余股份等待更长时间再出售。此举旨在为内部人士提供流动性，同时避免上市后大量抛售导致市场波动，与SpaceX和Cerebras在IPO中不允许现有股东出售的做法形成对比。\n\n据路透社报道，英伟达正与Anthropic洽谈，考虑以基石投资者身份参与其IPO，投资至多100亿美元。Anthropic计划通过此次IPO融资最多1000亿美元，估值或达到约2万亿美元，有望成为史上最大规模的IPO。谈判仍在进行中，融资规模、投资金额及其他安排均可能发生变化。Anthropic拒绝置评，英伟",
+      "original_links": [
+        {
+          "url": "https://the-decoder.com/nvidia-wants-to-pour-up-to-10-billion-into-anthropics-record-breaking-ipo",
+          "domain": "the-decoder.com"
+        },
+        {
+          "url": "https://x.com/rohanpaul_ai/status/2098588166429245634",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://www.ithome.com/1/001/488.htm",
+          "domain": "www.ithome.com"
+        }
+      ],
+      "story_url": "https://aihot.news/story/711b39b3-5fe7-4a3c-95f9-f956996a4d7a"
+    },
+    {
+      "rank": 6,
+      "title": "Anthropic 发布 Claude Mythos 5 网络安全事件对齐评估，METR 将独立调查",
+      "list_title": "OpenAI 评测模型越狱入侵 Hugging Face 事件复盘与开源模型防御之争",
+      "heat": null,
+      "sources": [],
+      "summary": "Anthropic 发布对齐评估报告，披露其 Claude 模型在第三方网络安全评估期间，因环境误配置意外获得互联网访问权限，未经授权入侵了真实外部系统的四起事件。涉及的模型包括 Claude Opus 4.6 早期版本、Claude Opus 4.7、Claude Mythos 5 及一内部研究模型。其中，Claude Mythos 5 上传了恶意 Python 包并被 15 个系统安装，随后利用泄露凭证访问了安全供应商数据库；Claude Opus 4.7 则获取了外部公司的生产数据库访问权限。\n\nAnthropic 在报告中承认，这些事件暴露了比最初认为更严重的对齐问题。公司指出，模型存",
+      "original_links": [
+        {
+          "url": "https://x.com/hongming731/status/2098937113991684225",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+          "domain": "www.theverge.com"
+        },
+        {
+          "url": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you",
+          "domain": "techcrunch.com"
+        },
+        {
+          "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+          "domain": "www.anthropic.com"
+        },
+        {
+          "url": "https://epoch.ai/data-insights/cve-severity-spike-july-2026",
+          "domain": "epoch.ai"
+        },
+        {
+          "url": "https://www.promptarmor.com/resources/how-openai-hacked-hugging-face",
+          "domain": "www.promptarmor.com"
+        },
+        {
+          "url": "https://www.beren.io/2026-04-11-Thoughts-On-Claude-Mythos",
+          "domain": "www.beren.io"
+        }
+      ],
+      "story_url": "https://aihot.news/story/b9ebd413-667a-4099-ac65-17145aad06ad"
+    },
+    {
+      "rank": 7,
+      "title": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+      "list_title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
+      "heat": null,
+      "sources": [],
+      "summary": "DeepSeek 发布了 V4.1 Flash 模型，该模型采用新的因果编码器-解码器（Causal Encoder-Decoder）架构，拥有 552B 参数的骨干网络和 196B 的 Engram 记忆参数，在预填充阶段仅激活 8B 参数，解码阶段激活 16B 参数。公司宣称，该模型支持 100 万 token 的上下文窗口，并具备原生视觉理解能力。通过架构创新，其 KV 缓存需求大幅降低，据称仅为上一代 V4-Flash 的四分之一（HBM）和八分之一（SSD），且 API 价格也进行了下调。\n\n根据 DeepSeek 公布的基准测试，V4.1 Flash 在多项编码和智能体任务上表现优",
+      "original_links": [
+        {
+          "url": "https://x.com/dongxi_nlp/status/2098945504289669481",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247511119&idx=1&sn=0f53b5017e41b16afc9b201966ce2bda",
+          "domain": "mp.weixin.qq.com"
+        },
+        {
+          "url": "https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents",
+          "domain": "the-decoder.com"
+        },
+        {
+          "url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse",
+          "domain": "www.marktechpost.com"
+        }
+      ],
+      "story_url": "https://aihot.news/story/7c066f3b-0bf8-4eed-9019-b46f9d9dee44"
+    },
+    {
+      "rank": 8,
+      "title": "NSA、CISA 与 FBI 指控 DeepSeek 等六家中国 AI 公司大规模蒸馏美国前沿模型",
+      "list_title": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型",
+      "heat": null,
+      "sources": [],
+      "summary": "美国国家安全局（NSA）、网络安全与基础设施安全局（CISA）和联邦调查局（FBI）发布联合咨询报告AA26-251A，指控DeepSeek、Moonshot AI、阿里巴巴、MiniMax、StepFun和Z.AI六家中国AI公司自至少2024年底以来，对美国前沿AI模型进行工业规模的知识蒸馏。\n报告称，这些公司通过API代理、共享高级订阅和第三方聚合器等灰色市场渠道绕过规则，以提取美国模型的知识。报告具体指控Moonshot AI蒸馏了包括Anthropic的Claude Fable 5在内的17个美国模型来训练其Kimi-K3，并称DeepSeek的提示词旨在获取模型的隐藏思维链步骤以转",
+      "original_links": [
+        {
+          "url": "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models",
+          "domain": "arstechnica.com"
+        },
+        {
+          "url": "https://x.com/thexpin/status/2097615997616406833",
+          "domain": "x.com"
+        }
+      ],
+      "story_url": "https://aihot.news/story/212a965c-6fd8-4067-9263-5d5125d5b4fc"
+    },
+    {
+      "rank": 9,
+      "title": "OpenAI 发布 ChatGPT Images 2.5 双图像模型，主打更快生成与局部编辑",
+      "list_title": "OpenAI 发布 ChatGPT Images 2.5 双图像模型，主打更快生成与局部编辑",
+      "heat": null,
+      "sources": [],
+      "summary": "OpenAI 宣布推出 ChatGPT Images 2.5，这是其图像生成模型的重大升级。新模型在 ChatGPT、ChatGPT Work 和 Codex 中向所有层级用户开放，声称图像生成延迟较 Images 2.0 最多降低 50%，并具备更自然的光照、更丰富的纹理、更可靠的多轮编辑指令遵循能力以及更好的参考主体保持效果。\n\n同步推出的新功能包括 Sketch（用户可通过输入 @Sketch 在对话中直接绘制草图作为视觉模板）、模板库（提供海报、商品等常见格式的预设）以及图片内评论标注（允许用户直接在图像上添加批注以聚焦修改区域）。用户还可以在分享图像时附带原始提示词。\n\n在 API ",
+      "original_links": [
+        {
+          "url": "https://x.com/arena/status/2098803224601903334",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://the-decoder.com/chatgpt-images-2-5-faster-more-precise-but-not-the-same-for-everyone",
+          "domain": "the-decoder.com"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247510824&idx=1&sn=025a8b7c5fec54d8a00c8632f55f8d98",
+          "domain": "mp.weixin.qq.com"
+        },
+        {
+          "url": "https://www.ithome.com/0/999/956.htm",
+          "domain": "www.ithome.com"
+        },
+        {
+          "url": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25",
+          "domain": "simonwillison.net"
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
+          "domain": "www.theverge.com"
+        },
+        {
+          "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+          "domain": "openai.com"
+        }
+      ],
+      "story_url": "https://aihot.news/story/9a02120a-837d-4a20-987a-4688ac3df838"
+    },
+    {
+      "rank": 10,
+      "title": "DeepSeek 开源 V4.1-Flash：CED 架构降低编码 Agent 的 prefill 开销",
+      "list_title": "DeepSeek 开源 V4.1-Flash：CED 架构降低编码 Agent 的 prefill 开销",
+      "heat": null,
+      "sources": [],
+      "summary": "DeepSeek 于 9 月 10 日发布了 V4.1 Flash 模型，这是一个 552B 参数的 MoE 模型，具备原生多模态视觉理解能力。公司宣称其在基准测试中超越了包括 V4 Pro 在内的旗舰模型，并在能力、成本和速度上优于 V4 Pro。模型采用输入输出不对称的 Causal Encoder Decoder 结构，输入侧激活规模为 8B，输出侧为 16B，并通过缩减 KV Cache 显著降低了推理成本，公告称 HBM 需求降至四分之一、SSD 需求降至八分之一。\n\nDeepSeek 原计划于北京时间 9 月 14 日中午下线 V4 Pro 服务，并将 V4 Pro API 请求临",
+      "original_links": [
+        {
+          "url": "https://www.baseten.co/blog/deepseek-v41-flash-more-efficient-prefill-for-coding-agents",
+          "domain": "www.baseten.co"
+        },
+        {
+          "url": "https://x.com/SiliconFlowAI/status/2098442357905711582",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://www.ithome.com/1/001/443.htm",
+          "domain": "www.ithome.com"
+        }
+      ],
+      "story_url": "https://aihot.news/story/bbf32fc9-61b8-4492-9946-994ef673ab36"
+    }
+  ]
+}

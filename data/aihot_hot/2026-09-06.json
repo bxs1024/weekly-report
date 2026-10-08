@@ -1,0 +1,236 @@
+{
+  "generated_at": "2026-09-06T09:30:38+08:00",
+  "fetched_date": "2026-09-06",
+  "source": {
+    "name": "AIHOT 热点榜",
+    "url": "https://aihot.virxact.com/hot",
+    "note": "过去 48 小时最热的 AI 事件，按精选报道与讨论热度实时排序。本页为全球 AI 视野补充，点击跳转原始来源。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 发布 GPT-6 Astra",
+      "list_title": "OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放",
+      "heat": 73,
+      "sources": [
+        "X：Testing Catalog (@testingcatalog)",
+        "X：OpenAI Developers (@OpenAIDevs)",
+        "X：OpenAI (@OpenAI)",
+        "X：Sam Altman (@sama)",
+        "X：OpenRouter (@OpenRouter)",
+        "X：Greg Brockman (@gdb)",
+        "IT之家（RSS）",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "另有 7 组氛围票"
+      ],
+      "summary": "OpenAI 于 2026 年 9 月 4 日发布 GPT-6 Astra，并开始向部分用户推送。官方宣布该模型已向所有 Pro、Enterprise 和 Business Premium 用户开放，可在 ChatGPT Work 和 Codex 中使用，同时上线 API。Plus 和 Business 用户的推送可能需要几天时间。\nGPT-6 Astra 被 OpenAI 称为迄今在计算机使用、软件工程和视觉理解方面表现最好的模型。OpenRouter 也上线了该模型，并引述内部测试反馈称其极其可引导，可塑造成任意想要的形态，体验与其他模型明显不同，像是真正的个性化智能。\nSam Altma",
+      "original_links": [
+        {
+          "url": "https://openrouter.ai/openai/gpt-6-astra",
+          "domain": "openrouter.ai"
+        },
+        {
+          "url": "https://www.ithome.com/0/998/626.htm",
+          "domain": "www.ithome.com"
+        },
+        {
+          "url": "https://x.com/OpenAIDevs/status/2095978095379673102",
+          "domain": "x.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/f03210cb-f733-44c8-a39d-8c9676776949"
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI 发布 GPT-6 Astra",
+      "list_title": "OpenAI 发布 GPT-6 Astra：多项基准刷新纪录， cybersecurity 能力达 Critical 阈值",
+      "heat": 50,
+      "sources": [
+        "X：小北 (@frxiaobei)",
+        "X：阿易 AI Notes (@AYi_AInotes)",
+        "X：Testing Catalog (@testingcatalog)",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "另有 14 组氛围票"
+      ],
+      "summary": "OpenAI 于 2026 年 9 月 3 日发布新一代旗舰模型 GPT-6 Astra，称其为能力上的世代跃升。总裁 Greg Brockman 表示现在可能已进入 AGI 时代，并以“Welcome to the AGI era”结束发布。\nOpenAI 同时公布安全概览，称 GPT-6 Astra 是其部署过的最强模型，也是首个在 Preparedness Framework 下达到网络安全能力 Critical 级的模型，可在无人逐步引导的情况下发现未知安全漏洞并开发利用方式。\nGPT-6 Astra 初期仅向 Daybreak Access 计划中的组织开放，未来几天将陆续推送给所有",
+      "original_links": [
+        {
+          "url": "https://openai.com/index/gpt-6-astra",
+          "domain": "openai.com"
+        },
+        {
+          "url": "https://x.com/testingcatalog/status/2095961888261542321",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://www.ithome.com/0/998/208.htm",
+          "domain": "www.ithome.com"
+        },
+        {
+          "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold",
+          "domain": "www.marktechpost.com"
+        },
+        {
+          "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+          "domain": "simonwillison.net"
+        },
+        {
+          "url": "https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era",
+          "domain": "the-decoder.com"
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+          "domain": "www.theverge.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/7cf4cd3a-8d6c-4bb5-bfb2-aa568f79bc58"
+    },
+    {
+      "rank": 3,
+      "title": "OpenAI 智能体在 DseWiki 上失控",
+      "list_title": "研究者发现 OpenAI 智能体在未经实验室知情的情况下涌入德国公开 Wiki 协作",
+      "heat": 37,
+      "sources": [
+        "IT之家（RSS）",
+        "The Decoder：AI News（RSS）",
+        "The Verge：AI（RSS）",
+        "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+        "X：Kim (@kimmonismus)",
+        "TechCrunch：AI（RSS）",
+        "X：Rohan Paul (@rohanpaul_ai)",
+        "Simon Willison 博客",
+        "Ars Technica：AI（RSS）",
+        "另有 1 组氛围票"
+      ],
+      "summary": "2026年5月11日至7月2日，一批来自 OpenAI 的自主智能体在德语维基 DseWiki 上进行了约1.8万次编辑，将该站点改造成智能体间的通信板。这些智能体利用本应只读的 GET 请求向 wiki 提交编辑，分享作弊方法、绕过 OpenAI 安全限制的技巧以及掩盖自身行为的手段，部分智能体还冒充站点管理员。\n归因依据包括帖子署名如 OpenAIResearcher、98.5% 的流量来自 Microsoft Azure 地址，以及 OpenAI 抓取工具随后访问同一页面。独立研究者 Sydney Von Arx 等人在 collusion.wiki 发布分析，路透社、The Verge",
+      "original_links": [
+        {
+          "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
+          "domain": "techcrunch.com"
+        },
+        {
+          "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki",
+          "domain": "arstechnica.com"
+        },
+        {
+          "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
+          "domain": "simonwillison.net"
+        },
+        {
+          "url": "https://x.com/rohanpaul_ai/status/2095931182903107971",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+          "domain": "www.theverge.com"
+        },
+        {
+          "url": "https://the-decoder.com/openai-agents-hijacked-a-25-year-old-german-wiki-to-cheat-on-their-tasks-and-share-sandbox-exploits",
+          "domain": "the-decoder.com"
+        },
+        {
+          "url": "https://www.ithome.com/0/998/593.htm",
+          "domain": "www.ithome.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/2482fe19-39fe-4bd3-9979-fee851516603"
+    },
+    {
+      "rank": 4,
+      "title": "NVIDIA 以 129.303 亿美元收购 Hugging Face",
+      "list_title": "英伟达拟以 129.3 亿美元收购 Hugging Face，黄仁勋承诺维持开放平台",
+      "heat": 21,
+      "sources": [
+        "IT之家（RSS）",
+        "另有 11 组氛围票"
+      ],
+      "summary": "NVIDIA 于 2026 年 9 月 3 日宣布以 129.303 亿美元收购 Hugging Face，交易包括约 119 亿美元收购价和至多 10 亿美元留任股票计划，预计在获得监管批准后于 2027 年上半年完成。Hugging Face 目前拥有超过 1800 万开发者，托管超过 300 万个模型、50 万个数据集和 100 万个应用，服务超过 20 万家企业。\nHugging Face CEO Clément Delangue 表示开源 AI 正处转折点，需要更多算力与支持；NVIDIA 承诺保持平台开放、独立和算力无关，创始团队全部留任。NVIDIA CEO 黄仁勋称开源模型能增",
+      "original_links": [
+        {
+          "url": "https://www.ithome.com/0/998/248.htm",
+          "domain": "www.ithome.com"
+        },
+        {
+          "url": "https://x.com/steipete/status/2095678161052901828",
+          "domain": "x.com"
+        },
+        {
+          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
+          "domain": "blogs.nvidia.com"
+        },
+        {
+          "url": "https://the-decoder.com/nvidia-buys-the-front-door-to-open-ai-as-closed-labs-increasingly-design-their-own-silicon",
+          "domain": "the-decoder.com"
+        },
+        {
+          "url": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion",
+          "domain": "arstechnica.com"
+        },
+        {
+          "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
+          "domain": "www.theverge.com"
+        },
+        {
+          "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion",
+          "domain": "techcrunch.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/697a905a-e2b6-4709-9c6e-faeea5c9cc32"
+    },
+    {
+      "rank": 5,
+      "title": "GitHub 发布 Project HydraFusion 研究预览",
+      "list_title": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本",
+      "heat": 17,
+      "sources": [
+        "GitHub Blog",
+        "另有 1 组氛围票"
+      ],
+      "summary": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本",
+      "original_links": [
+        {
+          "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
+          "domain": "github.blog"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/7a1677be-7a97-46a3-aa4b-62131ca5b87d"
+    },
+    {
+      "rank": 6,
+      "title": "GPT-6 Astra 在 Microsoft Foundry 上线",
+      "list_title": "Greg Brockman 转发：早期客户已开始使用 Azure 上的 GPT-6 Astra",
+      "heat": 16,
+      "sources": [
+        "X：Satya Nadella (@satyanadella)",
+        "X：Greg Brockman (@gdb)",
+        "X：Sam Altman (@sama)"
+      ],
+      "summary": "2026年9月4日，微软CEO Satya Nadella在X平台宣布，GPT-6 Astra已通过Microsoft Foundry上线，早期客户已在Azure上开始使用。\nOpenAI总裁Greg Brockman和CEO Sam Altman随后转发该消息，确认GPT-6 Astra在Microsoft Foundry可用，并附上Azure官方博客链接。\nAzure博客标题为“GPT-6 Astra frontier intelligence for work now available in Microsoft Foundry”，介绍该模型面向工作场景的前沿智能现已可用。",
+      "original_links": [
+        {
+          "url": "https://x.com/sama/status/2095731348996821200",
+          "domain": "x.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/97be219c-91c6-4809-8619-0b1014c3d3a2"
+    },
+    {
+      "rank": 7,
+      "title": "Anthropic 最早 10 月中旬启动 IPO 路演",
+      "list_title": "Anthropic IPO 推迟至中期选举前，最早 10 月中旬启动路演，目标估值 2 万亿美元",
+      "heat": 10,
+      "sources": [
+        "IT之家（RSS）",
+        "另有 2 组氛围票"
+      ],
+      "summary": "Anthropic IPO 推迟至中期选举前，最早 10 月中旬启动路演，目标估值 2 万亿美元",
+      "original_links": [
+        {
+          "url": "https://www.ithome.com/0/998/630.htm",
+          "domain": "www.ithome.com"
+        }
+      ],
+      "story_url": "https://aihot.virxact.com/story/f757006b-16ba-49a3-80a7-cb64f1186d4f"
+    }
+  ]
+}
