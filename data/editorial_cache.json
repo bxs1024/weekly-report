@@ -927,29 +927,29 @@
       "generated_at": "2026-10-06 08:27"
     },
     "weekly:2026-W41": {
-      "input_hash": "01bacf2b06c9fe5ac37b3077595dc734820b477a4174d42916923fd982ea6342",
+      "input_hash": "747ea3a6b90290e30c95cc74162904bfd50c2e528c48eda6b46f3789083b508c",
       "editorial": {
-        "editorial_title": "AI推理算力与代理支付重构出海基建",
-        "mainline": "Cloudflare密集发布边缘推理与安全产品，Etched以40B估值验证专用芯片路线，代理支付平台开始落地；同时拉美与中东收单整合、亚太合规合作加速。基础设施正从训练转向推理与交易闭环，出海BD应关注边缘节点、代理支付与合规科技的交集。",
+        "editorial_title": "中资外卖拉美扩城，AI代理与支付基建同步下沉",
+        "mainline": "本周两条线索交汇：Keeta在巴西32城铺开配送网络，NAVER与墨西哥政府探索AI生态合作，拉美本地化基建需求从支付延伸到商户数字化；同时Nous Research以15亿美元估值推企业AI代理，Plaid上线信贷欺诈模型，代理与风控能力正被嵌入交易链路。出海BD应关注拉美商户侧与合规科技的合作窗口。",
         "themes": {
-          "ai_infra": "Cloudflare在生日周集中发布边缘推理与安全新品，Etched以40B估值融资验证专用推理芯片路线，Constructor推出代理支付平台，OneByZero获20M美元帮企业落地AI。基础设施竞争从训练集群转向边缘推理与代理交易，云厂商与芯片新贵开始争夺企业AI部署入口。",
-          "expansion": "BMI预测2026年新加坡EV销量占比超50%，充电与电池投资窗口打开；诺基亚CEO指出数据中心建设受供应链制约，扩张节奏可能放缓。Unity与Grok Build达成官方插件合作，而Nerial进入休眠模式，显示工具生态整合加速、独立团队生存压力上升。",
-          "payments": "NEOPAY收购noon payments 65%股权，中东收单市场加速整合；Nubank前员工创立Decade，用AI助手切入资金管理。Shopify结账提速并支持跨设备购物车同步，Basware收购Trustpair强化支付欺诈检测。收单整合与AI原生金融工具同步推进，跨境支付竞争转向体验与风控。",
-          "compliance": "FOMO Pay与Sumsub合作加强亚太合规能力，Nubank与Cardamon用AI扩展全球合规业务，跨境支付公司正把合规从成本中心转为可输出能力。同时AI时代零售定价策略受审视，监管对算法定价的关注上升，合规科技合作窗口打开。",
-          "developer": "Namespace获€37M扩展跨平台开发基础设施，欧洲开发者工具赛道融资回暖；谷歌在英国面临£1B Play Store佣金诉讼，平台抽成模式承压。Valon获$150M推进AI抵押贷款平台，金融基础设施与开发者工具同时吸引资本，跨平台与合规成本成为关键变量。",
-          "operations": "富士康营收同比增长47%，AI服务器需求强劲，亚太电子制造供应链景气度持续；Toast与Square在POS折扣上正面竞争，商户收单利润空间被压缩。硬件代工与商户软件两端同时出现分化，AI服务器红利与POS价格战并存。"
+          "ai_infra": "Cloudflare在生日周集中发布多项基础设施产品，把边缘网络能力向企业开发者开放；同期Nous Research以15亿美元估值推出企业AI代理，Netsec和Siena分别融资切入AI安全与消费品牌代理。基础设施层与应用层同时扩容，代理部署正从实验走向企业采购清单。",
+          "expansion": "Keeta在巴西覆盖城市数升至32个、下载量破千万，美团系外卖在拉美进入规模复制阶段；NAVER同期探索与墨西哥政府共建AI生态，Atlassian则扩大与OpenAI合作推动企业知识行动化。中资平台与韩系科技同时押注拉美本地化，商户数字化和政企合作成为落地抓手。",
+          "payments": "Revolut申请菲律宾银行牌照，欧洲数字银行开始直接进入东南亚本地账户体系；NEOPAY收购noon payments 65%股权，中东支付资产整合提速。Plaid发布信贷欺诈支付风险AI模型，Nubank前员工创立Decade做资金管理助手，支付链路的合规与风控正被AI重构。",
+          "developer": "Databricks发布2026基准报告，公开主张湖仓架构优于传统数据仓库，直接冲击企业数据平台选型逻辑；Namespace获3700万欧元扩展跨平台开发基础设施，Stuut融资5250万美元扩展AI平台。数据架构之争叠加开发工具融资，亚太企业采购决策将更多参考厂商性能基准。",
+          "commerce": "Shopify Analytics新增采购订单分析功能，把B2B采购数据纳入商户后台；同期SCI Ecommerce濒临倒闭，东南亚电商服务商洗牌加剧。中华电信启动无人机配送，Sea Ltd CPO行权15万股期权，物流与资本动作并行，商户侧工具升级与区域服务商出清同时发生。",
+          "compliance": "新加坡立法强化系统重要性银行损失吸收规则，亚太银行资本管理合规需求上升；谷歌芬兰数据中心建设被叫停，AI算力扩张遭遇地方审批阻力。FOMO Pay与Sumsub合作加强合规，AI零售定价策略受审视，监管与合规科技正从金融向算力和定价场景外溢。"
         },
         "theme_titles": {
-          "ai_infra": "Cloudflare推边缘推理，Etched估值冲40B",
-          "expansion": "新加坡EV渗透过半，诺基亚警示数据中心供应链",
-          "payments": "NEOPAY收购noon payments，拉美AI金融创业升温",
-          "compliance": "FOMO Pay与Nubank引入AI合规合作",
-          "developer": "Namespace获€37M，谷歌在英面临Play佣金诉讼",
-          "operations": "富士康营收+47%，Toast与Square打POS折扣战"
+          "ai_infra": "Cloudflare密集上新，AI代理与安全融资同步升温",
+          "expansion": "Keeta巴西扩至32城，NAVER借墨西哥政府切入AI生态",
+          "payments": "Revolut申菲律宾牌照，NEOPAY收购noon支付股权",
+          "developer": "Databricks发基准争湖仓，Namespace融资扩跨平台基建",
+          "commerce": "Shopify加采购订单分析，SCI Ecommerce濒临倒闭",
+          "compliance": "新加坡强化D-SIBs规则，谷歌芬兰数据中心被叫停"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-10-06 08:27"
+      "generated_at": "2026-10-08 09:43"
     }
   }
 }

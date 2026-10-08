@@ -134,6 +134,11 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
 .f-amount { font-size:14px; font-weight:700; color:var(--copper); font-variant-numeric:tabular-nums; }
 .f-card-review { opacity:0.72; }
 .f-card-review .f-title { color:var(--muted); }
+/* 覆盖面角标：多家在报的事件比单篇更值得先看 */
+.f-src { font-size:10.5px; font-weight:600; color:var(--copper); background:rgba(164,113,58,0.1);
+  border:1px solid rgba(164,113,58,0.22); padding:1px 8px; border-radius:999px; white-space:nowrap; }
+.c-src { font-size:10.5px; font-weight:600; color:var(--copper); background:rgba(164,113,58,0.1);
+  padding:1px 7px; border-radius:999px; margin-left:5px; }
 
 /* 玻璃侧栏 */
 .f-rail { display:grid; gap:16px; position:sticky; top:64px; }
@@ -426,9 +431,9 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
         </div>
       </div>
       <div class="m-issue">
-        <div class="m-vol" id="volLabel">VOL.2026-10-06</div>
-        <div class="m-line" id="cnDate">2026年10月6日 星期二</div>
-        <div class="m-line"><span class="m-live"></span>最新采集 2026-10-05｜展示 2026-10-05 成熟批次</div>
+        <div class="m-vol" id="volLabel">VOL.2026-10-08</div>
+        <div class="m-line" id="cnDate">2026年10月8日 星期四</div>
+        <div class="m-line"><span class="m-live"></span>最新采集 2026-10-08｜展示 2026-10-08 成熟批次</div>
       </div>
     </div>
   </header>
@@ -487,7 +492,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
         <div class="m-overline">今日情报</div>
         <div class="m-headline-row">
           <h2 class="m-title-sec">今日事件</h2>
-          <span class="m-head-meta">共 31 条合格事件 · 精选 30 · 重点 1 · 待确认 4</span>
+          <span class="m-head-meta">共 6 条合格事件 · 精选 6</span>
         </div>
       </div>
 
@@ -544,16 +549,16 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
       <div class="f-grid">
         <section class="f-list">
 
-          <a class="f-card" href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxNanBPNkJ5RmxDUHVyZDhZaTZxOWhFeTNXMm9RZFBPN2g5bzN5QmZsd2RjTjNFaWdleUZNUENZRGVQQzcyZEZZODkyck1BLS1jNkVXUmtuNElhSmFEUDF1cjQ1eWlrZUhJRE0zZldiRlo4YjNsOUdPVGVGUE9ZQU1mSUFtcTcyWlN5ZTlnMUhvQ25qYWt5NGhOckxEY2lORkFJNWd2MUE3Y3pHaExrOC1LSmNpakllZkJ3WElIMkt4c05UQmcxY2laYVh6WTlocDYycTYwag?oc=5" target="_blank" data-filterable data-region="中东" data-company="Noon" data-text="NEOPAY enters into definitive agreement to acquire 65% stake in noon payments - Zawya 中东支付领域并购整合加速，NEOPAY通过收购noon payments扩大市场份额，利好中东金融科技生态 NEOPAY签署最终协议，收购noon payments 65%的股权。 中东 Google News Noon">
+          <a class="f-card" href="https://www.navercorp.com/en/media/pressReleasesDetail?seq=10034721" target="_blank" data-filterable data-region="亚太" data-company="Naver" data-text="Users Clicking to Book Restaurants in Japan Up 5.8-Fold in a Year; NAVER to Step Up Local Dining Discovery and Reservations 日本餐饮数字化需求爆发，NAVER加大本地生活服务投入，为日本餐饮SaaS和支付服务商带来合作机会 日本餐厅在线预订点击量一年内增长5.8倍，NAVER宣布加强本地餐饮发现和预订服务。 亚太 Naver Naver">
             <span class="f-num">01</span>
             <span class="f-body">
               <span class="f-meta">
-                <span class="f-co">Noon</span>
-                <span>中东 · 资金流向</span>
+                <span class="f-co">Naver</span>
+                <span>亚太 · 合作机会</span>
               </span>
-              <span class="f-title">NEOPAY收购noon payments 65%股权</span>
-              <span class="f-overview">NEOPAY签署最终协议，收购noon payments 65%的股权。</span>
-              <span class="f-reason">点评：中东支付领域并购整合加速，NEOPAY通过收购noon payments扩大市场份额，利好中东金融科技生态</span>
+              <span class="f-title">日本餐厅预订点击量增5.8倍，NAVER加码本地餐饮服务</span>
+              <span class="f-overview">日本餐厅在线预订点击量一年内增长5.8倍，NAVER宣布加强本地餐饮发现和预订服务。</span>
+              <span class="f-reason">点评：日本餐饮数字化需求爆发，NAVER加大本地生活服务投入，为日本餐饮SaaS和支付服务商带来合作机会</span>
             </span>
             <span class="f-right">
               <span class="f-tag f-tag-selected">精选</span>
@@ -561,16 +566,16 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
             </span>
           </a>
 
-          <a class="f-card" href="https://www.pocketgamer.biz/google-faces-1bn-play-store-commission-trial-in-the-uk/" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="Google faces £1bn Play Store commission trial in the UK 欧洲应用商店监管压力加大，谷歌佣金政策受挑战，可能影响移动应用生态和开发者收益，欧洲应用开发者或受益。 谷歌在英国面临10亿英镑的Play Store佣金诉讼，涉及应用商店抽成政策。 欧洲 PocketGamer.biz ">
+          <a class="f-card" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxObkR0N0d5bGJETGE4azNUY2kzS2ozdEFwSUFjZk9rYzVPcUlGN295NGRlVS1GdHRVVjgxUjZXeDFRalBUMUVHa1JNQTVMbkVGOGZKV2ZlUlR6a2J1aWxkU0JaR1F2a3BYWnJfUmRDcGk5LXAwcmVSQy1rSU5BX3NuX2VTV25vX1FW?oc=5" target="_blank" data-filterable data-region="亚太" data-company="Naver" data-text="Naver Launches Hiking-Themed Weather Service with Segment Forecasts - 조선일보 韩国互联网巨头细分场景天气服务，户外运动数据与天气服务结合模式可复制 韩国互联网公司Naver推出以登山为主题的天气服务，提供分段天气预报功能。 亚太 Google News Naver">
             <span class="f-num">02</span>
             <span class="f-body">
               <span class="f-meta">
-
-                <span>欧洲 · 警示信号</span>
+                <span class="f-co">Naver</span>
+                <span>亚太 · 背景补充</span>
               </span>
-              <span class="f-title">谷歌在英国面临£1B Play Store佣金诉讼</span>
-              <span class="f-overview">谷歌在英国面临10亿英镑的Play Store佣金诉讼，涉及应用商店抽成政策。</span>
-              <span class="f-reason">点评：欧洲应用商店监管压力加大，谷歌佣金政策受挑战，可能影响移动应用生态和开发者收益，欧洲应用开发者或受益。</span>
+              <span class="f-title">Naver推出登山主题分段天气预报服务</span>
+              <span class="f-overview">韩国互联网公司Naver推出以登山为主题的天气服务，提供分段天气预报功能。</span>
+              <span class="f-reason">点评：韩国互联网巨头细分场景天气服务，户外运动数据与天气服务结合模式可复制</span>
             </span>
             <span class="f-right">
               <span class="f-tag f-tag-selected">精选</span>
@@ -578,16 +583,16 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
             </span>
           </a>
 
-          <a class="f-card" href="https://e27.co/0g-picks-singapore-as-global-base-expands-ai-research-into-badminton-20261005/" target="_blank" data-filterable data-region="亚太" data-company="" data-text="0G picks Singapore as global base, expands AI research into badminton 东南亚AI公司选择新加坡作为全球基地，并跨界体育分析，为本地AI人才和体育科技合作创造新机会。 AI公司0G选择新加坡作为全球总部，并将AI研究扩展至羽毛球运动分析领域。 亚太 e27 东南亚科技产业分析 ">
+          <a class="f-card" href="https://www.techinasia.com/ipo-hopeful-sci-ecommerces-nears-collapse" target="_blank" data-filterable data-region="亚太" data-company="" data-text="Once an IPO hopeful, SCI Ecommerce nears collapse 东南亚电商服务商经营恶化，供应链风险上升，为电商平台和物流服务商提供替代合作机会 曾有望IPO的SCI Ecommerce公司濒临倒闭。 亚太 Tech in Asia ">
             <span class="f-num">03</span>
             <span class="f-body">
               <span class="f-meta">
 
-                <span>亚太 · 合作机会</span>
+                <span>亚太 · 警示信号</span>
               </span>
-              <span class="f-title">0G设新加坡为全球总部，AI研究拓展至羽毛球</span>
-              <span class="f-overview">AI公司0G选择新加坡作为全球总部，并将AI研究扩展至羽毛球运动分析领域。</span>
-              <span class="f-reason">点评：东南亚AI公司选择新加坡作为全球基地，并跨界体育分析，为本地AI人才和体育科技合作创造新机会。</span>
+              <span class="f-title">SCI Ecommerce濒临倒闭</span>
+              <span class="f-overview">曾有望IPO的SCI Ecommerce公司濒临倒闭。</span>
+              <span class="f-reason">点评：东南亚电商服务商经营恶化，供应链风险上升，为电商平台和物流服务商提供替代合作机会</span>
             </span>
             <span class="f-right">
               <span class="f-tag f-tag-selected">精选</span>
@@ -595,186 +600,33 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
             </span>
           </a>
 
-          <a class="f-card" href="https://e27.co/evs-to-make-up-over-half-of-singapore-vehicle-sales-in-2026-bmi-says-20261005/" target="_blank" data-filterable data-region="亚太" data-company="" data-text="EVs to make up over half of Singapore vehicle sales in 2026, BMI says 东南亚电动车市场加速渗透，新加坡EV销量占比过半将带动充电基础设施和电池技术投资，为相关企业提供合作机会。 BMI预测，到2026年电动汽车将占新加坡新车销量的一半以上。 亚太 e27 东南亚科技产业分析 ">
+          <a class="f-card" href="https://www.techinasia.com/revolut-invest-274m-sg-years" target="_blank" data-filterable data-region="亚太" data-company="" data-text="Revolut to invest $274m in SG over 5 years, focus on profit 欧洲数字银行巨头加大东南亚布局，为新加坡金融科技生态和本地支付合作方带来机会 Revolut计划在未来5年内向新加坡投资2.74亿美元，重点关注盈利能力。 亚太 Tech in Asia ">
             <span class="f-num">04</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>亚太 · 背景补充</span>
-              </span>
-              <span class="f-title">BMI预测2026年新加坡EV销量占比超50%</span>
-              <span class="f-overview">BMI预测，到2026年电动汽车将占新加坡新车销量的一半以上。</span>
-              <span class="f-reason">点评：东南亚电动车市场加速渗透，新加坡EV销量占比过半将带动充电基础设施和电池技术投资，为相关企业提供合作机会。</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/" target="_blank" data-filterable data-region="全球" data-company="" data-text="Etched fields funding offers at $40B+ valuation, sources say 全球AI芯片赛道估值飙升，Etched获高估值融资，反映AI算力需求旺盛，利好AI芯片产业链 AI芯片初创公司Etched收到融资要约，估值高达400亿美元。 全球 TechCrunch ">
-            <span class="f-num">05</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>全球 · 资金流向</span>
-              </span>
-              <span class="f-title">Etched融资估值达$40B</span>
-              <span class="f-overview">AI芯片初创公司Etched收到融资要约，估值高达400亿美元。</span>
-              <span class="f-reason">点评：全球AI芯片赛道估值飙升，Etched获高估值融资，反映AI算力需求旺盛，利好AI芯片产业链</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-              <span class="f-amount">$40B</span>
-            </span>
-          </a>
-
-          <a class="f-card" href="https://e27.co/onebyzero-raises-us20m-series-a-to-help-enterprises-move-ai-from-pilots-to-production-20261005/" target="_blank" data-filterable data-region="北美" data-company="" data-text="OneByZero raises US$20M Series A to help enterprises move AI from pilots to production 北美AI落地服务商获融资，东南亚企业AI部署需求增长，为区域系统集成商和云服务商带来合作机会。 北美AI公司OneByZero完成2000万美元A轮融资，帮助企业将AI项目从试点推进到生产环境。 北美 e27 东南亚科技产业分析 ">
-            <span class="f-num">06</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>北美 · 资金流向</span>
-              </span>
-              <span class="f-title">OneByZero获$20M A轮融资，助力企业AI落地</span>
-              <span class="f-overview">北美AI公司OneByZero完成2000万美元A轮融资，帮助企业将AI项目从试点推进到生产环境。</span>
-              <span class="f-reason">点评：北美AI落地服务商获融资，东南亚企业AI部署需求增长，为区域系统集成商和云服务商带来合作机会。</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-              <span class="f-amount">$20M</span>
-            </span>
-          </a>
-
-          <a class="f-card" href="https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/" target="_blank" data-filterable data-region="全球" data-company="" data-text="At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI 全球个人AI硬件赛道兴起，年轻创始人获融资，为AI硬件供应链带来新机会 19岁创始人创立Ghost公司，为个人AI应用开发售价3499美元的计算机，已融资1100万美元。 全球 TechCrunch ">
-            <span class="f-num">07</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>全球 · 资金流向</span>
-              </span>
-              <span class="f-title">Ghost获$11M融资，开发个人AI计算机</span>
-              <span class="f-overview">19岁创始人创立Ghost公司，为个人AI应用开发售价3499美元的计算机，已融资1100万美元。</span>
-              <span class="f-reason">点评：全球个人AI硬件赛道兴起，年轻创始人获融资，为AI硬件供应链带来新机会</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-              <span class="f-amount">$11M</span>
-            </span>
-          </a>
-
-          <a class="f-card" href="https://www.eu-startups.com/2026/10/copenhagens-pandektes-raises-e13-5-million-to-build-the-data-infrastructure-for-ai-powered-legal-research/" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="Copenhagen’s Pandektes raises €13.5 million to build the data infrastructure for AI-powered legal research 欧洲法律科技赛道融资活跃，AI法律研究数据基础设施需求增长，北欧法律科技市场存在合作与投资机会。 哥本哈根法律科技公司Pandektes完成1350万欧元融资，用于构建AI法律研究的数据基础设施。 欧洲 EU-Startups ">
-            <span class="f-num">08</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>欧洲 · 资金流向</span>
-              </span>
-              <span class="f-title">Pandektes获€13.5M融资</span>
-              <span class="f-overview">哥本哈根法律科技公司Pandektes完成1350万欧元融资，用于构建AI法律研究的数据基础设施。</span>
-              <span class="f-reason">点评：欧洲法律科技赛道融资活跃，AI法律研究数据基础设施需求增长，北欧法律科技市场存在合作与投资机会。</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-              <span class="f-amount">$14M</span>
-            </span>
-          </a>
-
-          <a class="f-card" href="https://ventureburn.com/valon-raises-150m-ai-mortgage-servicing-platform/" target="_blank" data-filterable data-region="非洲" data-company="" data-text="Valon Raises $150M for AI-Native Mortgage Servicing Platform 非洲市场关注美国AI金融科技融资动态，Valon的AI原生模式为非洲抵押贷款服务数字化提供参考和潜在合作机会。 美国抵押贷款服务公司Valon完成1.5亿美元融资，用于扩展其AI原生抵押贷款服务平台。 非洲 Ventureburn ">
-            <span class="f-num">09</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>非洲 · 资金流向</span>
-              </span>
-              <span class="f-title">Valon获$150M融资，推进AI抵押贷款平台</span>
-              <span class="f-overview">美国抵押贷款服务公司Valon完成1.5亿美元融资，用于扩展其AI原生抵押贷款服务平台。</span>
-              <span class="f-reason">点评：非洲市场关注美国AI金融科技融资动态，Valon的AI原生模式为非洲抵押贷款服务数字化提供参考和潜在合作机会。</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-              <span class="f-amount">$150M</span>
-            </span>
-          </a>
-
-          <a class="f-card" href="https://ventureburn.com/clockwork-raises-31-million-stop-ai-gpu-waste/" target="_blank" data-filterable data-region="非洲" data-company="" data-text="Clockwork.io Raises $31 Million to Eliminate GPU Waste in AI Workloads and Training 非洲AI开发者关注GPU资源优化技术，Clockwork的解决方案可帮助降低AI训练成本，为非洲AI初创企业提供合作机会。 AI基础设施公司Clockwork.io完成3100万美元融资，旨在通过优化GPU利用率减少AI工作负载和训练中的算力浪费。 非洲 Ventureburn ">
-            <span class="f-num">10</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>非洲 · 资金流向</span>
-              </span>
-              <span class="f-title">Clockwork.io获$31M融资，优化GPU利用率</span>
-              <span class="f-overview">AI基础设施公司Clockwork.io完成3100万美元融资，旨在通过优化GPU利用率减少AI工作负载和训练中的算力浪费。</span>
-              <span class="f-reason">点评：非洲AI开发者关注GPU资源优化技术，Clockwork的解决方案可帮助降低AI训练成本，为非洲AI初创企业提供合作机会。</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-              <span class="f-amount">$31M</span>
-            </span>
-          </a>
-
-          <a class="f-card" href="https://www.eu-startups.com/2026/10/namespace-secures-e37-million-to-scale-coding-build-and-test-infrastructure-across-mac-windows-and-linux/" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="Namespace secures €37 million to scale coding, build and test infrastructure across Mac, Windows and Linux 欧洲开发者工具赛道获融资，跨平台开发基础设施需求增长，利好欧洲开发者工具生态 Namespace获得3700万欧元融资，用于扩展跨Mac、Windows和Linux的编码、构建和测试基础设施。 欧洲 EU-Startups ">
-            <span class="f-num">11</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>欧洲 · 资金流向</span>
-              </span>
-              <span class="f-title">Namespace获€37M融资，扩展跨平台开发基础设施</span>
-              <span class="f-overview">Namespace获得3700万欧元融资，用于扩展跨Mac、Windows和Linux的编码、构建和测试基础设施。</span>
-              <span class="f-reason">点评：欧洲开发者工具赛道获融资，跨平台开发基础设施需求增长，利好欧洲开发者工具生态</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-              <span class="f-amount">$37M</span>
-            </span>
-          </a>
-
-          <a class="f-card" href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQWkQ1U0pQMjlfcThhRklZQkZkVzdNZU0yQmNGTnpteklaR3NoQ0hlb2tVandXNVJhMWpTRFVHVDVnYVBsLWMxQ0hHbDl2SG81Q0gxcExJdktmdFRxMDRoaFF3dzhmTnNkaEpYM0NKYWdjWnZuT0kzbE9zaVZGZHdHTTJhWnJoT20yWjZZM29sc0Z1TUVob3NnazV1MG1wcmhydmMySnZPQjEwWENm?oc=5" target="_blank" data-filterable data-region="拉美" data-company="Nubank" data-text="Nubank Alum Launches Decade to Give Money an AI Copilot - pymnts.com 拉美金融科技人才创业，AI+金融赛道在拉美兴起，为金融科技服务商带来新合作机会 Nubank前员工创立新公司Decade，旨在为资金管理提供AI助手，已获得融资。 拉美 Google News Nubank">
-            <span class="f-num">12</span>
-            <span class="f-body">
-              <span class="f-meta">
-                <span class="f-co">Nubank</span>
-                <span>拉美 · 合作机会</span>
-              </span>
-              <span class="f-title">Nubank前员工创立Decade，为资金管理提供AI助手</span>
-              <span class="f-overview">Nubank前员工创立新公司Decade，旨在为资金管理提供AI助手，已获得融资。</span>
-              <span class="f-reason">点评：拉美金融科技人才创业，AI+金融赛道在拉美兴起，为金融科技服务商带来新合作机会</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://thenextweb.com/news/nokia-hotard-data-centres-europe" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="Nokia CEO says data centres would go up twice as fast if supply allowed 欧洲数据中心建设需求强劲，供应链瓶颈为网络设备商和云基础设施供应商带来机会，诺基亚有望受益于数据中心扩张。 诺基亚CEO表示，如果供应链允许，数据中心建设速度可提升一倍，反映欧洲数据中心需求旺盛但受制于供应瓶颈。 欧洲 The Next Web ">
-            <span class="f-num">13</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>欧洲 · 背景补充</span>
-              </span>
-              <span class="f-title">诺基亚CEO称数据中心建设受供应链制约</span>
-              <span class="f-overview">诺基亚CEO表示，如果供应链允许，数据中心建设速度可提升一倍，反映欧洲数据中心需求旺盛但受制于供应瓶颈。</span>
-              <span class="f-reason">点评：欧洲数据中心建设需求强劲，供应链瓶颈为网络设备商和云基础设施供应商带来机会，诺基亚有望受益于数据中心扩张。</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://www.techinasia.com/news/foxconn-revenue-jumps-47-strong-ai-server-demand" target="_blank" data-filterable data-region="亚太" data-company="" data-text="Foxconn revenue jumps 47% on strong AI server demand 亚洲AI服务器供应链景气度高，富士康作为代工龙头受益，亚太电子制造和AI硬件供应链存在投资与合作机会。 富士康营收同比增长47%，主要受AI服务器需求强劲推动。 亚太 Tech in Asia ">
-            <span class="f-num">14</span>
             <span class="f-body">
               <span class="f-meta">
 
                 <span>亚太 · 资金流向</span>
               </span>
-              <span class="f-title">富士康营收+47%，AI服务器需求强劲</span>
-              <span class="f-overview">富士康营收同比增长47%，主要受AI服务器需求强劲推动。</span>
-              <span class="f-reason">点评：亚洲AI服务器供应链景气度高，富士康作为代工龙头受益，亚太电子制造和AI硬件供应链存在投资与合作机会。</span>
+              <span class="f-title">Revolut拟投$274M于新加坡，聚焦盈利</span>
+              <span class="f-overview">Revolut计划在未来5年内向新加坡投资2.74亿美元，重点关注盈利能力。</span>
+              <span class="f-reason">点评：欧洲数字银行巨头加大东南亚布局，为新加坡金融科技生态和本地支付合作方带来机会</span>
+            </span>
+            <span class="f-right">
+              <span class="f-tag f-tag-selected">精选</span>
+              <span class="f-amount">$274M</span>
+            </span>
+          </a>
+
+          <a class="f-card" href="https://www.navercorp.com/en/media/pressReleasesDetail?seq=10034722" target="_blank" data-filterable data-region="拉美" data-company="Naver" data-text="NAVER Explores Partnerships to Help Build Mexico’s AI Ecosystem in Talks with Government and Industry Leaders 拉美AI生态建设需求旺盛，韩国科技巨头NAVER携技术经验进入，为当地AI初创和云服务商带来合作机会 韩国互联网公司NAVER正与墨西哥政府和行业领袖探讨合作，以帮助建设墨西哥的AI生态系统。 拉美 Naver Naver">
+            <span class="f-num">05</span>
+            <span class="f-body">
+              <span class="f-meta">
+                <span class="f-co">Naver</span>
+                <span>拉美 · 合作机会</span>
+              </span>
+              <span class="f-title">NAVER探索与墨西哥政府合作共建AI生态</span>
+              <span class="f-overview">韩国互联网公司NAVER正与墨西哥政府和行业领袖探讨合作，以帮助建设墨西哥的AI生态系统。</span>
+              <span class="f-reason">点评：拉美AI生态建设需求旺盛，韩国科技巨头NAVER携技术经验进入，为当地AI初创和云服务商带来合作机会</span>
             </span>
             <span class="f-right">
               <span class="f-tag f-tag-selected">精选</span>
@@ -782,359 +634,19 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
             </span>
           </a>
 
-          <a class="f-card" href="https://www.mobileworldlive.com/industry/dt-eyes-sovereign-ai-revenue-bump/" target="_blank" data-filterable data-region="全球" data-company="" data-text="DT eyes sovereign AI revenue bump 欧洲主权AI需求上升，电信运营商布局AI基础设施，云服务和AI算力供应商迎来合作窗口。 德国电信（DT）预计主权AI业务将带来收入增长，正在推动相关产品和服务落地。 全球 Mobile World Live ">
-            <span class="f-num">15</span>
+          <a class="f-card" href="https://www.techinasia.com/news/samsung-electronics-forecasts-q3-profit-surge-ai-chips" target="_blank" data-filterable data-region="亚太" data-company="" data-text="Samsung Electronics forecasts Q3 profit surge on AI chips 亚太半导体巨头受益于AI芯片需求，供应链相关企业可关注其产能扩张和合作机会。 三星电子预测第三季度利润因AI芯片需求激增而大幅增长，具体数字未披露。 亚太 Tech in Asia ">
+            <span class="f-num">06</span>
             <span class="f-body">
               <span class="f-meta">
 
-                <span>全球 · 合作机会</span>
+                <span>亚太 · 资金流向</span>
               </span>
-              <span class="f-title">德国电信看好主权AI收入增长</span>
-              <span class="f-overview">德国电信（DT）预计主权AI业务将带来收入增长，正在推动相关产品和服务落地。</span>
-              <span class="f-reason">点评：欧洲主权AI需求上升，电信运营商布局AI基础设施，云服务和AI算力供应商迎来合作窗口。</span>
+              <span class="f-title">三星Q3利润因AI芯片预计大增</span>
+              <span class="f-overview">三星电子预测第三季度利润因AI芯片需求激增而大幅增长，具体数字未披露。</span>
+              <span class="f-reason">点评：亚太半导体巨头受益于AI芯片需求，供应链相关企业可关注其产能扩张和合作机会。</span>
             </span>
             <span class="f-right">
               <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://e.vnexpress.net/news/tech/personalities/amd-chief-lisa-su-becomes-first-female-ceo-to-lead-company-past-1-trillion-market-value-5128452.html" target="_blank" data-filterable data-region="越南" data-company="" data-text="AMD chief Lisa Su becomes first female CEO to lead company past $1 trillion market value 美国芯片巨头市值突破万亿，凸显AI算力需求强劲，为产业链上下游带来增长机会 AMD CEO苏姿丰成为首位带领公司市值突破1万亿美元的女性CEO，标志着AMD在半导体行业的重大里程碑。 越南 VnExpress Tech ">
-            <span class="f-num">16</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>越南 · 资金流向</span>
-              </span>
-              <span class="f-title">AMD市值破万亿，苏姿丰创历史</span>
-              <span class="f-overview">AMD CEO苏姿丰成为首位带领公司市值突破1万亿美元的女性CEO，标志着AMD在半导体行业的重大里程碑。</span>
-              <span class="f-reason">点评：美国芯片巨头市值突破万亿，凸显AI算力需求强劲，为产业链上下游带来增长机会</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://www.paymentsdive.com/news/toast-square-jockey-on-pos-discounts/832111/" target="_blank" data-filterable data-region="全球" data-company="" data-text="Toast, Square jockey on POS discounts 北美POS市场竞争加剧，餐饮零售SaaS服务商面临价格战压力，渠道伙伴和集成商需关注利润率变化。 Toast和Square在POS终端领域展开价格折扣竞争，双方通过调整定价策略争夺市场份额。 全球 Payments Dive ">
-            <span class="f-num">17</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>全球 · 警示信号</span>
-              </span>
-              <span class="f-title">Toast与Square在POS折扣上竞争</span>
-              <span class="f-overview">Toast和Square在POS终端领域展开价格折扣竞争，双方通过调整定价策略争夺市场份额。</span>
-              <span class="f-reason">点评：北美POS市场竞争加剧，餐饮零售SaaS服务商面临价格战压力，渠道伙伴和集成商需关注利润率变化。</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://blog.cloudflare.com/birthday-week-2026-wrap-up/" target="_blank" data-filterable data-region="全球" data-company="" data-text="Everything we launched during Birthday Week 2026 全球CDN和安全巨头密集发布新功能，为企业和开发者提供新的基础设施服务选项 Cloudflare在2026年Birthday Week期间发布了一系列新产品和功能更新，涵盖安全、性能、开发者工具等多个领域。 全球 Cloudflare Blog ">
-            <span class="f-num">18</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>全球 · 合作机会</span>
-              </span>
-              <span class="f-title">Cloudflare Birthday Week发布多项新产品</span>
-              <span class="f-overview">Cloudflare在2026年Birthday Week期间发布了一系列新产品和功能更新，涵盖安全、性能、开发者工具等多个领域。</span>
-              <span class="f-reason">点评：全球CDN和安全巨头密集发布新功能，为企业和开发者提供新的基础设施服务选项</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://blog.cloudflare.com/one-year-later-1111-interns/" target="_blank" data-filterable data-region="全球" data-company="" data-text="One year later: the power of 1.1.1.1 interns 全球云服务商通过实习生项目培养技术人才，为行业输送新鲜血液，同时强化品牌影响力 Cloudflare回顾其1.1.1.1实习生项目一年来的成果，展示该项目对人才培养和社区贡献的影响。 全球 Cloudflare Blog ">
-            <span class="f-num">19</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>全球 · 背景补充</span>
-              </span>
-              <span class="f-title">Cloudflare 1.1.1.1实习生项目周年回顾</span>
-              <span class="f-overview">Cloudflare回顾其1.1.1.1实习生项目一年来的成果，展示该项目对人才培养和社区贡献的影响。</span>
-              <span class="f-reason">点评：全球云服务商通过实习生项目培养技术人才，为行业输送新鲜血液，同时强化品牌影响力</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://e27.co/stop-calling-southeast-asia-an-emerging-market-in-mobile-it-is-where-the-behaviour-gets-invented-20261004/" target="_blank" data-filterable data-region="东南亚" data-company="" data-text="Stop calling Southeast Asia an emerging market in mobile. It is where the behaviour gets invented 东南亚移动生态成熟度高，为出海企业提供本地化创新参考和合作切入点 e27发布分析文章，指出东南亚在移动端行为创新上已领先，不应再被视为新兴市场，强调该地区在移动应用、支付和社交电商等领域的原生创新地位。 东南亚 e27 东南亚科技产业分析 ">
-            <span class="f-num">20</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>东南亚 · 背景补充</span>
-              </span>
-              <span class="f-title">东南亚移动行为创新领先，非新兴市场</span>
-              <span class="f-overview">e27发布分析文章，指出东南亚在移动端行为创新上已领先，不应再被视为新兴市场，强调该地区在移动应用、支付和社交电商等领域的原生创新地位。</span>
-              <span class="f-reason">点评：东南亚移动生态成熟度高，为出海企业提供本地化创新参考和合作切入点</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://fintechnews.sg/138358/regtech/width-regtech-award-2026/" target="_blank" data-filterable data-region="亚太" data-company="" data-text="WIDTH Wins Pan Asian RegTech Solution Provider of the Year 亚太监管科技赛道竞争激烈，获奖企业有望获得更多合作机会 WIDTH获得泛亚洲监管科技解决方案提供商年度奖项。 亚太 Fintech News Singapore ">
-            <span class="f-num">21</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>亚太 · 背景补充</span>
-              </span>
-              <span class="f-title">WIDTH获泛亚洲RegTech年度奖</span>
-              <span class="f-overview">WIDTH获得泛亚洲监管科技解决方案提供商年度奖项。</span>
-              <span class="f-reason">点评：亚太监管科技赛道竞争激烈，获奖企业有望获得更多合作机会</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://fintechnews.sg/138487/payments/fomo-pay-sumsub/" target="_blank" data-filterable data-region="亚太" data-company="" data-text="FOMO Pay Taps Sumsub to Support Compliance Across Markets 亚太支付公司合规需求上升，跨境合规技术合作机会增加 新加坡支付公司FOMO Pay与Sumsub合作，以支持跨市场合规。 亚太 Fintech News Singapore ">
-            <span class="f-num">22</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>亚太 · 合作机会</span>
-              </span>
-              <span class="f-title">FOMO Pay与Sumsub合作加强合规</span>
-              <span class="f-overview">新加坡支付公司FOMO Pay与Sumsub合作，以支持跨市场合规。</span>
-              <span class="f-reason">点评：亚太支付公司合规需求上升，跨境合规技术合作机会增加</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://www.finextra.com/pressarticle/111119/constructor-launches-agentic-payment-platform?utm_medium=rssfinextra&amp;utm_source=finextrafeed" target="_blank" data-filterable data-region="全球" data-company="" data-text="Constructor launches agentic payment platform 全球支付行业AI代理应用兴起，新型支付平台有望改变交易流程 Constructor推出代理型支付平台。 全球 Finextra ">
-            <span class="f-num">23</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>全球 · 合作机会</span>
-              </span>
-              <span class="f-title">Constructor发布代理支付平台</span>
-              <span class="f-overview">Constructor推出代理型支付平台。</span>
-              <span class="f-reason">点评：全球支付行业AI代理应用兴起，新型支付平台有望改变交易流程</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://www.finextra.com/newsarticle/48532/basware-buys-payment-fraud-prevention-platform-trustpair?utm_medium=rssfinextra&amp;utm_source=finextrafeed" target="_blank" data-filterable data-region="全球" data-company="" data-text="Basware buys payment fraud prevention platform Trustpair 全球支付欺诈预防领域整合加速，企业支付安全技术成为并购热点 Basware收购支付欺诈预防平台Trustpair。 全球 Finextra ">
-            <span class="f-num">24</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>全球 · 资金流向</span>
-              </span>
-              <span class="f-title">Basware收购Trustpair</span>
-              <span class="f-overview">Basware收购支付欺诈预防平台Trustpair。</span>
-              <span class="f-reason">点评：全球支付欺诈预防领域整合加速，企业支付安全技术成为并购热点</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://www.pocketgamer.biz/nerial-enters-hibernation-mode-after-13-years-and-11-games/" target="_blank" data-filterable data-region="全球" data-company="" data-text="Nerial enters hibernation mode after 13 years and 11 games 全球游戏行业独立开发商收缩，中小团队生存压力增大，行业整合趋势明显 游戏开发商Nerial在运营13年并推出11款游戏后宣布进入休眠模式，暂停新游戏开发。 全球 PocketGamer.biz ">
-            <span class="f-num">25</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>全球 · 警示信号</span>
-              </span>
-              <span class="f-title">Nerial宣布进入休眠模式</span>
-              <span class="f-overview">游戏开发商Nerial在运营13年并推出11款游戏后宣布进入休眠模式，暂停新游戏开发。</span>
-              <span class="f-reason">点评：全球游戏行业独立开发商收缩，中小团队生存压力增大，行业整合趋势明显</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://www.pocketgamer.biz/unity-brings-official-plugin-to-grok-build-in-new-partnership/" target="_blank" data-filterable data-region="全球" data-company="" data-text="Unity brings official plugin to Grok Build in new partnership 全球游戏引擎与AI工具合作深化，为开发者提供新集成方案 Unity与Grok Build达成合作，为其提供官方插件支持。 全球 PocketGamer.biz ">
-            <span class="f-num">26</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>全球 · 合作机会</span>
-              </span>
-              <span class="f-title">Unity与Grok Build达成官方插件合作</span>
-              <span class="f-overview">Unity与Grok Build达成合作，为其提供官方插件支持。</span>
-              <span class="f-reason">点评：全球游戏引擎与AI工具合作深化，为开发者提供新集成方案</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://weetracker.com/2026/10/05/foren-emerges-from-leatherbacks-ghost-after-crisis-zedcrest-takeover/" target="_blank" data-filterable data-region="非洲" data-company="" data-text="Foren Emerges From Leatherback’s Ghost After Crisis &amp; Zedcrest Takeover 非洲金融科技行业整合加速，Zedcrest收购Leatherback后推出Foren，为尼日利亚及非洲支付市场带来新的竞争格局和合作机会。 非洲金融科技公司Foren在Leatherback经历危机并被Zedcrest收购后，以新实体身份重新出现。 非洲 WeeTracker ">
-            <span class="f-num">27</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>非洲 · 背景补充</span>
-              </span>
-              <span class="f-title">Foren在Leatherback危机及Zedcrest收购后重生</span>
-              <span class="f-overview">非洲金融科技公司Foren在Leatherback经历危机并被Zedcrest收购后，以新实体身份重新出现。</span>
-              <span class="f-reason">点评：非洲金融科技行业整合加速，Zedcrest收购Leatherback后推出Foren，为尼日利亚及非洲支付市场带来新的竞争格局和合作机会。</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://www.mobileworldlive.com/north-america/former-verizon-ceo-vestberg-joins-evercore-as-senior-advisor/" target="_blank" data-filterable data-region="全球" data-company="" data-text="Former Verizon CEO Vestberg joins Evercore as senior adviser 北美电信高管加入投行，电信行业并购咨询需求上升，可能带动通信领域交易活动。 前Verizon CEO Hans Vestberg加入Evercore担任高级顾问，为并购和战略事务提供咨询。 全球 Mobile World Live ">
-            <span class="f-num">28</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>全球 · 背景补充</span>
-              </span>
-              <span class="f-title">前Verizon CEO Vestberg加入Evercore</span>
-              <span class="f-overview">前Verizon CEO Hans Vestberg加入Evercore担任高级顾问，为并购和战略事务提供咨询。</span>
-              <span class="f-reason">点评：北美电信高管加入投行，电信行业并购咨询需求上升，可能带动通信领域交易活动。</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://www.modernretail.co/operations/pricing-tactics-come-under-scrutiny-in-the-age-of-ai/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss" target="_blank" data-filterable data-region="全球" data-company="" data-text="Pricing tactics come under scrutiny in the age of AI 全球零售业AI定价应用引发监管风险，为合规科技和定价优化软件供应商带来市场机会。 行业分析指出，在AI时代，零售商的定价策略正受到更严格的审视，AI驱动的动态定价引发监管和消费者关注。 全球 Modern Retail ">
-            <span class="f-num">29</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>全球 · 警示信号</span>
-              </span>
-              <span class="f-title">AI时代零售定价策略受审视</span>
-              <span class="f-overview">行业分析指出，在AI时代，零售商的定价策略正受到更严格的审视，AI驱动的动态定价引发监管和消费者关注。</span>
-              <span class="f-reason">点评：全球零售业AI定价应用引发监管风险，为合规科技和定价优化软件供应商带来市场机会。</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://changelog.shopify.com/posts/faster-checkout-carts-synced-across-devices-via-shop" target="_blank" data-filterable data-region="全球" data-company="Shopify" data-text="Shopify: Faster checkout, carts synced across devices via Shop Shopify发布产品更新，可验证其产品、平台或生态能力发生变化 Shopify升级结账流程，通过Shop应用实现跨设备购物车同步，提升购物体验。 全球 Shopify Changelog Shopify">
-            <span class="f-num">30</span>
-            <span class="f-body">
-              <span class="f-meta">
-                <span class="f-co">Shopify</span>
-                <span>全球 · 合作机会</span>
-              </span>
-              <span class="f-title">Shopify结账提速并支持跨设备购物车同步</span>
-              <span class="f-overview">Shopify升级结账流程，通过Shop应用实现跨设备购物车同步，提升购物体验。</span>
-              <span class="f-reason">点评：Shopify发布产品更新，可验证其产品、平台或生态能力发生变化</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-selected">精选</span>
-
-            </span>
-          </a>
-
-          <a class="f-card" href="https://www.eu-startups.com/2026/10/germanys-aleph-alpha-releases-kolibri-a-sovereign-ai-model-for-mission-critical-government-and-industry-applications/" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="Germany’s Aleph Alpha releases Kolibri, a sovereign AI model for mission-critical government and industry applications 欧洲主权AI需求上升，德国政府及工业客户对本地化大模型采购机会增加，Aleph Alpha有望成为欧洲公共部门AI供应商。 德国AI公司Aleph Alpha发布主权AI模型Kolibri，面向政府和关键行业应用，强调数据主权和本地化部署。 欧洲 EU-Startups ">
-            <span class="f-num">31</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>欧洲 · 合作机会</span>
-              </span>
-              <span class="f-title">Aleph Alpha发布主权AI模型Kolibri</span>
-              <span class="f-overview">德国AI公司Aleph Alpha发布主权AI模型Kolibri，面向政府和关键行业应用，强调数据主权和本地化部署。</span>
-              <span class="f-reason">点评：欧洲主权AI需求上升，德国政府及工业客户对本地化大模型采购机会增加，Aleph Alpha有望成为欧洲公共部门AI供应商。</span>
-            </span>
-            <span class="f-right">
-              <span class="f-tag f-tag-important">重点</span>
-
-            </span>
-          </a>
-
-          <a class="f-card f-card-review" href="https://www.finextra.com/newsarticle/48531/mynt-valued-at-7bn-for-upcoming-ipo?utm_medium=rssfinextra&amp;utm_source=finextrafeed" target="_blank" data-filterable data-region="全球" data-company="" data-text="Mynt valued at $7bn for upcoming IPO 东南亚金融科技估值持续走高，菲律宾支付市场受资本关注 菲律宾支付公司Mynt估值达70亿美元，为即将进行的IPO做准备。 全球 Finextra ">
-            <span class="f-num">32</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>全球 · 资金流向</span>
-              </span>
-              <span class="f-title">Mynt估值$7B备战IPO</span>
-              <span class="f-overview">菲律宾支付公司Mynt估值达70亿美元，为即将进行的IPO做准备。</span>
-              <span class="f-reason">点评：东南亚金融科技估值持续走高，菲律宾支付市场受资本关注</span>
-            </span>
-            <span class="f-right">
-
-              <span class="f-amount">$7B</span>
-            </span>
-          </a>
-
-          <a class="f-card f-card-review" href="https://www.techinasia.com/multimodal-ai-app-scales-1m-users-scanning-meal-photos" target="_blank" data-filterable data-region="亚太" data-company="" data-text="Multimodal AI app scales to 1m users by scanning meal photos 亚太AI健康应用市场增长，多模态AI在饮食管理领域验证了用户需求，健康科技公司可探索类似应用场景。 一款多模态AI应用通过扫描餐食照片实现用户规模达100万，展示AI在健康饮食领域的应用潜力。 亚太 Tech in Asia ">
-            <span class="f-num">33</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>亚太 · 合作机会</span>
-              </span>
-              <span class="f-title">多模态AI应用用户达100万</span>
-              <span class="f-overview">一款多模态AI应用通过扫描餐食照片实现用户规模达100万，展示AI在健康饮食领域的应用潜力。</span>
-              <span class="f-reason">点评：亚太AI健康应用市场增长，多模态AI在饮食管理领域验证了用户需求，健康科技公司可探索类似应用场景。</span>
-            </span>
-            <span class="f-right">
-
-
-            </span>
-          </a>
-
-          <a class="f-card f-card-review" href="https://thenextweb.com/news/pinterest-cfo-amazon-ads-europe" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="Pinterest hires Amazon’s advertising finance chief as CFO 美国社交广告平台高管变动，Pinterest加强广告业务财务领导力，可能影响其广告变现策略，欧洲广告科技公司可关注合作机会。 Pinterest聘请亚马逊广告业务财务主管担任CFO，强化其广告业务财务管理。 欧洲 The Next Web ">
-            <span class="f-num">34</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>欧洲 · 背景补充</span>
-              </span>
-              <span class="f-title">Pinterest任命亚马逊广告财务主管为CFO</span>
-              <span class="f-overview">Pinterest聘请亚马逊广告业务财务主管担任CFO，强化其广告业务财务管理。</span>
-              <span class="f-reason">点评：美国社交广告平台高管变动，Pinterest加强广告业务财务领导力，可能影响其广告变现策略，欧洲广告科技公司可关注合作机会。</span>
-            </span>
-            <span class="f-right">
-
-
-            </span>
-          </a>
-
-          <a class="f-card f-card-review" href="https://thenextweb.com/news/applovin-lawsuit-san-diego-county-children-ads-securities-class-action" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="San Diego sues AppLovin over explicit ads on kids’ devices, Bloomberg reports 美国广告科技监管风险上升，AppLovin面临法律和合规压力，可能影响其广告业务和股价，欧洲广告科技公司需关注合规风险。 美国加州圣地亚哥县起诉AppLovin，指控其广告平台在儿童设备上展示露骨广告，并涉及证券集体诉讼。 欧洲 The Next Web ">
-            <span class="f-num">35</span>
-            <span class="f-body">
-              <span class="f-meta">
-
-                <span>欧洲 · 警示信号</span>
-              </span>
-              <span class="f-title">圣地亚哥起诉AppLovin儿童广告问题</span>
-              <span class="f-overview">美国加州圣地亚哥县起诉AppLovin，指控其广告平台在儿童设备上展示露骨广告，并涉及证券集体诉讼。</span>
-              <span class="f-reason">点评：美国广告科技监管风险上升，AppLovin面临法律和合规压力，可能影响其广告业务和股价，欧洲广告科技公司需关注合规风险。</span>
-            </span>
-            <span class="f-right">
-
 
             </span>
           </a>
@@ -1145,31 +657,31 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
             <h3>今日摘要</h3>
 
             <div class="f-scoreboard">
-              <div class="f-score"><strong>31</strong><span>合格事件</span></div>
-              <div class="f-score"><strong>9</strong><span>覆盖地区</span></div>
-              <div class="f-score"><strong>8</strong><span>融资</span></div>
-              <div class="f-score"><strong>3</strong><span>并购/财报</span></div>
+              <div class="f-score"><strong>6</strong><span>合格事件</span></div>
+              <div class="f-score"><strong>2</strong><span>覆盖地区</span></div>
+              <div class="f-score"><strong>0</strong><span>融资</span></div>
+              <div class="f-score"><strong>1</strong><span>并购/财报</span></div>
             </div>
           </section>
           <section class="f-glass">
             <h3>报告入口</h3>
-            <a class="f-report" href="#tab-weekly" data-goto="weekly"><strong>本周报告</strong><span>40 条事件，4 家重点公司</span></a>
-            <a class="f-report" href="#tab-monthly" data-goto="monthly"><strong>本月报告</strong><span>160 条事件，16 家重点公司</span></a>
+            <a class="f-report" href="#tab-weekly" data-goto="weekly"><strong>本周报告</strong><span>99 条事件，10 家重点公司</span></a>
+            <a class="f-report" href="#tab-monthly" data-goto="monthly"><strong>本月报告</strong><span>219 条事件，17 家重点公司</span></a>
           </section>
           <section class="f-glass">
             <h3>历史导航</h3>
+
+            <button class="f-date hisdate" data-date="2026-10-07" type="button"><span>2026-10-07</span><span>31 条</span></button>
+
+            <button class="f-date hisdate" data-date="2026-10-06" type="button"><span>2026-10-06</span><span>13 条</span></button>
+
+            <button class="f-date hisdate" data-date="2026-10-05" type="button"><span>2026-10-05</span><span>36 条</span></button>
 
             <button class="f-date hisdate" data-date="2026-10-04" type="button"><span>2026-10-04</span><span>5 条</span></button>
 
             <button class="f-date hisdate" data-date="2026-10-03" type="button"><span>2026-10-03</span><span>3 条</span></button>
 
-            <button class="f-date hisdate" data-date="2026-10-02" type="button"><span>2026-10-02</span><span>45 条</span></button>
-
-            <button class="f-date hisdate" data-date="2026-10-01" type="button"><span>2026-10-01</span><span>56 条</span></button>
-
-            <button class="f-date hisdate" data-date="2026-09-30" type="button"><span>2026-09-30</span><span>32 条</span></button>
-
-            <button class="f-date" id="goAll" type="button"><span>全部历史</span><span>149 天</span></button>
+            <button class="f-date" id="goAll" type="button"><span>全部历史</span><span>152 天</span></button>
           </section>
         </aside>
       </div>
@@ -1191,59 +703,59 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
             <article class="pcover">
               <div class="p-tags">
                 <span class="p-ptag">周报</span>
-                <span class="p-ptag">2026-10-05</span>
+                <span class="p-ptag">2026-10-05 至 2026-10-08</span>
                 <span class="p-ptag p-ptag-green">更新中</span>
               </div>
-              <p class="p-editorial">AI推理算力与代理支付重构出海基建</p>
+              <p class="p-editorial">中资外卖拉美扩城，AI代理与支付基建同步下沉</p>
               <h2>2026年第41周（更新中）关注主题周报</h2>
-              <div class="p-mainline"><strong>本期主线</strong><p>Cloudflare密集发布边缘推理与安全产品，Etched以40B估值验证专用芯片路线，代理支付平台开始落地；同时拉美与中东收单整合、亚太合规合作加速。基础设施正从训练转向推理与交易闭环，出海BD应关注边缘节点、代理支付与合规科技的交集。</p></div>
+              <div class="p-mainline"><strong>本期主线</strong><p>本周两条线索交汇：Keeta在巴西32城铺开配送网络，NAVER与墨西哥政府探索AI生态合作，拉美本地化基建需求从支付延伸到商户数字化；同时Nous Research以15亿美元估值推企业AI代理，Plaid上线信贷欺诈模型，代理与风控能力正被嵌入交易链路。出海BD应关注拉美商户侧与合规科技的合作窗口。</p></div>
               <div class="pcover-stats">
                 <div class="pcover-stat"><strong>6</strong><span>本周主题</span></div>
-                <div class="pcover-stat"><strong>30</strong><span>重要事件</span></div>
-                <div class="pcover-stat"><strong>40</strong><span>合格事实</span></div>
+                <div class="pcover-stat"><strong>77</strong><span>重要事件</span></div>
+                <div class="pcover-stat"><strong>99</strong><span>合格事实</span></div>
               </div>
             </article>
 
             <nav class="ptoc" aria-label="本期看点">
               <strong>本期看点</strong>
 
-              <a href="#wt-2026-W41-ai_infra"><span class="toc-num">01</span>Cloudflare推边缘推理，Etched估值冲40B<em>10 条</em></a>
+              <a href="#wt-2026-W41-ai_infra"><span class="toc-num">01</span>Cloudflare密集上新，AI代理与安全融资同步升温<em>26 条</em></a>
 
-              <a href="#wt-2026-W41-expansion"><span class="toc-num">02</span>新加坡EV渗透过半，诺基亚警示数据中心供应链<em>8 条</em></a>
+              <a href="#wt-2026-W41-expansion"><span class="toc-num">02</span>Keeta巴西扩至32城，NAVER借墨西哥政府切入AI生态<em>21 条</em></a>
 
-              <a href="#wt-2026-W41-payments"><span class="toc-num">03</span>NEOPAY收购noon payments，拉美AI金融创业升温<em>6 条</em></a>
+              <a href="#wt-2026-W41-payments"><span class="toc-num">03</span>Revolut申菲律宾牌照，NEOPAY收购noon支付股权<em>11 条</em></a>
 
-              <a href="#wt-2026-W41-compliance"><span class="toc-num">04</span>FOMO Pay与Nubank引入AI合规合作<em>3 条</em></a>
+              <a href="#wt-2026-W41-developer"><span class="toc-num">04</span>Databricks发基准争湖仓，Namespace融资扩跨平台基建<em>8 条</em></a>
 
-              <a href="#wt-2026-W41-developer"><span class="toc-num">05</span>Namespace获€37M，谷歌在英面临Play佣金诉讼<em>3 条</em></a>
+              <a href="#wt-2026-W41-commerce"><span class="toc-num">05</span>Shopify加采购订单分析，SCI Ecommerce濒临倒闭<em>5 条</em></a>
 
-              <a href="#wt-2026-W41-operations"><span class="toc-num">06</span>富士康营收+47%，Toast与Square打POS折扣战<em>2 条</em></a>
+              <a href="#wt-2026-W41-compliance"><span class="toc-num">06</span>新加坡强化D-SIBs规则，谷歌芬兰数据中心被叫停<em>5 条</em></a>
 
             </nav>
             <section class="pblock">
               <div class="pblock-head"><h2>本周主题</h2><span>先读主线，再回到独立事实</span></div>
 
               <article class="pwin" id="wt-2026-W41-ai_infra">
-                <h3>Cloudflare推边缘推理，Etched估值冲40B</h3>
-                <p class="p-narrative">Cloudflare在生日周集中发布边缘推理与安全新品，Etched以40B估值融资验证专用推理芯片路线，Constructor推出代理支付平台，OneByZero获20M美元帮企业落地AI。基础设施竞争从训练集群转向边缘推理与代理交易，云厂商与芯片新贵开始争夺企业AI部署入口。</p>
+                <h3>Cloudflare密集上新，AI代理与安全融资同步升温</h3>
+                <p class="p-narrative">Cloudflare在生日周集中发布多项基础设施产品，把边缘网络能力向企业开发者开放；同期Nous Research以15亿美元估值推出企业AI代理，Netsec和Siena分别融资切入AI安全与消费品牌代理。基础设施层与应用层同时扩容，代理部署正从实验走向企业采购清单。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
                     <span class="p-lbl p-lbl-green">高</span>
                     <span class="p-lbl">全球</span>
-                    <span class="p-lbl p-lbl-copper">10 条证据</span>
+                    <span class="p-lbl p-lbl-copper">26 条证据</span>
                   </div>
-                  <p>对象：Cloudflare｜主要区域：全球</p>
+                  <p>对象：Cloudflare、Anthropic、Naver｜主要区域：全球</p>
                   <h4 class="p-evidence-title">证据事件</h4>
                   <ul class="pwin-evidence">
 
                     <li><a href="https://blog.cloudflare.com/birthday-week-2026-wrap-up/" target="_blank">Cloudflare Birthday Week发布多项新产品</a><span>2026-10-05 · Cloudflare Blog · 合作机会</span></li>
 
-                    <li><a href="https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/" target="_blank">Etched融资估值达$40B</a><span>2026-10-05 · TechCrunch · 资金流向</span></li>
+                    <li><a href="https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/" target="_blank">Nous Research估值达$1.5B，发布企业AI代理</a><span>2026-10-07 · TechCrunch · 资金流向</span></li>
 
-                    <li><a href="https://www.finextra.com/pressarticle/111119/constructor-launches-agentic-payment-platform?utm_medium=rssfinextra&amp;utm_source=finextrafeed" target="_blank">Constructor发布代理支付平台</a><span>2026-10-05 · Finextra · 合作机会</span></li>
+                    <li><a href="https://www.eu-startups.com/2026/10/france-and-italy-based-netsec-raises-over-e8-93-million-to-scale-its-ai-native-solution-for-cybersecurity-and-it/" target="_blank">Netsec获€8.93M融资，用于AI网络安全方案</a><span>2026-10-07 · EU-Startups · 资金流向</span></li>
 
-                    <li><a href="https://e27.co/onebyzero-raises-us20m-series-a-to-help-enterprises-move-ai-from-pilots-to-production-20261005/" target="_blank">OneByZero获$20M A轮融资，助力企业AI落地</a><span>2026-10-05 · e27 东南亚科技产业分析 · 资金流向</span></li>
+                    <li><a href="https://www.therecursive.com/romanian-founded-siena-raises-over-eur15m-series-a-to-build-an-agent-of-record-for-consumer-brands/" target="_blank">Siena获€15M A轮融资，构建消费品牌代理平台</a><span>2026-10-07 · The Recursive · 资金流向</span></li>
 
                   </ul>
                   <div class="pwin-action"><strong>后续观察</strong>继续跟踪对象动作和第二来源确认</div>
@@ -1251,26 +763,26 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </article>
 
               <article class="pwin" id="wt-2026-W41-expansion">
-                <h3>新加坡EV渗透过半，诺基亚警示数据中心供应链</h3>
-                <p class="p-narrative">BMI预测2026年新加坡EV销量占比超50%，充电与电池投资窗口打开；诺基亚CEO指出数据中心建设受供应链制约，扩张节奏可能放缓。Unity与Grok Build达成官方插件合作，而Nerial进入休眠模式，显示工具生态整合加速、独立团队生存压力上升。</p>
+                <h3>Keeta巴西扩至32城，NAVER借墨西哥政府切入AI生态</h3>
+                <p class="p-narrative">Keeta在巴西覆盖城市数升至32个、下载量破千万，美团系外卖在拉美进入规模复制阶段；NAVER同期探索与墨西哥政府共建AI生态，Atlassian则扩大与OpenAI合作推动企业知识行动化。中资平台与韩系科技同时押注拉美本地化，商户数字化和政企合作成为落地抓手。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
                     <span class="p-lbl p-lbl-green">高</span>
                     <span class="p-lbl">全球</span>
-                    <span class="p-lbl p-lbl-copper">8 条证据</span>
+                    <span class="p-lbl p-lbl-copper">21 条证据</span>
                   </div>
-                  <p>对象：MercadoLibre｜主要区域：全球</p>
+                  <p>对象：MercadoLibre、OpenAI、Meituan、Naver｜主要区域：全球</p>
                   <h4 class="p-evidence-title">证据事件</h4>
                   <ul class="pwin-evidence">
 
+                    <li><a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVWVValMtME9oYVY4NzB6TlRJbGs4LS1KY3FFU3lULVVqV2NackpDZm5ZV1c3SGhuVWNvYlBxU3FlN0ZhbjE1R1BHTTRHQV9GSl9GVmxweW1qU2ptZEI5UXd3MGR6aVNfRkM2Y3MweGJfSXY0eDc1cXp2dlYtZU5pYjdCb3VmTzg1Zy1ZemhxLUhFdkROMjV5NDcyMmItdUs5V3A5RWdtbmtGU0JzcXU4MzhrOUNKVTExc1hNNjlOcXp3YTFwX1ZlMHNoMzNZeHQ1LUN5NFA3R3RBRFB6NUEtdm02Zw?oc=5" target="_blank">Keeta巴西扩张至32城，下载量破千万</a><span>2026-10-07 · 巴士的報 · 中资出海</span></li>
+
+                    <li><a href="https://openai.com/index/atlassian-partnership" target="_blank">Atlassian与OpenAI扩大合作，推动企业知识行动化</a><span>2026-10-06 · OpenAI News · 合作机会</span></li>
+
                     <li><a href="https://e27.co/evs-to-make-up-over-half-of-singapore-vehicle-sales-in-2026-bmi-says-20261005/" target="_blank">BMI预测2026年新加坡EV销量占比超50%</a><span>2026-10-05 · e27 东南亚科技产业分析 · 背景补充</span></li>
 
-                    <li><a href="https://thenextweb.com/news/nokia-hotard-data-centres-europe" target="_blank">诺基亚CEO称数据中心建设受供应链制约</a><span>2026-10-05 · The Next Web · 背景补充</span></li>
-
-                    <li><a href="https://www.pocketgamer.biz/nerial-enters-hibernation-mode-after-13-years-and-11-games/" target="_blank">Nerial宣布进入休眠模式</a><span>2026-10-05 · PocketGamer.biz · 警示信号</span></li>
-
-                    <li><a href="https://www.pocketgamer.biz/unity-brings-official-plugin-to-grok-build-in-new-partnership/" target="_blank">Unity与Grok Build达成官方插件合作</a><span>2026-10-05 · PocketGamer.biz · 合作机会</span></li>
+                    <li><a href="https://www.navercorp.com/en/media/pressReleasesDetail?seq=10034722" target="_blank">NAVER探索与墨西哥政府合作共建AI生态</a><span>2026-10-08 · Naver · 合作机会</span></li>
 
                   </ul>
                   <div class="pwin-action"><strong>后续观察</strong>继续跟踪对象动作和第二来源确认</div>
@@ -1278,51 +790,26 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </article>
 
               <article class="pwin" id="wt-2026-W41-payments">
-                <h3>NEOPAY收购noon payments，拉美AI金融创业升温</h3>
-                <p class="p-narrative">NEOPAY收购noon payments 65%股权，中东收单市场加速整合；Nubank前员工创立Decade，用AI助手切入资金管理。Shopify结账提速并支持跨设备购物车同步，Basware收购Trustpair强化支付欺诈检测。收单整合与AI原生金融工具同步推进，跨境支付竞争转向体验与风控。</p>
+                <h3>Revolut申菲律宾牌照，NEOPAY收购noon支付股权</h3>
+                <p class="p-narrative">Revolut申请菲律宾银行牌照，欧洲数字银行开始直接进入东南亚本地账户体系；NEOPAY收购noon payments 65%股权，中东支付资产整合提速。Plaid发布信贷欺诈支付风险AI模型，Nubank前员工创立Decade做资金管理助手，支付链路的合规与风控正被AI重构。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
                     <span class="p-lbl p-lbl-green">高</span>
                     <span class="p-lbl">全球</span>
-                    <span class="p-lbl p-lbl-copper">6 条证据</span>
+                    <span class="p-lbl p-lbl-copper">11 条证据</span>
                   </div>
-                  <p>对象：Nubank、Noon、Shopify｜主要区域：全球</p>
+                  <p>对象：Nubank、Noon、Shopify、Naver｜主要区域：全球</p>
                   <h4 class="p-evidence-title">证据事件</h4>
                   <ul class="pwin-evidence">
+
+                    <li><a href="https://www.finextra.com/newsarticle/48540/revolut-eyes-philippines-bank-licence?utm_medium=rssfinextra&amp;utm_source=finextrafeed" target="_blank">Revolut申请菲律宾银行牌照</a><span>2026-10-06 · Finextra · 合作机会</span></li>
 
                     <li><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQWkQ1U0pQMjlfcThhRklZQkZkVzdNZU0yQmNGTnpteklaR3NoQ0hlb2tVandXNVJhMWpTRFVHVDVnYVBsLWMxQ0hHbDl2SG81Q0gxcExJdktmdFRxMDRoaFF3dzhmTnNkaEpYM0NKYWdjWnZuT0kzbE9zaVZGZHdHTTJhWnJoT20yWjZZM29sc0Z1TUVob3NnazV1MG1wcmhydmMySnZPQjEwWENm?oc=5" target="_blank">Nubank前员工创立Decade，为资金管理提供AI助手</a><span>2026-10-05 · pymnts.com · 合作机会</span></li>
 
                     <li><a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxNanBPNkJ5RmxDUHVyZDhZaTZxOWhFeTNXMm9RZFBPN2g5bzN5QmZsd2RjTjNFaWdleUZNUENZRGVQQzcyZEZZODkyck1BLS1jNkVXUmtuNElhSmFEUDF1cjQ1eWlrZUhJRE0zZldiRlo4YjNsOUdPVGVGUE9ZQU1mSUFtcTcyWlN5ZTlnMUhvQ25qYWt5NGhOckxEY2lORkFJNWd2MUE3Y3pHaExrOC1LSmNpakllZkJ3WElIMkt4c05UQmcxY2laYVh6WTlocDYycTYwag?oc=5" target="_blank">NEOPAY收购noon payments 65%股权</a><span>2026-10-05 · Zawya · 资金流向</span></li>
 
-                    <li><a href="https://changelog.shopify.com/posts/faster-checkout-carts-synced-across-devices-via-shop" target="_blank">Shopify结账提速并支持跨设备购物车同步</a><span>2026-10-05 · Shopify Changelog · 合作机会</span></li>
-
-                    <li><a href="https://www.finextra.com/newsarticle/48532/basware-buys-payment-fraud-prevention-platform-trustpair?utm_medium=rssfinextra&amp;utm_source=finextrafeed" target="_blank">Basware收购Trustpair</a><span>2026-10-05 · Finextra · 资金流向</span></li>
-
-                  </ul>
-                  <div class="pwin-action"><strong>后续观察</strong>继续跟踪对象动作和第二来源确认</div>
-                </details>
-              </article>
-
-              <article class="pwin" id="wt-2026-W41-compliance">
-                <h3>FOMO Pay与Nubank引入AI合规合作</h3>
-                <p class="p-narrative">FOMO Pay与Sumsub合作加强亚太合规能力，Nubank与Cardamon用AI扩展全球合规业务，跨境支付公司正把合规从成本中心转为可输出能力。同时AI时代零售定价策略受审视，监管对算法定价的关注上升，合规科技合作窗口打开。</p>
-                <details class="pwin-details">
-                  <summary>判断依据</summary>
-                  <div class="pwin-meta">
-                    <span class="p-lbl p-lbl-green">中</span>
-                    <span class="p-lbl">全球</span>
-                    <span class="p-lbl p-lbl-copper">3 条证据</span>
-                  </div>
-                  <p>对象：Nubank｜主要区域：全球</p>
-                  <h4 class="p-evidence-title">证据事件</h4>
-                  <ul class="pwin-evidence">
-
-                    <li><a href="https://fintechnews.sg/138487/payments/fomo-pay-sumsub/" target="_blank">FOMO Pay与Sumsub合作加强合规</a><span>2026-10-05 · Fintech News Singapore · 合作机会</span></li>
-
-                    <li><a href="https://www.modernretail.co/operations/pricing-tactics-come-under-scrutiny-in-the-age-of-ai/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss" target="_blank">AI时代零售定价策略受审视</a><span>2026-10-05 · Modern Retail · 警示信号</span></li>
-
-                    <li><a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tcWdNdzA0RFltam95NDI5c21kSzhZVkdpdk5DMmhOeWNPX1lsb25SN09KZEJiSVZUdUJNVnpJM24wWFB3MWtQYjFOakZGcHQwSTVzdw?oc=5" target="_blank">Nubank与Cardamon合作，用AI扩展全球合规业务</a><span>2026-10-05 · ffnews.com · 合作机会</span></li>
+                    <li><a href="https://www.finextra.com/newsarticle/48545/plaid-launches-credit-fraud-and-payment-risk-ai-models?utm_medium=rssfinextra&amp;utm_source=finextrafeed" target="_blank">Plaid发布信贷欺诈支付风险AI模型</a><span>2026-10-06 · Finextra · 合作机会</span></li>
 
                   </ul>
                   <div class="pwin-action"><strong>后续观察</strong>继续跟踪对象动作和第二来源确认</div>
@@ -1330,47 +817,80 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </article>
 
               <article class="pwin" id="wt-2026-W41-developer">
-                <h3>Namespace获€37M，谷歌在英面临Play佣金诉讼</h3>
-                <p class="p-narrative">Namespace获€37M扩展跨平台开发基础设施，欧洲开发者工具赛道融资回暖；谷歌在英国面临£1B Play Store佣金诉讼，平台抽成模式承压。Valon获$150M推进AI抵押贷款平台，金融基础设施与开发者工具同时吸引资本，跨平台与合规成本成为关键变量。</p>
+                <h3>Databricks发基准争湖仓，Namespace融资扩跨平台基建</h3>
+                <p class="p-narrative">Databricks发布2026基准报告，公开主张湖仓架构优于传统数据仓库，直接冲击企业数据平台选型逻辑；Namespace获3700万欧元扩展跨平台开发基础设施，Stuut融资5250万美元扩展AI平台。数据架构之争叠加开发工具融资，亚太企业采购决策将更多参考厂商性能基准。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
-                    <span class="p-lbl p-lbl-green">中</span>
-                    <span class="p-lbl">欧洲</span>
-                    <span class="p-lbl p-lbl-copper">3 条证据</span>
+                    <span class="p-lbl p-lbl-green">高</span>
+                    <span class="p-lbl">全球</span>
+                    <span class="p-lbl p-lbl-copper">8 条证据</span>
                   </div>
-                  <p>对象：多个市场对象｜主要区域：欧洲</p>
+                  <p>对象：Databricks｜主要区域：全球</p>
                   <h4 class="p-evidence-title">证据事件</h4>
                   <ul class="pwin-evidence">
 
+                    <li><a href="https://www.databricks.com/blog/lakehouse-better-data-warehouse-2026-benchmarks-and-proof" target="_blank">Databricks发布2026基准，称湖仓优于数据仓库</a><span>2026-10-06 · Databricks Blog · 背景补充</span></li>
+
+                    <li><a href="https://ventureburn.com/stuut-raises-52-5m-ai-order-to-cash-platform/" target="_blank">Stuut获$52.5M融资扩展AI平台</a><span>2026-10-07 · Ventureburn · 资金流向</span></li>
+
+                    <li><a href="https://e27.co/light-liquidations-and-flat-funding-is-bitcoin-about-to-explode-20261007/" target="_blank">e27分析称比特币低清算与融资平淡，或酝酿大行情</a><span>2026-10-07 · e27 东南亚科技产业分析 · 背景补充</span></li>
+
                     <li><a href="https://www.eu-startups.com/2026/10/namespace-secures-e37-million-to-scale-coding-build-and-test-infrastructure-across-mac-windows-and-linux/" target="_blank">Namespace获€37M融资，扩展跨平台开发基础设施</a><span>2026-10-05 · EU-Startups · 资金流向</span></li>
-
-                    <li><a href="https://www.pocketgamer.biz/google-faces-1bn-play-store-commission-trial-in-the-uk/" target="_blank">谷歌在英国面临£1B Play Store佣金诉讼</a><span>2026-10-05 · PocketGamer.biz · 警示信号</span></li>
-
-                    <li><a href="https://ventureburn.com/valon-raises-150m-ai-mortgage-servicing-platform/" target="_blank">Valon获$150M融资，推进AI抵押贷款平台</a><span>2026-10-05 · Ventureburn · 资金流向</span></li>
 
                   </ul>
                   <div class="pwin-action"><strong>后续观察</strong>继续跟踪对象动作和第二来源确认</div>
                 </details>
               </article>
 
-              <article class="pwin" id="wt-2026-W41-operations">
-                <h3>富士康营收+47%，Toast与Square打POS折扣战</h3>
-                <p class="p-narrative">富士康营收同比增长47%，AI服务器需求强劲，亚太电子制造供应链景气度持续；Toast与Square在POS折扣上正面竞争，商户收单利润空间被压缩。硬件代工与商户软件两端同时出现分化，AI服务器红利与POS价格战并存。</p>
+              <article class="pwin" id="wt-2026-W41-commerce">
+                <h3>Shopify加采购订单分析，SCI Ecommerce濒临倒闭</h3>
+                <p class="p-narrative">Shopify Analytics新增采购订单分析功能，把B2B采购数据纳入商户后台；同期SCI Ecommerce濒临倒闭，东南亚电商服务商洗牌加剧。中华电信启动无人机配送，Sea Ltd CPO行权15万股期权，物流与资本动作并行，商户侧工具升级与区域服务商出清同时发生。</p>
                 <details class="pwin-details">
                   <summary>判断依据</summary>
                   <div class="pwin-meta">
-                    <span class="p-lbl p-lbl-green">中</span>
+                    <span class="p-lbl p-lbl-green">高</span>
                     <span class="p-lbl">全球</span>
-                    <span class="p-lbl p-lbl-copper">2 条证据</span>
+                    <span class="p-lbl p-lbl-copper">5 条证据</span>
                   </div>
-                  <p>对象：多个市场对象｜主要区域：全球</p>
+                  <p>对象：MercadoLibre、Shopify、Sea Limited｜主要区域：全球</p>
                   <h4 class="p-evidence-title">证据事件</h4>
                   <ul class="pwin-evidence">
 
-                    <li><a href="https://www.techinasia.com/news/foxconn-revenue-jumps-47-strong-ai-server-demand" target="_blank">富士康营收+47%，AI服务器需求强劲</a><span>2026-10-05 · Tech in Asia · 资金流向</span></li>
+                    <li><a href="https://changelog.shopify.com/posts/analyze-purchase-orders-in-shopify-analytics" target="_blank">Shopify Analytics新增采购订单分析</a><span>2026-10-06 · Shopify Changelog · 合作机会</span></li>
 
-                    <li><a href="https://www.paymentsdive.com/news/toast-square-jockey-on-pos-discounts/832111/" target="_blank">Toast与Square在POS折扣上竞争</a><span>2026-10-05 · Payments Dive · 警示信号</span></li>
+                    <li><a href="https://www.techinasia.com/ipo-hopeful-sci-ecommerces-nears-collapse" target="_blank">SCI Ecommerce濒临倒闭</a><span>2026-10-08 · Tech in Asia · 警示信号</span></li>
+
+                    <li><a href="https://www.mobileworldlive.com/industry/chunghwa-opens-fresh-vein-for-drone-delivery/" target="_blank">中华电信启动无人机配送业务</a><span>2026-10-07 · Mobile World Live · 合作机会</span></li>
+
+                    <li><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxPLVNOVW1xQVlGNl9EYjJ0VjV5TFp2aExGakpUWlFjMFlqZF9YUzB2eTJiVWZTZkFER0NJdHkwbmJaQ2xla3BsU09fR1FrblNVdzZycEo1MjVlR1BVN05QRGdTeGgxQ3JTWTZWUFREWmxUZjlMa0xvQnp4R2VoaXdVcTRZZXdrbWlQd3MzdnN6QjFabGNSaGtqbEpfdHVKak5HZ3BlSHhXc1dzRDRnaFV3T3p3?oc=5" target="_blank">Sea Ltd CPO行权15万股期权</a><span>2026-10-07 · Kalkine Media · 背景补充</span></li>
+
+                  </ul>
+                  <div class="pwin-action"><strong>后续观察</strong>继续跟踪对象动作和第二来源确认</div>
+                </details>
+              </article>
+
+              <article class="pwin" id="wt-2026-W41-compliance">
+                <h3>新加坡强化D-SIBs规则，谷歌芬兰数据中心被叫停</h3>
+                <p class="p-narrative">新加坡立法强化系统重要性银行损失吸收规则，亚太银行资本管理合规需求上升；谷歌芬兰数据中心建设被叫停，AI算力扩张遭遇地方审批阻力。FOMO Pay与Sumsub合作加强合规，AI零售定价策略受审视，监管与合规科技正从金融向算力和定价场景外溢。</p>
+                <details class="pwin-details">
+                  <summary>判断依据</summary>
+                  <div class="pwin-meta">
+                    <span class="p-lbl p-lbl-green">高</span>
+                    <span class="p-lbl">全球</span>
+                    <span class="p-lbl p-lbl-copper">5 条证据</span>
+                  </div>
+                  <p>对象：Nubank｜主要区域：全球</p>
+                  <h4 class="p-evidence-title">证据事件</h4>
+                  <ul class="pwin-evidence">
+
+                    <li><a href="https://fintechnews.sg/138656/regtech/singapore-bank-loss-absorption/" target="_blank">新加坡立法强化D-SIBs损失吸收规则</a><span>2026-10-07 · Fintech News Singapore · 警示信号</span></li>
+
+                    <li><a href="https://www.mobileworldlive.com/google/google-told-to-halt-work-on-two-finland-data-centres/" target="_blank">谷歌芬兰数据中心建设被叫停</a><span>2026-10-07 · Mobile World Live · 警示信号</span></li>
+
+                    <li><a href="https://fintechnews.sg/138487/payments/fomo-pay-sumsub/" target="_blank">FOMO Pay与Sumsub合作加强合规</a><span>2026-10-05 · Fintech News Singapore · 合作机会</span></li>
+
+                    <li><a href="https://www.modernretail.co/operations/pricing-tactics-come-under-scrutiny-in-the-age-of-ai/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss" target="_blank">AI时代零售定价策略受审视</a><span>2026-10-05 · Modern Retail · 警示信号</span></li>
 
                   </ul>
                   <div class="pwin-action"><strong>后续观察</strong>继续跟踪对象动作和第二来源确认</div>
@@ -7778,7 +7298,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
 
             <button class="pbtn active" data-period-target="wp-2026-W41" type="button">
               <strong>2026年第41周（更新中）</strong>
-              <span>2026-10-05</span>
+              <span>2026-10-05 至 2026-10-08</span>
               <em>更新中</em>
             </button>
 
@@ -7935,33 +7455,33 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
             <article class="pcover">
               <div class="p-tags">
                 <span class="p-ptag">月报</span>
-                <span class="p-ptag">2026-10-01 至 2026-10-05</span>
+                <span class="p-ptag">2026-10-01 至 2026-10-08</span>
                 <span class="p-ptag p-ptag-green">观察中</span>
               </div>
 
               <h2>2026-10 月度观察趋势与结构月报</h2>
-              <div class="p-mainline"><strong>本月主线</strong><p>当前月尚在观察期，已收录 160 条合格事件。趋势结论待积累完整观察周后输出，先保留事实。</p></div>
+              <div class="p-mainline"><strong>本月主线</strong><p>当前月尚在观察期，已收录 219 条合格事件。趋势结论待积累完整观察周后输出，先保留事实。</p></div>
               <div class="pcover-stats">
                 <div class="pcover-stat"><strong>6</strong><span>结构趋势</span></div>
-                <div class="pcover-stat"><strong>160</strong><span>合格事实</span></div>
-                <div class="pcover-stat"><strong>16</strong><span>涉及对象</span></div>
+                <div class="pcover-stat"><strong>219</strong><span>合格事实</span></div>
+                <div class="pcover-stat"><strong>17</strong><span>涉及对象</span></div>
               </div>
             </article>
 
             <nav class="ptoc" aria-label="本月看点">
               <strong>本月看点</strong>
 
-              <a href="#mt-2026-10-ai_infra"><span class="toc-num">01</span>AI与云基础设施延续<em>延续 · 37 个独立事实</em></a>
+              <a href="#mt-2026-10-ai_infra"><span class="toc-num">01</span>AI与云基础设施延续<em>延续 · 53 个独立事实</em></a>
 
-              <a href="#mt-2026-10-expansion"><span class="toc-num">02</span>区域扩张与合作延续<em>延续 · 30 个独立事实</em></a>
+              <a href="#mt-2026-10-expansion"><span class="toc-num">02</span>区域扩张与合作升温<em>升温 · 43 个独立事实</em></a>
 
-              <a href="#mt-2026-10-payments"><span class="toc-num">03</span>支付与金融科技延续<em>延续 · 26 个独立事实</em></a>
+              <a href="#mt-2026-10-payments"><span class="toc-num">03</span>支付与金融科技延续<em>延续 · 31 个独立事实</em></a>
 
-              <a href="#mt-2026-10-developer"><span class="toc-num">04</span>开发者与平台生态延续<em>延续 · 10 个独立事实</em></a>
+              <a href="#mt-2026-10-developer"><span class="toc-num">04</span>开发者与平台生态延续<em>延续 · 15 个独立事实</em></a>
 
-              <a href="#mt-2026-10-commerce"><span class="toc-num">05</span>电商、商户与物流延续<em>延续 · 6 个独立事实</em></a>
+              <a href="#mt-2026-10-commerce"><span class="toc-num">05</span>电商、商户与物流延续<em>延续 · 10 个独立事实</em></a>
 
-              <a href="#mt-2026-10-compliance"><span class="toc-num">06</span>合规与安全降温<em>降温 · 6 个独立事实</em></a>
+              <a href="#mt-2026-10-compliance"><span class="toc-num">06</span>合规与安全降温<em>降温 · 8 个独立事实</em></a>
 
             </nav>
             <section class="pblock">
@@ -7974,10 +7494,10 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 </div>
                 <h3>AI与云基础设施延续</h3>
 
-                <p class="p-narrative">本月在 2 个周次持续出现，共 37 个独立事实；较基线 -8.0 个事实。</p>
+                <p class="p-narrative">本月在 2 个周次持续出现，共 53 个独立事实；较基线 -15.1 个事实。</p>
                 <details class="pwin-details">
                   <summary>变化详情</summary>
-                  <p>跨周：2 周 · 37 个独立事实（基线均值 45.0 个）</p>
+                  <p>跨周：2 周 · 53 个独立事实（基线均值 84.0 个）</p>
 
 
 
@@ -7998,28 +7518,28 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
 
               <article class="pwin" id="mt-2026-10-expansion">
                 <div class="pwin-meta">
-                  <span class="p-lbl p-lbl-green">延续</span>
+                  <span class="p-lbl p-lbl-green">升温</span>
                   <span class="p-lbl">亚太</span>
                 </div>
-                <h3>区域扩张与合作延续</h3>
+                <h3>区域扩张与合作升温</h3>
 
-                <p class="p-narrative">本月在 2 个周次持续出现，共 30 个独立事实；较基线 +4.7 个事实。</p>
+                <p class="p-narrative">本月在 2 个周次持续出现，共 43 个独立事实；较基线 +12.6 个事实。</p>
                 <details class="pwin-details">
                   <summary>变化详情</summary>
-                  <p>跨周：2 周 · 30 个独立事实（基线均值 25.3 个）</p>
+                  <p>跨周：2 周 · 43 个独立事实（基线均值 43.3 个）</p>
 
 
 
                   <h4 class="p-evidence-title">代表证据</h4>
                   <ul class="pwin-evidence">
 
+                    <li><a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVWVValMtME9oYVY4NzB6TlRJbGs4LS1KY3FFU3lULVVqV2NackpDZm5ZV1c3SGhuVWNvYlBxU3FlN0ZhbjE1R1BHTTRHQV9GSl9GVmxweW1qU2ptZEI5UXd3MGR6aVNfRkM2Y3MweGJfSXY0eDc1cXp2dlYtZU5pYjdCb3VmTzg1Zy1ZemhxLUhFdkROMjV5NDcyMmItdUs5V3A5RWdtbmtGU0JzcXU4MzhrOUNKVTExc1hNNjlOcXp3YTFwX1ZlMHNoMzNZeHQ1LUN5NFA3R3RBRFB6NUEtdm02Zw?oc=5" target="_blank">Keeta巴西扩张至32城，下载量破千万</a><span>2026-10-07 · 巴士的報 · 中资出海</span></li>
+
+                    <li><a href="https://openai.com/index/atlassian-partnership" target="_blank">Atlassian与OpenAI扩大合作，推动企业知识行动化</a><span>2026-10-06 · OpenAI News · 合作机会</span></li>
+
                     <li><a href="https://e27.co/evs-to-make-up-over-half-of-singapore-vehicle-sales-in-2026-bmi-says-20261005/" target="_blank">BMI预测2026年新加坡EV销量占比超50%</a><span>2026-10-05 · e27 东南亚科技产业分析 · 背景补充</span></li>
 
                     <li><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxQNTA5Y195cDRVQVBfNUpsOVZ4NWs4TXNidlBiT3p1OUNuS0lZR0NRMXRLVm1aeDRZYjgxeTYxMlBhel9oMzJQNDJyWWlDczc1ZUFveW1lbXhRaURIZkU1bnJHT1dBd2NGNnllZmFVT0lhMXpTSWNJMmhyRFFrYnpxcmIzNm84Q244c19rd2RfWXI1TTJNTVNRMTdISVVibnNtdHc?oc=5" target="_blank">NAVER旅行搜索扩至45个亚洲城市</a><span>2026-10-02 · en.sedaily.com · 合作机会</span></li>
-
-                    <li><a href="https://thenextweb.com/news/pope-ai-art-eu-labelling-gap" target="_blank">教皇反对AI艺术，呼吁艺术家联盟</a><span>2026-10-02 · The Next Web · 警示信号</span></li>
-
-                    <li><a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxQV1lmVnZ1V3I5eGZfZXp1cHFtZ2xjb2FEWjBlX0NaWkdfdUo3c2lQb0p6c0dYUklwSmlKZHNsZXM0RkZick5pRy1fb0I4dGNoMU9JREt2Qmp2cmc1ZTQtWngyZzg5a3BUMS02SUZ0R2o3cHE5VHEtT2JBVVJVNGw3VmtsclRqajRaOWh0bnlwOFpmS0FXTm5jQWhlTVVXWVNtTmlUSU1Sbm4xRk1HdmdIR2pialNiRlU1djZjc0FhUmszZ01QblRud0Q3Zw?oc=5" target="_blank">Konga与Mikano Motors合作拓展电商</a><span>2026-10-01 · Nigeria Communications Week · 合作机会</span></li>
 
                   </ul>
                 </details>
@@ -8032,23 +7552,23 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 </div>
                 <h3>支付与金融科技延续</h3>
 
-                <p class="p-narrative">本月在 2 个周次持续出现，共 26 个独立事实；较基线 +5.0 个事实。</p>
+                <p class="p-narrative">本月在 2 个周次持续出现，共 31 个独立事实；较基线 -2.4 个事实。</p>
                 <details class="pwin-details">
                   <summary>变化详情</summary>
-                  <p>跨周：2 周 · 26 个独立事实（基线均值 21.0 个）</p>
+                  <p>跨周：2 周 · 31 个独立事实（基线均值 42.7 个）</p>
 
 
 
                   <h4 class="p-evidence-title">代表证据</h4>
                   <ul class="pwin-evidence">
 
+                    <li><a href="https://www.finextra.com/newsarticle/48540/revolut-eyes-philippines-bank-licence?utm_medium=rssfinextra&amp;utm_source=finextrafeed" target="_blank">Revolut申请菲律宾银行牌照</a><span>2026-10-06 · Finextra · 合作机会</span></li>
+
                     <li><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQWkQ1U0pQMjlfcThhRklZQkZkVzdNZU0yQmNGTnpteklaR3NoQ0hlb2tVandXNVJhMWpTRFVHVDVnYVBsLWMxQ0hHbDl2SG81Q0gxcExJdktmdFRxMDRoaFF3dzhmTnNkaEpYM0NKYWdjWnZuT0kzbE9zaVZGZHdHTTJhWnJoT20yWjZZM29sc0Z1TUVob3NnazV1MG1wcmhydmMySnZPQjEwWENm?oc=5" target="_blank">Nubank前员工创立Decade，为资金管理提供AI助手</a><span>2026-10-05 · pymnts.com · 合作机会</span></li>
 
                     <li><a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxNanBPNkJ5RmxDUHVyZDhZaTZxOWhFeTNXMm9RZFBPN2g5bzN5QmZsd2RjTjNFaWdleUZNUENZRGVQQzcyZEZZODkyck1BLS1jNkVXUmtuNElhSmFEUDF1cjQ1eWlrZUhJRE0zZldiRlo4YjNsOUdPVGVGUE9ZQU1mSUFtcTcyWlN5ZTlnMUhvQ25qYWt5NGhOckxEY2lORkFJNWd2MUE3Y3pHaExrOC1LSmNpakllZkJ3WElIMkt4c05UQmcxY2laYVh6WTlocDYycTYwag?oc=5" target="_blank">NEOPAY收购noon payments 65%股权</a><span>2026-10-05 · Zawya · 资金流向</span></li>
 
                     <li><a href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR2tHVU5ZWnlRMUtfMmR6MUp1OFNCbDduU0kweGxsTGNjeDNHelcyb20xWk1jMk9KZnJkVzNoYWJhelNpdndtY1YxMlMzN1V5SU9XTXVDLXQxNkM4b1NrYkJVYlBuMEprSS12NGhNQmQ4SWU3dXgyLTltTmNZWHRlRG56Wm1aMURkSE5aMW0ySVh5a1dWV1czODI3bTRDcGhNZkM5UlFNRnNhaWh2RzFPUGg3TVVqNng2UjZOekh4QXRNcUpHMlNnZzd5Mk1CM2k5amh2R3JMMUpibWpaUnFneXlFZzJGZw?oc=5" target="_blank">乐天完成金融科技重组，乐天银行成母公司</a><span>2026-10-02 · marketscreener.com · 背景补充</span></li>
-
-                    <li><a href="https://news.google.com/rss/articles/CBMickFVX3lxTFBDbWo0TDFNTENoZlNLMUs5aDJma0s3eXZ3MVhSRWN4T2RtMXd3NFlfcUVkM0FoTzV6YklhR0FXaTlFT3JCVGxLdTVYUFZ2Ni1fY1RvX2hzUzV5cEV6ZThfbUdoWDhuRG9aOGJrb3F1aFNSUQ?oc=5" target="_blank">NH证券向养老金新客送Naver Pay券</a><span>2026-10-02 · 아시아경제 · 合作机会</span></li>
 
                   </ul>
                 </details>
@@ -8061,23 +7581,23 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 </div>
                 <h3>开发者与平台生态延续</h3>
 
-                <p class="p-narrative">本月在 2 个周次持续出现，共 10 个独立事实；较基线 -2.7 个事实。</p>
+                <p class="p-narrative">本月在 2 个周次持续出现，共 15 个独立事实；较基线 -0.2 个事实。</p>
                 <details class="pwin-details">
                   <summary>变化详情</summary>
-                  <p>跨周：2 周 · 10 个独立事实（基线均值 12.7 个）</p>
+                  <p>跨周：2 周 · 15 个独立事实（基线均值 19.7 个）</p>
 
 
 
                   <h4 class="p-evidence-title">代表证据</h4>
                   <ul class="pwin-evidence">
 
+                    <li><a href="https://www.databricks.com/blog/lakehouse-better-data-warehouse-2026-benchmarks-and-proof" target="_blank">Databricks发布2026基准，称湖仓优于数据仓库</a><span>2026-10-06 · Databricks Blog · 背景补充</span></li>
+
                     <li><a href="https://blog.cloudflare.com/introducing-web-search-api/" target="_blank">Cloudflare发布Web Search API</a><span>2026-10-02 · Cloudflare Blog · 合作机会</span></li>
 
-                    <li><a href="https://www.eu-startups.com/2026/10/namespace-secures-e37-million-to-scale-coding-build-and-test-infrastructure-across-mac-windows-and-linux/" target="_blank">Namespace获€37M融资，扩展跨平台开发基础设施</a><span>2026-10-05 · EU-Startups · 资金流向</span></li>
+                    <li><a href="https://ventureburn.com/stuut-raises-52-5m-ai-order-to-cash-platform/" target="_blank">Stuut获$52.5M融资扩展AI平台</a><span>2026-10-07 · Ventureburn · 资金流向</span></li>
 
-                    <li><a href="https://tech.eu/2026/10/02/ai-study-platform-studystash-acquired-by-kortext-after-rapid-global-expansion/" target="_blank">Kortext收购AI学习平台StudyStash</a><span>2026-10-02 · Tech.eu · 合作机会</span></li>
-
-                    <li><a href="https://www.pocketgamer.biz/leus-launches-cohort-purchasing-platform-for-mobile-games/" target="_blank">Leus推出移动游戏群体购买平台</a><span>2026-10-01 · PocketGamer.biz · 合作机会</span></li>
+                    <li><a href="https://e27.co/light-liquidations-and-flat-funding-is-bitcoin-about-to-explode-20261007/" target="_blank">e27分析称比特币低清算与融资平淡，或酝酿大行情</a><span>2026-10-07 · e27 东南亚科技产业分析 · 背景补充</span></li>
 
                   </ul>
                 </details>
@@ -8090,10 +7610,10 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 </div>
                 <h3>电商、商户与物流延续</h3>
 
-                <p class="p-narrative">本月在 2 个周次持续出现，共 6 个独立事实；较基线 +1.3 个事实。</p>
+                <p class="p-narrative">本月在 2 个周次持续出现，共 10 个独立事实；较基线 +2.0 个事实。</p>
                 <details class="pwin-details">
                   <summary>变化详情</summary>
-                  <p>跨周：2 周 · 6 个独立事实（基线均值 4.7 个）</p>
+                  <p>跨周：2 周 · 10 个独立事实（基线均值 11.0 个）</p>
 
 
 
@@ -8119,23 +7639,23 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 </div>
                 <h3>合规与安全降温</h3>
 
-                <p class="p-narrative">本月在 2 个周次持续出现，共 6 个独立事实；较基线 -4.0 个事实。</p>
+                <p class="p-narrative">本月在 2 个周次持续出现，共 8 个独立事实；较基线 -7.3 个事实。</p>
                 <details class="pwin-details">
                   <summary>变化详情</summary>
-                  <p>跨周：2 周 · 6 个独立事实（基线均值 10.0 个）</p>
+                  <p>跨周：2 周 · 8 个独立事实（基线均值 17.7 个）</p>
 
 
 
                   <h4 class="p-evidence-title">代表证据</h4>
                   <ul class="pwin-evidence">
 
+                    <li><a href="https://fintechnews.sg/138656/regtech/singapore-bank-loss-absorption/" target="_blank">新加坡立法强化D-SIBs损失吸收规则</a><span>2026-10-07 · Fintech News Singapore · 警示信号</span></li>
+
+                    <li><a href="https://www.mobileworldlive.com/google/google-told-to-halt-work-on-two-finland-data-centres/" target="_blank">谷歌芬兰数据中心建设被叫停</a><span>2026-10-07 · Mobile World Live · 警示信号</span></li>
+
                     <li><a href="https://fintechnews.sg/138487/payments/fomo-pay-sumsub/" target="_blank">FOMO Pay与Sumsub合作加强合规</a><span>2026-10-05 · Fintech News Singapore · 合作机会</span></li>
 
                     <li><a href="https://fintechnews.sg/138425/ai/thales-cybersecurity-ai-quantum-threats/" target="_blank">Thales发布AI与量子安全工具</a><span>2026-10-02 · Fintech News Singapore · 合作机会</span></li>
-
-                    <li><a href="https://www.modernretail.co/operations/pricing-tactics-come-under-scrutiny-in-the-age-of-ai/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss" target="_blank">AI时代零售定价策略受审视</a><span>2026-10-05 · Modern Retail · 警示信号</span></li>
-
-                    <li><a href="https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/" target="_blank">苹果收紧macOS磁盘访问控制应对AI风险</a><span>2026-10-02 · TechCrunch · 警示信号</span></li>
 
                   </ul>
                 </details>
@@ -8154,10 +7674,10 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </div>
               <h3>Nubank公司延续</h3>
 
-              <p class="p-narrative">本月在 2 个周次持续出现，共 3 个独立事实；较基线 +1.7 个事实。</p>
+              <p class="p-narrative">本月在 2 个周次持续出现，共 3 个独立事实；较基线 +1.9 个事实。</p>
               <details class="pwin-details">
                 <summary>变化详情</summary>
-                <p>跨周：2 周 · 3 个独立事实（基线均值 1.3 个）</p>
+                <p>跨周：2 周 · 3 个独立事实（基线均值 2.0 个）</p>
                 <h4 class="p-evidence-title">代表证据</h4>
                 <ul class="pwin-evidence">
 
@@ -8184,20 +7704,20 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </div>
               <h3>AI延续</h3>
 
-              <p class="p-narrative">本月在 2 个周次持续出现，共 61 个独立事实；较基线 -5.7 个事实。</p>
+              <p class="p-narrative">本月在 2 个周次持续出现，共 86 个独立事实；较基线 -7.2 个事实。</p>
               <details class="pwin-details">
                 <summary>变化详情</summary>
-                <p>跨周：2 周 · 61 个独立事实（基线均值 66.7 个）</p>
+                <p>跨周：2 周 · 86 个独立事实（基线均值 119.0 个）</p>
                 <h4 class="p-evidence-title">代表证据</h4>
                 <ul class="pwin-evidence">
 
+                  <li><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxObkR0N0d5bGJETGE4azNUY2kzS2ozdEFwSUFjZk9rYzVPcUlGN295NGRlVS1GdHRVVjgxUjZXeDFRalBUMUVHa1JNQTVMbkVGOGZKV2ZlUlR6a2J1aWxkU0JaR1F2a3BYWnJfUmRDcGk5LXAwcmVSQy1rSU5BX3NuX2VTV25vX1FW?oc=5" target="_blank">Naver推出登山主题分段天气预报服务</a><span>2026-10-08 · 조선일보 · 背景补充</span></li>
+
+                  <li><a href="https://openai.com/index/atlassian-partnership" target="_blank">Atlassian与OpenAI扩大合作，推动企业知识行动化</a><span>2026-10-06 · OpenAI News · 合作机会</span></li>
+
+                  <li><a href="https://www.databricks.com/blog/lakehouse-better-data-warehouse-2026-benchmarks-and-proof" target="_blank">Databricks发布2026基准，称湖仓优于数据仓库</a><span>2026-10-06 · Databricks Blog · 背景补充</span></li>
+
                   <li><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQWkQ1U0pQMjlfcThhRklZQkZkVzdNZU0yQmNGTnpteklaR3NoQ0hlb2tVandXNVJhMWpTRFVHVDVnYVBsLWMxQ0hHbDl2SG81Q0gxcExJdktmdFRxMDRoaFF3dzhmTnNkaEpYM0NKYWdjWnZuT0kzbE9zaVZGZHdHTTJhWnJoT20yWjZZM29sc0Z1TUVob3NnazV1MG1wcmhydmMySnZPQjEwWENm?oc=5" target="_blank">Nubank前员工创立Decade，为资金管理提供AI助手</a><span>2026-10-05 · pymnts.com · 合作机会</span></li>
-
-                  <li><a href="https://e27.co/evs-to-make-up-over-half-of-singapore-vehicle-sales-in-2026-bmi-says-20261005/" target="_blank">BMI预测2026年新加坡EV销量占比超50%</a><span>2026-10-05 · e27 东南亚科技产业分析 · 背景补充</span></li>
-
-                  <li><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxQNTA5Y195cDRVQVBfNUpsOVZ4NWs4TXNidlBiT3p1OUNuS0lZR0NRMXRLVm1aeDRZYjgxeTYxMlBhel9oMzJQNDJyWWlDczc1ZUFveW1lbXhRaURIZkU1bnJHT1dBd2NGNnllZmFVT0lhMXpTSWNJMmhyRFFrYnpxcmIzNm84Q244c19rd2RfWXI1TTJNTVNRMTdISVVibnNtdHc?oc=5" target="_blank">NAVER旅行搜索扩至45个亚洲城市</a><span>2026-10-02 · en.sedaily.com · 合作机会</span></li>
-
-                  <li><a href="https://thenextweb.com/news/pope-ai-art-eu-labelling-gap" target="_blank">教皇反对AI艺术，呼吁艺术家联盟</a><span>2026-10-02 · The Next Web · 警示信号</span></li>
 
                 </ul>
               </details>
@@ -8210,20 +7730,20 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </div>
               <h3>支付延续</h3>
 
-              <p class="p-narrative">本月在 2 个周次持续出现，共 28 个独立事实；较基线 -3.0 个事实。</p>
+              <p class="p-narrative">本月在 2 个周次持续出现，共 37 个独立事实；较基线 -12.9 个事实。</p>
               <details class="pwin-details">
                 <summary>变化详情</summary>
-                <p>跨周：2 周 · 28 个独立事实（基线均值 31.0 个）</p>
+                <p>跨周：2 周 · 37 个独立事实（基线均值 61.0 个）</p>
                 <h4 class="p-evidence-title">代表证据</h4>
                 <ul class="pwin-evidence">
+
+                  <li><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTFA0LURGSTluUERqc3liLXUwYkNubWI0RGxRaVoyN0lTWEx1UUtJamJ3YUJrY01nU0FFRmt6RDlVWmM4ankwdVhBdVZtS1RSYW5zZDNhcEdBZWgtZlJqSG1VNHFHVFhVbG9FQWxWLW9RVGJtdzc1bmc?oc=5" target="_blank">Kakao Games新游6小时登顶App Store</a><span>2026-10-07 · BigGo Finance · 背景补充</span></li>
+
+                  <li><a href="https://www.finextra.com/newsarticle/48540/revolut-eyes-philippines-bank-licence?utm_medium=rssfinextra&amp;utm_source=finextrafeed" target="_blank">Revolut申请菲律宾银行牌照</a><span>2026-10-06 · Finextra · 合作机会</span></li>
 
                   <li><a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxNanBPNkJ5RmxDUHVyZDhZaTZxOWhFeTNXMm9RZFBPN2g5bzN5QmZsd2RjTjNFaWdleUZNUENZRGVQQzcyZEZZODkyck1BLS1jNkVXUmtuNElhSmFEUDF1cjQ1eWlrZUhJRE0zZldiRlo4YjNsOUdPVGVGUE9ZQU1mSUFtcTcyWlN5ZTlnMUhvQ25qYWt5NGhOckxEY2lORkFJNWd2MUE3Y3pHaExrOC1LSmNpakllZkJ3WElIMkt4c05UQmcxY2laYVh6WTlocDYycTYwag?oc=5" target="_blank">NEOPAY收购noon payments 65%股权</a><span>2026-10-05 · Zawya · 资金流向</span></li>
 
                   <li><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NU1FuekxsV3llSGNPaUktZkp6RVZDWDVjNWlVU1RIMHBILVprZDM2ck9rdnZ2M2lJUTdXR3JUNmdDc0h3dnJvTy1qR0h0dkFad1J1Zi10WWZOMV83NDIxWEVnREVNdlk?oc=5" target="_blank">Kakao推出4900韩元月费会员，整合购物支付内容</a><span>2026-10-02 · thelec.net · 合作机会</span></li>
-
-                  <li><a href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR2tHVU5ZWnlRMUtfMmR6MUp1OFNCbDduU0kweGxsTGNjeDNHelcyb20xWk1jMk9KZnJkVzNoYWJhelNpdndtY1YxMlMzN1V5SU9XTXVDLXQxNkM4b1NrYkJVYlBuMEprSS12NGhNQmQ4SWU3dXgyLTltTmNZWHRlRG56Wm1aMURkSE5aMW0ySVh5a1dWV1czODI3bTRDcGhNZkM5UlFNRnNhaWh2RzFPUGg3TVVqNng2UjZOekh4QXRNcUpHMlNnZzd5Mk1CM2k5amh2R3JMMUpibWpaUnFneXlFZzJGZw?oc=5" target="_blank">乐天完成金融科技重组，乐天银行成母公司</a><span>2026-10-02 · marketscreener.com · 背景补充</span></li>
-
-                  <li><a href="https://fintechnews.sg/138358/regtech/width-regtech-award-2026/" target="_blank">WIDTH获泛亚洲RegTech年度奖</a><span>2026-10-05 · Fintech News Singapore · 背景补充</span></li>
 
                 </ul>
               </details>
@@ -8236,20 +7756,20 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </div>
               <h3>综合科技延续</h3>
 
-              <p class="p-narrative">本月在 2 个周次持续出现，共 14 个独立事实；较基线 +1.3 个事实。</p>
+              <p class="p-narrative">本月在 2 个周次持续出现，共 20 个独立事实；较基线 +4.7 个事实。</p>
               <details class="pwin-details">
                 <summary>变化详情</summary>
-                <p>跨周：2 周 · 14 个独立事实（基线均值 12.7 个）</p>
+                <p>跨周：2 周 · 20 个独立事实（基线均值 21.3 个）</p>
                 <h4 class="p-evidence-title">代表证据</h4>
                 <ul class="pwin-evidence">
 
-                  <li><a href="https://www.pocketgamer.biz/nerial-enters-hibernation-mode-after-13-years-and-11-games/" target="_blank">Nerial宣布进入休眠模式</a><span>2026-10-05 · PocketGamer.biz · 警示信号</span></li>
+                  <li><a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVWVValMtME9oYVY4NzB6TlRJbGs4LS1KY3FFU3lULVVqV2NackpDZm5ZV1c3SGhuVWNvYlBxU3FlN0ZhbjE1R1BHTTRHQV9GSl9GVmxweW1qU2ptZEI5UXd3MGR6aVNfRkM2Y3MweGJfSXY0eDc1cXp2dlYtZU5pYjdCb3VmTzg1Zy1ZemhxLUhFdkROMjV5NDcyMmItdUs5V3A5RWdtbmtGU0JzcXU4MzhrOUNKVTExc1hNNjlOcXp3YTFwX1ZlMHNoMzNZeHQ1LUN5NFA3R3RBRFB6NUEtdm02Zw?oc=5" target="_blank">Keeta巴西扩张至32城，下载量破千万</a><span>2026-10-07 · 巴士的報 · 中资出海</span></li>
 
-                  <li><a href="https://www.mobileworldlive.com/north-america/former-verizon-ceo-vestberg-joins-evercore-as-senior-advisor/" target="_blank">前Verizon CEO Vestberg加入Evercore</a><span>2026-10-05 · Mobile World Live · 背景补充</span></li>
+                  <li><a href="https://www.pocketgamer.biz/google-launches-playground-for-prompt-based-game-creation/" target="_blank">谷歌推出提示词游戏创建工具Playground</a><span>2026-10-07 · PocketGamer.biz · 合作机会</span></li>
 
-                  <li><a href="https://www.socialmediatoday.com/news/x-launches-updated-video-composer/832088/" target="_blank">X更新视频编辑器功能</a><span>2026-10-04 · Social Media Today · 背景补充</span></li>
+                  <li><a href="https://www.pocketgamer.biz/octobers-collabs-corner/" target="_blank">多款游戏公布10月跨界合作</a><span>2026-10-07 · PocketGamer.biz · 合作机会</span></li>
 
-                  <li><a href="https://www.pocketgamer.biz/specialeffects-one-special-day-mobile-promotion-goes-live/" target="_blank">SpecialEffect慈善促销活动上线</a><span>2026-10-02 · PocketGamer.biz · 合作机会</span></li>
+                  <li><a href="https://www.socialmediatoday.com/news/pinterest-expands-creator-content-promotions/832447/" target="_blank">Pinterest扩大创作者内容推广</a><span>2026-10-07 · Social Media Today · 合作机会</span></li>
 
                 </ul>
               </details>
@@ -8262,10 +7782,10 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </div>
               <h3>电商升温</h3>
 
-              <p class="p-narrative">本月在 2 个周次持续出现，共 9 个独立事实；较基线 +6.7 个事实。</p>
+              <p class="p-narrative">本月在 2 个周次持续出现，共 10 个独立事实；较基线 +8.3 个事实。</p>
               <details class="pwin-details">
                 <summary>变化详情</summary>
-                <p>跨周：2 周 · 9 个独立事实（基线均值 2.3 个）</p>
+                <p>跨周：2 周 · 10 个独立事实（基线均值 4.7 个）</p>
                 <h4 class="p-evidence-title">代表证据</h4>
                 <ul class="pwin-evidence">
 
@@ -8283,15 +7803,15 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
 
             <article class="pwin">
               <div class="pwin-meta">
-                <span class="p-lbl p-lbl-green">降温</span>
+                <span class="p-lbl p-lbl-green">延续</span>
                 <span class="p-lbl">全球</span>
               </div>
-              <h3>云与SaaS降温</h3>
+              <h3>云与SaaS延续</h3>
 
-              <p class="p-narrative">本月在 2 个周次持续出现，共 7 个独立事实；较基线 -2.7 个事实。</p>
+              <p class="p-narrative">本月在 2 个周次持续出现，共 10 个独立事实；较基线 -3.0 个事实。</p>
               <details class="pwin-details">
                 <summary>变化详情</summary>
-                <p>跨周：2 周 · 7 个独立事实（基线均值 9.7 个）</p>
+                <p>跨周：2 周 · 10 个独立事实（基线均值 16.0 个）</p>
                 <h4 class="p-evidence-title">代表证据</h4>
                 <ul class="pwin-evidence">
 
@@ -8299,9 +7819,9 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
 
                   <li><a href="https://blog.cloudflare.com/introducing-web-search-api/" target="_blank">Cloudflare发布Web Search API</a><span>2026-10-02 · Cloudflare Blog · 合作机会</span></li>
 
-                  <li><a href="https://www.eu-startups.com/2026/10/namespace-secures-e37-million-to-scale-coding-build-and-test-infrastructure-across-mac-windows-and-linux/" target="_blank">Namespace获€37M融资，扩展跨平台开发基础设施</a><span>2026-10-05 · EU-Startups · 资金流向</span></li>
+                  <li><a href="https://www.mobileworldlive.com/google/google-told-to-halt-work-on-two-finland-data-centres/" target="_blank">谷歌芬兰数据中心建设被叫停</a><span>2026-10-07 · Mobile World Live · 警示信号</span></li>
 
-                  <li><a href="https://www.pocketgamer.biz/new-release-roundup-open-drive-pusheens-place-dragon-village-3-and-more/" target="_blank">多款新游戏集中发布</a><span>2026-10-02 · PocketGamer.biz · 背景补充</span></li>
+                  <li><a href="https://www.mobileworldlive.com/network-tech/att-forges-fibre-jv-to-expand-reach-across-us/" target="_blank">AT&amp;T成立光纤合资企业扩张美国网络</a><span>2026-10-06 · Mobile World Live · 合作机会</span></li>
 
                 </ul>
               </details>
@@ -11286,7 +10806,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
 
             <button class="pbtn active" data-period-target="mp-2026-10" type="button">
               <strong>2026-10 月度观察</strong>
-              <span>2026-10-01 至 2026-10-05</span>
+              <span>2026-10-01 至 2026-10-08</span>
               <em>观察中</em>
             </button>
 
@@ -11344,20 +10864,20 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
           </div>
           <div class="c-grid">
 
-            <button class="c-card c-coverage-PARTIAL_DATA" data-company="Cloudflare" data-count="128">
+            <button class="c-card c-coverage-PARTIAL_DATA" data-company="Cloudflare" data-count="130">
               <strong>Cloudflare<span class="c-tier">必须覆盖</span></strong>
               <span class="c-direction">云/AI 基础设施</span>
 
               <span class="c-feat">
-                <span class="c-feat-title">Cloudflare Birthday Week发布多项新产品</span>
-                <span class="c-feat-overview">Cloudflare在2026年Birthday Week期间发布了一系列新产品和功能更新，涵盖安全、性能、开发者工具等多个领域。</span>
-                <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-10-05</span></span>
+                <span class="c-feat-title">Cloudflare Organizations功能正式GA</span>
+                <span class="c-feat-overview">Cloudflare宣布其Organizations功能正式全面可用（GA），该功能面向组织级用户管理。</span>
+                <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-10-07</span></span>
               </span>
 
-              <small>近 30 天 44 条</small>
+              <small>近 30 天 45 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
-            <button class="c-card c-coverage-NORMAL" data-company="Meta" data-count="74">
+            <button class="c-card c-coverage-NORMAL" data-company="Meta" data-count="75">
               <strong>Meta<span class="c-tier">实验对象</span></strong>
               <span class="c-direction">社交/AI</span>
 
@@ -11367,20 +10887,20 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-10-04</span></span>
               </span>
 
-              <small>近 30 天 33 条</small>
+              <small>近 30 天 31 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
-            <button class="c-card c-coverage-NORMAL" data-company="Alphabet" data-count="40">
+            <button class="c-card c-coverage-NORMAL" data-company="Alphabet" data-count="42">
               <strong>Alphabet<span class="c-tier">实验对象</span></strong>
               <span class="c-direction">云/AI/搜索</span>
 
               <span class="c-feat">
-                <span class="c-feat-title">谷歌在英国面临£1B Play Store佣金诉讼</span>
-                <span class="c-feat-overview">谷歌在英国面临10亿英镑的Play Store佣金诉讼，涉及应用商店抽成政策。</span>
-                <span class="c-feat-meta"><span class="c-signal">警示信号</span><span class="c-feat-time">2026-10-05</span></span>
+                <span class="c-feat-title">谷歌推出提示词游戏创建工具Playground</span>
+                <span class="c-feat-overview">谷歌推出Playground工具，允许用户通过提示词创建游戏，简化游戏开发流程。</span>
+                <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-10-07</span></span>
               </span>
 
-              <small>近 30 天 14 条</small>
+              <small>近 30 天 15 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
             <button class="c-card c-coverage-NORMAL" data-company="NVIDIA" data-count="39">
@@ -11396,7 +10916,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               <small>近 30 天 10 条</small>
             </button>
 
-            <button class="c-card c-coverage-NORMAL" data-company="Apple" data-count="34">
+            <button class="c-card c-coverage-NORMAL" data-company="Apple" data-count="35">
               <strong>Apple<span class="c-tier">实验对象</span></strong>
               <span class="c-direction">消费电子/端侧 AI</span>
 
@@ -11406,20 +10926,20 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">警示信号</span><span class="c-feat-time">2026-10-03</span></span>
               </span>
 
-              <small>近 30 天 18 条</small>
+              <small>近 30 天 19 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
-            <button class="c-card c-coverage-PARTIAL_DATA" data-company="Shopify" data-count="32">
+            <button class="c-card c-coverage-PARTIAL_DATA" data-company="Shopify" data-count="33">
               <strong>Shopify<span class="c-tier">必须覆盖</span></strong>
               <span class="c-direction">电商 SaaS</span>
 
               <span class="c-feat">
-                <span class="c-feat-title">Shopify结账提速并支持跨设备购物车同步</span>
-                <span class="c-feat-overview">Shopify升级结账流程，通过Shop应用实现跨设备购物车同步，提升购物体验。</span>
-                <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-10-05</span></span>
+                <span class="c-feat-title">Shopify Analytics新增采购订单分析</span>
+                <span class="c-feat-overview">Shopify在Analytics中新增采购订单分析功能，商家可分析采购订单数据。</span>
+                <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-10-06</span></span>
               </span>
 
-              <small>近 30 天 12 条</small>
+              <small>近 30 天 11 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">3 篇报道</span></small>
             </button>
 
             <button class="c-card c-coverage-NORMAL" data-company="Amazon" data-count="30">
@@ -11432,7 +10952,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">资金流向</span><span class="c-feat-time">2026-10-03</span></span>
               </span>
 
-              <small>近 30 天 9 条</small>
+              <small>近 30 天 7 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
             <button class="c-card c-coverage-PARTIAL_DATA" data-company="Stripe" data-count="22">
@@ -11445,10 +10965,10 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-10-01</span></span>
               </span>
 
-              <small>近 30 天 3 条</small>
+              <small>近 30 天 3 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
-            <button class="c-card c-coverage-PARTIAL_DATA" data-company="Databricks" data-count="19">
+            <button class="c-card c-coverage-PARTIAL_DATA" data-company="Databricks" data-count="20">
               <strong>Databricks<span class="c-tier">实验对象</span></strong>
               <span class="c-direction">数据/AI 平台</span>
 
@@ -11458,7 +10978,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-10-02</span></span>
               </span>
 
-              <small>近 30 天 11 条</small>
+              <small>近 30 天 11 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
             <button class="c-card c-coverage-NORMAL" data-company="Microsoft" data-count="15">
@@ -11471,20 +10991,20 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">资金流向</span><span class="c-feat-time">2026-09-24</span></span>
               </span>
 
-              <small>近 30 天 4 条</small>
+              <small>近 30 天 4 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
-            <button class="c-card c-coverage-PARTIAL_DATA" data-company="OpenAI" data-count="13">
+            <button class="c-card c-coverage-PARTIAL_DATA" data-company="OpenAI" data-count="14">
               <strong>OpenAI<span class="c-tier">战略观察</span></strong>
               <span class="c-direction">AI 平台</span>
 
               <span class="c-feat">
-                <span class="c-feat-title">Grab与OpenAI合作，推广AI技能</span>
-                <span class="c-feat-overview">东南亚超级应用Grab与OpenAI达成合作，扩大东南亚地区实用AI技能的获取渠道。</span>
-                <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-09-23</span></span>
+                <span class="c-feat-title">Atlassian与OpenAI扩大合作，推动企业知识行动化</span>
+                <span class="c-feat-overview">Atlassian与OpenAI宣布扩大合作伙伴关系，旨在将企业知识转化为可执行行动，整合AI能力到企业协作工具中。</span>
+                <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-10-06</span></span>
               </span>
 
-              <small>近 30 天 8 条</small>
+              <small>近 30 天 8 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
             <button class="c-card c-coverage-NORMAL" data-company="Oracle" data-count="7">
@@ -11500,17 +11020,17 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               <small>近 30 天 5 条</small>
             </button>
 
-            <button class="c-card c-coverage-PARTIAL_DATA" data-company="Anthropic" data-count="6">
+            <button class="c-card c-coverage-PARTIAL_DATA" data-company="Anthropic" data-count="7">
               <strong>Anthropic<span class="c-tier">战略观察</span></strong>
               <span class="c-direction">AI 平台</span>
 
               <span class="c-feat">
-                <span class="c-feat-title">Anthropic投资$100M培训AI工程师</span>
-                <span class="c-feat-overview">Anthropic宣布投资1亿美元，用于培训1万名工程师，以应对企业AI人才缺口。</span>
-                <span class="c-feat-meta"><span class="c-signal">资金流向</span><span class="c-feat-time">2026-10-02</span></span>
+                <span class="c-feat-title">Anthropic扩展网络验证计划</span>
+                <span class="c-feat-overview">Anthropic宣布扩展其网络验证计划（Cyber Verification Program），该计划旨在验证AI在网络安全领域的应用效果。</span>
+                <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-10-06</span></span>
               </span>
 
-              <small>近 30 天 3 条</small>
+              <small>近 30 天 4 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
             <button class="c-card c-coverage-NO_DATA" data-company="Tesla" data-count="2">
@@ -11545,24 +11065,24 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
         <section class="c-region">
           <div class="c-region-head">
             <h3>亚太</h3>
-            <span>8/14 家近期有动作，14/14 家已有可解释状态</span>
+            <span>7/14 家近期有动作，14/14 家已有可解释状态</span>
           </div>
           <div class="c-grid">
 
-            <button class="c-card c-coverage-PARTIAL_DATA" data-company="Naver" data-count="85">
+            <button class="c-card c-coverage-PARTIAL_DATA" data-company="Naver" data-count="89">
               <strong>Naver<span class="c-tier">必须覆盖</span></strong>
               <span class="c-direction">搜索/AI/云</span>
 
               <span class="c-feat">
-                <span class="c-feat-title">NH证券向养老金新客送Naver Pay券</span>
-                <span class="c-feat-overview">NH投资证券向新开DC退休养老金账户的客户提供Naver Pay优惠券。</span>
-                <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-10-02</span></span>
+                <span class="c-feat-title">NAVER探索与墨西哥政府合作共建AI生态</span>
+                <span class="c-feat-overview">韩国互联网公司NAVER正与墨西哥政府和行业领袖探讨合作，以帮助建设墨西哥的AI生态系统。</span>
+                <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-10-08</span></span>
               </span>
 
-              <small>近 30 天 26 条</small>
+              <small>近 30 天 29 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
-            <button class="c-card c-coverage-NO_DATA" data-company="Kakao" data-count="65">
+            <button class="c-card c-coverage-NO_DATA" data-company="Kakao" data-count="66">
               <strong>Kakao<span class="c-tier">战略观察</span></strong>
               <span class="c-direction">社交+支付</span>
 
@@ -11572,7 +11092,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-10-02</span></span>
               </span>
 
-              <small>近 30 天 25 条｜<span class="c-badge-warn">⚠ 数据可能不完整</span></small>
+              <small>近 30 天 22 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span>｜<span class="c-badge-warn">⚠ 数据可能不完整</span></small>
             </button>
 
             <button class="c-card c-coverage-PARTIAL_DATA" data-company="Rakuten" data-count="39">
@@ -11585,7 +11105,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-10-01</span></span>
               </span>
 
-              <small>近 30 天 16 条</small>
+              <small>近 30 天 14 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">3 篇报道</span></small>
             </button>
 
             <button class="c-card c-coverage-PARTIAL_DATA" data-company="Square Enix" data-count="33">
@@ -11598,7 +11118,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-09-10</span></span>
               </span>
 
-              <small>近 30 天 10 条</small>
+              <small>近 30 天 6 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
             <button class="c-card c-coverage-NORMAL" data-company="Grab" data-count="32">
@@ -11611,7 +11131,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">组织变化</span><span class="c-feat-time">2026-10-02</span></span>
               </span>
 
-              <small>近 30 天 13 条</small>
+              <small>近 30 天 12 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
             <button class="c-card c-coverage-PARTIAL_DATA" data-company="Sea Limited" data-count="19">
@@ -11624,7 +11144,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">资金流向</span><span class="c-feat-time">2026-10-02</span></span>
               </span>
 
-              <small>近 30 天 9 条</small>
+              <small>近 30 天 8 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
             <button class="c-card c-coverage-PARTIAL_DATA" data-company="VNG Group" data-count="8">
@@ -11637,7 +11157,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-09-24</span></span>
               </span>
 
-              <small>近 30 天 3 条</small>
+              <small>近 30 天 2 条</small>
             </button>
 
             <button class="c-card c-coverage-NO_DATA" data-company="GoTo" data-count="7">
@@ -11650,7 +11170,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-09-08</span></span>
               </span>
 
-              <small>近 30 天 2 条｜<span class="c-badge-warn">⚠ 数据可能不完整</span></small>
+              <small>近 30 天 0 条｜<span class="c-badge-warn">⚠ 数据可能不完整</span></small>
             </button>
 
             <button class="c-card c-coverage-PARTIAL_DATA" data-company="U-NEXT" data-count="3">
@@ -11751,7 +11271,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-09-24</span></span>
               </span>
 
-              <small>近 30 天 15 条</small>
+              <small>近 30 天 13 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">3 篇报道</span></small>
             </button>
 
             <button class="c-card c-coverage-NO_DATA c-empty" data-company="Zalando" data-count="0">
@@ -11901,7 +11421,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-09-24</span></span>
               </span>
 
-              <small>近 30 天 6 条</small>
+              <small>近 30 天 6 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
             <button class="c-card c-coverage-PARTIAL_DATA" data-company="Nubank" data-count="16">
@@ -11914,7 +11434,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">合作机会</span><span class="c-feat-time">2026-10-05</span></span>
               </span>
 
-              <small>近 30 天 16 条</small>
+              <small>近 30 天 16 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
             <button class="c-card c-coverage-NO_DATA" data-company="Rappi" data-count="1">
@@ -12038,7 +11558,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">中资出海</span><span class="c-feat-time">2026-10-01</span></span>
               </span>
 
-              <small>近 30 天 11 条</small>
+              <small>近 30 天 9 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">3 篇报道</span></small>
             </button>
 
             <button class="c-card c-coverage-NORMAL" data-company="Alibaba" data-count="25">
@@ -12051,7 +11571,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">中资出海</span><span class="c-feat-time">2026-09-23</span></span>
               </span>
 
-              <small>近 30 天 9 条</small>
+              <small>近 30 天 9 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
             <button class="c-card c-coverage-NORMAL" data-company="ByteDance/TikTok" data-count="12">
@@ -12064,20 +11584,20 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-meta"><span class="c-signal">中资出海</span><span class="c-feat-time">2026-09-23</span></span>
               </span>
 
-              <small>近 30 天 3 条</small>
+              <small>近 30 天 3 条<span class="c-src" title="近 30 天覆盖面最广的一条：同一事件被多家媒体/多篇报道覆盖">2 篇报道</span></small>
             </button>
 
-            <button class="c-card c-coverage-NORMAL" data-company="Moonshot AI" data-count="7">
+            <button class="c-card c-coverage-NORMAL" data-company="Moonshot AI" data-count="8">
               <strong>Moonshot AI<span class="c-tier">实验对象</span></strong>
               <span class="c-direction">AI 平台</span>
 
               <span class="c-feat">
-                <span class="c-feat-title">Moonshot AI考虑香港或上海上市</span>
-                <span class="c-feat-overview">中国AI公司月之暗面（Moonshot AI）正在考虑在香港或上海上市。</span>
-                <span class="c-feat-meta"><span class="c-signal">资金流向</span><span class="c-feat-time">2026-09-10</span></span>
+                <span class="c-feat-title">Moonshot AI拟赴港IPO估值$50B</span>
+                <span class="c-feat-overview">中国AI公司月之暗面（Moonshot AI）准备赴香港IPO，估值达500亿美元。</span>
+                <span class="c-feat-meta"><span class="c-signal">资金流向</span><span class="c-feat-time">2026-10-06</span></span>
               </span>
 
-              <small>近 30 天 1 条</small>
+              <small>近 30 天 2 条</small>
             </button>
 
             <button class="c-card c-coverage-NORMAL" data-company="JD.com" data-count="4">
@@ -12088,6 +11608,19 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="c-feat-title">京东25亿美元收购Ceconomy获欧盟批准在即</span>
                 <span class="c-feat-overview">京东预计将获得欧盟批准，完成对Ceconomy的25亿美元收购。</span>
                 <span class="c-feat-meta"><span class="c-signal">中资出海</span><span class="c-feat-time">2026-10-02</span></span>
+              </span>
+
+              <small>近 30 天 2 条</small>
+            </button>
+
+            <button class="c-card c-coverage-NORMAL" data-company="Meituan" data-count="4">
+              <strong>Meituan<span class="c-tier">实验对象</span></strong>
+              <span class="c-direction">本地服务</span>
+
+              <span class="c-feat">
+                <span class="c-feat-title">Keeta巴西扩张至32城，下载量破千万</span>
+                <span class="c-feat-overview">美团旗下外卖平台Keeta在巴西新增21个城市，覆盖城市总数达到32个，应用下载量突破1000万次。</span>
+                <span class="c-feat-meta"><span class="c-signal">中资出海</span><span class="c-feat-time">2026-10-07</span></span>
               </span>
 
               <small>近 30 天 2 条</small>
@@ -12119,19 +11652,6 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               <small>近 30 天 1 条</small>
             </button>
 
-            <button class="c-card c-coverage-NORMAL" data-company="Meituan" data-count="3">
-              <strong>Meituan<span class="c-tier">实验对象</span></strong>
-              <span class="c-direction">本地服务</span>
-
-              <span class="c-feat">
-                <span class="c-feat-title">大众点评海外扩张服务中国游客</span>
-                <span class="c-feat-overview">美团旗下大众点评加速海外扩张，通过服务中国出境游客拓展海外市场。</span>
-                <span class="c-feat-meta"><span class="c-signal">中资出海</span><span class="c-feat-time">2026-09-11</span></span>
-              </span>
-
-              <small>近 30 天 1 条</small>
-            </button>
-
             <button class="c-card c-coverage-NO_DATA" data-company="Baidu" data-count="2">
               <strong>Baidu<span class="c-tier">实验对象</span></strong>
               <span class="c-direction">AI/搜索/云</span>
@@ -12156,19 +11676,6 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               </span>
 
               <small>近 30 天 0 条</small>
-            </button>
-
-            <button class="c-card c-coverage-NO_DATA" data-company="Ant Group" data-count="1">
-              <strong>Ant Group<span class="c-tier">关注中</span></strong>
-
-
-              <span class="c-feat">
-                <span class="c-feat-title">蚂蚁集团新加坡新办公室开业，扩大业务</span>
-                <span class="c-feat-overview">蚂蚁集团在新加坡开设新办公室，并计划扩大其在该地区的产品和服务范围，新加坡经济发展局（EDB）对此表示支持。</span>
-                <span class="c-feat-meta"><span class="c-signal">中资出海</span><span class="c-feat-time">2026-09-29</span></span>
-              </span>
-
-              <small>近 30 天 1 条</small>
             </button>
 
             <button class="c-card c-coverage-NO_DATA c-empty" data-company="DeepSeek" data-count="0">
@@ -12197,6 +11704,19 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               <small>近 30 天 0 条</small>
             </button>
 
+            <button class="c-card c-coverage-NO_DATA c-empty" data-company="Ant Group" data-count="0">
+              <strong>Ant Group<span class="c-tier">关注中</span></strong>
+
+
+              <span class="c-feat">
+                <span class="c-feat-title">暂无近期事件</span>
+
+                <span class="c-feat-meta"><span class="c-signal">观察</span></span>
+              </span>
+
+              <small>近 30 天 0 条</small>
+            </button>
+
           </div>
         </section>
 
@@ -12210,13 +11730,443 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
         <div class="m-overline">全部事件</div>
         <div class="m-headline-row">
           <h2 class="m-title-sec">事件库</h2>
-          <span class="m-head-meta">按日期折叠，共 150 天</span>
+          <span class="m-head-meta">按日期折叠，共 153 天</span>
         </div>
       </div>
 
       <section class="h-list">
 
-        <div class="h-card open" data-date="2026-10-05">
+        <div class="h-card open" data-date="2026-10-08">
+          <button class="h-head" type="button">
+            <span class="h-date">2026-10-08</span>
+            <span class="h-meta">6 条<span class="h-caret">›</span></span>
+          </button>
+          <div class="h-body">
+
+            <a class="h-event" href="https://www.navercorp.com/en/media/pressReleasesDetail?seq=10034721" target="_blank" data-filterable data-region="亚太" data-company="Naver" data-text="Users Clicking to Book Restaurants in Japan Up 5.8-Fold in a Year; NAVER to Step Up Local Dining Discovery and Reservations 日本餐饮数字化需求爆发，NAVER加大本地生活服务投入，为日本餐饮SaaS和支付服务商带来合作机会 日本餐厅在线预订点击量一年内增长5.8倍，NAVER宣布加强本地餐饮发现和预订服务。 亚太 Naver Naver">
+              <span>
+                <span class="h-title">Naver · 日本餐厅预订点击量增5.8倍，NAVER加码本地餐饮服务</span>
+                <span class="h-sub">点评：日本餐饮数字化需求爆发，NAVER加大本地生活服务投入，为日本餐饮SaaS和支付服务商带来合作机会</span>
+              </span>
+              <span class="h-side">Naver</span>
+            </a>
+
+            <a class="h-event" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxObkR0N0d5bGJETGE4azNUY2kzS2ozdEFwSUFjZk9rYzVPcUlGN295NGRlVS1GdHRVVjgxUjZXeDFRalBUMUVHa1JNQTVMbkVGOGZKV2ZlUlR6a2J1aWxkU0JaR1F2a3BYWnJfUmRDcGk5LXAwcmVSQy1rSU5BX3NuX2VTV25vX1FW?oc=5" target="_blank" data-filterable data-region="亚太" data-company="Naver" data-text="Naver Launches Hiking-Themed Weather Service with Segment Forecasts - 조선일보 韩国互联网巨头细分场景天气服务，户外运动数据与天气服务结合模式可复制 韩国互联网公司Naver推出以登山为主题的天气服务，提供分段天气预报功能。 亚太 Google News Naver">
+              <span>
+                <span class="h-title">Naver · Naver推出登山主题分段天气预报服务</span>
+                <span class="h-sub">点评：韩国互联网巨头细分场景天气服务，户外运动数据与天气服务结合模式可复制</span>
+              </span>
+              <span class="h-side">조선일보</span>
+            </a>
+
+            <a class="h-event" href="https://www.techinasia.com/ipo-hopeful-sci-ecommerces-nears-collapse" target="_blank" data-filterable data-region="亚太" data-company="" data-text="Once an IPO hopeful, SCI Ecommerce nears collapse 东南亚电商服务商经营恶化，供应链风险上升，为电商平台和物流服务商提供替代合作机会 曾有望IPO的SCI Ecommerce公司濒临倒闭。 亚太 Tech in Asia ">
+              <span>
+                <span class="h-title">SCI Ecommerce濒临倒闭</span>
+                <span class="h-sub">点评：东南亚电商服务商经营恶化，供应链风险上升，为电商平台和物流服务商提供替代合作机会</span>
+              </span>
+              <span class="h-side">Tech in Asia</span>
+            </a>
+
+            <a class="h-event" href="https://www.techinasia.com/revolut-invest-274m-sg-years" target="_blank" data-filterable data-region="亚太" data-company="" data-text="Revolut to invest $274m in SG over 5 years, focus on profit 欧洲数字银行巨头加大东南亚布局，为新加坡金融科技生态和本地支付合作方带来机会 Revolut计划在未来5年内向新加坡投资2.74亿美元，重点关注盈利能力。 亚太 Tech in Asia ">
+              <span>
+                <span class="h-title">Revolut拟投$274M于新加坡，聚焦盈利</span>
+                <span class="h-sub">点评：欧洲数字银行巨头加大东南亚布局，为新加坡金融科技生态和本地支付合作方带来机会</span>
+              </span>
+              <span class="h-side">$274M</span>
+            </a>
+
+            <a class="h-event" href="https://www.navercorp.com/en/media/pressReleasesDetail?seq=10034722" target="_blank" data-filterable data-region="拉美" data-company="Naver" data-text="NAVER Explores Partnerships to Help Build Mexico’s AI Ecosystem in Talks with Government and Industry Leaders 拉美AI生态建设需求旺盛，韩国科技巨头NAVER携技术经验进入，为当地AI初创和云服务商带来合作机会 韩国互联网公司NAVER正与墨西哥政府和行业领袖探讨合作，以帮助建设墨西哥的AI生态系统。 拉美 Naver Naver">
+              <span>
+                <span class="h-title">Naver · NAVER探索与墨西哥政府合作共建AI生态</span>
+                <span class="h-sub">点评：拉美AI生态建设需求旺盛，韩国科技巨头NAVER携技术经验进入，为当地AI初创和云服务商带来合作机会</span>
+              </span>
+              <span class="h-side">Naver</span>
+            </a>
+
+            <a class="h-event" href="https://www.techinasia.com/news/samsung-electronics-forecasts-q3-profit-surge-ai-chips" target="_blank" data-filterable data-region="亚太" data-company="" data-text="Samsung Electronics forecasts Q3 profit surge on AI chips 亚太半导体巨头受益于AI芯片需求，供应链相关企业可关注其产能扩张和合作机会。 三星电子预测第三季度利润因AI芯片需求激增而大幅增长，具体数字未披露。 亚太 Tech in Asia ">
+              <span>
+                <span class="h-title">三星Q3利润因AI芯片预计大增</span>
+                <span class="h-sub">点评：亚太半导体巨头受益于AI芯片需求，供应链相关企业可关注其产能扩张和合作机会。</span>
+              </span>
+              <span class="h-side">Tech in Asia</span>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="h-card" data-date="2026-10-07">
+          <button class="h-head" type="button">
+            <span class="h-date">2026-10-07</span>
+            <span class="h-meta">31 条<span class="h-caret">›</span></span>
+          </button>
+          <div class="h-body">
+
+            <a class="h-event" href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVWVValMtME9oYVY4NzB6TlRJbGs4LS1KY3FFU3lULVVqV2NackpDZm5ZV1c3SGhuVWNvYlBxU3FlN0ZhbjE1R1BHTTRHQV9GSl9GVmxweW1qU2ptZEI5UXd3MGR6aVNfRkM2Y3MweGJfSXY0eDc1cXp2dlYtZU5pYjdCb3VmTzg1Zy1ZemhxLUhFdkROMjV5NDcyMmItdUs5V3A5RWdtbmtGU0JzcXU4MzhrOUNKVTExc1hNNjlOcXp3YTFwX1ZlMHNoMzNZeHQ1LUN5NFA3R3RBRFB6NUEtdm02Zw?oc=5" target="_blank" data-filterable data-region="拉美" data-company="Meituan" data-text="Keeta Expands Brazil Coverage to 32 Cities with 21 New Launches, Reaching 10 Million App Downloads - 巴士的報 拉美外卖市场美团系加速扩张，本地商户数字化和配送网络建设存在合作空间 美团旗下外卖平台Keeta在巴西新增21个城市，覆盖城市总数达到32个，应用下载量突破1000万次。 拉美 Google News Meituan">
+              <span>
+                <span class="h-title">Meituan · Keeta巴西扩张至32城，下载量破千万</span>
+                <span class="h-sub">点评：拉美外卖市场美团系加速扩张，本地商户数字化和配送网络建设存在合作空间</span>
+              </span>
+              <span class="h-side">巴士的報</span>
+            </a>
+
+            <a class="h-event" href="https://www.eu-startups.com/2026/10/france-and-italy-based-netsec-raises-over-e8-93-million-to-scale-its-ai-native-solution-for-cybersecurity-and-it/" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="France- and Italy-based Netsec raises over €8.93 million to scale its AI-native solution for cybersecurity and IT 欧洲网络安全初创获融资，AI驱动安全解决方案需求增长，为安全服务商和云基础设施提供合作机会 总部位于法国和意大利的网络安全公司Netsec筹集超过893万欧元，用于扩展其AI原生的网络安全和IT解决方案。 欧洲 EU-Startups ">
+              <span>
+                <span class="h-title">Netsec获€8.93M融资，用于AI网络安全方案</span>
+                <span class="h-sub">点评：欧洲网络安全初创获融资，AI驱动安全解决方案需求增长，为安全服务商和云基础设施提供合作机会</span>
+              </span>
+              <span class="h-side">$9M</span>
+            </a>
+
+            <a class="h-event" href="https://www.pocketgamer.biz/the-turkish-playbook-investors-talk-work-ethic-ai-funding-and-hybridcasual/" target="_blank" data-filterable data-region="中东" data-company="" data-text="The Turkish playbook: Investors talk work ethic, hybridcasual and AI 中东游戏市场增长潜力大，土耳其作为枢纽，吸引投资和合作机会。 投资者讨论土耳其游戏行业的工作文化、混合休闲游戏和AI融资趋势，反映市场动态。 中东 PocketGamer.biz ">
+              <span>
+                <span class="h-title">土耳其游戏行业投资者讨论AI和混合休闲趋势</span>
+                <span class="h-sub">点评：中东游戏市场增长潜力大，土耳其作为枢纽，吸引投资和合作机会。</span>
+              </span>
+              <span class="h-side">PocketGamer.biz</span>
+            </a>
+
+            <a class="h-event" href="https://www.pocketgamer.biz/harvey-elliott-named-chair-of-ukie-as-trade-body-targets-next-phase-of-uk-growth/" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="Harvey Elliott named chair of Ukie as trade body targets next phase of UK growth 欧洲游戏行业领导层变动，政策导向和行业资源分配可能影响英国游戏公司。 Harvey Elliott被任命为英国游戏贸易机构Ukie主席，旨在推动英国游戏行业下一阶段增长。 欧洲 PocketGamer.biz ">
+              <span>
+                <span class="h-title">Harvey Elliott任Ukie主席推动英国游戏增长</span>
+                <span class="h-sub">点评：欧洲游戏行业领导层变动，政策导向和行业资源分配可能影响英国游戏公司。</span>
+              </span>
+              <span class="h-side">PocketGamer.biz</span>
+            </a>
+
+            <a class="h-event" href="https://inc42.com/buzz/meta-took-down-5-3-mn-pieces-of-child-abuse-content-in-h1-2026/" target="_blank" data-filterable data-region="亚太" data-company="" data-text="Meta Took Down 5.3 Mn Pieces Of Child Abuse Content In H1 2026 全球社交平台内容审核投入增加，合规和AI审核技术供应商迎来需求。 Meta在2026年上半年删除了530万条儿童虐待内容，显示其内容审核力度加强。 亚太 Inc42 ">
+              <span>
+                <span class="h-title">Meta上半年删除530万条儿童虐待内容</span>
+                <span class="h-sub">点评：全球社交平台内容审核投入增加，合规和AI审核技术供应商迎来需求。</span>
+              </span>
+              <span class="h-side">Inc42</span>
+            </a>
+
+            <a class="h-event" href="https://ventureburn.com/teddyholdings-ai-raises-60m-legal-services-platform/" target="_blank" data-filterable data-region="非洲" data-company="" data-text="TeddyHoldings.AI Raises $60M to Expand Compliance-Focused Legal Services Platform 非洲AI法律科技获大额融资，为合规和法律服务数字化提供新方案，吸引国际资本 TeddyHoldings.AI完成6000万美元融资，以扩展其合规导向的法律服务平台。 非洲 Ventureburn ">
+              <span>
+                <span class="h-title">TeddyHoldings.AI获$60M融资</span>
+                <span class="h-sub">点评：非洲AI法律科技获大额融资，为合规和法律服务数字化提供新方案，吸引国际资本</span>
+              </span>
+              <span class="h-side">$60M</span>
+            </a>
+
+            <a class="h-event" href="https://www.pocketgamer.biz/google-launches-playground-for-prompt-based-game-creation/" target="_blank" data-filterable data-region="全球" data-company="" data-text="Google launches Playground for prompt-based game creation 全球游戏开发门槛降低，AI辅助创作工具为中小开发者提供新机会。 谷歌推出Playground工具，允许用户通过提示词创建游戏，简化游戏开发流程。 全球 PocketGamer.biz ">
+              <span>
+                <span class="h-title">谷歌推出提示词游戏创建工具Playground</span>
+                <span class="h-sub">点评：全球游戏开发门槛降低，AI辅助创作工具为中小开发者提供新机会。</span>
+              </span>
+              <span class="h-side">PocketGamer.biz</span>
+            </a>
+
+            <a class="h-event" href="https://fintechnews.sg/138664/regtech/sumsub-reusable-kyc-opera-minipay/" target="_blank" data-filterable data-region="亚太" data-company="" data-text="Sumsub Launches Reusable KYC Gateway for Opera’s MiniPay Partners 亚太金融科技合规需求增长，可复用KYC方案降低运营成本，吸引更多支付合作伙伴。 Sumsub为Opera的MiniPay合作伙伴推出可重复使用的KYC网关，简化合规流程。 亚太 Fintech News Singapore ">
+              <span>
+                <span class="h-title">Sumsub推出可复用KYC网关服务Opera MiniPay</span>
+                <span class="h-sub">点评：亚太金融科技合规需求增长，可复用KYC方案降低运营成本，吸引更多支付合作伙伴。</span>
+              </span>
+              <span class="h-side">Fintech News Singapore</span>
+            </a>
+
+            <a class="h-event" href="https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/" target="_blank" data-filterable data-region="全球" data-company="" data-text="Nous Research confirms it hit $1.5B valuation, launches AI agents for business users 全球AI研究实验室估值达15亿美元，企业级AI代理产品商业化加速，企业智能化转型需求旺盛 AI研究公司Nous Research确认估值达到15亿美元，并面向企业用户推出AI代理产品。 全球 TechCrunch ">
+              <span>
+                <span class="h-title">Nous Research估值达$1.5B，发布企业AI代理</span>
+                <span class="h-sub">点评：全球AI研究实验室估值达15亿美元，企业级AI代理产品商业化加速，企业智能化转型需求旺盛</span>
+              </span>
+              <span class="h-side">$2B</span>
+            </a>
+
+            <a class="h-event" href="https://www.therecursive.com/romanian-founded-siena-raises-over-eur15m-series-a-to-build-an-agent-of-record-for-consumer-brands/" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="Romanian-founded Siena Raises Over €15M Series A to Build an &#34;Agent of Record&#34; for Consumer Brands 欧洲AI代理赛道升温，消费品牌客户服务自动化需求增长，为AI客服和CRM集成商提供合作机会 罗马尼亚创立的Siena公司完成超过1500万欧元的A轮融资，用于构建面向消费品牌的“记录代理”平台。 欧洲 The Recursive ">
+              <span>
+                <span class="h-title">Siena获€15M A轮融资，构建消费品牌代理平台</span>
+                <span class="h-sub">点评：欧洲AI代理赛道升温，消费品牌客户服务自动化需求增长，为AI客服和CRM集成商提供合作机会</span>
+              </span>
+              <span class="h-side">$15M</span>
+            </a>
+
+            <a class="h-event" href="https://ventureburn.com/stuut-raises-52-5m-ai-order-to-cash-platform/" target="_blank" data-filterable data-region="非洲" data-company="" data-text="Stuut Raises $52.5M to Expand AI Order-to-Cash Platform 非洲AI金融科技获大额融资，为当地企业提供数字化应收账款管理解决方案，吸引国际资本关注 非洲金融科技公司Stuut完成5250万美元融资，用于扩展其AI驱动的订单到现金平台。 非洲 Ventureburn ">
+              <span>
+                <span class="h-title">Stuut获$52.5M融资扩展AI平台</span>
+                <span class="h-sub">点评：非洲AI金融科技获大额融资，为当地企业提供数字化应收账款管理解决方案，吸引国际资本关注</span>
+              </span>
+              <span class="h-side">$52M</span>
+            </a>
+
+            <a class="h-event" href="https://www.eu-startups.com/2026/10/uk-based-insurtech-konsileo-raises-e5-9-million-to-expand-its-team-and-integrate-ai/" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="UK-based InsurTech Konsileo raises €5.9 million to expand its team and integrate AI 欧洲保险科技赛道持续获投，AI整合将提升保险经纪效率，为保险SaaS和AI工具供应商带来合作机会 英国保险科技公司Konsileo筹集590万欧元，用于扩充团队并整合AI技术。 欧洲 EU-Startups ">
+              <span>
+                <span class="h-title">Konsileo获€5.9M融资，扩展团队并整合AI</span>
+                <span class="h-sub">点评：欧洲保险科技赛道持续获投，AI整合将提升保险经纪效率，为保险SaaS和AI工具供应商带来合作机会</span>
+              </span>
+              <span class="h-side">$6M</span>
+            </a>
+
+            <a class="h-event" href="https://ventureburn.com/ledgebrook-raises-200m-to-scale-ai-insurance-platform/" target="_blank" data-filterable data-region="非洲" data-company="" data-text="Ledgebrook Raises $200M to Scale AI Insurance Platform 美国AI保险科技获大额融资，保险行业数字化转型加速，为保险科技供应商和AI模型服务商带来合作机会。 美国AI保险平台Ledgebrook完成2亿美元融资，用于扩大其AI驱动的保险业务规模。 非洲 Ventureburn ">
+              <span>
+                <span class="h-title">Ledgebrook获$200M融资</span>
+                <span class="h-sub">点评：美国AI保险科技获大额融资，保险行业数字化转型加速，为保险科技供应商和AI模型服务商带来合作机会。</span>
+              </span>
+              <span class="h-side">$200M</span>
+            </a>
+
+            <a class="h-event" href="https://ventureburn.com/nous-research-raises-90-million-scale-hermes-enterprise-ai/" target="_blank" data-filterable data-region="非洲" data-company="" data-text="Nous Research Raises $90 Million To Bring Hermes AI Agents to the Enterprise Market 美国AI代理企业级应用获融资，企业AI代理赛道竞争加剧，为企业软件集成商和云服务商带来合作机会。 AI研究公司Nous Research完成9000万美元融资，用于将Hermes AI代理推向企业市场。 非洲 Ventureburn ">
+              <span>
+                <span class="h-title">Nous Research获$90M融资</span>
+                <span class="h-sub">点评：美国AI代理企业级应用获融资，企业AI代理赛道竞争加剧，为企业软件集成商和云服务商带来合作机会。</span>
+              </span>
+              <span class="h-side">$90M</span>
+            </a>
+
+            <a class="h-event" href="https://fintechnews.sg/138652/crypto/okx-funding/" target="_blank" data-filterable data-region="北美" data-company="" data-text="OKX Secures Funding From SC Ventures, Circle and Ripple at US$25 Billion Valuation 北美加密交易所获顶级机构注资，全球加密合规和机构级托管服务需求将上升 加密货币交易所OKX从SC Ventures、Circle和Ripple处获得融资，估值达到250亿美元。 北美 Fintech News Singapore ">
+              <span>
+                <span class="h-title">OKX获融资，估值达$25B</span>
+                <span class="h-sub">点评：北美加密交易所获顶级机构注资，全球加密合规和机构级托管服务需求将上升</span>
+              </span>
+              <span class="h-side">$25B</span>
+            </a>
+
+            <a class="h-event" href="https://fintechnews.sg/138656/regtech/singapore-bank-loss-absorption/" target="_blank" data-filterable data-region="亚太" data-company="" data-text="Singapore Passes Bill Giving MAS Powers to Set Loss Absorption Rules for D-SIBs 新加坡监管框架升级，亚太区域银行合规科技和资本管理解决方案需求将增加 新加坡通过一项法案，授予金融管理局（MAS）为国内系统重要性银行（D-SIBs）设定损失吸收能力的权力。 亚太 Fintech News Singapore ">
+              <span>
+                <span class="h-title">新加坡立法强化D-SIBs损失吸收规则</span>
+                <span class="h-sub">点评：新加坡监管框架升级，亚太区域银行合规科技和资本管理解决方案需求将增加</span>
+              </span>
+              <span class="h-side">Fintech News Singapore</span>
+            </a>
+
+            <a class="h-event" href="https://www.mobileworldlive.com/google/google-told-to-halt-work-on-two-finland-data-centres/" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="Google told to halt work on Finland data centres 欧洲数据中心监管收紧，云服务商和基础设施供应商需关注合规风险 谷歌被要求停止在芬兰两个数据中心的工作。 欧洲 Mobile World Live ">
+              <span>
+                <span class="h-title">谷歌芬兰数据中心建设被叫停</span>
+                <span class="h-sub">点评：欧洲数据中心监管收紧，云服务商和基础设施供应商需关注合规风险</span>
+              </span>
+              <span class="h-side">Mobile World Live</span>
+            </a>
+
+            <a class="h-event" href="https://www.socialmediatoday.com/news/edits-gets-carousel-editing-tools/832448/" target="_blank" data-filterable data-region="全球" data-company="" data-text="Edits gets carousel editing tools 全球短视频编辑工具功能迭代，为内容创作者提供更多创作形式，提升平台竞争力 视频编辑应用Edits新增了轮播编辑工具，允许用户创建和编辑轮播内容。 全球 Social Media Today ">
+              <span>
+                <span class="h-title">Edits新增轮播编辑工具</span>
+                <span class="h-sub">点评：全球短视频编辑工具功能迭代，为内容创作者提供更多创作形式，提升平台竞争力</span>
+              </span>
+              <span class="h-side">Social Media Today</span>
+            </a>
+
+            <a class="h-event" href="https://news.google.com/rss/articles/CBMidkFVX3lxTFA0LURGSTluUERqc3liLXUwYkNubWI0RGxRaVoyN0lTWEx1UUtJamJ3YUJrY01nU0FFRmt6RDlVWmM4ankwdVhBdVZtS1RSYW5zZDNhcEdBZWgtZlJqSG1VNHFHVFhVbG9FQWxWLW9RVGJtdzc1bmc?oc=5" target="_blank" data-filterable data-region="亚太" data-company="Kakao" data-text="South Korea&#39;s Kakao Games&#39; New Title &#39;Dokkaebi&#39;s World&#39; Tops Apple App Store in 6 Hours After Pre-Download Launch - BigGo Finance 韩国游戏市场新作表现强劲，验证IP改编和本地化运营模式，出海发行渠道价值凸显 韩国游戏公司Kakao Games新作《Dokkaebi&#39;s World》在预下载启动后6小时内登顶苹果App Store免费榜。 亚太 Google News Kakao">
+              <span>
+                <span class="h-title">Kakao · Kakao Games新游6小时登顶App Store</span>
+                <span class="h-sub">点评：韩国游戏市场新作表现强劲，验证IP改编和本地化运营模式，出海发行渠道价值凸显</span>
+              </span>
+              <span class="h-side">BigGo Finance</span>
+            </a>
+
+            <a class="h-event" href="https://e27.co/light-liquidations-and-flat-funding-is-bitcoin-about-to-explode-20261007/" target="_blank" data-filterable data-region="东南亚" data-company="" data-text="Light liquidations and flat funding: Is Bitcoin about to explode? 东南亚科技媒体聚焦比特币市场信号，为亚太加密货币交易平台和投资者提供市场情绪参考 东南亚科技媒体e27发布分析文章，指出当前比特币市场清算量较低且融资活动平淡，探讨比特币是否即将迎来大幅波动。 东南亚 e27 东南亚科技产业分析 ">
+              <span>
+                <span class="h-title">e27分析称比特币低清算与融资平淡，或酝酿大行情</span>
+                <span class="h-sub">点评：东南亚科技媒体聚焦比特币市场信号，为亚太加密货币交易平台和投资者提供市场情绪参考</span>
+              </span>
+              <span class="h-side">e27 东南亚科技产业分析</span>
+            </a>
+
+            <a class="h-event" href="https://www.therecursive.com/startup-revolution-summit-ai-2026-program-highlights-report/" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="“The Idea-Stage Check Is Gone”: Hard Truths and $1M Win at Skopje’s Startup Revolution AI Summit 巴尔干地区AI创业生态活跃，投资门槛变化，为当地创业者和投资机构提供合作机会 斯科普里举办的Startup Revolution AI峰会报告指出，创意阶段检查已消失，并宣布了100万美元的奖项。 欧洲 The Recursive ">
+              <span>
+                <span class="h-title">AI峰会报告：创意阶段检查消失，$1M奖项揭晓</span>
+                <span class="h-sub">点评：巴尔干地区AI创业生态活跃，投资门槛变化，为当地创业者和投资机构提供合作机会</span>
+              </span>
+              <span class="h-side">$1M</span>
+            </a>
+
+            <a class="h-event" href="https://www.paymentsdive.com/news/payments-income-bolsters-banks/832378/" target="_blank" data-filterable data-region="全球" data-company="" data-text="Payments income bolsters banks 全球银行支付业务收入占比提升，支付处理技术和增值服务供应商受益 行业分析显示，支付业务收入正在增强银行的整体盈利能力。 全球 Payments Dive ">
+              <span>
+                <span class="h-title">支付收入增强银行盈利</span>
+                <span class="h-sub">点评：全球银行支付业务收入占比提升，支付处理技术和增值服务供应商受益</span>
+              </span>
+              <span class="h-side">Payments Dive</span>
+            </a>
+
+            <a class="h-event" href="https://news.google.com/rss/articles/CBMioAFBVV95cUxNSFh0dlF3RTRXVEg3OUo2SHJ2ZG0wU1FaZjBULTFmOUJfOHRnaVNWdVBrUldIUDB3YmlFQnowNjBWNTQxYkstR2tIcTlELWhUUlZZRk5KLVU0cExhZHlRckhSbmdWeGxPTXZkajg1RnZxNmhFcEZSYkxVYWFGRTNjTkZYbXR1YllBeWlPUmR5cWRzcUFtN3RtaHhRN25ydEdI?oc=5" target="_blank" data-filterable data-region="亚太" data-company="Naver" data-text="&#39;Don&#39;t Delay NAVER-Dunamu Merger Review Any Longer,&#39; Lawmaker Says - Seoul Economic Daily 韩国互联网巨头与加密交易所合并案受政治关注，监管走向影响金融科技板块格局 韩国议员公开呼吁监管机构尽快完成对NAVER与Dunamu合并案的审查，不应再拖延。 亚太 Google News Naver">
+              <span>
+                <span class="h-title">Naver · 韩国议员敦促加快NAVER-Dunamu合并审查</span>
+                <span class="h-sub">点评：韩国互联网巨头与加密交易所合并案受政治关注，监管走向影响金融科技板块格局</span>
+              </span>
+              <span class="h-side">Seoul Economic Daily</span>
+            </a>
+
+            <a class="h-event" href="https://thenextweb.com/news/san-francisco-data-centre-pause-europe" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="San Francisco pauses new data centres in the hometown of AI 美国AI枢纽城市数据中心建设受限，可能影响AI算力供给，为其他地区数据中心和云服务商带来机会 旧金山暂停新建数据中心，该市是AI产业的核心所在地。 欧洲 The Next Web ">
+              <span>
+                <span class="h-title">旧金山暂停新建数据中心</span>
+                <span class="h-sub">点评：美国AI枢纽城市数据中心建设受限，可能影响AI算力供给，为其他地区数据中心和云服务商带来机会</span>
+              </span>
+              <span class="h-side">The Next Web</span>
+            </a>
+
+            <a class="h-event" href="https://www.paymentsdive.com/news/sap-expands-payments-finance-automation-push-deepens/832358/" target="_blank" data-filterable data-region="全球" data-company="" data-text="SAP expands into payments 全球企业软件巨头进入支付领域，企业财务系统集成支付服务商面临新竞争与合作 SAP扩展其支付功能，深化财务自动化布局。 全球 Payments Dive ">
+              <span>
+                <span class="h-title">SAP扩展支付功能深化财务自动化</span>
+                <span class="h-sub">点评：全球企业软件巨头进入支付领域，企业财务系统集成支付服务商面临新竞争与合作</span>
+              </span>
+              <span class="h-side">Payments Dive</span>
+            </a>
+
+            <a class="h-event" href="https://www.socialmediatoday.com/news/pinterest-expands-creator-content-promotions/832447/" target="_blank" data-filterable data-region="全球" data-company="" data-text="Pinterest expands creator content promotions 全球社交平台加强创作者变现工具，为品牌营销和内容推广服务商带来新渠道 Pinterest扩大了创作者内容推广功能，允许创作者更广泛地推广其内容。 全球 Social Media Today ">
+              <span>
+                <span class="h-title">Pinterest扩大创作者内容推广</span>
+                <span class="h-sub">点评：全球社交平台加强创作者变现工具，为品牌营销和内容推广服务商带来新渠道</span>
+              </span>
+              <span class="h-side">Social Media Today</span>
+            </a>
+
+            <a class="h-event" href="https://thenextweb.com/news/doordash-tony-xu-ai-agents-physical-delivery-wave-by-vento" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="DoorDash’s Tony Xu says AI agents will increase demand for human labour 全球物流配送行业AI与人力协同趋势明确，为物流科技和劳动力管理平台提供合作机会 DoorDash首席执行官Tony Xu表示，AI代理将增加对人工劳动的需求，特别是在实体配送领域。 欧洲 The Next Web ">
+              <span>
+                <span class="h-title">DoorDash CEO：AI代理将增加人工劳动需求</span>
+                <span class="h-sub">点评：全球物流配送行业AI与人力协同趋势明确，为物流科技和劳动力管理平台提供合作机会</span>
+              </span>
+              <span class="h-side">The Next Web</span>
+            </a>
+
+            <a class="h-event" href="https://www.pocketgamer.biz/octobers-collabs-corner/" target="_blank" data-filterable data-region="全球" data-company="" data-text="October’s Collabs Corner: PUBG Mobile and B.Duck, Pokémon in space, Talking Tom meets SmileyWorld, and more 全球游戏IP合作频繁，品牌联动为游戏公司带来用户增长和变现机会。 10月游戏合作汇总：PUBG Mobile与B.Duck、Pokémon太空主题、Talking Tom与SmileyWorld等跨界合作。 全球 PocketGamer.biz ">
+              <span>
+                <span class="h-title">多款游戏公布10月跨界合作</span>
+                <span class="h-sub">点评：全球游戏IP合作频繁，品牌联动为游戏公司带来用户增长和变现机会。</span>
+              </span>
+              <span class="h-side">PocketGamer.biz</span>
+            </a>
+
+            <a class="h-event" href="https://www.mobileworldlive.com/industry/chunghwa-opens-fresh-vein-for-drone-delivery/" target="_blank" data-filterable data-region="全球" data-company="" data-text="Chunghwa opens fresh vein for drone delivery 亚太电信运营商跨界无人机物流，无人机硬件和物流平台合作机会增加 中华电信开启无人机配送新业务。 全球 Mobile World Live ">
+              <span>
+                <span class="h-title">中华电信启动无人机配送业务</span>
+                <span class="h-sub">点评：亚太电信运营商跨界无人机物流，无人机硬件和物流平台合作机会增加</span>
+              </span>
+              <span class="h-side">Mobile World Live</span>
+            </a>
+
+            <a class="h-event" href="https://e27.co/the-new-engineering-bottleneck-isnt-writing-code-its-trusting-it-20261004/" target="_blank" data-filterable data-region="东南亚" data-company="" data-text="The new engineering bottleneck isn’t writing code, it’s trusting it 东南亚软件工程领域对代码信任和验证需求上升，为东南亚DevOps工具和代码审计服务商带来合作机会。 东南亚科技产业分析文章指出新的工程瓶颈不是写代码，而是信任代码，强调代码信任的重要性。 东南亚 e27 东南亚科技产业分析 ">
+              <span>
+                <span class="h-title">东南亚科技分析：工程瓶颈在信任代码</span>
+                <span class="h-sub">点评：东南亚软件工程领域对代码信任和验证需求上升，为东南亚DevOps工具和代码审计服务商带来合作机会。</span>
+              </span>
+              <span class="h-side">e27 东南亚科技产业分析</span>
+            </a>
+
+            <a class="h-event" href="https://developers.cloudflare.com/changelog/post/2026-10-07-organizations-generally-available/" target="_blank" data-filterable data-region="全球" data-company="Cloudflare" data-text="Cloudflare Organizations is generally available Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化 Cloudflare宣布其Organizations功能正式全面可用（GA），该功能面向组织级用户管理。 全球 Cloudflare Changelog Cloudflare">
+              <span>
+                <span class="h-title">Cloudflare · Cloudflare Organizations功能正式GA</span>
+                <span class="h-sub">点评：Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化</span>
+              </span>
+              <span class="h-side">Cloudflare Changelog</span>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="h-card" data-date="2026-10-06">
+          <button class="h-head" type="button">
+            <span class="h-date">2026-10-06</span>
+            <span class="h-meta">13 条<span class="h-caret">›</span></span>
+          </button>
+          <div class="h-body">
+
+            <a class="h-event" href="https://www.databricks.com/blog/lakehouse-better-data-warehouse-2026-benchmarks-and-proof" target="_blank" data-filterable data-region="全球" data-company="" data-text="The lakehouse is a better data warehouse: 2026 benchmarks and proof 全球数据架构之争再起，为亚太企业数据平台选型提供新依据，影响数据基础设施采购决策 Databricks发布2026年基准测试报告，声称湖仓（Lakehouse）架构优于传统数据仓库，并提供性能数据作为证明。 全球 Databricks Blog ">
+              <span>
+                <span class="h-title">Databricks发布2026基准，称湖仓优于数据仓库</span>
+                <span class="h-sub">点评：全球数据架构之争再起，为亚太企业数据平台选型提供新依据，影响数据基础设施采购决策</span>
+              </span>
+              <span class="h-side">Databricks Blog</span>
+            </a>
+
+            <a class="h-event" href="https://e.vnexpress.net/news/tech/tech-news/iphone-18-pro-gets-first-price-cut-in-vietnam-weeks-after-launch-5128922.html" target="_blank" data-filterable data-region="亚太" data-company="" data-text="iPhone 18 Pro gets first price cut in Vietnam weeks after launch 越南高端智能手机市场竞争加剧，为当地零售渠道和配件生态带来促销合作窗口 iPhone 18 Pro在越南上市数周后首次降价，反映出当地市场需求或渠道策略调整。 亚太 VnExpress Tech ">
+              <span>
+                <span class="h-title">iPhone 18 Pro在越南上市数周后首次降价</span>
+                <span class="h-sub">点评：越南高端智能手机市场竞争加剧，为当地零售渠道和配件生态带来促销合作窗口</span>
+              </span>
+              <span class="h-side">VnExpress Tech</span>
+            </a>
+
+            <a class="h-event" href="https://ventureburn.com/moonshot-ai-prepares-for-hong-kong-ipo-50-billion-valuation/" target="_blank" data-filterable data-region="亚太" data-company="" data-text="Moonshot AI Prepares for Hong Kong IPO As It Hits $50 Billion Valuation 中国AI大模型公司估值达500亿美元并筹备港股IPO，亚洲AI资本化进程加速，为港股市场带来重大投资机会。 中国AI公司月之暗面（Moonshot AI）准备赴香港IPO，估值达500亿美元。 亚太 Ventureburn ">
+              <span>
+                <span class="h-title">Moonshot AI拟赴港IPO估值$50B</span>
+                <span class="h-sub">点评：中国AI大模型公司估值达500亿美元并筹备港股IPO，亚洲AI资本化进程加速，为港股市场带来重大投资机会。</span>
+              </span>
+              <span class="h-side">$50B</span>
+            </a>
+
+            <a class="h-event" href="https://latamlist.com/asaas-raises-55-6m-fidc-to-finance-smb-receivables-in-brazil/" target="_blank" data-filterable data-region="拉美" data-company="" data-text="Asaas raises $55.6M FIDC to finance SMB receivables in Brazil 拉美中小企业应收账款融资需求旺盛，巴西金融科技通过FIDC创新融资模式，为拉美供应链金融科技带来合作机会。 巴西金融科技公司Asaas通过FIDC（应收账款投资基金）筹集5560万美元，用于为中小企业提供应收账款融资。 拉美 LatamList ">
+              <span>
+                <span class="h-title">Asaas获$55.6M FIDC融资</span>
+                <span class="h-sub">点评：拉美中小企业应收账款融资需求旺盛，巴西金融科技通过FIDC创新融资模式，为拉美供应链金融科技带来合作机会。</span>
+              </span>
+              <span class="h-side">$56M</span>
+            </a>
+
+            <a class="h-event" href="https://changelog.shopify.com/posts/analyze-purchase-orders-in-shopify-analytics" target="_blank" data-filterable data-region="全球" data-company="Shopify" data-text="Analyze purchase orders in Shopify Analytics Shopify发布产品更新，可验证其产品、平台或生态能力发生变化 Shopify在Analytics中新增采购订单分析功能，商家可分析采购订单数据。 全球 Shopify Changelog Shopify">
+              <span>
+                <span class="h-title">Shopify · Shopify Analytics新增采购订单分析</span>
+                <span class="h-sub">点评：Shopify发布产品更新，可验证其产品、平台或生态能力发生变化</span>
+              </span>
+              <span class="h-side">Shopify Changelog</span>
+            </a>
+
+            <a class="h-event" href="https://www.finextra.com/newsarticle/48540/revolut-eyes-philippines-bank-licence?utm_medium=rssfinextra&amp;utm_source=finextrafeed" target="_blank" data-filterable data-region="亚太" data-company="" data-text="Revolut eyes Philippines bank licence 欧洲数字银行巨头进军东南亚市场，菲律宾本地银行和支付基础设施合作机会增加 Revolut正寻求在菲律宾获得银行牌照，以扩展其东南亚业务。 亚太 Finextra ">
+              <span>
+                <span class="h-title">Revolut申请菲律宾银行牌照</span>
+                <span class="h-sub">点评：欧洲数字银行巨头进军东南亚市场，菲律宾本地银行和支付基础设施合作机会增加</span>
+              </span>
+              <span class="h-side">Finextra</span>
+            </a>
+
+            <a class="h-event" href="https://www.mobileworldlive.com/network-tech/att-forges-fibre-jv-to-expand-reach-across-us/" target="_blank" data-filterable data-region="北美" data-company="" data-text="AT&amp;T forges fibre JV to expand reach across US 北美电信巨头通过合资模式加速光纤基建，为网络设备供应商和施工服务商带来订单机会 AT&amp;T宣布成立光纤合资企业，以扩大其在美国的光纤网络覆盖范围。 北美 Mobile World Live ">
+              <span>
+                <span class="h-title">AT&amp;T成立光纤合资企业扩张美国网络</span>
+                <span class="h-sub">点评：北美电信巨头通过合资模式加速光纤基建，为网络设备供应商和施工服务商带来订单机会</span>
+              </span>
+              <span class="h-side">Mobile World Live</span>
+            </a>
+
+            <a class="h-event" href="https://openai.com/index/atlassian-partnership" target="_blank" data-filterable data-region="全球" data-company="" data-text="Atlassian and OpenAI expand partnership to turn enterprise knowledge into action 全球企业SaaS与AI巨头深化合作，为亚太企业协作软件市场带来AI集成新机会 Atlassian与OpenAI宣布扩大合作伙伴关系，旨在将企业知识转化为可执行行动，整合AI能力到企业协作工具中。 全球 OpenAI News ">
+              <span>
+                <span class="h-title">Atlassian与OpenAI扩大合作，推动企业知识行动化</span>
+                <span class="h-sub">点评：全球企业SaaS与AI巨头深化合作，为亚太企业协作软件市场带来AI集成新机会</span>
+              </span>
+              <span class="h-side">OpenAI News</span>
+            </a>
+
+            <a class="h-event" href="https://www.finextra.com/newsarticle/48545/plaid-launches-credit-fraud-and-payment-risk-ai-models?utm_medium=rssfinextra&amp;utm_source=finextrafeed" target="_blank" data-filterable data-region="全球" data-company="" data-text="Plaid launches credit, fraud and payment risk AI models 全球开放银行数据平台扩展AI风控产品线，金融科技和银行客户可集成新模型 Plaid推出针对信贷、欺诈和支付风险的新AI模型。 全球 Finextra ">
+              <span>
+                <span class="h-title">Plaid发布信贷欺诈支付风险AI模型</span>
+                <span class="h-sub">点评：全球开放银行数据平台扩展AI风控产品线，金融科技和银行客户可集成新模型</span>
+              </span>
+              <span class="h-side">Finextra</span>
+            </a>
+
+            <a class="h-event" href="https://www.socialmediatoday.com/news/reddit-launches-updated-lead-gen-ads-options/832296/" target="_blank" data-filterable data-region="全球" data-company="" data-text="Reddit launches updated lead gen ads options 全球社交平台广告产品升级，为数字营销服务商和广告主提供新的获客工具 Reddit推出了更新版的线索生成广告选项，以帮助广告商更有效地获取潜在客户。 全球 Social Media Today ">
+              <span>
+                <span class="h-title">Reddit更新线索生成广告选项</span>
+                <span class="h-sub">点评：全球社交平台广告产品升级，为数字营销服务商和广告主提供新的获客工具</span>
+              </span>
+              <span class="h-side">Social Media Today</span>
+            </a>
+
+            <a class="h-event" href="https://www.mobileworldlive.com/operators/ast-spacemobile-telus-begin-d2d-testing/" target="_blank" data-filterable data-region="全球" data-company="" data-text="AST SpaceMobile, Telus advance D2D testing 全球卫星直连手机技术进入测试阶段，为卫星通信产业链和移动运营商带来合作窗口 AST SpaceMobile与加拿大运营商Telus开始进行卫星直连手机（D2D）测试。 全球 Mobile World Live ">
+              <span>
+                <span class="h-title">AST SpaceMobile与Telus启动D2D测试</span>
+                <span class="h-sub">点评：全球卫星直连手机技术进入测试阶段，为卫星通信产业链和移动运营商带来合作窗口</span>
+              </span>
+              <span class="h-side">Mobile World Live</span>
+            </a>
+
+            <a class="h-event" href="https://www.anthropic.com/news/cyber-verification-program" target="_blank" data-filterable data-region="全球" data-company="" data-text="Oct 6, 2026 Announcements Expanding the Cyber Verification Program 全球AI头部公司Anthropic扩大网络安全验证计划，为网络安全厂商和AI安全应用提供合作与验证机会。 Anthropic宣布扩展其网络验证计划（Cyber Verification Program），该计划旨在验证AI在网络安全领域的应用效果。 全球 Anthropic Newsroom ">
+              <span>
+                <span class="h-title">Anthropic扩展网络验证计划</span>
+                <span class="h-sub">点评：全球AI头部公司Anthropic扩大网络安全验证计划，为网络安全厂商和AI安全应用提供合作与验证机会。</span>
+              </span>
+              <span class="h-side">Anthropic Newsroom</span>
+            </a>
+
+            <a class="h-event" href="https://developers.cloudflare.com/changelog/post/2026-10-06-dns-records-quota-warning/" target="_blank" data-filterable data-region="全球" data-company="Cloudflare" data-text="Cloudflare: Warnings when approaching your DNS records quota Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化 Cloudflare新增功能，当用户接近DNS记录配额上限时发出警告。 全球 Cloudflare Changelog Cloudflare">
+              <span>
+                <span class="h-title">Cloudflare · Cloudflare新增DNS配额警告功能</span>
+                <span class="h-sub">点评：Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化</span>
+              </span>
+              <span class="h-side">Cloudflare Changelog</span>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="h-card" data-date="2026-10-05">
           <button class="h-head" type="button">
             <span class="h-date">2026-10-05</span>
             <span class="h-meta">36 条<span class="h-caret">›</span></span>
@@ -13429,7 +13379,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
         <div class="h-card" data-date="2026-09-30">
           <button class="h-head" type="button">
             <span class="h-date">2026-09-30</span>
-            <span class="h-meta">32 条<span class="h-caret">›</span></span>
+            <span class="h-meta">26 条<span class="h-caret">›</span></span>
           </button>
           <div class="h-body">
 
@@ -13441,28 +13391,12 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               <span class="h-side">Cloudflare Blog</span>
             </a>
 
-            <a class="h-event" href="https://news.google.com/rss/articles/CBMidkFVX3lxTE11bUV1ZDFfMHM2TGRLa2lFVXcxTm5kYWlHT1Jodzk2THBzaWI5WWRSZTlTUUNKODBqNDFiOENkUEJSb0J3V1FETVUzeEQxRkl2VkFQY0J1Rk1VTzR5MDFTMlRtZWdVRnJuWTUtSVd1X0V1OThEbGc?oc=5" target="_blank" data-filterable data-region="亚太" data-company="Rakuten" data-text="Rakuten Card to Launch Corporate Platinum Card in October with Credit Lines Up to ¥1 Billion, Credit Innovation via Mizuho Tie-Up - finance.biggo.com 日本企业支付市场竞争加剧，乐天联合瑞穗银行切入高额度企业信用卡市场，为B2B支付科技带来新变量 日本乐天信用卡宣布将于10月推出企业白金卡，信用额度最高可达10亿日元，并与瑞穗银行合作进行信贷创新。 亚太 Google News Rakuten">
-              <span>
-                <span class="h-title">Rakuten · 乐天信用卡10月推企业白金卡，额度达10亿日元</span>
-                <span class="h-sub">点评：日本企业支付市场竞争加剧，乐天联合瑞穗银行切入高额度企业信用卡市场，为B2B支付科技带来新变量</span>
-              </span>
-              <span class="h-side">finance.biggo.com</span>
-            </a>
-
             <a class="h-event" href="https://tech.eu/2026/09/30/berlin-based-restate-raises-20m/" target="_blank" data-filterable data-region="欧洲" data-company="" data-text="Berlin-based Restate raises $20M 欧洲科技初创公司持续获得资本支持，柏林作为欧洲科技中心吸引力增强，为当地开发者生态提供新资源 柏林初创公司Restate完成2000万美元融资。 欧洲 Tech.eu ">
               <span>
                 <span class="h-title">Restate获$20M融资</span>
                 <span class="h-sub">点评：欧洲科技初创公司持续获得资本支持，柏林作为欧洲科技中心吸引力增强，为当地开发者生态提供新资源</span>
               </span>
               <span class="h-side">$20M</span>
-            </a>
-
-            <a class="h-event" href="https://news.google.com/rss/articles/CBMiowFBVV95cUxObXF2QkhlQlhnNjZMQ01MZ1NFcXlJYS1YU3BzSGxSTHBDUGRwYVRoMFV3Q2tQUS1nSlRzcEJONlltLUwzMi1oQTZTM3N0WjR5ckpUZl9DZ0l5UURZcmFxNmNEeUVPa2ZEZWRGN3U1TFZ6dVFJbmw5UkhqUHV5OHMxNG9wdi10WnNKS2lqdl96MXVXUVNLYnhNSGEyWlAzb2M2NjBz?oc=5" target="_blank" data-filterable data-region="亚太" data-company="Naver" data-text="Naver Webtoon Paid Sales Jump After Piracy Site Shutdown - Seoul Economic Daily 韩国内容平台正版化受益，盗版打击直接转化为营收增长，为全球数字内容版权保护提供正面案例 韩国Naver Webtoon在盗版网站关闭后，付费销售额出现显著增长。 亚太 Google News Naver">
-              <span>
-                <span class="h-title">Naver · Naver Webtoon付费销售额因盗版关停而增长</span>
-                <span class="h-sub">点评：韩国内容平台正版化受益，盗版打击直接转化为营收增长，为全球数字内容版权保护提供正面案例</span>
-              </span>
-              <span class="h-side">Seoul Economic Daily</span>
             </a>
 
             <a class="h-event" href="https://inc42.com/buzz/building-ai-products-for-indian-users-the-challenge-of-scale-access-and-cost/" target="_blank" data-filterable data-region="亚太" data-company="" data-text="Building AI Products For Indian Users: The Challenge Of Scale, Access, And Cost 印度AI市场潜力大但基础设施和成本瓶颈明显，为本地化AI解决方案和低成本模型提供切入点 行业分析指出，为印度用户构建AI产品面临规模化、访问和成本三大挑战。 亚太 Inc42 ">
@@ -13537,14 +13471,6 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               <span class="h-side">$110M</span>
             </a>
 
-            <a class="h-event" href="https://developers.cloudflare.com/changelog/post/2026-09-30-durable-object-scheduling-policy/" target="_blank" data-filterable data-region="全球" data-company="Cloudflare" data-text="Cloudflare: New scheduling policy for Containers to configure image and instance from Durable Objects Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化 Cloudflare为Containers推出新的调度策略，允许从Durable Objects配置镜像和实例。 全球 Cloudflare Changelog Cloudflare">
-              <span>
-                <span class="h-title">Cloudflare · Cloudflare推出Containers新调度策略</span>
-                <span class="h-sub">点评：Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化</span>
-              </span>
-              <span class="h-side">Cloudflare Changelog</span>
-            </a>
-
             <a class="h-event" href="https://techcrunch.com/2026/09/30/factory-ceo-just-accused-his-vc-board-advisor-of-spying-for-cognition/" target="_blank" data-filterable data-region="全球" data-company="" data-text="Factory CEO just accused his VC board adviser of spying for Cognition 全球AI行业竞争白热化，商业间谍指控凸显技术机密保护重要性，影响VC信任和AI人才流动 AI公司Factory的CEO公开指控其风险投资董事会顾问为竞争对手Cognition从事间谍活动。 全球 TechCrunch ">
               <span>
                 <span class="h-title">Factory CEO指控VC顾问为Cognition间谍</span>
@@ -13583,22 +13509,6 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <span class="h-sub">点评：欧洲游戏发行商在狩猎细分品类获得市场验证，为同类题材游戏开发和发行合作提供参考</span>
               </span>
               <span class="h-side">$3M</span>
-            </a>
-
-            <a class="h-event" href="https://developers.cloudflare.com/containers/api/durable-object-container/" target="_blank" data-filterable data-region="全球" data-company="Cloudflare" data-text="Cloudflare: Durable Object Container API Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化 Cloudflare发布Durable Object Container API，允许开发者在Durable Object中运行容器化工作负载。 全球 Cloudflare Changelog Cloudflare">
-              <span>
-                <span class="h-title">Cloudflare · Cloudflare推出Durable Object Container API</span>
-                <span class="h-sub">点评：Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化</span>
-              </span>
-              <span class="h-side">Cloudflare Changelog</span>
-            </a>
-
-            <a class="h-event" href="https://developers.cloudflare.com/changelog/post/2026-09-30-sandbox-sdk-1-0/" target="_blank" data-filterable data-region="全球" data-company="Cloudflare" data-text="Cloudflare: Sandbox SDK 1.0: control every sandbox from your own Durable Object Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化 Cloudflare发布Sandbox SDK 1.0，允许开发者从自己的Durable Object控制所有沙箱。 全球 Cloudflare Changelog Cloudflare">
-              <span>
-                <span class="h-title">Cloudflare · Cloudflare发布Sandbox SDK 1.0</span>
-                <span class="h-sub">点评：Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化</span>
-              </span>
-              <span class="h-side">Cloudflare Changelog</span>
             </a>
 
             <a class="h-event" href="https://www.pocketgamer.biz/global-game-content-revenue-to-reach-2291bn-by-2030/" target="_blank" data-filterable data-region="全球" data-company="" data-text="Global game content revenue to reach $229.1bn by 2030 全球游戏市场持续增长，为游戏开发、发行及内容创作工具供应商带来长期市场机会。 行业报告预测，全球游戏内容收入到2030年将达到2291亿美元。 全球 PocketGamer.biz ">
@@ -13681,21 +13591,13 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               <span class="h-side">Finextra</span>
             </a>
 
-            <a class="h-event" href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNZFMxRUIwd2hmd2U3dlhpYXI4R2s4MGowZkdnbk9pNkVqS183MHpZUVl3bzZDUU1mNjc1REVFYnlKRlZ3ZzA4bEIyQ05kU3dNcGt0WDN4X0s3ZU5jU01vWXVJYURyUGx4MlJYTFh2QlN3bEFIWGZYaDBSdEVvUHY3ZGtFSnVrcGFrSnYzSmdYdnBNOUNEa3U2WUZocm5MX0dEUXc?oc=5" target="_blank" data-filterable data-region="亚太" data-company="Adyen" data-text="“The last decade of UPI has been a massive success, there is nothing like it anywhere in the world.” Roelant Prins, CCO - Adyen on UPI’s remarkable journey, the power of public-private partnerships, and how India’s digital payments story is setting an exampl - LinkedIn 全球支付巨头Adyen高管公开背书印度UPI模式，为印度支付基础设施出海和全球复制提供信心 Adyen首席商务官Roelant Prins在LinkedIn上发文，盛赞印度UPI支付系统过去十年的成功，称其为全球典范，并强调公私合作模式的重要性。 亚太 Google News Adyen">
-              <span>
-                <span class="h-title">Adyen · Adyen高管盛赞印度UPI支付系统</span>
-                <span class="h-sub">点评：全球支付巨头Adyen高管公开背书印度UPI模式，为印度支付基础设施出海和全球复制提供信心</span>
-              </span>
-              <span class="h-side">LinkedIn</span>
-            </a>
-
           </div>
         </div>
 
         <div class="h-card" data-date="2026-09-29">
           <button class="h-head" type="button">
             <span class="h-date">2026-09-29</span>
-            <span class="h-meta">13 条<span class="h-caret">›</span></span>
+            <span class="h-meta">10 条<span class="h-caret">›</span></span>
           </button>
           <div class="h-body">
 
@@ -13723,36 +13625,12 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
               <span class="h-side">Cloudflare Blog</span>
             </a>
 
-            <a class="h-event" href="https://news.google.com/rss/articles/CBMidkFVX3lxTFBkdXg2LUVSVUhkZ2UwU0FURl83cHpPWDZ0WGwtOEJRdmxoamk5Q3RGQVRBOWtiU1g2UmVFVnpqUWpWa3Z6M2FZSlVzTklhUkExdTI0TnZENWQ5Yl9URDVScUF2T05aUEFEZWZ0Z0lGVlJLMVllM1E?oc=5" target="_blank" data-filterable data-region="亚太" data-company="Naver" data-text="Meta Partners with Naver to Bring AI Glasses Walking Navigation This Year - finance.biggo.com 韩国互联网巨头Naver与Meta合作，将地图数据与AI眼镜结合，为可穿戴设备导航应用开辟新场景 Meta与Naver合作，计划今年推出AI眼镜步行导航功能。 亚太 Google News Naver">
-              <span>
-                <span class="h-title">Naver · Meta与Naver合作推AI眼镜导航</span>
-                <span class="h-sub">点评：韩国互联网巨头Naver与Meta合作，将地图数据与AI眼镜结合，为可穿戴设备导航应用开辟新场景</span>
-              </span>
-              <span class="h-side">finance.biggo.com</span>
-            </a>
-
             <a class="h-event" href="https://fintechnews.sg/138131/thailand/deemoney-seon-real-time-fraud-screening/" target="_blank" data-filterable data-region="亚太" data-company="" data-text="Thailand’s DeeMoney Turns to SEON for Real-Time Fraud Screening 东南亚金融科技公司加强风控能力，实时欺诈检测技术供应商在亚太市场机会增加 泰国金融科技公司DeeMoney采用SEON的实时欺诈筛查服务。 亚太 Fintech News Singapore ">
               <span>
                 <span class="h-title">DeeMoney采用SEON实时欺诈筛查</span>
                 <span class="h-sub">点评：东南亚金融科技公司加强风控能力，实时欺诈检测技术供应商在亚太市场机会增加</span>
               </span>
               <span class="h-side">Fintech News Singapore</span>
-            </a>
-
-            <a class="h-event" href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE9IQmNQMmFmRG9WUXIyNFV4ejRscS13WHpUMF9ha0RBel9YQ0ZzUnNwVmxfa2VMY1NFdlU5MlJmZ09uOUhySVJVbkRKUQ?oc=5" target="_blank" data-filterable data-region="亚太" data-company="Kakao" data-text="Kakao announced on the 29th that it signed a strategic business agreement (MOU) with the Artificial - 매일경제 韩国科技巨头Kakao深化AI战略布局，与外部AI机构合作，为AI技术研发和应用场景拓展提供合作窗口 Kakao于29日宣布与人工智能相关机构签署战略业务协议（MOU）。 亚太 Google News Kakao">
-              <span>
-                <span class="h-title">Kakao · Kakao与AI机构签署战略MOU</span>
-                <span class="h-sub">点评：韩国科技巨头Kakao深化AI战略布局，与外部AI机构合作，为AI技术研发和应用场景拓展提供合作窗口</span>
-              </span>
-              <span class="h-side">매일경제</span>
-            </a>
-
-            <a class="h-event" href="https://news.google.com/rss/articles/CBMivgFBVV95cUxPRjlRTmxPSk01YkFfUW5pbWVOU0w3aEdxODdjTHNNMFR6UlBsY1JIN2twM3l1Ynd1R0Qzdm1NbFg5VExHZlhvMEJ2YWo3YjdDM1FWX0cySTJQNUdveGV0aFFBanhCdVVxc2RBbG1raldUVEphNngtdldIbjUtZ0pCQ3dsaVJxdVBneXhBdkxESFgybUE5dHRSc3BYS0ZNVU9tSmRZOWpuOEF5YkVpcDBSalRpX3RWYkdWVUJvN3Vn?oc=5" target="_blank" data-filterable data-region="亚太" data-company="Ant Group" data-text="FinTech giant Ant Group opens new office in Singapore, set to expand offerings - Singapore Economic Development Board (EDB) 亚太金融科技巨头深化新加坡布局，为本地金融科技生态带来合作与合规服务机会 蚂蚁集团在新加坡开设新办公室，并计划扩大其在该地区的产品和服务范围，新加坡经济发展局（EDB）对此表示支持。 亚太 Google News Ant Group">
-              <span>
-                <span class="h-title">Ant Group · 蚂蚁集团新加坡新办公室开业，扩大业务</span>
-                <span class="h-sub">点评：亚太金融科技巨头深化新加坡布局，为本地金融科技生态带来合作与合规服务机会</span>
-              </span>
-              <span class="h-side">edb.gov.sg</span>
             </a>
 
             <a class="h-event" href="https://fintechnews.sg/138110/wealthtech/alpaca-mas-approval-singapore-cms-license/" target="_blank" data-filterable data-region="亚太" data-company="" data-text="Alpaca Secures MAS In-Principle Approval for CMS License 新加坡财富科技赛道升温，Alpaca获牌照后可在东南亚开展证券交易业务，为本地金融科技生态带来合作机会。 Alpaca获得新加坡金融管理局（MAS）的原则性批准，将取得资本市场服务（CMS）牌照。 亚太 Fintech News Singapore ">
