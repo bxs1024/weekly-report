@@ -12,6 +12,7 @@
 - **P0 Agent**：`build_daily_ai_summary()` 生成「今日判断」AI 趋势分析 → `data/summary.json` → HTML 读取；`rewrite_titles_for_display()` 改写程序层泛化描述；`ai_quality_judge()` 过滤低价值 other 事件
 - **Feed 生成**：`generate_feed.py` — 复用 `generate_html.build_display_context()` 的看板最终事件卡片，只推高价值且解释完整事件 → `docs/feed.xml`（Atom XML），供外部 CLI 订阅
 - **页面生成**：`scripts/generate_html.py` + `scripts/template.html` → 静态 HTML
+- **AIHOT 全球 AI 视野**：`aihot.yml` **只抓数据**（`data/aihot_hot.json`、`data/aihot_hot/`、`data/model_leaderboard.json`），不生成也不提交 `docs/`；页面统一由 `update.yml` 的 `render` job 生成。抓 0 条按失败处理（非零退出 + 保留旧数据不覆盖）。改这块前先读 `docs/ARCHITECTURE.md`
 - **部署**：GitHub Actions + GitHub Pages（`docs/` 目录）
 - **Feed 地址**：https://bxs1024.github.io/weekly-report/feed.xml
 
@@ -65,7 +66,7 @@
 ## 收尾与交接
 
 - **阶段收尾固定两步**：① 代码有改动时先说「存档一下」——Agent 执行 `git commit`（本地存档，不推送），把当前代码快照存进 git；② 再跑洁癖/整理文档。①管代码快照，②管文档同步，缺一不可。
-- **功能完成必须更新更新日志**：任何用户可感知的功能改动（页面、采集、分析、自动化、安全等）完成后，都要在 `data/site_updates.json` 顶部补一条版本记录（date/version/type/status/title/summary/changes），和代码一起 commit。它是产品视角的记录，不是内部开发日志，改小问题可合并为一条。断档会直接表现为「更新日志」tab 停在旧版本（2026-08-10 曾因此断档到 V3.3）。
+- **功能完成必须更新更新日志**：任何用户可感知的功能改动（页面、采集、分析、自动化、安全等）完成后，都要在 `data/site_updates.json` 顶部补一条版本记录（date/version/type/status/title/summary/changes），和代码一起 commit。它是产品视角的记录，不是内部开发日志，改小问题可合并为一条。断档会直接表现为「更新日志」tab 停在旧版本（2026-08-10 曾因此断档到 V3.3；2026-10-08 又因合并覆盖断档 40 天）。**该文件是人工维护资产，没有任何脚本写它**：合并线上时 `data/` 下它是唯一要取本地的那一个，其余（`events.json`/`aihot_hot.json`/`model_leaderboard.json`）都取线上。`check_data_health.py::check_updates_log_freshness()` 会反向校验「代码动了、日志记了没有」（滞后超 3 天告警，已接 CI）
 - **方案阶段先落盘**：只做了方案、还没实施时，先让 Agent 把方案写成 `docs/plans/YYYY-MM-DD-主题.md`，再进入实施。只飘在对话里的方案，会话一断就丢。
 - **换 Agent / 断会话时交接**：用 `D:\共享文件\AI协作工作区\02_进度同步\HANDOFF_TEMPLATE.md` 生成交接指针包——只写线索（文件路径、commit、设计文档位置）和意图/坑，状态交 git 自己查。
 - **新 Agent 接手**：先读本文件 + `02_进度同步/决策记录.md`（决策已绑定 commit，可用 `git show <hash>` 溯源），再跑 `git status` + `git log --oneline -15`，然后**一句话复述对当前任务的理解，用户点头后再动手**。
@@ -76,3 +77,5 @@
 - **工作区位置**：`D:\共享文件\AI协作工作区\01_工作文件区\weekly-report-repo\`（2026-08 确认的唯一真实仓库；C 盘 `Documents\claude-workspace\weekly-report-repo` 和 `weekly-report-web` 都是过期的旧副本，不要用）
 - **Python 路径**：`C:\Users\16120\AppData\Local\Python\bin\python`（WindowsApps 的 `python`/`python3` 是 Microsoft Store 重定向器，不可用）
 - **生成 HTML 命令**：`/c/Users/16120/AppData/Local/Python/bin/python scripts/generate_html.py --force`
+- **跑测试**：同一个解释器（已装 jinja2/requests/bs4）：`"/c/Users/16120/AppData/Local/Python/bin/python" scripts/test_xxx.py`。全量遍历 `scripts/test_*.py`，跳过 `test_rss.py` / `test_google_news.py`（需外网）
+- **`git push` / `git fetch` 被代理挡住时**：本机 `github.com` 的 git 通道经常 502（`api.github.com` 一直正常）。兜底用 `.data/push_via_api.py` 走 GitHub API 建 blob → tree → commit → 更新 ref（**快进追加，不改写历史**；本地含合并提交时会主动中止）。只要 parent/tree/author/message 都一致，API 建出的 commit SHA 与本地相同，不会产生分叉

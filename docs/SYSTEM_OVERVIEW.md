@@ -84,14 +84,15 @@ flowchart TD
 - 同一快照内按标准化职位标题保守去重；缺少地点等结构字段时，不把不同 ID 的同名职位重复计为扩张信号。
 - MercadoLibre Eightfold、Careem 动态职位站仍待专用适配器。
 
-### AIHOT 全球 AI 视野（2026-08-14 起独立自动化）
+### AIHOT 全球 AI 视野（独立抓数据，页面归主流程）
 
-AIHOT 热点榜与模型榜作为"全球 AI 视野"补充，独立于主采集管线：
+AIHOT 热点榜与模型榜作为"全球 AI 视野"补充。**它只负责抓数据，页面生成归主采集**：
 
-- **独立 workflow** `.github/workflows/aihot.yml`：每日北京 08:00 / 20:00 自动抓取热点+模型榜，刷新页面与 feed，与主采集错开并用 git-auto-commit 处理撞车。
+- **独立 workflow** `.github/workflows/aihot.yml`：每日北京 08:00 / 20:00 抓取热点+模型榜，**只提交自己产出的 3 个数据文件**（`data/aihot_hot.json`、`data/aihot_hot/`、`data/model_leaderboard.json`），不生成也不提交 `docs/`。
+- **职责边界**：页面（`docs/index.html` / `docs/feed.xml`）统一由 `update.yml` 的 `render` job 生成。两个 workflow 永不争抢同一文件——AIHOT 源站改版或超时不会连累主采集。此前 AIHOT 失败曾导致主流程页面异常（2026-10-08 定案）。
 - **按天归档** `data/aihot_hot/YYYY-MM-DD.json`（同一天多次抓取覆盖为当天最新）+ 当前快照 `data/aihot_hot.json`。
 - **融入报告**：周报/月报含「本周/本月 AI 热点」小节，按自然周/自然月读取归档（不受站内事件截止日限制）；RSS 含「全球AI视野 Top5」汇总条。
-- 主采集 `update.yml` 已移除 AIHOT 抓取步骤，AIHOT 文件只归独立 action 写。
+- **失败必须可见**：抓 0 条按失败处理（非零退出 + 保留旧数据不覆盖），不做静默兜底；源站改版导致选择器失效时先走 AI 读页面兜底。抓 HTML 随源站改版失效是必然事件，不变规则见 [ARCHITECTURE.md](ARCHITECTURE.md)。
 
 ## 5. 四道核心闸门
 

@@ -233,7 +233,7 @@ RSS 另有独立「全球AI视野 Top5」汇总条：读 `data/aihot_hot.json` �
 - 近 7 天展示事件重复率是否异常。
 - `must` 对象有效覆盖率、失败观察点、Jobs 失败、候选积压和已晋级候选数。
 
-采集阶段指标写入 `data/run_metrics.json`，默认保留最近 30 次运行。`scripts/collection_timing_report.py` 可单独输出采集时点对比表；`scripts/check_data_health.py` 会同时打印最近 8 次。当前 workflow 未接入健康检查，仍需手动或后续确认后接入 CI。日常巡检可先运行 `python scripts/check_data_health.py --quick`，只读取持久化事实，不重建页面和历史来源转化；发布前仍运行完整检查。
+采集阶段指标写入 `data/run_metrics.json`，默认保留最近 30 次运行。`scripts/collection_timing_report.py` 可单独输出采集时点对比表；`scripts/check_data_health.py` 会同时打印最近 8 次。`update.yml` 的 `health-check` job 已接入 CI（`needs: render`，页面提交后运行 `--quick --strict`，失败即开告警 Issue）。日常巡检可先运行 `python scripts/check_data_health.py --quick`，只读取持久化事实，不重建页面和历史来源转化；发布前仍运行完整检查。
 
 ## 信源转化治理
 
