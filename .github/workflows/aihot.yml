@@ -1,36 +1,38 @@
 name: AIHOT 热点与模型榜
 
-# 独立于主采集：只搬 AIHOT 外部数据快照 + 刷新页面与 feed。
-# 主采集负责全量 RSS + AI 分析；本 workflow 只抓热点/模型榜两个外部榜单，
-# 避免轻量任务绑定在沉重管线上互相拖累。
+# ─────────────────────────────────────────────────────────────
+# 职责边界（2026-10-08 重划，第一性原理：外部依赖必然失效，失效不得外溢）
+#
+# 本 workflow **只抓数据、只提交 data/**，不生成也不提交页面。
+# 页面统一由 update.yml（主采集）生成——它渲染时会读取这里落库的最新榜单数据。
+#
+# 为什么这样切：
+#   改版前本 workflow 也会 `Generate HTML --force` 并把整个 docs/ 提交回去，
+#   与主采集争抢同一个 docs/index.html；且渲染在旧代码下要 17–33 分钟，
+#   30 分钟 job 超时被杀 → 连数据都提交不了（实测最近 12 次运行全部失败）。
+#   切干净之后：两个 workflow 永不争抢文件，AIHOT 板块彻底无法影响主流程。
+#
+# 代价：榜单上线时间取决于主采集的下一次渲染（每天 2 次，最长约 6 小时）。
+# ─────────────────────────────────────────────────────────────
 
-# 防止重复并发：新的 scheduled run 启动时，取消还在跑的旧 run
+# 同一 workflow 内防重复：新 run 启动时取消还在跑的旧 run
 concurrency:
   group: aihot-data
   cancel-in-progress: true
 
 on:
   # 北京时间 08:00 / 20:00（GitHub Actions schedule 用 UTC，北京 = UTC+8）
-  # 与主采集（北京 02:00 / 09:00）错开，降低同时 push 撞车概率
+  # 与主采集（北京 02:00 / 09:00）错开
   schedule:
     - cron: '0 0 * * *'
     - cron: '0 12 * * *'
   # 手动触发
   workflow_dispatch:
-    inputs:
-      mode:
-        description: '运行模式'
-        required: false
-        default: 'full'
-        type: choice
-        options:
-          - full
-          - html-only
 
 jobs:
-  update:
+  fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 15
     permissions:
       contents: write
     env:
@@ -50,28 +52,31 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # AIHOT 热点：按天归档到 data/aihot_hot/YYYY-MM-DD.json + 更新当前快照
+      # AIHOT 热点：按天归档到 data/aihot_hot/YYYY-MM-DD.json + 更新当前快照。
+      # 不加「失败就忽略」的兜底：抓不到就让它失败（脚本在 0 条时以退出码 2 结束），
+      # 失败必须可见——静默通过正是这次数据停更 15 天没被发现的原因。
       - name: Fetch AIHOT hot topics
-        run: python scripts/fetch_aihot_hot.py || echo "⚠️ AIHOT 热点抓取失败，本次跳过"
-
-      # AIHOT 模型榜：救活此前停更的手动榜
-      - name: Fetch AIHOT model leaderboard
-        run: python scripts/fetch_model_leaderboard.py || echo "⚠️ AIHOT 模型榜抓取失败，本次跳过"
-
-      # 刷新页面：AIHOT 数据变化要反映到静态 HTML，必须重新生成。
-      # 传 key 供周报/月报 AI 编辑层使用；失败不阻断（数据已落盘，页面由下一次生成刷新）。
-      - name: Generate HTML
-        run: python scripts/generate_html.py --force || echo "⚠️ 页面生成失败，数据已保存，待下次刷新"
+        run: python scripts/fetch_aihot_hot.py
         env:
+          ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
+          ARK_MODEL: ${{ secrets.ARK_MODEL }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DOUBAO_API_KEY: ${{ secrets.DOUBAO_API_KEY }}
 
-      - name: Generate RSS feed
-        run: python generate_feed.py || echo "⚠️ RSS 生成失败，本次跳过"
+      - name: Fetch AIHOT model leaderboard
+        run: python scripts/fetch_model_leaderboard.py
 
-      # 自动提交：fetch + rebase 后 push，撞上主采集时自动合并，不自毁
-      - name: Auto-commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "AIHOT 数据更新 $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')"
-          file_pattern: 'data/aihot_hot.json data/aihot_hot/ data/model_leaderboard.json docs/'
+      # 数据检查点：只提交本板块自己的数据文件，绝不碰 docs/。
+      # file_pattern 精确列举，避免误提交其他流程的文件。
+      - name: Commit AIHOT data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/aihot_hot.json data/aihot_hot/ data/model_leaderboard.json
+          if git diff --staged --quiet; then
+            echo "AIHOT 数据无变化，跳过提交"
+          else
+            git commit -m "AIHOT 数据更新 $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')"
+            git push
+            echo "AIHOT 数据已提交"
+          fi

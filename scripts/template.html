@@ -507,7 +507,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
             <a href="{{ item.url }}" target="_blank" rel="noopener" class="f-hot-main">
               <span class="f-hot-rank">{{ item.rank }}</span>
               <span class="f-hot-title">{{ item.title }}</span>
-              <span class="f-hot-heat">{{ item.heat }}</span>
+              {%- if item.heat_change %}<span class="f-hot-heat">{{ item.heat_change }}</span>{% elif item.heat %}<span class="f-hot-heat">{{ item.heat }}</span>{% endif %}
             </a>
           </li>
           {% endfor %}
@@ -637,7 +637,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <a href="{{ item.url }}" target="_blank" rel="noopener" class="f-hot-main">
                   <span class="f-hot-rank">{{ item.rank }}</span>
                   <span class="f-hot-title">{{ item.title }}</span>
-                  {% if item.heat %}<span class="f-hot-heat">{{ item.heat }}</span>{% endif %}
+                  {%- if item.heat_change %}<span class="f-hot-heat">{{ item.heat_change }}</span>{% elif item.heat %}<span class="f-hot-heat">{{ item.heat }}</span>{% endif %}
                 </a>
               </li>
               {% endfor %}
@@ -794,7 +794,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
                 <a href="{{ item.url }}" target="_blank" rel="noopener" class="f-hot-main">
                   <span class="f-hot-rank">{{ item.rank }}</span>
                   <span class="f-hot-title">{{ item.title }}</span>
-                  {% if item.heat %}<span class="f-hot-heat">{{ item.heat }}</span>{% endif %}
+                  {%- if item.heat_change %}<span class="f-hot-heat">{{ item.heat_change }}</span>{% elif item.heat %}<span class="f-hot-heat">{{ item.heat }}</span>{% endif %}
                 </a>
               </li>
               {% endfor %}

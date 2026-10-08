@@ -3,30 +3,28 @@
 """抓取 AIHOT 热点榜 → data/aihot_hot.json
 
 用法:
-    /c/Users/16120/AppData/Local/Python/bin/python scripts/fetch_aihot_hot.py
+    python scripts/fetch_aihot_hot.py
 
 输出结构:
     data/aihot_hot.json
-    - generated_at: 抓取时间
-    - fetched_date: 日期
-    - items: 热点榜列表，每条含
-      - rank / title / heat(热度值) / heat_raw
-      - sources: 信源标注列表（"公众号：数字生命卡兹克" 等）
-      - summary: AI 综述（story 详情页 description）
-      - original_links: [{url, domain}] — story 详情页 isBasedOn 原始来源链接
-      - story_url: AIHOT story 详情页地址（备用）
+    - generated_at / fetched_date / source / items[]
+      items 每条含 rank / title / list_title / heat_change / sources
+      / summary / original_links[{url,domain}] / story_url
 
-说明:
-    - AIHOT 无公开 API，热点数据以 Next.js SSR 渲染。
-    - 列表从 /hot 页 JSON-LD ItemList 提取标题与 story 链接，
-      热度值与信源标注从渲染 DOM 提取。
-    - 每条 story 进详情页，从 JSON-LD NewsArticle 提取 headline/description/isBasedOn。
-    - 页面 HTML 通过 requests 直连抓取（复用 fetch_model_leaderboard.py 的降级模式）。
+2026-10 源站改版适配说明（第一性原理：抓 HTML 必然随源站改版失效，所以做三件事）
+    1. 编码：源站 header 不再声明 charset，requests 默认猜 ISO-8859-1 → 中文乱码。
+       页面 <meta charSet="utf-8">，故显式按 utf-8 解码。
+    2. 结构：新版前 3 名是 <article class="card">，第 4-10 名是 <ol><li>；
+       旧版的 hot-rank-row / hot-rank-link / dup-tooltip-item 与 JSON-LD ItemList 均已移除。
+       热度也从「142 热度值」改成「较 6 小时前 ↑46%」的相对涨跌。
+    3. 兜底：选择器未命中时，把页面可见文本交给 AI 提取（抗改版）；
+       两者都失败则**非零退出且不覆盖旧数据**——让失败可见，见 docs/ARCHITECTURE.md 规则 B。
 """
 
 import json
 import os
 import re
+import sys
 import time
 from datetime import datetime
 
@@ -41,8 +39,11 @@ HEADERS = {
                    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"),
 }
 
-MAX_ITEMS = 10  # 最多抓取的热点条数
-STORY_FETCH_INTERVAL = 0.4  # 进详情页的间隔秒数（防反爬）
+MAX_ITEMS = 10           # 最多抓取的热点条数
+STORY_FETCH_INTERVAL = 0.4   # 进详情页的间隔秒数（防反爬）
+MIN_EXPECTED_ITEMS = 5   # 低于此条数视为异常，打印警告（但不失败）
+
+_STORY_HREF = re.compile(r'^/story/')
 
 
 def _session():
@@ -51,82 +52,121 @@ def _session():
     return s
 
 
+def _decode_response(resp):
+    """按页面真实编码解码。
+
+    源站 2026-10 起 content-type 只写 text/html、不再带 charset，
+    requests 对无 charset 的 text/* 默认按 ISO-8859-1 解码 → 中文全乱码。
+    页面 meta 声明 utf-8，这里显式用 utf-8；有 charset 时仍尊重 header。
+    """
+    ctype = (resp.headers.get('content-type') or '').lower()
+    if 'charset=' in ctype:
+        return resp.text
+    return resp.content.decode('utf-8', errors='replace')
+
+
 def _fetch(session, url):
-    r = session.get(url, headers=HEADERS, timeout=30)
-    r.raise_for_status()
-    return r.text
+    resp = session.get(url, headers=HEADERS, timeout=30)
+    resp.raise_for_status()
+    return _decode_response(resp)
 
 
-def _extract_itemlist(html):
-    """从 JSON-LD 提取热点列表（ItemList）。"""
-    soup = BeautifulSoup(html, "html.parser")
-    for script in soup.find_all("script", type="application/ld+json"):
-        try:
-            data = json.loads(script.string or "")
-        except (json.JSONDecodeError, TypeError):
-            continue
-        if isinstance(data, dict) and data.get("@type") == "ItemList":
-            items = []
-            for el in data.get("itemListElement", []):
-                items.append({
-                    "name": el.get("name", ""),
-                    "story_url": el.get("url", ""),
-                })
-            if items:
-                return items
-    return []
+def _story_id(href):
+    return href.rstrip('/').split('/')[-1]
 
 
-def _parse_heat_and_sources(html, story_urls):
-    """从 /hot 渲染 DOM 提取热度值与信源标注，按 story 顺序对齐。"""
-    soup = BeautifulSoup(html, "html.parser")
-    rows = soup.find_all(class_="hot-rank-row")
-    result = []
-    seen = set()
+def _extract_heat_change(container):
+    """新版热度是「较 6 小时前 ↑46%」的相对涨跌（旧版是「142 热度值」绝对值）。"""
+    for span in container.find_all('span', attrs={'title': True}):
+        title = span.get('title') or ''
+        text = span.get_text(' ', strip=True)
+        if '较' in title and '%' in text:
+            return re.sub(r'\s+', ' ', text).strip()
+    return ''
+
+
+def _extract_summary(container):
+    para = container.find('p')
+    return para.get_text(' ', strip=True) if para else ''
+
+
+_RANK_ARIA = re.compile(r'热度排名第\s*(\d+)\s*位')
+
+
+def _extract_rank(container, fallback):
+    """名次：4-10 名用 aria-label="热度排名第 N 位"，前 3 名用 text-rank-N 类。"""
+    el = container.find('span', attrs={'aria-label': _RANK_ARIA})
+    if el:
+        m = _RANK_ARIA.search(el.get('aria-label') or '')
+        if m:
+            return int(m.group(1))
+    el = container.find('span', class_=re.compile(r'text-rank'))
+    if el:
+        m = re.search(r'(\d+)', el.get_text())
+        if m:
+            return int(m.group(1))
+    return fallback
+
+
+def _row_from_container(container, fallback_rank):
+    """从单个 article/li 容器提取一条热点；不含 /story/ 链接的容器返回 None。"""
+    a = container.find('a', href=_STORY_HREF)
+    if not a:
+        return None
+    href = a.get('href', '')
+    if not href:
+        return None
+    # 标题只取链接自身文本：状态标签（"发酵中"/"爆"/"新"）是链接的兄弟节点，
+    # 取 h3 全文会把它们粘进标题。
+    title = a.get_text(' ', strip=True)
+    if not title:
+        return None
+    return {
+        "rank": _extract_rank(container, fallback_rank),
+        "title": title,
+        "list_title": title,
+        "heat": None,                       # 新版不再提供绝对热度值
+        "heat_change": _extract_heat_change(container),
+        "sources": [],                      # 新版不再展示信源标注
+        "summary": _extract_summary(container),
+        "original_links": [],
+        "story_url": STORY_URL.format(_story_id(href)),
+    }
+
+
+def _parse_items(soup):
+    """适配 2026-10 改版。
+
+    新版把榜单拆成两块 DOM：前 3 名是 <article class="card">，第 4-10 名是 <ol><li>。
+    两块在文档里的先后顺序与榜单名次**并不一致**（实测第 3 名的 article 排在
+    第 4 名的 li 之后），所以必须分别解析、各自取名次，再按 rank 排序——
+    不能依赖 find_all 的文档顺序。
+
+    只认「含 /story/ 链接」的容器、不认具体 class 名（新版改用 Tailwind 工具类），
+    这样源站再次调整样式类名时仍能命中。
+    """
+    rows = []
+    for container in soup.find_all('article'):
+        row = _row_from_container(container, len(rows) + 1)
+        if row:
+            rows.append(row)
+    base = len(rows)
+    for i, container in enumerate(soup.find_all('li')):
+        row = _row_from_container(container, base + i + 1)
+        if row:
+            rows.append(row)
+
+    # 同一 story 只留首次出现，再按名次排序并重编号
+    seen, unique = set(), []
     for row in rows:
-        a = row.find(class_="hot-rank-link") or row.find("a", href=True)
-        if not a or not a.get("href"):
+        if row['story_url'] in seen:
             continue
-        href = a["href"]
-        if not href.startswith("/story/"):
-            continue
-        if href in seen:
-            continue
-        seen.add(href)
-        # 标题 = 列表行标题（hot-rank-link 文本）
-        title = a.get_text(strip=True)
-        # 热度值：summary 内 "142 热度值"
-        heat = None
-        details = row.find(class_="hot-rank-sources")
-        if details:
-            heat_m = re.search(r'(\d+)\s*热度值', details.get_text(" ", strip=True))
-            if heat_m:
-                heat = int(heat_m.group(1))
-        # 信源：dup-tooltip-item 内每条一个，过滤 "共 N 条围观票" 等统计项
-        sources = []
-        if details:
-            for item_el in details.find_all(class_="dup-tooltip-item"):
-                t = item_el.get_text(" ", strip=True)
-                if not t or t in sources or re.search(r'\d+\s*条围观票', t):
-                    continue
-                sources.append(t)
-        result.append({
-            "story_url": STORY_URL.format(href.rstrip("/").split("/")[-1]),
-            "title": title,
-            "heat": heat,
-            "sources": sources,
-        })
-    # 按列表顺序对齐（JSON-LD 的顺序为准）
-    by_url = {r["story_url"]: r for r in result}
-    ordered = []
-    for item in story_urls:
-        r = by_url.get(item["story_url"])
-        if r:
-            ordered.append(r)
-        else:
-            ordered.append({"story_url": item["story_url"], "title": item["name"],
-                            "heat": None, "sources": []})
-    return ordered
+        seen.add(row['story_url'])
+        unique.append(row)
+    unique.sort(key=lambda r: r['rank'])
+    for idx, row in enumerate(unique, 1):
+        row['rank'] = idx
+    return unique
 
 
 def _extract_newsarticle(html):
@@ -158,7 +198,7 @@ def _link_domain(url):
 
 
 def _dedupe_links(links):
-    """去重原始链接：同域名只保留第一条（如多条 x.com 推文只展示一个入口）。"""
+    """去重原始链接：同域名只保留第一条。"""
     seen_url, seen_domain, out = set(), set(), []
     for u in links:
         if not u or u in seen_url:
@@ -172,34 +212,105 @@ def _dedupe_links(links):
     return out
 
 
+def _visible_text(soup):
+    """提取页面可见文本（去 script/style），供 AI 兜底使用。"""
+    for tag in soup(["script", "style", "noscript"]):
+        tag.decompose()
+    lines = [ln.strip() for ln in soup.get_text("\n").split("\n")]
+    return "\n".join(ln for ln in lines if ln)
+
+
+_AI_PROMPT = """下面是 AIHOT 网站「热点榜」页面的可见文本。请提取榜单条目，输出 JSON。
+
+要求：
+- 只输出 JSON，不要解释、不要 markdown 代码块
+- 结构：{{"items": [{{"rank": 1, "title": "...", "summary": "...", "heat_change": "↑46%"}}]}}
+- title 是事件标题（不是站点导航/按钮文字）
+- summary 是事件摘要，没有就给空字符串
+- heat_change 形如 "↑46%" / "↓16%"，没有就给空字符串
+- 最多 10 条，按页面顺序
+
+页面文本：
+{text}
+"""
+
+
+def _ai_extract(text):
+    """选择器失效时的兜底：把页面可见文本交给 AI 提取结构化榜单。
+
+    这是「抗改版」的核心——只要内容还在页面上，样式类名变了也能读出来。
+    拿不到 AI 通道（未配 key 或总闸关闭）时返回空列表，由调用方走失败路径。
+    """
+    if not text:
+        return []
+    try:
+        try:
+            from providers import llm as _llm
+        except ImportError:
+            from scripts.providers import llm as _llm
+    except ImportError:
+        print("  ⚠️ AI 兜底不可用：无法导入 providers.llm")
+        return []
+    apis = _llm._chat_api_candidates()
+    if not apis:
+        print("  ⚠️ AI 兜底不可用：无可用通道（未配 key 或 AI_CALLS_ENABLED 关闭）")
+        return []
+    prompt = _AI_PROMPT.format(text=text[:12000])
+    for api in apis:
+        try:
+            resp = _llm._post_chat(api, prompt, max_tokens=2000, temperature=0, timeout=(10, 60))
+            if resp.status_code != 200:
+                print(f"  ⚠️ AI 兜底 {api['name']} 返回 {resp.status_code}，尝试下一个")
+                continue
+            raw = resp.json()['choices'][0]['message']['content'].strip()
+            raw = re.sub(r'^```(?:json)?\s*', '', raw).strip().rstrip('`').strip()
+            data = json.loads(raw)
+            out = []
+            for it in (data.get('items') or [])[:MAX_ITEMS]:
+                title = (it.get('title') or '').strip()
+                if not title:
+                    continue
+                out.append({
+                    "rank": len(out) + 1,
+                    "title": title,
+                    "list_title": title,
+                    "heat": None,
+                    "heat_change": (it.get('heat_change') or '').strip(),
+                    "sources": [],
+                    "summary": (it.get('summary') or '').strip(),
+                    "original_links": [],
+                    "story_url": "",
+                })
+            if out:
+                print(f"  🤖 AI 兜底提取 {len(out)} 条（{api['name']}）")
+                return out
+        except Exception as exc:
+            print(f"  ⚠️ AI 兜底 {api.get('name')} 失败: {exc}")
+            continue
+    return []
+
+
 def main():
     s = _session()
     hot_html = _fetch(s, HOT_URL)
+    soup = BeautifulSoup(hot_html, "html.parser")
 
-    itemlist = _extract_itemlist(hot_html)
-    if not itemlist:
-        print("WARN | /hot 页未找到 ItemList，尝试从 DOM 提取")
-    rows = _parse_heat_and_sources(hot_html, itemlist)
+    items = _parse_items(soup)
+    if not items:
+        print("⚠️ 主选择器未命中（源站可能再次改版），尝试 AI 兜底")
+        items = _ai_extract(_visible_text(soup))
 
-    items = []
-    for row in rows[:MAX_ITEMS]:
-        try:
-            story_html = _fetch(s, row["story_url"])
-            article = _extract_newsarticle(story_html)
-        except Exception as exc:
-            print(f"  ⚠️ story 详情失败: {row['title'][:40]} → {exc}")
-            article = {"headline": "", "description": "", "original_links": []}
-        time.sleep(STORY_FETCH_INTERVAL)
-        items.append({
-            "rank": len(items) + 1,
-            "title": article.get("headline") or row.get("title") or "",
-            "list_title": row.get("title") or "",
-            "heat": row.get("heat"),
-            "sources": row.get("sources") or [],
-            "summary": article.get("description") or "",
-            "original_links": _dedupe_links(article.get("original_links") or []),
-            "story_url": row.get("story_url") or "",
-        })
+    if not items:
+        print("ERROR | 未提取到任何热点（选择器与 AI 兜底均失败）。"
+              "保留旧数据不覆盖，退出码 2。", file=sys.stderr)
+        sys.exit(2)
+
+    if len(items) < MIN_EXPECTED_ITEMS:
+        print(f"⚠️ 仅提取到 {len(items)} 条（预期约 {MAX_ITEMS} 条），源站结构可能部分变化")
+
+    # 详情页不再抓取：源站改版后 story 详情页的 JSON-LD 只剩 BreadcrumbList，
+    # NewsArticle / isBasedOn 均已移除（原始来源链接不再对外提供）。
+    # original_links 保持为空，展示层会自动回退到 story_url（跳 AIHOT 详情页）。
 
     now = datetime.now().astimezone().isoformat(timespec="seconds")
     payload = {

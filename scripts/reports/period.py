@@ -68,6 +68,7 @@ def _load_aihot_archive(start_date, end_date, weekly=False):
                 'rank': len(items) + 1,
                 'title': title,
                 'heat': item.get('heat'),
+                'heat_change': item.get('heat_change') or '',
                 'url': url,
                 'date': date_key,
             })
@@ -97,6 +98,7 @@ def _aihot_items_to_list(data, limit=10, date_key=None):
             'rank': idx,
             'title': it.get('title') or it.get('list_title') or '',
             'heat': it.get('heat'),
+            'heat_change': it.get('heat_change') or '',
             'url': url,
             'date': date_key,
         })
