@@ -1,11 +1,27 @@
 {
   "version": 1,
-  "generated_at": "2026-10-08T09:22:06.388255+08:00",
+  "generated_at": "2026-10-08T14:11:33.121961+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-08T09:22:06.388255+08:00",
+      "observed_at": "2026-10-08T14:11:33.121961+08:00",
       "jobs": [
+        {
+          "id": "744000154310950",
+          "title": "Senior Software Engineer, Backend - Agent Exprience",
+          "url": "https://www.grab.careers/en/jobs/744000154310950/senior-software-engineer-backend-agent-exprience/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000154310252",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000154310252/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000154073189",
           "title": "Senior Software Engineer, iOS",
@@ -125,26 +141,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000153921139",
-          "title": "Senior Insider Threat Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000153921139/senior-insider-threat-engineer/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000153878207",
-          "title": "Senior Data Scientist (Product Analytics)",
-          "url": "https://www.grab.careers/en/jobs/744000153878207/senior-data-scientist-product-analytics/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-08T09:22:06.388255+08:00",
+      "observed_at": "2026-10-08T14:11:33.121961+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -187,7 +189,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-08T09:22:06.388255+08:00",
+      "observed_at": "2026-10-08T14:11:33.121961+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",

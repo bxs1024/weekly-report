@@ -3233,5 +3233,30 @@
   "score": 6,
   "first_seen": "2026-10-08",
   "samples": 1
+ },
+ "sea|strategy|150000": {
+  "score": 6,
+  "first_seen": "2026-10-07",
+  "samples": 1
+ },
+ "revolut|strategy|350m": {
+  "score": 9,
+  "first_seen": "2026-10-08",
+  "samples": 1
+ },
+ "singtel|strategy|sitnvidia": {
+  "score": 4,
+  "first_seen": "2026-10-08",
+  "samples": 1
+ },
+ "bitcoin|other|83000": {
+  "score": 5,
+  "first_seen": "2026-10-08",
+  "samples": 1
+ },
+ "bytedance|funding|300m": {
+  "score": 4,
+  "first_seen": "2026-10-07",
+  "samples": 1
  }
 }
