@@ -33,6 +33,8 @@
 | **旧文不刷屏** | 已发布超 48 小时的存量按原文时间归档，不进今日批次 | `select_mature_main_date()` |
 | **迁移不可改写** | 已落库数据结构的语义变更必须向后兼容（存量事件无新字段时走旧路径） | 全项目 |
 | **不提交密钥与缓存** | `.env`、`data/.cache/`、`.data/`、`data/ai_receipts.json`、`__pycache__` 不入库 | `.gitignore` |
+| **人工维护资产不得被采集产物覆盖** | `data/` 下混着两类文件，合并/回滚时**必须分开对待**：**采集产物**（`events.json`、`aihot_hot.json`、`model_leaderboard.json`…）随时可由流程重算，冲突时取线上；**人工维护资产**（`site_updates.json`…）只由人手写、重算不出来，冲突时取本地/取较新。混为一谈的代价：2026-10-08 合并线上时按「数据一律取线上」执行 `git checkout origin/main -- data/`，把本地未推送的 V6.0 更新日志整条覆盖——日志断档、页面照常生成、无任何告警 | 合并 `data/` 前先按此分类；人工维护资产不得被线上版本无条件覆盖 |
+| **人工维护的东西必须有反向校验** | 纯手工维护的文件（`site_updates.json`）全仓没有任何脚本写它，所以「忘了补记」和「被覆盖回滚」都不会被任何检查发现——失败与成功长得一样。`check_updates_log_sync()` 只做单向校验（已记录的版本有没有渲染进页面），管不到「代码动了、日志没记」这一头。凡是有手工维护产物，都要配一条能发现「它没跟上」的反向校验 | `check_data_health.py::check_updates_log_freshness()`：最近产品代码提交日期 vs 日志最新日期，超 3 天宽限即告警（拿不到 git 历史时静默跳过，不误报） |
 | **路径锚定仓库根** | 读写 `data/` 等仓库内路径必须基于 `__file__` 推导，禁止用相对路径（相对路径随调用进程 CWD 漂移，会把同一份状态写成两份）。统一从 `repo_paths.py` 取 `REPO_ROOT`/`DATA_DIR`/`DOCS_DIR`/`repo_path()`/`data_path()`/`docs_path()`，不要各文件重复推导 `_REPO_ROOT` | `repo_paths.py` 唯一入口 |
 | ↳ 豁免 | 一次性/离线诊断脚本（`cleanup_2026-*.py`、`verify_signal_score.py`、`audit_scope_misfits.py`、`calibrate_weights.py`）保持裸相对路径，约定只在仓库根手动执行 | 上述文件 |
 | ↳ `git_ref` 例外 | 经 `git show <ref>:<path>` 读取时必须用仓库相对路径，此时不要传绝对路径 | `source_health_report.py`、`source_conversion_report.py` 的 `_load_json` |

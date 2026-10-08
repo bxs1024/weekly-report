@@ -7,6 +7,7 @@ import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 from collections import Counter
 from datetime import datetime, timedelta, timezone
@@ -538,6 +539,86 @@ def check_updates_log_sync():
     return failures
 
 
+# 更新日志滞后宽限期（天）：代码先动、日志晚几天补是正常节奏，超过这个天数才算断档。
+LOG_LAG_GRACE_DAYS = 3
+
+# 产品代码路径：只有改动这些才需要更新日志。
+# 测试文件与验收工具排除在外——加测试不需要写更新日志。
+# 含 .github/workflows：workflow 改动直接决定产品行为（采集时点、提交范围、
+# 失败是否可见），本次 AIHOT 事故与流水线改造都落在这些文件上。
+_CODE_PATHSPEC = (
+    'scripts',
+    ':(exclude)scripts/test_*.py',
+    ':(exclude)scripts/run_tests.py',
+    '.github/workflows',
+    'generate_feed.py',
+    'requirements.txt',
+)
+
+
+def latest_code_commit_date():
+    """最近一次改动产品代码的提交日期（YYYY-MM-DD）。
+
+    浅克隆（CI 默认 fetch-depth=1）拿不到历史，或本机没有 git 时返回 None，
+    由调用方静默跳过——拿不到证据就不报警，避免误报。
+
+    用 cwd=REPO_ROOT 锚定仓库根（架构契约「路径锚定仓库根」）：paths 里的
+    'scripts' 是相对路径，若跟随调用进程 CWD 漂移（例如从 scripts/ 目录启动），
+    git 会找不到该路径而静默返回空结果。
+    """
+    try:
+        result = subprocess.run(
+            ['git', 'log', '-1', '--format=%cs', '--', *_CODE_PATHSPEC],
+            capture_output=True, text=True, timeout=10, cwd=REPO_ROOT,
+        )
+    except (OSError, subprocess.SubprocessError):
+        return None
+    if result.returncode != 0:
+        return None
+    return result.stdout.strip() or None
+
+
+def check_updates_log_freshness(grace_days=None):
+    """防「代码改了但日志没记」。
+
+    data/site_updates.json 是纯人工维护的——全仓没有任何脚本写它。所以「改了代码
+    忘记补记」和「文件被覆盖回滚」都不会被任何检查发现，页面照常生成、日志停在旧
+    版本，失败与成功长得一样。check_updates_log_sync() 只做单向校验（已记录的版本
+    有没有渲染进页面），管不到这一头。
+
+    这里用 git 历史做交叉校验：最近一次产品代码提交若比日志最新日期新出 grace_days
+    以上，说明代码先动了、日志没跟上。
+    """
+    if grace_days is None:
+        grace_days = LOG_LAG_GRACE_DAYS
+    failures = []
+    code_date = latest_code_commit_date()
+    if not code_date:
+        return failures
+    try:
+        with open(data_path('site_updates.json'), encoding='utf-8') as f:
+            updates = json.load(f)
+    except Exception:  # noqa: BLE001
+        # 文件缺失/损坏由 check_updates_log_sync 负责报，这里不重复报
+        return failures
+    if not updates:
+        return failures
+    log_date = max((u.get('date') or '') for u in updates)
+    if not log_date:
+        return failures
+    try:
+        lag = (datetime.strptime(code_date, '%Y-%m-%d')
+               - datetime.strptime(log_date, '%Y-%m-%d')).days
+    except ValueError:
+        return failures
+    if lag > grace_days:
+        failures.append(
+            f"更新日志断档：最近一次产品代码提交 {code_date} 比日志最新日期 {log_date} "
+            f"新 {lag} 天（宽限 {grace_days} 天），请补记 data/site_updates.json"
+        )
+    return failures
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--quick', action='store_true', help='Read persisted health facts without rebuilding reports')
@@ -565,6 +646,7 @@ def main():
         print_report(report)
         failures = collect_failures(report, args)
     failures += check_updates_log_sync()
+    failures += check_updates_log_freshness()
     for failure in failures:
         print(f"WARNING: {failure}")
     if args.strict and failures:

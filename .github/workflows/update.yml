@@ -333,6 +333,10 @@ jobs:
     if: github.event_name != 'workflow_dispatch' || inputs.mode != 'html-only'
     steps:
       - uses: actions/checkout@v4
+        with:
+          # 更新日志新鲜度校验要读 git 历史（最近一次产品代码提交日期），
+          # 默认浅克隆只有 1 个提交会让该检查静默跳过。
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'

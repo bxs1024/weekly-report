@@ -5,6 +5,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
+import check_data_health as cdh
 from check_data_health import (
     _future_event_count,
     build_health_report,
@@ -14,6 +15,7 @@ from check_data_health import (
     print_report,
 )
 from generate_html import build_company_cards, build_date_panel
+from repo_paths import data_path, repo_path
 from run_metrics import latest_run_metrics, write_run_metrics
 
 
@@ -207,6 +209,78 @@ def test_date_panel_suppresses_stale_rolling_clusters():
     assert [event['date'] for event in panel['evidence_events']] == ['2026-05-30']
 
 
+def _log_latest_date():
+    with open(data_path('site_updates.json'), encoding='utf-8') as f:
+        updates = json.load(f)
+    return max(u['date'] for u in updates)
+
+
+def test_updates_log_freshness_skips_when_git_history_unavailable():
+    """浅克隆拿不到历史时不得报警：拿不到证据就不报，否则 CI 会天天空喊狼来了。"""
+    original = cdh.latest_code_commit_date
+    cdh.latest_code_commit_date = lambda: None
+    try:
+        assert cdh.check_updates_log_freshness() == []
+    finally:
+        cdh.latest_code_commit_date = original
+
+
+def test_updates_log_freshness_flags_code_newer_than_log():
+    """代码先动了、日志没跟上 → 必须报出来。
+
+    这是本次事故的复发防线：site_updates.json 是纯人工维护的，全仓没有脚本写它，
+    此前「改了代码忘补日志」和「文件被覆盖回滚」都不会被任何检查发现。
+    """
+    original = cdh.latest_code_commit_date
+    cdh.latest_code_commit_date = lambda: '2099-12-31'
+    try:
+        failures = cdh.check_updates_log_freshness()
+    finally:
+        cdh.latest_code_commit_date = original
+    assert len(failures) == 1
+    assert '更新日志断档' in failures[0]
+    assert '2099-12-31' in failures[0]
+
+
+def test_updates_log_freshness_respects_grace_window():
+    """宽限期内不报：代码今天动、日志晚一两天补是正常节奏。"""
+    base = datetime.strptime(_log_latest_date(), '%Y-%m-%d')
+    original = cdh.latest_code_commit_date
+    try:
+        within = (base + timedelta(days=cdh.LOG_LAG_GRACE_DAYS)).strftime('%Y-%m-%d')
+        cdh.latest_code_commit_date = lambda: within
+        assert cdh.check_updates_log_freshness() == []
+
+        beyond = (base + timedelta(days=cdh.LOG_LAG_GRACE_DAYS + 1)).strftime('%Y-%m-%d')
+        cdh.latest_code_commit_date = lambda: beyond
+        assert len(cdh.check_updates_log_freshness()) == 1
+    finally:
+        cdh.latest_code_commit_date = original
+
+
+def test_updates_log_covers_latest_code_commit():
+    """真实仓库不变量：日志最新日期必须追上最近一次产品代码提交（含宽限）。
+
+    V6.0 曾整条丢失（merge 时 data/ 被线上版本覆盖）而无人察觉，页面照常生成、
+    日志停在旧版本——失败与成功长得一样。这条把「日志必须跟上代码」变成可验证的事实。
+    """
+    code_date = cdh.latest_code_commit_date()
+    if not code_date:
+        return  # 浅克隆环境跳过
+    log_date = _log_latest_date()
+    lag = (datetime.strptime(code_date, '%Y-%m-%d')
+           - datetime.strptime(log_date, '%Y-%m-%d')).days
+    assert lag <= cdh.LOG_LAG_GRACE_DAYS, (
+        f'日志最新日期 {log_date} 落后最近代码提交 {code_date} {lag} 天，请补记 data/site_updates.json'
+    )
+
+
+def test_updates_log_freshness_is_wired_into_main():
+    """光有函数没接进 main 等于没做——与 P2/P3「模块建好没人调用」同类坑。"""
+    source = Path(repo_path('scripts', 'check_data_health.py')).read_text(encoding='utf-8')
+    assert 'failures += check_updates_log_freshness()' in source
+
+
 if __name__ == '__main__':
     test_current_data_health_contract()
     test_health_report_prints_observation_failures()
@@ -222,4 +296,9 @@ if __name__ == '__main__':
     test_company_card_uses_observation_status_when_no_event_exists()
     test_date_panel_does_not_leak_current_day_content()
     test_date_panel_suppresses_stale_rolling_clusters()
+    test_updates_log_freshness_skips_when_git_history_unavailable()
+    test_updates_log_freshness_flags_code_newer_than_log()
+    test_updates_log_freshness_respects_grace_window()
+    test_updates_log_covers_latest_code_commit()
+    test_updates_log_freshness_is_wired_into_main()
     print('data health tests passed')
