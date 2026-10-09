@@ -1,293 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-10-08</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-10-09</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-10-08T23:28:04Z</updated>
+  <updated>2026-10-09T07:22:37Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>英德启动工业科技走廊，加速AI和深科技</title>
-    <link href="https://tech.eu/2026/10/08/uk-and-germany-launch-industrial-tech-corridor-to-accelerate-ai-and-deeptech-growth/"/>
-    <id>tag:weekly-report,2026:event-3ea0dd6f</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;UK and Germany launch industrial tech corridor to accelerate AI and deeptech growth&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英国和德国启动工业科技走廊计划，以加速AI和深科技发展。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲国家级AI和深科技战略合作，跨境研发和产业落地项目将获政策支持&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
+    <title>TCS股价涨3.5%，AI收入增20%</title>
+    <link href="https://www.techinasia.com/news/indias-tcs-shares-rise-35-ai-revenue-grows-20"/>
+    <id>tag:weekly-report,2026:event-1ac9156d</id>
+    <published>2026-10-09T00:00:00Z</published>
+    <updated>2026-10-09T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;India’s TCS shares rise 3.5% as AI revenue grows 20%&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度IT服务巨头塔塔咨询服务（TCS）股价上涨3.5%，其AI相关业务收入同比增长20%。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度IT服务龙头AI业务高增长，验证企业AI服务需求，为全球AI解决方案供应商和印度IT外包生态带来合作信号。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>日本餐厅预订点击量增5.8倍，NAVER加码本地餐饮服务</title>
-    <link href="https://www.navercorp.com/en/media/pressReleasesDetail?seq=10034721"/>
-    <id>tag:weekly-report,2026:event-8c2d291c</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Users Clicking to Book Restaurants in Japan Up 5.8-Fold in a Year; NAVER to Step Up Local Dining Discovery and Reservations&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;日本餐厅在线预订点击量一年内增长5.8倍，NAVER宣布加强本地餐饮发现和预订服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本餐饮数字化需求爆发，NAVER加大本地生活服务投入，为日本餐饮SaaS和支付服务商带来合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 公司：Naver | 来源：Naver&lt;/p&gt;</summary>
+    <title>西班牙Autentic AI获€1.5M融资</title>
+    <link href="https://tech.eu/2026/10/09/spanish-autentic-ai-raises-eur15m-to-accelerate-ai-powered-market-research/"/>
+    <id>tag:weekly-report,2026:event-22bad351</id>
+    <published>2026-10-09T00:00:00Z</published>
+    <updated>2026-10-09T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Spanish Autentic AI raises €1.5M to accelerate AI-powered market research&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;西班牙AI市场研究公司Autentic AI完成150万欧元融资，以加速其AI驱动的市场研究业务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI市场研究赛道获资本注入，为市场调研行业提供AI替代方案和数据分析工具&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Cloudflare Radar完成重新设计</title>
-    <link href="https://blog.cloudflare.com/radar-redesign/"/>
-    <id>tag:weekly-report,2026:event-9e70e5a7</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Bridging technical depth and usability: The story behind Radar’s redesign&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare发布Radar产品重新设计，提升技术深度与易用性。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球网络监测工具Radar改版提升可用性，为网络安全分析市场提供更直观的数据洞察&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Blog&lt;/p&gt;</summary>
+    <title>中国RISC-V AI芯片公司EVAS融资480亿日元</title>
+    <link href="https://36kr.jp/503091/"/>
+    <id>tag:weekly-report,2026:event-22eb28ab</id>
+    <published>2026-10-09T00:00:00Z</published>
+    <updated>2026-10-09T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;RISC-VでAI半導体に挑む中国「EVAS」、480億円調達　車載からデータセンターへ&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国RISC-V AI芯片公司EVAS完成480亿日元（约3.2亿美元）融资，资金将用于从车载芯片向数据中心市场扩展。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国RISC-V AI芯片公司获大额融资，挑战ARM/x86生态，为数据中心和车载芯片供应链带来新选择。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Revolut拟投S$350M扩张新加坡业务</title>
-    <link href="https://fintechnews.sg/138710/digital-banking-news-singapore/revolut-singapore-350-million-investment-expansion/"/>
-    <id>tag:weekly-report,2026:event-42e966a7</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Revolut Plans New Singapore Office, Targets S$350 Million Investment&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Revolut计划在新加坡开设新办公室，并承诺投资3.5亿新加坡元（约2.6亿美元）用于本地扩张。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;英国金融科技巨头重金押注新加坡，东南亚数字银行竞争格局将迎来强敌&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>新加坡通过数字基础设施韧性法案</title>
+    <link href="https://fintechnews.sg/138783/cloud/singapore-data-centres-digital-infrastructure-bill/"/>
+    <id>tag:weekly-report,2026:event-a559936d</id>
+    <published>2026-10-09T00:00:00Z</published>
+    <updated>2026-10-09T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Singapore Passes Bill to Address Risks Behind Digital Service Outages&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡通过法案，针对数据中心和数字服务中断风险进行监管，以增强数字基础设施韧性。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡立法强化数字服务韧性，为云服务商和数据中心运营商带来合规和升级需求&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>特朗普宣布$2.4B AI信贷支持联邦科研</title>
-    <link href="https://thenextweb.com/news/trump-24bn-ai-science-pledges-europe"/>
-    <id>tag:weekly-report,2026:event-11058273</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Trump to unveil $2.4B in AI credits to boost federal research&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;特朗普政府宣布将投入24亿美元AI信贷，以促进联邦科研。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国联邦AI科研资金注入，高校和科研机构将增加AI算力采购，云服务商受益&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>Anyflo推出企业稳定币支付方案</title>
+    <link href="https://www.finextra.com/newsarticle/48561/anyflo-emerges-from-stealth-to-simplify-stablecoin-payments-for-enterprises?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
+    <id>tag:weekly-report,2026:event-fc3a5765</id>
+    <published>2026-10-09T00:00:00Z</published>
+    <updated>2026-10-09T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Anyflo emerges from stealth to simplify stablecoin payments for enterprises&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;稳定币支付初创公司Anyflo结束隐身模式，推出面向企业的稳定币支付简化解决方案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球企业支付领域稳定币应用加速，为跨境支付和供应链金融提供新选项&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Unity发布Spark AI游戏工具并集成Google Playground</title>
-    <link href="https://www.pocketgamer.biz/unity-unveils-spark-ai-game-maker-with-google-playground-integration/"/>
-    <id>tag:weekly-report,2026:event-8e409075</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Unity unveils Spark AI game maker with Google Playground integration&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Unity推出Spark AI游戏制作工具，并与Google Playground集成，支持AI辅助游戏开发。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球游戏引擎巨头Unity推出AI原生开发工具，为中小游戏团队降低开发门槛，带动AI游戏生态合作。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>渣打VCC平台AUM达$2.6B</title>
-    <link href="https://fintechnews.sg/138758/wealthtech/standard-chartered-vcc-platform-aum/"/>
-    <id>tag:weekly-report,2026:event-8d8f81d1</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;StanChart VCC Platform Tops US$2.6 Billion in AUM as It Adds Tenth Fund&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;渣打银行VCC平台管理资产规模突破26亿美元，并新增第十只基金。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;渣打新加坡VCC平台规模持续增长，为亚太财富管理公司和基金服务商提供合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：北美 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>VEIR获$110M融资开发超导电力系统</title>
-    <link href="https://ventureburn.com/veir-raises-110m-superconducting-power-ai-data-centres/"/>
-    <id>tag:weekly-report,2026:event-7b95efea</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;VEIR Raises $110M to Scale Superconducting Power Systems for AI Data Centres&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国超导电力系统公司VEIR完成1.1亿美元融资，用于开发面向AI数据中心的高效超导输电技术。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI数据中心电力需求激增，超导输电技术成为解决能耗瓶颈的关键，为电力基础设施供应商带来新合作方向。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>AI排行榜平台Arena估值达$3.1B</title>
-    <link href="https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/"/>
-    <id>tag:weekly-report,2026:event-69580a00</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI模型排行榜平台Arena在10个月内估值接近翻倍，达到31亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI评测平台估值飙升，反映AI模型评估赛道热度，为模型评测工具和AI基础设施服务商带来投资与合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Vesta获$30M融资，主攻抵押贷款AI代理</title>
-    <link href="https://techcrunch.com/2026/10/08/vesta-raises-30m-as-lenders-adopt-ai-agents/"/>
-    <id>tag:weekly-report,2026:event-5c4c245a</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Vesta raises $30M to bring swarms of agents to mortgage lenders&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Vesta完成3000万美元融资，用于向抵押贷款机构提供AI代理集群服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国抵押贷款行业AI代理应用加速，金融科技SaaS供应商迎来集成机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Verso获$6M融资，聚焦消费者智能</title>
-    <link href="https://tech.eu/2026/10/08/verso-raises-6m-to-bring-consumer-intelligence-into-business-decision-making/"/>
-    <id>tag:weekly-report,2026:event-ff8bef23</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Verso raises $6M to bring consumer intelligence into business decision-making&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Verso完成600万美元融资，用于将消费者洞察融入企业决策。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲消费者数据分析赛道获小额融资，企业决策智能化需求为数据服务商提供市场&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Manus获$500M融资，从Meta拆分后独立发展</title>
-    <link href="https://www.mobileworldlive.com/big-tech/ai-start-up-manus-raises-500m-after-meta-split/"/>
-    <id>tag:weekly-report,2026:event-2b866e01</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AI start-up Manus raises $500M after Meta split&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI初创公司Manus在从Meta拆分后完成5亿美元融资，资金将用于扩展AI产品研发和市场布局。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI赛道持续火热，Manus独立融资后有望加速企业级AI应用落地，为云服务和算力供应商带来新需求。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>新加坡MAS要求金融机构一年内准备AI风险规则</title>
-    <link href="https://e27.co/mas-gives-singapore-financial-firms-one-year-to-prepare-for-ai-risk-rules-20261008/"/>
-    <id>tag:weekly-report,2026:event-e4741672</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;MAS gives Singapore’s financial firms one year to prepare for AI risk rules&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡金融管理局（MAS）给予当地金融机构一年时间准备，以符合新的AI风险管理规则。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡金融监管机构出台AI风险管理规则，将推动金融机构采购合规与风控解决方案，为AI治理工具商带来机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>腾讯拟发$5B离岸债券用于AI支出</title>
-    <link href="https://www.techinasia.com/news/tencent-weighs-up-to-5b-offshore-bond-sale-for-ai-spending"/>
-    <id>tag:weekly-report,2026:event-878a1929</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Tencent weighs up to $5b offshore bond sale for AI spending&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;腾讯考虑发行高达50亿美元的离岸债券，以筹集AI支出资金。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国科技巨头加大AI投入，离岸债券发行将影响亚洲美元债市场，AI基础设施供应商受益&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>三星预计季度利润$80B创纪录</title>
-    <link href="https://www.mobileworldlive.com/network-tech/samsung-forecasts-80b-profit-in-record-quarter/"/>
-    <id>tag:weekly-report,2026:event-d355bb5c</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Samsung forecasts $80B profit in record quarter&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;三星电子预计本季度利润达800亿美元，创历史新高，主要受AI芯片和存储需求强劲推动。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;韩国半导体巨头利润创纪录，反映AI算力需求爆发，为上游设备和材料供应商带来持续订单。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：earnings | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SCI Ecommerce濒临倒闭</title>
-    <link href="https://www.techinasia.com/ipo-hopeful-sci-ecommerces-nears-collapse"/>
-    <id>tag:weekly-report,2026:event-5694b857</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Once an IPO hopeful, SCI Ecommerce nears collapse&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;曾有望IPO的SCI Ecommerce公司濒临倒闭。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚电商服务商经营恶化，供应链风险上升，为电商平台和物流服务商提供替代合作机会&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Revolut拟投$274M于新加坡，聚焦盈利</title>
-    <link href="https://www.techinasia.com/revolut-invest-274m-sg-years"/>
-    <id>tag:weekly-report,2026:event-f74a3a69</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Revolut to invest $274m in SG over 5 years, focus on profit&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Revolut计划在未来5年内向新加坡投资2.74亿美元，重点关注盈利能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲数字银行巨头加大东南亚布局，为新加坡金融科技生态和本地支付合作方带来机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>渣打银行在新加坡推出数字资产托管</title>
-    <link href="https://fintechnews.sg/138723/digitalassets/standard-chartered-digital-asset-custody-singapore/"/>
-    <id>tag:weekly-report,2026:event-1db29adf</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;StanChart to Offer Digital Asset Custody Services in Singapore&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;渣打银行宣布将在新加坡提供数字资产托管服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;英国老牌银行进军亚洲数字资产托管，新加坡加密合规基础设施竞争加剧&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>MJ Studios强调以游戏品质为核心</title>
-    <link href="https://www.pocketgamer.biz/mj-studios-idiris-mustaf-weve-always-preferred-to-let-our-games-speak-for-us/"/>
-    <id>tag:weekly-report,2026:event-c1d0fd47</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;MJ Studios&amp;#x27; Mohammed Mohammed: &amp;quot;We’ve always preferred to let our games speak for us&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;MJ Studios负责人Mohammed Mohammed表示公司更倾向于让游戏本身说话，而非过度宣传。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美独立游戏工作室坚持产品导向策略，为发行商和渠道方提供精品游戏合作标的。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：北美 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>VodafoneThree上调成本节约目标至£1B</title>
-    <link href="https://www.mobileworldlive.com/vodafone/vodafonethree-ups-cost-savings-target-to-1b/"/>
-    <id>tag:weekly-report,2026:event-0f21a7cf</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;VodafoneThree ups cost-savings target to £1B&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英国电信运营商Vodafone与Three的合资公司VodafoneThree将成本节约目标上调至10亿英镑，较此前目标有所提高。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;英国电信市场整合后，成本协同效应目标上调，为供应链和IT服务商带来优化合同与降本合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Databricks推出Funke原生HL7v2解析</title>
-    <link href="https://www.databricks.com/blog/introducing-funke-native-hl7v2-parsing-databricks"/>
-    <id>tag:weekly-report,2026:event-67cdf1d4</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Introducing Funke: Native HL7v2 Parsing on Databricks&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Databricks推出Funke，原生支持HL7v2医疗数据解析，扩展其数据平台在医疗领域的应用。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球医疗数据平台原生支持HL7v2标准，降低医疗数据集成门槛，为亚太医疗IT服务商提供新工具&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Databricks | 来源：Databricks Blog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>比特币83,000美元关口承压，机构需求成关键</title>
-    <link href="https://e27.co/bitcoins-us83000-test-can-institutional-demand-hold-the-line-20261008/"/>
-    <id>tag:weekly-report,2026:event-56cfc682</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Bitcoin’s US$83,000 test: Can institutional demand hold the line?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;文章分析比特币价格在83,000美元关口面临考验，探讨机构需求能否支撑当前价位。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美加密货币市场机构资金动向影响全球数字资产价格，为亚洲交易平台和托管服务商提供风控参考&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：other | 地区：北美 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>NAVER探索与墨西哥政府合作共建AI生态</title>
-    <link href="https://www.navercorp.com/en/media/pressReleasesDetail?seq=10034722"/>
-    <id>tag:weekly-report,2026:event-6b4102e9</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;NAVER Explores Partnerships to Help Build Mexico’s AI Ecosystem in Talks with Government and Industry Leaders&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;韩国互联网公司NAVER正与墨西哥政府和行业领袖探讨合作，以帮助建设墨西哥的AI生态系统。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;拉美AI生态建设需求旺盛，韩国科技巨头NAVER携技术经验进入，为当地AI初创和云服务商带来合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：拉美 | 公司：Naver | 来源：Naver&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Big Indie Pitch首次亮相巴黎游戏周</title>
-    <link href="https://www.pocketgamer.biz/the-big-indie-pitch-heads-to-paris-games-week-for-the-first-time/"/>
-    <id>tag:weekly-report,2026:event-1fc9564f</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The Big Indie Pitch heads to Paris Games Week for the first time&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;The Big Indie Pitch活动首次登陆巴黎游戏周，为独立游戏开发者提供展示和对接机会。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲独立游戏展示活动扩张至巴黎，为当地开发者提供发行商和投资方对接渠道。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Wise因软件错误将代付客户税务账单</title>
-    <link href="https://www.finextra.com/newsarticle/48554/wise-to-pay-clients-tax-bills-after-third-party-software-error?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-3f29b703</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Wise to pay clients&amp;#x27; tax bills after third-party software error&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;跨境支付公司Wise因第三方软件错误导致客户税务账单问题，宣布将承担相关费用。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球跨境支付巨头因第三方软件故障承担财务责任，凸显金融科技运营风险管理和客户信任维护的重要性&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Inner Sky Labs发布物理AI基础模型</title>
-    <link href="https://inc42.com/buzz/miko-maker-inner-sky-labs-unveils-foundation-models-for-physical-ai/"/>
-    <id>tag:weekly-report,2026:event-4648c216</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Miko Maker Inner Sky Labs Unveils Foundation Models For Physical AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Miko制造商Inner Sky Labs发布了面向物理AI的基础模型，旨在推动具身智能发展。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度具身智能赛道出现新基础模型，为机器人硬件厂商和AI应用开发者提供底层技术合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Backbase推出AI对话银行服务</title>
-    <link href="https://fintechnews.sg/138756/ai/backbase-conversational-banking-ai-agents/"/>
-    <id>tag:weekly-report,2026:event-b0dce8f2</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Backbase Rolls Out Conversational Banking for Voice and Text Requests&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Backbase推出对话式银行服务，支持语音和文本请求，由AI代理驱动。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太银行SaaS供应商推出AI代理功能，为区域银行提供客户交互升级方案，带动银行AI采购需求。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PUBG Mobile Light更名Flash</title>
-    <link href="https://www.pocketgamer.biz/pubg-mobile-light-renamed-to-pubg-mobile-flash-ahead-of-launch/"/>
-    <id>tag:weekly-report,2026:event-2a0c086e</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;PUBG Mobile Light renamed to PUBG Mobile Flash ahead of launch&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;PUBG Mobile Light在正式发布前更名为PUBG Mobile Flash，面向低端设备优化。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球头部手游推出轻量版并更名，瞄准新兴市场低端设备用户，为渠道商和广告平台带来流量机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>创业者瞄准前罪犯市场</title>
-    <link href="https://techcrunch.com/2026/10/08/a-startup-founder-who-served-time-in-prison-is-looking-to-court-an-untapped-market-ex-cons/"/>
-    <id>tag:weekly-report,2026:event-6a99e9e2</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;A startup founder who served time in prison is looking to court an untapped market: ex-cons&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一位曾入狱的创业者在服刑后创办公司，瞄准前罪犯这一未被充分开发的市场。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国社会重返社会服务市场存在空白，创业公司切入特殊人群服务，为就业培训与金融科技带来新场景。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Singtel RE:AI 与 SIT-NVIDIA 中心合作，推动企业 AI 部署。</title>
-    <link href="https://e27.co/singtels-reai-partners-sit-nvidia-centre-to-tackle-enterprise-ai-deployment-gap-20261008/"/>
-    <id>tag:weekly-report,2026:event-ef056b5f</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Singtel’s RE:AI partners SIT-NVIDIA centre to tackle enterprise AI deployment gap&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡电信的 RE:AI 部门与 SIT-NVIDIA 中心合作，旨在解决企业 AI 部署差距。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚电信巨头与英伟达合作，将加速本地企业 AI 落地，为算力服务和解决方案提供商创造机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>三星Q3利润因AI芯片预计大增</title>
-    <link href="https://www.techinasia.com/news/samsung-electronics-forecasts-q3-profit-surge-ai-chips"/>
-    <id>tag:weekly-report,2026:event-03cce1a5</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Samsung Electronics forecasts Q3 profit surge on AI chips&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;三星电子预测第三季度利润因AI芯片需求激增而大幅增长，具体数字未披露。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太半导体巨头受益于AI芯片需求，供应链相关企业可关注其产能扩张和合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>ThredUp CEO称AI成本意外但可接受</title>
-    <link href="https://www.retaildive.com/news/thredup-ceo-ai-costs/831921/"/>
-    <id>tag:weekly-report,2026:event-b4eb7b9b</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;ThredUp CEO on AI costs: ‘I was both surprised and didn’t care’&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;二手服饰电商ThredUp CEO在财报电话会议中表示对AI成本感到惊讶但不在意，暗示AI投入对财务影响可控。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国电商公司AI投入成本引发关注，为AI成本优化和零售科技供应商提供市场信号&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：全球 | 来源：Retail Dive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>行业分析：创意供给过剩，可靠产能不足。</title>
-    <link href="https://e27.co/creative-supply-is-large-dependable-production-capacity-is-not-20261004/"/>
-    <id>tag:weekly-report,2026:event-a738cab0</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Creative supply is large, dependable production capacity is not&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;行业分析指出，创意供给充足，但可靠的生产能力不足。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚内容产业面临产能瓶颈，为具备规模化制作能力的供应商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>探讨云时代平台忠诚度与支出策略</title>
-    <link href="https://ventureburn.com/does-platform-loyalty-still-support-smarter-spending-in-the-cloud-era/"/>
-    <id>tag:weekly-report,2026:event-f5df8642</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Does Platform Loyalty Still Support Smarter Spending in the Cloud Era&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;文章探讨云时代平台忠诚度是否仍能支持更明智的支出决策，分析企业云采购策略变化。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲企业云支出策略讨论，多云管理与成本优化工具在非洲市场存在机会。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>印度将发布AI监管咨询文件</title>
-    <link href="https://inc42.com/buzz/govt-to-release-consultation-paper-on-ai-regulation-vaishnaw/"/>
-    <id>tag:weekly-report,2026:event-d358343e</id>
-    <published>2026-10-08T00:00:00Z</published>
-    <updated>2026-10-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Govt To Release Consultation Paper On AI Regulation: Vaishnaw&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度政府宣布将发布关于人工智能监管的咨询文件，由联邦部长Vaishnaw透露。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度政府启动AI监管框架制定，为全球AI企业进入印度市场提供合规指引和合作窗口。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
+    <title>平安数字银行进军私募基金市场</title>
+    <link href="https://www.techinasia.com/news/ping-digital-bank-enters-private-funds-market"/>
+    <id>tag:weekly-report,2026:event-44febdac</id>
+    <published>2026-10-09T00:00:00Z</published>
+    <updated>2026-10-09T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ping An Digital Bank enters private funds market&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;平安数字银行宣布进入私募基金市场，拓展其业务范围。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国金融科技巨头拓展业务版图，为私募基金服务商和金融科技基础设施提供商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-10-09</title>
@@ -295,6 +63,6 @@
     <id>tag:weekly-report,2026:aihot-e67fe357</id>
     <published>2026-10-09T00:00:00Z</published>
     <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-09T02:27&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/94903954-cf87-48d8-89a6-eff5deefeaa0"&gt;Anthropic 发布 Sonnet 5.5 与 Haiku 5.5，下调缓存读取价&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/829ad21a-7429-4a43-9cb1-3c5c8a46c051"&gt;OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/aaa0648b-dd23-4fa4-bcbb-fa4eed13d331"&gt;OpenAI 公开内部模型数学成果与 Lean 证明&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/e0b8ed75-6851-478e-801d-e5d6189e66ac"&gt;Google 全球开放 SynthID 水印检测器&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d0ee11b2-3ace-4e23-9668-fb3c82550bdb"&gt;马斯克称 Grok Bot 将按任务调用外部最佳模型&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-09T11:17&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/94903954-cf87-48d8-89a6-eff5deefeaa0"&gt;Anthropic 发布 Sonnet 5.5 与 Haiku 5.5，下调缓存读取价&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/829ad21a-7429-4a43-9cb1-3c5c8a46c051"&gt;OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/100cfaa3-4eb5-4ba9-8199-65be0d26b885"&gt;Anthropic 新政策首次禁止虐待模型&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/3bf2f6a6-d5b4-4c93-bd4d-1977a01c157f"&gt;谷歌云发布通用工作智能体 Gemini Agent&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/e0b8ed75-6851-478e-801d-e5d6189e66ac"&gt;Google 全球开放 SynthID 水印检测器&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>

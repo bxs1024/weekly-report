@@ -927,29 +927,29 @@
       "generated_at": "2026-10-06 08:27"
     },
     "weekly:2026-W41": {
-      "input_hash": "df2bccb01690f8e00044d4f1ab84dd2a655179e232bb9469b2f39622f40f8f5d",
+      "input_hash": "8fd72a1bf8e249e437712cbae0a8f241bf352c09222f1674d256699b5e5d37df",
       "editorial": {
-        "editorial_title": "AI数据底座与亚太支付合规竞速",
-        "mainline": "Databricks以湖仓基准报告正面挑战传统数据仓库，Cloudflare同期密集发布边缘产品，AI基础设施的路线之争从技术圈蔓延到采购决策；与此同时，Revolut申请菲律宾银行牌照、新加坡MAS给金融机构划出一年AI风控期限，亚太支付与合规市场正被外部玩家和监管同时重塑。",
+        "editorial_title": "东南亚合规收紧，中资平台与AI基建加速落地",
+        "mainline": "新加坡一周内连推数字基础设施韧性法案、AI风险规则与D-SIBs损失吸收新规，把合规门槛抬到新高度；与此同时，Keeta巴西扩至32城、Revolut申请菲律宾银行牌照、Square Enix重启Collective，出海平台与发行商正把增量押在亚太和拉美。合规成本与市场扩张同步上升，出海BD需重新评估落地节奏。",
         "themes": {
-          "ai_infra": "Databricks用基准报告把湖仓与数据仓库的替代之争摆上台面，Cloudflare在生日周连发边缘产品承接AI推理负载；英德工业科技走廊和特朗普24亿美元AI信贷则从区域与联邦两个层面为算力与科研注入新变量。",
-          "expansion": "Keeta在巴西连下32城、下载破千万，中资外卖出海进入拉美纵深；Square Enix Collective回归并签下Vaultbreakers，独立开发商重新获得顶级发行通道；Atlassian与OpenAI把企业知识库推向行动化，新加坡EV渗透率预计明年过半。",
-          "payments": "Revolut直接申请菲律宾银行牌照，欧洲数字银行开始用持牌方式切入东南亚；NEOPAY收购noon payments 65%股权整合中东收单，Anyflo推出企业稳定币支付，Nubank前员工则用AI助手切资金管理。",
-          "developer": "Databricks推出Funke原生HL7v2解析，医疗数据平台不再依赖定制中间件；Stuut和Namespace分别拿到5250万美元和3700万欧元，资金流向AI平台与跨平台开发基础设施，而比特币低清算被e27视为大行情前兆。",
-          "compliance": "MAS要求金融机构一年内就绪AI风险规则，同时立法强化D-SIBs损失吸收，合规采购窗口被明确打开；FOMO Pay与Sumsub合作加强合规，AI零售定价策略也在监管审视下被迫调整。",
-          "commerce": "Pinterest扩大创作者内容推广功能，中小品牌获得新的付费流量入口；Shopify Analytics新增采购订单分析，中华电信启动无人机配送，而SCI Ecommerce濒临倒闭则提醒东南亚电商整合仍在继续。"
+          "ai_infra": "Square Enix重启Collective并直接切入生成式AI游戏发行，把AI工具链从内部研发推向外部合作；Databricks用2026基准报告强攻湖仓叙事，Cloudflare则在生日周密集发布边缘产品。英德工业科技走廊的启动，意味着AI基建的政府资金开始向深科技制造倾斜。",
+          "expansion": "Keeta在巴西下载量破千万、覆盖32城，中资外卖平台在拉美的密度战已经打响；Atlassian与OpenAI扩大合作，把企业知识库变成可执行动作。Square Enix Collective回归给独立开发商打开顶级发行通道，而新加坡EV渗透率预测超50%则提示亚太硬件消费结构正在切换。",
+          "payments": "Revolut直接申请菲律宾银行牌照，欧洲数字银行不再满足于跨境汇款，开始吃本地存贷业务；NEOPAY收购noon payments 65%股权，中东支付整合加速。Anyflo推出企业稳定币支付方案，Nubank前员工创立的Decade用AI助手切资金管理，支付层的创业方向正从C端钱包转向B端资金效率。",
+          "developer": "Databricks推出Funke原生HL7v2解析，医疗数据平台不再需要第三方转换层，亚太医疗IT服务商的集成成本被直接压低。Stuut获5250万美元扩展AI平台，Namespace拿3700万欧元做跨平台开发基础设施，开发者工具层的融资仍在向数据与部署两端集中。",
+          "compliance": "新加坡一周内通过数字基础设施韧性法案、要求金融机构一年内准备AI风险规则、并强化D-SIBs损失吸收规则，云服务商和数据中心运营商的合规升级需求被集中触发。FOMO Pay与Sumsub合作加强合规，说明本地支付机构已经开始为更严的KYC和交易监控买单。",
+          "commerce": "Pinterest扩大创作者内容推广功能，把付费流量从品牌广告扩展到个人创作者，中小品牌多了一条可竞价的内容渠道；Shopify Analytics新增采购订单分析，商家开始把供应链数据纳入日常运营看板。SCI Ecommerce濒临倒闭则提醒，东南亚电商服务商的整合远未结束。"
         },
         "theme_titles": {
-          "ai_infra": "湖仓阵营正面叫板数据仓库，边缘云密集上新",
-          "expansion": "美团Keeta巴西扩至32城，Square Enix重启合作发行",
-          "payments": "Revolut申请菲律宾牌照，稳定币支付方案落地",
+          "ai_infra": "游戏大厂重启AI发行，湖仓与边缘云同步扩产品线",
+          "expansion": "Keeta巴西扩至32城，Revolut与OpenAI分食亚太增量",
+          "payments": "Revolut申请菲律宾牌照，稳定币支付方案落地企业端",
           "developer": "Databricks原生解析HL7v2，医疗数据集成门槛骤降",
-          "compliance": "新加坡MAS给AI风控划一年期限，D-SIBs规则加码",
-          "commerce": "Pinterest开放创作者推广，中华电信试水无人机配送"
+          "compliance": "新加坡连推三项新规，AI风险与基础设施韧性成硬约束",
+          "commerce": "Pinterest开放创作者推广，Shopify补采购订单分析"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-10-09 07:27"
+      "generated_at": "2026-10-09 15:22"
     }
   }
 }
