@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T02:27:50+08:00",
+  "generated_at": "2026-10-09T11:17:20+08:00",
   "fetched_date": "2026-10-09",
   "source": {
     "name": "AIHOT 热点榜",
@@ -12,9 +12,9 @@
       "title": "Anthropic 发布 Sonnet 5.5 与 Haiku 5.5，下调缓存读取价",
       "list_title": "Anthropic 发布 Sonnet 5.5 与 Haiku 5.5，下调缓存读取价",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 12 %",
       "sources": [],
-      "summary": "Anthropic 在 Claude 5.5 家族中先后发布 Sonnet 5.5 与 Haiku 5.5，并下调 Sonnet 5.5 的缓存读取价格。官方称 Sonnet 5.5 比 Sonnet 5 快 30% 以上、多数任务成本最多降低 30%，定价维持输入 $2、输出 $10 每百万 token，Terminal-Bench 4.0 得分 70.6%（Sonnet 5 为 10.3%），并成为 claude.ai 免费档位模型；其缓存读取价格从 $0.20 减半至 $0.10 每百万 token，官方称长期运行任务成本因此降低约 20%。\n\nHaiku 5.5 被官方称为迄今最便宜、最快、能力最强的小模型，平均运行成本比 Haiku 4.5 低约 75%；10 万 token 以下任务输入 $0.10、输出 $0.50、缓存读取 $0.01 每百万 token，超过 10 万 token 后升至 $0.50/$2.50。Artificial Analysis 测得 Haiku 5.5 智能指数 43 分，并提示其成本数据尚未计入超 10…",
+      "summary": "Anthropic 发布 Claude 5.5 家族两款模型：Sonnet 5.5 于 9 月 29 日上线，官方称运行快 30% 以上、多数工作成本最多降低 30%，定价与 Sonnet 5 相同（每百万 token 输入 $2、输出 $10），并成为 claude.ai 免费档位模型；Haiku 5.5 于 10 月 7 日发布，官方称其为迄今最便宜、最快的小模型，平均运行成本比 Haiku 4.5 低约 75%。\n\nHaiku 5.5 采用分层定价：10 万 token 以内输入 $0.10、输出 $0.50、缓存读取 $0.01，超过 10 万 token 后涨至输入 $0.50、输出 $2.50；官方称 10 万 token 以下任务约占上一代 Haiku 请求量的九成。它是首个支持可调 effort 设置的 Haiku 模型，Artificial Analysis 智能指数得 43 分，较上一代一年内提升 26 分。\n\nAnthropic 同时将 Sonnet 5.5 的缓存读取价格减半至每百万 token $0.10，官方称这使多数…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/94903954-cf87-48d8-89a6-eff5deefeaa0"
     },
@@ -23,7 +23,7 @@
       "title": "OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI",
       "list_title": "OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 10 %",
       "sources": [],
       "summary": "OpenAI 于 10 月 8 日宣布，GPT-6 与 Intelligent UI 开始在 ChatGPT 的 Chat 标签页向全部用户推送：Plus、Pro、Business、Enterprise 付费档当天起全球开放，Free 和 Go 档次日跟进。付费档由 GPT-6 Sol 驱动，Free 和 Go 档由 GPT-6 Luna 驱动，两者均针对日常对话调优；Enterprise 是否可用取决于企业管理员设置。\n\nIntelligent UI 让 GPT-6 按问题组合文本、图形、图表、按钮、表单等交互元素作答，并可在对话内直接生成计算器、游戏等可用工具，用户可自行调节视觉内容的多寡。OpenAI 称本次更新仅涉及 Chat 标签页，Work 和 Codex 所用模型不变。\n\nOpenAI 员工 Tibo 称这是超越文本的一步，包含多项模型和基础设施改进，以支撑扩展至每周 12 亿用户；他同时称 Codex 与 ChatGPT Work 合计活跃用户达 4000 万，并为所有付费账户加载了一次 banked reset。",
       "original_links": [],
@@ -31,91 +31,91 @@
     },
     {
       "rank": 3,
-      "title": "OpenAI 公开内部模型数学成果与 Lean 证明",
-      "list_title": "OpenAI 公开内部模型数学成果与 Lean 证明",
+      "title": "Anthropic 新政策首次禁止虐待模型",
+      "list_title": "Anthropic 新政策首次禁止虐待模型",
       "heat": null,
-      "heat_change": "↓ 12 %",
+      "heat_change": "↑ 114 %",
       "sources": [],
-      "summary": "OpenAI 于 10 月 7 日在 GitHub 发布 openai/math 仓库，公开由未发布的内部前沿模型产出的一批数学成果：共 722 份手稿，归为 372 个结果族，涵盖数论、代数几何、偏微分方程等方向。OpenAI 称许多证明已用 Lean 形式化以便计算机验证，并附论文修订与引用协议；发布前咨询了普林斯顿高等研究院的数学与人工智能独立咨询组，并按其建议和公开推荐决定发布方式。\n\n据 The Verge 和 IT之家报道，独立咨询组织 AGMAI 称这批成果包含对数百个长期公开数学问题的解答。OpenAI 称绝大多数结果由同一流程、用未发布内部模型完成，平均每个结果约相当于 3 小时 ChatGPT Pro 思考算力，评估期间模型共被提出约 4,000 个问题。例外包括黎曼 zeta 函数零点自由区域和 CM 阿贝尔簇上 Hodge 猜想证明的相关工作，其中 Re(s) > 11/12 零点自由区域的文稿经人工编辑以提升可读性。\n\nRohan Paul 提到，部分结果尚无 Lean 形式化，可能存在问题，仓库将持续更新；其称矩阵乘法…",
+      "summary": "Anthropic 发布新版 Claude 使用政策，将于 2026 年 11 月 12 日生效，首次加入禁止用户对模型实施“持续且不必要的虐待或残忍行为”的条款，主要执行方式是让 Claude 结束对话，而非封禁账号。公司称多数变化是对既有规则的澄清。\n\n该条款只针对反复且无目的地残酷对待模型的情况，不适用于常见的用户不满、反驳、黑暗创作主题或模型测试研究；违规者仍可能被警告、限流、限制或终止访问。政策同时新设禁止欺骗性活动章节，禁止用 Claude 运营虚假账号、编造新闻机构或欺骗选民、破坏选举，并收窄选举相关条款、明确禁止武器软件与无人机武装、更精确地限制监控与执法用途、补充高风险用例及自主物理操作中必须有人工介入的要求。\n\nThe Decoder 称，更新承认政府合同可能存在例外；IT之家援引 The Verge 报道称，对于特定政府客户，公司可在合同限制与安全措施充分时调整规则。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/aaa0648b-dd23-4fa4-bcbb-fa4eed13d331"
+      "story_url": "https://aihot.virxact.com/story/100cfaa3-4eb5-4ba9-8199-65be0d26b885"
     },
     {
       "rank": 4,
+      "title": "谷歌云发布通用工作智能体 Gemini Agent",
+      "list_title": "谷歌云发布通用工作智能体 Gemini Agent",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "谷歌云在 Gemini at Work 2026 发布会上推出面向企业客户的 Gemini Agent，定位为“通用工作智能体”。据 Testing Catalog 报道，它统一处理回答问题、知识工作、图像与媒体生成、编写和运行代码；The Verge 称其托管于 Gemini Enterprise 应用中，可在后台跨应用和设备工作，用户可在单一界面与其对话并派发任务。TechCrunch 称该智能体可接受目标而非仅指令，自行规划任务、使用技能与工具并连接企业内部系统。\n\n该智能体目前支持 Gemini 和 Claude 模型，默认由 AI 选择最合适的模型，用户也可自行指定，包括 Anthropic 的 Claude 等第三方模型；官方将提供 API 供开发者集成到第三方应用。Testing Catalog 称，Gemini Business 中的 Gemini Agent 将提供 Gemini Argon 4、Gemini Flash 3.8 以及 Claude Opus 5、Claude Sonnet 5.5，这是 Claude 模型首次出…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/3bf2f6a6-d5b4-4c93-bd4d-1977a01c157f"
+    },
+    {
+      "rank": 5,
       "title": "Google 全球开放 SynthID 水印检测器",
       "list_title": "Google 全球开放 SynthID 水印检测器",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "Google DeepMind 将 SynthID Detector 面向全球所有人开放，上线 synthid.com，任何人可上传图片、视频或音频文件检查是否带有 AI 水印。此前该工具只向部分记者、媒体从业者和研究人员开放测试，外部用户只能通过 Gemini 检测，且旧版只识别 Google 自家的 SynthID。\n\n新版支持所有合作方的水印，合作方包括 OpenAI、NVIDIA、Kakao，Apple 即将加入。Google DeepMind 称，该工具可快速识别视频、音频和图像中的 SynthID 水印，即使内容经过添加滤镜等编辑仍可检测；用户也可使用 Chrome、Google 搜索和 Gemini 应用中已有的 AI 内容识别功能。据 Google 数据，仅 Gemini 就已集成超过 1800 亿张图片和视频以及 24 万年的音频。\n\nSynthID 是嵌入图像、视频像素和音频波形中的隐形水印。IT之家报道称，该工具的检测结果并非 100% 准确。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/e0b8ed75-6851-478e-801d-e5d6189e66ac"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "马斯克称 Grok Bot 将按任务调用外部最佳模型",
       "list_title": "马斯克称 Grok Bot 将按任务调用外部最佳模型",
       "heat": null,
-      "heat_change": "↓ 11 %",
+      "heat_change": "",
       "sources": [],
       "summary": "马斯克在 X 发布说明称，SpaceX 今后将针对任何给定任务为 Grok @Bot 使用最佳后端模型，包括 Claude Opus 5.5、MidJourney、Suno 及其他领先 API，以最有可能带来最佳结果为准则。他后续补充称，简单问题会路由到小型、快速的模型，复杂问题路由到大型模型，并称大多数 @Bot 请求相当简单，等 Grok 4.8 推出后由闪电般快速的版本处理。\n\nRohan Paul 转述该说明时称，Claude Opus 5.5、MidJourney、Suno 已上线 Grok @bot。Testing Catalog 则称 Grok Bot 将由 Claude Opus 5.5 驱动，或总体使用市面上最好的模型，并认为 OpenAI 的模型应该不在考虑范围内。\n\n上述说明未披露具体任务范围、调用方式，也未说明与 xAI 自有模型的分工；相关模型是否已实际接入，仅有转述说法。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/d0ee11b2-3ace-4e23-9668-fb3c82550bdb"
     },
     {
-      "rank": 6,
+      "rank": 7,
+      "title": "OpenAI 公开内部模型数学成果与 Lean 证明",
+      "list_title": "OpenAI 公开内部模型数学成果与 Lean 证明",
+      "heat": null,
+      "heat_change": "↓ 34 %",
+      "sources": [],
+      "summary": "OpenAI 于 10 月 7 日在 GitHub 发布 openai/math 仓库，公开由未发布的内部前沿模型产出的一批数学成果：共 722 份手稿，归为 372 个结果族，涵盖数论、代数几何、偏微分方程等方向。OpenAI 称许多证明已用 Lean 形式化以便计算机验证，并附论文修订与引用协议；发布前咨询了普林斯顿高等研究院的数学与人工智能独立咨询组，并按其建议和公开推荐决定发布方式。\n\n据 The Verge 和 IT之家报道，独立咨询组织 AGMAI 称这批成果包含对数百个长期公开数学问题的解答。OpenAI 称绝大多数结果由同一流程、用未发布内部模型完成，平均每个结果约相当于 3 小时 ChatGPT Pro 思考算力，评估期间模型共被提出约 4,000 个问题。例外包括黎曼 zeta 函数零点自由区域和 CM 阿贝尔簇上 Hodge 猜想证明的相关工作，其中 Re(s) > 11/12 零点自由区域的文稿经人工编辑以提升可读性。\n\nRohan Paul 提到，部分结果尚无 Lean 形式化，可能存在问题，仓库将持续更新；其称矩阵乘法…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/aaa0648b-dd23-4fa4-bcbb-fa4eed13d331"
+    },
+    {
+      "rank": 8,
+      "title": "OpenAI年化收入口径分歧：700亿还是500亿美元",
+      "list_title": "OpenAI年化收入口径分歧：700亿还是500亿美元",
+      "heat": null,
+      "heat_change": "↑ 74 %",
+      "sources": [],
+      "summary": "OpenAI的年化收入出现两个相差约200亿美元的口径。2026年9月底，Axios援引知情人士称其年化经常性收入（ARR）接近700亿美元，较三季度初增长超70%；OpenAI CFO Sarah Friar随后在CNBC确认三季度总收入运行率增长超70%，企业收入较7月翻倍，增长由更好的模型、新的100美元小企业计划及编码、网络安全、生命科学业务驱动。\n\n但10月9日《金融时报》报道称，OpenAI已告知投资者其年化营收接近500亿美元，比投资者间流传的700亿美元低约200亿。TechCrunch援引该报道称，700亿是投资者为与Anthropic直接对比而估算，两家公司计算方式不同：Anthropic把经由AWS和Google Cloud销售的金额计入营收，OpenAI不计入。IT之家称报道发布后美股科技股下跌，纳斯达克100指数收跌1.4%。\n\n此前关于Anthropic ARR的数字本身也不一致：有说法称其ARR达768亿美元，Cathie Wood则称Anthropic报告为650亿美元。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/d06a5836-f6cc-4ecf-a616-8dd42aceca87"
+    },
+    {
+      "rank": 9,
+      "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast 模式",
+      "list_title": "OpenAI 推出 GPT-6.1 Sol Ultrafast 模式",
+      "heat": null,
+      "heat_change": "↑ 20 %",
+      "sources": [],
+      "summary": "OpenAI 开发者账号 10 月 9 日宣布，GPT-6.1 Sol 的 Ultrafast 模式当日起在 API、Codex 和 ChatGPT Work 推出，官方称其具备接近 Astra 的智能水平，token 生成速度最高比 Sol Standard 快 8 倍。API 定价为每百万输入 token 12 美元、每百万输出 token 60 美元；OpenAI 的 Vaibhav Srivastav 称其成本仅为 Astra 的 1.2 倍。Rohan Paul 则指出该价格高于 Sol Fast 的每百万输入 4 美元、输出 20 美元，即贵 6 倍。\n\n在 Codex 和 ChatGPT Work 中，Pro 500、符合条件的使用量计费 Enterprise 以及基于积分的 Edu 方案可使用，Enterprise 管理员须先启用访问权限。OpenAI 称 Ultrafast 已在所有支持地区上线，包括美国和欧盟的数据驻留支持，同时为 GPT-6.1 Sol Fast 和 GPT-6 Luna Fast 新增欧盟数据驻留支持。Op…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/bb1411a1-1201-48d6-b5f7-9cc58fa53d6c"
+    },
+    {
+      "rank": 10,
       "title": "Grok Bot 新增原生 X 搜索与监控能力",
       "list_title": "Grok Bot 新增原生 X 搜索与监控能力",
       "heat": null,
       "heat_change": "",
       "sources": [],
-      "summary": "Grok Bot 宣布新增原生 X 搜索能力，可直接搜索、阅读和监控 X 内容，官方称面向所有用户开放、无需设置 X connector。据 X 用户 Eric Zakariasson 称，该功能直接可用，无需 X 账号或连接器；Testing Catalog 称此前它只能依赖网页搜索或 X 连接器，此次一条提示词即可触发对 100 多条 X 帖子的分析。\n\nGrok Bot 同时推出定时任务，可追踪产品反馈、跟进突发新闻或发送行业每周汇总。据 Rohan Paul 称，该智能体还能起草帖子，但直接发帖功能尚未上线，仍需人工按下发布按钮。\n\n使用额度方面，X 用户 howie.serious 称 Grok bot 对推特的 rate limit 为每天 1000 次，并称现在可以免费用起来；该说法来自其个人分享，并非官方公告。",
+      "summary": "Grok Bot 现在可以直接搜索、阅读和监控 X 内容，官方称面向所有用户开放、无需设置 X connector。此前它只能依赖网页搜索或 X 连接器；据 Testing Catalog 称，此次一条提示词即可触发对 100 多条 X 帖子的分析。\n\nGrok Bot 同时推出定时任务，可追踪产品反馈、跟进突发新闻或发送行业每周汇总。据 Rohan Paul 称，该智能体还能起草帖子，但直接发帖功能尚未上线，仍需人工按下发布按钮。\n\n使用额度方面，X 用户 howie.serious 称 Grok bot 对推特的 rate limit 为每天 1000 次，并称现在可以免费用起来；该说法来自其个人分享，并非官方公告。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/ae6b9b53-d380-45d4-9933-6afa540f4195"
-    },
-    {
-      "rank": 7,
-      "title": "微软预售 5999 美元 Surface RTX Spark 开发主机",
-      "list_title": "微软预售 5999 美元 Surface RTX Spark 开发主机",
-      "heat": null,
-      "heat_change": "↓ 14 %",
-      "sources": [],
-      "summary": "微软已开启面向开发者的 AI 迷你主机 Surface RTX Spark Dev Box 预售，售价 5,999 美元，计划 11 月发货。该主机搭载 Nvidia RTX Spark 芯片，微软在旧金山 Tech Week 活动上同时发布了搭载同款芯片的 Surface Laptop Ultra，两款基础型号售价分别为 2,600 美元和 3,700 美元，并为 Windows 11 新增 Execution Containers 功能。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/4890f163-93a8-4155-90a5-42af23f38dbe"
-    },
-    {
-      "rank": 8,
-      "title": "Anthropic 发布 Claude Haiku 5.5 并上线 Cursor",
-      "list_title": "Anthropic 发布 Claude Haiku 5.5 并上线 Cursor",
-      "heat": null,
-      "heat_change": "↑ 12 %",
-      "sources": [],
-      "summary": "Anthropic 随 Claude Code v2.1.293 发布 Claude Haiku 5.5（claude-haiku-5-5），并称其已成为 Anthropic API 上的默认 Haiku 模型。该模型支持 1M 上下文，定价为每百万 token $0.10/$0.50，提示超过 100K 时升至 $0.50/$2.50。\n\nCursor 随后宣布该模型已可在 Cursor 中使用，用户可在 Cursor Settings > Models 中开启。Cursor 称较短请求的成本比 Claude Haiku 4.5 低 10 倍，并公布与 Anthropic 一致的定价；同时将 Claude Sonnet 5.5 的缓存读取价格从每百万 token $0.20 下调至 $0.10。\n\nX 用户 Oran Ge 称该模型降价 90%、价格对齐 GPT 6 Luna，随后又质疑超过 100k 输入 token 时价格涨 5 倍。X 用户邵猛称，Anthropic 官方表示其运行成本平均比 Claude Haiku 4.5 低约 75%…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/df6ecb23-8f5e-4d48-bf45-1d4a6a27ef24"
-    },
-    {
-      "rank": 9,
-      "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2",
-      "list_title": "Google 开源多模态嵌入模型 EmbeddingGemma 2",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "Google 发布 EmbeddingGemma 2，称其为首个原生多模态开源嵌入模型，基于 Gemma 4 架构，以 Apache 2.0 许可开放权重，将文本、代码、图像、视频和音频映射到统一的 768 维向量空间。模型总参数 740M，由 270M 文本、170M 视觉和 300M 音频编码器组成，提供 740M 全模态、440M 文本+视觉、570M 文本+音频和 270M 纯文本四个版本，上下文窗口 8K，支持 100 多种语言。\n\n权重已在 Hugging Face 和 Kaggle 开放下载，Gemini Enterprise Agent Platform Model Garden 即将上线；llama.cpp 提供 Day-0 支持，Unsloth 提供 GGUF 版本，官方称 270M 版本最低 0.5GB RAM、完整多模态版 1GB RAM 可本地运行。Google 称其性能超过部分体积两倍以上的专用模型，活跃内存占用约 191MB 至 567MB。\n\nGoogle 同时推出 macOS 应用 AI Edge Foresig…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/28375512-d27e-4a60-8a37-dee79df660d4"
-    },
-    {
-      "rank": 10,
-      "title": "谷歌云发布通用工作智能体 Gemini Agent",
-      "list_title": "谷歌云发布通用工作智能体 Gemini Agent",
-      "heat": null,
-      "heat_change": "↑ 185 %",
-      "sources": [],
-      "summary": "谷歌云在 Gemini at Work 2026 发布会上面向企业客户推出 Gemini Agent，定位为“通用工作智能体”。据 Testing Catalog 报道，它被描述为统一处理回答问题、知识工作、图像与媒体生成、编写和运行代码的工作智能体；The Verge 称其托管于 Gemini Enterprise 应用中，可在后台跨应用和设备工作，用户可在单一界面与其对话并派发任务。\n\n该智能体目前支持 Gemini 和 Claude 模型，官方将提供 API 供开发者集成到第三方应用。它当前处于私人预览阶段，仅面向企业客户；谷歌云称预计很快面向符合条件的 Workspace 客户广泛开放，覆盖部分 Business 和 Enterprise 方案。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/3bf2f6a6-d5b4-4c93-bd4d-1977a01c157f"
     }
   ]
 }
