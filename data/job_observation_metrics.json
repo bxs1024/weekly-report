@@ -1,25 +1,25 @@
 {
-  "observed_at": "2026-10-09T15:06:35.077367+08:00",
+  "observed_at": "2026-10-10T06:32:34.414740+08:00",
   "source_count": 3,
-  "raw_count": 56,
+  "raw_count": 57,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 7,
-      "inventory_count": 18,
+      "count": 5,
+      "inventory_count": 19,
       "signal_count": 1,
-      "added_count": 4,
-      "removed_count": 3,
+      "added_count": 3,
+      "removed_count": 2,
       "clusters": {
-        "sales": 1,
-        "operations": 1,
-        "engineering": 1
+        "engineering": 1,
+        "partnerships": 1
       },
       "removed_clusters": {
-        "engineering": 1
+        "engineering": 1,
+        "operations": 1
       }
     },
     "Stripe Jobs": {
@@ -27,10 +27,10 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 5,
+      "count": 1,
+      "inventory_count": 6,
       "signal_count": 0,
-      "added_count": 0,
+      "added_count": 1,
       "removed_count": 0,
       "clusters": {},
       "removed_clusters": {}
@@ -41,83 +41,72 @@
       "status": "ok",
       "fetch_status": "success",
       "count": 1,
-      "inventory_count": 33,
+      "inventory_count": 32,
       "signal_count": 0,
       "added_count": 0,
       "removed_count": 1,
       "clusters": {},
       "removed_clusters": {
-        "operations": 1
+        "engineering": 1,
+        "payments": 1
       }
     }
   },
   "candidate_signals": [
     {
-      "candidate_id": "jobs-9386b35f14df3803",
+      "candidate_id": "jobs-1a221780fce64374",
       "entity_id": "grab",
       "entity": "Grab",
       "region": "亚太",
       "sector": "mobility_payment",
       "source_type": "jobs_snapshot",
       "signal_type": "function_buildout",
-      "cluster": "sales",
+      "cluster": "engineering",
       "window": "2026-W41",
-      "window_start": "2026-10-09",
-      "window_end": "2026-10-09",
-      "detected_at": "2026-10-09T15:06:35.077367+08:00",
-      "baseline_count": 17,
-      "current_count": 18,
-      "added_count": 4,
-      "removed_count": 3,
+      "window_start": "2026-10-10",
+      "window_end": "2026-10-10",
+      "detected_at": "2026-10-10T06:32:34.414740+08:00",
+      "baseline_count": 18,
+      "current_count": 19,
+      "added_count": 3,
+      "removed_count": 2,
       "clusters": {
-        "sales": 1,
-        "operations": 1,
-        "engineering": 1
+        "engineering": 1,
+        "partnerships": 1
       },
       "removed_clusters": {
-        "engineering": 1
+        "engineering": 1,
+        "operations": 1
       },
       "evidence_refs": [
         {
-          "job_id": "744000154581859",
-          "title": "Warehouse Operation Manager",
-          "url": "https://www.grab.careers/en/jobs/744000154581859/warehouse-operation-manager/",
+          "job_id": "744000154666819",
+          "title": "Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000154666819/software-engineer-backend/",
           "change": "added"
         },
         {
-          "job_id": "744000154579280",
-          "title": "Senior Analyst, Sales Operations",
-          "url": "https://www.grab.careers/en/jobs/744000154579280/senior-analyst-sales-operations/",
+          "job_id": "744000154631119",
+          "title": "Intern, Partner Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000154631119/intern-partner-acquisition/",
           "change": "added"
         },
         {
-          "job_id": "744000154574849",
-          "title": "Lead Software Engineer, Perception (Robotics)",
-          "url": "https://www.grab.careers/en/jobs/744000154574849/lead-software-engineer-perception-robotics/",
+          "job_id": "744000154612039",
+          "title": "Lead Technical Program Manager",
+          "url": "https://www.grab.careers/en/jobs/744000154612039/lead-technical-program-manager/",
           "change": "added"
         },
         {
-          "job_id": "744000154574219",
-          "title": "Assistant Marketing Manager, B2B",
-          "url": "https://www.grab.careers/en/jobs/744000154574219/assistant-marketing-manager-b2b/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000154355427",
-          "title": "Regional Head of PMTO Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000154355427/regional-head-of-pmto-strategy/",
+          "job_id": "744000154367002",
+          "title": "DevOps Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000154367002/devops-engineer/",
           "change": "removed"
         },
         {
-          "job_id": "744000154351439",
-          "title": "Lead Product Manager, Driver In-Trip Experience",
-          "url": "https://www.grab.careers/en/jobs/744000154351439/lead-product-manager-driver-in-trip-experience/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000154349599",
-          "title": "IT Cloud Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000154349599/it-cloud-engineer/",
+          "job_id": "744000154357380",
+          "title": "Solution Specialist, Finance Systems",
+          "url": "https://www.grab.careers/en/jobs/744000154357380/solution-specialist-finance-systems/",
           "change": "removed"
         }
       ],

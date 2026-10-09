@@ -1,11 +1,33 @@
 {
   "version": 1,
-  "generated_at": "2026-10-09T15:06:35.077367+08:00",
+  "generated_at": "2026-10-10T06:32:34.414740+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-09T15:06:35.077367+08:00",
+      "observed_at": "2026-10-10T06:32:34.414740+08:00",
       "jobs": [
+        {
+          "id": "744000154666819",
+          "title": "Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000154666819/software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000154631119",
+          "title": "Intern, Partner Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000154631119/intern-partner-acquisition/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
+          "id": "744000154612039",
+          "title": "Lead Technical Program Manager",
+          "url": "https://www.grab.careers/en/jobs/744000154612039/lead-technical-program-manager/",
+          "function_tags": []
+        },
         {
           "id": "744000154581859",
           "title": "Warehouse Operation Manager",
@@ -116,27 +138,12 @@
           "title": "Communications Manager, Singapore",
           "url": "https://www.grab.careers/en/jobs/744000154367299/communications-manager-singapore/",
           "function_tags": []
-        },
-        {
-          "id": "744000154367002",
-          "title": "DevOps Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000154367002/devops-engineer/",
-          "function_tags": [
-            "engineering",
-            "operations"
-          ]
-        },
-        {
-          "id": "744000154357380",
-          "title": "Solution Specialist, Finance Systems",
-          "url": "https://www.grab.careers/en/jobs/744000154357380/solution-specialist-finance-systems/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-09T15:06:35.077367+08:00",
+      "observed_at": "2026-10-10T06:32:34.414740+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -162,6 +169,12 @@
           ]
         },
         {
+          "id": "8247127",
+          "title": "AR Analyst",
+          "url": "https://stripe.com/careers/listing/ar-analyst/8247127",
+          "function_tags": []
+        },
+        {
           "id": "8113337",
           "title": "ARG Engineering Manager",
           "url": "https://stripe.com/careers/listing/arg-engineering-manager/8113337",
@@ -179,7 +192,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-09T15:06:35.077367+08:00",
+      "observed_at": "2026-10-10T06:32:34.414740+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
@@ -333,15 +346,6 @@
           "url": "https://www.shopify.com/careers/senior-compliance-analyst_8639c248-b9f3-45ca-9ea8-5b66a4c7d208",
           "function_tags": [
             "compliance"
-          ]
-        },
-        {
-          "id": "9f1a97d8-5862-4ee4-b2b1-0dc02e20c11c",
-          "title": "Senior Deal Strategy Manager, Payments & Platform Pricing Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-deal-strategy-manager-payments-platform-pricing_9f1a97d8-5862-4ee4-b2b1-0dc02e20c11c",
-          "function_tags": [
-            "engineering",
-            "payments"
           ]
         },
         {
