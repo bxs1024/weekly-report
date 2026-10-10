@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-10-10T06:32:34.414740+08:00",
+  "generated_at": "2026-10-10T14:39:55.604550+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-10T06:32:34.414740+08:00",
+      "observed_at": "2026-10-10T14:39:55.604550+08:00",
       "jobs": [
         {
           "id": "744000154666819",
@@ -143,7 +143,7 @@
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-10T06:32:34.414740+08:00",
+      "observed_at": "2026-10-10T14:39:55.604550+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -192,7 +192,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-10T06:32:34.414740+08:00",
+      "observed_at": "2026-10-10T14:39:55.604550+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
@@ -295,12 +295,6 @@
           "function_tags": [
             "partnerships"
           ]
-        },
-        {
-          "id": "ec2c737d-049a-4c12-8d9d-6b0fbefad30b",
-          "title": "Lifecycle & CRM Manager, Shop Remote - Americas",
-          "url": "https://www.shopify.com/careers/lifecycle-crm-manager-shop_ec2c737d-049a-4c12-8d9d-6b0fbefad30b",
-          "function_tags": []
         },
         {
           "id": "44bd4c1c-6887-470f-90e0-b470f234fe49",

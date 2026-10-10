@@ -105903,11 +105903,11 @@
       ],
       "level": "D",
       "score": 3,
-      "summary_short": "ASTS股价因日本D2C发射临近及吉尼斯纪录上涨",
-      "reason": "日本卫星直连手机（D2C）商业落地在即，AST SpaceMobile与乐天合作将打开亚太电信市场，为地面网络设备商和频谱合作方带来新机会",
-      "impact": "日本电信运营商、卫星通信设备商、频谱管理服务商",
+      "summary_short": "ASTS股价因日本D2C合作临近大涨",
+      "reason": "亚太卫星通信市场迎来新玩家，ASTS与Rakuten合作推动D2C技术落地，为卫星通信设备商和电信运营商带来合作机会。",
+      "impact": "卫星通信设备商、日本电信运营商、Rakuten生态伙伴",
       "insight_label": "合作机会",
-      "trend_topic": "亚太卫星直连手机升温",
+      "trend_topic": "卫星通信D2C落地",
       "companies": [],
       "is_company": true,
       "company_name": "Rakuten",
@@ -105946,7 +105946,10 @@
       "view_status": "filtered",
       "view_reason": "out_of_scope_industry",
       "view_priority": "watch",
-      "content_overview": "ASTS股价隔夜大涨，因与日本乐天合作的D2C（设备直连）服务即将上线，且吉尼斯世界纪录带来市场乐观情绪。"
+      "content_overview": "ASTS股价隔夜大涨，因日本D2C（Direct-to-Cell）业务与Rakuten合作临近，且吉尼斯世界纪录带来乐观情绪。",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd3Buc1hyNUJ6czhWelFHQjBVSjBhR3Z0cmpHbV9tUm45N0dQUDBYMFRvYzhDd0xrY3pWU1VoRUJxOUxEMjNSdUYzekM0X2VQaGFFNVhLYUZ6dk8tMlRvdFk4SnpENEpvM3BQU3o3WVZiVlFXWlFqUE5oaEI5bGxJSEIyMExzS2RIWUVkWnRYMmUyMlduWGdHY2FHUUNjTjl4TWdTcjRVRTA4UTdX?oc=5"
+      ]
     }
   ],
   "2026-08-04": [
@@ -349670,8 +349673,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -349776,8 +349779,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -349881,8 +349884,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -349985,8 +349988,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -350093,8 +350096,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -350214,8 +350217,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -350335,8 +350338,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -350440,8 +350443,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -350545,8 +350548,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -350648,8 +350651,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -350757,8 +350760,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -350862,8 +350865,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -350968,8 +350971,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -351087,8 +351090,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -351206,8 +351209,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 2,
       "merged_from": [
         "https://e27.co/bitcoins-us83000-test-can-institutional-demand-hold-the-line-20261008/"
@@ -351328,8 +351331,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -351436,8 +351439,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -351541,8 +351544,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -351645,8 +351648,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -351750,8 +351753,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 2,
       "merged_from": [
         "https://techcrunch.com/2026/10/08/vesta-raises-30m-as-lenders-adopt-ai-agents/"
@@ -351859,8 +351862,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 2,
       "merged_from": [
         "https://tech.eu/2026/10/08/truelayer-captures-27m-investment-as-targets-italy-expansion/"
@@ -351967,8 +351970,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 2,
       "merged_from": [
         "https://tech.eu/2026/10/08/uk-and-germany-launch-industrial-tech-corridor-to-accelerate-ai-and-deeptech-growth/"
@@ -352075,8 +352078,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -352179,8 +352182,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -352284,8 +352287,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -352391,8 +352394,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -352496,8 +352499,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -352600,8 +352603,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -352705,8 +352708,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 2,
       "merged_from": [
         "https://www.pocketgamer.biz/mj-studios-idiris-mustaf-weve-always-preferred-to-let-our-games-speak-for-us/"
@@ -352814,8 +352817,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 2,
       "merged_from": [
         "https://www.pocketgamer.biz/unity-unveils-spark-ai-game-maker-with-google-playground-integration/"
@@ -352922,8 +352925,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -353027,8 +353030,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -353134,8 +353137,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 2,
       "merged_from": [
         "https://fintechnews.sg/138756/ai/backbase-conversational-banking-ai-agents/"
@@ -353242,8 +353245,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -353350,8 +353353,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -353455,8 +353458,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 2,
       "merged_from": [
         "https://www.finextra.com/newsarticle/48554/wise-to-pay-clients-tax-bills-after-third-party-software-error?utm_medium=rssfinextra&utm_source=finextrafeed"
@@ -353566,8 +353569,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -353673,8 +353676,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -353779,8 +353782,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -353886,8 +353889,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -353991,8 +353994,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -354101,8 +354104,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -354206,8 +354209,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 2,
       "merged_from": [
         "https://ventureburn.com/does-platform-loyalty-still-support-smarter-spending-in-the-cloud-era/"
@@ -354315,8 +354318,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -354422,8 +354425,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -354530,8 +354533,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -354649,8 +354652,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -354762,8 +354765,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -354876,8 +354879,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 2,
       "merged_from": [
         "https://blog.cloudflare.com/radar-redesign/"
@@ -354984,8 +354987,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -355089,8 +355092,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -355201,8 +355204,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -355306,8 +355309,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     }
   ],
@@ -355414,7 +355417,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -355517,7 +355520,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -355626,7 +355629,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -355734,7 +355737,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -355843,7 +355846,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -355948,7 +355951,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -356059,7 +356062,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -356167,7 +356170,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -356275,7 +356278,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -356382,7 +356385,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -356488,7 +356491,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -356603,7 +356606,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -356714,7 +356717,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -356816,7 +356819,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -356925,7 +356928,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -357034,7 +357037,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -357142,7 +357145,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -357251,7 +357254,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -357363,7 +357366,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -357468,7 +357471,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -357574,7 +357577,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -357680,7 +357683,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -357785,7 +357788,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -357800,9 +357803,9 @@
       "level": "C",
       "score": 4,
       "summary_short": "高盛高管称AI将开发者变为管理者",
-      "content_overview": "高盛的Marco Argenti表示，AI将开发者转变为管理者的管理者。",
-      "reason": "欧洲金融巨头高管对AI角色的判断，预示企业AI工具需求将从代码生成转向管理自动化，关注AI管理工具赛道。",
-      "impact": "企业AI工具开发商、开发者管理平台",
+      "content_overview": "高盛高管Marco Argenti表示，AI将开发者转变为管理者的管理者，并讨论了AI的第三波增长浪潮。",
+      "reason": "欧洲金融业AI应用观点引发关注，开发者角色转变将影响企业软件采购和AI工具需求。",
+      "impact": "企业软件供应商、AI开发工具公司",
       "insight_label": "背景补充",
       "trend_topic": "AI重塑开发者角色",
       "companies": [],
@@ -357891,9 +357894,12 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
-      "event_report_count": 1
+      "event_report_count": 2,
+      "merged_from": [
+        "https://thenextweb.com/news/marco-argenti-goldman-sachs-ai-third-wave-growth-wave-by-vento"
+      ]
     },
     {
       "title": "US enterprise firm Kore.ai launches agent optimization tool",
@@ -357998,7 +358004,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -358099,7 +358105,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -358113,12 +358119,12 @@
       ],
       "level": "C",
       "score": 4,
-      "summary_short": "游戏行业周报：彩虹六号手游关停等",
-      "content_overview": "本周游戏行业观点综述，包括《彩虹六号手游》的关停、《我的世界》衍生游戏下一步计划以及AI对游戏行业的风险。",
-      "reason": "全球游戏行业动态综述，涉及手游关停和AI风险，为游戏开发商提供市场趋势参考。",
-      "impact": "全球游戏开发商、手游发行商",
+      "summary_short": "游戏行业周报：彩虹六号手游关服、AI风险讨论",
+      "content_overview": "PocketGamer.biz发布一周观点综述，涵盖《彩虹六号手游》关服、《我的世界》衍生游戏后续计划以及AI对游戏行业的风险。",
+      "reason": "全球游戏行业周报聚焦头部产品关停和AI风险，为游戏开发者和发行商提供趋势参考",
+      "impact": "全球游戏开发商、手游发行商、AI游戏工具供应商",
       "insight_label": "背景补充",
-      "trend_topic": "游戏行业AI风险与调整",
+      "trend_topic": "游戏行业趋势与AI风险",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -358206,9 +358212,12 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
-      "event_report_count": 1
+      "event_report_count": 2,
+      "merged_from": [
+        "https://www.pocketgamer.biz/rainbow-six-mobiles-shutdown-minecraft-blasts-next-steps-and-ais-risks-for-games-week-in-views/"
+      ]
     },
     {
       "title": "New release roundup: Monster Hunter Rise, Castlevania, Yes, Your Grace: Snowfall, and more",
@@ -358311,7 +358320,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -358416,7 +358425,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -358523,7 +358532,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -358628,7 +358637,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -358736,7 +358745,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -358843,7 +358852,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -358948,7 +358957,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -359053,7 +359062,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -359170,7 +359179,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -359184,12 +359193,12 @@
       ],
       "level": "B",
       "score": 6,
-      "summary_short": "Cloudflare发布多模态AI模型Clef-omni",
-      "content_overview": "Cloudflare推出Clef-omni，支持全多模态，并发布更快的Clef和更便宜的Clef-flash版本。",
-      "reason": "多模态AI需求增长，Cloudflare推出新模型，为边缘计算和AI应用开发者提供新工具，可能带动相关生态合作。",
-      "impact": "AI应用开发者、边缘计算用户",
+      "summary_short": "Cloudflare发布多模态AI模型Clef-omni及性能优化版本",
+      "content_overview": "Cloudflare发布Clef-omni模型，支持全模态输入，同时推出速度更快的Clef和成本更低的Clef-flash版本。",
+      "reason": "全球边缘云厂商扩展AI模型产品线，多模态推理在边缘场景的应用将加速，开发者可基于Cloudflare Workers调用新模型",
+      "impact": "边缘AI应用开发者、Cloudflare生态合作伙伴",
       "insight_label": "合作机会",
-      "trend_topic": "边缘AI模型迭代",
+      "trend_topic": "边缘AI模型竞争",
       "companies": [],
       "is_company": false,
       "company_name": "Cloudflare",
@@ -359283,9 +359292,12 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
-      "event_report_count": 1
+      "event_report_count": 2,
+      "merged_from": [
+        "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/"
+      ]
     },
     {
       "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
@@ -359297,12 +359309,12 @@
       ],
       "level": "B",
       "score": 6,
-      "summary_short": "Cloudflare推出Workers按需性能分析功能",
-      "content_overview": "Cloudflare为Workers和Durable Objects推出按需CPU和内存分析功能，支持火焰图可视化。",
-      "reason": "全球边缘计算平台增强可观测性，为开发者提供更精细的性能调优工具，边缘计算生态竞争加剧。",
-      "impact": "边缘计算开发者、Serverless平台用户、可观测性工具厂商",
-      "insight_label": "合作机会",
-      "trend_topic": "边缘计算可观测性升级",
+      "summary_short": "Cloudflare Workers新增按需性能分析功能",
+      "content_overview": "Cloudflare为Workers和Durable Objects推出按需CPU和内存性能分析功能，支持火焰图可视化。",
+      "reason": "全球边缘计算平台增强可观测性工具，开发者可更精准定位性能瓶颈，提升边缘应用运维效率",
+      "impact": "边缘计算开发者、Serverless应用团队",
+      "insight_label": "背景补充",
+      "trend_topic": "边缘计算可观测性",
       "companies": [],
       "is_company": false,
       "company_name": "Cloudflare",
@@ -359397,9 +359409,12 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
-      "event_report_count": 1
+      "event_report_count": 2,
+      "merged_from": [
+        "https://blog.cloudflare.com/workers-on-demand-profiling/"
+      ]
     },
     {
       "title": "Shopify: Translate & Adapt EU Update: Auto-sync translations for up to 8 languages",
@@ -359411,12 +359426,12 @@
       ],
       "level": "C",
       "score": 5,
-      "summary_short": "Shopify支持自动同步8种语言翻译",
-      "content_overview": "Shopify更新Translate & Adapt应用，支持自动同步最多8种语言的翻译。",
+      "summary_short": "Shopify 自动同步翻译支持 8 种语言",
+      "content_overview": "Shopify 更新 Translate & Adapt 应用，新增自动同步翻译功能，支持最多 8 种语言，帮助商家简化多语言店铺管理。",
       "reason": "Shopify发布产品更新，可验证其产品、平台或生态能力发生变化",
       "impact": "开发者、集成商和生态合作伙伴",
       "insight_label": "合作机会",
-      "trend_topic": "跨境电商本地化工具升级",
+      "trend_topic": "跨境电商本地化升级",
       "companies": [],
       "is_company": true,
       "company_name": "Shopify",
@@ -359506,10 +359521,675 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
+      "event_source_count": 1,
+      "event_report_count": 2,
+      "merged_from": [
+        "https://changelog.shopify.com/posts/translate-adapt-auto-sync-translations-for-up-to-8-languages"
+      ]
+    },
+    {
+      "title": "Uber Acquires Controlling Stake in Careem, Signaling Renewed Strategic Alignment in the Region - TechJuice",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMEtnRktJeGRLVzlfRktVT2Z5X1BIZU9fT3RpVEMzUU5LdldKVGlZVkI5ejczNXRnT1U2WXBidkpoaTlzNV9rUmdwTzFoQVNOazRiQXRNYWg4RXl1RlhxLW5aNUJveGJoT2daV2RmU3d4UHVrRVJZWmJYWUp4c3RNQnhEN3VVVkk1bURNMExOZzRsMUZobVV1QjRuTkZMQ0pFSElhVmF1M1dLRFRzbzd6Sk5aOXZPR2x2RWQ4?oc=5",
+      "source": "Google News",
+      "region": "中东",
+      "event_types": [
+        "ma"
+      ],
+      "level": "B",
+      "score": 6,
+      "summary_short": "Uber收购Careem控股权",
+      "content_overview": "Uber收购了Careem的控股权，标志着双方在中东地区的战略合作重新对齐。",
+      "reason": "中东出行市场整合加速，Uber强化区域控制力，本地竞合格局生变",
+      "impact": "中东出行平台、网约车司机、本地生活服务商",
+      "insight_label": "合作机会",
+      "trend_topic": "中东出行市场整合",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Careem",
+      "canonical_company": "uber",
+      "canonical_key": "careem",
+      "article_date": "2026-10-09",
+      "date": "2026-10-09",
+      "source_detail": "TechJuice",
+      "publisher": "TechJuice",
+      "image_url": "",
+      "published_at": "2026-10-09",
+      "observed_at": "2026-10-10T06:41:55.622887+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Careem",
+      "credibility_score": 0,
+      "origin_source_id": "Careem",
+      "observation_entity_id": "Careem",
+      "discovery_source": "google_news",
+      "publisher_source": "TechJuice",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "local_services_logistics"
+      ],
+      "scope_regions": [
+        "中东"
+      ],
+      "scope_match_basis": "source_contract",
+      "report_methodology_visible": false,
+      "vertical": "mobility_super_app",
+      "bd_triggers": [
+        "整合窗口"
+      ],
+      "opportunity_direction": "系统整合 / 数据迁移 / 组织协同工具 / 生态打通",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "company",
+      "claim_type": "industry_change",
+      "confidence_score": 42,
+      "attention_score": 85,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 20,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "funding",
+      "domain": "other",
+      "signal_type": "capital",
+      "signal_change_score": 76,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 22,
+        "scope_fit": 20,
+        "market_impact": 14,
+        "market_impact_confidence": 20
+      },
+      "view_status": "filtered",
+      "view_reason": "out_of_scope_industry",
+      "view_priority": "selected",
+      "ai_score_1": 78,
+      "ai_score_2": 78,
+      "ai_score_avg": 78,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g986",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     }
   ],
-  "2026-10-10": []
+  "2026-10-10": [
+    {
+      "title": "Kakao Games Launches Pixel-Art MMORPG 'World of Dokkaebi' - Seoul Economic Daily",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ3JOdTI1SXVTX0tqWGpCdFVURUJFU3ZpM2RmOXNQQW1MMGItbHM5bHJkaDF4cUhDZHBucnQ4QjNobjZXRm9JVHVXcXZQOGl5STlBSjZyOURUQlRtYVdNaVhwX1VxQVZlRnVKM1kyN2tZSDZvZlJaSjczMHVTZzJwX2V1T2FST2NNVF9jamR3bnZoNE5FM3IzNVhlX3ZFVGhCTXc?oc=5",
+      "source": "Google News",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "Kakao Games发布新游《World of Dokkaebi》",
+      "content_overview": "Kakao Games推出像素风MMORPG游戏《World of Dokkaebi》，正式上线运营。",
+      "reason": "亚太游戏市场竞争激烈，Kakao Games推出新作丰富产品线，为游戏分发和运营服务带来合作机会。",
+      "impact": "游戏发行平台、游戏运营服务商、像素艺术外包团队",
+      "insight_label": "背景补充",
+      "trend_topic": "亚太游戏新品发布",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Kakao",
+      "canonical_company": "kakao games",
+      "canonical_key": "",
+      "article_date": "2026-10-10",
+      "date": "2026-10-10",
+      "source_detail": "Seoul Economic Daily",
+      "publisher": "Seoul Economic Daily",
+      "image_url": "",
+      "published_at": "2026-10-10",
+      "observed_at": "2026-10-10T06:41:40.551085+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Kakao",
+      "credibility_score": 0,
+      "origin_source_id": "Kakao",
+      "observation_entity_id": "Kakao",
+      "discovery_source": "google_news",
+      "publisher_source": "Seoul Economic Daily",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "payments",
+        "ads_social"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "source_contract",
+      "report_methodology_visible": false,
+      "vertical": "social_payment",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 42,
+      "attention_score": 100,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 35,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "product_release",
+      "domain": "payment",
+      "signal_type": "company",
+      "signal_change_score": 72,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 24,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 20
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g987",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 1.0,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "Firmus explores $3b private funding round after IPO withdrawal",
+      "url": "https://www.techinasia.com/news/firmus-grid-explores-2b3b-ipo-pull",
+      "source": "Tech in Asia",
+      "region": "亚太",
+      "event_types": [
+        "funding"
+      ],
+      "level": "A",
+      "score": 9,
+      "summary_short": "Firmus探索$3B私募融资",
+      "content_overview": "数据中心公司Firmus在撤回IPO后，正在探索30亿美元的私募融资轮。",
+      "reason": "亚太数据中心需求旺盛，Firmus撤回IPO转向私募，显示资本流向基础设施领域，为设备供应商和建设方带来机会。",
+      "impact": "数据中心设备商、亚太云服务商",
+      "insight_label": "资金流向",
+      "trend_topic": "亚太数据中心投资",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "firmus",
+      "canonical_key": "3000m",
+      "article_date": "2026-10-10",
+      "date": "2026-10-10",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://cdn.techinasia.com/wp-content/uploads/2026/09/1788404873_Firmus.png",
+      "published_at": "2026-10-10",
+      "observed_at": "2026-10-10T06:39:59.777870+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L2 垂直交易源",
+      "source_role": "venture_media",
+      "source_id": "Tech in Asia",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_url_original": "https://www.techinasia.com/endowus-ceo-gregory-van-optimistic-profitability",
+      "source_url_repaired": true,
+      "source_url_repair_reason": "rss_guid_title_match",
+      "source_excerpt": "Firmus previously announced a US$2 billion strategic equity investment to expand AI infrastructure.",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "持续观察",
+      "bd_priority": "观察",
+      "signal_taxonomy": [
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 62,
+      "attention_score": 95,
+      "score_breakdown": {
+        "source_authority": 20,
+        "materiality": 30,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "C",
+      "action_type": "funding",
+      "domain": "ai",
+      "signal_type": "capital",
+      "signal_change_score": 77,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 22,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "review",
+      "view_reason": "qualified_review",
+      "view_priority": "watch",
+      "ai_score_1": 62,
+      "ai_score_2": 68,
+      "ai_score_avg": 65,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g988",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 1.0,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "Singapore data center operator DayOne explores $500m bond",
+      "url": "https://www.techinasia.com/news/singapore-data-center-operator-dayone-explores-500m-bond",
+      "source": "Tech in Asia",
+      "region": "亚太",
+      "event_types": [
+        "funding"
+      ],
+      "level": "A",
+      "score": 8,
+      "summary_short": "DayOne探索$500M债券发行",
+      "content_overview": "新加坡数据中心运营商DayOne正在探索发行5亿美元债券。",
+      "reason": "新加坡数据中心扩张资金需求大，债券融资将支持其基础设施扩建，为相关供应链带来订单。",
+      "impact": "新加坡数据中心建设商、网络设备供应商",
+      "insight_label": "资金流向",
+      "trend_topic": "东南亚数据中心扩张",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "dayone",
+      "canonical_key": "500m",
+      "article_date": "2026-10-10",
+      "date": "2026-10-10",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://cdn.techinasia.com/wp-content/uploads/2026/10/1791592603_1755231552_DayOne-Lahti-DC.jpg",
+      "published_at": "2026-10-10",
+      "observed_at": "2026-10-10T06:39:59.782877+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L2 垂直交易源",
+      "source_role": "venture_media",
+      "source_id": "Tech in Asia",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_url_original": "https://www.techinasia.com/sg-data-center-firm-dayone-line-banks-5b-ipo",
+      "source_url_repaired": true,
+      "source_url_repair_reason": "rss_guid_title_match",
+      "source_excerpt": "DayOne filed for an initial public offering in the US this week and has considered raising about US$5 billion.",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 62,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 20,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "C",
+      "action_type": "funding",
+      "domain": "ai",
+      "signal_type": "technology",
+      "signal_change_score": 85,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 22,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 12
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g989",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 1.0,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "E-commerce growth drives demand for multichannel software in Southeast Asia",
+      "url": "https://e.vnexpress.net/news/tech/e-commerce-growth-drives-demand-for-multichannel-software-in-southeast-asia-5130529.html",
+      "source": "VnExpress Tech",
+      "region": "越南",
+      "event_types": [
+        "industry_report"
+      ],
+      "level": "C",
+      "score": 5,
+      "summary_short": "东南亚电商增长带动多渠道软件需求",
+      "content_overview": "报告指出东南亚电商增长推动多渠道管理软件需求上升，卖家需跨平台管理订单和库存。",
+      "reason": "东南亚电商市场持续扩张，多渠道管理SaaS工具在越南、印尼等国的渗透率将快速提升，本地化服务商有切入机会",
+      "impact": "东南亚电商SaaS服务商、跨境电商卖家",
+      "insight_label": "合作机会",
+      "trend_topic": "东南亚电商基建加速",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "",
+      "canonical_key": "",
+      "article_date": "2026-10-10",
+      "date": "2026-10-10",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://vcdn1-english.vnecdn.net/2026/10/09/Image-254701422-ExtractWord-0-6037-9469-1791547752.png?w=680&h=0&q=100&dpr=1&fit=crop&s=KpUeqsgiwn9FmoPbkLqJlA",
+      "published_at": "2026-10-10",
+      "observed_at": "2026-10-10T06:40:01.613138+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L3 区域生态源",
+      "source_role": "industry_vertical",
+      "source_type": "industry_media",
+      "access_method": "rss",
+      "source_id": "vnexpress-tech",
+      "credibility_score": 7,
+      "noise_level": "medium",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "industry_change",
+      "scope_industries": [
+        "commerce",
+        "local_services_logistics"
+      ],
+      "scope_regions": [
+        "越南"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "Southeast Asia's expanding e-commerce market is increasing demand for software that helps merchants manage products, orders, inventory and fulfillment across multiple sales channels.",
+      "report_methodology_visible": false,
+      "source_signal_types": [
+        "regional_ecosystem",
+        "industry_analysis"
+      ],
+      "vertical": "越南科技与产业",
+      "bd_triggers": [
+        "预算窗口",
+        "生态窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "expansion",
+        "commerce"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "generic_industry_change",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 72,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 24,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "policy_change",
+      "domain": "ecommerce",
+      "signal_type": "policy",
+      "signal_change_score": 80,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 25,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g990",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 1.0,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "Cloudflare API MCP server serves Cloudflare skills",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-10-10-cloudflare-mcp-skills/",
+      "source": "Cloudflare Changelog",
+      "region": "全球",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 5,
+      "summary_short": "Cloudflare 推出 API MCP 服务器",
+      "content_overview": "Cloudflare 发布 API MCP 服务器，支持通过 MCP 协议调用 Cloudflare 技能，开发者可将其集成到 AI 代理或工作流中。",
+      "reason": "Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化",
+      "impact": "开发者、集成商和生态合作伙伴",
+      "insight_label": "合作机会",
+      "trend_topic": "AI 与边缘计算融合",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Cloudflare",
+      "canonical_company": "cloudflare",
+      "canonical_key": "",
+      "article_date": "2026-10-10",
+      "date": "2026-10-10",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://developers.cloudflare.com/changelog/post/2026-10-10-cloudflare-mcp-skills/og.png?v=8b077ad592b882d1",
+      "published_at": "2026-10-10",
+      "observed_at": "2026-10-10T06:41:11.246749+00:00",
+      "date_source": "url_path",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L1 官方/IR源",
+      "source_role": "developer_change",
+      "source_type": "changelog",
+      "access_method": "html",
+      "source_id": "cloudflare-changelog",
+      "credibility_score": 10,
+      "noise_level": "low",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "cloud_saas_developer"
+      ],
+      "scope_regions": [
+        "全球"
+      ],
+      "scope_match_basis": "fact",
+      "report_methodology_visible": false,
+      "source_signal_types": [
+        "developer_change",
+        "payment_infra"
+      ],
+      "vertical": "AI infra/边缘云",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "payment",
+        "ai_infra",
+        "developer_change"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "observation_type": "changelog",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 67,
+      "attention_score": 100,
+      "score_breakdown": {
+        "source_authority": 35,
+        "materiality": 35,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "product_release",
+      "domain": "cloud_saas",
+      "signal_type": "company",
+      "signal_change_score": 72,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 24,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 20
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 48,
+      "ai_score_2": 48,
+      "ai_score_avg": 48,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g991",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 1.0,
+      "event_source_count": 1,
+      "event_report_count": 1
+    }
+  ]
 }
