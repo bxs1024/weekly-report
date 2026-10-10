@@ -3,12 +3,20 @@
   <title>全球互联网百晓生 · 事件流</title>
   <subtitle>高价值事件推送，日报日期：2026-10-10</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-10-10T06:54:42Z</updated>
+  <updated>2026-10-10T21:42:53Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
+  <entry>
+    <title>土耳其11月起禁15岁以下用社媒</title>
+    <link href="https://thenextweb.com/news/turkey-social-media-ban-under-15-november"/>
+    <id>tag:weekly-report,2026:event-036f0834</id>
+    <published>2026-10-10T00:00:00Z</published>
+    <updated>2026-10-10T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Turkey’s social media ban for under-15s starts on 1 November&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;土耳其将于11月1日起对15岁以下用户实施社交媒体禁令，限制其使用社交平台。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东地区社交媒体监管收紧，影响全球社交平台在土耳其的用户增长和合规策略，需调整年龄验证机制。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：中东 | 来源：The Next Web&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>DayOne探索$500M债券发行</title>
     <link href="https://www.techinasia.com/news/singapore-data-center-operator-dayone-explores-500m-bond"/>
@@ -23,7 +31,7 @@
     <id>tag:weekly-report,2026:event-47cfecbd</id>
     <published>2026-10-10T00:00:00Z</published>
     <updated>2026-10-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;E-commerce growth drives demand for multichannel software in Southeast Asia&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;报告指出东南亚电商增长推动多渠道管理软件需求上升，卖家需跨平台管理订单和库存。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚电商市场持续扩张，多渠道管理SaaS工具在越南、印尼等国的渗透率将快速提升，本地化服务商有切入机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：越南 | 来源：VnExpress Tech&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;E-commerce growth drives demand for multichannel software in Southeast Asia&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;越南媒体VnExpress报道，东南亚电商增长正推动多渠道管理软件需求上升，该地区卖家需跨平台管理订单、库存和客户。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚电商卖家对跨平台订单和库存管理工具需求上升，为SaaS服务商提供市场切入点。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：越南 | 来源：VnExpress Tech&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Cloudflare 推出 API MCP 服务器</title>
@@ -34,11 +42,27 @@
     <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare API MCP server serves Cloudflare skills&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare 发布 API MCP 服务器，支持通过 MCP 协议调用 Cloudflare 技能，开发者可将其集成到 AI 代理或工作流中。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>全球AI视野 Top5 · 2026-10-10</title>
-    <link href="https://aihot.virxact.com/hot"/>
-    <id>tag:weekly-report,2026:aihot-070dcd02</id>
+    <title>Colao为欧洲版权规则和DSA辩护</title>
+    <link href="https://thenextweb.com/news/vittorio-colao-ai-regulation-europe-wave-by-vento"/>
+    <id>tag:weekly-report,2026:event-04378115</id>
     <published>2026-10-10T00:00:00Z</published>
     <updated>2026-10-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-10T10:57&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/100cfaa3-4eb5-4ba9-8199-65be0d26b885"&gt;Anthropic 新政策首次禁止虐待模型&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d2b86a14-9162-49d5-9df2-0548df6c16a2"&gt;Grok Bot 新增专属邮箱功能&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/a2df69da-f530-4cf9-812f-48c246e2402e"&gt;OpenAI解雇3名研究员，双方就指控各执一词&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d06a5836-f6cc-4ecf-a616-8dd42aceca87"&gt;OpenAI年化收入口径分歧：700亿还是500亿美元&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/daf111a0-908f-4f9c-8639-fc469d9ec53b"&gt;谷歌发布 Gemini 4 Argon 前沿模型&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Vittorio Colao defends copyright rules and the DSA in Europe’s AI debate&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;欧洲监管人士Vittorio Colao在AI辩论中为版权规则和《数字服务法》辩护，强调欧洲AI监管框架的重要性。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI监管政策走向影响AI公司数据获取和模型训练合规，版权规则将重塑AI内容生态合作模式。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Cloudflare收购Deno强化Workers平台</title>
+    <link href="https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/"/>
+    <id>tag:weekly-report,2026:event-654163ac</id>
+    <published>2026-10-10T00:00:00Z</published>
+    <updated>2026-10-10T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare acquires Deno to improve its Workers programming model&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare收购Deno以改进其Workers编程模型。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;边缘计算巨头收购JavaScript运行时公司，开发者工具链整合加速&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>全球AI视野 Top5 · 2026-10-11</title>
+    <link href="https://aihot.virxact.com/hot"/>
+    <id>tag:weekly-report,2026:aihot-ec0f8a60</id>
+    <published>2026-10-11T00:00:00Z</published>
+    <updated>2026-10-11T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-11T01:00&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d2b86a14-9162-49d5-9df2-0548df6c16a2"&gt;Grok Bot 新增专属邮箱功能&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/100cfaa3-4eb5-4ba9-8199-65be0d26b885"&gt;Anthropic 新政策首次禁止虐待模型&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/4e124b64-1274-4d7e-8dfb-3e73663a850c"&gt;Anthropic 模型误报凶杀线索给费城警方&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/daf111a0-908f-4f9c-8639-fc469d9ec53b"&gt;谷歌发布 Gemini 4 Argon，先供可信防御者&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/cd73b967-8f2e-455c-b267-b0f1904a91c4"&gt;微软发布决策模型 Microsoft-Decision-1&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>

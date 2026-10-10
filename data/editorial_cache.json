@@ -927,29 +927,29 @@
       "generated_at": "2026-10-06 08:27"
     },
     "weekly:2026-W41": {
-      "input_hash": "d60c0a2afd94c49dd84a6e8c76da1092ba2befee814d5b614aeeb3d6d07ecc1b",
+      "input_hash": "704db1e3caab7e52f8d2cfffe6652a2e24eac929b09013c34e885c4125570cb2",
       "editorial": {
-        "editorial_title": "中东资本扫货AI，亚太支付与游戏加速圈地",
-        "mainline": "中东主权基金洽谈入股OpenAI、NEOPAY收购noon支付控股权，同时Kakao Games借阿布扎比切入MENA、Keeta巴西覆盖32城。资本与本地化运营正同步重塑出海版图，中东和拉美成为本周最密集的落子区域。",
+        "editorial_title": "中东资本扫货AI，亚太合规收紧",
+        "mainline": "中东主权基金洽谈入股OpenAI、NEOPAY收购noon支付控股权，同时新加坡通过数字基础设施韧性法案并强制金融机构一年内落地AI风险规则。资本向AI龙头集中与监管框架同步收紧，出海企业需在融资窗口和合规成本之间重新排布优先级。",
         "themes": {
-          "ai_infra": "Cloudflare推出API MCP服务器，把模型调用直接嵌入边缘网络；Databricks发布2026基准报告，以湖仓架构对标传统数据仓库。Square Enix重启Collective并引入生成式AI，显示游戏内容生产工具链正被云与AI平台重新定义。",
-          "expansion": "Kakao Games与阿布扎比合作打开中东游戏发行通道，Enduins获Square Enix背书发布新Demo。Keeta在巴西覆盖32城、下载破千万，Atlassian与OpenAI扩大合作推动企业知识自动化。亚太与中资平台正以合作和本地运营双线切入新兴市场。",
-          "payments": "阿联酋基金洽谈投资OpenAI，NEOPAY收购noon payments 65%股权，中东资本同时押注全球AI龙头与本地支付整合。Revolut申请菲律宾银行牌照，Nubank前员工创立Decade做AI资金管理，金融科技创业与牌照扩张同步升温。",
-          "developer": "Databricks推出Funke原生HL7v2解析，医疗数据平台可直接处理临床标准格式。Stuut获5250万美元扩展AI平台，Namespace获3700万欧元建跨平台开发基础设施。医疗与开发工具层同时获得资本和产品级推进。",
-          "commerce": "Shopify自动同步翻译支持8种语言并新增采购订单分析，Pinterest扩大创作者内容推广功能。东南亚电商增长带动多渠道软件需求，中小品牌和独立创作者获得新的流量获取与跨境运营工具。",
-          "compliance": "新加坡通过数字基础设施韧性法案并强化D-SIBs损失吸收规则，MAS要求金融机构一年内准备AI风险规则。Seviora计划2027年前合并三家资管业务，合规升级与机构整合同步推进，云服务和数据中心运营商面临新的合规改造窗口。"
+          "ai_infra": "Cloudflare上线API MCP服务器，把边缘网络能力封装成AI代理可直接调用的工具层；Databricks同期发布基准报告，用实测数据挑战传统数据仓库的性价比叙事。基础设施厂商正从卖资源转向卖代理可编排的接口标准。",
+          "expansion": "美团Keeta在巴西覆盖城市数扩至32个、下载量破千万，验证中国外卖模式在拉美的规模化复制；Kakao Games与阿布扎比合作切入MENA市场。与此同时，Colao为欧洲版权规则辩护，提示内容出海需同步应对版权合规。",
+          "payments": "阿联酋主权基金洽谈投资OpenAI，NEOPAY收购noon payments 65%股权，中东资本同时押注全球AI龙头和本地支付基建。Revolut申请菲律宾银行牌照、Nubank前员工创立AI资金管理工具，说明新兴市场金融科技仍在裂变。",
+          "developer": "Databricks推出Funke原生HL7v2解析，医疗数据无需中间件即可进入湖仓分析管线，亚太医疗IT服务商可借此缩短交付周期。Stuut和Namespace分别获5250万美元和3700万欧元融资，开发者基础设施仍是资本押注方向。",
+          "compliance": "新加坡通过数字基础设施韧性法案，同时MAS要求金融机构一年内完成AI风险规则准备，云服务商和数据中心运营商面临明确的合规升级窗口。土耳其11月起禁止15岁以下用户使用社媒，亚太与中东的数字治理同步收紧。",
+          "commerce": "Shopify自动同步翻译支持8种语言并新增采购订单分析，降低跨境卖家多语言运营和供应链管理门槛；Pinterest扩大创作者内容推广功能，为中小品牌提供社交投流新入口。东南亚电商增长正带动多渠道管理软件需求上升。"
         },
         "theme_titles": {
-          "ai_infra": "Cloudflare开放MCP接口，湖仓阵营加码基准战",
-          "expansion": "Kakao借阿布扎比进MENA，Keeta巴西铺至32城",
-          "payments": "阿联酋基金洽谈入股OpenAI，NEOPAY收购noon支付",
-          "developer": "Databricks原生解析HL7v2，医疗数据集成门槛降低",
-          "commerce": "Shopify翻译扩至8语种，Pinterest加码创作者推广",
-          "compliance": "新加坡立法强化数字基建韧性，MAS限期AI风险规则"
+          "ai_infra": "Cloudflare开放MCP接口，湖仓阵营叫板数仓",
+          "expansion": "Keeta巴西铺至32城，Kakao借阿布扎比进中东",
+          "payments": "阿联酋基金洽投OpenAI，NEOPAY控股noon支付",
+          "developer": "Databricks原生解析HL7v2，医疗数据集成门槛骤降",
+          "compliance": "新加坡立法保数字基建韧性，MAS限一年备AI风险",
+          "commerce": "Shopify翻译扩至8语，Pinterest开放创作者投流"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-10-10 14:54"
+      "generated_at": "2026-10-11 05:42"
     }
   }
 }
