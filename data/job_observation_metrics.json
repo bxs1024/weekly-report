@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-10-10T14:39:55.604550+08:00",
+  "observed_at": "2026-10-11T05:31:33.900080+08:00",
   "source_count": 3,
   "raw_count": 56,
   "source_stats": {
@@ -34,11 +34,11 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 1,
+      "count": 0,
       "inventory_count": 31,
       "signal_count": 0,
       "added_count": 0,
-      "removed_count": 1,
+      "removed_count": 0,
       "clusters": {},
       "removed_clusters": {}
     }

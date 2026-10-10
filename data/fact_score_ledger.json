@@ -3443,5 +3443,15 @@
   "score": 4,
   "first_seen": "2026-10-09",
   "samples": 1
+ },
+ "apple|ma|huxe": {
+  "score": 5,
+  "first_seen": "2026-10-10",
+  "samples": 1
+ },
+ "cloudflare|ma|deno": {
+  "score": 4,
+  "first_seen": "2026-10-10",
+  "samples": 1
  }
 }
