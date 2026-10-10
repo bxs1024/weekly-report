@@ -1,197 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-10-09</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-10-10</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-10-09T22:46:30Z</updated>
+  <updated>2026-10-10T06:54:42Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>TCS股价涨3.5%，AI收入增20%</title>
-    <link href="https://www.techinasia.com/news/indias-tcs-shares-rise-35-ai-revenue-grows-20"/>
-    <id>tag:weekly-report,2026:event-1ac9156d</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;India’s TCS shares rise 3.5% as AI revenue grows 20%&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度IT服务巨头塔塔咨询服务（TCS）股价上涨3.5%，其AI相关业务收入同比增长20%。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度IT服务龙头AI业务高增长，验证企业AI服务需求，为全球AI解决方案供应商和印度IT外包生态带来合作信号。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>DayOne探索$500M债券发行</title>
+    <link href="https://www.techinasia.com/news/singapore-data-center-operator-dayone-explores-500m-bond"/>
+    <id>tag:weekly-report,2026:event-ce9024db</id>
+    <published>2026-10-10T00:00:00Z</published>
+    <updated>2026-10-10T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Singapore data center operator DayOne explores $500m bond&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡数据中心运营商DayOne正在探索发行5亿美元债券。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡数据中心扩张资金需求大，债券融资将支持其基础设施扩建，为相关供应链带来订单。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>西班牙Autentic AI获€1.5M融资</title>
-    <link href="https://tech.eu/2026/10/09/spanish-autentic-ai-raises-eur15m-to-accelerate-ai-powered-market-research/"/>
-    <id>tag:weekly-report,2026:event-22bad351</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Spanish Autentic AI raises €1.5M to accelerate AI-powered market research&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;西班牙AI市场研究公司Autentic AI完成150万欧元融资，以加速其AI驱动的市场研究业务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI市场研究赛道获资本注入，为市场调研行业提供AI替代方案和数据分析工具&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
+    <title>东南亚电商增长带动多渠道软件需求</title>
+    <link href="https://e.vnexpress.net/news/tech/e-commerce-growth-drives-demand-for-multichannel-software-in-southeast-asia-5130529.html"/>
+    <id>tag:weekly-report,2026:event-47cfecbd</id>
+    <published>2026-10-10T00:00:00Z</published>
+    <updated>2026-10-10T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;E-commerce growth drives demand for multichannel software in Southeast Asia&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;报告指出东南亚电商增长推动多渠道管理软件需求上升，卖家需跨平台管理订单和库存。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚电商市场持续扩张，多渠道管理SaaS工具在越南、印尼等国的渗透率将快速提升，本地化服务商有切入机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：越南 | 来源：VnExpress Tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>中国RISC-V AI芯片公司EVAS融资480亿日元</title>
-    <link href="https://36kr.jp/503091/"/>
-    <id>tag:weekly-report,2026:event-22eb28ab</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;RISC-VでAI半導体に挑む中国「EVAS」、480億円調達　車載からデータセンターへ&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国RISC-V AI芯片公司EVAS完成480亿日元（约3.2亿美元）融资，资金将用于从车载芯片向数据中心市场扩展。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国RISC-V AI芯片公司获大额融资，挑战ARM/x86生态，为数据中心和车载芯片供应链带来新选择。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Monte Carlo Capital为Fund II募资€13M</title>
-    <link href="https://www.eu-startups.com/2026/10/monte-carlo-capital-raises-e13-million-for-fund-ii-to-invest-in-early-stage-deeptech-ai-and-spacetech/"/>
-    <id>tag:weekly-report,2026:event-cfe02a90</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Monte Carlo Capital raises €13 million for Fund II to invest in early-stage DeepTech, AI and SpaceTech&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Monte Carlo Capital为其第二支基金募集了1300万欧元，该基金将投资于早期阶段的DeepTech、AI和SpaceTech领域。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲早期深科技基金募资，为AI和航天初创企业提供新的资金入口，关注欧洲深科技项目合作机会。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Klarent获€7.13M融资，拓展美国市场</title>
-    <link href="https://www.eu-startups.com/2026/10/zurichs-klarent-raises-e7-13-million-to-scale-its-agentic-software-testing-platform-and-expand-into-the-us/"/>
-    <id>tag:weekly-report,2026:event-f2fb0974</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Zurich’s Klarent raises €7.13 million to scale its agentic software testing platform and expand into the US&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;苏黎世的Klarent公司获得713万欧元融资，用于扩展其智能体软件测试平台并进入美国市场。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI软件测试平台获融资并进军美国，为美国企业提供新的QA自动化解决方案，关注欧美软件测试市场合作。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：北美 | 来源：EU-Startups&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>CaixaBank与Google Cloud扩大AI合作</title>
-    <link href="https://www.mobileworldlive.com/google/caixabank-google-cloud-expand-partnership-with-ai-push/"/>
-    <id>tag:weekly-report,2026:event-6329a582</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;CaixaBank, Google Cloud expand partnership with AI push&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;西班牙银行CaixaBank与Google Cloud扩大合作，重点推进人工智能应用。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲银行与云巨头深化AI合作，为金融行业AI解决方案提供商带来集成机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>软银拟从海湾筹集$100B用于AI投资</title>
-    <link href="https://www.mobileworldlive.com/ai-cloud/softbank-eyes-100b-gulf-investment-for-ai-push/"/>
-    <id>tag:weekly-report,2026:event-1ab13b62</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;SoftBank eyes $100B Gulf investment for AI push&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;软银集团正考虑从海湾地区筹集1000亿美元资金，用于人工智能领域的投资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东主权基金与日本科技巨头联手，将重塑全球AI资本格局，为AI基础设施和初创企业带来巨额资金池&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>micro1承诺$1B购买企业数据训练AI</title>
-    <link href="https://thenextweb.com/news/micro1-1bn-enterprise-data-ai-training-citi-hercules"/>
-    <id>tag:weekly-report,2026:event-2d912e91</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;micro1 commits $1bn to buy company data for training AI agents&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;micro1承诺投入10亿美元用于购买企业数据，以训练AI智能体。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI公司巨额采购企业数据，为数据供应商和AI训练服务商创造重大商机，关注企业数据交易市场。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>新加坡通过数字基础设施韧性法案</title>
-    <link href="https://fintechnews.sg/138783/cloud/singapore-data-centres-digital-infrastructure-bill/"/>
-    <id>tag:weekly-report,2026:event-a559936d</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Singapore Passes Bill to Address Risks Behind Digital Service Outages&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡通过法案，针对数据中心和数字服务中断风险进行监管，以增强数字基础设施韧性。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡立法强化数字服务韧性，为云服务商和数据中心运营商带来合规和升级需求&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare发布多模态AI模型Clef-omni</title>
-    <link href="https://blog.cloudflare.com/clef-faster-cheaper-multimodal/"/>
-    <id>tag:weekly-report,2026:event-81de0e94</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare推出Clef-omni，支持全多模态，并发布更快的Clef和更便宜的Clef-flash版本。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;多模态AI需求增长，Cloudflare推出新模型，为边缘计算和AI应用开发者提供新工具，可能带动相关生态合作。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Blog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare推出Workers按需性能分析功能</title>
-    <link href="https://blog.cloudflare.com/workers-on-demand-profiling/"/>
-    <id>tag:weekly-report,2026:event-6f164f70</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare为Workers和Durable Objects推出按需CPU和内存分析功能，支持火焰图可视化。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球边缘计算平台增强可观测性，为开发者提供更精细的性能调优工具，边缘计算生态竞争加剧。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Blog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Mukuru推出20米数字银行服务</title>
-    <link href="https://techcabal.com/2026/10/09/mukuru-digital-financial-services/"/>
-    <id>tag:weekly-report,2026:event-2710bee3</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The 20-metre neobank: How Mukuru is solving the gap between receiving cash and spending it&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;非洲金融科技公司Mukuru推出20米长的数字银行（neobank）服务，旨在解决用户从收到现金到消费之间的资金管理缺口。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲移动支付市场竞争加剧，Mukuru通过数字银行延伸服务链条，为当地用户提供更完整的金融解决方案，可能带动相关支付和银行技术合作。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：非洲 | 来源：TechCabal&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Anyflo推出企业稳定币支付方案</title>
-    <link href="https://www.finextra.com/newsarticle/48561/anyflo-emerges-from-stealth-to-simplify-stablecoin-payments-for-enterprises?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-fc3a5765</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Anyflo emerges from stealth to simplify stablecoin payments for enterprises&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;稳定币支付初创公司Anyflo结束隐身模式，推出面向企业的稳定币支付简化解决方案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球企业支付领域稳定币应用加速，为跨境支付和供应链金融提供新选项&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>多款游戏新版本发布汇总</title>
-    <link href="https://www.pocketgamer.biz/new-release-roundup-monster-hunter-rise-castlevania-yes-your-grace-snowfall-and-more/"/>
-    <id>tag:weekly-report,2026:event-3a258bbe</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;New release roundup: Monster Hunter Rise, Castlevania, Yes, Your Grace: Snowfall, and more&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;PocketGamer.biz发布新游汇总，涵盖《Monster Hunter Rise》《Castlevania》《Yes, Your Grace: Snowfall》等多款游戏的新版本或发布信息。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球游戏发行节奏密集，移动端与跨平台移植产品为渠道和联运方带来短期流量机会&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>平安数字银行进军私募基金市场</title>
-    <link href="https://www.techinasia.com/news/ping-digital-bank-enters-private-funds-market"/>
-    <id>tag:weekly-report,2026:event-44febdac</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ping An Digital Bank enters private funds market&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;平安数字银行宣布进入私募基金市场，拓展其业务范围。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国金融科技巨头拓展业务版图，为私募基金服务商和金融科技基础设施提供商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>高盛高管称AI将开发者变为管理者</title>
-    <link href="https://thenextweb.com/news/marco-argenti-goldman-sachs-ai-third-wave-growth-wave-by-vento"/>
-    <id>tag:weekly-report,2026:event-5b8a756b</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Goldman’s Marco Argenti says AI turns developers into managers of managers&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;高盛的Marco Argenti表示，AI将开发者转变为管理者的管理者。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲金融巨头高管对AI角色的判断，预示企业AI工具需求将从代码生成转向管理自动化，关注AI管理工具赛道。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>游戏行业周报：彩虹六号手游关停等</title>
-    <link href="https://www.pocketgamer.biz/rainbow-six-mobiles-shutdown-minecraft-blasts-next-steps-and-ais-risks-for-games-week-in-views/"/>
-    <id>tag:weekly-report,2026:event-9945ac02</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Rainbow Six Mobile&amp;#x27;s shutdown, Minecraft Blast&amp;#x27;s next steps and AI&amp;#x27;s risks for games  | Week in Views&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;本周游戏行业观点综述，包括《彩虹六号手游》的关停、《我的世界》衍生游戏下一步计划以及AI对游戏行业的风险。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球游戏行业动态综述，涉及手游关停和AI风险，为游戏开发商提供市场趋势参考。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Bloomingdale's采购人员跳槽至Bluemercury</title>
-    <link href="https://www.retaildive.com/news/bloomingdales-merchant-bluemercury/832597/"/>
-    <id>tag:weekly-report,2026:event-9900f529</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Bloomingdale’s merchant jumps to Bluemercury&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Bloomingdale&amp;#x27;s的一名采购人员（merchant）跳槽至其姊妹品牌Bluemercury，负责美妆业务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国百货零售集团内部人才流动，反映美妆品类战略重心向高端护肤品牌倾斜&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：Retail Dive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Seviora计划2027年前合并三家资管业务</title>
-    <link href="https://fintechnews.sg/138805/wealthtech/seviora-merger/"/>
-    <id>tag:weekly-report,2026:event-b2513dc1</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Temasek’s Seviora Plans Merger of Three Asset Management Businesses by 2027&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡淡马锡旗下资管公司Seviora计划在2027年前完成三家资产管理业务的合并。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太主权财富基金整合资管板块，将重塑区域资产管理格局，带来系统迁移和合规科技需求&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Shopify支持自动同步8种语言翻译</title>
-    <link href="https://changelog.shopify.com/posts/translate-adapt-auto-sync-translations-for-up-to-8-languages"/>
-    <id>tag:weekly-report,2026:event-0752a8a1</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Shopify: Translate &amp;amp; Adapt EU Update: Auto-sync translations for up to 8 languages&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Shopify更新Translate &amp;amp; Adapt应用，支持自动同步最多8种语言的翻译。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Shopify发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Shopify | 来源：Shopify Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>非文本AI模型Jev开发商估值达$7.5B</title>
-    <link href="https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/"/>
-    <id>tag:weekly-report,2026:event-b80653fe</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The maker of non-text AI model Jev valued at $7.5B just weeks after launch&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;非文本AI模型Jev的开发商在发布仅数周后估值达到75亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球非文本AI赛道出现超级独角兽，多模态AI技术商业化潜力获资本高度认可，相关基础设施与算力需求将激增&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Kore.ai推出智能体优化工具</title>
-    <link href="https://www.techinasia.com/news/us-enterprise-firm-kore-ai-launches-agent-optimization-tool"/>
-    <id>tag:weekly-report,2026:event-95dd0494</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;US enterprise firm Kore.ai launches agent optimization tool&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国企业级公司Kore.ai推出了一款智能体优化工具。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国企业AI公司发布新工具，为亚太企业提供智能体性能优化方案，关注企业AI智能体管理市场。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：北美 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>印度政府暂停新德里互联网服务</title>
-    <link href="https://inc42.com/buzz/govt-orders-suspension-of-internet-services-in-new-delhi-amid-protests/"/>
-    <id>tag:weekly-report,2026:event-2cf96354</id>
-    <published>2026-10-09T00:00:00Z</published>
-    <updated>2026-10-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Govt Orders Suspension Of Internet Services in New Delhi Amid Protests&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度政府下令在抗议活动期间暂停新德里的互联网服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度政府网络管控措施，影响当地数字服务和通信企业运营，关注印度互联网服务中断风险。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
+    <title>Cloudflare 推出 API MCP 服务器</title>
+    <link href="https://developers.cloudflare.com/changelog/post/2026-10-10-cloudflare-mcp-skills/"/>
+    <id>tag:weekly-report,2026:event-c19f31e2</id>
+    <published>2026-10-10T00:00:00Z</published>
+    <updated>2026-10-10T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare API MCP server serves Cloudflare skills&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare 发布 API MCP 服务器，支持通过 MCP 协议调用 Cloudflare 技能，开发者可将其集成到 AI 代理或工作流中。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-10-10</title>
@@ -199,6 +39,6 @@
     <id>tag:weekly-report,2026:aihot-070dcd02</id>
     <published>2026-10-10T00:00:00Z</published>
     <updated>2026-10-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-10T01:59&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/100cfaa3-4eb5-4ba9-8199-65be0d26b885"&gt;Anthropic 新政策首次禁止虐待模型&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/94903954-cf87-48d8-89a6-eff5deefeaa0"&gt;Anthropic 发布 Sonnet 5.5 与 Haiku 5.5，下调缓存读取价&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/a2df69da-f530-4cf9-812f-48c246e2402e"&gt;OpenAI解雇3名研究员，双方就指控各执一词&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/3bf2f6a6-d5b4-4c93-bd4d-1977a01c157f"&gt;谷歌云发布企业通用工作智能体 Gemini Agent&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/829ad21a-7429-4a43-9cb1-3c5c8a46c051"&gt;OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-10T10:57&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/100cfaa3-4eb5-4ba9-8199-65be0d26b885"&gt;Anthropic 新政策首次禁止虐待模型&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d2b86a14-9162-49d5-9df2-0548df6c16a2"&gt;Grok Bot 新增专属邮箱功能&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/a2df69da-f530-4cf9-812f-48c246e2402e"&gt;OpenAI解雇3名研究员，双方就指控各执一词&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d06a5836-f6cc-4ecf-a616-8dd42aceca87"&gt;OpenAI年化收入口径分歧：700亿还是500亿美元&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/daf111a0-908f-4f9c-8639-fc469d9ec53b"&gt;谷歌发布 Gemini 4 Argon 前沿模型&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
