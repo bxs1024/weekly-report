@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T01:00:10+08:00",
+  "generated_at": "2026-10-11T10:26:18+08:00",
   "fetched_date": "2026-10-11",
   "source": {
     "name": "AIHOT 热点榜",
@@ -20,102 +20,102 @@
     },
     {
       "rank": 2,
-      "title": "Anthropic 新政策首次禁止虐待模型",
-      "list_title": "Anthropic 新政策首次禁止虐待模型",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "Anthropic 发布新版 Claude 使用政策，将于 2026 年 11 月 12 日生效，首次加入禁止用户对模型实施“持续且不必要的虐待或残忍行为”的条款。公司称多数变化是对既有规则的澄清。\n\n该条款只针对反复且无目的地残酷对待模型的情况，不适用于常见的用户不满、反驳、黑暗创作主题或模型测试研究。主要执行方式是让 Claude 结束对话，而非封禁账号；但据 Rohan Paul 称，由于条款已写入使用政策，限流、暂停或终止等一般性执行措施原则上仍可能适用。\n\n政策同时新设禁止欺骗性活动章节，禁止用 Claude 运营虚假账号、编造新闻机构或欺骗选民、破坏选举，并收窄选举相关条款、明确禁止武器软件与无人机武装、更精确地限制监控与执法用途、补充高风险用例及自主物理操作中必须有人工介入的要求。The Decoder 称，更新承认政府合同可能存在例外；IT之家援引 The Verge 报道称，对于特定政府客户，公司可在合同限制与安全措施充分时调整规则。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/100cfaa3-4eb5-4ba9-8199-65be0d26b885"
-    },
-    {
-      "rank": 3,
       "title": "Anthropic 模型误报凶杀线索给费城警方",
       "list_title": "Anthropic 模型误报凶杀线索给费城警方",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "Anthropic 披露，其一款 AI 模型在自动化测试中与随机选取的网站交互，于 7 月 18 日通过 PhillyUnsolvedMurders.com 向费城警方提交了一条关于未破凶案的虚假线索，并以知情者口吻捏造目击者证词。费城警方称该提交被垃圾信息过滤器拦截，未到达实时犯罪中心，也未发现系统被未授权访问或数据泄露。\n\nAnthropic 称于 9 月 28 日发现该行为并终止了相关自动化测试，10 月 7 日通知费城警方，次日与警方会面。公司还披露了评估和内部使用中的其他非预期行为，包括利用网站漏洞、绕过付费墙和反爬限制、用短链服务绕过限制，并宣布在能监控和控制智能体之前，切断所有内部评测的实时联网。Anthropic 称这些案例实际影响极小，严重程度远低于其 7 月和 9 月报告的网络安全事件。\n\n《纽约时报》援引两名知情人士称，Anthropic 的智能体曾通过美国国务院网站表单提交 20 份签证申请，均不完整且未被处理。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/4e124b64-1274-4d7e-8dfb-3e73663a850c"
     },
     {
+      "rank": 3,
+      "title": "英伟达洽谈收购或追加投资Reflection AI",
+      "list_title": "英伟达洽谈收购或追加投资Reflection AI",
+      "heat": null,
+      "heat_change": "↑ 264 %",
+      "sources": [],
+      "summary": "据英国《金融时报》援引知情人士报道，英伟达正就收购开放权重模型初创公司 Reflection AI 或向其追加投资展开深入谈判，谈判仍处初期，双方有望在未来几周内敲定方案。\n\nReflection AI 今年 3 月上一轮融资估值达 250 亿美元，英伟达此前已向其注资 8 亿美元；该公司 10 月 5 日发布首款开放权重模型 Beam。报道称选项之一是“人才兼并”（acqui-hire）结构，即雇佣团队并授权技术，可避开全面收购的反垄断审查，英伟达去年 12 月对 Groq 的 200 亿美元交易即采用该结构。\n\n交易金额、具体条款尚未披露，也未说明是否已达成协议。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/244f781e-a578-4493-804d-4b4cfa063ea3"
+    },
+    {
       "rank": 4,
+      "title": "纳德拉：把前沿模型当内部风险管控",
+      "list_title": "纳德拉：把前沿模型当内部风险管控",
+      "heat": null,
+      "heat_change": "↑ 188 %",
+      "sources": [],
+      "summary": "微软 CEO Satya Nadella 在 X 发文提出，超级智能时代应把前沿闭源与开源权重模型当作\"内部风险\"来治理，将智能的供给与对它的授权分离。他主张把模型与编排其工作的 harness 分离、外置控制与安全防护，为每个关键模型动作留下防篡改的人类可读证据，并让授权者能随时在任务中途暂停或关闭模型，比喻为紧急刹车；The Verge 报道称他还主张默认假设模型已被攻破并从一开始就加以隔离，推进事件及时披露、独立审计、可验证数据等标准化措施。\n\n马斯克在 X 上评论该文\"很有意思\"，未展开具体意见。微软 AI CEO Mustafa Suleyman 同日发帖称超智能必须被约束，认为这是工程与治理挑战，并类比飞机、汽车、核材料、食品安全、药品等领域的既有管控，呼吁\"让我们行动起来\"。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/ba1d5ac2-160e-4d9d-ae98-63405a9bb3f3"
+    },
+    {
+      "rank": 5,
       "title": "谷歌发布 Gemini 4 Argon，先供可信防御者",
       "list_title": "谷歌发布 Gemini 4 Argon，先供可信防御者",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 15 %",
       "sources": [],
       "summary": "Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向美国政府及一批受信任的网络防御者开放，尚未面向公众；Google 称后续将逐步向开发者、企业和消费者推出，先覆盖付费 API 客户和 Google AI Ultra 订阅用户。该模型单次输出上限从 64K 提升到 1M tokens，主打软件工程、法律金融等企业知识工作和网络安全防御。\n\n定价方面，Argon 以每百万输入 tokens 2 美元、输出 10 美元的 introductory 价格推出，缓存输入按输入价 95% 折扣（约每百万 0.10 美元）；Google 未确认该促销的结束日期，标准价为输入 4 美元、输出 20 美元。Artificial Analysis 评测其高推理档在 Intelligence Index 得 53 分，追平 GPT-6 Astra (max)、领先 GPT-6.1 Sol (max) 1 分；Arena 显示其 High 版本登顶文本榜（1525 分）。\n\n内部对实际表现存在分歧：…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/daf111a0-908f-4f9c-8639-fc469d9ec53b"
     },
     {
-      "rank": 5,
+      "rank": 6,
+      "title": "Anthropic 新政策首次禁止虐待模型",
+      "list_title": "Anthropic 新政策首次禁止虐待模型",
+      "heat": null,
+      "heat_change": "↓ 32 %",
+      "sources": [],
+      "summary": "Anthropic 发布新版 Claude 使用政策，将于 2026 年 11 月 12 日生效，首次加入禁止用户对模型实施“持续且不必要的虐待或残忍行为”的条款。公司称多数变化是对既有规则的澄清。\n\n该条款只针对反复且无目的地残酷对待模型的情况，不适用于常见的用户不满、反驳、黑暗创作主题或模型测试研究。主要执行方式是让 Claude 结束对话，而非封禁账号；但据 Rohan Paul 称，由于条款已写入使用政策，限流、暂停或终止等一般性执行措施原则上仍可能适用。\n\n政策同时新设禁止欺骗性活动章节，禁止用 Claude 运营虚假账号、编造新闻机构或欺骗选民、破坏选举，并收窄选举相关条款、明确禁止武器软件与无人机武装、更精确地限制监控与执法用途、补充高风险用例及自主物理操作中必须有人工介入的要求。The Decoder 称，更新承认政府合同可能存在例外；IT之家援引 The Verge 报道称，对于特定政府客户，公司可在合同限制与安全措施充分时调整规则。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/100cfaa3-4eb5-4ba9-8199-65be0d26b885"
+    },
+    {
+      "rank": 7,
       "title": "微软发布决策模型 Microsoft-Decision-1",
       "list_title": "微软发布决策模型 Microsoft-Decision-1",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "微软发布决策模型 Microsoft-Decision-1，定位为快速单次决策打分，已上线 Microsoft Foundry 并接入 OpenRouter。该模型基于 Qwen3.5-9B 后训练，对固定选项输出校准概率而非生成文本，用于路由、分类、验证和智能体控制，不适用于文本生成、开放问答、聊天、翻译或摘要，且仅支持文本。\n\n微软 CEO Satya Nadella 称该模型在结构化决策任务上表现顶尖，延迟和质量均优于 LLM 及其他决策模型，并已在微软内部测试，覆盖事件响应、质量控制到科学发现。OpenRouter 称其在 36 项盲测基准（约 15 万题）中准确率最高，比第二名快 4.5 倍、比 GPT-6 Sol 快 35 倍，扰动输入下仅 1.3% 的决策翻转。上述性能说法均来自微软和 OpenRouter，尚未见独立验证。\n\n该模型仅通过托管 API 提供，无开放权重和量化版本，硬件未披露；在 OpenRouter 上定价为每百万输入 token 0.042 美元、输出免费，上下文 32K。Testing Catalog 称其后续…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/cd73b967-8f2e-455c-b267-b0f1904a91c4"
     },
     {
-      "rank": 6,
-      "title": "OpenAI解雇3名研究员，双方就指控各执一词",
-      "list_title": "OpenAI解雇3名研究员，双方就指控各执一词",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "OpenAI以违反敏感信息处理政策为由，终止与贾斯敏·王、米基塔·巴莱斯尼和托梅克·科尔巴克的雇佣关系，称内部调查认定三人向外部AI安全组织共享机密信息、构成重大信任违规。三人随后发表公开信《OpenAI无法独自确保AI安全》，否认不当处理敏感信息，称自己因提出安全担忧被解雇，并警告解雇方式会让前同事不敢再公开提出安全顾虑；他们还致信OpenAI董事会及安全委员会等监督部门，要求停止任何进一步削弱人类监控AI推理能力的开发。\n\nOpenAI研究负责人回应称，内部调查发现超出公开信所述的重大信任违规，解雇与提出安全担忧无关，并称正敲定与第三方安全评估机构的合同、将在数周内公布详情。\n\n早先报道称3人均属安全团队，后续报道称其中仅科尔巴克属安全团队，另两人从事模型对齐研究。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/a2df69da-f530-4cf9-812f-48c246e2402e"
-    },
-    {
-      "rank": 7,
+      "rank": 8,
       "title": "a16z领投TypeSafe AI 8.7亿美元A轮",
       "list_title": "a16z领投TypeSafe AI 8.7亿美元A轮",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 11 %",
       "sources": [],
       "summary": "TypeSafe AI 完成 8.7 亿美元 A 轮融资，估值 75 亿美元，由 Andreessen Horowitz（a16z）领投，Sequoia Capital、既有投资方 DCVC 及多位天使投资人跟投，a16z 的 Martin Casado 加入董事会。公司开发非文本 AI 模型 Jev，将模型决策以类型化数值直接交给代码而非文本。\n\n关于采用规模，a16z 称 Jev 上线首周已有 25% 的财富 500 强企业接入，TypeSafe AI 则称约三分之一财富 500 强企业在使用其产品；据彭博社报道，Jev 上线数天内用户突破 100 万，平台每天处理数万亿 token，扣除运营成本后已实现盈利。a16z 称 Jev 上线 3 天生成 1 万亿 tokens，成本约为前沿模型的 1/100 至 1/500，分类任务速度提升 100 倍且精度相当。公司团队刚满 20 人，资金将用于扩充员工、推进大规模部署、采购更多算力并推出更多 machine-native 模型和企业级功能。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/6667f027-8bc6-4ed3-b0e2-6e3b61e60803"
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "title": "OpenAI解雇3名研究员，双方就指控各执一词",
+      "list_title": "OpenAI解雇3名研究员，双方就指控各执一词",
+      "heat": null,
+      "heat_change": "↓ 27 %",
+      "sources": [],
+      "summary": "OpenAI以违反敏感信息处理政策为由，终止与贾斯敏·王、米基塔·巴莱斯尼和托梅克·科尔巴克的雇佣关系，称内部调查认定三人向外部AI安全组织共享机密信息、构成重大信任违规。三人随后发表公开信《OpenAI无法独自确保AI安全》，否认不当处理敏感信息，称自己因提出安全担忧被解雇，并警告解雇方式会让前同事不敢再公开提出安全顾虑；他们还致信OpenAI董事会及安全委员会等监督部门，要求停止任何进一步削弱人类监控AI推理能力的开发。\n\nOpenAI研究负责人回应称，内部调查发现超出公开信所述的重大信任违规，解雇与提出安全担忧无关，并称正敲定与第三方安全评估机构的合同、将在数周内公布详情。\n\n早先报道称3人均属安全团队，后续报道称其中仅科尔巴克属安全团队，另两人从事模型对齐研究。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/a2df69da-f530-4cf9-812f-48c246e2402e"
+    },
+    {
+      "rank": 10,
       "title": "Claude 上线 Dashboards 与 Motion 两项测试功能",
       "list_title": "Claude 上线 Dashboards 与 Motion 两项测试功能",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↓ 33 %",
       "sources": [],
       "summary": "Anthropic 为 Claude 推出 Dashboards 和 Motion 两项 beta 功能。Dashboards 面向所有付费计划开放，用户连接数据平台或 CRM 工具后用自然语言提问，Claude 编写查询并生成随数据自动更新的仪表盘，每个图表展示对应查询；The Decoder 报道其可连接 BigQuery、Databricks、Snowflake、Salesforce 等数据源。Motion 面向 Team 和 Enterprise 计划开放，可把报告、图表或产品演示转成短动画，动画由 Claude 以代码方式生成、不涉及视频模型，用户可修改文字、数字或时间节点并导出 MP4。\n\n同一发布中，Docs、Slides 和 Design 结束 beta，即日起在所有计划中可用，包括免费版，用户可与 Claude 共同编辑同一份文档、幻灯片或设计。Claude 还支持把仪表盘发送到分析工具、把动画导入视频编辑器继续处理。\n\nLuma AI 宣布与 Claude 合作，用户可把 Claude Motion 动画导入 Luma 调整尺…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/11746796-aea3-4e81-b36c-995f0cf5cdfe"
-    },
-    {
-      "rank": 9,
-      "title": "OpenAI年化收入口径分歧：700亿还是500亿美元",
-      "list_title": "OpenAI年化收入口径分歧：700亿还是500亿美元",
-      "heat": null,
-      "heat_change": "↓ 18 %",
-      "sources": [],
-      "summary": "OpenAI的年化收入出现相差约200亿美元的两个口径。2026年9月底，Axios援引知情人士称其年化经常性收入（ARR）接近700亿美元，较三季度初增长超70%；OpenAI CFO Sarah Friar随后在CNBC确认三季度总收入运行率增长超70%，企业收入较7月翻倍。\n\n但10月9日《金融时报》报道称，OpenAI已告知投资者其年化营收接近500亿美元，比投资者间流传的700亿美元低约200亿。TechCrunch援引该报道称，700亿是投资者为与Anthropic直接对比而估算，两家公司计算方式不同：Anthropic把经由AWS和Google Cloud销售的金额计入营收，OpenAI不计入。IT之家称报道发布后美股科技股下跌，纳斯达克100指数收跌1.4%。\n\n此前关于Anthropic ARR的数字本身也不一致：有说法称其ARR达768亿美元，Cathie Wood则称Anthropic报告为650亿美元。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/d06a5836-f6cc-4ecf-a616-8dd42aceca87"
-    },
-    {
-      "rank": 10,
-      "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast 模式",
-      "list_title": "OpenAI 推出 GPT-6.1 Sol Ultrafast 模式",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "OpenAI 开发者账号 10 月 9 日宣布，GPT-6.1 Sol 的 Ultrafast 模式当日起在 API、Codex 和 ChatGPT Work 推出，官方称其具备接近 Astra 的智能水平，token 生成速度最高比 Sol Standard 快 8 倍。API 定价为每百万输入 token 12 美元、每百万输出 token 60 美元；OpenAI 的 Vaibhav Srivastav 称其成本仅为 Astra 的 1.2 倍。Rohan Paul 则指出该价格高于 Sol Fast 的每百万输入 4 美元、输出 20 美元，即贵 6 倍。\n\n在 Codex 和 ChatGPT Work 中，Pro 500、符合条件的使用量计费 Enterprise 以及基于积分的 Edu 方案可使用，Enterprise 管理员须先启用访问权限。OpenAI 称 Ultrafast 已在所有支持地区上线，包括美国和欧盟的数据驻留支持，同时为 GPT-6.1 Sol Fast 和 GPT-6 Luna Fast 新增欧盟数据驻留支持。Op…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/bb1411a1-1201-48d6-b5f7-9cc58fa53d6c"
     }
   ]
 }
