@@ -1,11 +1,37 @@
 {
   "version": 1,
-  "generated_at": "2026-10-12T05:46:03.776818+08:00",
+  "generated_at": "2026-10-12T14:55:50.101047+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-12T05:46:03.776818+08:00",
+      "observed_at": "2026-10-12T14:55:50.101047+08:00",
       "jobs": [
+        {
+          "id": "744000154917459",
+          "title": "Regional Head of PMTO Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000154917459/regional-head-of-pmto-strategy/",
+          "function_tags": []
+        },
+        {
+          "id": "744000154915599",
+          "title": "Manager, Regional Business Finance – B2B",
+          "url": "https://www.grab.careers/en/jobs/744000154915599/manager-regional-business-finance-b2b/",
+          "function_tags": []
+        },
+        {
+          "id": "744000154913855",
+          "title": "Merchant Account Manager (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000154913855/merchant-account-manager-fb/",
+          "function_tags": []
+        },
+        {
+          "id": "744000154913299",
+          "title": "Assistant Manager, GrabForBusiness Partnerships",
+          "url": "https://www.grab.careers/en/jobs/744000154913299/assistant-manager-grabforbusiness-partnerships/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
         {
           "id": "744000154666819",
           "title": "Software Engineer, Backend",
@@ -21,12 +47,6 @@
           "function_tags": [
             "partnerships"
           ]
-        },
-        {
-          "id": "744000154612039",
-          "title": "Lead Technical Program Manager",
-          "url": "https://www.grab.careers/en/jobs/744000154612039/lead-technical-program-manager/",
-          "function_tags": []
         },
         {
           "id": "744000154581859",
@@ -110,40 +130,12 @@
           "title": "Regional Commercial Process Manager",
           "url": "https://www.grab.careers/en/jobs/744000154367849/regional-commercial-process-manager/",
           "function_tags": []
-        },
-        {
-          "id": "744000154367658",
-          "title": "Software Engineering Manager II - Transaction Platform",
-          "url": "https://www.grab.careers/en/jobs/744000154367658/software-engineering-manager-ii-transaction-platform/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000154367559",
-          "title": "Lead Software Engineer, Scribe",
-          "url": "https://www.grab.careers/en/jobs/744000154367559/lead-software-engineer-scribe/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000154365676",
-          "title": "Paid Media Lead - All Verticals",
-          "url": "https://www.grab.careers/en/jobs/744000154365676/paid-media-lead-all-verticals/",
-          "function_tags": []
-        },
-        {
-          "id": "744000154367299",
-          "title": "Communications Manager, Singapore",
-          "url": "https://www.grab.careers/en/jobs/744000154367299/communications-manager-singapore/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-12T05:46:03.776818+08:00",
+      "observed_at": "2026-10-12T14:55:50.101047+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -192,7 +184,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-12T05:46:03.776818+08:00",
+      "observed_at": "2026-10-12T14:55:50.101047+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
