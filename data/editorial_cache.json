@@ -950,6 +950,23 @@
       },
       "channel": "DeepSeek",
       "generated_at": "2026-10-11 15:00"
+    },
+    "weekly:2026-W42": {
+      "input_hash": "4c1ac86fc55b0f0783f151fe0c4ce26708b3f0c87474b713be82b2b0d38abc7c",
+      "editorial": {
+        "editorial_title": "个人AI智能体开战，支付基建向跨境场景渗透",
+        "mainline": "字节与腾讯同时押注个人AI智能体，把竞争从模型能力拉向用户入口；与此同时，Kakao Bank、WEX、Moomoo分别从外国人金融、车队支付和全天候入金切入，支付网络正沿跨境与垂直场景重新布线。两条线交汇处，是AI应用与金融基建的出海合作窗口。",
+        "themes": {
+          "ai_infra": "字节跳动和腾讯在同一周内竞相推出个人AI智能体，直接对标Meta Muse，把竞争焦点从底层模型转向用户日常入口。FPT与NAVER Cloud结成AI战略联盟，将越南与韩国算力及渠道资源对接。法国Wiremind拿下3500万欧元，说明欧洲物流AI的推理与调度层正被资本加注。",
+          "payments": "Kakao Bank推出外国人金融服务，把韩国数字银行账户能力向非韩籍用户延伸。WEX联手万事达卡搭建亚太车队支付平台，瞄准跨境商用车队结算。Moomoo接入Apple Pay和Google Pay实现全天候入金，券商资金通道的时效壁垒被进一步削平。"
+        },
+        "theme_titles": {
+          "ai_infra": "中韩巨头竞逐个人AI智能体，欧洲物流AI获注资",
+          "payments": "韩国数字银行向外国人开放，亚太车队支付与全天候入金扩围"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-10-12 15:10"
     }
   }
 }
