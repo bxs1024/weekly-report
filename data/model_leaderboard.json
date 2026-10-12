@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T01:23:02+08:00",
+  "generated_at": "2026-10-12T10:50:51+08:00",
   "fetched_date": "2026-10-12",
   "source": {
     "name": "AIHOT 大模型排行榜",
@@ -14,11 +14,11 @@
       "name": "Claude Opus 5.5",
       "provider": "Anthropic",
       "release_date": "2026-09-22",
-      "completeness": "33 项评测 覆盖 96 %",
+      "completeness": "32 项评测 覆盖 96 %",
       "cache_price": "¥1.34",
       "input_price": "¥26.77",
       "output_price": "¥133.84",
-      "consensus_score": 73.9,
+      "consensus_score": 73.8,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-5-5"
     },
     {
@@ -30,7 +30,7 @@
       "cache_price": "待核验",
       "input_price": "待核验",
       "output_price": "待核验",
-      "consensus_score": 73.5,
+      "consensus_score": 73.6,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-4-argon"
     },
     {
@@ -38,7 +38,7 @@
       "name": "Claude Fable 5.1",
       "provider": "Anthropic",
       "release_date": "2026-09-01",
-      "completeness": "35 项评测 覆盖 100 %",
+      "completeness": "34 项评测 覆盖 100 %",
       "cache_price": "¥1.67",
       "input_price": "¥66.92",
       "output_price": "¥334.61",
@@ -47,22 +47,10 @@
     },
     {
       "rank": 4,
-      "name": "Claude Sonnet 5.5",
-      "provider": "Anthropic",
-      "release_date": "2026-09-28",
-      "completeness": "33 项评测 覆盖 100 %",
-      "cache_price": "¥1.34",
-      "input_price": "¥13.38",
-      "output_price": "¥66.92",
-      "consensus_score": 71.4,
-      "detail_url": "https://aihot.virxact.com/leaderboard/claude-sonnet-5-5"
-    },
-    {
-      "rank": 5,
       "name": "GPT-6 Astra",
       "provider": "OpenAI",
       "release_date": "2026-09-03",
-      "completeness": "35 项评测 覆盖 100 %",
+      "completeness": "34 项评测 覆盖 100 %",
       "cache_price": "¥6.69",
       "input_price": "¥66.92",
       "output_price": "¥334.61",
@@ -70,11 +58,23 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-astra"
     },
     {
+      "rank": 5,
+      "name": "Claude Sonnet 5.5",
+      "provider": "Anthropic",
+      "release_date": "2026-09-28",
+      "completeness": "32 项评测 覆盖 100 %",
+      "cache_price": "¥1.34",
+      "input_price": "¥13.38",
+      "output_price": "¥66.92",
+      "consensus_score": 71.0,
+      "detail_url": "https://aihot.virxact.com/leaderboard/claude-sonnet-5-5"
+    },
+    {
       "rank": 6,
       "name": "Claude Fable 5",
       "provider": "Anthropic",
       "release_date": "2026-06-09",
-      "completeness": "30 项评测 覆盖 89 %",
+      "completeness": "29 项评测 覆盖 89 %",
       "cache_price": "¥6.69",
       "input_price": "¥66.92",
       "output_price": "¥334.61",
@@ -86,7 +86,7 @@
       "name": "GPT-6.1 Sol",
       "provider": "OpenAI",
       "release_date": "2026-09-29",
-      "completeness": "34 项评测 覆盖 100 %",
+      "completeness": "33 项评测 覆盖 100 %",
       "cache_price": "¥0.67",
       "input_price": "¥13.38",
       "output_price": "¥66.92",
@@ -98,11 +98,11 @@
       "name": "Claude Opus 5",
       "provider": "Anthropic",
       "release_date": "2026-07-24",
-      "completeness": "35 项评测 覆盖 100 %",
+      "completeness": "34 项评测 覆盖 100 %",
       "cache_price": "¥3.35",
       "input_price": "¥33.46",
       "output_price": "¥167.3",
-      "consensus_score": 68.9,
+      "consensus_score": 68.7,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-5"
     },
     {
@@ -110,7 +110,7 @@
       "name": "GPT-5.6 Sol",
       "provider": "OpenAI",
       "release_date": "2026-07-09",
-      "completeness": "33 项评测 覆盖 93 %",
+      "completeness": "32 项评测 覆盖 93 %",
       "cache_price": "¥2.68",
       "input_price": "¥26.77",
       "output_price": "¥133.84",
@@ -150,7 +150,7 @@
       "cache_price": "¥0.5",
       "input_price": "¥5.02",
       "output_price": "¥25.1",
-      "consensus_score": 64.4,
+      "consensus_score": 64.5,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-3-8-flash"
     },
     {
@@ -158,27 +158,15 @@
       "name": "Kimi K3",
       "provider": "Moonshot AI",
       "release_date": "2026-07-16",
-      "completeness": "32 项评测 覆盖 93 %",
+      "completeness": "31 项评测 覆盖 93 %",
       "cache_price": "¥2",
       "input_price": "¥20",
       "output_price": "¥100",
-      "consensus_score": 63.2,
+      "consensus_score": 63.3,
       "detail_url": "https://aihot.virxact.com/leaderboard/kimi-k-3"
     },
     {
       "rank": 14,
-      "name": "Claude Opus 4.8",
-      "provider": "Anthropic",
-      "release_date": "2026-05-28",
-      "completeness": "30 项评测 覆盖 89 %",
-      "cache_price": "¥3.35",
-      "input_price": "¥33.46",
-      "output_price": "¥167.3",
-      "consensus_score": 63.0,
-      "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-8"
-    },
-    {
-      "rank": 15,
       "name": "MiMo-V2.6-Pro",
       "provider": "Xiaomi",
       "release_date": "2026-09-21",
@@ -190,15 +178,27 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/mimo-v-2-6-pro"
     },
     {
+      "rank": 15,
+      "name": "Claude Opus 4.8",
+      "provider": "Anthropic",
+      "release_date": "2026-05-28",
+      "completeness": "29 项评测 覆盖 89 %",
+      "cache_price": "¥3.35",
+      "input_price": "¥33.46",
+      "output_price": "¥167.3",
+      "consensus_score": 62.7,
+      "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-8"
+    },
+    {
       "rank": 16,
       "name": "Gemini 3.7 Flash",
       "provider": "Google",
       "release_date": "2026-08-13",
-      "completeness": "31 项评测 覆盖 93 %",
+      "completeness": "30 项评测 覆盖 93 %",
       "cache_price": "¥0.5",
       "input_price": "¥5.02",
       "output_price": "¥25.1",
-      "consensus_score": 62.8,
+      "consensus_score": 62.4,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-3-7-flash"
     },
     {
@@ -218,7 +218,7 @@
       "name": "GPT-5.5",
       "provider": "OpenAI",
       "release_date": "2026-04-23",
-      "completeness": "28 项评测 覆盖 86 %",
+      "completeness": "27 项评测 覆盖 86 %",
       "cache_price": "¥3.35",
       "input_price": "¥33.46",
       "output_price": "¥200.76",
@@ -230,7 +230,7 @@
       "name": "Claude Opus 4.7",
       "provider": "Anthropic",
       "release_date": "2026-04-16",
-      "completeness": "19 项评测 覆盖 64 %",
+      "completeness": "18 项评测 覆盖 64 %",
       "cache_price": "¥3.35",
       "input_price": "¥33.46",
       "output_price": "¥167.3",
@@ -266,11 +266,11 @@
       "name": "Grok 4.6",
       "provider": "xAI",
       "release_date": "2026-08-12",
-      "completeness": "35 项评测 覆盖 100 %",
+      "completeness": "34 项评测 覆盖 100 %",
       "cache_price": "¥3.35",
       "input_price": "¥13.38",
       "output_price": "¥40.15",
-      "consensus_score": 61.3,
+      "consensus_score": 61.2,
       "detail_url": "https://aihot.virxact.com/leaderboard/grok-4-6"
     },
     {
@@ -290,11 +290,11 @@
       "name": "Step 5 Preview",
       "provider": "StepFun",
       "release_date": "2026-09-18",
-      "completeness": "20 项评测 覆盖 57 %",
+      "completeness": "19 项评测 覆盖 54 %",
       "cache_price": "待核验",
       "input_price": "待核验",
       "output_price": "待核验",
-      "consensus_score": 60.5,
+      "consensus_score": 60.7,
       "detail_url": "https://aihot.virxact.com/leaderboard/step-5-preview"
     },
     {
@@ -330,23 +330,11 @@
       "cache_price": "¥0.3",
       "input_price": "¥9",
       "output_price": "¥27",
-      "consensus_score": 58.8,
+      "consensus_score": 58.7,
       "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-pro-20260813"
     },
     {
       "rank": 28,
-      "name": "Claude Sonnet 5",
-      "provider": "Anthropic",
-      "release_date": "2026-06-30",
-      "completeness": "32 项评测 覆盖 93 %",
-      "cache_price": "¥1.34",
-      "input_price": "¥13.38",
-      "output_price": "¥66.92",
-      "consensus_score": 58.7,
-      "detail_url": "https://aihot.virxact.com/leaderboard/claude-sonnet-5"
-    },
-    {
-      "rank": 29,
       "name": "Qwen3.8 Max",
       "provider": "Alibaba",
       "release_date": "2026-07-19",
@@ -356,6 +344,18 @@
       "output_price": "¥36",
       "consensus_score": 58.6,
       "detail_url": "https://aihot.virxact.com/leaderboard/qwen-3-8-max"
+    },
+    {
+      "rank": 29,
+      "name": "Claude Sonnet 5",
+      "provider": "Anthropic",
+      "release_date": "2026-06-30",
+      "completeness": "31 项评测 覆盖 93 %",
+      "cache_price": "¥1.34",
+      "input_price": "¥13.38",
+      "output_price": "¥66.92",
+      "consensus_score": 58.6,
+      "detail_url": "https://aihot.virxact.com/leaderboard/claude-sonnet-5"
     },
     {
       "rank": 30,
