@@ -1,7 +1,116 @@
 {
   "version": 1,
-  "generated_at": "2026-10-13T08:30:59.745880+08:00",
+  "generated_at": "2026-10-13T15:19:46.449491+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-60e8760ac7c6919a",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "sales",
+      "window": "2026-W42",
+      "window_start": "2026-10-13",
+      "window_end": "2026-10-13",
+      "detected_at": "2026-10-13T15:19:46.449491+08:00",
+      "baseline_count": 18,
+      "current_count": 19,
+      "added_count": 7,
+      "removed_count": 6,
+      "clusters": {
+        "sales": 1
+      },
+      "removed_clusters": {
+        "sales": 2,
+        "operations": 1,
+        "engineering": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000155168029",
+          "title": "Associate, Strategic Insights and Analytics",
+          "url": "https://www.grab.careers/en/jobs/744000155168029/associate-strategic-insights-and-analytics/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155162739",
+          "title": "Lead Product Manager",
+          "url": "https://www.grab.careers/en/jobs/744000155162739/lead-product-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155159579",
+          "title": "GrabMart Pharmacy Category Lead",
+          "url": "https://www.grab.careers/en/jobs/744000155159579/grabmart-pharmacy-category-lead/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155153546",
+          "title": "Assistant Manager, Regional Business Finance (Deliveries Segment)",
+          "url": "https://www.grab.careers/en/jobs/744000155153546/assistant-manager-regional-business-finance-deliveries-segment/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155152311",
+          "title": "Assistant Manager, Regional Business Finance (Mobility Segment)",
+          "url": "https://www.grab.careers/en/jobs/744000155152311/assistant-manager-regional-business-finance-mobility-segment/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155139797",
+          "title": "Assistant Manager, Ads Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000155139797/assistant-manager-ads-strategy/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155135449",
+          "title": "Assistant Manager (Regional SMB Ads) - User Growth & Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000155135449/assistant-manager-regional-smb-ads-user-growth-strategy/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000154936662",
+          "title": "Assistant Manager (Regional SMB Ads) - User Growth & Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000154936662/assistant-manager-regional-smb-ads-user-growth-strategy/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000154579280",
+          "title": "Senior Analyst, Sales Operations",
+          "url": "https://www.grab.careers/en/jobs/744000154579280/senior-analyst-sales-operations/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000154574849",
+          "title": "Lead Software Engineer, Perception (Robotics)",
+          "url": "https://www.grab.careers/en/jobs/744000154574849/lead-software-engineer-perception-robotics/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000154574219",
+          "title": "Assistant Marketing Manager, B2B",
+          "url": "https://www.grab.careers/en/jobs/744000154574219/assistant-marketing-manager-b2b/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000154453554",
+          "title": "Assistant Manager, Business Enablement",
+          "url": "https://www.grab.careers/en/jobs/744000154453554/assistant-manager-business-enablement/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000154434474",
+          "title": "Senior Data Scientist",
+          "url": "https://www.grab.careers/en/jobs/744000154434474/senior-data-scientist/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-490862c0d8282c17",
       "entity_id": "grab",
