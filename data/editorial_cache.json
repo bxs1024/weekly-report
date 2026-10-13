@@ -952,21 +952,29 @@
       "generated_at": "2026-10-11 15:00"
     },
     "weekly:2026-W42": {
-      "input_hash": "4c1ac86fc55b0f0783f151fe0c4ce26708b3f0c87474b713be82b2b0d38abc7c",
+      "input_hash": "2024bf8640bdf880877a94ebd43396db337ded088c758eccb824618f79f21436",
       "editorial": {
-        "editorial_title": "个人AI智能体开战，支付基建向跨境场景渗透",
-        "mainline": "字节与腾讯同时押注个人AI智能体，把竞争从模型能力拉向用户入口；与此同时，Kakao Bank、WEX、Moomoo分别从外国人金融、车队支付和全天候入金切入，支付网络正沿跨境与垂直场景重新布线。两条线交汇处，是AI应用与金融基建的出海合作窗口。",
+        "editorial_title": "个人AI智能体开战，支付与监管同步收紧",
+        "mainline": "字节与腾讯同日竞逐个人AI智能体，Meta以Muse Wonder入局，Nvidia洽购Reflection AI，入口争夺从模型层转向代理层；与此同时Kakao Bank向外国人开放金融服务、巴林央行技术预算翻三倍，支付基建与监管权力正被重新分配。",
         "themes": {
-          "ai_infra": "字节跳动和腾讯在同一周内竞相推出个人AI智能体，直接对标Meta Muse，把竞争焦点从底层模型转向用户日常入口。FPT与NAVER Cloud结成AI战略联盟，将越南与韩国算力及渠道资源对接。法国Wiremind拿下3500万欧元，说明欧洲物流AI的推理与调度层正被资本加注。",
-          "payments": "Kakao Bank推出外国人金融服务，把韩国数字银行账户能力向非韩籍用户延伸。WEX联手万事达卡搭建亚太车队支付平台，瞄准跨境商用车队结算。Moomoo接入Apple Pay和Google Pay实现全天候入金，券商资金通道的时效壁垒被进一步削平。"
+          "ai_infra": "字节与腾讯同日推出个人AI智能体，直接对标Meta刚发布的Muse Wonder；Nvidia考虑收购Reflection AI补齐代理能力，德国能源AI公司1KOMMA5°则拿到1.35亿美元估值并计划投入1亿欧元。竞争焦点从模型参数转向代理入口与垂直场景落地。",
+          "payments": "Kakao Bank推出外国人金融服务，WEX联手万事达卡在亚太铺开车队支付平台，巴林央行将技术预算增至三倍；另一边肯尼亚央行寻求接管困境金融科技公司的权力。跨境用户扩张与监管收紧正在同一周期内并行。",
+          "expansion": "Rakuten TV扩大国际企业业务，Devsisters与Big Shot Pictures合作开发CookieRun电影，Syfe推出目标年化派息10%的收益产品；新加坡金管局则推进批发CBDC代币化票据结算。内容IP与金融基建同步寻找跨国合作入口。",
+          "developer": "Kakao Games新游发布四天即登收入榜第二，验证亚太发行仍具爆发力；Meta收购索尼多项VR专利，为下一代头显内容生态补足专利池。与此同时马斯克批评安巴尼，Jio IPO临近，印度市场变量增多。",
+          "compliance": "Threads新增家长查看青少年屏蔽列表功能，微软总裁公开称英国最适合主导AI监管，英国AI大臣同步呼吁加强AI安全与网络防御。平台合规功能与国家级监管话语权正在互相强化。",
+          "commerce": "假日季供应链趋势报告发布，指向零售物流在旺季面临的新压力；MercadoLibre盘前报1689.60欧元，维持高位。拉美电商龙头的估值与全球供应链紧张形成对照，物流科技与库存SaaS需求被推高。"
         },
         "theme_titles": {
-          "ai_infra": "中韩巨头竞逐个人AI智能体，欧洲物流AI获注资",
-          "payments": "韩国数字银行向外国人开放，亚太车队支付与全天候入金扩围"
+          "ai_infra": "个人AI智能体成巨头新战场，算力并购同步升温",
+          "payments": "韩国数字银行向外国人开放，中东与非洲监管同步加码",
+          "expansion": "流媒体与IP方加速跨界，新加坡推进批发CBDC结算",
+          "developer": "Kakao新游四天冲上收入榜第二，Meta收购索尼VR专利",
+          "compliance": "英国争夺AI监管主导权，社交平台加码青少年保护",
+          "commerce": "假日季供应链承压，MercadoLibre股价高位运行"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-10-12 15:10"
+      "generated_at": "2026-10-13 08:44"
     }
   }
 }
