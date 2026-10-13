@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-10-12T14:55:50.101047+08:00",
+  "observed_at": "2026-10-13T08:30:59.745880+08:00",
   "source_count": 3,
   "raw_count": 55,
   "source_stats": {
@@ -8,16 +8,20 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 9,
+      "count": 12,
       "inventory_count": 18,
       "signal_count": 1,
-      "added_count": 4,
-      "removed_count": 5,
+      "added_count": 6,
+      "removed_count": 6,
       "clusters": {
-        "partnerships": 1
+        "operations": 1,
+        "partnerships": 2,
+        "engineering": 1,
+        "sales": 1
       },
       "removed_clusters": {
-        "engineering": 2
+        "engineering": 2,
+        "sales": 1
       }
     },
     "Stripe Jobs": {
@@ -58,79 +62,101 @@
       "signal_type": "function_buildout",
       "cluster": "partnerships",
       "window": "2026-W42",
-      "window_start": "2026-10-12",
-      "window_end": "2026-10-12",
-      "detected_at": "2026-10-12T14:55:50.101047+08:00",
-      "baseline_count": 19,
+      "window_start": "2026-10-13",
+      "window_end": "2026-10-13",
+      "detected_at": "2026-10-13T08:30:59.745880+08:00",
+      "baseline_count": 18,
       "current_count": 18,
-      "added_count": 4,
-      "removed_count": 5,
+      "added_count": 6,
+      "removed_count": 6,
       "clusters": {
-        "partnerships": 1
+        "operations": 1,
+        "partnerships": 2,
+        "engineering": 1,
+        "sales": 1
       },
       "removed_clusters": {
-        "engineering": 2
+        "engineering": 2,
+        "sales": 1
       },
       "evidence_refs": [
         {
-          "job_id": "744000154917459",
-          "title": "Regional Head of PMTO Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000154917459/regional-head-of-pmto-strategy/",
+          "job_id": "744000154974959",
+          "title": "Assistant Finance Manager, RTR - Intercompany & Fixed Asset",
+          "url": "https://www.grab.careers/en/jobs/744000154974959/assistant-finance-manager-rtr-intercompany-fixed-asset/",
           "change": "added"
         },
         {
-          "job_id": "744000154915599",
-          "title": "Manager, Regional Business Finance – B2B",
-          "url": "https://www.grab.careers/en/jobs/744000154915599/manager-regional-business-finance-b2b/",
+          "job_id": "744000154972789",
+          "title": "Support Manager II, Finance Systems",
+          "url": "https://www.grab.careers/en/jobs/744000154972789/support-manager-ii-finance-systems/",
           "change": "added"
         },
         {
-          "job_id": "744000154913855",
-          "title": "Merchant Account Manager (F&B)",
-          "url": "https://www.grab.careers/en/jobs/744000154913855/merchant-account-manager-fb/",
+          "job_id": "744000154940614",
+          "title": "Intern, Marketing and Partnership (GrabRentals)",
+          "url": "https://www.grab.careers/en/jobs/744000154940614/intern-marketing-and-partnership-grabrentals/",
           "change": "added"
         },
         {
-          "job_id": "744000154913299",
-          "title": "Assistant Manager, GrabForBusiness Partnerships",
-          "url": "https://www.grab.careers/en/jobs/744000154913299/assistant-manager-grabforbusiness-partnerships/",
+          "job_id": "744000154941124",
+          "title": "Intern, Social Media & Partner Engagement",
+          "url": "https://www.grab.careers/en/jobs/744000154941124/intern-social-media-partner-engagement/",
           "change": "added"
         },
         {
-          "job_id": "744000154612039",
-          "title": "Lead Technical Program Manager",
-          "url": "https://www.grab.careers/en/jobs/744000154612039/lead-technical-program-manager/",
+          "job_id": "744000154939209",
+          "title": "Senior Software Engineer, Fullstack",
+          "url": "https://www.grab.careers/en/jobs/744000154939209/senior-software-engineer-fullstack/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000154936662",
+          "title": "Assistant Manager (Regional SMB Ads) - User Growth & Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000154936662/assistant-manager-regional-smb-ads-user-growth-strategy/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000154400529",
+          "title": "Lead Software Engineer in Test",
+          "url": "https://www.grab.careers/en/jobs/744000154400529/lead-software-engineer-in-test/",
           "change": "removed"
         },
         {
-          "job_id": "744000154367658",
-          "title": "Software Engineering Manager II - Transaction Platform",
-          "url": "https://www.grab.careers/en/jobs/744000154367658/software-engineering-manager-ii-transaction-platform/",
+          "job_id": "744000154380299",
+          "title": "Senior Software Engineer, Mobile (Android) - Consumer Experience",
+          "url": "https://www.grab.careers/en/jobs/744000154380299/senior-software-engineer-mobile-android-consumer-experience/",
           "change": "removed"
         },
         {
-          "job_id": "744000154367559",
-          "title": "Lead Software Engineer, Scribe",
-          "url": "https://www.grab.careers/en/jobs/744000154367559/lead-software-engineer-scribe/",
+          "job_id": "744000154367990",
+          "title": "Communications Senior Manager (Product)",
+          "url": "https://www.grab.careers/en/jobs/744000154367990/communications-senior-manager-product/",
           "change": "removed"
         },
         {
-          "job_id": "744000154365676",
-          "title": "Paid Media Lead - All Verticals",
-          "url": "https://www.grab.careers/en/jobs/744000154365676/paid-media-lead-all-verticals/",
+          "job_id": "744000154368139",
+          "title": "Senior Manager, Growth Strategy & Planning",
+          "url": "https://www.grab.careers/en/jobs/744000154368139/senior-manager-growth-strategy-planning/",
           "change": "removed"
         },
         {
-          "job_id": "744000154367299",
-          "title": "Communications Manager, Singapore",
-          "url": "https://www.grab.careers/en/jobs/744000154367299/communications-manager-singapore/",
+          "job_id": "744000154368079",
+          "title": "Regional Assistant Manager, Measurement & Insights",
+          "url": "https://www.grab.careers/en/jobs/744000154368079/regional-assistant-manager-measurement-insights/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000154367849",
+          "title": "Regional Commercial Process Manager",
+          "url": "https://www.grab.careers/en/jobs/744000154367849/regional-commercial-process-manager/",
           "change": "removed"
         }
       ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_cluster_strength",
+      "status": "qualified",
+      "rejection_reason": "",
       "promoted_event_id": ""
     }
   ],
-  "promoted_count": 0
+  "promoted_count": 1
 }

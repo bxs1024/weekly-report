@@ -1,11 +1,57 @@
 {
   "version": 1,
-  "generated_at": "2026-10-12T14:55:50.101047+08:00",
+  "generated_at": "2026-10-13T08:30:59.745880+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-12T14:55:50.101047+08:00",
+      "observed_at": "2026-10-13T08:30:59.745880+08:00",
       "jobs": [
+        {
+          "id": "744000154974959",
+          "title": "Assistant Finance Manager, RTR - Intercompany & Fixed Asset",
+          "url": "https://www.grab.careers/en/jobs/744000154974959/assistant-finance-manager-rtr-intercompany-fixed-asset/",
+          "function_tags": []
+        },
+        {
+          "id": "744000154972789",
+          "title": "Support Manager II, Finance Systems",
+          "url": "https://www.grab.careers/en/jobs/744000154972789/support-manager-ii-finance-systems/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000154940614",
+          "title": "Intern, Marketing and Partnership (GrabRentals)",
+          "url": "https://www.grab.careers/en/jobs/744000154940614/intern-marketing-and-partnership-grabrentals/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
+          "id": "744000154941124",
+          "title": "Intern, Social Media & Partner Engagement",
+          "url": "https://www.grab.careers/en/jobs/744000154941124/intern-social-media-partner-engagement/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
+          "id": "744000154939209",
+          "title": "Senior Software Engineer, Fullstack",
+          "url": "https://www.grab.careers/en/jobs/744000154939209/senior-software-engineer-fullstack/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000154936662",
+          "title": "Assistant Manager (Regional SMB Ads) - User Growth & Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000154936662/assistant-manager-regional-smb-ads-user-growth-strategy/",
+          "function_tags": [
+            "sales"
+          ]
+        },
         {
           "id": "744000154917459",
           "title": "Regional Head of PMTO Strategy",
@@ -88,54 +134,12 @@
           "title": "Senior Data Scientist",
           "url": "https://www.grab.careers/en/jobs/744000154434474/senior-data-scientist/",
           "function_tags": []
-        },
-        {
-          "id": "744000154400529",
-          "title": "Lead Software Engineer in Test",
-          "url": "https://www.grab.careers/en/jobs/744000154400529/lead-software-engineer-in-test/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000154380299",
-          "title": "Senior Software Engineer, Mobile (Android) - Consumer Experience",
-          "url": "https://www.grab.careers/en/jobs/744000154380299/senior-software-engineer-mobile-android-consumer-experience/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000154367990",
-          "title": "Communications Senior Manager (Product)",
-          "url": "https://www.grab.careers/en/jobs/744000154367990/communications-senior-manager-product/",
-          "function_tags": []
-        },
-        {
-          "id": "744000154368139",
-          "title": "Senior Manager, Growth Strategy & Planning",
-          "url": "https://www.grab.careers/en/jobs/744000154368139/senior-manager-growth-strategy-planning/",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "744000154368079",
-          "title": "Regional Assistant Manager, Measurement & Insights",
-          "url": "https://www.grab.careers/en/jobs/744000154368079/regional-assistant-manager-measurement-insights/",
-          "function_tags": []
-        },
-        {
-          "id": "744000154367849",
-          "title": "Regional Commercial Process Manager",
-          "url": "https://www.grab.careers/en/jobs/744000154367849/regional-commercial-process-manager/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-12T14:55:50.101047+08:00",
+      "observed_at": "2026-10-13T08:30:59.745880+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -184,7 +188,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-12T14:55:50.101047+08:00",
+      "observed_at": "2026-10-13T08:30:59.745880+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
