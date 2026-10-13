@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-10-14T02:55:03+08:00",
+  "fetched_date": "2026-10-14",
+  "source": {
+    "name": "AIHOT 热点榜",
+    "url": "https://aihot.virxact.com/hot",
+    "note": "过去 48 小时最热的 AI 事件，按精选报道与讨论热度实时排序。本页为全球 AI 视野补充，点击跳转原始来源。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "Google 发布 Gemini 4 Argon，仅付费用户可用",
+      "list_title": "Google 发布 Gemini 4 Argon，仅付费用户可用",
+      "heat": null,
+      "heat_change": "↑ 916 %",
+      "sources": [],
+      "summary": "Google 正式发布旗舰模型 Gemini 4 Argon（gemini-4-argon），定位为面向复杂编码、智能体、数学和科学任务的最强模型，即日起全球上线。该模型仅向付费用户开放：开发者与企业需使用 Gemini API 和 Gemini 平台的付费层级，Google Antigravity 中仅限 Ultra 订阅者，Gemini 应用和搜索 AI Mode 中仅限 Ultra 和 Pro 订阅者。The Verge 报道称，Argon 何时或是否向 Plus 订阅者和免费用户开放尚不清楚；Ars Technica 称低档位订阅也无法获得完整访问。\n\n定价方面，Google 公布上线初期价格为每百万输入 token 2 美元、每百万输出 token 10 美元，缓存输入享 95% 折扣；The Verge 称该价格将在 11 月底翻倍。Google 还表示，科学家和研究人员可申请免费使用 Antigravity 最高使用档位 6 个月，网络安全防御人员可通过 Fairwind Program 申请，均需符合资格、容量和筛选条件。\n\nGo…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528"
+    },
+    {
+      "rank": 2,
+      "title": "Meta 发布 Muse Wonder 系列前沿模型",
+      "list_title": "Meta 发布 Muse Wonder 系列前沿模型",
+      "heat": null,
+      "heat_change": "↓ 11 %",
+      "sources": [],
+      "summary": "Meta 于 10 月 12 日发布 Muse Wonder 和 Muse Wonder Full 两款前沿智能体模型，这是其 Superintelligence Labs 成立一年多后的首批前沿模型。据 Artificial Analysis 实测，两款模型在 Intelligence Index v4.3 上分别得 52 和 56 分（最大推理量），较六周前 Muse Spark 1.3 的 48 分明显提升；Muse Wonder Full 在该指数上排名第二，距 Claude Opus 5.5 仅 2 分。\n\n两款模型开放范围不同：Muse Wonder 可通过 Meta Model API 和 Muse Code 使用，定价为每百万 token 输入 4 美元、缓存输入 0.20 美元、输出 20 美元；Muse Wonder Full 仅面向 Muse Code 订阅用户，不在 API 提供，按 token 定价尚未公布。Meta 称 Muse Wonder 将陆续接入 Muse 等其他产品，先向订阅用户推送。\n\nMeta 称该系列在…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/f7f99eb7-84e6-4450-a43f-668dca988b22"
+    },
+    {
+      "rank": 3,
+      "title": "苹果发布 HomeView 智能家居中枢",
+      "list_title": "苹果发布 HomeView 智能家居中枢",
+      "heat": null,
+      "heat_change": "↑ 567 %",
+      "sources": [],
+      "summary": "苹果正式发布智能家居中枢 HomeView，配备约 7 英寸 Liquid Retina 显示屏和 A18 芯片，集娱乐、FaceTime、家庭监控和语音自动化于一体，标准版与壁挂版均定价 299 美元，11 月 13 日起在美国、英国、加拿大、澳大利亚等市场发售。此前彭博社 Mark Gurman 曾预告该产品将于周二发布。\n\n同日苹果还发布 HomePod mini 2，售价 149 美元，提供五种配色，美国及超过 23 个国家和地区即日起可预购，10 月 30 日门店开售；并推出 Apple Home Collection 智能家居配件系列，包括室内外摄像头、智能恒温器、温度传感器、视频门铃和智能门锁，与 LG Electronics 和 Schneider Electric 合作设计，全部通过 Apple Home app 管理并端到端加密。\n\n据 X.PIN 援引一位消息人士称，HomeView 将在中国大陆上市，但其 AI 功能会被剥离。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/af69d9b9-5ada-463b-b9e9-39abe571b452"
+    },
+    {
+      "rank": 4,
+      "title": "xAI 推出 The X Subscription，整合 Grok、Cursor 与 X Premium",
+      "list_title": "xAI 推出 The X Subscription，整合 Grok、Cursor 与 X Premium",
+      "heat": null,
+      "heat_change": "↓ 13 %",
+      "sources": [],
+      "summary": "xAI 推出统一订阅 The X Subscription，将 Grok、Grok Bot、Cursor 和 X Premium 合入一个计划，未来几天内向全球用户开放。Cursor 与 Grok 官方账号随后确认 Cursor 已并入该订阅。\n\n新订阅分 Free、Plus（$8/月）、Premium（$30/月）、Super（$100/月）、Ultra（$200/月）五档，付费档共享一个跨 Cursor、Grok Build 等 Grok 产品的用量池，Grok 模型上的编程用量是对应 Cursor 套餐的两倍；Premium 及以上还包含 Grok Bot。现有 Cursor 订阅者可保留原计划或切换，切换时旧套餐按剩余时间比例退款。为腾出更多 Grok 用量，Cursor 中的第三方模型在新套餐下改为按 API 标价单独充值，且仅 Premium 及以上档位可用。\n\nTechCrunch 报道称，免费档仅提供有限的聊天和智能体用量，最新 Grok 模型需 Premium 及以上；现有 X Premium+ 订阅者对应的新套餐价格相同或更低…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/650e9193-a6bd-489e-8151-e3cbc367002c"
+    },
+    {
+      "rank": 5,
+      "title": "微软发布 Maia 300，2027 年扩至多吉瓦级部署",
+      "list_title": "微软发布 Maia 300，2027 年扩至多吉瓦级部署",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "微软发布第三代自研 AI 芯片 Maia 300，并宣布从 2027 年起将 Azure Maia 系列扩展到多吉瓦级部署，使其成为微软自家产品和服务的主要推理系统。微软称，Maia 300 每瓦 token 产出比主流 GPU 系统高 40%，计划 2027 年开始生产部署。\n\n据 IT之家报道，Maia 300 采用台积电 N2P 工艺，配备 288GB HBM4 内存、18TB/s 带宽，FP4 算力 13.8 PFLOPS，SoC 功耗 950W，单机架可容纳 96 颗，最多组建 12000 颗加速器的集群。\n\n微软称，上一代 Maia 200 已在美国、欧洲和澳大利亚部署，在 Teams 和 Copilot 场景中每瓦 token 产出提升最高 1.7 倍，目前承载 Microsoft Copilot 等生产负载，GitHub Copilot 和 Microsoft Foundry 将在年底前跟进。上述性能数据均来自微软方面的说法。微软将 Maia 定位为降低对 Nvidia GPU 依赖的自研推理方案。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/aa2f60b8-b006-4122-a457-546a28c7f58b"
+    },
+    {
+      "rank": 6,
+      "title": "Character.AI申请破产 迪士尼2000万美元牵头竞购",
+      "list_title": "Character.AI申请破产 迪士尼2000万美元牵头竞购",
+      "heat": null,
+      "heat_change": "↑ 47 %",
+      "sources": [],
+      "summary": "Character.AI 已在美国申请第 11 章破产保护，以推进公司及资产出售，并同意以 2000 万美元向华特迪士尼出售部分未披露资产，迪士尼同时获得一项非独占知识产权许可。据路透社报道，迪士尼被指定为首席竞标方，其报价作为竞标底价，其他竞标者仍可提出更高报价。\n\nThe Verge 报道称，Character.AI 的负债估计在 5000 万至 1 亿美元之间；TechCrunch 援引法院文件称其资产和负债均在 5000 万至 1 亿美元区间，迪士尼获得的许可为非独占永久许可。资产出售预计 2026 年 11 月下旬或 12 月初完成，出售期间平台将继续运营；若未能找到愿意运营 Character.AI 平台的买家，公司将逐步结束相关业务。TechCrunch 称，目前尚无竞购方，公司此前因未成年用户诉讼、德州调查等陷入困境，曾尝试 AI 视频生成、社交信息流和微短剧等转型未果。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/979b3da3-735e-4bc0-a4c0-148e8d72e73a"
+    },
+    {
+      "rank": 7,
+      "title": "Anthropic发布防蒸馏攻击新方法",
+      "list_title": "Anthropic发布防蒸馏攻击新方法",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Anthropic 发布博客，介绍其针对 Claude 模型的防蒸馏攻击新方法。Anthropic 称，早期证据显示这些方法使蒸馏者获取的数据减少约 90% 到 99%，误报率低于 0.1%；保留推理过程（preserved thinking）的做法已要求部分开发者更新其集成方式。\n\n据 The Decoder 报道，Anthropic 称这些防御手段削减的是被提取的推理 token（模型内部思维链步骤）数量，攻击者使用数十万个虚假账号实施工业规模蒸馏。Anthropic 点名智谱和 Moonshot 参与，称智谱为 GLM-5.3 窃取美国领先模型的网络能力，Moonshot 通过 Claude 秘密转发查询。\n\nAI 研究员 Nathan Lambert 对此评论称，Anthropic 在采取这些措施前曾为寻求监管帮助大造声势，希望现在能重新开启对话；他还质疑 Anthropic 强调从自家有漏洞的 API 学习有害行为的安全风险，认为如果 API 不安全就不应托管它。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/b3fcb5e6-44bc-41e7-a9ee-6e03dbed65f3"
+    },
+    {
+      "rank": 8,
+      "title": "苹果发布内置 Siri AI 的新款 Apple TV 4K",
+      "list_title": "苹果发布内置 Siri AI 的新款 Apple TV 4K",
+      "heat": null,
+      "heat_change": "↑ 4281 %",
+      "sources": [],
+      "summary": "苹果正式发布新一代 Apple TV 4K（第四代），内置 Siri AI 和远场麦克风，主打全屏对话式搜片与免提交互。此前 MacRumors 从 tvOS 27.2 Beta 3 代码中挖出该支持，如今由苹果官方确认。\n\nSiri AI 以 beta 形式登陆 tvOS 27.2，支持 Apple TV 4K 第二代及后续机型，首发于美国、澳大利亚、加拿大、印度、新西兰、新加坡、南非和英国，提供英语版本；苹果称 Siri AI 初期不会在欧盟的 iOS 或 iPadOS 上提供。新机定价 299 美元（美国），美国等 30 个国家和地区开启预购，11 月 13 日上市。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/34bb70f2-b5d5-4815-9ad5-7118cb6e49a9"
+    },
+    {
+      "rank": 9,
+      "title": "Anthropic研究：小模型或可在IoT设备自我复制",
+      "list_title": "Anthropic研究：小模型或可在IoT设备自我复制",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Anthropic 发布研究称，其实验表明小型 AI 模型可能只需数月就能在商用 IoT 设备上自我复制，举例包括智能烤箱和非品牌 Android 电视盒子。实验显示，9B 模型能在所测试的 9 类硬件中的 8 类上跑通推理，30B 及以下模型已能完成复制所需的多数单步操作。\n\n不过，Anthropic 的实验也发现，参数量 300 亿以下的小模型难以独立跑完整条复制链路；只有在移除部分安全校验的简化环境下，GLM-5.2 及更强模型才能实现端到端完整自我复制。The Decoder 报道称，GLM-5.2 在五次运行中有四次可靠感染全部八个测试节点。上述结论均来自 Anthropic 自身的实验评估。\n\n宾夕法尼亚大学沃顿商学院教授 Ethan Mollick 转评该研究称，这提醒人们应关注 AI 能力阈值而非仅看平稳提升；其附图显示运行在电视集群上的小型开源模型能力指数随发布日期持续上升，距实现该阈值估计约 2.4 ECI，时间点标注约在 2026 年 7 月之后。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/12f4e6cb-604e-40cd-a3c8-eeb6fead61ce"
+    },
+    {
+      "rank": 10,
+      "title": "Karpathy：LLM 能力认知鸿沟扩大为漏斗",
+      "list_title": "Karpathy：LLM 能力认知鸿沟扩大为漏斗",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "Andrej Karpathy 重发并扩展其 4 月的观点，称外界对 LLM 能力的共识差距正从“两群人各说各话”变成一个急剧收窄的漏斗。他估算全球约 60 亿人（约 75%）几乎未接触过 LLM，约 10 亿至 20 亿人偶尔使用免费层类 ChatGPT 产品，约 2000 万人在数学与编码领域直接使用前沿模型，仅约 5000 人能接触前沿级内部系统。\n\nKarpathy 称，漏斗由问题规模、系统能力的锯齿状分布和访问层级共同驱动，不同人群对同一批系统的感知因此差异极大。他称约 2000 万数学与代码专业者能看到智能体在数周内完成过去数月的项目，约 5000 名实验室内部人员则在观察数千智能体协作数周的软件大型项目、漏洞挖掘、网络攻防、科学发现与前沿数学进展。\n\nEthan Mollick 转引该推文并补充称，即使这 5000 名内部人员中许多也未充分发挥先进模型能力，其应用集中在网络安全、数学与 AI 研发，还有许多其他领域和问题可以推进。Oran Ge 则称，大部分人不用大模型是因为大模型对他们没用、没有 ROI。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/9ce2c8e5-8fa1-4763-b493-ddec042860cc"
+    }
+  ]
+}
