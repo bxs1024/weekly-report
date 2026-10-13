@@ -952,29 +952,29 @@
       "generated_at": "2026-10-11 15:00"
     },
     "weekly:2026-W42": {
-      "input_hash": "5b66252c5169addbc2c8ea39b97c01b59365c474a23ff6065363a39739cfb4ec",
+      "input_hash": "9d5b74faf3b6f01052736a57701ed4d58289e28f24368833e65d4ce064411eb6",
       "editorial": {
-        "editorial_title": "个人AI智能体开战，支付合规双线收紧",
-        "mainline": "字节与腾讯同日押注个人AI智能体，Meta以Muse Wonder入局，入口争夺从模型层转向用户侧代理；与此同时，MAS收紧路演监管、肯尼亚央行谋求接管权，支付与合规的监管边界同步抬升，出海金融科技须重估落地成本。",
+        "editorial_title": "个人AI智能体开战，支付与云加速出海",
+        "mainline": "字节与腾讯同时押注个人AI智能体，Meta的200亿美元投入却传出不确定性，大厂路线开始分化；与此同时，Nubank以1.4亿客户为跳板筹备进军美国，Naver Cloud借FPT深入越南，亚太与拉美的本地化基建正成为出海新支点。",
         "themes": {
-          "ai_infra": "字节与腾讯在同一周竞相发布个人AI智能体产品，Meta紧随其后推出前沿模型Muse Wonder，三方在用户侧代理入口正面碰撞；FIS把Agentic AI塞进CFO工作流，1KOMMA5°则带着1.35B美元估值和1亿欧元预算押注能源AI，智能体正从通用助手向垂直场景和产业资本同时渗透。",
-          "expansion": "Rakuten TV把国际企业业务铺开，RewardinMe落子缅甸，Gate借Visa加密卡打通消费场景；新加坡金管局则把批发CBDC推进到代币化票据结算，区域扩张与结算层基础设施在同一周并行推进，跨国B2B和链上清结算的接口正在变多。",
-          "payments": "Kakao Bank向外国人开放金融服务，WEX联手万事达卡推出亚太车队支付平台，巴林央行技术预算翻三倍；同一周肯尼亚央行寻求接管困境金融科技公司的权力，一边是跨境支付场景扩容，一边是监管接管权前置，出海支付玩家须同时算清市场增量和合规兜底成本。",
-          "compliance": "MAS对金融产品路演加强监管，直接抬高分销环节合规成本；Threads向家长开放青少年屏蔽列表查看，微软总裁公开主张英国主导AI监管，英国AI大臣同步呼吁强化AI安全与网络防御，平台内容治理与AI监管话语权正在欧美亚三地同时收紧。",
-          "developer": "Kakao Games新游上线四天即冲至收入榜第二，验证亚太手游发行仍有爆发窗口；马斯克公开批评安巴尼、Jio IPO临近，印度市场资本事件与舆论摩擦交织；Meta收购索尼多项VR专利，平台方正为下一代内容生态囤积底层资产。",
-          "commerce": "假日季供应链趋势报告发布，指向零售备货与履约压力前置；MercadoLibre盘前股价报1689.60欧元，拉美电商龙头的估值锚仍在高位，供应链SaaS与物流服务商在旺季前的窗口期被重新定价。"
+          "ai_infra": "字节与腾讯同期切入个人AI智能体，直接对标Meta的Muse路线；FIS把Agentic AI塞进CFO工作流，说明企业侧采购窗口已打开。扎克伯格公开承认200亿美元AI投入存在不确定性，大厂从堆算力转向拼场景落地的信号已经明确。",
+          "expansion": "Naver Cloud与FPT扩大AI合作，把韩国模型能力嵌入越南本地交付体系；Rakuten TV同步扩张国际企业业务，RewardinMe则切入缅甸。韩越技术输出通道正在成形，本地系统集成商成为承接方，而非被替代方。",
+          "payments": "Nubank以1.4亿客户为底盘讨论美国扩张，拉美数字银行模式首次成规模反向输出；Kakao Bank推出外国人金融服务，Shopify把Sidekick嵌入自定义结账。ID Finance拿下5.45亿欧元扩展Plazo，说明信贷科技的资金端仍在加注。",
+          "developer": "Kakao Games新作上线四天即登收入榜第二，验证韩国发行商仍能快速起量；诺基亚出售企业园区边缘部门，反映电信设备商继续收缩非核心资产。Brellium获2300万美元扩展AI临床合规，Jio IPO临近却遭马斯克公开批评，印度市场情绪复杂。",
+          "compliance": "MAS加强对金融产品路演的监管，直接抬高跨境分销的合规成本；英国AI大臣呼吁强化安全与网络防御，微软总裁则公开站台英国主导AI监管。Threads上线家长查看青少年屏蔽列表功能，平台侧合规压力正从金融向社交蔓延。",
+          "commerce": "假日季供应链趋势报告提示全球零售备货与履约压力上升，物流科技和库存SaaS的采购窗口随之打开；MercadoLibre同期录得43%销售增长，拉美电商渗透仍在加速，本地履约能力成为区分玩家的关键变量。"
         },
         "theme_titles": {
-          "ai_infra": "字节腾讯同日推个人AI智能体，Meta以Muse入局",
-          "expansion": "Rakuten TV扩企业业务，MAS推进CBDC票据结算",
-          "payments": "Kakao Bank开放外国人服务，肯尼亚央行谋接管权",
-          "compliance": "MAS收紧路演监管，英国加码AI安全防御",
-          "developer": "Kakao Games新游四天冲收入榜第二，Jio IPO临近",
-          "commerce": "假日季供应链报告发布，MercadoLibre盘前报1689.6欧元"
+          "ai_infra": "中资大厂抢推个人AI智能体，Meta投入现分歧",
+          "expansion": "韩系AI借越南落地，东南亚本地集成商受益",
+          "payments": "Nubank携1.4亿客户筹备入美，拉美模式外溢",
+          "developer": "Kakao新游四天冲榜第二，诺基亚剥离边缘资产",
+          "compliance": "MAS收紧路演监管，英国争夺AI规则主导权",
+          "commerce": "假日季供应链承压，MercadoLibre销售增43%"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-10-13 15:41"
+      "generated_at": "2026-10-14 06:48"
     }
   }
 }
