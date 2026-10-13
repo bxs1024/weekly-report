@@ -1,25 +1,27 @@
 {
-  "observed_at": "2026-10-13T15:19:46.449491+08:00",
+  "observed_at": "2026-10-14T06:34:45.604053+08:00",
   "source_count": 3,
-  "raw_count": 56,
+  "raw_count": 55,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 13,
+      "count": 6,
       "inventory_count": 19,
       "signal_count": 1,
-      "added_count": 7,
-      "removed_count": 6,
+      "added_count": 3,
+      "removed_count": 3,
       "clusters": {
+        "compliance": 1,
+        "engineering": 1,
+        "operations": 1,
         "sales": 1
       },
       "removed_clusters": {
-        "sales": 2,
-        "operations": 1,
-        "engineering": 1
+        "engineering": 1,
+        "partnerships": 1
       }
     },
     "Stripe Jobs": {
@@ -27,13 +29,15 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 6,
+      "count": 1,
+      "inventory_count": 5,
       "signal_count": 0,
       "added_count": 0,
-      "removed_count": 0,
+      "removed_count": 1,
       "clusters": {},
-      "removed_clusters": {}
+      "removed_clusters": {
+        "engineering": 1
+      }
     },
     "Shopify Jobs": {
       "method": "jobs_snapshot",
@@ -51,107 +55,67 @@
   },
   "candidate_signals": [
     {
-      "candidate_id": "jobs-60e8760ac7c6919a",
+      "candidate_id": "jobs-dd5c8ba4c17e5318",
       "entity_id": "grab",
       "entity": "Grab",
       "region": "亚太",
       "sector": "mobility_payment",
       "source_type": "jobs_snapshot",
       "signal_type": "function_buildout",
-      "cluster": "sales",
+      "cluster": "compliance",
       "window": "2026-W42",
-      "window_start": "2026-10-13",
-      "window_end": "2026-10-13",
-      "detected_at": "2026-10-13T15:19:46.449491+08:00",
-      "baseline_count": 18,
+      "window_start": "2026-10-14",
+      "window_end": "2026-10-14",
+      "detected_at": "2026-10-14T06:34:45.604053+08:00",
+      "baseline_count": 19,
       "current_count": 19,
-      "added_count": 7,
-      "removed_count": 6,
+      "added_count": 3,
+      "removed_count": 3,
       "clusters": {
+        "compliance": 1,
+        "engineering": 1,
+        "operations": 1,
         "sales": 1
       },
       "removed_clusters": {
-        "sales": 2,
-        "operations": 1,
-        "engineering": 1
+        "engineering": 1,
+        "partnerships": 1
       },
       "evidence_refs": [
         {
-          "job_id": "744000155168029",
-          "title": "Associate, Strategic Insights and Analytics",
-          "url": "https://www.grab.careers/en/jobs/744000155168029/associate-strategic-insights-and-analytics/",
+          "job_id": "744000155352979",
+          "title": "Security Compliance Strategist, Vendor Security",
+          "url": "https://www.grab.careers/en/jobs/744000155352979/security-compliance-strategist-vendor-security/",
           "change": "added"
         },
         {
-          "job_id": "744000155162739",
-          "title": "Lead Product Manager",
-          "url": "https://www.grab.careers/en/jobs/744000155162739/lead-product-manager/",
+          "job_id": "744000155350409",
+          "title": "Senior Security Engineer, Cyber Defence Operations",
+          "url": "https://www.grab.careers/en/jobs/744000155350409/senior-security-engineer-cyber-defence-operations/",
           "change": "added"
         },
         {
-          "job_id": "744000155159579",
-          "title": "GrabMart Pharmacy Category Lead",
-          "url": "https://www.grab.careers/en/jobs/744000155159579/grabmart-pharmacy-category-lead/",
+          "job_id": "744000155219829",
+          "title": "Merchant Sales Executive (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000155219829/merchant-sales-executive-fb/",
           "change": "added"
         },
         {
-          "job_id": "744000155153546",
-          "title": "Assistant Manager, Regional Business Finance (Deliveries Segment)",
-          "url": "https://www.grab.careers/en/jobs/744000155153546/assistant-manager-regional-business-finance-deliveries-segment/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000155152311",
-          "title": "Assistant Manager, Regional Business Finance (Mobility Segment)",
-          "url": "https://www.grab.careers/en/jobs/744000155152311/assistant-manager-regional-business-finance-mobility-segment/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000155139797",
-          "title": "Assistant Manager, Ads Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000155139797/assistant-manager-ads-strategy/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000155135449",
-          "title": "Assistant Manager (Regional SMB Ads) - User Growth & Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000155135449/assistant-manager-regional-smb-ads-user-growth-strategy/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000154936662",
-          "title": "Assistant Manager (Regional SMB Ads) - User Growth & Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000154936662/assistant-manager-regional-smb-ads-user-growth-strategy/",
+          "job_id": "744000154666819",
+          "title": "Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000154666819/software-engineer-backend/",
           "change": "removed"
         },
         {
-          "job_id": "744000154579280",
-          "title": "Senior Analyst, Sales Operations",
-          "url": "https://www.grab.careers/en/jobs/744000154579280/senior-analyst-sales-operations/",
+          "job_id": "744000154631119",
+          "title": "Intern, Partner Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000154631119/intern-partner-acquisition/",
           "change": "removed"
         },
         {
-          "job_id": "744000154574849",
-          "title": "Lead Software Engineer, Perception (Robotics)",
-          "url": "https://www.grab.careers/en/jobs/744000154574849/lead-software-engineer-perception-robotics/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000154574219",
-          "title": "Assistant Marketing Manager, B2B",
-          "url": "https://www.grab.careers/en/jobs/744000154574219/assistant-marketing-manager-b2b/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000154453554",
-          "title": "Assistant Manager, Business Enablement",
-          "url": "https://www.grab.careers/en/jobs/744000154453554/assistant-manager-business-enablement/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000154434474",
-          "title": "Senior Data Scientist",
-          "url": "https://www.grab.careers/en/jobs/744000154434474/senior-data-scientist/",
+          "job_id": "744000154581859",
+          "title": "Warehouse Operation Manager",
+          "url": "https://www.grab.careers/en/jobs/744000154581859/warehouse-operation-manager/",
           "change": "removed"
         }
       ],
