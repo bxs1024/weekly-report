@@ -1,11 +1,77 @@
 {
   "version": 1,
-  "generated_at": "2026-10-14T13:45:59.948612+08:00",
+  "generated_at": "2026-10-15T05:32:36.948022+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-14T13:45:59.948612+08:00",
+      "observed_at": "2026-10-15T05:32:36.948022+08:00",
       "jobs": [
+        {
+          "id": "744000155516147",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000155516147/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000155475389",
+          "title": "Intern, Software Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000155475389/intern-software-engineer/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000155473305",
+          "title": "Head of Product & Map Operations, GrabMaps",
+          "url": "https://www.grab.careers/en/jobs/744000155473305/head-of-product-map-operations-grabmaps/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000155452412",
+          "title": "Intern, Talent Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000155452412/intern-talent-acquisition/",
+          "function_tags": []
+        },
+        {
+          "id": "744000155446439",
+          "title": "Assistant Manager, Technical Accounting",
+          "url": "https://www.grab.careers/en/jobs/744000155446439/assistant-manager-technical-accounting/",
+          "function_tags": []
+        },
+        {
+          "id": "744000155439469",
+          "title": "Commercial Strategy Lead – PayLater, Lending & Omnicommerce",
+          "url": "https://www.grab.careers/en/jobs/744000155439469/commercial-strategy-lead-paylater-lending-omnicommerce/",
+          "function_tags": []
+        },
+        {
+          "id": "744000155428469",
+          "title": "Senior Product Designer, Driver Experience and Fulfilment",
+          "url": "https://www.grab.careers/en/jobs/744000155428469/senior-product-designer-driver-experience-and-fulfilment/",
+          "function_tags": []
+        },
+        {
+          "id": "744000155421549",
+          "title": "Data Intelligence Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000155421549/data-intelligence-specialist/",
+          "function_tags": []
+        },
+        {
+          "id": "744000155416489",
+          "title": "Senior Data Scientist (Search & Recommendations)",
+          "url": "https://www.grab.careers/en/jobs/744000155416489/senior-data-scientist-search-recommendations/",
+          "function_tags": []
+        },
+        {
+          "id": "744000155413387",
+          "title": "Director, Grab Financial Group",
+          "url": "https://www.grab.careers/en/jobs/744000155413387/director-grab-financial-group/",
+          "function_tags": []
+        },
         {
           "id": "744000155411014",
           "title": "Assistant Manager, Growth Analytics",
@@ -44,14 +110,6 @@
           ]
         },
         {
-          "id": "744000155408419",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000155408419/senior-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
           "id": "744000155407329",
           "title": "Team Lead, Merchant Acquisition (F&B)",
           "url": "https://www.grab.careers/en/jobs/744000155407329/team-lead-merchant-acquisition-fb/",
@@ -72,87 +130,12 @@
           "function_tags": [
             "compliance"
           ]
-        },
-        {
-          "id": "744000155350409",
-          "title": "Senior Security Engineer, Cyber Defence Operations",
-          "url": "https://www.grab.careers/en/jobs/744000155350409/senior-security-engineer-cyber-defence-operations/",
-          "function_tags": [
-            "engineering",
-            "operations"
-          ]
-        },
-        {
-          "id": "744000155219829",
-          "title": "Merchant Sales Executive (F&B)",
-          "url": "https://www.grab.careers/en/jobs/744000155219829/merchant-sales-executive-fb/",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "744000155168029",
-          "title": "Associate, Strategic Insights and Analytics",
-          "url": "https://www.grab.careers/en/jobs/744000155168029/associate-strategic-insights-and-analytics/",
-          "function_tags": []
-        },
-        {
-          "id": "744000155162739",
-          "title": "Lead Product Manager",
-          "url": "https://www.grab.careers/en/jobs/744000155162739/lead-product-manager/",
-          "function_tags": []
-        },
-        {
-          "id": "744000155159579",
-          "title": "GrabMart Pharmacy Category Lead",
-          "url": "https://www.grab.careers/en/jobs/744000155159579/grabmart-pharmacy-category-lead/",
-          "function_tags": []
-        },
-        {
-          "id": "744000155153546",
-          "title": "Assistant Manager, Regional Business Finance (Deliveries Segment)",
-          "url": "https://www.grab.careers/en/jobs/744000155153546/assistant-manager-regional-business-finance-deliveries-segment/",
-          "function_tags": []
-        },
-        {
-          "id": "744000155152311",
-          "title": "Assistant Manager, Regional Business Finance (Mobility Segment)",
-          "url": "https://www.grab.careers/en/jobs/744000155152311/assistant-manager-regional-business-finance-mobility-segment/",
-          "function_tags": []
-        },
-        {
-          "id": "744000155139797",
-          "title": "Assistant Manager, Ads Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000155139797/assistant-manager-ads-strategy/",
-          "function_tags": []
-        },
-        {
-          "id": "744000155135449",
-          "title": "Assistant Manager (Regional SMB Ads) - User Growth & Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000155135449/assistant-manager-regional-smb-ads-user-growth-strategy/",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "744000154974959",
-          "title": "Assistant Finance Manager, RTR - Intercompany & Fixed Asset",
-          "url": "https://www.grab.careers/en/jobs/744000154974959/assistant-finance-manager-rtr-intercompany-fixed-asset/",
-          "function_tags": []
-        },
-        {
-          "id": "744000154972789",
-          "title": "Support Manager II, Finance Systems",
-          "url": "https://www.grab.careers/en/jobs/744000154972789/support-manager-ii-finance-systems/",
-          "function_tags": [
-            "operations"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-14T13:45:59.948612+08:00",
+      "observed_at": "2026-10-15T05:32:36.948022+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -193,7 +176,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-14T13:45:59.948612+08:00",
+      "observed_at": "2026-10-15T05:32:36.948022+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
@@ -353,6 +336,14 @@
           ]
         },
         {
+          "id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "title": "Director, Partnerships, Greater China Remote - Singapore",
+          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
           "id": "bff44652-fe22-44bc-84b0-691d8f996322",
           "title": "Director, Partnerships, Greater China Remote - Hong Kong",
           "url": "https://www.shopify.com/careers/director-partnerships-greater-china_bff44652-fe22-44bc-84b0-691d8f996322",
@@ -361,11 +352,11 @@
           ]
         },
         {
-          "id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
-          "title": "Director, Partnerships, Greater China Remote - Singapore",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "id": "d5966831-e925-4bdf-b381-1fb626c3f6ad",
+          "title": "Lead Developer Advocate (San Francisco) Remote - San Francisco",
+          "url": "https://www.shopify.com/careers/lead-developer-advocate-san-francisco_d5966831-e925-4bdf-b381-1fb626c3f6ad",
           "function_tags": [
-            "partnerships"
+            "engineering"
           ]
         },
         {
