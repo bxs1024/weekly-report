@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T02:55:09+08:00",
+  "generated_at": "2026-10-14T10:20:54+08:00",
   "fetched_date": "2026-10-14",
   "source": {
     "name": "AIHOT 大模型排行榜",
@@ -26,11 +26,11 @@
       "name": "Gemini 4 Argon",
       "provider": "Google",
       "release_date": "2026-09-30",
-      "completeness": "22 项评测 覆盖 71 %",
-      "cache_price": "待核验",
-      "input_price": "待核验",
-      "output_price": "待核验",
-      "consensus_score": 73.5,
+      "completeness": "23 项评测 覆盖 71 %",
+      "cache_price": "¥1.34",
+      "input_price": "¥26.78",
+      "output_price": "¥133.88",
+      "consensus_score": 73.6,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-4-argon"
     },
     {
@@ -54,7 +54,7 @@
       "cache_price": "¥1.34",
       "input_price": "¥13.39",
       "output_price": "¥66.94",
-      "consensus_score": 71.3,
+      "consensus_score": 71.4,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-sonnet-5-5"
     },
     {
@@ -122,11 +122,11 @@
       "name": "Muse Wonder",
       "provider": "Meta",
       "release_date": "2026-10-12",
-      "completeness": "18 项评测 覆盖 57 %",
+      "completeness": "22 项评测 覆盖 75 %",
       "cache_price": "待核验",
       "input_price": "待核验",
       "output_price": "待核验",
-      "consensus_score": 67.8,
+      "consensus_score": 67.5,
       "detail_url": "https://aihot.virxact.com/leaderboard/muse-wonder"
     },
     {
@@ -174,7 +174,7 @@
       "cache_price": "¥0.5",
       "input_price": "¥5.02",
       "output_price": "¥25.1",
-      "consensus_score": 64.5,
+      "consensus_score": 64.4,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-3-8-flash"
     },
     {
@@ -186,7 +186,7 @@
       "cache_price": "¥2",
       "input_price": "¥20",
       "output_price": "¥100",
-      "consensus_score": 63.3,
+      "consensus_score": 63.2,
       "detail_url": "https://aihot.virxact.com/leaderboard/kimi-k-3"
     },
     {
@@ -278,11 +278,11 @@
       "name": "Grok 4.7",
       "provider": "xAI",
       "release_date": "2026-09-21",
-      "completeness": "31 项评测 覆盖 96 %",
+      "completeness": "33 项评测 覆盖 96 %",
       "cache_price": "¥3.35",
       "input_price": "¥13.39",
       "output_price": "¥40.16",
-      "consensus_score": 61.6,
+      "consensus_score": 61.5,
       "detail_url": "https://aihot.virxact.com/leaderboard/grok-4-7"
     },
     {
@@ -323,18 +323,6 @@
     },
     {
       "rank": 27,
-      "name": "DeepSeek V4.1 Flash",
-      "provider": "DeepSeek",
-      "release_date": "2026-09-10",
-      "completeness": "33 项评测 覆盖 100 %",
-      "cache_price": "¥0.0402",
-      "input_price": "¥2.01",
-      "output_price": "¥8.03",
-      "consensus_score": 60.4,
-      "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-1-flash"
-    },
-    {
-      "rank": 28,
       "name": "Step 5 Preview",
       "provider": "StepFun",
       "release_date": "2026-09-18",
@@ -346,19 +334,19 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/step-5-preview"
     },
     {
-      "rank": 29,
-      "name": "DeepSeek V4 Pro 0813",
+      "rank": 28,
+      "name": "DeepSeek V4.1 Flash",
       "provider": "DeepSeek",
-      "release_date": "2026-08-13",
-      "completeness": "33 项评测 覆盖 96 %",
-      "cache_price": "¥0.3",
-      "input_price": "¥9",
-      "output_price": "¥27",
-      "consensus_score": 58.7,
-      "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-pro-20260813"
+      "release_date": "2026-09-10",
+      "completeness": "34 项评测 覆盖 100 %",
+      "cache_price": "¥0.0402",
+      "input_price": "¥2.01",
+      "output_price": "¥8.03",
+      "consensus_score": 60.3,
+      "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-1-flash"
     },
     {
-      "rank": 30,
+      "rank": 29,
       "name": "Claude Sonnet 5",
       "provider": "Anthropic",
       "release_date": "2026-06-30",
@@ -368,6 +356,18 @@
       "output_price": "¥66.94",
       "consensus_score": 58.7,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-sonnet-5"
+    },
+    {
+      "rank": 30,
+      "name": "DeepSeek V4 Pro 0813",
+      "provider": "DeepSeek",
+      "release_date": "2026-08-13",
+      "completeness": "33 项评测 覆盖 96 %",
+      "cache_price": "¥0.3",
+      "input_price": "¥9",
+      "output_price": "¥27",
+      "consensus_score": 58.7,
+      "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-pro-20260813"
     }
   ],
   "official_sources": [
