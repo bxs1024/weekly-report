@@ -1,11 +1,70 @@
 {
   "version": 1,
-  "generated_at": "2026-10-14T06:34:45.604053+08:00",
+  "generated_at": "2026-10-14T13:45:59.948612+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-14T06:34:45.604053+08:00",
+      "observed_at": "2026-10-14T13:45:59.948612+08:00",
       "jobs": [
+        {
+          "id": "744000155411014",
+          "title": "Assistant Manager, Growth Analytics",
+          "url": "https://www.grab.careers/en/jobs/744000155411014/assistant-manager-growth-analytics/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000155409939",
+          "title": "Project Manager & GTM, Self-Serve Business",
+          "url": "https://www.grab.careers/en/jobs/744000155409939/project-manager-gtm-self-serve-business/",
+          "function_tags": []
+        },
+        {
+          "id": "744000155409710",
+          "title": "Project Manager, GrabAds Solutions",
+          "url": "https://www.grab.careers/en/jobs/744000155409710/project-manager-grabads-solutions/",
+          "function_tags": []
+        },
+        {
+          "id": "744000155409869",
+          "title": "Senior DevOps Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000155409869/senior-devops-engineer/",
+          "function_tags": [
+            "engineering",
+            "operations"
+          ]
+        },
+        {
+          "id": "744000155408599",
+          "title": "Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000155408599/software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000155408419",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000155408419/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000155407329",
+          "title": "Team Lead, Merchant Acquisition (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000155407329/team-lead-merchant-acquisition-fb/",
+          "function_tags": []
+        },
+        {
+          "id": "744000155378709",
+          "title": "Software Engineer, Fullstack",
+          "url": "https://www.grab.careers/en/jobs/744000155378709/software-engineer-fullstack/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000155352979",
           "title": "Security Compliance Strategist, Vendor Security",
@@ -88,62 +147,12 @@
           "function_tags": [
             "operations"
           ]
-        },
-        {
-          "id": "744000154940614",
-          "title": "Intern, Marketing and Partnership (GrabRentals)",
-          "url": "https://www.grab.careers/en/jobs/744000154940614/intern-marketing-and-partnership-grabrentals/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000154941124",
-          "title": "Intern, Social Media & Partner Engagement",
-          "url": "https://www.grab.careers/en/jobs/744000154941124/intern-social-media-partner-engagement/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000154939209",
-          "title": "Senior Software Engineer, Fullstack",
-          "url": "https://www.grab.careers/en/jobs/744000154939209/senior-software-engineer-fullstack/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000154917459",
-          "title": "Regional Head of PMTO Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000154917459/regional-head-of-pmto-strategy/",
-          "function_tags": []
-        },
-        {
-          "id": "744000154915599",
-          "title": "Manager, Regional Business Finance – B2B",
-          "url": "https://www.grab.careers/en/jobs/744000154915599/manager-regional-business-finance-b2b/",
-          "function_tags": []
-        },
-        {
-          "id": "744000154913855",
-          "title": "Merchant Account Manager (F&B)",
-          "url": "https://www.grab.careers/en/jobs/744000154913855/merchant-account-manager-fb/",
-          "function_tags": []
-        },
-        {
-          "id": "744000154913299",
-          "title": "Assistant Manager, GrabForBusiness Partnerships",
-          "url": "https://www.grab.careers/en/jobs/744000154913299/assistant-manager-grabforbusiness-partnerships/",
-          "function_tags": [
-            "partnerships"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-14T06:34:45.604053+08:00",
+      "observed_at": "2026-10-14T13:45:59.948612+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -184,7 +193,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-14T06:34:45.604053+08:00",
+      "observed_at": "2026-10-14T13:45:59.948612+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
