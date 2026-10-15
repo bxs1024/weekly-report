@@ -1,11 +1,17 @@
 {
   "version": 1,
-  "generated_at": "2026-10-15T05:32:36.948022+08:00",
+  "generated_at": "2026-10-15T13:31:54.789270+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-15T05:32:36.948022+08:00",
+      "observed_at": "2026-10-15T13:31:54.789270+08:00",
       "jobs": [
+        {
+          "id": "744000155660889",
+          "title": "Intern, HR Engagement & Campus",
+          "url": "https://www.grab.careers/en/jobs/744000155660889/intern-hr-engagement-campus/",
+          "function_tags": []
+        },
         {
           "id": "744000155516147",
           "title": "Senior Software Engineer, Backend",
@@ -122,20 +128,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000155352979",
-          "title": "Security Compliance Strategist, Vendor Security",
-          "url": "https://www.grab.careers/en/jobs/744000155352979/security-compliance-strategist-vendor-security/",
-          "function_tags": [
-            "compliance"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-15T05:32:36.948022+08:00",
+      "observed_at": "2026-10-15T13:31:54.789270+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -176,7 +174,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-15T05:32:36.948022+08:00",
+      "observed_at": "2026-10-15T13:31:54.789270+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
