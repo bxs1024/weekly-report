@@ -952,29 +952,108 @@
       "generated_at": "2026-10-11 15:00"
     },
     "weekly:2026-W42": {
-      "input_hash": "b42fd5ee25f99d0fe6d9388e50422142a778ac6a6723f27e8a1b7ea672da8483",
+      "input_hash": "4554641a2adc99f80c044a7632c4bbe12e920e26fda9a0e54f2c1c28c50600a4",
       "editorial": {
-        "editorial_title": "韩国AI入口争夺战升级，拉美支付与中东欧电商加速跨境",
-        "mainline": "Kakao以500万MAU目标将韩国AI助手竞争推入用户争夺阶段，Naver Cloud同步扩大东南亚AI合作，韩国平台正把本土流量优势转化为区域AI服务输出。与此同时，Nubank以1.4亿客户为跳板筹备进入美国，Allegro启动对乌克兰出口试点，新兴市场平台开始反向渗透成熟市场。",
+        "editorial_title": "韩国AI超级App开战，拉美支付与中东欧电商扩边",
+        "mainline": "Kakao宣布12月上线AI服务并定下500万MAU目标，Naver Webtoon同步重组海外领导层，韩国平台正把AI与内容打包成出海新筹码；另一边Nubank以1.4亿客户为跳板筹备进军美国，Allegro启动对乌克兰出口试点，新兴市场金融与电商基建的跨境扩张明显提速。",
         "themes": {
-          "ai_infra": "Kakao将12月AI服务上线与500万MAU目标绑定，Naver Cloud则借FPT扩大东南亚AI合作，韩国平台正把超级App流量转化为AI获客入口。字节跳动和腾讯同期竞相推出个人AI智能体，Cloudflare开放nameserver sets测试，基础设施层与消费层同步卡位。",
-          "expansion": "Naver Cloud与FPT扩大AI合作，把韩国AI能力嵌入越南企业服务链条；Rakuten TV扩大国际企业业务，Salary Hero融资760万美元进军马来西亚。Kakao设定500万MAU目标，意味着韩国AI服务竞争将带动内容生态和基础设施的区域性投入。",
-          "payments": "Nubank讨论1.4亿客户规模及美国扩张计划，拉美数字银行开始反向渗透成熟市场；Kakao Bank推出外国人金融服务，韩国银行同步争夺跨境客群。Yuno集成SEON反欺诈工具，支付基础设施层正为跨境交易量增长提前加固风控。",
-          "developer": "Databricks发布OLTP与OLAP技术指南，试图在湖仓一体架构选型中抢占决策入口；诺基亚出售企业园区边缘部门，反映边缘计算资产正在被重新配置。Kakao Games新游四天冲上收入榜第二，Brellium获2300万美元扩展AI临床合规平台，平台生态的变现与合规工具同步升温。",
-          "compliance": "MAS加强金融产品路演监管，新加坡分销合规成本上升，合规科技需求随之增加；黄仁勋表态将切断不安全AI客户，把AI供应链安全责任推向采购端。Threads开放家长查看青少年屏蔽列表，微软总裁主张英国主导AI监管，平台与监管方在青少年保护和AI治理上同时收紧。",
-          "commerce": "Allegro启动对乌克兰电商出口试点，中东欧电商龙头把跨境物流和支付需求引向新市场；Kurly盈利改善后重启IPO，MercadoLibre Q2销售增长43%，区域电商平台在盈利修复与规模扩张之间重新获得资本窗口。假日季供应链趋势报告发布，为跨境履约能力提前定调。"
+          "ai_infra": "Kakao把AI服务上线时间锁定在12月，直接押注其国民级App的流量入口；字节跳动与腾讯同期竞逐个人AI智能体，争夺同一批用户注意力。Cloudflare与Databricks分别从网络调度和数据预测层补齐工具链，基础设施侧正为这轮消费级AI放量做准备。",
+          "expansion": "Naver Webtoon重组LDF领导层，把西方市场拓展提级为组织动作；Rakuten TV同步扩大国际企业业务，日本内容与流媒体资产正寻找海外增量。Square Enix为Vaultbreakers提供发行合作，给独立开发商打开了一条借大厂渠道出海的路径。",
+          "payments": "Nubank在1.4亿客户基础上讨论美国扩张，拉美数字银行开始反向切入成熟市场；Kakao Bank推出外国人金融服务，韩国本土银行也在争抢跨境客群。StraitsX联手Visa把稳定币卡铺向100多个市场，Yuno集成SEON反欺诈，支付链路的合规与风控正成为扩张前置条件。",
+          "developer": "Databricks发布OLTP与OLAP选型指南，意在湖仓一体生态中抢占数据工程师的决策入口；Harmonic Security拿下5000万美元融资，安全工具层继续吸金。诺基亚出售企业园区边缘部门，传统设备商收缩非核心资产，平台生态的边界正在被重新划分。",
+          "commerce": "Allegro启动对乌克兰电商出口试点，中东欧龙头把跨境物流与支付需求带向新市场；MercadoLibre二季度销售增长43%，拉美电商大盘仍在扩张。Kurly盈利改善后重启IPO计划，韩国生鲜电商在资本窗口重新打开时抢先卡位。",
+          "compliance": "MAS加强对金融产品路演的监管，新加坡分销合规成本上升，合规科技需求随之抬升；黄仁勋表态将切断不安全AI客户，芯片供应方开始把安全条款嵌入商业合作。微软总裁公开主张英国主导AI监管，监管话语权本身正成为跨国科技公司的竞争变量。"
         },
         "theme_titles": {
-          "ai_infra": "韩国AI助手进入MAU争夺，字节腾讯同步推个人智能体",
-          "expansion": "韩企AI合作扩至越南，Rakuten TV与Salary Hero分头拓市场",
-          "payments": "Nubank以1.4亿客户筹备入美，Kakao Bank开放外国人金融服务",
-          "developer": "Databricks发布OLTP/OLAP选型指南，诺基亚出售边缘部门",
-          "compliance": "MAS收紧路演监管，黄仁勋称将切断不安全AI客户",
-          "commerce": "Allegro启动对乌克兰出口试点，Kurly重启IPO"
+          "ai_infra": "韩国AI超级App竞赛升温，字节腾讯抢推个人智能体",
+          "expansion": "日韩内容平台加速西进，Square Enix开放发行合作",
+          "payments": "Nubank筹备赴美，稳定币卡扩至百国市场",
+          "developer": "Databricks补数据架构指南，诺基亚剥离边缘资产",
+          "commerce": "Allegro试点对乌出口，Kurly盈利后重启IPO",
+          "compliance": "MAS收紧路演监管，英伟达设AI客户安全门槛"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-10-15 05:46"
+      "generated_at": "2026-10-15 13:46"
+    },
+    "monthly:2026-10": {
+      "input_hash": "92423e89225adfb317c01d3c9e0b9bb160bf581278f0dae746a5fd8a0e9c40e1",
+      "editorial": {
+        "editorial_title": "AI基建增速放缓，亚太扩张与支付合规分化",
+        "mainline": "本月AI与云基础设施事实量较上月回落，但Kakao、字节、腾讯等亚太厂商仍密集推出AI服务，显示竞争从模型层转向应用层。与此同时，亚太区域扩张与合作事实量上升，Naver Webtoon重组LDF领导层、Kakao AI目标500万MAU、Rakuten TV扩大国际企业业务，指向日韩平台正加速向西方市场输出服务。支付与合规则出现分化：Nubank、Kakao Bank等继续推进跨境金融，而新加坡、土耳其等地监管收紧，合规热度下降。",
+        "themes": {
+          "ai_infra": {
+            "narrative": "Kakao宣布12月推出AI服务并目标500万MAU，字节跳动和腾讯竞相推出个人AI智能体，Databricks发布Predictive AI Functions，Cloudflare推出nameserver sets功能。AI基础设施从底层算力向应用层和开发者工具延伸，但整体事实量较上月减少22条，显示热度略有回落。",
+            "drivers": [
+              "Kakao将于12月推出AI服务",
+              "字节跳动和腾讯竞相推出个人AI智能体",
+              "Databricks发布Predictive AI Functions"
+            ],
+            "uncertainty": "Kakao AI服务尚未上线，500万MAU目标能否达成未知；字节与腾讯的智能体产品细节未披露。",
+            "next_validation": "下月验证Kakao AI服务实际上线表现、字节腾讯智能体的用户数据，以及Databricks新功能的采用情况。"
+          },
+          "expansion": {
+            "narrative": "Naver Webtoon重组LDF领导层以拓展西方市场，Rakuten TV扩大国际企业业务，Kakao AI服务目标500万MAU，Vaultbreakers获Square Enix发行合作。亚太平台从内容输出转向组织与业务本地化，事实量较上月增加13.7条，扩张节奏加快。",
+            "drivers": [
+              "Naver Webtoon重组LDF领导层，拓展西方市场",
+              "Rakuten TV扩大国际企业业务",
+              "Vaultbreakers发布试玩版并获Square Enix发行合作"
+            ],
+            "uncertainty": "Naver Webtoon领导层重组后的执行效果未验证；Rakuten TV国际企业业务的具体区域和规模未披露。",
+            "next_validation": "下月验证Naver Webtoon西方市场用户增长、Rakuten TV国际企业客户签约情况，以及Kakao AI海外拓展动向。"
+          },
+          "payments": {
+            "narrative": "Nubank讨论1.4亿客户及美国扩张，Kakao Bank推出外国人金融服务，阿联酋基金洽谈投资OpenAI并收购noon支付65%股权，Adyen发布2024年全年财报。支付与金融科技从本土竞争转向跨境布局和资本整合，但事实量较上月减少8.7条，活跃度略降。",
+            "drivers": [
+              "Nubank讨论1.4亿客户及美国扩张",
+              "Kakao Bank推出外国人金融服务",
+              "阿联酋基金洽谈投资OpenAI，NEOPAY收购noon支付65%股权"
+            ],
+            "uncertainty": "Nubank美国扩张尚在讨论阶段；阿联酋基金投资OpenAI与NEOPAY收购noon支付是否最终完成未确认。",
+            "next_validation": "下月验证Nubank美国业务落地进展、Kakao Bank外国人金融服务用户数据，以及NEOPAY收购noon支付的交割结果。"
+          },
+          "developer": {
+            "narrative": "Databricks发布OLTP vs OLAP技术指南、推出Funke原生HL7v2解析，Cloudflare发布Web Search API，Kakao Games新游发布四天收入榜第二。开发者生态从基础设施向垂直行业数据解析和搜索能力扩展，但事实量较上月减少6.7条，增速放缓。",
+            "drivers": [
+              "Databricks发布OLTP vs OLAP技术指南",
+              "Databricks推出Funke原生HL7v2解析",
+              "Cloudflare发布Web Search API"
+            ],
+            "uncertainty": "Funke HL7v2解析和Web Search API的实际采用率未知；Kakao Games新游收入排名能否持续未验证。",
+            "next_validation": "下月验证Databricks新工具的开发者采用数据、Cloudflare Web Search API的集成案例，以及Kakao Games新游的后续收入排名。"
+          },
+          "commerce": {
+            "narrative": "Allegro启动对乌克兰电商出口试点，Jumia部署AI并扩展物流提升服务，Databricks推出实时电商推荐方案，Shopify推出折扣安排与测试功能。电商与物流从区域扩张转向AI驱动的运营优化，但事实量较上月减少5条，活跃度小幅下降。",
+            "drivers": [
+              "Allegro启动对乌克兰电商出口试点",
+              "Jumia部署AI并扩展物流提升服务",
+              "Databricks推出实时电商推荐方案"
+            ],
+            "uncertainty": "Allegro乌克兰出口试点的规模与效果未披露；Jumia AI部署的具体覆盖市场和物流扩展范围未知。",
+            "next_validation": "下月验证Allegro乌克兰出口试点的交易数据、Jumia AI部署后的履约效率变化，以及Shopify新功能的商户采用情况。"
+          },
+          "compliance": {
+            "narrative": "新加坡通过数字基础设施韧性法案，MAS加强金融产品路演监管，土耳其11月起禁15岁以下用社媒，Threads推出家长查看青少年屏蔽列表功能。亚太合规与安全从金融监管向数字基础设施和青少年保护扩展，但事实量较上月减少10.7条，整体降温。",
+            "drivers": [
+              "新加坡通过数字基础设施韧性法案",
+              "MAS加强金融产品路演监管",
+              "土耳其11月起禁15岁以下用社媒"
+            ],
+            "uncertainty": "新加坡数字基础设施韧性法案的执行细则未明确；土耳其社媒禁令的实际执行力度和影响未知。",
+            "next_validation": "下月验证新加坡法案的落地执行案例、MAS路演监管的处罚或整改实例，以及土耳其社媒禁令的用户数据变化。"
+          }
+        },
+        "theme_titles": {
+          "ai_infra": "亚太厂商密集推出AI服务，Databricks与Cloudflare更新工具链",
+          "expansion": "日韩平台加速西方市场扩张，Naver Webtoon与Rakuten TV调整国际业务",
+          "payments": "Nubank与Kakao Bank推进跨境金融，阿联酋资本加注支付资产",
+          "developer": "Databricks与Cloudflare更新开发者工具，Kakao Games新游收入榜第二",
+          "commerce": "Allegro启动乌克兰出口试点，Jumia部署AI扩展物流",
+          "compliance": "新加坡通过数字基础设施韧性法案，土耳其禁15岁以下用社媒"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-10-15 13:46"
     }
   }
 }
