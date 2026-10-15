@@ -1,21 +1,28 @@
 {
-  "observed_at": "2026-10-15T13:31:54.789270+08:00",
+  "observed_at": "2026-10-16T05:14:40.490446+08:00",
   "source_count": 3,
-  "raw_count": 55,
+  "raw_count": 57,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 2,
-      "inventory_count": 18,
-      "signal_count": 0,
-      "added_count": 1,
-      "removed_count": 1,
-      "clusters": {},
+      "count": 19,
+      "inventory_count": 19,
+      "signal_count": 1,
+      "added_count": 10,
+      "removed_count": 9,
+      "clusters": {
+        "partnerships": 1,
+        "sales": 1,
+        "engineering": 1,
+        "operations": 1
+      },
       "removed_clusters": {
-        "compliance": 1
+        "sales": 1,
+        "engineering": 3,
+        "operations": 1
       }
     },
     "Stripe Jobs": {
@@ -36,15 +43,166 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 32,
+      "count": 1,
+      "inventory_count": 33,
       "signal_count": 0,
-      "added_count": 0,
+      "added_count": 1,
       "removed_count": 0,
-      "clusters": {},
+      "clusters": {
+        "sales": 1
+      },
       "removed_clusters": {}
     }
   },
-  "candidate_signals": [],
+  "candidate_signals": [
+    {
+      "candidate_id": "jobs-490862c0d8282c17",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "partnerships",
+      "window": "2026-W42",
+      "window_start": "2026-10-16",
+      "window_end": "2026-10-16",
+      "detected_at": "2026-10-16T05:14:40.490446+08:00",
+      "baseline_count": 18,
+      "current_count": 19,
+      "added_count": 10,
+      "removed_count": 9,
+      "clusters": {
+        "partnerships": 1,
+        "sales": 1,
+        "engineering": 1,
+        "operations": 1
+      },
+      "removed_clusters": {
+        "sales": 1,
+        "engineering": 3,
+        "operations": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000155742629",
+          "title": "Data Scientist",
+          "url": "https://www.grab.careers/en/jobs/744000155742629/data-scientist/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155714265",
+          "title": "Senior Client Partner (Sales)",
+          "url": "https://www.grab.careers/en/jobs/744000155714265/senior-client-partner-sales/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155706449",
+          "title": "Intern, Talent Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000155706449/intern-talent-acquisition/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155691029",
+          "title": "Region Commercial Manager - West Java",
+          "url": "https://www.grab.careers/en/jobs/744000155691029/region-commercial-manager-west-java/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155689620",
+          "title": "Region Commercial Manager - Central Java and Yogyakarta",
+          "url": "https://www.grab.careers/en/jobs/744000155689620/region-commercial-manager-central-java-and-yogyakarta/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155674476",
+          "title": "Intern, HR Engagement & Campus",
+          "url": "https://www.grab.careers/en/jobs/744000155674476/intern-hr-engagement-campus/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155671079",
+          "title": "Intern, Software Engineer - Backend",
+          "url": "https://www.grab.careers/en/jobs/744000155671079/intern-software-engineer-backend/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155670399",
+          "title": "Intern, Business Analyst",
+          "url": "https://www.grab.careers/en/jobs/744000155670399/intern-business-analyst/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155669019",
+          "title": "Intern, Occupational Health, Safety, & Wellbeing",
+          "url": "https://www.grab.careers/en/jobs/744000155669019/intern-occupational-health-safety-wellbeing/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155667539",
+          "title": "Intern, People Scientist (Research)",
+          "url": "https://www.grab.careers/en/jobs/744000155667539/intern-people-scientist-research/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155660889",
+          "title": "Intern, HR Engagement & Campus",
+          "url": "https://www.grab.careers/en/jobs/744000155660889/intern-hr-engagement-campus/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155452412",
+          "title": "Intern, Talent Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000155452412/intern-talent-acquisition/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155411014",
+          "title": "Assistant Manager, Growth Analytics",
+          "url": "https://www.grab.careers/en/jobs/744000155411014/assistant-manager-growth-analytics/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155409939",
+          "title": "Project Manager & GTM, Self-Serve Business",
+          "url": "https://www.grab.careers/en/jobs/744000155409939/project-manager-gtm-self-serve-business/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155409710",
+          "title": "Project Manager, GrabAds Solutions",
+          "url": "https://www.grab.careers/en/jobs/744000155409710/project-manager-grabads-solutions/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155409869",
+          "title": "Senior DevOps Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000155409869/senior-devops-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155408599",
+          "title": "Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000155408599/software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155407329",
+          "title": "Team Lead, Merchant Acquisition (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000155407329/team-lead-merchant-acquisition-fb/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155378709",
+          "title": "Software Engineer, Fullstack",
+          "url": "https://www.grab.careers/en/jobs/744000155378709/software-engineer-fullstack/",
+          "change": "removed"
+        }
+      ],
+      "status": "rejected",
+      "rejection_reason": "source_reset_suspected",
+      "promoted_event_id": ""
+    }
+  ],
   "promoted_count": 0
 }
