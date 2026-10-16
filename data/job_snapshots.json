@@ -1,11 +1,113 @@
 {
   "version": 1,
-  "generated_at": "2026-10-16T13:24:23.350632+08:00",
+  "generated_at": "2026-10-17T04:53:29.223626+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-16T13:24:23.350632+08:00",
+      "observed_at": "2026-10-17T04:53:29.223626+08:00",
       "jobs": [
+        {
+          "id": "744000156029459",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000156029459/lead-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000155969821",
+          "title": "Food Demand Strategy, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000155969821/food-demand-strategy-assistant-manager/",
+          "function_tags": []
+        },
+        {
+          "id": "744000155970739",
+          "title": "Deliveries Demand Strategy, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000155970739/deliveries-demand-strategy-assistant-manager/",
+          "function_tags": []
+        },
+        {
+          "id": "744000155955890",
+          "title": "Assistant Manager, Paid Media - Thailand",
+          "url": "https://www.grab.careers/en/jobs/744000155955890/assistant-manager-paid-media-thailand/",
+          "function_tags": []
+        },
+        {
+          "id": "744000155956440",
+          "title": "GrabFood Marketing Associate (Other cities)",
+          "url": "https://www.grab.careers/en/jobs/744000155956440/grabfood-marketing-associate-other-cities/",
+          "function_tags": []
+        },
+        {
+          "id": "744000155954880",
+          "title": "Strategy and Operations Manager, Deliveries",
+          "url": "https://www.grab.careers/en/jobs/744000155954880/strategy-and-operations-manager-deliveries/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000155956369",
+          "title": "GrabForBusiness Enterprise Sales Manager",
+          "url": "https://www.grab.careers/en/jobs/744000155956369/grabforbusiness-enterprise-sales-manager/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000155956329",
+          "title": "Payment & Insurance Associate",
+          "url": "https://www.grab.careers/en/jobs/744000155956329/payment-insurance-associate/",
+          "function_tags": [
+            "payments"
+          ]
+        },
+        {
+          "id": "744000155944446",
+          "title": "Associate, Product Strategy (Deliveries)",
+          "url": "https://www.grab.careers/en/jobs/744000155944446/associate-product-strategy-deliveries/",
+          "function_tags": []
+        },
+        {
+          "id": "744000155940626",
+          "title": "Senior Software Engineer, Mobile (Android)",
+          "url": "https://www.grab.careers/en/jobs/744000155940626/senior-software-engineer-mobile-android/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000155936241",
+          "title": "Lead Platform Engineer, Flink",
+          "url": "https://www.grab.careers/en/jobs/744000155936241/lead-platform-engineer-flink/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000155932615",
+          "title": "Lead Product Manager, Data Platform",
+          "url": "https://www.grab.careers/en/jobs/744000155932615/lead-product-manager-data-platform/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000155926216",
+          "title": "Intern, Software Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000155926216/intern-software-engineer/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000155917439",
+          "title": "Software Engineer, ios",
+          "url": "https://www.grab.careers/en/jobs/744000155917439/software-engineer-ios/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000155903209",
           "title": "Intern, Partner Acquisition",
@@ -42,106 +144,12 @@
           "title": "Intern, Talent Acquisition",
           "url": "https://www.grab.careers/en/jobs/744000155706449/intern-talent-acquisition/",
           "function_tags": []
-        },
-        {
-          "id": "744000155691029",
-          "title": "Region Commercial Manager - West Java",
-          "url": "https://www.grab.careers/en/jobs/744000155691029/region-commercial-manager-west-java/",
-          "function_tags": []
-        },
-        {
-          "id": "744000155689620",
-          "title": "Region Commercial Manager - Central Java and Yogyakarta",
-          "url": "https://www.grab.careers/en/jobs/744000155689620/region-commercial-manager-central-java-and-yogyakarta/",
-          "function_tags": []
-        },
-        {
-          "id": "744000155674476",
-          "title": "Intern, HR Engagement & Campus",
-          "url": "https://www.grab.careers/en/jobs/744000155674476/intern-hr-engagement-campus/",
-          "function_tags": []
-        },
-        {
-          "id": "744000155671079",
-          "title": "Intern, Software Engineer - Backend",
-          "url": "https://www.grab.careers/en/jobs/744000155671079/intern-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000155670399",
-          "title": "Intern, Business Analyst",
-          "url": "https://www.grab.careers/en/jobs/744000155670399/intern-business-analyst/",
-          "function_tags": []
-        },
-        {
-          "id": "744000155669019",
-          "title": "Intern, Occupational Health, Safety, & Wellbeing",
-          "url": "https://www.grab.careers/en/jobs/744000155669019/intern-occupational-health-safety-wellbeing/",
-          "function_tags": []
-        },
-        {
-          "id": "744000155667539",
-          "title": "Intern, People Scientist (Research)",
-          "url": "https://www.grab.careers/en/jobs/744000155667539/intern-people-scientist-research/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000155516147",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000155516147/senior-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000155475389",
-          "title": "Intern, Software Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000155475389/intern-software-engineer/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000155473305",
-          "title": "Head of Product & Map Operations, GrabMaps",
-          "url": "https://www.grab.careers/en/jobs/744000155473305/head-of-product-map-operations-grabmaps/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000155446439",
-          "title": "Assistant Manager, Technical Accounting",
-          "url": "https://www.grab.careers/en/jobs/744000155446439/assistant-manager-technical-accounting/",
-          "function_tags": []
-        },
-        {
-          "id": "744000155439469",
-          "title": "Commercial Strategy Lead – PayLater, Lending & Omnicommerce",
-          "url": "https://www.grab.careers/en/jobs/744000155439469/commercial-strategy-lead-paylater-lending-omnicommerce/",
-          "function_tags": []
-        },
-        {
-          "id": "744000155428469",
-          "title": "Senior Product Designer, Driver Experience and Fulfilment",
-          "url": "https://www.grab.careers/en/jobs/744000155428469/senior-product-designer-driver-experience-and-fulfilment/",
-          "function_tags": []
-        },
-        {
-          "id": "744000155421549",
-          "title": "Data Intelligence Specialist",
-          "url": "https://www.grab.careers/en/jobs/744000155421549/data-intelligence-specialist/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-16T13:24:23.350632+08:00",
+      "observed_at": "2026-10-17T04:53:29.223626+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -182,7 +190,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-16T13:24:23.350632+08:00",
+      "observed_at": "2026-10-17T04:53:29.223626+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
