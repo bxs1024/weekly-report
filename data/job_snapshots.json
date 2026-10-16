@@ -1,11 +1,27 @@
 {
   "version": 1,
-  "generated_at": "2026-10-16T05:14:40.490446+08:00",
+  "generated_at": "2026-10-16T13:24:23.350632+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-16T05:14:40.490446+08:00",
+      "observed_at": "2026-10-16T13:24:23.350632+08:00",
       "jobs": [
+        {
+          "id": "744000155903209",
+          "title": "Intern, Partner Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000155903209/intern-partner-acquisition/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
+          "id": "744000155902869",
+          "title": "Intern, Social Media & Partner Engagement",
+          "url": "https://www.grab.careers/en/jobs/744000155902869/intern-social-media-partner-engagement/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
         {
           "id": "744000155742629",
           "title": "Data Scientist",
@@ -120,24 +136,12 @@
           "title": "Data Intelligence Specialist",
           "url": "https://www.grab.careers/en/jobs/744000155421549/data-intelligence-specialist/",
           "function_tags": []
-        },
-        {
-          "id": "744000155416489",
-          "title": "Senior Data Scientist (Search & Recommendations)",
-          "url": "https://www.grab.careers/en/jobs/744000155416489/senior-data-scientist-search-recommendations/",
-          "function_tags": []
-        },
-        {
-          "id": "744000155413387",
-          "title": "Director, Grab Financial Group",
-          "url": "https://www.grab.careers/en/jobs/744000155413387/director-grab-financial-group/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-16T05:14:40.490446+08:00",
+      "observed_at": "2026-10-16T13:24:23.350632+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -178,7 +182,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-16T05:14:40.490446+08:00",
+      "observed_at": "2026-10-16T13:24:23.350632+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
@@ -257,6 +261,12 @@
           ]
         },
         {
+          "id": "4d1f41c3-63de-43d3-a9b3-0cc6c06f1687",
+          "title": "Tax Lead, Controversy Remote - Canada",
+          "url": "https://www.shopify.com/careers/tax-lead-controversy_4d1f41c3-63de-43d3-a9b3-0cc6c06f1687",
+          "function_tags": []
+        },
+        {
           "id": "ef12f6c3-34f8-4e9e-9d92-c549f16a3848",
           "title": "Affiliate Marketing Lead, Shop Remote - Americas",
           "url": "https://www.shopify.com/careers/affiliate-marketing-lead-shop_ef12f6c3-34f8-4e9e-9d92-c549f16a3848",
@@ -297,12 +307,6 @@
           "function_tags": [
             "partnerships"
           ]
-        },
-        {
-          "id": "5597b77e-5f47-4e6f-8a9d-62caf675291e",
-          "title": "Associate General Counsel, Employment Remote - Americas",
-          "url": "https://www.shopify.com/careers/associate-general-counsel-employment_5597b77e-5f47-4e6f-8a9d-62caf675291e",
-          "function_tags": []
         },
         {
           "id": "5de9add2-829e-4307-8d9e-20ee3353d237",
@@ -346,17 +350,17 @@
           ]
         },
         {
-          "id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
-          "title": "Director, Partnerships, Greater China Remote - Singapore",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "id": "bff44652-fe22-44bc-84b0-691d8f996322",
+          "title": "Director, Partnerships, Greater China Remote - Hong Kong",
+          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_bff44652-fe22-44bc-84b0-691d8f996322",
           "function_tags": [
             "partnerships"
           ]
         },
         {
-          "id": "bff44652-fe22-44bc-84b0-691d8f996322",
-          "title": "Director, Partnerships, Greater China Remote - Hong Kong",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_bff44652-fe22-44bc-84b0-691d8f996322",
+          "id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "title": "Director, Partnerships, Greater China Remote - Singapore",
+          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
           "function_tags": [
             "partnerships"
           ]
@@ -423,6 +427,12 @@
           "function_tags": [
             "compliance"
           ]
+        },
+        {
+          "id": "5e568bfc-8aae-4c83-8ca8-073f1636c1db",
+          "title": "Talent Density - Talent Systems - Learning & Development, Revenue Remote - Americas",
+          "url": "https://www.shopify.com/careers/talent-density-talent-systems-learning-development-revenue_5e568bfc-8aae-4c83-8ca8-073f1636c1db",
+          "function_tags": []
         }
       ]
     }
