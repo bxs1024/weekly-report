@@ -1,285 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-10-16</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-10-17</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-10-17T05:26:31Z</updated>
+  <updated>2026-10-17T20:35:30Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Databricks发布LLM恶意软件分类方案</title>
-    <link href="https://www.databricks.com/blog/closing-binary-blind-spot-domain-knowledge-injection-llm-malware-triage-npm-packages"/>
-    <id>tag:weekly-report,2026:event-81e58b46</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Closing the Binary Blind Spot: Domain-Knowledge Injection for LLM Malware Triage in npm Packages&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Databricks发布博客，介绍通过领域知识注入LLM进行npm包恶意软件分类的方法。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;软件供应链安全成为焦点，LLM辅助恶意软件检测为安全厂商提供新思路。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Databricks | 来源：Databricks Blog&lt;/p&gt;</summary>
+    <title>DeepSeek获2.4万亿日元融资，CATL追加投资</title>
+    <link href="https://36kr.jp/503394/"/>
+    <id>tag:weekly-report,2026:event-22f11c8a</id>
+    <published>2026-10-17T00:00:00Z</published>
+    <updated>2026-10-17T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;DeepSeekに中国産業界の巨額マネー　調達額2.4兆円規模、CATLが追加出資&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国AI公司DeepSeek获得中国产业界巨额资金，融资规模达2.4万亿日元（约合160亿美元），宁德时代（CATL）追加出资&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI大模型公司获产业资本巨额注资，CATL等制造业巨头入局，将加速AI算力基础设施和行业应用采购&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Vertex Ventures领投印度AI初创2900万美元</title>
-    <link href="https://www.techinasia.com/news/vertex-ventures-leads-29m-indian-ai-startup"/>
-    <id>tag:weekly-report,2026:event-0f9b89c1</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Vertex Ventures leads $29m round in Indian AI startup&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Vertex Ventures领投印度AI初创公司2900万美元融资轮，具体公司名称未披露。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度AI初创获东南亚风投领投，反映跨境资本对印度AI赛道的关注，为本地AI企业提供融资示范。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>施耐德电气上调2026年展望，AI需求强劲</title>
-    <link href="https://www.techinasia.com/news/schneider-electric-lifts-2026-outlook-on-strong-ai-demand"/>
-    <id>tag:weekly-report,2026:event-17fc20dc</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Schneider Electric lifts 2026 outlook on strong AI demand&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;施耐德电气因AI需求强劲上调2026年业绩展望，预计营收和利润将高于此前预期。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球电气巨头因AI数据中心需求上调业绩，反映AI基础设施投资热潮对能源设备供应链的拉动。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Iambic IPO融资$150M</title>
-    <link href="https://www.techinasia.com/news/nvidiabacked-ai-drug-developer-iambic-raises-150m-ipo"/>
-    <id>tag:weekly-report,2026:event-c0181285</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia-backed AI drug developer Iambic raises $150m in IPO&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Nvidia支持的AI药物开发商Iambic在IPO中融资1.5亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太AI药物研发公司获Nvidia支持并IPO，显示AI医疗赛道资本热度。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Mueon获$65M融资扩展模块化AI计算</title>
-    <link href="https://ventureburn.com/mueon-raises-65m-modular-ai-computing/"/>
-    <id>tag:weekly-report,2026:event-6a7dcf5d</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mueon Raises $65M to Scale Modular AI Computing Systems&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;模块化AI计算系统公司Mueon完成6500万美元融资，用于扩展其模块化AI计算基础设施。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲AI基础设施公司获大额融资，模块化计算方案降低AI部署成本，为数据中心和云服务商提供新合作模式。&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>RapidCanvas 获 $29M B 轮融资</title>
-    <link href="https://thenextweb.com/news/rapidcanvas-29m-series-b-enterprise-ai"/>
-    <id>tag:weekly-report,2026:event-e8711215</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;RapidCanvas raises $29M to build and run AI apps for enterprises&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;RapidCanvas 完成 2900 万美元 B 轮融资，用于构建和运行企业级 AI 应用。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲企业 AI 应用平台获融资，企业级 AI 集成服务需求增长&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Shopify推出批量订单履行功能</title>
-    <link href="https://changelog.shopify.com/posts/fulfill-orders-in-batches"/>
-    <id>tag:weekly-report,2026:event-f49b6761</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Shopify: Fulfill orders in batches&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Shopify在后台新增批量履行订单功能，商家可一次性处理多个订单的发货流程。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Shopify发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Shopify | 来源：Shopify Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>蚂蚁数字科技倡导银行构建AI代理工厂</title>
-    <link href="https://fintechnews.sg/134902/ai/ant-digital-technologies-ai-banks-revenue/"/>
-    <id>tag:weekly-report,2026:event-015781d8</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Banks Don’t Want Another AI Tool; They Want an Agent Factory&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;蚂蚁数字科技提出银行不需要另一个AI工具，而是需要“Agent工厂”，以系统化方式生成和管理AI代理，提升银行收入。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太银行AI应用从单点工具转向系统化平台，为AI基础设施和代理管理平台提供商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>CXMT 利润近 $20B，内存价格飙升</title>
-    <link href="https://thenextweb.com/news/cxmt-profit-memory-chip-prices"/>
-    <id>tag:weekly-report,2026:event-6b383ca4</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;China’s CXMT swings to a nearly $20B profit as memory prices soar&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国存储芯片公司 CXMT 因内存价格飙升，利润接近 200 亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国存储芯片巨头利润激增，全球内存市场格局变化，影响供应链和价格&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：earnings | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>电信业报告：岗位减少但劳动力成本上升</title>
-    <link href="https://www.mobileworldlive.com/operators/report-finds-telco-jobs-fall-as-labour-costs-rise/"/>
-    <id>tag:weekly-report,2026:event-3c8786a0</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Report finds telco jobs fall as labour costs rise&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;行业报告显示电信运营商员工数量下降，但劳动力成本上升，反映行业自动化与高技能人才需求增加。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球电信行业自动化转型加速，网络运维与AI相关技能人才需求上升，为IT服务商提供外包机会。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Wise 预计 FY2027 营收增长接近目标上限</title>
-    <link href="https://www.techinasia.com/news/wise-sees-fy2027-revenue-growth-near-top-of-15-20-target"/>
-    <id>tag:weekly-report,2026:event-331ff3c3</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Wise sees FY2027 revenue growth near top of 15-20% target&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Wise 预计 2027 财年营收增长接近 15-20% 目标区间的上限。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;跨境支付公司增长预期强劲，亚太金融科技支付赛道持续活跃&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>FirstCry核心营收引擎面临多重竞争</title>
-    <link href="https://inc42.com/features/firstcrys-core-revenue-engine-is-fighting-too-many-battles/"/>
-    <id>tag:weekly-report,2026:event-3bfe296d</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;FirstCry’s Core Revenue Engine Is Fighting Too Many Battles&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度母婴电商FirstCry的核心营收引擎面临多重竞争压力，公司正在应对多个市场的挑战。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度母婴电商龙头面临多线竞争，反映印度电商细分赛道竞争加剧，投资者需关注其盈利可持续性。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>War Robots Steam累计收入超5000万美元</title>
-    <link href="https://www.pocketgamer.biz/war-robots-surpasses-50m-in-steam-lifetime-revenue/"/>
-    <id>tag:weekly-report,2026:event-ddc32738</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;War Robots surpasses $50m in Steam lifetime revenue&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;游戏《War Robots》在Steam平台累计收入突破5000万美元，创下该游戏PC端里程碑。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;手游移植PC成功案例，反映跨平台发行策略的盈利能力，为游戏移植服务商和PC发行渠道带来参考。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Shop Pay印度上线，Zetwerk上市首日</title>
-    <link href="https://inc42.com/buzz/shop-pays-india-debut-zetwerk-ipo-day-1-more/"/>
-    <id>tag:weekly-report,2026:event-0de66eb7</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Shop Pay’s India Debut, Zetwerk IPO Day 1 &amp;amp; More&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Shop Pay在印度首次推出，同时Zetwerk在IPO首日上市交易。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度电商支付和制造供应链领域迎来新玩家，Shop Pay的进入将加剧支付竞争，Zetwerk上市为供应链服务提供新融资渠道。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Benchmark称AI侵蚀风投不投对手的默契</title>
-    <link href="https://techcrunch.com/2026/10/15/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-rivals/"/>
-    <id>tag:weekly-report,2026:event-8a40bfc8</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Even Benchmark thinks AI is eroding the venture pact against backing rivals&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;知名风投Benchmark认为AI正在侵蚀风投行业不投资竞争对手的默契，行业格局可能因此改变。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球顶级风投Benchmark的观点反映AI投资逻辑变化，影响全球科技创投生态和初创企业融资策略。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>NAVER Cloud与越南IT巨头合作AI工厂业务</title>
-    <link href="https://www.navercorp.com/en/media/pressReleasesDetail?seq=10034762"/>
-    <id>tag:weekly-report,2026:event-2e4885a6</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;NAVER Cloud Partners with Vietnam’s Largest IT Company on AI Factory Business, Targeting Asia-Pacific AI Market&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;NAVER Cloud与越南最大IT公司合作开展AI工厂业务，目标瞄准亚太AI市场。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;韩国云服务商与越南IT龙头合作，为亚太AI基础设施建设和本地化AI解决方案带来新机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 公司：Naver | 来源：Naver&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare更新Tunnel应用限制文档</title>
-    <link href="https://developers.cloudflare.com/tunnel/concepts/routing/#published-application-limits"/>
-    <id>tag:weekly-report,2026:event-8d1313a8</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: Published application limits&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare更新其Tunnel产品文档，明确了已发布应用程序的限制。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>印度报告恶意AI代理活动</title>
-    <link href="https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"/>
-    <id>tag:weekly-report,2026:event-0cd9ab49</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;India becomes the latest country to report rogue AI agent activity&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度成为最新报告出现恶意AI代理活动的国家，引发对AI安全监管的关注。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度AI安全事件频发，推动AI安全合规和检测技术需求，为安全厂商提供市场切入点。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Torvalds 批评 AI 披露规则，Linux 移除标签</title>
-    <link href="https://thenextweb.com/news/torvalds-ai-assisted-by-tag-utterly-stupid-open-source-summit"/>
-    <id>tag:weekly-report,2026:event-d3b80445</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Torvalds calls AI disclosure rules ‘utterly stupid’ as Linux drops its tag&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Linux 创始人 Linus Torvalds 在开源峰会上批评 AI 披露规则，称其“极其愚蠢”，并提及 Linux 已移除相关标签。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;开源社区对 AI 监管态度分歧，影响开源项目合规和 AI 工具采用&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>AI原生支付平台Movere上线</title>
-    <link href="https://www.finextra.com/newsarticle/48593/ai-native-payments-platform-movere-launches?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-2ad25cc5</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AI-native payments platform Movere launches&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI原生支付平台Movere正式上线，旨在利用人工智能技术优化支付流程和用户体验。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI原生支付平台的出现，为全球支付行业带来新的技术范式，对传统支付处理器构成竞争压力，同时为商户提供新选择。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Mastercard与BVNK合作推出稳定币支付平台</title>
-    <link href="https://fintechnews.sg/139052/payments/mastercard-bvnk-global-money-platform-stablecoins/"/>
-    <id>tag:weekly-report,2026:event-3df19f11</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mastercard, BVNK Launch Fiat and Stablecoin Payments Platform&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Mastercard与BVNK合作推出法币和稳定币支付平台，旨在连接传统金融与数字资产支付。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付巨头与稳定币基础设施合作，亚太地区跨境支付和数字资产合规化进程加速，为支付服务商提供新合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Visa推出USDC预融资跨境支付</title>
-    <link href="https://fintechnews.sg/139027/digitalassets/visa-usdc-stablecoin-prefunding/"/>
-    <id>tag:weekly-report,2026:event-956e2c86</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Visa Rolls Out USDC Stablecoin Prefunding for Cross-Border Payments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Visa推出基于USDC稳定币的预融资功能，用于跨境支付结算，提升交易效率。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付巨头接入稳定币结算，亚太及全球跨境支付生态将加速拥抱数字资产&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Supercell将皇室战争IP拓展至桌游</title>
-    <link href="https://www.pocketgamer.biz/supercell-brings-clash-royale-to-tabletop-with-new-kickstarter-board-game/"/>
-    <id>tag:weekly-report,2026:event-477552f1</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Supercell brings Clash Royale to tabletop with new Kickstarter board game&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Supercell将《皇室战争》IP拓展至桌游领域，通过Kickstarter众筹发布实体桌游。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;手游IP跨界桌游，反映游戏公司多元化变现策略，为桌游制造商和众筹平台带来合作机会。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Telefonica推出智能水表平台</title>
-    <link href="https://www.mobileworldlive.com/industry/telefonica-launches-smart-water-meter-platform/"/>
-    <id>tag:weekly-report,2026:event-b375fadd</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Telefonica launches smart water meter platform&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;西班牙电信Telefonica推出智能水表平台，提供远程监控和数据管理服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲电信运营商切入智慧城市基础设施，为水务公司与IoT设备商提供合作入口。&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>尼日利亚非接触式支付面临多重障碍</title>
-    <link href="https://techcabal.com/2026/10/16/hurdles-facing-contactless-payments/"/>
-    <id>tag:weekly-report,2026:event-f8a0523e</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The hurdles facing contactless payment adoption across Nigeria&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;报道分析了尼日利亚非接触式支付推广面临的挑战，包括基础设施不足、用户习惯和监管障碍。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲移动支付市场潜力巨大，但基础设施和用户教育是主要瓶颈，为支付解决方案提供商带来机会。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：非洲 | 来源：TechCabal&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Partior扩展支持巴林第纳尔结算</title>
-    <link href="https://fintechnews.sg/139034/blockchain/partior-bahraini-dinar-settlement/"/>
-    <id>tag:weekly-report,2026:event-dabff117</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Partior Eyes Bahraini Dinar Settlement on Blockchain Network&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;区块链结算网络Partior宣布将支持巴林第纳尔的链上结算，扩展其多币种结算能力至中东地区。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东区块链结算网络扩容，海湾地区跨境支付基础设施升级带来合作窗口&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>AWS 寻求证明云服务可脱离美国市场，欧洲初创已布局</title>
-    <link href="https://www.eu-startups.com/2026/10/aws-wants-to-prove-its-cloud-can-survive-without-the-us-european-startups-are-already-there/"/>
-    <id>tag:weekly-report,2026:event-a3d2dbfd</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AWS wants to prove its cloud can survive without the US, European startups are already there&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AWS 试图证明其云服务可在没有美国市场的情况下生存，而欧洲初创企业已在此领域布局。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AWS推出脱离美国云服务方案&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>特朗普AI工作组启动并要求实验室报告越界行为</title>
-    <link href="https://thenextweb.com/news/super-intelligence-force-charter-first-meeting-anthropic"/>
-    <id>tag:weekly-report,2026:event-0fdb2b54</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Trump’s AI task force starts work and tells labs to report rogue behaviour&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;特朗普政府设立的AI特别工作组召开首次会议并发布章程，要求AI实验室报告模型越界行为&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国AI监管框架加速落地，合规报告义务将催生AI安全审计与监测工具采购需求&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Visa和Mastercard推动法院批准刷卡费和解协议</title>
-    <link href="https://www.paymentsdive.com/news/visa-mastercard-urge-court-to-approve-fee-settlement/833241/"/>
-    <id>tag:weekly-report,2026:event-2b101844</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Visa, Mastercard urge court to approve fee settlement&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Visa和Mastercard敦促法院批准一项关于商户刷卡费用的和解协议，该协议涉及数十亿美元赔偿及费率调整。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付巨头费率调整将重塑商户成本结构，收单机构和支付服务商需重新评估定价策略。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：Payments Dive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>OPPO宣布挑战苹果三星欧洲双头垄断</title>
-    <link href="https://www.mobileworldlive.com/oppo/oppo-vows-to-challenge-apple-samsung-europe-duopoly/"/>
-    <id>tag:weekly-report,2026:event-ac61538b</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Oppo vows to challenge Apple, Samsung Europe duopoly&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;OPPO宣布将在欧洲市场挑战苹果和三星的双头垄断地位，计划加大市场投入。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲智能手机市场竞争加剧，OPPO扩张将带动渠道合作与本地化服务需求。&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：strategy | 地区：欧洲 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>苹果iPhone Duo交付推迟至2027年</title>
-    <link href="https://www.mobileworldlive.com/apple/apple-iphone-duo-delivery-dates-slip-into-2027/"/>
-    <id>tag:weekly-report,2026:event-0ab487c8</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Apple iPhone Duo delivery dates slip into 2027&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;苹果iPhone Duo的交付日期推迟至2027年，可能因供应链或生产问题导致。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;苹果新品延期影响供应链排期，亚洲代工厂与零部件供应商需调整产能规划。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>AI成本上升使SaaS公司陷入两难</title>
-    <link href="https://inc42.com/features/rising-ais-costs-put-saas-companies-between-a-rock-and-a-hard-place/"/>
-    <id>tag:weekly-report,2026:event-224e984a</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Rising AI’s Costs Put SaaS Companies Between A Rock And A Hard Place&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;分析指出AI成本上升使SaaS公司陷入两难境地，需在维持利润和投资AI功能之间权衡。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;SaaS公司面临AI成本压力，反映AI集成对软件行业盈利模式的冲击，为云服务商和AI工具供应商带来机会。&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>汽车金融下一阶段以信任为核心议题</title>
-    <link href="https://fintechnews.sg/138921/ai/aimconnect-2026-automotive-finance/"/>
-    <id>tag:weekly-report,2026:event-b4a79514</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Trust at the Centre of Automotive Finance’s Next Chapter&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AIM Connect 2026 会议聚焦汽车金融领域，强调信任在下一阶段发展中的核心作用，探讨行业趋势与挑战。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太汽车金融行业正经历数字化转型，信任机制成为关键，为区块链、AI风控等解决方案提供商带来合作机会。&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare AI Search支持中日韩查询</title>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-10-16-cjk-keyword-search/"/>
-    <id>tag:weekly-report,2026:event-3a1c48b4</id>
-    <published>2026-10-16T00:00:00Z</published>
-    <updated>2026-10-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: AI Search keyword search supports Japanese, Chinese, and Korean queries&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare的AI Search功能新增对日语、中文和韩语查询的关键词搜索支持。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
+    <title>谷歌AI新闻试点扩至400家媒体，CNN和FT加入</title>
+    <link href="https://thenextweb.com/news/google-news-ai-pilot-400-publications-cnn-ft"/>
+    <id>tag:weekly-report,2026:event-e9431886</id>
+    <published>2026-10-17T00:00:00Z</published>
+    <updated>2026-10-17T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Google’s AI news pilot grows to 400 publications as CNN and the FT join&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;谷歌AI新闻试点项目扩展至400家出版物，CNN和金融时报等媒体加入合作&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;谷歌AI新闻分发生态扩大，传统媒体与AI平台合作深化，内容授权和AI训练数据合作机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-10-17</title>
@@ -287,6 +31,6 @@
     <id>tag:weekly-report,2026:aihot-81fc5788</id>
     <published>2026-10-17T00:00:00Z</published>
     <updated>2026-10-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-17T09:46&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/2f0270d6-fc22-4747-af7c-a4f488d3cd16"&gt;Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765"&gt;NVIDIA RTX Spark 笔记本开售，起价 2599 美元&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528"&gt;Google 发布 Gemini 4 Argon，付费用户独享&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/f18eef00-3d70-4586-a109-ee6a78104fbf"&gt;Anthropic三季度收入168亿美元，增速放缓&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/799a2a3d-ea41-4491-afaf-9e6c06aebe64"&gt;商务部拟增列23项AI技术出口管制并答问&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-17T23:01&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45"&gt;DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/2f0270d6-fc22-4747-af7c-a4f488d3cd16"&gt;Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/799a2a3d-ea41-4491-afaf-9e6c06aebe64"&gt;商务部拟增列23项AI技术出口管制并答问&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765"&gt;NVIDIA RTX Spark 笔记本开售，起价 2599 美元&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/1b39529e-2c70-4f97-828f-ae4a508ebff2"&gt;可灵 Kling 4.0 全量上线，单次生成最长 30 秒&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
