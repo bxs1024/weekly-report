@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T09:46:33+08:00",
+  "generated_at": "2026-10-17T23:01:21+08:00",
   "fetched_date": "2026-10-17",
   "source": {
     "name": "AIHOT 热点榜",
@@ -9,113 +9,113 @@
   "items": [
     {
       "rank": 1,
+      "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
+      "list_title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
+      "heat": null,
+      "heat_change": "↑ 81 %",
+      "sources": [],
+      "summary": "DeepSeek 将 V4.1 Flash 升级为 DeepSeek-V4.1-Flash-1017，网页端、App 与 API 同步替换，API 调用方式与价格不变，仍用 deepseek-flash 访问。DeepSeek 称新版在全部 11 项基准上较 9 月版提升 2.0 至 11.1 分，任务运行时间与输出长度缩短，并建议升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。\n\n关于权重，IT之家称已同步开放下载、延续 MIT 许可；MarkTechPost 则称 1017 权重与硬件要求未披露。OpenRouter 同日上线该模型，DeepSeek 为首个接入服务商，标价输入 $0.15/百万 token、输出 $0.60/百万 token，上下文 1.05M，暂不支持欧盟区域内路由。\n\n随新版推出的自研搜索 API 中，Search/Fetch 两个接口定价均为 5 元/千次。DeepSeek 称这部分调用目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收费；The Decoder …",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45"
+    },
+    {
+      "rank": 2,
       "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行",
       "list_title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行",
       "heat": null,
-      "heat_change": "↓ 17 %",
+      "heat_change": "↓ 11 %",
       "sources": [],
       "summary": "Meta 发布开放权重模型 Muse Spark Open，总参数 816B、每 token 激活 42B，上下文窗口 1M token，原生支持文本、图像、音频、视频输入，主打编码与长程智能体任务。Meta 称其为迄今最强的美国开放权重模型，权重以 Muse Model License 在 Hugging Face 等平台开放下载，并同步上线 Baseten、Fireworks AI、Groq、Modal、Nebius、OpenRouter、Together AI 等 API 平台。Artificial Analysis 称该模型在其 Intelligence Index 得 39 分，为美国开放权重模型第一；Arena 后续公布其在 Code Arena: WebDev 以 1511 分居美国开源模型第一、开源模型总榜第 13。\n\nApple 机器学习研究团队演示用新版 MLX（v0.30.1 起）与 macOS 26.2 的 RDMA over Thunderbolt 驱动，在两台 Apple M5 Ultra Mac Studio 上本地…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/2f0270d6-fc22-4747-af7c-a4f488d3cd16"
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "title": "商务部拟增列23项AI技术出口管制并答问",
+      "list_title": "商务部拟增列23项AI技术出口管制并答问",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，拟增列人工智能、生物医药、光伏共40项技术，其中禁止出口14项、限制出口26项，23项属AI领域，涵盖大模型、AI智能体、计算集群和信息处理。公告发布之日起至正式修订公告实施之日止，技术出口经营者在出口公告所列技术前，须在商务部业务系统统一平台技术贸易管理信息应用登记。\n\n商务部新闻发言人回应称，对人工智能类技术开源、中国企业在境外自建自营算力中心、赴境外开展芯片流片制造、利用境外资源开展联合研发、参与国际标准制定等情形的技术出口，适用自动许可等便利措施；企业利用限制类大模型对外提供API调用、APP/网页交互、SaaS应用、本地端侧轻量化部署等情形，不属于大模型技术出口管理范围。已通过开源或论文进入公共领域的技术拟不纳入出口管理。X用户邵猛解读称，只开源权重而训练方法、数据工程等未公开的，公开部分豁免、未公开部分仍在管理范围内。\n\nThe Decoder报道称，大模型在满足10^26 FLOPs训练算力、2万亿参数或全球排名前10等条件时受控，可自主编…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/799a2a3d-ea41-4491-afaf-9e6c06aebe64"
+    },
+    {
+      "rank": 4,
       "title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元",
       "list_title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元",
       "heat": null,
-      "heat_change": "↑ 22 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "NVIDIA 的 RTX Spark 笔记本正式开售，由 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI 推出，起价 2,599 美元，并附带面向 Perplexity 新用户的限时优惠；NVIDIA 称定价与配置因地区而异。该产品基于 GB10 SoC，最高 128GB 统一内存、1 petaflop FP4 算力，定位为面向创作者、游戏玩家和 AI agents 的 Windows PC，可在单机上运行本地编码智能体并完成编码、测试与部署。NVIDIA 称笔记本现已上市，小型台式机将于 11 月推出。\n\n开售当晚，X 用户卡兹克称线下首发体验会人山人海，128G+1T 的华硕 ProArt 创16 售价 37999 元，在线上瞬间售罄；其实测 Qwen3.8-27B 可跑到 30 Token/秒，Qwen image 2.1 约 1 分钟一张图，本地 2B 翻译模型可 6 路并发实现近 0 延迟实时翻译。The Verge 三位编辑用一周时间测试了五款搭载 RTX Spark N1X 芯片的 Windows on Ar…",
+      "summary": "NVIDIA 的 RTX Spark 笔记本已正式开售，由 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI 推出，起价 2,599 美元，并附带面向 Perplexity 新用户的限时优惠；NVIDIA 称定价与配置因地区而异。该产品基于 GB10 SoC，最高 128GB 统一内存、1 petaflop FP4 算力，定位为面向创作者、游戏玩家和 AI agents 的 Windows PC，可在单机上运行本地编码智能体并完成编码、测试与部署。NVIDIA 称笔记本现已上市，小型台式机将于 11 月推出。\n\n开售当晚，X 用户卡兹克称线下首发体验会人山人海，128G+1T 的华硕 ProArt 创16 售价 37999 元，在线上瞬间售罄；其实测 Qwen3.8-27B 可跑到 30 Token/秒，Qwen image 2.1 约 1 分钟一张图，本地 2B 翻译模型可 6 路并发实现近 0 延迟实时翻译。The Verge 三位编辑用一周时间测试了五款搭载 RTX Spark N1X 芯片的 Windows on A…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765"
     },
     {
-      "rank": 3,
-      "title": "Google 发布 Gemini 4 Argon，付费用户独享",
-      "list_title": "Google 发布 Gemini 4 Argon，付费用户独享",
+      "rank": 5,
+      "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒",
+      "list_title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒",
       "heat": null,
-      "heat_change": "↓ 22 %",
+      "heat_change": "↓ 19 %",
       "sources": [],
-      "summary": "Google 正式发布旗舰模型 Gemini 4 Argon，即日起全球上线，定位处理复杂编码、智能体、数学和科学任务。该模型仅向付费用户开放：开发者与企业需使用 Gemini API 和 Gemini 平台的付费层级，Google Antigravity 中仅限 Ultra 订阅者，Gemini 应用和搜索 AI Mode 中仅限 Ultra 和 Pro 订阅者。The Decoder 称免费用户和 Plus 订阅者只能继续使用较弱的 Flash 系列模型。\n\n定价方面，Google 公布上线初期价格为每百万输入 token 2 美元、每百万输出 10 美元，缓存输入享 95% 折扣；MarkTechPost 称 2026 年 11 月 30 日后价格将涨至输入 4 美元、输出 20 美元。模型支持 1M 统一输入输出 token 上限。Google 还表示，科学家和研究人员可申请免费使用 Antigravity 最高使用档位 6 个月，网络安全防御人员可通过 Fairwind Program 申请，均需符合资格、容量和筛选条件。\n\nGoogl…",
+      "summary": "快手可灵 AI 于 10 月 15 日宣布 Kling 4.0 正式全量上线 klingai.com，用户可通过全新创作界面使用，并新增 MCP 和 CLI 接入。该模型单次原生生成视频最长 30 秒，可多次续拍延展至 2 分钟；单次任务最多支持 15 个多模态参考素材、最多 10 张关键帧输入。\n\n官方称 4K、1080p 的 10-bit HDR 格式输出即将上线，面向企业客户与开发者的 API 服务将于近期开放。此前 9 月底，可灵已向部分黑金年卡及 Ultra 年度订阅用户开放 4.0 Flash 尝鲜版。\n\n据创作者实测，1080P 30 秒约需 450 积分，720P 20 秒的 Kling 4.0 Flash 约需 120 积分；10-bit 4K HDR 输出尚未上线。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528"
+      "story_url": "https://aihot.virxact.com/story/1b39529e-2c70-4f97-828f-ae4a508ebff2"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "Anthropic三季度收入168亿美元，增速放缓",
       "list_title": "Anthropic三季度收入168亿美元，增速放缓",
       "heat": null,
-      "heat_change": "↓ 19 %",
+      "heat_change": "↓ 25 %",
       "sources": [],
       "summary": "Anthropic在旧金山闭门投资者会议上披露，第三季度收入168亿美元，环比增长约45%至近50%，较第二季度147%的增速明显放缓。公司同时称，每1美元算力支出带来1.70美元收入，年内调整后营业利润率为11%、现金流为正。\n\n部分投资者对营收数字失望，预计IPO估值可能降至1.5万亿美元以下，低于此前讨论的2万亿美元；路透社援引知情人士称，投资者日活动讨论约1.5万亿美元，而银行家传闻的估值约2万亿美元、募资超100亿美元尚未成为定论。Bloomberg指出，市场将增长放缓解读为AI芯片和服务器的坏消息。\n\n各来源对第二季度收入的表述不一：有报道称约115亿美元，也有报道称从约48亿美元增至115亿美元。关于7月650亿美元ARR及8、9月收入测算，来自X用户Oran Ge的自行推算，并非公司披露。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/f18eef00-3d70-4586-a109-ee6a78104fbf"
     },
     {
-      "rank": 5,
-      "title": "商务部拟增列23项AI技术出口管制并答问",
-      "list_title": "商务部拟增列23项AI技术出口管制并答问",
+      "rank": 7,
+      "title": "Google 发布 Gemini 4 Argon，付费用户独享",
+      "list_title": "Google 发布 Gemini 4 Argon，付费用户独享",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↓ 20 %",
       "sources": [],
-      "summary": "商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，拟增列人工智能、生物医药、光伏共40项技术，其中禁止出口14项、限制出口26项，23项属AI领域，涵盖大模型、AI智能体、计算集群和信息处理。公告发布之日起至正式修订公告实施之日止，技术出口经营者在出口公告所列技术前，须在商务部业务系统统一平台技术贸易管理信息应用登记。\n\n商务部新闻发言人回应称，对人工智能类技术开源、中国企业在境外自建自营算力中心、赴境外开展芯片流片制造、利用境外资源开展联合研发、参与国际标准制定等情形的技术出口，适用自动许可等便利措施；企业利用限制类大模型对外提供API调用、APP/网页交互、SaaS应用、本地端侧轻量化部署等情形，不属于大模型技术出口管理范围。已通过开源或论文进入公共领域的技术拟不纳入出口管理。\n\nThe Decoder报道称，大模型在满足10^26 FLOPs训练算力、2万亿参数或全球排名前10等条件时受控，可自主编写或改动恶意软件攻击关键基础设施的AI工具被全面禁运。X用户Nathan Lambert转引该声明称…",
+      "summary": "Google 正式发布旗舰模型 Gemini 4 Argon，即日起全球上线，定位处理复杂编码、智能体、数学和科学任务。该模型仅向付费用户开放：开发者与企业需使用 Gemini API 和 Gemini 平台的付费层级，Google Antigravity 中仅限 Ultra 订阅者，Gemini 应用和搜索 AI Mode 中仅限 Ultra 和 Pro 订阅者。The Decoder 称免费用户和 Plus 订阅者只能继续使用较弱的 Flash 系列模型。\n\n定价方面，Google 公布上线初期价格为每百万输入 token 2 美元、每百万输出 10 美元，缓存输入享 95% 折扣；MarkTechPost 称 2026 年 11 月 30 日后价格将涨至输入 4 美元、输出 20 美元。模型支持 1M 统一输入输出 token 上限。Google 还表示，科学家和研究人员可申请免费使用 Antigravity 最高使用档位 6 个月，网络安全防御人员可通过 Fairwind Program 申请，均需符合资格、容量和筛选条件。\n\nGoogl…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/799a2a3d-ea41-4491-afaf-9e6c06aebe64"
+      "story_url": "https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "英伟达开源 Nemotron 3.5 Super VL 多模态智能体模型",
       "list_title": "英伟达开源 Nemotron 3.5 Super VL 多模态智能体模型",
       "heat": null,
-      "heat_change": "↓ 21 %",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "英伟达发布开源多模态模型 Nemotron 3.5 Super VL，采用 120B 总参数、每 token 激活 12B 的 MoE 架构，支持文本、图像、文档和视频输入并输出文本，面向持续运行的企业智能体。官方称其在单 GPU 上智能体任务吞吐最高达同规模开源模型的 5 倍，权重以 OpenMDW-1.1 许可证发布，并附带基础、后训练和 NVFP4 量化检查点及训练配方、数据和强化学习环境。\n\nArtificial Analysis 评测显示，该模型在 Intelligence Index 得分 26，成为领先的美国开源权重模型，智能为上代 Nemotron 3 Super（13 分）的两倍，每任务输出 token 减少约 60%。Prime Intellect 与英伟达用 2,500 个企业任务、在 128 块 GB200 GPU 上训练约 11 小时，将其在 AutomationBench-AA 公开分割上的得分从 34.0% 提升到 57.7%。\n\n模型发布即获多家平台支持：vLLM 和 SGLang 提供 Day-0 部署支持，Ba…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/e1654a62-6c1b-40ba-be4a-032beae55011"
     },
     {
-      "rank": 7,
-      "title": "Reflection 开源 501B 模型 Beam 上线 Hugging Face",
-      "list_title": "Reflection 开源 501B 模型 Beam 上线 Hugging Face",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "Reflection AI 已把首个开放权重模型 Beam 的权重放到 Hugging Face（reflectionai/Beam-1.0-501B-A23B），采用 Apache 2.0 许可，此前公司只说权重、技术报告和模型卡本月发布，早期访问需通过 Reflection 平台候补名单，The Decoder 当时称其仍在做最终安全测试、仅向部分用户提供早期版本。\n\nBeam 为纯文本稀疏 MoE，总参数 501B、每 token 激活 23B，预训练 23.8 万亿 token，支持 1M token 上下文，主打编码、推理和智能体任务，提供 BF16、FP8、NVFP4 权重及投机解码 drafter。SGLang 称已原生支持并驱动 Reflection 生产 API，vLLM 称 Day 0 支持并在 NVIDIA Blackwell 上优化；Ollama 称在 Ollama Cloud 限时免费提供且零数据保留。\n\n实际水平说法不一：Reflection 称推理任务以少三到四倍算力匹配 GLM 5.2，编码和智能体基准接近 Qwe…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/553aab31-30b1-4787-bd62-3b006d83295e"
-    },
-    {
-      "rank": 8,
-      "title": "DeepSeek 服务中断近5小时 致歉并补偿API用户",
-      "list_title": "DeepSeek 服务中断近5小时 致歉并补偿API用户",
-      "heat": null,
-      "heat_change": "↓ 18 %",
-      "sources": [],
-      "summary": "DeepSeek 的网页与 API 服务在北京时间 10 月 15 日 8:11 至 13:04 出现故障，持续 4 小时 52 分钟后恢复。官方状态页面显示为部分中断，用户对话时提示“服务器暂时不可用”；X 用户邵猛称 API 和 Chat 服务均受影响，定位问题耗时约 1 小时、修复耗时 3 个多小时。\n\nDeepSeek 随后就 API 故障致歉，称期间 API 服务因系统故障无法正常使用，已启动服务稳定性排查并剥离单点依赖。补偿方面，将按账号 10.8-10.14 的消耗金额以赠金形式全额返还，赠金自动到账，API 计费先从赠金账户扣除。\n\n腾讯 WorkBuddy 和 CodeBuddy 也发布补偿公告：10 月 8 日~14 日期间在国内版端内使用 DeepSeek 模型消耗的积分全额返还，7 个工作日内到账；国内版全量用户额外获赠 500 积分，需在 10 月 22 日 24 点前进入“用量管理”页面手动领取，积分有效期一个月。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/c69fcda4-6491-4827-9c2b-42579fd92447"
-    },
-    {
       "rank": 9,
-      "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒",
-      "list_title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "快手可灵 AI 于 10 月 15 日宣布 Kling 4.0 正式全量上线 klingai.com，结束此前内测（官方英文称封闭测试）。用户可通过 kling.ai 全新创作界面使用，并新增 MCP 和 CLI 接入；据 IT之家报道，单次生成视频最长 30 秒，可多次续拍延展至 2 分钟。\n\n官方称，4K 和 1080p 的 10-bit HDR 视频输出即将推出，面向企业客户和开发者的 API 服务将于近期开放。内测阶段官方曾表示该版本计划今年 10 月正式发布，支持单次原生生成最长 30 秒视频、单任务最多 15 项多模态参考素材、最多 10 张关键帧输入，并提升复杂运镜稳定性、长提示词理解、跨镜头一致性与口型同步；Kling 4.0 Flash 已向黑金年卡会员开放抢先体验。\n\n内测期间，官方与超级创作者发布了多组实测和短片展示，包括奥美资深创意总监盛健松的 30 秒打戏测试、韩国创作者서오키的人物表演与多图转场测试，以及官方短片《The Beat》（全网曝光超 500 万，开场为 30 秒连续长镜头）。上述效果均来自创作者和官方展示，…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/1b39529e-2c70-4f97-828f-ae4a508ebff2"
-    },
-    {
-      "rank": 10,
       "title": "OpenAI 将 computer use 能力引入 Chrome",
       "list_title": "OpenAI 将 computer use 能力引入 Chrome",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "OpenAI 升级 ChatGPT 的 Chrome 扩展，把 computer use 能力引入浏览器。Chat 模式下 ChatGPT 可读取用户打开的标签页并汇总信息；Work 模式下可控制标签页发送消息、填写表单、下载文件、整理标签组。The Verge 称在网页或桌面应用中 @Chrome 即可调用。\n\n该扩展已在 Chrome 应用商店开放下载，ChatGPT 称面向所有套餐开放；IT之家报道称无需付费订阅，且微软 Edge、Brave、Opera 等基于 Chromium 的浏览器也能使用。IT之家还称 Work 模式需获得授权才能控制标签页，默认接触每个新网站前会请求确认。\n\nThe Decoder 称 GPT-6 Astra 是当前最强的 Computer Use 模型。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/13025e80-d645-4abb-87c1-f3e5ce826c4d"
+    },
+    {
+      "rank": 10,
+      "title": "Reflection 开源 501B 模型 Beam 上线 Hugging Face",
+      "list_title": "Reflection 开源 501B 模型 Beam 上线 Hugging Face",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "Reflection AI 已把首个开放权重模型 Beam 的权重放到 Hugging Face（reflectionai/Beam-1.0-501B-A23B），采用 Apache 2.0 许可，此前公司只说权重、技术报告和模型卡本月发布，早期访问需通过 Reflection 平台候补名单，The Decoder 当时称其仍在做最终安全测试、仅向部分用户提供早期版本。\n\nBeam 为纯文本稀疏 MoE，总参数 501B、每 token 激活 23B，预训练 23.8 万亿 token，支持 1M token 上下文，主打编码、推理和智能体任务，提供 BF16、FP8、NVFP4 权重及投机解码 drafter。SGLang 称已原生支持并驱动 Reflection 生产 API，vLLM 称 Day 0 支持并在 NVIDIA Blackwell 上优化；Ollama 称在 Ollama Cloud 限时免费提供且零数据保留。\n\n实际水平说法不一：Reflection 称推理任务以少三到四倍算力匹配 GLM 5.2，编码和智能体基准接近 Qwe…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/553aab31-30b1-4787-bd62-3b006d83295e"
     }
   ]
 }
