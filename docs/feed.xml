@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-10-17</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-10-18</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-10-18T05:34:44Z</updated>
+  <updated>2026-10-18T20:36:01Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>DeepSeek获2.4万亿日元融资，CATL追加投资</title>
-    <link href="https://36kr.jp/503394/"/>
-    <id>tag:weekly-report,2026:event-22f11c8a</id>
-    <published>2026-10-17T00:00:00Z</published>
-    <updated>2026-10-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;DeepSeekに中国産業界の巨額マネー　調達額2.4兆円規模、CATLが追加出資&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国AI公司DeepSeek获得中国产业界巨额资金，融资规模达2.4万亿日元（约合160亿美元），宁德时代（CATL）追加出资&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI大模型公司获产业资本巨额注资，CATL等制造业巨头入局，将加速AI算力基础设施和行业应用采购&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
+    <title>CXMT预计Q3利润最高$8.2B，AI需求驱动</title>
+    <link href="https://www.techinasia.com/news/cxmt-expects-821b-q3-profit-ai-demand"/>
+    <id>tag:weekly-report,2026:event-3e0249bf</id>
+    <published>2026-10-18T00:00:00Z</published>
+    <updated>2026-10-18T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;China’s CXMT expects up to $8.2b Q3 profit on AI demand&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国存储芯片厂商长鑫存储（CXMT）预计三季度利润最高达82亿美元，受AI需求驱动&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国存储芯片厂商CXMT受AI需求拉动利润暴增，国产存储供应链替代加速，利好上游设备与材料采购&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>谷歌AI新闻试点扩至400家媒体，CNN和FT加入</title>
-    <link href="https://thenextweb.com/news/google-news-ai-pilot-400-publications-cnn-ft"/>
-    <id>tag:weekly-report,2026:event-e9431886</id>
-    <published>2026-10-17T00:00:00Z</published>
-    <updated>2026-10-17T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Google’s AI news pilot grows to 400 publications as CNN and the FT join&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;谷歌AI新闻试点项目扩展至400家出版物，CNN和金融时报等媒体加入合作&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;谷歌AI新闻分发生态扩大，传统媒体与AI平台合作深化，内容授权和AI训练数据合作机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>世界银行推动手机端小型AI落地贫困国家</title>
+    <link href="https://thenextweb.com/news/world-bank-small-ai-developing-countries"/>
+    <id>tag:weekly-report,2026:event-e3672f12</id>
+    <published>2026-10-18T00:00:00Z</published>
+    <updated>2026-10-18T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;World Bank backs ‘small AI’ on phones for poorer nations, Guardian reports&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;世界银行支持在贫困国家推广手机端小型AI应用，据Guardian报道&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;世界银行推动轻量级AI在发展中国家手机端部署，为AI模型供应商和移动基础设施厂商打开新兴市场合作窗口&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Heygo获数亿日元开发滑雪AI教练</title>
+    <link href="https://36kr.jp/503268/"/>
+    <id>tag:weekly-report,2026:event-80219dd6</id>
+    <published>2026-10-18T00:00:00Z</published>
+    <updated>2026-10-18T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;スノボブーツに付ける「AIコーチ」、滑走中に助言　中国「Heygo」が数億円調達&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国公司Heygo完成数亿日元融资，用于开发可附着于滑雪靴的AI教练，在滑行中提供实时建议&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI可穿戴设备公司切入滑雪运动场景，为运动传感器、边缘AI芯片和可穿戴供应链带来机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-10-18</title>
@@ -31,6 +39,6 @@
     <id>tag:weekly-report,2026:aihot-10a26737</id>
     <published>2026-10-18T00:00:00Z</published>
     <updated>2026-10-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-18T09:43&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45"&gt;DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/2f0270d6-fc22-4747-af7c-a4f488d3cd16"&gt;Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/c3562486-19f9-44c5-9544-c3af3e3d43c5"&gt;OpenCode 遭攻击，Anthropic 撤销受影响密钥&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765"&gt;NVIDIA RTX Spark 笔记本开售，起价说法不一&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/799a2a3d-ea41-4491-afaf-9e6c06aebe64"&gt;商务部拟增列23项AI技术出口管制并答问&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-18T23:25&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45"&gt;DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/c3562486-19f9-44c5-9544-c3af3e3d43c5"&gt;OpenCode 遭攻击，Anthropic 撤销受影响密钥&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/4e5cc287-abde-4b0e-acf2-1ef380210117"&gt;Anthropic 发布内部 AI 经济影响研究&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/e4dc2fdc-f282-4822-99ea-8562b2a2d07a"&gt;DeepSeek开放自研搜索API并按次计费&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765"&gt;NVIDIA RTX Spark 笔记本开售，起价说法不一&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
