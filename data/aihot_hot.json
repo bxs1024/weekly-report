@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T23:01:21+08:00",
-  "fetched_date": "2026-10-17",
+  "generated_at": "2026-10-18T09:43:46+08:00",
+  "fetched_date": "2026-10-18",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
@@ -12,7 +12,7 @@
       "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
       "list_title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
       "heat": null,
-      "heat_change": "↑ 81 %",
+      "heat_change": "↓ 13 %",
       "sources": [],
       "summary": "DeepSeek 将 V4.1 Flash 升级为 DeepSeek-V4.1-Flash-1017，网页端、App 与 API 同步替换，API 调用方式与价格不变，仍用 deepseek-flash 访问。DeepSeek 称新版在全部 11 项基准上较 9 月版提升 2.0 至 11.1 分，任务运行时间与输出长度缩短，并建议升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。\n\n关于权重，IT之家称已同步开放下载、延续 MIT 许可；MarkTechPost 则称 1017 权重与硬件要求未披露。OpenRouter 同日上线该模型，DeepSeek 为首个接入服务商，标价输入 $0.15/百万 token、输出 $0.60/百万 token，上下文 1.05M，暂不支持欧盟区域内路由。\n\n随新版推出的自研搜索 API 中，Search/Fetch 两个接口定价均为 5 元/千次。DeepSeek 称这部分调用目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收费；The Decoder …",
       "original_links": [],
@@ -23,7 +23,7 @@
       "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行",
       "list_title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行",
       "heat": null,
-      "heat_change": "↓ 11 %",
+      "heat_change": "↓ 28 %",
       "sources": [],
       "summary": "Meta 发布开放权重模型 Muse Spark Open，总参数 816B、每 token 激活 42B，上下文窗口 1M token，原生支持文本、图像、音频、视频输入，主打编码与长程智能体任务。Meta 称其为迄今最强的美国开放权重模型，权重以 Muse Model License 在 Hugging Face 等平台开放下载，并同步上线 Baseten、Fireworks AI、Groq、Modal、Nebius、OpenRouter、Together AI 等 API 平台。Artificial Analysis 称该模型在其 Intelligence Index 得 39 分，为美国开放权重模型第一；Arena 后续公布其在 Code Arena: WebDev 以 1511 分居美国开源模型第一、开源模型总榜第 13。\n\nApple 机器学习研究团队演示用新版 MLX（v0.30.1 起）与 macOS 26.2 的 RDMA over Thunderbolt 驱动，在两台 Apple M5 Ultra Mac Studio 上本地…",
       "original_links": [],
@@ -31,6 +31,28 @@
     },
     {
       "rank": 3,
+      "title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥",
+      "list_title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥",
+      "heat": null,
+      "heat_change": "↑ 229 %",
+      "sources": [],
+      "summary": "OpenCode 披露，当地时间 10 月 16 日晚发生一起安全漏洞，称源于大规模蒸馏攻击，影响 1.4% 的 OpenCode Console 用户，均为关联了外部服务提供商的用户；OpenCode 已于 17 日上午通过邮件逐一通知，未收到邮件即未受影响。OpenCode 称事件仍在处理中，细节暂不公开，正与 Anthropic、OpenAI 和 Google 合作补救。\n\nAnthropic 的 Lydia Hallie 表示，团队正与 OpenCode 协作处理这起泄露，已撤销疑似受影响的 Claude API 密钥，并建议在 OpenCode 保存过密钥的用户重新创建。\n\n“蒸馏攻击”的定性受到质疑。Nathan Lambert 评论称，把窃取 API 密钥的网络攻击归入“蒸馏”一词很反常，将流向中国的模型转发站混为一谈同样如此；相关流量规模为何如此之大、与模型训练有何关联，目前并不清楚。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/c3562486-19f9-44c5-9544-c3af3e3d43c5"
+    },
+    {
+      "rank": 4,
+      "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一",
+      "list_title": "NVIDIA RTX Spark 笔记本开售，起价说法不一",
+      "heat": null,
+      "heat_change": "↑ 11 %",
+      "sources": [],
+      "summary": "NVIDIA 的 RTX Spark 笔记本已开售，由 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI 推出，可在单机上运行本地编码智能体并完成编码、测试与部署。NVIDIA 在开售当天的新闻稿中称起价 2,599 美元，并附带面向 Perplexity 新用户的限时优惠；10 月 18 日的博客则称起价 2,399 美元。NVIDIA 称定价与配置因地区而异，小型台式机将于 11 月推出。\n\n产品基于 GB10 SoC，最高 128GB 统一内存、1 petaflop FP4 算力。The Verge 三位编辑用一周时间测试了五款搭载 RTX Spark N1X 芯片的 Windows on Arm 笔记本，售价 2,599.99 至 6,999.99 美元。X 用户卡兹克称，128G+1T 的华硕 ProArt 创16 售价 37,999 元，线上瞬间售罄；其实测 Qwen3.8-27B 约 30 Token/秒，本地 2B 翻译模型可 6 路并发。\n\nOpenClaw 称已在新笔记本上支持开箱即用设置，用户可选择本地…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765"
+    },
+    {
+      "rank": 5,
       "title": "商务部拟增列23项AI技术出口管制并答问",
       "list_title": "商务部拟增列23项AI技术出口管制并答问",
       "heat": null,
@@ -41,81 +63,59 @@
       "story_url": "https://aihot.virxact.com/story/799a2a3d-ea41-4491-afaf-9e6c06aebe64"
     },
     {
-      "rank": 4,
-      "title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元",
-      "list_title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "NVIDIA 的 RTX Spark 笔记本已正式开售，由 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI 推出，起价 2,599 美元，并附带面向 Perplexity 新用户的限时优惠；NVIDIA 称定价与配置因地区而异。该产品基于 GB10 SoC，最高 128GB 统一内存、1 petaflop FP4 算力，定位为面向创作者、游戏玩家和 AI agents 的 Windows PC，可在单机上运行本地编码智能体并完成编码、测试与部署。NVIDIA 称笔记本现已上市，小型台式机将于 11 月推出。\n\n开售当晚，X 用户卡兹克称线下首发体验会人山人海，128G+1T 的华硕 ProArt 创16 售价 37999 元，在线上瞬间售罄；其实测 Qwen3.8-27B 可跑到 30 Token/秒，Qwen image 2.1 约 1 分钟一张图，本地 2B 翻译模型可 6 路并发实现近 0 延迟实时翻译。The Verge 三位编辑用一周时间测试了五款搭载 RTX Spark N1X 芯片的 Windows on A…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765"
-    },
-    {
-      "rank": 5,
-      "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒",
-      "list_title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒",
-      "heat": null,
-      "heat_change": "↓ 19 %",
-      "sources": [],
-      "summary": "快手可灵 AI 于 10 月 15 日宣布 Kling 4.0 正式全量上线 klingai.com，用户可通过全新创作界面使用，并新增 MCP 和 CLI 接入。该模型单次原生生成视频最长 30 秒，可多次续拍延展至 2 分钟；单次任务最多支持 15 个多模态参考素材、最多 10 张关键帧输入。\n\n官方称 4K、1080p 的 10-bit HDR 格式输出即将上线，面向企业客户与开发者的 API 服务将于近期开放。此前 9 月底，可灵已向部分黑金年卡及 Ultra 年度订阅用户开放 4.0 Flash 尝鲜版。\n\n据创作者实测，1080P 30 秒约需 450 积分，720P 20 秒的 Kling 4.0 Flash 约需 120 积分；10-bit 4K HDR 输出尚未上线。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/1b39529e-2c70-4f97-828f-ae4a508ebff2"
-    },
-    {
       "rank": 6,
-      "title": "Anthropic三季度收入168亿美元，增速放缓",
-      "list_title": "Anthropic三季度收入168亿美元，增速放缓",
+      "title": "Claude 查明 NIST 椭圆曲线种子来源",
+      "list_title": "Claude 查明 NIST 椭圆曲线种子来源",
       "heat": null,
-      "heat_change": "↓ 25 %",
+      "heat_change": "↓ 16 %",
       "sources": [],
-      "summary": "Anthropic在旧金山闭门投资者会议上披露，第三季度收入168亿美元，环比增长约45%至近50%，较第二季度147%的增速明显放缓。公司同时称，每1美元算力支出带来1.70美元收入，年内调整后营业利润率为11%、现金流为正。\n\n部分投资者对营收数字失望，预计IPO估值可能降至1.5万亿美元以下，低于此前讨论的2万亿美元；路透社援引知情人士称，投资者日活动讨论约1.5万亿美元，而银行家传闻的估值约2万亿美元、募资超100亿美元尚未成为定论。Bloomberg指出，市场将增长放缓解读为AI芯片和服务器的坏消息。\n\n各来源对第二季度收入的表述不一：有报道称约115亿美元，也有报道称从约48亿美元增至115亿美元。关于7月650亿美元ARR及8、9月收入测算，来自X用户Oran Ge的自行推算，并非公司披露。",
+      "summary": "Anthropic 称，其内部研究模型 Claude 在不到半小时内查明 NIST P-192、P-224、P-256、P-384、P-521 五条标准椭圆曲线种子的来源：这些种子并非哈希结果，而是以 Unix 时间戳初始化的 C 库 lrand48 随机数生成器的输出，例如 P-256 需迭代 1842 次。团队已公开复现代码。\n\nAnthropic 强调，这不是对 ECDSA 的破解，没有发现新的攻击方式或曲线弱点，用户无需因此采取措施。该发现对应的 36,864 美元奖金将捐给互联网安全研究组（Internet Security Research Group）。\n\n据 The Decoder 报道，这些曲线于 2000 年标准化，种子由 NSA 提供且来源不明，长期引发后门怀疑；X 用户 Yuchen Jin 则称这是悬置 25 年的密码学谜题。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/f18eef00-3d70-4586-a109-ee6a78104fbf"
+      "story_url": "https://aihot.virxact.com/story/081bf642-6816-4c84-929e-3d3837dcfdb5"
     },
     {
       "rank": 7,
-      "title": "Google 发布 Gemini 4 Argon，付费用户独享",
-      "list_title": "Google 发布 Gemini 4 Argon，付费用户独享",
+      "title": "Meta 删除涉 AI 训练抓取争议条款",
+      "list_title": "Meta 删除涉 AI 训练抓取争议条款",
       "heat": null,
-      "heat_change": "↓ 20 %",
+      "heat_change": "↑ 116 %",
       "sources": [],
-      "summary": "Google 正式发布旗舰模型 Gemini 4 Argon，即日起全球上线，定位处理复杂编码、智能体、数学和科学任务。该模型仅向付费用户开放：开发者与企业需使用 Gemini API 和 Gemini 平台的付费层级，Google Antigravity 中仅限 Ultra 订阅者，Gemini 应用和搜索 AI Mode 中仅限 Ultra 和 Pro 订阅者。The Decoder 称免费用户和 Plus 订阅者只能继续使用较弱的 Flash 系列模型。\n\n定价方面，Google 公布上线初期价格为每百万输入 token 2 美元、每百万输出 10 美元，缓存输入享 95% 折扣；MarkTechPost 称 2026 年 11 月 30 日后价格将涨至输入 4 美元、输出 20 美元。模型支持 1M 统一输入输出 token 上限。Google 还表示，科学家和研究人员可申请免费使用 Antigravity 最高使用档位 6 个月，网络安全防御人员可通过 Fairwind Program 申请，均需符合资格、容量和筛选条件。\n\nGoogl…",
+      "summary": "Meta 在引发争议后再次更新商业条款，删除了被解读为允许其抓取新闻网站等内容训练 AI 的措辞。此前计划于 10 月 30 日生效的条款授权 Meta 抓取与商业账号关联的网站内容，用于“开发、改进、研究”和“训练”AI 产品，且企业无法选择退出；不同意者须停止将 Meta 产品用于商业用途。\n\n法律专家曾警告，新措辞可能让 Meta 绕过 robots.txt 等屏蔽指令和授权协议，Ars Technica 还指出 test credentials 等表述可能被用于绕过付费墙。Meta 发言人 Daniel Roberts 称，相关条款只适用于广告和商业产品，Meta 使用网页爬虫的方式没有变化，此次更新不会赋予 Meta 覆盖内容方偏好的新权利。康奈尔法学教授 James Grimmelmann 等人此前对条款的解读，是引发争议的原因之一。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528"
+      "story_url": "https://aihot.virxact.com/story/278a9f24-bfd7-489e-98f4-958d6bbf2352"
     },
     {
       "rank": 8,
-      "title": "英伟达开源 Nemotron 3.5 Super VL 多模态智能体模型",
-      "list_title": "英伟达开源 Nemotron 3.5 Super VL 多模态智能体模型",
+      "title": "腾讯混元发布并开源 Hy Memory 2.0",
+      "list_title": "腾讯混元发布并开源 Hy Memory 2.0",
       "heat": null,
       "heat_change": "↓ 16 %",
       "sources": [],
-      "summary": "英伟达发布开源多模态模型 Nemotron 3.5 Super VL，采用 120B 总参数、每 token 激活 12B 的 MoE 架构，支持文本、图像、文档和视频输入并输出文本，面向持续运行的企业智能体。官方称其在单 GPU 上智能体任务吞吐最高达同规模开源模型的 5 倍，权重以 OpenMDW-1.1 许可证发布，并附带基础、后训练和 NVFP4 量化检查点及训练配方、数据和强化学习环境。\n\nArtificial Analysis 评测显示，该模型在 Intelligence Index 得分 26，成为领先的美国开源权重模型，智能为上代 Nemotron 3 Super（13 分）的两倍，每任务输出 token 减少约 60%。Prime Intellect 与英伟达用 2,500 个企业任务、在 128 块 GB200 GPU 上训练约 11 小时，将其在 AutomationBench-AA 公开分割上的得分从 34.0% 提升到 57.7%。\n\n模型发布即获多家平台支持：vLLM 和 SGLang 提供 Day-0 部署支持，Ba…",
+      "summary": "腾讯混元于10月16日发布并开源智能体记忆框架 Hy Memory 2.0，开源专用模型 Hy-Memory-30B-A3B（30B 总参数、约3B 激活的 MoE）、可编程记忆框架 hy-memory SDK 和桌面工具 MemHub 三层能力，三者可独立使用，也可组合成完整 Memory 方案，定位私人记忆管家。\n\n腾讯混元称，该框架处理聊天、工作与代码三类记忆，在4项基准上开源第一，Hy-Memory-30B-A3B 在主要框架上超过 Opus 5；MemHub 提供 CLI 和 Mac 版，可在10余个 AI 工具间同步，SDK 与模型发布于 GitHub 和 Hugging Face。上述评测与效果均为腾讯混元方面的说法。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/e1654a62-6c1b-40ba-be4a-032beae55011"
+      "story_url": "https://aihot.virxact.com/story/a377431d-9822-42bd-a8d3-fd4ee14dc0b7"
     },
     {
       "rank": 9,
-      "title": "OpenAI 将 computer use 能力引入 Chrome",
-      "list_title": "OpenAI 将 computer use 能力引入 Chrome",
+      "title": "Anthropic 发布内部 AI 经济影响研究",
+      "list_title": "Anthropic 发布内部 AI 经济影响研究",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↑ 41 %",
       "sources": [],
-      "summary": "OpenAI 升级 ChatGPT 的 Chrome 扩展，把 computer use 能力引入浏览器。Chat 模式下 ChatGPT 可读取用户打开的标签页并汇总信息；Work 模式下可控制标签页发送消息、填写表单、下载文件、整理标签组。The Verge 称在网页或桌面应用中 @Chrome 即可调用。\n\n该扩展已在 Chrome 应用商店开放下载，ChatGPT 称面向所有套餐开放；IT之家报道称无需付费订阅，且微软 Edge、Brave、Opera 等基于 Chromium 的浏览器也能使用。IT之家还称 Work 模式需获得授权才能控制标签页，默认接触每个新网站前会请求确认。\n\nThe Decoder 称 GPT-6 Astra 是当前最强的 Computer Use 模型。",
+      "summary": "Anthropic 于 10 月 16 日发布两份内部研究：一份基于公司自身数据，分析 AI 如何改变雇佣与工作组织；另一份对比员工与公众对 AI 经济影响的预期。内部数据显示，到 2026 年 8 月，交互式 AI 智能体的使用时长已达员工的 6 倍；技术部门初级员工占比从 21% 降至 14%，初级技术招聘占比从 27% 降至 9%。TechCrunch 报道称，技术团队占全员比例从 61% 降至 56%，Anthropic 将这一变化归因于业务职能扩张，以及编码工具让非技术员工也能自行开发软件。\n\n预期调查方面，Anthropic 于 2026 年 8 月调查美国成人代表样本（N=10,980）及自家员工，发现双方对 AI 现有能力判断相近，但对进展速度分歧巨大：91% 员工预期 AI 在 2030 年前能做出诺贝尔级发现，公众仅 39%；员工平均预期 AI 能完成其 75% 的当前工作，美国工人仅 28%。据《商业内幕》报道，另一项对比 1334 名员工与美国成年人的调查显示，多数员工预计到 2030 年自己至少 80% 的工作可交给 A…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/13025e80-d645-4abb-87c1-f3e5ce826c4d"
+      "story_url": "https://aihot.virxact.com/story/4e5cc287-abde-4b0e-acf2-1ef380210117"
     },
     {
       "rank": 10,
-      "title": "Reflection 开源 501B 模型 Beam 上线 Hugging Face",
-      "list_title": "Reflection 开源 501B 模型 Beam 上线 Hugging Face",
+      "title": "Elorian 发布首个视觉推理模型 Glimpse",
+      "list_title": "Elorian 发布首个视觉推理模型 Glimpse",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "Reflection AI 已把首个开放权重模型 Beam 的权重放到 Hugging Face（reflectionai/Beam-1.0-501B-A23B），采用 Apache 2.0 许可，此前公司只说权重、技术报告和模型卡本月发布，早期访问需通过 Reflection 平台候补名单，The Decoder 当时称其仍在做最终安全测试、仅向部分用户提供早期版本。\n\nBeam 为纯文本稀疏 MoE，总参数 501B、每 token 激活 23B，预训练 23.8 万亿 token，支持 1M token 上下文，主打编码、推理和智能体任务，提供 BF16、FP8、NVFP4 权重及投机解码 drafter。SGLang 称已原生支持并驱动 Reflection 生产 API，vLLM 称 Day 0 支持并在 NVIDIA Blackwell 上优化；Ollama 称在 Ollama Cloud 限时免费提供且零数据保留。\n\n实际水平说法不一：Reflection 称推理任务以少三到四倍算力匹配 GLM 5.2，编码和智能体基准接近 Qwe…",
+      "summary": "美国帕洛阿尔托初创公司 Elorian 发布首个模型 Glimpse，主打在推理过程中回看并重新分析图像或视频细节。该模型以研究预览形式提供 API，聊天界面需排队等候，按用量计费：输入每百万 token 0.60 美元，输出每百万 token 3 美元。此前公司已完成 5500 万美元种子轮融资，估值 3 亿美元。\n\nElorian 称 Glimpse 是首个视觉思考模型，在关键公开视觉推理基准上对标 Astra 达到前沿竞争力，解决了以往模型只能处理单张图像、无法应对动态或角度变化的问题。据 Rohan Paul 转述，Glimpse 能比较场景随时间的变化，在变化微小或快速时回看源头并裁剪局部、抽取特定视频帧或运行代码进行测量对比，Elorian 称这一机制为视觉草稿空间。Testing Catalog 称其可在推理时返回视频特定时间点、放大细节，或以更高帧率回放半秒视频后再作答。Google 首席科学家 Jeff Dean 在 X 上转发了这一发布并表示称赞。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/553aab31-30b1-4787-bd62-3b006d83295e"
+      "story_url": "https://aihot.virxact.com/story/d04da2cc-3656-4558-8c1a-a379c01b6dae"
     }
   ]
 }
