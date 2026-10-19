@@ -1,7 +1,74 @@
 {
   "version": 1,
-  "generated_at": "2026-10-19T04:28:02.262744+08:00",
+  "generated_at": "2026-10-19T13:41:11.135695+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-0c7507c7dbcf1045",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "compliance",
+      "window": "2026-W43",
+      "window_start": "2026-10-19",
+      "window_end": "2026-10-19",
+      "detected_at": "2026-10-19T13:41:11.135695+08:00",
+      "baseline_count": 19,
+      "current_count": 19,
+      "added_count": 3,
+      "removed_count": 3,
+      "clusters": {
+        "compliance": 1,
+        "sales": 1
+      },
+      "removed_clusters": {
+        "partnerships": 1,
+        "sales": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000156227489",
+          "title": "IT Executive",
+          "url": "https://www.grab.careers/en/jobs/744000156227489/it-executive/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156227099",
+          "title": "Senior Data Analyst, Compliance",
+          "url": "https://www.grab.careers/en/jobs/744000156227099/senior-data-analyst-compliance/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156224259",
+          "title": "Intern, Account Management, Merchant Growth",
+          "url": "https://www.grab.careers/en/jobs/744000156224259/intern-account-management-merchant-growth/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155742629",
+          "title": "Data Scientist",
+          "url": "https://www.grab.careers/en/jobs/744000155742629/data-scientist/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155714265",
+          "title": "Senior Client Partner (Sales)",
+          "url": "https://www.grab.careers/en/jobs/744000155714265/senior-client-partner-sales/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155706449",
+          "title": "Intern, Talent Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000155706449/intern-talent-acquisition/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-0b0af58783d75dcf",
       "entity_id": "grab",
