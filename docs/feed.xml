@@ -1,44 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-10-18</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-10-19</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-10-18T20:36:01Z</updated>
+  <updated>2026-10-19T05:51:06Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>CXMT预计Q3利润最高$8.2B，AI需求驱动</title>
-    <link href="https://www.techinasia.com/news/cxmt-expects-821b-q3-profit-ai-demand"/>
-    <id>tag:weekly-report,2026:event-3e0249bf</id>
-    <published>2026-10-18T00:00:00Z</published>
-    <updated>2026-10-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;China’s CXMT expects up to $8.2b Q3 profit on AI demand&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国存储芯片厂商长鑫存储（CXMT）预计三季度利润最高达82亿美元，受AI需求驱动&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国存储芯片厂商CXMT受AI需求拉动利润暴增，国产存储供应链替代加速，利好上游设备与材料采购&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>海湾中小企业AI采用报告发布</title>
+    <link href="http://wamda.com/2026/10/trust-ai-adoption-really-looks-like-gulf-smes"/>
+    <id>tag:weekly-report,2026:event-407dd9be</id>
+    <published>2026-10-19T00:00:00Z</published>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Trust in AI: What adoption really looks like for Gulf SMEs&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Wamda发布关于海湾地区中小企业AI采用与信任状况的分析报告&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东中小企业AI渗透率与信任度数据披露，为AI厂商进入海湾市场提供需求侧依据，利好本地化AI解决方案商&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：中东 | 来源：WAMDA&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>世界银行推动手机端小型AI落地贫困国家</title>
-    <link href="https://thenextweb.com/news/world-bank-small-ai-developing-countries"/>
-    <id>tag:weekly-report,2026:event-e3672f12</id>
-    <published>2026-10-18T00:00:00Z</published>
-    <updated>2026-10-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;World Bank backs ‘small AI’ on phones for poorer nations, Guardian reports&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;世界银行支持在贫困国家推广手机端小型AI应用，据Guardian报道&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;世界银行推动轻量级AI在发展中国家手机端部署，为AI模型供应商和移动基础设施厂商打开新兴市场合作窗口&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>FIS联合Anthropic向美国银行推出AML AI代理</title>
+    <link href="https://fintechnews.sg/139104/ai/fis-aml-investigations-agent-anthropic-us-banks/"/>
+    <id>tag:weekly-report,2026:event-c1debba3</id>
+    <published>2026-10-19T00:00:00Z</published>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;FIS AML Investigations Agent Now Available to All US Banks&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;FIS面向所有美国银行推出基于Anthropic的AML调查AI代理&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国金融基础设施商联合Anthropic将AI代理引入反洗钱调查，银行合规AI采购需求将加速释放&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：北美 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Heygo获数亿日元开发滑雪AI教练</title>
-    <link href="https://36kr.jp/503268/"/>
-    <id>tag:weekly-report,2026:event-80219dd6</id>
-    <published>2026-10-18T00:00:00Z</published>
-    <updated>2026-10-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;スノボブーツに付ける「AIコーチ」、滑走中に助言　中国「Heygo」が数億円調達&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国公司Heygo完成数亿日元融资，用于开发可附着于滑雪靴的AI教练，在滑行中提供实时建议&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI可穿戴设备公司切入滑雪运动场景，为运动传感器、边缘AI芯片和可穿戴供应链带来机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
+    <title>Nextdc因电力延迟警示盈利风险并停牌</title>
+    <link href="https://www.techinasia.com/news/australian-data-center-firm-nextdc-seeks-trading-halt-power-delay"/>
+    <id>tag:weekly-report,2026:event-a4332ab2</id>
+    <published>2026-10-19T00:00:00Z</published>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Australia’s Nextdc flags earnings risk over power delay&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;澳大利亚数据中心公司Nextdc因电力延迟问题申请交易暂停，并提示盈利风险&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;澳洲数据中心电力供应瓶颈拖累盈利预期，暴露AI算力扩张中的能源基建短板&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>全球AI视野 Top5 · 2026-10-18</title>
+    <title>WIDTH推出平台与Hub庆祝12周年</title>
+    <link href="https://fintechnews.sg/139062/regtech/width-platform-hub-launch-12th-anniversary/"/>
+    <id>tag:weekly-report,2026:event-083117c4</id>
+    <published>2026-10-19T00:00:00Z</published>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;WIDTH Marks 12th Anniversary with Official Launch of WIDTH Platform and Hub&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;WIDTH在成立12周年之际正式推出WIDTH平台与Hub&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太RegTech公司推出新平台，合规科技工具生态扩展为区域金融机构提供新采购选项&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>全球AI视野 Top5 · 2026-10-19</title>
     <link href="https://aihot.virxact.com/hot"/>
-    <id>tag:weekly-report,2026:aihot-10a26737</id>
-    <published>2026-10-18T00:00:00Z</published>
-    <updated>2026-10-18T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-18T23:25&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45"&gt;DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/c3562486-19f9-44c5-9544-c3af3e3d43c5"&gt;OpenCode 遭攻击，Anthropic 撤销受影响密钥&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/4e5cc287-abde-4b0e-acf2-1ef380210117"&gt;Anthropic 发布内部 AI 经济影响研究&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/e4dc2fdc-f282-4822-99ea-8562b2a2d07a"&gt;DeepSeek开放自研搜索API并按次计费&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765"&gt;NVIDIA RTX Spark 笔记本开售，起价说法不一&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <id>tag:weekly-report,2026:aihot-02fd48ba</id>
+    <published>2026-10-19T00:00:00Z</published>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-19T10:01&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45"&gt;DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/66a54812-6ab2-4206-8573-aaa6ccfc8532"&gt;Anthropic设公益基金 承诺投入5%股份&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/c3562486-19f9-44c5-9544-c3af3e3d43c5"&gt;OpenCode 遭攻击，Anthropic 撤销受影响密钥&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/e4dc2fdc-f282-4822-99ea-8562b2a2d07a"&gt;DeepSeek开放自研搜索API并按次计费&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/a7a67ccd-5e78-4e12-9b42-fef5515ac35a"&gt;微软终止与Nscale数据中心合作&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
