@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T10:01:11+08:00",
-  "fetched_date": "2026-10-19",
+  "generated_at": "2026-10-20T02:22:48+08:00",
+  "fetched_date": "2026-10-20",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
@@ -9,43 +9,43 @@
   "items": [
     {
       "rank": 1,
+      "title": "MiniMax 发布 M3.1 Flash，权重 10 月 23 日开放",
+      "list_title": "MiniMax 发布 M3.1 Flash，权重 10 月 23 日开放",
+      "heat": null,
+      "heat_change": "↑ 90 %",
+      "sources": [],
+      "summary": "MiniMax 正式发布 M3.1 Flash，已上线 MiniMax API、MPlan 和 MiniMax Code，模型权重将于 10 月 23 日开放，许可证尚未公布。官方称其以 M3 三分之一的成本和 3 倍速度达到前沿级智能体表现，日常输出速度可达 200+ TPS；API 定价为输入每百万 Token 1 元、输出每百万 Token 4 元、缓存读取每百万 Token 0.1 元。\n\n此前在 OpenRouter 匿名测试的 Space Bunny 被确认为其早期版本：OpenRouter 称其匿名期间连续 10 天位居榜首、处理 56.7T token，回归后免费 72 小时；OpenCode 称该模型在其平台连续 12 天排名第一、累计服务 106T token，上架后免费 3 天。\n\n官方公布的评测成绩包括 DeepSWE v1.1 得 73.7%、OSWorld V2 得 61.7 分、CyberGym 得 82%；Arena 称其在 Code Arena WebDev 榜以 1588 分列开源模型第 12、总榜第 32。A…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/589d286a-2a6d-48be-b14a-e61390534ec3"
+    },
+    {
+      "rank": 2,
       "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
       "list_title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
       "heat": null,
       "heat_change": "",
       "sources": [],
-      "summary": "DeepSeek 将 V4.1 Flash 升级为 DeepSeek-V4.1-Flash-1017，网页端、App 与 API 同步替换，API 调用方式与价格不变，仍用 deepseek-flash 访问。DeepSeek 称新版在全部 11 项基准上较 9 月版提升 2.0 至 11.1 分，任务运行时间与输出长度缩短，并建议升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。Arena 随后公布该模型（Max 版）成为 Code Arena: WebDev 榜单第一开源模型，超过 Kimi K3 (Max)，成本低约 10 倍。\n\n关于权重，IT之家称已同步开放下载、延续 MIT 许可；MarkTechPost 则称 1017 权重与硬件要求未披露。OpenRouter 同日上线该模型，DeepSeek 为首个接入服务商，标价输入 $0.15/百万 token、输出 $0.60/百万 token，上下文 1.05M，暂不支持欧盟区域内路由。\n\n随新版推出的自研搜索 API 中，Search/Fetch 两个接口定价…",
+      "summary": "DeepSeek 将 V4.1 Flash 升级为 DeepSeek-V4.1-Flash-1017，网页端、App 与 API 同步替换，API 调用方式与价格不变，仍用 deepseek-flash 访问。DeepSeek 称新版在全部 11 项基准上较 9 月版提升 2.0 至 11.1 分，任务运行时间与输出长度缩短，并建议升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。Arena 随后公布该模型（Max 版）成为 Code Arena: WebDev 榜单第一开源模型，超过 Kimi K3 (Max)，成本低约 10 倍；Artificial Analysis 智能指数得分 45，较旧版提高 6 分，与 GLM-5.3 并列开源权重模型第二。\n\n关于权重，IT之家称已同步开放下载、延续 MIT 许可；MarkTechPost 则称 1017 权重与硬件要求未披露。OpenRouter 同日上线该模型，DeepSeek 为首个接入服务商，标价输入 $0.15/百万 token、输出 $0.60/百万 token…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Anthropic设公益基金 承诺投入5%股份",
       "list_title": "Anthropic设公益基金 承诺投入5%股份",
       "heat": null,
-      "heat_change": "↑ 89 %",
+      "heat_change": "↓ 13 %",
       "sources": [],
-      "summary": "Anthropic 宣布设立 Anthropic Public Benefit Fund，并承诺向该基金投入公司 5% 股份；该基金是公司全资持有的实体。据 Anthropic 称，这一承诺需经股东批准；此后公司估值每较设定基准上涨 50%，董事会可酌情追加 2%。\n\n该基金可用于向传统非营利组织大额捐赠，或直接向特定人群发放；Anthropic 此前已投入 2 亿美元研究 AI 对就业市场的影响。Anthropic 称，基金持有的公司股权不会用于美国或海外的游说或政治捐款。\n\n基金的结构和治理细节将在未来几个月公布。",
+      "summary": "Anthropic 宣布设立公司全资持有的 Anthropic Public Benefit Fund，并承诺向该基金投入公司 5% 股份。据 Anthropic 称，这一承诺需经股东批准；此后公司估值每较设定基准上涨 50%，董事会可酌情追加 2%。有社交媒体帖子按 9650 亿美元估值估算，这 5% 股份约合 480 亿美元。\n\n该基金可用于向传统非营利组织大额捐赠，或直接向特定人群发放；Anthropic 此前已投入 2 亿美元研究 AI 对就业市场的影响。Anthropic 称，基金持有的公司股权不会用于美国或海外的游说或政治捐款。\n\n基金的结构和治理细节将在未来几个月公布。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/66a54812-6ab2-4206-8573-aaa6ccfc8532"
-    },
-    {
-      "rank": 3,
-      "title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥",
-      "list_title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "OpenCode 披露，当地时间 10 月 16 日晚发生一起安全漏洞，称源于大规模蒸馏攻击，影响 1.4% 的 OpenCode Console 用户，均为关联了外部服务提供商的用户；OpenCode 已于 17 日上午通过邮件逐一通知，未收到邮件即未受影响。OpenCode 称事件仍在处理中，细节暂不公开，正与 Anthropic、OpenAI 和 Google 合作补救。\n\nAnthropic 的 Lydia Hallie 表示，团队正与 OpenCode 协作处理这起泄露，已撤销疑似受影响的 Claude API 密钥，并建议在 OpenCode 保存过密钥的用户重新创建。\n\n“蒸馏攻击”的定性受到质疑。Nathan Lambert 评论称，把窃取 API 密钥的网络攻击归入“蒸馏”一词很反常，将流向中国的模型转发站混为一谈同样如此；相关流量规模为何如此之大、与模型训练有何关联，目前并不清楚。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/c3562486-19f9-44c5-9544-c3af3e3d43c5"
     },
     {
       "rank": 4,
       "title": "DeepSeek开放自研搜索API并按次计费",
       "list_title": "DeepSeek开放自研搜索API并按次计费",
       "heat": null,
-      "heat_change": "↑ 16 %",
+      "heat_change": "",
       "sources": [],
       "summary": "DeepSeek 开放自研搜索 API，网页端与 API 端的搜索能力均由自研的 DeepSeek 搜索引擎提供底层支持。DeepSeek 称，该引擎每天稳定处理来自全球的数亿次搜索请求，索引全球千亿级网页并支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC 内容。\n\nDeepSeek 公告称，API 现已支持网页搜索与抓取，按请求次数计费，单价为每 1000 次成功请求 5 元。用户在 DeepSeek Harness、Claude Code、Codex 中通过 Server 端工具调用访问的 Search/Fetch 接口目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收费。",
       "original_links": [],
@@ -53,69 +53,69 @@
     },
     {
       "rank": 5,
+      "title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥",
+      "list_title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "OpenCode 披露，当地时间 10 月 16 日晚发生一起安全漏洞，称源于大规模蒸馏攻击，影响 1.4% 的 OpenCode Console 用户，均为关联了外部服务提供商的用户；OpenCode 已于 17 日上午通过邮件逐一通知，未收到邮件即未受影响。OpenCode 称事件仍在处理中，细节暂不公开，正与 Anthropic、OpenAI 和 Google 合作补救。\n\nAnthropic 的 Lydia Hallie 表示，团队正与 OpenCode 协作处理这起泄露，已撤销疑似受影响的 Claude API 密钥，并建议在 OpenCode 保存过密钥的用户重新创建。OpenAI 的 Tibo 称，已与 OpenCode 合作让同时是 OpenAI API 客户的受影响用户恢复使用，并退还攻击期间本会被扣取的额度。\n\n“蒸馏攻击”的定性受到质疑。Nathan Lambert 评论称，把窃取 API 密钥的网络攻击归入“蒸馏”一词很反常，将流向中国的模型转发站混为一谈同样如此；相关流量规模为何如此之大、与模型训练有何关联，目前并不清楚…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/c3562486-19f9-44c5-9544-c3af3e3d43c5"
+    },
+    {
+      "rank": 6,
+      "title": "Character.AI申请破产，迪士尼2000万美元竞购",
+      "list_title": "Character.AI申请破产，迪士尼2000万美元竞购",
+      "heat": null,
+      "heat_change": "↑ 32 %",
+      "sources": [],
+      "summary": "Character.AI（母公司Character Technologies）已在美国申请第11章破产保护，以推进公司及资产出售。迪士尼被指定为首席竞标方，出价2000万美元收购部分资产，并获得技术非独占永久许可；该报价作为竞标底价，其他竞标者仍可提出更高报价。法院文件显示其资产和负债均在5000万至1亿美元之间。出售预计2026年11月底或12月初完成，期间平台继续运营；若找不到愿意运营平台的买家，公司将逐步结束业务。\n\n迪士尼还同意向至少60名员工发出录用邀请，占其大部分团队，年薪总额约6000万美元，绝大多数受邀员工已接受。若破产方案获法院批准，迪士尼将获得Character.AI的员工和大部分技术栈，同时避开导致其破产的诉讼和46个州与地区的联合调查。\n\n纽约州总检察长Letitia James联合40位两党总检察长在破产案中提交利益通知，要求任何资产出售方落实用户数据保护程序，并保留挑战破产方案的权利。公司称涉及用户自杀诉讼和儿童年龄验证监管的巨额法律费用加剧了破产，但也承认即使没有法律问题，其业务也极不可持续。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/979b3da3-735e-4bc0-a4c0-148e8d72e73a"
+    },
+    {
+      "rank": 7,
+      "title": "豆包刘星否认“过半算力造爽剧”，称字节仅约10%用于视频生成",
+      "list_title": "豆包刘星否认“过半算力造爽剧”，称字节仅约10%用于视频生成",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "针对“国内超一半算力在造爽剧”的说法，豆包公关负责人刘星回应称该算力数据不靠谱，并表示字节总算力中只有约10%用于视频生成模型的训练和推理。\n\n这一说法此前来自中文在线在投资者关系活动记录表中的披露：国内AI Token消耗55%用于短剧和视频生成，24%用于电商广告，真正用于研发的仅15%。刘星的回应针对的是这一算力分配口径，双方对同一问题的说法存在明显分歧。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/2e19e715-070b-44bd-bc8d-f33fb77b860d"
+    },
+    {
+      "rank": 8,
+      "title": "Viggle AI 发布 JST-2 世界基础模型",
+      "list_title": "Viggle AI 发布 JST-2 世界基础模型",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Viggle AI 发布 JST-2，称其为“全球首个全栈物理原生世界基础模型”。该模型在 3D 空间中构建整个模型栈，而非在像素或视频空间中学习。\n\nViggle AI 称，JST-2 可在数秒内生成 3D 场景并实时扩展，并通过一个通用架构创建内置动作的角色。上述“首个”和性能表述均来自 Viggle AI 的发布说法。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/2a27c578-b55e-4bf5-9683-dd4abfe841da"
+    },
+    {
+      "rank": 9,
+      "title": "Gemini 4 Argon 四智能体27小时通关Minecraft",
+      "list_title": "Gemini 4 Argon 四智能体27小时通关Minecraft",
+      "heat": null,
+      "heat_change": "↑ 65 %",
+      "sources": [],
+      "summary": "Google DeepMind 公布，四个 Gemini 4 Argon 智能体在共享的 Minecraft 世界中从零击败末影龙，全程无人类帮助，耗时 27 小时。据 Google DeepMind 介绍，这些智能体处于只用代码和文本的沙盒中，共编写 2,783 个程序，通过聊天分工、共享笔记并共同调试错误。\n\nThe Decoder 报道补充，智能体被投入随机生成的世界，未分配角色或策略，自行分工、互相预警威胁、回收阵亡队友物品并记录错误到共享记忆；该报道称整场运行按 2027 年生效的 Gemini 4 Argon 标准价格计算花费 1,620 美元。\n\n宾夕法尼亚大学沃顿商学院教授 Ethan Mollick 推荐了相关论文（arXiv:2610.22319），称其展示了智能体之间为实现复杂目标而自发协调，且方法有别于人类；他提到该论文部分由 AI 撰写。该结果由 Google DeepMind 公布，尚未见独立验证。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/abcf817f-a706-4e9e-8880-6a88fa240704"
+    },
+    {
+      "rank": 10,
       "title": "微软终止与Nscale数据中心合作",
       "list_title": "微软终止与Nscale数据中心合作",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "微软终止了与英国数据中心企业 Nscale 在埃塞克斯郡劳顿的数据中心项目合作。据《每日电讯报》报道，Nscale 价值数十亿美元的上市计划因此遭遇重大挫折。\n\n微软是 Nscale 最大的两家客户之一，另一家为 Anthropic。Nscale 上个月已在美国提交 IPO 申请，两年半内合同总金额从 1 亿美元增长至超过 1,030 亿美元。双方均未回应置评请求。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/a7a67ccd-5e78-4e12-9b42-fef5515ac35a"
-    },
-    {
-      "rank": 6,
-      "title": "Anthropic 发布内部 AI 经济影响研究",
-      "list_title": "Anthropic 发布内部 AI 经济影响研究",
-      "heat": null,
-      "heat_change": "↓ 15 %",
-      "sources": [],
-      "summary": "Anthropic 于 10 月 16 日发布两份内部研究：一份基于公司自身数据，分析 AI 如何改变雇佣与工作组织；另一份对比员工与公众对 AI 经济影响的预期。内部数据显示，到 2026 年 8 月，交互式 AI 智能体的使用时长已达员工的 6 倍；技术部门初级员工占比从 21% 降至 14%，初级技术招聘占比从 27% 降至 9%。TechCrunch 报道称，技术团队占全员比例从 61% 降至 56%，Anthropic 将这一变化归因于业务职能扩张，以及编码工具让非技术员工也能自行开发软件。\n\n预期调查方面，Anthropic 于 2026 年 8 月调查美国成人代表样本（N=10,980）及自家员工，发现双方对 AI 现有能力判断相近，但对进展速度分歧巨大：91% 员工预期 AI 在 2030 年前能做出诺贝尔级发现，公众仅 39%；员工平均预期 AI 能完成其 75% 的当前工作，美国工人仅 28%。据《商业内幕》报道，另一项对比 1334 名员工与美国成年人的调查显示，多数员工预计到 2030 年自己至少 80% 的工作可交给 A…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/4e5cc287-abde-4b0e-acf2-1ef380210117"
-    },
-    {
-      "rank": 7,
-      "title": "OpenAI API 短暂出现三个 aurora 模型引用后移除",
-      "list_title": "OpenAI API 短暂出现三个 aurora 模型引用后移除",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "OpenAI 的 API 中短暂出现了 aurora-red-alpha、aurora-green-alpha 和 aurora-blue-alpha 三个模型引用，随后很快被移除。Testing Catalog 称这是一次误上线，并认为普通用户近期有机会测试这些 alpha 模型的可能性相当低，更可能与新的 Daybreak 更新公告有关，也不排除还计划了其他模型发布。\n\n次日，Testing Catalog 称已在 Arena 上试用 OpenAI 的新 \"Aurora\" 图像模型，并称其输出优于 gpt-image-2.5-flare，尤其在配色方案上。该说法来自 Testing Catalog 的试用评价，OpenAI 未公布 Aurora 的发布计划或正式定位。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/62564feb-43f0-4dcd-839a-23c34cd854a4"
-    },
-    {
-      "rank": 8,
-      "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一",
-      "list_title": "NVIDIA RTX Spark 笔记本开售，起价说法不一",
-      "heat": null,
-      "heat_change": "↓ 31 %",
-      "sources": [],
-      "summary": "NVIDIA 的 RTX Spark 笔记本已开售，由 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI 推出，可在单机上运行本地编码智能体并完成编码、测试与部署。NVIDIA 在开售当天的新闻稿中称起价 2,599 美元，并附带面向 Perplexity 新用户的限时优惠；10 月 18 日的博客则称起价 2,399 美元。NVIDIA 称定价与配置因地区而异，小型台式机将于 11 月推出。\n\n产品基于 GB10 SoC，最高 128GB 统一内存、1 petaflop FP4 算力。The Verge 三位编辑用一周时间测试了五款搭载 RTX Spark N1X 芯片的 Windows on Arm 笔记本，售价 2,599.99 至 6,999.99 美元。X 用户卡兹克称，128G+1T 的华硕 ProArt 创16 售价 37,999 元，线上瞬间售罄；其实测 Qwen3.8-27B 约 30 Token/秒，本地 2B 翻译模型可 6 路并发。\n\nOpenClaw 称已在新笔记本上支持开箱即用设置，用户可选择本地…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765"
-    },
-    {
-      "rank": 9,
-      "title": "我国首个全国产十万卡AI超集群真机亮相",
-      "list_title": "我国首个全国产十万卡AI超集群真机亮相",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "我国首个全国产十万卡 AI 超集群“曙光 8000”真机在 2026 全国高性能计算学术大会上亮相。该系统走超算与智算原生融合路线，同一套算力底座既能跑高精度科学计算，也能跑大模型训练和推理。\n\n据央视新闻报道，曙光 8000 今年 8 月官宣投用，当时公布的峰值算力相当于全人类持续计算 200 年；目前支持新材料、创新药、人工智能等 26 个领域 300 多种计算任务。大会期间还将发布十大应用成果。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/55ac5afb-c949-4128-8fee-b0f02d4440cf"
-    },
-    {
-      "rank": 10,
-      "title": "Google Research 开源 Harness² 智能体优化框架",
-      "list_title": "Google Research 开源 Harness² 智能体优化框架",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "Google Research（MarkTechPost 称发布方为 Google Cloud AI Research）开源了 Harness²，一个递归式智能体 Harness 优化框架，版本 v0.1.0，采用 Apache-2.0 许可，项目地址为 github.com/google-research/harness2。\n\n据 MarkTechPost 报道，该框架在模型权重冻结的情况下，迭代优化提示词、工具、记忆、技能等 8 个 harness 组件。报道未说明这些优化的具体效果或适用条件。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/f39d32a1-c72e-4310-b8d5-d7ab5345c6d1"
     }
   ]
 }
