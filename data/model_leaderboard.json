@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T23:26:10+08:00",
-  "fetched_date": "2026-10-18",
+  "generated_at": "2026-10-19T10:01:18+08:00",
+  "fetched_date": "2026-10-19",
   "source": {
     "name": "AIHOT 大模型排行榜",
     "leaderboard_url": "https://aihot.virxact.com/leaderboard",
@@ -179,18 +179,6 @@
     },
     {
       "rank": 15,
-      "name": "Kimi K3",
-      "provider": "Moonshot AI",
-      "release_date": "2026-07-16",
-      "completeness": "32 项评测 覆盖 93 %",
-      "cache_price": "¥2",
-      "input_price": "¥20",
-      "output_price": "¥100",
-      "consensus_score": 63.1,
-      "detail_url": "https://aihot.virxact.com/leaderboard/kimi-k-3"
-    },
-    {
-      "rank": 16,
       "name": "Claude Opus 4.8",
       "provider": "Anthropic",
       "release_date": "2026-05-28",
@@ -200,6 +188,18 @@
       "output_price": "¥167.16",
       "consensus_score": 63.1,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-8"
+    },
+    {
+      "rank": 16,
+      "name": "Kimi K3",
+      "provider": "Moonshot AI",
+      "release_date": "2026-07-16",
+      "completeness": "32 项评测 覆盖 93 %",
+      "cache_price": "¥2",
+      "input_price": "¥20",
+      "output_price": "¥100",
+      "consensus_score": 63.1,
+      "detail_url": "https://aihot.virxact.com/leaderboard/kimi-k-3"
     },
     {
       "rank": 17,

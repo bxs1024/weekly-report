@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T23:25:45+08:00",
-  "fetched_date": "2026-10-18",
+  "generated_at": "2026-10-19T10:01:11+08:00",
+  "fetched_date": "2026-10-19",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
@@ -14,38 +14,38 @@
       "heat": null,
       "heat_change": "",
       "sources": [],
-      "summary": "DeepSeek 将 V4.1 Flash 升级为 DeepSeek-V4.1-Flash-1017，网页端、App 与 API 同步替换，API 调用方式与价格不变，仍用 deepseek-flash 访问。DeepSeek 称新版在全部 11 项基准上较 9 月版提升 2.0 至 11.1 分，任务运行时间与输出长度缩短，并建议升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。\n\n关于权重，IT之家称已同步开放下载、延续 MIT 许可；MarkTechPost 则称 1017 权重与硬件要求未披露。OpenRouter 同日上线该模型，DeepSeek 为首个接入服务商，标价输入 $0.15/百万 token、输出 $0.60/百万 token，上下文 1.05M，暂不支持欧盟区域内路由。\n\n随新版推出的自研搜索 API 中，Search/Fetch 两个接口定价均为 5 元/千次。DeepSeek 称这部分调用目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收费；The Decoder …",
+      "summary": "DeepSeek 将 V4.1 Flash 升级为 DeepSeek-V4.1-Flash-1017，网页端、App 与 API 同步替换，API 调用方式与价格不变，仍用 deepseek-flash 访问。DeepSeek 称新版在全部 11 项基准上较 9 月版提升 2.0 至 11.1 分，任务运行时间与输出长度缩短，并建议升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。Arena 随后公布该模型（Max 版）成为 Code Arena: WebDev 榜单第一开源模型，超过 Kimi K3 (Max)，成本低约 10 倍。\n\n关于权重，IT之家称已同步开放下载、延续 MIT 许可；MarkTechPost 则称 1017 权重与硬件要求未披露。OpenRouter 同日上线该模型，DeepSeek 为首个接入服务商，标价输入 $0.15/百万 token、输出 $0.60/百万 token，上下文 1.05M，暂不支持欧盟区域内路由。\n\n随新版推出的自研搜索 API 中，Search/Fetch 两个接口定价…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45"
     },
     {
       "rank": 2,
+      "title": "Anthropic设公益基金 承诺投入5%股份",
+      "list_title": "Anthropic设公益基金 承诺投入5%股份",
+      "heat": null,
+      "heat_change": "↑ 89 %",
+      "sources": [],
+      "summary": "Anthropic 宣布设立 Anthropic Public Benefit Fund，并承诺向该基金投入公司 5% 股份；该基金是公司全资持有的实体。据 Anthropic 称，这一承诺需经股东批准；此后公司估值每较设定基准上涨 50%，董事会可酌情追加 2%。\n\n该基金可用于向传统非营利组织大额捐赠，或直接向特定人群发放；Anthropic 此前已投入 2 亿美元研究 AI 对就业市场的影响。Anthropic 称，基金持有的公司股权不会用于美国或海外的游说或政治捐款。\n\n基金的结构和治理细节将在未来几个月公布。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/66a54812-6ab2-4206-8573-aaa6ccfc8532"
+    },
+    {
+      "rank": 3,
       "title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥",
       "list_title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "OpenCode 披露，当地时间 10 月 16 日晚发生一起安全漏洞，称源于大规模蒸馏攻击，影响 1.4% 的 OpenCode Console 用户，均为关联了外部服务提供商的用户；OpenCode 已于 17 日上午通过邮件逐一通知，未收到邮件即未受影响。OpenCode 称事件仍在处理中，细节暂不公开，正与 Anthropic、OpenAI 和 Google 合作补救。\n\nAnthropic 的 Lydia Hallie 表示，团队正与 OpenCode 协作处理这起泄露，已撤销疑似受影响的 Claude API 密钥，并建议在 OpenCode 保存过密钥的用户重新创建。\n\n“蒸馏攻击”的定性受到质疑。Nathan Lambert 评论称，把窃取 API 密钥的网络攻击归入“蒸馏”一词很反常，将流向中国的模型转发站混为一谈同样如此；相关流量规模为何如此之大、与模型训练有何关联，目前并不清楚。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/c3562486-19f9-44c5-9544-c3af3e3d43c5"
     },
     {
-      "rank": 3,
-      "title": "Anthropic 发布内部 AI 经济影响研究",
-      "list_title": "Anthropic 发布内部 AI 经济影响研究",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "Anthropic 于 10 月 16 日发布两份内部研究：一份基于公司自身数据，分析 AI 如何改变雇佣与工作组织；另一份对比员工与公众对 AI 经济影响的预期。内部数据显示，到 2026 年 8 月，交互式 AI 智能体的使用时长已达员工的 6 倍；技术部门初级员工占比从 21% 降至 14%，初级技术招聘占比从 27% 降至 9%。TechCrunch 报道称，技术团队占全员比例从 61% 降至 56%，Anthropic 将这一变化归因于业务职能扩张，以及编码工具让非技术员工也能自行开发软件。\n\n预期调查方面，Anthropic 于 2026 年 8 月调查美国成人代表样本（N=10,980）及自家员工，发现双方对 AI 现有能力判断相近，但对进展速度分歧巨大：91% 员工预期 AI 在 2030 年前能做出诺贝尔级发现，公众仅 39%；员工平均预期 AI 能完成其 75% 的当前工作，美国工人仅 28%。据《商业内幕》报道，另一项对比 1334 名员工与美国成年人的调查显示，多数员工预计到 2030 年自己至少 80% 的工作可交给 A…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/4e5cc287-abde-4b0e-acf2-1ef380210117"
-    },
-    {
       "rank": 4,
       "title": "DeepSeek开放自研搜索API并按次计费",
       "list_title": "DeepSeek开放自研搜索API并按次计费",
       "heat": null,
-      "heat_change": "↑ 40 %",
+      "heat_change": "↑ 16 %",
       "sources": [],
       "summary": "DeepSeek 开放自研搜索 API，网页端与 API 端的搜索能力均由自研的 DeepSeek 搜索引擎提供底层支持。DeepSeek 称，该引擎每天稳定处理来自全球的数亿次搜索请求，索引全球千亿级网页并支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC 内容。\n\nDeepSeek 公告称，API 现已支持网页搜索与抓取，按请求次数计费，单价为每 1000 次成功请求 5 元。用户在 DeepSeek Harness、Claude Code、Codex 中通过 Server 端工具调用访问的 Search/Fetch 接口目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收费。",
       "original_links": [],
@@ -53,69 +53,69 @@
     },
     {
       "rank": 5,
-      "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一",
-      "list_title": "NVIDIA RTX Spark 笔记本开售，起价说法不一",
-      "heat": null,
-      "heat_change": "↓ 17 %",
-      "sources": [],
-      "summary": "NVIDIA 的 RTX Spark 笔记本已开售，由 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI 推出，可在单机上运行本地编码智能体并完成编码、测试与部署。NVIDIA 在开售当天的新闻稿中称起价 2,599 美元，并附带面向 Perplexity 新用户的限时优惠；10 月 18 日的博客则称起价 2,399 美元。NVIDIA 称定价与配置因地区而异，小型台式机将于 11 月推出。\n\n产品基于 GB10 SoC，最高 128GB 统一内存、1 petaflop FP4 算力。The Verge 三位编辑用一周时间测试了五款搭载 RTX Spark N1X 芯片的 Windows on Arm 笔记本，售价 2,599.99 至 6,999.99 美元。X 用户卡兹克称，128G+1T 的华硕 ProArt 创16 售价 37,999 元，线上瞬间售罄；其实测 Qwen3.8-27B 约 30 Token/秒，本地 2B 翻译模型可 6 路并发。\n\nOpenClaw 称已在新笔记本上支持开箱即用设置，用户可选择本地…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765"
-    },
-    {
-      "rank": 6,
-      "title": "OpenAI API短暂出现三个aurora模型引用后移除",
-      "list_title": "OpenAI API短暂出现三个aurora模型引用后移除",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "OpenAI 的 API 中最近短暂出现了三个模型引用：aurora-red-alpha、aurora-green-alpha 和 aurora-blue-alpha，随后很快被移除。Testing Catalog 称这是一次误上线。\n\n该账号称，普通用户近期有机会测试这些 alpha 模型的可能性相当低，更可能与新的 Daybreak 更新公告有关，也不排除还计划了其他模型发布。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/62564feb-43f0-4dcd-839a-23c34cd854a4"
-    },
-    {
-      "rank": 7,
       "title": "微软终止与Nscale数据中心合作",
       "list_title": "微软终止与Nscale数据中心合作",
       "heat": null,
-      "heat_change": "↑ 220 %",
+      "heat_change": "",
       "sources": [],
       "summary": "微软终止了与英国数据中心企业 Nscale 在埃塞克斯郡劳顿的数据中心项目合作。据《每日电讯报》报道，Nscale 价值数十亿美元的上市计划因此遭遇重大挫折。\n\n微软是 Nscale 最大的两家客户之一，另一家为 Anthropic。Nscale 上个月已在美国提交 IPO 申请，两年半内合同总金额从 1 亿美元增长至超过 1,030 亿美元。双方均未回应置评请求。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/a7a67ccd-5e78-4e12-9b42-fef5515ac35a"
     },
     {
-      "rank": 8,
-      "title": "Claude 查明 NIST 椭圆曲线种子来源",
-      "list_title": "Claude 查明 NIST 椭圆曲线种子来源",
+      "rank": 6,
+      "title": "Anthropic 发布内部 AI 经济影响研究",
+      "list_title": "Anthropic 发布内部 AI 经济影响研究",
+      "heat": null,
+      "heat_change": "↓ 15 %",
+      "sources": [],
+      "summary": "Anthropic 于 10 月 16 日发布两份内部研究：一份基于公司自身数据，分析 AI 如何改变雇佣与工作组织；另一份对比员工与公众对 AI 经济影响的预期。内部数据显示，到 2026 年 8 月，交互式 AI 智能体的使用时长已达员工的 6 倍；技术部门初级员工占比从 21% 降至 14%，初级技术招聘占比从 27% 降至 9%。TechCrunch 报道称，技术团队占全员比例从 61% 降至 56%，Anthropic 将这一变化归因于业务职能扩张，以及编码工具让非技术员工也能自行开发软件。\n\n预期调查方面，Anthropic 于 2026 年 8 月调查美国成人代表样本（N=10,980）及自家员工，发现双方对 AI 现有能力判断相近，但对进展速度分歧巨大：91% 员工预期 AI 在 2030 年前能做出诺贝尔级发现，公众仅 39%；员工平均预期 AI 能完成其 75% 的当前工作，美国工人仅 28%。据《商业内幕》报道，另一项对比 1334 名员工与美国成年人的调查显示，多数员工预计到 2030 年自己至少 80% 的工作可交给 A…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/4e5cc287-abde-4b0e-acf2-1ef380210117"
+    },
+    {
+      "rank": 7,
+      "title": "OpenAI API 短暂出现三个 aurora 模型引用后移除",
+      "list_title": "OpenAI API 短暂出现三个 aurora 模型引用后移除",
       "heat": null,
       "heat_change": "↓ 16 %",
       "sources": [],
-      "summary": "Anthropic 称，其内部研究模型 Claude 在不到半小时内查明 NIST P-192、P-224、P-256、P-384、P-521 五条标准椭圆曲线种子的来源：这些种子并非哈希结果，而是以 Unix 时间戳初始化的 C 库 lrand48 随机数生成器的输出，例如 P-256 需迭代 1842 次。团队已公开复现代码。\n\nAnthropic 强调，这不是对 ECDSA 的破解，没有发现新的攻击方式或曲线弱点，用户无需因此采取措施。该发现对应的 36,864 美元奖金将捐给互联网安全研究组（Internet Security Research Group）。\n\n据 The Decoder 报道，这些曲线于 2000 年标准化，种子由 NSA 提供且来源不明，长期引发后门怀疑；X 用户 Yuchen Jin 则称这是悬置 25 年的密码学谜题。",
+      "summary": "OpenAI 的 API 中短暂出现了 aurora-red-alpha、aurora-green-alpha 和 aurora-blue-alpha 三个模型引用，随后很快被移除。Testing Catalog 称这是一次误上线，并认为普通用户近期有机会测试这些 alpha 模型的可能性相当低，更可能与新的 Daybreak 更新公告有关，也不排除还计划了其他模型发布。\n\n次日，Testing Catalog 称已在 Arena 上试用 OpenAI 的新 \"Aurora\" 图像模型，并称其输出优于 gpt-image-2.5-flare，尤其在配色方案上。该说法来自 Testing Catalog 的试用评价，OpenAI 未公布 Aurora 的发布计划或正式定位。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/081bf642-6816-4c84-929e-3d3837dcfdb5"
+      "story_url": "https://aihot.virxact.com/story/62564feb-43f0-4dcd-839a-23c34cd854a4"
+    },
+    {
+      "rank": 8,
+      "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一",
+      "list_title": "NVIDIA RTX Spark 笔记本开售，起价说法不一",
+      "heat": null,
+      "heat_change": "↓ 31 %",
+      "sources": [],
+      "summary": "NVIDIA 的 RTX Spark 笔记本已开售，由 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI 推出，可在单机上运行本地编码智能体并完成编码、测试与部署。NVIDIA 在开售当天的新闻稿中称起价 2,599 美元，并附带面向 Perplexity 新用户的限时优惠；10 月 18 日的博客则称起价 2,399 美元。NVIDIA 称定价与配置因地区而异，小型台式机将于 11 月推出。\n\n产品基于 GB10 SoC，最高 128GB 统一内存、1 petaflop FP4 算力。The Verge 三位编辑用一周时间测试了五款搭载 RTX Spark N1X 芯片的 Windows on Arm 笔记本，售价 2,599.99 至 6,999.99 美元。X 用户卡兹克称，128G+1T 的华硕 ProArt 创16 售价 37,999 元，线上瞬间售罄；其实测 Qwen3.8-27B 约 30 Token/秒，本地 2B 翻译模型可 6 路并发。\n\nOpenClaw 称已在新笔记本上支持开箱即用设置，用户可选择本地…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765"
     },
     {
       "rank": 9,
-      "title": "Anthropic 联创称 AI 到 2030 年可推高美国 GDP 近 50%",
-      "list_title": "Anthropic 联创称 AI 到 2030 年可推高美国 GDP 近 50%",
+      "title": "我国首个全国产十万卡AI超集群真机亮相",
+      "list_title": "我国首个全国产十万卡AI超集群真机亮相",
       "heat": null,
       "heat_change": "↓ 16 %",
       "sources": [],
-      "summary": "Anthropic 联合创始人 Jack Clark 在 IMF 与世界银行年会上称，公司内部模型预测，在技术持续进步的前提下，到 2030 年 AI 可使美国经济产出提升近 50%，从当前略高于 30 万亿美元增至 44 万亿美元。\n\n这一数字来自 Anthropic 的内部测算，是 Clark 在会议上的说法，并非已实现的增长；其成立前提是技术持续进步。",
+      "summary": "我国首个全国产十万卡 AI 超集群“曙光 8000”真机在 2026 全国高性能计算学术大会上亮相。该系统走超算与智算原生融合路线，同一套算力底座既能跑高精度科学计算，也能跑大模型训练和推理。\n\n据央视新闻报道，曙光 8000 今年 8 月官宣投用，当时公布的峰值算力相当于全人类持续计算 200 年；目前支持新材料、创新药、人工智能等 26 个领域 300 多种计算任务。大会期间还将发布十大应用成果。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/415f8e37-5dad-489c-a6e0-2606ac179820"
+      "story_url": "https://aihot.virxact.com/story/55ac5afb-c949-4128-8fee-b0f02d4440cf"
     },
     {
       "rank": 10,
-      "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行",
-      "list_title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行",
+      "title": "Google Research 开源 Harness² 智能体优化框架",
+      "list_title": "Google Research 开源 Harness² 智能体优化框架",
       "heat": null,
-      "heat_change": "↓ 38 %",
+      "heat_change": "↓ 16 %",
       "sources": [],
-      "summary": "Meta 发布开放权重模型 Muse Spark Open，总参数 816B、每 token 激活 42B，上下文窗口 1M token，原生支持文本、图像、音频、视频输入，主打编码与长程智能体任务。Meta 称其为迄今最强的美国开放权重模型，权重以 Muse Model License 在 Hugging Face 等平台开放下载，并同步上线 Baseten、Fireworks AI、Groq、Modal、Nebius、OpenRouter、Together AI 等 API 平台。Artificial Analysis 称该模型在其 Intelligence Index 得 39 分，为美国开放权重模型第一；Arena 后续公布其在 Code Arena: WebDev 以 1511 分居美国开源模型第一、开源模型总榜第 13。\n\nApple 机器学习研究团队演示用新版 MLX（v0.30.1 起）与 macOS 26.2 的 RDMA over Thunderbolt 驱动，在两台 Apple M5 Ultra Mac Studio 上本地…",
+      "summary": "Google Research（MarkTechPost 称发布方为 Google Cloud AI Research）开源了 Harness²，一个递归式智能体 Harness 优化框架，版本 v0.1.0，采用 Apache-2.0 许可，项目地址为 github.com/google-research/harness2。\n\n据 MarkTechPost 报道，该框架在模型权重冻结的情况下，迭代优化提示词、工具、记忆、技能等 8 个 harness 组件。报道未说明这些优化的具体效果或适用条件。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/2f0270d6-fc22-4747-af7c-a4f488d3cd16"
+      "story_url": "https://aihot.virxact.com/story/f39d32a1-c72e-4310-b8d5-d7ab5345c6d1"
     }
   ]
 }
