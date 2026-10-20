@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-10-21T00:24:11+08:00",
+  "fetched_date": "2026-10-21",
+  "source": {
+    "name": "AIHOT 热点榜",
+    "url": "https://aihot.virxact.com/hot",
+    "note": "过去 48 小时最热的 AI 事件，按精选报道与讨论热度实时排序。本页为全球 AI 视野补充，点击跳转原始来源。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "DeepSeek 开源内部推理框架 DeepInfer",
+      "list_title": "DeepSeek 开源内部推理框架 DeepInfer",
+      "heat": null,
+      "heat_change": "↑ 112 %",
+      "sources": [],
+      "summary": "DeepSeek 将内部使用的大规模推理框架 DeepInfer 全面开源，代码托管在 GitHub（github.com/deepseek-ai/DeepInfer），采用 Apache-2.0 许可，并同步开源 Token 编解码组件 deepseek-recipe（MarkTechPost 称其采用 MIT 许可）。官方称该框架已支撑 DeepSeek-V4.1-Flash 的高吞吐、低延迟推理，开源旨在帮助社区降低算力成本与能耗；IT之家称其兼容英伟达与华为昇腾平台。\n\n关于开源范围，Rohan Paul 称该版本只运行 DeepSeek-V4.1-Flash，限于英伟达 SM100 GPU 或华为昇腾 950 芯片，覆盖离线推理而非完整服务栈，未包含 KV cache 系统、prefill 与 decode 分离及多副本负载均衡。MarkTechPost 同样称其为离线推理，并列出构建需 Linux、GCC 13 以上、Python 3.12，以及 CUDA 13 或 CANN 9.2。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/dae7c054-a1fe-423d-bf36-68d8d8959457"
+    },
+    {
+      "rank": 2,
+      "title": "MiniMax 发布 M3.1 Flash，权重 10 月 23 日开放",
+      "list_title": "MiniMax 发布 M3.1 Flash，权重 10 月 23 日开放",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "MiniMax 正式发布 M3.1 Flash，已上线 MiniMax API、MPlan 和 MiniMax Code，权重定于 10 月 23 日开放，许可证尚未公布。官方称其以 M3 三分之一的成本、约 3 倍速度达到前沿级智能体表现，日常输出可达 200+ TPS；API 定价为输入每百万 Token 1 元、输出 4 元、缓存读取 0.1 元，英文口径为 $0.15/$0.60/$0.015，MarkTechPost 称无长上下文附加费。\n\n此前在 OpenRouter 匿名测试的 Space Bunny 被确认为其早期版本：OpenRouter 称其匿名期间连续 10 天居首、处理 56.7T token，回归后免费 72 小时；OpenCode 称其连续 12 天排名第一、累计 106T token，上架后免费 3 天；Cline 也于发布当日上线并免费开放。Ollama 和 GMI Cloud 称已 Day0 上线，OpenClaw 称在 v2026.10.1 及以上版本可直接使用。\n\n官方评测成绩包括 DeepSWE v1.1 …",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/589d286a-2a6d-48be-b14a-e61390534ec3"
+    },
+    {
+      "rank": 3,
+      "title": "美国土安全部令联邦文职机构移除DeepSeek及关联产品",
+      "list_title": "美国土安全部令联邦文职机构移除DeepSeek及关联产品",
+      "heat": null,
+      "heat_change": "↑ 23 %",
+      "sources": [],
+      "summary": "美国国土安全部依据2018年《联邦采购供应链安全法》发布2026-01号命令，要求所有联邦文职机构立即停止采购杭州DeepSeek及其关联方产品，并立即从信息技术系统中移除DeepSeek及关联产品，以及使用DeepSeek实现开发的第三方产品和服务。DHS称，使用该模型存在向北京传输敏感数据的风险，模型可能包含恶意软件或安全漏洞。\n\n命令设有例外：机构须在命令发布后60天内以书面形式提出申请并给出“充分理由”，例如无法完成关键任务功能；国家安全系统和保密隔离信息系统不在命令适用范围内。The Decoder报道称，该命令未设移除期限，也未说明具体安全担忧。相关公告显示，该命令定于2026年10月20日刊登于《联邦公报》。\n\n中国外交部发言人毛宁10月20日在例行记者会上回应称，中方一贯反对泛化国家安全概念、将科技经贸问题政治化，将坚决维护中国企业的合法权益。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/c23155c2-2ff3-45e5-a3ab-4ed6a5217d72"
+    },
+    {
+      "rank": 4,
+      "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
+      "list_title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "DeepSeek 将 V4.1 Flash 升级为 DeepSeek-V4.1-Flash-1017，网页端、App 与 API 同步替换，API 调用方式与价格不变，仍用 deepseek-flash 访问。DeepSeek 称新版在全部 11 项基准上较 9 月版提升 2.0 至 11.1 分，任务运行时间与输出长度缩短，并建议升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。Arena 随后公布该模型（Max 版）成为 Code Arena: WebDev 与 Agent Arena 的第一开源模型，后者总榜第 11；Artificial Analysis 智能指数得分 45，较旧版提高 6 分，与 GLM-5.3 并列开源权重模型第二。ValsAI 称初步评测显示该模型在多步攻击性网络安全任务上胜过 GPT 6 Sol，完整评测将于数周内公开。\n\n关于权重，IT之家称已同步开放下载、延续 MIT 许可；MarkTechPost 则称 1017 权重与硬件要求未披露。OpenRouter 同日上线该模型，DeepS…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45"
+    },
+    {
+      "rank": 5,
+      "title": "Anthropic设公益基金 承诺投入5%股份",
+      "list_title": "Anthropic设公益基金 承诺投入5%股份",
+      "heat": null,
+      "heat_change": "↓ 18 %",
+      "sources": [],
+      "summary": "Anthropic 宣布设立公司全资持有的 Anthropic Public Benefit Fund，并承诺向该基金投入公司 5% 股份。据 Anthropic 称，这一承诺需经股东批准；此后公司估值每较设定基准上涨 50%，董事会可酌情追加 2%。有社交媒体帖子按 9650 亿美元估值估算，这 5% 股份约合 480 亿美元。\n\n该基金可用于向传统非营利组织大额捐赠，或直接向特定人群发放；Anthropic 此前已投入 2 亿美元研究 AI 对就业市场的影响。Anthropic 称，基金持有的公司股权不会用于美国或海外的游说或政治捐款。\n\n基金的结构和治理细节将在未来几个月公布。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/66a54812-6ab2-4206-8573-aaa6ccfc8532"
+    },
+    {
+      "rank": 6,
+      "title": "OpenAI 拟以超1.4万亿美元估值融资300亿美元",
+      "list_title": "OpenAI 拟以超1.4万亿美元估值融资300亿美元",
+      "heat": null,
+      "heat_change": "↑ 20 %",
+      "sources": [],
+      "summary": "据路透报道，OpenAI 正洽谈融资约 300 亿美元，估值超过 1.4 万亿美元，并希望在 Anthropic 上市前完成。这一估值比 3 月的 8520 亿美元至少高 64%。\n\n融资尚未完成，金额与估值均为洽谈中的数字。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd"
+    },
+    {
+      "rank": 7,
+      "title": "Mercury 3 发布：速度与评测争议",
+      "list_title": "Mercury 3 发布：速度与评测争议",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Inception Labs 发布扩散式大语言模型 Mercury 3，称其在 NVIDIA GPU 上达到 1,068 tokens/秒，上下文窗口为 1M token，参数量超过 Mercury 1 的 40 倍，并在 IFBench、GPQA Diamond 和 SWE-Bench Atlas 上超过 GPT-6 Luna 和 Claude Haiku 5.5。该模型已上线 OpenRouter，仅提供 API，不开放权重或量化版本。\n\n定价为每百万输入 token 0.20 美元、每百万输出 token 0.70 美元；上线期五折，即每百万输入 token 0.10 美元、每百万输出 token 0.35 美元，缓存 token 在输入价基础上再打一折，新账户可获 1 亿免费 token。\n\nArtificial Analysis 澄清，Inception 发布图中引用的 AA-Omniscience 和 GDPval-AA v2 分数并非其 Intelligence Index，不遵循其方法学，不能与 Artificial Analys…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/734c8ed5-330d-4d7c-bea5-a97d9707cfd8"
+    },
+    {
+      "rank": 8,
+      "title": "Viggle AI 发布 3D 原生世界模型 JST-2",
+      "list_title": "Viggle AI 发布 3D 原生世界模型 JST-2",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "Viggle AI 发布 JST-2，称其为“全球首个全栈物理原生世界基础模型”。该模型在 3D 空间中构建整个模型栈，而非在像素或视频空间中学习，路线与 Sora、Genie、Cosmos 等相反。\n\nViggle AI 称，JST-2 可在数秒内生成 3D 场景并实时扩展，并通过一个通用架构创建内置动作的角色。上述“首个”和性能表述均来自 Viggle AI 的发布说法。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/2a27c578-b55e-4bf5-9683-dd4abfe841da"
+    },
+    {
+      "rank": 9,
+      "title": "Anthropic与Nscale洽谈第二笔450亿美元算力协议",
+      "list_title": "Anthropic与Nscale洽谈第二笔450亿美元算力协议",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "据 Bloomberg 援引知情人士报道，Anthropic 与 Nscale 正洽谈第二笔 450 亿美元算力协议，双方接近宣布，距上月公布的首笔同规模交易仅一个多月。消息人士提醒，谈判仍在进行，细节可能变化。\n\n跟进报道称，这笔协议将把 Anthropic 在西弗吉尼亚州 Monarch Compute Campus 的预留容量翻倍至 920 MW。\n\n两家公司均在推进 IPO。Nscale 拟以 300 亿美元估值上市，但遭遇投资者阻力；大规模算力投入也令部分投资者担忧回报。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/251e87c1-0766-4f22-81b3-13fc84cfed38"
+    },
+    {
+      "rank": 10,
+      "title": "AWS 开源 TorchNeuron，Trainium 原生支持 PyTorch",
+      "list_title": "AWS 开源 TorchNeuron，Trainium 原生支持 PyTorch",
+      "heat": null,
+      "heat_change": "↓ 15 %",
+      "sources": [],
+      "summary": "AWS 发布 TorchNeuron，一个面向 Trainium 芯片的开源原生 PyTorch 后端，10 月 20 日以 Apache 2.0 协议在 github.com/aws-neuron/torch-neuronx 开启公测，开发者可通过 pip install torch-neuronx 安装。AWS 称，已有 PyTorch 模型代码、库和工具可直接在 Trainium 上运行。\n\n据 TechCrunch 报道，基于 PyTorch 的 AI 应用只需改一行配置即可迁移到 Trainium，无需重写代码，直接挑战 Nvidia 凭借 CUDA 在 PyTorch 生态中的默认地位。\n\nHugging Face 同日宣布，其 Transformers、Diffusers、Accelerate、PEFT 和 TRL 库已通过 TorchNeuron 原生支持 AWS Trainium。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/d4a859a3-d22e-4a8a-9b02-a8b854a91e44"
+    }
+  ]
+}
