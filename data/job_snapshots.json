@@ -1,11 +1,39 @@
 {
   "version": 1,
-  "generated_at": "2026-10-20T13:39:13.387598+08:00",
+  "generated_at": "2026-10-21T05:29:47.976363+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-20T13:39:13.387598+08:00",
+      "observed_at": "2026-10-21T05:29:47.976363+08:00",
       "jobs": [
+        {
+          "id": "744000156513729",
+          "title": "Senior Analyst, Business Operations",
+          "url": "https://www.grab.careers/en/jobs/744000156513729/senior-analyst-business-operations/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000156467330",
+          "title": "Intern, Occupational Health, Safety, & Wellbeing",
+          "url": "https://www.grab.careers/en/jobs/744000156467330/intern-occupational-health-safety-wellbeing/",
+          "function_tags": []
+        },
+        {
+          "id": "744000156463250",
+          "title": "Manager, Procurement Governance & Intelligence",
+          "url": "https://www.grab.careers/en/jobs/744000156463250/manager-procurement-governance-intelligence/",
+          "function_tags": []
+        },
+        {
+          "id": "744000156462005",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000156462005/lead-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000156296689",
           "title": "Transportation Operation Assistant Manager",
@@ -114,42 +142,12 @@
           "function_tags": [
             "compliance"
           ]
-        },
-        {
-          "id": "744000156224259",
-          "title": "Intern, Account Management, Merchant Growth",
-          "url": "https://www.grab.careers/en/jobs/744000156224259/intern-account-management-merchant-growth/",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "744000156181749",
-          "title": "Software Engineer, ios",
-          "url": "https://www.grab.careers/en/jobs/744000156181749/software-engineer-ios/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000156029459",
-          "title": "Lead Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000156029459/lead-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000155969821",
-          "title": "Food Demand Strategy, Assistant Manager",
-          "url": "https://www.grab.careers/en/jobs/744000155969821/food-demand-strategy-assistant-manager/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-20T13:39:13.387598+08:00",
+      "observed_at": "2026-10-21T05:29:47.976363+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -190,7 +188,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-20T13:39:13.387598+08:00",
+      "observed_at": "2026-10-21T05:29:47.976363+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
@@ -333,6 +331,14 @@
           ]
         },
         {
+          "id": "8441801f-1a0e-42c6-8838-cc15af655923",
+          "title": "Associate General Counsel, Product (Fintech) Remote - Americas",
+          "url": "https://www.shopify.com/careers/associate-general-counsel-product-fintech_8441801f-1a0e-42c6-8838-cc15af655923",
+          "function_tags": [
+            "payments"
+          ]
+        },
+        {
           "id": "d6bd5347-c156-4fa4-bb99-3bf5b43e93d7",
           "title": "Compliance Lead Remote - Americas",
           "url": "https://www.shopify.com/careers/compliance-lead_d6bd5347-c156-4fa4-bb99-3bf5b43e93d7",
@@ -440,6 +446,12 @@
           "id": "5e568bfc-8aae-4c83-8ca8-073f1636c1db",
           "title": "Talent Density - Learning & Development, Revenue Remote - Americas",
           "url": "https://www.shopify.com/careers/talent-density-learning-development-revenue_5e568bfc-8aae-4c83-8ca8-073f1636c1db",
+          "function_tags": []
+        },
+        {
+          "id": "4c69c031-a183-4bb6-b55d-c3164d8b7625",
+          "title": "Technical Recruiter Remote - Canada",
+          "url": "https://www.shopify.com/careers/technical-recruiter_4c69c031-a183-4bb6-b55d-c3164d8b7625",
           "function_tags": []
         }
       ]

@@ -1,7 +1,86 @@
 {
   "version": 1,
-  "generated_at": "2026-10-20T13:39:13.387598+08:00",
+  "generated_at": "2026-10-21T05:29:47.976363+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-938efb7f13be4540",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "operations",
+      "window": "2026-W43",
+      "window_start": "2026-10-21",
+      "window_end": "2026-10-21",
+      "detected_at": "2026-10-21T05:29:47.976363+08:00",
+      "baseline_count": 19,
+      "current_count": 19,
+      "added_count": 4,
+      "removed_count": 4,
+      "clusters": {
+        "operations": 1,
+        "engineering": 1
+      },
+      "removed_clusters": {
+        "sales": 1,
+        "engineering": 2
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000156513729",
+          "title": "Senior Analyst, Business Operations",
+          "url": "https://www.grab.careers/en/jobs/744000156513729/senior-analyst-business-operations/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156467330",
+          "title": "Intern, Occupational Health, Safety, & Wellbeing",
+          "url": "https://www.grab.careers/en/jobs/744000156467330/intern-occupational-health-safety-wellbeing/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156463250",
+          "title": "Manager, Procurement Governance & Intelligence",
+          "url": "https://www.grab.careers/en/jobs/744000156463250/manager-procurement-governance-intelligence/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156462005",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000156462005/lead-software-engineer-backend/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156224259",
+          "title": "Intern, Account Management, Merchant Growth",
+          "url": "https://www.grab.careers/en/jobs/744000156224259/intern-account-management-merchant-growth/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000156181749",
+          "title": "Software Engineer, ios",
+          "url": "https://www.grab.careers/en/jobs/744000156181749/software-engineer-ios/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000156029459",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000156029459/lead-software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155969821",
+          "title": "Food Demand Strategy, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000155969821/food-demand-strategy-assistant-manager/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-4b1d07892b011535",
       "entity_id": "grab",
