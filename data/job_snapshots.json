@@ -1,11 +1,59 @@
 {
   "version": 1,
-  "generated_at": "2026-10-21T13:41:31.911052+08:00",
+  "generated_at": "2026-10-22T05:31:38.632016+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-21T13:41:31.911052+08:00",
+      "observed_at": "2026-10-22T05:31:38.632016+08:00",
       "jobs": [
+        {
+          "id": "744000156843879",
+          "title": "Lead Software Engineer in Test (Mobile)",
+          "url": "https://www.grab.careers/en/jobs/744000156843879/lead-software-engineer-in-test-mobile/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000156743029",
+          "title": "Engineering Manager II, FundsCore",
+          "url": "https://www.grab.careers/en/jobs/744000156743029/engineering-manager-ii-fundscore/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000156730301",
+          "title": "Intern, Social Media & Partner Engagement",
+          "url": "https://www.grab.careers/en/jobs/744000156730301/intern-social-media-partner-engagement/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
+          "id": "744000156727343",
+          "title": "Senior Data Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000156727343/senior-data-engineer/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000156728065",
+          "title": "Intern, Marketing and Partnership (GrabRentals)",
+          "url": "https://www.grab.careers/en/jobs/744000156728065/intern-marketing-and-partnership-grabrentals/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
+          "id": "744000156727044",
+          "title": "Intern, Partner Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000156727044/intern-partner-acquisition/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
         {
           "id": "744000156708049",
           "title": "Large Area Associate (Contract)",
@@ -73,6 +121,12 @@
           ]
         },
         {
+          "id": "744000156459260",
+          "title": "Productivity & Engagement Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000156459260/productivity-engagement-assistant-manager/",
+          "function_tags": []
+        },
+        {
           "id": "744000156459119",
           "title": "Fleet Management Assistant Manager",
           "url": "https://www.grab.careers/en/jobs/744000156459119/fleet-management-assistant-manager/",
@@ -91,55 +145,12 @@
           "title": "Transportation Operation Assistant Manager",
           "url": "https://www.grab.careers/en/jobs/744000156296689/transportation-operation-assistant-manager/",
           "function_tags": []
-        },
-        {
-          "id": "744000156285315",
-          "title": "People Research Scientist, People Analytics",
-          "url": "https://www.grab.careers/en/jobs/744000156285315/people-research-scientist-people-analytics/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000156282409",
-          "title": "Driver Support Specialist",
-          "url": "https://www.grab.careers/en/jobs/744000156282409/driver-support-specialist/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000156278269",
-          "title": "Financial, Planning and Analysis Associate",
-          "url": "https://www.grab.careers/en/jobs/744000156278269/financial-planning-and-analysis-associate/",
-          "function_tags": []
-        },
-        {
-          "id": "744000156275589",
-          "title": "Manager, Merchant Acquisition - GrabMart",
-          "url": "https://www.grab.careers/en/jobs/744000156275589/manager-merchant-acquisition-grabmart/",
-          "function_tags": []
-        },
-        {
-          "id": "744000156260400",
-          "title": "Solutions Specialist (EPM), Finance Systems",
-          "url": "https://www.grab.careers/en/jobs/744000156260400/solutions-specialist-epm-finance-systems/",
-          "function_tags": []
-        },
-        {
-          "id": "744000156252394",
-          "title": "Senior AI Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000156252394/senior-ai-engineer/",
-          "function_tags": [
-            "ai",
-            "engineering"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-21T13:41:31.911052+08:00",
+      "observed_at": "2026-10-22T05:31:38.632016+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -180,7 +191,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-21T13:41:31.911052+08:00",
+      "observed_at": "2026-10-22T05:31:38.632016+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",

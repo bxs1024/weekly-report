@@ -1,25 +1,26 @@
 {
-  "observed_at": "2026-10-21T13:41:31.911052+08:00",
+  "observed_at": "2026-10-22T05:31:38.632016+08:00",
   "source_count": 3,
-  "raw_count": 59,
+  "raw_count": 60,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 16,
-      "inventory_count": 19,
+      "count": 13,
+      "inventory_count": 20,
       "signal_count": 1,
-      "added_count": 8,
-      "removed_count": 8,
+      "added_count": 7,
+      "removed_count": 6,
       "clusters": {
-        "engineering": 2
+        "engineering": 3,
+        "partnerships": 3
       },
       "removed_clusters": {
-        "engineering": 4,
-        "operations": 1,
-        "compliance": 1
+        "operations": 2,
+        "ai": 1,
+        "engineering": 1
       }
     },
     "Stripe Jobs": {
@@ -40,11 +41,11 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 1,
+      "count": 0,
       "inventory_count": 35,
       "signal_count": 0,
       "added_count": 0,
-      "removed_count": 1,
+      "removed_count": 0,
       "clusters": {},
       "removed_clusters": {}
     }
@@ -60,116 +61,99 @@
       "signal_type": "function_buildout",
       "cluster": "engineering",
       "window": "2026-W43",
-      "window_start": "2026-10-21",
-      "window_end": "2026-10-21",
-      "detected_at": "2026-10-21T13:41:31.911052+08:00",
+      "window_start": "2026-10-22",
+      "window_end": "2026-10-22",
+      "detected_at": "2026-10-22T05:31:38.632016+08:00",
       "baseline_count": 19,
-      "current_count": 19,
-      "added_count": 8,
-      "removed_count": 8,
+      "current_count": 20,
+      "added_count": 7,
+      "removed_count": 6,
       "clusters": {
-        "engineering": 2
+        "engineering": 3,
+        "partnerships": 3
       },
       "removed_clusters": {
-        "engineering": 4,
-        "operations": 1,
-        "compliance": 1
+        "operations": 2,
+        "ai": 1,
+        "engineering": 1
       },
       "evidence_refs": [
         {
-          "job_id": "744000156708049",
-          "title": "Large Area Associate (Contract)",
-          "url": "https://www.grab.careers/en/jobs/744000156708049/large-area-associate-contract/",
+          "job_id": "744000156843879",
+          "title": "Lead Software Engineer in Test (Mobile)",
+          "url": "https://www.grab.careers/en/jobs/744000156843879/lead-software-engineer-in-test-mobile/",
           "change": "added"
         },
         {
-          "job_id": "744000156707439",
-          "title": "Merchant Acquisition Lead",
-          "url": "https://www.grab.careers/en/jobs/744000156707439/merchant-acquisition-lead/",
+          "job_id": "744000156743029",
+          "title": "Engineering Manager II, FundsCore",
+          "url": "https://www.grab.careers/en/jobs/744000156743029/engineering-manager-ii-fundscore/",
           "change": "added"
         },
         {
-          "job_id": "744000156706009",
-          "title": "Senior Software Engineer, Fullstack",
-          "url": "https://www.grab.careers/en/jobs/744000156706009/senior-software-engineer-fullstack/",
+          "job_id": "744000156730301",
+          "title": "Intern, Social Media & Partner Engagement",
+          "url": "https://www.grab.careers/en/jobs/744000156730301/intern-social-media-partner-engagement/",
           "change": "added"
         },
         {
-          "job_id": "744000156705769",
-          "title": "Head, Cluster Controllership & Finance Governance",
-          "url": "https://www.grab.careers/en/jobs/744000156705769/head-cluster-controllership-finance-governance/",
+          "job_id": "744000156727343",
+          "title": "Senior Data Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000156727343/senior-data-engineer/",
           "change": "added"
         },
         {
-          "job_id": "744000156513931",
-          "title": "Assistant Manager, Driver Acquisition Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000156513931/assistant-manager-driver-acquisition-strategy/",
+          "job_id": "744000156728065",
+          "title": "Intern, Marketing and Partnership (GrabRentals)",
+          "url": "https://www.grab.careers/en/jobs/744000156728065/intern-marketing-and-partnership-grabrentals/",
           "change": "added"
         },
         {
-          "job_id": "744000156497392",
-          "title": "Data Scientist (Product Analytics)",
-          "url": "https://www.grab.careers/en/jobs/744000156497392/data-scientist-product-analytics/",
+          "job_id": "744000156727044",
+          "title": "Intern, Partner Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000156727044/intern-partner-acquisition/",
           "change": "added"
         },
         {
-          "job_id": "744000156459119",
-          "title": "Fleet Management Assistant Manager",
-          "url": "https://www.grab.careers/en/jobs/744000156459119/fleet-management-assistant-manager/",
+          "job_id": "744000156459260",
+          "title": "Productivity & Engagement Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000156459260/productivity-engagement-assistant-manager/",
           "change": "added"
         },
         {
-          "job_id": "744000156458079",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000156458079/senior-software-engineer-backend/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000156250029",
-          "title": "Lead Software Engineer, Fullstack",
-          "url": "https://www.grab.careers/en/jobs/744000156250029/lead-software-engineer-fullstack/",
+          "job_id": "744000156285315",
+          "title": "People Research Scientist, People Analytics",
+          "url": "https://www.grab.careers/en/jobs/744000156285315/people-research-scientist-people-analytics/",
           "change": "removed"
         },
         {
-          "job_id": "744000156248185",
-          "title": "Senior Network Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000156248185/senior-network-engineer/",
+          "job_id": "744000156282409",
+          "title": "Driver Support Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000156282409/driver-support-specialist/",
           "change": "removed"
         },
         {
-          "job_id": "744000156249489",
-          "title": "Lead Data Engineer, Metrics Platform",
-          "url": "https://www.grab.careers/en/jobs/744000156249489/lead-data-engineer-metrics-platform/",
+          "job_id": "744000156278269",
+          "title": "Financial, Planning and Analysis Associate",
+          "url": "https://www.grab.careers/en/jobs/744000156278269/financial-planning-and-analysis-associate/",
           "change": "removed"
         },
         {
-          "job_id": "744000156237654",
-          "title": "Operations Analytics Assistant Manager",
-          "url": "https://www.grab.careers/en/jobs/744000156237654/operations-analytics-assistant-manager/",
+          "job_id": "744000156275589",
+          "title": "Manager, Merchant Acquisition - GrabMart",
+          "url": "https://www.grab.careers/en/jobs/744000156275589/manager-merchant-acquisition-grabmart/",
           "change": "removed"
         },
         {
-          "job_id": "744000156234441",
-          "title": "Senior Data Scientist (Analytics)",
-          "url": "https://www.grab.careers/en/jobs/744000156234441/senior-data-scientist-analytics/",
+          "job_id": "744000156260400",
+          "title": "Solutions Specialist (EPM), Finance Systems",
+          "url": "https://www.grab.careers/en/jobs/744000156260400/solutions-specialist-epm-finance-systems/",
           "change": "removed"
         },
         {
-          "job_id": "744000156229574",
-          "title": "Forward Deployed Engineer, Robotics",
-          "url": "https://www.grab.careers/en/jobs/744000156229574/forward-deployed-engineer-robotics/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000156227489",
-          "title": "IT Executive",
-          "url": "https://www.grab.careers/en/jobs/744000156227489/it-executive/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000156227099",
-          "title": "Senior Data Analyst, Compliance",
-          "url": "https://www.grab.careers/en/jobs/744000156227099/senior-data-analyst-compliance/",
+          "job_id": "744000156252394",
+          "title": "Senior AI Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000156252394/senior-ai-engineer/",
           "change": "removed"
         }
       ],
@@ -178,5 +162,5 @@
       "promoted_event_id": ""
     }
   ],
-  "promoted_count": 1
+  "promoted_count": 0
 }
