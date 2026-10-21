@@ -54941,11 +54941,11 @@
       ],
       "level": "D",
       "score": 2,
-      "summary_short": "Cloudflare更新One客户端下载页",
+      "summary_short": "Cloudflare上线One Client稳定版下载页",
       "reason": "Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化",
       "impact": "开发者、集成商和生态合作伙伴",
       "insight_label": "背景补充",
-      "trend_topic": "全球零信任安全部署",
+      "trend_topic": "零信任客户端普及",
       "companies": [],
       "is_company": true,
       "company_name": "Cloudflare",
@@ -54985,7 +54985,7 @@
       "needs_repair": true,
       "analysis_source": "program",
       "analysis_status": "fallback",
-      "content_overview": "Cloudflare更新Cloudflare One客户端稳定版下载页面，提供最新版本下载入口。",
+      "content_overview": "Cloudflare上线Cloudflare One Client稳定版本下载页面，集中提供Zero Trust客户端安装包",
       "merged_from": [
         "https://developers.cloudflare.com/cloudflare-one/team-and-resources/devices/cloudflare-one-client/download/"
       ]
@@ -241044,8 +241044,8 @@
       "view_priority": "selected"
     },
     {
-      "title": "Cloudflare: WAF Release - 2026-09-08",
-      "url": "https://developers.cloudflare.com/changelog/post/2026-09-08-waf-release/",
+      "title": "Cloudflare: WAF Release - 2026-10-21 - Emergency - Cloudflare Managed Ruleset",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-10-21-emergency-waf-release-cfmr/",
       "source": "Cloudflare Changelog",
       "region": "全球",
       "event_types": [
@@ -241053,12 +241053,12 @@
       ],
       "level": "C",
       "score": 5,
-      "summary_short": "Cloudflare发布新版WAF",
-      "content_overview": "Cloudflare于2026年9月8日发布Web应用防火墙（WAF）新版本，具体功能细节未在标题中披露。",
+      "summary_short": "Cloudflare紧急更新WAF托管规则集",
+      "content_overview": "Cloudflare发布紧急WAF规则集更新，针对Cloudflare Managed Ruleset推送安全防护变更",
       "reason": "Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化",
       "impact": "开发者、集成商和生态合作伙伴",
-      "insight_label": "背景补充",
-      "trend_topic": "云安全产品迭代",
+      "insight_label": "警示信号",
+      "trend_topic": "云WAF应急响应常态化",
       "companies": [],
       "is_company": true,
       "company_name": "Cloudflare",
@@ -241145,7 +241145,10 @@
       },
       "view_status": "main",
       "view_reason": "qualified_main",
-      "view_priority": "selected"
+      "view_priority": "selected",
+      "merged_from": [
+        "https://developers.cloudflare.com/changelog/post/2026-10-21-emergency-waf-release-cfmr/"
+      ]
     },
     {
       "title": "Shopify: Product variants now support multiple barcodes",
@@ -393595,8 +393598,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -393704,8 +393707,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -393812,8 +393815,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -393922,8 +393925,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -394031,8 +394034,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -394141,8 +394144,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -394250,8 +394253,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -394357,8 +394360,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -394462,8 +394465,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -394476,12 +394479,12 @@
       ],
       "level": "C",
       "score": 5,
-      "summary_short": "海湾中小企业AI采用报告发布",
-      "content_overview": "Wamda发布关于海湾地区中小企业AI采用与信任状况的分析报告",
-      "reason": "中东中小企业AI渗透率与信任度数据披露，为AI厂商进入海湾市场提供需求侧依据，利好本地化AI解决方案商",
-      "impact": "海湾中小企业、中东AI解决方案商、区域云服务商",
+      "summary_short": "Wamda发布海湾中小企业AI采用调研",
+      "content_overview": "Wamda发布关于海湾地区中小企业AI采用现状与信任度的调研分析，探讨实际落地情况",
+      "reason": "海湾中小企业AI渗透率数据为区域SaaS厂商和云服务商提供市场切入点参考",
+      "impact": "海湾SaaS厂商、AI解决方案供应商、区域云服务商",
       "insight_label": "背景补充",
-      "trend_topic": "中东中小企业AI渗透",
+      "trend_topic": "海湾中小企业AI渗透",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -394566,9 +394569,12 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
-      "event_report_count": 1
+      "event_heat": 0,
+      "event_source_count": 0,
+      "event_report_count": 2,
+      "merged_from": [
+        "http://wamda.com/2026/10/trust-ai-adoption-really-looks-like-gulf-smes"
+      ]
     },
     {
       "title": "Daum Kakao Reportedly in Talks to Acquire Indonesian Messenger Service Path Classic - DongA Science",
@@ -394675,8 +394681,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -394784,8 +394790,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -394894,8 +394900,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -395006,8 +395012,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -395116,8 +395122,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -395225,8 +395231,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -395327,8 +395333,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -395436,8 +395442,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -395545,8 +395551,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 2,
       "merged_from": [
         "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTVNsakhXX0RFaktDaTlaeDZXbXVGd0Jlb2pkZDlDZzl1Q0VUSG05ZWxiM2tGMldpc3dqZ3RTeDlEa3hyQ2J6eURKUml4SjdpbFFnZUNKQXdGSWh0Vm9XdkFPaEhUM1BJVDBlTTlZYkx6QmxkbC1ZOWtaSkUwS1RuWkp0QXBEMDFCVVJkVlVOTVpwTWpZamhVQW9wNVZqMmY5b2FqRm5SMWt0SklqTExpbHZn?oc=5"
@@ -395660,8 +395666,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -395766,8 +395772,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -395871,8 +395877,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -395976,8 +395982,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -396081,8 +396087,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -396186,8 +396192,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 2,
       "merged_from": [
         "https://www.eu-startups.com/2026/10/british-payments-unicorn-zilch-invests-e91-million-in-larger-london-headquarters-amid-continued-growth/"
@@ -396293,8 +396299,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -396398,8 +396404,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -396505,8 +396511,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -396613,8 +396619,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -396720,8 +396726,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -396825,8 +396831,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -396930,8 +396936,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -397035,8 +397041,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -397141,8 +397147,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -397248,8 +397254,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -397356,8 +397362,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -397462,8 +397468,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -397562,8 +397568,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -397667,8 +397673,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -397773,8 +397779,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -397879,8 +397885,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -397985,8 +397991,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -398091,8 +398097,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -398106,11 +398112,11 @@
       "level": "C",
       "score": 5,
       "summary_short": "近30%假日预算10月底前花完",
-      "content_overview": "报告显示近30%的假日购物预算预计在10月底前被花完",
-      "reason": "北美假日消费前置趋势明显，电商平台与物流服务商需提前备货和投放资源",
-      "impact": "北美电商平台、物流服务商、零售广告商",
+      "content_overview": "零售行业调查显示，近30%的假日购物预算预计将在10月底前被提前花掉，假日消费周期明显前移",
+      "reason": "全球假日消费预算前置，电商平台与零售商的促销节奏、库存与广告投放窗口需相应提前",
+      "impact": "全球电商平台、零售广告投放方、支付与物流服务商",
       "insight_label": "背景补充",
-      "trend_topic": "北美假日消费前置",
+      "trend_topic": "全球假日消费前置",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -398204,9 +398210,12 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
-      "event_report_count": 1
+      "event_heat": 0,
+      "event_source_count": 0,
+      "event_report_count": 2,
+      "merged_from": [
+        "https://www.modernretail.co/operations/nearly-30-of-holiday-budgets-expected-to-be-spent-by-the-end-of-october/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss"
+      ]
     },
     {
       "title": "Love Actually’ reunions, delivered by DoorDash: Inside Anthropologie’s holiday sales pitch",
@@ -398317,8 +398326,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 2,
       "merged_from": [
         "https://www.modernretail.co/marketing/love-actually-reunions-delivered-by-doordash-inside-anthropologies-holiday-sales-pitch/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss"
@@ -398428,8 +398437,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -398542,8 +398551,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -398654,8 +398663,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -398763,8 +398772,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -398867,8 +398876,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -398972,8 +398981,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -399077,8 +399086,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -399192,8 +399201,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     }
   ],
@@ -399303,7 +399312,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 2,
       "merged_from": [
@@ -399414,7 +399423,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -399523,7 +399532,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 2,
       "merged_from": [
@@ -399630,7 +399639,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -399737,7 +399746,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -399844,7 +399853,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -399950,7 +399959,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -400055,7 +400064,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -400160,7 +400169,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -400175,11 +400184,11 @@
       "level": "C",
       "score": 5,
       "summary_short": "百事押注冷藏鲜食驱动增长",
-      "content_overview": "百事公司押注冷藏鲜食品类（如西班牙冷汤和牛油果酱）以推动增长",
-      "reason": "食品巨头转向冷链鲜食，冷链物流和温控供应链技术需求上升",
-      "impact": "冷链物流商、冷藏设备供应商",
+      "content_overview": "百事公司押注冷藏鲜食赛道，将西班牙冷汤、牛油果酱等冷藏即食产品作为新增长点进行布局",
+      "reason": "全球食品饮料巨头向冷链鲜食扩张，将带动冷链物流、冷藏零售货架与温控供应链技术需求",
+      "impact": "冷链物流服务商、冷藏零售渠道、食品包装供应商",
       "insight_label": "合作机会",
-      "trend_topic": "全球冷链食品供应链",
+      "trend_topic": "全球冷链鲜食扩张",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -400274,9 +400283,12 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
-      "event_report_count": 1
+      "event_report_count": 2,
+      "merged_from": [
+        "https://www.modernretail.co/operations/pepsico-bets-on-refrigerated-fresh-foods-like-gazpacho-and-guacamole-to-drive-growth/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss"
+      ]
     },
     {
       "title": "South Korea's Kakao Denies KakaoBank, Kakao Pay Sale Rumors; Ties Executive Pay to Shareholder Value If Post-Spin-Off Stock Lags - BigGo Finance",
@@ -400378,7 +400390,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -400481,7 +400493,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -400590,7 +400602,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -400702,7 +400714,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -400814,7 +400826,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -400924,7 +400936,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -401032,7 +401044,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -401140,7 +401152,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -401249,7 +401261,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -401355,7 +401367,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -401459,7 +401471,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -401565,7 +401577,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -401670,7 +401682,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -401774,7 +401786,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -401880,7 +401892,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -401985,7 +401997,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -402090,7 +402102,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -402195,7 +402207,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -402301,7 +402313,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -402407,7 +402419,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -402513,7 +402525,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -402619,7 +402631,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -402724,7 +402736,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -402830,7 +402842,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -402937,7 +402949,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -402952,11 +402964,11 @@
       "level": "C",
       "score": 4,
       "summary_short": "Ramp申请国家银行信托牌照",
-      "content_overview": "美国金融科技公司Ramp向监管机构申请国家银行信托牌照",
-      "reason": "美国金融科技公司向持牌银行转型，企业金融基础设施合规化趋势加速",
-      "impact": "美国金融科技公司、企业支出管理平台、银行监管机构",
+      "content_overview": "企业支出管理平台Ramp向美国监管机构申请国家银行信托牌照，以拓展受监管金融服务",
+      "reason": "美国企业金融科技公司申请银行信托牌照，金融科技与传统银行牌照边界进一步融合",
+      "impact": "美国金融科技公司、银行合规服务商、企业支出管理平台",
       "insight_label": "警示信号",
-      "trend_topic": "美国FinTech持牌化",
+      "trend_topic": "美国FinTech牌照化",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -403045,9 +403057,12 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
-      "event_report_count": 1
+      "event_report_count": 2,
+      "merged_from": [
+        "https://www.finextra.com/newsarticle/48619/ramp-applies-for-national-bank-trust-charter?utm_medium=rssfinextra&utm_source=finextrafeed"
+      ]
     },
     {
       "title": "UK sets out proposal to open up access to iPhone contactless payments",
@@ -403150,7 +403165,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -403258,7 +403273,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -403357,7 +403372,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -403462,7 +403477,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -403568,7 +403583,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -403674,7 +403689,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -403780,7 +403795,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -403886,7 +403901,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -403992,7 +404007,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -404109,7 +404124,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -404222,7 +404237,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -404331,7 +404346,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -404444,10 +404459,2176 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "Korea Investment & Securities cuts Kakao target as Q3 lags, urges AI monetization - CHOSUNBIZ - Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbXlkaURGU2JOaEx4UmotT3NhandvdV8xQTYwMU1YYlRXbVNiRDRzT1BHNllHRjR5M1RqcTZOaG1vdENMUy00cUFQYUkyamVtUHAwalJYSjJwSGRwTU0wTUdhdzdVZFdMaDNxam9XaFhuek5CR3FuODhseW01ZzE4LdIBlAFBVV95cUxPTmdxa1M1ZFNjTlBlUFU3QXY4YVVUUk5PejFOYTZ3cGM5VmtmekdpNkxNZ28tRExCbEZaYlBvSUFIYU1iZGUzMnhWTWlkclhYYnZXZWROdlFNc2ZLY1ljckJrcFVWdTZRR19fczltUDVPMGg4ZDctSEc3T1V5a1lkcjdvOXktV243enAtNXBnTTRVOUFV?oc=5",
+      "source": "Google News",
+      "region": "亚太",
+      "event_types": [
+        "earnings"
+      ],
+      "level": "B",
+      "score": 6,
+      "summary_short": "Kakao Q3业绩不佳遭韩投证券下调目标价",
+      "content_overview": "韩国投资证券因Kakao三季度业绩不及预期下调其目标价，并敦促公司加快AI商业化进程",
+      "reason": "韩国互联网巨头Kakao业绩承压，AI变现能力成为资本市场关注焦点，亚太AI商业化竞争加剧",
+      "impact": "Kakao投资者、韩国AI服务供应商、韩国互联网广告主",
+      "insight_label": "警示信号",
+      "trend_topic": "韩国互联网AI变现压力",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Kakao",
+      "canonical_company": "kakao",
+      "canonical_key": "",
+      "article_date": "2026-10-20",
+      "date": "2026-10-20",
+      "source_detail": "Chosunbiz",
+      "publisher": "Chosunbiz",
+      "image_url": "",
+      "published_at": "2026-10-20",
+      "observed_at": "2026-10-21T05:43:14.153204+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Kakao",
+      "credibility_score": 0,
+      "origin_source_id": "Kakao",
+      "observation_entity_id": "Kakao",
+      "discovery_source": "google_news",
+      "publisher_source": "Chosunbiz",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "report_methodology_visible": false,
+      "vertical": "social_payment",
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "company",
+      "claim_type": "industry_change",
+      "confidence_score": 42,
+      "attention_score": 100,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 35,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "earnings",
+      "domain": "payment",
+      "signal_type": "capital",
+      "signal_change_score": 66,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 20
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 44,
+      "ai_score_2": 48,
+      "ai_score_avg": 46,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1009",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 0.5,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "Adyen adds Chris Vogelzang while Adyen stock is valued at EUR 29.1 billion - ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPa01fZ3UwRTM3N3NyblNEdko5dFhmUFMzbE1rZUlZOGlXLW51aFYxTkVoTU53Vm5fU3o2b0NidmtQeXJRSkxYY0tvWUxCRllZNTR6UkxFTks2NFFPY3dYQmktMHJVdmdRUnhkZm5PTUVlZm51b1BERjNCa0hjcEJVUGNBbmNoT01SLXZIOXVGMXdQekE0SnNPTEU3LWFNOTB2NjZDRnU4R1g0MzU2dnJfVFpCZHBCZTlzLU0zUVQyRm9vc1RkVzN0S0NkemdpUlFPdjQ4?oc=5",
+      "source": "Google News",
+      "region": "欧洲",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "Adyen任命Chris Vogelzang，市值€29.1B",
+      "content_overview": "荷兰支付公司Adyen任命Chris Vogelzang加入，公司当前市值约291亿欧元。",
+      "reason": "欧洲Adyen新增Chris Vogelzang",
+      "impact": "欧洲支付生态合作方、金融科技投资者",
+      "insight_label": "合作机会",
+      "trend_topic": "欧洲支付巨头人事调整",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Adyen",
+      "canonical_company": "adyen",
+      "canonical_key": "29100m",
+      "article_date": "2026-10-20",
+      "date": "2026-10-20",
+      "source_detail": "ad-hoc-news.de",
+      "publisher": "ad-hoc-news.de",
+      "image_url": "",
+      "published_at": "2026-10-20",
+      "observed_at": "2026-10-21T05:43:24.429860+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Adyen",
+      "credibility_score": 0,
+      "origin_source_id": "Adyen",
+      "observation_entity_id": "Adyen",
+      "discovery_source": "google_news",
+      "publisher_source": "ad-hoc-news.de",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "payments"
+      ],
+      "scope_regions": [
+        "欧洲"
+      ],
+      "scope_match_basis": "source_contract",
+      "report_methodology_visible": false,
+      "vertical": "payment",
+      "bd_triggers": [
+        "预算窗口",
+        "扩张窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "持续观察",
+      "bd_priority": "观察",
+      "signal_taxonomy": [
+        "general"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 42,
+      "attention_score": 85,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 20,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "hiring",
+      "domain": "payment",
+      "signal_type": "company",
+      "signal_change_score": 75,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 12,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 20
+      },
+      "view_status": "filtered",
+      "view_reason": "google_not_main",
+      "view_priority": "watch",
+      "ai_score_1": 24,
+      "ai_score_2": 24,
+      "ai_score_avg": 24,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1010",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 0.5,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "Supermicro expects up to $19.5bn in quarterly revenue, $4bn above guidance",
+      "url": "https://thenextweb.com/news/supermicro-revenue-q1-fy2027-preliminary-19-5bn-ai-demand",
+      "source": "The Next Web",
+      "region": "欧洲",
+      "event_types": [
+        "earnings"
+      ],
+      "level": "A",
+      "score": 10,
+      "summary_short": "Supermicro预计季度营收达$19.5B，超指引$4B",
+      "content_overview": "服务器厂商Supermicro预计季度营收最高达195亿美元，超出此前指引约40亿美元",
+      "reason": "北美AI服务器厂商Supermicro营收指引大幅超预期，AI算力硬件需求持续强劲，利好液冷、电源与机柜供应链",
+      "impact": "AI服务器供应链、液冷散热厂商、数据中心运营商",
+      "insight_label": "资金流向",
+      "trend_topic": "AI服务器需求超预期",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "supermicro",
+      "canonical_key": "19500m",
+      "article_date": "2026-10-20",
+      "date": "2026-10-20",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://media.thenextweb.com/2026/10/supermicro-blade-server-chassis-front-logo.jpg",
+      "published_at": "2026-10-20",
+      "observed_at": "2026-10-21T05:41:36.997280+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L3 区域生态源",
+      "source_role": "regional_ecosystem",
+      "source_id": "The Next Web",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "industry_change",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "欧洲"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "Supermicro expects to report revenue of $18.5bn to $19.5bn for the three months to September, against the $14.5bn to $15.5bn it had guided. The AI server maker put the gap down to “increased demand for AI platforms”. The company published the preliminary figures in a business update after the US market closed on Tuesday. At […] This story continues at The Next Web",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "expansion",
+        "ai_infra",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 70,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 23,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "earnings",
+      "domain": "ai",
+      "signal_type": "capital",
+      "signal_change_score": 73,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 62,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1011",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 0.5,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "Korean AI data centre firm Elice sinks 32% in a record-worst IPO debut",
+      "url": "https://thenextweb.com/news/elice-ipo-32-percent-debut-korea-ai-data-centre-neocloud",
+      "source": "The Next Web",
+      "region": "亚太",
+      "event_types": [
+        "earnings"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "Elice上市首日暴跌32%，创最差IPO纪录",
+      "content_overview": "韩国AI数据中心公司Elice上市首日股价暴跌32%，创下最差IPO首秀纪录",
+      "reason": "亚太AI数据中心公司Elice上市首日暴跌32%，韩国AI基础设施估值泡沫警示，同类neocloud厂商融资与IPO窗口或收紧",
+      "impact": "韩国AI数据中心运营商、neocloud创业公司、亚洲科技IPO投资者",
+      "insight_label": "警示信号",
+      "trend_topic": "韩国AI基建估值修正",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "elice",
+      "canonical_key": "32%",
+      "article_date": "2026-10-20",
+      "date": "2026-10-20",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://media.thenextweb.com/2026/10/elice-logo-cloud-city-key-visual-purple.jpg",
+      "published_at": "2026-10-20",
+      "observed_at": "2026-10-21T05:41:37.012572+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L3 区域生态源",
+      "source_role": "regional_ecosystem",
+      "source_id": "The Next Web",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "Shares in Elice, a South Korean AI data centre company, fell 32% on their first day of trading in Seoul on Tuesday. It was the worst debut on record for a Korean IPO of $100m or more, according to data compiled by Bloomberg, as Yoolim Lee and Youkyung Lee reported. Elice raised 201.1bn won ($151m) […] This story continues at The Next Web",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "expansion",
+        "ai_infra",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 70,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 23,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "earnings",
+      "domain": "ai",
+      "signal_type": "capital",
+      "signal_change_score": 81,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 12
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 62,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1012",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 0.5,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "Australia prepares to sue social platforms over age violations",
+      "url": "https://www.socialmediatoday.com/news/australia-prepares-to-sue-social-platforms-over-age-violations/833545/",
+      "source": "Social Media Today",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "B",
+      "score": 7,
+      "summary_short": "澳大利亚拟起诉社交媒体平台年龄违规",
+      "content_overview": "澳大利亚政府准备就年龄验证违规问题起诉社交媒体平台",
+      "reason": "澳洲强化社交平台年龄监管，合规技术供应商和身份验证服务商迎来政策驱动需求",
+      "impact": "社交媒体平台、年龄验证技术供应商、澳洲监管科技公司",
+      "insight_label": "警示信号",
+      "trend_topic": "亚太社交平台监管收紧",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "",
+      "canonical_key": "",
+      "article_date": "2026-10-20",
+      "date": "2026-10-20",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "",
+      "published_at": "2026-10-20",
+      "observed_at": "2026-10-21T05:41:37.370946+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L4 垂直赛道精品源",
+      "source_role": "industry_vertical",
+      "source_id": "Social Media Today",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "regional_policy",
+      "scope_industries": [
+        "ads_social"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "source_contract",
+      "source_excerpt": "Bloomberg reported that the government plans to sue Meta, TikTok, Snapchat and YouTube for alleged noncompliance with a nationwide ban on teen users.",
+      "report_methodology_visible": false,
+      "vertical": "社交平台",
+      "bd_triggers": [
+        "生态窗口"
+      ],
+      "opportunity_direction": "联合解决方案 / 商户增长 / 开放平台合作 / 渠道共建",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "general"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "regional_policy",
+      "subject_type": "region_policy",
+      "claim_type": "policy_change",
+      "confidence_score": 76,
+      "attention_score": 95,
+      "score_breakdown": {
+        "source_authority": 29,
+        "materiality": 25,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 15,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "policy_change",
+      "domain": "other",
+      "signal_type": "policy",
+      "signal_change_score": 88,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 25,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 12
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1013",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 0.5,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "AuxoAI Raises $20.7M to Scale Enterprise AI Deployments",
+      "url": "https://ventureburn.com/auxoai-raises-20-7m-enterprise-ai/",
+      "source": "Ventureburn",
+      "region": "非洲",
+      "event_types": [
+        "funding"
+      ],
+      "level": "B",
+      "score": 6,
+      "summary_short": "AuxoAI获$20.7M融资",
+      "content_overview": "企业AI部署服务商AuxoAI完成2070万美元融资，用于扩展企业AI落地规模",
+      "reason": "企业AI部署服务商获融资，AI落地集成与实施服务需求上升，系统集成商合作机会增加",
+      "impact": "企业AI集成商、系统实施服务商、云平台伙伴",
+      "insight_label": "合作机会",
+      "trend_topic": "企业AI部署服务升温",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "auxoai",
+      "canonical_key": "20.70mm",
+      "article_date": "2026-10-20",
+      "date": "2026-10-20",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://ventureburn.com/wp-content/uploads/2026/10/AuxoAI.png",
+      "published_at": "2026-10-20",
+      "observed_at": "2026-10-21T05:41:37.562632+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L2 垂直交易源",
+      "source_role": "venture_media",
+      "source_id": "Ventureburn",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "非洲"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "AuxoAI Raises $20.7M to Expand Enterprise AI AuxoAI has raised $20.7 million in Series A financing to expand its enterprise AI deployment business. NTTVC led the round, attracting participation from The post AuxoAI Raises $20.7M to Scale Enterprise AI Deployments appeared first on Ventureburn .",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 62,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 20,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "C",
+      "action_type": "funding",
+      "domain": "ai",
+      "signal_type": "capital",
+      "signal_change_score": 77,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 22,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 56,
+      "ai_score_2": 58,
+      "ai_score_avg": 57,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1014",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 0.5,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "Argentine fintech Rebill raises $5.4M Pre Series A round",
+      "url": "https://latamlist.com/argentine-fintech-rebill-raises-5-4m-pre-series-a-round/",
+      "source": "LatamList",
+      "region": "拉美",
+      "event_types": [
+        "funding"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "Rebill获$5.4M Pre-A轮融资",
+      "content_overview": "阿根廷金融科技公司Rebill完成540万美元Pre-A轮融资",
+      "reason": "阿根廷金融科技早期融资活跃，拉美支付与订阅计费基础设施赛道持续吸引资本",
+      "impact": "拉美支付服务商、电商平台、SaaS计费合作方",
+      "insight_label": "资金流向",
+      "trend_topic": "拉美FinTech早期融资",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "rebill",
+      "canonical_key": "5.40mm",
+      "article_date": "2026-10-20",
+      "date": "2026-10-20",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://latamlist.com/wp-content/uploads/2026/10/Rebill-1024x768.jpeg",
+      "published_at": "2026-10-20",
+      "observed_at": "2026-10-21T05:41:37.602228+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L2 垂直交易源",
+      "source_role": "venture_media",
+      "source_id": "LatamList",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "payments"
+      ],
+      "scope_regions": [
+        "拉美"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "Argentine fintech Rebill raised $5.4M in a pre Series A round, bringing its total funding to more than… The post Argentine fintech Rebill raises $5.4M Pre Series A round appeared first on LatamList .",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "payment",
+        "ai_infra",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 62,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 20,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "C",
+      "action_type": "funding",
+      "domain": "ai",
+      "signal_type": "capital",
+      "signal_change_score": 77,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 22,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 44,
+      "ai_score_2": 44,
+      "ai_score_avg": 44,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1015",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 0.5,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "Dapta raises $6M seed round led by Chingona Ventures",
+      "url": "https://latamlist.com/dapta-raises-6m-seed-round-led-by-chingona-ventures/",
+      "source": "LatamList",
+      "region": "拉美",
+      "event_types": [
+        "funding"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "Dapta获$6M种子轮融资",
+      "content_overview": "Dapta完成600万美元种子轮融资，由Chingona Ventures领投",
+      "reason": "拉美早期SaaS项目获美元基金领投，区域企业软件生态与渠道合作机会增加",
+      "impact": "拉美SaaS创业公司、企业软件渠道商、区域风投",
+      "insight_label": "资金流向",
+      "trend_topic": "拉美SaaS种子轮活跃",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "dapta",
+      "canonical_key": "6m",
+      "article_date": "2026-10-20",
+      "date": "2026-10-20",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://latamlist.com/wp-content/uploads/2023/12/Untitled-design-1.png",
+      "published_at": "2026-10-20",
+      "observed_at": "2026-10-21T05:41:37.607356+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L2 垂直交易源",
+      "source_role": "venture_media",
+      "source_id": "LatamList",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "拉美"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "Colombian AI startup Dapta raised $6M in a seed round led by Chingona Ventures, with participation from Crew… The post Dapta raises $6M seed round led by Chingona Ventures appeared first on LatamList .",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 62,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 20,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "C",
+      "action_type": "funding",
+      "domain": "ai",
+      "signal_type": "capital",
+      "signal_change_score": 77,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 22,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 44,
+      "ai_score_2": 44,
+      "ai_score_avg": 44,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1016",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 0.5,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "8 eMudhra certificates are compromised. Here's what you need to know",
+      "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
+      "source": "Cloudflare Blog",
+      "region": "全球",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 5,
+      "summary_short": "eMudhra 8个证书被攻破",
+      "content_overview": "Cloudflare披露印度证书机构eMudhra的8个证书被泄露或攻破，并说明相关影响与应对",
+      "reason": "印度证书机构eMudhra证书泄露，暴露PKI信任链风险，企业需排查证书依赖并加强证书生命周期管理",
+      "impact": "印度证书机构客户、企业安全团队、TLS证书管理服务商",
+      "insight_label": "警示信号",
+      "trend_topic": "PKI证书安全风险",
+      "companies": [],
+      "is_company": false,
+      "company_name": "Cloudflare",
+      "canonical_company": "emudhra",
+      "canonical_key": "8",
+      "article_date": "2026-10-20",
+      "date": "2026-10-20",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://blog.cloudflare.com/_emdash/api/media/file/01M5DK5EH8PE8PVBNH2XNFEF7Y.png",
+      "published_at": "2026-10-20",
+      "observed_at": "2026-10-21T05:41:38.159779+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L1 官方/IR源",
+      "source_role": "industry_vertical",
+      "source_type": "engineering_blog",
+      "access_method": "rss",
+      "source_id": "cloudflare-blog",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra",
+        "cloud_saas_developer"
+      ],
+      "scope_regions": [
+        "全球"
+      ],
+      "scope_match_basis": "source_contract",
+      "source_excerpt": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and developers should do next.",
+      "report_methodology_visible": false,
+      "source_signal_types": [
+        "official_disclosure",
+        "developer_change",
+        "industry_analysis"
+      ],
+      "vertical": "云、安全与开发者基础设施",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "developer_change"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 75,
+      "attention_score": 85,
+      "score_breakdown": {
+        "source_authority": 33,
+        "materiality": 20,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "expansion",
+      "domain": "cloud_saas",
+      "signal_type": "company",
+      "signal_change_score": 66,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 20
+      },
+      "view_status": "filtered",
+      "view_reason": "out_of_scope_industry",
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 38,
+      "ai_score_avg": 38,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1017",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 0.5,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "Cloudflare: Wrangler and cf now upload source maps by default",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-10-20-source-maps-on-by-default/",
+      "source": "Cloudflare Changelog",
+      "region": "全球",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 5,
+      "summary_short": "Cloudflare默认上传source maps",
+      "content_overview": "Cloudflare将Wrangler与cf工具的source maps上传改为默认开启，开发者无需手动配置",
+      "reason": "Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化",
+      "impact": "开发者、集成商和生态合作伙伴",
+      "insight_label": "背景补充",
+      "trend_topic": "边缘开发工具链优化",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Cloudflare",
+      "canonical_company": "cloudflare",
+      "canonical_key": "",
+      "article_date": "2026-10-20",
+      "date": "2026-10-20",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://developers.cloudflare.com/changelog/post/2026-10-20-source-maps-on-by-default/og.png?v=e892e9721d2d7688",
+      "published_at": "2026-10-20",
+      "observed_at": "2026-10-21T05:42:47.453760+00:00",
+      "date_source": "url_path",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L1 官方/IR源",
+      "source_role": "developer_change",
+      "source_type": "changelog",
+      "access_method": "html",
+      "source_id": "cloudflare-changelog",
+      "credibility_score": 10,
+      "noise_level": "low",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra",
+        "payments",
+        "cloud_saas_developer"
+      ],
+      "scope_regions": [
+        "全球"
+      ],
+      "scope_match_basis": "source_contract",
+      "report_methodology_visible": false,
+      "source_signal_types": [
+        "developer_change",
+        "payment_infra"
+      ],
+      "vertical": "AI infra/边缘云",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "payment",
+        "ai_infra",
+        "developer_change"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "observation_type": "changelog",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 67,
+      "attention_score": 85,
+      "score_breakdown": {
+        "source_authority": 35,
+        "materiality": 20,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "expansion",
+      "domain": "cloud_saas",
+      "signal_type": "company",
+      "signal_change_score": 0,
+      "signal_change_blocked": "no_explicit_change",
+      "signal_change_breakdown": {},
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 12,
+      "ai_score_2": 20,
+      "ai_score_avg": 16,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1018",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     }
   ],
-  "2026-10-21": []
+  "2026-10-21": [
+    {
+      "title": "Square Enix Launches Dragon Quest Smash/Grow Half-Anniversary Campaign - Inven Global",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTDh0YUN4MENXMXpJbEoxbmY1U0JHZW0ybVdwMm5hQmdSVy1fYnRaM1E0czVtVlJXSUhPYjRqYnNHMlo2ZmtVaTA3Ri1zVDJpVEJrMWhQZkx0V1hiS09Zb2hISTNGSnM0WHF0Q2tUSVFOWW5jOGFXS1prT0xfbWNPcWlxOFI2Y2JVLTVHdjRLcVZiWi15dkJNR0VNVWFQUVFlMEtsVVVIa0MzYVVUMS1nZFBR?oc=5",
+      "source": "Google News",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "Square Enix推勇者斗恶龙手游半周年活动",
+      "content_overview": "Square Enix为手游《勇者斗恶龙 Smash/Grow》推出半周年纪念活动。",
+      "reason": "日本游戏厂商Square Enix通过运营活动维持手游用户活跃度，移动游戏运营策略值得关注",
+      "impact": "日本手游玩家、游戏运营合作方",
+      "insight_label": "背景补充",
+      "trend_topic": "日本手游运营活动",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Square Enix",
+      "canonical_company": "square enix",
+      "canonical_key": "",
+      "article_date": "2026-10-21",
+      "date": "2026-10-21",
+      "source_detail": "Inven Global",
+      "publisher": "Inven Global",
+      "image_url": "",
+      "published_at": "2026-10-21",
+      "observed_at": "2026-10-21T05:43:23.700320+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Square Enix",
+      "credibility_score": 0,
+      "origin_source_id": "Square Enix",
+      "observation_entity_id": "Square Enix",
+      "discovery_source": "google_news",
+      "publisher_source": "Inven Global",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "gaming_content"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "source_contract",
+      "report_methodology_visible": false,
+      "vertical": "gaming",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 42,
+      "attention_score": 100,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 35,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "product_release",
+      "domain": "ai",
+      "signal_type": "company",
+      "signal_change_score": 64,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 24,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 20,
+      "ai_score_2": 12,
+      "ai_score_avg": 16,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1019",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 1.0,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "Otter.ai Secures $320M to Accelerate Enterprise AI Growth",
+      "url": "https://ventureburn.com/otter-ai-secures-320m-enterprise-ai-growth/",
+      "source": "Tech in Asia",
+      "region": "亚太",
+      "event_types": [
+        "funding"
+      ],
+      "level": "B",
+      "score": 7,
+      "summary_short": "Otter.ai获$320M融资",
+      "content_overview": "AI会议记录公司Otter.ai完成3.2亿美元融资，用于加速企业级AI业务增长",
+      "reason": "美国AI会议助手公司大额融资，企业级AI协作工具赛道竞争加剧，API与集成合作机会增多",
+      "impact": "企业AI协作工具集成商、云服务商、会议软件生态伙伴",
+      "insight_label": "资金流向",
+      "trend_topic": "企业AI协作工具融资",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "otter ai",
+      "canonical_key": "320m",
+      "article_date": "2026-10-21",
+      "date": "2026-10-21",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://cdn.techinasia.com/wp-content/uploads/2025/04/1743663621_shutterstock_2154534203-scaled.jpg",
+      "published_at": "2026-10-21",
+      "observed_at": "2026-10-21T05:41:37.043756+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L2 垂直交易源",
+      "source_role": "venture_media",
+      "source_id": "Tech in Asia",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_url_original": "https://www.techinasia.com/endowus-ceo-gregory-van-optimistic-profitability",
+      "source_url_repaired": true,
+      "source_url_repair_reason": "rss_guid_title_match",
+      "source_excerpt": "Otter said 40 million people have used its product to date, up from 25 million last year.",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra",
+        "developer_change",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 62,
+      "attention_score": 95,
+      "score_breakdown": {
+        "source_authority": 20,
+        "materiality": 30,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "C",
+      "action_type": "funding",
+      "domain": "ai",
+      "signal_type": "capital",
+      "signal_change_score": 77,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 22,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "merged_from": [
+        "https://ventureburn.com/otter-ai-secures-320m-enterprise-ai-growth/"
+      ],
+      "ai_score_1": 58,
+      "ai_score_2": 60,
+      "ai_score_avg": 59,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1020",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 1.0,
+      "event_source_count": 1,
+      "event_report_count": 2
+    },
+    {
+      "title": "81% of Singaporeans plan to use AI for gifts: Klaviyo",
+      "url": "https://www.techinasia.com/news/klaviyo-81-singaporeans-plan-ai-gifts",
+      "source": "Tech in Asia",
+      "region": "亚太",
+      "event_types": [
+        "industry_report"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "Klaviyo调查：81%新加坡人拟用AI选购礼物",
+      "content_overview": "营销自动化平台Klaviyo调查显示，81%的新加坡消费者计划在选购礼物时使用AI工具",
+      "reason": "新加坡电商营销AI渗透率数据，为东南亚零售AI工具与个性化推荐服务商提供市场验证",
+      "impact": "东南亚电商平台、AI营销SaaS服务商、零售品牌方",
+      "insight_label": "背景补充",
+      "trend_topic": "东南亚零售AI渗透",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "klaviyo",
+      "canonical_key": "81%",
+      "article_date": "2026-10-21",
+      "date": "2026-10-21",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://cdn.techinasia.com/wp-content/uploads/2026/10/1792411608_singapore-16-9.png",
+      "published_at": "2026-10-21",
+      "observed_at": "2026-10-21T05:41:37.047510+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L2 垂直交易源",
+      "source_role": "venture_media",
+      "source_id": "Tech in Asia",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "industry_change",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_url_original": "https://www.techinasia.com/israeli-ai-platform-humanz-nets-15m-expands-via-acquisitions",
+      "source_url_repaired": true,
+      "source_url_repair_reason": "rss_guid_title_match",
+      "source_excerpt": "Among respondents in Singapore, 31% of AI-assisted shoppers planned to spend more than last year, compared with 10% of non-users.",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "持续观察"
+      ],
+      "opportunity_direction": "持续观察",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "generic_industry_change",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 67,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 20,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "other",
+      "domain": "ai",
+      "signal_type": "consumer",
+      "signal_change_score": 70,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 15,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 38,
+      "ai_score_2": 24,
+      "ai_score_avg": 31,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1021",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 1.0,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "SEA digital economy to top $1t by 2035: report",
+      "url": "https://www.techinasia.com/news/sea-digital-economy-top-1t-2035-report",
+      "source": "Tech in Asia",
+      "region": "亚太",
+      "event_types": [
+        "industry_report"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "报告预测东南亚数字经济2035年破1万亿美元",
+      "content_overview": "最新报告预测东南亚数字经济规模将在2035年突破1万亿美元",
+      "reason": "东南亚数字经济长期规模预测，为区域云基础设施、支付、电商物流投资提供宏观锚点",
+      "impact": "东南亚云服务商、数字支付机构、区域投资机构",
+      "insight_label": "背景补充",
+      "trend_topic": "东南亚数字经济扩张",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "",
+      "canonical_key": "1t",
+      "article_date": "2026-10-21",
+      "date": "2026-10-21",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://cdn.techinasia.com/wp-content/uploads/2026/10/1792556583_1790739237_1789781006_1788480495_1784072519_1782951883_1778116451_1751973140_1739937119_shutterstock_2429974051-scaled-1.png",
+      "published_at": "2026-10-21",
+      "observed_at": "2026-10-21T05:41:37.048926+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L2 垂直交易源",
+      "source_role": "venture_media",
+      "source_id": "Tech in Asia",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "industry_change",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_url_original": "https://www.techinasia.com/google-gemini-antom-offer-free-ai-trials",
+      "source_url_repaired": true,
+      "source_url_repair_reason": "rss_guid_title_match",
+      "source_excerpt": "The report said 243 million people in Southeast Asia have adopted generative AI, or 58% of the region’s working population.",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "持续观察"
+      ],
+      "opportunity_direction": "持续观察",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "general"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "generic_industry_change",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 67,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 20,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "other",
+      "domain": "ai",
+      "signal_type": "market",
+      "signal_change_score": 70,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 15,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 30,
+      "ai_score_2": 20,
+      "ai_score_avg": 25,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1022",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 1.0,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "Temasek Invests in EQT’s €5 Billion Scaleup Europe Fund",
+      "url": "https://fintechnews.sg/139335/funding/temasek-scaleup-europe-fund-eqt/",
+      "source": "Fintech News Singapore",
+      "region": "欧洲",
+      "event_types": [
+        "funding"
+      ],
+      "level": "C",
+      "score": 5,
+      "summary_short": "淡马锡投资EQT 50亿欧元欧洲成长基金",
+      "content_overview": "新加坡主权基金淡马锡投资EQT旗下规模50亿欧元的Scaleup Europe Fund，该基金专注欧洲成长期科技企业",
+      "reason": "欧洲科技成长期基金获亚洲主权资本注入，欧洲SaaS与金融科技企业将获更多成长资本和亚洲市场渠道",
+      "impact": "欧洲成长期科技企业、EQT投资组合公司、亚洲主权基金",
+      "insight_label": "资金流向",
+      "trend_topic": "欧洲科技成长资本扩容",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "eqt",
+      "canonical_key": "5000m",
+      "article_date": "2026-10-21",
+      "date": "2026-10-21",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://fintechnewssg-22e90.kxcdn.com/wp-content/uploads/2026/10/temasek-scaleup-europe-fund.png",
+      "published_at": "2026-10-21",
+      "observed_at": "2026-10-21T05:41:37.210407+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L4 垂直赛道精品源",
+      "source_role": "industry_vertical",
+      "source_id": "Fintech News Singapore",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "industry_change",
+      "scope_industries": [
+        "payments"
+      ],
+      "scope_regions": [
+        "欧洲"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "Temasek has invested in the Scaleup Europe Fund, managed by EQT, joining as an early and key investor. The fund is targeting €5 billion to provide growth capital to European technology companies, helping them expand without having to seek financing outside the region. Backed by the European Commission and institutional investors, it focuses on sectors [...] The post Temasek Invests in EQT’s €5 Billion Scaleup Europe Fund appeared first on Fintech Singapore .",
+      "report_methodology_visible": false,
+      "vertical": "Fintech/支付",
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "持续观察",
+      "bd_priority": "观察",
+      "signal_taxonomy": [
+        "capital"
+      ],
+      "quality_flags": [
+        "generic_reason"
+      ],
+      "needs_repair": true,
+      "analysis_source": "ark",
+      "analysis_status": "partial",
+      "content_type": "capital_event",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 76,
+      "attention_score": 95,
+      "score_breakdown": {
+        "source_authority": 29,
+        "materiality": 30,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "funding",
+      "domain": "payment",
+      "signal_type": "capital",
+      "signal_change_score": 77,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 22,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "review",
+      "view_reason": "qualified_review",
+      "view_priority": "watch",
+      "ai_score_1": 58,
+      "ai_score_2": 62,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1023",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 1.0,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "Bitget Plans to Acquire Licensed Crypto Exchange in Thailand",
+      "url": "https://fintechnews.sg/139304/thailand/bitget-thailand-crypto-exchange-acquisition/",
+      "source": "Fintech News Singapore",
+      "region": "亚太",
+      "event_types": [
+        "ma"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "Bitget计划收购泰国持牌加密交易所",
+      "content_overview": "加密交易所Bitget宣布计划收购泰国一家持牌加密货币交易所，以获取当地合规运营资质",
+      "reason": "加密交易平台通过收购持牌机构进入东南亚受监管市场，泰国数字资产合规牌照价值上升",
+      "impact": "泰国持牌加密交易所、东南亚数字资产合规服务商",
+      "insight_label": "合作机会",
+      "trend_topic": "东南亚加密合规布局",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "bitget",
+      "canonical_key": "",
+      "article_date": "2026-10-21",
+      "date": "2026-10-21",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://fintechnewssg-22e90.kxcdn.com/wp-content/uploads/2026/10/Bitget-Plans-to-Acquire-Licensed-Crypto-Exchange-in-Thailand.webp",
+      "published_at": "2026-10-21",
+      "observed_at": "2026-10-21T05:41:37.219207+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L4 垂直赛道精品源",
+      "source_role": "industry_vertical",
+      "source_id": "Fintech News Singapore",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "payments"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "Bitget plans to acquire a licensed crypto exchange in Thailand as it expands its presence in Southeast Asia. The deal involves Bangkok-based GMO-Z.com Cryptonomics, which operates a digital asset exchange and brokerage. Bitget intends to acquire the company through its interest in Thailand’s BTGT Management. GMO Internet and its subsidiary GMO-Z.com Holdings will sell their [...] The post Bitget Plans to Acquire Licensed Crypto Exchange in Thailand appeared first on Fintech Singapore .",
+      "report_methodology_visible": false,
+      "vertical": "Fintech/支付",
+      "bd_triggers": [
+        "合规窗口",
+        "整合窗口"
+      ],
+      "opportunity_direction": "合规科技 / 数据治理 / 安全风控 / 牌照合作",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra",
+        "compliance",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 71,
+      "attention_score": 95,
+      "score_breakdown": {
+        "source_authority": 29,
+        "materiality": 30,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "funding",
+      "domain": "payment",
+      "signal_type": "capital",
+      "signal_change_score": 70,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 22,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 12
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 52,
+      "ai_score_avg": 55,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1024",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 1.0,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "Salesforce to Acquire Braze for US$5.66 Billion",
+      "url": "https://fintechnews.sg/139306/ai/salesforce-braze-acquisition/",
+      "source": "Fintech News Singapore",
+      "region": "北美",
+      "event_types": [
+        "ma"
+      ],
+      "level": "A",
+      "score": 9,
+      "summary_short": "Salesforce以$5.66B收购Braze",
+      "content_overview": "Salesforce宣布以56.6亿美元收购客户互动平台Braze，强化其AI驱动的营销自动化能力",
+      "reason": "北美CRM巨头以56.6亿美元收购客户互动平台，营销自动化与AI客户数据赛道整合加速",
+      "impact": "营销自动化SaaS厂商、CRM生态集成商、Braze客户",
+      "insight_label": "资金流向",
+      "trend_topic": "营销自动化并购整合",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "salesforce",
+      "canonical_key": "braze",
+      "article_date": "2026-10-21",
+      "date": "2026-10-21",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://fintechnewssg-22e90.kxcdn.com/wp-content/uploads/2026/10/salesforce-braze-acquisition.png",
+      "published_at": "2026-10-21",
+      "observed_at": "2026-10-21T05:41:37.221469+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L4 垂直赛道精品源",
+      "source_role": "industry_vertical",
+      "source_id": "Fintech News Singapore",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra",
+        "payments",
+        "cloud_saas_developer"
+      ],
+      "scope_regions": [
+        "北美"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "Salesforce has agreed to acquire customer engagement platform Braze for approximately US$5.66 billion in enterprise value, as it seeks to expand its AI-powered marketing capabilities. Under the agreement, holders of Braze Class A common stock will receive US$47.50 in cash per share. The proposed acquisition would strengthen Salesforce Marketing Cloud with Braze’s real-time customer engagement [...] The post Salesforce to Acquire Braze for US$5.66 Billion appeared first on Fintech Singapore .",
+      "report_methodology_visible": false,
+      "vertical": "Fintech/支付",
+      "bd_triggers": [
+        "整合窗口"
+      ],
+      "opportunity_direction": "系统整合 / 数据迁移 / 组织协同工具 / 生态打通",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 71,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 29,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "funding",
+      "domain": "payment",
+      "signal_type": "capital",
+      "signal_change_score": 77,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 22,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 52,
+      "ai_score_2": 40,
+      "ai_score_avg": 46,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g1025",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 1.0,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "event_id": "event-jobs-4b1d07892b011535",
+      "candidate_id": "jobs-4b1d07892b011535",
+      "title": "Grab集中新增8个工程与平台岗位",
+      "url": "https://www.grab.careers/en/jobs/744000156296689/transportation-operation-assistant-manager/",
+      "source": "Grab Jobs",
+      "source_id": "grab-jobs",
+      "origin_source_id": "grab-jobs",
+      "observation_entity_id": "grab",
+      "discovery_source": "jobs_snapshot",
+      "source_type": "jobs_snapshot",
+      "source_tier": "L1 官方/IR源",
+      "source_role": "official_ir",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 5,
+      "summary_short": "Grab在本周新增8个工程与平台相关职位",
+      "reason": "集中招聘显示Grab正在加强工程与平台能力建设，形成可核验的组织投入信号",
+      "impact": "相关技术供应商、渠道伙伴和企业服务商",
+      "insight_label": "组织变化",
+      "trend_topic": "Grab工程与平台能力建设",
+      "companies": [
+        "Grab"
+      ],
+      "is_company": true,
+      "company_name": "Grab",
+      "date": "2026-10-21",
+      "observed_at": "2026-10-21T13:41:31.911052+08:00",
+      "date_basis": "observed_at",
+      "analysis_source": "jobs_candidate",
+      "analysis_status": "complete",
+      "needs_repair": false,
+      "quality_flags": [],
+      "signal_taxonomy": [
+        "org_change"
+      ],
+      "evidence_refs": [
+        {
+          "job_id": "744000156296689",
+          "title": "Transportation Operation Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000156296689/transportation-operation-assistant-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156285315",
+          "title": "People Research Scientist, People Analytics",
+          "url": "https://www.grab.careers/en/jobs/744000156285315/people-research-scientist-people-analytics/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156282409",
+          "title": "Driver Support Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000156282409/driver-support-specialist/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156278269",
+          "title": "Financial, Planning and Analysis Associate",
+          "url": "https://www.grab.careers/en/jobs/744000156278269/financial-planning-and-analysis-associate/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156275589",
+          "title": "Manager, Merchant Acquisition - GrabMart",
+          "url": "https://www.grab.careers/en/jobs/744000156275589/manager-merchant-acquisition-grabmart/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156260400",
+          "title": "Solutions Specialist (EPM), Finance Systems",
+          "url": "https://www.grab.careers/en/jobs/744000156260400/solutions-specialist-epm-finance-systems/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156252394",
+          "title": "Senior AI Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000156252394/senior-ai-engineer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156250029",
+          "title": "Lead Software Engineer, Fullstack",
+          "url": "https://www.grab.careers/en/jobs/744000156250029/lead-software-engineer-fullstack/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156248185",
+          "title": "Senior Network Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000156248185/senior-network-engineer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156249489",
+          "title": "Lead Data Engineer, Metrics Platform",
+          "url": "https://www.grab.careers/en/jobs/744000156249489/lead-data-engineer-metrics-platform/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156237654",
+          "title": "Operations Analytics Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000156237654/operations-analytics-assistant-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156234441",
+          "title": "Senior Data Scientist (Analytics)",
+          "url": "https://www.grab.careers/en/jobs/744000156234441/senior-data-scientist-analytics/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156229574",
+          "title": "Forward Deployed Engineer, Robotics",
+          "url": "https://www.grab.careers/en/jobs/744000156229574/forward-deployed-engineer-robotics/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000155970739",
+          "title": "Deliveries Demand Strategy, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000155970739/deliveries-demand-strategy-assistant-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155955890",
+          "title": "Assistant Manager, Paid Media - Thailand",
+          "url": "https://www.grab.careers/en/jobs/744000155955890/assistant-manager-paid-media-thailand/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155956440",
+          "title": "GrabFood Marketing Associate (Other cities)",
+          "url": "https://www.grab.careers/en/jobs/744000155956440/grabfood-marketing-associate-other-cities/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155954880",
+          "title": "Strategy and Operations Manager, Deliveries",
+          "url": "https://www.grab.careers/en/jobs/744000155954880/strategy-and-operations-manager-deliveries/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155956369",
+          "title": "GrabForBusiness Enterprise Sales Manager",
+          "url": "https://www.grab.careers/en/jobs/744000155956369/grabforbusiness-enterprise-sales-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155956329",
+          "title": "Payment & Insurance Associate",
+          "url": "https://www.grab.careers/en/jobs/744000155956329/payment-insurance-associate/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155944446",
+          "title": "Associate, Product Strategy (Deliveries)",
+          "url": "https://www.grab.careers/en/jobs/744000155944446/associate-product-strategy-deliveries/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155940626",
+          "title": "Senior Software Engineer, Mobile (Android)",
+          "url": "https://www.grab.careers/en/jobs/744000155940626/senior-software-engineer-mobile-android/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155936241",
+          "title": "Lead Platform Engineer, Flink",
+          "url": "https://www.grab.careers/en/jobs/744000155936241/lead-platform-engineer-flink/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155932615",
+          "title": "Lead Product Manager, Data Platform",
+          "url": "https://www.grab.careers/en/jobs/744000155932615/lead-product-manager-data-platform/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155926216",
+          "title": "Intern, Software Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000155926216/intern-software-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155903209",
+          "title": "Intern, Partner Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000155903209/intern-partner-acquisition/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000155902869",
+          "title": "Intern, Social Media & Partner Engagement",
+          "url": "https://www.grab.careers/en/jobs/744000155902869/intern-social-media-partner-engagement/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000156708049",
+          "title": "Large Area Associate (Contract)",
+          "url": "https://www.grab.careers/en/jobs/744000156708049/large-area-associate-contract/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156707439",
+          "title": "Merchant Acquisition Lead",
+          "url": "https://www.grab.careers/en/jobs/744000156707439/merchant-acquisition-lead/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156706009",
+          "title": "Senior Software Engineer, Fullstack",
+          "url": "https://www.grab.careers/en/jobs/744000156706009/senior-software-engineer-fullstack/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156705769",
+          "title": "Head, Cluster Controllership & Finance Governance",
+          "url": "https://www.grab.careers/en/jobs/744000156705769/head-cluster-controllership-finance-governance/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156513931",
+          "title": "Assistant Manager, Driver Acquisition Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000156513931/assistant-manager-driver-acquisition-strategy/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156497392",
+          "title": "Data Scientist (Product Analytics)",
+          "url": "https://www.grab.careers/en/jobs/744000156497392/data-scientist-product-analytics/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156459119",
+          "title": "Fleet Management Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000156459119/fleet-management-assistant-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156458079",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000156458079/senior-software-engineer-backend/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000156250029",
+          "title": "Lead Software Engineer, Fullstack",
+          "url": "https://www.grab.careers/en/jobs/744000156250029/lead-software-engineer-fullstack/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000156248185",
+          "title": "Senior Network Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000156248185/senior-network-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000156249489",
+          "title": "Lead Data Engineer, Metrics Platform",
+          "url": "https://www.grab.careers/en/jobs/744000156249489/lead-data-engineer-metrics-platform/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000156237654",
+          "title": "Operations Analytics Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000156237654/operations-analytics-assistant-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000156234441",
+          "title": "Senior Data Scientist (Analytics)",
+          "url": "https://www.grab.careers/en/jobs/744000156234441/senior-data-scientist-analytics/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000156229574",
+          "title": "Forward Deployed Engineer, Robotics",
+          "url": "https://www.grab.careers/en/jobs/744000156229574/forward-deployed-engineer-robotics/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000156227489",
+          "title": "IT Executive",
+          "url": "https://www.grab.careers/en/jobs/744000156227489/it-executive/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000156227099",
+          "title": "Senior Data Analyst, Compliance",
+          "url": "https://www.grab.careers/en/jobs/744000156227099/senior-data-analyst-compliance/",
+          "change": "removed"
+        }
+      ],
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 60,
+      "attention_score": 58,
+      "score_breakdown": {
+        "source_authority": 33,
+        "materiality": 20,
+        "decision_relevance": 15,
+        "scope_fit": 8,
+        "novelty": 10,
+        "urgency": 5
+      },
+      "evidence_grade": "C",
+      "action_type": "expansion",
+      "domain": "other",
+      "signal_type": "company",
+      "signal_change_score": 0,
+      "signal_change_blocked": "out_of_target_industry",
+      "signal_change_breakdown": {},
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "published_at": "",
+      "date_source": "observed_at",
+      "date_confidence": "observed",
+      "date_parse_warning": "missing_published_at",
+      "article_date": "",
+      "ai_score_1": 44,
+      "ai_score_2": 40,
+      "ai_score_avg": 42,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "event-jobs-4b1d07892b011535",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 1.0,
+      "event_source_count": 1,
+      "event_report_count": 1
+    }
+  ]
 }

@@ -1,11 +1,43 @@
 {
   "version": 1,
-  "generated_at": "2026-10-21T05:29:47.976363+08:00",
+  "generated_at": "2026-10-21T13:41:31.911052+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-21T05:29:47.976363+08:00",
+      "observed_at": "2026-10-21T13:41:31.911052+08:00",
       "jobs": [
+        {
+          "id": "744000156708049",
+          "title": "Large Area Associate (Contract)",
+          "url": "https://www.grab.careers/en/jobs/744000156708049/large-area-associate-contract/",
+          "function_tags": []
+        },
+        {
+          "id": "744000156707439",
+          "title": "Merchant Acquisition Lead",
+          "url": "https://www.grab.careers/en/jobs/744000156707439/merchant-acquisition-lead/",
+          "function_tags": []
+        },
+        {
+          "id": "744000156706009",
+          "title": "Senior Software Engineer, Fullstack",
+          "url": "https://www.grab.careers/en/jobs/744000156706009/senior-software-engineer-fullstack/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000156705769",
+          "title": "Head, Cluster Controllership & Finance Governance",
+          "url": "https://www.grab.careers/en/jobs/744000156705769/head-cluster-controllership-finance-governance/",
+          "function_tags": []
+        },
+        {
+          "id": "744000156513931",
+          "title": "Assistant Manager, Driver Acquisition Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000156513931/assistant-manager-driver-acquisition-strategy/",
+          "function_tags": []
+        },
         {
           "id": "744000156513729",
           "title": "Senior Analyst, Business Operations",
@@ -13,6 +45,12 @@
           "function_tags": [
             "operations"
           ]
+        },
+        {
+          "id": "744000156497392",
+          "title": "Data Scientist (Product Analytics)",
+          "url": "https://www.grab.careers/en/jobs/744000156497392/data-scientist-product-analytics/",
+          "function_tags": []
         },
         {
           "id": "744000156467330",
@@ -30,6 +68,20 @@
           "id": "744000156462005",
           "title": "Lead Software Engineer, Backend",
           "url": "https://www.grab.careers/en/jobs/744000156462005/lead-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000156459119",
+          "title": "Fleet Management Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000156459119/fleet-management-assistant-manager/",
+          "function_tags": []
+        },
+        {
+          "id": "744000156458079",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000156458079/senior-software-engineer-backend/",
           "function_tags": [
             "engineering"
           ]
@@ -82,72 +134,12 @@
             "ai",
             "engineering"
           ]
-        },
-        {
-          "id": "744000156250029",
-          "title": "Lead Software Engineer, Fullstack",
-          "url": "https://www.grab.careers/en/jobs/744000156250029/lead-software-engineer-fullstack/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000156248185",
-          "title": "Senior Network Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000156248185/senior-network-engineer/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000156249489",
-          "title": "Lead Data Engineer, Metrics Platform",
-          "url": "https://www.grab.careers/en/jobs/744000156249489/lead-data-engineer-metrics-platform/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000156237654",
-          "title": "Operations Analytics Assistant Manager",
-          "url": "https://www.grab.careers/en/jobs/744000156237654/operations-analytics-assistant-manager/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000156234441",
-          "title": "Senior Data Scientist (Analytics)",
-          "url": "https://www.grab.careers/en/jobs/744000156234441/senior-data-scientist-analytics/",
-          "function_tags": []
-        },
-        {
-          "id": "744000156229574",
-          "title": "Forward Deployed Engineer, Robotics",
-          "url": "https://www.grab.careers/en/jobs/744000156229574/forward-deployed-engineer-robotics/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000156227489",
-          "title": "IT Executive",
-          "url": "https://www.grab.careers/en/jobs/744000156227489/it-executive/",
-          "function_tags": []
-        },
-        {
-          "id": "744000156227099",
-          "title": "Senior Data Analyst, Compliance",
-          "url": "https://www.grab.careers/en/jobs/744000156227099/senior-data-analyst-compliance/",
-          "function_tags": [
-            "compliance"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-21T05:29:47.976363+08:00",
+      "observed_at": "2026-10-21T13:41:31.911052+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -188,7 +180,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-21T05:29:47.976363+08:00",
+      "observed_at": "2026-10-21T13:41:31.911052+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
@@ -219,12 +211,6 @@
             "engineering",
             "partnerships"
           ]
-        },
-        {
-          "id": "23139158-81cb-4924-a080-5d38e490d687",
-          "title": "Revenue Event Marketing Lead Remote - APAC, Singapore, Hong Kong",
-          "url": "https://www.shopify.com/careers/revenue-event-marketing-lead_23139158-81cb-4924-a080-5d38e490d687",
-          "function_tags": []
         },
         {
           "id": "103b3bdf-35f7-4199-8a61-195d1eeed88d",
