@@ -1,245 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-10-20</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-10-21</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-10-20T21:39:57Z</updated>
+  <updated>2026-10-21T05:53:48Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Daytona获$60M B轮融资，估值达$1B</title>
-    <link href="https://tech.eu/2026/10/20/daytona-hits-1b-valuation-with-60m-series-b-for-ai-agent-cloud/"/>
-    <id>tag:weekly-report,2026:event-0507dfe2</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Daytona hits $1B valuation with $60M Series B for AI agent cloud&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI智能体云平台Daytona完成6000万美元B轮融资，估值达到10亿美元，跻身独角兽行列。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI智能体云基础设施公司估值破十亿，智能体运行环境与沙箱算力采购需求将放量&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
+    <title>Otter.ai获$320M融资</title>
+    <link href="https://ventureburn.com/otter-ai-secures-320m-enterprise-ai-growth/"/>
+    <id>tag:weekly-report,2026:event-7b15f90b</id>
+    <published>2026-10-21T00:00:00Z</published>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Otter.ai Secures $320M to Accelerate Enterprise AI Growth&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI会议记录公司Otter.ai完成3.2亿美元融资，用于加速企业级AI业务增长&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国AI会议助手公司大额融资，企业级AI协作工具赛道竞争加剧，API与集成合作机会增多&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>ASI获$325M C轮融资，估值$3B</title>
-    <link href="https://thenextweb.com/news/asi-325m-series-c-3bn-valuation-air-space-intelligence"/>
-    <id>tag:weekly-report,2026:event-3ebaa06a</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;ASI hits a $3bn valuation as its AI moves from air traffic to the grid&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;空天情报AI公司ASI完成3.25亿美元C轮融资，估值达30亿美元，其AI业务从空中交通扩展至电网领域。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲空天情报AI公司估值达30亿美元，电网与空域AI算力采购及数据合作机会扩大&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>Salesforce以$5.66B收购Braze</title>
+    <link href="https://fintechnews.sg/139306/ai/salesforce-braze-acquisition/"/>
+    <id>tag:weekly-report,2026:event-623c6af9</id>
+    <published>2026-10-21T00:00:00Z</published>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Salesforce to Acquire Braze for US$5.66 Billion&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Salesforce宣布以56.6亿美元收购客户互动平台Braze，强化其AI驱动的营销自动化能力&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美CRM巨头以56.6亿美元收购客户互动平台，营销自动化与AI客户数据赛道整合加速&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：北美 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Veon以$207M收购乌兹别克运营商</title>
-    <link href="https://www.mobileworldlive.com/operators/veon-strikes-207m-deal-for-uzbek-operator/"/>
-    <id>tag:weekly-report,2026:event-a574af4c</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Veon beefs Uzbek presence with $200M deal&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Veon以约2.07亿美元收购乌兹别克斯坦电信运营商，扩大在中亚市场布局。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球电信运营商Veon加码中亚市场，乌兹别克电信基建与移动支付合作机会随之增加&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
+    <title>Bitget计划收购泰国持牌加密交易所</title>
+    <link href="https://fintechnews.sg/139304/thailand/bitget-thailand-crypto-exchange-acquisition/"/>
+    <id>tag:weekly-report,2026:event-0903384c</id>
+    <published>2026-10-21T00:00:00Z</published>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Bitget Plans to Acquire Licensed Crypto Exchange in Thailand&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;加密交易所Bitget宣布计划收购泰国一家持牌加密货币交易所，以获取当地合规运营资质&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;加密交易平台通过收购持牌机构进入东南亚受监管市场，泰国数字资产合规牌照价值上升&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：ma | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Mad Hook高管呼吁行业竞争转向合作</title>
-    <link href="https://www.pocketgamer.biz/if-i-want-to-change-one-thing-in-the-sector-i-will-convert-competition-to-collaboration/"/>
-    <id>tag:weekly-report,2026:event-79a25606</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mad Hook&amp;#x27;s Hazim Al-Hanbali: “If I want to change one thing in the sector, I will convert competition to collaboration&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Mad Hook的Hazim Al-Hanbali在采访中表示，希望将行业内的竞争转化为合作。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东游戏公司Mad Hook倡导行业协作，中东游戏生态合作与联合发行机会值得关注&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+    <title>Klaviyo调查：81%新加坡人拟用AI选购礼物</title>
+    <link href="https://www.techinasia.com/news/klaviyo-81-singaporeans-plan-ai-gifts"/>
+    <id>tag:weekly-report,2026:event-00e2d344</id>
+    <published>2026-10-21T00:00:00Z</published>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;81% of Singaporeans plan to use AI for gifts: Klaviyo&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;营销自动化平台Klaviyo调查显示，81%的新加坡消费者计划在选购礼物时使用AI工具&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡电商营销AI渗透率数据，为东南亚零售AI工具与个性化推荐服务商提供市场验证&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Google联手Amazon挑战Nvidia AI芯片主导地位</title>
-    <link href="https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/"/>
-    <id>tag:weekly-report,2026:event-7a4ef116</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Google加入Amazon阵营，通过面向AI应用开发者的产品与生态策略挑战Nvidia在AI芯片领域的主导地位&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;云巨头Google与Amazon争夺AI应用开发者生态，AI芯片采购与云推理成本结构或生变&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
+    <title>报告预测东南亚数字经济2035年破1万亿美元</title>
+    <link href="https://www.techinasia.com/news/sea-digital-economy-top-1t-2035-report"/>
+    <id>tag:weekly-report,2026:event-021a1fdd</id>
+    <published>2026-10-21T00:00:00Z</published>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;SEA digital economy to top $1t by 2035: report&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;最新报告预测东南亚数字经济规模将在2035年突破1万亿美元&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚数字经济长期规模预测，为区域云基础设施、支付、电商物流投资提供宏观锚点&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sea考虑推动Monee IPO</title>
-    <link href="https://fintechnews.sg/139218/payments/sea-monee-ipo/"/>
-    <id>tag:weekly-report,2026:event-96f7ef10</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Tech Giant Sea Eyes Monee IPO Nine Years After Its NYSE Debut&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;东南亚科技巨头Sea考虑推动旗下数字支付公司Monee进行IPO，距Sea在纽交所上市已过去九年&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚支付赛道资本化提速，Monee独立上市可能释放区域支付资产价值&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Meta Muse 40天美国下载破1000万</title>
-    <link href="https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/"/>
-    <id>tag:weekly-report,2026:event-376e4b84</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Meta旗下应用Muse在美国上线40天内下载量突破1000万次，成为仅有的第12个达成该里程碑的应用&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Meta新应用Muse快速获客验证社交产品分发能力，北美应用生态流量入口竞争加剧&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：北美 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SYBO高管回顾地铁跑酷15年发展与转型</title>
-    <link href="https://www.pocketgamer.biz/sybo-mathias-gredal-norvig-subway-surfers-15-years/"/>
-    <id>tag:weekly-report,2026:event-11b7ac4d</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;SYBO&amp;#x27;s Mathias Gredal Nørvig on Subway Surfers at 15: Zero UA, City’s pivot and what comes next&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;SYBO高管Mathias Gredal Nørvig回顾《地铁跑酷》15年发展历程，谈及零用户获取策略、City的转型及未来规划。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲休闲游戏公司SYBO分享零UA增长策略，移动游戏买量模式与广告变现合作方向受关注&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PHY Wireless与Ubiik整合私有5G定位</title>
-    <link href="https://www.mobileworldlive.com/5g/phy-wireless-ubiik-blend-location-into-private-lte-5g/"/>
-    <id>tag:weekly-report,2026:event-07adb5a1</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;PHY Wireless, Ubiik blend location into private LTE, 5G&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;PHY Wireless与Ubiik合作，将定位能力整合进私有LTE和5G网络解决方案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球私有5G网络定位能力增强，工业物联网与室内定位集成商可借势拓展垂直行业方案&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Hamlet采用Databricks Lakebase测试生产数据变更</title>
-    <link href="https://www.databricks.com/blog/how-hamlet-uses-databricks-lakebase-postgres-test-changes-against-production-data"/>
-    <id>tag:weekly-report,2026:event-2682b8fb</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;How Hamlet uses Databricks Lakebase Postgres to test changes against production data&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Hamlet利用Databricks Lakebase Postgres在生产数据上测试变更，作为客户案例在Databricks博客发布&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Databricks Lakebase Postgres获企业客户采用，数据湖仓与Postgres融合方案验证落地，利好数据基础设施集成商&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Databricks | 来源：Databricks Blog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Anthropic设立公益基金并注入部分股份</title>
-    <link href="https://www.anthropic.com/news/public-benefit-fund"/>
-    <id>tag:weekly-report,2026:event-224dfe3a</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Anthropic将部分公司股份划入新设立的Anthropic Public Benefit Fund，该基金结构设计使其持股比例随公司成长而增加&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Anthropic通过公益基金结构锁定长期治理话语权，AI公司治理模式创新可能影响其融资节奏和生态合作条款&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Anthropic | 来源：Anthropic Newsroom&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>MAS警告AI投资热潮带来金融稳定风险</title>
-    <link href="https://fintechnews.sg/139225/ai/mas-ai-financial-risks/"/>
-    <id>tag:weekly-report,2026:event-17bbc1d7</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;MAS Warns of Financial Stability Risks as Billions Pour Into AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡金管局MAS发布警告，指出大量资金涌入AI领域可能带来金融稳定性风险&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡监管机构对AI资金流向发出风险预警，亚太AI投资合规审查可能收紧&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>TechCabal解析数据中心与云平台差异</title>
-    <link href="https://techcabal.com/2026/10/20/data-centre-cloud-platform-difference/"/>
-    <id>tag:weekly-report,2026:event-7c20f4bd</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;A data centre is not a cloud platform: Why the distinction matters&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;TechCabal发文辨析数据中心与云平台的区别及其对非洲市场的意义&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲云基础设施建设加速，区分数据中心与云平台有助于判断本地云服务投资方向&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：非洲 | 来源：TechCabal&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Mamdani呼吁纽约市民推动AI监管</title>
-    <link href="https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/"/>
-    <id>tag:weekly-report,2026:event-22b0786b</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mamdani says feds have abdicated on AI, urges New Yorkers to push back&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;纽约市长候选人Mamdani批评联邦政府在AI监管上缺位，呼吁纽约市民推动地方层面应对&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国地方政治力量介入AI监管议题，可能影响纽约AI企业合规成本与政策环境&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>2026全球金融科技Hackcelerator公布18强</title>
-    <link href="https://fintechnews.sg/139137/fintech/global-fintech-hackcelerator-2026-finalists/"/>
-    <id>tag:weekly-report,2026:event-9226f8de</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Meet the 18 Finalists for the 2026 Global Fintech Hackcelerator&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;2026全球金融科技Hackcelerator公布18个入围决赛项目名单&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡金融科技孵化项目入围名单反映亚太早期创新方向，为投资机构和合作方提供项目筛选参考&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Mastercard推出稳定币风险工具，2027全球推广</title>
-    <link href="https://fintechnews.sg/139214/digitalassets/mastercard-stablecoin-security/"/>
-    <id>tag:weekly-report,2026:event-7c4cc8ba</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mastercard Launches Stablecoin Risk Tool Ahead of Global Rollout in 2027&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Mastercard推出稳定币风险检测工具，计划2027年前在全球范围推广&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;支付巨头布局稳定币安全合规基础设施，稳定币支付场景合作窗口打开&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Sumsub推出KYA模块管控AI代理访问</title>
-    <link href="https://fintechnews.sg/139204/regtech/sumsub-know-your-agent-mcp-module/"/>
-    <id>tag:weekly-report,2026:event-8a7134d8</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Sumsub Launches KYA Module to Control AI Agent Access&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;合规科技公司Sumsub推出KYA（Know Your Agent）模块，用于管控AI代理的访问权限&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI代理身份与权限治理成为合规科技新赛道，亚太RegTech厂商率先推出产品，企业AI部署合规需求上升&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Griffin与Entertainment 360成立游戏改编合资公司HITpoint</title>
-    <link href="https://www.pocketgamer.biz/griffin-gaming-partners-and-entertainment-360-launch-game-adaptation-venture/"/>
-    <id>tag:weekly-report,2026:event-52f373d3</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Griffin Gaming Partners and Entertainment 360 launch game adaptation venture HITpoint Entertainment&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Griffin Gaming Partners与Entertainment 360联合成立合资公司HITpoint Entertainment，专注于游戏IP的影视改编开发&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球游戏IP影视化赛道升温，游戏公司IP授权和跨媒体变现合作机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Visa试点AI代理间B2B支付</title>
-    <link href="https://www.finextra.com/newsarticle/48610/visa-pilots-ai-agent-payments-between-buyer-and-supplier-platforms?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-977db97c</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Visa pilots AI agent payments between buyer and supplier platforms&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Visa启动试点项目，在买方与供应商平台之间实现AI代理支付，探索自动化B2B交易结算流程。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付网络Visa推动AI代理支付落地，B2B自动化结算赛道将催生API集成与风控合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>英国提议开放iPhone NFC支付访问权限</title>
-    <link href="https://www.finextra.com/newsarticle/48618/uk-sets-out-proposal-to-open-up-access-to-iphone-contactless-payments?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-61d04bc6</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;UK sets out proposal to open up access to iPhone contactless payments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英国监管机构提出方案，拟开放iPhone近场支付（NFC）访问权限给第三方支付服务商&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Apple Pay在英国的NFC垄断可能被打破，第三方支付和数字钱包迎来新市场准入机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Flipkart计划10月底推出食品配送服务</title>
-    <link href="https://inc42.com/buzz/flipkart-eyes-october-end-launch-for-food-delivery-service-report/"/>
-    <id>tag:weekly-report,2026:event-3bdfc12f</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Flipkart Eyes October-End Launch For Food Delivery Service: Report&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;据报道，印度电商平台Flipkart计划于10月底前推出食品配送服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度电商巨头Flipkart进军外卖市场，配送基础设施与本地商户数字化合作机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Fireblocks推出稳定币流动性市场</title>
-    <link href="https://fintechnews.sg/139217/digitalassets/fireblocks-liquidity-market/"/>
-    <id>tag:weekly-report,2026:event-0efda993</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Fireblocks Launches Liquidity Market for Stablecoin Trading&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Fireblocks推出稳定币交易流动性市场，为机构客户提供稳定币流动性撮合服务&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;稳定币机构级基础设施竞争加剧，数字资产流动性服务成为新战场&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Savvy Games与巴林大学签署游戏教育MoU</title>
-    <link href="https://www.pocketgamer.biz/savvy-games-group-signs-mou-with-bahrain-university-to-support-games-education/"/>
-    <id>tag:weekly-report,2026:event-db98f037</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Savvy Games Group signs MoU with Bahrain university to support games education&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;沙特Savvy Games Group与巴林大学签署谅解备忘录，支持游戏教育和人才培养&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东游戏产业人才基建投入加大，游戏教育和本地化合作机会浮现&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>爱立信扩大与Singtel、Telstra合作</title>
-    <link href="https://www.mobileworldlive.com/ericsson/ericsson-expands-work-with-singtel-telstra/"/>
-    <id>tag:weekly-report,2026:event-b1a181c2</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ericsson expands work with Singtel, Telstra&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;爱立信宣布扩大与新加坡电信Singtel及澳大利亚电信Telstra的合作范围&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太电信运营商与爱立信深化网络合作，5G/网络设备供应链订单机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Thunes与Coinbase合作扩展稳定币支付</title>
-    <link href="https://fintechnews.sg/139172/digitalassets/thunes-coinbase-stablecoin-payments/"/>
-    <id>tag:weekly-report,2026:event-71dadaa2</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Thunes and Coinbase to Expand Stablecoin Payments Globally&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;支付公司Thunes与Coinbase合作，在全球范围扩展稳定币支付通道&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;稳定币跨境支付基础设施加速落地，Coinbase与亚太支付网络合作，跨境结算与汇款场景机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Flipkart测试外卖配送对标Zomato和Swiggy</title>
-    <link href="https://www.techinasia.com/news/flipkart-tests-food-delivery-zomato-swiggy"/>
-    <id>tag:weekly-report,2026:event-1df69d5e</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Flipkart tests food delivery to take on Zomato and Swiggy&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度电商平台Flipkart正在测试外卖配送服务，以挑战Zomato和Swiggy&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度电商巨头切入外卖赛道，将加剧本地即时配送竞争，可能重塑印度本地生活服务格局&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PayPal CEO承认公司敏捷性不足</title>
-    <link href="https://www.paymentsdive.com/news/paypal-isnt-agile-enough-ceo-says/833449/"/>
-    <id>tag:weekly-report,2026:event-9324b1ab</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;PayPal isn’t agile enough, CEO says&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;PayPal CEO公开表示公司敏捷性不足，暗示将推动内部组织与产品迭代效率改革。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付巨头PayPal承认组织僵化，可能引发架构重组和技术栈升级，支付技术供应商有机会切入&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：Payments Dive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Shopify admin新增库存盘点功能</title>
-    <link href="https://changelog.shopify.com/posts/create-manage-and-review-stock-counts-in-shopify-admin"/>
-    <id>tag:weekly-report,2026:event-d3d8b995</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Create, manage and review stock counts in Shopify admin&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Shopify在后台管理系统中新增库存盘点功能，商家可直接在Shopify admin中创建、管理和审核库存盘点&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Shopify发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Shopify | 来源：Shopify Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>IndiaMART与Justdial因爆炸品上架被CCPA立案</title>
-    <link href="https://inc42.com/buzz/indiamart-justdial-booked-by-ccpa-over-explosive-products-listings/"/>
-    <id>tag:weekly-report,2026:event-108ac923</id>
-    <published>2026-10-20T00:00:00Z</published>
-    <updated>2026-10-20T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;IndiaMART, Justdial Booked By CCPA Over Explosive Products Listings&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度消费者保护机构CCPA因爆炸性产品上架问题对印度B2B平台IndiaMART和Justdial立案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度电商平台合规监管收紧，B2B平台商品审核系统与合规技术投入需求上升&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
+    <title>Grab在本周新增8个工程与平台相关职位</title>
+    <link href="https://www.grab.careers/en/jobs/744000156296689/transportation-operation-assistant-manager/"/>
+    <id>tag:weekly-report,2026:event-4c491088</id>
+    <published>2026-10-21T00:00:00Z</published>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Grab集中新增8个工程与平台岗位&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;集中招聘显示Grab正在加强工程与平台能力建设，形成可核验的组织投入信号&lt;/p&gt;&lt;p&gt;标签：组织变化 | 类型：strategy | 地区：亚太 | 公司：Grab | 来源：Grab Jobs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-10-21</title>
@@ -247,6 +63,6 @@
     <id>tag:weekly-report,2026:aihot-eb03c86d</id>
     <published>2026-10-21T00:00:00Z</published>
     <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-21T00:24&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/dae7c054-a1fe-423d-bf36-68d8d8959457"&gt;DeepSeek 开源内部推理框架 DeepInfer&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/589d286a-2a6d-48be-b14a-e61390534ec3"&gt;MiniMax 发布 M3.1 Flash，权重 10 月 23 日开放&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/c23155c2-2ff3-45e5-a3ab-4ed6a5217d72"&gt;美国土安全部令联邦文职机构移除DeepSeek及关联产品&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45"&gt;DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/66a54812-6ab2-4206-8573-aaa6ccfc8532"&gt;Anthropic设公益基金 承诺投入5%股份&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-21T10:11&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/dae7c054-a1fe-423d-bf36-68d8d8959457"&gt;DeepSeek 开源内部推理框架 DeepInfer&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/589d286a-2a6d-48be-b14a-e61390534ec3"&gt;MiniMax 发布 M3.1 Flash，10 月 23 日开放权重&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/c23155c2-2ff3-45e5-a3ab-4ed6a5217d72"&gt;美土安全部令联邦文职机构移除DeepSeek及关联产品&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45"&gt;DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/452085ae-c2fe-4a36-bf0b-115388db0e18"&gt;OpenAI收购药物研发平台Orchestra Bio&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
