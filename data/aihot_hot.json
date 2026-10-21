@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T10:11:33+08:00",
-  "fetched_date": "2026-10-21",
+  "generated_at": "2026-10-22T00:40:28+08:00",
+  "fetched_date": "2026-10-22",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
@@ -9,113 +9,113 @@
   "items": [
     {
       "rank": 1,
-      "title": "DeepSeek 开源内部推理框架 DeepInfer",
-      "list_title": "DeepSeek 开源内部推理框架 DeepInfer",
+      "title": "DeepSeek 开源生产推理框架 DeepInfer",
+      "list_title": "DeepSeek 开源生产推理框架 DeepInfer",
       "heat": null,
       "heat_change": "",
       "sources": [],
-      "summary": "DeepSeek 将内部使用的大规模推理框架 DeepInfer 全面开源，代码托管在 GitHub（github.com/deepseek-ai/DeepInfer），采用 Apache-2.0 许可，并同步开源 Token 编解码组件 deepseek-recipe（MarkTechPost 称其采用 MIT 许可）。官方称该框架已支撑 DeepSeek-V4.1-Flash 的高吞吐、低延迟推理，开源旨在帮助社区降低算力成本与能耗；IT之家称其兼容英伟达与华为昇腾平台。\n\n关于开源范围，Rohan Paul 称该版本只运行 DeepSeek-V4.1-Flash，限于英伟达 SM100 GPU 或华为昇腾 950 芯片，覆盖离线推理而非完整服务栈，未包含 KV cache 系统、prefill 与 decode 分离及多副本负载均衡。MarkTechPost 同样称其为离线推理，并列出构建需 Linux、GCC 13 以上、Python 3.12，以及 CUDA 13 或 CANN 9.2。\n\nYuchen Jin 转发时引述 DeepSe…",
+      "summary": "DeepSeek 将支撑其线上服务的推理框架 DeepInfer 以 Apache-2.0 许可开源，代码托管在 GitHub，并同步开源 Token 编解码组件 deepseek-recipe（MarkTechPost 称其采用 MIT 许可）。官方称该框架已用于 DeepSeek-V4.1-Flash 的高吞吐、低延迟推理，开源旨在帮助社区降低算力成本与能耗；IT之家称其兼容英伟达与华为昇腾平台。\n\n开源范围存在限制。Rohan Paul 称该版本只运行 DeepSeek-V4.1-Flash，限于英伟达 SM100 GPU 或华为昇腾 950 芯片，覆盖离线推理而非完整服务栈，未包含 KV cache 系统、prefill 与 decode 分离及多副本负载均衡；MarkTechPost 同样称其为离线推理，并列出构建需 Linux、GCC 13 以上、Python 3.12，以及 CUDA 13 或 CANN 9.2。\n\nYuchen Jin 引述 DeepSeek 公布的运营数据：单集群日吞吐 155 万亿 token，按非高峰价格计算…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/dae7c054-a1fe-423d-bf36-68d8d8959457"
     },
     {
       "rank": 2,
-      "title": "MiniMax 发布 M3.1 Flash，10 月 23 日开放权重",
-      "list_title": "MiniMax 发布 M3.1 Flash，10 月 23 日开放权重",
+      "title": "OpenAI称模型协助发现PHP核心漏洞，Wiz披露可致RCE",
+      "list_title": "OpenAI称模型协助发现PHP核心漏洞，Wiz披露可致RCE",
       "heat": null,
-      "heat_change": "↓ 12 %",
+      "heat_change": "↑ 742 %",
       "sources": [],
-      "summary": "MiniMax 正式发布 M3.1 Flash，已上线 MiniMax API、MPlan 和 MiniMax Code，权重定于 10 月 23 日开放，许可证尚未公布。官方称其以 M3 三分之一的成本、约 3 倍速度达到前沿级智能体表现，日常输出可达 200+ TPS；API 定价为输入每百万 Token 1 元、输出 4 元、缓存读取 0.1 元，英文口径为 $0.15/$0.60/$0.015，MarkTechPost 称无长上下文附加费。\n\n此前在 OpenRouter 匿名测试的 Space Bunny 被确认为其早期版本：OpenRouter 称其匿名期间连续 10 天居首、处理 56.7T token，回归后免费 72 小时；OpenCode 称其连续 12 天排名第一、累计 106T token，上架后免费 3 天；Cline 也于发布当日上线并免费开放。Ollama 和 GMI Cloud 称已 Day0 上线，OpenClaw 称在 v2026.10.1 及以上版本可直接使用。\n\n官方评测成绩包括 DeepSWE v1.1 …",
+      "summary": "OpenAI 称，其 GPT-5.6 Sol 模型在“Patch the Planet”计划下协助研究者 Calif 发现 PHP 核心严重漏洞；OpenAI 过去两个月牵头维护者、研究者与安全厂商组成联盟，在公开披露前完成修复，PHP 维护者于 2026 年 10 月 21 日发布补丁。OpenAI 还发布 Codex 技能，引导用户通过其 GitHub 仓库自查网站是否受影响。\n\nWiz Research 称，这些是 PHP 核心引擎中的多个内存安全漏洞（CVE-2026-109618/109619，CVSS 最高 9.2），可导致无需认证的远程代码执行与内存泄露，至少可追溯到 PHP 5.4，近十年发布的每个 PHP 版本都至少受其中一个影响；Wiz 表示其独立发现并报告了这两个漏洞。\n\nOpenAI 联合创始人 Greg Brockman 称该漏洞名为 php2shell，可让攻击者在几乎所有已部署的 PHP 应用上执行代码，已存在 14 年；修复原定 10 月 22 日发布，因细节提前泄露而提前至 10 月 21 日。OpenAI 称使…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/589d286a-2a6d-48be-b14a-e61390534ec3"
+      "story_url": "https://aihot.virxact.com/story/17f9865a-cef7-4d98-9742-0796331c81ea"
     },
     {
       "rank": 3,
       "title": "美土安全部令联邦文职机构移除DeepSeek及关联产品",
       "list_title": "美土安全部令联邦文职机构移除DeepSeek及关联产品",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 16 %",
       "sources": [],
-      "summary": "美国国土安全部依据2018年《联邦采购供应链安全法》发布命令，要求所有联邦文职机构立即停止采购杭州深度求索（DeepSeek）及其关联实体的产品，并从机构IT系统中移除这些产品，以及使用DeepSeek实现开发的第三方产品和服务。国家安全系统和保密隔离信息系统不在命令范围内。\n\n机构如需例外，须在命令发布后60天内书面申请，并给出“令人信服的理由”，例如无法履行关键任务职能。DHS称，使用该中国AI模型存在敏感数据被传至北京的风险，模型也可能含恶意软件或安全漏洞；The Decoder报道称，命令未设移除期限，也未说明具体安全担忧。\n\n中国外交部发言人毛宁10月20日回应称，中方一贯反对泛化国家安全概念、将科技经贸问题政治化，将坚决维护中国企业的合法权益。此前有报道称，美国政府曾考虑限制中国开源权重模型，在英伟达、微软、谷歌和Meta反对后暂缓。",
+      "summary": "美国国土安全部依据2018年《联邦采购供应链安全法》发布命令，要求所有联邦文职机构立即停止采购杭州深度求索（DeepSeek）及其关联实体的产品，并从机构IT系统中移除这些产品，以及使用DeepSeek实现开发的第三方产品和服务。国家安全系统和保密隔离信息系统不在命令范围内。机构如需例外，须在命令发布后60天内书面申请并给出“令人信服的理由”，例如无法履行关键任务职能。\n\nDHS称，使用该中国AI模型存在敏感数据被传至北京的风险，模型也可能含恶意软件或安全漏洞；The Decoder报道称，命令未设移除期限，也未说明具体安全担忧。\n\n中国外交部发言人毛宁10月20日回应称，中方一贯反对泛化国家安全概念、将科技经贸问题政治化，将坚决维护中国企业的合法权益。The Decoder另称中国商务部要求撤销该禁令并誓言采取反制措施。此前有报道称，美国政府曾考虑限制中国开源权重模型，在英伟达、微软、谷歌和Meta反对后暂缓。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/c23155c2-2ff3-45e5-a3ab-4ed6a5217d72"
     },
     {
       "rank": 4,
+      "title": "马斯克称SpaceX与特斯拉已设委员会评估合并",
+      "list_title": "马斯克称SpaceX与特斯拉已设委员会评估合并",
+      "heat": null,
+      "heat_change": "↑ 17 %",
+      "sources": [],
+      "summary": "马斯克在财报电话会上确认，SpaceX与特斯拉均已设立独立特别委员会，评估两家公司合并的可能性。他个人认为，合并在超级智能软件、芯片、Terrafab、机器人技术和Starlink等业务上有意义。\n\n但他表示合并并无把握，需要获得特斯拉全部股份中50%投票赞成这一高门槛。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/e797c189-8889-4f65-b11d-e9a7f0ede229"
+    },
+    {
+      "rank": 5,
+      "title": "MiniMax 发布 M3.1 Flash，10 月 23 日开放权重",
+      "list_title": "MiniMax 发布 M3.1 Flash，10 月 23 日开放权重",
+      "heat": null,
+      "heat_change": "↓ 40 %",
+      "sources": [],
+      "summary": "MiniMax 正式发布 M3.1 Flash，已上线 MiniMax API、MPlan 和 MiniMax Code，权重定于 10 月 23 日开放，许可证尚未公布。官方称其以 M3 三分之一的成本、约 3 倍速度达到前沿级智能体表现，日常输出可达 200+ TPS；API 定价为输入每百万 Token 1 元、输出 4 元、缓存读取 0.1 元，英文口径为 $0.15/$0.60/$0.015，MarkTechPost 称无长上下文附加费。\n\n此前在 OpenRouter 匿名测试的 Space Bunny 被确认为其早期版本：OpenRouter 称其匿名期间连续 10 天居首、处理 56.7T token，回归后免费 72 小时；OpenCode 称其连续 12 天排名第一、累计 106T token，上架后免费 3 天；Cline 也于发布当日上线并免费开放。Ollama 和 GMI Cloud 称已 Day0 上线，OpenClaw 称在 v2026.10.1 及以上版本可直接使用。\n\n官方评测成绩包括 DeepSWE v1.1 …",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/589d286a-2a6d-48be-b14a-e61390534ec3"
+    },
+    {
+      "rank": 6,
+      "title": "Amodei 回应 Anthropic 安全立场批评",
+      "list_title": "Amodei 回应 Anthropic 安全立场批评",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Anthropic 首席执行官 Dario Amodei 公开回应 AI 安全研究者 Nathan Calvin 的批评。Calvin 此前指责 Anthropic 在竞逐超级智能时让安全让位于竞争。Amodei 承认部分事例属于失误，但不同意 Calvin 的整体论断。\n\n据 Rohan Paul 转述，Amodei 承认包括联邦 AI 法案草案在内的三项举措本可处理得更好，称其为沟通失误，并以 CEO 身份承担责任。他坚持 Anthropic 的“向上竞争”（race to the top）战略，列举了支持 SB53、生物安全防护、限制向中国（PRC）企业出售 AI 服务、将公司 5% 投入公益基金等付出商业代价的安全决策，并为 RSP 改革辩护。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/91257b3c-06c3-4abf-96c2-d36872494857"
+    },
+    {
+      "rank": 7,
+      "title": "OpenAI收购药物研发平台Orchestra Bio并入Rosalind",
+      "list_title": "OpenAI收购药物研发平台Orchestra Bio并入Rosalind",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "OpenAI 宣布收购 Orchestra Bio，一个帮助生物制药团队协调药物研发流程的平台，其团队和技术将并入 OpenAI 面向生命科学研究的 Rosalind 模型与工具。OpenAI 称此举意在简化药物研发运营、帮助新疗法更快到达患者；首席研究官 Mark Chen 和联合创始人 Greg Brockman 均公开欢迎该团队加入。\n\n据 TechCrunch 报道，Orchestra Bio 成立四年，开发用于管理药物研发运营事务的 AI 智能体，涉及财务追踪和临床试验排期等，截至 2025 年融资约 2000 万美元，投资方包括 Andreessen Horowitz、Atria 和 8VC。OpenAI 介绍，其智能体可追踪研究和项目进展，并在生产批次失败等事件发生时映射受影响的临床试验、汇总应对方案。\n\n收购金额和交易条款未披露，Orchestra Bio 现有产品后续如何安排也未说明。OpenAI 在声明中还提到与 Novo Nordisk 和 Moderna 的合作，并称新药从靶点发现到美国审批平均仍需 10 到 15 年。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/452085ae-c2fe-4a36-bf0b-115388db0e18"
+    },
+    {
+      "rank": 8,
+      "title": "Anthropic三季度收入168亿美元，增速放缓",
+      "list_title": "Anthropic三季度收入168亿美元，增速放缓",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Anthropic在旧金山闭门投资者会议上披露，第三季度收入168亿美元，环比增长约45%至近50%，较第二季度147%的增速明显放缓。公司同时称，每1美元算力支出带来1.70美元收入，年内调整后营业利润率为11%、现金流为正。\n\n部分投资者对营收数字失望，预计IPO估值可能降至1.5万亿美元以下，低于此前讨论的2万亿美元；路透社援引知情人士称，投资者日活动讨论约1.5万亿美元，而银行家传闻的估值约2万亿美元、募资超100亿美元尚未成为定论。Bloomberg指出，市场将增长放缓解读为AI芯片和服务器的坏消息。\n\nWSJ看到的IPO草案文件显示，Anthropic上半年收入163亿美元、纸面亏损807亿美元，并承诺约4500亿美元算力支出。各来源对第二季度收入的表述不一：有报道称约115亿美元，也有报道称从约48亿美元增至115亿美元。关于7月650亿美元ARR及8、9月收入测算，来自X用户Oran Ge的自行推算，并非公司披露。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/f18eef00-3d70-4586-a109-ee6a78104fbf"
+    },
+    {
+      "rank": 9,
       "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
       "list_title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
       "heat": null,
-      "heat_change": "↓ 13 %",
+      "heat_change": "↓ 25 %",
       "sources": [],
       "summary": "DeepSeek 于 10 月 17 日将 V4.1 Flash 升级为 DeepSeek-V4.1-Flash-1017，网页端、App 与 API 同步替换，API 调用方式与价格不变，仍用 deepseek-flash 访问。DeepSeek 称新版在全部 11 项基准上较 9 月版提升 2.0 至 11.1 分，任务运行时间与输出长度缩短，并建议升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。Arena 随后公布该模型（Max 版）成为 Code Arena: WebDev 与 Agent Arena 的第一开源模型，后者总榜第 11；Artificial Analysis 智能指数得分 45，较旧版提高 6 分，与 GLM-5.3 并列开源权重模型第二。ValsAI 称初步评测显示该模型在多步攻击性网络安全任务上胜过 GPT 6 Sol，完整评测将于数周内公开。\n\n关于权重，IT之家称已同步开放下载、延续 MIT 许可；MarkTechPost 则称 1017 权重与硬件要求未披露。OpenRouter 同日…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45"
     },
     {
-      "rank": 5,
-      "title": "OpenAI收购药物研发平台Orchestra Bio",
-      "list_title": "OpenAI收购药物研发平台Orchestra Bio",
+      "rank": 10,
+      "title": "SpaceX 三季度 AI 收入占比过半，计划明年大幅扩算力",
+      "list_title": "SpaceX 三季度 AI 收入占比过半，计划明年大幅扩算力",
       "heat": null,
-      "heat_change": "↑ 106 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "OpenAI 宣布收购 Orchestra Bio，一个帮助生物制药团队协调药物研发流程的平台，其团队和技术将与 OpenAI 面向生命科学研究的 Rosalind 模型和工具整合。OpenAI 称此举意在简化相关运营、帮助新疗法更快到达患者；首席研究官 Mark Chen 公开欢迎该团队加入。\n\n据 TechCrunch 报道，Orchestra Bio 成立四年，开发用于管理药物研发运营事务的 AI 智能体，涉及财务追踪和临床试验排期等，截至 2025 年融资约 2000 万美元，投资方包括 Andreessen Horowitz、Atria 和 8VC。OpenAI 介绍，其智能体可追踪研究和项目进展，并在生产批次失败等事件发生时映射受影响的临床试验、汇总应对方案。\n\n收购金额和交易条款未披露，Orchestra Bio 现有产品后续如何安排也未说明。OpenAI 在声明中还提到与 Novo Nordisk 和 Moderna 的合作，并称新药从靶点发现到美国审批平均仍需 10 到 15 年。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/452085ae-c2fe-4a36-bf0b-115388db0e18"
-    },
-    {
-      "rank": 6,
-      "title": "Google 将 Gemini 个人智能引入车载系统",
-      "list_title": "Google 将 Gemini 个人智能引入车载系统",
-      "heat": null,
-      "heat_change": "↑ 94 %",
-      "sources": [],
-      "summary": "Google 已开始在 Android Auto 的 Gemini 中推出 Personal Intelligence，并计划在未来几个月覆盖搭载 Google Built-in 的汽车。该功能让 Gemini 在用户许可后连接 Gmail、Google Calendar、搜索等 Google 应用中的信息，用于处理复杂请求、个性化推荐和检索过往对话细节，从而在行车中提供免手操作帮助。\n\nThe Verge 报道称，该功能还可调用 Maps、Photos、YouTube 的信息，例如从 Gmail 读取航班确认信息后查询航班状态，或按上周照片找到洗车点并导航前往。Google 表示，只有用户启用 Personal Intelligence 设置，才会把应用连接到 Gemini；并且只有手机与车辆连接时，才会提供个性化回答。该功能为可选，用户可自行决定是否启用。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/61963b38-0861-49cc-aeef-d4191c0e21d1"
-    },
-    {
-      "rank": 7,
-      "title": "Google 与 Meta 开源 TorchTPU，Hugging Face 原生支持 TPU",
-      "list_title": "Google 与 Meta 开源 TorchTPU，Hugging Face 原生支持 TPU",
-      "heat": null,
-      "heat_change": "↑ 23 %",
-      "sources": [],
-      "summary": "Google 与 Meta 的 PyTorch 团队联合开发并开源 TorchTPU，为 Google Cloud TPU 提供原生 PyTorch 后端，让 PyTorch 通过 torch.device(\"tpu\") 直接运行在 TPU 上。该项目在 PyTorch Conference 2026 上宣布，PyPI 版本为 v0.2.0，要求 Python 3.11+，采用 Apache 2.0 许可；官方称其取代 PyTorch/XLA，并推荐用于所有新工作负载，测试覆盖 v5e 至 8192 颗 Ironwood（TPU7x）芯片。据 PyTorch 博客，模型迁移只需把 .to(\"cuda\") 改为 .to(\"tpu\")。\n\nHugging Face 随后宣布，其 Transformers、Diffusers 和 Kernels 已通过 TorchTPU 原生运行 TPU，模型加载只需 device_map=\"tpu\"；在 TPU 虚拟机上安装 TorchTPU 只需一条命令：pip install torch-tpu --extra-…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/d7566385-503b-4b33-acd6-21a80dd4085a"
-    },
-    {
-      "rank": 8,
-      "title": "SpaceX 三季度 AI 业务收入占比过半并扭亏为盈",
-      "list_title": "SpaceX 三季度 AI 业务收入占比过半并扭亏为盈",
-      "heat": null,
-      "heat_change": "↑ 674 %",
-      "sources": [],
-      "summary": "SpaceX 在第三季度监管文件中披露，公司营收 146 亿美元、净利润 44 亿美元，扭转去年同期 10 亿美元亏损。更名后的“Super Intelligence”业务线（含 Cursor、Grok 和 neocloud 算力业务）表现好于投资者预期，AI 业务目前占公司收入 52%，算力规模达 1.7 GW。\n\nTechCrunch 称，上述利润中约 10 亿美元来自比特币价格回升相关收益，以及一笔未说明的关联方收入，后者可能来自 SpaceX 对另一家公司的投资。",
+      "summary": "SpaceX 在第三季度监管文件中披露，公司营收 146 亿美元、净利润 44 亿美元，扭转去年同期 10 亿美元亏损。更名后的“Super Intelligence”业务线（含 Cursor、Grok 和 neocloud 算力业务）表现好于投资者预期，AI 业务目前占公司收入 52%，算力规模达 1.7 GW。TechCrunch 称，上述利润中约 10 亿美元来自比特币价格回升相关收益，以及一笔未说明的关联方收入，后者可能来自 SpaceX 对另一家公司的投资。\n\n在财报电话会上，SpaceX 表示明年将新建 20GW 的电力与散热设施；Elon Musk 称公司预计年底前拥有最多 3GW 的 AI 算力，约为当前规模的 7 倍。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/2ba6c88e-eaa2-47c1-b517-8f89994933d9"
-    },
-    {
-      "rank": 9,
-      "title": "ChatGPT上线锁定聊天，全套餐可PIN或生物识别保护",
-      "list_title": "ChatGPT上线锁定聊天，全套餐可PIN或生物识别保护",
-      "heat": null,
-      "heat_change": "↑ 32 %",
-      "sources": [],
-      "summary": "OpenAI 为 ChatGPT 推出 Locked Chats（锁定聊天）：用户可把敏感对话移入独立受保护区域，使其不再出现在常规历史记录和搜索中。网页端和桌面端用四位 PIN 解锁，支持的移动设备还可用 PIN、Face ID、Touch ID 或设备解锁。该功能向 Free、Go、Plus、Pro、Business、Enterprise 和 Edu 套餐推出，从当地时间周二起分批上线，并非所有用户都能立刻使用。\n\n记忆方面存在两种说法：ChatGPT 称锁定会话中的新消息不会更新常规对话使用的记忆；TechCrunch 报道称锁定聊天拥有独立记忆，IT之家也称开启记忆功能时锁定对话有独立记忆空间。\n\n适用范围有限制：据 TechCrunch，该功能不适用于 ChatGPT for Healthcare，也不能用于临时聊天、已归档聊天、群聊、由共享链接创建的聊天、带定时任务的聊天和带会议录音的聊天。IT之家称该功能不启用端到端加密，也不改变数据留存时长。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/4ae113ab-ed43-4b60-8667-e154b21617cd"
-    },
-    {
-      "rank": 10,
-      "title": "OpenAI 拟以超1.4万亿美元估值融资300亿美元",
-      "list_title": "OpenAI 拟以超1.4万亿美元估值融资300亿美元",
-      "heat": null,
-      "heat_change": "↓ 12 %",
-      "sources": [],
-      "summary": "据路透报道，OpenAI 正洽谈融资约 300 亿美元，估值超过 1.4 万亿美元，并希望在 Anthropic 上市前完成。这一估值比 3 月的 8520 亿美元至少高 64%。\n\n融资尚未完成，金额与估值均为洽谈中的数字。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd"
     }
   ]
 }
