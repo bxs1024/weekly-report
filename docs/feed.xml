@@ -1,317 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-10-21</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-10-22</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-10-21T21:42:38Z</updated>
+  <updated>2026-10-22T05:56:02Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Jio Platforms启动印度上市</title>
-    <link href="https://www.mobileworldlive.com/asia-pacific/jio-platforms-launches-long-awaited-india-listing/"/>
-    <id>tag:weekly-report,2026:event-aab062dc</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Jio Platforms launches long-awaited India listing&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度Jio Platforms启动期待已久的印度上市进程&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度最大数字平台启动IPO，将释放电信、电商、AI等多元业务估值，全球资本加速流入印度数字经济赛道&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：Mobile World Live&lt;/p&gt;</summary>
+    <title>分析文章探讨AI驱动支付平台创新</title>
+    <link href="https://fintechnews.sg/139108/ai/ai-payment-platform-innovation/"/>
+    <id>tag:weekly-report,2026:event-2dcd1b2e</id>
+    <published>2026-10-22T00:00:00Z</published>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AI Can Find the Opportunity. Can Your Payment Platform Launch it First?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Fintech News Singapore发布分析文章，探讨AI如何帮助支付平台发现商机并加速产品上线&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太支付行业AI应用趋势分析，为支付平台技术选型和产品路线提供参考方向&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Photon Bridge获€10M解决AI激光瓶颈</title>
-    <link href="https://tech.eu/2026/10/21/dutch-photonics-startup-photon-bridge-raises-eur10m-to-tackle-ais-looming-laser-bottleneck/"/>
-    <id>tag:weekly-report,2026:event-165cd55e</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Dutch photonics startup Photon Bridge raises €10M to tackle AI&amp;#x27;s looming laser bottleneck&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;荷兰光子学初创公司Photon Bridge完成1000万欧元融资，用于解决AI激光器瓶颈问题&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;荷兰光子学公司Photon Bridge获千万欧元融资，AI算力激光器供应链瓶颈受关注，光模块与激光器采购机会增加&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
+    <title>Visa测试AI企业支付并新增反欺诈控制</title>
+    <link href="https://fintechnews.sg/139424/ai/visa-ai-agent-business-payments/"/>
+    <id>tag:weekly-report,2026:event-52c2662b</id>
+    <published>2026-10-22T00:00:00Z</published>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Visa Tests AI-Powered Business Payments, Introduces New Fraud Controls&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Visa在亚太地区测试AI驱动的企业支付方案，并同步推出新的反欺诈控制功能&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太支付网络巨头将AI代理引入B2B支付流程，支付平台和风控服务商面临新的集成与合作窗口&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>ChatGPT广告扩展至26国，超10万广告主</title>
-    <link href="https://openai.com/index/chatgpt-ads-expands-26-new-countries"/>
-    <id>tag:weekly-report,2026:event-9c6474b4</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;OpenAI将ChatGPT广告业务扩展至26个新国家，已有超过10万广告主使用该平台。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;OpenAI广告平台全球化扩张，AI广告投放渠道增加，数字营销服务商与品牌方需调整投放策略&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：OpenAI | 来源：OpenAI News&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PocketGamer发布2026全球50大手游厂商榜</title>
-    <link href="https://www.pocketgamer.biz/the-top-50-mobile-game-makers-of-2026/"/>
-    <id>tag:weekly-report,2026:event-ac5f9c47</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The Top 50 Mobile Game Makers of 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;PocketGamer.biz发布2026年全球50大移动游戏厂商榜单&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球手游厂商排名揭示头部格局变化，为发行合作与广告预算流向提供参考&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>ICODA发布加密项目2027年前调整展望报告</title>
-    <link href="https://ventureburn.com/crypto-marketing-agency-icoda-releases-expert-outlook-on-what-crypto-projects-should-change-before-2027/"/>
-    <id>tag:weekly-report,2026:event-8c8953cf</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Crypto Marketing Agency ICODA Releases Expert Outlook on What Crypto Projects Should Change Before 2027&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;加密营销机构ICODA发布专家展望报告，分析加密项目在2027年前应做出的调整&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;加密营销机构发布行业展望，反映Web3项目在合规、用户获取和代币经济模型上的转型压力，营销预算流向或生变&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>e-Conomy SEA 2026：新加坡数字财富与AI领先</title>
-    <link href="https://fintechnews.sg/139350/wealthtech/e-conomy-sea-2026-singapore-pulls-ahead-in-digital-wealth/"/>
-    <id>tag:weekly-report,2026:event-c3f6875b</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;e-Conomy SEA 2026: Singapore Leads in Digital Wealth and AI Use&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e-Conomy SEA 2026报告显示新加坡在数字财富管理和AI应用方面领先东南亚&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚数字经济报告揭示新加坡数字财富与AI领先地位，为区域金融科技投资布局提供数据锚点&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Mika Games融资$10M资助手游工作室</title>
-    <link href="https://www.therecursive.com/wargaming-co-founders-mika-games-raises-10m-to-fund-mobile-studios-from-soft-launch-to-scale/"/>
-    <id>tag:weekly-report,2026:event-63dd4668</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Wargaming Co-Founder’s Mika  Games Raises $10M to Fund Mobile Studios From Soft Launch to Scale&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Wargaming联合创始人创办的Mika Games完成1000万美元融资，用于资助移动游戏工作室从软发布到规模化&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东欧手游发行基金获融资，移动游戏工作室融资与发行合作机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：funding | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Mach9获$34M融资加速AI土木工程</title>
-    <link href="https://ventureburn.com/mach9-raises-34m-ai-civil-engineering/"/>
-    <id>tag:weekly-report,2026:event-1715e1e3</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mach9 Raises $34M to Accelerate AI Civil Engineering&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Mach9完成3400万美元融资，用于加速AI土木工程业务发展&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI土木工程赛道获资本关注，Mach9融资将推动基础设施数字化测绘和自动化设计，工程软件供应链机会增加&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Otter.ai获$320M融资</title>
-    <link href="https://ventureburn.com/otter-ai-secures-320m-enterprise-ai-growth/"/>
-    <id>tag:weekly-report,2026:event-7b15f90b</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Otter.ai Secures $320M to Accelerate Enterprise AI Growth&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI会议记录公司Otter.ai完成3.2亿美元融资，用于加速企业级AI业务增长&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国AI会议助手公司大额融资，企业级AI协作工具赛道竞争加剧，API与集成合作机会增多&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Salesforce以$5.66B收购Braze</title>
-    <link href="https://fintechnews.sg/139306/ai/salesforce-braze-acquisition/"/>
-    <id>tag:weekly-report,2026:event-623c6af9</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Salesforce to Acquire Braze for US$5.66 Billion&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Salesforce宣布以56.6亿美元收购客户互动平台Braze，强化其AI驱动的营销自动化能力&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美CRM巨头以56.6亿美元收购客户互动平台，营销自动化与AI客户数据赛道整合加速&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：北美 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Flapping Airplanes获$1B融资，估值$6B</title>
-    <link href="https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/"/>
-    <id>tag:weekly-report,2026:event-d88c5cae</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;成立仅一年的AI实验室Flapping Airplanes完成10亿美元融资，估值达60亿美元&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新兴AI实验室一年内获10亿美元融资，AI基础模型赛道资本集中度进一步提升&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Legora获$550M E轮融资，估值$8.8B</title>
-    <link href="https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/"/>
-    <id>tag:weekly-report,2026:event-bfe2b70c</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Legal AI startup Legora raises $550M Series E at $8.8B valuation&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;法律AI初创公司Legora完成5.5亿美元E轮融资，估值达88亿美元&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲法律AI公司Legora获超大额融资，法律垂直AI赛道资本热度飙升，企业法务AI采购窗口打开&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Opply获$7.5M扩展CPG品牌AI平台</title>
-    <link href="https://tech.eu/2026/10/21/opply-raises-75m-to-expand-its-agentic-ai-platform-for-cpg-brands/"/>
-    <id>tag:weekly-report,2026:event-ac8cb123</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Opply raises $7.5M to expand its agentic AI platform for CPG brands&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Opply完成750万美元融资，用于扩展面向CPG品牌的代理式AI平台&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲CPG领域代理式AI平台Opply获小额融资，快消品牌AI采购需求上升，垂直AI工具合作机会显现&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：funding | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Blacksmith获$66M融资，估值达独角兽</title>
-    <link href="https://inc42.com/buzz/peak-xv-backed-ai-startup-blacksmith-nets-66-mn-at-a-unicorn-valuation/"/>
-    <id>tag:weekly-report,2026:event-bb779c24</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Peak XV-Backed AI Startup Blacksmith Nets $66 Mn At A Unicorn Valuation&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度AI初创公司Blacksmith完成6600万美元融资，估值达到独角兽级别，投资方包括Peak XV&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度AI初创获大额融资并晋级独角兽，企业级AI工具赛道资本热度持续升温&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>theQA获超$550K融资扩展AI消费者研究</title>
-    <link href="http://wamda.com/2026/10/theqa-raises-550000-scale-ai-driven-consumer-research-kuwait"/>
-    <id>tag:weekly-report,2026:event-54b88d31</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;theQA raises over $550,000 to scale AI-driven consumer research in Kuwait&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;科威特AI消费者研究公司theQA完成超55万美元融资，用于扩展业务规模&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;海湾地区AI消费研究赛道早期融资活跃，科威特初创企业获资本支持，中东AI应用层合作机会显现&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：中东 | 来源：WAMDA&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare部署php2shell漏洞防护</title>
-    <link href="https://blog.cloudflare.com/php-vulnerabilities-waf-protection/"/>
-    <id>tag:weekly-report,2026:event-798fd723</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare deploys protections against php2shell vulnerability&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare部署WAF防护规则以应对php2shell漏洞&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球CDN与安全厂商快速响应PHP高危漏洞，利好Web安全防护需求，警示PHP应用运维方&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Blog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>特斯拉利润跌43%，启动Optimus机器人生产</title>
-    <link href="https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/"/>
-    <id>tag:weekly-report,2026:event-7ef4af6f</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Tesla starts Optimus robot production in California as profit falls 43%&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;特斯拉利润同比下降43%，同时在加州启动Optimus机器人生产&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;特斯拉汽车业务利润大幅下滑但机器人产线启动，人形机器人供应链和自动化设备需求值得关注&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Rotate Rings安装量突破1000万</title>
-    <link href="https://www.pocketgamer.biz/nebula-studios-rotate-rings-surpasses-10m-mobile-installs/"/>
-    <id>tag:weekly-report,2026:event-af419e56</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nebula Studio’s Rotate Rings surpasses 10m mobile installs&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Nebula Studio旗下游戏Rotate Rings移动端安装量突破1000万&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;休闲游戏单品突破千万安装，超休闲赛道买量与变现模式仍具规模效应&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare 推出 createAI 替代旧 AI 开发工具</title>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-10-21-createai/"/>
-    <id>tag:weekly-report,2026:event-29dc27a9</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: createAI replaces workers-ai-provider and ai-gateway-provider&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare 发布 createAI，取代原有的 workers-ai-provider 和 ai-gateway-provider 两个开发工具包&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare 推出 AI Gateway 模型目录</title>
-    <link href="https://developers.cloudflare.com/ai/models/"/>
-    <id>tag:weekly-report,2026:event-04b59195</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: AI Gateway catalog&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare 上线 AI Gateway 模型目录页面，集中展示可接入的 AI 模型清单&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Databricks联手NVIDIA推出企业级开源模型微调方案</title>
-    <link href="https://www.databricks.com/blog/databricks-ai-runtime-nvidia-train-fine-tune-models"/>
-    <id>tag:weekly-report,2026:event-09d64f4c</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Databricks AI Runtime and NVIDIA make it easier to customize open models with enterprise data&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Databricks发布AI Runtime并与NVIDIA合作，使企业可利用自有数据更便捷地定制和微调开源模型&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球AI基础设施厂商深化合作，企业私有数据微调开源模型需求上升，利好云平台与GPU供应商&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Databricks | 来源：Databricks Blog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Bitget计划收购泰国持牌加密交易所</title>
-    <link href="https://fintechnews.sg/139304/thailand/bitget-thailand-crypto-exchange-acquisition/"/>
-    <id>tag:weekly-report,2026:event-0903384c</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Bitget Plans to Acquire Licensed Crypto Exchange in Thailand&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;加密交易所Bitget宣布计划收购泰国一家持牌加密货币交易所，以获取当地合规运营资质&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;加密交易平台通过收购持牌机构进入东南亚受监管市场，泰国数字资产合规牌照价值上升&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：ma | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Klaviyo调查：81%新加坡人拟用AI选购礼物</title>
-    <link href="https://www.techinasia.com/news/klaviyo-81-singaporeans-plan-ai-gifts"/>
-    <id>tag:weekly-report,2026:event-00e2d344</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;81% of Singaporeans plan to use AI for gifts: Klaviyo&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;营销自动化平台Klaviyo调查显示，81%的新加坡消费者计划在选购礼物时使用AI工具&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡电商营销AI渗透率数据，为东南亚零售AI工具与个性化推荐服务商提供市场验证&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>东南亚AI应用上半年吸金$3.2B，占私募融资80%</title>
-    <link href="https://dealstreetasia.com/stories/se-asia-digital-economy-2035-498691/"/>
-    <id>tag:weekly-report,2026:event-a2671887</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;SE Asia’s AI applications capture 80% of $3.2b private funding in H1 26&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;报告显示2026年上半年东南亚AI应用吸引32亿美元私募融资，占该地区私募融资总额的80%&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚AI赛道资金高度集中，区域AI应用层创业公司融资窗口打开，利好本地云与数据服务商&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：industry_report | 地区：亚太 | 来源：DealStreetAsia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>报告预测东南亚数字经济2035年破1万亿美元</title>
-    <link href="https://www.techinasia.com/news/sea-digital-economy-top-1t-2035-report"/>
-    <id>tag:weekly-report,2026:event-021a1fdd</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;SEA digital economy to top $1t by 2035: report&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;最新报告预测东南亚数字经济规模将在2035年突破1万亿美元&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚数字经济长期规模预测，为区域云基础设施、支付、电商物流投资提供宏观锚点&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>亚马逊计划假日季招聘30万人</title>
-    <link href="https://www.retaildive.com/news/amazon-eyes-three-hundred-thousand-holiday-season-hires/833567/"/>
-    <id>tag:weekly-report,2026:event-28c31f77</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Amazon eyes 300K holiday hires&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;亚马逊计划在假日季招聘约30万名临时员工，以应对年末电商履约高峰。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚马逊假日季招聘30万人，反映北美电商履约需求强劲，利好仓储自动化与物流供应链服务商&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：Retail Dive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Visa调整加拿大卡费结构</title>
-    <link href="https://www.paymentsdive.com/news/visa-mastercard-card-fee-changes-fees-canada/833599/"/>
-    <id>tag:weekly-report,2026:event-c6c85107</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Visa changes fees in Canada&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Visa调整加拿大市场卡组织费用结构，涉及商户和收单机构的费率变化。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Visa调整加拿大费率，将影响北美收单机构利润结构并可能引发商户支付成本重估&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：北美 | 来源：Payments Dive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Fuse Energy采购NVIDIA GPU进军AI基础设施</title>
-    <link href="https://www.eu-startups.com/2026/10/fuse-energy-bets-on-nvidia-gpus-as-it-expands-from-energy-supply-into-ai-infrastructure/"/>
-    <id>tag:weekly-report,2026:event-ca3ceb66</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Fuse Energy bets on NVIDIA GPUs as it expands from energy supply into AI infrastructure&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英国能源供应商Fuse Energy宣布采购NVIDIA GPU，从能源供应业务扩展至AI基础设施领域&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲能源公司跨界AI算力，能源+GPU模式可能催生新型数据中心合作与电力采购需求&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Agile Robots与Nvidia目标2027年量产2000台人形机器人</title>
-    <link href="https://www.mobileworldlive.com/nvidia/agile-robots-nvidia-target-up-to-2000-humanoids-in-2027/"/>
-    <id>tag:weekly-report,2026:event-1b697a70</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Agile Robots, Nvidia target up to 2,000 humanoids in 2027&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Agile Robots与Nvidia合作，计划到2027年量产最多2000台人形机器人&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球人形机器人赛道进入量产验证阶段，Nvidia提供算力与仿真平台，Agile Robots负责本体制造，供应链机会集中在关节模组、传感器和AI芯片&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Nvidia与Nokia力挺AI-RAN，称行业势头增强</title>
-    <link href="https://www.mobileworldlive.com/ai-cloud/nvidia-nokia-claim-ai-ran-hype-is-justified-as-momentum-grows/"/>
-    <id>tag:weekly-report,2026:event-d951b352</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia, Nokia claim AI-RAN hype is justified as momentum grows&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Nvidia与Nokia联合宣称AI-RAN技术热度合理，行业推进势头持续增强&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球电信网络AI化加速，Nvidia与Nokia联手推动AI-RAN商用，运营商资本开支将向AI基站和边缘算力倾斜&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Kohl's假日季推清晰定价并接入Uber Eats</title>
-    <link href="https://www.modernretail.co/marketing/kohls-leans-into-clearer-pricing-gift-bundles-and-uber-eats-for-the-holidays/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
-    <id>tag:weekly-report,2026:event-975de9cd</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Kohl’s leans into clearer pricing, gift bundles and Uber Eats for the holidays&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国零售商Kohl&amp;#x27;s在假日季推出更清晰定价、礼品组合，并接入Uber Eats配送渠道。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国零售Kohl&amp;#x27;s强化定价透明度与即时配送合作，零售数字化与本地配送平台整合趋势值得ICT渠道关注&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare Basin SQL 支持 OFFSET</title>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-10-21-basin-sql-offset/"/>
-    <id>tag:weekly-report,2026:event-bdf521c5</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: Basin SQL supports OFFSET&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare Basin SQL 新增对 OFFSET 子句的支持&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>韩国拟扩大列车5G Wi-Fi部署</title>
-    <link href="https://www.mobileworldlive.com/asia-pacific/korea-eyes-wider-rollout-of-5g-based-wi-fi-on-trains/"/>
-    <id>tag:weekly-report,2026:event-5275c5db</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Korea eyes wider rollout of 5G-based Wi-Fi on trains&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;韩国计划扩大基于5G的车载Wi-Fi在列车上的部署范围，提升铁路乘客网络体验。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;韩国扩大列车5G Wi-Fi部署，为5G专网和车载通信设备供应商带来亚太轨道交通ICT合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Grab在本周新增8个工程与平台相关职位</title>
-    <link href="https://www.grab.careers/en/jobs/744000156296689/transportation-operation-assistant-manager/"/>
-    <id>tag:weekly-report,2026:event-4c491088</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Grab集中新增8个工程与平台岗位&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;集中招聘显示Grab正在加强工程与平台能力建设，形成可核验的组织投入信号&lt;/p&gt;&lt;p&gt;标签：组织变化 | 类型：strategy | 地区：亚太 | 公司：Grab | 来源：Grab Jobs&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>EstateMin融资€1M拓展美国市场</title>
-    <link href="https://www.eu-startups.com/2026/10/former-international-boxers-legaltech-startup-estatemin-raises-e1-million-to-scale-in-the-us/"/>
-    <id>tag:weekly-report,2026:event-22a717a5</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Former international boxer’s LegalTech startup EstateMin raises €1 million to scale in the US&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;前国际拳击手创办的LegalTech公司EstateMin完成100万欧元融资，用于拓展美国市场&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲LegalTech初创获小额融资进军美国，法律科技SaaS跨境扩张机会值得关注&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：北美 | 来源：EU-Startups&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Rulen获€1.8M用AI转化税务规则</title>
-    <link href="https://tech.eu/2026/10/21/rulen-secures-eur18m-to-turn-tax-rules-into-action-with-ai/"/>
-    <id>tag:weekly-report,2026:event-345680ae</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Rulen secures €1.8M to turn tax rules into action with AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Rulen完成180万欧元融资，用于利用AI将税务规则转化为可执行操作&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲税务AI公司Rulen获小额融资，税务合规自动化赛道早期布局，财税SaaS合作机会萌芽&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：funding | 地区：欧洲 | 来源：Tech.eu&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Meta被判赔$25B涉剑桥分析丑闻</title>
-    <link href="https://techcrunch.com/2026/10/21/meta-ordered-to-pay-25-billion-in-case-related-to-cambridge-analytica-scandal/"/>
-    <id>tag:weekly-report,2026:event-a5ea79b4</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Meta ordered to pay $25 billion in case related to Cambridge Analytica scandal&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Meta被法院裁定需就Cambridge Analytica数据丑闻相关案件支付250亿美元赔偿&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球社交平台Meta遭遇巨额数据合规判罚，数据隐私监管趋严将推高广告科技与合规服务采购需求&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Eternal发布隐私AI平台Dark，2026全球上线</title>
-    <link href="https://inc42.com/buzz/eternal-unveils-privacy-focused-ai-platform-dark-eyes-global-launch-in-2026/"/>
-    <id>tag:weekly-report,2026:event-08371ca2</id>
-    <published>2026-10-21T00:00:00Z</published>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Eternal Unveils Privacy-Focused AI Platform Dark, Eyes Global Launch In 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度公司Eternal发布隐私导向AI平台Dark，计划2026年全球上线&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度公司推出隐私AI平台并规划全球扩张，隐私计算赛道竞争加剧&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
+    <title>Modern Retail研报：营销人员看好2026假日季营收</title>
+    <link href="https://www.modernretail.co/marketing/modern-retail-research-marketers-express-revenue-optimism-for-the-2026-holiday-season-despite-economic-pressures/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
+    <id>tag:weekly-report,2026:event-3e5c71fa</id>
+    <published>2026-10-22T00:00:00Z</published>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Modern Retail+ Research: Marketers express revenue optimism for the 2026 holiday season despite economic pressures&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Modern Retail+ Research发布研究报告，显示营销人员对2026年假日季营收持乐观态度，尽管面临经济压力&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球零售营销研报显示假日季营收乐观，零售广告预算流向和营销技术采购趋势值得关注&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-10-22</title>
@@ -319,6 +39,6 @@
     <id>tag:weekly-report,2026:aihot-461f8b7b</id>
     <published>2026-10-22T00:00:00Z</published>
     <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-22T00:40&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/dae7c054-a1fe-423d-bf36-68d8d8959457"&gt;DeepSeek 开源生产推理框架 DeepInfer&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/17f9865a-cef7-4d98-9742-0796331c81ea"&gt;OpenAI称模型协助发现PHP核心漏洞，Wiz披露可致RCE&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/c23155c2-2ff3-45e5-a3ab-4ed6a5217d72"&gt;美土安全部令联邦文职机构移除DeepSeek及关联产品&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/e797c189-8889-4f65-b11d-e9a7f0ede229"&gt;马斯克称SpaceX与特斯拉已设委员会评估合并&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/589d286a-2a6d-48be-b14a-e61390534ec3"&gt;MiniMax 发布 M3.1 Flash，10 月 23 日开放权重&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-22T10:05&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/49bd934f-e6c9-434e-87b0-34b8e08b8efd"&gt;Anthropic 开放 Claude Duet 主动式智能体研究预览&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/17f9865a-cef7-4d98-9742-0796331c81ea"&gt;OpenAI称模型协助发现PHP核心漏洞，Wiz披露可致RCE&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/dae7c054-a1fe-423d-bf36-68d8d8959457"&gt;DeepSeek 开源生产推理框架 DeepInfer&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/e797c189-8889-4f65-b11d-e9a7f0ede229"&gt;马斯克称SpaceX与特斯拉已设委员会评估合并&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/49445e2f-d496-4acd-bc5e-70027cffd24a"&gt;OpenAI三款模型上架Google Cloud私测&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
