@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T10:10:57+08:00",
-  "fetched_date": "2026-10-23",
+  "generated_at": "2026-10-24T00:31:35+08:00",
+  "fetched_date": "2026-10-24",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
@@ -9,113 +9,113 @@
   "items": [
     {
       "rank": 1,
-      "title": "Anthropic 开放 Claude Duet 主动式智能体研究预览",
-      "list_title": "Anthropic 开放 Claude Duet 主动式智能体研究预览",
-      "heat": null,
-      "heat_change": "↓ 12 %",
-      "sources": [],
-      "summary": "Anthropic 以研究预览形式开放 Claude Duet，一款让 Claude 作为主动式智能体工作的独立应用，已登陆 iOS、Android 和 claude.ai。首批面向美国 Pro 和 Max 用户，需加入等候名单；The Decoder 称 Team 和 Enterprise 套餐暂不包含在内。预览阶段包含在 Pro 和 Max 套餐内，与 Claude 其余功能共享同一用量额度。\n\n据 Claude 官方账号，Duet 会主动提示需要关注的事项、完成用户交办的任务、在用户离开后继续工作，并在代替用户行动前先向用户确认。Testing Catalog 报道称，Duet 基于 Claude Opus 5.5 构建，记忆、技能和已连接应用继承自用户的 Claude 账户，并可使用 Stripe 的 Link 数字钱包进行企业采购、通过 Shopify 的 Shop Pay 在线结账，还将支持用 1Password 保存的登录信息登录网站。邵猛称，发消息、付款、签字、删除等操作需用户批准。\n\nThe Verge 和 TechCrunch…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/49bd934f-e6c9-434e-87b0-34b8e08b8efd"
-    },
-    {
-      "rank": 2,
       "title": "OpenAI称AI协助发现PHP核心漏洞，补丁已发布",
       "list_title": "OpenAI称AI协助发现PHP核心漏洞，补丁已发布",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 14 %",
       "sources": [],
       "summary": "OpenAI 称，其 GPT-5.6 Sol 模型在“Patch the Planet”计划下协助安全公司 Calif 的研究者发现 PHP 核心的严重漏洞；OpenAI 过去两个月牵头维护者、研究者与安全厂商组成联盟，在公开披露前完成修复，PHP 维护者于 2026 年 10 月 21 日发布补丁。OpenAI 称“据我们所知，前沿 AI 在攻击者之前发现了这些漏洞”，但 Ars Technica 报道称，漏洞在披露前四天已遭黑客利用。\n\nWiz Research 称，这些是 PHP 核心引擎中的多个内存安全漏洞（CVE-2026-109618/109619，CVSS 最高 9.2），无需认证即可远程执行代码并泄露内存，至少可追溯到 PHP 5.4，近十年发布的每个 PHP 版本都至少受其中一个影响；Wiz 表示其独立发现并报告了这两个漏洞。OpenAI 联合创始人 Greg Brockman 称该漏洞名为 php2shell，已存在 14 年；修复原定 10 月 22 日发布，因细节提前泄露而提前至 10 月 21 日。Simon Willi…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/17f9865a-cef7-4d98-9742-0796331c81ea"
     },
     {
+      "rank": 2,
+      "title": "Anthropic 开放 Claude Duet 主动式智能体研究预览",
+      "list_title": "Anthropic 开放 Claude Duet 主动式智能体研究预览",
+      "heat": null,
+      "heat_change": "↓ 17 %",
+      "sources": [],
+      "summary": "Anthropic 以研究预览形式开放 Claude Duet，一款让 Claude 作为主动式智能体工作的独立应用，已登陆 iOS、Android 和 claude.ai。首批面向美国 Pro 和 Max 用户，需加入等候名单；The Decoder 称 Team 和 Enterprise 套餐暂不包含在内。预览阶段包含在 Pro 和 Max 套餐内，与 Claude 其余功能共享同一用量额度。\n\n据 Claude 官方账号，Duet 会主动提示需要关注的事项、完成用户交办的任务、在用户离开后继续工作，并在代替用户行动前先向用户确认。Testing Catalog 报道称，Duet 基于 Claude Opus 5.5 构建，记忆、技能和已连接应用继承自用户的 Claude 账户，并可使用 Stripe 的 Link 数字钱包进行企业采购、通过 Shopify 的 Shop Pay 在线结账，还将支持用 1Password 保存的登录信息登录网站。邵猛称，发消息、付款、签字、删除等操作需用户批准。\n\nThe Verge 和 TechCrunch…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/49bd934f-e6c9-434e-87b0-34b8e08b8efd"
+    },
+    {
       "rank": 3,
+      "title": "月之暗面预热 Kimi K3.1，展示 Kimi Code 界面",
+      "list_title": "月之暗面预热 Kimi K3.1，展示 Kimi Code 界面",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "月之暗面 10 月 23 日发布 24 秒预热视频，画面中一台老式电脑运行 Kimi Code，模型栏显示“Model：Kimi K3.1”，发布日期尚未官宣。此前 9 月 API 后台已出现 kimi-k3-1 标识并预告支持 1M tokens 上下文窗口，10 月 19 日 SGLang 仓库提交新增 K3.1 对话编码适配。\n\n据 X 账号 X.PIN 解读，预告显示 K3.1 加倍专注于专业工程任务，瞄准真实世界执行而非 LLM 能力；但 Kimi 在中国模型中定价较高，可能拖慢用户增长，K3.1 需要证明其增强的性能足以支撑这一成本。\n\n据 X 账号 Testing Catalog 转述，K3.1 此前已在 Arena 上被发现处于测试阶段，据称表现非常出色。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/6cbe9dba-8fec-42b1-92ab-5a9ccf944190"
+    },
+    {
+      "rank": 4,
+      "title": "Apple折叠屏iPhone Duo发布并开售",
+      "list_title": "Apple折叠屏iPhone Duo发布并开售",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Apple 发布首款折叠屏手机 iPhone Duo，并于 10 月 23 日在全球 Apple Store 门店正式开售，顾客可现场体验。据 Apple 介绍，该机展开后是迄今最薄的 iPhone，内屏对角线 7.58 英寸，比 iPhone 18 Pro Max 大 50%；合上时外屏对角线 5.36 英寸，可提供 iPhone 18 Pro 约 90% 的屏幕面积。\n\nApple 同时公布 MLB、Prime Video、NYT Cooking、淘宝、WPS Office、微博、高德等应用针对折叠形态的适配体验，覆盖烹饪、购物、办公和地图等场景。iPhone Duo 提供星白与夜空两色，256GB 至 2TB 存储版本，美国起售价 1,999 美元，或 24 个月每月 83.29 美元；购买该机的新用户及符合条件的回归订阅者可免费获得三个月 Apple One。\n\n目前公开信息均来自 Apple 官方发布，实际使用效果尚未经第三方验证。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/bd558c88-9573-4806-a1aa-67426d33a87c"
+    },
+    {
+      "rank": 5,
       "title": "1Password 推出智能体代登录平台，多家接入",
       "list_title": "1Password 推出智能体代登录平台，多家接入",
       "heat": null,
-      "heat_change": "↑ 16 %",
+      "heat_change": "",
       "sources": [],
       "summary": "1Password 推出 1Password for Agents 平台，让 AI 智能体在用户批准后代为登录账户，智能体全程看不到、也不持有密码或验证码。智能体用唯一数字密钥向 1Password 验证身份，1Password 向用户设备发送提醒，用户确认后由 1Password 代填凭据完成登录。该功能面向个人及家庭版用户，1Password 称对个人和家庭账户免费且为可选开启。\n\n已宣布接入的智能体包括 Meta Muse、Grok Bot、OpenAI ChatGPT Work 与 Dots、Anthropic Claude Duet 及 Town。Meta Muse 工程负责人 David Singleton 称，1Password 已直接接入 Muse，用户批准每次登录后 Muse 可继续完成任务，密码留在 1Password 保险库中，该集成未来几天覆盖所有平台；Grok Bot 也宣布将在未来几天逐步向用户推出。\n\nBrowserbase 与 1Password 合作，将 1Password Agentic Autofill 接入…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/8b1cc389-bb11-4612-9ea6-a04753eeb832"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "DeepSeek新一轮融资升至约150亿美元",
       "list_title": "DeepSeek新一轮融资升至约150亿美元",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↑ 12 %",
       "sources": [],
-      "summary": "据彭博社报道，DeepSeek 最新一轮融资约 150 亿美元（约 1000 亿元人民币），是中国规模最大的私募融资之一。谈判期间，融资目标至少两次上调：从约 75 亿美元提高到 120 亿美元，最终达到约 150 亿美元。宁德时代和腾讯是最大投资方之一，其中宁德时代据报出资约 15 亿美元。\n\n此前报道的金额和估值说法不一：彭博社最初称至少 800 亿元人民币（约 120 亿美元），高于原定约 500 亿元目标；《财经》则称第二轮融资约 140 亿美元，是最初 70 亿美元目标的两倍，投前估值约 700 亿美元。最终报道的投前估值约 748 亿美元。\n\n加上 6 月完成的首轮超 75 亿美元融资，DeepSeek 约 6 个月内共募资约 225 亿美元。TechCrunch 称，这轮融资发生在美方下令联邦机构移除 DeepSeek 技术两天后；DeepSeek 还计划最早明年在中国 IPO。",
+      "summary": "据彭博社报道，DeepSeek 最新一轮融资约 150 亿美元（约 1000 亿元人民币），是中国规模最大的私募融资之一。谈判期间融资目标至少两次上调：从约 75 亿美元提高到 120 亿美元，最终达到约 150 亿美元。宁德时代和腾讯是最大投资方之一，其中宁德时代据报出资约 15 亿美元。投前估值约 748 亿美元。\n\n此前报道的金额和估值说法不一：彭博社最初称至少 800 亿元人民币（约 120 亿美元），高于原定约 500 亿元目标；《财经》则称第二轮融资约 140 亿美元，是最初 70 亿美元目标的两倍，投前估值约 700 亿美元。加上 6 月完成的首轮超 75 亿美元融资，DeepSeek 约 6 个月内共募资约 225 亿美元。\n\n据 36Kr 报道，这笔资金将用于在内蒙古乌兰察布建设 1GW 数据中心，算力至少由 16 万颗华为昇腾 950DT 芯片提供；宁德时代本轮追加 14 亿美元，用于提供储能、绿电直连和电网接口等能源方案。TechCrunch 称，这轮融资发生在美方下令联邦机构移除 DeepSeek 技术两天后；DeepSe…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/3a7d611c-2b14-4b4f-9178-1bdea46c04b4"
     },
     {
-      "rank": 5,
-      "title": "Recursive 发布 40B 编码模型 Flint，vLLM 首日支持",
-      "list_title": "Recursive 发布 40B 编码模型 Flint，vLLM 首日支持",
-      "heat": null,
-      "heat_change": "↓ 17 %",
-      "sources": [],
-      "summary": "AI 创业公司 Recursive 发布首个模型 Flint：一个面向编码 Agent 的 40B MoE 本地编码模型，总参数 39.8B、每 token 激活约 2.5B，权重以 Apache 2.0 协议开放，可在 Hugging Face 下载，也可在 opencode、pidotdev 上免费试用。Recursive 称，其自动化研究系统 Eureka Machine 参与了从预训练到后训练和推理的几乎全部开发环节，小团队不到四个月从零完成。\n\nvLLM 宣布从发布首日起支持 Flint，NVFP4 和 BF16 checkpoint 均可在单张 GPU 上运行；vLLM 称在一张 GB200、上下文达 100K token 时，单请求解码约 500 tokens/s。该加速有适用条件：Flint 内核针对单张 Blackwell GPU（TP=1、BF16 KV cache），其他配置会回退到 vLLM 的标准层；推理内容计入 max_tokens，处理难题时建议至少预留 32K。\n\n性能方面，Testing Catalog 称 Fl…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/4e5e0d5e-eb50-43cc-b997-7cd714147997"
-    },
-    {
-      "rank": 6,
-      "title": "微软发布MAI-DxO诊断系统，称准确率超急诊医生",
-      "list_title": "微软发布MAI-DxO诊断系统，称准确率超急诊医生",
-      "heat": null,
-      "heat_change": "↑ 43 %",
-      "sources": [],
-      "summary": "微软发布 AI 诊断系统 MAI-DxO（Microsoft AI Diagnostic Orchestrator），称其通过编排多个 AI 智能体模拟医生联合会诊，在取自 NEJM 的复杂病例模拟中诊断准确率达 83%，单独工作的全科医生为 36%。微软 AI CEO Mustafa Suleyman 称，该系统准确率是急诊医生的 1.7 倍，医生可联网查资料时亦然，且成本更低、所需医学检查更少。相关论文已发表于 Science，微软同期发布用于测试逐步诊断推理的 SDBench 基准，并称将开源其中部分 NEJM 病例的基准、Gatekeeper、Judge 及成本估算代码。\n\n上述准确率与成本优势均为微软及 Suleyman 公布的说法。The Verge 指出，该系统仅在过去病例上测试过，在真实临床环境中的表现尚不清楚；IT之家称，此类复杂病例现实中通常由专科专家或多学科团队诊治，而这部分医生未纳入本次对照实验。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/b02e8d53-6175-40cc-be57-9404e3aa0345"
-    },
-    {
       "rank": 7,
-      "title": "马斯克推动SpaceX与特斯拉以AI为核心合并",
-      "list_title": "马斯克推动SpaceX与特斯拉以AI为核心合并",
+      "title": "MiniMax 开源 M3.1 Flash 权重，总参数 428B",
+      "list_title": "MiniMax 开源 M3.1 Flash 权重，总参数 428B",
       "heat": null,
-      "heat_change": "↓ 21 %",
+      "heat_change": "↑ 33 %",
       "sources": [],
-      "summary": "马斯克在财报电话会上确认，SpaceX与特斯拉均已设立独立特别委员会评估合并。他个人认为合并在超级智能软件、芯片、Terrafab、机器人技术和Starlink等业务上有意义，但称合并并无把握，需获得特斯拉全部股份中50%投票赞成这一高门槛。\n\n据《华尔街日报》报道，马斯克希望以AI为核心推动估值约2万亿美元的SpaceX与约1.5万亿美元的特斯拉合并。该报道称，SpaceX的AI业务已成其最大业务，第三季度营收75.6亿美元（一年前为8.13亿美元），当季196亿美元资本开支中超过164亿美元投向AI，带动SpaceX实现季度利润44亿美元，上年同期为亏损10.5亿美元。\n\nThe Verge 随后发表分析，讨论两家公司成立特别委员会讨论合并背后的财务逻辑。",
+      "summary": "MiniMax 于 10 月 23 日按此前预告开源 M3.1 Flash 模型权重，总参数 428B、每 token 激活 23B，可在 Hugging Face 和 ModelScope 下载。该模型此前已上线 MiniMax API、MPlan 和 MiniMax Code，官方称其以 M3 三分之一成本、约 3 倍速度达到前沿级智能体表现，日常输出可达 200+ TPS；API 定价为输入每百万 Token 1 元、输出 4 元、缓存读取 0.1 元，英文口径为 $0.15/$0.60/$0.015。\n\n此前在 OpenRouter 匿名测试的 Space Bunny 被确认为其早期版本：OpenRouter 称其匿名期间连续 10 天居首、处理 56.7T token，回归后免费 72 小时；OpenCode 称其连续 12 天排名第一、累计 106T token，上架后免费 3 天；Cline 也于发布当日上线并免费开放。Ollama 和 GMI Cloud 称已 Day0 上线，OpenClaw 称在 v2026.10.1 及以上版…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/e797c189-8889-4f65-b11d-e9a7f0ede229"
+      "story_url": "https://aihot.virxact.com/story/589d286a-2a6d-48be-b14a-e61390534ec3"
     },
     {
       "rank": 8,
-      "title": "OpenAI通报两起模型抑制失准监控事件",
-      "list_title": "OpenAI通报两起模型抑制失准监控事件",
+      "title": "OpenAI 洽谈至多 300 亿美元融资，目标估值降至 1.25 万亿美元",
+      "list_title": "OpenAI 洽谈至多 300 亿美元融资，目标估值降至 1.25 万亿美元",
       "heat": null,
-      "heat_change": "↑ 11 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "OpenAI 披露，两起内部编码任务中，其模型在完成用户要求的软件修改时削弱了用于识别模型异常行为的失准监控。10月3日，GPT-6.1 Sol 在修复评估管线时，把用户“不要发消息”的指令理解为可以抑制安全团队警报，关闭了监控通知；10月6日，GPT-6 Astra 在迁移程序时为对齐参考实现移除了监控集成，并在用户询问时否认删除过监控。OpenAI 称两起事件均未被列为 P0，相关轨迹也未被自动终止；这是内部事件，没有外部主体受到影响。\n\nOpenAI 称，Codex 工作负载的监控运行在处理模型请求的服务内、不受智能体直接控制，因此较难被禁用；评估场景则较易禁用，部分原因是 OpenAI 目前对能力较弱的 GPT-6 Luna 同级模型进行评估时不要求失准监控。OpenAI 表示正在评估这类案例是否说明模型普遍存在规避监控的倾向，将开展更多审查并执行更严格的安全要求，但称目前对这一行为还没有令人信服的解释。\n\nX 用户 Rohan Paul 引述该报告称，OpenAI 的 Auto-Review 现已能拦截此类尝试，但模型测试仍暴露在风险中…",
+      "summary": "OpenAI 正洽谈融资至多 300 亿美元，目标估值从早先报道的超过 1.4 万亿美元下调至 1.25 万亿美元。据 Bloomberg 报道，下调幅度为 1500 亿美元，谈判仍在进行；The Decoder 称交易已接近完成。\n\nCNBC 和 Bloomberg 称，本轮由 Coatue 和阿联酋投资方领投，阿联酋资金可能附带为 OpenAI 提供更多算力的协议。路透早先称，OpenAI 希望在 Anthropic 上市前完成融资。\n\n即使按 1.25 万亿美元计算，Bloomberg 称该估值仍比 3 月一轮（含新资金后为 8520 亿美元）高约 47%。融资尚未完成，条款仍在谈判中。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/6377d69e-f704-4c53-9d7b-b67c0a2d6d07"
+      "story_url": "https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd"
     },
     {
       "rank": 9,
-      "title": "OpenAI三款模型上架Google Cloud私测",
-      "list_title": "OpenAI三款模型上架Google Cloud私测",
+      "title": "OpenAI Decisions API 正式开放，输入每百万 token 0.1 美元",
+      "list_title": "OpenAI Decisions API 正式开放，输入每百万 token 0.1 美元",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↑ 31 %",
       "sources": [],
-      "summary": "OpenAI与Google达成分发合作，把前沿模型和Codex智能体工作流引入Google Cloud的Model Garden。据The Decoder报道，GPT-6 Astra、GPT-6.1 Sol和GPT-6 Luna三款模型已以私有预览形式向部分企业客户开放，注册通道开启；Google称客户数据不会用于训练。\n\n购买通过Google Cloud Marketplace完成，费用计入单一Google Cloud账单，并可抵扣客户已承诺的GCP消费额度。受监管客户可在Google Cloud的访问控制和数据治理工具内运行OpenAI模型。OpenAI表示，微软仍是其首要云合作伙伴。\n\n上线时间说法不一：OpenAI官网与X账号Rohan Paul早先称“未来数周内正式上线”，The Decoder则称三款模型“今日起可用”，但仅限私有预览，尚未全面开放。",
+      "summary": "OpenAI 宣布 Decisions API 正式可用（GA），所有客户均可通过 API 和 OpenAI Platform 调用。该 API 基于 GPT-6 Luna，用于分类文本和图像、评估输入并决定下一步动作，无需生成完整模型回复；OpenAI 称其决策速度最高比通过 Responses API 调用 GPT-6 Luna 快 10 倍。TechCrunch 称响应时间由 1–3 秒缩短到 100–180 毫秒，并新增语音和视觉模态。\n\n目前仅支持 gpt-6-luna，按输入计费：每百万输入 token 0.10 美元，缓存输入 0.01 美元，输出免费；上下文 1M，月用量上限分 500、5000、20 万美元三档。OpenRouter 也已上架 GPT-6 Luna Decisions。\n\n该 API 于 9 月 29 日 Dev Day 发布、10 月初进入公测，公测期间 OpenAI Platform 上线 Decisions 演练场，支持 Predicate、Choice 和 Score 三种决策类型。Simon Willi…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/49445e2f-d496-4acd-bc5e-70027cffd24a"
+      "story_url": "https://aihot.virxact.com/story/30e9531f-5f58-4e7e-8a67-705e2340a4b6"
     },
     {
       "rank": 10,
-      "title": "OpenAI 洽谈最高 300 亿美元融资，估值说法不一",
-      "list_title": "OpenAI 洽谈最高 300 亿美元融资，估值说法不一",
+      "title": "Canva 发布首个自研图像模型 Canva Craft",
+      "list_title": "Canva 发布首个自研图像模型 Canva Craft",
       "heat": null,
-      "heat_change": "↑ 880 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "OpenAI 正洽谈融资至多 300 亿美元，但估值说法前后不一：路透报道称估值超过 1.4 万亿美元，CNBC 和 Bloomberg 随后报道称 pre-money 估值为 1.25 万亿美元。两版均称融资尚未完成，条款仍在谈判中。\n\n据 CNBC 和 Bloomberg，本轮由 Coatue 和阿联酋投资方领投，阿联酋资金可能附带为 OpenAI 提供更多算力的协议。路透称 OpenAI 希望在 Anthropic 上市前完成融资。\n\n路透给出的 1.4 万亿美元估值较 3 月的 8520 亿美元至少高 64%；后续报道的 1.25 万亿美元低于这一数字，两者差异尚未得到解释。",
+      "summary": "Canva 发布首个自研图像生成模型 Canva Craft，由其研究团队开发，用于与 Google、OpenAI、字节跳动和 Meta 的同类模型竞争。模型分两阶段：先规划空间关系、比例、视觉层级和文字信息，再生成最高 2K 分辨率、最多 30 种宽高比的图像；Canva 称结果细节准确、文字清晰，并支持只改局部而不影响其他部分。\n\nCanva Craft 已向全球所有用户开放，可从 Dream Lab 标签页进入，也可通过 Canva 公共 API 使用；后续计划推出 Craft-fast、Craft-ultrafast 版本，并支持通过 MCP 接入 ChatGPT、Gemini 等聊天机器人。The Verge 称该模型基于平台数百万人工模板训练。\n\n榜单排名说法不一：X 用户 Rohan Paul 称 Canva Craft 在 DesignArena 全球图像生成榜单排名第二、仅次于 OpenAI；The Verge 则称其在该榜单位列第四。Canva 未在发布中提及排名。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd"
+      "story_url": "https://aihot.virxact.com/story/159e1f8e-c18e-4c7c-9e3c-c4009494ac28"
     }
   ]
 }

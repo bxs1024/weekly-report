@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T10:11:05+08:00",
-  "fetched_date": "2026-10-23",
+  "generated_at": "2026-10-24T00:31:46+08:00",
+  "fetched_date": "2026-10-24",
   "source": {
     "name": "AIHOT 大模型排行榜",
     "leaderboard_url": "https://aihot.virxact.com/leaderboard",
@@ -30,7 +30,7 @@
       "cache_price": "¥1.33",
       "input_price": "¥26.7",
       "output_price": "¥133.49",
-      "consensus_score": 72.8,
+      "consensus_score": 72.6,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-4-argon"
     },
     {
@@ -42,7 +42,7 @@
       "cache_price": "¥1.67",
       "input_price": "¥66.74",
       "output_price": "¥333.71",
-      "consensus_score": 71.6,
+      "consensus_score": 71.5,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-fable-5-1"
     },
     {
@@ -66,7 +66,7 @@
       "cache_price": "¥1.33",
       "input_price": "¥13.35",
       "output_price": "¥66.74",
-      "consensus_score": 71.0,
+      "consensus_score": 70.9,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-sonnet-5-5"
     },
     {
@@ -78,7 +78,7 @@
       "cache_price": "待核验",
       "input_price": "待核验",
       "output_price": "待核验",
-      "consensus_score": 69.9,
+      "consensus_score": 69.8,
       "detail_url": "https://aihot.virxact.com/leaderboard/muse-wonder-full"
     },
     {
@@ -102,7 +102,7 @@
       "cache_price": "¥0.67",
       "input_price": "¥13.35",
       "output_price": "¥66.74",
-      "consensus_score": 68.9,
+      "consensus_score": 68.8,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-1-sol"
     },
     {
@@ -114,7 +114,7 @@
       "cache_price": "¥3.34",
       "input_price": "¥33.37",
       "output_price": "¥166.86",
-      "consensus_score": 68.2,
+      "consensus_score": 68.1,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-5"
     },
     {
@@ -126,7 +126,7 @@
       "cache_price": "待核验",
       "input_price": "待核验",
       "output_price": "待核验",
-      "consensus_score": 67.7,
+      "consensus_score": 67.6,
       "detail_url": "https://aihot.virxact.com/leaderboard/muse-wonder"
     },
     {
@@ -138,7 +138,7 @@
       "cache_price": "¥2.67",
       "input_price": "¥26.7",
       "output_price": "¥133.49",
-      "consensus_score": 66.1,
+      "consensus_score": 66.0,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-6-sol"
     },
     {
@@ -150,7 +150,7 @@
       "cache_price": "¥1.33",
       "input_price": "¥13.35",
       "output_price": "¥66.74",
-      "consensus_score": 65.8,
+      "consensus_score": 65.7,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-sol"
     },
     {
@@ -174,7 +174,7 @@
       "cache_price": "¥0.5",
       "input_price": "¥5.01",
       "output_price": "¥25.03",
-      "consensus_score": 64.5,
+      "consensus_score": 64.4,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-3-8-flash"
     },
     {
@@ -186,7 +186,7 @@
       "cache_price": "¥0.02",
       "input_price": "¥1",
       "output_price": "¥4",
-      "consensus_score": 63.5,
+      "consensus_score": 63.4,
       "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-1-flash-1017"
     },
     {
@@ -198,7 +198,7 @@
       "cache_price": "¥2",
       "input_price": "¥20",
       "output_price": "¥100",
-      "consensus_score": 63.1,
+      "consensus_score": 63.0,
       "detail_url": "https://aihot.virxact.com/leaderboard/kimi-k-3"
     },
     {
@@ -234,7 +234,7 @@
       "cache_price": "¥0.5",
       "input_price": "¥5.01",
       "output_price": "¥25.03",
-      "consensus_score": 62.8,
+      "consensus_score": 62.7,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-3-7-flash"
     },
     {
@@ -258,7 +258,7 @@
       "cache_price": "¥0.025",
       "input_price": "¥3",
       "output_price": "¥6",
-      "consensus_score": 62.4,
+      "consensus_score": 62.3,
       "detail_url": "https://aihot.virxact.com/leaderboard/mimo-v-2-6-pro"
     },
     {
@@ -294,23 +294,11 @@
       "cache_price": "¥3.34",
       "input_price": "¥13.35",
       "output_price": "¥40.05",
-      "consensus_score": 61.8,
+      "consensus_score": 61.7,
       "detail_url": "https://aihot.virxact.com/leaderboard/grok-4-7"
     },
     {
       "rank": 25,
-      "name": "Claude Haiku 5.5",
-      "provider": "Anthropic",
-      "release_date": "2026-10-07",
-      "completeness": "34 项评测 覆盖 96 %",
-      "cache_price": "待核验",
-      "input_price": "待核验",
-      "output_price": "待核验",
-      "consensus_score": 61.5,
-      "detail_url": "https://aihot.virxact.com/leaderboard/claude-haiku-5-5"
-    },
-    {
-      "rank": 26,
       "name": "Grok 4.6",
       "provider": "xAI",
       "release_date": "2026-08-12",
@@ -318,11 +306,11 @@
       "cache_price": "¥3.34",
       "input_price": "¥13.35",
       "output_price": "¥40.05",
-      "consensus_score": 61.4,
+      "consensus_score": 61.3,
       "detail_url": "https://aihot.virxact.com/leaderboard/grok-4-6"
     },
     {
-      "rank": 27,
+      "rank": 26,
       "name": "MiniMax-M3.1-Flash",
       "provider": "MiniMax",
       "release_date": "2026-10-19",
@@ -330,11 +318,11 @@
       "cache_price": "待核验",
       "input_price": "待核验",
       "output_price": "待核验",
-      "consensus_score": 61.0,
+      "consensus_score": 60.9,
       "detail_url": "https://aihot.virxact.com/leaderboard/minimax-m-3-1-flash"
     },
     {
-      "rank": 28,
+      "rank": 27,
       "name": "Step 5 Preview",
       "provider": "StepFun",
       "release_date": "2026-09-18",
@@ -346,6 +334,18 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/step-5-preview"
     },
     {
+      "rank": 28,
+      "name": "Claude Haiku 5.5",
+      "provider": "Anthropic",
+      "release_date": "2026-10-07",
+      "completeness": "35 项评测 覆盖 100 %",
+      "cache_price": "待核验",
+      "input_price": "待核验",
+      "output_price": "待核验",
+      "consensus_score": 60.4,
+      "detail_url": "https://aihot.virxact.com/leaderboard/claude-haiku-5-5"
+    },
+    {
       "rank": 29,
       "name": "DeepSeek V4.1 Flash",
       "provider": "DeepSeek",
@@ -354,7 +354,7 @@
       "cache_price": "¥0.04",
       "input_price": "¥2",
       "output_price": "¥8.01",
-      "consensus_score": 60.5,
+      "consensus_score": 60.4,
       "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-1-flash"
     },
     {
