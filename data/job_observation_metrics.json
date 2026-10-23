@@ -1,22 +1,25 @@
 {
-  "observed_at": "2026-10-23T13:42:30.960984+08:00",
+  "observed_at": "2026-10-24T05:18:11.160029+08:00",
   "source_count": 3,
-  "raw_count": 59,
+  "raw_count": 58,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 4,
-      "inventory_count": 19,
-      "signal_count": 0,
-      "added_count": 2,
-      "removed_count": 2,
-      "clusters": {},
+      "count": 11,
+      "inventory_count": 18,
+      "signal_count": 1,
+      "added_count": 5,
+      "removed_count": 6,
+      "clusters": {
+        "engineering": 2,
+        "payments": 1
+      },
       "removed_clusters": {
-        "engineering": 1,
-        "partnerships": 1
+        "engineering": 2,
+        "payments": 1
       }
     },
     "Stripe Jobs": {
@@ -24,28 +27,135 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
+      "count": 2,
       "inventory_count": 5,
       "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
-      "removed_clusters": {}
+      "added_count": 1,
+      "removed_count": 1,
+      "clusters": {
+        "engineering": 1
+      },
+      "removed_clusters": {
+        "ai": 1,
+        "engineering": 1
+      }
     },
     "Shopify Jobs": {
       "method": "jobs_snapshot",
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
+      "count": 4,
       "inventory_count": 35,
       "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
-      "removed_clusters": {}
+      "added_count": 2,
+      "removed_count": 2,
+      "clusters": {
+        "compliance": 1
+      },
+      "removed_clusters": {
+        "partnerships": 1
+      }
     }
   },
-  "candidate_signals": [],
+  "candidate_signals": [
+    {
+      "candidate_id": "jobs-4b1d07892b011535",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W43",
+      "window_start": "2026-10-24",
+      "window_end": "2026-10-24",
+      "detected_at": "2026-10-24T05:18:11.160029+08:00",
+      "baseline_count": 19,
+      "current_count": 18,
+      "added_count": 5,
+      "removed_count": 6,
+      "clusters": {
+        "engineering": 2,
+        "payments": 1
+      },
+      "removed_clusters": {
+        "engineering": 2,
+        "payments": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000157446751",
+          "title": "Lead Program Manager (Developer Education)",
+          "url": "https://www.grab.careers/en/jobs/744000157446751/lead-program-manager-developer-education/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000157403749",
+          "title": "Lead Data Scientist (Analytics) - Digital Marketing",
+          "url": "https://www.grab.careers/en/jobs/744000157403749/lead-data-scientist-analytics-digital-marketing/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000157399989",
+          "title": "Senior Analytics Manager (Geo and IoT)",
+          "url": "https://www.grab.careers/en/jobs/744000157399989/senior-analytics-manager-geo-and-iot/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000157392390",
+          "title": "Data Scientist (Product Analytics) - Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000157392390/data-scientist-product-analytics-financial-services/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000157388040",
+          "title": "Software Engineer, Cloud Platform",
+          "url": "https://www.grab.careers/en/jobs/744000157388040/software-engineer-cloud-platform/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000157054629",
+          "title": "Lead Program Manager (Developer Education)",
+          "url": "https://www.grab.careers/en/jobs/744000157054629/lead-program-manager-developer-education/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000156934107",
+          "title": "Senior Data Analyst",
+          "url": "https://www.grab.careers/en/jobs/744000156934107/senior-data-analyst/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000156930279",
+          "title": "Senior Data Scientist (Analytics)",
+          "url": "https://www.grab.careers/en/jobs/744000156930279/senior-data-scientist-analytics/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000156927503",
+          "title": "Senior Data Scientist (Analytics) - Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000156927503/senior-data-scientist-analytics-financial-services/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000156923643",
+          "title": "Lead Data Scientist (Analytics), Financial Systems",
+          "url": "https://www.grab.careers/en/jobs/744000156923643/lead-data-scientist-analytics-financial-systems/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000156843879",
+          "title": "Lead Software Engineer in Test (Mobile)",
+          "url": "https://www.grab.careers/en/jobs/744000156843879/lead-software-engineer-in-test-mobile/",
+          "change": "removed"
+        }
+      ],
+      "status": "qualified",
+      "rejection_reason": "",
+      "promoted_event_id": ""
+    }
+  ],
   "promoted_count": 0
 }

@@ -1,11 +1,47 @@
 {
   "version": 1,
-  "generated_at": "2026-10-23T13:42:30.960984+08:00",
+  "generated_at": "2026-10-24T05:18:11.160029+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-23T13:42:30.960984+08:00",
+      "observed_at": "2026-10-24T05:18:11.160029+08:00",
       "jobs": [
+        {
+          "id": "744000157446751",
+          "title": "Lead Program Manager (Developer Education)",
+          "url": "https://www.grab.careers/en/jobs/744000157446751/lead-program-manager-developer-education/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000157403749",
+          "title": "Lead Data Scientist (Analytics) - Digital Marketing",
+          "url": "https://www.grab.careers/en/jobs/744000157403749/lead-data-scientist-analytics-digital-marketing/",
+          "function_tags": []
+        },
+        {
+          "id": "744000157399989",
+          "title": "Senior Analytics Manager (Geo and IoT)",
+          "url": "https://www.grab.careers/en/jobs/744000157399989/senior-analytics-manager-geo-and-iot/",
+          "function_tags": []
+        },
+        {
+          "id": "744000157392390",
+          "title": "Data Scientist (Product Analytics) - Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000157392390/data-scientist-product-analytics-financial-services/",
+          "function_tags": [
+            "payments"
+          ]
+        },
+        {
+          "id": "744000157388040",
+          "title": "Software Engineer, Cloud Platform",
+          "url": "https://www.grab.careers/en/jobs/744000157388040/software-engineer-cloud-platform/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000157382000",
           "title": "Country GrabKios Commercial Manager",
@@ -40,14 +76,6 @@
           "title": "Manager, Merchant Acquisition - GrabMart",
           "url": "https://www.grab.careers/en/jobs/744000157071258/manager-merchant-acquisition-grabmart/",
           "function_tags": []
-        },
-        {
-          "id": "744000157054629",
-          "title": "Lead Program Manager (Developer Education)",
-          "url": "https://www.grab.careers/en/jobs/744000157054629/lead-program-manager-developer-education/",
-          "function_tags": [
-            "engineering"
-          ]
         },
         {
           "id": "744000157053260",
@@ -103,61 +131,18 @@
           "title": "Data Scientist (Product Analytics)",
           "url": "https://www.grab.careers/en/jobs/744000156928706/data-scientist-product-analytics/",
           "function_tags": []
-        },
-        {
-          "id": "744000156934107",
-          "title": "Senior Data Analyst",
-          "url": "https://www.grab.careers/en/jobs/744000156934107/senior-data-analyst/",
-          "function_tags": []
-        },
-        {
-          "id": "744000156930279",
-          "title": "Senior Data Scientist (Analytics)",
-          "url": "https://www.grab.careers/en/jobs/744000156930279/senior-data-scientist-analytics/",
-          "function_tags": []
-        },
-        {
-          "id": "744000156927503",
-          "title": "Senior Data Scientist (Analytics) - Financial Services",
-          "url": "https://www.grab.careers/en/jobs/744000156927503/senior-data-scientist-analytics-financial-services/",
-          "function_tags": [
-            "payments"
-          ]
-        },
-        {
-          "id": "744000156923643",
-          "title": "Lead Data Scientist (Analytics), Financial Systems",
-          "url": "https://www.grab.careers/en/jobs/744000156923643/lead-data-scientist-analytics-financial-systems/",
-          "function_tags": []
-        },
-        {
-          "id": "744000156843879",
-          "title": "Lead Software Engineer in Test (Mobile)",
-          "url": "https://www.grab.careers/en/jobs/744000156843879/lead-software-engineer-in-test-mobile/",
-          "function_tags": [
-            "engineering"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-23T13:42:30.960984+08:00",
+      "observed_at": "2026-10-24T05:18:11.160029+08:00",
       "jobs": [
         {
           "id": "7844214",
           "title": "AEO and GEO Marketing Manager",
           "url": "https://stripe.com/careers/listing/aeo-and-geo-marketing-manager/7844214",
           "function_tags": []
-        },
-        {
-          "id": "8144196",
-          "title": "AI Engineer",
-          "url": "https://stripe.com/careers/listing/ai-engineer/8144196",
-          "function_tags": [
-            "ai",
-            "engineering"
-          ]
         },
         {
           "id": "8221776",
@@ -178,12 +163,20 @@
           "title": "Abuse Investigator",
           "url": "https://stripe.com/careers/listing/abuse-investigator/8172510",
           "function_tags": []
+        },
+        {
+          "id": "8172503",
+          "title": "Abuse Research Engineer",
+          "url": "https://stripe.com/careers/listing/abuse-research-engineer/8172503",
+          "function_tags": [
+            "engineering"
+          ]
         }
       ]
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-23T13:42:30.960984+08:00",
+      "observed_at": "2026-10-24T05:18:11.160029+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
@@ -192,12 +185,6 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
-          "title": "Senior Lead, Federal Government Affairs (US) Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-lead-federal-government-affairs-us_7d3f4fe7-7a8c-4919-b181-74f2f6f3c6d8",
-          "function_tags": []
         },
         {
           "id": "715ee550-b7d0-4c4a-86c0-4b51e6d74fc4",
@@ -249,7 +236,7 @@
         },
         {
           "id": "367f287b-b6c0-4bd5-aa8c-639c0a1c009e",
-          "title": "Senior Treasury Analyst Remote - Americas",
+          "title": "Senior Treasury Analyst Remote - Canada",
           "url": "https://www.shopify.com/careers/senior-treasury-analyst_367f287b-b6c0-4bd5-aa8c-639c0a1c009e",
           "function_tags": [
             "payments"
@@ -304,14 +291,6 @@
           ]
         },
         {
-          "id": "5de9add2-829e-4307-8d9e-20ee3353d237",
-          "title": "Associate General Counsel, Partnerships Remote - Americas",
-          "url": "https://www.shopify.com/careers/associate-general-counsel-partnerships_5de9add2-829e-4307-8d9e-20ee3353d237",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
           "id": "9582ff03-4538-4efe-8406-437956ab2c73",
           "title": "Associate General Counsel, Privacy Remote - Americas",
           "url": "https://www.shopify.com/careers/associate-general-counsel-privacy_9582ff03-4538-4efe-8406-437956ab2c73",
@@ -325,6 +304,14 @@
           "url": "https://www.shopify.com/careers/associate-general-counsel-product-fintech_8441801f-1a0e-42c6-8838-cc15af655923",
           "function_tags": [
             "payments"
+          ]
+        },
+        {
+          "id": "78832f74-0b92-45f9-8137-dbbed7a9b254",
+          "title": "Associate General Counsel, Revenue Legal Remote - Americas",
+          "url": "https://www.shopify.com/careers/associate-general-counsel-revenue-legal_78832f74-0b92-45f9-8137-dbbed7a9b254",
+          "function_tags": [
+            "compliance"
           ]
         },
         {
@@ -344,17 +331,17 @@
           ]
         },
         {
-          "id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
-          "title": "Director, Partnerships, Greater China Remote - Singapore",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "id": "bff44652-fe22-44bc-84b0-691d8f996322",
+          "title": "Director, Partnerships, Greater China Remote - Hong Kong",
+          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_bff44652-fe22-44bc-84b0-691d8f996322",
           "function_tags": [
             "partnerships"
           ]
         },
         {
-          "id": "bff44652-fe22-44bc-84b0-691d8f996322",
-          "title": "Director, Partnerships, Greater China Remote - Hong Kong",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_bff44652-fe22-44bc-84b0-691d8f996322",
+          "id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "title": "Director, Partnerships, Greater China Remote - Singapore",
+          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
           "function_tags": [
             "partnerships"
           ]
@@ -390,6 +377,12 @@
           "function_tags": [
             "partnerships"
           ]
+        },
+        {
+          "id": "301777c5-9382-4cfe-9075-34b6f8a77795",
+          "title": "AML Transaction Monitoring, Analyst Remote - Americas",
+          "url": "https://www.shopify.com/careers/aml-transaction-monitoring-analyst_301777c5-9382-4cfe-9075-34b6f8a77795",
+          "function_tags": []
         },
         {
           "id": "88865df0-0622-4687-b8e1-a03b64918e5e",
