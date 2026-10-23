@@ -1,205 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-10-22</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-10-23</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-10-22T21:37:04Z</updated>
+  <updated>2026-10-23T05:53:32Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Ziina获阿联酋央行零售支付和汇兑牌照</title>
-    <link href="http://wamda.com/2026/10/uaes-ziina-secures-central-bank-approvals-retail-payments-exchange-services"/>
-    <id>tag:weekly-report,2026:event-274bb72a</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;UAE&amp;amp;#039;s Ziina secures central bank approvals for retail payments and exchange services&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;阿联酋金融科技公司Ziina获得央行批准，可开展零售支付和外汇兑换服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东金融科技Ziina获央行支付牌照，海湾地区数字支付基础设施合作和商户拓展机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：中东 | 来源：WAMDA&lt;/p&gt;</summary>
+    <title>花旗报告：新加坡高净值客户资产增6%</title>
+    <link href="https://fintechnews.sg/139515/wealthtech/singapore-wealth-citi-report-ai-hnw/"/>
+    <id>tag:weekly-report,2026:event-674a76ca</id>
+    <published>2026-10-23T00:00:00Z</published>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Singapore HNW Client Assets Climb 6% to US$1.5 Million: Citi Study&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;花旗研究报告显示新加坡高净值客户资产增长6%至150万美元，AI驱动财富管理需求上升&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡财富管理市场持续扩张，AI在财富科技领域应用加速，为财富科技平台和AI服务商带来合作机会&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Indurex获€7M融资加强信息物理系统安全</title>
-    <link href="https://www.eu-startups.com/2026/10/amsterdams-indurex-raises-e7-million-to-strengthen-cybersecurity-and-safety-across-cyber-physical-systems/"/>
-    <id>tag:weekly-report,2026:event-df037426</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Amsterdam’s Indurex raises €7 million to strengthen cybersecurity and safety across cyber-physical systems&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;阿姆斯特丹网络安全公司Indurex完成700万欧元融资，用于加强信息物理系统安全&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;荷兰网络安全公司获融资专注信息物理系统安全，欧洲工业物联网安全需求上升，工控安全解决方案采购预算有望增加&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：EU-Startups&lt;/p&gt;</summary>
+    <title>MiniMax股价跌破IPO价</title>
+    <link href="https://www.techinasia.com/news/minimax-shares-fall-below-ipo-price-as-ai-competition-grows"/>
+    <id>tag:weekly-report,2026:event-b610e5dd</id>
+    <published>2026-10-23T00:00:00Z</published>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;MiniMax shares fall below IPO price as AI competition grows&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国AI公司MiniMax股价跌破IPO发行价，AI竞争加剧导致市场信心承压&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI大模型公司上市后估值承压，AI赛道竞争加剧引发投资者对商业化前景的担忧&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>分析文章探讨AI驱动支付平台创新</title>
-    <link href="https://fintechnews.sg/139108/ai/ai-payment-platform-innovation/"/>
-    <id>tag:weekly-report,2026:event-2dcd1b2e</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AI Can Find the Opportunity. Can Your Payment Platform Launch it First?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Fintech News Singapore发布分析文章，探讨AI如何帮助支付平台发现商机并加速产品上线&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太支付行业AI应用趋势分析，为支付平台技术选型和产品路线提供参考方向&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>Blackstone看好AI基建推动私人信贷增长</title>
+    <link href="https://dealstreetasia.com/stories/blackstone-private-credit-opportunities-ai-498994/"/>
+    <id>tag:weekly-report,2026:event-78721a7e</id>
+    <published>2026-10-23T00:00:00Z</published>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Blackstone sees AI buildout boosting private credit growth&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Blackstone表示AI基础设施建设将推动私人信贷业务增长，看好相关融资需求&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球最大另类资产管理公司Blackstone将AI基建视为私人信贷新增长点，预示数据中心和算力投资将持续获得债务融资支持&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：DealStreetAsia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Canva发布首个自研图像生成模型</title>
-    <link href="https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"/>
-    <id>tag:weekly-report,2026:event-11a7ece1</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Canva releases its first image generation model&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;设计平台Canva发布其首个自研图像生成模型，进入AI图像生成赛道&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;澳大利亚设计SaaS平台自研图像生成模型，意味着其将减少对第三方AI模型API的依赖，可能重塑设计工具AI供应链格局&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
+    <title>Visa与新加坡旅游局合作推动高端旅游</title>
+    <link href="https://fintechnews.sg/139539/payments/visa-singapore-tourism-board-destinations/"/>
+    <id>tag:weekly-report,2026:event-644e4d48</id>
+    <published>2026-10-23T00:00:00Z</published>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Visa and Singapore Tourism Board Partner to Boost High-Value Tourism&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Visa与新加坡旅游局达成合作，通过支付数据分析推动高价值旅游消费&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡旅游支付数据合作，支付网络与旅游目的地营销结合，为亚太支付服务商提供数据变现思路&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Visa测试AI企业支付并新增反欺诈控制</title>
-    <link href="https://fintechnews.sg/139424/ai/visa-ai-agent-business-payments/"/>
-    <id>tag:weekly-report,2026:event-52c2662b</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Visa Tests AI-Powered Business Payments, Introduces New Fraud Controls&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Visa在亚太地区测试AI驱动的企业支付方案，并同步推出新的反欺诈控制功能&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太支付网络巨头将AI代理引入B2B支付流程，支付平台和风控服务商面临新的集成与合作窗口&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>中国AI天才少年加入前谷歌系创业公司</title>
+    <link href="https://e.vnexpress.net/news/tech/personalities/chinese-teen-ai-prodigy-courted-by-silicon-valley-reportedly-joins-ex-google-researchers-startup-5135637.html"/>
+    <id>tag:weekly-report,2026:event-c2ecf526</id>
+    <published>2026-10-23T00:00:00Z</published>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Chinese teen AI prodigy courted by Silicon Valley reportedly joins ex-Google researchers&amp;#x27; startup&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一名被硅谷多家公司争夺的中国青少年AI天才据报道加入前谷歌研究人员的创业公司&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美AI初创公司持续吸纳全球顶尖人才，人才争夺战向青少年层级延伸&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：北美 | 来源：VnExpress Tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>McClune挑战AI行业对用户的理解方式</title>
-    <link href="https://thenextweb.com/news/victoria-mcclune-ai-industry-users-silent-downgrade"/>
-    <id>tag:weekly-report,2026:event-f4048883</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Victoria McClune is challenging how the AI industry understands its users&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Victoria McClune公开质疑AI行业对用户需求的理解方式，提出&amp;#x27;静默降级&amp;#x27;概念，指出AI产品在用户不知情的情况下降低服务质量&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI行业用户信任问题被公开讨论，AI产品体验治理可能成为监管和采购评估新维度&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>斯里兰卡商户支持更多印度支付方式</title>
+    <link href="https://fintechnews.sg/139519/sri-lanka/sri-lanka-indian-payment-methods/"/>
+    <id>tag:weekly-report,2026:event-55b9c272</id>
+    <published>2026-10-23T00:00:00Z</published>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Sri Lankan Merchants Can Now Accept More Indian Payment Methods&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;斯里兰卡商户现已支持更多印度支付方式，便利印度游客跨境消费&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;南亚跨境支付互联互通推进，印度支付网络向斯里兰卡扩展，为区域支付基础设施提供商带来机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>诺基亚Q3业绩增长，CEO强调AI战略</title>
-    <link href="https://www.mobileworldlive.com/nokia/nokia-chief-continues-to-bang-ai-drum-after-q3-gains/"/>
-    <id>tag:weekly-report,2026:event-2ab6f41d</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nokia chief continues to bang AI drum after Q3 gains&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;诺基亚发布三季度财报，业绩增长，CEO继续强调AI在电信网络中的战略重要性。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲电信设备商诺基亚Q3业绩改善并加码AI网络，电信AI运维和网络自动化合作机会增加&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
+    <title>Swiggy Q2业绩发布，eMudhra退出证书业务</title>
+    <link href="https://inc42.com/buzz/swiggys-q2-report-card-emudhra-to-exit-certificate-biz-tonbos-founders-pocket-%e2%82%b9137-cr/"/>
+    <id>tag:weekly-report,2026:event-215805a2</id>
+    <published>2026-10-23T00:00:00Z</published>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Swiggy’s Q2 Report Card, eMudhra To Exit Certificate Biz &amp;amp; More&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度外卖平台Swiggy发布Q2业绩报告，eMudhra宣布退出证书业务，Tonbo创始人套现13.7亿卢比&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度消费互联网平台财报季开启，数字证书业务格局变动，创业公司创始人退出信号值得关注&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Clash Royale桌游Kickstarter筹款超$100K</title>
-    <link href="https://www.pocketgamer.biz/clash-royale-tabletop-game-surpasses-100000-on-kickstarter-after-reaching-target-in-one-hour/"/>
-    <id>tag:weekly-report,2026:event-f100aa2b</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Clash Royale tabletop game surpasses $100,000 on Kickstarter after reaching target in one hour&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Clash Royale桌游在Kickstarter上线一小时内达成众筹目标，最终筹款超过10万美元&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Supercell旗下IP向桌游品类延伸，手游IP跨媒介变现模式为游戏周边供应链带来新需求&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+    <title>FOMO Pay为PantherTrade开通合规数字资产通道</title>
+    <link href="https://fintechnews.sg/139542/digitalassets/fomo-pay-panthertrade-travel-rule-digital-assets/"/>
+    <id>tag:weekly-report,2026:event-6cc38fc9</id>
+    <published>2026-10-23T00:00:00Z</published>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;FOMO Pay Opens Compliant Digital Asset Route to PantherTrade&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡支付公司FOMO Pay为数字资产平台PantherTrade开通合规数字资产转账通道，满足Travel Rule监管要求&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡数字资产合规基础设施完善，Travel Rule合规方案为亚太加密支付服务商提供合作范本&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Databricks发布AI成本管理新经济模型</title>
-    <link href="https://www.databricks.com/blog/ai-cost-management"/>
-    <id>tag:weekly-report,2026:event-26bdc41a</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The new economics of AI cost management&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Databricks发布博客阐述AI成本管理的新经济模型，讨论企业AI部署的成本优化路径&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Databricks推动企业AI成本治理方案，AI基础设施优化工具存在企业采购机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Databricks | 来源：Databricks Blog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>新加坡将为散户推出IPO投资指南</title>
-    <link href="https://fintechnews.sg/139470/wealthtech/singapore-ipo-guides-retail-investors/"/>
-    <id>tag:weekly-report,2026:event-9c66d71a</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Singapore to Introduce IPO Guides for Retail Investors&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡计划为散户投资者推出IPO指南，以提升散户参与IPO市场的透明度和规范性&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡监管层推动散户参与IPO市场，财富科技平台和券商可借此开发合规投教产品&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Modern Retail研报：营销人员看好2026假日季营收</title>
-    <link href="https://www.modernretail.co/marketing/modern-retail-research-marketers-express-revenue-optimism-for-the-2026-holiday-season-despite-economic-pressures/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
-    <id>tag:weekly-report,2026:event-3e5c71fa</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Modern Retail+ Research: Marketers express revenue optimism for the 2026 holiday season despite economic pressures&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Modern Retail+ Research发布研究报告，显示营销人员对2026年假日季营收持乐观态度，尽管面临经济压力&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球零售营销研报显示假日季营收乐观，零售广告预算流向和营销技术采购趋势值得关注&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>eBay裁员1000人，年内第二次</title>
-    <link href="https://www.retaildive.com/news/ebay-cuts-one-thousand-jobs-layoffs-downsizing/833668/"/>
-    <id>tag:weekly-report,2026:event-368bb30c</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;EBay cuts 1K jobs, downsizing for the second time this year&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;电商平台eBay宣布裁员1000人，为今年第二次大规模裁员&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球电商平台持续收缩成本，eBay裁员反映电商增长放缓，供应链和物流技术外包需求可能上升&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：Retail Dive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Shopify更新结账支付方式设计</title>
-    <link href="https://changelog.shopify.com/posts/refreshed-payment-method-design-in-checkout"/>
-    <id>tag:weekly-report,2026:event-033f1a5f</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Shopify: Refreshed payment method design in checkout&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Shopify更新结账页面支付方式设计，优化支付选项的视觉呈现和用户体验&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Shopify发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Shopify | 来源：Shopify Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>环球音乐授权TYGER游戏AI音乐服务</title>
-    <link href="https://thenextweb.com/news/universal-music-group-tyger-licensing-deal-gaming"/>
-    <id>tag:weekly-report,2026:event-f967af4e</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Universal Music Group licenses songs to AI gaming music service TYGER&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;环球音乐集团与AI游戏音乐服务TYGER签署授权协议，允许TYGER在游戏场景中使用其曲库&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲音乐版权方与AI游戏音乐平台达成授权合作，为游戏音乐AI生成赛道建立版权合规范式&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Mastercard推出AI助手Max简化卡权益</title>
-    <link href="https://fintechnews.sg/139464/payments/mastercard-max-ai-card-benefits-assistant/"/>
-    <id>tag:weekly-report,2026:event-3be98dc9</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mastercard Launches AI Assistant to Simplify Card Benefits&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Mastercard推出AI助手Max，帮助持卡人简化和查询信用卡权益&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太支付巨头将AI助手嵌入卡权益管理，支付平台AI客服和权益聚合成为金融科技合作新入口&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>品牌假日季多平台渠道运营分析</title>
-    <link href="https://www.modernretail.co/retailers/big-box-briefing-how-brands-are-juggling-new-marketplaces-this-holiday-season/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
-    <id>tag:weekly-report,2026:event-5cfbc6fb</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Big-Box Briefing: How brands are juggling new marketplaces this holiday season&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Modern Retail发布大卖场简报，分析品牌在假日季如何同时运营多个新兴电商平台渠道&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国零售品牌多渠道运营需求上升，电商中台与渠道管理SaaS存在采购机会&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Side收购Roboto Entertainment拓展中国市场</title>
-    <link href="https://www.pocketgamer.biz/side-acquires-art-studio-roboto-entertainment-to-expand-presence-in-china/"/>
-    <id>tag:weekly-report,2026:event-e6c8f872</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Side acquires art studio Roboto Entertainment to expand presence in China&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;游戏服务公司Side收购美术工作室Roboto Entertainment，以扩大在中国市场的业务布局&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球游戏外包服务商通过并购美术工作室加码中国产能，中国游戏美术外包供应链整合加速&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Rivian收购世界模型初创公司加速自动驾驶</title>
-    <link href="https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/"/>
-    <id>tag:weekly-report,2026:event-8f8873bc</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Rivian buys world model startup to accelerate self-driving ambitions&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;电动汽车公司Rivian收购一家世界模型初创公司，以加速其自动驾驶技术研发&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国自动驾驶领域并购整合加速，世界模型技术成为车企自研智驾的关键路径，供应链上游AI模型供应商面临被整合或合作窗口&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：ma | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>伊拉克游戏工作室称投资者仍不看好伊拉克游戏产业</title>
-    <link href="https://www.pocketgamer.biz/most-investors-and-publishers-still-dont-see-iraq-as-a-place-where-games-get-made/"/>
-    <id>tag:weekly-report,2026:event-06d3c14e</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Istikan Studio&amp;#x27;s Danar Kayfi: &amp;quot;Most investors and publishers still don&amp;#x27;t see Iraq as a place where games get made&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;伊拉克游戏工作室Istikan Studio的Danar Kayfi表示，多数投资者和发行商仍不认为伊拉克具备游戏开发能力&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东游戏开发产能被低估，伊拉克工作室寻求国际发行合作，中东游戏外包和本地化存在早期机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>探讨加密托管方破产时资产安全性</title>
-    <link href="https://fintechnews.sg/139457/videos/is-your-crypto-safe-if-your-custodian-goes-bankrupt/"/>
-    <id>tag:weekly-report,2026:event-357fae86</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Is Your Crypto Safe If Your Custodian Goes Bankrupt?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Fintech News Singapore发布视频内容，探讨加密资产托管方破产时用户资产的保护机制与法律风险&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太加密托管行业缺乏统一破产隔离标准，托管商与交易所面临合规压力，催生保险与审计合作需求&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>AI监控应纳入投资者尽调标准流程</title>
-    <link href="https://www.uktech.news/ai/ai-monitoring-investor-due-diligence-20261022"/>
-    <id>tag:weekly-report,2026:event-22ccf9e6</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AI monitoring should be a standard part of investor due diligence&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;UKTN发布分析文章，主张AI监控应成为投资者尽职调查的标准组成部分&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;英国科技媒体呼吁将AI监控纳入投资尽调标准，反映AI治理工具在投资决策中的需求上升，合规AI监控服务商将迎来机构客户采购机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：欧洲 | 来源：UKTN&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare Agents SDK支持Pi 1.4</title>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-10-22-pi-harness-pi-1-4/"/>
-    <id>tag:weekly-report,2026:event-238c0053</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: Agents SDK now supports the latest Pi 1.4 release&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare Agents SDK宣布支持最新Pi 1.4版本，开发者可在边缘平台构建AI Agent应用&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>非洲稳定币出金环节受阻</title>
-    <link href="https://techcabal.com/2026/10/22/africas-stablecoin-breaks-at-the-off-ramp/"/>
-    <id>tag:weekly-report,2026:event-f1277809</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Africa’s stablecoin promise breaks at the off-ramp&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;TechCabal发布分析指出非洲稳定币应用在法币出金环节（off-ramp）受阻，链上价值难以顺畅兑换为本地货币&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲稳定币出金基础设施缺口明显，本地支付网关与合规兑换通道存在合作与投资机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：非洲 | 来源：TechCabal&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Fortnite重返澳大利亚App Store</title>
-    <link href="https://www.pocketgamer.biz/fortnite-returns-to-the-app-store-in-australia-today/"/>
-    <id>tag:weekly-report,2026:event-dd5d0e9d</id>
-    <published>2026-10-22T00:00:00Z</published>
-    <updated>2026-10-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Fortnite returns to the App Store in Australia today&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Fortnite在澳大利亚重新上架App Store，此前因Epic与苹果的法律纠纷被下架多年&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Epic与苹果在澳洲市场达成阶段性妥协，应用商店分成和侧载政策在亚太市场出现松动信号&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+    <title>Cloudflare Flagship SDK新增上下文支持</title>
+    <link href="https://developers.cloudflare.com/flagship/sdk/#context-support"/>
+    <id>tag:weekly-report,2026:event-2da4a6e3</id>
+    <published>2026-10-23T00:00:00Z</published>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: SDK context support&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare为其Flagship SDK增加上下文支持功能&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-10-23</title>
@@ -207,6 +87,6 @@
     <id>tag:weekly-report,2026:aihot-b883bd51</id>
     <published>2026-10-23T00:00:00Z</published>
     <updated>2026-10-23T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-23T00:41&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/49bd934f-e6c9-434e-87b0-34b8e08b8efd"&gt;Anthropic 开放 Claude Duet 主动式智能体研究预览&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/17f9865a-cef7-4d98-9742-0796331c81ea"&gt;OpenAI称AI协助发现PHP核心漏洞，补丁已发布&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/3a7d611c-2b14-4b4f-9178-1bdea46c04b4"&gt;DeepSeek新一轮融资升至约150亿美元&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/4e5e0d5e-eb50-43cc-b997-7cd714147997"&gt;Recursive 发布 40B 编码模型 Flint，vLLM 首日支持&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/dae7c054-a1fe-423d-bf36-68d8d8959457"&gt;DeepSeek 开源生产推理框架 DeepInfer&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-23T10:10&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/49bd934f-e6c9-434e-87b0-34b8e08b8efd"&gt;Anthropic 开放 Claude Duet 主动式智能体研究预览&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/17f9865a-cef7-4d98-9742-0796331c81ea"&gt;OpenAI称AI协助发现PHP核心漏洞，补丁已发布&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/8b1cc389-bb11-4612-9ea6-a04753eeb832"&gt;1Password 推出智能体代登录平台，多家接入&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/3a7d611c-2b14-4b4f-9178-1bdea46c04b4"&gt;DeepSeek新一轮融资升至约150亿美元&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/4e5e0d5e-eb50-43cc-b997-7cd714147997"&gt;Recursive 发布 40B 编码模型 Flint，vLLM 首日支持&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
