@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-10-24T05:18:11.160029+08:00",
+  "generated_at": "2026-10-24T13:21:53.490014+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-24T05:18:11.160029+08:00",
+      "observed_at": "2026-10-24T13:21:53.490014+08:00",
       "jobs": [
         {
           "id": "744000157446751",
@@ -136,7 +136,7 @@
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-24T05:18:11.160029+08:00",
+      "observed_at": "2026-10-24T13:21:53.490014+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -176,7 +176,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-24T05:18:11.160029+08:00",
+      "observed_at": "2026-10-24T13:21:53.490014+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
@@ -331,17 +331,17 @@
           ]
         },
         {
-          "id": "bff44652-fe22-44bc-84b0-691d8f996322",
-          "title": "Director, Partnerships, Greater China Remote - Hong Kong",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_bff44652-fe22-44bc-84b0-691d8f996322",
+          "id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "title": "Director, Partnerships, Greater China Remote - Singapore",
+          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
           "function_tags": [
             "partnerships"
           ]
         },
         {
-          "id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
-          "title": "Director, Partnerships, Greater China Remote - Singapore",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "id": "bff44652-fe22-44bc-84b0-691d8f996322",
+          "title": "Director, Partnerships, Greater China Remote - Hong Kong",
+          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_bff44652-fe22-44bc-84b0-691d8f996322",
           "function_tags": [
             "partnerships"
           ]
