@@ -396747,12 +396747,12 @@
       ],
       "level": "C",
       "score": 5,
-      "summary_short": "EA关停BioWare，Supercell收购Metacore",
-      "content_overview": "EA关闭BioWare工作室，Supercell收购Metacore，Mika Games投入1000万美元进行软发布",
-      "reason": "全球游戏行业整合加速，Supercell收购Metacore拓展休闲游戏赛道，关注手游并购与发行合作机会",
-      "impact": "全球手游开发商、游戏发行平台、游戏投资方",
-      "insight_label": "资金流向",
-      "trend_topic": "全球手游行业整合",
+      "summary_short": "Supercell收购Metacore，EA关闭BioWare",
+      "content_overview": "播客讨论EA关闭BioWare工作室、Supercell收购Metacore以及Mika Games投入1000万美元进行软发布",
+      "reason": "Supercell收购Metacore整合休闲游戏赛道，EA关闭BioWare显示主机游戏工作室收缩",
+      "impact": "移动游戏发行商、游戏工作室、游戏投资方",
+      "insight_label": "背景补充",
+      "trend_topic": "全球游戏行业整合",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -417131,8 +417131,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -417240,8 +417240,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -417349,8 +417349,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -417454,8 +417454,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -417559,8 +417559,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -417664,8 +417664,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -417771,8 +417771,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -417877,8 +417877,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -417990,8 +417990,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 2,
       "merged_from": [
         "https://e.vnexpress.net/news/tech/personalities/chinese-teen-ai-prodigy-courted-by-silicon-valley-reportedly-joins-ex-google-researchers-startup-5135637.html"
@@ -418097,8 +418097,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -418111,12 +418111,12 @@
       ],
       "level": "C",
       "score": 5,
-      "summary_short": "Cloudflare Flagship SDK新增context支持",
-      "content_overview": "Cloudflare为其Flagship SDK新增context支持功能，增强功能开关的上下文感知能力",
+      "summary_short": "Cloudflare Flagship SDK 新增 context support",
+      "content_overview": "Cloudflare 在其 Flagship SDK 中新增 context support 能力，允许开发者在功能开关评估时传入上下文信息",
       "reason": "Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化",
       "impact": "开发者、集成商和生态合作伙伴",
-      "insight_label": "背景补充",
-      "trend_topic": "边缘计算开发者工具迭代",
+      "insight_label": "合作机会",
+      "trend_topic": "边缘计算开发者工具升级",
       "companies": [],
       "is_company": true,
       "company_name": "Cloudflare",
@@ -418205,8 +418205,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 2,
       "merged_from": [
         "https://developers.cloudflare.com/flagship/sdk/#context-support"
@@ -418319,8 +418319,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -418430,8 +418430,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -418534,8 +418534,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -418642,8 +418642,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -418751,8 +418751,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -418855,8 +418855,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -418961,8 +418961,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -419067,8 +419067,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -419175,8 +419175,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -419281,8 +419281,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -419386,8 +419386,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 2,
       "merged_from": [
         "https://www.pocketgamer.biz/new-release-roundup-house-of-tesla-crushed-in-time-one-piece-grand-gourmet-and-more/"
@@ -419404,11 +419404,11 @@
       "level": "C",
       "score": 4,
       "summary_short": "TerraPay联手Kinexys降低跨境支付错误",
-      "content_overview": "跨境支付公司TerraPay与Kinexys达成合作，旨在降低跨境支付错误率",
-      "reason": "亚太跨境支付基础设施整合加速，TerraPay与Kinexys合作提升汇款准确率，利好东南亚汇款走廊服务商",
-      "impact": "东南亚跨境汇款服务商、银行支付系统集成商",
+      "content_overview": "跨境支付公司TerraPay与摩根大通旗下Kinexys合作，降低跨境支付错误率",
+      "reason": "TerraPay与Kinexys合作提升跨境支付准确率，亚太汇款走廊与银行区块链结算合作机会增加",
+      "impact": "亚太跨境支付商、汇款服务商、银行结算网络",
       "insight_label": "合作机会",
-      "trend_topic": "亚太跨境支付基建整合",
+      "trend_topic": "跨境支付区块链结算",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -419494,9 +419494,12 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
-      "event_report_count": 1
+      "event_heat": 0,
+      "event_source_count": 0,
+      "event_report_count": 2,
+      "merged_from": [
+        "https://fintechnews.sg/139573/payments/terrapay-kinexys-cross-border-payment/"
+      ]
     },
     {
       "title": "Payward Secures Initial Approval for Kraken Kazakhstan Expansion",
@@ -419600,8 +419603,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -419707,8 +419710,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -419813,8 +419816,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -419919,8 +419922,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -420023,8 +420026,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -420126,8 +420129,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     },
     {
@@ -420231,8 +420234,8 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 0.5,
-      "event_source_count": 1,
+      "event_heat": 0,
+      "event_source_count": 0,
       "event_report_count": 1
     }
   ],
@@ -420346,7 +420349,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -420456,7 +420459,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -420564,7 +420567,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -420672,7 +420675,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -420783,7 +420786,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -420888,7 +420891,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -420995,7 +420998,7 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     },
@@ -421100,10 +421103,347 @@
       "group_role": "origin",
       "group_method": "single",
       "group_size": 1,
-      "event_heat": 1.0,
+      "event_heat": 0.5,
       "event_source_count": 1,
       "event_report_count": 1
     }
   ],
-  "2026-10-25": []
+  "2026-10-25": [
+    {
+      "title": "AWS sells out cloud capacity through 2027 as AI demand grows",
+      "url": "https://www.techinasia.com/news/aws-sells-cloud-capacity-2027-ai-demand-grows",
+      "source": "Tech in Asia",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "AWS云容量售罄至2027年",
+      "content_overview": "AWS宣布其云容量已售罄至2027年，AI需求持续推动算力预订",
+      "reason": "AWS云算力预订排至2027年，亚太企业上云与AI部署需提前锁定容量与替代供应商",
+      "impact": "亚太云服务客户、AI初创公司、数据中心供应商",
+      "insight_label": "警示信号",
+      "trend_topic": "全球云算力供给紧张",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "aws",
+      "canonical_key": "",
+      "article_date": "2026-10-25",
+      "date": "2026-10-25",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://cdn.techinasia.com/wp-content/uploads/2026/10/1792892521_1790034953_1785457614_1782346847_1780960121_1778152174_1736479665_shutterstock_2513282451-scaled-1.jpg",
+      "published_at": "2026-10-25",
+      "observed_at": "2026-10-25T05:38:20.933747+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L2 垂直交易源",
+      "source_role": "venture_media",
+      "source_id": "Tech in Asia",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "industry_change",
+      "scope_industries": [
+        "ai_infra",
+        "cloud_saas_developer"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_url_original": "https://www.techinasia.com/amazon-openai-partner-conversational-ads-chatgpt",
+      "source_url_repaired": true,
+      "source_url_repair_reason": "rss_guid_title_match",
+      "source_excerpt": "AWS is holding back some 2027 capacity for on-demand customers and services like Bedrock and EC2.",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "generic_industry_change",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 62,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 20,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "C",
+      "action_type": "expansion",
+      "domain": "cloud_saas",
+      "signal_type": "consumer",
+      "signal_change_score": 58,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 62,
+      "ai_score_avg": 60,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g972",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 1.0,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "iPhone Duo listed for resale in Singapore at nearly triple retail price on launch day",
+      "url": "https://e.vnexpress.net/news/tech/tech-news/iphone-duo-listed-for-resale-in-singapore-at-nearly-triple-retail-price-on-launch-day-5136100.html",
+      "source": "VnExpress Tech",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "iPhone新加坡首发日转售价近三倍",
+      "content_overview": "苹果新款iPhone在新加坡发售首日即被黄牛以接近零售价三倍的价格挂出转售",
+      "reason": "苹果新加坡首发渠道供需失衡，黄牛溢价反映亚太高端消费电子需求强劲，渠道商和转售平台短期获利空间大",
+      "impact": "新加坡电子产品转售平台、苹果授权渠道商",
+      "insight_label": "警示信号",
+      "trend_topic": "亚太高端手机供需失衡",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "apple",
+      "canonical_key": "",
+      "article_date": "2026-10-25",
+      "date": "2026-10-25",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://vcdn1-english.vnecdn.net/2026/10/23/dscf0165-1792745761-9624-1792745963.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=fNdB8jEZuWHv5XPNtna4Zw",
+      "published_at": "2026-10-25",
+      "observed_at": "2026-10-25T05:38:21.799152+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L3 区域生态源",
+      "source_role": "industry_vertical",
+      "source_type": "industry_media",
+      "access_method": "rss",
+      "source_id": "vnexpress-tech",
+      "credibility_score": 7,
+      "noise_level": "medium",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "The Star White-colored iPhone Duo with 256GB storage is listed for as much as S$8,888 (US$6,953) on Singapore resale platform Carousell on the model’s launch day, around 2.87 times its retail price.",
+      "report_methodology_visible": false,
+      "source_signal_types": [
+        "regional_ecosystem",
+        "industry_analysis"
+      ],
+      "vertical": "越南科技与产业",
+      "bd_triggers": [
+        "扩张窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "expansion",
+        "ai_infra"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "generic_industry_change",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 66,
+      "attention_score": 95,
+      "score_breakdown": {
+        "source_authority": 24,
+        "materiality": 30,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "product_release",
+      "domain": "ai",
+      "signal_type": "market",
+      "signal_change_score": 87,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 24,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 12
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 22,
+      "ai_score_2": 22,
+      "ai_score_avg": 22,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g973",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 1.0,
+      "event_source_count": 1,
+      "event_report_count": 1
+    },
+    {
+      "title": "一人のテニス練習に「AIコーチ」、中国PongBotが数十億円調達",
+      "url": "https://36kr.jp/503509/",
+      "source": "36Kr Japan",
+      "region": "亚太",
+      "event_types": [
+        "funding"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "PongBot获数十亿日元融资",
+      "content_overview": "中国AI网球训练机器人公司PongBot完成数十亿日元规模融资，用于单人网球练习AI教练产品",
+      "reason": "中国AI体育硬件公司获大额融资，AI教练切入单人训练场景，体育科技硬件与AI结合赛道升温，供应链和渠道合作机会显现",
+      "impact": "体育科技硬件供应商、AI视觉方案商、日本体育消费市场",
+      "insight_label": "资金流向",
+      "trend_topic": "AI体育硬件融资升温",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "pongbot",
+      "canonical_key": "",
+      "article_date": "2026-10-25",
+      "date": "2026-10-25",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://36kr.jp/uploads/2026/10/20261019200731v2_9092707a75f0406a84c276f8751968b4@6022551_oswg3895577oswg2156oswg1424_img_png730-1024x676.jpeg",
+      "published_at": "2026-10-25",
+      "observed_at": "2026-10-25T05:38:21.823007+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L3 区域生态源",
+      "source_role": "industry_vertical",
+      "source_type": "industry_media",
+      "access_method": "rss",
+      "source_id": "36kr-japan",
+      "credibility_score": 7,
+      "noise_level": "medium",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "AIを活用したスポーツ練習機器を開発する中国の「龐伯特（PongBot）」がこのほど、シリーズBで数億元（数十億円）を調達した。上海国投先導基金（SSCILF）が主導し、元禾璞華（Oriza Hua）、浦東創投（PDVC […] The post 一人のテニス練習に「AIコーチ」、中国PongBotが数十億円調達 first appeared on 36Kr Japan |  最大級の中国テック・スタートアップ専門メディア .",
+      "report_methodology_visible": false,
+      "source_signal_types": [
+        "regional_ecosystem",
+        "industry_analysis",
+        "funding_deal"
+      ],
+      "vertical": "中国科技与产业（日文视角）",
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "expansion",
+        "ai_infra",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 66,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 24,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "funding",
+      "domain": "ai",
+      "signal_type": "capital",
+      "signal_change_score": 62,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 22,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 52,
+      "ai_score_avg": 55,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "group_id": "g974",
+      "group_role": "origin",
+      "group_method": "single",
+      "group_size": 1,
+      "event_heat": 1.0,
+      "event_source_count": 1,
+      "event_report_count": 1
+    }
+  ]
 }
