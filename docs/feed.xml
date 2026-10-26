@@ -1,52 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-10-25</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-10-26</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-10-25T20:50:46Z</updated>
+  <updated>2026-10-26T05:55:10Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>iPhone新加坡首发日转售价近三倍</title>
-    <link href="https://e.vnexpress.net/news/tech/tech-news/iphone-duo-listed-for-resale-in-singapore-at-nearly-triple-retail-price-on-launch-day-5136100.html"/>
-    <id>tag:weekly-report,2026:event-05ff81ba</id>
-    <published>2026-10-25T00:00:00Z</published>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;iPhone Duo listed for resale in Singapore at nearly triple retail price on launch day&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;苹果新款iPhone在新加坡发售首日即被黄牛以接近零售价三倍的价格挂出转售&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;苹果新加坡首发渠道供需失衡，黄牛溢价反映亚太高端消费电子需求强劲，渠道商和转售平台短期获利空间大&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：VnExpress Tech&lt;/p&gt;</summary>
+    <title>Fore营收IDR1.6T，GoTo发布27B AI模型</title>
+    <link href="https://dailysocial.id/p/fores-idr16t-revenue-goto-launches"/>
+    <id>tag:weekly-report,2026:event-fa928ee8</id>
+    <published>2026-10-26T00:00:00Z</published>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Fore&amp;#x27;s IDR1.6T revenue ☕. GoTo launches 27B AI model 🤖. Indonesia holds SEA&amp;#x27;s biggest AI upside 🚀&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印尼公司Fore公布营收1.6万亿印尼盾，GoTo同期发布270亿参数AI模型，报告称印尼拥有东南亚最大AI增长潜力&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印尼GoTo发布270亿参数AI模型，东南亚本地大模型算力采购和云服务合作机会将增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：earnings | 地区：亚太 | 来源：DailySocial Indonesia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>AI人才获$1.5M年薪10个月升至小米最高职级</title>
-    <link href="https://e.vnexpress.net/news/tech/personalities/chinese-ai-genius-girl-reportedly-offered-1-5m-salary-rises-to-xiaomi-s-top-rank-in-10-months-5136088.html"/>
-    <id>tag:weekly-report,2026:event-b7697de8</id>
-    <published>2026-10-25T00:00:00Z</published>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Chinese &amp;#x27;AI genius girl&amp;#x27; reportedly offered $1.5M salary rises to Xiaomi&amp;#x27;s top rank in 10 months&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;据报道，一名中国AI天才少女被开出150万美元年薪，10个月内升至小米最高职级&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;小米在AI人才争夺中开出高薪并快速晋升，反映中国科技巨头对顶尖AI人才的激烈竞争&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：strategy | 地区：越南 | 来源：VnExpress Tech&lt;/p&gt;</summary>
+    <title>Igloo计划SaaS业务增长五倍并进军MENA</title>
+    <link href="https://fintechnews.sg/139640/insurtech/igloo-tech-solutions-mena-expansion/"/>
+    <id>tag:weekly-report,2026:event-62b0659f</id>
+    <published>2026-10-26T00:00:00Z</published>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Insurtech Igloo Eyes Fivefold SaaS Growth as It Targets MENA Expansion&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;东南亚保险科技公司Igloo计划将其SaaS业务规模扩大五倍，并瞄准中东和北非市场扩张&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚保险科技Igloo进军中东MENA，当地保险SaaS分销渠道和本地化合规合作机会将增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：中东 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>PongBot获数十亿日元融资</title>
-    <link href="https://36kr.jp/503509/"/>
-    <id>tag:weekly-report,2026:event-23255ceb</id>
-    <published>2026-10-25T00:00:00Z</published>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;一人のテニス練習に「AIコーチ」、中国PongBotが数十億円調達&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国AI网球训练机器人公司PongBot完成数十亿日元规模融资，用于单人网球练习AI教练产品&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI体育硬件公司获大额融资，AI教练切入单人训练场景，体育科技硬件与AI结合赛道升温，供应链和渠道合作机会显现&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
+    <title>Tech Mahindra收购Finastra三款现金管理产品</title>
+    <link href="https://fintechnews.sg/139647/digital-banking-news-singapore/tech-mahindra-acquires-finastra-cash-management/"/>
+    <id>tag:weekly-report,2026:event-1219db95</id>
+    <published>2026-10-26T00:00:00Z</published>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Tech Mahindra Acquires Three Cash Management Products From Finastra&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度IT服务公司Tech Mahindra从金融软件商Finastra收购三款现金管理产品&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度IT服务商Tech Mahindra收购Finastra现金管理产品，亚太银行核心系统替换和集成服务需求将上升&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>AWS云容量售罄至2027年</title>
-    <link href="https://www.techinasia.com/news/aws-sells-cloud-capacity-2027-ai-demand-grows"/>
-    <id>tag:weekly-report,2026:event-83204d98</id>
-    <published>2026-10-25T00:00:00Z</published>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AWS sells out cloud capacity through 2027 as AI demand grows&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AWS宣布其云容量已售罄至2027年，AI需求持续推动算力预订&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AWS云算力预订排至2027年，亚太企业上云与AI部署需提前锁定容量与替代供应商&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>Stripe与梅赛德斯F1达成多年支付合作</title>
+    <link href="https://fintechnews.sg/139653/payments/stripe-mercedes-f1-payments/"/>
+    <id>tag:weekly-report,2026:event-31f9fdf7</id>
+    <published>2026-10-26T00:00:00Z</published>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mercedes F1 Team Taps Stripe for Multiyear Global Payments Partnership&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;梅赛德斯F1车队与Stripe达成多年期全球支付合作伙伴关系&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Stripe借F1全球赛事拓展品牌支付场景，体育营销成为支付平台全球化获客新渠道&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>全球AI视野 Top5 · 2026-10-25</title>
+    <title>胜科与Nxera探索数据中心低碳供电</title>
+    <link href="https://www.techinasia.com/news/sembcorp-nxera-explore-low-carbon-power-for-data-centers"/>
+    <id>tag:weekly-report,2026:event-16d68ab3</id>
+    <published>2026-10-26T00:00:00Z</published>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Sembcorp, Nxera explore low-carbon power for data centers&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡胜科工业与Nxera探讨为数据中心提供低碳电力方案&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚数据中心能耗压力上升，低碳电力合作成为算力基建扩张的关键配套&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>全球AI视野 Top5 · 2026-10-26</title>
     <link href="https://aihot.virxact.com/hot"/>
-    <id>tag:weekly-report,2026:aihot-cddd4ee3</id>
-    <published>2026-10-25T00:00:00Z</published>
-    <updated>2026-10-25T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-25T23:36&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/6cbe9dba-8fec-42b1-92ab-5a9ccf944190"&gt;月之暗面发布 Kimi K3.1 Pro，权重定于 11 月 4 日前释出&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/c83d8538-d103-4a28-bd4a-629a69136b90"&gt;OpenAI 断网训练前沿模型，红队测出 Brotli 漏洞&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/b88dc665-3526-426a-b781-8ca78f4d67e7"&gt;Block 发布纯语音模型 Dessa，仅限安全研究者测试&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/78e3c1cb-ca1a-451d-ba52-36ab86e1f68f"&gt;Claude Code 核心成员 Thariq 离开 Anthropic&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/ce94fc5b-16d5-45c6-8292-4451aa525e73"&gt;Jassy 称 Amazon 算力缺口将延续至 2028 年后&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <id>tag:weekly-report,2026:aihot-69d111de</id>
+    <published>2026-10-26T00:00:00Z</published>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-10-26T09:57&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/6cbe9dba-8fec-42b1-92ab-5a9ccf944190"&gt;月之暗面发布 Kimi K3.1 Pro，权重定于 11 月 4 日前释出&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/c83d8538-d103-4a28-bd4a-629a69136b90"&gt;OpenAI 断网训练前沿模型，红队测出 Brotli 漏洞&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/b88dc665-3526-426a-b781-8ca78f4d67e7"&gt;Block 发布纯语音模型 Dessa，仅限安全研究者测试&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/f8dac6dc-f133-47be-90ad-b17297774877"&gt;Kimi就K3.1 Pro限流致歉并补偿订阅用户&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/78e3c1cb-ca1a-451d-ba52-36ab86e1f68f"&gt;Claude Code 核心成员 Thariq 离开 Anthropic&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
