@@ -1,27 +1,20 @@
 {
-  "observed_at": "2026-10-27T06:34:27.759036+08:00",
+  "observed_at": "2026-10-27T13:57:36.326218+08:00",
   "source_count": 3,
-  "raw_count": 59,
+  "raw_count": 58,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 7,
+      "count": 0,
       "inventory_count": 19,
-      "signal_count": 1,
-      "added_count": 4,
-      "removed_count": 3,
-      "clusters": {
-        "partnerships": 1,
-        "engineering": 1
-      },
-      "removed_clusters": {
-        "engineering": 2,
-        "sales": 1,
-        "ai": 1
-      }
+      "signal_count": 0,
+      "added_count": 0,
+      "removed_count": 0,
+      "clusters": {},
+      "removed_clusters": {}
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
@@ -41,90 +34,18 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 35,
+      "count": 1,
+      "inventory_count": 34,
       "signal_count": 0,
       "added_count": 0,
-      "removed_count": 0,
+      "removed_count": 1,
       "clusters": {},
-      "removed_clusters": {}
+      "removed_clusters": {
+        "engineering": 1,
+        "operations": 1
+      }
     }
   },
-  "candidate_signals": [
-    {
-      "candidate_id": "jobs-27181d0d34474788",
-      "entity_id": "grab",
-      "entity": "Grab",
-      "region": "亚太",
-      "sector": "mobility_payment",
-      "source_type": "jobs_snapshot",
-      "signal_type": "function_buildout",
-      "cluster": "partnerships",
-      "window": "2026-W44",
-      "window_start": "2026-10-27",
-      "window_end": "2026-10-27",
-      "detected_at": "2026-10-27T06:34:27.759036+08:00",
-      "baseline_count": 18,
-      "current_count": 19,
-      "added_count": 4,
-      "removed_count": 3,
-      "clusters": {
-        "partnerships": 1,
-        "engineering": 1
-      },
-      "removed_clusters": {
-        "engineering": 2,
-        "sales": 1,
-        "ai": 1
-      },
-      "evidence_refs": [
-        {
-          "job_id": "744000157763549",
-          "title": "Associate, Strategy & Special Project - GrabFood (Food Locker and Local Partnership)",
-          "url": "https://www.grab.careers/en/jobs/744000157763549/associate-strategy-special-project-grabfood-food-locker-and-local-partnership/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000157760999",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000157760999/senior-software-engineer-backend/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000157753330",
-          "title": "Senior Market Insights Analyst",
-          "url": "https://www.grab.careers/en/jobs/744000157753330/senior-market-insights-analyst/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000157732399",
-          "title": "Lending Commercial - Assistant Manager",
-          "url": "https://www.grab.careers/en/jobs/744000157732399/lending-commercial-assistant-manager/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000157036019",
-          "title": "Lead Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000157036019/lead-software-engineer-backend/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000156946578",
-          "title": "Senior Salesforce Business Analyst",
-          "url": "https://www.grab.careers/en/jobs/744000156946578/senior-salesforce-business-analyst/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000156939949",
-          "title": "Senior Machine Learning Engineer - Trust Platform",
-          "url": "https://www.grab.careers/en/jobs/744000156939949/senior-machine-learning-engineer-trust-platform/",
-          "change": "removed"
-        }
-      ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_cluster_strength",
-      "promoted_event_id": ""
-    }
-  ],
+  "candidate_signals": [],
   "promoted_count": 0
 }
