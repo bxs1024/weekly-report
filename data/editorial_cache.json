@@ -977,83 +977,83 @@
       "generated_at": "2026-10-18 13:34"
     },
     "monthly:2026-10": {
-      "input_hash": "2ad87cb0e57772b116c35a21b8970312831ec1da85bbc2e6dad1053dc2decb0d",
+      "input_hash": "ea79b191f289a282efc1e898e21ccee56cc4d68636f619aaf4103a1cd9b2b083",
       "editorial": {
-        "editorial_title": "亚太扩张提速，AI基建转向成本治理",
-        "mainline": "上月区域扩张与电商物流尚属温和试探，本月亚太合作事实量分别跳升56%与41%，Agoda-Adyen十年支付合作、现代格罗唯视接入Shopee 7亿用户、Shopee联手Magalu进巴西，显示出海BD从单点签约转向履约与支付双轨落地。同期AI基建虽仍居首，但Databricks发布AI成本管理模型、Cloudflare连推Agents SDK与createAI，表明竞争焦点从堆算力转向降本与开发工具整合。判断：亚太本地化合作正成为交易入口，AI基建进入成本效率比拼阶段。",
+        "editorial_title": "AI基建加码，区域合作与电商物流同步升温",
+        "mainline": "上月区域扩张与电商物流尚属温和试探，本月两者事实量分别较基线跳升54.7和17.0，OpenAI与Oracle将应用引入ChatGPT、现代格罗唯视联手Shopee覆盖7亿用户等动作，显示平台正以合作而非自建方式跨区域落地。同期AI基建延续261条高位，Naver联合Brookfield、Nvidia投90亿美元建韩国AI工厂，表明算力投入从云厂商扩散至主权与资管联合体。判断：出海BD的抓手正从单点产品输出转向“本地伙伴+算力底座”捆绑。",
         "themes": {
           "ai_infra": {
-            "narrative": "本月AI基建事实量仍居首，但增量集中在成本治理与工具链替换：Databricks发布AI成本管理经济模型，Cloudflare推出createAI替代旧开发工具并让Agents SDK支持Pi 1.4，竞争从算力供给转向单位成本与开发效率。",
+            "narrative": "AI基建本月从云厂商单点发布转向主权级联合投资：Naver拉入Brookfield与Nvidia在韩国建AI工厂，Databricks则同步推出BigQuery迁移框架与AI成本管理模型，供给端与成本治理两端同时加码。",
             "drivers": [
-              "Databricks发布AI成本管理新经济模型",
-              "Cloudflare推出createAI替代旧AI开发工具",
-              "Cloudflare Agents SDK支持Pi 1.4"
+              "Naver联合Brookfield、Nvidia投$9B建韩国AI工厂",
+              "Databricks发布BigQuery迁移战略框架",
+              "Databricks发布AI成本管理新经济模型"
             ],
-            "uncertainty": "成本管理模型与createAI的实际采用率尚未披露，工具替换可能停留在发布层面。",
-            "next_validation": "下月验证Databricks成本模型是否有客户案例、Cloudflare createAI迁移数据是否公开。"
+            "uncertainty": "90亿美元工厂尚处宣布阶段，落地进度与出资结构未披露。",
+            "next_validation": "验证Naver AI工厂是否公布选址、开工时间及Brookfield实际出资比例。"
           },
           "expansion": {
-            "narrative": "亚太扩张事实量较基线增近五成，动作从意向转向可执行合作：Agoda与Adyen庆祝十年支付合作，圣马丁寻求与VNG合作实际成果，乐天移动和IIJmio推出Nothing Phone (4b)优惠，显示支付与渠道捆绑成为区域进入方式。",
+            "narrative": "区域扩张本月由“合作签约”转向“产品内嵌”：OpenAI与Oracle合作把应用直接引入ChatGPT，Databricks以Lakehouse Federation实现免迁移跨源查询，降低出海企业接入多地数据的门槛。",
             "drivers": [
-              "Agoda与Adyen庆祝十年支付合作",
-              "圣马丁寻求与VNG合作实际成果",
-              "乐天移动和IIJmio推出Nothing Phone (4b)优惠"
+              "OpenAI与Oracle合作将应用引入ChatGPT",
+              "Databricks推出Lakehouse Federation免迁移数据查询",
+              "Agoda与Adyen庆祝十年支付合作"
             ],
-            "uncertainty": "圣马丁与VNG合作仍处寻求成果阶段，实际转化规模未明。",
-            "next_validation": "下月验证Agoda-Adyen合作是否延伸至新市场、VNG合作是否公布具体成果指标。"
+            "uncertainty": "免迁移查询的跨区域延迟与合规边界尚未有实测数据。",
+            "next_validation": "验证Lakehouse Federation在亚太跨源场景的客户案例与延迟指标。"
           },
           "payments": {
-            "narrative": "支付事实量温和上升，但区域覆盖出现新节点：蚂蚁国际与SMBC深化亚洲支付合作，Ziina获阿联酋央行零售支付和汇兑牌照，Naver Pay与Woori推出4%利率储蓄账户，支付机构正从通道向账户与牌照两端延伸。",
+            "narrative": "亚太支付本月从财报日程转向实质合作：蚂蚁国际与SMBC深化亚洲支付合作，Naver Pay联手Woori推出4%利率储蓄账户，支付机构正以“支付+存款”组合争夺用户资金留存。",
             "drivers": [
               "蚂蚁国际与SMBC深化亚洲支付合作",
-              "Ziina获阿联酋央行零售支付和汇兑牌照",
-              "Naver Pay与Woori推出4%利率储蓄账户"
+              "Naver Pay与Woori推出4%利率储蓄账户",
+              "Grab定于11月2日盘后发布财报"
             ],
-            "uncertainty": "Ziina牌照为初步阶段，实际展业范围与时间表未披露。",
-            "next_validation": "下月验证Ziina是否正式上线零售支付、蚂蚁国际与SMBC合作是否覆盖新国家。"
+            "uncertainty": "4%利率账户的获客成本与可持续性未披露，可能为短期补贴。",
+            "next_validation": "验证Naver Pay储蓄账户上线后的用户规模与Woori的资金成本分摊。"
           },
           "developer": {
-            "narrative": "开发者与平台生态事实量较基线减少12条，但商业化动作突出：ChatGPT广告扩展至26国、超10万广告主，Square Enix发布首款HD-2D最终幻想游戏，平台变现与内容供给并行，开发者工具侧声量相对收缩。",
+            "narrative": "开发者生态本月出现变现路径切换：ChatGPT广告扩展至26国、广告主超10万，平台流量正被直接转化为广告库存；同期Square Enix发布首款HD-2D最终幻想游戏，内容侧仍在试探新形态。",
             "drivers": [
               "ChatGPT广告扩展至26国，超10万广告主",
               "Square Enix发布首款HD-2D最终幻想游戏",
               "Kakao Games新游发布四天收入榜第二"
             ],
-            "uncertainty": "广告扩至26国后的单市场收入与留存数据未披露，开发者工具收缩可能是统计波动。",
-            "next_validation": "下月验证ChatGPT广告是否公布分区域收入、开发者工具类事实量是否回升。"
+            "uncertainty": "广告扩至26国后的单市场填充率与eCPM未公布。",
+            "next_validation": "验证ChatGPT广告在新增26国的实际投放行业分布与收入贡献。"
           },
           "commerce": {
-            "narrative": "电商与物流事实量较基线增逾四成，合作从流量层深入履约层：现代格罗唯视与Shopee合作服务7亿电商用户，Shopee与Magalu在巴西达成电商合作，Allegro启动对乌克兰电商出口试点，区域电商正以物流与跨境出口补齐本地供给。",
+            "narrative": "电商物流本月从单市场运营转向跨区域结盟：现代格罗唯视与Shopee合作服务7亿电商用户，Shopee与Magalu在巴西达成合作，物流与本地平台正被捆绑进同一张跨境网络。",
             "drivers": [
               "现代格罗唯视与Shopee合作服务7亿电商用户",
               "Shopee与Magalu在巴西达成电商合作",
               "Allegro启动对乌克兰电商出口试点"
             ],
-            "uncertainty": "现代格罗唯视与Shopee合作的具体履约覆盖范围与单量未披露。",
-            "next_validation": "下月验证Shopee-Magalu巴西合作是否上线、现代格罗唯视是否公布合作仓配数据。"
+            "uncertainty": "现代格罗唯视与Shopee的合作覆盖哪些具体航线与仓配节点未披露。",
+            "next_validation": "验证现代格罗唯视-Shoppee合作的首批落地国家与履约时效数据。"
           },
           "compliance": {
-            "narrative": "合规与安全事实量小幅上升，监管与平台自保同步：新加坡通过数字基础设施韧性法案，Kakao推出“Protect my name”防身份盗用服务，Payward获哈萨克斯坦初步批准扩张Kraken，合规正从牌照申请扩展到基础设施韧性与用户身份保护。",
+            "narrative": "亚太合规本月从企业自律转向立法收紧：新加坡通过数字基础设施韧性法案，泰国将500万泰铢以上现金交易纳入更严审查，跨境资金与数据流动的合规门槛同步抬升。",
             "drivers": [
               "新加坡通过数字基础设施韧性法案",
-              "Kakao推出“Protect my name”防身份盗用服务",
-              "Payward获哈萨克斯坦初步批准扩张Kraken"
+              "泰国收紧500万泰铢以上现金交易审查",
+              "Kakao推出“Protect my name”防身份盗用服务"
             ],
-            "uncertainty": "新加坡法案的具体合规义务与生效时间未明，Kraken扩张仍属初步批准。",
-            "next_validation": "下月验证新加坡法案是否公布实施细则、Kraken是否获哈萨克斯坦正式牌照。"
+            "uncertainty": "新加坡法案的具体执行细则与生效时间尚未明确。",
+            "next_validation": "验证新加坡数字基础设施韧性法案的生效日期及对云服务商的合规要求。"
           }
         },
         "theme_titles": {
-          "ai_infra": "Databricks与Cloudflare转向AI成本与开发工具整合",
-          "expansion": "Agoda-Adyen十年合作与Shopee系区域扩张落地",
-          "payments": "蚂蚁国际联SMBC、Ziina获阿联酋牌照拓宽亚洲支付通道",
-          "developer": "ChatGPT广告扩至26国，开发者生态事实量下滑",
-          "commerce": "现代格罗唯视接Shopee 7亿用户，Shopee-Magalu进巴西",
-          "compliance": "新加坡通过数字基础设施韧性法案，Kakao推防身份盗用"
+          "ai_infra": "Naver联合Brookfield、Nvidia投90亿美元建韩国AI工厂",
+          "expansion": "OpenAI应用进驻ChatGPT，Databricks推免迁移数据查询",
+          "payments": "蚂蚁国际与SMBC深化亚洲支付合作，Naver Pay推4%利率账户",
+          "developer": "ChatGPT广告扩至26国，超10万广告主入驻",
+          "commerce": "现代格罗唯视联手Shopee覆盖7亿用户，Shopee结盟Magalu进巴西",
+          "compliance": "新加坡通过数字基础设施韧性法案，泰国收紧大额现金审查"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-10-27 14:10"
+      "generated_at": "2026-10-28 06:15"
     },
     "weekly:2026-W43": {
       "input_hash": "15176a7246262d8c8071202064c8faca0001830f521e9934635c3f36b9ab495f",
@@ -1081,29 +1081,29 @@
       "generated_at": "2026-10-24 13:32"
     },
     "weekly:2026-W44": {
-      "input_hash": "d99dddc1a5d32f2a3ec94804318c619bc298ce522946e892018a3ee2778e5cad",
+      "input_hash": "49490573bfa531d445e76051502a34270b511237ab040ec444c550f05e3ff387",
       "editorial": {
-        "editorial_title": "AI基建资本狂飙，亚洲支付物流加速互联",
-        "mainline": "Meta拟融资950亿美元、Verizon与AWS达成20亿美元合作，AI算力军备竞赛推高光纤与云基建需求；同时蚂蚁国际借SMBC深化亚洲收单、现代格罗唯视接入Shopee物流，亚洲跨境支付与电商基建加速互联，出海BD应关注本地化合作窗口。",
+        "editorial_title": "AI基建与支付网络同步扩张",
+        "mainline": "Naver联合Brookfield、Nvidia投90亿美元建韩国AI工厂，同时蚂蚁国际与SMBC深化亚洲支付合作、现代格罗唯视接入Shopee物流。算力与支付两条基建线同步扩张，指向出海BD应优先卡位区域枢纽型合作节点。",
         "themes": {
-          "ai_infra": "印尼GoTo推出270亿参数大模型，Fore营收达1.6万亿印尼盾，显示本地AI需求正从实验转向商用；Tata Communications计划4.5亿美元投AI光纤，Verizon与AWS达成20亿美元合作，Meta拟融资950亿美元扩张，全球算力与网络投资同步加码，东南亚云服务合作窗口打开。",
-          "expansion": "圣马丁寻求与越南VNG合作落地数字化项目，新兴市场ICT合作从意向转向执行；Agoda与Adyen十年支付合作后拟拓展发卡出款，万事达卡联手MrBeast切入创作者经济，Stripe与梅赛德斯F1达成多年支付合作，支付网络正沿内容与体育场景加速渗透。",
-          "payments": "蚂蚁国际与SMBC深化合作，借日本银行渠道拓展东南亚和东亚商户收单网络；Tech Mahindra收购Finastra三款现金管理产品，补强企业支付能力；Euronet与Fireblocks合作推出稳定币卡，稳定币正从结算层向消费端渗透，跨境支付竞争转向渠道与合规基建。",
-          "commerce": "韩国物流巨头现代格罗唯视与Shopee合作服务7亿电商用户，东南亚电商物流基建加速扩网；Chargebacks911推出防AI代理拒付工具，应对自动化交易纠纷；Naver Happybean为济州小商户扩渠道，MercadoLibre面临领导地位考验，电商竞争转向物流效率与售后风控。",
-          "developer": "CapitalOS获2190万美元融资，B2B平台资金编排层成为嵌入式金融新热点；Matiks获1000万美元扩展游戏平台，QuoIntelligence获Lindner投资并完成730万欧元A轮，安全情报与游戏生态持续吸金；私募股权曾考虑1500亿美元收购Xbox，大型资产交易信号值得警惕。",
-          "operations": "Krafton三季度营收增长29%，新游驱动增长，而Kakao Games业绩暴跌，韩国游戏行业格局加速分化；Paytm Q2利润同比增超10倍至2.25亿卢比，营收增长28%，印度金融科技盈利拐点显现；MercadoLibre与Uber营收趋势对比，拉美平台经济进入效率比拼阶段。"
+          "ai_infra": "Naver拉入Brookfield与Nvidia共建韩国AI工厂，Databricks同步推出BigQuery迁移框架降低数据锁定，Cloudflare更新Access自定义页面。算力投资与迁移工具并行，云基础设施竞争从资源转向生态黏性。",
+          "expansion": "OpenAI与Oracle合作把企业应用引入ChatGPT，Databricks推出Lakehouse Federation免迁移查询，Agoda与Adyen十年支付合作延续。企业软件入口正被AI代理重构，合作机会向集成层集中。",
+          "payments": "蚂蚁国际与SMBC扩大亚洲支付合作，Tech Mahindra收购Finastra现金管理产品，Sea与Grab财报临近。中资支付出海与本地金融机构绑定加深，区域收单与清算格局面临重排。",
+          "commerce": "现代格罗唯视与Shopee合作覆盖7亿电商用户，Chargebacks911推出防AI代理拒付工具，Naver为济州小商户扩渠道。跨境物流与防欺诈工具同步补位，东南亚电商基建进入细化运营阶段。",
+          "operations": "Krafton营收增29%而Kakao Games业绩暴跌，Paytm与IndiaMART利润录得增长。韩国游戏竞争格局加速分化，印度数字服务盈利改善，区域经营质量差异正在拉大。",
+          "developer": "Bell Canada以18亿美元出售铁塔资产股权，Lette、CapitalOS、Matiks分别完成种子轮至A轮融资。电信资产变现与早期开发者工具融资并行，基础设施资本循环正在加速。"
         },
         "theme_titles": {
-          "ai_infra": "GoTo发布27B模型，东南亚AI算力采购升温",
-          "expansion": "VNG拓加勒比数字化，支付巨头绑定创作者与体育",
-          "payments": "蚂蚁国际借SMBC扩亚洲收单，稳定币卡落地",
-          "commerce": "现代格罗唯视接入Shopee，东南亚电商物流扩网",
-          "developer": "CapitalOS获2190万美元，嵌入式金融基建受捧",
-          "operations": "Krafton营收增29%，Kakao Games业绩暴跌"
+          "ai_infra": "韩国AI工厂获90亿美元联合投资",
+          "expansion": "OpenAI将Oracle应用嵌入ChatGPT",
+          "payments": "蚂蚁国际与SMBC深化亚洲支付合作",
+          "commerce": "现代格罗唯视接入Shopee物流网络",
+          "operations": "Krafton与Kakao Games业绩两极分化",
+          "developer": "Bell Canada出售18亿美元铁塔股权"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-10-27 14:10"
+      "generated_at": "2026-10-28 06:15"
     }
   }
 }
