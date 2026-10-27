@@ -1,25 +1,87 @@
 {
   "version": 1,
-  "generated_at": "2026-10-27T13:57:36.326218+08:00",
+  "generated_at": "2026-10-28T06:05:03.093492+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-27T13:57:36.326218+08:00",
+      "observed_at": "2026-10-28T06:05:03.093492+08:00",
       "jobs": [
+        {
+          "id": "744000157997299",
+          "title": "Senior DevOps Engineer, Streaming Platform",
+          "url": "https://www.grab.careers/en/jobs/744000157997299/senior-devops-engineer-streaming-platform/",
+          "function_tags": [
+            "engineering",
+            "operations"
+          ]
+        },
+        {
+          "id": "744000157987619",
+          "title": "Senior DevOps Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000157987619/senior-devops-engineer/",
+          "function_tags": [
+            "engineering",
+            "operations"
+          ]
+        },
+        {
+          "id": "744000157979089",
+          "title": "Collections Team Lead",
+          "url": "https://www.grab.careers/en/jobs/744000157979089/collections-team-lead/",
+          "function_tags": []
+        },
+        {
+          "id": "744000157967759",
+          "title": "Lead Data Infrastructure Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000157967759/lead-data-infrastructure-engineer/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000157963819",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000157963819/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000157961720",
+          "title": "Intern, Social Media & Partner Engagement",
+          "url": "https://www.grab.careers/en/jobs/744000157961720/intern-social-media-partner-engagement/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
+          "id": "744000157961769",
+          "title": "Intern, Occupational Health, Safety, & Wellbeing",
+          "url": "https://www.grab.careers/en/jobs/744000157961769/intern-occupational-health-safety-wellbeing/",
+          "function_tags": []
+        },
+        {
+          "id": "744000157961609",
+          "title": "Intern, Marketing and Partnership (GrabRentals)",
+          "url": "https://www.grab.careers/en/jobs/744000157961609/intern-marketing-and-partnership-grabrentals/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
+          "id": "744000157961319",
+          "title": "Intern, Partner Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000157961319/intern-partner-acquisition/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
         {
           "id": "744000157763549",
           "title": "Associate, Strategy & Special Project - GrabFood (Food Locker and Local Partnership)",
           "url": "https://www.grab.careers/en/jobs/744000157763549/associate-strategy-special-project-grabfood-food-locker-and-local-partnership/",
           "function_tags": [
             "partnerships"
-          ]
-        },
-        {
-          "id": "744000157760999",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000157760999/senior-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
           ]
         },
         {
@@ -53,99 +115,27 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000157403749",
-          "title": "Lead Data Scientist (Analytics) - Digital Marketing",
-          "url": "https://www.grab.careers/en/jobs/744000157403749/lead-data-scientist-analytics-digital-marketing/",
-          "function_tags": []
-        },
-        {
-          "id": "744000157399989",
-          "title": "Senior Analytics Manager (Geo and IoT)",
-          "url": "https://www.grab.careers/en/jobs/744000157399989/senior-analytics-manager-geo-and-iot/",
-          "function_tags": []
-        },
-        {
-          "id": "744000157392390",
-          "title": "Data Scientist (Product Analytics) - Financial Services",
-          "url": "https://www.grab.careers/en/jobs/744000157392390/data-scientist-product-analytics-financial-services/",
-          "function_tags": [
-            "payments"
-          ]
-        },
-        {
-          "id": "744000157388040",
-          "title": "Software Engineer, Cloud Platform",
-          "url": "https://www.grab.careers/en/jobs/744000157388040/software-engineer-cloud-platform/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000157382000",
-          "title": "Country GrabKios Commercial Manager",
-          "url": "https://www.grab.careers/en/jobs/744000157382000/country-grabkios-commercial-manager/",
-          "function_tags": []
-        },
-        {
-          "id": "744000157290877",
-          "title": "Senior Manager, Grab for Business",
-          "url": "https://www.grab.careers/en/jobs/744000157290877/senior-manager-grab-for-business/",
-          "function_tags": []
-        },
-        {
-          "id": "744000157095889",
-          "title": "Lead Software Engineer, Backend - Business Platform",
-          "url": "https://www.grab.careers/en/jobs/744000157095889/lead-software-engineer-backend-business-platform/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000157078081",
-          "title": "Associate, Merchant Acquisition & Sales Operations - GrabMart",
-          "url": "https://www.grab.careers/en/jobs/744000157078081/associate-merchant-acquisition-sales-operations-grabmart/",
-          "function_tags": [
-            "sales",
-            "operations"
-          ]
-        },
-        {
-          "id": "744000157071258",
-          "title": "Manager, Merchant Acquisition - GrabMart",
-          "url": "https://www.grab.careers/en/jobs/744000157071258/manager-merchant-acquisition-grabmart/",
-          "function_tags": []
-        },
-        {
-          "id": "744000157053260",
-          "title": "Manager, Digital Experience and Service Success",
-          "url": "https://www.grab.careers/en/jobs/744000157053260/manager-digital-experience-and-service-success/",
-          "function_tags": []
-        },
-        {
-          "id": "744000157053078",
-          "title": "Assistant Programme Manager, Training",
-          "url": "https://www.grab.careers/en/jobs/744000157053078/assistant-programme-manager-training/",
-          "function_tags": []
-        },
-        {
-          "id": "744000157043359",
-          "title": "Enterprise KAM GrabMart, Associate",
-          "url": "https://www.grab.careers/en/jobs/744000157043359/enterprise-kam-grabmart-associate/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-27T13:57:36.326218+08:00",
+      "observed_at": "2026-10-28T06:05:03.093492+08:00",
       "jobs": [
         {
           "id": "7844214",
           "title": "AEO and GEO Marketing Manager",
           "url": "https://stripe.com/careers/listing/aeo-and-geo-marketing-manager/7844214",
           "function_tags": []
+        },
+        {
+          "id": "8144196",
+          "title": "AI Engineer",
+          "url": "https://stripe.com/careers/listing/ai-engineer/8144196",
+          "function_tags": [
+            "ai",
+            "engineering"
+          ]
         },
         {
           "id": "8221776",
@@ -166,20 +156,12 @@
           "title": "Abuse Investigator",
           "url": "https://stripe.com/careers/listing/abuse-investigator/8172510",
           "function_tags": []
-        },
-        {
-          "id": "8172503",
-          "title": "Abuse Research Engineer",
-          "url": "https://stripe.com/careers/listing/abuse-research-engineer/8172503",
-          "function_tags": [
-            "engineering"
-          ]
         }
       ]
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-27T13:57:36.326218+08:00",
+      "observed_at": "2026-10-28T06:05:03.093492+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
@@ -212,12 +194,6 @@
           "function_tags": []
         },
         {
-          "id": "e1c60e78-e451-4242-8473-5b8217394c36",
-          "title": "Lead, Electronic Money Accounting Remote - United Kingdom",
-          "url": "https://www.shopify.com/careers/lead-electronic-money-accounting_e1c60e78-e451-4242-8473-5b8217394c36",
-          "function_tags": []
-        },
-        {
           "id": "787da03c-eedf-4bcf-a8d0-0fc96054dd27",
           "title": "Recovery Analyst, Merchant Lending Credit Remote - Americas",
           "url": "https://www.shopify.com/careers/recovery-analyst-merchant-lending-credit_787da03c-eedf-4bcf-a8d0-0fc96054dd27",
@@ -244,12 +220,6 @@
           "function_tags": [
             "payments"
           ]
-        },
-        {
-          "id": "4d1f41c3-63de-43d3-a9b3-0cc6c06f1687",
-          "title": "Tax Lead, Controversy Remote - Americas",
-          "url": "https://www.shopify.com/careers/tax-lead-controversy_4d1f41c3-63de-43d3-a9b3-0cc6c06f1687",
-          "function_tags": []
         },
         {
           "id": "ef12f6c3-34f8-4e9e-9d92-c549f16a3848",
@@ -334,17 +304,17 @@
           ]
         },
         {
-          "id": "bff44652-fe22-44bc-84b0-691d8f996322",
-          "title": "Director, Partnerships, Greater China Remote - Hong Kong",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_bff44652-fe22-44bc-84b0-691d8f996322",
+          "id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "title": "Director, Partnerships, Greater China Remote - Singapore",
+          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
           "function_tags": [
             "partnerships"
           ]
         },
         {
-          "id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
-          "title": "Director, Partnerships, Greater China Remote - Singapore",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
+          "id": "bff44652-fe22-44bc-84b0-691d8f996322",
+          "title": "Director, Partnerships, Greater China Remote - Hong Kong",
+          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_bff44652-fe22-44bc-84b0-691d8f996322",
           "function_tags": [
             "partnerships"
           ]
@@ -391,6 +361,14 @@
           "id": "a643c09c-31b7-4e22-8c44-d9c8a6af9ecb",
           "title": "Lead, Support Operations Remote - Canada , Americas",
           "url": "https://www.shopify.com/careers/lead-support-operations_a643c09c-31b7-4e22-8c44-d9c8a6af9ecb",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "6f89cfb5-aa5c-4fb6-8231-5dcaa2309e16",
+          "title": "Merchant Support Advisor, Canada Remote - Canada",
+          "url": "https://www.shopify.com/careers/merchant-support-advisor-canada_6f89cfb5-aa5c-4fb6-8231-5dcaa2309e16",
           "function_tags": [
             "operations"
           ]

@@ -1,7 +1,173 @@
 {
   "version": 1,
-  "generated_at": "2026-10-27T13:57:36.326218+08:00",
+  "generated_at": "2026-10-28T06:05:03.093492+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-b842b8e68536dbec",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W44",
+      "window_start": "2026-10-28",
+      "window_end": "2026-10-28",
+      "detected_at": "2026-10-28T06:05:03.093492+08:00",
+      "baseline_count": 19,
+      "current_count": 15,
+      "added_count": 9,
+      "removed_count": 13,
+      "clusters": {
+        "engineering": 4,
+        "operations": 2,
+        "partnerships": 3
+      },
+      "removed_clusters": {
+        "engineering": 3,
+        "payments": 1,
+        "sales": 1,
+        "operations": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000157997299",
+          "title": "Senior DevOps Engineer, Streaming Platform",
+          "url": "https://www.grab.careers/en/jobs/744000157997299/senior-devops-engineer-streaming-platform/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000157987619",
+          "title": "Senior DevOps Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000157987619/senior-devops-engineer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000157979089",
+          "title": "Collections Team Lead",
+          "url": "https://www.grab.careers/en/jobs/744000157979089/collections-team-lead/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000157967759",
+          "title": "Lead Data Infrastructure Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000157967759/lead-data-infrastructure-engineer/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000157963819",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000157963819/senior-software-engineer-backend/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000157961720",
+          "title": "Intern, Social Media & Partner Engagement",
+          "url": "https://www.grab.careers/en/jobs/744000157961720/intern-social-media-partner-engagement/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000157961769",
+          "title": "Intern, Occupational Health, Safety, & Wellbeing",
+          "url": "https://www.grab.careers/en/jobs/744000157961769/intern-occupational-health-safety-wellbeing/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000157961609",
+          "title": "Intern, Marketing and Partnership (GrabRentals)",
+          "url": "https://www.grab.careers/en/jobs/744000157961609/intern-marketing-and-partnership-grabrentals/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000157961319",
+          "title": "Intern, Partner Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000157961319/intern-partner-acquisition/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000157760999",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000157760999/senior-software-engineer-backend/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000157403749",
+          "title": "Lead Data Scientist (Analytics) - Digital Marketing",
+          "url": "https://www.grab.careers/en/jobs/744000157403749/lead-data-scientist-analytics-digital-marketing/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000157399989",
+          "title": "Senior Analytics Manager (Geo and IoT)",
+          "url": "https://www.grab.careers/en/jobs/744000157399989/senior-analytics-manager-geo-and-iot/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000157392390",
+          "title": "Data Scientist (Product Analytics) - Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000157392390/data-scientist-product-analytics-financial-services/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000157388040",
+          "title": "Software Engineer, Cloud Platform",
+          "url": "https://www.grab.careers/en/jobs/744000157388040/software-engineer-cloud-platform/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000157382000",
+          "title": "Country GrabKios Commercial Manager",
+          "url": "https://www.grab.careers/en/jobs/744000157382000/country-grabkios-commercial-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000157290877",
+          "title": "Senior Manager, Grab for Business",
+          "url": "https://www.grab.careers/en/jobs/744000157290877/senior-manager-grab-for-business/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000157095889",
+          "title": "Lead Software Engineer, Backend - Business Platform",
+          "url": "https://www.grab.careers/en/jobs/744000157095889/lead-software-engineer-backend-business-platform/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000157078081",
+          "title": "Associate, Merchant Acquisition & Sales Operations - GrabMart",
+          "url": "https://www.grab.careers/en/jobs/744000157078081/associate-merchant-acquisition-sales-operations-grabmart/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000157071258",
+          "title": "Manager, Merchant Acquisition - GrabMart",
+          "url": "https://www.grab.careers/en/jobs/744000157071258/manager-merchant-acquisition-grabmart/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000157053260",
+          "title": "Manager, Digital Experience and Service Success",
+          "url": "https://www.grab.careers/en/jobs/744000157053260/manager-digital-experience-and-service-success/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000157053078",
+          "title": "Assistant Programme Manager, Training",
+          "url": "https://www.grab.careers/en/jobs/744000157053078/assistant-programme-manager-training/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000157043359",
+          "title": "Enterprise KAM GrabMart, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000157043359/enterprise-kam-grabmart-associate/",
+          "change": "removed"
+        }
+      ],
+      "status": "rejected",
+      "rejection_reason": "source_reset_suspected",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-27181d0d34474788",
       "entity_id": "grab",
