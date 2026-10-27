@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T02:17:52+08:00",
+  "generated_at": "2026-10-27T10:35:40+08:00",
   "fetched_date": "2026-10-27",
   "source": {
     "name": "AIHOT 大模型排行榜",
@@ -66,23 +66,11 @@
       "cache_price": "¥1.33",
       "input_price": "¥13.34",
       "output_price": "¥66.68",
-      "consensus_score": 70.9,
+      "consensus_score": 70.8,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-sonnet-5-5"
     },
     {
       "rank": 6,
-      "name": "Kimi K3.1 Pro",
-      "provider": "Moonshot AI",
-      "release_date": "2026-10-23",
-      "completeness": "14 项评测 覆盖 39 %",
-      "cache_price": "待核验",
-      "input_price": "待核验",
-      "output_price": "待核验",
-      "consensus_score": 70.0,
-      "detail_url": "https://aihot.virxact.com/leaderboard/kimi-k-3-1-pro"
-    },
-    {
-      "rank": 7,
       "name": "Muse Wonder Full",
       "provider": "Meta",
       "release_date": "2026-10-12",
@@ -92,6 +80,18 @@
       "output_price": "待核验",
       "consensus_score": 69.7,
       "detail_url": "https://aihot.virxact.com/leaderboard/muse-wonder-full"
+    },
+    {
+      "rank": 7,
+      "name": "Kimi K3.1 Pro",
+      "provider": "Moonshot AI",
+      "release_date": "2026-10-23",
+      "completeness": "16 项评测 覆盖 43 %",
+      "cache_price": "待核验",
+      "input_price": "待核验",
+      "output_price": "待核验",
+      "consensus_score": 69.7,
+      "detail_url": "https://aihot.virxact.com/leaderboard/kimi-k-3-1-pro"
     },
     {
       "rank": 8,
@@ -114,7 +114,7 @@
       "cache_price": "¥0.67",
       "input_price": "¥13.34",
       "output_price": "¥66.68",
-      "consensus_score": 68.8,
+      "consensus_score": 68.7,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-1-sol"
     },
     {
@@ -126,7 +126,7 @@
       "cache_price": "¥3.33",
       "input_price": "¥33.34",
       "output_price": "¥166.7",
-      "consensus_score": 68.1,
+      "consensus_score": 68.0,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-5"
     },
     {
@@ -198,7 +198,7 @@
       "cache_price": "¥0.02",
       "input_price": "¥1",
       "output_price": "¥4",
-      "consensus_score": 63.8,
+      "consensus_score": 64.2,
       "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-1-flash-1017"
     },
     {
@@ -342,7 +342,7 @@
       "cache_price": "待核验",
       "input_price": "待核验",
       "output_price": "待核验",
-      "consensus_score": 60.7,
+      "consensus_score": 60.8,
       "detail_url": "https://aihot.virxact.com/leaderboard/step-5-preview"
     },
     {
@@ -359,15 +359,15 @@
     },
     {
       "rank": 30,
-      "name": "Claude Haiku 5.5",
-      "provider": "Anthropic",
-      "release_date": "2026-10-07",
-      "completeness": "35 项评测 覆盖 100 %",
-      "cache_price": "待核验",
-      "input_price": "待核验",
-      "output_price": "待核验",
+      "name": "Muse Spark 1.2",
+      "provider": "Meta",
+      "release_date": "2026-08-05",
+      "completeness": "27 项评测 覆盖 86 %",
+      "cache_price": "¥1",
+      "input_price": "¥8.34",
+      "output_price": "¥28.34",
       "consensus_score": 60.4,
-      "detail_url": "https://aihot.virxact.com/leaderboard/claude-haiku-5-5"
+      "detail_url": "https://aihot.virxact.com/leaderboard/muse-spark-1-2"
     }
   ],
   "official_sources": [
