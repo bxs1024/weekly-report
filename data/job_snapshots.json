@@ -1,11 +1,23 @@
 {
   "version": 1,
-  "generated_at": "2026-10-28T06:05:03.093492+08:00",
+  "generated_at": "2026-10-28T14:36:11.964703+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-28T06:05:03.093492+08:00",
+      "observed_at": "2026-10-28T14:36:11.964703+08:00",
       "jobs": [
+        {
+          "id": "744000158207317",
+          "title": "Assistant - Team Coordinator",
+          "url": "https://www.grab.careers/en/jobs/744000158207317/assistant-team-coordinator/",
+          "function_tags": []
+        },
+        {
+          "id": "744000158197270",
+          "title": "Intern, Global Mobility (Immigration)",
+          "url": "https://www.grab.careers/en/jobs/744000158197270/intern-global-mobility-immigration/",
+          "function_tags": []
+        },
         {
           "id": "744000157997299",
           "title": "Senior DevOps Engineer, Streaming Platform",
@@ -101,26 +113,12 @@
           "title": "Dry Category Lead",
           "url": "https://www.grab.careers/en/jobs/744000157719819/dry-category-lead/",
           "function_tags": []
-        },
-        {
-          "id": "744000157710448",
-          "title": "Assistant Manager, FMCG Account Management",
-          "url": "https://www.grab.careers/en/jobs/744000157710448/assistant-manager-fmcg-account-management/",
-          "function_tags": []
-        },
-        {
-          "id": "744000157446751",
-          "title": "Lead Program Manager (Developer Education)",
-          "url": "https://www.grab.careers/en/jobs/744000157446751/lead-program-manager-developer-education/",
-          "function_tags": [
-            "engineering"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-28T06:05:03.093492+08:00",
+      "observed_at": "2026-10-28T14:36:11.964703+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -161,7 +159,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-28T06:05:03.093492+08:00",
+      "observed_at": "2026-10-28T14:36:11.964703+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
