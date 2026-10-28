@@ -1,11 +1,20 @@
 {
   "version": 1,
-  "generated_at": "2026-10-28T14:36:11.964703+08:00",
+  "generated_at": "2026-10-29T06:28:05.656488+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-28T14:36:11.964703+08:00",
+      "observed_at": "2026-10-29T06:28:05.656488+08:00",
       "jobs": [
+        {
+          "id": "744000158286669",
+          "title": "Platform Developer, Commercial Systems - Salesforce",
+          "url": "https://www.grab.careers/en/jobs/744000158286669/platform-developer-commercial-systems-salesforce/",
+          "function_tags": [
+            "engineering",
+            "sales"
+          ]
+        },
         {
           "id": "744000158207317",
           "title": "Assistant - Team Coordinator",
@@ -107,18 +116,12 @@
           "title": "Lending Commercial - Assistant Manager",
           "url": "https://www.grab.careers/en/jobs/744000157732399/lending-commercial-assistant-manager/",
           "function_tags": []
-        },
-        {
-          "id": "744000157719819",
-          "title": "Dry Category Lead",
-          "url": "https://www.grab.careers/en/jobs/744000157719819/dry-category-lead/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-28T14:36:11.964703+08:00",
+      "observed_at": "2026-10-29T06:28:05.656488+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -159,7 +162,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-28T14:36:11.964703+08:00",
+      "observed_at": "2026-10-29T06:28:05.656488+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
