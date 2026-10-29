@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T11:04:40+08:00",
-  "fetched_date": "2026-10-29",
+  "generated_at": "2026-10-30T02:03:49+08:00",
+  "fetched_date": "2026-10-30",
   "source": {
     "name": "AIHOT 大模型排行榜",
     "leaderboard_url": "https://aihot.virxact.com/leaderboard",
@@ -14,11 +14,11 @@
       "name": "Gemini 4 Carbon",
       "provider": "Google",
       "release_date": "2026-10-28",
-      "completeness": "15 项评测 覆盖 40 %",
+      "completeness": "16 项评测 覆盖 43 %",
       "cache_price": "待核验",
       "input_price": "待核验",
       "output_price": "待核验",
-      "consensus_score": 73.6,
+      "consensus_score": 74.3,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-4-carbon"
     },
     {
@@ -42,7 +42,7 @@
       "cache_price": "¥1.33",
       "input_price": "¥26.67",
       "output_price": "¥133.33",
-      "consensus_score": 71.2,
+      "consensus_score": 71.3,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-4-argon"
     },
     {
@@ -102,7 +102,7 @@
       "cache_price": "¥0.67",
       "input_price": "¥13.33",
       "output_price": "¥66.66",
-      "consensus_score": 68.6,
+      "consensus_score": 68.7,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-1-sol"
     },
     {
@@ -138,7 +138,7 @@
       "cache_price": "¥1.3",
       "input_price": "¥13",
       "output_price": "¥68",
-      "consensus_score": 68.1,
+      "consensus_score": 68.2,
       "detail_url": "https://aihot.virxact.com/leaderboard/kimi-k-3-1-pro"
     },
     {
@@ -306,7 +306,7 @@
       "cache_price": "¥0.025",
       "input_price": "¥3",
       "output_price": "¥6",
-      "consensus_score": 61.5,
+      "consensus_score": 61.6,
       "detail_url": "https://aihot.virxact.com/leaderboard/mimo-v-2-6-pro"
     },
     {
@@ -347,18 +347,6 @@
     },
     {
       "rank": 29,
-      "name": "Grok 4.6",
-      "provider": "xAI",
-      "release_date": "2026-08-12",
-      "completeness": "34 项评测 覆盖 93 %",
-      "cache_price": "¥3.33",
-      "input_price": "¥13.33",
-      "output_price": "¥40",
-      "consensus_score": 61.0,
-      "detail_url": "https://aihot.virxact.com/leaderboard/grok-4-6"
-    },
-    {
-      "rank": 30,
       "name": "Claude Haiku 5.5",
       "provider": "Anthropic",
       "release_date": "2026-10-07",
@@ -368,6 +356,18 @@
       "output_price": "¥3.33",
       "consensus_score": 61.0,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-haiku-5-5"
+    },
+    {
+      "rank": 30,
+      "name": "Grok 4.6",
+      "provider": "xAI",
+      "release_date": "2026-08-12",
+      "completeness": "34 项评测 覆盖 93 %",
+      "cache_price": "¥3.33",
+      "input_price": "¥13.33",
+      "output_price": "¥40",
+      "consensus_score": 61.0,
+      "detail_url": "https://aihot.virxact.com/leaderboard/grok-4-6"
     }
   ],
   "official_sources": [
