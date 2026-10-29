@@ -5173,5 +5173,60 @@
   "score": 7,
   "first_seen": "2026-10-28",
   "samples": 1
+ },
+ "tencent|strategy|visa": {
+  "score": 5,
+  "first_seen": "2026-10-29",
+  "samples": 1
+ },
+ "samsung wallet|strategy|rakuten": {
+  "score": 4,
+  "first_seen": "2026-10-28",
+  "samples": 1
+ },
+ "adyen|earnings|50%": {
+  "score": 5,
+  "first_seen": "2026-10-28",
+  "samples": 1
+ },
+ "upwind|funding|400m": {
+  "score": 6,
+  "first_seen": "2026-10-28",
+  "samples": 1
+ },
+ "nvidia|strategy|huggingface": {
+  "score": 9,
+  "first_seen": "2026-10-28",
+  "samples": 1
+ },
+ "dayone|strategy|sembcorp": {
+  "score": 4,
+  "first_seen": "2026-10-29",
+  "samples": 1
+ },
+ "samsung|earnings|56000m": {
+  "score": 10,
+  "first_seen": "2026-10-29",
+  "samples": 1
+ },
+ "google wallet|strategy|alipay": {
+  "score": 6,
+  "first_seen": "2026-10-29",
+  "samples": 1
+ },
+ "ledger|other|3.50mm": {
+  "score": 6,
+  "first_seen": "2026-10-29",
+  "samples": 1
+ },
+ "tbc bank|strategy|applepay": {
+  "score": 4,
+  "first_seen": "2026-10-27",
+  "samples": 1
+ },
+ "fragment|funding|56m": {
+  "score": 6,
+  "first_seen": "2026-10-29",
+  "samples": 1
  }
 }
