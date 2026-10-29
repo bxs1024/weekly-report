@@ -1,11 +1,25 @@
 {
   "version": 1,
-  "generated_at": "2026-10-29T14:43:49.061514+08:00",
+  "generated_at": "2026-10-30T06:40:43.318232+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-29T14:43:49.061514+08:00",
+      "observed_at": "2026-10-30T06:40:43.318232+08:00",
       "jobs": [
+        {
+          "id": "744000158582629",
+          "title": "Country Controller, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000158582629/country-controller-associate/",
+          "function_tags": []
+        },
+        {
+          "id": "744000158491390",
+          "title": "Senior Software Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000158491390/senior-software-engineer/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000158439469",
           "title": "KAM GrabFood, Associate",
@@ -116,20 +130,12 @@
           "function_tags": [
             "partnerships"
           ]
-        },
-        {
-          "id": "744000157763549",
-          "title": "Associate, Strategy & Special Project - GrabFood (Food Locker and Local Partnership)",
-          "url": "https://www.grab.careers/en/jobs/744000157763549/associate-strategy-special-project-grabfood-food-locker-and-local-partnership/",
-          "function_tags": [
-            "partnerships"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-29T14:43:49.061514+08:00",
+      "observed_at": "2026-10-30T06:40:43.318232+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -170,7 +176,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-29T14:43:49.061514+08:00",
+      "observed_at": "2026-10-30T06:40:43.318232+08:00",
       "jobs": [
         {
           "id": "457042ce-a4b6-4769-a932-3c181f46470f",
@@ -414,12 +420,6 @@
           "id": "5e568bfc-8aae-4c83-8ca8-073f1636c1db",
           "title": "Talent Density - Learning & Development, Revenue Remote - Americas",
           "url": "https://www.shopify.com/careers/talent-density-learning-development-revenue_5e568bfc-8aae-4c83-8ca8-073f1636c1db",
-          "function_tags": []
-        },
-        {
-          "id": "4c69c031-a183-4bb6-b55d-c3164d8b7625",
-          "title": "Technical Recruiter Remote - Canada",
-          "url": "https://www.shopify.com/careers/technical-recruiter_4c69c031-a183-4bb6-b55d-c3164d8b7625",
           "function_tags": []
         }
       ]

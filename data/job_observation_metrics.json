@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-10-29T14:43:49.061514+08:00",
+  "observed_at": "2026-10-30T06:40:43.318232+08:00",
   "source_count": 3,
   "raw_count": 55,
   "source_stats": {
@@ -8,15 +8,17 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 7,
-      "inventory_count": 16,
-      "signal_count": 1,
-      "added_count": 4,
-      "removed_count": 3,
+      "count": 3,
+      "inventory_count": 17,
+      "signal_count": 0,
+      "added_count": 2,
+      "removed_count": 1,
       "clusters": {
-        "operations": 1
+        "engineering": 1
       },
-      "removed_clusters": {}
+      "removed_clusters": {
+        "partnerships": 1
+      }
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
@@ -37,84 +39,14 @@
       "status": "ok",
       "fetch_status": "success",
       "count": 1,
-      "inventory_count": 34,
+      "inventory_count": 33,
       "signal_count": 0,
-      "added_count": 1,
-      "removed_count": 0,
+      "added_count": 0,
+      "removed_count": 1,
       "clusters": {},
       "removed_clusters": {}
     }
   },
-  "candidate_signals": [
-    {
-      "candidate_id": "jobs-520d5d7d8797ac18",
-      "entity_id": "grab",
-      "entity": "Grab",
-      "region": "亚太",
-      "sector": "mobility_payment",
-      "source_type": "jobs_snapshot",
-      "signal_type": "function_buildout",
-      "cluster": "operations",
-      "window": "2026-W44",
-      "window_start": "2026-10-29",
-      "window_end": "2026-10-29",
-      "detected_at": "2026-10-29T14:43:49.061514+08:00",
-      "baseline_count": 15,
-      "current_count": 16,
-      "added_count": 4,
-      "removed_count": 3,
-      "clusters": {
-        "operations": 1
-      },
-      "removed_clusters": {},
-      "evidence_refs": [
-        {
-          "job_id": "744000158439469",
-          "title": "KAM GrabFood, Associate",
-          "url": "https://www.grab.careers/en/jobs/744000158439469/kam-grabfood-associate/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000158434494",
-          "title": "Supply Chain Strategy & Planning Lead",
-          "url": "https://www.grab.careers/en/jobs/744000158434494/supply-chain-strategy-planning-lead/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000158432746",
-          "title": "Assistant - Team Coordinator (1-year contract)",
-          "url": "https://www.grab.careers/en/jobs/744000158432746/assistant-team-coordinator-1-year-contract/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000158429519",
-          "title": "Senior Solution Specialist, People Systems (Time and Absence)",
-          "url": "https://www.grab.careers/en/jobs/744000158429519/senior-solution-specialist-people-systems-time-and-absence/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000158207317",
-          "title": "Assistant - Team Coordinator",
-          "url": "https://www.grab.careers/en/jobs/744000158207317/assistant-team-coordinator/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000157753330",
-          "title": "Senior Market Insights Analyst",
-          "url": "https://www.grab.careers/en/jobs/744000157753330/senior-market-insights-analyst/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000157732399",
-          "title": "Lending Commercial - Assistant Manager",
-          "url": "https://www.grab.careers/en/jobs/744000157732399/lending-commercial-assistant-manager/",
-          "change": "removed"
-        }
-      ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_cluster_strength",
-      "promoted_event_id": ""
-    }
-  ],
+  "candidate_signals": [],
   "promoted_count": 0
 }
