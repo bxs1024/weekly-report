@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T01:55:13+08:00",
+  "generated_at": "2026-10-29T11:04:32+08:00",
   "fetched_date": "2026-10-29",
   "source": {
     "name": "AIHOT 热点榜",
@@ -9,80 +9,80 @@
   "items": [
     {
       "rank": 1,
+      "title": "谷歌发布 Gemini 4 Carbon，称登顶 AA v5",
+      "list_title": "谷歌发布 Gemini 4 Carbon，称登顶 AA v5",
+      "heat": null,
+      "heat_change": "↑ 18 %",
+      "sources": [],
+      "summary": "Google DeepMind 发布新一代前沿模型 Gemini 4 Carbon，距 Gemini 4 Argon 仅两周，主打网络安全与长程智能体能力。谷歌称其在 Artificial Analysis Intelligence Index v5.0 以 59 分排名第一（Argon 为 50 分），并在 SEC-bench Pro（88.2%）、ExploitGym（54.8%）、CWE-bench（71.0%）领先；Artificial Analysis 确认其登顶 Intelligence Index v5，但在 Coding Agent Index 上以 59 分仅次于 Claude Opus 5.5 的 62 分。Arena 公布 Gemini 4 Carbon (High) 首次上榜即拿下 Text Arena 第一（1528 分）、Agent Arena 第二、Code Arena: WebDev 第四（1768 分），并登上这三个榜单的帕累托前沿；在 Agent Arena 中每任务中位成本 1.80 美元，比排名第一的 Cl…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/62c69dca-91ed-4912-96ed-fb608f645ee7"
+    },
+    {
+      "rank": 2,
       "title": "Google DeepMind 发布 Genie 4 世界模型研究预览版",
       "list_title": "Google DeepMind 发布 Genie 4 世界模型研究预览版",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 13 %",
       "sources": [],
-      "summary": "最新进展 Google DeepMind 发布 Genie 4 实时世界模型，原生生成音频并由 Gemini 3.8 Flash 在循环中规划",
+      "summary": "",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/d9a88c5c-1b99-4e5b-af6c-dec4f752f180"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
       "list_title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
       "heat": null,
-      "heat_change": "↓ 30 %",
+      "heat_change": "↓ 18 %",
       "sources": [],
       "summary": "Anthropic 已向美国 SEC 提交 S-1 注册声明，拟在纳斯达克全球精选市场以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销。发行股数与价格区间尚未确定，注册声明尚未生效，生效前不得出售证券。\n\n招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。截至 9 月底，年支出 10 万美元以上客户超 11,900 家。公司称未来可能无法实现或维持盈利。\n\n上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对董事会组成影响有限。招股书还披露数据中心对天然气的依赖、算力采购承诺，以及 AI 可能带来灾难性风险等风险因素。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "title": "Apple发布PROLED XDR屏MacBook Pro，首配触控",
+      "list_title": "Apple发布PROLED XDR屏MacBook Pro，首配触控",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Apple 发布新款 MacBook Pro，采用 PROLED XDR 显示屏（tandem OLED 技术），宣称峰值亮度最高 2000 nits、对比度 10,000,000:1，并首次在 Mac 上引入 Touch 触控和 Dynamic Island。新机搭载 M5 Pro/M5 Max，11 月 6 日起向消费者发货，并在 Apple Store 和授权经销商处开售。\n\n14 英寸 M5 Pro 版起售价 2,899 美元（教育优惠价 2,749 美元），16 英寸 M5 Pro 版起售价 3,399 美元（教育优惠价 3,199 美元）。\n\n有用户提到，触屏 Mac 曾是 Steve Jobs 公开否定的设计。Apple 同时说明，Siri AI 目前在欧盟的 iOS、iPadOS 和 watchOS 上不可用，公司称正与欧盟沟通寻求解决路径。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/add1dde9-53ea-4f82-9daa-6d50735a149c"
+    },
+    {
+      "rank": 5,
       "title": "OpenAI 发布 GPT-6.1 Terra，API 价格减半",
       "list_title": "OpenAI 发布 GPT-6.1 Terra，API 价格减半",
+      "heat": null,
+      "heat_change": "↓ 25 %",
+      "sources": [],
+      "summary": "OpenAI 发布 GPT-6.1 Terra，定位快速高效的视觉推理与计算机操作模型，标准 API 定价为每百万输入 token 1 美元、缓存输入 0.05 美元、输出 5 美元，是 GPT-5.6 Terra 和 GPT-6.1 Sol 的一半。模型即日起在 ChatGPT Work 和 Codex 向 Plus、Pro、Enterprise、Edu 用户开放，开发者可通过 gpt-6.1-terra 调用；Batch 和 Flex 价格再低 50%，Fast 模式为标准的 2 倍。\n\nArtificial Analysis 称其在低中 effort 下达到智能与成本的前沿，成本不到三分之一；OpenRouter 称其在 Agents' Last Exam 上与 GPT-6 Astra 得分相当，价格约为后者的十分之一，平均完成任务速度比 Astra 和 GPT-6.1 Sol 快 3 倍以上。Arena 公布其在 Code Arena: WebDev 以 1671 分列第 14，比 GPT-5.6 Terra 高 151 分。\n\nOpen…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/30e9a1ca-aae1-410a-b1c6-53893df398db"
+    },
+    {
+      "rank": 6,
+      "title": "微软首披Azure单季营收332亿美元，超预期",
+      "list_title": "微软首披Azure单季营收332亿美元，超预期",
+      "heat": null,
+      "heat_change": "↑ 160 %",
+      "sources": [],
+      "summary": "微软在7至9月季度财报中首次以美元金额披露Azure单季收入：332亿美元，同比增长48%，高于首席财务官Amy Hood此前预测的44%至45%，也超过分析师预期的323亿美元。财报发布后，微软股价在盘后交易中上涨约4%。\n\n同期微软整体季度营收为923亿美元，同比增长19%，连续第10个季度刷新营收纪录；净利润366亿美元，按GAAP口径同比增长32%。CEO Satya Nadella在财报电话会后称，Microsoft Cloud收入超过630亿美元，同比增长加快至30%。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/11d678b6-32a9-4107-b928-74a73608cd88"
+    },
+    {
+      "rank": 7,
+      "title": "Anthropic公布药物研发合作，并传收购Mithril Medicine",
+      "list_title": "Anthropic公布药物研发合作，并传收购Mithril Medicine",
       "heat": null,
       "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/30e9a1ca-aae1-410a-b1c6-53893df398db"
-    },
-    {
-      "rank": 4,
-      "title": "谷歌发布 Gemini 4 Carbon，称登顶 AA v5",
-      "list_title": "谷歌发布 Gemini 4 Carbon，称登顶 AA v5",
-      "heat": null,
-      "heat_change": "↑ 3671 %",
-      "sources": [],
-      "summary": "Google DeepMind 发布下一代前沿模型 Gemini 4 Carbon，称其为最强模型，主打网络安全与长程智能体能力。谷歌称该模型在 Artificial Analysis Intelligence Index v5.0 以 59 分排名第一，并在 SEC-bench Pro（88.2%）、ExploitGym（54.8%）、CWE-bench（71.0%）领先；这些得分与排名均为谷歌方面说法，尚未经独立验证。\n\n第三方评测平台 Arena 公布，Gemini 4 Carbon (High) 首次上榜即拿下 Text Arena 第一（1528 分）、Agent Arena 第二（在约 2.19 万次真实智能体会话中净提升 16.2%）、Code Arena: WebDev 第四（1768 分）。Artificial Analysis 也确认其登顶 Intelligence Index v5，但在 Coding Agent Index 上仅次于 Claude Opus 5.5。\n\n访问将分阶段开放：本周起先向部分网络安全防御机构开放，…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/62c69dca-91ed-4912-96ed-fb608f645ee7"
-    },
-    {
-      "rank": 5,
-      "title": "OpenAI 称三项科学发现，物理证明未公开引呼吁",
-      "list_title": "OpenAI 称三项科学发现，物理证明未公开引呼吁",
-      "heat": null,
-      "heat_change": "↓ 17 %",
-      "sources": [],
-      "summary": "",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/d79cd457-4d11-436e-954d-430d2aab4438"
-    },
-    {
-      "rank": 6,
-      "title": "Anthropic公布药物研发合作，并传收购Mithril Medicine",
-      "list_title": "Anthropic公布药物研发合作，并传收购Mithril Medicine",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "",
-      "original_links": [],
       "story_url": "https://aihot.virxact.com/story/37c4f934-a969-4d47-b4ab-d8394ef134ba"
-    },
-    {
-      "rank": 7,
-      "title": "Artificial Analysis 发布 v5 指数，开源模型排名下滑",
-      "list_title": "Artificial Analysis 发布 v5 指数，开源模型排名下滑",
-      "heat": null,
-      "heat_change": "↑ 45 %",
-      "sources": [],
-      "summary": "Artificial Analysis 将 Intelligence Index 升级至 v5，新增 FrontierCode 2.0 和 Terminal-Bench-Science 两项基准，并升级 HLE-Diamond、AA-Omniscience v1.1 和 CritPt v2。该机构称，这是首次有超过一半的指数基于私有测试集或保留答案，占比为 60%，目的是防止针对已知题目训练模型。\n\n改版后排名出现明显变化：据 The Decoder 报道，Kimi K3.1 Pro 从第 4 降至第 9，开源模型与榜首的差距从 3 分扩大到 12 分，Grok 4.7 也下跌 12 分。IT之家报道称，DeepSeek V4.1 Flash 1017 在 FrontierCode 2.0 上取得开源模型最高分；该基准按仓库维护者是否愿意合并 PR 打分。\n\nNathan Lambert 评论称，把多项评测聚合成单一数字必然有取舍，而转向不公开题目的私有基准会让外部无法再发现题目中的错误。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/5a5e06d1-56d2-4b17-a50e-bc07029f84fb"
     },
     {
       "rank": 8,
@@ -97,25 +97,25 @@
     },
     {
       "rank": 9,
-      "title": "OpenAI 拟采购谷歌 TPU 并招募工程师适配",
-      "list_title": "OpenAI 拟采购谷歌 TPU 并招募工程师适配",
+      "title": "Artificial Analysis 发布 v5 指数，开源模型排名下滑",
+      "list_title": "Artificial Analysis 发布 v5 指数，开源模型排名下滑",
       "heat": null,
       "heat_change": "↓ 16 %",
       "sources": [],
-      "summary": "据 The Information 报道，OpenAI 计划正式导入谷歌 Google Cloud 的 TPU AI 芯片，并正在招募工程师，负责领导企业模型在 TPU 上的适配优化。Bloomberg 随后报道称，OpenAI 计划向谷歌采购 AI 芯片，把直接竞争对手的处理器纳入自身算力建设；OpenAI 芯片团队负责人 Richard Ho 此前参与过谷歌 TPU 研发。\n\n这一计划与 OpenAI 早先的说法不同：2025 年 7 月它曾表示仅对 TPU 做早期测试、暂无大规模部署计划。其算力此前已从 TPU 转向 NVIDIA，后又采购 AMD、Cerebras、AWS 芯片并自研 Jalapeño。\n\n报道还称，Oracle 也将通过其云提供 TPU，谷歌芯片正向外部买家和竞争对手云扩散，成为 Nvidia GPU 之外的替代选择。",
+      "summary": "Artificial Analysis 将 Intelligence Index 升级至 v5，新增 FrontierCode 2.0 和 Terminal-Bench-Science 两项基准，并升级 HLE-Diamond、AA-Omniscience v1.1 和 CritPt v2。该机构称，这是首次有超过一半的指数基于私有测试集或保留答案，占比为 60%，目的是防止针对已知题目训练模型。\n\n改版后排名出现明显变化：据 The Decoder 报道，Kimi K3.1 Pro 从第 4 降至第 9，开源模型与榜首的差距从 3 分扩大到 12 分，Grok 4.7 也下跌 12 分。IT之家报道称，DeepSeek V4.1 Flash 1017 在 FrontierCode 2.0 上取得开源模型最高分；该基准按仓库维护者是否愿意合并 PR 打分。\n\nNathan Lambert 评论称，把多项评测聚合成单一数字必然有取舍，而转向不公开题目的私有基准会让外部无法再发现题目中的错误。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/ff626510-f5f9-422e-afef-6eb6511db434"
+      "story_url": "https://aihot.virxact.com/story/5a5e06d1-56d2-4b17-a50e-bc07029f84fb"
     },
     {
       "rank": 10,
-      "title": "蚂蚁发布灵光2.0，AI助理可跨会话持续办事",
-      "list_title": "蚂蚁发布灵光2.0，AI助理可跨会话持续办事",
+      "title": "OpenAI 称三项科学发现，物理证明未公开引呼吁",
+      "list_title": "OpenAI 称三项科学发现，物理证明未公开引呼吁",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↓ 43 %",
       "sources": [],
-      "summary": "蚂蚁集团发布灵光 2.0，将 AI 助理从被动响应指令、完成单次任务，改为主动发现需求、持续管理事务。据蚂蚁介绍，灵光在获得用户授权后，可结合已接入的信息与服务识别潜在需求；依托独立云主机，用户退出对话后任务仍可继续运行。产品已内置支付宝账单、出行、钉钉、飞书、邮箱、米家等服务，并支持调用 MCP、CLI 等工具。\n\n安全方面，灵光接入蚂蚁 APASS，将身份认证、意图安全和隐私保护纳入 Agent 执行流程，并通过授权密钥与 Agent 分离托管，使智能体不直接接触授权密钥；用户可随时查看、调整或撤销授权。\n\n有内测用户称，已通过扫码授权、官方 MCP、Skill、CLI 等方式将米家、滴滴、美团、瑞幸、麦当劳、淘宝等 15 个 App 接入灵光，并实测了天气主动提醒、美团跑腿取号、支付宝账单统计等场景；这些体验来自该用户的个人分享。",
+      "summary": "",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/8bcf43d2-9952-471e-a73f-aba4f4e855ee"
+      "story_url": "https://aihot.virxact.com/story/d79cd457-4d11-436e-954d-430d2aab4438"
     }
   ]
 }
