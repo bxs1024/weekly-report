@@ -1,76 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-30T06:40:43.318232+08:00",
+  "generated_at": "2026-10-30T14:45:38.565299+08:00",
   "candidates": [
-    {
-      "candidate_id": "jobs-520d5d7d8797ac18",
-      "entity_id": "grab",
-      "entity": "Grab",
-      "region": "亚太",
-      "sector": "mobility_payment",
-      "source_type": "jobs_snapshot",
-      "signal_type": "function_buildout",
-      "cluster": "operations",
-      "window": "2026-W44",
-      "window_start": "2026-10-29",
-      "window_end": "2026-10-29",
-      "detected_at": "2026-10-29T14:43:49.061514+08:00",
-      "baseline_count": 15,
-      "current_count": 16,
-      "added_count": 4,
-      "removed_count": 3,
-      "clusters": {
-        "operations": 1
-      },
-      "removed_clusters": {},
-      "evidence_refs": [
-        {
-          "job_id": "744000158439469",
-          "title": "KAM GrabFood, Associate",
-          "url": "https://www.grab.careers/en/jobs/744000158439469/kam-grabfood-associate/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000158434494",
-          "title": "Supply Chain Strategy & Planning Lead",
-          "url": "https://www.grab.careers/en/jobs/744000158434494/supply-chain-strategy-planning-lead/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000158432746",
-          "title": "Assistant - Team Coordinator (1-year contract)",
-          "url": "https://www.grab.careers/en/jobs/744000158432746/assistant-team-coordinator-1-year-contract/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000158429519",
-          "title": "Senior Solution Specialist, People Systems (Time and Absence)",
-          "url": "https://www.grab.careers/en/jobs/744000158429519/senior-solution-specialist-people-systems-time-and-absence/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000158207317",
-          "title": "Assistant - Team Coordinator",
-          "url": "https://www.grab.careers/en/jobs/744000158207317/assistant-team-coordinator/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000157753330",
-          "title": "Senior Market Insights Analyst",
-          "url": "https://www.grab.careers/en/jobs/744000157753330/senior-market-insights-analyst/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000157732399",
-          "title": "Lending Commercial - Assistant Manager",
-          "url": "https://www.grab.careers/en/jobs/744000157732399/lending-commercial-assistant-manager/",
-          "change": "removed"
-        }
-      ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_cluster_strength",
-      "promoted_event_id": ""
-    },
     {
       "candidate_id": "jobs-b842b8e68536dbec",
       "entity_id": "grab",
@@ -82,22 +13,17 @@
       "cluster": "engineering",
       "window": "2026-W44",
       "window_start": "2026-10-28",
-      "window_end": "2026-10-28",
-      "detected_at": "2026-10-28T06:05:03.093492+08:00",
-      "baseline_count": 19,
-      "current_count": 15,
-      "added_count": 9,
-      "removed_count": 13,
+      "window_end": "2026-10-30",
+      "detected_at": "2026-10-30T14:45:38.565299+08:00",
+      "baseline_count": 17,
+      "current_count": 16,
+      "added_count": 1,
+      "removed_count": 2,
       "clusters": {
-        "engineering": 4,
-        "operations": 2,
-        "partnerships": 3
+        "engineering": 1
       },
       "removed_clusters": {
-        "engineering": 3,
-        "payments": 1,
-        "sales": 1,
-        "operations": 1
+        "partnerships": 2
       },
       "evidence_refs": [
         {
@@ -231,10 +157,332 @@
           "title": "Enterprise KAM GrabMart, Associate",
           "url": "https://www.grab.careers/en/jobs/744000157043359/enterprise-kam-grabmart-associate/",
           "change": "removed"
+        },
+        {
+          "job_id": "744000158659289",
+          "title": "Software Engineer, Perception (Robotics)",
+          "url": "https://www.grab.careers/en/jobs/744000158659289/software-engineer-perception-robotics/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000157961609",
+          "title": "Intern, Marketing and Partnership (GrabRentals)",
+          "url": "https://www.grab.careers/en/jobs/744000157961609/intern-marketing-and-partnership-grabrentals/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000157961319",
+          "title": "Intern, Partner Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000157961319/intern-partner-acquisition/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
+    {
+      "candidate_id": "jobs-4ce7be96cb0ea432",
+      "entity_id": "shopify",
+      "entity": "Shopify",
+      "region": "全球",
+      "sector": "commerce_saas",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W44",
+      "window_start": "2026-10-30",
+      "window_end": "2026-10-30",
+      "detected_at": "2026-10-30T14:45:38.565299+08:00",
+      "baseline_count": 33,
+      "current_count": 25,
+      "added_count": 13,
+      "removed_count": 21,
+      "clusters": {
+        "sales": 4,
+        "ai": 3,
+        "engineering": 8
+      },
+      "removed_clusters": {
+        "ai": 1,
+        "engineering": 3,
+        "partnerships": 6,
+        "payments": 1,
+        "sales": 1,
+        "compliance": 2,
+        "operations": 3
+      },
+      "evidence_refs": [
+        {
+          "job_id": "1affb074-f055-4f5a-a97e-80d97d77da6e",
+          "title": "Account Executive, SMB Remote - Americas",
+          "url": "https://www.shopify.com/careers/account-executive-smb_1affb074-f055-4f5a-a97e-80d97d77da6e",
+          "change": "added"
+        },
+        {
+          "job_id": "69bdefc2-b2f5-4277-996b-7b677bcf1c0a",
+          "title": "Account Executive, SMB, German-speaking Remote - Ireland, United Kingdom",
+          "url": "https://www.shopify.com/careers/account-executive-smb-german-speaking_69bdefc2-b2f5-4277-996b-7b677bcf1c0a",
+          "change": "added"
+        },
+        {
+          "job_id": "c9e3d85f-e24b-4652-bd38-3749d7d5cddf",
+          "title": "Account Executive, SMB - Italian speaking Remote - Ireland, United Kingdom",
+          "url": "https://www.shopify.com/careers/account-executive-smb-italian-speaking_c9e3d85f-e24b-4652-bd38-3749d7d5cddf",
+          "change": "added"
+        },
+        {
+          "job_id": "62d779d3-51c8-4b0a-ab2e-1a440276bb37",
+          "title": "Applied Machine Learning Engineering Managers Remote - Americas",
+          "url": "https://www.shopify.com/careers/applied-machine-learning-engineering-managers_62d779d3-51c8-4b0a-ab2e-1a440276bb37",
+          "change": "added"
+        },
+        {
+          "job_id": "9f16f862-28ec-42d7-a9fa-948bf2eeeb4a",
+          "title": "Applied Machine Learning Engineers Remote - Americas",
+          "url": "https://www.shopify.com/careers/applied-machine-learning-engineers_9f16f862-28ec-42d7-a9fa-948bf2eeeb4a",
+          "change": "added"
+        },
+        {
+          "job_id": "ea6c6b0b-a935-40b8-96ea-f61e882901d9",
+          "title": "Applied ML Engineering - GenAI, AI Agent Remote - Americas",
+          "url": "https://www.shopify.com/careers/applied-ml-engineering-genai-ai-agent_ea6c6b0b-a935-40b8-96ea-f61e882901d9",
+          "change": "added"
+        },
+        {
+          "job_id": "2e7f4ee3-5570-4d21-a0c0-a0baddd66bb5",
+          "title": "Designers Remote - Americas",
+          "url": "https://www.shopify.com/careers/designers_2e7f4ee3-5570-4d21-a0c0-a0baddd66bb5",
+          "change": "added"
+        },
+        {
+          "job_id": "227e8512-a274-4253-a0a1-825df6bbc0b9",
+          "title": "Engineering Manager Remote - Americas",
+          "url": "https://www.shopify.com/careers/engineering-manager_227e8512-a274-4253-a0a1-825df6bbc0b9",
+          "change": "added"
+        },
+        {
+          "job_id": "0c3c9c04-18db-4e02-ab7d-d7bb32ac7bea",
+          "title": "Engineering Manager - Cloud Systems Remote - Americas",
+          "url": "https://www.shopify.com/careers/engineering-manager-cloud-systems_0c3c9c04-18db-4e02-ab7d-d7bb32ac7bea",
+          "change": "added"
+        },
+        {
+          "job_id": "2f6e63f3-d3e2-4537-b994-ac46fc3fafa0",
+          "title": "Engineering Manager - Edge Infrastructure Remote - Americas",
+          "url": "https://www.shopify.com/careers/engineering-manager-edge-infrastructure_2f6e63f3-d3e2-4537-b994-ac46fc3fafa0",
+          "change": "added"
+        },
+        {
+          "job_id": "0536bba4-c326-4416-935e-9401c9ea4482",
+          "title": "Engineering Manager- Ruby and Rails Infrastructure Remote - Americas",
+          "url": "https://www.shopify.com/careers/engineering-manager-ruby-and-rails-infrastructure_0536bba4-c326-4416-935e-9401c9ea4482",
+          "change": "added"
+        },
+        {
+          "job_id": "db9432e7-637b-442b-b5c6-8068be623426",
+          "title": "Engineering Manager - Streaming Foundations Remote - Americas",
+          "url": "https://www.shopify.com/careers/engineering-manager-streaming-foundations_db9432e7-637b-442b-b5c6-8068be623426",
+          "change": "added"
+        },
+        {
+          "job_id": "b9cc007a-750f-4093-8191-e61f85c7c787",
+          "title": "Enterprise Account Executive Remote - Americas",
+          "url": "https://www.shopify.com/careers/enterprise-account-executive_b9cc007a-750f-4093-8191-e61f85c7c787",
+          "change": "added"
+        },
+        {
+          "job_id": "6d41cb89-ee55-4ec6-ba34-a09277dc399c",
+          "title": "Partner Marketing Lead, Strategic Partners (Platform, AI & Marketplace) Remote - Americas",
+          "url": "https://www.shopify.com/careers/partner-marketing-lead-strategic-partners-platform-ai-marketplace_6d41cb89-ee55-4ec6-ba34-a09277dc399c",
+          "change": "removed"
+        },
+        {
+          "job_id": "103b3bdf-35f7-4199-8a61-195d1eeed88d",
+          "title": "Social Lead, Product Remote - Americas",
+          "url": "https://www.shopify.com/careers/social-lead-product_103b3bdf-35f7-4199-8a61-195d1eeed88d",
+          "change": "removed"
+        },
+        {
+          "job_id": "787da03c-eedf-4bcf-a8d0-0fc96054dd27",
+          "title": "Recovery Analyst, Merchant Lending Credit Remote - Americas",
+          "url": "https://www.shopify.com/careers/recovery-analyst-merchant-lending-credit_787da03c-eedf-4bcf-a8d0-0fc96054dd27",
+          "change": "removed"
+        },
+        {
+          "job_id": "f8ca3367-b73e-4dd8-9a57-9a78a8f6d310",
+          "title": "Senior Financial Analyst, Infrastructure Remote - Americas",
+          "url": "https://www.shopify.com/careers/senior-financial-analyst-infrastructure_f8ca3367-b73e-4dd8-9a57-9a78a8f6d310",
+          "change": "removed"
+        },
+        {
+          "job_id": "40ef1cb0-5c56-4963-84fe-946708e5d74a",
+          "title": "Senior Financial Analyst - Multiple Roles Remote - Americas",
+          "url": "https://www.shopify.com/careers/senior-financial-analyst-multiple-roles_40ef1cb0-5c56-4963-84fe-946708e5d74a",
+          "change": "removed"
+        },
+        {
+          "job_id": "367f287b-b6c0-4bd5-aa8c-639c0a1c009e",
+          "title": "Senior Treasury Analyst Remote - Canada",
+          "url": "https://www.shopify.com/careers/senior-treasury-analyst_367f287b-b6c0-4bd5-aa8c-639c0a1c009e",
+          "change": "removed"
+        },
+        {
+          "job_id": "4d1f41c3-63de-43d3-a9b3-0cc6c06f1687",
+          "title": "Tax Lead, Controversy Remote - Americas",
+          "url": "https://www.shopify.com/careers/tax-lead-controversy_4d1f41c3-63de-43d3-a9b3-0cc6c06f1687",
+          "change": "removed"
+        },
+        {
+          "job_id": "88f7caca-b535-46c3-81d1-d9608276d02c",
+          "title": "Growth - Growth Marketing - Content Producer, Multimedia Remote - Americas",
+          "url": "https://www.shopify.com/careers/growth-growth-marketing-content-producer-multimedia_88f7caca-b535-46c3-81d1-d9608276d02c",
+          "change": "removed"
+        },
+        {
+          "job_id": "1fc767ce-3657-4756-8e42-ba30d7d65e6c",
+          "title": "Head of Partner Management, Affiliate Channel Remote - Americas",
+          "url": "https://www.shopify.com/careers/head-of-partner-management-affiliate-channel_1fc767ce-3657-4756-8e42-ba30d7d65e6c",
+          "change": "removed"
+        },
+        {
+          "job_id": "44bd4c1c-6887-470f-90e0-b470f234fe49",
+          "title": "Senior Lead, External Partnerships & Social, Shop Remote - Americas",
+          "url": "https://www.shopify.com/careers/senior-lead-external-partnerships-social-shop_44bd4c1c-6887-470f-90e0-b470f234fe49",
+          "change": "removed"
+        },
+        {
+          "job_id": "8639c248-b9f3-45ca-9ea8-5b66a4c7d208",
+          "title": "Senior Compliance Analyst Remote - Americas",
+          "url": "https://www.shopify.com/careers/senior-compliance-analyst_8639c248-b9f3-45ca-9ea8-5b66a4c7d208",
+          "change": "removed"
+        },
+        {
+          "job_id": "d5966831-e925-4bdf-b381-1fb626c3f6ad",
+          "title": "Lead Developer Advocate (San Francisco) Remote - San Francisco",
+          "url": "https://www.shopify.com/careers/lead-developer-advocate-san-francisco_d5966831-e925-4bdf-b381-1fb626c3f6ad",
+          "change": "removed"
+        },
+        {
+          "job_id": "d9993b7d-d973-409c-9da3-0c8d48cff776",
+          "title": "Product Partnerships Lead Remote - Japan",
+          "url": "https://www.shopify.com/careers/product-partnerships-lead_d9993b7d-d973-409c-9da3-0c8d48cff776",
+          "change": "removed"
+        },
+        {
+          "job_id": "42cccdf8-95a2-4fd1-bfb1-7205b277b9c8",
+          "title": "Product Partnerships Manager, Shipping Remote - Americas",
+          "url": "https://www.shopify.com/careers/product-partnerships-manager-shipping_42cccdf8-95a2-4fd1-bfb1-7205b277b9c8",
+          "change": "removed"
+        },
+        {
+          "job_id": "10a56956-2acc-448b-91c6-3503fff0f4cc",
+          "title": "Senior Partner Success Manager, Lifecycle Programs - APAC Remote - India, Singapore",
+          "url": "https://www.shopify.com/careers/senior-partner-success-manager-lifecycle-programs-apac_10a56956-2acc-448b-91c6-3503fff0f4cc",
+          "change": "removed"
+        },
+        {
+          "job_id": "a643c09c-31b7-4e22-8c44-d9c8a6af9ecb",
+          "title": "Lead, Support Operations Remote - Canada , Americas",
+          "url": "https://www.shopify.com/careers/lead-support-operations_a643c09c-31b7-4e22-8c44-d9c8a6af9ecb",
+          "change": "removed"
+        },
+        {
+          "job_id": "6f89cfb5-aa5c-4fb6-8231-5dcaa2309e16",
+          "title": "Merchant Support Advisor, Canada Remote - Canada",
+          "url": "https://www.shopify.com/careers/merchant-support-advisor-canada_6f89cfb5-aa5c-4fb6-8231-5dcaa2309e16",
+          "change": "removed"
+        },
+        {
+          "job_id": "0c87cb90-7369-4be1-ae1d-d27eb6496b8f",
+          "title": "Performance Excellence Lead, Support Operations Remote - Canada , Americas",
+          "url": "https://www.shopify.com/careers/performance-excellence-lead-support-operations_0c87cb90-7369-4be1-ae1d-d27eb6496b8f",
+          "change": "removed"
+        },
+        {
+          "job_id": "62efacf8-e3b3-4265-be67-92f1e6f379ed",
+          "title": "Security Incident Response, Senior Analyst Remote - Americas",
+          "url": "https://www.shopify.com/careers/security-incident-response-senior-analyst_62efacf8-e3b3-4265-be67-92f1e6f379ed",
+          "change": "removed"
+        },
+        {
+          "job_id": "8c9a75bc-2919-45da-a980-ff38453e6472",
+          "title": "Senior Credit Risk Analyst Remote - Americas",
+          "url": "https://www.shopify.com/careers/senior-credit-risk-analyst_8c9a75bc-2919-45da-a980-ff38453e6472",
+          "change": "removed"
         }
       ],
       "status": "rejected",
       "rejection_reason": "source_reset_suspected",
+      "promoted_event_id": ""
+    },
+    {
+      "candidate_id": "jobs-520d5d7d8797ac18",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "operations",
+      "window": "2026-W44",
+      "window_start": "2026-10-29",
+      "window_end": "2026-10-29",
+      "detected_at": "2026-10-29T14:43:49.061514+08:00",
+      "baseline_count": 15,
+      "current_count": 16,
+      "added_count": 4,
+      "removed_count": 3,
+      "clusters": {
+        "operations": 1
+      },
+      "removed_clusters": {},
+      "evidence_refs": [
+        {
+          "job_id": "744000158439469",
+          "title": "KAM GrabFood, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000158439469/kam-grabfood-associate/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000158434494",
+          "title": "Supply Chain Strategy & Planning Lead",
+          "url": "https://www.grab.careers/en/jobs/744000158434494/supply-chain-strategy-planning-lead/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000158432746",
+          "title": "Assistant - Team Coordinator (1-year contract)",
+          "url": "https://www.grab.careers/en/jobs/744000158432746/assistant-team-coordinator-1-year-contract/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000158429519",
+          "title": "Senior Solution Specialist, People Systems (Time and Absence)",
+          "url": "https://www.grab.careers/en/jobs/744000158429519/senior-solution-specialist-people-systems-time-and-absence/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000158207317",
+          "title": "Assistant - Team Coordinator",
+          "url": "https://www.grab.careers/en/jobs/744000158207317/assistant-team-coordinator/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000157753330",
+          "title": "Senior Market Insights Analyst",
+          "url": "https://www.grab.careers/en/jobs/744000157753330/senior-market-insights-analyst/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000157732399",
+          "title": "Lending Commercial - Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000157732399/lending-commercial-assistant-manager/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
       "promoted_event_id": ""
     },
     {
