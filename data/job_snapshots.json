@@ -1,11 +1,19 @@
 {
   "version": 1,
-  "generated_at": "2026-10-30T14:45:38.565299+08:00",
+  "generated_at": "2026-10-31T06:11:14.021054+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-10-30T14:45:38.565299+08:00",
+      "observed_at": "2026-10-31T06:11:14.021054+08:00",
       "jobs": [
+        {
+          "id": "744000158686599",
+          "title": "Senior software engineer Test",
+          "url": "https://www.grab.careers/en/jobs/744000158686599/senior-software-engineer-test/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000158659289",
           "title": "Software Engineer, Perception (Robotics)",
@@ -116,18 +124,12 @@
           "function_tags": [
             "partnerships"
           ]
-        },
-        {
-          "id": "744000157961769",
-          "title": "Intern, Occupational Health, Safety, & Wellbeing",
-          "url": "https://www.grab.careers/en/jobs/744000157961769/intern-occupational-health-safety-wellbeing/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-10-30T14:45:38.565299+08:00",
+      "observed_at": "2026-10-31T06:11:14.021054+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -168,12 +170,20 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-10-30T14:45:38.565299+08:00",
+      "observed_at": "2026-10-31T06:11:14.021054+08:00",
       "jobs": [
         {
           "id": "1affb074-f055-4f5a-a97e-80d97d77da6e",
           "title": "Account Executive, SMB Remote - Americas",
           "url": "https://www.shopify.com/careers/account-executive-smb_1affb074-f055-4f5a-a97e-80d97d77da6e",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "8b0403e4-137a-4f29-8f88-254c2ac0a716",
+          "title": "Account Executive, SMB Existing Business Remote - Ireland, United Kingdom",
+          "url": "https://www.shopify.com/careers/account-executive-smb-existing-business_8b0403e4-137a-4f29-8f88-254c2ac0a716",
           "function_tags": [
             "sales"
           ]
@@ -354,12 +364,6 @@
           "function_tags": [
             "sales"
           ]
-        },
-        {
-          "id": "715ee550-b7d0-4c4a-86c0-4b51e6d74fc4",
-          "title": "Experiential Marketing Lead (Head of Shopify Spaces, London) Remote - United Kingdom",
-          "url": "https://www.shopify.com/careers/experiential-marketing-lead-head-of-shopify-spaces-london_715ee550-b7d0-4c4a-86c0-4b51e6d74fc4",
-          "function_tags": []
         }
       ]
     }
