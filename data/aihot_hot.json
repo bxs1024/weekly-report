@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T11:08:49+08:00",
-  "fetched_date": "2026-10-30",
+  "generated_at": "2026-10-31T01:44:26+08:00",
+  "fetched_date": "2026-10-31",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
@@ -12,7 +12,7 @@
       "title": "AA v5 改版：私有测试集拉大开源闭源差距，Gemini 4 Carbon 登顶",
       "list_title": "AA v5 改版：私有测试集拉大开源闭源差距，Gemini 4 Carbon 登顶",
       "heat": null,
-      "heat_change": "↓ 11 %",
+      "heat_change": "↓ 24 %",
       "sources": [],
       "summary": "Artificial Analysis 发布 Intelligence Index v5，首次让 60% 的指数权重建立在私有测试集或保留答案上，并新增 FrontierCode 2.0、Terminal-Bench-Science 两项基准，升级 HLE-Diamond、AA-Omniscience v1.1 和 CritPt v2。该机构称，这样做是为了防止针对已知测试题训练模型的“benchmaxxing”。v5 将指数均分为知识工作、编码、科学、通用四类，各占 25%。\n\n改版后排名明显变动：据 The Decoder 报道，Kimi K3.1 Pro 从第 4 降至第 9，开源模型与榜首差距从 3 分扩大到 12 分，Grok 4.7 也下跌 12 分；Nathan Lambert 称，榜单上 8 个闭源模型超过最强的待发布开源权重模型 Kimi K3.1 Pro。The Decoder 同时指出，私有测试集的代价是外部人员无法再检查题目中的错误。\n\nGoogle 的 Gemini 4 Carbon 以 59 分登顶 v5，比 Gemi…",
       "original_links": [],
@@ -23,7 +23,7 @@
       "title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调",
       "list_title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调",
       "heat": null,
-      "heat_change": "↑ 55 %",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "OpenAI 员工 Tibo 在 X 上宣布，即日起将 Pro 100/200/500 各档位与 Business Premium 的用量上限翻倍，并明确不会下调 Pro 200 的上限；Work 与 Codex 用量保持不变，dots 的扩展用量上限继续提供且与默认用量分开计算。数小时后，Tibo 又称“用量上限已恢复为双倍”，并把结果归因于用户反馈，但两则帖文均未说明中间限额是否曾被收回，也未交代恢复的具体范围。\n\nThe Decoder 报道称，Pro 100 和 Pro 500 的 Work 与 Codex 配额为原先两倍；Pro 200 在用户反弹后取消了下调计划，并翻倍了较低配额；Plus 保持不变，新订阅已含新配额，老用户自动获得。IT之家另称，Fast 模式消耗额度的速度约为标准模式的 2.5 倍，Ultrafast 则高达 8 倍。",
       "original_links": [],
@@ -31,10 +31,10 @@
     },
     {
       "rank": 3,
-      "title": "Mistral 开源万亿参数 Le Chonk，Unsloth 推 1-bit 量化版",
-      "list_title": "Mistral 开源万亿参数 Le Chonk，Unsloth 推 1-bit 量化版",
+      "title": "Mistral 开放万亿参数 Le Chonk 权重，Unsloth 推 1-bit 量化版",
+      "list_title": "Mistral 开放万亿参数 Le Chonk 权重，Unsloth 推 1-bit 量化版",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 12 %",
       "sources": [],
       "summary": "Mistral AI 公开了旗舰模型 Mistral Large 4（昵称 Le Chonk）的权重，此前该模型处于公开预览阶段。模型为原生多模态 MoE，总参数约 1T、每 token 激活 49B–52B、上下文 1M token，官方提供 FP8 与 NVFP4 两种版本。权重采用 MIT 衍生的 Mistral Ecosystem Open-Weight License：使用、修改、微调和商业部署免费，但以模型即服务形式对外提供的企业须另行取得 Mistral 商业许可。API 价格同时调整为每百万 token 输入 $0.70、缓存输入 $0.07、输出 $2.10。\n\nMistral 称该模型主打智能体编码与网络安全，在 Cognition 的 FrontierCode 开放模型中排名第一，网络防御能力经 CrowdStrike、Cloudflare、Rubrik、Zscaler 等厂商测试。Artificial Analysis 评测称其以 1.05T 总参数成为非中国开发的最强开放权重模型；The Decoder 则指出其编码领先…",
       "original_links": [],
@@ -45,7 +45,7 @@
       "title": "Apple发布PROLED XDR屏MacBook Pro，首配触控",
       "list_title": "Apple发布PROLED XDR屏MacBook Pro，首配触控",
       "heat": null,
-      "heat_change": "↓ 12 %",
+      "heat_change": "↓ 28 %",
       "sources": [],
       "summary": "Apple 发布新款 MacBook Pro，采用 PROLED XDR 显示屏（tandem OLED 技术），宣称峰值亮度最高 2000 nits、对比度 10,000,000:1，并首次在 Mac 上引入 Touch 触控和 Dynamic Island。新机搭载 M5 Pro/M5 Max，11 月 6 日起向消费者发货，并在 Apple Store 和授权经销商处开售。\n\n14 英寸 M5 Pro 版起售价 2,899 美元（教育优惠价 2,749 美元），16 英寸 M5 Pro 版起售价 3,399 美元（教育优惠价 3,199 美元）。\n\n有用户提到，触屏 Mac 曾是 Steve Jobs 公开否定的设计。Apple 同时说明，Siri AI 目前在欧盟的 iOS、iPadOS 和 watchOS 上不可用，公司称正与欧盟沟通寻求解决路径。",
       "original_links": [],
@@ -53,69 +53,69 @@
     },
     {
       "rank": 5,
-      "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
-      "list_title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
-      "heat": null,
-      "heat_change": "↓ 22 %",
-      "sources": [],
-      "summary": "Anthropic 已向美国 SEC 提交 S-1 注册声明，拟在纳斯达克全球精选市场以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销。发行股数与价格区间尚未确定，注册声明尚未生效，生效前不得出售证券。\n\n招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。截至 9 月底，年支出 10 万美元以上客户超 11,900 家，其中约 250 家客户在截至 9 月 30 日的 12 个月内支出超 1000 万美元。公司称未来可能无法实现或维持盈利。\n\nThe Verge 依据招股书统计，不可撤销采购承诺 2656 亿美元，加上尚未开始的租赁协议 3214 亿美元等，未来 20 年承诺至少约 8500 亿美元。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对董事会组成影响有限。招股书还披露数据中心对天然气的依赖，以及 AI 可能带来灾难性风险等风险因素。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
-    },
-    {
-      "rank": 6,
       "title": "Alphabet Q3营收增25%，AI搜索变现承压",
       "list_title": "Alphabet Q3营收增25%，AI搜索变现承压",
       "heat": null,
-      "heat_change": "↓ 13 %",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "Alphabet公布2026年第三季度财报：营收近1280亿美元、同比增长25%，年化收入达5000亿美元；Google Cloud收入同比增长103%至307亿美元，运营利润同比增至三倍、达111亿美元。但公司承认AI搜索的收入低于自然搜索，且明年AI支出还将增加；当季每股收益2.12美元，低于市场预期的3.02美元。\n\n核心搜索广告增速放缓：Google Search收入增速从上季度的17%降至12%。财报电话会上，Google宣布将AI Mode中的广告首次扩展至国际市场，并在美国推出多轮对话广告；Google称，AI Mode中赞助商品列表的点击率已与自然结果相当。\n\n财报后股价一度下跌约13%，当时跌近12%。Sundar Pichai称，Search查询同比增速为五年来最高，1P模型API每分钟处理近32B tokens、环比增40%。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/c432aa2e-0614-4744-8618-1769e016569b"
     },
     {
-      "rank": 7,
-      "title": "Google DeepMind 发布 Genie 4 世界模型研究预览版",
-      "list_title": "Google DeepMind 发布 Genie 4 世界模型研究预览版",
+      "rank": 6,
+      "title": "Reddit 转向登录优先，应对 AI 搜索流量下滑",
+      "list_title": "Reddit 转向登录优先，应对 AI 搜索流量下滑",
       "heat": null,
-      "heat_change": "↓ 42 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "",
+      "summary": "Reddit 在第三季度财报中宣布，将转向以登录用户为主的体验，以保护数据不被 AI 抓取并提升广告变现。公司称，10 月搜索流量平均每周减少超过 100 万次引荐；第三季度全球日活为 1.303 亿，其中美国日活降至 5070 万，同比下降 2%。同期收入同比增长 53% 至 8.95 亿美元，净利润 2.83 亿美元。\n\n据 Rohan Paul 转述，Reddit 将把登录设为默认体验；第二季度美国 5320 万日活中有 3010 万为未登录浏览，Reddit 还警告下季度日活可能再降两位数百分比。登录用户的广告价值约为未登录访客的 3 倍，登录墙也增加抓取难度，推动 AI 公司转向付费数据合作。\n\n这一转变将先在第四季度于美国以外的部分市场测试，Reddit 尚未给出全球上线时间表。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/d9a88c5c-1b99-4e5b-af6c-dec4f752f180"
+      "story_url": "https://aihot.virxact.com/story/7d33bdf1-51cb-4135-bb00-02ee0f42123d"
+    },
+    {
+      "rank": 7,
+      "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
+      "list_title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
+      "heat": null,
+      "heat_change": "↓ 14 %",
+      "sources": [],
+      "summary": "Anthropic 已向美国 SEC 提交 S-1 注册声明，拟在纳斯达克全球精选市场以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销。发行股数与价格区间尚未确定，注册声明尚未生效，生效前不得出售证券。\n\n招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。截至 9 月底，年支出 10 万美元以上客户超 11,900 家，其中约 250 家客户在截至 9 月 30 日的 12 个月内支出超 1000 万美元。公司称未来可能无法实现或维持盈利。\n\nThe Verge 依据招股书统计，不可撤销采购承诺 2656 亿美元，加上尚未开始的租赁协议 3214 亿美元等，未来 20 年承诺至少约 8500 亿美元。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对董事会组成影响有限。招股书还披露数据中心对天然气的依赖，以及 AI 可能带来灾难性风险等风险因素。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
     },
     {
       "rank": 8,
-      "title": "NVIDIA 发布开放权重语音模型 Nemotron 3.5 Transcribe",
-      "list_title": "NVIDIA 发布开放权重语音模型 Nemotron 3.5 Transcribe",
+      "title": "SpaceX 三季度 AI 收入过半，Anthropic 成最大客户",
+      "list_title": "SpaceX 三季度 AI 收入过半，Anthropic 成最大客户",
       "heat": null,
       "heat_change": "↓ 16 %",
       "sources": [],
-      "summary": "NVIDIA 发布开放权重语音模型 Nemotron 3.5 Transcribe，已在 Hugging Face 和 ModelScope 免费开放，采用 OpenMDW-1.1 许可证；同步公开第 2 版开源语音数据集及训练数据管线 Granary v2。据 NVIDIA 介绍，单一模型支持 40 种语言转写、31 种语言翻译、13 种语言说话人分离和音频问答，可处理最长一小时、最多 8 个说话人的录音。\n\nTechCrunch 称该模型免费、开放权重，但只处理录音，不适用于直播流。MarkTechPost 称其权重以 BF16、FP8、NVFP4 和 GGUF 格式发布，许可允许商用，但配套的服务优化尚未开源；IT之家称量化版本预计后续发布。\n\nArtificial Analysis 称，该模型在其非流式语音转文本榜单上以 2.8% 的词错误率与 Mistral Voxtral Small 并列开放权重第一，总参数 30B、激活参数 4B。",
+      "summary": "SpaceX 第三季度监管文件显示，公司营收 146 亿美元、净利润 44 亿美元，扭转去年同期 10 亿美元亏损；更名后的“Super Intelligence”业务线（含 Cursor、Grok 和 neocloud 算力业务）表现好于投资者预期，AI 占公司收入 52%，算力规模 1.7 GW。TechCrunch 称，利润中约 10 亿美元来自比特币价格回升相关收益及一笔未说明的关联方收入。\n\nBloomberg 披露，SpaceX 文件中的 Customer B 即 Anthropic，占其 145.75 亿美元三季度营收的 34.5%，超过美国政府成为最大客户。相关付款用于租用 SpaceX 孟菲斯数据中心的 Nvidia GPU 算力，该算力租赁业务也服务 Google；双方在 2027 年 1 月和 3 月结束的初始期后，均可提前 90 天通知终止。\n\nSpaceX 在财报电话会上表示，明年将新建 20GW 电力与散热设施；Elon Musk 称公司预计年底前拥有最多 3GW 的 AI 算力，约为当前的 7 倍。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/0aff3bb1-44c6-45f9-92fa-d4d7e6ec3945"
+      "story_url": "https://aihot.virxact.com/story/2ba6c88e-eaa2-47c1-b517-8f89994933d9"
     },
     {
       "rank": 9,
+      "title": "OpenAI重组Model Spec为五项核心价值观",
+      "list_title": "OpenAI重组Model Spec为五项核心价值观",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "OpenAI更新公开的Model Spec，将模型行为准则重组为五项核心价值观：忠实于人类意图、最小化伤害、诚实透明、促进人类自主和关怀。\n\n更新新增关于上下文理解、监督和自主性的指导，调整部分行为默认值，退出大部分详细风格指南，并将模型称呼从“the assistant”改为“GPT”。OpenAI称，Model Spec是其对模型应如何行为的公开描述。\n\nIT之家报道将五项准则表述为忠于人类意图、降低伤害、诚实透明、保障人的自主选择权、审慎尽责，并称忠于人类意图是整套框架的基础，要求模型理解用户、开发者及OpenAI本身的意图而非机械执行指令。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/255f7354-2733-447e-a6cc-f6f065893f9d"
+    },
+    {
+      "rank": 10,
       "title": "纽时称中国情报人员接近黄仁勋，英伟达否认",
       "list_title": "纽时称中国情报人员接近黄仁勋，英伟达否认",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "《纽约时报》援引匿名情报信源报道，美国情报机构约一年来监控新加坡 AI 云公司 Megaspeed 高管 Alice Huang（黄乐），怀疑她借与英伟达 CEO 黄仁勋的密切接触，为中国收集英伟达的计划以及游说特朗普政府放宽对华芯片出口的信息。该报道还称，特朗普约一年前已获知相关情报，但未采取行动，部分原因是保护英伟达股价，以及他与黄仁勋关系密切。上述指控均未获独立证实。\n\n英伟达否认这一说法，称 Megaspeed 只是其区域云客户之一，黄乐与公司官员的接触属例行往来，云客户仅获得普通商业信息，不涉及国家安全相关信息；关于 Megaspeed 将 AI 芯片转运至中国的指控“去年已被彻底调查并证伪”，公司也未收到华盛顿方面的任何预警。此前美国商务部曾调查 Megaspeed 涉嫌向中国转售受限芯片。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"
-    },
-    {
-      "rank": 10,
-      "title": "OpenAI 向 Pro 与 Business 订阅者发放 API 额度",
-      "list_title": "OpenAI 向 Pro 与 Business 订阅者发放 API 额度",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "OpenAI 宣布，符合条件的 ChatGPT Pro 和 Business 订阅者每月可领取最高 500 美元的 API 额度，用于构建应用和智能体；ChatGPT 官方账号称这是限时活动。\n\n额度按套餐分档：Pro 套餐按档位每月为 100、200 或 500 美元；Business 套餐按每个付费 Standard 席位 20 美元或每个付费 Premium 席位 100 美元计算，每个工作区池化上限为 500 美元。领取入口在 ChatGPT 账单页面，用户需在账单页关联 API 组织后使用该月度订阅权益，并可通过 ChatGPT 或 Codex 中的 OpenAI Developers 插件创建 API key 开始使用。\n\nSimon Willison 在博客中称，OpenAI 这项安排与 Anthropic 的类似订阅权益基本相同，即 100、200 或 500 美元档订阅用户可将同额 credits 用于自己的 API 组织。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/08d907d8-e0b3-41bc-b07e-9b475c378c41"
     }
   ]
 }
