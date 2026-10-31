@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-11-01T00:52:10+08:00",
+  "fetched_date": "2026-11-01",
+  "source": {
+    "name": "AIHOT 热点榜",
+    "url": "https://aihot.virxact.com/hot",
+    "note": "过去 48 小时最热的 AI 事件，按精选报道与讨论热度实时排序。本页为全球 AI 视野补充，点击跳转原始来源。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
+      "list_title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
+      "heat": null,
+      "heat_change": "↓ 10 %",
+      "sources": [],
+      "summary": "苹果 10 月 31 日发布公告，宣布面向中国 iPhone 18 Pro 等机型用户，于 11 月 4 日开放 Apple 智能测试，并在 12 月推出的 iOS 27.3 更新中上线首批核心功能。Siri、写作工具及视觉智能将接入阿里千问。\n\n阿里巴巴同日公告称，国行用户可自主选择是否开通千问集成功能，用户请求及生成的回复不会被阿里用于模型训练。该功能面向在中国购买支持 Apple 智能的 iPhone 用户，或设备定位和 Apple 账户国家/地区均设置在中国的用户。\n\n据 The Verge 报道，此次上线不包括新版 Siri AI，中国用户暂时无法使用这一 Siri 功能。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c"
+    },
+    {
+      "rank": 2,
+      "title": "Claude Max 套餐更名，Ultra 取消 5 小时限制",
+      "list_title": "Claude Max 套餐更名，Ultra 取消 5 小时限制",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "Anthropic 将 Claude 的 Max 5x 更名为 Max、Max 20x 更名为 Ultra，价格不变：Max 仍为每月 100 美元，Ultra 仍为每月 200 美元，现有订阅者无需操作。\n\n同时，Anthropic 从当天起为大多数现有已验证 Ultra 账户取消 5 小时使用限制。较新账户在完成验证前仍保留临时限制，Anthropic 称这是为防止欺诈和滥用；解除限制时会收到邮件。周限额保持不变。Anthropic 开发者关系人员 Ado Kukic 称，更名后整体限额不变，只是已验证账户不再有 5 小时限制。\n\nIT之家称，Ultra 目前仅作为月度订阅提供。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/2eb1efd4-facd-475f-99c8-b0ba853cb5fb"
+    },
+    {
+      "rank": 3,
+      "title": "Google 卫星在轨 TPU 首次完成 AI 推理并回传俳句",
+      "list_title": "Google 卫星在轨 TPU 首次完成 AI 推理并回传俳句",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "Google 的原型太空数据中心卫星已上线并与地面通信。CEO Sundar Pichai 称，团队向轨道发送指令、启动 TPU 并运行提示词，在地球收到首个完整响应，内容是一首俳句，他称之为 Project Suncatcher 的“hello world”里程碑。Google 在博客中称，生成这首俳句的是星载 Gemma 4 模型；Google DeepMind 开发者体验的 Philipp Schmid 称其为首个在太空运行的大语言模型。Google 官方称，10 月初送入轨道的 4 颗 TPU 已确认能开机、处理提示词并把响应传回地球。\n\n该卫星本月随 SpaceX Falcon 9 与另外 100 多个航天器一同发射，经约三周调试后开始响应。TechCrunch 称，受功耗限制，TPU 每次只能开机约 20 分钟；后续测试将考察芯片在热应力和太空辐射环境下的表现。Google 称，下一阶段计划于 2027 年发射两颗卫星，测试能否在多颗卫星之间分布式执行 AI 计算。\n\nX 用户 Rohan Paul 转发时称这是 AI 推理首次移出地…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/97a8dc0e-3eed-4ad8-b4f8-9e0d65eda0ad"
+    },
+    {
+      "rank": 4,
+      "title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调",
+      "list_title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调",
+      "heat": null,
+      "heat_change": "↓ 10 %",
+      "sources": [],
+      "summary": "OpenAI 员工 Tibo 在 X 上宣布，即日起将 Pro 100/200/500 各档位与 Business Premium 的用量上限翻倍，并明确不会下调 Pro 200 的上限；Work 与 Codex 用量保持不变，dots 的扩展用量上限继续提供且与默认用量分开计算。数小时后，Tibo 又称“用量上限已恢复为双倍”，并把结果归因于用户反馈，但两则帖文均未说明中间限额是否曾被收回，也未交代恢复的具体范围。\n\nThe Decoder 报道称，Pro 100 和 Pro 500 的 Work 与 Codex 配额为原先两倍；Pro 200 在用户反弹后取消了下调计划，并翻倍了较低配额；Plus 保持不变，新订阅已含新配额，老用户自动获得。IT之家另称，Fast 模式消耗额度的速度约为标准模式的 2.5 倍，Ultrafast 则高达 8 倍。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/ac67a6d8-48ee-4878-9ed7-e15bf3701076"
+    },
+    {
+      "rank": 5,
+      "title": "OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿",
+      "list_title": "OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "OpenAI 正洽谈的新一轮融资规模已从至多 300 亿美元下调至约 200 亿美元，目标估值约 1.25 万亿美元。据《金融时报》报道，融资目标较原先减少约 100 亿美元；Bloomberg 称融资规模缩水约 33%，估值目标则从 1.4 万亿美元下调约 11%。谈判仍在进行，The Decoder 此前称交易接近完成。\n\n知情人士称，OpenAI 要求投资者在周五前作出出资承诺，但因部分投资人下调认购额度，首轮交割金额可能低于 200 亿美元。阿联酋国家支持科技基金 MGX 牵头的财团预计为最大出资方，红杉资本、软银等计划参与；作为交易的一部分，OpenAI 还可选择租赁阿联酋新建算力。\n\n但据《华尔街日报》报道，OpenAI 本轮迄今仅募得约 110 亿美元，不到 300 亿美元目标的一半，估值落在 1.25 万亿美元。该报道将缺口归因于 Google、Amazon 和 Intel 季报疲软引发科技股抛售、大投资者兴趣减退。融资尚未完成，条款仍可能变动。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd"
+    },
+    {
+      "rank": 6,
+      "title": "Cursor 扩展市场现恶意 Claude Code 包",
+      "list_title": "Cursor 扩展市场现恶意 Claude Code 包",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Cursor 通报，其 VS Code 扩展市场出现了被恶意修改的 Anthropic.claude-code 2.1.313 版本，该版本并非 Anthropic 官方开发。Cursor 在博客中称，恶意版本在太平洋时间当天约 2:27 至 13:35 之间可供下载，最多影响 4100 名用户，公司将直接联系这些用户；目前没有证据表明该扩展的其他版本或官方分发渠道受到影响。\n\n次日，Cursor 在 X 上给出的受影响上限为 5000 名用户，高于此前博客中的 4100 名。Cursor 称，当日下午已下线整个扩展市场，与相关提供方合作清除恶意软件，并在确认无进一步风险后重新上线；同时建议受影响用户按博客说明排查，并升级到 Claude Code for VS Code 2.1.314。Cursor 还称，此事不影响从 cursor.com/marketplace 下载的其他扩展，也不影响 Grok Bot、Grok 或 Cursor 的其他产品。\n\nArs Technica 报道称，恶意版本 2.1.313 是通过官方账号分发的，在线近 12…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/2bf3a441-7478-435f-9c80-951f7cb5a2f6"
+    },
+    {
+      "rank": 7,
+      "title": "四家AI公司支持robots.txt统一退出信号",
+      "list_title": "四家AI公司支持robots.txt统一退出信号",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "OpenAI、Google、Microsoft 和 Anthropic 表示将采用一项新的 IETF 标准，让发布者在 robots.txt 中用共享的 policy token 一次性声明针对多家 AI 公司的训练退出偏好，不必逐家设置。该信号仍放在网站原有的 robots.txt 文件中，该文件此前已用于指示哪些爬虫可以抓取网站。\n\n各家的落地时间不同：Anthropic 已采用该信号，Google 和 Microsoft 计划明年支持，OpenAI 称将在“未来几个月”内实现。Microsoft 还称将提供更细分的控制，让发布者分别选择退出 AI 训练或 AI grounding。\n\nOpenAI 此前说明，这一新信号不会取代其现有 robots.txt 爬虫控制，现有控制继续有效。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/a28f10be-5030-4347-b3a3-38356ffe393f"
+    },
+    {
+      "rank": 8,
+      "title": "Altman 称本地推理浪费 DRAM 与算力",
+      "list_title": "Altman 称本地推理浪费 DRAM 与算力",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "OpenAI CEO Sam Altman 称，从全球资源分配看，把有限的 DRAM 放在个人电脑里、却只有 5% 的时间在用，这相当糟糕；按每 token 算，数据中心轻松胜出，batch size 为 1 的本地模型按任何利用率指标看都是浪费。他在 X 上评论本地推理时同时承认，本地推理是整个技术栈中唯一没人能对你弃用的部分。\n\nThe Verge 报道称，Altman 是在 Cheeky Pint 播客访谈中被问及供应链短缺（如持续的 RAM 短缺）时作出上述表态的，他认为在供应紧张环境下，云端最大化利用率才是更优解。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/a44b16b7-7b97-41d0-bb96-59c6565a7b2c"
+    },
+    {
+      "rank": 9,
+      "title": "Intel业绩展望不及预期，股价暴跌拖累美政府持股",
+      "list_title": "Intel业绩展望不及预期，股价暴跌拖累美政府持股",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Intel因第四季度业绩展望弱于预期，股价在10月最后一个交易日暴跌约28%至29%，使美国政府持有的10%股份价值缩水120亿美元。\n\n公司预计Q4收入150亿至160亿美元，低于分析师约170亿美元的预期；毛利率将从43%降至37%，且预计无正现金流。CEO陈立武称，PC客户因内存涨价与供应紧张发出放缓信号。\n\n同日科技股遭大规模抛售，Reddit股价同样下跌29%，闪迪跌13%，纳斯达克综合指数创6月以来最大单日跌幅，10月成为该指数自2025年3月以来表现最差的月份。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/bdc1453f-1065-4edf-9452-0bc58ce68689"
+    },
+    {
+      "rank": 10,
+      "title": "AA v5 改版：私有测试集拉大开源闭源差距，Gemini 4 Carbon 登顶",
+      "list_title": "AA v5 改版：私有测试集拉大开源闭源差距，Gemini 4 Carbon 登顶",
+      "heat": null,
+      "heat_change": "↓ 22 %",
+      "sources": [],
+      "summary": "Artificial Analysis 发布 Intelligence Index v5，首次让 60% 的指数权重建立在私有测试集或保留答案上，并新增 FrontierCode 2.0、Terminal-Bench-Science 两项基准，升级 HLE-Diamond、AA-Omniscience v1.1 和 CritPt v2。该机构称，这样做是为了防止针对已知测试题训练模型的“benchmaxxing”。v5 将指数均分为知识工作、编码、科学、通用四类，各占 25%。\n\n改版后排名明显变动：据 The Decoder 报道，Kimi K3.1 Pro 从第 4 降至第 9，开源模型与榜首差距从 3 分扩大到 12 分，Grok 4.7 也下跌 12 分；Nathan Lambert 称，榜单上 8 个闭源模型超过最强的待发布开源权重模型 Kimi K3.1 Pro。The Decoder 同时指出，私有测试集的代价是外部人员无法再检查题目中的错误。\n\nGoogle 的 Gemini 4 Carbon 以 59 分登顶 v5，比 Gemi…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/5a5e06d1-56d2-4b17-a50e-bc07029f84fb"
+    }
+  ]
+}
