@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T01:44:26+08:00",
+  "generated_at": "2026-10-31T10:54:36+08:00",
   "fetched_date": "2026-10-31",
   "source": {
     "name": "AIHOT 热点榜",
@@ -9,17 +9,61 @@
   "items": [
     {
       "rank": 1,
+      "title": "Claude Max 套餐更名，Ultra 取消 5 小时限制",
+      "list_title": "Claude Max 套餐更名，Ultra 取消 5 小时限制",
+      "heat": null,
+      "heat_change": "↑ 67 %",
+      "sources": [],
+      "summary": "Anthropic 将 Claude 的 Max 5x 更名为 Max、Max 20x 更名为 Ultra，价格不变：Max 仍为每月 100 美元，Ultra 仍为每月 200 美元，现有订阅者无需操作。\n\n同时，Anthropic 从当天起为大多数现有已验证 Ultra 账户取消 5 小时使用限制。较新账户在完成验证前仍保留临时限制，Anthropic 称这是为防止欺诈和滥用；解除限制时会收到邮件。周限额保持不变。Anthropic 开发者关系人员 Ado Kukic 称，更名后整体限额不变，只是已验证账户不再有 5 小时限制。\n\nIT之家称，Ultra 目前仅作为月度订阅提供。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/2eb1efd4-facd-475f-99c8-b0ba853cb5fb"
+    },
+    {
+      "rank": 2,
+      "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
+      "list_title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "苹果 10 月 31 日发布公告，宣布面向中国 iPhone 18 Pro 等机型用户，于 11 月 4 日开放 Apple 智能测试，并在 12 月推出的 iOS 27.3 更新中上线首批核心功能。Siri、写作工具及视觉智能将接入阿里千问。\n\n阿里巴巴同日公告称，国行用户可自主选择是否开通千问集成功能，用户请求及生成的回复不会被阿里用于模型训练。该功能面向在中国购买支持 Apple 智能的 iPhone 用户，或设备定位和 Apple 账户国家/地区均设置在中国的用户。\n\n据 The Verge 报道，此次上线不包括新版 Siri AI，中国用户暂时无法使用这一 Siri 功能。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c"
+    },
+    {
+      "rank": 3,
+      "title": "Google 卫星在轨 TPU 首次完成 AI 推理并回传俳句",
+      "list_title": "Google 卫星在轨 TPU 首次完成 AI 推理并回传俳句",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Google 的原型太空数据中心卫星已上线并与地面通信。CEO Sundar Pichai 称，团队向轨道发送指令、启动 TPU 并运行提示词，在地球收到首个完整响应，内容是一首俳句，他称之为 Project Suncatcher 的“hello world”里程碑。Google 在博客中称，生成这首俳句的是星载 Gemma 4 模型；Google DeepMind 开发者体验的 Philipp Schmid 称其为首个在太空运行的大语言模型。Google 官方称，10 月初送入轨道的 4 颗 TPU 已确认能开机、处理提示词并把响应传回地球。\n\n该卫星本月随 SpaceX Falcon 9 与另外 100 多个航天器一同发射，经约三周调试后开始响应。TechCrunch 称，受功耗限制，TPU 每次只能开机约 20 分钟；后续测试将考察芯片在热应力和太空辐射环境下的表现。Google 称，下一阶段计划于 2027 年发射两颗卫星，测试能否在多颗卫星之间分布式执行 AI 计算。\n\nX 用户 Rohan Paul 转发时称这是 AI 推理首次移出地…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/97a8dc0e-3eed-4ad8-b4f8-9e0d65eda0ad"
+    },
+    {
+      "rank": 4,
+      "title": "Mistral 开放万亿参数 Le Chonk 权重，Unsloth 推 1-bit 量化版",
+      "list_title": "Mistral 开放万亿参数 Le Chonk 权重，Unsloth 推 1-bit 量化版",
+      "heat": null,
+      "heat_change": "↓ 18 %",
+      "sources": [],
+      "summary": "Mistral AI 公开了旗舰模型 Mistral Large 4（昵称 Le Chonk）的权重，此前该模型处于公开预览阶段。模型为原生多模态 MoE，总参数约 1T、每 token 激活 49B–52B、上下文 1M token，官方提供 FP8 与 NVFP4 两种版本。权重采用 MIT 衍生的 Mistral Ecosystem Open-Weight License：使用、修改、微调和商业部署免费，但以模型即服务形式对外提供的企业须另行取得 Mistral 商业许可。API 价格同时调整为每百万 token 输入 $0.70、缓存输入 $0.07、输出 $2.10。\n\nMistral 称该模型主打智能体编码与网络安全，在 Cognition 的 FrontierCode 开放模型中排名第一，网络防御能力经 CrowdStrike、Cloudflare、Rubrik、Zscaler 等厂商测试。Artificial Analysis 评测称其以 1.05T 总参数成为非中国开发的最强开放权重模型；The Decoder 则指出其编码领先…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/95f84774-ef5a-41b7-9bd8-fc3d0cbc20ac"
+    },
+    {
+      "rank": 5,
       "title": "AA v5 改版：私有测试集拉大开源闭源差距，Gemini 4 Carbon 登顶",
       "list_title": "AA v5 改版：私有测试集拉大开源闭源差距，Gemini 4 Carbon 登顶",
       "heat": null,
-      "heat_change": "↓ 24 %",
+      "heat_change": "↓ 34 %",
       "sources": [],
       "summary": "Artificial Analysis 发布 Intelligence Index v5，首次让 60% 的指数权重建立在私有测试集或保留答案上，并新增 FrontierCode 2.0、Terminal-Bench-Science 两项基准，升级 HLE-Diamond、AA-Omniscience v1.1 和 CritPt v2。该机构称，这样做是为了防止针对已知测试题训练模型的“benchmaxxing”。v5 将指数均分为知识工作、编码、科学、通用四类，各占 25%。\n\n改版后排名明显变动：据 The Decoder 报道，Kimi K3.1 Pro 从第 4 降至第 9，开源模型与榜首差距从 3 分扩大到 12 分，Grok 4.7 也下跌 12 分；Nathan Lambert 称，榜单上 8 个闭源模型超过最强的待发布开源权重模型 Kimi K3.1 Pro。The Decoder 同时指出，私有测试集的代价是外部人员无法再检查题目中的错误。\n\nGoogle 的 Gemini 4 Carbon 以 59 分登顶 v5，比 Gemi…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/5a5e06d1-56d2-4b17-a50e-bc07029f84fb"
     },
     {
-      "rank": 2,
+      "rank": 6,
       "title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调",
       "list_title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调",
       "heat": null,
@@ -30,92 +74,48 @@
       "story_url": "https://aihot.virxact.com/story/ac67a6d8-48ee-4878-9ed7-e15bf3701076"
     },
     {
-      "rank": 3,
-      "title": "Mistral 开放万亿参数 Le Chonk 权重，Unsloth 推 1-bit 量化版",
-      "list_title": "Mistral 开放万亿参数 Le Chonk 权重，Unsloth 推 1-bit 量化版",
-      "heat": null,
-      "heat_change": "↓ 12 %",
-      "sources": [],
-      "summary": "Mistral AI 公开了旗舰模型 Mistral Large 4（昵称 Le Chonk）的权重，此前该模型处于公开预览阶段。模型为原生多模态 MoE，总参数约 1T、每 token 激活 49B–52B、上下文 1M token，官方提供 FP8 与 NVFP4 两种版本。权重采用 MIT 衍生的 Mistral Ecosystem Open-Weight License：使用、修改、微调和商业部署免费，但以模型即服务形式对外提供的企业须另行取得 Mistral 商业许可。API 价格同时调整为每百万 token 输入 $0.70、缓存输入 $0.07、输出 $2.10。\n\nMistral 称该模型主打智能体编码与网络安全，在 Cognition 的 FrontierCode 开放模型中排名第一，网络防御能力经 CrowdStrike、Cloudflare、Rubrik、Zscaler 等厂商测试。Artificial Analysis 评测称其以 1.05T 总参数成为非中国开发的最强开放权重模型；The Decoder 则指出其编码领先…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/95f84774-ef5a-41b7-9bd8-fc3d0cbc20ac"
-    },
-    {
-      "rank": 4,
-      "title": "Apple发布PROLED XDR屏MacBook Pro，首配触控",
-      "list_title": "Apple发布PROLED XDR屏MacBook Pro，首配触控",
-      "heat": null,
-      "heat_change": "↓ 28 %",
-      "sources": [],
-      "summary": "Apple 发布新款 MacBook Pro，采用 PROLED XDR 显示屏（tandem OLED 技术），宣称峰值亮度最高 2000 nits、对比度 10,000,000:1，并首次在 Mac 上引入 Touch 触控和 Dynamic Island。新机搭载 M5 Pro/M5 Max，11 月 6 日起向消费者发货，并在 Apple Store 和授权经销商处开售。\n\n14 英寸 M5 Pro 版起售价 2,899 美元（教育优惠价 2,749 美元），16 英寸 M5 Pro 版起售价 3,399 美元（教育优惠价 3,199 美元）。\n\n有用户提到，触屏 Mac 曾是 Steve Jobs 公开否定的设计。Apple 同时说明，Siri AI 目前在欧盟的 iOS、iPadOS 和 watchOS 上不可用，公司称正与欧盟沟通寻求解决路径。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/add1dde9-53ea-4f82-9daa-6d50735a149c"
-    },
-    {
-      "rank": 5,
-      "title": "Alphabet Q3营收增25%，AI搜索变现承压",
-      "list_title": "Alphabet Q3营收增25%，AI搜索变现承压",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "Alphabet公布2026年第三季度财报：营收近1280亿美元、同比增长25%，年化收入达5000亿美元；Google Cloud收入同比增长103%至307亿美元，运营利润同比增至三倍、达111亿美元。但公司承认AI搜索的收入低于自然搜索，且明年AI支出还将增加；当季每股收益2.12美元，低于市场预期的3.02美元。\n\n核心搜索广告增速放缓：Google Search收入增速从上季度的17%降至12%。财报电话会上，Google宣布将AI Mode中的广告首次扩展至国际市场，并在美国推出多轮对话广告；Google称，AI Mode中赞助商品列表的点击率已与自然结果相当。\n\n财报后股价一度下跌约13%，当时跌近12%。Sundar Pichai称，Search查询同比增速为五年来最高，1P模型API每分钟处理近32B tokens、环比增40%。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/c432aa2e-0614-4744-8618-1769e016569b"
-    },
-    {
-      "rank": 6,
-      "title": "Reddit 转向登录优先，应对 AI 搜索流量下滑",
-      "list_title": "Reddit 转向登录优先，应对 AI 搜索流量下滑",
+      "rank": 7,
+      "title": "Reddit 转向登录优先，应对搜索流量流失",
+      "list_title": "Reddit 转向登录优先，应对搜索流量流失",
       "heat": null,
       "heat_change": "",
       "sources": [],
-      "summary": "Reddit 在第三季度财报中宣布，将转向以登录用户为主的体验，以保护数据不被 AI 抓取并提升广告变现。公司称，10 月搜索流量平均每周减少超过 100 万次引荐；第三季度全球日活为 1.303 亿，其中美国日活降至 5070 万，同比下降 2%。同期收入同比增长 53% 至 8.95 亿美元，净利润 2.83 亿美元。\n\n据 Rohan Paul 转述，Reddit 将把登录设为默认体验；第二季度美国 5320 万日活中有 3010 万为未登录浏览，Reddit 还警告下季度日活可能再降两位数百分比。登录用户的广告价值约为未登录访客的 3 倍，登录墙也增加抓取难度，推动 AI 公司转向付费数据合作。\n\n这一转变将先在第四季度于美国以外的部分市场测试，Reddit 尚未给出全球上线时间表。",
+      "summary": "Reddit 在第三季度财报中宣布转向以登录用户为主的体验，以保护数据不被 AI 抓取并提升广告变现。公司称 10 月搜索引荐流量平均每周减少超过 100 万次；第三季度全球日活 1.303 亿，美国日活降至 5070 万，同比下降 2%。同期收入同比增长 53% 至 8.95 亿美元，净利润 2.83 亿美元。\n\nCEO Steve Huffman 将流量流失归因于 Google 的 AI Mode，称其“不为任何人带来流量”。据 Rohan Paul 转述，Reddit 将把登录设为默认；第二季度美国 5320 万日活中有 3010 万为未登录浏览，Reddit 警告下季度日活可能再降两位数百分比。登录用户的广告价值约为未登录访客的 3 倍。\n\n这一转变将先在第四季度于美国以外的部分市场测试登录墙，Reddit 尚未给出全球上线时间表。The Decoder 报道称，尽管业绩强劲，Reddit 股价仍下跌超过 25%。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/7d33bdf1-51cb-4135-bb00-02ee0f42123d"
     },
     {
-      "rank": 7,
-      "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
-      "list_title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
-      "heat": null,
-      "heat_change": "↓ 14 %",
-      "sources": [],
-      "summary": "Anthropic 已向美国 SEC 提交 S-1 注册声明，拟在纳斯达克全球精选市场以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销。发行股数与价格区间尚未确定，注册声明尚未生效，生效前不得出售证券。\n\n招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。截至 9 月底，年支出 10 万美元以上客户超 11,900 家，其中约 250 家客户在截至 9 月 30 日的 12 个月内支出超 1000 万美元。公司称未来可能无法实现或维持盈利。\n\nThe Verge 依据招股书统计，不可撤销采购承诺 2656 亿美元，加上尚未开始的租赁协议 3214 亿美元等，未来 20 年承诺至少约 8500 亿美元。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对董事会组成影响有限。招股书还披露数据中心对天然气的依赖，以及 AI 可能带来灾难性风险等风险因素。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
-    },
-    {
       "rank": 8,
-      "title": "SpaceX 三季度 AI 收入过半，Anthropic 成最大客户",
-      "list_title": "SpaceX 三季度 AI 收入过半，Anthropic 成最大客户",
+      "title": "Intel业绩展望不及预期，股价暴跌致美政府持股缩水120亿美元",
+      "list_title": "Intel业绩展望不及预期，股价暴跌致美政府持股缩水120亿美元",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "SpaceX 第三季度监管文件显示，公司营收 146 亿美元、净利润 44 亿美元，扭转去年同期 10 亿美元亏损；更名后的“Super Intelligence”业务线（含 Cursor、Grok 和 neocloud 算力业务）表现好于投资者预期，AI 占公司收入 52%，算力规模 1.7 GW。TechCrunch 称，利润中约 10 亿美元来自比特币价格回升相关收益及一笔未说明的关联方收入。\n\nBloomberg 披露，SpaceX 文件中的 Customer B 即 Anthropic，占其 145.75 亿美元三季度营收的 34.5%，超过美国政府成为最大客户。相关付款用于租用 SpaceX 孟菲斯数据中心的 Nvidia GPU 算力，该算力租赁业务也服务 Google；双方在 2027 年 1 月和 3 月结束的初始期后，均可提前 90 天通知终止。\n\nSpaceX 在财报电话会上表示，明年将新建 20GW 电力与散热设施；Elon Musk 称公司预计年底前拥有最多 3GW 的 AI 算力，约为当前的 7 倍。",
+      "summary": "Intel因第四季度业绩展望弱于预期，股价单日下跌约28%，使美国政府持有的10%股份价值缩水120亿美元。\n\n公司预计Q4收入150亿至160亿美元，低于分析师约170亿美元的预期；毛利率将从43%降至37%，且预计无正现金流。CEO陈立武称，PC客户因内存涨价与供应紧张发出放缓信号。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/2ba6c88e-eaa2-47c1-b517-8f89994933d9"
+      "story_url": "https://aihot.virxact.com/story/bdc1453f-1065-4edf-9452-0bc58ce68689"
     },
     {
       "rank": 9,
-      "title": "OpenAI重组Model Spec为五项核心价值观",
-      "list_title": "OpenAI重组Model Spec为五项核心价值观",
+      "title": "四家AI公司支持robots.txt统一退出信号",
+      "list_title": "四家AI公司支持robots.txt统一退出信号",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↑ 84 %",
       "sources": [],
-      "summary": "OpenAI更新公开的Model Spec，将模型行为准则重组为五项核心价值观：忠实于人类意图、最小化伤害、诚实透明、促进人类自主和关怀。\n\n更新新增关于上下文理解、监督和自主性的指导，调整部分行为默认值，退出大部分详细风格指南，并将模型称呼从“the assistant”改为“GPT”。OpenAI称，Model Spec是其对模型应如何行为的公开描述。\n\nIT之家报道将五项准则表述为忠于人类意图、降低伤害、诚实透明、保障人的自主选择权、审慎尽责，并称忠于人类意图是整套框架的基础，要求模型理解用户、开发者及OpenAI本身的意图而非机械执行指令。",
+      "summary": "OpenAI、Google、Microsoft 和 Anthropic 表示将采用一项新的 IETF 标准，让发布者在 robots.txt 中用共享的 policy token 一次性声明针对多家 AI 公司的训练退出偏好，不必逐家设置。该信号仍放在网站原有的 robots.txt 文件中，该文件此前已用于指示哪些爬虫可以抓取网站。\n\n各家的落地时间不同：Anthropic 已采用该信号，Google 和 Microsoft 计划明年支持，OpenAI 称将在“未来几个月”内实现。Microsoft 还称将提供更细分的控制，让发布者分别选择退出 AI 训练或 AI grounding。\n\nOpenAI 此前说明，这一新信号不会取代其现有 robots.txt 爬虫控制，现有控制继续有效。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/255f7354-2733-447e-a6cc-f6f065893f9d"
+      "story_url": "https://aihot.virxact.com/story/a28f10be-5030-4347-b3a3-38356ffe393f"
     },
     {
       "rank": 10,
-      "title": "纽时称中国情报人员接近黄仁勋，英伟达否认",
-      "list_title": "纽时称中国情报人员接近黄仁勋，英伟达否认",
+      "title": "Alphabet Q3营收增25%，AI搜索变现承压",
+      "list_title": "Alphabet Q3营收增25%，AI搜索变现承压",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↓ 25 %",
       "sources": [],
-      "summary": "《纽约时报》援引匿名情报信源报道，美国情报机构约一年来监控新加坡 AI 云公司 Megaspeed 高管 Alice Huang（黄乐），怀疑她借与英伟达 CEO 黄仁勋的密切接触，为中国收集英伟达的计划以及游说特朗普政府放宽对华芯片出口的信息。该报道还称，特朗普约一年前已获知相关情报，但未采取行动，部分原因是保护英伟达股价，以及他与黄仁勋关系密切。上述指控均未获独立证实。\n\n英伟达否认这一说法，称 Megaspeed 只是其区域云客户之一，黄乐与公司官员的接触属例行往来，云客户仅获得普通商业信息，不涉及国家安全相关信息；关于 Megaspeed 将 AI 芯片转运至中国的指控“去年已被彻底调查并证伪”，公司也未收到华盛顿方面的任何预警。此前美国商务部曾调查 Megaspeed 涉嫌向中国转售受限芯片。",
+      "summary": "Alphabet公布2026年第三季度财报：营收近1280亿美元、同比增长25%，年化收入达5000亿美元；Google Cloud收入同比增长103%至307亿美元，运营利润同比增至三倍、达111亿美元。但公司承认AI搜索的收入低于自然搜索，且明年AI支出还将增加；当季每股收益2.12美元，低于市场预期的3.02美元。\n\n核心搜索广告增速放缓：Google Search收入增速从上季度的17%降至12%。财报电话会上，Google宣布将AI Mode中的广告首次扩展至国际市场，并在美国推出多轮对话广告；Google称，AI Mode中赞助商品列表的点击率已与自然结果相当。\n\n财报后股价一度下跌约13%，当时跌近12%。BBC报道称，因担忧企业对AI的巨额投资回报，美股科技股连续第二日大跌。Sundar Pichai称，Search查询同比增速为五年来最高，1P模型API每分钟处理近32B tokens、环比增40%。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"
+      "story_url": "https://aihot.virxact.com/story/c432aa2e-0614-4744-8618-1769e016569b"
     }
   ]
 }
