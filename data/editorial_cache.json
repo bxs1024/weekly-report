@@ -1081,29 +1081,29 @@
       "generated_at": "2026-10-24 13:32"
     },
     "weekly:2026-W44": {
-      "input_hash": "c81392c4c4ad73286b6ecda009591d9be74f311798e6f4e938a7b1d7ff391f68",
+      "input_hash": "f6bb4ea58247ebd9fa9be997ea20edfe376b1d0d1c6d2aab5a38f7ca3c9cd4b6",
       "editorial": {
-        "editorial_title": "英伟达溢价绑韩AI基建，中资云商加速出海",
-        "mainline": "英伟达以19%溢价入股Naver，把AI芯片与韩国互联网入口深度绑定；腾讯云同期加速国际化，Databricks与SAP整合数据与AI能力。亚太AI基础设施正从采购关系转向股权与生态绑定，出海BD需重新评估本地算力伙伴的排他性条款。",
+        "editorial_title": "英伟达溢价锚定Naver，亚太AI基建与支付同步扩网",
+        "mainline": "英伟达以19%溢价入股Naver，把AI芯片与韩国互联网入口深度绑定；同期腾讯云加速国际化、蚂蚁国际以AI推进普惠金融出海。两条线共同指向亚太AI基础设施与跨境支付网络正在被资本和本地伙伴重新编织。",
         "themes": {
-          "ai_infra": "英伟达以19%溢价向Naver注资10亿美元，将GPU供应与韩国搜索、地图、电商入口捆绑；腾讯因国内AI竞争加剧转向海外扩张，Cloudflare同步完善Access自定义页面。算力合作正从卖卡转向股权与流量互换。",
-          "expansion": "腾讯云加速国际化并扩展全球合作，Roblox任命Joel Neoh执掌东南亚，Databricks与SAP整合数据与AI能力，Naver在沙特上线Balady Plus地图。中资云商与欧美数据平台同步抢占区域生态位。",
-          "payments": "Adyen推出Visa Payment Passkey在线结账，Nubank计划进军美国银行业，三星钱包联手乐天推返现。生物识别结账从试点走向主流收单商默认选项，跨境商户的合规与转化率需重算。",
-          "developer": "蚂蚁国际CEO称AI将加速普惠金融全球化，AI股票研究平台扩展业务规模，比特币反弹至81000美元但10月表现六年最弱。支付巨头的AI叙事正从风控工具转向跨境API与本地化伙伴网络。",
-          "commerce": "现代格罗唯视与Shopee合作服务7亿电商用户，Binance推出CIS和CEE市场P2P商户推荐计划，Chargebacks911上线防AI代理拒付工具，Shopify物流标签支持欧盟产品标识符。跨境物流与合规工具同步扩围。",
-          "operations": "东南亚创始人更重美国营收而非美国投资，Gap推出AI招聘工具Bridgette，Krafton营收增29%而Kakao Games业绩暴跌。出海团队正把美国市场当收入来源而非融资跳板，组织效率工具同步AI化。"
+          "ai_infra": "英伟达以19%溢价向Naver注资10亿美元，把AI芯片供应与韩国搜索、电商入口直接挂钩；腾讯因国内AI竞争加剧转向海外扩张，Cloudflare同步更新Access自定义页面。算力合作正从卖芯片转向绑定区域流量入口。",
+          "expansion": "Square Enix将FFXIV新资料片推迟至2027年2月，打乱亚太游戏发行与云合作节奏；腾讯云加速国际化，Roblox任命Joel Neoh掌管东南亚，Databricks与SAP整合数据与AI。内容管线延后与平台本地化扩编同时发生。",
+          "payments": "Adyen上线Visa Payment Passkey在线结账，把生物识别推入结账标准；Nubank计划进军美国银行业，三星钱包联手乐天推返现。支付竞争从费率转向安全标准与跨市场账户体系。",
+          "developer": "蚂蚁国际CEO称AI将加速普惠金融全球化，指向东南亚与拉美跨境支付API合作；分析指全球电池竞赛绕不开香港，AI股票研究平台扩规模。金融科技出海与硬件供应链融资在香港交汇。",
+          "operations": "东南亚创始人更重美国营收而非美国投资，跨境支付与合规服务需求随之上升；Krafton营收增29%而Kakao Games业绩暴跌，Gap推出AI招聘工具。组织重心从融资叙事转向营收验证。",
+          "commerce": "现代格罗唯视与Shopee合作服务7亿电商用户，把韩国物流能力接入东南亚；Shopify物流标签支持欧盟产品标识符，Chargebacks911推出防AI代理拒付工具。跨境履约与合规标签同步升级。"
         },
         "theme_titles": {
-          "ai_infra": "英伟达溢价入股Naver，亚太AI算力绑定加深",
-          "expansion": "腾讯云提速国际化，Databricks联手SAP补AI数据层",
-          "payments": "Adyen接入Visa支付密钥，在线结账安全标准升级",
-          "developer": "蚂蚁国际押注AI普惠金融，跨境API合作窗口打开",
-          "commerce": "现代格罗唯视接入Shopee，东南亚电商物流扩网",
-          "operations": "东南亚创始人转向美国营收，组织工具AI化提速"
+          "ai_infra": "英伟达溢价入股Naver，亚太AI算力绑定互联网入口",
+          "expansion": "FFXIV资料片延至2027，腾讯云与Roblox同步扩亚太",
+          "payments": "Adyen接入Visa支付密钥，Nubank北上美国银行业",
+          "developer": "蚂蚁国际以AI推普惠金融出海，电池竞赛绕道香港",
+          "operations": "东南亚创始人转向美国营收，Kakao Games业绩暴跌",
+          "commerce": "现代格罗唯视接入Shopee，电商物流基建扩至7亿用户"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-11-01 05:31"
+      "generated_at": "2026-11-01 15:18"
     }
   }
 }

@@ -1,53 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-10-31</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-11-01</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-10-31T21:31:25Z</updated>
+  <updated>2026-11-01T07:18:18Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Baseten瞄准$30B估值融资</title>
-    <link href="https://www.techinasia.com/news/ai-inference-startup-baseten-targets-30b-valuation"/>
-    <id>tag:weekly-report,2026:event-f50815c0</id>
-    <published>2026-10-31T00:00:00Z</published>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;US AI inference startup Baseten targets $30b valuation&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国AI推理服务初创公司Baseten正寻求以300亿美元估值进行融资&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国AI推理初创瞄准300亿美元估值，推理层算力服务成为资本新热点，云厂商推理API竞争加剧&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：北美 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>Reddit因谷歌AI削减流量股价跌29%</title>
+    <link href="https://www.techinasia.com/news/reddit-sinks-29-q4-outlook-google-ai-cuts-traffic"/>
+    <id>tag:weekly-report,2026:event-0ff716ff</id>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Reddit sinks 29% on Q4 outlook as Google AI cuts traffic&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Reddit因四季度展望不及预期股价暴跌29%，主因谷歌AI搜索摘要削减了Reddit的搜索流量&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;谷歌AI搜索摘要冲击内容平台流量，依赖搜索导流的社区平台商业模式面临重构&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>StockGro FY26利润增3.3倍至₹113Cr，营收翻倍</title>
-    <link href="https://inc42.com/buzz/ipo-bound-stockgros-fy26-profit-jumps-3-3x-yoy-to-%e2%82%b9113-cr-revenue-doubles/"/>
-    <id>tag:weekly-report,2026:event-98c0410d</id>
-    <published>2026-10-31T00:00:00Z</published>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;IPO-Bound StockGro’s FY26 Profit Jumps 3.3X YoY To ₹113 Cr, Revenue Doubles&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度投资教育平台StockGro公布FY26业绩，利润同比增长3.3倍至1.13亿卢比，营收翻倍，公司正筹备IPO&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度投资教育平台StockGro利润营收双爆发并冲刺IPO，反映印度散户投资教育赛道商业化提速，为金融内容与券商合作带来机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：earnings | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
+    <title>UiPath发布中东代理式AI市场战略</title>
+    <link href="https://www.therecursive.com/uipaths-eight-years-in-dubai-inside-the-strategy-for-winning-in-the-middle-east-agentic-ai-market/"/>
+    <id>tag:weekly-report,2026:event-4c5703ce</id>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;UiPath’s Eight Years in Dubai: Inside the Strategy for Winning in the Middle East Agentic AI Market&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;UiPath总结其在迪拜运营八年的经验，阐述争夺中东代理式AI市场的战略布局&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东代理式AI市场成为自动化厂商争夺焦点，海湾企业数字化转型预算流向RPA与AI代理平台&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：中东 | 来源：The Recursive&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>英伟达考虑为Nscale西弗吉尼亚AI数据中心做联合担保</title>
-    <link href="https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"/>
-    <id>tag:weekly-report,2026:event-fd6fb1d2</id>
-    <published>2026-10-31T00:00:00Z</published>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英伟达正考虑为Nscale位于西弗吉尼亚州的AI数据中心项目担任联合签署方&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;英伟达以担保方身份介入AI数据中心融资，将GPU供应与数据中心资产绑定，可能重塑AI算力基础设施的融资模式&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>OPay撤回IPO计划</title>
-    <link href="https://weetracker.com/2026/10/31/opay-ipo-withdrawal-fintech-reality-check/"/>
-    <id>tag:weekly-report,2026:event-b135c278</id>
-    <published>2026-10-31T00:00:00Z</published>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;OPay’s Scrapped IPO Exposes Gap Between African Fintech Hype &amp;amp; Public Market Reality&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;非洲金融科技公司OPay撤回IPO计划，暴露非洲金融科技估值与公开市场现实之间的差距&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲金融科技IPO遇阻，一级市场高估值与公开市场接受度脱节，同类公司融资节奏或放缓&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：非洲 | 来源：WeeTracker&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Chamet扩大AI审核应对新加坡新规</title>
-    <link href="https://www.techinasia.com/news/hk-chat-app-chamet-expands-ai-checks-singapore-tightens-rules"/>
-    <id>tag:weekly-report,2026:event-2f3b212e</id>
-    <published>2026-10-31T00:00:00Z</published>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;HK live app Chamet expands AI checks as Singapore tightens rules&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;香港直播社交应用Chamet扩大AI内容审核范围，以应对新加坡收紧的监管规则&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;香港社交直播应用Chamet因新加坡监管收紧而扩大AI内容审核，东南亚社交平台合规技术采购需求上升&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>Shopify物流标签支持欧盟产品标识符</title>
+    <link href="https://changelog.shopify.com/posts/new-eu-product-identifiers-supported-on-shopify-shipping-managed-markets-labels"/>
+    <id>tag:weekly-report,2026:event-63f26ebf</id>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;New EU Product identifiers supported on Shopify Shipping &amp;amp; Managed Markets labels&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Shopify Shipping和Managed Markets标签新增对欧盟产品标识符的支持，帮助商家满足欧盟产品合规要求&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Shopify发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Shopify | 来源：Shopify Changelog&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-11-01</title>
@@ -55,6 +39,6 @@
     <id>tag:weekly-report,2026:aihot-a71b6cf4</id>
     <published>2026-11-01T00:00:00Z</published>
     <updated>2026-11-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-01T00:52&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c"&gt;苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/2eb1efd4-facd-475f-99c8-b0ba853cb5fb"&gt;Claude Max 套餐更名，Ultra 取消 5 小时限制&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/97a8dc0e-3eed-4ad8-b4f8-9e0d65eda0ad"&gt;Google 卫星在轨 TPU 首次完成 AI 推理并回传俳句&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/ac67a6d8-48ee-4878-9ed7-e15bf3701076"&gt;OpenAI 付费档用量上限翻倍，Pro 200 取消下调&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd"&gt;OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-01T10:48&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c"&gt;苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/2eb1efd4-facd-475f-99c8-b0ba853cb5fb"&gt;Claude Max 套餐更名，Ultra 取消 5 小时限制&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/a44b16b7-7b97-41d0-bb96-59c6565a7b2c"&gt;Altman 称本地推理浪费 DRAM 与算力&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd"&gt;OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/97a8dc0e-3eed-4ad8-b4f8-9e0d65eda0ad"&gt;Google 卫星在轨 TPU 首次完成 AI 推理并回传俳句&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
