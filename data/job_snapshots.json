@@ -1,19 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-11-01T05:22:09.864471+08:00",
+  "generated_at": "2026-11-01T15:06:02.653424+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-01T05:22:09.864471+08:00",
+      "observed_at": "2026-11-01T15:06:02.653424+08:00",
       "jobs": [
-        {
-          "id": "744000158686599",
-          "title": "Senior software engineer Test",
-          "url": "https://www.grab.careers/en/jobs/744000158686599/senior-software-engineer-test/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
         {
           "id": "744000158659289",
           "title": "Software Engineer, Perception (Robotics)",
@@ -60,15 +52,6 @@
           "url": "https://www.grab.careers/en/jobs/744000158429519/senior-solution-specialist-people-systems-time-and-absence/",
           "function_tags": [
             "operations"
-          ]
-        },
-        {
-          "id": "744000158286669",
-          "title": "Platform Developer, Commercial Systems - Salesforce",
-          "url": "https://www.grab.careers/en/jobs/744000158286669/platform-developer-commercial-systems-salesforce/",
-          "function_tags": [
-            "engineering",
-            "sales"
           ]
         },
         {
@@ -124,12 +107,26 @@
           "function_tags": [
             "partnerships"
           ]
+        },
+        {
+          "id": "744000157961769",
+          "title": "Intern, Occupational Health, Safety, & Wellbeing",
+          "url": "https://www.grab.careers/en/jobs/744000157961769/intern-occupational-health-safety-wellbeing/",
+          "function_tags": []
+        },
+        {
+          "id": "744000157961609",
+          "title": "Intern, Marketing and Partnership (GrabRentals)",
+          "url": "https://www.grab.careers/en/jobs/744000157961609/intern-marketing-and-partnership-grabrentals/",
+          "function_tags": [
+            "partnerships"
+          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-01T05:22:09.864471+08:00",
+      "observed_at": "2026-11-01T15:06:02.653424+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -170,7 +167,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-01T05:22:09.864471+08:00",
+      "observed_at": "2026-11-01T15:06:02.653424+08:00",
       "jobs": [
         {
           "id": "1affb074-f055-4f5a-a97e-80d97d77da6e",
