@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-11-01T15:06:02.653424+08:00",
+  "observed_at": "2026-11-02T05:56:35.507325+08:00",
   "source_count": 3,
   "raw_count": 46,
   "source_stats": {
@@ -8,18 +8,13 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 4,
+      "count": 0,
       "inventory_count": 16,
-      "signal_count": 1,
-      "added_count": 2,
-      "removed_count": 2,
-      "clusters": {
-        "partnerships": 1
-      },
-      "removed_clusters": {
-        "engineering": 2,
-        "sales": 1
-      }
+      "signal_count": 0,
+      "added_count": 0,
+      "removed_count": 0,
+      "clusters": {},
+      "removed_clusters": {}
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
@@ -48,61 +43,6 @@
       "removed_clusters": {}
     }
   },
-  "candidate_signals": [
-    {
-      "candidate_id": "jobs-27181d0d34474788",
-      "entity_id": "grab",
-      "entity": "Grab",
-      "region": "亚太",
-      "sector": "mobility_payment",
-      "source_type": "jobs_snapshot",
-      "signal_type": "function_buildout",
-      "cluster": "partnerships",
-      "window": "2026-W44",
-      "window_start": "2026-11-01",
-      "window_end": "2026-11-01",
-      "detected_at": "2026-11-01T15:06:02.653424+08:00",
-      "baseline_count": 16,
-      "current_count": 16,
-      "added_count": 2,
-      "removed_count": 2,
-      "clusters": {
-        "partnerships": 1
-      },
-      "removed_clusters": {
-        "engineering": 2,
-        "sales": 1
-      },
-      "evidence_refs": [
-        {
-          "job_id": "744000157961769",
-          "title": "Intern, Occupational Health, Safety, & Wellbeing",
-          "url": "https://www.grab.careers/en/jobs/744000157961769/intern-occupational-health-safety-wellbeing/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000157961609",
-          "title": "Intern, Marketing and Partnership (GrabRentals)",
-          "url": "https://www.grab.careers/en/jobs/744000157961609/intern-marketing-and-partnership-grabrentals/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000158686599",
-          "title": "Senior software engineer Test",
-          "url": "https://www.grab.careers/en/jobs/744000158686599/senior-software-engineer-test/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000158286669",
-          "title": "Platform Developer, Commercial Systems - Salesforce",
-          "url": "https://www.grab.careers/en/jobs/744000158286669/platform-developer-commercial-systems-salesforce/",
-          "change": "removed"
-        }
-      ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_cluster_strength",
-      "promoted_event_id": ""
-    }
-  ],
+  "candidate_signals": [],
   "promoted_count": 0
 }
