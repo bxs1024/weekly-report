@@ -1104,6 +1104,25 @@
       },
       "channel": "DeepSeek",
       "generated_at": "2026-11-01 15:18"
+    },
+    "weekly:2026-W45": {
+      "input_hash": "8f9f5e3da7f3e9623bddf171be7bb9edb051ffabaef891967f4cb95ff7b44717",
+      "editorial": {
+        "editorial_title": "中东政企云开闸，小游戏双向通道成形",
+        "mainline": "腾讯云借本地伙伴切入沙特政企AI采购，同期韩国厂商上线微信小游戏、台湾深科技组团赴新，出海路径从基建转向生态嵌入；东南亚VNG利润跑赢营收，提示数字娱乐与支付的盈利质量正在改善。",
+        "themes": {
+          "ai_infra": "腾讯云与OmniOps联手推进沙特企业AI，同期三星SDS与LG CNS瞄准亚洲AI数据中心，中东与亚洲的政企云采购正从国际巨头向本地伙伴联合体分流。",
+          "expansion": "Neptune将Idle Cat Gunner推上微信小游戏，Adyen覆盖JINS日本150家门店，台湾33家深科技初创组团赴新加坡，出海通道从平台入驻向线下收单与区域跳板并行展开。",
+          "operations": "VNG利润增速超过营收增速，Grab同期新增8个工程与平台职位，东南亚数字娱乐与支付平台正从规模扩张转向盈利质量与平台能力的同步加固。"
+        },
+        "theme_titles": {
+          "ai_infra": "腾讯云借OmniOps切入沙特政企AI采购",
+          "expansion": "韩国游戏商上线微信小游戏，台湾深科技赴新",
+          "operations": "VNG利润增速跑赢营收，Grab扩招工程岗"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-11-02 15:22"
     }
   }
 }

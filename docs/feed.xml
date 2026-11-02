@@ -1,53 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-11-01</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-11-02</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-11-01T22:05:00Z</updated>
+  <updated>2026-11-02T07:22:47Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Reddit因谷歌AI削减流量股价跌29%</title>
-    <link href="https://www.techinasia.com/news/reddit-sinks-29-q4-outlook-google-ai-cuts-traffic"/>
-    <id>tag:weekly-report,2026:event-0ff716ff</id>
-    <published>2026-11-01T00:00:00Z</published>
-    <updated>2026-11-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Reddit sinks 29% on Q4 outlook as Google AI cuts traffic&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Reddit因四季度展望不及预期股价暴跌29%，主因谷歌AI搜索摘要削减了Reddit的搜索流量&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;谷歌AI搜索摘要冲击内容平台流量，依赖搜索导流的社区平台商业模式面临重构&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>STT GDC寻求$2.4B贷款</title>
+    <link href="https://www.techinasia.com/news/singapore-data-center-firm-stt-gdc-seeks-24b-loan"/>
+    <id>tag:weekly-report,2026:event-0f6ac3bc</id>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Singapore data center firm STT GDC seeks $2.4b loan&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡数据中心运营商STT GDC正在寻求24亿美元贷款融资，用于业务扩张&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太数据中心运营商大额融资，反映东南亚AI算力基建需求持续升温，设备采购和建设合作机会增加&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>UiPath发布中东代理式AI市场战略</title>
-    <link href="https://www.therecursive.com/uipaths-eight-years-in-dubai-inside-the-strategy-for-winning-in-the-middle-east-agentic-ai-market/"/>
-    <id>tag:weekly-report,2026:event-4c5703ce</id>
-    <published>2026-11-01T00:00:00Z</published>
-    <updated>2026-11-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;UiPath’s Eight Years in Dubai: Inside the Strategy for Winning in the Middle East Agentic AI Market&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;UiPath总结其在迪拜运营八年的经验，阐述争夺中东代理式AI市场的战略布局&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东代理式AI市场成为自动化厂商争夺焦点，海湾企业数字化转型预算流向RPA与AI代理平台&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：中东 | 来源：The Recursive&lt;/p&gt;</summary>
+    <title>Evo Commerce通过优先股融资$6.4m</title>
+    <link href="https://dealstreetasia.com/stories/evo-commerce-preference-share-issuance-499783/"/>
+    <id>tag:weekly-report,2026:event-1b539a58</id>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Singapore&amp;#x27;s Evo Commerce raises $6.4m via preference shares&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡电商公司Evo Commerce通过优先股发行融资640万美元&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡电商公司Evo Commerce获640万美元优先股融资，东南亚电商赛道早期融资保持活跃&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：DealStreetAsia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>OPay COO称产品需为尼日利亚最差条件设计</title>
-    <link href="https://techcabal.com/2026/11/01/build-for-nigerias-worst-day-says-opay-coo-dotun-adekunle/"/>
-    <id>tag:weekly-report,2026:event-3e231df1</id>
-    <published>2026-11-01T00:00:00Z</published>
-    <updated>2026-11-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Build for Nigeria’s worst day, says OPay COO Dotun Adekunle&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;非洲金融科技公司OPay首席运营官Dotun Adekunle表示，产品设计应以尼日利亚最恶劣的基础设施条件为基准&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲金融科技OPay强调极端基础设施下的产品韧性，为离线支付、低带宽解决方案供应商带来合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：非洲 | 来源：TechCabal&lt;/p&gt;</summary>
+    <title>亚洲家族财富传承计划普遍延迟</title>
+    <link href="https://fintechnews.sg/140152/wealthtech/family-wealth-succession-dbs/"/>
+    <id>tag:weekly-report,2026:event-86433af9</id>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Wealthy Families Delay Succession Plans as Founders Refuse to Let Go&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;报告显示亚洲富裕家族因创始人拒绝放手而推迟财富传承计划，DBS相关研究揭示传承规划延迟趋势&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚洲家族财富传承延迟趋势，对财富科技平台和DBS等私人银行数字化传承工具需求上升&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Meesho探索广告与金融等新变现引擎</title>
-    <link href="https://inc42.com/features/meeshos-next-monetisation-engines/"/>
-    <id>tag:weekly-report,2026:event-988a7eef</id>
-    <published>2026-11-01T00:00:00Z</published>
-    <updated>2026-11-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Meesho’s Next Monetisation Engines&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度电商平台Meesho正在探索广告、金融服务等新的变现渠道，以拓展收入来源&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度电商Meesho从佣金模式向广告和金融科技变现延伸，为供应链服务商和广告技术公司创造合作窗口&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
+    <title>Thunes与银联提升中国跨境支付上限至$10K</title>
+    <link href="https://fintechnews.sg/140134/payments/thunes-unionpay/"/>
+    <id>tag:weekly-report,2026:event-2c9824a7</id>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Thunes and UnionPay Raise Daily Payout Limit to US$10,000 in China&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;支付公司Thunes与银联合作，将中国跨境每日支付上限提升至1万美元&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Thunes与银联合作提升中国跨境支付上限，跨境汇款通道扩容，支付基础设施合作机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：北美 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Shopify物流标签支持欧盟产品标识符</title>
-    <link href="https://changelog.shopify.com/posts/new-eu-product-identifiers-supported-on-shopify-shipping-managed-markets-labels"/>
-    <id>tag:weekly-report,2026:event-63f26ebf</id>
-    <published>2026-11-01T00:00:00Z</published>
-    <updated>2026-11-01T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;New EU Product identifiers supported on Shopify Shipping &amp;amp; Managed Markets labels&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Shopify Shipping和Managed Markets标签新增对欧盟产品标识符的支持，帮助商家满足欧盟产品合规要求&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Shopify发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Shopify | 来源：Shopify Changelog&lt;/p&gt;</summary>
+    <title>三星SDS与LG CNS瞄准亚洲AI数据中心</title>
+    <link href="https://www.techinasia.com/news/samsung-sds-lg-cns-target-ai-data-center-growth-asia"/>
+    <id>tag:weekly-report,2026:event-3c649889</id>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Samsung SDS, LG CNS target AI data center growth in Asia&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;三星SDS与LG CNS将亚洲AI数据中心业务作为增长目标&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;韩国两大IT服务商三星SDS与LG CNS加码亚洲AI数据中心，带动服务器、液冷与网络设备采购需求&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Google投$160M建马来西亚数据中心水基建</title>
+    <link href="https://www.techinasia.com/news/google-commits-160m-water-infrastructure-data-center"/>
+    <id>tag:weekly-report,2026:event-86be2d07</id>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Google commits $160m to water infrastructure for MY data center&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Google承诺投入1.6亿美元用于马来西亚数据中心的水基础设施配套建设&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Google在马来西亚数据中心配套水资源投入，反映超大规模云厂商在东南亚的基建本地化策略，水务和环保工程合作机会显现&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>DCS DeCard在香港推出企业公司卡</title>
+    <link href="https://fintechnews.sg/140129/hong-kong/dcs-decard-mastercard-issuer-hong-kong/"/>
+    <id>tag:weekly-report,2026:event-6ba48401</id>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;DCS DeCard Launches Corporate Cards for Businesses in Hong Kong&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;DCS DeCard在香港推出面向企业的公司卡服务，成为Mastercard发卡机构&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;香港企业公司卡市场新增Mastercard发卡方，企业支付和费用管理赛道竞争加剧，金融科技合作机会显现&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>比特币以太坊震荡反弹</title>
+    <link href="https://e27.co/bitcoin-and-ethereum-rebound-through-a-shaky-relief-move-20261102/"/>
+    <id>tag:weekly-report,2026:event-f95aa1bf</id>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Bitcoin and Ethereum rebound through a shaky relief move&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;比特币和以太坊在震荡中出现反弹，市场情绪仍显脆弱&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;加密市场波动影响东南亚数字资产交易平台和区块链基础设施投资节奏&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：other | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>台湾33家深科技初创赴新加坡拓展</title>
+    <link href="https://e27.co/startup-island-taiwan-leads-33-deep-tech-startups-to-switch-2026-advancing-their-expansion-into-singapore-20261102/"/>
+    <id>tag:weekly-report,2026:event-bb3df0c0</id>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Startup Island TAIWAN leads 33 deep-tech startups to SWITCH 2026, advancing their expansion into Singapore&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Startup Island TAIWAN带领33家深科技初创公司参加SWITCH 2026，推进其向新加坡市场扩张&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;台湾深科技初创集体进军新加坡，东南亚深科技生态合作机会增加，跨境技术落地需求上升&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>报告：2026品牌假日营销策略转变</title>
+    <link href="https://www.modernretail.co/marketing/modern-retail-research-brands-holiday-marketing-tactics-shift-in-2026/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
+    <id>tag:weekly-report,2026:event-21a4d578</id>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Modern Retail+ Research: Brands’ holiday marketing tactics shift in 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Modern Retail+ Research发布报告，指出2026年品牌假日营销策略发生转变&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球零售品牌假日营销策略调整，广告预算向新渠道迁移，影响零售营销技术供应商的预算流向&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Grab在本周新增8个工程与平台相关职位</title>
+    <link href="https://www.grab.careers/en/jobs/744000159053766/lead-software-engineer-backend/"/>
+    <id>tag:weekly-report,2026:event-33eeb70c</id>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Grab集中新增8个工程与平台岗位&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;集中招聘显示Grab正在加强工程与平台能力建设，形成可核验的组织投入信号&lt;/p&gt;&lt;p&gt;标签：组织变化 | 类型：strategy | 地区：亚太 | 公司：Grab | 来源：Grab Jobs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-11-02</title>
@@ -55,6 +103,6 @@
     <id>tag:weekly-report,2026:aihot-8f9e013c</id>
     <published>2026-11-02T00:00:00Z</published>
     <updated>2026-11-02T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-02T01:40&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/2c2767a9-6b79-436a-abe0-8b35fcf156b4"&gt;DeepSeek开源Super-agent双层架构原型&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c"&gt;苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd"&gt;OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/786af214-142a-4d8c-b5b6-e545df7bb57b"&gt;OpenAI 12月起ChatGPT与Codex共享Token额度&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/2eb1efd4-facd-475f-99c8-b0ba853cb5fb"&gt;Claude Max 套餐更名，Ultra 取消 5 小时限制&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-02T10:55&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/2c2767a9-6b79-436a-abe0-8b35fcf156b4"&gt;DeepSeek开源Super-agent双层架构原型&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/6e51648d-3894-48aa-8f3d-1a81b5ecd218"&gt;Karpathy用Claude从HN评论筛出6454个视频&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/786af214-142a-4d8c-b5b6-e545df7bb57b"&gt;OpenAI 12月起ChatGPT与Codex共享Token额度&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd"&gt;OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c"&gt;苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
