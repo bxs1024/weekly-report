@@ -1,11 +1,69 @@
 {
   "version": 1,
-  "generated_at": "2026-11-02T05:56:35.507325+08:00",
+  "generated_at": "2026-11-02T15:10:44.058993+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-02T05:56:35.507325+08:00",
+      "observed_at": "2026-11-02T15:10:44.058993+08:00",
       "jobs": [
+        {
+          "id": "744000159053766",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000159053766/lead-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000159051260",
+          "title": "Intern, Regional Public Affairs",
+          "url": "https://www.grab.careers/en/jobs/744000159051260/intern-regional-public-affairs/",
+          "function_tags": []
+        },
+        {
+          "id": "744000159050479",
+          "title": "Assistant Manager, Growth Analytics",
+          "url": "https://www.grab.careers/en/jobs/744000159050479/assistant-manager-growth-analytics/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000159049506",
+          "title": "Assistant Manager, Ads Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000159049506/assistant-manager-ads-strategy/",
+          "function_tags": []
+        },
+        {
+          "id": "744000159050369",
+          "title": "Assistant Manager (Regional SMB Ads) - User Growth & Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000159050369/assistant-manager-regional-smb-ads-user-growth-strategy/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000159048889",
+          "title": "Senior Solution Specialist, People Systems (Compensation and Core HCM)",
+          "url": "https://www.grab.careers/en/jobs/744000159048889/senior-solution-specialist-people-systems-compensation-and-core-hcm/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000159043471",
+          "title": "Lead Software Engineer, Perception (Robotics)",
+          "url": "https://www.grab.careers/en/jobs/744000159043471/lead-software-engineer-perception-robotics/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000159031899",
+          "title": "Assistant Manager, Regional Business Finance – B2B",
+          "url": "https://www.grab.careers/en/jobs/744000159031899/assistant-manager-regional-business-finance-b2b/",
+          "function_tags": []
+        },
         {
           "id": "744000158659289",
           "title": "Software Engineer, Perception (Robotics)",
@@ -83,50 +141,12 @@
           "title": "Collections Team Lead",
           "url": "https://www.grab.careers/en/jobs/744000157979089/collections-team-lead/",
           "function_tags": []
-        },
-        {
-          "id": "744000157967759",
-          "title": "Lead Data Infrastructure Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000157967759/lead-data-infrastructure-engineer/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000157963819",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000157963819/senior-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000157961720",
-          "title": "Intern, Social Media & Partner Engagement",
-          "url": "https://www.grab.careers/en/jobs/744000157961720/intern-social-media-partner-engagement/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000157961769",
-          "title": "Intern, Occupational Health, Safety, & Wellbeing",
-          "url": "https://www.grab.careers/en/jobs/744000157961769/intern-occupational-health-safety-wellbeing/",
-          "function_tags": []
-        },
-        {
-          "id": "744000157961609",
-          "title": "Intern, Marketing and Partnership (GrabRentals)",
-          "url": "https://www.grab.careers/en/jobs/744000157961609/intern-marketing-and-partnership-grabrentals/",
-          "function_tags": [
-            "partnerships"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-02T05:56:35.507325+08:00",
+      "observed_at": "2026-11-02T15:10:44.058993+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -167,7 +187,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-02T05:56:35.507325+08:00",
+      "observed_at": "2026-11-02T15:10:44.058993+08:00",
       "jobs": [
         {
           "id": "1affb074-f055-4f5a-a97e-80d97d77da6e",
