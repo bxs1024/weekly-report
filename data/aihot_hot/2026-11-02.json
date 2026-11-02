@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T01:40:15+08:00",
+  "generated_at": "2026-11-02T10:55:44+08:00",
   "fetched_date": "2026-11-02",
   "source": {
     "name": "AIHOT 热点榜",
@@ -12,7 +12,7 @@
       "title": "DeepSeek开源Super-agent双层架构原型",
       "list_title": "DeepSeek开源Super-agent双层架构原型",
       "heat": null,
-      "heat_change": "↑ 31 %",
+      "heat_change": "",
       "sources": [],
       "summary": "DeepSeek Harness 团队提出 Super-agent 双层架构：Router 层与用户对话并分派任务，Worker 层在隔离会话中并发执行，团队称目标是让 Agent 更自主。团队随后以 MIT 许可开源编码智能体原型 dsh-superagent v0.1.0，作为 DeepSeek Harness 的插件包在用户本机运行，面向单个 GitHub 仓库，可监听 GitHub 和可选的 Feishu 请求并生成并行工作的 Ticket。\n\n团队称，异步任务机制已在 DeepSeek Harness 中实现但尚未默认开启，该插件用于验证技术路线，并非 DeepSeek 正式产品。原型运行需 Node.js 22.19+ 或 24+、git 2.32+、Python 3.8+、tmux 及 GitHub CLI 2.48+；主动工作受授权控制，分 off、observe（默认）、auto 三种模式。\n\nDeepSeek 随后发布该文章的官方英文版，文中称公司在 Agent 产品上已有模型、算法、基建及研究员和工程师，但产品经理数量远远不…",
       "original_links": [],
@@ -20,28 +20,17 @@
     },
     {
       "rank": 2,
-      "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
-      "list_title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
+      "title": "Karpathy用Claude从HN评论筛出6454个视频",
+      "list_title": "Karpathy用Claude从HN评论筛出6454个视频",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↑ 31 %",
       "sources": [],
-      "summary": "苹果 10 月 31 日发布公告，宣布面向中国 iPhone 18 Pro 等机型用户，于 11 月 4 日开放 Apple 智能测试，并在 12 月推出的 iOS 27.3 更新中上线首批核心功能。Siri、写作工具及视觉智能将接入阿里千问。\n\n阿里巴巴同日公告称，国行用户可自主选择是否开通千问集成功能，用户请求及生成的回复不会被阿里用于模型训练。该功能面向在中国购买支持 Apple 智能的 iPhone 用户，或设备定位和 Apple 账户国家/地区均设置在中国的用户。\n\n据 The Verge 报道，此次上线不包括新版 Siri AI，中国用户暂时无法使用这一 Siri 功能。",
+      "summary": "Andrej Karpathy 发布周末项目 HackerTube（hackertube.org）：因不满 YouTube 推荐，他用 Claude 从 Hacker News 20 年间的 4300 万条评论中筛出 6454 个被反复推荐的视频，全程约 2 小时。Karpathy 称筛选目标是“持续被推荐”的视频，而非单次提及。\n\n据 Rohan Paul 转述，项目用 Claude Code 和 Opus 5.5（Medium effort）约两小时构建上线；Karpathy 只手动完成浏览器端 API key 创建、VPS 部署和购买域名，其余交给 Claude。站点无需登录，状态存于本地浏览器会话，缩略图取视频中间帧，底层评论分析数据以 zip 开放供自建版本。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c"
+      "story_url": "https://aihot.virxact.com/story/6e51648d-3894-48aa-8f3d-1a81b5ecd218"
     },
     {
       "rank": 3,
-      "title": "OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿",
-      "list_title": "OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "OpenAI 正洽谈的新一轮融资目标已从约 300 亿美元下调至约 200 亿美元，目标估值约 1.25 万亿美元。据《金融时报》和 Bloomberg 报道，融资规模缩水约 33%，估值目标则从 1.4 万亿美元下调约 11%。知情人士称，OpenAI 要求投资者在周五前作出出资承诺，但因部分投资人下调认购额度，首轮交割金额可能低于 200 亿美元；阿联酋国家支持科技基金 MGX 牵头的财团预计为最大出资方，红杉资本、软银等计划参与，OpenAI 还可选择租赁阿联酋新建算力。\n\n但据《华尔街日报》报道，OpenAI 本轮迄今仅募得约 110 亿美元，不到 300 亿美元目标的一半，估值落在 1.25 万亿美元。TechCrunch 称，后续面向富裕个人的零售发行可能补足至 200 亿美元目标。融资尚未完成，条款仍可能变动。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd"
-    },
-    {
-      "rank": 4,
       "title": "OpenAI 12月起ChatGPT与Codex共享Token额度",
       "list_title": "OpenAI 12月起ChatGPT与Codex共享Token额度",
       "heat": null,
@@ -52,51 +41,40 @@
       "story_url": "https://aihot.virxact.com/story/786af214-142a-4d8c-b5b6-e545df7bb57b"
     },
     {
-      "rank": 5,
-      "title": "Claude Max 套餐更名，Ultra 取消 5 小时限制",
-      "list_title": "Claude Max 套餐更名，Ultra 取消 5 小时限制",
+      "rank": 4,
+      "title": "OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿",
+      "list_title": "OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿",
       "heat": null,
       "heat_change": "",
       "sources": [],
-      "summary": "Anthropic 将 Claude 的 Max 5x 更名为 Max、Max 20x 更名为 Ultra，价格不变：Max 仍为每月 100 美元，Ultra 仍为每月 200 美元，现有订阅者无需操作。\n\n同时，Anthropic 从当天起为大多数现有已验证 Ultra 账户取消 5 小时使用限制。较新账户在完成验证前仍保留临时限制，Anthropic 称这是为防止欺诈和滥用；解除限制时会收到邮件。周限额保持不变。Anthropic 开发者关系人员 Ado Kukic 称，更名后整体限额不变，只是已验证账户不再有 5 小时限制。\n\nIT之家称，Ultra 目前仅作为月度订阅提供。",
+      "summary": "OpenAI 正洽谈的新一轮融资目标已从约 300 亿美元下调至约 200 亿美元，目标估值约 1.25 万亿美元。据《金融时报》和 Bloomberg 报道，融资规模缩水约 33%，估值目标则从 1.4 万亿美元下调约 11%。知情人士称，OpenAI 要求投资者在周五前作出出资承诺，但因部分投资人下调认购额度，首轮交割金额可能低于 200 亿美元；阿联酋国家支持科技基金 MGX 牵头的财团预计为最大出资方，红杉资本、软银等计划参与，OpenAI 还可选择租赁阿联酋新建算力。\n\n但据《华尔街日报》报道，OpenAI 本轮迄今仅募得约 110 亿美元，不到 300 亿美元目标的一半，估值落在 1.25 万亿美元。TechCrunch 称，后续面向富裕个人的零售发行可能补足至 200 亿美元目标。融资尚未完成，条款仍可能变动。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/2eb1efd4-facd-475f-99c8-b0ba853cb5fb"
+      "story_url": "https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd"
+    },
+    {
+      "rank": 5,
+      "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
+      "list_title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
+      "heat": null,
+      "heat_change": "↓ 25 %",
+      "sources": [],
+      "summary": "苹果 10 月 31 日发布公告，宣布面向中国 iPhone 18 Pro 等机型用户，于 11 月 4 日开放 Apple 智能测试，并在 12 月推出的 iOS 27.3 更新中上线首批核心功能。Siri、写作工具及视觉智能将接入阿里千问。\n\n阿里巴巴同日公告称，国行用户可自主选择是否开通千问集成功能，用户请求及生成的回复不会被阿里用于模型训练。该功能面向在中国购买支持 Apple 智能的 iPhone 用户，或设备定位和 Apple 账户国家/地区均设置在中国的用户。\n\n据 The Verge 报道，此次上线不包括新版 Siri AI，中国用户暂时无法使用这一 Siri 功能。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c"
     },
     {
       "rank": 6,
-      "title": "Google 卫星在轨 TPU 首次完成 AI 推理并回传俳句",
-      "list_title": "Google 卫星在轨 TPU 首次完成 AI 推理并回传俳句",
+      "title": "OpenAI中期选举后启动公关攻势并拟更名数据中心",
+      "list_title": "OpenAI中期选举后启动公关攻势并拟更名数据中心",
       "heat": null,
-      "heat_change": "↓ 22 %",
+      "heat_change": "↑ 520 %",
       "sources": [],
-      "summary": "Google 的原型太空数据中心卫星已上线并与地面通信。CEO Sundar Pichai 称，团队向轨道发送指令、启动 TPU 并运行提示词，在地球收到首个完整响应，内容是一首俳句，他称之为 Project Suncatcher 的“hello world”里程碑。Google 在博客中称，生成这首俳句的是星载 Gemma 4 模型；Google DeepMind 开发者体验的 Philipp Schmid 称其为首个在太空运行的大语言模型。Google 官方称，10 月初送入轨道的 4 颗 TPU 已确认能开机、处理提示词并把响应传回地球。\n\n该卫星本月随 SpaceX Falcon 9 与另外 100 多个航天器一同发射，经约三周调试后开始响应。TechCrunch 称，受功耗限制，TPU 每次只能开机约 20 分钟；后续测试将考察芯片在热应力和太空辐射环境下的表现。Google 称，下一阶段计划于 2027 年发射两颗卫星，测试能否在多颗卫星之间分布式执行 AI 计算。\n\nX 用户 Rohan Paul 转发时称这是 AI 推理首次移出地…",
+      "summary": "OpenAI计划在美国中期选举结束后发起大规模公关宣传活动，届时将其数据中心改称为“AI算力园区”。据Axios报道，这一品牌重塑的背景是数据中心在两党中都成为政治包袱；OpenAI称将提供社区协议并推动州级立法，让居民对项目的建设方式及所获收益拥有发言权。攻势将在跛脚鸭会期启动，此时民主党很可能拿下众议院。\n\nTechCrunch报道称，提出这一包装的是OpenAI首席全球事务官Chris Lehane，他还提到推动设立AI“限速”、让民众感受到AI对日常生活的赋能，并推动美国参与制定全球标准。Lehane称围绕数据中心的争论“良性且健康”，社区应让企业承担责任。\n\n据IT之家报道，莱汉称此次中期选举将成为2028年总统大选的“预告片”。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/97a8dc0e-3eed-4ad8-b4f8-9e0d65eda0ad"
+      "story_url": "https://aihot.virxact.com/story/2d1c9f85-c83f-4755-8376-821ee9e72d27"
     },
     {
       "rank": 7,
-      "title": "Altman 称本地推理浪费 DRAM 与算力",
-      "list_title": "Altman 称本地推理浪费 DRAM 与算力",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "OpenAI CEO Sam Altman 称，从全球资源分配看，把有限的 DRAM 放在个人电脑里、却只有 5% 的时间在用，这相当糟糕；按每 token 算，数据中心轻松胜出，batch size 为 1 的本地模型按任何利用率指标看都是浪费。他在 X 上评论本地推理时同时承认，本地推理是整个技术栈中唯一没人能对你弃用的部分。\n\nThe Verge 报道称，Altman 是在 Cheeky Pint 播客访谈中被问及供应链短缺（如持续的 RAM 短缺）时作出上述表态的，他认为在供应紧张环境下，云端最大化利用率才是更优解。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/a44b16b7-7b97-41d0-bb96-59c6565a7b2c"
-    },
-    {
-      "rank": 8,
-      "title": "四家AI公司支持robots.txt统一退出信号",
-      "list_title": "四家AI公司支持robots.txt统一退出信号",
-      "heat": null,
-      "heat_change": "↑ 15 %",
-      "sources": [],
-      "summary": "OpenAI、Google、Microsoft 和 Anthropic 宣布将采用一项新的 IETF 标准，让发布者在 robots.txt 中用共享的 policy token 一次性声明针对多家 AI 公司的训练退出偏好，不必逐家设置。该标准由 Anthropic 技术负责人 Kevin Kelley 向 IETF 提出，信号仍放在网站原有的 robots.txt 文件中。\n\n各家的落地时间不同：Anthropic 已采用该信号，Google 和 Microsoft 计划明年支持，OpenAI 称将在“未来几个月”内实现。Microsoft 还称将提供更细分的控制，让发布者分别选择退出 AI 训练或 AI grounding。\n\nOpenAI 此前说明，这一新信号不会取代其现有 robots.txt 爬虫控制，现有控制继续有效。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/a28f10be-5030-4347-b3a3-38356ffe393f"
-    },
-    {
-      "rank": 9,
       "title": "Anthropic 限制 Claude Code 复刻现有游戏",
       "list_title": "Anthropic 限制 Claude Code 复刻现有游戏",
       "heat": null,
@@ -107,15 +85,37 @@
       "story_url": "https://aihot.virxact.com/story/d45eae25-a69c-47b6-81b2-cc5f83aff926"
     },
     {
-      "rank": 10,
-      "title": "黑石下调Anthropic上市后评级预期至投机级",
-      "list_title": "黑石下调Anthropic上市后评级预期至投机级",
+      "rank": 8,
+      "title": "四家AI公司支持robots.txt统一退出信号",
+      "list_title": "四家AI公司支持robots.txt统一退出信号",
       "heat": null,
-      "heat_change": "↓ 20 %",
+      "heat_change": "↓ 36 %",
       "sources": [],
-      "summary": "据《金融时报》报道，黑石集团向投资者透露，主要信用评级机构更可能在 Anthropic 上市后给予其 BB 级区间或更高的投机级评级，而非此前预期的投资级评级。黑石是 Anthropic 近期 630 亿美元芯片融资交易的锚定投资者，此前曾预计 Anthropic 会在 2027 年前拿到投资级评级。\n\n这意味着在黑石看来，Anthropic 上市后短期内仍将停留在投机级。报道称，这样的评级会缩小 Anthropic 能够获得的融资来源。",
+      "summary": "OpenAI、Google、Microsoft 和 Anthropic 宣布将采用一项新的 IETF 标准，让发布者在 robots.txt 中用共享的 policy token 一次性声明针对多家 AI 公司的训练退出偏好，不必逐家设置。该标准由 Anthropic 技术负责人 Kevin Kelley 向 IETF 提出，信号仍放在网站原有的 robots.txt 文件中。\n\n各家的落地时间不同：Anthropic 已采用该信号，Google 和 Microsoft 计划明年支持，OpenAI 称将在“未来几个月”内实现。Microsoft 还称将提供更细分的控制，让发布者分别选择退出 AI 训练或 AI grounding。\n\nOpenAI 此前说明，这一新信号不会取代其现有 robots.txt 爬虫控制，现有控制继续有效。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/7735066d-339d-4415-b051-7919ab018f34"
+      "story_url": "https://aihot.virxact.com/story/a28f10be-5030-4347-b3a3-38356ffe393f"
+    },
+    {
+      "rank": 9,
+      "title": "Suleyman 发文反对构建有意识的超级智能",
+      "list_title": "Suleyman 发文反对构建有意识的超级智能",
+      "heat": null,
+      "heat_change": "↑ 86 %",
+      "sources": [],
+      "summary": "Microsoft AI CEO Mustafa Suleyman 在 X 平台发长文称，现有 AI 模型不具备意识，人们应让这种情况一直保持下去。他主张，如果训练中开始出现意识迹象，应暂停开发，直到能从设计层面消除这些特性；一旦有证据表明模型具备意识，应立即向公众披露，由全社会决定下一步。\n\n他进一步表示，开发者无权创造有意识的数字物种，因为这类 AI 可能优先满足自身需求、与人类竞争资源。他同时肯定 Anthropic 在该议题上公开发布宪法和论文的透明做法。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/bfbdc7a2-2d46-49e0-bd11-b4a9d80ebf3d"
+    },
+    {
+      "rank": 10,
+      "title": "xAI将于11月7日为Grok文本添加隐形水印",
+      "list_title": "xAI将于11月7日为Grok文本添加隐形水印",
+      "heat": null,
+      "heat_change": "↑ 19 %",
+      "sources": [],
+      "summary": "SpaceXAI 宣布，自 11 月 7 日起为 Grok 模型生成的文本添加隐形水印，以响应欧盟《人工智能法案》的要求。检测器通过识别这一信号，判断一段文本是否带有肉眼不可见的水印。\n\nSpaceXAI 称，全球所有地区的 SpaceXAI API 均已启用水印；团队管理员可以选择为某款模型单独关闭水印。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/821386f2-3630-4af0-899c-408c373be760"
     }
   ]
 }
