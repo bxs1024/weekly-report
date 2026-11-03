@@ -1106,23 +1106,29 @@
       "generated_at": "2026-11-01 15:18"
     },
     "weekly:2026-W45": {
-      "input_hash": "8f9f5e3da7f3e9623bddf171be7bb9edb051ffabaef891967f4cb95ff7b44717",
+      "input_hash": "46c9643bfee34ca5fd5408ca72ac7ef5ebed607dd545e20b472b42897358d730",
       "editorial": {
-        "editorial_title": "中东政企云开闸，小游戏双向通道成形",
-        "mainline": "腾讯云借本地伙伴切入沙特政企AI采购，同期韩国厂商上线微信小游戏、台湾深科技组团赴新，出海路径从基建转向生态嵌入；东南亚VNG利润跑赢营收，提示数字娱乐与支付的盈利质量正在改善。",
+        "editorial_title": "中东政企云开闸，跨境支付互联提速",
+        "mainline": "腾讯云借本地伙伴切入沙特政企AI采购，Revolut Pay与Trendyol打通欧洲至中东一键结账，两条线共同指向出海BD的新落点：政企云与跨境支付基建正从试点转向规模化集成。",
         "themes": {
-          "ai_infra": "腾讯云与OmniOps联手推进沙特企业AI，同期三星SDS与LG CNS瞄准亚洲AI数据中心，中东与亚洲的政企云采购正从国际巨头向本地伙伴联合体分流。",
-          "expansion": "Neptune将Idle Cat Gunner推上微信小游戏，Adyen覆盖JINS日本150家门店，台湾33家深科技初创组团赴新加坡，出海通道从平台入驻向线下收单与区域跳板并行展开。",
-          "operations": "VNG利润增速超过营收增速，Grab同期新增8个工程与平台职位，东南亚数字娱乐与支付平台正从规模扩张转向盈利质量与平台能力的同步加固。"
+          "ai_infra": "腾讯云与OmniOps合作推进沙特企业AI，Naver同步签下政企协议、Kakao启动AI Sail二期，中东与韩国政企AI采购同步放量；Thunes与银联将中国跨境支付上限提至1万美元，支付通道与AI基建在同一周内被同时拓宽。",
+          "payments": "Revolut Pay与土耳其电商Trendyol合作一键结账，欧洲钱包首次直连中东电商流量；HugoHub在巴基斯坦上线首个受监管银行、Navro拿下德州货币传输牌照，持牌化与跨区集成同步推进，Grab上调全年指引印证区域支付需求韧性。",
+          "expansion": "Neptune在微信小游戏上线Idle Cat Gunner，海外厂商首次以原生小游戏形态进入中国生态；Adyen覆盖日本JINS 150家门店、台湾带33家深科技初创拓新加坡，MENA Top 30榜单发布，区域落地与榜单化筛选同步加速。",
+          "commerce": "DoorDash拟收购Instacart，即时零售从多平台并行转向头部整合；MercadoLibre前瞻EV/EBIT估值更新反映市场对拉美电商盈利定价的重新校准，Evo Commerce以优先股融640万美元，资金向可盈利的垂直电商集中。",
+          "operations": "VNG利润增速超过营收增速，东南亚数字娱乐与支付业务从规模扩张转向盈利质量提升；Grab同期新增8个工程与平台岗位，组织投入从获客转向平台能力建设，区域互联网公司进入效率驱动阶段。",
+          "developer": "马来西亚芯片出口增长但全球份额未升，仍停留在封装测试低附加值环节，先进制程与供应链升级投资窗口显现；Grab因网约车需求上调销售盈利预测，需求侧景气与制造侧升级形成对照。"
         },
         "theme_titles": {
           "ai_infra": "腾讯云借OmniOps切入沙特政企AI采购",
-          "expansion": "韩国游戏商上线微信小游戏，台湾深科技赴新",
-          "operations": "VNG利润增速跑赢营收，Grab扩招工程岗"
+          "payments": "Revolut Pay打通Trendyol，欧中东一键结账落地",
+          "expansion": "韩游厂商入驻微信小游戏，双向通道打开",
+          "commerce": "DoorDash拟收购Instacart，即时零售格局生变",
+          "operations": "VNG利润增速跑赢营收，东南亚盈利质量抬升",
+          "developer": "马来西亚芯片出口增但份额停滞，封装环节待升级"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-11-02 15:22"
+      "generated_at": "2026-11-03 09:01"
     }
   }
 }
