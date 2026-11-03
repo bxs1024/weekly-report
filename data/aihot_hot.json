@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T05:25:46+08:00",
+  "generated_at": "2026-11-03T12:14:08+08:00",
   "fetched_date": "2026-11-03",
   "source": {
     "name": "AIHOT 热点榜",
@@ -9,113 +9,113 @@
   "items": [
     {
       "rank": 1,
-      "title": "DeepSeek 开源 Super-agent 双层架构原型",
-      "list_title": "DeepSeek 开源 Super-agent 双层架构原型",
+      "title": "MIT 称 GPT-6 Astra 可直接改写模型权重",
+      "list_title": "MIT 称 GPT-6 Astra 可直接改写模型权重",
       "heat": null,
-      "heat_change": "↓ 13 %",
+      "heat_change": "↑ 83 %",
       "sources": [],
-      "summary": "DeepSeek Harness 团队提出 Super-agent 双层架构：Router 层与用户对话并分派任务，Worker 层在隔离会话中并发执行，团队称目标是让 Agent 更自主。团队随后以 MIT 许可开源编码智能体原型 dsh-superagent v0.1.0，作为 DeepSeek Harness 的插件包在用户本机运行，面向单个 GitHub 仓库，可监听 GitHub 和可选的 Feishu 请求并生成并行工作的 Ticket。\n\n团队称，异步任务机制已在 DeepSeek Harness 中实现但尚未默认开启，该插件用于验证技术路线，并非 DeepSeek 正式产品。原型运行需 Node.js 22.19+ 或 24+、git 2.32+、Python 3.8+、tmux 及 GitHub CLI 2.48+；主动工作受授权控制，分 off、observe（默认）、auto 三种模式。\n\nDeepSeek 随后发布该文章的官方英文版，文中称公司在 Agent 产品上已有模型、算法、基建及研究员和工程师，但产品经理数量远远不…",
+      "summary": "MIT CSAIL 博士生 Rikiya Takehi 团队提出“权重空间编程”，称 GPT-6 Astra 无需训练或梯度，就能直接读取并修改另一个神经网络的权重。团队称，仅改动 Qwen3.5-0.8B 约 0.016%（131072 个）权重后，该模型 MATH-500 成绩从 7.9 升至 48.1，GSM8K 从 13.8 升至 67.1，指令遵循提升 3 倍。\n\n这些数字来自研究者一方，尚无独立复现或第三方验证公开。若成立，模型能力调整可绕过微调流程，直接作用于权重本身。OpenAI 开发者体验团队的 Dominik Kundel 在社交平台转述并称赞该效果，但未提供新的验证信息。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/2c2767a9-6b79-436a-abe0-8b35fcf156b4"
+      "story_url": "https://aihot.virxact.com/story/6967bf9e-459b-487f-93ce-2804c3605d57"
     },
     {
       "rank": 2,
       "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克",
       "list_title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克",
       "heat": null,
-      "heat_change": "↑ 79 %",
+      "heat_change": "↑ 19 %",
       "sources": [],
-      "summary": "Anthropic 已向美国 SEC 提交 S-1 注册声明，拟在纳斯达克以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销；发行股数与价格区间尚未确定，注册声明尚未生效，生效前不得出售证券。\n\n招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。截至 9 月底，年支出 10 万美元以上客户超 11,900 家，其中约 250 家客户在截至 9 月 30 日的 12 个月内支出超 1000 万美元。公司称未来可能无法实现或维持盈利。\n\n后续更新的 IPO 文件首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，主因是 50 亿美元的高价短期算力和 20 亿美元员工捐赠配比的非现金支出。The Verge 依据招股书统计，不可撤销采购承诺 2656 亿美元，加上尚未开始的租赁协议 3214 亿美元等，未来 20 年承诺至少约 8500 亿美元；彭博社另报道其服务器、建筑和电力等领域…",
+      "summary": "Anthropic 已向美国 SEC 公开提交 S-1 注册声明，拟在纳斯达克以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销；发行股数与价格区间尚未确定，注册声明尚未生效。\n\n招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。公司称未来可能无法实现或维持盈利。\n\n后续更新的 IPO 文件首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，主因是 50 亿美元的高价短期算力和 20 亿美元员工捐赠配比的非现金支出。更新文件还显示，算力与基础设施合同承诺总额约 8954 亿美元，其中 4475 亿美元须在 2031 年前支付，仅 2138 亿美元可取消或附带条件。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对董事会组成影响有限。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
     },
     {
       "rank": 3,
-      "title": "MIT 称 GPT-6 Astra 可直接改写模型权重",
-      "list_title": "MIT 称 GPT-6 Astra 可直接改写模型权重",
-      "heat": null,
-      "heat_change": "↑ 1878 %",
-      "sources": [],
-      "summary": "MIT CSAIL 研究者演示了一种名为 Weight-Space Programming 的方法：GPT-6 Astra 无需训练或梯度，直接读写神经网络权重。研究者称，用该方法改写 Qwen3.5-0.8B 的权重后，其数学表现得到提升。\n\n这一说法来自研究者一方，目前只有演示层面的描述，尚无独立复现或量化结果公开。若成立，它意味着模型能力的调整可以不经过微调流程，直接作用于权重本身。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/6967bf9e-459b-487f-93ce-2804c3605d57"
-    },
-    {
-      "rank": 4,
       "title": "Karpathy用Claude从HN评论筛出6454个视频",
       "list_title": "Karpathy用Claude从HN评论筛出6454个视频",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↓ 11 %",
       "sources": [],
       "summary": "Andrej Karpathy 发布周末项目 HackerTube（hackertube.org）：因不满 YouTube 推荐，他用 Claude 从 Hacker News 20 年间的 4300 万条评论中筛出 6454 个被反复推荐的视频，全程约 2 小时。Karpathy 称筛选目标是“持续被推荐”的视频，而非单次提及。\n\n据 Rohan Paul 转述，项目用 Claude Code 和 Opus 5.5（Medium effort）约两小时构建上线；Karpathy 只手动完成浏览器端 API key 创建、VPS 部署和购买域名，其余交给 Claude。站点无需登录，状态存于本地浏览器会话，缩略图取视频中间帧，底层评论分析数据以 zip 开放供自建版本。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/6e51648d-3894-48aa-8f3d-1a81b5ecd218"
     },
     {
-      "rank": 5,
-      "title": "OpenAI 12月起ChatGPT与Codex共享Token额度",
-      "list_title": "OpenAI 12月起ChatGPT与Codex共享Token额度",
+      "rank": 4,
+      "title": "DeepSeek 开源 Super-agent 双层架构原型",
+      "list_title": "DeepSeek 开源 Super-agent 双层架构原型",
       "heat": null,
-      "heat_change": "↑ 15 %",
+      "heat_change": "↓ 20 %",
       "sources": [],
-      "summary": "OpenAI 宣布，从 12 月起，Plus、Pro 和 Business 套餐的 ChatGPT 与 Codex 将共用同一份 token 额度。OpenAI 称，这一调整的背景是，它把 7 月基于 Codex 构建的 ChatGPT Work 的智能体功能并入主 ChatGPT 体验。\n\n额度按 token 计算，模型越高级、任务越复杂，扣减越多。Instant 聊天不占用这份共享额度。额度耗尽后，用户可以等待自动重置、升级套餐或增购点数（Credits）。TechCrunch 称，部分用户可能因此更频繁地等待重置。\n\n同时，OpenAI 正合并 ChatGPT 的 Chat 与 Work 标签页，先向部分用户开放以收集反馈，再逐步推广；Codex 仍保留为桌面应用中的独立体验。\n\n此前 Codex Pro 额度曾在一个月内先降后恢复，社区在 GitHub 上提 issue 抗议；有作者认为，此次合并与 IPO 预期下的算力成本压力有关。",
+      "summary": "DeepSeek Harness 团队提出 Super-agent 双层架构：Router 层与用户对话并分派任务，Worker 层在隔离会话中并发执行，团队称目标是让 Agent 更自主。团队随后以 MIT 许可开源编码智能体原型 dsh-superagent v0.1.0，作为 DeepSeek Harness 的插件包在用户本机运行，面向单个 GitHub 仓库，可监听 GitHub 和可选的 Feishu 请求并生成并行工作的 Ticket。\n\n团队称，异步任务机制已在 DeepSeek Harness 中实现但尚未默认开启，该插件用于验证技术路线，并非 DeepSeek 正式产品。原型运行需 Node.js 22.19+ 或 24+、git 2.32+、Python 3.8+、tmux 及 GitHub CLI 2.48+；主动工作受授权控制，分 off、observe（默认）、auto 三种模式。\n\nDeepSeek 随后发布该文章的官方英文版，文中称公司在 Agent 产品上已有模型、算法、基建及研究员和工程师，但产品经理数量远远不…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/786af214-142a-4d8c-b5b6-e545df7bb57b"
+      "story_url": "https://aihot.virxact.com/story/2c2767a9-6b79-436a-abe0-8b35fcf156b4"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "马斯克承认Grok Bot成本高于收入并下调限额",
       "list_title": "马斯克承认Grok Bot成本高于收入并下调限额",
       "heat": null,
-      "heat_change": "↑ 37 %",
+      "heat_change": "",
       "sources": [],
       "summary": "马斯克在 X 平台回应称，周末部分用户 Grok Bot 每周额度被用满并非故障，原因是服务成本“相对于收入而言高到难以为继”，并已下调用量限制。他未说明订阅者限额今后如何调整。\n\n据 Telegraph 报道，SpaceX 上周末削减了 Grok Bot 的用量配额，多名用户配额减半；Musk 未直接确认削减。Grok Bot 是 SpaceX 今年 8 月推出的 AI 智能体，从免费版到每月 200 美元套餐分多档，所有档位都设有每周重置的使用限额，且与 Grok 及编程平台 Cursor 共用配额。上月财报披露其付费周活用户达 80 万。\n\nTechCrunch 另提到，SpaceX 上月披露 AI 已占公司收入 52%，其更名的 Super Intelligence 部门实现 4.31 亿美元盈利，但因收购 Cursor 的 12 亿美元一次性成本，利润本可更高。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/8b71dc45-4e03-41aa-a2e0-97b2a37915dc"
     },
     {
-      "rank": 7,
-      "title": "Anthropic 限制 Claude Code 复刻现有游戏",
-      "list_title": "Anthropic 限制 Claude Code 复刻现有游戏",
+      "rank": 6,
+      "title": "OpenAI 12月起ChatGPT与Codex共享Token额度",
+      "list_title": "OpenAI 12月起ChatGPT与Codex共享Token额度",
       "heat": null,
-      "heat_change": "↑ 38 %",
+      "heat_change": "↓ 22 %",
       "sources": [],
-      "summary": "Anthropic 更新 Claude Code 在 Opus 5.5 上的系统提示词，新增两句指令，禁止复刻某个具体现有游戏，即使改名或自称原创也不行；原创游戏、某一类型的游戏，以及基于用户自有设计与素材的游戏仍可制作。Anthropic 的 Addy Osmani 回应称，此举是为避免 Claude 被用于侵犯知识产权，公司会继续迭代寻找平衡。\n\n据开发者 @chasmmmmmmmmmmm 称，该规则约在 10 月 27 日加入，无法关闭，且仅明确针对 Opus 5.5 模型中的 Claude Code。Rohan Paul 转述称，规则通过服务端标记 tengu_heron_brook 下发，无需更新即可覆盖每个会话，用户端没有关闭选项。Ars Technica 则称，XDA 在 10 月 30 日发布的 Claude Code 2.1.314 版本中确认该规则以 tengu_heron_brook 之名写入 json 文件。\n\nArs Technica 称，此举或能帮 Anthropic 规避部分责任，但难以遏制近几个月涌现的 AI 辅助…",
+      "summary": "OpenAI 宣布，从 12 月起，Plus、Pro 和 Business 套餐的 ChatGPT 与 Codex 将共用同一份 token 额度。OpenAI 称，这一调整的背景是，它把 7 月基于 Codex 构建的 ChatGPT Work 的智能体功能并入主 ChatGPT 体验。\n\n额度按 token 计算，模型越高级、任务越复杂，扣减越多。Instant 聊天不占用这份共享额度。额度耗尽后，用户可以等待自动重置、升级套餐或增购点数（Credits）。TechCrunch 称，部分用户可能因此更频繁地等待重置。\n\n同时，OpenAI 正合并 ChatGPT 的 Chat 与 Work 标签页，先向部分用户开放以收集反馈，再逐步推广；Codex 仍保留为桌面应用中的独立体验。\n\n此前 Codex Pro 额度曾在一个月内先降后恢复，社区在 GitHub 上提 issue 抗议；有作者认为，此次合并与 IPO 预期下的算力成本压力有关。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/d45eae25-a69c-47b6-81b2-cc5f83aff926"
+      "story_url": "https://aihot.virxact.com/story/786af214-142a-4d8c-b5b6-e545df7bb57b"
+    },
+    {
+      "rank": 7,
+      "title": "OpenAI发布LifeVal日常任务基准并公布模型得分",
+      "list_title": "OpenAI发布LifeVal日常任务基准并公布模型得分",
+      "heat": null,
+      "heat_change": "↑ 89 %",
+      "sources": [],
+      "summary": "OpenAI 发布 LifeVal 基准，用来衡量模型能否替用户完成日常事务，覆盖照护、健康、教育、家庭事务、个人理财、购物和政府服务等场景。OpenAI 称，该基准的设计源自数千名 ChatGPT 用户的反馈，并基于美国时间使用调查等两项大型研究，另新增 3995 名受访者的代表性调查，以确定用户最需要帮助的领域。\n\nOpenAI 称，过去一年已用 LifeVal 衡量和改进模型处理这些任务的能力，最新模型在多项任务上得分很高，GPT‑6 Astra 在部分任务上达到 100%。IT之家报道称，LifeVal 目前仍主要是 OpenAI 的内部评估，外界尚未获得完整任务集、评分代码或可独立复现的排行榜。\n\nRohan Paul 在 X 上给出的另一组数字是：GPT‑6 Astra 在日常任务上得分为 80.6%，不到 9 个月前 GPT‑5.2 的得分为 49.3%。这组数字与 OpenAI 所说的“部分任务达到 100%”统计口径不同，报道未说明两者的关系。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/666615a0-647a-4836-a86a-30f2a2fedf5c"
     },
     {
       "rank": 8,
+      "title": "DeepSeek Harness 推出 Creator Mode",
+      "list_title": "DeepSeek Harness 推出 Creator Mode",
+      "heat": null,
+      "heat_change": "↑ 38 %",
+      "sources": [],
+      "summary": "DeepSeek 为免费 AI agent 应用 DeepSeek Harness 推出 Creator Mode（创作者模式），称用户用自然语言描述想要的工具，agent 会编写、安装并测试它，使其成为应用内的新插件。DeepSeek 同时发布了演示视频和 7 个示例背后的提示词，示例包括设计工作区、沙盒游戏和 3D 大模型可视化器。\n\nX 用户 @tianyi 发帖询问是否有人试用过 Creator Mode、是否有反馈；目前公开信息中尚无试用结果或效果评价。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/c4a01cfb-6d94-4845-a8b3-636ddead765f"
+    },
+    {
+      "rank": 9,
       "title": "美团龙猫发布 LongCat-2.5 原生多模态模型",
       "list_title": "美团龙猫发布 LongCat-2.5 原生多模态模型",
       "heat": null,
-      "heat_change": "↑ 14 %",
+      "heat_change": "↑ 12 %",
       "sources": [],
-      "summary": "美团龙猫发布原生多模态模型 LongCat-2.5，面向长程智能体任务。模型总参数 1.6 万亿、每 token 激活约 480 亿，在 LongCat-2.0 基础上强化原生视觉理解与智能体编程能力。美团 LongCat 称，该模型可覆盖从复杂编程项目到创意设计、3D 任务等视觉编程场景。\n\n不过，该模型在 GitHub 和 Hugging Face 上均标注为“即将上线”，尚未开放下载。",
+      "summary": "美团龙猫团队发布原生多模态模型 LongCat-2.5，面向长程智能体任务。模型总参数量 1.6 万亿，每个 token 激活约 480 亿参数，在 LongCat-2.0 基础上强化原生视觉理解与智能体编程能力。\n\n据美团龙猫介绍，该模型面向从复杂编程项目到创意设计、3D 任务等视觉编程场景。模型在 GitHub 和 HuggingFace 上均标注为“即将上线”。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/e3ffefd6-5164-4d6a-99a8-7637c4fa57aa"
     },
     {
-      "rank": 9,
-      "title": "SemiAnalysis发布GDPx基准，最佳模型仅得12%",
-      "list_title": "SemiAnalysis发布GDPx基准，最佳模型仅得12%",
+      "rank": 10,
+      "title": "Anthropic 限制 Claude Code 复刻现有游戏",
+      "list_title": "Anthropic 限制 Claude Code 复刻现有游戏",
       "heat": null,
       "heat_change": "",
       "sources": [],
-      "summary": "SemiAnalysis 联合 14 家专业强化学习环境伙伴发布 GDPx 基准，覆盖芯片设计、网络安全、生物、金融、法律、量化交易、RSI、硬件设计、材料科学、对齐和软件工程 11 个领域，该机构称目标是成为衡量通用智能体能力的最佳基准。\n\n结果显示，表现最好的模型在该基准上仅得 12%。Rohan Paul 在 X 上称，Claude Opus 5.5 平均 12% 居首，Gemini 4 Carbon 为 10.9%，GPT-6 Astra 在 AI 研究和材料科学任务上领先。\n\nGoogle CEO 桑达尔·皮查伊在 X 上称，很高兴看到高质量、仍有提升空间的基准测试，并提及 Carbon 成本曲线。",
+      "summary": "Anthropic 更新 Claude Code 在 Opus 5.5 上的系统提示词，新增两句指令，禁止复刻某个具体现有游戏，即使改名或自称原创也不行；原创游戏、某一类型的游戏，以及基于用户自有设计与素材的游戏仍可制作。Anthropic 的 Addy Osmani 回应称，此举是为避免 Claude 被用于侵犯知识产权，公司会继续迭代寻找平衡。\n\n据开发者 @chasmmmmmmmmmmm 称，该规则约在 10 月 27 日加入，无法关闭，且仅明确针对 Opus 5.5 模型中的 Claude Code。Rohan Paul 转述称，规则通过服务端标记 tengu_heron_brook 下发，无需更新即可覆盖每个会话，用户端没有关闭选项。Ars Technica 则称，XDA 在 10 月 30 日发布的 Claude Code 2.1.314 版本中确认该规则以 tengu_heron_brook 之名写入 json 文件。\n\nArs Technica 称，此举或能帮 Anthropic 规避部分责任，但难以遏制近几个月涌现的 AI 辅助…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/b31095b6-9e19-45e6-91ba-88cbdcc0dc85"
-    },
-    {
-      "rank": 10,
-      "title": "OpenAI中期选举后启动公关攻势并拟更名数据中心",
-      "list_title": "OpenAI中期选举后启动公关攻势并拟更名数据中心",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "OpenAI计划在美国中期选举结束后发起大规模公关与游说攻势，届时将其数据中心改称为“AI算力园区”。据Axios报道，这一品牌重塑的背景是数据中心在两党中都成为政治包袱；OpenAI称将提供社区协议并推动州级立法，让居民对项目的建设方式及所获收益拥有发言权。攻势将在跛脚鸭会期启动，此时民主党很可能拿下众议院。\n\nTechCrunch报道称，提出这一包装的是OpenAI首席全球事务官Chris Lehane，他还提到推动设立AI“限速”、让民众感受到AI对日常生活的赋能，并推动美国参与制定全球标准。Lehane称围绕数据中心的争论“良性且健康”，社区应让企业承担责任。\n\n据IT之家报道，莱汉称此次中期选举将成为2028年总统大选的“预告片”。The Decoder称，OpenAI此举旨在防范民主党赢得众议院多数后监管压力加大。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/2d1c9f85-c83f-4755-8376-821ee9e72d27"
+      "story_url": "https://aihot.virxact.com/story/d45eae25-a69c-47b6-81b2-cc5f83aff926"
     }
   ]
 }
