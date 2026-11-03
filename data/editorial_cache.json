@@ -1106,29 +1106,29 @@
       "generated_at": "2026-11-01 15:18"
     },
     "weekly:2026-W45": {
-      "input_hash": "c32a637c26da38a9ce82d95296c866a1dff3407d074315d4f590e5bd3538e31e",
+      "input_hash": "b9a30885df39e014436dff40e273ac478bb7f68473ab1b0814dfad7e42d55886",
       "editorial": {
-        "editorial_title": "中东政企云开闸，跨境支付互联提速",
-        "mainline": "腾讯云借本地伙伴切入沙特政企AI采购，Revolut Pay与Trendyol打通欧洲至中东一键结账，两条线共同指向出海BD的新落点：政企云与跨境支付集成正从试点转向规模化签约，区域本地伙伴成为关键杠杆。",
+        "editorial_title": "英伟达入股Naver，亚太AI与支付基建同步升温",
+        "mainline": "英伟达以近10亿美元入股Naver，将AI芯片与云服务在韩国的联合部署推向实质阶段；Kakao Pay同期发布数字资产生态计划，超级钱包向资产端延伸。两件事共同指向亚太AI基础设施与支付钱包正从独立赛道走向捆绑落地。",
         "themes": {
-          "ai_infra": "腾讯云与OmniOps联手推进沙特企业AI，同期Naver签政企协议、Kakao启动AI Sail二期，韩国政企AI采购同步放量。中东与东亚的政企云订单正从框架协议转入落地执行，本地集成商成为中资云厂商的入场券。",
-          "payments": "Revolut Pay与土耳其电商Trendyol上线一键结账，HugoHub在巴基斯坦落地首个受监管银行，Navro拿下德州货币传输牌照。欧洲与中东的支付互联从合作公告进入实际收单环节，跨境集成商的牌照与本地银行通道成为竞争分水岭。",
-          "expansion": "Zalando Q3盈利增长由B2B业务拉动，Adyen与JINS合作覆盖日本150家门店，Nubank品牌焕新配合全球扩张。欧洲电商平台正把B2B与线下收单作为第二增长曲线，出海SaaS的合作窗口从线上延伸至实体零售网络。",
-          "commerce": "DoorDash拟收购Instacart，即时零售从多平台竞争转向整合；MercadoLibre前瞻EV/EBIT估值更新，市场重新定价拉美电商盈利预期；亚太初创将社媒食品趋势商品化，Evo Commerce以优先股融资640万美元。供给端整合与细分品类商品化同时加速。",
-          "developer": "马来西亚芯片出口增长但全球份额未升，仍停留在封装测试环节；越南气候科技中间层缺失制约女性创始人；苹果拟借第三方AI应用增收。亚太供应链升级的瓶颈不在产能而在附加值位置，平台生态的增收路径正向第三方AI应用倾斜。",
-          "operations": "Kakao Pay证券Q3利润大幅下滑，交易与外汇收入放缓暴露高估值金融科技板块的业绩风险；VNG利润增速超营收增速，Grab新增8个工程与平台岗位。亚太数字金融的分化在财报季集中显现，组织扩张与利润收缩同时发生。"
+          "ai_infra": "英伟达以约9.98亿美元拿下Naver 4.13%股权，把芯片供应关系升级为股权绑定；Naver同步签政企AI协议、Kakao启动AI Sail二期，腾讯云则借OmniOps切入沙特企业AI。亚太AI基础设施正从卖算力转向股权与政企合同双线锁定。",
+          "payments": "Kakao Pay发布数字资产生态计划，把钱包从支付工具推向资产入口；腾讯与万事达卡探索代理支付，Revolut Pay联手Trendyol做一键结账，Nubank上市前换品牌。钱包基础设施的竞争焦点正从收单费率转向资产与跨境场景。",
+          "expansion": "Zalando三季度盈利增长由B2B扩张拉动，Adyen拿下JINS日本150家门店，Neptune把游戏推上微信小游戏，Nubank换品牌为全球扩张铺路。欧洲电商的增长重心正从自营零售转向向第三方输出物流、支付与平台能力。",
+          "developer": "马来西亚芯片出口增长但全球份额未升，说明增量仍集中在封装测试等低附加值环节；越南气候科技缺中间层制约女性创始人，Rise of Fearless获100万美元扩展游戏平台，Telenor获准收购Bahnhof。供应链升级与平台生态的短板同时暴露。",
+          "commerce": "Baked by Melissa进驻Target推假日烘焙套装，亚太初创把社媒食品趋势商品化，MercadoLibre估值数据更新；但AI推荐导致零售退货率上升，履约与逆向物流成本被抬高。电商增长正把压力从流量端转移到退货与供应链端。",
+          "operations": "Kakao Pay证券三季度利润大幅下滑，交易与外汇收入放缓直接冲击盈利；VNG利润增速跑赢营收，Seedance海外营收占比达50%，Grab新增8个工程与平台岗位。金融科技的高估值正被券商类业绩波动重新定价。"
         },
         "theme_titles": {
-          "ai_infra": "腾讯云借OmniOps切入沙特政企AI采购",
-          "payments": "Revolut Pay打通Trendyol，欧中东一键结账落地",
-          "expansion": "Zalando B2B扩张强劲，Adyen落地日本门店",
-          "commerce": "DoorDash拟收购Instacart，即时零售格局生变",
-          "developer": "马来西亚芯片出口增但份额停滞",
-          "operations": "Kakao Pay证券Q3利润骤降，金融科技估值承压"
+          "ai_infra": "英伟达入股Naver，韩国AI云部署绑上芯片股权",
+          "payments": "Kakao Pay押注数字资产，超级钱包向资产端延伸",
+          "expansion": "Zalando B2B成增长引擎，欧洲电商转向平台输出",
+          "developer": "马来西亚芯片出口增量未换来份额，封装环节卡位",
+          "commerce": "AI推荐推高退货率，电商履约成本承压",
+          "operations": "Kakao Pay证券利润骤降，金融科技高估值承压"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-11-03 15:43"
+      "generated_at": "2026-11-04 07:20"
     }
   }
 }
