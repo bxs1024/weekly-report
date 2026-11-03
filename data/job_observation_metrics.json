@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-11-03T08:51:57.242179+08:00",
+  "observed_at": "2026-11-03T15:31:33.938897+08:00",
   "source_count": 3,
   "raw_count": 49,
   "source_stats": {
@@ -8,18 +8,17 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 4,
+      "count": 14,
       "inventory_count": 19,
-      "signal_count": 0,
-      "added_count": 2,
-      "removed_count": 2,
+      "signal_count": 1,
+      "added_count": 7,
+      "removed_count": 7,
       "clusters": {
-        "engineering": 1,
-        "operations": 1
+        "engineering": 3
       },
       "removed_clusters": {
-        "engineering": 1,
-        "operations": 1
+        "engineering": 2,
+        "operations": 2
       }
     },
     "Stripe Jobs": {
@@ -40,263 +39,128 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 34,
+      "count": 0,
       "inventory_count": 25,
-      "signal_count": 1,
-      "added_count": 17,
-      "removed_count": 17,
-      "clusters": {
-        "engineering": 15,
-        "ai": 8,
-        "compliance": 2
-      },
-      "removed_clusters": {
-        "sales": 5,
-        "compliance": 3,
-        "payments": 1,
-        "partnerships": 2,
-        "engineering": 1
-      }
+      "signal_count": 0,
+      "added_count": 0,
+      "removed_count": 0,
+      "clusters": {},
+      "removed_clusters": {}
     }
   },
   "candidate_signals": [
     {
-      "candidate_id": "jobs-b8eba6705a7654b2",
-      "entity_id": "shopify",
-      "entity": "Shopify",
-      "region": "全球",
-      "sector": "commerce_saas",
+      "candidate_id": "jobs-f1fc94941f7b0c8a",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
       "source_type": "jobs_snapshot",
       "signal_type": "function_buildout",
       "cluster": "engineering",
       "window": "2026-W45",
       "window_start": "2026-11-03",
       "window_end": "2026-11-03",
-      "detected_at": "2026-11-03T08:51:57.242179+08:00",
-      "baseline_count": 25,
-      "current_count": 25,
-      "added_count": 17,
-      "removed_count": 17,
+      "detected_at": "2026-11-03T15:31:33.938897+08:00",
+      "baseline_count": 19,
+      "current_count": 19,
+      "added_count": 7,
+      "removed_count": 7,
       "clusters": {
-        "engineering": 15,
-        "ai": 8,
-        "compliance": 2
+        "engineering": 3
       },
       "removed_clusters": {
-        "sales": 5,
-        "compliance": 3,
-        "payments": 1,
-        "partnerships": 2,
-        "engineering": 1
+        "engineering": 2,
+        "operations": 2
       },
       "evidence_refs": [
         {
-          "job_id": "202c9f29-47fa-4b55-8cbb-337eed7d92e2",
-          "title": "Infrastructure Engineers Remote - Americas",
-          "url": "https://www.shopify.com/careers/infrastructure-engineers_202c9f29-47fa-4b55-8cbb-337eed7d92e2",
+          "job_id": "744000159304965",
+          "title": "Lead Product Manager",
+          "url": "https://www.grab.careers/en/jobs/744000159304965/lead-product-manager/",
           "change": "added"
         },
         {
-          "job_id": "731ad829-1800-4964-be1b-e4f44e1f109c",
-          "title": "Machine Learning Applied Scientists Remote - Americas",
-          "url": "https://www.shopify.com/careers/machine-learning-applied-scientists_731ad829-1800-4964-be1b-e4f44e1f109c",
+          "job_id": "744000159304889",
+          "title": "Data Scientist (Supply Planning)",
+          "url": "https://www.grab.careers/en/jobs/744000159304889/data-scientist-supply-planning/",
           "change": "added"
         },
         {
-          "job_id": "4d2e09db-2f4b-4217-974d-7dcfffd26af6",
-          "title": "Machine Learning Engineer - Ads Remote - Americas",
-          "url": "https://www.shopify.com/careers/machine-learning-engineer-ads_4d2e09db-2f4b-4217-974d-7dcfffd26af6",
+          "job_id": "744000159298569",
+          "title": "Senior Data Scientist (Ads & Demand Optimization)",
+          "url": "https://www.grab.careers/en/jobs/744000159298569/senior-data-scientist-ads-demand-optimization/",
           "change": "added"
         },
         {
-          "job_id": "251eebe9-97e4-4fda-b7e7-236e2d04fc66",
-          "title": "Machine Learning Engineer - Fraud Remote - Americas",
-          "url": "https://www.shopify.com/careers/machine-learning-engineer-fraud_251eebe9-97e4-4fda-b7e7-236e2d04fc66",
+          "job_id": "744000159292980",
+          "title": "Lead Software Engineer, Fullstack",
+          "url": "https://www.grab.careers/en/jobs/744000159292980/lead-software-engineer-fullstack/",
           "change": "added"
         },
         {
-          "job_id": "51086d95-bce7-45b2-af30-69beb6d56392",
-          "title": "Machine Learning Engineer - HSTU Remote - Americas",
-          "url": "https://www.shopify.com/careers/machine-learning-engineer-hstu_51086d95-bce7-45b2-af30-69beb6d56392",
+          "job_id": "744000159289379",
+          "title": "Senior Software Engineer, Fullstack - Merchant Experience",
+          "url": "https://www.grab.careers/en/jobs/744000159289379/senior-software-engineer-fullstack-merchant-experience/",
           "change": "added"
         },
         {
-          "job_id": "b464a8e4-bed0-47e9-bbd6-ee528610a0a5",
-          "title": "Machine Learning Engineer - Recommendations Remote - Americas",
-          "url": "https://www.shopify.com/careers/machine-learning-engineer-recommendations_b464a8e4-bed0-47e9-bbd6-ee528610a0a5",
+          "job_id": "744000159288719",
+          "title": "Assistant Manager, Operational Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000159288719/assistant-manager-operational-strategy/",
           "change": "added"
         },
         {
-          "job_id": "6cc98ef4-1dfc-49e7-b6a8-2efc876ee335",
-          "title": "Machine Learning Engineer - Search Remote - Americas",
-          "url": "https://www.shopify.com/careers/machine-learning-engineer-search_6cc98ef4-1dfc-49e7-b6a8-2efc876ee335",
+          "job_id": "744000159286069",
+          "title": "Lead Product Manager, Data Platform (Data Mesh)",
+          "url": "https://www.grab.careers/en/jobs/744000159286069/lead-product-manager-data-platform-data-mesh/",
           "change": "added"
         },
         {
-          "job_id": "cc0aa9e6-5559-4071-8043-1df701aba595",
-          "title": "Product Data Science Manager Remote - Americas",
-          "url": "https://www.shopify.com/careers/product-data-science-manager_cc0aa9e6-5559-4071-8043-1df701aba595",
-          "change": "added"
-        },
-        {
-          "job_id": "e948ca39-e4ce-4643-a187-c0964f3a8def",
-          "title": "Senior Applied Machine Learning Engineer, SimGym Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-applied-machine-learning-engineer-simgym_e948ca39-e4ce-4643-a187-c0964f3a8def",
-          "change": "added"
-        },
-        {
-          "job_id": "741105f5-0820-4dad-9343-48cd80f0e7d2",
-          "title": "Senior Engineer - Core MySQL, Database Platform Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-engineer-core-mysql-database-platform_741105f5-0820-4dad-9343-48cd80f0e7d2",
-          "change": "added"
-        },
-        {
-          "job_id": "420e0fb0-a768-4f05-98d4-d8c575845309",
-          "title": "Senior Engineer - Privacy Engineering Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-engineer-privacy-engineering_420e0fb0-a768-4f05-98d4-d8c575845309",
-          "change": "added"
-        },
-        {
-          "job_id": "1a309f1d-dd7f-47ec-892d-167beba7caef",
-          "title": "Senior Infra Engineer - Data Governance Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-infra-engineer-data-governance_1a309f1d-dd7f-47ec-892d-167beba7caef",
-          "change": "added"
-        },
-        {
-          "job_id": "08290809-0e9b-4f8a-9c1a-1d7528e931dc",
-          "title": "Senior Infra Engineer - Events Platform Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-infra-engineer-events-platform_08290809-0e9b-4f8a-9c1a-1d7528e931dc",
-          "change": "added"
-        },
-        {
-          "job_id": "453ef67b-70fa-4029-a904-97e92df2a40a",
-          "title": "Senior Infrastructure Engineer - Database Platform Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-infrastructure-engineer-database-platform_453ef67b-70fa-4029-a904-97e92df2a40a",
-          "change": "added"
-        },
-        {
-          "job_id": "6505dd5b-a464-44c2-8ffb-253cd1a34b54",
-          "title": "Senior Infrastructure Engineer - Streaming Compute Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-infrastructure-engineer-streaming-compute_6505dd5b-a464-44c2-8ffb-253cd1a34b54",
-          "change": "added"
-        },
-        {
-          "job_id": "ee6c7782-e250-4c40-9e43-661536ae72d4",
-          "title": "Senior Infrastructure Engineer - Streaming Services/Materialization Platform Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-infrastructure-engineer-streaming-services-materialization-platform_ee6c7782-e250-4c40-9e43-661536ae72d4",
-          "change": "added"
-        },
-        {
-          "job_id": "f84cfe1e-3f98-4394-be55-24f042a660c7",
-          "title": "Senior Privacy Compliance Engineer Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-privacy-compliance-engineer_f84cfe1e-3f98-4394-be55-24f042a660c7",
-          "change": "added"
-        },
-        {
-          "job_id": "1affb074-f055-4f5a-a97e-80d97d77da6e",
-          "title": "Account Executive, SMB Remote - Americas",
-          "url": "https://www.shopify.com/careers/account-executive-smb_1affb074-f055-4f5a-a97e-80d97d77da6e",
+          "job_id": "744000158491390",
+          "title": "Senior Software Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000158491390/senior-software-engineer/",
           "change": "removed"
         },
         {
-          "job_id": "8b0403e4-137a-4f29-8f88-254c2ac0a716",
-          "title": "Account Executive, SMB Existing Business Remote - Ireland, United Kingdom",
-          "url": "https://www.shopify.com/careers/account-executive-smb-existing-business_8b0403e4-137a-4f29-8f88-254c2ac0a716",
+          "job_id": "744000158439469",
+          "title": "KAM GrabFood, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000158439469/kam-grabfood-associate/",
           "change": "removed"
         },
         {
-          "job_id": "69bdefc2-b2f5-4277-996b-7b677bcf1c0a",
-          "title": "Account Executive, SMB, German-speaking Remote - Ireland, United Kingdom",
-          "url": "https://www.shopify.com/careers/account-executive-smb-german-speaking_69bdefc2-b2f5-4277-996b-7b677bcf1c0a",
+          "job_id": "744000158434494",
+          "title": "Supply Chain Strategy & Planning Lead",
+          "url": "https://www.grab.careers/en/jobs/744000158434494/supply-chain-strategy-planning-lead/",
           "change": "removed"
         },
         {
-          "job_id": "c9e3d85f-e24b-4652-bd38-3749d7d5cddf",
-          "title": "Account Executive, SMB - Italian speaking Remote - Ireland, United Kingdom",
-          "url": "https://www.shopify.com/careers/account-executive-smb-italian-speaking_c9e3d85f-e24b-4652-bd38-3749d7d5cddf",
+          "job_id": "744000158432746",
+          "title": "Assistant - Team Coordinator (1-year contract)",
+          "url": "https://www.grab.careers/en/jobs/744000158432746/assistant-team-coordinator-1-year-contract/",
           "change": "removed"
         },
         {
-          "job_id": "ef12f6c3-34f8-4e9e-9d92-c549f16a3848",
-          "title": "Affiliate Marketing Lead, Shop Remote - Americas",
-          "url": "https://www.shopify.com/careers/affiliate-marketing-lead-shop_ef12f6c3-34f8-4e9e-9d92-c549f16a3848",
+          "job_id": "744000158429519",
+          "title": "Senior Solution Specialist, People Systems (Time and Absence)",
+          "url": "https://www.grab.careers/en/jobs/744000158429519/senior-solution-specialist-people-systems-time-and-absence/",
           "change": "removed"
         },
         {
-          "job_id": "301777c5-9382-4cfe-9075-34b6f8a77795",
-          "title": "AML Transaction Monitoring, Analyst Remote - Americas",
-          "url": "https://www.shopify.com/careers/aml-transaction-monitoring-analyst_301777c5-9382-4cfe-9075-34b6f8a77795",
+          "job_id": "744000158197270",
+          "title": "Intern, Global Mobility (Immigration)",
+          "url": "https://www.grab.careers/en/jobs/744000158197270/intern-global-mobility-immigration/",
           "change": "removed"
         },
         {
-          "job_id": "9582ff03-4538-4efe-8406-437956ab2c73",
-          "title": "Associate General Counsel, Privacy Remote - Americas",
-          "url": "https://www.shopify.com/careers/associate-general-counsel-privacy_9582ff03-4538-4efe-8406-437956ab2c73",
-          "change": "removed"
-        },
-        {
-          "job_id": "8441801f-1a0e-42c6-8838-cc15af655923",
-          "title": "Associate General Counsel, Product (Fintech) Remote - Americas",
-          "url": "https://www.shopify.com/careers/associate-general-counsel-product-fintech_8441801f-1a0e-42c6-8838-cc15af655923",
-          "change": "removed"
-        },
-        {
-          "job_id": "78832f74-0b92-45f9-8137-dbbed7a9b254",
-          "title": "Associate General Counsel, Revenue Legal Remote - Americas",
-          "url": "https://www.shopify.com/careers/associate-general-counsel-revenue-legal_78832f74-0b92-45f9-8137-dbbed7a9b254",
-          "change": "removed"
-        },
-        {
-          "job_id": "d6bd5347-c156-4fa4-bb99-3bf5b43e93d7",
-          "title": "Compliance Lead Remote - Americas",
-          "url": "https://www.shopify.com/careers/compliance-lead_d6bd5347-c156-4fa4-bb99-3bf5b43e93d7",
-          "change": "removed"
-        },
-        {
-          "job_id": "bc82a976-cfef-48b5-8c2d-8a323f3114cf",
-          "title": "Creator & Influencer Marketing Lead, Shop Remote - Americas",
-          "url": "https://www.shopify.com/careers/creator-influencer-marketing-lead-shop_bc82a976-cfef-48b5-8c2d-8a323f3114cf",
-          "change": "removed"
-        },
-        {
-          "job_id": "2e7f4ee3-5570-4d21-a0c0-a0baddd66bb5",
-          "title": "Designers Remote - Americas",
-          "url": "https://www.shopify.com/careers/designers_2e7f4ee3-5570-4d21-a0c0-a0baddd66bb5",
-          "change": "removed"
-        },
-        {
-          "job_id": "375d386a-39bc-46b2-97c0-73bcc58ec814",
-          "title": "Director, Partnerships, Greater China Remote - Singapore",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_375d386a-39bc-46b2-97c0-73bcc58ec814",
-          "change": "removed"
-        },
-        {
-          "job_id": "bff44652-fe22-44bc-84b0-691d8f996322",
-          "title": "Director, Partnerships, Greater China Remote - Hong Kong",
-          "url": "https://www.shopify.com/careers/director-partnerships-greater-china_bff44652-fe22-44bc-84b0-691d8f996322",
-          "change": "removed"
-        },
-        {
-          "job_id": "457042ce-a4b6-4769-a932-3c181f46470f",
-          "title": "Editorial Lead, Engineering & Technical Content Remote - Americas",
-          "url": "https://www.shopify.com/careers/editorial-lead-engineering-technical-content_457042ce-a4b6-4769-a932-3c181f46470f",
-          "change": "removed"
-        },
-        {
-          "job_id": "b9cc007a-750f-4093-8191-e61f85c7c787",
-          "title": "Enterprise Account Executive Remote - Americas",
-          "url": "https://www.shopify.com/careers/enterprise-account-executive_b9cc007a-750f-4093-8191-e61f85c7c787",
-          "change": "removed"
-        },
-        {
-          "job_id": "715ee550-b7d0-4c4a-86c0-4b51e6d74fc4",
-          "title": "Experiential Marketing Lead (Head of Shopify Spaces, London) Remote - United Kingdom",
-          "url": "https://www.shopify.com/careers/experiential-marketing-lead-head-of-shopify-spaces-london_715ee550-b7d0-4c4a-86c0-4b51e6d74fc4",
+          "job_id": "744000157997299",
+          "title": "Senior DevOps Engineer, Streaming Platform",
+          "url": "https://www.grab.careers/en/jobs/744000157997299/senior-devops-engineer-streaming-platform/",
           "change": "removed"
         }
       ],
-      "status": "rejected",
-      "rejection_reason": "source_reset_suspected",
+      "status": "qualified",
+      "rejection_reason": "",
       "promoted_event_id": ""
     }
   ],
