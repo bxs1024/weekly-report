@@ -1,25 +1,23 @@
 {
-  "observed_at": "2026-11-03T15:31:33.938897+08:00",
+  "observed_at": "2026-11-04T07:10:18.975339+08:00",
   "source_count": 3,
-  "raw_count": 49,
+  "raw_count": 48,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 14,
-      "inventory_count": 19,
+      "count": 5,
+      "inventory_count": 18,
       "signal_count": 1,
-      "added_count": 7,
-      "removed_count": 7,
+      "added_count": 2,
+      "removed_count": 3,
       "clusters": {
-        "engineering": 3
+        "compliance": 1,
+        "operations": 1
       },
-      "removed_clusters": {
-        "engineering": 2,
-        "operations": 2
-      }
+      "removed_clusters": {}
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
@@ -50,117 +48,61 @@
   },
   "candidate_signals": [
     {
-      "candidate_id": "jobs-f1fc94941f7b0c8a",
+      "candidate_id": "jobs-d1579fedb834f442",
       "entity_id": "grab",
       "entity": "Grab",
       "region": "亚太",
       "sector": "mobility_payment",
       "source_type": "jobs_snapshot",
       "signal_type": "function_buildout",
-      "cluster": "engineering",
+      "cluster": "compliance",
       "window": "2026-W45",
-      "window_start": "2026-11-03",
-      "window_end": "2026-11-03",
-      "detected_at": "2026-11-03T15:31:33.938897+08:00",
+      "window_start": "2026-11-04",
+      "window_end": "2026-11-04",
+      "detected_at": "2026-11-04T07:10:18.975339+08:00",
       "baseline_count": 19,
-      "current_count": 19,
-      "added_count": 7,
-      "removed_count": 7,
+      "current_count": 18,
+      "added_count": 2,
+      "removed_count": 3,
       "clusters": {
-        "engineering": 3
+        "compliance": 1,
+        "operations": 1
       },
-      "removed_clusters": {
-        "engineering": 2,
-        "operations": 2
-      },
+      "removed_clusters": {},
       "evidence_refs": [
+        {
+          "job_id": "744000159351149",
+          "title": "Assistant Manager, Regional Credit Risk, Consumer Lending",
+          "url": "https://www.grab.careers/en/jobs/744000159351149/assistant-manager-regional-credit-risk-consumer-lending/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000159308659",
+          "title": "Lead Product Manager, Grab Support",
+          "url": "https://www.grab.careers/en/jobs/744000159308659/lead-product-manager-grab-support/",
+          "change": "added"
+        },
         {
           "job_id": "744000159304965",
           "title": "Lead Product Manager",
           "url": "https://www.grab.careers/en/jobs/744000159304965/lead-product-manager/",
-          "change": "added"
+          "change": "removed"
         },
         {
           "job_id": "744000159304889",
           "title": "Data Scientist (Supply Planning)",
           "url": "https://www.grab.careers/en/jobs/744000159304889/data-scientist-supply-planning/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000159298569",
-          "title": "Senior Data Scientist (Ads & Demand Optimization)",
-          "url": "https://www.grab.careers/en/jobs/744000159298569/senior-data-scientist-ads-demand-optimization/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000159292980",
-          "title": "Lead Software Engineer, Fullstack",
-          "url": "https://www.grab.careers/en/jobs/744000159292980/lead-software-engineer-fullstack/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000159289379",
-          "title": "Senior Software Engineer, Fullstack - Merchant Experience",
-          "url": "https://www.grab.careers/en/jobs/744000159289379/senior-software-engineer-fullstack-merchant-experience/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000159288719",
-          "title": "Assistant Manager, Operational Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000159288719/assistant-manager-operational-strategy/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000159286069",
-          "title": "Lead Product Manager, Data Platform (Data Mesh)",
-          "url": "https://www.grab.careers/en/jobs/744000159286069/lead-product-manager-data-platform-data-mesh/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000158491390",
-          "title": "Senior Software Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000158491390/senior-software-engineer/",
           "change": "removed"
         },
         {
-          "job_id": "744000158439469",
-          "title": "KAM GrabFood, Associate",
-          "url": "https://www.grab.careers/en/jobs/744000158439469/kam-grabfood-associate/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000158434494",
-          "title": "Supply Chain Strategy & Planning Lead",
-          "url": "https://www.grab.careers/en/jobs/744000158434494/supply-chain-strategy-planning-lead/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000158432746",
-          "title": "Assistant - Team Coordinator (1-year contract)",
-          "url": "https://www.grab.careers/en/jobs/744000158432746/assistant-team-coordinator-1-year-contract/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000158429519",
-          "title": "Senior Solution Specialist, People Systems (Time and Absence)",
-          "url": "https://www.grab.careers/en/jobs/744000158429519/senior-solution-specialist-people-systems-time-and-absence/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000158197270",
-          "title": "Intern, Global Mobility (Immigration)",
-          "url": "https://www.grab.careers/en/jobs/744000158197270/intern-global-mobility-immigration/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000157997299",
-          "title": "Senior DevOps Engineer, Streaming Platform",
-          "url": "https://www.grab.careers/en/jobs/744000157997299/senior-devops-engineer-streaming-platform/",
+          "job_id": "744000158582629",
+          "title": "Country Controller, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000158582629/country-controller-associate/",
           "change": "removed"
         }
       ],
-      "status": "qualified",
-      "rejection_reason": "",
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
       "promoted_event_id": ""
     }
   ],

@@ -1,7 +1,65 @@
 {
   "version": 1,
-  "generated_at": "2026-11-03T15:31:33.938897+08:00",
+  "generated_at": "2026-11-04T07:10:18.975339+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-d1579fedb834f442",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "compliance",
+      "window": "2026-W45",
+      "window_start": "2026-11-04",
+      "window_end": "2026-11-04",
+      "detected_at": "2026-11-04T07:10:18.975339+08:00",
+      "baseline_count": 19,
+      "current_count": 18,
+      "added_count": 2,
+      "removed_count": 3,
+      "clusters": {
+        "compliance": 1,
+        "operations": 1
+      },
+      "removed_clusters": {},
+      "evidence_refs": [
+        {
+          "job_id": "744000159351149",
+          "title": "Assistant Manager, Regional Credit Risk, Consumer Lending",
+          "url": "https://www.grab.careers/en/jobs/744000159351149/assistant-manager-regional-credit-risk-consumer-lending/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000159308659",
+          "title": "Lead Product Manager, Grab Support",
+          "url": "https://www.grab.careers/en/jobs/744000159308659/lead-product-manager-grab-support/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000159304965",
+          "title": "Lead Product Manager",
+          "url": "https://www.grab.careers/en/jobs/744000159304965/lead-product-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000159304889",
+          "title": "Data Scientist (Supply Planning)",
+          "url": "https://www.grab.careers/en/jobs/744000159304889/data-scientist-supply-planning/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000158582629",
+          "title": "Country Controller, Associate",
+          "url": "https://www.grab.careers/en/jobs/744000158582629/country-controller-associate/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-b8eba6705a7654b2",
       "entity_id": "shopify",

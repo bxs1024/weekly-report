@@ -1,22 +1,26 @@
 {
   "version": 1,
-  "generated_at": "2026-11-03T15:31:33.938897+08:00",
+  "generated_at": "2026-11-04T07:10:18.975339+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-03T15:31:33.938897+08:00",
+      "observed_at": "2026-11-04T07:10:18.975339+08:00",
       "jobs": [
         {
-          "id": "744000159304965",
-          "title": "Lead Product Manager",
-          "url": "https://www.grab.careers/en/jobs/744000159304965/lead-product-manager/",
-          "function_tags": []
+          "id": "744000159351149",
+          "title": "Assistant Manager, Regional Credit Risk, Consumer Lending",
+          "url": "https://www.grab.careers/en/jobs/744000159351149/assistant-manager-regional-credit-risk-consumer-lending/",
+          "function_tags": [
+            "compliance"
+          ]
         },
         {
-          "id": "744000159304889",
-          "title": "Data Scientist (Supply Planning)",
-          "url": "https://www.grab.careers/en/jobs/744000159304889/data-scientist-supply-planning/",
-          "function_tags": []
+          "id": "744000159308659",
+          "title": "Lead Product Manager, Grab Support",
+          "url": "https://www.grab.careers/en/jobs/744000159308659/lead-product-manager-grab-support/",
+          "function_tags": [
+            "operations"
+          ]
         },
         {
           "id": "744000159298569",
@@ -135,18 +139,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000158582629",
-          "title": "Country Controller, Associate",
-          "url": "https://www.grab.careers/en/jobs/744000158582629/country-controller-associate/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-03T15:31:33.938897+08:00",
+      "observed_at": "2026-11-04T07:10:18.975339+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -187,7 +185,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-03T15:31:33.938897+08:00",
+      "observed_at": "2026-11-04T07:10:18.975339+08:00",
       "jobs": [
         {
           "id": "62d779d3-51c8-4b0a-ab2e-1a440276bb37",
