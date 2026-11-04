@@ -1106,29 +1106,29 @@
       "generated_at": "2026-11-01 15:18"
     },
     "weekly:2026-W45": {
-      "input_hash": "b9a30885df39e014436dff40e273ac478bb7f68473ab1b0814dfad7e42d55886",
+      "input_hash": "eefb6a1d538dc45c70954ad9071c0a846a43c258d47395731adc9a1ddda0fd87",
       "editorial": {
-        "editorial_title": "英伟达入股Naver，亚太AI与支付基建同步升温",
-        "mainline": "英伟达以近10亿美元入股Naver，将AI芯片与云服务在韩国的联合部署推向实质阶段；Kakao Pay同期发布数字资产生态计划，超级钱包向资产端延伸。两件事共同指向亚太AI基础设施与支付钱包正从独立赛道走向捆绑落地。",
+        "editorial_title": "英伟达入股Naver，亚太AI支付双线并进",
+        "mainline": "英伟达以近10亿美元入股Naver，将AI芯片与云服务在韩国的联合部署推向实质阶段；同时Razorpay拿下GIFT City离岸牌照、腾讯与Mastercard试水智能体支付，跨境支付基建的竞合正从东南亚向海湾延伸。两条线共同指向：亚太数字基建的股权绑定与牌照卡位正在加速。",
         "themes": {
-          "ai_infra": "英伟达以约9.98亿美元拿下Naver 4.13%股权，把芯片供应关系升级为股权绑定；Naver同步签政企AI协议、Kakao启动AI Sail二期，腾讯云则借OmniOps切入沙特企业AI。亚太AI基础设施正从卖算力转向股权与政企合同双线锁定。",
-          "payments": "Kakao Pay发布数字资产生态计划，把钱包从支付工具推向资产入口；腾讯与万事达卡探索代理支付，Revolut Pay联手Trendyol做一键结账，Nubank上市前换品牌。钱包基础设施的竞争焦点正从收单费率转向资产与跨境场景。",
-          "expansion": "Zalando三季度盈利增长由B2B扩张拉动，Adyen拿下JINS日本150家门店，Neptune把游戏推上微信小游戏，Nubank换品牌为全球扩张铺路。欧洲电商的增长重心正从自营零售转向向第三方输出物流、支付与平台能力。",
-          "developer": "马来西亚芯片出口增长但全球份额未升，说明增量仍集中在封装测试等低附加值环节；越南气候科技缺中间层制约女性创始人，Rise of Fearless获100万美元扩展游戏平台，Telenor获准收购Bahnhof。供应链升级与平台生态的短板同时暴露。",
-          "commerce": "Baked by Melissa进驻Target推假日烘焙套装，亚太初创把社媒食品趋势商品化，MercadoLibre估值数据更新；但AI推荐导致零售退货率上升，履约与逆向物流成本被抬高。电商增长正把压力从流量端转移到退货与供应链端。",
-          "operations": "Kakao Pay证券三季度利润大幅下滑，交易与外汇收入放缓直接冲击盈利；VNG利润增速跑赢营收，Seedance海外营收占比达50%，Grab新增8个工程与平台岗位。金融科技的高估值正被券商类业绩波动重新定价。"
+          "ai_infra": "英伟达以约9.98亿美元拿下Naver 4.13%股权，把芯片供应与韩国政企AI订单直接挂钩；Naver同步签政企协议、Kakao启动AI Sail二期，本土云需求正被政企项目托起。腾讯云借OmniOps切入沙特企业AI，亚太AI基建的股权与区域绑定同步收紧。",
+          "payments": "Razorpay获IFSCA牌照推出GIFT City支付平台，把印度支付能力接入离岸金融通道；腾讯与Mastercard探索智能体支付，Kakao Pay发布数字资产生态计划。支付竞争正从收单转向牌照与协议层卡位。",
+          "expansion": "Zalando三季度盈利增长由B2B扩张驱动，时尚电商正从自营零售转向向品牌输出物流与平台能力；Adyen拿下JINS日本150家门店，Nubank上市前焕新品牌支持全球扩张。欧洲电商的增量正来自基础设施外供而非前端流量。",
+          "developer": "马来西亚芯片出口增长但全球份额停滞，说明其仍卡在封装测试低附加值环节，先进制程与供应链升级的投资缺口未解；越南气候科技中间层缺失制约女性创始人，早期生态的结构性短板同步暴露。",
+          "operations": "Kakao Pay证券三季度利润大幅下滑，交易与外汇收入放缓直接冲击盈利；LG Uplus营业利润增84%但营收下滑，VNG利润增速超营收。增长质量的分化正在挤压高估值金融科技板块的业绩容错空间。",
+          "commerce": "Pine Labs与Stripe整合新加坡商户支付，印度支付商借道拓展东南亚收单；亚太初创把社媒食品趋势商品化，MercadoLibre估值数据更新。商户支付与消费趋势的商品化正沿跨境基建同步推进。"
         },
         "theme_titles": {
-          "ai_infra": "英伟达入股Naver，韩国AI云部署绑上芯片股权",
-          "payments": "Kakao Pay押注数字资产，超级钱包向资产端延伸",
+          "ai_infra": "英伟达入股Naver，韩国AI云部署绑上芯片战车",
+          "payments": "Razorpay拿下GIFT City牌照，跨境支付向海湾延伸",
           "expansion": "Zalando B2B成增长引擎，欧洲电商转向平台输出",
-          "developer": "马来西亚芯片出口增量未换来份额，封装环节卡位",
-          "commerce": "AI推荐推高退货率，电商履约成本承压",
-          "operations": "Kakao Pay证券利润骤降，金融科技高估值承压"
+          "developer": "马来西亚芯片出口增份额不增，封装环节升级承压",
+          "operations": "Kakao Pay证券利润骤降，金融科技高估值承压",
+          "commerce": "Pine Labs联手Stripe，东南亚商户支付加速整合"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-11-04 07:20"
+      "generated_at": "2026-11-04 15:24"
     }
   }
 }
