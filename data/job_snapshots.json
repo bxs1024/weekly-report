@@ -1,11 +1,61 @@
 {
   "version": 1,
-  "generated_at": "2026-11-04T07:10:18.975339+08:00",
+  "generated_at": "2026-11-04T15:12:46.909192+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-04T07:10:18.975339+08:00",
+      "observed_at": "2026-11-04T15:12:46.909192+08:00",
       "jobs": [
+        {
+          "id": "744000159551589",
+          "title": "Senior Associate, Channel Ops Strategy & Design",
+          "url": "https://www.grab.careers/en/jobs/744000159551589/senior-associate-channel-ops-strategy-design/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000159547850",
+          "title": "Partner Training Skills Manager",
+          "url": "https://www.grab.careers/en/jobs/744000159547850/partner-training-skills-manager/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
+          "id": "744000159543109",
+          "title": "Associate, Key Account Management - GrabMart",
+          "url": "https://www.grab.careers/en/jobs/744000159543109/associate-key-account-management-grabmart/",
+          "function_tags": []
+        },
+        {
+          "id": "744000159541509",
+          "title": "Senior Project Manager",
+          "url": "https://www.grab.careers/en/jobs/744000159541509/senior-project-manager/",
+          "function_tags": []
+        },
+        {
+          "id": "744000159539640",
+          "title": "Assistant Marketing Manager",
+          "url": "https://www.grab.careers/en/jobs/744000159539640/assistant-marketing-manager/",
+          "function_tags": []
+        },
+        {
+          "id": "744000159538099",
+          "title": "Lead Data Scientist, People Analytics",
+          "url": "https://www.grab.careers/en/jobs/744000159538099/lead-data-scientist-people-analytics/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000159533505",
+          "title": "Senior Principal Engineer, Consumer Experience & Integrity",
+          "url": "https://www.grab.careers/en/jobs/744000159533505/senior-principal-engineer-consumer-experience-integrity/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000159351149",
           "title": "Assistant Manager, Regional Credit Risk, Consumer Lending",
@@ -87,64 +137,12 @@
           "title": "Intern, Regional Public Affairs",
           "url": "https://www.grab.careers/en/jobs/744000159051260/intern-regional-public-affairs/",
           "function_tags": []
-        },
-        {
-          "id": "744000159050479",
-          "title": "Assistant Manager, Growth Analytics",
-          "url": "https://www.grab.careers/en/jobs/744000159050479/assistant-manager-growth-analytics/",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "744000159049506",
-          "title": "Assistant Manager, Ads Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000159049506/assistant-manager-ads-strategy/",
-          "function_tags": []
-        },
-        {
-          "id": "744000159050369",
-          "title": "Assistant Manager (Regional SMB Ads) - User Growth & Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000159050369/assistant-manager-regional-smb-ads-user-growth-strategy/",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "744000159048889",
-          "title": "Senior Solution Specialist, People Systems (Compensation and Core HCM)",
-          "url": "https://www.grab.careers/en/jobs/744000159048889/senior-solution-specialist-people-systems-compensation-and-core-hcm/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000159043471",
-          "title": "Lead Software Engineer, Perception (Robotics)",
-          "url": "https://www.grab.careers/en/jobs/744000159043471/lead-software-engineer-perception-robotics/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000159031899",
-          "title": "Assistant Manager, Regional Business Finance – B2B",
-          "url": "https://www.grab.careers/en/jobs/744000159031899/assistant-manager-regional-business-finance-b2b/",
-          "function_tags": []
-        },
-        {
-          "id": "744000158659289",
-          "title": "Software Engineer, Perception (Robotics)",
-          "url": "https://www.grab.careers/en/jobs/744000158659289/software-engineer-perception-robotics/",
-          "function_tags": [
-            "engineering"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-04T07:10:18.975339+08:00",
+      "observed_at": "2026-11-04T15:12:46.909192+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -185,7 +183,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-04T07:10:18.975339+08:00",
+      "observed_at": "2026-11-04T15:12:46.909192+08:00",
       "jobs": [
         {
           "id": "62d779d3-51c8-4b0a-ab2e-1a440276bb37",
