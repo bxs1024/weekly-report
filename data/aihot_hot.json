@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T11:31:46+08:00",
-  "fetched_date": "2026-11-04",
+  "generated_at": "2026-11-05T03:24:23+08:00",
+  "fetched_date": "2026-11-05",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
@@ -12,7 +12,7 @@
       "title": "MIT 称 GPT-6 Astra 可直接改写模型权重",
       "list_title": "MIT 称 GPT-6 Astra 可直接改写模型权重",
       "heat": null,
-      "heat_change": "↓ 15 %",
+      "heat_change": "↓ 13 %",
       "sources": [],
       "summary": "MIT CSAIL 博士生 Rikiya Takehi 团队提出“权重空间编程”，称 GPT-6 Astra 无需训练或梯度，就能直接读取并修改另一个神经网络的权重。团队称，仅改动 Qwen3.5-0.8B 约 0.016%（131072 个）权重后，该模型 MATH-500 成绩从 7.9 升至 48.1，GSM8K 从 13.8 升至 67.1，指令遵循提升 3 倍。\n\n这些数字来自研究者一方，尚无独立复现或第三方验证公开。若成立，模型能力调整可绕过微调流程，直接作用于权重本身。OpenAI 开发者体验团队的 Dominik Kundel 在社交平台转述并称赞该效果，但未提供新的验证信息。",
       "original_links": [],
@@ -20,102 +20,102 @@
     },
     {
       "rank": 2,
-      "title": "Google将引导学习引入Search和Classroom，K-12学生AI工具默认关闭",
-      "list_title": "Google将引导学习引入Search和Classroom，K-12学生AI工具默认关闭",
+      "title": "腾讯混元 Hy4 正式发布，首次引入视觉与电脑操作",
+      "list_title": "腾讯混元 Hy4 正式发布，首次引入视觉与电脑操作",
       "heat": null,
-      "heat_change": "↑ 46 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "Google宣布把Guided Learning引入Google Search学生账号和Google Classroom，并调整学校管控策略。Google称，Guided Learning即日起在Google Classroom面向全球开放；Search中的相关功能本月晚些时候先在美国部分学校试点，收集教育者反馈后再推广到其他学区。\n\n对K-12学生账号，Gemini、Gemini Notebook、Gemini in Classroom和Google Search默认全部关闭，须由学校管理员显式开启。Google表示，管理员无法只关闭Gemini功能而保留Search；选择完全限制AI的学校，学生将无法使用搜索，并会看到学校提示信息。\n\n上述默认关闭安排从明年起生效。",
+      "summary": "腾讯混元 11 月 4 日发布 Hy4 正式版，相比 8 月 28 日的 Hy4 preview 扩展了预训练与后训练规模，首次引入视觉能力和电脑操作支持，可执行细粒度图像处理、复杂图表分析、数学视觉推理，以及结合命令行与图形界面的任务。腾讯混元称，Hy4 在 GameDev 与 GameLogic 评测上分别提升 19.1% 和 9.8%，性能显著超过 preview，同时维持相同 API 价格，并称其首次跻身最强开源模型之列，计划近期开源模型权重并发布模型系统卡片。\n\nHy4 已在腾讯云和 OpenRouter 上线，并可在 CodeBuddy / WorkBuddy、元宝、ima 等产品上体验；WorkBuddy 称 Hy4 可免费试用，但有使用额度限制。OpenClaw 随后宣布支持 Hy4，用户可通过 Tencent TokenHub、TokenPlan 和 OpenRouter 使用。上述提升与开源计划均来自腾讯方面，实际效果尚待验证。\n\nArena 公布 Hy4 在 Agent Arena 总榜排名第 14，基于 8.5K+ 真实长…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/956471b6-c78b-44c7-b4d4-e00583803aca"
+      "story_url": "https://aihot.virxact.com/story/491d220c-9d57-4295-af9f-e4382561b3f7"
     },
     {
       "rank": 3,
       "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
       "list_title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
       "heat": null,
-      "heat_change": "↑ 80 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "苹果宣布 Apple 智能随 iOS 27.3 进入中国市场：11 月 4 日开放开发者预览版测试，12 月正式版上线首批核心功能。11 月 4 日 IT之家实测称，国行「Apple 智能与 Siri」已在该预览版如期上线，iPhone 15 Pro 及更新机型可用。\n\n阿里巴巴同日公告称，千问集成至 Siri、写作工具和视觉智能，用户可自主选择是否开通，登录千问账户或通过「通过 Apple 登录」即可在系统内调用，无需跳转独立应用；用户请求及回复不会被阿里用于模型训练。该功能面向在中国购买支持 Apple 智能的 iPhone 用户，或设备定位和 Apple 账户国家/地区均设在中国的用户。\n\n据 The Verge 报道，此次上线不包括新版 Siri AI，中国用户暂时无法使用这一 Siri 功能。",
+      "summary": "苹果宣布 Apple 智能随 iOS 27.3 进入中国市场：11 月 4 日开放开发者预览版测试，12 月正式版上线首批核心功能。11 月 4 日 IT之家实测称，国行「Apple 智能与 Siri」已在该预览版如期上线，iPhone 15 Pro 及更新机型可用。\n\n阿里巴巴同日公告称，千问集成至 Siri、写作工具和视觉智能，用户可自主选择是否开通，登录千问账户或通过「通过 Apple 登录」即可在系统内调用，无需跳转独立应用；用户请求及回复不会被阿里用于模型训练。该功能面向在中国购买支持 Apple 智能的 iPhone 用户，或设备定位和 Apple 账户国家/地区均设在中国的用户。IT之家实测发现，视觉智能的问询结果和千问完成的文字创作内容会同步至千问 App。\n\n据 The Verge 报道，此次上线不包括新版 Siri AI，中国用户暂时无法使用这一 Siri 功能。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c"
     },
     {
       "rank": 4,
-      "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克",
-      "list_title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克",
+      "title": "Google将AI学习功能引入Search和Classroom，学校禁用AI即失去搜索",
+      "list_title": "Google将AI学习功能引入Search和Classroom，学校禁用AI即失去搜索",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "Anthropic 已向美国 SEC 公开提交 S-1 注册声明，拟在纳斯达克以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销；发行股数与价格区间尚未确定，注册声明尚未生效。招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。公司称未来可能无法实现或维持盈利。\n\n后续更新的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，主因是 50 亿美元的高价短期算力和 20 亿美元员工捐赠配比的非现金支出；Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%。更新文件还显示，算力与基础设施合同承诺总额约 8954 亿美元，另有最高 1750 亿美元尚未定价，其中 4475 亿美元须在 2031 年前支付，仅 2138 亿美元可取消或附带条件。\n\n上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对董事会组成…",
+      "summary": "Google宣布把Guided Learning引入Google Search学生账号和Google Classroom，并调整学校管控策略。Guided Learning即日起在Google Classroom面向全球开放；Search中的相关功能本月晚些时候先在美国部分学校试点，收集教育者反馈后再推广到其他学区。\n\n对K-12学生账号，Gemini、Gemini Notebook、Gemini in Classroom和Google Search默认全部关闭，须由学校管理员显式开启。Google表示，管理员无法只关闭Gemini功能而保留Search；选择完全限制AI的学校，学生将无法使用搜索，并会看到学校提示信息。The Decoder报道称，这一安排从2027年初起生效，届时学校若想继续使用Google搜索，就必须接受面向学生的AI功能，不存在无AI版本的搜索；Google教育副总裁Chris Phillips称搜索与AI已紧密结合、无法拆分。\n\n该政策公布后引发反弹，TechCrunch报道称Google因此受到批评。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
+      "story_url": "https://aihot.virxact.com/story/956471b6-c78b-44c7-b4d4-e00583803aca"
     },
     {
       "rank": 5,
       "title": "Anthropic 开源 FlashProve 可验证推理原型",
       "list_title": "Anthropic 开源 FlashProve 可验证推理原型",
       "heat": null,
-      "heat_change": "↑ 94 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "Anthropic 发布并开源可验证推理研究原型 FlashProve：用 zkSNARK 让用户在不接触模型权重的情况下，验证某条回复确由指定模型生成。代码、Lean 形式化证明和文档以 Apache 2.0 协议公开。Anthropic 称，在 400B 参数混合专家模型 Llama 4 Maverick（4-bit 量化）上，单张 H100 生成证明的速度超过 100 tokens/秒，每 1,024 token 请求的证明约 19 MB；其 GPU 耗时约为常用开源库 vLLM 处理同长度提示的 70–95 倍。\n\nMarkTechPost 称，该原型目前每次请求上下文上限为 1,024 token，仅支持贪心解码和 MoE 模型；证明端需要 1 张 H100 80 GB、24 个 CPU 核心和约 290 GB 主机内存。Anthropic 称，该证明可用于防止攻击者劫持对话，也能让安全评估者确认被测模型与线上服务模型一致；TechCrunch 报道称，系统要求模型发布方公开不泄露权重的模型指纹，并可在本地设备完成验证。\n\nAnthro…",
+      "summary": "Anthropic 发布并开源可验证推理研究原型 FlashProve：用 zkSNARK 让用户在不接触模型权重的情况下，验证某条回复确由指定模型生成。代码、Lean 形式化证明和文档以 Apache 2.0 协议公开。Anthropic 称，在 400B 参数混合专家模型 Llama 4 Maverick（4-bit 量化）上，单张 H100 生成证明的速度超过 100 tokens/秒，每 1,024 token 请求的证明约 19 MB；其 GPU 耗时约为常用开源库 vLLM 处理同长度提示的 70–95 倍。The Decoder 称，普通 CPU 验证一份证明约需 17 秒。\n\nMarkTechPost 称，该原型目前每次请求上下文上限为 1,024 token，仅支持贪心解码和 MoE 模型；证明端需要 1 张 H100 80 GB、24 个 CPU 核心和约 290 GB 主机内存。The Decoder 称，它隐藏模型权重但不隐藏底层架构，且证明只适用于模型选取最可能的下一个 token，不适用于聊天机器人日常产生的随机化输出…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/f33dbd76-b66f-428a-a7ec-f89e1db4f51b"
     },
     {
       "rank": 6,
-      "title": "马斯克承认Grok Bot成本高于收入并下调限额",
-      "list_title": "马斯克承认Grok Bot成本高于收入并下调限额",
-      "heat": null,
-      "heat_change": "↓ 21 %",
-      "sources": [],
-      "summary": "马斯克在 X 平台回应称，周末部分用户 Grok Bot 每周额度被用满并非故障，原因是服务成本“相对于收入而言高到难以为继”，并已下调用量限制。他未说明订阅者限额今后如何调整。\n\n据 Telegraph 报道，SpaceX 上周末削减了 Grok Bot 的用量配额，多名用户配额减半；Musk 未直接确认削减。Grok Bot 是 SpaceX 今年 8 月推出的 AI 智能体，从免费版到每月 200 美元套餐分多档，所有档位都设有每周重置的使用限额，且与 Grok 及编程平台 Cursor 共用配额。上月财报披露其付费周活用户达 80 万。\n\nTechCrunch 另提到，SpaceX 上月披露 AI 已占公司收入 52%，其更名的 Super Intelligence 部门实现 4.31 亿美元盈利，但因收购 Cursor 的 12 亿美元一次性成本，利润本可更高。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/8b71dc45-4e03-41aa-a2e0-97b2a37915dc"
-    },
-    {
-      "rank": 7,
       "title": "Claude Code 产品负责人 Cat Wu 宣布离开 Anthropic",
       "list_title": "Claude Code 产品负责人 Cat Wu 宣布离开 Anthropic",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "Claude Code 产品负责人 Cat Wu 宣布，她已于上周五正式离开 Anthropic。她表示，自己两年前在 Claude Code 还是内部工具时用它搭建强化学习环境，并因此加入团队。\n\nCat Wu 回顾了产品从首次发布时用户需手动逐条批准权限，到如今默认信任自动批准、Claude 能承担大规模迁移和新产品构建的变化，并感谢 Claude Code、Cowork 和 Tag 背后的团队与用户。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/dbad8163-0b5e-4bbf-958a-b5ba34b8f2c9"
     },
     {
-      "rank": 8,
-      "title": "OpenAI 称 ChatGPT 搜索量达 Google 两成、周活 12 亿",
-      "list_title": "OpenAI 称 ChatGPT 搜索量达 Google 两成、周活 12 亿",
+      "rank": 7,
+      "title": "OpenAI宣布收购Pierre，整合其开源工具入Codex",
+      "list_title": "OpenAI宣布收购Pierre，整合其开源工具入Codex",
       "heat": null,
-      "heat_change": "↑ 71 %",
+      "heat_change": "↑ 267 %",
       "sources": [],
-      "summary": "OpenAI 消费者产品负责人 Adam Fry 称，ChatGPT 上触发网页搜索的查询量已相当于 Google 搜索量的约 20%，周活跃用户两个月内从 10 亿增至 12 亿。这一说法由 Fry 在纽约一场 OpenAI 主办的晚宴对谈中提出，随后他在媒体活动上再次确认，OpenAI 方面也予以证实。\n\nFry 同时披露，语音模式每周有 2.5 亿活跃用户，用户每周生成 15 亿张图片，ChatGPT 计划合并 Chat 与 Work 两种模式。他称广告未对产品使用造成负面影响，OpenAI 正把广告扩展为聊天回复中的赞助商品图片。\n\n作为参照，Bing 在 2023 年反垄断审判中的市场份额约为 3%；皮尤研究中心今夏调查显示，42% 的美国成年人曾用 AI 搜索信息，44% 使用过 ChatGPT，Gemini 为 24%。Alphabet CEO 皮查伊此前表示，聊天机器人与搜索并非零和博弈。",
+      "summary": "OpenAI 宣布收购 Pierre Computer Company——Code Storage 及多款开源开发者工具背后的公司，以推进把 Codex 打造成团队与 AI 协同开发软件平台的规划。OpenAI 称，Pierre 的 Trees 和 Diffs 库已被用于 Codex 应用的文件浏览与代码变更审阅，双方将在此基础上继续开发。\n\n交割后 Pierre 的开源项目将继续开源，Code Storage 客户可继续使用，相关功能将逐步并入 Codex。交易金额未披露。\n\n交割尚待监管批准，在此之前两家公司保持独立。OpenAI 总裁 Greg Brockman 在社交平台发文“欢迎 Pierre 加入 OpenAI”，未说明具体计划。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/9c7379d1-14a9-4bd6-9974-018637abc036"
+      "story_url": "https://aihot.virxact.com/story/eb3a8a76-8af1-48fb-8fa0-67903c2b1174"
+    },
+    {
+      "rank": 8,
+      "title": "Canva十年来首次增长放缓，22%员工受裁员重组影响",
+      "list_title": "Canva十年来首次增长放缓，22%员工受裁员重组影响",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "据 Bloomberg 报道，Canva 十年来首次出现增长放缓，为此进行的大调整涉及 1271 人，占员工总数的 22%，形式包括裁员、岗位变动或搬迁。Canva 官方未将 AI 列为裁员原因。\n\n报道称，这次调整旨在让 Canva 具备构建 AI 产品的能力，并非用自动化替代离职员工的工作。但服务大量非付费用户的成本过高，制约了这一计划，Canva 已推迟多个 AI 产品的发布。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/d38a33f9-5a87-4e04-b800-0c7185a28e86"
     },
     {
       "rank": 9,
+      "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克",
+      "list_title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克",
+      "heat": null,
+      "heat_change": "↓ 38 %",
+      "sources": [],
+      "summary": "Anthropic 已向美国 SEC 公开提交 S-1 注册声明，拟在纳斯达克以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销；发行股数与价格区间尚未确定，注册声明尚未生效。招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。公司称未来可能无法实现或维持盈利。\n\n后续更新的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，主因是 50 亿美元的高价短期算力和 20 亿美元员工捐赠配比的非现金支出；Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%。更新文件还显示，算力与基础设施合同承诺总额约 8954 亿美元，另有最高 1750 亿美元尚未定价，其中 4475 亿美元须在 2031 年前支付，仅 2138 亿美元可取消或附带条件。\n\n上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对董事会组成…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
+    },
+    {
+      "rank": 10,
       "title": "AMD发布三季度财报，预计2027年营收增长超80%",
       "list_title": "AMD发布三季度财报，预计2027年营收增长超80%",
       "heat": null,
-      "heat_change": "↑ 323 %",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "AMD 发布 2026 年第三季度财报，并预计 2027 年营收增长超过 80%，高于分析师建模的 77%。\n\nAMD CEO Lisa Su 称，数据中心芯片将占公司明年销售额的 80%。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/afb1ed66-7ecc-4d15-b9d1-90b835f6e985"
-    },
-    {
-      "rank": 10,
-      "title": "OpenAI新设国家安全顾问，Driscoll出任",
-      "list_title": "OpenAI新设国家安全顾问，Driscoll出任",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "OpenAI 新设“国家安全现代化高级顾问”一职，聘请前美国陆军部长 Dan Driscoll 出任。OpenAI 称，他将与公司高层及外部伙伴合作，就先进 AI 如何加强国家与网络安全提供建议，重点是与美国盟友合作推动民主 AI 的负责任使用。该职位属顾问性质，提供建议而非直接管理业务；据 Rohan Paul 转述，他还将帮助 OpenAI 内部团队理解全球国家安全机构的实际需求。\n\nThe Decoder 报道称，OpenAI 此举意在寻求与军方更紧密合作和更多政府合同，并提到 Driscoll 任内推动包括 Project ARIA 在内的 AI 现代化，与副总统 JD Vance 关系密切、在国会两党均有人脉。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/975cd7c8-0397-45a6-b796-4383e2f877c9"
     }
   ]
 }

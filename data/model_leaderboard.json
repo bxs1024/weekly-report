@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T11:31:53+08:00",
-  "fetched_date": "2026-11-04",
+  "generated_at": "2026-11-05T03:24:30+08:00",
+  "fetched_date": "2026-11-05",
   "source": {
     "name": "AIHOT 大模型排行榜",
     "leaderboard_url": "https://aihot.virxact.com/leaderboard",
@@ -86,7 +86,7 @@
       "name": "Claude Opus 5",
       "provider": "Anthropic",
       "release_date": "2026-07-24",
-      "completeness": "42 项评测 覆盖 90 %",
+      "completeness": "44 项评测 覆盖 90 %",
       "cache_price": "¥3.34",
       "input_price": "¥33.36",
       "output_price": "¥166.81",
@@ -222,7 +222,7 @@
       "cache_price": "¥2",
       "input_price": "¥8",
       "output_price": "¥28",
-      "consensus_score": 62.7,
+      "consensus_score": 62.8,
       "detail_url": "https://aihot.virxact.com/leaderboard/glm-5-3"
     },
     {
@@ -318,7 +318,7 @@
       "cache_price": "¥3.34",
       "input_price": "¥13.34",
       "output_price": "¥40.03",
-      "consensus_score": 62.0,
+      "consensus_score": 61.9,
       "detail_url": "https://aihot.virxact.com/leaderboard/grok-4-6"
     },
     {
