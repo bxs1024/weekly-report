@@ -4,7 +4,9 @@
 
 ## 一句话架构
 
-采集信源 → 入库判重 → AI 分析（结构化 + 双评分 + 写作）→ 事件归组与热度 → 公开读取层 → 日报/周报/月报/公司索引/RSS/Agent 出口。
+采集信源 → 入库判重 → AI 分析（结构化 + 双评分 + 写作）→ 公开读取层 → 日报/周报/月报/公司索引/RSS/Agent 出口。
+
+入库判重共三道（同批次、跨批次、展示前兜底），「同一件事有几篇报道」的证据由它们产生，展示层读取时现算覆盖面，不再有独立的归组 / 热度层。
 
 ## 不变规则
 
@@ -17,11 +19,10 @@
 | **评分只排序不过滤** | 资格由四道闸门（观察范围/互联网相关度/事件价值/行动性）决定；分数只影响顺序 | `scope_gate.py`、`internet_relevance.py`、`event_value.py` |
 | **闸门先于评分** | 事件先过闸门拿资格，再参与评分排序；高分不救边界外内容 | `event_contract.py::apply_view_contract()` |
 | **资格冻结一次** | `view_status`/`view_reason`/`view_priority` 由契约层统一生成，页面、RSS、报表消费同一结果 | `event_contract.py` |
-| **安全阀只关不绕** | `AI_CALLS_ENABLED`、`AI_SCORE_ENABLED`、`GROUP_ENABLED` 只决定发不发出去，不改变逻辑分支；默认开，出问题可单独关停新链路 | 各新模块入口 |
-| **热度锚点来自数据** | 事件热度的「现在」取窗口内最新事件日期（`_data_now`），不取机器时钟。数据停更后机器时钟跑在前面，所有来源都会超出 48h 窗口、热度集体归零；且同一份数据今天跑和明天跑结果不同，无法复现、无法做回归比对 | `fetch_news.py::_data_now()` → `event_grouping.compute_heat(now=…)` |
-| **信源口径** | 「谁发的稿」= `publisher or source`：`source` 常是聚合器（`Google News`），真实媒体落在 `publisher`；`origin_source_id` 是**被报道的公司**（Adyen 这类），不是信源，计入会让每条公司新闻凭空多一家来源 | `event_grouping.py::_event_sources()`、`content/filter.py` 合并记录 |
-| **统计要区分「没跑」与「跑了没结果」** | `ai_calls` 只数真的发起的判定；没通道时整层跳过并记 `ai_channel=False`。否则 `ai_calls=N / ai_merges=0` 会把排查引向「提示词不行」，真实原因却是 key 没配或总闸被关 | `event_grouping.py::assign_groups()` |
-| **覆盖面角标按实际证据说话** | 首页事件卡与公司索引的「N 家来源 / N 篇报道」：优先独立来源数，信源名缺失时退回报道篇数（存量数据只有 `merged_from` 的 URL）。两种都只表示覆盖面，不夸大 | `publication/display.py::heat_label()` |
+| **安全阀只关不绕** | `AI_CALLS_ENABLED`、`AI_SCORE_ENABLED` 只决定发不发出去，不改变逻辑分支；默认开，出问题可单独关停新链路 | 各新模块入口 |
+| **瞬时量不进历史库** | 带时间窗的派生量（48h 热度这类）写进永久事件库后必然腐烂：当天非零、过几天全零，且每次重算都覆盖历史。读者要的是静态的「覆盖面」，应在读取时从原始证据（`merged_from` / `merged_sources`）现算，不落库 | `publication/display.py::coverage_counts()` |
+| **信源口径** | 「谁发的稿」= `publisher or source`：`source` 常是聚合器（`Google News`），真实媒体落在 `publisher`；`origin_source_id` 是**被报道的公司**（Adyen 这类），不是信源，计入会让每条公司新闻凭空多一家来源 | `publication/display.py::_source_names()`、`content/filter.py` 合并记录 |
+| **覆盖面角标按实际证据说话** | 首页事件卡与公司索引的「N 家来源 / N 篇报道」：优先独立来源数，信源名缺失时退回报道篇数（存量数据只有 `merged_from` 的 URL）。两种都只表示覆盖面，不夸大。存量已落库字段原样读，新事件从去重记录现算 | `publication/display.py::coverage_label()` |
 | **关键产出先于易失败步骤** | 任何「关键产出」（数据落库、提交）必须排在可能超时或失败的步骤**之前**。job 级 `timeout-minutes` 到点会杀进程，但**已完成的步骤仍然生效**——所以顺序决定损失面。反例一：旧 `update.yml` 把 `git add data/ docs/` 排在渲染之后，渲染一超时当天数据全丢（数据断档的直接原因）。反例二：旧 `aihot.yml` 同样把提交排在 `Generate HTML --force` 之后，30 分钟超时后连已抓到的数据都提交不了 | `.github/workflows/update.yml` 的 `collect` / `render` job、`aihot.yml` 的 `fetch` job |
 | **空结果按失败处理** | 任何「抓取 / 解析」必须区分「没抓到」与「抓到了」，**空结果按失败处理**：脚本非零退出，且不覆盖已有数据。抓不到却返回成功，等于系统失去感知自身故障的能力——AIHOT 抓取脚本因源站改版连续返回 0 条仍报「成功」，数据停更 15 天无人发现，正是缺这条规则的代价。临时抖动与永久失效要分开：抓 0 条属永久失效，立即失败；网络超时才重试 | `fetch_aihot_hot.py` / `fetch_model_leaderboard.py`：0 条时 `sys.exit(2)` 且不写文件 |
 | **外部源故障不得外溢** | 抓第三方数据的模块与主流程**职责边界要切干净**：只提交自己产出的数据文件，不生成、不提交共享产物（页面）。两个流程争抢同一文件时，一方超时/失败会连累另一方。AIHOT 板块改版后曾因争抢 `docs/` + 静默失败而连累主采集 | `.github/workflows/aihot.yml` 只 `git add data/aihot_hot.json data/aihot_hot/ data/model_leaderboard.json`；页面统一由 `update.yml` 生成 |
@@ -38,6 +39,14 @@
 | **路径锚定仓库根** | 读写 `data/` 等仓库内路径必须基于 `__file__` 推导，禁止用相对路径（相对路径随调用进程 CWD 漂移，会把同一份状态写成两份）。统一从 `repo_paths.py` 取 `REPO_ROOT`/`DATA_DIR`/`DOCS_DIR`/`repo_path()`/`data_path()`/`docs_path()`，不要各文件重复推导 `_REPO_ROOT` | `repo_paths.py` 唯一入口 |
 | ↳ 豁免 | 一次性/离线诊断脚本（`cleanup_2026-*.py`、`verify_signal_score.py`、`audit_scope_misfits.py`、`calibrate_weights.py`）保持裸相对路径，约定只在仓库根手动执行 | 上述文件 |
 | ↳ `git_ref` 例外 | 经 `git show <ref>:<path>` 读取时必须用仓库相对路径，此时不要传绝对路径 | `source_health_report.py`、`source_conversion_report.py` 的 `_load_json` |
+| **自动能力必须配有效性校验** | 「接进产线」≠「有效」：字段写进数据只说明写了，不说明有用。三种失效态必须能被自动发现——**全零 / 全同（无区分度）/ 命中率近零（调用了却几乎不产出）**；还要区分「没跑」与「跑了没结果」，别把 key 没配误判成提示词不行。代价实例：归组 30 次运行 6000 次 AI 调用只合并 28 次（0.47%）、`event_heat` 92.5% 为 0，页面照常生成、28 天无人察觉；该层已据此拆除，规则本身继续对其余自动能力生效 | `test_rule_checks.py::check_capability_validity()`（本轮为可执行规格，阶段 3 搬入 `check_data_health.py --quick`） |
+| **「准」必须先定义再优化** | 排序 / 筛选的任何改动，上线前必须先有**可观测的成功判据与回测结论**，禁止直接拍权重。三套分相关性只有 0.19–0.30 只能证明它们回答了不同问题，不能证明谁更准；此时把 AI 分切成主排序轴，是用一个未验证的判断替换另一个，且改完分不清「变好」和「变了」。这和「人工维护的东西必须有反向校验」同源：**没有判据，就没有改进** | `test_rule_checks.py::check_criterion_before_sort_change()`；成功判据由阶段 1 的《重要性判据定义》给出 |
+| **外部依赖配健康度衰减** | 信源与第三方页面结构必然随时间变化，一次性删掉坏源解决不了下一次。连续 N 次失败的源要**自动降级、移出活跃列表、并在巡检输出里可见**；还要能发现「长期沿用旧值」这类静默停更（不报错但也不更新）。反例：7 个信源 30/30 次全失败（3 个 rss + 4 个 html）、模型榜官方明细停在 2026-09-07，都靠人工盘点才发现。阶段 0 写检查时又踩了两次口径坑：只聚合 `rss.source_stats` 会漏掉全部 html 源；把 `status='empty'`（页面正常但无新稿）当失败会多报 26 个。**口径必须写死在聚合函数里**（`build_source_state()`：合并 rss/html/company，仅 `failed` 算失败）——检查接上了不等于接全了。按「连续 7 次失败」口径实报 8 个，比人工清单还多抓到一个新近变坏的 rss 源 | `test_rule_checks.py::build_source_state()`（口径写死）+ `check_source_decay()`；降级机制在阶段 2 落地 |
+| **自动提交与告警判据基于最新状态** | 自动任务不得依赖启动时的仓库快照，也不得用「是否存在任意同名告警」当判据。前者让并发推送时采集结果被非快进拒绝丢弃（运行 `37740577243` 抓到 17 条却没提交）；后者让 4 个月前的僵尸 Issue #24 压住此后所有新告警。状态必须现取，判据必须带时间窗 | `test_rule_checks.py::check_latest_state_basis()`；阶段 3 修 `.github/workflows/update.yml` |
+
+> 上述 4 条（2026-11-05 阶段 0 新增）共同回答一个问题：**系统怎么知道自己有没有在靠近目标**。
+> 它们的可执行规格集中在 `scripts/test_rule_checks.py`——每条规则一个纯函数 + 正例/反事实测试；
+> 阶段 0 只定规则与规格，**不接 CI、不改 workflow**，避免当前真实故障态一上线就把产线跑红。
 
 ## 目标目录结构
 
@@ -82,7 +91,7 @@ scripts/
 **验证补丁是否真的命中**：把被 patch 的函数改成抛异常跑一遍，确认真的抛了。
 看测试是否 PASS 不算数——失效的补丁也会 PASS。
 
-## 六步流水线（目标态）
+## 五步流水线（目标态）
 
 | 步骤 | 输入 | 输出 | 提示词 |
 |---|---|---|---|
@@ -91,22 +100,20 @@ scripts/
 | 评分 | 资料 | 0-100 ×2 → 均值 | `score.md` |
 | 结构化 | 资料 | 事件类型/主体/动作/领域/锚点 | `structure.md` |
 | 写作 | 资料 | 中文标题/概要/点评/影响 | `understand.md` |
-| 归组 | 入库事件 | SAME_OCCURRENCE/SAME_STORY/UNRELATED/ROUNDUP + 事件热度 | `group-pair.md`、`group-definitions.md` |
 
-### 归组规则层为什么比同日去重更严
+### 去重三道与覆盖面（不设归组层）
 
-同日去重（`content/classify.py::_fingerprint_match`）有一条**锚点缺失放宽**：
-`canonical_key` 为空时，只要主体相同 + 主类型相同 + 标题相似度 ≥0.42 就判同。
+| 关卡 | 作用 | 稳定期 1134 条实测 |
+|---|---|---|
+| 同批次 / 跨批次入库判重 | URL、指纹、标题相似度 ≥0.72 判同，被并稿件 URL 记入 `merged_from` | 合并 186 条 |
+| 历史清理 `dedupe_events_by_day` | 同日重复兜底 | 0 条 |
+| 展示前 `dedupe_display_events` | ±7 天窗口再兜一次 | 14 条 |
 
-归组规则层（`event_grouping.py::rule_merge`）**刻意不要这条放宽**，只认完整指纹
-（`canonical_company` + `canonical_key` 都非空且相等）。差别在作用范围：去重只在
-**同一天**内比，放宽的误并风险被日期天然兜住；归组要跨 30 天比，同样的放宽会把
-同公司不同时间的两件事（如两次独立融资）并成一件。跨日的「同事件不同阶段」是
-AI 层 `SAME_STORY` 的职责，规则层只做保守预筛。
-
-实测：存量 30 天窗口 1235 条事件里 `canonical_key` 填充率仅 4.6%，规则层合并 0 条
-（放宽后也只多 1 条）——这不是 bug，而是同日报的多来源报道已被去重层先合并掉了。
-所以归组的产出主要来自 AI 层，规则层只兜底。
+再加一层 AI 归组，等于在同一条产线上用更弱的筛子再筛一遍：上游已把重复清干净，
+规则层只认完整指纹（稳定期同指纹对仅 2 对、30 次 `rule_merges=0`），AI 层
+200 次预算又被窗口最旧的 21 条耗尽。30 次运行 6000 次调用只合并 28 次（0.47%），
+且结果每次从空重算、把历史标记抹回 `single`。因此不设归组层：**覆盖面是去重的
+副产品，读取时算即可**，不需要独立工位，也不需要为它付 AI 费。
 
 ## 四道闸门（本站独有，AIHOT 无对应物，全部保留）
 

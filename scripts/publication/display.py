@@ -78,24 +78,63 @@ def _front_trend_topic(event):
         return f'{region}{label}'
     return f'{region}区域动态'
 
-def heat_label(event):
+def _as_int(value):
+    """脏数据不当异常抛：读不出来就当 0，和旧角标行为一致。"""
+    try:
+        return int(value or 0)
+    except (TypeError, ValueError):
+        return 0
+
+
+def _source_names(event):
+    """一条事件背后出现过的全部媒体信源（含被并进来的兄弟报道），归一化去重。
+
+    只认「谁发的稿」：publisher 是原始媒体（经 Google News 转载时 source 会写成
+    聚合器 "Google News"），其余情况下 source 本身即媒体。刻意排除
+    origin_source_id——那是**被报道的公司**，算进来会让每条公司新闻虚增一家来源。
+    """
+    raw = [event.get('publisher') or event.get('source')]
+    raw.extend(event.get('merged_sources') or [])
+    seen = []
+    for value in raw:
+        name = str(value or '').strip().lower()
+        if name and name not in seen:
+            seen.append(name)
+    return seen
+
+
+def coverage_counts(event):
+    """返回 (独立来源数, 报道篇数)——去重层的静态产物，读取时现算。
+
+    存量事件已有落库字段就原样读（迁移不可改写）；新事件没有这些字段，直接从
+    去重记录推：篇数 = 1 + 被并稿件数，来源数 = 去重后的媒体名个数。这样不依赖
+    任何归组 / 热度工位，也不把带时间窗的瞬时量写进永久库。
+    """
+    if 'event_source_count' in event:
+        sources = _as_int(event.get('event_source_count'))
+    else:
+        sources = len(_source_names(event))
+    if 'event_report_count' in event:
+        reports = _as_int(event.get('event_report_count'))
+    else:
+        reports = 1 + len(event.get('merged_from') or [])
+    return sources, reports
+
+
+def coverage_label(event):
     """「不止一家在报」的角标文案；只有一个信源时返回空串，不占版面。
 
-    优先说独立来源数，退而用报道篇数。差别来自本站的流水线顺序：去重层比归组层
-    先跑，同一事件的多家报道入库时就被合并成一个事件。存量数据只留了被并 URL
-    （merged_from），信源名已丢失，只能说「N 篇报道」；新数据起信源名会随合并
-    一起记进 merged_sources，就能说「N 家来源」。两种都只表示覆盖面，不夸大。
+    优先说独立来源数，退而用报道篇数。差别来自本站的流水线顺序：去重层把同一事件的
+    多家报道合并成一个事件，存量数据只留了被并 URL（merged_from），信源名已丢失，
+    只能说「N 篇报道」；新数据把信源名一并记进 merged_sources，就能说「N 家来源」。
+    两种都只表示覆盖面，不夸大。
+
+    对外字段名仍叫 heat_label（template.html 读它）——改名要动模板与已生成页面，
+    不值当；这里只改取数来源，不碰页面契约。
     """
-    try:
-        sources = int(event.get('event_source_count') or 0)
-    except (TypeError, ValueError):
-        sources = 0
+    sources, reports = coverage_counts(event)
     if sources >= 2:
         return f'{sources} 家来源'
-    try:
-        reports = int(event.get('event_report_count') or 0)
-    except (TypeError, ValueError):
-        reports = 0
     if reports >= 2:
         return f'{reports} 篇报道'
     return ''
@@ -121,7 +160,7 @@ def enrich_frontend_fields(events):
         event['front_trend_topic'] = _front_trend_topic(event)
         event['display_impact'] = '' if event.get('impact') == '未知' else event.get('impact', '')
         event['front_overview'] = _front_overview(event, title, summary, reason, display_title)
-        event['heat_label'] = heat_label(event)
+        event['heat_label'] = coverage_label(event)
     return events
 
 def _front_overview(event, title, summary, reason, display_title):
@@ -194,11 +233,11 @@ def build_company_cards(company_list, now_date, observation_ledger=None):
         quality_events = [event for event in recent_30 if is_main_view_event(event) or is_company_quality_signal(event)]
         # 公司热度：近 30 天里覆盖面最广的那条事件的角标（多家在报比单篇更值得先看）
         _heat_rows = sorted(
-            (e for e in recent_30 if heat_label(e)),
-            key=lambda e: (e.get('event_source_count') or 0, e.get('event_report_count') or 0),
+            (e for e in recent_30 if coverage_label(e)),
+            key=coverage_counts,
             reverse=True,
         )
-        company_heat_label = heat_label(_heat_rows[0]) if _heat_rows else ''
+        company_heat_label = coverage_label(_heat_rows[0]) if _heat_rows else ''
 
         def _signal_worth(event):
             """一条事件是否值得作为「最近值得关注动态」展示（排除平凡信号）。"""

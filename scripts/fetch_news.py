@@ -4,7 +4,7 @@
 """
 
 import json, os, time, re, hashlib
-from datetime import datetime, timedelta, timezone
+from datetime import timedelta, timezone
 from functools import lru_cache
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -31,13 +31,12 @@ try:
 except ImportError:
     from scripts.prompt_loader import load_prompt, prompt_version
 
-# P2/P3 新链路：AI 双评分与事件归组。两者各自带安全阀（默认开，可单独关停回退）。
+# P2 新链路：AI 双评分（带 AI_SCORE_ENABLED 安全阀，默认开，可单独关停回退）。
 # 直连真实模块——走 fetch_news 转发层会让 monkeypatch 静默打空（见 ARCHITECTURE.md 四条铁律）。
 try:
     import ai_scoring
-    import event_grouping
 except ImportError:
-    from scripts import ai_scoring, event_grouping
+    from scripts import ai_scoring
 
 # 仓库路径锚定 __file__，不依赖调用进程 CWD（见 docs/ARCHITECTURE.md「路径锚定仓库根」）。
 # 裸相对路径 'data/...' 只在 CWD=仓库根 时正确；从 scripts/ 直接运行脚本或测试时
@@ -376,13 +375,8 @@ except ImportError:
 # ============================================================
 
 # ============================================================
-# P2/P3 新链路接线：AI 双评分 + 事件归组与热度
+# P2 新链路接线：AI 双评分
 # ============================================================
-
-# 归组/热度的处理窗口（天）。不设窗口就要每天重扫全部历史——3796 条约 20 秒 CPU，
-# 外加最多 200 次 AI 调用；而归组的候选窗口本身只有 14 天，30 天足够覆盖。
-# 历史事件的 group_id 在它们「当新」的那几次运行里已定，不需要每天重算。
-GROUP_WINDOW_DAYS = 30
 
 # 评分补漏窗口（天）。每天只评「窗口内且还没有 ai_score_avg」的事件——幂等，
 # 重跑不重复付费（回执再兜一层）。对齐方案「日均 60 事件」的成本模型。
@@ -393,24 +387,6 @@ def _window_events(all_events, days):
     """取最近 N 天的事件。日期键是 YYYY-MM-DD，字典序即时间序。"""
     keys = sorted(all_events.keys())[-days:]
     return [e for key in keys for e in all_events[key]]
-
-
-def _data_now(events):
-    """热度的时间锚点：取窗口内最新事件的日期（当天 23:59:59），不用机器时钟。
-
-    热度的定义是「48 小时内有多少家独立来源」，本身就要一个「现在」。用
-    datetime.now() 有两个毛病：①数据一旦停更，机器时钟跑在前面，所有来源都
-    超出 48h 窗口，热度集体归零；②同一份数据今天跑和明天跑结果不同，没法复现，
-    也就没法做回归比对。锚在数据自己的最新日，这两个问题一起消失。
-    """
-    newest = max(((e.get('date') or e.get('published_at') or '')[:10] for e in events),
-                 default='')
-    if not newest:
-        return None
-    try:
-        return datetime.strptime(newest, '%Y-%m-%d').replace(hour=23, minute=59, second=59)
-    except ValueError:
-        return None
 
 
 def _run_ai_scoring(all_events, run_metrics):
@@ -432,29 +408,6 @@ def _run_ai_scoring(all_events, run_metrics):
     else:
         print(f"  🧮 AI 双评分：{stats['scored']} 条"
               f"（回执复用 {stats['reused']}，失败 {stats['failed']}）")
-
-
-def _run_event_grouping(all_events, run_metrics, days=GROUP_WINDOW_DAYS):
-    """P3：窗口内事件做四关系归组 + 独立来源热度，原地写 group_* / event_heat。
-
-    安全阀 GROUP_ENABLED 默认开；关掉则整层跳过。规则层（指纹合并）不依赖 AI，
-    所以即使 AI 通道不可用，group_id 与热度仍然成立。
-
-    days 可覆盖，供 backfill_event_heat.py 回填更长的历史；生产调用用默认值。
-    """
-    if not event_grouping.group_enabled():
-        return
-    window = _window_events(all_events, days)
-    if not window:
-        return
-    stats = event_grouping.assign_groups(window)
-    heat = event_grouping.compute_heat(window, now=_data_now(window))
-    hot = sum(1 for row in heat.values() if row['sources'] > 1)
-    run_metrics['event_grouping'] = stats
-    print(f"  🧩 事件归组：{stats['groups']} 组"
-          f"（规则并 {stats['rule_merges']} / AI 并 {stats['ai_merges']}，"
-          f"AI 调用 {stats['ai_calls']}，通道 {stats['ai_channel']}）；"
-          f"多来源事件 {hot} 条")
 
 
 def main():
@@ -936,10 +889,9 @@ def main():
     if removed_dups:
         print(f"  🧹 历史去重：清理 {removed_dups} 条同日重复事件")
 
-    # P2/P3：先双评分（并排落库），再归组与热度（热度按归组后的组算）。
-    # 两者都有安全阀，关掉即完全不改 all_events。
+    # P2：AI 双评分并排落库（不改程序分主排序轴）。安全阀关掉即完全不改 all_events。
+    # 覆盖面角标在展示层从 merged_from / merged_sources 现算，不在采集时落库。
     _run_ai_scoring(all_events, run_metrics)
-    _run_event_grouping(all_events, run_metrics)
 
     with open(data_path('events.json'), 'w', encoding='utf-8') as f:
         json.dump(all_events, f, ensure_ascii=False, indent=2)
