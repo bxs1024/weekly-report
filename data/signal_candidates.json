@@ -1,7 +1,96 @@
 {
   "version": 1,
-  "generated_at": "2026-11-05T15:40:26.024226+08:00",
+  "generated_at": "2026-11-05T22:10:55.069253+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-05d84335a9c3814c",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "partnerships",
+      "window": "2026-W45",
+      "window_start": "2026-11-05",
+      "window_end": "2026-11-05",
+      "detected_at": "2026-11-05T22:10:55.069253+08:00",
+      "baseline_count": 16,
+      "current_count": 18,
+      "added_count": 6,
+      "removed_count": 4,
+      "clusters": {
+        "partnerships": 1
+      },
+      "removed_clusters": {
+        "partnerships": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000159844364",
+          "title": "Associate, Key Account Management - GrabMart",
+          "url": "https://www.grab.careers/en/jobs/744000159844364/associate-key-account-management-grabmart/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000159845219",
+          "title": "IT Executive",
+          "url": "https://www.grab.careers/en/jobs/744000159845219/it-executive/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000159814734",
+          "title": "Productivity & Engagement Associate",
+          "url": "https://www.grab.careers/en/jobs/744000159814734/productivity-engagement-associate/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000159814909",
+          "title": "Assistant Manager, Lending Commercial",
+          "url": "https://www.grab.careers/en/jobs/744000159814909/assistant-manager-lending-commercial/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000159798419",
+          "title": "Intern, Talent Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000159798419/intern-talent-acquisition/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000159792660",
+          "title": "Partner Engagement Business Partner Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000159792660/partner-engagement-business-partner-assistant-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000159775539",
+          "title": "Partner Engagement Business Partner Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000159775539/partner-engagement-business-partner-assistant-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000159553727",
+          "title": "Assistant Manager, Key Accounts Management",
+          "url": "https://www.grab.careers/en/jobs/744000159553727/assistant-manager-key-accounts-management/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000159554129",
+          "title": "Manager, FMCG Account Management",
+          "url": "https://www.grab.careers/en/jobs/744000159554129/manager-fmcg-account-management/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000159553150",
+          "title": "Manager, Key Accounts Management",
+          "url": "https://www.grab.careers/en/jobs/744000159553150/manager-key-accounts-management/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-91c0460394f30e39",
       "entity_id": "grab",
