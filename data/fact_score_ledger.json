@@ -5968,5 +5968,60 @@
   "score": 4,
   "first_seen": "2026-11-04",
   "samples": 1
+ },
+ "kakao|earnings|150000m": {
+  "score": 6,
+  "first_seen": "2026-11-05",
+  "samples": 1
+ },
+ "vng|strategy|300m": {
+  "score": 10,
+  "first_seen": "2026-11-04",
+  "samples": 1
+ },
+ "mercadolibre|earnings|30m": {
+  "score": 8,
+  "first_seen": "2026-11-05",
+  "samples": 1
+ },
+ "kabilio|funding|10m": {
+  "score": 4,
+  "first_seen": "2026-11-05",
+  "samples": 1
+ },
+ "tenspresso|funding|50m": {
+  "score": 6,
+  "first_seen": "2026-11-05",
+  "samples": 1
+ },
+ "amagi|earnings|748cr": {
+  "score": 4,
+  "first_seen": "2026-11-05",
+  "samples": 1
+ },
+ "revolut|funding|115000m": {
+  "score": 10,
+  "first_seen": "2026-11-05",
+  "samples": 1
+ },
+ "baked by melissa|strategy|target": {
+  "score": 4,
+  "first_seen": "2026-11-03",
+  "samples": 1
+ },
+ "openai|strategy|awsgovcloud": {
+  "score": 5,
+  "first_seen": "2026-11-04",
+  "samples": 1
+ },
+ "摩尔线程|earnings|187x": {
+  "score": 6,
+  "first_seen": "2026-11-05",
+  "samples": 1
+ },
+ "cloudflare|strategy|cve202698432": {
+  "score": 5,
+  "first_seen": "2026-11-04",
+  "samples": 1
  }
 }
