@@ -119,7 +119,7 @@ def dedupe_events_by_day(all_events):
                 continue
             if any(_is_same_event(event, existing) for existing in kept):
                 # 记录被合并来源，保留可追溯性（原 URL 不丢失）。
-                # 同时记下被合并报道的信源名：事件热度要数「独立来源」，
+                # 同时记下被合并报道的信源名：展示层算覆盖面要数「独立来源」，
                 # 而合并后只剩一个事件，光看它的 source 会永远数成 1 家。
                 match = next(existing for existing in kept if _is_same_event(event, existing))
                 match.setdefault('merged_from', [])

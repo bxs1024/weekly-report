@@ -78,4 +78,5 @@
 - **Python 路径**：`C:\Users\16120\AppData\Local\Python\bin\python`（WindowsApps 的 `python`/`python3` 是 Microsoft Store 重定向器，不可用）
 - **生成 HTML 命令**：`/c/Users/16120/AppData/Local/Python/bin/python scripts/generate_html.py --force`
 - **跑测试**：同一个解释器（已装 jinja2/requests/bs4）：`"/c/Users/16120/AppData/Local/Python/bin/python" scripts/test_xxx.py`。全量遍历 `scripts/test_*.py`，跳过 `test_rss.py` / `test_google_news.py`（需外网）
-- **`git push` / `git fetch` 被代理挡住时**：本机 `github.com` 的 git 通道经常 502（`api.github.com` 一直正常）。兜底用 `.data/push_via_api.py` 走 GitHub API 建 blob → tree → commit → 更新 ref（**快进追加，不改写历史**；本地含合并提交时会主动中止）。只要 parent/tree/author/message 都一致，API 建出的 commit SHA 与本地相同，不会产生分叉
+- **git 通道首选代理（2026-11-05 实测 fetch 与 push 均一次成功）**：`github.com` 直连必失败（502 / `Empty reply from server`），`api.github.com` 与 `gh` 一直正常。统一用 `git -c http.proxy=http://127.0.0.1:7897 fetch origin main` / `git -c http.proxy=http://127.0.0.1:7897 push origin main`（Clash Verge 混合端口），别在直连上反复重试。fetch 只写 `FETCH_HEAD` 时补 `git update-ref refs/remotes/origin/main "$(git rev-parse FETCH_HEAD)"` 再 `git merge --ff-only origin/main`。
+- **API 兜底仅用于没有删除文件的提交**：`.data/push_via_api.py` 走 GitHub API 建 blob → tree → commit → 更新 ref（快进追加、不改写历史；含合并提交会主动中止），只要 parent/tree/author/message 一致，建出的 SHA 与本地相同。但它**不支持删除文件**：`git_show(rev, path)` 对已删路径会崩，tree entry 也没写 `sha: null`。含删除的提交改用上面的标准 push + 代理

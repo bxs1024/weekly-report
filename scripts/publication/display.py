@@ -231,7 +231,7 @@ def build_company_cards(company_list, now_date, observation_ledger=None):
         recent_7 = [e for e in events if (e.get('date') or '')[:10] >= start_7]
         recent_30 = [e for e in events if (e.get('date') or '')[:10] >= start_30]
         quality_events = [event for event in recent_30 if is_main_view_event(event) or is_company_quality_signal(event)]
-        # 公司热度：近 30 天里覆盖面最广的那条事件的角标（多家在报比单篇更值得先看）
+        # 公司覆盖面：近 30 天里覆盖面最广的那条事件的角标（多家在报比单篇更值得先看）
         _heat_rows = sorted(
             (e for e in recent_30 if coverage_label(e)),
             key=coverage_counts,
