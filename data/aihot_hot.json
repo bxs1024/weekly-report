@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T11:53:49+08:00",
-  "fetched_date": "2026-11-05",
+  "generated_at": "2026-11-06T03:32:11+08:00",
+  "fetched_date": "2026-11-06",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
@@ -12,110 +12,110 @@
       "title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
       "list_title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
       "heat": null,
-      "heat_change": "↑ 418 %",
+      "heat_change": "↓ 11 %",
       "sources": [],
-      "summary": "OpenAI 发布 Images 2.6，ChatGPT 首次能直接生成 GIF 动图：用户可用提示词或上传图片生成，并调整播放速度、逐帧编辑和分享。该功能随 Images 2.6 向所有套餐的 ChatGPT 和 Codex 用户推送，覆盖网页、桌面和移动端。新版还支持保存人物、宠物或角色的参考图，供后续创作直接复用。\n\nAPI 同步上线两款图像模型：GPT-Image-2.6 Flare 主打速度，low 画质下最快 6 秒出图；GPT-Image-2.6 Sunburst 主打中高质量与多次编辑间的细节一致性。OpenAI 称两者生成速度比前代快 50%，并支持图像标记与 SVG 导出，同时发布了涵盖这两款模型的系统卡。\n\n性能数据存在不同口径：OpenAI 引用的 DesignArena 数据称 Sunburst 在 Image Arena 排名第一、Flare 比前代快 2.6 倍；Arena 随后公布 Sunburst（Medium）在文生图榜排第 2、Flare（Medium）排第 4，并称新模型比 2.5 快 2 倍以上、最低延迟…",
+      "summary": "OpenAI 发布 Images 2.6，ChatGPT 首次能直接生成 GIF 动图：用户可用提示词或上传图片生成，并调整播放速度、逐帧编辑和分享。该功能随 Images 2.6 向所有套餐的 ChatGPT 和 Codex 用户推送，覆盖网页、桌面和移动端；新版还支持保存人物、宠物或角色的参考图，供后续创作复用。\n\nAPI 同步上线两款图像模型：GPT-Image-2.6 Flare 主打速度，low 画质下最快 6 秒出图；GPT-Image-2.6 Sunburst 主打中高质量与多次编辑间的细节一致性。OpenAI 称两者生成速度比前代快 50%，并支持图像标记与 SVG 导出。据 MarkTechPost 引述模型页面，两款模型按 token 计费且价格相同：文本输入每百万 token 5 美元、图像输入 8 美元、图像输出 30 美元，调整复杂度不另收费。\n\n性能数据存在不同口径：OpenAI 引用的 DesignArena 数据称 Sunburst 在 Image Arena 排名第一、Flare 比前代快 2.6 倍；Arena…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/37046dc2-8e44-4949-965c-ef07dbd0b13e"
     },
     {
       "rank": 2,
-      "title": "腾讯混元 Hy4 正式发布，首次引入视觉与电脑操作",
-      "list_title": "腾讯混元 Hy4 正式发布，首次引入视觉与电脑操作",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "腾讯混元 11 月 4 日发布 Hy4 正式版，相比 8 月 28 日的 Hy4 preview 扩展了预训练与后训练规模，首次引入视觉能力和电脑操作支持，可执行细粒度图像处理、复杂图表分析、数学视觉推理，以及结合命令行与图形界面的任务。腾讯混元称，Hy4 在 GameDev 与 GameLogic 评测上分别提升 19.1% 和 9.8%，性能显著超过 preview，同时维持相同 API 价格，并称其首次跻身最强开源模型之列，计划近期开源模型权重并发布模型系统卡片。\n\nHy4 已在腾讯云和 OpenRouter 上线，并可在 CodeBuddy / WorkBuddy、元宝、ima 等产品上体验；WorkBuddy 称 Hy4 可免费试用，但有使用额度限制。OpenClaw 随后宣布支持 Hy4，用户可通过 Tencent TokenHub、TokenPlan 和 OpenRouter 使用；腾讯混元另称 Hy4 即将上线 Chutes。上述提升与开源计划均来自腾讯方面，实际效果尚待验证。\n\nArena 公布 Hy4 在 Agent Aren…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/491d220c-9d57-4295-af9f-e4382561b3f7"
-    },
-    {
-      "rank": 3,
       "title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI",
       "list_title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI",
       "heat": null,
       "heat_change": "",
       "sources": [],
-      "summary": "Anthropic Claude Code 产品负责人 Cat Wu 在 X 上宣布加入 OpenAI，负责 Core Products 的产品管理。她称将与 @thsottiaux 及 OpenAI 产品团队合作打造智能体产品，强调让用户保持掌控、节省时间，并表示敬佩 OpenAI 证明 scaling 有效、将 AI 带给超十亿人。\n\nOpenAI 联合创始人 Greg Brockman 与 @thsottiaux 先后在 X 上转发并欢迎她加入，确认了这一人事变动。OpenAI 方面尚未就她的具体职责范围作进一步说明。",
+      "summary": "Anthropic Claude Code 产品负责人 Cat Wu 在 X 上宣布加入 OpenAI，领导 Core Products 的产品管理。她称将与 @thsottiaux 及 OpenAI 产品团队合作打造智能体产品，强调让用户保持掌控、节省时间，并表示敬佩 OpenAI 证明 scaling 有效、将 AI 带给超十亿人。\n\nOpenAI 联合创始人 Greg Brockman 与 @thsottiaux 先后转发并欢迎她加入，确认了这一人事变动。The Decoder 报道称，负责 Codex 和 ChatGPT 的 Thibault Sottiaux 以“CatGPT”迎接她。OpenAI 方面尚未就她的具体职责范围作进一步说明。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/0b20bea7-a1d4-451e-bb1b-38c63fadf89f"
     },
     {
+      "rank": 3,
+      "title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
+      "list_title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
+      "heat": null,
+      "heat_change": "↑ 37 %",
+      "sources": [],
+      "summary": "OpenAI称其安全研究人员构建了一条自主漏洞发现、利用与修补管线，由一款网络安全模型驱动。在2026年10月中旬对最新Linux内核的一次运行中，管线从2,308个候选发现中验证1,724个漏洞，为291个信息泄露生成概念验证，并为948个不同的本地提权漏洞生成可用利用代码和候选补丁。OpenAI称这些利用代码在开启标准安全防护的原始Linux桌面配置上可运行，智能体还发现并使用了至少10种此前未知的Linux利用技术。\n\nOpenAI公布该次运行总API成本为1,213,430美元，平均每个本地提权漏洞约1,279美元；按其援引的Pwn2Own和TyphoonPWN赏金标准折算，这些漏洞的假设价值为1,890万至6,630万美元。OpenAI表示正与Linux维护者和Patch the Planet合作提交漏洞报告与补丁，人类研究人员会在上报前审查结果。\n\n上述漏洞数量、补丁效果、新型利用技术及成本均来自OpenAI的说法，尚未见独立验证。随后OpenAI发布网络安全模型GPT-6 Cyber，称其越界率从GPT-5.6 Cyber的约5%降…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/4ff5060c-160a-4d65-bf28-706c0d53ec34"
+    },
+    {
       "rank": 4,
+      "title": "腾讯混元 Hy4 正式发布，首增视觉与电脑操作",
+      "list_title": "腾讯混元 Hy4 正式发布，首增视觉与电脑操作",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "腾讯混元 11 月 4 日发布 Hy4 正式版，相比 8 月 28 日的 Hy4 preview 扩大预训练与后训练规模，首次引入视觉能力和电脑操作支持，可执行细粒度图像处理、复杂图表分析、数学视觉推理，以及结合命令行与图形界面的任务。腾讯混元称，Hy4 在 GameDev 与 GameLogic 评测上分别提升 19.1% 和 9.8%，性能显著超过 preview，同时维持相同 API 价格；The Decoder 报道其每百万输入 token 约 0.83 美元、输出约 2.50 美元。腾讯混元还称其首次跻身最强开源模型之列，计划近期开源模型权重并发布模型系统卡片，但权重开放日期未定，目前仅通过腾讯云、OpenRouter 和元宝等腾讯应用使用。上述提升与开源计划均来自腾讯方面，实际效果尚待验证。\n\nHy4 已在腾讯云和 OpenRouter 上线，并可在 CodeBuddy / WorkBuddy、元宝、ima 等产品上体验；WorkBuddy 称 Hy4 可免费试用，但有使用额度限制，随后又称限时免费开放。腾讯混元称，Hy4 在 Wor…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/491d220c-9d57-4295-af9f-e4382561b3f7"
+    },
+    {
+      "rank": 5,
+      "title": "OpenAI宣布收购Pierre，工具将并入Codex",
+      "list_title": "OpenAI宣布收购Pierre，工具将并入Codex",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "OpenAI 宣布收购 Pierre Computer Company，即 Code Storage 及 Trees、Diffs、Highlights 等开源开发者工具背后的公司，以推进把 Codex 打造成团队与 AI 协同开发软件的平台。OpenAI 称，这些工具已用于 Codex 的部分功能，包括文件浏览、代码变更审阅和实时语法高亮。\n\n交割后 Pierre 的开源项目将继续开源，Code Storage 客户可继续使用，相关功能将逐步并入 Codex。交易金额未披露。\n\n交割尚待监管批准，在此之前两家公司保持独立。OpenAI 总裁 Greg Brockman 在社交平台发文“欢迎 Pierre 加入 OpenAI”，未说明具体计划。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/eb3a8a76-8af1-48fb-8fa0-67903c2b1174"
+    },
+    {
+      "rank": 6,
       "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
       "list_title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
       "heat": null,
-      "heat_change": "↓ 11 %",
+      "heat_change": "↓ 15 %",
       "sources": [],
       "summary": "苹果宣布 Apple 智能随 iOS 27.3 进入中国市场：11 月 4 日开放开发者预览版测试，12 月正式版上线首批核心功能。11 月 4 日 IT之家实测称，国行「Apple 智能与 Siri」已在该预览版如期上线，iPhone 15 Pro 及更新机型可用。\n\n阿里巴巴同日公告称，千问集成至 Siri、写作工具和视觉智能，用户可自主选择是否开通，登录千问账户或通过「通过 Apple 登录」即可在系统内调用，无需跳转独立应用；用户请求及回复不会被阿里用于模型训练。该功能面向在中国购买支持 Apple 智能的 iPhone 用户，或设备定位和 Apple 账户国家/地区均设在中国的用户。IT之家实测发现，视觉智能的问询结果和千问完成的文字创作内容会同步至千问 App。\n\n据 The Verge 报道，此次上线不包括新版 Siri AI，中国用户暂时无法使用这一 Siri 功能。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c"
     },
     {
-      "rank": 5,
-      "title": "OpenAI宣布收购Pierre，整合其开源工具入Codex",
-      "list_title": "OpenAI宣布收购Pierre，整合其开源工具入Codex",
+      "rank": 7,
+      "title": "百度开源ERNIE 5.5 Flash Base基座模型",
+      "list_title": "百度开源ERNIE 5.5 Flash Base基座模型",
       "heat": null,
-      "heat_change": "↑ 29 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "OpenAI 宣布收购 Pierre Computer Company——Code Storage 及 Trees、Diffs、Highlights 等开源开发者工具背后的公司，以推进把 Codex 打造成团队与 AI 协同开发软件的平台。OpenAI 称，这些工具已被用于 Codex 的部分功能，包括文件浏览、代码变更审阅和实时语法高亮；双方将在此基础上继续开发。\n\n交割后 Pierre 的开源项目将继续开源，Code Storage 客户可继续使用，相关功能将逐步并入 Codex。交易金额未披露。\n\n交割尚待监管批准，在此之前两家公司保持独立。OpenAI 总裁 Greg Brockman 在社交平台发文“欢迎 Pierre 加入 OpenAI”，未说明具体计划。",
+      "summary": "百度文心发布并开源基座模型 ERNIE 5.5 Flash Base，开放 ERNIE 5.5 Flash 预训练终点的权重，并在 Hugging Face 上架下载入口。\n\n据百度官方账号介绍，该模型为稀疏 MoE 基座语言模型，总参数 280B、每 token 激活 14B，预训练使用 33.5T tokens，提供 FP8 与 BF16 两种权重。百度称，权重直接取自预训练、未做微调或后训练，交由开发者自行处理，后续将推出后训练版本；百度还称，该模型在同规模基座模型的多个基准上取得 SOTA。这些效果说法来自百度，报道未给出独立验证。\n\n关于上下文长度，百度称微调和推理设计上支持最长 1M-token，The Decoder 则称训练上下文最长 128,000 token。报道未提及开源许可条款。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/eb3a8a76-8af1-48fb-8fa0-67903c2b1174"
+      "story_url": "https://aihot.virxact.com/story/0c969c38-7969-4bd9-9c91-f3cdf9b4a9cd"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "Google将AI学习功能引入Search和Classroom，学校禁用AI即失去搜索",
       "list_title": "Google将AI学习功能引入Search和Classroom，学校禁用AI即失去搜索",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↓ 29 %",
       "sources": [],
       "summary": "Google宣布把Guided Learning引入Google Search学生账号和Google Classroom，并调整学校管控策略。Guided Learning即日起在Google Classroom面向全球开放；Search中的相关功能本月晚些时候先在美国部分学校试点，收集教育者反馈后再推广到其他学区。\n\n对K-12学生账号，Gemini、Gemini Notebook、Gemini in Classroom和Google Search默认全部关闭，须由学校管理员显式开启。Google表示，管理员无法只关闭Gemini功能而保留Search；选择完全限制AI的学校，学生将无法使用搜索，并会看到学校提示信息。The Decoder报道称，这一安排从2027年初起生效，届时学校若想继续使用Google搜索，就必须接受面向学生的AI功能，不存在无AI版本的搜索；Google教育副总裁Chris Phillips称搜索与AI已紧密结合、无法拆分。\n\n该政策公布后引发反弹，TechCrunch报道称Google因此受到批评。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/956471b6-c78b-44c7-b4d4-e00583803aca"
     },
     {
-      "rank": 7,
-      "title": "Anthropic 开源 FlashProve 可验证推理原型",
-      "list_title": "Anthropic 开源 FlashProve 可验证推理原型",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "Anthropic 发布并开源可验证推理研究原型 FlashProve：用 zkSNARK 让用户在不接触模型权重的情况下，验证某条回复确由指定模型生成。代码、Lean 形式化证明和文档以 Apache 2.0 协议公开。Anthropic 称，在 400B 参数混合专家模型 Llama 4 Maverick（4-bit 量化）上，单张 H100 生成证明的速度超过 100 tokens/秒，每 1,024 token 请求的证明约 19 MB；其 GPU 耗时约为常用开源库 vLLM 处理同长度提示的 70–95 倍。The Decoder 称，普通 CPU 验证一份证明约需 17 秒。\n\nMarkTechPost 称，该原型目前每次请求上下文上限为 1,024 token，仅支持贪心解码和 MoE 模型；证明端需要 1 张 H100 80 GB、24 个 CPU 核心和约 290 GB 主机内存。The Decoder 称，它隐藏模型权重但不隐藏底层架构，且证明只适用于模型选取最可能的下一个 token，不适用于聊天机器人日常产生的随机化输出…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/f33dbd76-b66f-428a-a7ec-f89e1db4f51b"
-    },
-    {
-      "rank": 8,
-      "title": "OpenAI称AI管线单次运行发现并修补948个Linux内核提权漏洞",
-      "list_title": "OpenAI称AI管线单次运行发现并修补948个Linux内核提权漏洞",
-      "heat": null,
-      "heat_change": "↑ 1828 %",
-      "sources": [],
-      "summary": "OpenAI称其安全研究人员构建了一条自主漏洞发现、利用与修补管线，由一款即将推出的网络安全模型驱动。在2026年10月中旬对最新Linux内核的一次运行中，管线从2,308个候选发现中验证1,724个漏洞，为291个信息泄露生成概念验证，并为948个不同的本地提权漏洞生成可用利用代码和候选补丁。OpenAI称这些利用代码在开启标准安全防护的原始Linux桌面配置上可运行，且智能体发现并使用了至少10种此前未知的Linux利用技术。\n\nOpenAI公布该次运行总API成本为1,213,430美元，平均每个本地提权漏洞约1,279美元；按其援引的Pwn2Own和TyphoonPWN赏金标准折算，这些漏洞的假设价值为1,890万至6,630万美元。OpenAI表示正与Linux维护者和Patch the Planet合作提交漏洞报告与补丁，人类研究人员会在上报前审查结果。\n\n上述漏洞数量、补丁效果、新型利用技术及成本均来自OpenAI的说法，尚未见独立验证。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/4ff5060c-160a-4d65-bf28-706c0d53ec34"
-    },
-    {
       "rank": 9,
-      "title": "Claude Code 产品负责人 Cat Wu 宣布离开 Anthropic",
-      "list_title": "Claude Code 产品负责人 Cat Wu 宣布离开 Anthropic",
+      "title": "Google 发布 Omni 1.2 Flash，视频生成提至 15 秒",
+      "list_title": "Google 发布 Omni 1.2 Flash，视频生成提至 15 秒",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↑ 1270 %",
       "sources": [],
-      "summary": "Claude Code 产品负责人 Cat Wu 宣布，她已于上周五正式离开 Anthropic。她表示，自己两年前在 Claude Code 还是内部工具时用它搭建强化学习环境，并因此加入团队。\n\nCat Wu 回顾了产品从首次发布时用户需手动逐条批准权限，到如今默认信任自动批准、Claude 能承担大规模迁移和新产品构建的变化，并感谢 Claude Code、Cowork 和 Tag 背后的团队与用户。",
+      "summary": "Google DeepMind 发布视频生成模型 Gemini Omni 1.2 Flash，将视频生成与编辑上限从上一代的 10 秒提升至 15 秒，并支持指定 3 秒到 15 秒的任意时长。API 价格较 Omni 1.1 下降 30%，720p 视频为每秒 0.07 美元；草稿可在 360p 或 720p 生成，再放大到 1080p 或 4K。\n\n该模型从发布当日起在 Google Cloud、Flow、Google Vids、Google Ads、Google AI Studio 和 Gemini API 推出。Gemini App 面向所有 Google AI 订阅用户开放，但 15 秒片段仅限 Ultra 订阅者；Google 称在 Google Vids 中生成 15 秒片段不额外收费。\n\nGoogle 称，新模型改进了场景随时间的一致性、多说话人口型同步和镜头连续性，减少跳切，并支持在对话中逐轮替换背景、主体或光照，无需从头重来。这些效果来自 Google 的演示与说法。Arena 随后公布，该模型在 Text-to-Video …",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/dbad8163-0b5e-4bbf-958a-b5ba34b8f2c9"
+      "story_url": "https://aihot.virxact.com/story/e765b639-baae-42e1-8cb8-b76d31655219"
     },
     {
       "rank": 10,
-      "title": "GPT-6.2 Astra 疑灰度测试，传最快周五发布",
-      "list_title": "GPT-6.2 Astra 疑灰度测试，传最快周五发布",
+      "title": "Meta收购Conductor，产品将逐步关停",
+      "list_title": "Meta收购Conductor，产品将逐步关停",
       "heat": null,
-      "heat_change": "↑ 11 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "部分 Codex 用户的使用量统计中出现独立模型标识「gpt-6.2-astra」，有账户该模型用量占比达 19.8%，据此推测 OpenAI 下一代模型 GPT-6.2 Astra 已进入小范围灰度测试。OpenAI 官方 API 模型目录、更新日志及公开公告均未确认这一型号，也未公布发布时间。\n\n据《The Information》当地时间 11 月 4 日报道，OpenAI 最快可能于当地时间周五（11 月 6 日）发布 Astra、Sol 系列模型及面向网络安全的 Cyber 模型。报道未披露具体型号编号、定价、上下文窗口长度或基准测试成绩，也不清楚是否先通过 API、ChatGPT、Codex 或合作伙伴渠道推出。",
+      "summary": "Meta 已收购 AI 编程初创公司 Conductor，后者让开发者把来自 Anthropic 和 OpenAI 的多个智能体部署到并行工作区协作开发。Conductor 创始人兼 CEO Charlie Holtz 确认交易，称团队将加入 Meta 超级智能实验室，与 Nat Friedman、Alexandr Wang 合作打造下一代界面；交易金额未披露。\n\nConductor 将逐步关停：云服务 11 月 13 日转为只读、11 月 20 日关闭，此后开始删除用户云数据；本地版将持续获得新模型和关键修复更新至 2027 年初。TechCrunch 称，核心功能在明年初之前照常运行。\n\n据 Axios 称，Meta 此举意在加强其 AI 开发者产品。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/19a3dc92-fd4a-4b56-a50a-4ee4f0146f69"
+      "story_url": "https://aihot.virxact.com/story/dfa910ce-d2f0-4f43-844a-e8798fd89b9e"
     }
   ]
 }
