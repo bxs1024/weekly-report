@@ -1106,29 +1106,29 @@
       "generated_at": "2026-11-01 15:18"
     },
     "weekly:2026-W45": {
-      "input_hash": "e054b04d92a5e23484ef66df77f4c88c56a23b504f29687fc8aeccc6240c42c2",
+      "input_hash": "f820d3d298c0bada252e77493ed9cc17aa6b00917175ed7a4273aa0c892f97ad",
       "editorial": {
-        "editorial_title": "AI代理管控与支付基建竞速",
-        "mainline": "Cloudflare为个人AI代理加上管控层，腾讯与Mastercard试水智能体支付，AI代理正从工具变成可交易、可治理的经济单元；与此同时Razorpay拿下GIFT City离岸牌照，跨境支付基建向海湾与东南亚延伸。两条线交汇指向同一判断：谁先卡住代理身份与跨境清算的节点，谁就掌握下一轮出海BD的议价权。",
+        "editorial_title": "AI投入分化与支付基建竞速",
+        "mainline": "Databricks发布Spark 4.3推动云数据平台升级，MercadoLibre加码AI投入；Razorpay拿下GIFT City离岸牌照，腾讯与Mastercard试水智能体支付。两条线共同指向：AI算力采购与跨境支付基建正成为出海BD与投资的新卡位。",
         "themes": {
-          "ai_infra": "Cloudflare给个人AI代理加上管控与身份层，OpenAI的Daybreak Red进入AWS GovCloud，代理治理从概念落为可采购的合规组件；英伟达以约9.98亿美元入股Naver 4.13%，把算力资本绑向韩国云与AI资产。Zalando则用AI购物助手直接对冲利润率压力，说明代理正从后台走向交易前台。",
-          "payments": "Razorpay获IFSCA牌照推出GIFT City支付平台，印度支付商首次把离岸清算能力做成产品；Kakao Pay发布数字资产生态计划，腾讯与Mastercard探索智能体支付，Nubank在赴美上市前换全球品牌。支付竞争正从收单费率转向跨境牌照与代理结算协议。",
-          "expansion": "腾讯云在新加坡扩展企业AI能力与合作伙伴生态，把新加坡做成中资云出海的前置枢纽；同期字节Coze企业版进入关停倒计时，中国科技巨头今年已关停超25款AI产品。Grab Q3显示正转型为借贷平台，Zalando的B2B扩张盈利走强，区域玩家一边收缩产品线一边把资源压向金融与B2B变现。",
-          "developer": "马来西亚芯片出口增长但全球份额未升，仍卡在封装测试低附加值环节，供应链升级缺口明确；Pliant以8000万美元C轮加码开发者基础设施，Rise of Fearless融100万美元扩展游戏平台。越南气候科技中间层缺失制约女性创始人，暴露东南亚早期生态的结构性断点。",
-          "operations": "Kakao Pay证券Q3利润大幅下滑，交易与外汇收入放缓直接击穿金融科技高估值叙事；VNG利润增速跑赢营收，LG Uplus营业利润增84%但营收收缩，Seedance海外营收占比达50%。同一周期内，靠成本与出海撑利润的平台与靠交易量撑估值的平台正在分道。",
-          "compliance": "Capital.com拿下MAS牌照并定档2027年登陆新加坡，亚太零售交易与财富管理赛道再添持牌竞争者；英国监管禁止King、Scopely等手游广告，合规边界从金融向内容品类外溢。Ballistic Ventures寻求募集4.9亿美元新基金，Zepz新设首席风险合规官，资本与人事同步向合规能力倾斜。"
+          "ai_infra": "Databricks发布Spark 4.3，云数据平台客户面临升级窗口；MercadoLibre Q3 AI投入增$30M，拉美电商巨头加速算力采购。新加坡AI使用率90%但信任度仅33%，企业AI落地存在信任缺口，合规与可解释方案成BD切入点。",
+          "payments": "Razorpay获IFSCA牌照推出GIFT City支付平台，跨境支付基建向海湾延伸；腾讯与Mastercard探索智能体支付，Kakao Pay发布数字资产生态计划。Nubank美国上市前品牌焕新，拉美与亚太支付竞合加速。",
+          "expansion": "腾讯云在新加坡扩展企业AI能力与合作伙伴生态，强化区域枢纽；字节Coze企业版进入关停倒计时，中国科技巨头今年已关停超25款AI产品。Grab Q3转型借贷平台，Zalando B2B扩张强劲，区域扩张呈现“云基建进、应用产品退”的分化。",
+          "developer": "东南亚科技融资全年$16.5B但分布失衡，资金向头部集中；马来西亚芯片出口增但市场份额未升，供应链价值捕获有限。比特币面临$386M空头挤压和$1.16B ETF流出，Pliant获$80M C轮，早期投资机构转向B2B与供应链赛道。",
+          "compliance": "Pyvio获MAS主要支付机构牌照，Capital.com获MAS牌照并计划2027年登陆新加坡，合规支付通道扩容；英国监管机构禁止King、Scopely等手游广告，内容合规风险上升。Ballistic Ventures寻求募集$490M新基金，安全赛道资本持续流入。",
+          "operations": "Kakao利润同比+7%并宣布1500亿韩元回购，韩国互联网广告市场回暖；Seedance海外营收占比达50%，VNG利润增速超营收增速，Amagi Q2利润暴涨近30倍。亚太互联网公司经营效率分化，广告技术与内容出海成利润杠杆。"
         },
         "theme_titles": {
-          "ai_infra": "AI代理管控层成形，英伟达加注Naver",
-          "payments": "GIFT City离岸牌照落地，智能体支付试水",
-          "expansion": "腾讯云新加坡扩AI生态，中资产品加速收缩",
-          "developer": "马来西亚芯片份额停滞，Pliant补开发者工具",
-          "operations": "Kakao Pay证券利润骤降，亚太平台业绩分化",
-          "compliance": "Capital.com获MAS准入，英国收紧手游广告"
+          "ai_infra": "Databricks推动Spark升级，拉美AI投入加码",
+          "payments": "Razorpay获离岸牌照，智能体支付试水",
+          "expansion": "腾讯云新加坡扩AI生态，中资产品收缩",
+          "developer": "东南亚融资向头部集中，早期投资承压",
+          "compliance": "新加坡支付牌照密集获批，手游广告受限",
+          "operations": "Kakao利润回升回购，东南亚经营分化"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-11-05 07:42"
+      "generated_at": "2026-11-05 15:52"
     }
   }
 }
