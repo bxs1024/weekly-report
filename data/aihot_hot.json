@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T03:24:23+08:00",
+  "generated_at": "2026-11-05T11:53:49+08:00",
   "fetched_date": "2026-11-05",
   "source": {
     "name": "AIHOT 热点榜",
@@ -9,14 +9,14 @@
   "items": [
     {
       "rank": 1,
-      "title": "MIT 称 GPT-6 Astra 可直接改写模型权重",
-      "list_title": "MIT 称 GPT-6 Astra 可直接改写模型权重",
+      "title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
+      "list_title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
       "heat": null,
-      "heat_change": "↓ 13 %",
+      "heat_change": "↑ 418 %",
       "sources": [],
-      "summary": "MIT CSAIL 博士生 Rikiya Takehi 团队提出“权重空间编程”，称 GPT-6 Astra 无需训练或梯度，就能直接读取并修改另一个神经网络的权重。团队称，仅改动 Qwen3.5-0.8B 约 0.016%（131072 个）权重后，该模型 MATH-500 成绩从 7.9 升至 48.1，GSM8K 从 13.8 升至 67.1，指令遵循提升 3 倍。\n\n这些数字来自研究者一方，尚无独立复现或第三方验证公开。若成立，模型能力调整可绕过微调流程，直接作用于权重本身。OpenAI 开发者体验团队的 Dominik Kundel 在社交平台转述并称赞该效果，但未提供新的验证信息。",
+      "summary": "OpenAI 发布 Images 2.6，ChatGPT 首次能直接生成 GIF 动图：用户可用提示词或上传图片生成，并调整播放速度、逐帧编辑和分享。该功能随 Images 2.6 向所有套餐的 ChatGPT 和 Codex 用户推送，覆盖网页、桌面和移动端。新版还支持保存人物、宠物或角色的参考图，供后续创作直接复用。\n\nAPI 同步上线两款图像模型：GPT-Image-2.6 Flare 主打速度，low 画质下最快 6 秒出图；GPT-Image-2.6 Sunburst 主打中高质量与多次编辑间的细节一致性。OpenAI 称两者生成速度比前代快 50%，并支持图像标记与 SVG 导出，同时发布了涵盖这两款模型的系统卡。\n\n性能数据存在不同口径：OpenAI 引用的 DesignArena 数据称 Sunburst 在 Image Arena 排名第一、Flare 比前代快 2.6 倍；Arena 随后公布 Sunburst（Medium）在文生图榜排第 2、Flare（Medium）排第 4，并称新模型比 2.5 快 2 倍以上、最低延迟…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/6967bf9e-459b-487f-93ce-2804c3605d57"
+      "story_url": "https://aihot.virxact.com/story/37046dc2-8e44-4949-965c-ef07dbd0b13e"
     },
     {
       "rank": 2,
@@ -25,34 +25,56 @@
       "heat": null,
       "heat_change": "",
       "sources": [],
-      "summary": "腾讯混元 11 月 4 日发布 Hy4 正式版，相比 8 月 28 日的 Hy4 preview 扩展了预训练与后训练规模，首次引入视觉能力和电脑操作支持，可执行细粒度图像处理、复杂图表分析、数学视觉推理，以及结合命令行与图形界面的任务。腾讯混元称，Hy4 在 GameDev 与 GameLogic 评测上分别提升 19.1% 和 9.8%，性能显著超过 preview，同时维持相同 API 价格，并称其首次跻身最强开源模型之列，计划近期开源模型权重并发布模型系统卡片。\n\nHy4 已在腾讯云和 OpenRouter 上线，并可在 CodeBuddy / WorkBuddy、元宝、ima 等产品上体验；WorkBuddy 称 Hy4 可免费试用，但有使用额度限制。OpenClaw 随后宣布支持 Hy4，用户可通过 Tencent TokenHub、TokenPlan 和 OpenRouter 使用。上述提升与开源计划均来自腾讯方面，实际效果尚待验证。\n\nArena 公布 Hy4 在 Agent Arena 总榜排名第 14，基于 8.5K+ 真实长…",
+      "summary": "腾讯混元 11 月 4 日发布 Hy4 正式版，相比 8 月 28 日的 Hy4 preview 扩展了预训练与后训练规模，首次引入视觉能力和电脑操作支持，可执行细粒度图像处理、复杂图表分析、数学视觉推理，以及结合命令行与图形界面的任务。腾讯混元称，Hy4 在 GameDev 与 GameLogic 评测上分别提升 19.1% 和 9.8%，性能显著超过 preview，同时维持相同 API 价格，并称其首次跻身最强开源模型之列，计划近期开源模型权重并发布模型系统卡片。\n\nHy4 已在腾讯云和 OpenRouter 上线，并可在 CodeBuddy / WorkBuddy、元宝、ima 等产品上体验；WorkBuddy 称 Hy4 可免费试用，但有使用额度限制。OpenClaw 随后宣布支持 Hy4，用户可通过 Tencent TokenHub、TokenPlan 和 OpenRouter 使用；腾讯混元另称 Hy4 即将上线 Chutes。上述提升与开源计划均来自腾讯方面，实际效果尚待验证。\n\nArena 公布 Hy4 在 Agent Aren…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/491d220c-9d57-4295-af9f-e4382561b3f7"
     },
     {
       "rank": 3,
+      "title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI",
+      "list_title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Anthropic Claude Code 产品负责人 Cat Wu 在 X 上宣布加入 OpenAI，负责 Core Products 的产品管理。她称将与 @thsottiaux 及 OpenAI 产品团队合作打造智能体产品，强调让用户保持掌控、节省时间，并表示敬佩 OpenAI 证明 scaling 有效、将 AI 带给超十亿人。\n\nOpenAI 联合创始人 Greg Brockman 与 @thsottiaux 先后在 X 上转发并欢迎她加入，确认了这一人事变动。OpenAI 方面尚未就她的具体职责范围作进一步说明。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/0b20bea7-a1d4-451e-bb1b-38c63fadf89f"
+    },
+    {
+      "rank": 4,
       "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
       "list_title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 11 %",
       "sources": [],
       "summary": "苹果宣布 Apple 智能随 iOS 27.3 进入中国市场：11 月 4 日开放开发者预览版测试，12 月正式版上线首批核心功能。11 月 4 日 IT之家实测称，国行「Apple 智能与 Siri」已在该预览版如期上线，iPhone 15 Pro 及更新机型可用。\n\n阿里巴巴同日公告称，千问集成至 Siri、写作工具和视觉智能，用户可自主选择是否开通，登录千问账户或通过「通过 Apple 登录」即可在系统内调用，无需跳转独立应用；用户请求及回复不会被阿里用于模型训练。该功能面向在中国购买支持 Apple 智能的 iPhone 用户，或设备定位和 Apple 账户国家/地区均设在中国的用户。IT之家实测发现，视觉智能的问询结果和千问完成的文字创作内容会同步至千问 App。\n\n据 The Verge 报道，此次上线不包括新版 Siri AI，中国用户暂时无法使用这一 Siri 功能。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c"
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "title": "OpenAI宣布收购Pierre，整合其开源工具入Codex",
+      "list_title": "OpenAI宣布收购Pierre，整合其开源工具入Codex",
+      "heat": null,
+      "heat_change": "↑ 29 %",
+      "sources": [],
+      "summary": "OpenAI 宣布收购 Pierre Computer Company——Code Storage 及 Trees、Diffs、Highlights 等开源开发者工具背后的公司，以推进把 Codex 打造成团队与 AI 协同开发软件的平台。OpenAI 称，这些工具已被用于 Codex 的部分功能，包括文件浏览、代码变更审阅和实时语法高亮；双方将在此基础上继续开发。\n\n交割后 Pierre 的开源项目将继续开源，Code Storage 客户可继续使用，相关功能将逐步并入 Codex。交易金额未披露。\n\n交割尚待监管批准，在此之前两家公司保持独立。OpenAI 总裁 Greg Brockman 在社交平台发文“欢迎 Pierre 加入 OpenAI”，未说明具体计划。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/eb3a8a76-8af1-48fb-8fa0-67903c2b1174"
+    },
+    {
+      "rank": 6,
       "title": "Google将AI学习功能引入Search和Classroom，学校禁用AI即失去搜索",
       "list_title": "Google将AI学习功能引入Search和Classroom，学校禁用AI即失去搜索",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "Google宣布把Guided Learning引入Google Search学生账号和Google Classroom，并调整学校管控策略。Guided Learning即日起在Google Classroom面向全球开放；Search中的相关功能本月晚些时候先在美国部分学校试点，收集教育者反馈后再推广到其他学区。\n\n对K-12学生账号，Gemini、Gemini Notebook、Gemini in Classroom和Google Search默认全部关闭，须由学校管理员显式开启。Google表示，管理员无法只关闭Gemini功能而保留Search；选择完全限制AI的学校，学生将无法使用搜索，并会看到学校提示信息。The Decoder报道称，这一安排从2027年初起生效，届时学校若想继续使用Google搜索，就必须接受面向学生的AI功能，不存在无AI版本的搜索；Google教育副总裁Chris Phillips称搜索与AI已紧密结合、无法拆分。\n\n该政策公布后引发反弹，TechCrunch报道称Google因此受到批评。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/956471b6-c78b-44c7-b4d4-e00583803aca"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "Anthropic 开源 FlashProve 可验证推理原型",
       "list_title": "Anthropic 开源 FlashProve 可验证推理原型",
       "heat": null,
@@ -63,7 +85,18 @@
       "story_url": "https://aihot.virxact.com/story/f33dbd76-b66f-428a-a7ec-f89e1db4f51b"
     },
     {
-      "rank": 6,
+      "rank": 8,
+      "title": "OpenAI称AI管线单次运行发现并修补948个Linux内核提权漏洞",
+      "list_title": "OpenAI称AI管线单次运行发现并修补948个Linux内核提权漏洞",
+      "heat": null,
+      "heat_change": "↑ 1828 %",
+      "sources": [],
+      "summary": "OpenAI称其安全研究人员构建了一条自主漏洞发现、利用与修补管线，由一款即将推出的网络安全模型驱动。在2026年10月中旬对最新Linux内核的一次运行中，管线从2,308个候选发现中验证1,724个漏洞，为291个信息泄露生成概念验证，并为948个不同的本地提权漏洞生成可用利用代码和候选补丁。OpenAI称这些利用代码在开启标准安全防护的原始Linux桌面配置上可运行，且智能体发现并使用了至少10种此前未知的Linux利用技术。\n\nOpenAI公布该次运行总API成本为1,213,430美元，平均每个本地提权漏洞约1,279美元；按其援引的Pwn2Own和TyphoonPWN赏金标准折算，这些漏洞的假设价值为1,890万至6,630万美元。OpenAI表示正与Linux维护者和Patch the Planet合作提交漏洞报告与补丁，人类研究人员会在上报前审查结果。\n\n上述漏洞数量、补丁效果、新型利用技术及成本均来自OpenAI的说法，尚未见独立验证。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/4ff5060c-160a-4d65-bf28-706c0d53ec34"
+    },
+    {
+      "rank": 9,
       "title": "Claude Code 产品负责人 Cat Wu 宣布离开 Anthropic",
       "list_title": "Claude Code 产品负责人 Cat Wu 宣布离开 Anthropic",
       "heat": null,
@@ -74,48 +107,15 @@
       "story_url": "https://aihot.virxact.com/story/dbad8163-0b5e-4bbf-958a-b5ba34b8f2c9"
     },
     {
-      "rank": 7,
-      "title": "OpenAI宣布收购Pierre，整合其开源工具入Codex",
-      "list_title": "OpenAI宣布收购Pierre，整合其开源工具入Codex",
-      "heat": null,
-      "heat_change": "↑ 267 %",
-      "sources": [],
-      "summary": "OpenAI 宣布收购 Pierre Computer Company——Code Storage 及多款开源开发者工具背后的公司，以推进把 Codex 打造成团队与 AI 协同开发软件平台的规划。OpenAI 称，Pierre 的 Trees 和 Diffs 库已被用于 Codex 应用的文件浏览与代码变更审阅，双方将在此基础上继续开发。\n\n交割后 Pierre 的开源项目将继续开源，Code Storage 客户可继续使用，相关功能将逐步并入 Codex。交易金额未披露。\n\n交割尚待监管批准，在此之前两家公司保持独立。OpenAI 总裁 Greg Brockman 在社交平台发文“欢迎 Pierre 加入 OpenAI”，未说明具体计划。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/eb3a8a76-8af1-48fb-8fa0-67903c2b1174"
-    },
-    {
-      "rank": 8,
-      "title": "Canva十年来首次增长放缓，22%员工受裁员重组影响",
-      "list_title": "Canva十年来首次增长放缓，22%员工受裁员重组影响",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "据 Bloomberg 报道，Canva 十年来首次出现增长放缓，为此进行的大调整涉及 1271 人，占员工总数的 22%，形式包括裁员、岗位变动或搬迁。Canva 官方未将 AI 列为裁员原因。\n\n报道称，这次调整旨在让 Canva 具备构建 AI 产品的能力，并非用自动化替代离职员工的工作。但服务大量非付费用户的成本过高，制约了这一计划，Canva 已推迟多个 AI 产品的发布。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/d38a33f9-5a87-4e04-b800-0c7185a28e86"
-    },
-    {
-      "rank": 9,
-      "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克",
-      "list_title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克",
-      "heat": null,
-      "heat_change": "↓ 38 %",
-      "sources": [],
-      "summary": "Anthropic 已向美国 SEC 公开提交 S-1 注册声明，拟在纳斯达克以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销；发行股数与价格区间尚未确定，注册声明尚未生效。招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。公司称未来可能无法实现或维持盈利。\n\n后续更新的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，主因是 50 亿美元的高价短期算力和 20 亿美元员工捐赠配比的非现金支出；Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%。更新文件还显示，算力与基础设施合同承诺总额约 8954 亿美元，另有最高 1750 亿美元尚未定价，其中 4475 亿美元须在 2031 年前支付，仅 2138 亿美元可取消或附带条件。\n\n上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对董事会组成…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
-    },
-    {
       "rank": 10,
-      "title": "AMD发布三季度财报，预计2027年营收增长超80%",
-      "list_title": "AMD发布三季度财报，预计2027年营收增长超80%",
+      "title": "GPT-6.2 Astra 疑灰度测试，传最快周五发布",
+      "list_title": "GPT-6.2 Astra 疑灰度测试，传最快周五发布",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↑ 11 %",
       "sources": [],
-      "summary": "AMD 发布 2026 年第三季度财报，并预计 2027 年营收增长超过 80%，高于分析师建模的 77%。\n\nAMD CEO Lisa Su 称，数据中心芯片将占公司明年销售额的 80%。",
+      "summary": "部分 Codex 用户的使用量统计中出现独立模型标识「gpt-6.2-astra」，有账户该模型用量占比达 19.8%，据此推测 OpenAI 下一代模型 GPT-6.2 Astra 已进入小范围灰度测试。OpenAI 官方 API 模型目录、更新日志及公开公告均未确认这一型号，也未公布发布时间。\n\n据《The Information》当地时间 11 月 4 日报道，OpenAI 最快可能于当地时间周五（11 月 6 日）发布 Astra、Sol 系列模型及面向网络安全的 Cyber 模型。报道未披露具体型号编号、定价、上下文窗口长度或基准测试成绩，也不清楚是否先通过 API、ChatGPT、Codex 或合作伙伴渠道推出。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/afb1ed66-7ecc-4d15-b9d1-90b835f6e985"
+      "story_url": "https://aihot.virxact.com/story/19a3dc92-fd4a-4b56-a50a-4ee4f0146f69"
     }
   ]
 }
