@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T11:51:22+08:00",
-  "fetched_date": "2026-11-06",
+  "generated_at": "2026-11-07T02:55:43+08:00",
+  "fetched_date": "2026-11-07",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
@@ -9,39 +9,61 @@
   "items": [
     {
       "rank": 1,
-      "title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
-      "list_title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
-      "heat": null,
-      "heat_change": "↑ 10 %",
-      "sources": [],
-      "summary": "OpenAI称其安全研究人员构建了一条自主漏洞发现、利用与修补管线，由一款网络安全模型驱动。在2026年10月中旬对最新Linux内核的一次运行中，管线从2,308个候选发现中验证1,724个漏洞，为291个信息泄露生成概念验证，并为948个不同的本地提权漏洞生成可用利用代码和候选补丁。OpenAI称这些利用代码在开启标准安全防护的原始Linux桌面配置上可运行，智能体还发现并使用了至少10种此前未知的Linux利用技术。\n\nOpenAI公布该次运行总API成本为1,213,430美元，平均每个本地提权漏洞约1,279美元；按其援引的Pwn2Own和TyphoonPWN赏金标准折算，这些漏洞的假设价值为1,890万至6,630万美元。OpenAI表示正与Linux维护者和Patch the Planet合作提交漏洞报告与补丁，人类研究人员会在上报前审查结果。\n\n上述漏洞数量、补丁效果、新型利用技术及成本均来自OpenAI的说法，尚未见独立验证。随后OpenAI发布网络安全模型GPT-6 Cyber，称其越界率从GPT-5.6 Cyber的约5%降…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/4ff5060c-160a-4d65-bf28-706c0d53ec34"
-    },
-    {
-      "rank": 2,
-      "title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
-      "list_title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
-      "heat": null,
-      "heat_change": "↓ 13 %",
-      "sources": [],
-      "summary": "OpenAI 发布 Images 2.6，ChatGPT 首次能直接生成 GIF 动图：用户可用提示词或上传图片生成，并调整播放速度、逐帧编辑和分享。该功能随 Images 2.6 向所有套餐的 ChatGPT 和 Codex 用户推送，覆盖网页、桌面和移动端；新版还支持保存人物、宠物或角色的参考图，供后续创作复用。\n\nAPI 同步上线两款图像模型：GPT-Image-2.6 Flare 主打速度，low 画质下最快 6 秒出图；GPT-Image-2.6 Sunburst 主打中高质量与多次编辑间的细节一致性。OpenAI 称两者生成速度比前代快 50%，并支持图像标记与 SVG 导出。据 MarkTechPost 引述模型页面，两款模型按 token 计费且价格相同：文本输入每百万 token 5 美元、图像输入 8 美元、图像输出 30 美元，调整复杂度不另收费。\n\n性能数据存在不同口径：OpenAI 引用的 DesignArena 数据称 Sunburst 在 Image Arena 排名第一、Flare 比前代快 2.6 倍；Arena…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/37046dc2-8e44-4949-965c-ef07dbd0b13e"
-    },
-    {
-      "rank": 3,
       "title": "Google 发布 Omni 1.2 Flash，视频生成提至 15 秒",
       "list_title": "Google 发布 Omni 1.2 Flash，视频生成提至 15 秒",
       "heat": null,
-      "heat_change": "↑ 36 %",
+      "heat_change": "↓ 13 %",
       "sources": [],
       "summary": "Google DeepMind 发布视频生成与编辑模型 Gemini Omni 1.2 Flash，原生片段上限从 10 秒提升到 15 秒，并支持在 3 秒到 15 秒之间指定任意时长。720p 视频 API 价格较 Omni 1.1 下降 30% 至每秒 0.07 美元；草稿可在 360p 或 720p 生成，再放大到 1080p 或 4K。模型从发布当日起在 Gemini API、Google Cloud、Flow、Google Vids、Google Ads 和 Google AI Studio 推出。\n\n在 Gemini App 中，该模型面向所有 Google AI 订阅用户开放，但 15 秒片段仅限 Ultra 订阅者；Google 称在 Google Vids 中生成 15 秒片段不额外收费。第三方平台 fal、OpenRouter、Krea 和 Higgsfield 也同步上线该模型，OpenRouter 按分辨率分档计价，360p 每秒 0.023 美元、720p 0.070 美元、1080p 0.104 美元、4K 0.20…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/e765b639-baae-42e1-8cb8-b76d31655219"
     },
     {
+      "rank": 2,
+      "title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
+      "list_title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "OpenAI称其安全研究人员构建了一条自主漏洞发现、利用与修补管线，由一款网络安全模型驱动。在2026年10月中旬对最新Linux内核的一次运行中，管线从2,308个候选发现中验证1,724个漏洞，为291个信息泄露生成概念验证，并为948个不同的本地提权漏洞生成可用利用代码和候选补丁。OpenAI称这些利用代码在开启标准安全防护的原始Linux桌面配置上可运行，智能体还发现并使用了至少10种此前未知的Linux利用技术。\n\nOpenAI公布该次运行总API成本为1,213,430美元，平均每个本地提权漏洞约1,279美元；按其援引的Pwn2Own和TyphoonPWN赏金标准折算，这些漏洞的假设价值为1,890万至6,630万美元。OpenAI表示正与Linux维护者和Patch the Planet合作提交漏洞报告与补丁，人类研究人员会在上报前审查结果。\n\n上述漏洞数量、补丁效果、新型利用技术及成本均来自OpenAI的说法，尚未见独立验证。随后OpenAI发布网络安全模型GPT-6 Cyber，称其越界率从GPT-5.6 Cyber的约5%降…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/4ff5060c-160a-4d65-bf28-706c0d53ec34"
+    },
+    {
+      "rank": 3,
+      "title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
+      "list_title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "OpenAI 发布 Images 2.6，ChatGPT 首次能直接生成 GIF 动图：用户可用提示词或上传图片生成，并调整播放速度、逐帧编辑和分享。该功能随 Images 2.6 向所有套餐的 ChatGPT 和 Codex 用户推送，覆盖网页、桌面和移动端；新版还支持保存人物、宠物或角色的参考图，供后续创作复用。\n\nAPI 同步上线两款图像模型：GPT-Image-2.6 Flare 主打速度，low 画质下最快 6 秒出图；GPT-Image-2.6 Sunburst 主打中高质量与多次编辑间的细节一致性。OpenAI 称两者生成速度比前代快 50%，并支持图像标记与 SVG 导出。据 MarkTechPost 引述模型页面，两款模型按 token 计费且价格相同：文本输入每百万 token 5 美元、图像输入 8 美元、图像输出 30 美元，调整复杂度不另收费。\n\n性能数据存在不同口径：OpenAI 引用的 DesignArena 数据称 Sunburst 在 Image Arena 排名第一、Flare 比前代快 2.6 倍；Arena…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/37046dc2-8e44-4949-965c-ef07dbd0b13e"
+    },
+    {
       "rank": 4,
+      "title": "Anthropic 在美推出 Claude 个人财务测试版",
+      "list_title": "Anthropic 在美推出 Claude 个人财务测试版",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Anthropic 在 Claude 中上线 Personal Finance 个人财务功能，本周起以测试版形式逐步向美国 Pro、Max 和 Ultra 订阅用户开放。用户通过 Plaid 以只读方式连接自己选择的银行和卡账户，可用日常语言询问与自身余额和交易记录相关的财务问题，也可按类别汇总支出、标记重复扣款和异常费用，并解释 APR 等金融概念。\n\nAnthropic 称，该功能对账户的访问权限为只读，Claude 无法移动、管理或投资用户资金；用户可随时解绑账户。Anthropic 还称，该功能没有广告或赞助推荐，用于帮助用户理解个人财务，并非用于提供投资建议；相关对话不用于模型训练。\n\nThe Decoder 提到，OpenAI 在美国已有类似功能 Finances。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/16df653b-997f-4488-afe7-4f9c0779fc05"
+    },
+    {
+      "rank": 5,
+      "title": "Thinking Machines 发布 Inkling 2 Small，先闭源上线 Tinker",
+      "list_title": "Thinking Machines 发布 Inkling 2 Small，先闭源上线 Tinker",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Thinking Machines Lab 发布第二代模型 Inkling 2 Small，即日起在 Tinker 平台提供微调和推理，初期为闭源权重。公司称，完整权重计划于下周以 Apache 2.0 许可开放，前提是完成外部安全测试和红队评估。\n\n该模型为 594B 总参数、17B 激活的 MoE，支持图像输入和 1M token 上下文。Artificial Analysis 称其在 Intelligence Index v5.0.1 上得 31 分，较前代提升 18 分；若权重按计划开源，按当前排名将成为中国以外得分最高的开源权重模型。Tinker 定价为每百万输入/输出 token 0.30 美元和 1.00 美元，缓存输入每百万 token 0.03 美元。Arena 称其在 Code Arena: WebDev 的 AutoEval 得 1654 分，约列总榜第 20、美国开源模型第一。\n\n公司还称其擅长长周期任务、能以视觉方式检查自身工作，用户可自行微调或让模型自主编排微调流程。公司员工 Karina Nguyen 分享的案例称，…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/d6acd01b-e9cc-4a1f-9732-6f49b5859ee5"
+    },
+    {
+      "rank": 6,
       "title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI",
       "list_title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI",
       "heat": null,
@@ -52,37 +74,15 @@
       "story_url": "https://aihot.virxact.com/story/0b20bea7-a1d4-451e-bb1b-38c63fadf89f"
     },
     {
-      "rank": 5,
-      "title": "腾讯混元 Hy4 正式发布，首增视觉与电脑操作",
-      "list_title": "腾讯混元 Hy4 正式发布，首增视觉与电脑操作",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "腾讯混元 11 月 4 日发布 Hy4 正式版，相比 8 月 28 日的 Hy4 preview 扩大预训练与后训练规模，首次引入视觉能力和电脑操作支持，可执行细粒度图像处理、复杂图表分析、数学视觉推理，以及结合命令行与图形界面的任务。腾讯混元称，Hy4 在 GameDev 与 GameLogic 评测上分别提升 19.1% 和 9.8%，性能显著超过 preview，同时维持相同 API 价格；The Decoder 报道其每百万输入 token 约 0.83 美元、输出约 2.50 美元。腾讯混元还称其首次跻身最强开源模型之列，计划近期开源模型权重并发布模型系统卡片，但权重开放日期未定，目前仅通过腾讯云、OpenRouter 和元宝等腾讯应用使用。上述提升与开源计划均来自腾讯方面，实际效果尚待验证。\n\nHy4 已在腾讯云和 OpenRouter 上线，并可在 CodeBuddy / WorkBuddy、元宝、ima 等产品上体验；WorkBuddy 称 Hy4 可免费试用，但有使用额度限制，随后又称限时免费开放。腾讯混元称，Hy4 在 Wor…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/491d220c-9d57-4295-af9f-e4382561b3f7"
-    },
-    {
-      "rank": 6,
-      "title": "Anthropic 在美国推出 Claude 个人财务测试版",
-      "list_title": "Anthropic 在美国推出 Claude 个人财务测试版",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "Anthropic 在 Claude 中上线 Personal Finance 个人财务功能，本周起以测试版形式逐步向美国 Pro、Max 和 Ultra 订阅用户开放。用户通过 Plaid 以只读方式连接自己选择的银行和卡账户，可用日常语言询问与自身余额和交易记录相关的财务问题，也可按类别汇总支出、标记重复扣款和异常费用，并解释 APR 等金融概念。\n\nAnthropic 称，该功能对账户的访问权限为只读，Claude 无法移动、管理或投资用户资金；用户可随时解绑账户。Anthropic 还称，该功能没有广告或赞助推荐，用于帮助用户理解个人财务，并非用于提供投资建议；相关对话不用于模型训练。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/16df653b-997f-4488-afe7-4f9c0779fc05"
-    },
-    {
       "rank": 7,
-      "title": "Thinking Machines 发布 Inkling 2 Small，先闭源上线 Tinker",
-      "list_title": "Thinking Machines 发布 Inkling 2 Small，先闭源上线 Tinker",
+      "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克，IPO 估值遇投资者压价",
+      "list_title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克，IPO 估值遇投资者压价",
       "heat": null,
-      "heat_change": "↑ 1203 %",
+      "heat_change": "↑ 12 %",
       "sources": [],
-      "summary": "Thinking Machines Lab 发布第二代模型 Inkling 2 Small，即日起在 Tinker 平台提供微调和推理，初期为闭源权重。公司称，完整权重计划于下周以 Apache 2.0 许可开放，前提是完成外部安全测试和红队评估。\n\n该模型为 594B 总参数、17B 激活的 MoE，支持图像输入。Artificial Analysis 称其在 Intelligence Index v5.0.1 上得 31 分，较前代提升 18 分；若权重按计划开源，按当前排名将成为中国以外得分最高的开源权重模型。Tinker 定价为每百万输入/输出 token 0.30 美元和 1.00 美元，缓存输入每百万 token 0.03 美元。Arena 称其在 Code Arena: WebDev 的 AutoEval 得 1654 分，约列总榜第 20、美国开源模型第一。\n\n公司还称其擅长长周期任务、能以视觉方式检查自身工作，用户可自行微调或让模型自主编排微调流程。公司员工 Karina Nguyen 分享的案例称，该模型智能体在财务尽调任务中…",
+      "summary": "Anthropic 已向美国 SEC 公开提交 S-1 注册声明，拟在纳斯达克以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销；发行股数与价格区间尚未确定，注册声明尚未生效。\n\n更新后的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，主因是 50 亿美元的高价短期算力和 20 亿美元员工捐赠配比的非现金支出；Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%。文件显示算力与基础设施合同承诺总额约 8954 亿美元，另有最高 1750 亿美元尚未定价，其中 4475 亿美元须在 2031 年前支付，仅 2138 亿美元可取消或附带条件。\n\n据 Reuters，IPO 推进遇阻：投资者质疑 1.5 万亿美元估值过高，有人提出仅 1 万亿美元，公司 9 月曾瞄准最高 2 万亿美元；潜在投资者还怀疑原定下周启动的路演能否如期进行，并在等待更新文件未包含的 10 月营收数据。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/d6acd01b-e9cc-4a1f-9732-6f49b5859ee5"
+      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
     },
     {
       "rank": 8,
@@ -91,31 +91,31 @@
       "heat": null,
       "heat_change": "",
       "sources": [],
-      "summary": "百度文心发布并开源基座模型 ERNIE 5.5 Flash Base，开放预训练终点的权重，在 Hugging Face 提供 FP8 与 BF16 两种 safetensors 下载，采用 ERNIE 5.5 Flash Base Model License Agreement v1.0。百度称该模型为稀疏 MoE 基座语言模型，总参数 280B、每 token 激活 14B，预训练使用 33.5T tokens；权重未经中训练与后训练，供开发者做领域适配、指令微调和强化学习研究，后续将推出后训练版本。\n\n上下文长度上，百度称微调和推理设计上支持最长 1M-token，The Decoder 则称训练上下文最长 128,000 token。MarkTechPost 称其许可在年收入低于 5000 万美元时免费，但排除欧盟、英国和韩国。百度称该模型在同规模基座模型的多个基准上取得 SOTA，报道未给出独立验证。",
+      "summary": "百度文心发布并开源基座模型 ERNIE-5.5-Flash-Base，开放预训练终点的权重，在 Hugging Face 提供 FP8 与 BF16 两种 safetensors 下载，采用 ERNIE 5.5 Flash Base Model License Agreement v1.0。百度称该模型为稀疏 MoE 基座语言模型，总参数 280B、每 token 激活 14B，预训练使用 33.5T tokens；权重未经中训练与后训练，供开发者做领域适配、指令微调和强化学习研究，后续将推出后训练版本。\n\n上下文长度上，百度称训练上下文达 128K，微调和推理设计上支持最长 1M-token。MarkTechPost 称其许可在年收入低于 5000 万美元时免费，但排除欧盟、英国和韩国。百度称该模型在同规模基座模型的多个基准上取得 SOTA，报道未给出独立验证。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/0c969c38-7969-4bd9-9c91-f3cdf9b4a9cd"
     },
     {
       "rank": 9,
-      "title": "OpenAI中期选举后推公关攻势并更名数据中心",
-      "list_title": "OpenAI中期选举后推公关攻势并更名数据中心",
+      "title": "Meta 在美区 Muse 应用上线实时语音与表情头像",
+      "list_title": "Meta 在美区 Muse 应用上线实时语音与表情头像",
       "heat": null,
-      "heat_change": "↑ 65 %",
+      "heat_change": "↓ 11 %",
       "sources": [],
-      "summary": "OpenAI计划在美国中期选举结束后发起公关与游说攻势，届时将其数据中心改称为“AI算力园区”。据Axios报道，此举的背景是数据中心在两党中都成为政治包袱，攻势将在跛脚鸭会期启动，此时民主党很可能拿下众议院。OpenAI首席全球事务官Chris Lehane是这一包装的提出者，他还提到推动设立AI“限速”、让民众感受到AI对日常生活的赋能，并推动美国参与制定全球标准。\n\nOpenAI随后发布“National Community Compact”和“Compute Campus Policy Blueprint”，称未来每个自建自营的计算园区都将有本地协议，承诺全额承担用电与所需基础设施成本、每年公开各站点水耗与用电数据、不使用保密协议限制公共官员，并建议州公用事业委员会要求大用电客户承担其新增电网成本。\n\n跟进报道补充，OpenAI还承诺在项目被砍时提供财务担保、公开噪音与招聘数据，并资助当地优先事项，例如佐治亚州480万美元的学校餐费补助。这些承诺适用于OpenAI自建自营的园区，并称将推动监管把规则扩展到所有开发商。",
+      "summary": "Meta 在 Muse 应用中推出实时语音对话和会动的表情头像，先在美国上线，覆盖移动端、网页端和 Mac 应用。用户点击右上角电话图标即可开始对话，可以边说边让 Muse 帮忙完善想法，或排练面试、演讲；头像会随语气做出表情和手势，用户可选择仅语音、伴随头像或全屏显示，并有数百种声音可选。\n\nMeta 称，语音对话和表情头像目前仅在美国推出，之后将登陆 AI 眼镜和即将发货的 Muse Charm 设备。TechCrunch 报道称，该功能已向美国所有用户开放，支持通话和视频聊天；头像被昵称为 Jolly，可自定义为人、动物或其他角色。\n\nMeta 工程副总裁 David Singleton 称，Muse Realtime Voice 与 Muse Realtime Avatar 让语音、表情和手势保持同步，并能即时响应，用户可在它说话时随时插话。The Verge 称已在 iOS 应用上试用该功能。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/2d1c9f85-c83f-4755-8376-821ee9e72d27"
+      "story_url": "https://aihot.virxact.com/story/53c3f1bf-cba4-48c4-a7a3-2af0fcb95380"
     },
     {
       "rank": 10,
-      "title": "OpenAI宣布收购Pierre，工具将并入Codex",
-      "list_title": "OpenAI宣布收购Pierre，工具将并入Codex",
+      "title": "腾讯混元 Hy4 正式发布，首增视觉与电脑操作",
+      "list_title": "腾讯混元 Hy4 正式发布，首增视觉与电脑操作",
       "heat": null,
       "heat_change": "↓ 16 %",
       "sources": [],
-      "summary": "OpenAI 宣布收购 Pierre Computer Company，即 Code Storage 及 Trees、Diffs、Highlights 等开源开发者工具背后的公司，以推进把 Codex 打造成团队与 AI 协同开发软件的平台。OpenAI 称，这些工具已用于 Codex 的部分功能，包括文件浏览、代码变更审阅和实时语法高亮。\n\n交割后 Pierre 的开源项目将继续开源，Code Storage 客户可继续使用，相关功能将逐步并入 Codex。交易金额未披露。\n\n交割尚待监管批准，在此之前两家公司保持独立。OpenAI 总裁 Greg Brockman 在社交平台发文“欢迎 Pierre 加入 OpenAI”，未说明具体计划。",
+      "summary": "腾讯混元 11 月 4 日发布 Hy4 正式版，相比 8 月 28 日的 Hy4 preview 扩大预训练与后训练规模，首次引入视觉能力和电脑操作支持，可执行细粒度图像处理、复杂图表分析、数学视觉推理，以及结合命令行与图形界面的任务。腾讯混元称，Hy4 在 GameDev 与 GameLogic 评测上分别提升 19.1% 和 9.8%，性能显著超过 preview，同时维持相同 API 价格；The Decoder 报道其每百万输入 token 约 0.83 美元、输出约 2.50 美元。腾讯混元还称其首次跻身最强开源模型之列，计划近期开源模型权重并发布模型系统卡片，但权重开放日期未定，目前仅通过腾讯云、OpenRouter 和元宝等腾讯应用使用。上述提升与开源计划均来自腾讯方面，实际效果尚待验证。\n\nHy4 已在腾讯云和 OpenRouter 上线，并可在 CodeBuddy / WorkBuddy、元宝、ima 等产品上体验；WorkBuddy 称 Hy4 可免费试用，但有使用额度限制，随后又称限时免费开放。腾讯混元称，Hy4 在 Wor…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/eb3a8a76-8af1-48fb-8fa0-67903c2b1174"
+      "story_url": "https://aihot.virxact.com/story/491d220c-9d57-4295-af9f-e4382561b3f7"
     }
   ]
 }
