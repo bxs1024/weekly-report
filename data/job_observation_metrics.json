@@ -1,32 +1,41 @@
 {
-  "observed_at": "2026-11-06T07:31:03.352885+08:00",
+  "observed_at": "2026-11-06T15:37:54.548262+08:00",
   "source_count": 3,
-  "raw_count": 48,
+  "raw_count": 50,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 18,
-      "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
-      "removed_clusters": {}
+      "count": 7,
+      "inventory_count": 19,
+      "signal_count": 1,
+      "added_count": 4,
+      "removed_count": 3,
+      "clusters": {
+        "engineering": 1,
+        "operations": 1
+      },
+      "removed_clusters": {
+        "engineering": 1,
+        "operations": 1
+      }
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 5,
+      "count": 1,
+      "inventory_count": 6,
       "signal_count": 0,
-      "added_count": 0,
+      "added_count": 1,
       "removed_count": 0,
-      "clusters": {},
+      "clusters": {
+        "sales": 1,
+        "operations": 1
+      },
       "removed_clusters": {}
     },
     "Shopify Jobs": {
@@ -43,6 +52,80 @@
       "removed_clusters": {}
     }
   },
-  "candidate_signals": [],
+  "candidate_signals": [
+    {
+      "candidate_id": "jobs-f1fc94941f7b0c8a",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W45",
+      "window_start": "2026-11-06",
+      "window_end": "2026-11-06",
+      "detected_at": "2026-11-06T15:37:54.548262+08:00",
+      "baseline_count": 18,
+      "current_count": 19,
+      "added_count": 4,
+      "removed_count": 3,
+      "clusters": {
+        "engineering": 1,
+        "operations": 1
+      },
+      "removed_clusters": {
+        "engineering": 1,
+        "operations": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000160126899",
+          "title": "Software Engineering Manager II",
+          "url": "https://www.grab.careers/en/jobs/744000160126899/software-engineering-manager-ii/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000160126829",
+          "title": "Intern, Occupational Health, Safety, & Wellbeing",
+          "url": "https://www.grab.careers/en/jobs/744000160126829/intern-occupational-health-safety-wellbeing/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000160119029",
+          "title": "IT Executive",
+          "url": "https://www.grab.careers/en/jobs/744000160119029/it-executive/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000160118419",
+          "title": "Assistant Manager, Driver Operations",
+          "url": "https://www.grab.careers/en/jobs/744000160118419/assistant-manager-driver-operations/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000159845219",
+          "title": "IT Executive",
+          "url": "https://www.grab.careers/en/jobs/744000159845219/it-executive/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000159578119",
+          "title": "Manager II, Country IT (VN",
+          "url": "https://www.grab.careers/en/jobs/744000159578119/manager-ii-country-it-vn/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000159559359",
+          "title": "Senior Software Engineer, Fullstack (Insurance Operations)",
+          "url": "https://www.grab.careers/en/jobs/744000159559359/senior-software-engineer-fullstack-insurance-operations/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    }
+  ],
   "promoted_count": 0
 }
