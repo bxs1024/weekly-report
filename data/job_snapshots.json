@@ -1,15 +1,68 @@
 {
   "version": 1,
-  "generated_at": "2026-11-06T15:37:54.548262+08:00",
+  "generated_at": "2026-11-07T06:58:34.529708+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-06T15:37:54.548262+08:00",
+      "observed_at": "2026-11-07T06:58:34.529708+08:00",
       "jobs": [
         {
-          "id": "744000160126899",
+          "id": "744000160202996",
+          "title": "Intern, Social Media & Partner Engagement",
+          "url": "https://www.grab.careers/en/jobs/744000160202996/intern-social-media-partner-engagement/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
+          "id": "744000160199014",
+          "title": "Intern, Marketing and Partnership (GrabRentals)",
+          "url": "https://www.grab.careers/en/jobs/744000160199014/intern-marketing-and-partnership-grabrentals/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
+          "id": "744000160203648",
+          "title": "Intern, Partner Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000160203648/intern-partner-acquisition/",
+          "function_tags": [
+            "partnerships"
+          ]
+        },
+        {
+          "id": "744000160157400",
+          "title": "IT Executive",
+          "url": "https://www.grab.careers/en/jobs/744000160157400/it-executive/",
+          "function_tags": []
+        },
+        {
+          "id": "744000160142925",
+          "title": "Senior Software Engineering Manager, Security Engineering",
+          "url": "https://www.grab.careers/en/jobs/744000160142925/senior-software-engineering-manager-security-engineering/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000160140551",
+          "title": "Senior Principal Machine Learning Engineer (Fulfilment)",
+          "url": "https://www.grab.careers/en/jobs/744000160140551/senior-principal-machine-learning-engineer-fulfilment/",
+          "function_tags": [
+            "ai",
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000160141843",
+          "title": "Senior Principal Data Scientist (Fulfilment)",
+          "url": "https://www.grab.careers/en/jobs/744000160141843/senior-principal-data-scientist-fulfilment/",
+          "function_tags": []
+        },
+        {
+          "id": "744000160133679",
           "title": "Software Engineering Manager II",
-          "url": "https://www.grab.careers/en/jobs/744000160126899/software-engineering-manager-ii/",
+          "url": "https://www.grab.careers/en/jobs/744000160133679/software-engineering-manager-ii/",
           "function_tags": [
             "engineering"
           ]
@@ -18,12 +71,6 @@
           "id": "744000160126829",
           "title": "Intern, Occupational Health, Safety, & Wellbeing",
           "url": "https://www.grab.careers/en/jobs/744000160126829/intern-occupational-health-safety-wellbeing/",
-          "function_tags": []
-        },
-        {
-          "id": "744000160119029",
-          "title": "IT Executive",
-          "url": "https://www.grab.careers/en/jobs/744000160119029/it-executive/",
           "function_tags": []
         },
         {
@@ -87,64 +134,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000159780229",
-          "title": "Fleet Assessor Associate",
-          "url": "https://www.grab.careers/en/jobs/744000159780229/fleet-assessor-associate/",
-          "function_tags": []
-        },
-        {
-          "id": "744000159621709",
-          "title": "Senior Software Engineer, Mobile (Android) - Consumer Experience",
-          "url": "https://www.grab.careers/en/jobs/744000159621709/senior-software-engineer-mobile-android-consumer-experience/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000159601623",
-          "title": "People Research Scientist, People Analytics",
-          "url": "https://www.grab.careers/en/jobs/744000159601623/people-research-scientist-people-analytics/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000159598119",
-          "title": "Senior Software Engineer, Mobile (iOS)",
-          "url": "https://www.grab.careers/en/jobs/744000159598119/senior-software-engineer-mobile-ios/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000159596270",
-          "title": "Lead Data Scientist",
-          "url": "https://www.grab.careers/en/jobs/744000159596270/lead-data-scientist/",
-          "function_tags": []
-        },
-        {
-          "id": "744000159593589",
-          "title": "Software Engineering Manager II - Transaction Platform",
-          "url": "https://www.grab.careers/en/jobs/744000159593589/software-engineering-manager-ii-transaction-platform/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000159593429",
-          "title": "Identity Management Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000159593429/identity-management-engineer/",
-          "function_tags": [
-            "engineering"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-06T15:37:54.548262+08:00",
+      "observed_at": "2026-11-07T06:58:34.529708+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -194,7 +189,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-06T15:37:54.548262+08:00",
+      "observed_at": "2026-11-07T06:58:34.529708+08:00",
       "jobs": [
         {
           "id": "62d779d3-51c8-4b0a-ab2e-1a440276bb37",
