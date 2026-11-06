@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T03:32:11+08:00",
+  "generated_at": "2026-11-06T11:51:22+08:00",
   "fetched_date": "2026-11-06",
   "source": {
     "name": "AIHOT 热点榜",
@@ -9,39 +9,50 @@
   "items": [
     {
       "rank": 1,
-      "title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
-      "list_title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
-      "heat": null,
-      "heat_change": "↓ 11 %",
-      "sources": [],
-      "summary": "OpenAI 发布 Images 2.6，ChatGPT 首次能直接生成 GIF 动图：用户可用提示词或上传图片生成，并调整播放速度、逐帧编辑和分享。该功能随 Images 2.6 向所有套餐的 ChatGPT 和 Codex 用户推送，覆盖网页、桌面和移动端；新版还支持保存人物、宠物或角色的参考图，供后续创作复用。\n\nAPI 同步上线两款图像模型：GPT-Image-2.6 Flare 主打速度，low 画质下最快 6 秒出图；GPT-Image-2.6 Sunburst 主打中高质量与多次编辑间的细节一致性。OpenAI 称两者生成速度比前代快 50%，并支持图像标记与 SVG 导出。据 MarkTechPost 引述模型页面，两款模型按 token 计费且价格相同：文本输入每百万 token 5 美元、图像输入 8 美元、图像输出 30 美元，调整复杂度不另收费。\n\n性能数据存在不同口径：OpenAI 引用的 DesignArena 数据称 Sunburst 在 Image Arena 排名第一、Flare 比前代快 2.6 倍；Arena…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/37046dc2-8e44-4949-965c-ef07dbd0b13e"
-    },
-    {
-      "rank": 2,
-      "title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI",
-      "list_title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "Anthropic Claude Code 产品负责人 Cat Wu 在 X 上宣布加入 OpenAI，领导 Core Products 的产品管理。她称将与 @thsottiaux 及 OpenAI 产品团队合作打造智能体产品，强调让用户保持掌控、节省时间，并表示敬佩 OpenAI 证明 scaling 有效、将 AI 带给超十亿人。\n\nOpenAI 联合创始人 Greg Brockman 与 @thsottiaux 先后转发并欢迎她加入，确认了这一人事变动。The Decoder 报道称，负责 Codex 和 ChatGPT 的 Thibault Sottiaux 以“CatGPT”迎接她。OpenAI 方面尚未就她的具体职责范围作进一步说明。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/0b20bea7-a1d4-451e-bb1b-38c63fadf89f"
-    },
-    {
-      "rank": 3,
       "title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
       "list_title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
       "heat": null,
-      "heat_change": "↑ 37 %",
+      "heat_change": "↑ 10 %",
       "sources": [],
       "summary": "OpenAI称其安全研究人员构建了一条自主漏洞发现、利用与修补管线，由一款网络安全模型驱动。在2026年10月中旬对最新Linux内核的一次运行中，管线从2,308个候选发现中验证1,724个漏洞，为291个信息泄露生成概念验证，并为948个不同的本地提权漏洞生成可用利用代码和候选补丁。OpenAI称这些利用代码在开启标准安全防护的原始Linux桌面配置上可运行，智能体还发现并使用了至少10种此前未知的Linux利用技术。\n\nOpenAI公布该次运行总API成本为1,213,430美元，平均每个本地提权漏洞约1,279美元；按其援引的Pwn2Own和TyphoonPWN赏金标准折算，这些漏洞的假设价值为1,890万至6,630万美元。OpenAI表示正与Linux维护者和Patch the Planet合作提交漏洞报告与补丁，人类研究人员会在上报前审查结果。\n\n上述漏洞数量、补丁效果、新型利用技术及成本均来自OpenAI的说法，尚未见独立验证。随后OpenAI发布网络安全模型GPT-6 Cyber，称其越界率从GPT-5.6 Cyber的约5%降…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/4ff5060c-160a-4d65-bf28-706c0d53ec34"
     },
     {
+      "rank": 2,
+      "title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
+      "list_title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
+      "heat": null,
+      "heat_change": "↓ 13 %",
+      "sources": [],
+      "summary": "OpenAI 发布 Images 2.6，ChatGPT 首次能直接生成 GIF 动图：用户可用提示词或上传图片生成，并调整播放速度、逐帧编辑和分享。该功能随 Images 2.6 向所有套餐的 ChatGPT 和 Codex 用户推送，覆盖网页、桌面和移动端；新版还支持保存人物、宠物或角色的参考图，供后续创作复用。\n\nAPI 同步上线两款图像模型：GPT-Image-2.6 Flare 主打速度，low 画质下最快 6 秒出图；GPT-Image-2.6 Sunburst 主打中高质量与多次编辑间的细节一致性。OpenAI 称两者生成速度比前代快 50%，并支持图像标记与 SVG 导出。据 MarkTechPost 引述模型页面，两款模型按 token 计费且价格相同：文本输入每百万 token 5 美元、图像输入 8 美元、图像输出 30 美元，调整复杂度不另收费。\n\n性能数据存在不同口径：OpenAI 引用的 DesignArena 数据称 Sunburst 在 Image Arena 排名第一、Flare 比前代快 2.6 倍；Arena…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/37046dc2-8e44-4949-965c-ef07dbd0b13e"
+    },
+    {
+      "rank": 3,
+      "title": "Google 发布 Omni 1.2 Flash，视频生成提至 15 秒",
+      "list_title": "Google 发布 Omni 1.2 Flash，视频生成提至 15 秒",
+      "heat": null,
+      "heat_change": "↑ 36 %",
+      "sources": [],
+      "summary": "Google DeepMind 发布视频生成与编辑模型 Gemini Omni 1.2 Flash，原生片段上限从 10 秒提升到 15 秒，并支持在 3 秒到 15 秒之间指定任意时长。720p 视频 API 价格较 Omni 1.1 下降 30% 至每秒 0.07 美元；草稿可在 360p 或 720p 生成，再放大到 1080p 或 4K。模型从发布当日起在 Gemini API、Google Cloud、Flow、Google Vids、Google Ads 和 Google AI Studio 推出。\n\n在 Gemini App 中，该模型面向所有 Google AI 订阅用户开放，但 15 秒片段仅限 Ultra 订阅者；Google 称在 Google Vids 中生成 15 秒片段不额外收费。第三方平台 fal、OpenRouter、Krea 和 Higgsfield 也同步上线该模型，OpenRouter 按分辨率分档计价，360p 每秒 0.023 美元、720p 0.070 美元、1080p 0.104 美元、4K 0.20…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/e765b639-baae-42e1-8cb8-b76d31655219"
+    },
+    {
       "rank": 4,
+      "title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI",
+      "list_title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "Anthropic Claude Code 产品负责人 Cat Wu 在 X 上宣布加入 OpenAI，领导 Core Products 的产品管理。她称将与 @thsottiaux 及 OpenAI 产品团队合作打造智能体产品，强调让用户保持掌控、节省时间，并表示敬佩 OpenAI 证明 scaling 有效、将 AI 带给超十亿人。\n\nOpenAI 联合创始人 Greg Brockman 与 @thsottiaux 先后转发并欢迎她加入，确认了这一人事变动。The Decoder 报道称，负责 Codex 和 ChatGPT 的 Thibault Sottiaux 以“CatGPT”迎接她。OpenAI 方面尚未就她的具体职责范围作进一步说明。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/0b20bea7-a1d4-451e-bb1b-38c63fadf89f"
+    },
+    {
+      "rank": 5,
       "title": "腾讯混元 Hy4 正式发布，首增视觉与电脑操作",
       "list_title": "腾讯混元 Hy4 正式发布，首增视觉与电脑操作",
       "heat": null,
@@ -52,7 +63,51 @@
       "story_url": "https://aihot.virxact.com/story/491d220c-9d57-4295-af9f-e4382561b3f7"
     },
     {
-      "rank": 5,
+      "rank": 6,
+      "title": "Anthropic 在美国推出 Claude 个人财务测试版",
+      "list_title": "Anthropic 在美国推出 Claude 个人财务测试版",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Anthropic 在 Claude 中上线 Personal Finance 个人财务功能，本周起以测试版形式逐步向美国 Pro、Max 和 Ultra 订阅用户开放。用户通过 Plaid 以只读方式连接自己选择的银行和卡账户，可用日常语言询问与自身余额和交易记录相关的财务问题，也可按类别汇总支出、标记重复扣款和异常费用，并解释 APR 等金融概念。\n\nAnthropic 称，该功能对账户的访问权限为只读，Claude 无法移动、管理或投资用户资金；用户可随时解绑账户。Anthropic 还称，该功能没有广告或赞助推荐，用于帮助用户理解个人财务，并非用于提供投资建议；相关对话不用于模型训练。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/16df653b-997f-4488-afe7-4f9c0779fc05"
+    },
+    {
+      "rank": 7,
+      "title": "Thinking Machines 发布 Inkling 2 Small，先闭源上线 Tinker",
+      "list_title": "Thinking Machines 发布 Inkling 2 Small，先闭源上线 Tinker",
+      "heat": null,
+      "heat_change": "↑ 1203 %",
+      "sources": [],
+      "summary": "Thinking Machines Lab 发布第二代模型 Inkling 2 Small，即日起在 Tinker 平台提供微调和推理，初期为闭源权重。公司称，完整权重计划于下周以 Apache 2.0 许可开放，前提是完成外部安全测试和红队评估。\n\n该模型为 594B 总参数、17B 激活的 MoE，支持图像输入。Artificial Analysis 称其在 Intelligence Index v5.0.1 上得 31 分，较前代提升 18 分；若权重按计划开源，按当前排名将成为中国以外得分最高的开源权重模型。Tinker 定价为每百万输入/输出 token 0.30 美元和 1.00 美元，缓存输入每百万 token 0.03 美元。Arena 称其在 Code Arena: WebDev 的 AutoEval 得 1654 分，约列总榜第 20、美国开源模型第一。\n\n公司还称其擅长长周期任务、能以视觉方式检查自身工作，用户可自行微调或让模型自主编排微调流程。公司员工 Karina Nguyen 分享的案例称，该模型智能体在财务尽调任务中…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/d6acd01b-e9cc-4a1f-9732-6f49b5859ee5"
+    },
+    {
+      "rank": 8,
+      "title": "百度开源 280B 参数 ERNIE 5.5 Flash Base 基座模型",
+      "list_title": "百度开源 280B 参数 ERNIE 5.5 Flash Base 基座模型",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "百度文心发布并开源基座模型 ERNIE 5.5 Flash Base，开放预训练终点的权重，在 Hugging Face 提供 FP8 与 BF16 两种 safetensors 下载，采用 ERNIE 5.5 Flash Base Model License Agreement v1.0。百度称该模型为稀疏 MoE 基座语言模型，总参数 280B、每 token 激活 14B，预训练使用 33.5T tokens；权重未经中训练与后训练，供开发者做领域适配、指令微调和强化学习研究，后续将推出后训练版本。\n\n上下文长度上，百度称微调和推理设计上支持最长 1M-token，The Decoder 则称训练上下文最长 128,000 token。MarkTechPost 称其许可在年收入低于 5000 万美元时免费，但排除欧盟、英国和韩国。百度称该模型在同规模基座模型的多个基准上取得 SOTA，报道未给出独立验证。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/0c969c38-7969-4bd9-9c91-f3cdf9b4a9cd"
+    },
+    {
+      "rank": 9,
+      "title": "OpenAI中期选举后推公关攻势并更名数据中心",
+      "list_title": "OpenAI中期选举后推公关攻势并更名数据中心",
+      "heat": null,
+      "heat_change": "↑ 65 %",
+      "sources": [],
+      "summary": "OpenAI计划在美国中期选举结束后发起公关与游说攻势，届时将其数据中心改称为“AI算力园区”。据Axios报道，此举的背景是数据中心在两党中都成为政治包袱，攻势将在跛脚鸭会期启动，此时民主党很可能拿下众议院。OpenAI首席全球事务官Chris Lehane是这一包装的提出者，他还提到推动设立AI“限速”、让民众感受到AI对日常生活的赋能，并推动美国参与制定全球标准。\n\nOpenAI随后发布“National Community Compact”和“Compute Campus Policy Blueprint”，称未来每个自建自营的计算园区都将有本地协议，承诺全额承担用电与所需基础设施成本、每年公开各站点水耗与用电数据、不使用保密协议限制公共官员，并建议州公用事业委员会要求大用电客户承担其新增电网成本。\n\n跟进报道补充，OpenAI还承诺在项目被砍时提供财务担保、公开噪音与招聘数据，并资助当地优先事项，例如佐治亚州480万美元的学校餐费补助。这些承诺适用于OpenAI自建自营的园区，并称将推动监管把规则扩展到所有开发商。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/2d1c9f85-c83f-4755-8376-821ee9e72d27"
+    },
+    {
+      "rank": 10,
       "title": "OpenAI宣布收购Pierre，工具将并入Codex",
       "list_title": "OpenAI宣布收购Pierre，工具将并入Codex",
       "heat": null,
@@ -61,61 +116,6 @@
       "summary": "OpenAI 宣布收购 Pierre Computer Company，即 Code Storage 及 Trees、Diffs、Highlights 等开源开发者工具背后的公司，以推进把 Codex 打造成团队与 AI 协同开发软件的平台。OpenAI 称，这些工具已用于 Codex 的部分功能，包括文件浏览、代码变更审阅和实时语法高亮。\n\n交割后 Pierre 的开源项目将继续开源，Code Storage 客户可继续使用，相关功能将逐步并入 Codex。交易金额未披露。\n\n交割尚待监管批准，在此之前两家公司保持独立。OpenAI 总裁 Greg Brockman 在社交平台发文“欢迎 Pierre 加入 OpenAI”，未说明具体计划。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/eb3a8a76-8af1-48fb-8fa0-67903c2b1174"
-    },
-    {
-      "rank": 6,
-      "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
-      "list_title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
-      "heat": null,
-      "heat_change": "↓ 15 %",
-      "sources": [],
-      "summary": "苹果宣布 Apple 智能随 iOS 27.3 进入中国市场：11 月 4 日开放开发者预览版测试，12 月正式版上线首批核心功能。11 月 4 日 IT之家实测称，国行「Apple 智能与 Siri」已在该预览版如期上线，iPhone 15 Pro 及更新机型可用。\n\n阿里巴巴同日公告称，千问集成至 Siri、写作工具和视觉智能，用户可自主选择是否开通，登录千问账户或通过「通过 Apple 登录」即可在系统内调用，无需跳转独立应用；用户请求及回复不会被阿里用于模型训练。该功能面向在中国购买支持 Apple 智能的 iPhone 用户，或设备定位和 Apple 账户国家/地区均设在中国的用户。IT之家实测发现，视觉智能的问询结果和千问完成的文字创作内容会同步至千问 App。\n\n据 The Verge 报道，此次上线不包括新版 Siri AI，中国用户暂时无法使用这一 Siri 功能。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c"
-    },
-    {
-      "rank": 7,
-      "title": "百度开源ERNIE 5.5 Flash Base基座模型",
-      "list_title": "百度开源ERNIE 5.5 Flash Base基座模型",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "百度文心发布并开源基座模型 ERNIE 5.5 Flash Base，开放 ERNIE 5.5 Flash 预训练终点的权重，并在 Hugging Face 上架下载入口。\n\n据百度官方账号介绍，该模型为稀疏 MoE 基座语言模型，总参数 280B、每 token 激活 14B，预训练使用 33.5T tokens，提供 FP8 与 BF16 两种权重。百度称，权重直接取自预训练、未做微调或后训练，交由开发者自行处理，后续将推出后训练版本；百度还称，该模型在同规模基座模型的多个基准上取得 SOTA。这些效果说法来自百度，报道未给出独立验证。\n\n关于上下文长度，百度称微调和推理设计上支持最长 1M-token，The Decoder 则称训练上下文最长 128,000 token。报道未提及开源许可条款。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/0c969c38-7969-4bd9-9c91-f3cdf9b4a9cd"
-    },
-    {
-      "rank": 8,
-      "title": "Google将AI学习功能引入Search和Classroom，学校禁用AI即失去搜索",
-      "list_title": "Google将AI学习功能引入Search和Classroom，学校禁用AI即失去搜索",
-      "heat": null,
-      "heat_change": "↓ 29 %",
-      "sources": [],
-      "summary": "Google宣布把Guided Learning引入Google Search学生账号和Google Classroom，并调整学校管控策略。Guided Learning即日起在Google Classroom面向全球开放；Search中的相关功能本月晚些时候先在美国部分学校试点，收集教育者反馈后再推广到其他学区。\n\n对K-12学生账号，Gemini、Gemini Notebook、Gemini in Classroom和Google Search默认全部关闭，须由学校管理员显式开启。Google表示，管理员无法只关闭Gemini功能而保留Search；选择完全限制AI的学校，学生将无法使用搜索，并会看到学校提示信息。The Decoder报道称，这一安排从2027年初起生效，届时学校若想继续使用Google搜索，就必须接受面向学生的AI功能，不存在无AI版本的搜索；Google教育副总裁Chris Phillips称搜索与AI已紧密结合、无法拆分。\n\n该政策公布后引发反弹，TechCrunch报道称Google因此受到批评。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/956471b6-c78b-44c7-b4d4-e00583803aca"
-    },
-    {
-      "rank": 9,
-      "title": "Google 发布 Omni 1.2 Flash，视频生成提至 15 秒",
-      "list_title": "Google 发布 Omni 1.2 Flash，视频生成提至 15 秒",
-      "heat": null,
-      "heat_change": "↑ 1270 %",
-      "sources": [],
-      "summary": "Google DeepMind 发布视频生成模型 Gemini Omni 1.2 Flash，将视频生成与编辑上限从上一代的 10 秒提升至 15 秒，并支持指定 3 秒到 15 秒的任意时长。API 价格较 Omni 1.1 下降 30%，720p 视频为每秒 0.07 美元；草稿可在 360p 或 720p 生成，再放大到 1080p 或 4K。\n\n该模型从发布当日起在 Google Cloud、Flow、Google Vids、Google Ads、Google AI Studio 和 Gemini API 推出。Gemini App 面向所有 Google AI 订阅用户开放，但 15 秒片段仅限 Ultra 订阅者；Google 称在 Google Vids 中生成 15 秒片段不额外收费。\n\nGoogle 称，新模型改进了场景随时间的一致性、多说话人口型同步和镜头连续性，减少跳切，并支持在对话中逐轮替换背景、主体或光照，无需从头重来。这些效果来自 Google 的演示与说法。Arena 随后公布，该模型在 Text-to-Video …",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/e765b639-baae-42e1-8cb8-b76d31655219"
-    },
-    {
-      "rank": 10,
-      "title": "Meta收购Conductor，产品将逐步关停",
-      "list_title": "Meta收购Conductor，产品将逐步关停",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "Meta 已收购 AI 编程初创公司 Conductor，后者让开发者把来自 Anthropic 和 OpenAI 的多个智能体部署到并行工作区协作开发。Conductor 创始人兼 CEO Charlie Holtz 确认交易，称团队将加入 Meta 超级智能实验室，与 Nat Friedman、Alexandr Wang 合作打造下一代界面；交易金额未披露。\n\nConductor 将逐步关停：云服务 11 月 13 日转为只读、11 月 20 日关闭，此后开始删除用户云数据；本地版将持续获得新模型和关键修复更新至 2027 年初。TechCrunch 称，核心功能在明年初之前照常运行。\n\n据 Axios 称，Meta 此举意在加强其 AI 开发者产品。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/dfa910ce-d2f0-4f43-844a-e8798fd89b9e"
     }
   ]
 }
