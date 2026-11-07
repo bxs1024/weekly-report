@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T02:55:50+08:00",
+  "generated_at": "2026-11-07T11:25:44+08:00",
   "fetched_date": "2026-11-07",
   "source": {
     "name": "AIHOT 大模型排行榜",
@@ -54,7 +54,7 @@
       "cache_price": "¥1.33",
       "input_price": "¥26.69",
       "output_price": "¥133.43",
-      "consensus_score": 71.6,
+      "consensus_score": 71.5,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-4-argon"
     },
     {
@@ -150,7 +150,7 @@
       "cache_price": "¥3.34",
       "input_price": "¥33.36",
       "output_price": "¥200.14",
-      "consensus_score": 66.3,
+      "consensus_score": 66.2,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-6-sol"
     },
     {
@@ -222,7 +222,7 @@
       "cache_price": "¥2",
       "input_price": "¥8",
       "output_price": "¥28",
-      "consensus_score": 62.7,
+      "consensus_score": 62.8,
       "detail_url": "https://aihot.virxact.com/leaderboard/glm-5-3"
     },
     {
@@ -287,6 +287,18 @@
     },
     {
       "rank": 24,
+      "name": "Inkling 2 Small",
+      "provider": "Thinking Machines Lab",
+      "release_date": "2026-11-05",
+      "completeness": "24 项评测 覆盖 53 %",
+      "cache_price": "¥0.2",
+      "input_price": "¥2",
+      "output_price": "¥6.67",
+      "consensus_score": 62.3,
+      "detail_url": "https://aihot.virxact.com/leaderboard/inkling-2-small"
+    },
+    {
+      "rank": 25,
       "name": "Claude Opus 4.8",
       "provider": "Anthropic",
       "release_date": "2026-05-28",
@@ -298,7 +310,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-8"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "name": "Claude Haiku 5.5",
       "provider": "Anthropic",
       "release_date": "2026-10-07",
@@ -308,18 +320,6 @@
       "output_price": "¥3.34",
       "consensus_score": 62.1,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-haiku-5-5"
-    },
-    {
-      "rank": 26,
-      "name": "Inkling 2 Small",
-      "provider": "Thinking Machines Lab",
-      "release_date": "2026-11-05",
-      "completeness": "23 项评测 覆盖 50 %",
-      "cache_price": "¥0.2",
-      "input_price": "¥2",
-      "output_price": "¥6.67",
-      "consensus_score": 62.0,
-      "detail_url": "https://aihot.virxact.com/leaderboard/inkling-2-small"
     },
     {
       "rank": 27,
