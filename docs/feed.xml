@@ -1,261 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-11-06</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-11-07</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-11-06T23:05:09Z</updated>
+  <updated>2026-11-07T06:54:37Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Cloudflare发布后量子网络隐私方案</title>
-    <link href="https://blog.cloudflare.com/vole-mole/"/>
-    <id>tag:weekly-report,2026:event-420740ff</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The post-quantum future of web privacy&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare发布关于后量子时代网络隐私的技术方案，介绍VOLE-MOLE相关密码学进展&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare推进后量子密码学应用，为CDN和安全客户提供抗量子攻击的隐私保护能力&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Blog&lt;/p&gt;</summary>
+    <title>Equinix在新加坡开设$290M数据中心</title>
+    <link href="https://www.techinasia.com/news/equinix-opens-290m-data-center-singapore"/>
+    <id>tag:weekly-report,2026:event-1b79ac40</id>
+    <published>2026-11-07T00:00:00Z</published>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Equinix opens $290m data center in Singapore&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;数据中心运营商Equinix在新加坡开设投资2.9亿美元的新数据中心&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚数据中心基建持续扩张，云服务商和AI算力需求推动区域数字基建投资&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Mr Pips $61M诈骗案聚焦越南支付网关监管</title>
-    <link href="https://fintechnews.sg/140658/vietnam/mr-pips-fraud-case-vietnam-payments-9pay/"/>
-    <id>tag:weekly-report,2026:event-dd117b21</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mr Pips US$61 Million Fraud Case Turns Focus to Vietnam’s Payment Gateways&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;越南Mr Pips 6100万美元诈骗案引发对越南支付网关监管的关注，涉及支付平台9Pay。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;越南支付网关因6100万美元诈骗案面临监管收紧，越南支付合规服务商和风控供应商需求上升&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>Meta为Muse AI代理新增Spaces功能</title>
+    <link href="https://www.techinasia.com/news/meta-adds-spaces-muse-ai-agents-organizing-projects"/>
+    <id>tag:weekly-report,2026:event-f220d9a1</id>
+    <published>2026-11-07T00:00:00Z</published>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Meta adds Spaces to Muse AI agents for organizing projects&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Meta为其Muse AI代理新增Spaces功能，用于组织和管理项目&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Meta持续迭代AI代理产品，为开发者生态和AI工具集成商带来新接口机会&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Tazapay营收+71%，净亏损扩至$7.36M</title>
-    <link href="https://fintechnews.sg/140649/payments/tazapay-fy2026-revenue-net-loss-circle/"/>
-    <id>tag:weekly-report,2026:event-e81ddf89</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Tazapay Revenue Jumps 71% as Net Loss Widens to US$7.36 Million&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡跨境支付公司Tazapay 2026财年营收同比增长71%，但净亏损扩大至736万美元&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚跨境支付公司营收高增但亏损扩大，反映支付基建扩张期成本压力，关注其后续融资与合作需求&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：北美 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Ocient获$100M融资加速Agentic AI</title>
-    <link href="https://ventureburn.com/ocient-raises-100m-agentic-ai-data-platform/"/>
-    <id>tag:weekly-report,2026:event-c122269e</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ocient Raises $100M to Accelerate Enterprise Agentic AI Solutions&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;数据平台公司Ocient完成1亿美元融资，用于加速企业级Agentic AI解决方案的研发与部署&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲企业级AI数据平台获大额融资，Agentic AI基础设施采购需求上升，数据库与算力供应商迎合作窗口&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>CesiumAstro融资$730M建AI卫星星座</title>
-    <link href="https://ventureburn.com/cesiumastro-raises-730-million-ai-737-satellite-constellation/"/>
-    <id>tag:weekly-report,2026:event-251defe3</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;CesiumAstro Raises $730 Million To Launch New AI-Powered 737-Satellite Constellation&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;CesiumAstro完成7.3亿美元融资，用于发射由737颗卫星组成的AI驱动星座&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;航天AI卫星星座获大额融资，卫星制造、AI载荷和发射服务供应链迎来采购机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Palo Alto Networks拟5亿美元收购Clutch</title>
-    <link href="https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/"/>
-    <id>tag:weekly-report,2026:event-6bf35b79</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;网络安全公司Palo Alto Networks正洽谈以5亿美元收购AI代理安全初创公司Clutch&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国网络安全巨头Palo Alto Networks收购AI代理安全初创Clutch，AI安全赛道并购升温，安全厂商加速布局AI代理防护能力&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Nature Select获$100M融资用于AI社交应用</title>
-    <link href="https://www.techinasia.com/news/qiming-backed-nature-select-raises-100m-for-ai-social-app"/>
-    <id>tag:weekly-report,2026:event-53c7530d</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Qiming-backed Nature Select raises $100m for AI social app&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;启明创投支持的Nature Select为其AI社交应用完成1亿美元融资。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太AI社交应用获大额融资，启明创投背书显示资本对AI社交赛道信心，可能带动区域AI社交产品竞争&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Silver Lake与PIF探讨$25B收购Unity</title>
-    <link href="https://www.pocketgamer.biz/silver-lake-and-pif-explore-25bn-deal-to-acquire-unity/"/>
-    <id>tag:weekly-report,2026:event-f307d30f</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Report: Silver Lake and PIF explore $25bn deal to acquire Unity&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;据报道，Silver Lake与沙特主权基金PIF正探讨以250亿美元收购游戏引擎公司Unity&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东主权基金联合PE拟250亿美元收购Unity，游戏引擎控制权或转移，开发者生态与广告变现格局生变&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Veon与媒体合作拓展数字娱乐</title>
-    <link href="https://www.mobileworldlive.com/operators/veon-eyes-digital-entertainment-boost-from-media-pact/"/>
-    <id>tag:weekly-report,2026:event-f325de6c</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Veon eyes digital entertainment boost from media pact&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;电信运营商Veon与媒体方达成合作协议，计划借此推动数字娱乐业务增长&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新兴市场电信运营商向数字内容服务延伸，为内容分发和流媒体合作方带来机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Optasia拓展微贷业务</title>
-    <link href="https://techcabal.com/2026/11/06/optasia-beyond-airtime-digital-lendingca/"/>
-    <id>tag:weekly-report,2026:event-75e84387</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Optasia wants to move beyond airtime credit as microfinance drives growth&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;非洲金融科技公司Optasia计划从话费信贷业务向小额信贷领域扩展，以微贷业务驱动增长&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲数字信贷需求上升，话费信贷模式向微贷转型为金融科技合作方带来新机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：非洲 | 来源：TechCabal&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Iren推迟微软AI交付并公布$15B支出计划</title>
-    <link href="https://www.techinasia.com/news/iren-delays-microsoft-ai-deliveries-plans-15b-spending"/>
-    <id>tag:weekly-report,2026:event-1914ff13</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Iren delays Microsoft AI deliveries, plans $15b spending&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;意大利数据中心运营商Iren推迟向微软交付AI算力，同时公布150亿美元支出计划&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI数据中心交付延迟叠加150亿美元资本开支，算力基建供应链交付节奏风险上升&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Reformation Q3销售增长，部署AI规划工具</title>
-    <link href="https://www.retaildive.com/news/reformation-q3-earnings-sales-growth-ai-planning-tool-in-stock-rates/873991/"/>
-    <id>tag:weekly-report,2026:event-687e69cf</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Reformation implements new AI planning tool, helping in-stock rates&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;时尚零售品牌Reformation三季度销售增长，并部署新AI规划工具提升库存率&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球时尚零售Reformation将AI规划工具落地库存管理，零售AI供应链优化需求上升，AI零售规划软件商迎合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：earnings | 地区：全球 | 来源：Retail Dive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>通胀能源成本推高电信支出</title>
-    <link href="https://www.mobileworldlive.com/operators/inflation-energy-costs-drive-telco-spend/"/>
-    <id>tag:weekly-report,2026:event-e747be8e</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Inflation, energy costs drive telco spend&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Mobile World Live报道通胀与能源成本上升正推动电信运营商支出结构变化&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球电信运营商成本压力上升，网络能效优化和节能设备采购需求增加&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>东南亚2026年融资$16.5B，集中四个月</title>
-    <link href="https://e27.co/ecosystem-roundup-sea-startups-raised-us16-5b-in-2026-but-four-months-did-most-of-it-20261106/"/>
-    <id>tag:weekly-report,2026:event-7effbb6f</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ecosystem Roundup: SEA startups raised US$16.5B in 2026, but four months did most of it&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27发布2026年东南亚创业生态报告，显示全年融资总额165亿美元，但资金高度集中在其中四个月&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚创投融资节奏高度集中，反映资金窗口期短暂，ICT供应商需把握集中投放期的合作窗口&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：industry_report | 地区：北美 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>比特币$75000支撑位成关键分水岭</title>
-    <link href="https://e27.co/bitcoin-pump-and-dump-the-us75000-support-zone-will-decide-20261106/"/>
-    <id>tag:weekly-report,2026:event-7382e261</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Bitcoin pump and dump? The US$75,000 support zone will decide&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27发布加密货币市场分析，指出比特币75000美元支撑位将决定后续走势是拉涨还是砸盘&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;加密市场关键支撑位博弈，影响北美矿企、交易所与加密支付基础设施的资金部署节奏&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：北美 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Visa测试显示AI购物代理近半决策失败</title>
-    <link href="https://fintechnews.sg/140652/ai/visa-ai-shopping-agents-fail-tests/"/>
-    <id>tag:weekly-report,2026:event-b6515aa3</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Visa: AI Models Failed Nearly Half of Tests to Make Suitable Shopping Decisions&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Visa发布测试结果，AI购物代理模型在近一半的购物决策测试中失败，显示AI电商代理能力尚不成熟。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Visa测试显示AI购物代理近半决策失败，AI电商代理技术成熟度不足，支付风控和AI训练数据服务商机会凸显&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>周报汇总Unity收购、AI版权风险与Pikmin Bloom表现</title>
-    <link href="https://www.pocketgamer.biz/unitys-potential-buyout-ais-ip-risks-pikmin-blooms-record-year-and-player-re-engagement-week-in-views/"/>
-    <id>tag:weekly-report,2026:event-530188c0</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Unity&amp;#x27;s potential $25bn buyout, AI&amp;#x27;s IP risks, Pikmin Bloom&amp;#x27;s record year and player re-engagement | Week in Views&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;PocketGamer.biz周度观点汇总，涵盖Unity潜在250亿美元收购、AI知识产权风险、Pikmin Bloom创纪录表现及玩家回流趋势&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;游戏行业周度综述揭示Unity并购动向与AI版权风险，为游戏引擎与IP合作方提供风向参考&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>NOTAG KOREA用Agentic AI助韩品牌出海</title>
-    <link href="https://koreatechdesk.com/notag-korea-nabi-agentic-ai-cross-border-commerce"/>
-    <id>tag:weekly-report,2026:event-9d0425e7</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;NOTAG KOREA Uses Agentic AI to Break Down Barriers to Korean Brands’ Overseas Expansion&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;韩国公司NOTAG KOREA利用其Nabi智能体AI平台，帮助韩国品牌降低海外扩张门槛&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;韩国跨境电商以Agentic AI降低品牌出海门槛，为AI Agent平台和跨境物流支付服务商带来合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：KoreaTechDesk&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>U Mobile向Cradle初创开放5G-A沙盒，不含资金</title>
-    <link href="https://e27.co/u-mobile-opens-its-5g-advanced-sandbox-to-cradles-startups-but-the-cheques-are-not-part-of-the-deal-20261106/"/>
-    <id>tag:weekly-report,2026:event-751188bc</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;U Mobile opens its 5G-Advanced sandbox to Cradle’s startups, but the cheques are not part of the deal&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;马来西亚电信运营商U Mobile将其5G-Advanced沙盒向Cradle孵化的初创企业开放，但明确表示不包含资金支持&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚电信运营商开放5G-A测试环境，为马来西亚初创提供网络能力接入机会，但无资金配套意味着合作方需自担研发成本&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Remote推出全球员工虚拟费用卡</title>
-    <link href="https://fintechnews.sg/140715/payments/remote-expense-cards/"/>
-    <id>tag:weekly-report,2026:event-990f7cab</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Remote Launches Virtual Expense Cards for Global Employees&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;HR与薪酬平台Remote面向全球员工推出虚拟费用卡产品&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球薪酬平台Remote切入企业费用管理，亚太跨境用工支付与虚拟卡赛道竞争加剧&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Shinobi Group推出游戏代理并与Peyo合作蓝精灵项目</title>
-    <link href="https://www.pocketgamer.biz/shinobi-group-launches-games-agency-and-smurfs-project-with-peyo/"/>
-    <id>tag:weekly-report,2026:event-aceec30d</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Shinobi Group launches games agency and Smurfs project with Peyo&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Shinobi Group推出游戏代理业务，并与Peyo合作开发蓝精灵（Smurfs）IP游戏项目&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;游戏代理新业务叠加蓝精灵IP合作，欧洲IP授权与手游发行渠道出现新合作窗口&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>多款新游集中发布含NBA 2K Arcade Edition</title>
-    <link href="https://www.pocketgamer.biz/new-release-roundup-nba-2k-arcade-edition-astro-burn-the-farmer-was-replaced-and-more/"/>
-    <id>tag:weekly-report,2026:event-ec62787e</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;New release roundup: NBA 2K Arcade Edition, Astro Burn, The Farmer Was Replaced, and more&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;PocketGamer.biz汇总近期新游发布，包括NBA 2K Arcade Edition、Astro Burn、The Farmer Was Replaced等&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;多款手游集中上线，NBA 2K等IP新品为发行渠道与买量平台带来短期投放机会&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>AST计划自研火箭提升发射能力</title>
-    <link href="https://www.mobileworldlive.com/network-tech/ast-seeks-launch-boost-with-in-house-rocket/"/>
-    <id>tag:weekly-report,2026:event-284c79df</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AST seeks launch boost with in-house rocket&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;卫星通信公司AST计划通过自研火箭提升发射能力&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球卫星通信公司AST自研火箭以加速卫星发射，卫星互联网部署提速，火箭供应链与卫星通信设备商迎合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>印尼BUMN投资决策需差异化风险框架</title>
-    <link href="https://e27.co/the-business-judgment-gap-why-bumn-investment-decisions-need-a-different-risk-framework-in-indonesia-20261106/"/>
-    <id>tag:weekly-report,2026:event-a8203ff4</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The business judgment gap: Why BUMN investment decisions need a different risk framework in Indonesia&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27发布分析文章，指出印尼国有企业（BUMN）的投资决策需要不同于常规的风险评估框架，以弥合商业判断差距&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印尼国企投资决策机制存在判断缺口，ICT供应商进入印尼国资项目需适配本地风控逻辑&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>新加坡英联邦青年AI准备度排名第一</title>
-    <link href="https://www.techinasia.com/news/survey-singapore-ranks-first-in-commonwealth-youth-ai-readiness"/>
-    <id>tag:weekly-report,2026:event-f6f5f602</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Survey: Singapore ranks first in Commonwealth youth AI readiness&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一项调查显示，新加坡在英联邦国家青年AI准备度排名中位列第一。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡青年AI准备度领先英联邦，反映其AI教育投入成效，利好AI教育科技和人才培训合作机会&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>NPCI成立AI与区块链新业务子公司</title>
-    <link href="https://fintechnews.sg/140645/fintech-india/npci-tech-solutions-ai-blockchain/"/>
-    <id>tag:weekly-report,2026:event-82f03fad</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;NPCI Expands Beyond Payments With New AI, Blockchain Arm&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度国家支付公司NPCI成立新子公司NPCI Tech Solutions，将业务从支付扩展至AI和区块链领域&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度国家级支付机构向AI和区块链延伸，将带动印度金融科技基础设施采购和合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>台积电评估应英伟达请求切入AI内存芯片</title>
-    <link href="https://thenextweb.com/news/tsmc-3d-dram-memory-chips-nvidia"/>
-    <id>tag:weekly-report,2026:event-fed23fd1</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;TSMC is weighing a move into AI memory chips at Nvidia’s request&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;台积电应英伟达请求，正评估进军AI内存芯片（3D DRAM）领域&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;台积电应英伟达需求评估3D DRAM，AI内存供应链格局或重塑，HBM供应商面临新竞争&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Shift4释放零售餐饮旅游谨慎信号</title>
-    <link href="https://www.paymentsdive.com/news/shift4-signals-caution-retail-restaurants-travel/873947/"/>
-    <id>tag:weekly-report,2026:event-f101d4e5</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Shift4 signals caution&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;支付公司Shift4释放谨慎信号，涉及零售、餐饮和旅游板块&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球支付公司Shift4对零售餐饮旅游板块发出谨慎指引，反映消费支付需求走弱，支付处理商与商户服务商需警惕&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：全球 | 来源：Payments Dive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Millennial Works以AI主题公园进军洛杉矶</title>
-    <link href="https://koreatechdesk.com/millennial-works-los-angeles-ai-theme-parks-interactive-pop-ups"/>
-    <id>tag:weekly-report,2026:event-57b3aa7a</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Millennial Works Targets Los Angeles Expansion With AI-Powered Theme Parks and Pop-Ups&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;韩国公司Millennial Works计划以AI驱动的主题公园和快闪互动体验拓展洛杉矶市场&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;韩国AI娱乐体验公司进军美国市场，为AI互动内容供应商和主题娱乐技术集成商带来合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：韩国 | 来源：KoreaTechDesk&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>LIVE X整合AI与美业资源拓展海外</title>
-    <link href="https://koreatechdesk.com/live-x-korean-hair-beauty-platform-global-expansion"/>
-    <id>tag:weekly-report,2026:event-c7d894e4</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;LIVE X Connects Salons, Education, AI and Products to Expand Korean Hair Beauty Overseas&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;韩国平台LIVE X整合美发沙龙、教育、AI与产品资源，推动韩国美发美容产业海外扩张&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;韩国美业平台以AI整合沙龙教育与产品供应链出海，为跨境美业SaaS和供应链服务商带来合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：KoreaTechDesk&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>智能眼镜面临隐私挑战分析</title>
-    <link href="https://www.mobileworldlive.com/devices/analysis-can-smart-glasses-see-past-privacy-fears/"/>
-    <id>tag:weekly-report,2026:event-29f7b35c</id>
-    <published>2026-11-06T00:00:00Z</published>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Analysis: Can smart glasses see past privacy fears?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Mobile World Live发布分析文章，探讨智能眼镜在隐私担忧背景下能否实现市场突破&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球智能眼镜赛道隐私合规压力上升，AR硬件厂商需在数据采集与用户信任间寻找平衡点&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
+    <title>亚洲第二大经济体推出紧急网络安全方案</title>
+    <link href="https://e.vnexpress.net/news/tech/tech-news/asia-s-second-largest-economy-launches-emergency-cybersecurity-package-after-wave-of-attacks-5141821.html"/>
+    <id>tag:weekly-report,2026:event-5f032573</id>
+    <published>2026-11-07T00:00:00Z</published>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Asia&amp;#x27;s second-largest economy launches emergency cybersecurity package after wave of attacks&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;亚洲第二大经济体在遭遇一系列网络攻击后推出紧急网络安全一揽子方案&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;国家级网络安全应急方案出台，将带动安全厂商、威胁情报与合规服务采购需求&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：越南 | 来源：VnExpress Tech&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-11-07</title>
@@ -263,6 +39,6 @@
     <id>tag:weekly-report,2026:aihot-4e89ee59</id>
     <published>2026-11-07T00:00:00Z</published>
     <updated>2026-11-07T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-07T02:55&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/e765b639-baae-42e1-8cb8-b76d31655219"&gt;Google 发布 Omni 1.2 Flash，视频生成提至 15 秒&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/4ff5060c-160a-4d65-bf28-706c0d53ec34"&gt;OpenAI称AI管线单次运行修补948个Linux内核提权漏洞&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/37046dc2-8e44-4949-965c-ef07dbd0b13e"&gt;OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/16df653b-997f-4488-afe7-4f9c0779fc05"&gt;Anthropic 在美推出 Claude 个人财务测试版&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d6acd01b-e9cc-4a1f-9732-6f49b5859ee5"&gt;Thinking Machines 发布 Inkling 2 Small，先闭源上线 Tinker&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-07T11:25&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/e765b639-baae-42e1-8cb8-b76d31655219"&gt;Google 发布 Omni 1.2 Flash，视频生成提至 15 秒&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/4ff5060c-160a-4d65-bf28-706c0d53ec34"&gt;OpenAI称AI管线单次运行修补948个Linux内核提权漏洞&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/37046dc2-8e44-4949-965c-ef07dbd0b13e"&gt;OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"&gt;Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克，IPO 估值遇投资者压价&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d6acd01b-e9cc-4a1f-9732-6f49b5859ee5"&gt;Thinking Machines 发布 Inkling 2 Small，权重下周开源&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
