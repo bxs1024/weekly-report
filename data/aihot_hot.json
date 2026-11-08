@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T01:27:49+08:00",
+  "generated_at": "2026-11-08T10:53:53+08:00",
   "fetched_date": "2026-11-08",
   "source": {
     "name": "AIHOT 热点榜",
@@ -9,50 +9,17 @@
   "items": [
     {
       "rank": 1,
-      "title": "Google 发布 Omni 1.2 Flash，视频生成提至 15 秒",
-      "list_title": "Google 发布 Omni 1.2 Flash，视频生成提至 15 秒",
+      "title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元",
+      "list_title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元",
       "heat": null,
-      "heat_change": "↓ 20 %",
+      "heat_change": "↑ 24 %",
       "sources": [],
-      "summary": "Google DeepMind 发布视频生成与编辑模型 Gemini Omni 1.2 Flash，原生片段上限从 10 秒提升到 15 秒，并支持在 3 秒到 15 秒之间指定任意时长。720p 视频 API 价格较 Omni 1.1 下降 30% 至每秒 0.07 美元；草稿可在 360p 或 720p 生成，再放大到 1080p 或 4K。模型从发布当日起在 Gemini API、Google Cloud、Flow、Google Vids、Google Ads 和 Google AI Studio 推出。\n\n在 Gemini App 中，该模型面向所有 Google AI 订阅用户开放，但 15 秒片段仅限 Ultra 订阅者；Google 称在 Google Vids 中生成 15 秒片段不额外收费。第三方平台 fal、OpenRouter、Krea 和 Higgsfield 也同步上线该模型，OpenRouter 按分辨率分档计价，360p 每秒 0.023 美元、720p 0.070 美元、1080p 0.104 美元、4K 0.20…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/e765b639-baae-42e1-8cb8-b76d31655219"
-    },
-    {
-      "rank": 2,
-      "title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
-      "list_title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
-      "heat": null,
-      "heat_change": "↓ 28 %",
-      "sources": [],
-      "summary": "OpenAI称其安全研究人员构建了一条自主漏洞发现、利用与修补管线，由一款网络安全模型驱动。在2026年10月中旬对最新Linux内核的一次运行中，管线从2,308个候选发现中验证1,724个漏洞，为291个信息泄露生成概念验证，并为948个不同的本地提权漏洞生成可用利用代码和候选补丁。OpenAI称这些利用代码在开启标准安全防护的原始Linux桌面配置上可运行，智能体还发现并使用了至少10种此前未知的Linux利用技术。\n\nOpenAI公布该次运行总API成本为1,213,430美元，平均每个本地提权漏洞约1,279美元；按其援引的Pwn2Own和TyphoonPWN赏金标准折算，这些漏洞的假设价值为1,890万至6,630万美元。OpenAI表示正与Linux维护者和Patch the Planet合作提交漏洞报告与补丁，人类研究人员会在上报前审查结果。\n\n上述漏洞数量、补丁效果、新型利用技术及成本均来自OpenAI的说法，尚未见独立验证。随后OpenAI发布网络安全模型GPT-6 Cyber，称其越界率从GPT-5.6 Cyber的约5%降…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/4ff5060c-160a-4d65-bf28-706c0d53ec34"
-    },
-    {
-      "rank": 3,
-      "title": "Thinking Machines 发布 Inkling 2 Small，权重下周开源",
-      "list_title": "Thinking Machines 发布 Inkling 2 Small，权重下周开源",
-      "heat": null,
-      "heat_change": "↓ 11 %",
-      "sources": [],
-      "summary": "Thinking Machines Lab 发布第二代模型 Inkling 2 Small，即日起通过 Tinker 平台提供微调和推理，权重初期闭源。公司称，完整权重计划于下周以 Apache 2.0 许可开放，前提是完成外部安全测试和红队评估。\n\n该模型为 594B 总参数、17B 激活的 MoE，支持图像输入和 1M token 上下文。Artificial Analysis 称其在 Intelligence Index v5.0.1 上得 31 分，较前代提升 18 分；若权重按计划开源，按当前排名将成为中国以外得分最高的开源权重模型。ARC Prize 称其在 ARC-AGI-2 得 81.7%、ARC-AGI-1 得 96.5%，在其评估过的所有开源权重模型中两项均为最好，ARC-AGI-3 结果待测试完成后公布。Tinker 定价为每百万输入/输出 token 0.30 美元和 1.00 美元，缓存输入每百万 token 0.03 美元。\n\nArena 对同一模型给出两组 Code Arena: WebDev 数据：AutoEval…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/d6acd01b-e9cc-4a1f-9732-6f49b5859ee5"
-    },
-    {
-      "rank": 4,
-      "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克，IPO 估值遇投资者压价",
-      "list_title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克，IPO 估值遇投资者压价",
-      "heat": null,
-      "heat_change": "↓ 10 %",
-      "sources": [],
-      "summary": "Anthropic 已向美国 SEC 公开提交 S-1 注册声明，拟在纳斯达克以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销；发行股数与价格区间尚未确定，注册声明尚未生效。\n\n更新后的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，主因是 50 亿美元的高价短期算力和 20 亿美元员工捐赠配比的非现金支出；Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%。文件显示算力与基础设施合同承诺总额约 8954 亿美元，另有最高 1750 亿美元尚未定价，其中 4475 亿美元须在 2031 年前支付，仅 2138 亿美元可取消或附带条件。\n\n据 Reuters，IPO 推进遇阻：投资者质疑 1.5 万亿美元估值过高，有人提出仅 1 万亿美元，公司 9 月曾瞄准最高 2 万亿美元；潜在投资者还怀疑原定下周启动的路演能否如期进行，并在等待更新文件未包含的 10 月营收数据。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对…",
+      "summary": "Anthropic 仍在推进感恩节前上市，拟募资 800–1000 亿美元，目标估值 1.25 万亿–1.75 万亿美元。据《金融时报》援引投资者消息，CEO 阿莫迪已接受低于此前预期的估值水平；公司 9 月曾瞄准最高 2 万亿美元。\n\n估值下调发生在投资者质疑之后。据 Reuters 和 WSJ，投资者认为 1.5 万亿美元过高，有人提出仅 1 万亿美元，并怀疑原定下周启动的路演能否如期进行，还在等待更新文件未包含的 10 月营收数据。\n\n公司此前公开提交 S-1，拟在纳斯达克以代码 ANT 发行 A 类股，由高盛和摩根士丹利承销。更新后的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%；算力与基础设施合同承诺约 8954 亿美元，另有最高 1750 亿美元尚未定价。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
     },
     {
-      "rank": 5,
+      "rank": 2,
       "title": "OpenAI 110亿美元首笔融资到账，估值1.25万亿",
       "list_title": "OpenAI 110亿美元首笔融资到账，估值1.25万亿",
       "heat": null,
@@ -63,7 +30,18 @@
       "story_url": "https://aihot.virxact.com/story/fba07069-fd3e-44bd-ad2d-f347f820dab3"
     },
     {
-      "rank": 6,
+      "rank": 3,
+      "title": "Anthropic 发布研究拆解 Claude 智能体记忆机制",
+      "list_title": "Anthropic 发布研究拆解 Claude 智能体记忆机制",
+      "heat": null,
+      "heat_change": "↑ 13 %",
+      "sources": [],
+      "summary": "Anthropic 发布研究文章《The components of agent memory》，拆解 Claude 智能体的跨会话记忆机制：会话中写记忆笔记、判断信息显著性，并在空闲时段以“dreaming”回顾日志、纠正错误、构建知识结构，以便下次更快找到所需信息。Anthropic 称，dreaming 帮助 Claude 整理学到的内容、纠正错误并提升检索便利性。\n\n上述机制与效果均出自 Anthropic 自己的研究文章和工程博客，尚无第三方验证。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/a983842e-37eb-436c-9026-711d2fa63657"
+    },
+    {
+      "rank": 4,
       "title": "Meta在Muse推出spaces并升级模型",
       "list_title": "Meta在Muse推出spaces并升级模型",
       "heat": null,
@@ -74,48 +52,70 @@
       "story_url": "https://aihot.virxact.com/story/5bb5d3ee-b9ff-4cb4-8df8-d487d6bc5b78"
     },
     {
+      "rank": 5,
+      "title": "Thinking Machines 发布 Inkling 2 Small，权重下周开源",
+      "list_title": "Thinking Machines 发布 Inkling 2 Small，权重下周开源",
+      "heat": null,
+      "heat_change": "↓ 44 %",
+      "sources": [],
+      "summary": "Thinking Machines Lab 发布第二代模型 Inkling 2 Small，即日起通过 Tinker 平台提供微调和推理，权重初期闭源。公司称，完整权重计划于下周以 Apache 2.0 许可开放，前提是完成外部安全测试和红队评估。\n\n该模型为 594B 总参数、17B 激活的 MoE，支持图像输入和 1M token 上下文。Artificial Analysis 称其在 Intelligence Index v5.0.1 上得 31 分，较前代提升 18 分；若权重按计划开源，按当前排名将成为中国以外得分最高的开源权重模型。ARC Prize 称其在 ARC-AGI-2 得 81.7%、ARC-AGI-1 得 96.5%，在其评估过的所有开源权重模型中两项均为最好，ARC-AGI-3 结果待测试完成后公布。Tinker 定价为每百万输入/输出 token 0.30 美元和 1.00 美元，缓存输入每百万 token 0.03 美元。\n\nArena 对同一模型给出两组 Code Arena: WebDev 数据：AutoEval…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/d6acd01b-e9cc-4a1f-9732-6f49b5859ee5"
+    },
+    {
+      "rank": 6,
+      "title": "DeepSeek网页与API服务中断45分钟后恢复",
+      "list_title": "DeepSeek网页与API服务中断45分钟后恢复",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "11月7日15:11至15:56，DeepSeek网页与API服务出现部分中断，持续45分钟。用户对话时收到“服务器暂时不可用”提示，官方服务状态页显示正在排查问题。\n\n官方状态页随后显示问题已解决，服务恢复正常。此次中断仅涉及部分服务，并非全部不可用。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/2861254b-d4a1-436b-934f-1c7a44583b7e"
+    },
+    {
       "rank": 7,
-      "title": "Anthropic 在美推出 Claude 个人财务测试版",
-      "list_title": "Anthropic 在美推出 Claude 个人财务测试版",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "Anthropic 在 Claude 中上线 Personal Finance 个人财务功能，本周起以测试版形式逐步向美国 Pro、Max 和 Ultra 订阅用户开放。用户通过 Plaid 以只读方式连接自己选择的银行和卡账户，可用日常语言询问与自身余额和交易记录相关的财务问题，也可按类别汇总支出、标记重复扣款和异常费用，并解释 APR 等金融概念。\n\nAnthropic 称，该功能对账户的访问权限为只读，Claude 无法移动、管理或投资用户资金；用户可随时解绑账户。Anthropic 还称，该功能没有广告或赞助推荐，用于帮助用户理解个人财务，并非用于提供投资建议；相关对话不用于模型训练。\n\nThe Decoder 提到，OpenAI 在美国已有类似功能 Finances。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/16df653b-997f-4488-afe7-4f9c0779fc05"
-    },
-    {
-      "rank": 8,
-      "title": "Anthropic 发布研究拆解 Claude 智能体记忆机制",
-      "list_title": "Anthropic 发布研究拆解 Claude 智能体记忆机制",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "Anthropic 发布研究文章《The components of agent memory》，拆解 Claude 智能体的跨会话记忆机制：会话中写记忆笔记、判断信息显著性，并在空闲时段以“dreaming”回顾日志、纠正错误、构建知识结构，以便下次更快找到所需信息。Anthropic 称，dreaming 帮助 Claude 整理学到的内容、纠正错误并提升检索便利性。\n\n上述机制与效果均出自 Anthropic 自己的研究文章和工程博客，尚无第三方验证。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/a983842e-37eb-436c-9026-711d2fa63657"
-    },
-    {
-      "rank": 9,
       "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
       "list_title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
       "heat": null,
-      "heat_change": "↓ 40 %",
+      "heat_change": "↓ 20 %",
       "sources": [],
       "summary": "OpenAI 发布 Images 2.6，ChatGPT 首次能直接生成 GIF 动图：用户可用提示词或上传图片生成，并调整播放速度、逐帧编辑和分享。该功能随 Images 2.6 向所有套餐的 ChatGPT 和 Codex 用户推送，覆盖网页、桌面和移动端；新版还支持保存人物、宠物或角色的参考图，供后续创作复用。\n\nAPI 同步上线两款图像模型：GPT-Image-2.6 Flare 主打速度，low 画质下最快 6 秒出图；GPT-Image-2.6 Sunburst 主打中高质量与多次编辑间的细节一致性。OpenAI 称两者生成速度比前代快 50%，并支持图像标记与 SVG 导出。据 MarkTechPost 引述模型页面，两款模型按 token 计费且价格相同：文本输入每百万 token 5 美元、图像输入 8 美元、图像输出 30 美元，调整复杂度不另收费。fal、Higgsfield、Krea 等第三方平台也已上线该模型，Higgsfield 对 Pro、Plus、Max、Ultra 套餐的新用户提供 7 天无限使用。\n\n性能数据存…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/37046dc2-8e44-4949-965c-ef07dbd0b13e"
     },
     {
-      "rank": 10,
-      "title": "DeepSeek网页与API服务中断45分钟后恢复",
-      "list_title": "DeepSeek网页与API服务中断45分钟后恢复",
+      "rank": 8,
+      "title": "Perplexity 推出 Teammates 工作智能体，Max 用户网页版先行",
+      "list_title": "Perplexity 推出 Teammates 工作智能体，Max 用户网页版先行",
       "heat": null,
-      "heat_change": "↑ 16 %",
+      "heat_change": "↓ 17 %",
       "sources": [],
-      "summary": "11月7日15:11至15:56，DeepSeek网页与API服务出现部分中断，持续45分钟。用户对话时收到“服务器暂时不可用”提示，官方服务状态页显示正在排查问题。\n\n官方状态页随后显示问题已解决，服务恢复正常。此次中断仅涉及部分服务，并非全部不可用。",
+      "summary": "Perplexity 发布面向工作场景的个人智能体 Teammates，把使用方式从逐条写提示词改为给出高层次目标。该功能以研究预览形式向 Max 订阅用户在网页端推送，移动端和桌面端原生应用“即将推出”；The Verge 和 The Decoder 均称需订阅每月 200 美元的 Max 计划。The Decoder 称 Teammates 在独立虚拟机上通过桌面和浏览器持续运行，用户在应用内追踪进度并通过 Slack 交互。\n\n据 Perplexity 介绍，Teammates 可借助 Computer tasks、skills、memory 和工具主动承接任务，彼此之间能协作，还能在 Slack 中给同事发消息，并与 Perplexity Computer 配合完成持续性任务。CEO Aravind Srinivas 另称，用户可设置 Teammates 代为监控和管理市场订单，也可把它当作幕僚长或行政助理，统筹日历管理、邮件跟进、分诊、供应商协调、每日简报和会议准备；他还称自己有一个 Teammate 仅用 Perplexity 的 p…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/2861254b-d4a1-436b-934f-1c7a44583b7e"
+      "story_url": "https://aihot.virxact.com/story/a098c7ba-95e3-44b0-9c6f-dfe14243cc3c"
+    },
+    {
+      "rank": 9,
+      "title": "纽时称中国情报人员接近黄仁勋，英伟达否认，国会要求简报",
+      "list_title": "纽时称中国情报人员接近黄仁勋，英伟达否认，国会要求简报",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "《纽约时报》援引匿名情报信源报道，美国情报机构约一年来监控新加坡 AI 云公司 Megaspeed 高管 Alice Huang（黄乐），怀疑她借与英伟达 CEO 黄仁勋的密切接触，为中国收集英伟达的计划以及游说特朗普政府放宽对华芯片出口的信息。报道还称，特朗普约一年前已获知相关情报，但未采取行动，部分原因是保护英伟达股价，以及他与黄仁勋关系密切。上述指控均未获独立证实。\n\n英伟达否认这一说法，称 Megaspeed 只是其区域云客户之一，黄乐与公司官员的接触属例行往来，云客户仅获得普通商业信息，不涉及国家安全相关信息；关于 Megaspeed 将 AI 芯片转运至中国的指控“去年已被彻底调查并证伪”，公司也未收到华盛顿方面的任何预警。此前美国商务部曾调查 Megaspeed 涉嫌向中国转售受限芯片。\n\n美国国会三个委员会的主席已致函黄仁勋，要求他就与黄乐的接触作闭门简报。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"
+    },
+    {
+      "rank": 10,
+      "title": "台积电否认应英伟达请求生产3D DRAM",
+      "list_title": "台积电否认应英伟达请求生产3D DRAM",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "台积电否认了此前关于英伟达推动其制定3D DRAM生产计划的报道，称将坚持纯逻辑代工定位。\n\n早先X用户Rohan Paul称，英伟达已请求台积电制造先进3D DRAM芯片，台积电已开始拟定生产计划，若台积电入局，将增加先进内存供应并削弱三星、SK海力士、美光的涨价能力。台积电与英伟达此前均未公开确认。\n\n据后续报道，AI需求已耗尽DRAM供应，内存成为决定加速器能否出货的关键部件；但3D DRAM即使美光也要再经至少4个平面节点才采用，台积电入场至少5年内无法缓解短缺。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/ec56cbac-9b7d-40a9-af89-5b32750d696b"
     }
   ]
 }
