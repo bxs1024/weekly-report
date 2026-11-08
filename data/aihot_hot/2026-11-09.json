@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-11-09T01:38:46+08:00",
+  "fetched_date": "2026-11-09",
+  "source": {
+    "name": "AIHOT 热点榜",
+    "url": "https://aihot.virxact.com/hot",
+    "note": "过去 48 小时最热的 AI 事件，按精选报道与讨论热度实时排序。本页为全球 AI 视野补充，点击跳转原始来源。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元",
+      "list_title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元",
+      "heat": null,
+      "heat_change": "↓ 22 %",
+      "sources": [],
+      "summary": "Anthropic 仍在推进感恩节前上市，拟募资 800–1000 亿美元，目标估值 1.25 万亿–1.75 万亿美元。据《金融时报》援引投资者消息，CEO 阿莫迪已接受低于此前预期的估值水平；公司 9 月曾瞄准最高 2 万亿美元。\n\n估值下调发生在投资者质疑之后。据 Reuters 和 WSJ，投资者认为 1.5 万亿美元过高，有人提出仅 1 万亿美元，并怀疑原定下周启动的路演能否如期进行，还在等待更新文件未包含的 10 月营收数据。\n\n公司此前公开提交 S-1，拟在纳斯达克以代码 ANT 发行 A 类股，由高盛和摩根士丹利承销。更新后的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%；算力与基础设施合同承诺约 8954 亿美元，另有最高 1750 亿美元尚未定价。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
+      "list_title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
+      "heat": null,
+      "heat_change": "↑ 48 %",
+      "sources": [],
+      "summary": "OpenAI 发布 Images 2.6，ChatGPT 首次能直接生成 GIF 动图：用户可用提示词或上传图片生成，并调整播放速度、逐帧编辑和分享。该功能随 Images 2.6 向所有套餐的 ChatGPT 和 Codex 用户推送，覆盖网页、桌面和移动端；新版还支持保存人物、宠物或角色的参考图，供后续创作复用。\n\nAPI 同步上线两款图像模型：GPT-Image-2.6 Flare 主打速度，low 画质下最快 6 秒出图；GPT-Image-2.6 Sunburst 主打中高质量与多次编辑间的细节一致性。OpenAI 称两者生成速度比前代快 50%，并支持图像标记与 SVG 导出。据 MarkTechPost 引述模型页面，两款模型按 token 计费且价格相同：文本输入每百万 token 5 美元、图像输入 8 美元、图像输出 30 美元，调整复杂度不另收费。fal、Higgsfield、Krea 等第三方平台也已上线该模型，Higgsfield 对 Pro、Plus、Max、Ultra 套餐的新用户提供 7 天无限使用。\n\n性能数据存…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/37046dc2-8e44-4949-965c-ef07dbd0b13e"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic 34亿美元接手1.7GW燃气发电机组",
+      "list_title": "Anthropic 34亿美元接手1.7GW燃气发电机组",
+      "heat": null,
+      "heat_change": "↑ 527 %",
+      "sources": [],
+      "summary": "据《金融时报》报道，Anthropic 以34亿美元购入总功率1.7GW的 Caterpillar 燃气发电机组，为已知 AI 公司最大一笔发电设备采购。\n\n这批订单原属圣安东尼奥供应商 OnePWR Solutions，两年前下单，因融资失败由 Anthropic 接手；由于下单早于涨价，设备将在未来两年内交付。\n\n报道未披露机组部署地点及供电对象。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/8fc0b0a8-b3ab-41e8-a159-697ec636264d"
+    },
+    {
+      "rank": 4,
+      "title": "Anthropic 拆解 Claude 智能体记忆机制",
+      "list_title": "Anthropic 拆解 Claude 智能体记忆机制",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "Anthropic 发布研究文章《The components of agent memory》，拆解 Claude 智能体的跨会话记忆机制，将其分为笔记、记忆表示和注入上下文等层次，并介绍“dreaming”机制：在空闲时段回顾日志、纠正错误并构建知识 wiki。\n\nAnthropic 称，dreaming 帮助 Claude 整理所学内容、修正错误，并在下次更方便地找到所需信息；文章同时列出用于探索智能体记忆的多项评估，说明各组件对记忆组织的作用。\n\n上述效果来自 Anthropic 自身的介绍与评估，并非独立验证的结论。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/a983842e-37eb-436c-9026-711d2fa63657"
+    },
+    {
+      "rank": 5,
+      "title": "纽时称中国情报人员接近黄仁勋，英伟达否认，国会要求简报",
+      "list_title": "纽时称中国情报人员接近黄仁勋，英伟达否认，国会要求简报",
+      "heat": null,
+      "heat_change": "↑ 56 %",
+      "sources": [],
+      "summary": "《纽约时报》援引匿名情报信源报道，美国情报机构约一年来监控新加坡 AI 云公司 Megaspeed 高管 Alice Huang（黄乐），怀疑她借与英伟达 CEO 黄仁勋的密切接触，为中国收集英伟达的计划以及游说特朗普政府放宽对华芯片出口的信息。报道还称，特朗普约一年前已获知相关情报，但未采取行动，部分原因是保护英伟达股价，以及他与黄仁勋关系密切。上述指控均未获独立证实。\n\n英伟达否认这一说法，称 Megaspeed 只是其区域云客户之一，黄乐与公司官员的接触属例行往来，云客户仅获得普通商业信息，不涉及国家安全相关信息；关于 Megaspeed 将 AI 芯片转运至中国的指控“去年已被彻底调查并证伪”，公司也未收到华盛顿方面的任何预警。此前美国商务部曾调查 Megaspeed 涉嫌向中国转售受限芯片。\n\n美国国会三个委员会的主席已致函黄仁勋，要求他就与黄乐的接触作闭门简报。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"
+    },
+    {
+      "rank": 6,
+      "title": "OpenAI 110亿美元首笔融资到账，估值1.25万亿",
+      "list_title": "OpenAI 110亿美元首笔融资到账，估值1.25万亿",
+      "heat": null,
+      "heat_change": "↓ 20 %",
+      "sources": [],
+      "summary": "据 Bloomberg 援引知情人士报道，OpenAI 新一轮融资的首笔约 110 亿美元已由投资者打款，投后估值 1.25 万亿美元。TechCrunch 称，这轮融资尚未关闭，预计数周内完成，总额可能约 200 亿美元。\n\nThe Decoder 称，OpenAI 原计划以 1.4 万亿美元估值融资 300 亿美元，因 AI 板块抛售而缩水；投资方包括 Coatue、SoftBank、红杉、a16z 等，另在通过投行引入富裕个人投资者。The Verge 提到，OpenAI 今年 3 月曾以 8520 亿美元估值融资 1220 亿美元。本轮最终募资总额和估值仍取决于能否按预期完成。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/fba07069-fd3e-44bd-ad2d-f347f820dab3"
+    },
+    {
+      "rank": 7,
+      "title": "Nous Research 微调 Qwen 推出 Arete-27B",
+      "list_title": "Nous Research 微调 Qwen 推出 Arete-27B",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "Nous Research 对阿里巴巴 Qwen3.8-27B 做纯监督微调，发布开源权重模型 Arete-27B，权重、评测和训练数据均公开，采用与基座模型一致的 Apache 2.0 许可。\n\nNous Research 称，该模型旨在体现“西方价值观”而非北京的官方立场。在其自建的 803 条提示评测中，含宣传内容的回答占比从 22% 降至 0.9%，事实得分从 2.32 升至 2.98。这些数字来自 Nous Research 自己的评测，并非独立验证的效果。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/4648eb5b-d72a-42ef-ae63-e963d1fccca0"
+    },
+    {
+      "rank": 8,
+      "title": "xAI 称 Grok Bot 的 token 效率修复正在进行",
+      "list_title": "xAI 称 Grok Bot 的 token 效率修复正在进行",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "xAI 正在修复 Grok Bot，目标是提升 token 效率并让行为更智能。Elon Musk 在其 X 账号上称修复工作“正在进行中”；Grok Bot 相关账号 @mattyp 随后也发帖称 token 效率与行为方面的改进正在进行，并请在该帖下回复反馈，称会全部阅读。\n\n目前公开信息只有这两句表态，没有披露修复的具体内容、适用范围或完成时间，也没有给出效率提升幅度的数据。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/0d0f5f1f-b3ea-4b0f-bd3c-f6735cd0b4dc"
+    },
+    {
+      "rank": 9,
+      "title": "Meta在Muse推出spaces并升级模型",
+      "list_title": "Meta在Muse推出spaces并升级模型",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "Meta在Muse应用中推出spaces：用户描述规划器、追踪器、游戏等需求，Muse会直接在应用内生成可交互的类应用体验，用户可决定它放在哪个标签页、何时显示。Meta称spaces自发布起在Muse所有可用地区开放，连接相关应用后会在后台更新价格、日期等信息；分享空间以支持协作仍在探索中。\n\n同日，扎克伯格称Meta为Muse和Meta AI升级模型，把Muse Wonder中的Active Memory和Active Focus开放给所有用户。Meta称，新专用模型在Muse中遗忘关键信息的概率降低2.4倍，约束变化时摆脱卡壳的改善为67%；在Meta AI中则能更好地拆解复杂问题、提出更精准的追问并适应用户改变方向。这些效果数据来自Meta方面的说法。\n\nIT之家报道称，Muse中的新模型优先向订阅用户开放，订阅价格为每月20美元或100美元，Muse Wonder Full仅面向Muse Code订阅用户开放。Meta研究博客另称，该专用模型使Personal Superintelligence Index得分从38%提升到47%。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/5bb5d3ee-b9ff-4cb4-8df8-d487d6bc5b78"
+    },
+    {
+      "rank": 10,
+      "title": "GPT-6.1 Sol参与小鼠脑手术定位实验",
+      "list_title": "GPT-6.1 Sol参与小鼠脑手术定位实验",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "Exin Therapeutics 联合创始人兼 CEO 加布里埃尔·奥卡尼亚-桑特罗称，GPT-6.1 Sol 连续三次参与活体小鼠脑部手术中的 Bregma 和 Lambda 解剖标志定位，定位误差从 0.6 毫米降至 0.3 毫米。\n\n据《WIRED》报道，每次操作由外科医生纠正后保存图像与测量数据，供下一次参考。该结果由奥卡尼亚-桑特罗于 11 月 5 日在 X 上公布，目前仅涉及小鼠实验中的标志定位环节。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/6eeb5785-1785-4258-bcdf-95eccfdc5d8c"
+    }
+  ]
+}
