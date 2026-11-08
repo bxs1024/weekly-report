@@ -1106,29 +1106,29 @@
       "generated_at": "2026-11-01 15:18"
     },
     "weekly:2026-W45": {
-      "input_hash": "cfa0f3484c323f89b3a434261d1ed1290cd836eea2bd000b55d037cf72f0cb3c",
+      "input_hash": "eb4b710e07bb327bd4d35c003f673aa86005122da4c710b7f7b4b45b77beb5ec",
       "editorial": {
-        "editorial_title": "中资云与支付加速亚太拉美本地化",
-        "mainline": "字节跳动考虑扩建巴西数据中心、腾讯云在新加坡扩展企业AI生态，中资云厂商正以区域节点绑定本地支付与电商场景；同期Naver Pay深入韩国地方商圈、Razorpay拿下GIFT City牌照，支付基建的合规化与场景下沉同步提速。",
+        "editorial_title": "中资云与支付加速落子新兴市场",
+        "mainline": "字节跳动评估扩建巴西数据中心、腾讯云在新加坡扩展企业AI生态，中资云与支付能力正沿新兴市场走廊加速落子；与此同时，东南亚全年融资高度集中于四个月窗口，资金投放节奏压缩，ICT供应商与支付服务商的合作窗口更短、更需前置卡位。",
         "themes": {
-          "ai_infra": "字节跳动评估扩建巴西数据中心，MercadoLibre同期将AI投入追加3000万美元，拉美算力需求从电商侧同步抬升；Databricks发布Spark 4.3则降低本地数据栈迁移门槛，区域IDC与电力供应商的绑定窗口正在打开。",
-          "expansion": "腾讯云在新加坡扩展企业AI能力与合作伙伴生态，Tabs与Adyen推进嵌入式支付落地；东南亚全年165亿美元融资高度集中在四个月，资金窗口短暂，ICT供应商需在集中投放期锁定合作。",
-          "payments": "西归浦购物区投入46亿韩元接入Naver Pay，韩国线下零售数字化向地方城市下沉；Razorpay获IFSCA牌照推出GIFT City支付平台，Kakao Pay发布数字资产生态计划，支付网络正从线上向跨境与资产场景延伸。",
-          "developer": "东南亚科技融资全年165亿美元但分布失衡，中小创业公司融资难度加大；Silver Lake与PIF探讨250亿美元收购Unity，马来西亚芯片出口增但份额未升，资本正从早期分散转向头部资产与供应链B2B赛道。",
-          "compliance": "Pyvio获MAS主要支付机构牌照、Capital.com拿到MAS牌照并计划2027年登陆新加坡，合规通道持续打开；同期Mr Pips 6100万美元诈骗案聚焦越南支付网关监管，亚洲第二大经济体推出紧急网络安全方案，合规红利与监管收紧并行。",
-          "operations": "MercadoLibre财报后股价大跌，市场对拉美电商增长与利润率担忧加剧；Kakao利润同比增7%并宣布1500亿韩元回购，VNG利润增速超营收增速，Seedance海外营收占比达50%，区域平台正从规模扩张转向利润与回购支撑估值。"
+          "ai_infra": "字节跳动将巴西数据中心扩建纳入考量，MercadoLibre同期在Q3追加3000万美元AI投入，拉美本地算力与云服务需求同步抬升；Databricks发布Spark 4.3、Naver重组广告主中心，则显示AI基础设施竞争正从算力层向数据工具与广告变现层延伸。",
+          "expansion": "腾讯云在新加坡扩展企业AI能力与合作伙伴生态，Tabs与Adyen推进嵌入式支付合作，中资云与全球支付商在东南亚同步加码；而全年165亿美元融资集中在四个月完成，意味着资金投放期高度压缩，供应商须在集中窗口前完成卡位。",
+          "payments": "西归浦商圈投入46亿韩元接入NAVER Pay，韩国地方商圈数字化支付改造从规划进入落地；Razorpay获IFSCA牌照推出GIFT City平台、Kakao Pay发布数字资产生态计划，叠加腾讯与Mastercard探索智能体支付，支付终端与商户SaaS的切入窗口正在打开。",
+          "developer": "东南亚科技融资全年达165亿美元但分布失衡，资金向头部集中、中小创业公司融资难度加大；Silver Lake与PIF探讨250亿美元收购Unity，马来西亚芯片出口增长却未换来份额提升，显示资本正转向确定性更高的平台资产与供应链环节。",
+          "compliance": "Pyvio获MAS主要支付机构牌照，Capital.com亦获牌并计划2027年登陆新加坡，新加坡支付与交易合规通道持续扩容；同期英国拟将Vinted和eBay纳入青少年社媒禁令、亚洲第二大经济体推出紧急网络安全方案，合规门槛与内容监管同步收紧。",
+          "operations": "MercadoLibre财报后股价大跌，市场对拉美电商增长与利润率的担忧显性化；Kakao利润同比增长7%并宣布1500亿韩元回购，VNG利润增速超营收增速，Seedance海外营收占比达50%，区域平台正以回购与海外收入对冲增长压力。"
         },
         "theme_titles": {
-          "ai_infra": "字节跳动巴西扩数据中心，拉美IDC电力迎合作窗口",
-          "expansion": "腾讯云新加坡扩企业AI生态，东南亚融资集中四个月投放",
-          "payments": "Naver Pay深入韩国地方商圈，Razorpay拿下GIFT City牌照",
-          "developer": "东南亚融资向头部集中，Silver Lake与PIF洽购Unity",
-          "compliance": "Pyvio与Capital.com获MAS牌照，越南支付网关监管收紧",
+          "ai_infra": "字节跳动评估巴西数据中心扩建，拉美算力需求升温",
+          "expansion": "腾讯云新加坡扩企业AI生态，东南亚融资窗口收窄",
+          "payments": "NAVER Pay落地西归浦商圈，韩国线下支付改造启动",
+          "developer": "东南亚融资向头部集中，Silver Lake洽购Unity",
+          "compliance": "Pyvio获MAS支付牌照，新加坡合规通道再扩",
           "operations": "MercadoLibre财报后股价大跌，拉美电商利润承压"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-11-08 14:59"
+      "generated_at": "2026-11-09 06:00"
     }
   }
 }
