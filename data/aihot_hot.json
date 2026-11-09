@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T11:14:09+08:00",
-  "fetched_date": "2026-11-09",
+  "generated_at": "2026-11-10T05:57:27+08:00",
+  "fetched_date": "2026-11-10",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
@@ -9,113 +9,113 @@
   "items": [
     {
       "rank": 1,
-      "title": "纽时称中国情报人员接近黄仁勋，英伟达否认并启动调查",
-      "list_title": "纽时称中国情报人员接近黄仁勋，英伟达否认并启动调查",
+      "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，日常仍建议 Opus 5.5",
+      "list_title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，日常仍建议 Opus 5.5",
       "heat": null,
-      "heat_change": "↑ 61 %",
+      "heat_change": "↑ 7005 %",
       "sources": [],
-      "summary": "《纽约时报》援引匿名情报消息源报道，美国情报机构认定新加坡 AI 云公司 Megaspeed 高管 Alice Huang（黄乐）被中国国家安全部招募，约一年来通过与英伟达 CEO 黄仁勋的密切接触，收集英伟达计划及游说特朗普政府放宽对华芯片出口的信息；报道还称特朗普约一年前获知相关情报但未采取行动，部分原因是为保护英伟达股价。上述指控均出自匿名信源，尚未经证实。\n\n英伟达否认相关说法，称 Megaspeed 只是区域云客户，黄仁勋与 Huang 的接触属例行商业往来，云客户仅获普通商业信息；关于 Megaspeed 向中国转运 AI 芯片的指控“去年已被彻底调查并证伪”，公司未收到华盛顿方面的预警。\n\n美国众议院三个委员会已要求黄仁勋就与 Huang 的往来作闭门简报。英伟达董事会随后宣布启动独立调查，由独立董事委员会在外部律师协助下进行，称目前没有理由认为国家安全或公司机密遭到泄露，黄仁勋表示全力配合；黄仁勋另在内部备忘录中承认婚外情并致歉。",
+      "summary": "Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2，称两者在编码、推理和视觉方面有提升，输出速度比 Fable 5.1 快最多 30%。Fable 5.2 即日起在 Pro、Max、Team、Enterprise 等付费方案、Claude Platform 及各大云平台可用，标准价格为每百万输入 token 8 美元、输出 token 40 美元，低于此前的 10 美元和 50 美元；但官方仍建议大多数编程和知识类任务从 Opus 5.5 起步，Fable 和 Mythos 更适合最具野心、开放式的技术工作。Addy Osmani 称 Fable 5.2 token 消耗量大，按单个任务计算成本与 Fable 5.1 大致相同，尽管单价便宜了 20%。\n\n第三方评测中，Artificial Analysis 称 Fable 5.2 以 65 分登顶其 Intelligence Index v5，领先 Gemini 4 Carbon（60）和 Opus 5.5（59）；ARC Prize 公布其在 A…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1"
+    },
+    {
+      "rank": 2,
+      "title": "英伟达董事会调查黄仁勋涉情报事件",
+      "list_title": "英伟达董事会调查黄仁勋涉情报事件",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "英伟达董事会11月8日宣布启动独立调查，起因是《纽约时报》《金融时报》等报道称，公司创始人兼CEO黄仁勋成为外国情报行动的目标。调查由独立董事组成的委员会在外部律师协助下进行，黄仁勋表示全力配合；董事会称目前“没有理由认为”国家安全或公司机密已受损。黄仁勋随后在内部信中承认与涉事高管Alice Huang存在婚外情。\n\n报道称，Alice Huang是新加坡数据中心运营商Megaspeed的高管，美国情报机构认为她受中国国家安全部招募，借与黄仁勋的密切接触获取英伟达计划及对华芯片出口政策信息；相关说法来自匿名信源和一份在美方官员间传阅的备忘录。英伟达此前否认相关指控，称Megaspeed只是区域云客户，双方属例行商业往来，芯片转运指控“去年已被彻底调查并证伪”。\n\n美国众议院三个委员会已要求黄仁勋就与Alice Huang的往来作闭门简报。英伟达法兰克福上市股票在消息后一度跌超6%；耶鲁教授Sonnenfeld估计黄仁勋留任概率约为50-50。黄仁勋目前仍留任CEO，并已退出原定本周三在纽约举行的ElevenLabs Summit及其他演讲安排。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"
     },
     {
-      "rank": 2,
-      "title": "Anthropic 34亿美元接手1.7GW燃气发电机组",
-      "list_title": "Anthropic 34亿美元接手1.7GW燃气发电机组",
-      "heat": null,
-      "heat_change": "↑ 13 %",
-      "sources": [],
-      "summary": "据《金融时报》报道，Anthropic 以34亿美元购入总功率1.7GW的 Caterpillar 燃气发电机组，为已知 AI 公司最大一笔发电设备采购。\n\n这批订单原属圣安东尼奥供应商 OnePWR Solutions，两年前下单，因融资失败由 Anthropic 接手；由于下单早于涨价，设备将在未来两年内交付。\n\n报道未披露机组部署地点及供电对象。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/8fc0b0a8-b3ab-41e8-a159-697ec636264d"
-    },
-    {
       "rank": 3,
-      "title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元",
-      "list_title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元",
+      "title": "Google一年内交付四款第八代TPU",
+      "list_title": "Google一年内交付四款第八代TPU",
       "heat": null,
-      "heat_change": "↓ 17 %",
+      "heat_change": "↑ 33 %",
       "sources": [],
-      "summary": "Anthropic 仍在推进感恩节前上市，拟募资 800–1000 亿美元，目标估值 1.25 万亿–1.75 万亿美元。据《金融时报》援引投资者消息，CEO 阿莫迪已接受低于此前预期的估值水平；公司 9 月曾瞄准最高 2 万亿美元。\n\n估值下调发生在投资者质疑之后。据 Reuters 和 WSJ，投资者认为 1.5 万亿美元过高，有人提出仅 1 万亿美元，并怀疑原定下周启动的路演能否如期进行，还在等待更新文件未包含的 10 月营收数据。\n\n公司此前公开提交 S-1，拟在纳斯达克以代码 ANT 发行 A 类股，由高盛和摩根士丹利承销。更新后的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%；算力与基础设施合同承诺约 8954 亿美元，另有最高 1750 亿美元尚未定价。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权。",
+      "summary": "Google 扩展第八代 TPU 产品线，新增 TPU 8i Max 和 TPU 8tx 两款系统，使一年内发布的第八代 TPU 系统总数达到四款。Google 称这四款系统覆盖智能体生命周期的各个阶段。\n\nTPU 8i Max 在单封装内放置两颗 TPU 8i 芯片，使同机架的算力、SRAM 和 HBM 带宽翻倍，面向超大上下文窗口和单机架最高算力密度；TPU 8tx 基于 TPU 8t 芯片，主打机密推理，数据与模型权重在使用过程中保持加密隔离，延迟较 TPU 8t 最多降低 2 倍。AMD CEO 苏姿丰称，AMD EPYC 担任 TPU 8tx 的主机处理器，MarkTechPost 称其为第五代 EPYC。\n\nGoogle 同时表示正在升级面向开发者的统一、开放软件栈，并称 TorchTPU 可原生运行 PyTorch 与 Hugging Face 模型且无需改写代码、开源 TPU Sync 将 KV 传输延迟降低超 90%、Agent Compute Engine 减少闲置算力。MarkTechPost 称，两款新系统均未公布绝对规格…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
+      "story_url": "https://aihot.virxact.com/story/4a64f241-8892-4af9-9d8a-d75c99724c71"
     },
     {
       "rank": 4,
-      "title": "xAI 连夜修复 Grok Bot，承诺次日显著改善",
-      "list_title": "xAI 连夜修复 Grok Bot，承诺次日显著改善",
+      "title": "Meta 发布轻量模型 Muse Ember，主打低成本智能体任务",
+      "list_title": "Meta 发布轻量模型 Muse Ember，主打低成本智能体任务",
       "heat": null,
-      "heat_change": "↑ 36 %",
+      "heat_change": "↑ 1149 %",
       "sources": [],
-      "summary": "xAI 正在修复 Grok Bot 的 token 效率与行为问题。Elon Musk 先在其 X 账号称相关修复“正在进行中”；Grok Bot 相关账号 @mattyp 随后发帖称 token 效率与行为方面的改进正在进行，并请用户在该帖下回复反馈，称会全部阅读。\n\n11 月 9 日，Musk 称刚与 Grok @Bot 工程团队做完复盘，修复正在连夜实施，用户“明天应该会看到显著改善”；若未见改善，可回复该帖，团队会立即处理剩余问题。\n\n目前未披露修复的具体内容、适用范围、完成时间，也没有效率提升幅度的数据；“显著改善”是 Musk 的预期，尚未得到验证。",
+      "summary": "Meta Superintelligence Lab 发布轻量模型 Muse Ember，称其为该公司最小、最高效的模型，面向工具调用、编码子任务、路由、信息抽取和长文档解析等智能体高频任务。该模型在 Meta Model API 和 Muse Code 上线，定价为每百万输入 token 0.10 美元、每百万输出 token 0.50 美元，缓存输入为每百万 token 0.004 美元；Meta 称其可搭配更大的 Muse Wonder 模型在智能体框架中协同工作。OpenCode 和 OpenRouter 随后宣布该模型已在其平台上线。\n\nArtificial Analysis 的评测显示，Muse Ember 在 Intelligence Index 上得 36 分，与 Claude Haiku 5.5 (max) 持平，每任务成本 0.14 美元，约为后者 0.41 美元的三分之一。Meta 引用该结果称其性能与 Claude Haiku 5.5 相当、成本约为三分之一，并称在 GPT-6 Luna 所有推理设置下得分均高于 Luna…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/c9508ded-f5e2-404c-b983-fdd61423c85a"
+    },
+    {
+      "rank": 5,
+      "title": "字节发布 Seedream 5.5 图像模型",
+      "list_title": "字节发布 Seedream 5.5 图像模型",
+      "heat": null,
+      "heat_change": "↑ 42 %",
+      "sources": [],
+      "summary": "字节跳动 Seed 团队发布图像创作模型 Seedream 5.5，主打像素级可控编辑。官方称，围绕同一作品最多可连续编辑 100 轮，未改动区域在像素级保持不变、不偏色；模型可原生输出带 Alpha 通道的 RGBA 透明素材，最多 100 层透明分层，并改善光照、材质、皮肤纹理和密集小字渲染。\n\n定价方面，火山引擎称 2K 方图编辑单张 0.28 元，不到 Seedream 5.0 Pro 的一半，生成速度快近 40%，文本 Token 免费；API 延续“输入图 + 输出图”两段计费，本周上线火山方舟。C 端用户可在即梦、豆包、豆包工作体验，Seedream 5.5 系列后续计划推出 Pro 版本。上述性能与价格均为发布方说法。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/2b6190d7-3612-47d1-9e63-d75e50b8604d"
+    },
+    {
+      "rank": 6,
+      "title": "xAI 连夜修复 Grok Bot 并重置周限额",
+      "list_title": "xAI 连夜修复 Grok Bot 并重置周限额",
+      "heat": null,
+      "heat_change": "↑ 20 %",
+      "sources": [],
+      "summary": "xAI 正在修复 Grok Bot 的 token 效率与行为问题，并已为所有用户重置每周使用限额。Elon Musk 称，他刚与 Grok @Bot 工程团队复盘，修复正在连夜实施，用户“明天应该会看到显著改善”；若未见改善，可回复其帖子，团队会立即处理剩余问题。Grok Bot 相关账号 @mattyp 此前也称改进正在进行，并请用户在该帖下回复反馈。\n\n11 月 10 日，Grok Bot 官方账号 @bot 称已为所有 Grok Bot 用户重置每周使用限额，@mattyp、xAI 的 Eric Zakariasson 及 Grok Bot 工程负责人 Lauren Tan 也确认了重置。\n\n修复的具体内容、适用范围和完成时间尚未披露，也没有效率提升幅度的数据；“显著改善”是 Musk 的预期，尚未得到验证。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/0d0f5f1f-b3ea-4b0f-bd3c-f6735cd0b4dc"
     },
     {
-      "rank": 5,
-      "title": "DeepSeek Harness日活154万，将建插件市场",
-      "list_title": "DeepSeek Harness日活154万，将建插件市场",
-      "heat": null,
-      "heat_change": "↓ 24 %",
-      "sources": [],
-      "summary": "DeepSeek Harness 官方 11 月 5 日公布，截至 11 月 4 日，其日活跃用户为 154 万，日消耗 Token 约 92 万亿，月活跃用户为 548 万；这些数据仅统计官方 API 用户。官方同时宣布将建设官方插件市场，并介绍面向插件作者的支持计划，但未公布上线时间和具体规则。\n\nBloomberg 后续报道称，Harness 是 DeepSeek 的开源智能体应用，上线不到 3 个月日活即达 154 万，同样只统计官方 API 用户；其 7 日均值从 9 月 30 日桌面版发布后的 27.1 万增长而来。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/beeed02c-39ef-4d69-8610-5a1fba11d413"
-    },
-    {
-      "rank": 6,
-      "title": "苹果施压加速Siri智能体化改造",
-      "list_title": "苹果施压加速Siri智能体化改造",
-      "heat": null,
-      "heat_change": "↑ 53 %",
-      "sources": [],
-      "summary": "据彭博社记者马克·古尔曼报道，苹果 CEO John Ternus 正施压 AI 负责人 Craig Federighi 加快 Siri 路线图，目标是推出能对标 OpenAI 的 Dots、Meta 的 Muse 和 Grok 的 AI 智能体。\n\n古尔曼称，这款 Siri 将从响应命令转向主动管理任务、代表用户完成事务，并具备控制第三方应用和执行持续任务的能力。他称苹果计划最早明年推出该代理式 Siri。\n\n目前尚无具体的上线范围或功能可用性信息。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/a1b6af96-fbdf-4779-80a9-0ca55270818c"
-    },
-    {
       "rank": 7,
-      "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
-      "list_title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
+      "title": "Anthropic 34亿美元购入1.7GW燃气发电机组",
+      "list_title": "Anthropic 34亿美元购入1.7GW燃气发电机组",
       "heat": null,
-      "heat_change": "↓ 28 %",
+      "heat_change": "↑ 37 %",
       "sources": [],
-      "summary": "OpenAI 发布 Images 2.6，ChatGPT 首次能直接生成 GIF 动图：用户可用提示词或上传图片生成，并调整播放速度、逐帧编辑和分享。该功能随 Images 2.6 向所有套餐的 ChatGPT 和 Codex 用户推送，覆盖网页、桌面和移动端；新版还支持保存人物、宠物或角色的参考图，供后续创作复用。\n\nAPI 同步上线两款图像模型：GPT-Image-2.6 Flare 主打速度，low 画质下最快 6 秒出图；GPT-Image-2.6 Sunburst 主打中高质量与多次编辑间的细节一致性。OpenAI 称两者生成速度比前代快 50%，并支持图像标记与 SVG 导出。据 MarkTechPost 引述模型页面，两款模型按 token 计费且价格相同：文本输入每百万 token 5 美元、图像输入 8 美元、图像输出 30 美元，调整复杂度不另收费。fal、Higgsfield、Krea 等第三方平台也已上线该模型，Higgsfield 对 Pro、Plus、Max、Ultra 套餐的新用户提供 7 天无限使用。\n\n性能数据存…",
+      "summary": "Anthropic 以34亿美元购入总功率1.7GW的 Caterpillar 燃气发电机组，为已知 AI 公司最大一笔发电设备采购。这批订单原属圣安东尼奥供应商 OnePWR Solutions，两年前下单，因融资失败由 Anthropic 接手；由于下单早于涨价，设备将在未来两年内交付。\n\nTechCrunch 称，此举意味着 Anthropic 放弃以往租用算力的做法；OnePWR 在 S-1 文件中披露，此前以每月12.5亿美元租用 xAI 算力至2029年5月。\n\n报道未披露机组部署地点及供电对象。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/37046dc2-8e44-4949-965c-ef07dbd0b13e"
+      "story_url": "https://aihot.virxact.com/story/8fc0b0a8-b3ab-41e8-a159-697ec636264d"
     },
     {
       "rank": 8,
-      "title": "OpenAI 称三项科学突破，物理证明未公开引呼吁",
-      "list_title": "OpenAI 称三项科学突破，物理证明未公开引呼吁",
+      "title": "迪士尼与Adobe合作开发定制生成式AI模型",
+      "list_title": "迪士尼与Adobe合作开发定制生成式AI模型",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↑ 132 %",
       "sources": [],
-      "summary": "OpenAI 宣布其 AI 在数学、计算机科学和物理三个领域取得突破：数学上给出所有维度局部光滑猜想的证明，并称由此解决挂谷猜想与斯坦因限制猜想；计算机科学上给出反驳指数时间假说（ETH）的证明；物理上提出量子色动力学及标准模型一种完备化的存在性证明，涉及杨–米尔斯千禧年难题的一部分。\n\n发布方式因领域而异。数学成果已公开 AI 原始输出，供研究者自行解释；计算机科学成果由 OpenAI 组织外部专家“shepherd”解释；物理成果则完全未公开，OpenAI 称将交由外部专家组决定如何发布。数学与计算机科学的证明还被翻译成 Lean 供逐步验证。\n\n物理成果的搁置引发反弹：数学与人工智能顾问小组（AGMAI）公开呼吁 OpenAI 立即公布杨–米尔斯相关证明的自然语言与 Lean 输出。ETH 反驳也受到质疑，Anthropic 数学家称其基于已有工作，随后 Anthropic 亦发布了 ETH 反驳。OpenAI CEO Sam Altman 表示同情受冲击的研究者，但称世界有权理解宇宙运行方式，OpenAI 不会停止发布。",
+      "summary": "迪士尼与Adobe在Adobe MAX大会上宣布多年期合作，将基于Adobe的Firefly Foundry为迪士尼开发专有的“艺术家主导”生成式AI模型，用于其制作流程。Adobe称，该模型将基于迪士尼的角色、场景和视觉风格训练，产出可商用、可用于制作的内容。\n\n根据合作，迪士尼将获得Adobe最新技术的早期访问权限，覆盖范围包括迪士尼主题公园、邮轮业务和ESPN内容。双方强调模型面向迪士尼自有资产，由艺术家主导。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/d79cd457-4d11-436e-954d-430d2aab4438"
+      "story_url": "https://aihot.virxact.com/story/1f7bc83b-0722-496f-bb5c-73f3f496580a"
     },
     {
       "rank": 9,
-      "title": "Nous Research 微调 Qwen 推出 Arete-27B",
-      "list_title": "Nous Research 微调 Qwen 推出 Arete-27B",
+      "title": "阿里千问办公2.0发布，支持多人与Agent协作",
+      "list_title": "阿里千问办公2.0发布，支持多人与Agent协作",
       "heat": null,
-      "heat_change": "↓ 21 %",
+      "heat_change": "↓ 16 %",
       "sources": [],
-      "summary": "Nous Research 对阿里巴巴 Qwen3.8-27B 做纯监督微调，发布开源权重模型 Arete-27B，权重、评测和训练数据均公开，采用与基座模型一致的 Apache 2.0 许可。\n\nNous Research 称，该模型旨在体现“西方价值观”而非北京的官方立场。在其自建的 803 条提示评测中，含宣传内容的回答占比从 22% 降至 0.9%，事实得分从 2.32 升至 2.98。这些数字来自 Nous Research 自己的评测，并非独立验证的效果。",
+      "summary": "钉钉发布千问办公 2.0，定位为面向个人与组织协作的 Team Agent，支持多人与 Agent 在同一工作群内协作。据钉钉官方消息，目前所有功能已在千问办公客户端全量上线。\n\n这一版本把 Agent 从个人助手扩展为可加入工作群的协作成员，面向组织内多人共同使用。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/4648eb5b-d72a-42ef-ae63-e963d1fccca0"
+      "story_url": "https://aihot.virxact.com/story/b7a32f59-262c-4fdc-a9c3-87ac393965c3"
     },
     {
       "rank": 10,
-      "title": "姚顺雨称AI护城河在产品层而非模型层",
-      "list_title": "姚顺雨称AI护城河在产品层而非模型层",
+      "title": "AI Studio 支持用提示词构建 Maps 应用",
+      "list_title": "AI Studio 支持用提示词构建 Maps 应用",
       "heat": null,
-      "heat_change": "↑ 18 %",
+      "heat_change": "↑ 1062 %",
       "sources": [],
-      "summary": "腾讯首席 AI 科学家姚顺雨在 2026 未来科学大奖对话中表示，AI 模型的护城河更多存在于产品层，而不是模型层。他认为真正难以替代的是能理解用户背景、利用专有数据和上下文并获得用户信任的 AI 产品。\n\n他以微信为例称，即便竞争对手推出更聪明的模型，也未必知道用户是谁，难以提供同样服务。这一判断针对的是模型公司如何建立竞争壁垒，而非模型能力本身。",
+      "summary": "Google 宣布，用户现在可以在 Google AI Studio 中直接构建由 Google Maps Platform 驱动的应用：用提示词描述想法，AI Studio 会自动完成配置和 API 密钥管理，无需信用卡。\n\n该功能设有每日配额，每个 API 每天 100 次调用、每 24 小时重置；若要用于生产环境，则需绑定付费的 Cloud 结算账户。\n\nGoogle 员工 Ammaar Reshi 在社交平台称，这套“开箱即用”体验让基于 Google 生态构建应用变得更容易。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/2d1a9fd7-93a0-4838-873a-2e22221233fb"
+      "story_url": "https://aihot.virxact.com/story/4f7d01c1-1bde-4f90-8ecf-7c63a9db3695"
     }
   ]
 }
