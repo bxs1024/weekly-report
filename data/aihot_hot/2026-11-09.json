@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T01:38:46+08:00",
+  "generated_at": "2026-11-09T11:14:09+08:00",
   "fetched_date": "2026-11-09",
   "source": {
     "name": "AIHOT 热点榜",
@@ -9,113 +9,113 @@
   "items": [
     {
       "rank": 1,
-      "title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元",
-      "list_title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元",
+      "title": "纽时称中国情报人员接近黄仁勋，英伟达否认并启动调查",
+      "list_title": "纽时称中国情报人员接近黄仁勋，英伟达否认并启动调查",
       "heat": null,
-      "heat_change": "↓ 22 %",
+      "heat_change": "↑ 61 %",
       "sources": [],
-      "summary": "Anthropic 仍在推进感恩节前上市，拟募资 800–1000 亿美元，目标估值 1.25 万亿–1.75 万亿美元。据《金融时报》援引投资者消息，CEO 阿莫迪已接受低于此前预期的估值水平；公司 9 月曾瞄准最高 2 万亿美元。\n\n估值下调发生在投资者质疑之后。据 Reuters 和 WSJ，投资者认为 1.5 万亿美元过高，有人提出仅 1 万亿美元，并怀疑原定下周启动的路演能否如期进行，还在等待更新文件未包含的 10 月营收数据。\n\n公司此前公开提交 S-1，拟在纳斯达克以代码 ANT 发行 A 类股，由高盛和摩根士丹利承销。更新后的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%；算力与基础设施合同承诺约 8954 亿美元，另有最高 1750 亿美元尚未定价。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权。",
+      "summary": "《纽约时报》援引匿名情报消息源报道，美国情报机构认定新加坡 AI 云公司 Megaspeed 高管 Alice Huang（黄乐）被中国国家安全部招募，约一年来通过与英伟达 CEO 黄仁勋的密切接触，收集英伟达计划及游说特朗普政府放宽对华芯片出口的信息；报道还称特朗普约一年前获知相关情报但未采取行动，部分原因是为保护英伟达股价。上述指控均出自匿名信源，尚未经证实。\n\n英伟达否认相关说法，称 Megaspeed 只是区域云客户，黄仁勋与 Huang 的接触属例行商业往来，云客户仅获普通商业信息；关于 Megaspeed 向中国转运 AI 芯片的指控“去年已被彻底调查并证伪”，公司未收到华盛顿方面的预警。\n\n美国众议院三个委员会已要求黄仁勋就与 Huang 的往来作闭门简报。英伟达董事会随后宣布启动独立调查，由独立董事委员会在外部律师协助下进行，称目前没有理由认为国家安全或公司机密遭到泄露，黄仁勋表示全力配合；黄仁勋另在内部备忘录中承认婚外情并致歉。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
+      "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"
     },
     {
       "rank": 2,
-      "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
-      "list_title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
-      "heat": null,
-      "heat_change": "↑ 48 %",
-      "sources": [],
-      "summary": "OpenAI 发布 Images 2.6，ChatGPT 首次能直接生成 GIF 动图：用户可用提示词或上传图片生成，并调整播放速度、逐帧编辑和分享。该功能随 Images 2.6 向所有套餐的 ChatGPT 和 Codex 用户推送，覆盖网页、桌面和移动端；新版还支持保存人物、宠物或角色的参考图，供后续创作复用。\n\nAPI 同步上线两款图像模型：GPT-Image-2.6 Flare 主打速度，low 画质下最快 6 秒出图；GPT-Image-2.6 Sunburst 主打中高质量与多次编辑间的细节一致性。OpenAI 称两者生成速度比前代快 50%，并支持图像标记与 SVG 导出。据 MarkTechPost 引述模型页面，两款模型按 token 计费且价格相同：文本输入每百万 token 5 美元、图像输入 8 美元、图像输出 30 美元，调整复杂度不另收费。fal、Higgsfield、Krea 等第三方平台也已上线该模型，Higgsfield 对 Pro、Plus、Max、Ultra 套餐的新用户提供 7 天无限使用。\n\n性能数据存…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/37046dc2-8e44-4949-965c-ef07dbd0b13e"
-    },
-    {
-      "rank": 3,
       "title": "Anthropic 34亿美元接手1.7GW燃气发电机组",
       "list_title": "Anthropic 34亿美元接手1.7GW燃气发电机组",
       "heat": null,
-      "heat_change": "↑ 527 %",
+      "heat_change": "↑ 13 %",
       "sources": [],
       "summary": "据《金融时报》报道，Anthropic 以34亿美元购入总功率1.7GW的 Caterpillar 燃气发电机组，为已知 AI 公司最大一笔发电设备采购。\n\n这批订单原属圣安东尼奥供应商 OnePWR Solutions，两年前下单，因融资失败由 Anthropic 接手；由于下单早于涨价，设备将在未来两年内交付。\n\n报道未披露机组部署地点及供电对象。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/8fc0b0a8-b3ab-41e8-a159-697ec636264d"
     },
     {
-      "rank": 4,
-      "title": "Anthropic 拆解 Claude 智能体记忆机制",
-      "list_title": "Anthropic 拆解 Claude 智能体记忆机制",
+      "rank": 3,
+      "title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元",
+      "list_title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↓ 17 %",
       "sources": [],
-      "summary": "Anthropic 发布研究文章《The components of agent memory》，拆解 Claude 智能体的跨会话记忆机制，将其分为笔记、记忆表示和注入上下文等层次，并介绍“dreaming”机制：在空闲时段回顾日志、纠正错误并构建知识 wiki。\n\nAnthropic 称，dreaming 帮助 Claude 整理所学内容、修正错误，并在下次更方便地找到所需信息；文章同时列出用于探索智能体记忆的多项评估，说明各组件对记忆组织的作用。\n\n上述效果来自 Anthropic 自身的介绍与评估，并非独立验证的结论。",
+      "summary": "Anthropic 仍在推进感恩节前上市，拟募资 800–1000 亿美元，目标估值 1.25 万亿–1.75 万亿美元。据《金融时报》援引投资者消息，CEO 阿莫迪已接受低于此前预期的估值水平；公司 9 月曾瞄准最高 2 万亿美元。\n\n估值下调发生在投资者质疑之后。据 Reuters 和 WSJ，投资者认为 1.5 万亿美元过高，有人提出仅 1 万亿美元，并怀疑原定下周启动的路演能否如期进行，还在等待更新文件未包含的 10 月营收数据。\n\n公司此前公开提交 S-1，拟在纳斯达克以代码 ANT 发行 A 类股，由高盛和摩根士丹利承销。更新后的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%；算力与基础设施合同承诺约 8954 亿美元，另有最高 1750 亿美元尚未定价。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/a983842e-37eb-436c-9026-711d2fa63657"
+      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
+    },
+    {
+      "rank": 4,
+      "title": "xAI 连夜修复 Grok Bot，承诺次日显著改善",
+      "list_title": "xAI 连夜修复 Grok Bot，承诺次日显著改善",
+      "heat": null,
+      "heat_change": "↑ 36 %",
+      "sources": [],
+      "summary": "xAI 正在修复 Grok Bot 的 token 效率与行为问题。Elon Musk 先在其 X 账号称相关修复“正在进行中”；Grok Bot 相关账号 @mattyp 随后发帖称 token 效率与行为方面的改进正在进行，并请用户在该帖下回复反馈，称会全部阅读。\n\n11 月 9 日，Musk 称刚与 Grok @Bot 工程团队做完复盘，修复正在连夜实施，用户“明天应该会看到显著改善”；若未见改善，可回复该帖，团队会立即处理剩余问题。\n\n目前未披露修复的具体内容、适用范围、完成时间，也没有效率提升幅度的数据；“显著改善”是 Musk 的预期，尚未得到验证。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/0d0f5f1f-b3ea-4b0f-bd3c-f6735cd0b4dc"
     },
     {
       "rank": 5,
-      "title": "纽时称中国情报人员接近黄仁勋，英伟达否认，国会要求简报",
-      "list_title": "纽时称中国情报人员接近黄仁勋，英伟达否认，国会要求简报",
+      "title": "DeepSeek Harness日活154万，将建插件市场",
+      "list_title": "DeepSeek Harness日活154万，将建插件市场",
       "heat": null,
-      "heat_change": "↑ 56 %",
+      "heat_change": "↓ 24 %",
       "sources": [],
-      "summary": "《纽约时报》援引匿名情报信源报道，美国情报机构约一年来监控新加坡 AI 云公司 Megaspeed 高管 Alice Huang（黄乐），怀疑她借与英伟达 CEO 黄仁勋的密切接触，为中国收集英伟达的计划以及游说特朗普政府放宽对华芯片出口的信息。报道还称，特朗普约一年前已获知相关情报，但未采取行动，部分原因是保护英伟达股价，以及他与黄仁勋关系密切。上述指控均未获独立证实。\n\n英伟达否认这一说法，称 Megaspeed 只是其区域云客户之一，黄乐与公司官员的接触属例行往来，云客户仅获得普通商业信息，不涉及国家安全相关信息；关于 Megaspeed 将 AI 芯片转运至中国的指控“去年已被彻底调查并证伪”，公司也未收到华盛顿方面的任何预警。此前美国商务部曾调查 Megaspeed 涉嫌向中国转售受限芯片。\n\n美国国会三个委员会的主席已致函黄仁勋，要求他就与黄乐的接触作闭门简报。",
+      "summary": "DeepSeek Harness 官方 11 月 5 日公布，截至 11 月 4 日，其日活跃用户为 154 万，日消耗 Token 约 92 万亿，月活跃用户为 548 万；这些数据仅统计官方 API 用户。官方同时宣布将建设官方插件市场，并介绍面向插件作者的支持计划，但未公布上线时间和具体规则。\n\nBloomberg 后续报道称，Harness 是 DeepSeek 的开源智能体应用，上线不到 3 个月日活即达 154 万，同样只统计官方 API 用户；其 7 日均值从 9 月 30 日桌面版发布后的 27.1 万增长而来。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"
+      "story_url": "https://aihot.virxact.com/story/beeed02c-39ef-4d69-8610-5a1fba11d413"
     },
     {
       "rank": 6,
-      "title": "OpenAI 110亿美元首笔融资到账，估值1.25万亿",
-      "list_title": "OpenAI 110亿美元首笔融资到账，估值1.25万亿",
+      "title": "苹果施压加速Siri智能体化改造",
+      "list_title": "苹果施压加速Siri智能体化改造",
       "heat": null,
-      "heat_change": "↓ 20 %",
+      "heat_change": "↑ 53 %",
       "sources": [],
-      "summary": "据 Bloomberg 援引知情人士报道，OpenAI 新一轮融资的首笔约 110 亿美元已由投资者打款，投后估值 1.25 万亿美元。TechCrunch 称，这轮融资尚未关闭，预计数周内完成，总额可能约 200 亿美元。\n\nThe Decoder 称，OpenAI 原计划以 1.4 万亿美元估值融资 300 亿美元，因 AI 板块抛售而缩水；投资方包括 Coatue、SoftBank、红杉、a16z 等，另在通过投行引入富裕个人投资者。The Verge 提到，OpenAI 今年 3 月曾以 8520 亿美元估值融资 1220 亿美元。本轮最终募资总额和估值仍取决于能否按预期完成。",
+      "summary": "据彭博社记者马克·古尔曼报道，苹果 CEO John Ternus 正施压 AI 负责人 Craig Federighi 加快 Siri 路线图，目标是推出能对标 OpenAI 的 Dots、Meta 的 Muse 和 Grok 的 AI 智能体。\n\n古尔曼称，这款 Siri 将从响应命令转向主动管理任务、代表用户完成事务，并具备控制第三方应用和执行持续任务的能力。他称苹果计划最早明年推出该代理式 Siri。\n\n目前尚无具体的上线范围或功能可用性信息。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/fba07069-fd3e-44bd-ad2d-f347f820dab3"
+      "story_url": "https://aihot.virxact.com/story/a1b6af96-fbdf-4779-80a9-0ca55270818c"
     },
     {
       "rank": 7,
+      "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
+      "list_title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
+      "heat": null,
+      "heat_change": "↓ 28 %",
+      "sources": [],
+      "summary": "OpenAI 发布 Images 2.6，ChatGPT 首次能直接生成 GIF 动图：用户可用提示词或上传图片生成，并调整播放速度、逐帧编辑和分享。该功能随 Images 2.6 向所有套餐的 ChatGPT 和 Codex 用户推送，覆盖网页、桌面和移动端；新版还支持保存人物、宠物或角色的参考图，供后续创作复用。\n\nAPI 同步上线两款图像模型：GPT-Image-2.6 Flare 主打速度，low 画质下最快 6 秒出图；GPT-Image-2.6 Sunburst 主打中高质量与多次编辑间的细节一致性。OpenAI 称两者生成速度比前代快 50%，并支持图像标记与 SVG 导出。据 MarkTechPost 引述模型页面，两款模型按 token 计费且价格相同：文本输入每百万 token 5 美元、图像输入 8 美元、图像输出 30 美元，调整复杂度不另收费。fal、Higgsfield、Krea 等第三方平台也已上线该模型，Higgsfield 对 Pro、Plus、Max、Ultra 套餐的新用户提供 7 天无限使用。\n\n性能数据存…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/37046dc2-8e44-4949-965c-ef07dbd0b13e"
+    },
+    {
+      "rank": 8,
+      "title": "OpenAI 称三项科学突破，物理证明未公开引呼吁",
+      "list_title": "OpenAI 称三项科学突破，物理证明未公开引呼吁",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "OpenAI 宣布其 AI 在数学、计算机科学和物理三个领域取得突破：数学上给出所有维度局部光滑猜想的证明，并称由此解决挂谷猜想与斯坦因限制猜想；计算机科学上给出反驳指数时间假说（ETH）的证明；物理上提出量子色动力学及标准模型一种完备化的存在性证明，涉及杨–米尔斯千禧年难题的一部分。\n\n发布方式因领域而异。数学成果已公开 AI 原始输出，供研究者自行解释；计算机科学成果由 OpenAI 组织外部专家“shepherd”解释；物理成果则完全未公开，OpenAI 称将交由外部专家组决定如何发布。数学与计算机科学的证明还被翻译成 Lean 供逐步验证。\n\n物理成果的搁置引发反弹：数学与人工智能顾问小组（AGMAI）公开呼吁 OpenAI 立即公布杨–米尔斯相关证明的自然语言与 Lean 输出。ETH 反驳也受到质疑，Anthropic 数学家称其基于已有工作，随后 Anthropic 亦发布了 ETH 反驳。OpenAI CEO Sam Altman 表示同情受冲击的研究者，但称世界有权理解宇宙运行方式，OpenAI 不会停止发布。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/d79cd457-4d11-436e-954d-430d2aab4438"
+    },
+    {
+      "rank": 9,
       "title": "Nous Research 微调 Qwen 推出 Arete-27B",
       "list_title": "Nous Research 微调 Qwen 推出 Arete-27B",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↓ 21 %",
       "sources": [],
       "summary": "Nous Research 对阿里巴巴 Qwen3.8-27B 做纯监督微调，发布开源权重模型 Arete-27B，权重、评测和训练数据均公开，采用与基座模型一致的 Apache 2.0 许可。\n\nNous Research 称，该模型旨在体现“西方价值观”而非北京的官方立场。在其自建的 803 条提示评测中，含宣传内容的回答占比从 22% 降至 0.9%，事实得分从 2.32 升至 2.98。这些数字来自 Nous Research 自己的评测，并非独立验证的效果。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/4648eb5b-d72a-42ef-ae63-e963d1fccca0"
     },
     {
-      "rank": 8,
-      "title": "xAI 称 Grok Bot 的 token 效率修复正在进行",
-      "list_title": "xAI 称 Grok Bot 的 token 效率修复正在进行",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "xAI 正在修复 Grok Bot，目标是提升 token 效率并让行为更智能。Elon Musk 在其 X 账号上称修复工作“正在进行中”；Grok Bot 相关账号 @mattyp 随后也发帖称 token 效率与行为方面的改进正在进行，并请在该帖下回复反馈，称会全部阅读。\n\n目前公开信息只有这两句表态，没有披露修复的具体内容、适用范围或完成时间，也没有给出效率提升幅度的数据。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/0d0f5f1f-b3ea-4b0f-bd3c-f6735cd0b4dc"
-    },
-    {
-      "rank": 9,
-      "title": "Meta在Muse推出spaces并升级模型",
-      "list_title": "Meta在Muse推出spaces并升级模型",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "Meta在Muse应用中推出spaces：用户描述规划器、追踪器、游戏等需求，Muse会直接在应用内生成可交互的类应用体验，用户可决定它放在哪个标签页、何时显示。Meta称spaces自发布起在Muse所有可用地区开放，连接相关应用后会在后台更新价格、日期等信息；分享空间以支持协作仍在探索中。\n\n同日，扎克伯格称Meta为Muse和Meta AI升级模型，把Muse Wonder中的Active Memory和Active Focus开放给所有用户。Meta称，新专用模型在Muse中遗忘关键信息的概率降低2.4倍，约束变化时摆脱卡壳的改善为67%；在Meta AI中则能更好地拆解复杂问题、提出更精准的追问并适应用户改变方向。这些效果数据来自Meta方面的说法。\n\nIT之家报道称，Muse中的新模型优先向订阅用户开放，订阅价格为每月20美元或100美元，Muse Wonder Full仅面向Muse Code订阅用户开放。Meta研究博客另称，该专用模型使Personal Superintelligence Index得分从38%提升到47%。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/5bb5d3ee-b9ff-4cb4-8df8-d487d6bc5b78"
-    },
-    {
       "rank": 10,
-      "title": "GPT-6.1 Sol参与小鼠脑手术定位实验",
-      "list_title": "GPT-6.1 Sol参与小鼠脑手术定位实验",
+      "title": "姚顺雨称AI护城河在产品层而非模型层",
+      "list_title": "姚顺雨称AI护城河在产品层而非模型层",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↑ 18 %",
       "sources": [],
-      "summary": "Exin Therapeutics 联合创始人兼 CEO 加布里埃尔·奥卡尼亚-桑特罗称，GPT-6.1 Sol 连续三次参与活体小鼠脑部手术中的 Bregma 和 Lambda 解剖标志定位，定位误差从 0.6 毫米降至 0.3 毫米。\n\n据《WIRED》报道，每次操作由外科医生纠正后保存图像与测量数据，供下一次参考。该结果由奥卡尼亚-桑特罗于 11 月 5 日在 X 上公布，目前仅涉及小鼠实验中的标志定位环节。",
+      "summary": "腾讯首席 AI 科学家姚顺雨在 2026 未来科学大奖对话中表示，AI 模型的护城河更多存在于产品层，而不是模型层。他认为真正难以替代的是能理解用户背景、利用专有数据和上下文并获得用户信任的 AI 产品。\n\n他以微信为例称，即便竞争对手推出更聪明的模型，也未必知道用户是谁，难以提供同样服务。这一判断针对的是模型公司如何建立竞争壁垒，而非模型能力本身。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/6eeb5785-1785-4258-bcdf-95eccfdc5d8c"
+      "story_url": "https://aihot.virxact.com/story/2d1a9fd7-93a0-4838-873a-2e22221233fb"
     }
   ]
 }
