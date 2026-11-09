@@ -1,53 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-11-08</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-11-09</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-11-08T22:00:32Z</updated>
+  <updated>2026-11-09T07:42:13Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Groq寻求80亿美元估值融资</title>
-    <link href="https://www.techinasia.com/nvidia-ai-chip-startup-groq-35b-valuation"/>
-    <id>tag:weekly-report,2026:event-5d5f1798</id>
-    <published>2026-11-08T00:00:00Z</published>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia-backed Groq seeks $8b valuation in new round&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英伟达支持的AI芯片初创公司Groq在新一轮融资中寻求80亿美元估值&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI芯片初创公司Groq获英伟达支持并寻求高估值，反映AI推理芯片赛道资本热度持续上升&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>分析指初创进入印尼常低估税务问题</title>
+    <link href="https://e27.co/entering-indonesia-the-tax-issues-startups-underestimate-20261106/"/>
+    <id>tag:weekly-report,2026:event-f10f08fe</id>
+    <published>2026-11-09T00:00:00Z</published>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Entering Indonesia? The tax issues startups underestimate&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27发布分析文章，指出外国初创企业进入印尼市场时常低估的税务合规问题&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印尼市场准入税务合规复杂度高，为跨境财税服务商和本地合规顾问带来机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>CoreWeave请求得州允许数据中心完工</title>
-    <link href="https://thenextweb.com/news/coreweave-texas-hinojosa-data-centre-letter"/>
-    <id>tag:weekly-report,2026:event-24a0b00c</id>
-    <published>2026-11-08T00:00:00Z</published>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;CoreWeave asks Texas governor-elect to let permitted data centres finish&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI云服务商CoreWeave致信得州当选州长，请求允许已获批的数据中心项目继续建设完工。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI算力数据中心建设受地方政策扰动，CoreWeave在得州的扩张节奏影响GPU云服务交付能力与供应链订单&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>Coinbase联手Morpho推出黄金抵押USDC贷款</title>
+    <link href="https://fintechnews.sg/140761/crypto/coinbase-gold-backed-loans-paxg-morpho/"/>
+    <id>tag:weekly-report,2026:event-d6948ac5</id>
+    <published>2026-11-09T00:00:00Z</published>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Coinbase Taps Morpho to Offer Gold-Backed USDC Loans&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Coinbase与Morpho合作推出以黄金背书代币PAXG为抵押的USDC贷款产品&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;加密借贷引入黄金背书资产，DeFi与传统商品资产融合，为RWA赛道提供新用例&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>英国拟将Vinted和eBay纳入青少年社媒禁令</title>
-    <link href="https://thenextweb.com/news/uk-under-16-social-media-ban-vinted-ebay"/>
-    <id>tag:weekly-report,2026:event-eef95e6a</id>
-    <published>2026-11-08T00:00:00Z</published>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;UK may add Vinted and eBay to its under-16 social media ban&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英国政府正考虑将二手电商平台Vinted和eBay纳入其针对16岁以下用户的社交媒体禁令范围。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;英国监管扩大对青少年网络使用的限制范围至电商平台，二手电商需增加年龄验证与合规技术投入&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>Kling AI融资约4800亿日元，估值2.8万亿日元</title>
+    <link href="https://36kr.jp/504188/"/>
+    <id>tag:weekly-report,2026:event-caaedf7d</id>
+    <published>2026-11-09T00:00:00Z</published>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;動画生成AI「Kling AI」、約4800億円を調達　評価額は2.8兆円、香港IPOも視野&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;视频生成AI公司Kling AI完成约4800亿日元融资，估值达2.8万亿日元，并考虑香港IPO&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国视频生成AI大额融资并筹划港股IPO，算力采购和内容生态合作机会显著&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Unfold CEO谈企业数据壁垒与AI落地</title>
-    <link href="https://thenextweb.com/news/unfold-ran-cherniavsky-enterprise-data-ai-adoption"/>
-    <id>tag:weekly-report,2026:event-42886a32</id>
-    <published>2026-11-08T00:00:00Z</published>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Unfold CEO Ran Cherniavsky on breaking down enterprise data barriers to AI adoption&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;企业数据平台Unfold CEO Ran Cherniavsky分享观点，探讨如何打破企业数据壁垒以推动AI落地应用。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;企业数据孤岛是AI落地核心瓶颈，数据集成与治理工具厂商在欧美企业AI采购中具备合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>泰国SEC对Bitget、VCEX和Coins TH采取监管行动</title>
+    <link href="https://fintechnews.sg/140790/thailand/thai-sec-bitget-vcex-coins-th/"/>
+    <id>tag:weekly-report,2026:event-4926db15</id>
+    <published>2026-11-09T00:00:00Z</published>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Thai SEC Takes Action Against Bitget, VCEX and Coins TH&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;泰国证券交易委员会对加密货币交易所Bitget、VCEX及Coins TH采取监管行动，具体措施涉及合规审查或处罚&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;泰国SEC对多家加密交易所出手，东南亚加密合规门槛抬升，合规技术服务商和持牌交易平台将获相对优势&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>腾讯AI负责人警告模型将带来生物风险</title>
-    <link href="https://thenextweb.com/news/tencent-yao-shunyu-ai-biology-risk-hy4"/>
-    <id>tag:weekly-report,2026:event-f3d3b1e7</id>
-    <published>2026-11-08T00:00:00Z</published>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Tencent AI chief warns models will soon pose biology risks, SCMP reports&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;腾讯AI负责人姚顺雨公开警告，AI模型很快将具备引发生物安全风险的能力，呼吁行业提前建立防护机制。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;腾讯AI高管公开提示AI生物安全风险，中国大模型厂商在安全对齐与合规治理上的投入将上升，安全评估服务商迎合作窗口&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>e27观点：'接近'是战略而非停滞</title>
+    <link href="https://e27.co/almost-is-a-strategy-not-a-stall-20261105/"/>
+    <id>tag:weekly-report,2026:event-6f3f28d2</id>
+    <published>2026-11-09T00:00:00Z</published>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;“Almost” is a strategy, not a stall&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27发表观点文章，论述&amp;#x27;接近完成&amp;#x27;应被视为战略而非停滞&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚创业方法论讨论，反映区域创投节奏与执行文化，对早期投资判断有参考价值&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>报告称AI在银行业已广泛采用</title>
+    <link href="https://fintechnews.sg/140623/ai/ai-reaches-widespread-adoption-among-banks/"/>
+    <id>tag:weekly-report,2026:event-0dc6b561</id>
+    <published>2026-11-09T00:00:00Z</published>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AI Reaches Widespread Adoption Among Banks&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;一份行业报告显示AI在银行业已实现广泛采用，覆盖风控、客服、运营等多个业务环节&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;银行业AI采用率跨过临界点，亚太银行科技供应商和AI风控、客服解决方案商将迎来新一轮采购预算释放&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>中国大学因隐私争议停用AI注意力追踪</title>
+    <link href="https://e.vnexpress.net/news/tech/tech-news/top-chinese-university-stops-using-ai-to-track-students-attention-after-privacy-backlash-5142383.html"/>
+    <id>tag:weekly-report,2026:event-422660c3</id>
+    <published>2026-11-09T00:00:00Z</published>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Top Chinese university stops using AI to track students&amp;#x27; attention after privacy backlash&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国一所顶尖大学在隐私争议后停止使用AI追踪学生注意力&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国教育AI隐私监管收紧，注意力追踪类产品面临合规风险，教育AI供应商需调整方案&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：越南 | 来源：VnExpress Tech&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-11-09</title>
@@ -55,6 +71,6 @@
     <id>tag:weekly-report,2026:aihot-e810d0b9</id>
     <published>2026-11-09T00:00:00Z</published>
     <updated>2026-11-09T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-09T01:38&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"&gt;Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/37046dc2-8e44-4949-965c-ef07dbd0b13e"&gt;OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/8fc0b0a8-b3ab-41e8-a159-697ec636264d"&gt;Anthropic 34亿美元接手1.7GW燃气发电机组&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/a983842e-37eb-436c-9026-711d2fa63657"&gt;Anthropic 拆解 Claude 智能体记忆机制&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"&gt;纽时称中国情报人员接近黄仁勋，英伟达否认，国会要求简报&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-09T11:14&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"&gt;纽时称中国情报人员接近黄仁勋，英伟达否认并启动调查&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/8fc0b0a8-b3ab-41e8-a159-697ec636264d"&gt;Anthropic 34亿美元接手1.7GW燃气发电机组&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"&gt;Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/0d0f5f1f-b3ea-4b0f-bd3c-f6735cd0b4dc"&gt;xAI 连夜修复 Grok Bot，承诺次日显著改善&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/beeed02c-39ef-4d69-8610-5a1fba11d413"&gt;DeepSeek Harness日活154万，将建插件市场&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
