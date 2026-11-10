@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T05:57:27+08:00",
+  "generated_at": "2026-11-10T12:54:40+08:00",
   "fetched_date": "2026-11-10",
   "source": {
     "name": "AIHOT 热点榜",
@@ -9,12 +9,12 @@
   "items": [
     {
       "rank": 1,
-      "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，日常仍建议 Opus 5.5",
-      "list_title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，日常仍建议 Opus 5.5",
+      "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
+      "list_title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
       "heat": null,
-      "heat_change": "↑ 7005 %",
+      "heat_change": "↑ 24 %",
       "sources": [],
-      "summary": "Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2，称两者在编码、推理和视觉方面有提升，输出速度比 Fable 5.1 快最多 30%。Fable 5.2 即日起在 Pro、Max、Team、Enterprise 等付费方案、Claude Platform 及各大云平台可用，标准价格为每百万输入 token 8 美元、输出 token 40 美元，低于此前的 10 美元和 50 美元；但官方仍建议大多数编程和知识类任务从 Opus 5.5 起步，Fable 和 Mythos 更适合最具野心、开放式的技术工作。Addy Osmani 称 Fable 5.2 token 消耗量大，按单个任务计算成本与 Fable 5.1 大致相同，尽管单价便宜了 20%。\n\n第三方评测中，Artificial Analysis 称 Fable 5.2 以 65 分登顶其 Intelligence Index v5，领先 Gemini 4 Carbon（60）和 Opus 5.5（59）；ARC Prize 公布其在 A…",
+      "summary": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者基于同一底层模型，主打编码、推理和视觉提升。Fable 5.2 已在所有付费方案、Claude Platform 及主要云平台上线，标准价格为每百万输入 token 8 美元、输出 token 40 美元，较 Fable 5.1 的 10 美元和 50 美元下降 20%；Mythos 移除了部分安全限制，仅向通过网络安全或生命科学验证计划申请的组织开放。\n\n第三方评测中，Artificial Analysis 称 Fable 5.2 以 65 分登顶其 Intelligence Index v5，领先 Gemini 4 Carbon（60）和 Opus 5.5（59）；ARC Prize 公布其在 ARC-AGI-2 上得分 93.8%，为见过的第三高，仅次于 GPT-6 Astra 的 95.0% 和 GPT-6.1 Sol 的 94.2%；Arena 称 Fable 5.2 (xHigh) 以 1832 分登顶 Code Arena: We…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1"
     },
@@ -25,18 +25,18 @@
       "heat": null,
       "heat_change": "",
       "sources": [],
-      "summary": "英伟达董事会11月8日宣布启动独立调查，起因是《纽约时报》《金融时报》等报道称，公司创始人兼CEO黄仁勋成为外国情报行动的目标。调查由独立董事组成的委员会在外部律师协助下进行，黄仁勋表示全力配合；董事会称目前“没有理由认为”国家安全或公司机密已受损。黄仁勋随后在内部信中承认与涉事高管Alice Huang存在婚外情。\n\n报道称，Alice Huang是新加坡数据中心运营商Megaspeed的高管，美国情报机构认为她受中国国家安全部招募，借与黄仁勋的密切接触获取英伟达计划及对华芯片出口政策信息；相关说法来自匿名信源和一份在美方官员间传阅的备忘录。英伟达此前否认相关指控，称Megaspeed只是区域云客户，双方属例行商业往来，芯片转运指控“去年已被彻底调查并证伪”。\n\n美国众议院三个委员会已要求黄仁勋就与Alice Huang的往来作闭门简报。英伟达法兰克福上市股票在消息后一度跌超6%；耶鲁教授Sonnenfeld估计黄仁勋留任概率约为50-50。黄仁勋目前仍留任CEO，并已退出原定本周三在纽约举行的ElevenLabs Summit及其他演讲安排。",
+      "summary": "英伟达董事会11月8日启动独立调查，起因是《纽约时报》《金融时报》等报道称，公司创始人兼CEO黄仁勋成为外国情报行动的目标。调查由独立董事组成的委员会在外部律师协助下进行，黄仁勋表示全力配合；董事会称目前“没有理由认为”国家安全或公司机密已受损。黄仁勋随后在内部信中承认与涉事高管Alice Huang存在婚外情。\n\n报道称，Alice Huang是新加坡数据中心运营商Megaspeed的高管，美国情报机构认为她受中国国家安全部招募，借与黄仁勋的密切接触获取英伟达计划及对华芯片出口政策信息；相关说法来自匿名信源和一份在美方官员间传阅的备忘录。英伟达此前否认相关指控，称Megaspeed只是区域云客户，双方属例行商业往来，芯片转运指控“去年已被彻底调查并证伪”。\n\n美国众议院三个委员会已要求黄仁勋就与Alice Huang的往来作闭门简报。英伟达法兰克福上市股票在消息后一度跌超6%；耶鲁教授Sonnenfeld估计黄仁勋留任概率约为50-50。黄仁勋目前仍留任CEO，并已退出原定本周三在纽约举行的ElevenLabs Summit及其他演讲安排。做空…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"
     },
     {
       "rank": 3,
-      "title": "Google一年内交付四款第八代TPU",
-      "list_title": "Google一年内交付四款第八代TPU",
+      "title": "Google 一年内交付四款第八代 TPU",
+      "list_title": "Google 一年内交付四款第八代 TPU",
       "heat": null,
-      "heat_change": "↑ 33 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "Google 扩展第八代 TPU 产品线，新增 TPU 8i Max 和 TPU 8tx 两款系统，使一年内发布的第八代 TPU 系统总数达到四款。Google 称这四款系统覆盖智能体生命周期的各个阶段。\n\nTPU 8i Max 在单封装内放置两颗 TPU 8i 芯片，使同机架的算力、SRAM 和 HBM 带宽翻倍，面向超大上下文窗口和单机架最高算力密度；TPU 8tx 基于 TPU 8t 芯片，主打机密推理，数据与模型权重在使用过程中保持加密隔离，延迟较 TPU 8t 最多降低 2 倍。AMD CEO 苏姿丰称，AMD EPYC 担任 TPU 8tx 的主机处理器，MarkTechPost 称其为第五代 EPYC。\n\nGoogle 同时表示正在升级面向开发者的统一、开放软件栈，并称 TorchTPU 可原生运行 PyTorch 与 Hugging Face 模型且无需改写代码、开源 TPU Sync 将 KV 传输延迟降低超 90%、Agent Compute Engine 减少闲置算力。MarkTechPost 称，两款新系统均未公布绝对规格…",
+      "summary": "Google 扩展第八代 TPU 产品线，新增 TPU 8i Max 和 TPU 8tx 两款系统，使一年内发布的第八代 TPU 系统总数达到四款。Google 称这是首次在一年内推出四款不同的 TPU 系统，并称这四款系统覆盖智能体生命周期的各个阶段。\n\nTPU 8i Max 面向超大上下文窗口和单机架最高算力密度，将两颗 TPU 8i 芯片封装在一起，算力、SRAM 和 HBM 带宽均翻倍；TPU 8tx 面向安全与机密推理，数据与模型权重在使用中保持加密隔离，延迟较 TPU 8t 最多降低 2 倍。AMD CEO 苏姿丰称 AMD EPYC 担任 TPU 8tx 的主机处理器。\n\n配套软件方面，Google 称 TorchTPU 可原生运行 PyTorch 和 Hugging Face 模型且无需改写代码，开源 TPU Sync 将 KV 传输延迟降低 90% 以上，Agent Compute Engine 用于减少闲置算力。两款新系统均未公布绝对规格、基准测试、价格和可用区域。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/4a64f241-8892-4af9-9d8a-d75c99724c71"
     },
@@ -45,9 +45,9 @@
       "title": "Meta 发布轻量模型 Muse Ember，主打低成本智能体任务",
       "list_title": "Meta 发布轻量模型 Muse Ember，主打低成本智能体任务",
       "heat": null,
-      "heat_change": "↑ 1149 %",
+      "heat_change": "↑ 25 %",
       "sources": [],
-      "summary": "Meta Superintelligence Lab 发布轻量模型 Muse Ember，称其为该公司最小、最高效的模型，面向工具调用、编码子任务、路由、信息抽取和长文档解析等智能体高频任务。该模型在 Meta Model API 和 Muse Code 上线，定价为每百万输入 token 0.10 美元、每百万输出 token 0.50 美元，缓存输入为每百万 token 0.004 美元；Meta 称其可搭配更大的 Muse Wonder 模型在智能体框架中协同工作。OpenCode 和 OpenRouter 随后宣布该模型已在其平台上线。\n\nArtificial Analysis 的评测显示，Muse Ember 在 Intelligence Index 上得 36 分，与 Claude Haiku 5.5 (max) 持平，每任务成本 0.14 美元，约为后者 0.41 美元的三分之一。Meta 引用该结果称其性能与 Claude Haiku 5.5 相当、成本约为三分之一，并称在 GPT-6 Luna 所有推理设置下得分均高于 Luna…",
+      "summary": "Meta Superintelligence Lab 发布其最小、最高效的模型 Muse Ember，面向工具调用、编码子任务、路由、信息抽取和长文档解析等智能体高频任务。该模型已在 Meta Model API 和 Muse Code 上线，定价为每百万输入 token 0.10 美元、每百万输出 token 0.50 美元，缓存输入每百万 token 0.004 美元；Meta 称其可搭配更大的 Muse Wonder 模型协同工作。OpenCode 和 OpenRouter 随后宣布该模型已在其平台上线。\n\nArtificial Analysis 的评测显示，Muse Ember 在 Intelligence Index 上得 36 分，与 Claude Haiku 5.5 (max) 持平，每任务成本 0.14 美元，约为后者 0.41 美元的三分之一。Meta 引用该结果称其性能与 Claude Haiku 5.5 相当、成本约为三分之一，并称在 GPT-6 Luna 所有推理设置下得分均高于 Luna；这些对比说法来自 Meta 的引…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/c9508ded-f5e2-404c-b983-fdd61423c85a"
     },
@@ -56,7 +56,7 @@
       "title": "字节发布 Seedream 5.5 图像模型",
       "list_title": "字节发布 Seedream 5.5 图像模型",
       "heat": null,
-      "heat_change": "↑ 42 %",
+      "heat_change": "",
       "sources": [],
       "summary": "字节跳动 Seed 团队发布图像创作模型 Seedream 5.5，主打像素级可控编辑。官方称，围绕同一作品最多可连续编辑 100 轮，未改动区域在像素级保持不变、不偏色；模型可原生输出带 Alpha 通道的 RGBA 透明素材，最多 100 层透明分层，并改善光照、材质、皮肤纹理和密集小字渲染。\n\n定价方面，火山引擎称 2K 方图编辑单张 0.28 元，不到 Seedream 5.0 Pro 的一半，生成速度快近 40%，文本 Token 免费；API 延续“输入图 + 输出图”两段计费，本周上线火山方舟。C 端用户可在即梦、豆包、豆包工作体验，Seedream 5.5 系列后续计划推出 Pro 版本。上述性能与价格均为发布方说法。",
       "original_links": [],
@@ -64,58 +64,58 @@
     },
     {
       "rank": 6,
-      "title": "xAI 连夜修复 Grok Bot 并重置周限额",
-      "list_title": "xAI 连夜修复 Grok Bot 并重置周限额",
+      "title": "Anthropic 拟感恩节前 IPO，估值预期降至 1.25–1.75 万亿美元",
+      "list_title": "Anthropic 拟感恩节前 IPO，估值预期降至 1.25–1.75 万亿美元",
       "heat": null,
-      "heat_change": "↑ 20 %",
+      "heat_change": "↑ 107 %",
       "sources": [],
-      "summary": "xAI 正在修复 Grok Bot 的 token 效率与行为问题，并已为所有用户重置每周使用限额。Elon Musk 称，他刚与 Grok @Bot 工程团队复盘，修复正在连夜实施，用户“明天应该会看到显著改善”；若未见改善，可回复其帖子，团队会立即处理剩余问题。Grok Bot 相关账号 @mattyp 此前也称改进正在进行，并请用户在该帖下回复反馈。\n\n11 月 10 日，Grok Bot 官方账号 @bot 称已为所有 Grok Bot 用户重置每周使用限额，@mattyp、xAI 的 Eric Zakariasson 及 Grok Bot 工程负责人 Lauren Tan 也确认了重置。\n\n修复的具体内容、适用范围和完成时间尚未披露，也没有效率提升幅度的数据；“显著改善”是 Musk 的预期，尚未得到验证。",
+      "summary": "Anthropic 仍在推进感恩节前上市，拟募资 800–1000 亿美元，目标估值 1.25 万亿–1.75 万亿美元。据《金融时报》援引投资者消息，CEO 阿莫迪已接受低于此前预期的估值水平；公司 9 月曾瞄准最高 2 万亿美元。据 WSJ，公司本周将设定估值区间，计划下周四或周五挂牌，部分机构投资者仍希望估值低于上周讨论的 1.5 万亿美元。\n\n估值下调发生在投资者质疑之后。据 Reuters 和 WSJ，投资者认为 1.5 万亿美元过高，有人提出仅 1 万亿美元，并怀疑原定下周启动的路演能否如期进行，还在等待更新文件未包含的 10 月营收数据。\n\n公司此前公开提交 S-1，拟在纳斯达克以代码 ANT 发行 A 类股，由高盛和摩根士丹利承销。更新后的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%；算力与基础设施合同承诺约 8954 亿美元，另有最高 1750 亿美元尚未定价。上市后，长期受益信托可任命七名董事中的四席…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/0d0f5f1f-b3ea-4b0f-bd3c-f6735cd0b4dc"
+      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
     },
     {
       "rank": 7,
-      "title": "Anthropic 34亿美元购入1.7GW燃气发电机组",
-      "list_title": "Anthropic 34亿美元购入1.7GW燃气发电机组",
+      "title": "xAI 连夜修复 Grok Bot 并重置周限额",
+      "list_title": "xAI 连夜修复 Grok Bot 并重置周限额",
       "heat": null,
-      "heat_change": "↑ 37 %",
+      "heat_change": "↑ 14 %",
       "sources": [],
-      "summary": "Anthropic 以34亿美元购入总功率1.7GW的 Caterpillar 燃气发电机组，为已知 AI 公司最大一笔发电设备采购。这批订单原属圣安东尼奥供应商 OnePWR Solutions，两年前下单，因融资失败由 Anthropic 接手；由于下单早于涨价，设备将在未来两年内交付。\n\nTechCrunch 称，此举意味着 Anthropic 放弃以往租用算力的做法；OnePWR 在 S-1 文件中披露，此前以每月12.5亿美元租用 xAI 算力至2029年5月。\n\n报道未披露机组部署地点及供电对象。",
+      "summary": "xAI 正在连夜修复 Grok Bot 的 token 效率与行为问题，并已为所有用户重置每周使用限额。Elon Musk 称，他刚与 Grok @Bot 工程团队复盘，修复正在连夜实施，用户“明天应该会看到显著改善”；若未见改善，可回复其帖子，团队会立即处理剩余问题。Grok Bot 相关账号 @mattyp 此前也称改进正在进行，并请用户在该帖下回复反馈。\n\n11 月 10 日，Grok Bot 官方账号 @bot 称已为所有 Grok Bot 用户重置每周使用限额，@mattyp、xAI 的 Eric Zakariasson 及 Grok Bot 工程负责人 Lauren Tan 也确认了重置。\n\n修复的具体内容、适用范围和完成时间尚未披露，也没有效率提升幅度的数据；“显著改善”是 Musk 的预期，尚未得到验证。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/8fc0b0a8-b3ab-41e8-a159-697ec636264d"
+      "story_url": "https://aihot.virxact.com/story/0d0f5f1f-b3ea-4b0f-bd3c-f6735cd0b4dc"
     },
     {
       "rank": 8,
       "title": "迪士尼与Adobe合作开发定制生成式AI模型",
       "list_title": "迪士尼与Adobe合作开发定制生成式AI模型",
       "heat": null,
-      "heat_change": "↑ 132 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "迪士尼与Adobe在Adobe MAX大会上宣布多年期合作，将基于Adobe的Firefly Foundry为迪士尼开发专有的“艺术家主导”生成式AI模型，用于其制作流程。Adobe称，该模型将基于迪士尼的角色、场景和视觉风格训练，产出可商用、可用于制作的内容。\n\n根据合作，迪士尼将获得Adobe最新技术的早期访问权限，覆盖范围包括迪士尼主题公园、邮轮业务和ESPN内容。双方强调模型面向迪士尼自有资产，由艺术家主导。",
+      "summary": "迪士尼与Adobe在Adobe MAX大会上宣布多年期合作，Adobe将基于Firefly Foundry为迪士尼开发专有的“艺术家主导”生成式AI模型，用于迪士尼的制作流程。Adobe称，该模型将基于迪士尼的角色、场景和视觉风格训练，产出可商用、可用于制作的内容。\n\n根据合作，迪士尼将获得Adobe最新技术的早期访问权限，覆盖迪士尼主题公园、邮轮业务和ESPN内容。Adobe同时成为迪士尼的官方AI创新合作伙伴，计划将AI工具推广至主题乐园、内容制作和体育内容传播等领域。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/1f7bc83b-0722-496f-bb5c-73f3f496580a"
     },
     {
       "rank": 9,
-      "title": "阿里千问办公2.0发布，支持多人与Agent协作",
-      "list_title": "阿里千问办公2.0发布，支持多人与Agent协作",
+      "title": "Anthropic 34亿美元购入1.7GW燃气发电机组",
+      "list_title": "Anthropic 34亿美元购入1.7GW燃气发电机组",
       "heat": null,
       "heat_change": "↓ 16 %",
       "sources": [],
-      "summary": "钉钉发布千问办公 2.0，定位为面向个人与组织协作的 Team Agent，支持多人与 Agent 在同一工作群内协作。据钉钉官方消息，目前所有功能已在千问办公客户端全量上线。\n\n这一版本把 Agent 从个人助手扩展为可加入工作群的协作成员，面向组织内多人共同使用。",
+      "summary": "Anthropic 以34亿美元购入总功率1.7GW的 Caterpillar 燃气发电机组，为已知 AI 公司最大一笔发电设备采购。这批订单原属圣安东尼奥供应商 OnePWR Solutions，两年前下单，因融资失败由 Anthropic 接手；由于下单早于涨价，设备将在未来两年内交付。\n\nTechCrunch 称，此举意味着 Anthropic 放弃以往租用算力的做法；OnePWR 在 S-1 文件中披露，此前以每月12.5亿美元租用 xAI 算力至2029年5月。\n\n报道未披露机组部署地点及供电对象。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/b7a32f59-262c-4fdc-a9c3-87ac393965c3"
+      "story_url": "https://aihot.virxact.com/story/8fc0b0a8-b3ab-41e8-a159-697ec636264d"
     },
     {
       "rank": 10,
-      "title": "AI Studio 支持用提示词构建 Maps 应用",
-      "list_title": "AI Studio 支持用提示词构建 Maps 应用",
+      "title": "OpenAI 上架 Codex 版 ModRetro Chromatic 插件",
+      "list_title": "OpenAI 上架 Codex 版 ModRetro Chromatic 插件",
       "heat": null,
-      "heat_change": "↑ 1062 %",
+      "heat_change": "↑ 56 %",
       "sources": [],
-      "summary": "Google 宣布，用户现在可以在 Google AI Studio 中直接构建由 Google Maps Platform 驱动的应用：用提示词描述想法，AI Studio 会自动完成配置和 API 密钥管理，无需信用卡。\n\n该功能设有每日配额，每个 API 每天 100 次调用、每 24 小时重置；若要用于生产环境，则需绑定付费的 Cloud 结算账户。\n\nGoogle 员工 Ammaar Reshi 在社交平台称，这套“开箱即用”体验让基于 Google 生态构建应用变得更容易。",
+      "summary": "OpenAI 在 Supply Co. 上架了 Codex 版 ModRetro Chromatic 插件。OpenAI Developers 称，借助该插件，用户可以在 Codex 中设计关卡、制作精灵动画，并在掌机上试玩，同时由 Codex 构建 ROM。\n\nOpenAI Developers 称该产品库存有限，并附上购买链接，提示“趁库存还在”获取。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/4f7d01c1-1bde-4f90-8ecf-7c63a9db3695"
+      "story_url": "https://aihot.virxact.com/story/e50e8b6d-ba6f-43d0-8c38-fe89dcce581f"
     }
   ]
 }
