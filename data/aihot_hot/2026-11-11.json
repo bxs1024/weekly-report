@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-11-11T03:21:38+08:00",
+  "fetched_date": "2026-11-11",
+  "source": {
+    "name": "AIHOT 热点榜",
+    "url": "https://aihot.virxact.com/hot",
+    "note": "过去 48 小时最热的 AI 事件，按精选报道与讨论热度实时排序。本页为全球 AI 视野补充，点击跳转原始来源。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
+      "list_title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者基于同一底层模型，主打编码、推理和视觉能力。Fable 5.2 当日起向所有付费计划开放，并上线 Claude Platform 及 AWS、Google Cloud、Microsoft Azure 等主要云平台；Mythos 5.2 移除部分安全限制，仅向通过网络安全或生命科学验证计划申请的组织开放。Fable 5.2 定价为每百万输入 token 8 美元、输出 token 40 美元，较 Fable 5.1 的 10/50 美元下降 20%，上下文 1M。\n\n多项第三方评测显示 Fable 5.2 登顶：Artificial Analysis Intelligence Index v5 以 65 分居首，领先 Gemini 4 Carbon（60）和 Claude Opus 5.5（59）；Arena Code Arena: WebDev 以 1832 分排名第一；ARC-AGI-2 得分 93.8%，为 ARC Prize 见过的第三高…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1"
+    },
+    {
+      "rank": 2,
+      "title": "英伟达董事会调查黄仁勋涉情报事件",
+      "list_title": "英伟达董事会调查黄仁勋涉情报事件",
+      "heat": null,
+      "heat_change": "↓ 10 %",
+      "sources": [],
+      "summary": "英伟达董事会11月8日启动独立调查，起因是《纽约时报》《金融时报》等报道称，公司创始人兼CEO黄仁勋成为外国情报行动的目标。调查由独立董事组成的委员会在外部律师协助下进行，黄仁勋表示全力配合；董事会称目前“没有理由认为”国家安全或公司机密已受损。黄仁勋随后在内部信中承认与涉事高管Alice Huang存在婚外情。\n\n报道称，Alice Huang是新加坡数据中心运营商Megaspeed的高管，美国情报机构认为她受中国国家安全部招募，借与黄仁勋的密切接触获取英伟达计划及对华芯片出口政策信息；相关说法来自匿名信源和一份在美方官员间传阅的备忘录。英伟达此前否认相关指控，称Megaspeed只是区域云客户，双方属例行商业往来，芯片转运指控“去年已被彻底调查并证伪”。The Information最新报道称，Alice Huang与丈夫和姐姐在中国和新加坡建立采购网络，涉及75亿美元英伟达硬件流向中国买家。\n\n美国众议院三个委员会已要求黄仁勋就与Alice Huang的往来作闭门简报。英伟达法兰克福上市股票在消息后一度跌超6%；耶鲁教授Sonnenfeld…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic启动IPO路演，估值预期降至1.25–1.75万亿美元",
+      "list_title": "Anthropic启动IPO路演，估值预期降至1.25–1.75万亿美元",
+      "heat": null,
+      "heat_change": "↑ 26 %",
+      "sources": [],
+      "summary": "Anthropic 已启动 IPO 路演，拟发行 8.25 亿股 A 类普通股，其中公司发售约 8.01 亿股、现有股东出售约 2365 万股，公司不获后者所得；发行价区间为每股 70–78 美元，拟在纳斯达克以代码 ANT 上市。据路透社公布的招股说明书草案，公司计划通过 IPO 筹集最多 644 亿美元，并向谷歌、英伟达和 AMD 等基石投资者私募融资 260 亿美元，计入博通、美光、微软和台积电等出资后募资规模最高可达 904 亿美元。\n\n据《金融时报》援引投资者消息，公司拟募资 800–1000 亿美元，目标估值 1.25 万亿–1.75 万亿美元，CEO 阿莫迪已接受低于此前预期的估值；公司 9 月曾瞄准最高 2 万亿美元。据 WSJ，公司本周将设定估值区间，计划下周四或周五挂牌，部分机构投资者仍希望估值低于上周讨论的 1.5 万亿美元。\n\n估值下调发生在投资者质疑之后。据 Reuters 和 WSJ，投资者认为 1.5 万亿美元过高，有人提出仅 1 万亿美元，并怀疑原定下周启动的路演能否如期进行，还在等待更新文件未包含的 10 月营收…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
+    },
+    {
+      "rank": 4,
+      "title": "Google 开放 Gemini 4 Carbon，Perplexity 同步上线",
+      "list_title": "Google 开放 Gemini 4 Carbon，Perplexity 同步上线",
+      "heat": null,
+      "heat_change": "↑ 803 %",
+      "sources": [],
+      "summary": "Google 正式发布 Gemini 4 Carbon，称其为最强推理模型，面向持续智能体编码、多模态知识工作、科学推理和网络安全防御。此前两周，该模型仅提供给部分网络安全防御者；现在通过 Gemini API、Google AI Studio 和 Gemini for business 向所有付费开发者和企业开放，并向所有 Google AI Ultra 订阅者在 Gemini 应用、搜索 AI Mode 和 Antigravity 中提供。据 The Verge 报道，较低档订阅者和免费用户何时可用尚不明确。Google 称 2026 年 11 月 30 日前提供入门价：每 100 万输入 token 2.00 美元、每 100 万输出 token 10.00 美元。\n\nThe Decoder 指出，Carbon 与 Gemini 4 Argon 的 token 单价相同，但 Carbon 推理消耗更多 token，实际总成本可能更高。\n\nPerplexity 随后宣布向所有 Pro 和 Max 订阅者推出该模型，可用于创建持久 Teamma…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/e16f5d00-5477-42b8-83d3-4162e0262249"
+    },
+    {
+      "rank": 5,
+      "title": "Meta 发布轻量模型 Muse Ember，主打低成本智能体任务",
+      "list_title": "Meta 发布轻量模型 Muse Ember，主打低成本智能体任务",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Meta Superintelligence Lab 发布其最小、最高效的模型 Muse Ember，面向工具调用、编码子任务、路由、信息抽取和长文档解析等智能体高频任务。该模型已在 Meta Model API 和 Muse Code 上线，定价为每百万输入 token 0.10 美元、每百万输出 token 0.50 美元，缓存输入每百万 token 0.004 美元；Meta 称其可搭配更大的 Muse Wonder 模型协同工作。OpenCode 和 OpenRouter 随后宣布该模型已在其平台上线。\n\nArtificial Analysis 的评测显示，Muse Ember 在 Intelligence Index 上得 36 分，与 Claude Haiku 5.5 (max) 持平，每任务成本 0.14 美元，约为后者 0.41 美元的三分之一。Meta 引用该结果称其性能与 Claude Haiku 5.5 相当、成本约为三分之一，并称在 GPT-6 Luna 所有推理设置下得分均高于 Luna；这些对比说法来自 Meta 的引…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/c9508ded-f5e2-404c-b983-fdd61423c85a"
+    },
+    {
+      "rank": 6,
+      "title": "字节发布 Seedream 5.5 图像模型，豆包与 Krea 接入",
+      "list_title": "字节发布 Seedream 5.5 图像模型，豆包与 Krea 接入",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "字节跳动 Seed 团队发布图像创作模型 Seedream 5.5，主打像素级可控编辑。官方称，围绕同一作品最多可连续编辑 100 轮，未改动区域在像素级保持不变、不偏色；模型可原生输出带 Alpha 通道的 RGBA 透明素材，最多 100 层透明分层，并改善光照、材质、皮肤纹理和密集小字渲染。\n\n豆包随后宣布图片设计能力升级，正式接入该模型；Krea 也宣布 Seedream 5.5 已在其平台可用。定价方面，火山引擎称 2K 方图编辑单张 0.28 元，不到 Seedream 5.0 Pro 的一半，生成速度快近 40%，文本 Token 免费；API 延续“输入图 + 输出图”两段计费，本周上线火山方舟。C 端用户可在即梦、豆包、豆包工作体验，Seedream 5.5 系列后续计划推出 Pro 版本。上述性能与价格均为发布方说法。\n\n另有测评作者称，将 Seedream 5.5 与 GPT Image 2.6 用同一张底图连续修改 30 轮，Seedream 5.5 只改动指定区域且画质稳定，Image 2.6 出现人物形变和画面整体漂移…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/2b6190d7-3612-47d1-9e63-d75e50b8604d"
+    },
+    {
+      "rank": 7,
+      "title": "Google 一年内交付四款第八代 TPU",
+      "list_title": "Google 一年内交付四款第八代 TPU",
+      "heat": null,
+      "heat_change": "↓ 11 %",
+      "sources": [],
+      "summary": "Google 扩展第八代 TPU 产品线，新增 TPU 8i Max 和 TPU 8tx 两款系统，使一年内发布的第八代 TPU 系统总数达到四款。Google 称这是首次在一年内推出四款不同的 TPU 系统，并称这四款系统覆盖智能体生命周期的各个阶段。\n\nTPU 8i Max 面向超大上下文窗口和单机架最高算力密度，将两颗 TPU 8i 芯片封装在一起，算力、SRAM 和 HBM 带宽均翻倍；TPU 8tx 面向安全与机密推理，数据与模型权重在使用中保持加密隔离，延迟较 TPU 8t 最多降低 2 倍。AMD CEO 苏姿丰称 AMD EPYC 担任 TPU 8tx 的主机处理器。\n\n配套软件方面，Google 称 TorchTPU 可原生运行 PyTorch 和 Hugging Face 模型且无需改写代码，开源 TPU Sync 将 KV 传输延迟降低 90% 以上，Agent Compute Engine 用于减少闲置算力。两款新系统均未公布绝对规格、基准测试、价格和可用区域。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/4a64f241-8892-4af9-9d8a-d75c99724c71"
+    },
+    {
+      "rank": 8,
+      "title": "Claude 新增白板、表格与数据三类 artifact",
+      "list_title": "Claude 新增白板、表格与数据三类 artifact",
+      "heat": null,
+      "heat_change": "↑ 1593 %",
+      "sources": [],
+      "summary": "Anthropic 为 Claude 新增 Claude Whiteboards、Claude Sheets 和 Claude Data 三种 artifact 类型。Whiteboards 和 Sheets 以测试版上线，可在网页、桌面和移动端使用；此前的 Claude Dashboards 转为正式可用，并更名为 Claude Data。三者面向所有付费计划开放，在 Team 计划中默认开启；在 Enterprise 计划中，Whiteboards 和 Sheets 默认关闭，Data 将于 2026 年 11 月 19 日默认开启。\n\nClaude 官方账号称，三款产品从 11 月 11 日起陆续推出：Whiteboards 用于把讨论中的计划整理成团队可编辑的白板，Sheets 用于生成可继续编辑的表格或预算，Data 用于基于指标起草数据故事和带解说的视频，供用户审阅后再分享。Certified queries 和 live sharing 目前处于 beta 阶段。\n\nAnthropic 同时升级交互式连接器，合作方应用可直接嵌入 C…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/29e37b58-ab35-4bcf-b318-20b0e5a3290d"
+    },
+    {
+      "rank": 9,
+      "title": "MiniMax 发布 H3-Image 并开放权重，多家平台接入",
+      "list_title": "MiniMax 发布 H3-Image 并开放权重，多家平台接入",
+      "heat": null,
+      "heat_change": "↑ 1031 %",
+      "sources": [],
+      "summary": "MiniMax 发布图像生成模型 H3-Image 并开放模型权重。该模型基于 H3，支持文生图、图像参考和图像编辑，可在 10 秒内生成 4096×4096 像素（约 16MP）图像，最多支持 16 张参考图。MiniMax 称其速度最高达主流方案的 5 倍、指令遵循能力为开源模型中最强。\n\n模型已通过 MiniMax 的 API、MiniMax Code 和 Hailuo AI 提供，权重可在 Hugging Face 获取。发布首周，4K 及以上分辨率（官方另一表述为 16MP 及以上规格）的生成请求按官方价格五折计费。\n\nComfyUI 宣布原生支持该模型，可本地运行，也可通过 Partner Nodes 使用，支持 6 步采样、最高 4096×4096 输出，单个 checkpoint 同时覆盖文生图和参考图编辑；fal 也上线了该模型，提供文生图和图像编辑接口，并称其支持任意宽高比的原生 16MP 分辨率、约 15 秒完成 2K 图像编辑。fal 另称未来两周在该平台可免费生成。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/7c20f4ef-fe04-4eca-8355-554fa5df4366"
+    },
+    {
+      "rank": 10,
+      "title": "虚实传媒首次在X发布北京六岗招聘",
+      "list_title": "虚实传媒首次在X发布北京六岗招聘",
+      "heat": null,
+      "heat_change": "↑ 26 %",
+      "sources": [],
+      "summary": "虚实传媒创始人卡兹克首次在X上为公司发布招聘，开放技术/艺术内容主笔、深度报道作者、视频编导、广告客户执行、品牌项目经理、达人运营6个岗位，工作地在北京，提供16薪、五险一金、不打卡考勤和弹性工作，简历投至HR@virxact.com。\n\n卡兹克称，公司现有30多人，签约独家AI博主300+，客户覆盖国内几乎所有AI相关公司；团队全员使用Claude或Codex Coding优化岗位流程，AI会员订阅费由公司报销。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/2a8ab25e-4eff-4873-8b94-a826310b395b"
+    }
+  ]
+}
