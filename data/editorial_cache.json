@@ -1131,29 +1131,29 @@
       "generated_at": "2026-11-09 06:00"
     },
     "weekly:2026-W46": {
-      "input_hash": "9314f9a33e990fd68e6785ff5f0fe123acaf4ca3b91a399b82735969e3518398",
+      "input_hash": "31197e93e6434a12075157618ee249f501bf71b7de206b1526752938b9e7bf9d",
       "editorial": {
-        "editorial_title": "主权AI与支付基建双线并进",
-        "mainline": "腾讯云推出主权AI私有云方案，Databricks强化欧洲数据主权，AI基础设施正从通用算力转向合规主权部署；同时加拿大实时支付上线、PNC推企业稳定币服务，支付网络加速重构。两条线共同指向：出海BD需优先卡位本地合规与支付通道。",
+        "editorial_title": "主权AI与支付变局：出海新切口",
+        "mainline": "腾讯云推出主权AI私有云方案，瞄准政府与国企数据合规需求；同时GCash母公司Mynt转型借贷主导，东南亚数字信贷与风控合作窗口打开。两条线共同指向：合规化AI基建与嵌入式金融正成为出海BD的新杠杆。",
         "themes": {
-          "ai_infra": "腾讯云发布主权AI全栈私有云方案，瞄准政府与国企数据合规；ChatGPT Enterprise上线AWS Marketplace，亚马逊推文本到购物AI代理，德国电信扩AI数据中心容量。云与AI的交付形态正从公有API转向可嵌入客户环境的私有化与市场渠道。",
-          "payments": "加拿大实时支付系统正式上线，PNC推出企业稳定币支付服务，苹果欧盟新iOS条款生效开放第三方应用商店；中东Tabby扩张资金业务并推进沙特IPO与HUMAIN项目。支付轨道与消费金融资金端同步重构，区域市场准入窗口正在打开。",
-          "expansion": "Lngshot与Kakao、AMG达成合作，借韩国平台与娱乐资源加速用户获取；新加坡金融机构金融科技合作标准分析、e27评论与加拿大游戏产业报告同期发布。亚太内容分发与金融科技合作正从单点试水转向渠道绑定。",
-          "operations": "Square Enix Q1利润大增，FF7重生多平台发布验证跨主机渠道增量；MercadoLibre增长战略考验利润率，Grab与Shopify同期新增工程与平台岗位。内容发行向多平台迁移，电商与出行平台则在利润压力下加码技术组织。",
-          "compliance": "泰国央行暂停新货币兑换商牌照发放至2027年，SEC对Bitget、VCEX和Coins TH采取监管行动；Databricks承诺强化欧洲数据主权，Meta在亚太扩展Instagram AI年龄验证。牌照与数据合规门槛同步抬高，持牌机构竞争格局趋于固化。",
-          "developer": "e27分析印尼市场税务合规陷阱，提示ICT企业出海需前置配置本地财税系统；Cloudflare设立Vite生态基金，加注前端开发者工具链。开发者生态的资金与合规基础设施正成为区域扩张的隐性门槛。"
+          "ai_infra": "腾讯云发布主权AI全栈私有云方案，直接回应政府与国企的数据合规诉求；同期报告显示各国央行正加速AI采购。菲律宾创业生态转向单人+AI代理模式，反映融资萎缩下的效率替代。AI采购推荐开始影响B2B品牌可见度，渠道规则生变。",
+          "payments": "GCash创纪录季度后，Mynt明确转型为借贷主导，东南亚数字银行风控合作窗口打开。Tabby扩张资金业务并重置沙特IPO，PNC推出企业稳定币支付，苹果欧盟新iOS条款生效开放第三方应用商店，支付入口与资金层同时松动。",
+          "expansion": "Kakao Mobility携手英伟达开发自动驾驶起亚车，将韩国出行平台与车载AI芯片供应链直接绑定。新加坡金融机构金融科技合作标准分析出炉，Sumary获2500万美元种子轮，亚太自动驾驶与金融科技合作标准同步推进。",
+          "operations": "Square Enix Q1利润大增，FF7 Rebirth多平台发布验证跨平台策略，带动游戏开发与云游戏基建需求。MercadoLibre增长战略考验利润率，Grab与Shopify同期新增工程与平台岗位，组织资源向平台能力倾斜。",
+          "compliance": "泰国央行暂停新货币兑换商牌照至2027年，现有持牌机构竞争格局固化；泰国SEC同时对Bitget、VCEX和Coins TH采取监管行动。Databricks承诺强化欧洲数据主权，Meta在亚太扩展Instagram AI年龄验证，合规门槛正重塑市场准入。",
+          "commerce": "标致在Naver商店上线试驾预约，汽车品牌借韩国超级应用平台完成数字化销售闭环。TikTok Shop独立应用上线，印尼在首批名单，内容电商入口进一步独立。Poppi创始人推出新补水品牌Jetty，消费品牌孵化节奏加快。"
         },
         "theme_titles": {
-          "ai_infra": "主权AI私有云落地，云厂商竞逐合规算力",
-          "payments": "实时支付与稳定币并行，支付基建密集升级",
-          "expansion": "韩流内容联手Kakao，亚太渠道合作升温",
-          "operations": "游戏多平台发行见效，电商平台扩招工程岗",
-          "compliance": "泰国收紧兑换牌照，数据主权监管加码",
-          "developer": "印尼税务合规成出海暗礁，Vite生态获基金"
+          "ai_infra": "腾讯云推主权AI私有云，央行加速AI投入",
+          "payments": "GCash母公司转借贷主导，稳定币支付扩围",
+          "expansion": "Kakao Mobility联合英伟达开发自动驾驶起亚车",
+          "operations": "Square Enix多平台发行见效，Grab扩招工程岗",
+          "compliance": "泰国暂停兑换牌照，Databricks强化欧洲主权",
+          "commerce": "标致入驻Naver商店，TikTok Shop独立应用上线"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-11-10 09:33"
+      "generated_at": "2026-11-10 16:04"
     }
   }
 }
