@@ -1,22 +1,29 @@
 {
-  "observed_at": "2026-11-10T15:58:35.551427+08:00",
+  "observed_at": "2026-11-11T07:07:24.547833+08:00",
   "source_count": 3,
-  "raw_count": 48,
+  "raw_count": 50,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 4,
-      "inventory_count": 17,
-      "signal_count": 0,
-      "added_count": 2,
-      "removed_count": 2,
+      "count": 10,
+      "inventory_count": 19,
+      "signal_count": 1,
+      "added_count": 6,
+      "removed_count": 4,
       "clusters": {
-        "engineering": 1
+        "ai": 2,
+        "engineering": 2,
+        "operations": 2,
+        "sales": 1
       },
-      "removed_clusters": {}
+      "removed_clusters": {
+        "ai": 1,
+        "engineering": 1,
+        "operations": 1
+      }
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
@@ -45,6 +52,101 @@
       "removed_clusters": {}
     }
   },
-  "candidate_signals": [],
-  "promoted_count": 0
+  "candidate_signals": [
+    {
+      "candidate_id": "jobs-69110bfcada40712",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "ai",
+      "window": "2026-W46",
+      "window_start": "2026-11-11",
+      "window_end": "2026-11-11",
+      "detected_at": "2026-11-11T07:07:24.547833+08:00",
+      "baseline_count": 17,
+      "current_count": 19,
+      "added_count": 6,
+      "removed_count": 4,
+      "clusters": {
+        "ai": 2,
+        "engineering": 2,
+        "operations": 2,
+        "sales": 1
+      },
+      "removed_clusters": {
+        "ai": 1,
+        "engineering": 1,
+        "operations": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000160903579",
+          "title": "Senior Principal Data Scientist (Fulfilment)",
+          "url": "https://www.grab.careers/en/jobs/744000160903579/senior-principal-data-scientist-fulfilment/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000160903099",
+          "title": "Senior Principal Machine Learning Engineer (Fulfilment)",
+          "url": "https://www.grab.careers/en/jobs/744000160903099/senior-principal-machine-learning-engineer-fulfilment/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000160902078",
+          "title": "Senior Machine Learning Engineer (Fulfilment)",
+          "url": "https://www.grab.careers/en/jobs/744000160902078/senior-machine-learning-engineer-fulfilment/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000160898999",
+          "title": "Senior Manager, Grab Support Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000160898999/senior-manager-grab-support-strategy/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000160861909",
+          "title": "Merchant Business Growth, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000160861909/merchant-business-growth-assistant-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000160817439",
+          "title": "Quality Governance Specialist, Merchant Core Operations",
+          "url": "https://www.grab.careers/en/jobs/744000160817439/quality-governance-specialist-merchant-core-operations/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000160140551",
+          "title": "Senior Principal Machine Learning Engineer (Fulfilment)",
+          "url": "https://www.grab.careers/en/jobs/744000160140551/senior-principal-machine-learning-engineer-fulfilment/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000160141843",
+          "title": "Senior Principal Data Scientist (Fulfilment)",
+          "url": "https://www.grab.careers/en/jobs/744000160141843/senior-principal-data-scientist-fulfilment/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000160126829",
+          "title": "Intern, Occupational Health, Safety, & Wellbeing",
+          "url": "https://www.grab.careers/en/jobs/744000160126829/intern-occupational-health-safety-wellbeing/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000160118419",
+          "title": "Assistant Manager, Driver Operations",
+          "url": "https://www.grab.careers/en/jobs/744000160118419/assistant-manager-driver-operations/",
+          "change": "removed"
+        }
+      ],
+      "status": "qualified",
+      "rejection_reason": "",
+      "promoted_event_id": ""
+    }
+  ],
+  "promoted_count": 1
 }
