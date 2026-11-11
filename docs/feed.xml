@@ -1,333 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-11-10</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-11-11</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-11-10T23:14:58Z</updated>
+  <updated>2026-11-11T07:35:47Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>AutoSwift融资近$6.9M</title>
-    <link href="https://www.techinasia.com/news/australian-ai-startup-autoswift-raises-69m"/>
-    <id>tag:weekly-report,2026:event-24b79097</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Australian AI startup AutoSwift raises nearly $6.9m&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;澳大利亚AI初创公司AutoSwift完成近690万美元融资&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太澳大利亚AI初创AutoSwift获近690万美元融资，区域AI应用层早期投资活跃&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>泰国SEC提议众筹平台费率最高降80%</title>
+    <link href="https://fintechnews.sg/140944/thailand/thailand-crowdfunding-fees/"/>
+    <id>tag:weekly-report,2026:event-a4b8b0d8</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Thai SEC Proposes Up to 80% Fee Cuts for Crowdfunding Platforms&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;泰国SEC提议将众筹平台费率最高下调80%，以降低融资成本并激活中小企业的众筹融资渠道&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;泰国众筹平台费率大幅下调，将刺激东南亚中小企业的替代融资需求，利好本地众筹平台和支付通道&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>软银与Grab拟投$1.85B于马来西亚AI基建</title>
-    <link href="https://dealstreetasia.com/stories/softbank-grab-malaysia-ai-infra-500556/"/>
-    <id>tag:weekly-report,2026:event-5f44ed11</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;SoftBank, Grab plan $1.85bn investment in Malaysia AI infrastructure&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;软银与Grab计划联合向马来西亚AI基础设施投资18.5亿美元。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚AI基础设施获日系资本与超级应用联合注资，数据中心、云服务和算力采购机会明确&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：DealStreetAsia&lt;/p&gt;</summary>
+    <title>新加坡报告：超90%成年人使用PayNow</title>
+    <link href="https://fintechnews.sg/140677/fintech/singapore-fintech-report-2026-summary/"/>
+    <id>tag:weekly-report,2026:event-5c02b37c</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Singapore Fintech Report 2026: Over 90% of Adults Are On PayNow, What Comes Next?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡2026金融科技报告显示超90%成年人使用PayNow，报告探讨该高渗透率之后的下一阶段发展方向&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡PayNow渗透率超90%，意味着实时支付基础设施已成熟，下一阶段机会在跨境互联和增值服务层&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Zoho Analytics新增AI代理与数据层</title>
-    <link href="https://www.techinasia.com/news/indias-zoho-adds-ai-agents-data-layers-analytics"/>
-    <id>tag:weekly-report,2026:event-bb25dd69</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;India’s Zoho adds AI agents and data layers to Analytics&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度SaaS公司Zoho在其Analytics产品中新增AI代理和数据层功能&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度SaaS厂商Zoho为Analytics加入AI代理，BI工具AI化竞争加剧，亚太企业数据分析采购机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>全球银行联合投入$270M组建稳定币合资项目</title>
+    <link href="https://fintechnews.sg/140927/digitalassets/banks-us-dollar-stablecoin/"/>
+    <id>tag:weekly-report,2026:event-47f4c428</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Global Banks Commit US$270 Million to Joint Stablecoin Venture&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;多家全球银行联合承诺投入2.7亿美元组建合资稳定币项目，推动机构级美元稳定币基础设施建设&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美银行业联合布局稳定币基础设施，将带动托管、清算、合规技术供应商的采购需求&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：北美 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>亚马逊押注南非线上中小企业增长</title>
-    <link href="https://techcabal.com/2026/11/10/amazon-south-africa-smes/"/>
-    <id>tag:weekly-report,2026:event-899f83e9</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Amazon sees South Africa’s online small businesses as its next growth opportunity&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;亚马逊将南非线上中小企业视为下一阶段增长机会，计划加大对该市场的卖家生态投入&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚马逊南非电商生态扩张，为当地物流、支付和卖家服务商带来接入合作机会&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：strategy | 地区：非洲 | 来源：TechCabal&lt;/p&gt;</summary>
+    <title>Sand.ai融资约300亿日元晋级独角兽</title>
+    <link href="https://36kr.jp/504245/"/>
+    <id>tag:weekly-report,2026:event-becd9bb3</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;中国の動画生成AI「Sand.ai」、約300億円を調達　ユニコーン入り&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国视频生成AI公司Sand.ai完成约300亿日元融资，晋级独角兽&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国视频生成AI公司获大额融资晋级独角兽，视频AI基础设施与内容生态合作机会扩大&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Venmo推出收据扫描拆分账单功能</title>
-    <link href="https://www.finextra.com/newsarticle/48735/venmo-launches-receipt-scanning-feature-for-bill-splitting?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-a973644d</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Venmo launches receipt scanning feature for bill splitting&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;支付平台Venmo推出收据扫描功能，用户可通过扫描纸质收据自动拆分账单&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美支付平台Venmo用AI扫描增强社交支付体验，OCR与账单识别技术供应商迎集成机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
+    <title>Reddit用AI将用户帖转为1万产品评论</title>
+    <link href="https://thenextweb.com/news/reddit-turns-user-threads-into-ai-reviews-for-10000-products"/>
+    <id>tag:weekly-report,2026:event-40831388</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Reddit turns user threads into AI reviews for 10,000 products&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Reddit将用户讨论帖转化为AI生成的评论内容，覆盖1万款产品&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Reddit将UGC数据资产化，为电商导购和AI搜索提供新数据源，可能开放API合作&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sumary获$25M种子轮融资</title>
-    <link href="https://thenextweb.com/news/sumary-25m-seed-ai-accounting"/>
-    <id>tag:weekly-report,2026:event-7477d450</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Sumary raises $25M in what it calls Europe’s largest accounting seed round&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;欧洲AI会计公司Sumary完成2500万美元种子轮融资，称其为欧洲最大会计种子轮&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI会计赛道获大额种子轮，AI财务自动化工具需求上升，会计SaaS合作与集成机会增加&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>快速调研平台替代传统市场研究公司</title>
+    <link href="https://www.techinasia.com/replacing-legacy-market-research-firms-fast-surveys"/>
+    <id>tag:weekly-report,2026:event-c455c91d</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Replacing legacy market research firms with fast surveys&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新兴快速调研平台以更快速度替代传统市场研究公司&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太市场研究行业被轻量化调研工具颠覆，数据采集和消费者洞察预算正在转移&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Oura以$625M收购AI初级保健公司Counsel Health</title>
-    <link href="https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/"/>
-    <id>tag:weekly-report,2026:event-233daeb7</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Oura to acquire AI-native primary care startup Counsel Health for $625M&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;智能戒指厂商Oura宣布以6.25亿美元收购AI原生初级保健初创公司Counsel Health。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;可穿戴设备厂商Oura收购AI医疗初创，标志健康硬件向AI医疗服务闭环延伸，数字健康AI合作与并购机会增加&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
+    <title>CPI 0.4%致比特币跌破$73000</title>
+    <link href="https://e27.co/cpi-at-0-4-broke-bitcoins-us73000-floor-what-happens-if-the-fed-goes-bigger-20261111/"/>
+    <id>tag:weekly-report,2026:event-88ee3bee</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;CPI at 0.4% broke Bitcoin’s US$73,000 floor. What happens if the Fed goes bigger?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27分析美国CPI升至0.4%导致比特币跌破73000美元关口，并探讨美联储若加大加息力度的后续影响&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国通胀数据超预期冲击加密市场，东南亚加密交易平台和Web3项目短期流动性承压，需关注美联储政策路径&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：北美 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Hedepy获€4M风险债务融资用于并购</title>
-    <link href="https://www.therecursive.com/czech-mental-health-platform-hedepy-raises-eur4m-in-venture-debt-to-fund-acquisitions/"/>
-    <id>tag:weekly-report,2026:event-1a0530cb</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Czech Mental Health Platform Hedepy Raises €4M in Venture Debt to Fund Acquisitions&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;捷克心理健康平台Hedepy获得400万欧元风险债务融资，用于支持并购活动。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;捷克心理健康平台Hedepy以风险债务融资支持并购，欧洲数字心理健康赛道整合加速，相关SaaS与远程医疗合作机会增加&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：The Recursive&lt;/p&gt;</summary>
+    <title>泰国SEC拟推ICO投资者知识测试新规</title>
+    <link href="https://fintechnews.sg/140974/thailand/thailand-sec-ico-portal-knowledge-test/"/>
+    <id>tag:weekly-report,2026:event-d7022535</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Thai SEC Proposes New Standards for ICO Investor Tests&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;泰国SEC提出ICO投资者知识测试新标准，规范ICO门户准入&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;泰国加密监管框架细化，ICO合规门槛提高将影响东南亚数字资产融资渠道&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Clara获$105M C轮融资</title>
-    <link href="https://latamlist.com/clara-raises-105m-series-c-round/"/>
-    <id>tag:weekly-report,2026:event-ed3d5f94</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Clara raises $105M Series C round&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;拉美企业支出管理平台Clara完成1.05亿美元C轮融资&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;拉美企业支出管理平台Clara获1.05亿美元C轮，拉美B2B金融科技赛道资金持续流入&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：拉美 | 来源：LatamList&lt;/p&gt;</summary>
+    <title>Vaice One日本IT周获近100线索</title>
+    <link href="https://koreatechdesk.com/vaice-one-japan-it-week-2026-ai-memorial"/>
+    <id>tag:weekly-report,2026:event-cbd4f415</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Vaice One Collects Nearly 100 Leads at Japan IT Week 2026, Targeting AI Memorial Partnerships&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Vaice One在日本IT Week 2026上收集近100条线索，目标拓展AI纪念服务合作伙伴&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;韩国AI纪念服务商在日本IT展获大量线索，AI纪念场景亚太合作机会显现&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：KoreaTechDesk&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>MOSI获约240亿日元融资开发读空气AI</title>
-    <link href="https://36kr.jp/503951/"/>
-    <id>tag:weekly-report,2026:event-3afa86df</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AIは「黙るべき時」が分かるか　中国MOSI、「空気を読むAI」開発で約240億円調達&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国AI公司MOSI开发能判断沉默时机的&amp;#x27;读空气AI&amp;#x27;，完成约240亿日元融资&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI公司MOSI开发社交情境感知AI，情感计算与多模态交互赛道融资升温，API合作机会增加&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
+    <title>Sea在AI云扩张中优先软件</title>
+    <link href="https://e.vnexpress.net/news/tech/personalities/singapore-billionaire-forrest-li-s-sea-prioritizes-software-over-data-centers-in-ai-cloud-expansion-5143213.html"/>
+    <id>tag:weekly-report,2026:event-1e10c3b2</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Singapore billionaire Forrest Li’s Sea prioritizes software over data centers in AI cloud expansion&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡富豪Forrest Li旗下Sea在AI云扩张中优先发展软件而非数据中心&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Sea选择软件优先的AI云路径，东南亚AI云软件层合作机会增加，数据中心投资节奏放缓&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：VnExpress Tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>GCash创纪录季度，Mynt转型为借贷主导</title>
-    <link href="https://e27.co/gcashs-record-quarter-shows-mynt-is-now-a-lender-that-happens-to-run-a-wallet-20261110/"/>
-    <id>tag:weekly-report,2026:event-fd5fd74a</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;GCash’s record quarter shows Mynt is now a lender that happens to run a wallet&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;菲律宾支付平台GCash公布创纪录季度业绩，其母公司Mynt的业务重心已从钱包转向借贷&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;菲律宾支付巨头Mynt信贷业务爆发，东南亚数字银行与风控技术服务商迎来合作窗口&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+    <title>ShopBack接入Meta Muse拒绝亚马逊</title>
+    <link href="https://e27.co/shopbacks-justin-lee-on-why-it-let-metas-muse-in-while-amazon-shut-the-door-20261111/"/>
+    <id>tag:weekly-report,2026:event-c725d847</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;ShopBack’s Justin Lee on why it let Meta’s Muse in while Amazon shut the door&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;东南亚返现平台ShopBack高管Justin Lee解释公司为何接入Meta的Muse广告工具而拒绝亚马逊的合作方案&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚电商流量入口争夺加剧，ShopBack选择Meta生态意味着广告技术合作与返现数据整合机会向Meta系倾斜&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Meta在亚太扩展Instagram AI年龄验证</title>
-    <link href="https://www.techinasia.com/news/meta-expands-ai-age-checks-instagram-apac"/>
-    <id>tag:weekly-report,2026:event-05f11184</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Meta expands AI age checks on Instagram across APAC&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Meta在亚太地区扩展Instagram的AI年龄验证功能，覆盖更多市场以识别未成年用户&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太社交平台监管趋严，AI身份验证技术供应商迎来合规采购窗口&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>Square Enix发布中期经营计划进展报告</title>
+    <link href="https://www.hd.square-enix.com/eng/ir/pdf/20261111_01_en.pdf"/>
+    <id>tag:weekly-report,2026:event-8e45a079</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Square Enix: Nov 11, 2026 Progress Report on the Medium-Term Business Plan (FY2025/3-FY2027/3) 2260KB&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Square Enix发布截至2027年3月中期经营计划的中期进展报告&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本游戏大厂中期计划推进情况披露，游戏IP授权与云游戏合作方向值得关注&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：亚太 | 公司：Square Enix | 来源：Square Enix&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>澳大利亚收紧AI安全监管规则</title>
-    <link href="https://www.mobileworldlive.com/regulation/australia-to-tighten-ai-safety-rules/"/>
-    <id>tag:weekly-report,2026:event-82a382a2</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Australia to tighten AI safety rules&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;澳大利亚政府宣布将收紧AI安全监管规则，加强对AI应用的合规要求&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;澳洲AI监管趋严，AI合规服务商和本地化部署方案需求上升&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Mobile World Live&lt;/p&gt;</summary>
+    <title>Square Enix发布上半财年财报</title>
+    <link href="https://www.hd.square-enix.com/eng/ir/pdf/27q2earnings.pdf"/>
+    <id>tag:weekly-report,2026:event-e499463e</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Square Enix: Nov 11, 2026 Consolidated Financial Results for the Six-Month Period Ended September 30, 2026 270KB&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Square Enix公布截至2026年9月30日的六个月合并财报&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本游戏大厂半年度业绩披露，反映主机与手游业务景气度及后续投资取向&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：亚太 | 公司：Square Enix | 来源：Square Enix&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>AWS承诺$100M支持医疗AI云</title>
-    <link href="https://www.techinasia.com/news/aws-commits-100m-ai-cloud-support-healthcare"/>
-    <id>tag:weekly-report,2026:event-d4a6c6b7</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AWS commits $100m in AI, cloud support for healthcare&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AWS承诺投入1亿美元用于医疗健康领域的AI与云支持&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太AWS投入1亿美元支持医疗AI云，医疗行业云与AI采购预算加速释放&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>新加坡EDGE Grant改变SME软件采购方式</title>
+    <link href="https://e27.co/3-ways-the-edge-grant-changes-how-a-sensible-sme-buys-software-20261106/"/>
+    <id>tag:weekly-report,2026:event-bd3d7631</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;3 ways the EDGE Grant changes how a sensible SME buys software&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27分析新加坡EDGE Grant补贴政策如何改变中小企业采购软件的方式，从一次性买断转向订阅制评估&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡政府补贴推动SME软件采购向订阅制转型，SaaS厂商可借政策红利切入东南亚中小企业市场&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Edgevana获$700M英伟达算力订单</title>
-    <link href="https://www.techinasia.com/news/ai-firm-edgevana-secures-700m-nvidia-compute-deals"/>
-    <id>tag:weekly-report,2026:event-0a98e773</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;US AI firm Edgevana secures $700m Nvidia compute deals&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国AI公司Edgevana获得7亿美元的英伟达算力交易&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美AI公司Edgevana锁定7亿美元英伟达算力，GPU算力采购与转售市场持续扩张&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：北美 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Equity Group用AI预测员工离职以留才</title>
-    <link href="https://techcabal.com/2026/11/10/equity-group-ai-predict-staff-exits/"/>
-    <id>tag:weekly-report,2026:event-cc7f3184</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Equity Group turns to AI to predict staff exits and retain talent&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;肯尼亚Equity Group引入AI工具预测员工离职倾向，用于提前识别流失风险并制定留才措施&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲银行Equity Group将AI用于HR预测分析，为非洲金融业HR SaaS和AI人才管理工具打开采购需求&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：非洲 | 来源：TechCabal&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Raenest收购英国Remitise拓展全球</title>
-    <link href="https://weetracker.com/2026/11/10/raenest-acquires-uk-payments-company-remitise/"/>
-    <id>tag:weekly-report,2026:event-ffad474b</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nigerian Fintech Raenest Acquires UK Payments Company Remitise To Expand Globally&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;尼日利亚金融科技公司Raenest收购英国支付公司Remitise，以拓展全球汇款与支付业务&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;尼日利亚金融科技Raenest通过收购英国支付公司Remitise获取牌照与通道，非洲跨境支付整合加速&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：非洲 | 来源：WeeTracker&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Mohalla Tech FY26亏损扩大79%至₹1,978 Cr</title>
-    <link href="https://inc42.com/buzz/sharechat-parent-mohalla-techs-fy26-loss-widens-79-to-%e2%82%b91978-cr-revenue-inches-past-%e2%82%b91000-cr-mark/"/>
-    <id>tag:weekly-report,2026:event-f48868d2</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;ShareChat Parent Mohalla Tech’s FY26 Loss Widens 79% To ₹1,978 Cr, Revenue Inches Past ₹1,000 Cr Mark&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度社交媒体公司ShareChat母公司Mohalla Tech FY26亏损扩大79%至19.78亿卢比，营收勉强突破10亿卢比。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度社交媒体ShareChat母公司亏损大幅扩大，短视频与社交平台变现压力加剧，印度内容平台融资环境趋紧&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Dr. Martens改造门店重塑品牌</title>
-    <link href="https://www.modernretail.co/operations/brands-briefing-dr-martens-revamps-stores-to-kickstart-growth-and-recontextualize-the-brand/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
-    <id>tag:weekly-report,2026:event-35b358ac</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Brands Briefing: Dr. Martens revamps stores to kickstart growth and ‘recontextualize the brand’&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Dr. Martens改造门店以推动增长并重塑品牌定位&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Dr. Martens门店改造与品牌重塑，为零售数字化、门店体验技术供应商带来合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>AquaBloom获种子轮融资，海藻变气候防护</title>
-    <link href="https://e27.co/aquabloom-raises-seed-funding-to-turn-indonesias-seaweed-into-climate-armour-for-farmers-20261110/"/>
-    <id>tag:weekly-report,2026:event-fd96c738</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AquaBloom raises seed funding to turn Indonesia’s seaweed into climate armour for farmers&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印尼初创公司AquaBloom完成种子轮融资，将海藻转化为气候防护产品以帮助农户应对气候变化&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚农业科技与气候适应赛道获资本关注，海藻供应链和农业保险合作机会显现&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>生命科学初创加速迁往奥地利，聚焦培育皮肤与AI牙科</title>
-    <link href="https://www.therecursive.com/lab-grown-skin-and-ai-for-teeth-why-life-science-startups-move-to-austria/"/>
-    <id>tag:weekly-report,2026:event-8ac37f7a</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Lab-Grown Skin and AI for Teeth: Why Life Science Startups Move to Austria&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;报道分析生命科学初创企业迁往奥地利的原因，涉及实验室培育皮肤和AI牙科等方向。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;奥地利凭借研发政策与成本优势吸引生命科学初创，AI牙科与生物材料赛道在中欧升温，相关供应链与投资机会值得关注&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：欧洲 | 来源：The Recursive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>My.Games获阿联酋投资者支持的管理层收购</title>
-    <link href="https://www.pocketgamer.biz/mygames-agrees-to-management-buyout-backed-by-uae-investor/"/>
-    <id>tag:weekly-report,2026:event-acfbd024</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;My.Games agrees to management buyout backed by UAE investor&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;俄罗斯游戏公司My.Games同意接受由管理层主导的收购，交易获阿联酋投资者支持&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东资本加速进入全球游戏资产，阿联酋投资者通过MBO方式获取游戏公司控制权，中东游戏产业布局升温&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：中东 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Shopify更新Shop资格要求</title>
-    <link href="https://changelog.shopify.com/posts/updated-eligibility-requirements-for-shop"/>
-    <id>tag:weekly-report,2026:event-f5c0cb61</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Shopify: Updated eligibility requirements for Shop&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Shopify更新Shop功能的商家资格要求&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Shopify发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 公司：Shopify | 来源：Shopify Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>新加坡金融机构金融科技合作标准分析</title>
-    <link href="https://e27.co/before-the-licence-what-singapores-regulated-institutions-ask-a-fintech-partner-first-20261106/"/>
-    <id>tag:weekly-report,2026:event-b1bc1d97</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Before the licence: What Singapore’s regulated institutions ask a fintech partner first&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27发布分析文章，梳理新加坡受监管金融机构在选择金融科技合作伙伴时的核心考量标准&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡金融科技合规门槛明确化，为B2B金融科技供应商提供准入参考&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>菲律宾创业生态转向单人+AI代理模式应对融资萎缩</title>
-    <link href="https://e27.co/one-founder-many-agents-the-philippiness-answer-to-a-vanishing-series-a-20261109/"/>
-    <id>tag:weekly-report,2026:event-9a93573d</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;One founder, many agents: The Philippines’s answer to a vanishing Series A&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;文章分析菲律宾创业生态在Series A融资萎缩背景下，出现单人创始人搭配多个AI代理的新型创业模式&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;菲律宾A轮融资萎缩催生AI代理驱动创业模式，AI工具链与外包服务需求上升&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>报告称各国央行加速AI投入</title>
-    <link href="https://fintechnews.sg/140602/ai/central-banks-ramp-up-ai-ambitions-and-efforts/"/>
-    <id>tag:weekly-report,2026:event-3f95d842</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Central Banks Ramp up AI Ambitions and Efforts&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;报告显示各国央行正加大AI投入和应用力度，加速AI在货币政策和金融监管领域的部署&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;央行AI采购需求上升，为亚太AI基础设施和合规科技供应商带来政府级订单机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>英伟达称2025年已切断Megaspeed，彭博发现其仍进口GB300</title>
-    <link href="https://thenextweb.com/news/nvidia-megaspeed-ban-gb300-imports-bloomberg"/>
-    <id>tag:weekly-report,2026:event-963f0642</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia says it cut off Megaspeed in 2025, but Bloomberg found later imports&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英伟达表示已于2025年切断与Megaspeed的合作，但彭博发现后者此后仍继续进口GB300芯片。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;英伟达对Megaspeed的出口管制执行出现漏洞，GB300芯片流向存疑，AI芯片供应链合规风险与转口贸易警示信号明显&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>欧盟拟立法限制游戏战利品箱与成瘾设计</title>
-    <link href="https://www.pocketgamer.biz/leaked-eu-proposal-targets-loot-boxes-and-addictive-game-design/"/>
-    <id>tag:weekly-report,2026:event-368e79df</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Leaked EU proposal targets loot boxes and addictive game design&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;泄露的欧盟提案拟针对游戏中的战利品箱机制和成瘾性设计进行监管，可能对游戏行业商业模式产生约束&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲游戏行业监管收紧，涉及战利品箱和成瘾机制，游戏公司需调整变现模式，合规工具和用户保护技术供应商迎来机会&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>GSMA与非洲联盟合作推进非洲连接覆盖</title>
-    <link href="https://www.mobileworldlive.com/gsma/gsma-africa-union-tackle-continental-connectivity/"/>
-    <id>tag:weekly-report,2026:event-bf6a0de5</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;GSMA, Africa Union tackle continental connectivity&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;GSMA与非洲联盟合作推动非洲大陆网络连接覆盖，聚焦缩小数字鸿沟&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲电信行业政策与基建合作加速，运营商和设备商可参与网络覆盖项目&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：非洲 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Lexroom收购Praven Intelekt后推出法律AI Agent</title>
-    <link href="https://www.therecursive.com/lexroom-launches-legal-ai-agent-two-months-after-praven-intelekt-acquisition/"/>
-    <id>tag:weekly-report,2026:event-8ba79cef</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Lexroom Launches Legal AI Agent Two Months After Praven Intelekt Acquisition&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;欧洲法律AI公司Lexroom在收购Praven Intelekt两个月后，推出法律AI Agent产品。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲法律AI公司Lexroom通过并购整合后快速推出Agent产品，法律科技AI化加速，律所与合规部门采购机会显现&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：The Recursive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Zendesk推出按结果付费的Outcome AI Platform</title>
-    <link href="https://thenextweb.com/news/zendesk-outcome-ai-platform-pay-per-result"/>
-    <id>tag:weekly-report,2026:event-8749c50c</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Zendesk moves to pay-per-result AI pricing with its new Outcome AI Platform&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;客户服务软件公司Zendesk推出Outcome AI Platform，采用按结果付费的AI定价模式。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Zendesk将AI定价从订阅转向按结果付费，客服AI商业模式创新，可能带动CRM与客服SaaS行业定价体系重构&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PNC推出企业稳定币支付服务</title>
-    <link href="https://www.finextra.com/newsarticle/48728/pnc-launches-stablecoin-payments-for-corporate-clients?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-80b4a9be</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;PNC launches stablecoin payments for corporate clients&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国银行PNC面向企业客户推出稳定币支付服务，进入区块链支付领域&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国传统银行加速布局稳定币支付，企业跨境结算场景竞争升温，利好区块链基础设施和合规技术服务商&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>CATL系基金投资AI电力交易公司Green Voltis</title>
-    <link href="https://36kr.jp/504172/"/>
-    <id>tag:weekly-report,2026:event-b8a448f1</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;CATL系ファンド、AI電力取引の「Green Voltis」に出資　元ファーウェイ幹部が創業&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;宁德时代系基金出资AI电力交易公司Green Voltis，该公司由前华为高管创立。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;宁德时代系资本切入AI电力交易，能源交易数字化成为电池与新能源巨头的新投资方向&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Lego Digital Play收购ForthStar工作室</title>
-    <link href="https://www.pocketgamer.biz/lego-digital-play-acquires-golf-clash-founders-forthstar-studio/"/>
-    <id>tag:weekly-report,2026:event-03076f9a</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Lego Digital Play acquires Golf Clash founders’ ForthStar studio&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;乐高数字游戏部门Lego Digital Play收购了Golf Clash创始人创办的ForthStar工作室&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;乐高加速数字游戏布局，收购由Golf Clash创始人创办的工作室，强化移动游戏研发能力，游戏IP与玩具融合趋势加强&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Veon CEO阐述AI战略</title>
-    <link href="https://www.mobileworldlive.com/operators/veon-chief-demystifies-ai/"/>
-    <id>tag:weekly-report,2026:event-a8828229</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Veon chief demystifies AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Veon首席执行官公开阐述AI战略，解读运营商如何应用AI技术&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新兴市场运营商AI转型加速，为AI方案商提供电信行业落地场景&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>美国多州持续推动卡费减免立法</title>
-    <link href="https://www.paymentsdive.com/news/states-keep-targeting-card-fee-relief/874260/"/>
-    <id>tag:weekly-report,2026:event-9cd29002</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;States keep targeting card fee relief&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国多个州持续推动信用卡手续费减免立法&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美美国州级层面持续施压信用卡手续费，收单机构与卡组织费率收入面临监管压缩&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：Payments Dive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Block将向FTC提供数据</title>
-    <link href="https://www.paymentsdive.com/news/block-to-provide-data-to-ftc/874156/"/>
-    <id>tag:weekly-report,2026:event-e6f0a621</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Block to provide data to FTC&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;支付公司Block将向美国联邦贸易委员会提供相关数据&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美支付公司Block配合FTC数据调查，合规成本上升或影响其支付业务运营节奏&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：Payments Dive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>AI采购推荐影响B2B品牌可见度</title>
-    <link href="https://e27.co/when-buyers-ask-an-ai-who-to-buy-from-will-it-name-you-20261106/"/>
-    <id>tag:weekly-report,2026:event-a3cc1e31</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;When buyers ask an AI who to buy from, will it name you?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;文章探讨当采购方通过AI助手询问供应商推荐时，企业品牌是否会被AI提及，分析AI推荐对B2B采购的影响&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI采购助手改变B2B获客入口，SEO与AI可见度优化服务成为东南亚企业新需求&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Grab在本周新增5个工程与平台相关职位</title>
-    <link href="https://www.grab.careers/en/jobs/744000160624459/senior-software-engineer-backend/"/>
-    <id>tag:weekly-report,2026:event-98f1854c</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Grab集中新增5个工程与平台岗位&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;集中招聘显示Grab正在加强工程与平台能力建设，形成可核验的组织投入信号&lt;/p&gt;&lt;p&gt;标签：组织变化 | 类型：strategy | 地区：亚太 | 公司：Grab | 来源：Grab Jobs&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Shopify在本周新增3个工程与平台相关职位</title>
-    <link href="https://www.shopify.com/careers/senior-security-compliance-engineer_386f306c-05fb-4232-85c1-a4bbf5a20997"/>
-    <id>tag:weekly-report,2026:event-e6e69b56</id>
-    <published>2026-11-10T00:00:00Z</published>
-    <updated>2026-11-10T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Shopify集中新增3个工程与平台岗位&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;集中招聘显示Shopify正在加强工程与平台能力建设，形成可核验的组织投入信号&lt;/p&gt;&lt;p&gt;标签：组织变化 | 类型：strategy | 地区：全球 | 公司：Shopify | 来源：Shopify Jobs&lt;/p&gt;</summary>
+    <title>Grab在本周新增6个AI与数据相关职位</title>
+    <link href="https://www.grab.careers/en/jobs/744000160903579/senior-principal-data-scientist-fulfilment/"/>
+    <id>tag:weekly-report,2026:event-0e8f9a2a</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Grab集中新增6个AI与数据岗位&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;集中招聘显示Grab正在加强AI与数据能力建设，形成可核验的组织投入信号&lt;/p&gt;&lt;p&gt;标签：组织变化 | 类型：strategy | 地区：亚太 | 公司：Grab | 来源：Grab Jobs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-11-11</title>
@@ -335,6 +135,6 @@
     <id>tag:weekly-report,2026:aihot-3390d3cf</id>
     <published>2026-11-11T00:00:00Z</published>
     <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-11T03:21&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1"&gt;Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"&gt;英伟达董事会调查黄仁勋涉情报事件&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"&gt;Anthropic启动IPO路演，估值预期降至1.25–1.75万亿美元&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/e16f5d00-5477-42b8-83d3-4162e0262249"&gt;Google 开放 Gemini 4 Carbon，Perplexity 同步上线&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/c9508ded-f5e2-404c-b983-fdd61423c85a"&gt;Meta 发布轻量模型 Muse Ember，主打低成本智能体任务&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-11T11:21&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1"&gt;Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/e16f5d00-5477-42b8-83d3-4162e0262249"&gt;Google 开放 Gemini 4 Carbon，Perplexity 同步上线&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"&gt;英伟达董事会调查黄仁勋涉情报事件&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"&gt;Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/29e37b58-ab35-4bcf-b318-20b0e5a3290d"&gt;Claude 新增白板、表格与数据三类 artifact&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>

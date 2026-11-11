@@ -1131,29 +1131,29 @@
       "generated_at": "2026-11-09 06:00"
     },
     "weekly:2026-W46": {
-      "input_hash": "ebc1479b6e653d6e8bd1a55d8944d3033bcd5edf864be379d9bb5d3e73f9a266",
+      "input_hash": "24087df2828877b1fabc321b1de67b674e8295d6265405b89d2677bf9bebf4f1",
       "editorial": {
-        "editorial_title": "主权AI与区域支付竞合提速",
-        "mainline": "腾讯云推出主权AI私有云方案，瞄准政府与国企数据合规需求；与此同时，Kakao Mobility联合英伟达开发自动驾驶，Tabby与AFS合作拓展阿联酋灵活支付。这两条线索共同指向：AI基础设施正从通用云转向主权合规部署，而区域平台通过垂直合作加速场景落地，出海企业需关注本地化合规与生态绑定机会。",
+        "editorial_title": "中资云厂抢滩海湾，亚太支付监管生变",
+        "mainline": "阿里云、腾讯云同周落子中东，阿美收购Humain近半股权，海湾AI算力正被中资与主权资本重新划分；与此同时，韩国数字银行以3.04%利率切入房贷、FTC启动Naver金融合并审查，亚太金融科技从扩张转入监管与价格战并行的新阶段。",
         "themes": {
-          "ai_infra": "腾讯云发布主权AI全栈私有云方案，直接回应政府与国企的数据合规需求；同期报告显示各国央行正加速AI投入，而菲律宾创业生态转向单人+AI代理模式以应对融资萎缩。AI采购推荐开始影响B2B品牌可见度，意味着AI部署正从技术层向采购决策层渗透。",
-          "expansion": "Kakao Mobility携手英伟达开发自动驾驶起亚车，将韩国出行平台与车载AI芯片供应链绑定；AFS联手Tabby为阿联酋商户提供灵活支付，Kaspi.kz则计划加速杂货店扩张与AI助手升级。亚太区域平台正通过垂直合作与AI升级拓展场景边界。",
-          "payments": "Kakao Bank推出家乡捐赠服务，拓展税务季场景；GCash创纪录季度后，Mynt转型为借贷主导模式；Sage联合Mastercard和Adyen推SMB合作，Tabby扩张资金业务并重置沙特IPO。数字银行与支付平台正从支付通道向增值服务与借贷变现迁移。",
-          "compliance": "欧盟拟立法限制游戏战利品箱与成瘾设计，泰国央行暂停新货币兑换商牌照发放至2027年；Databricks承诺强化欧洲数据主权，Meta在亚太扩展Instagram AI年龄验证。监管收紧与数据主权承诺同步推进，合规工具与用户保护技术供应商迎来窗口。",
-          "developer": "Cloudflare设立Vite生态基金，加注前端开发者工具链；e27分析印尼市场税务合规陷阱，提示ICT企业出海需提前配置本地财税系统；My.Games获阿联酋投资者支持的管理层收购，Hedepy获€4M风险债务融资用于并购。开发者生态与区域合规正成为平台竞争的新维度。",
-          "commerce": "TikTok Shop独立应用上线，印尼在首批名单；标致在Naver商店上线试驾预约，汽车品牌与超级应用平台的数字化合作模式落地；蚂蚁国际称AI支付回报在于优化商户现有流程。电商与商户服务正从流量争夺转向场景嵌入与流程提效。"
+          "ai_infra": "阿里云签迪拜AI协议、腾讯云合作OmniOps，阿美收购Humain 49%股权，海湾算力基建正被中资云与主权资本联手重塑；Sea在AI云扩张中优先软件层，各国央行加速AI投入，算力需求从训练向推理与行业部署迁移。",
+          "payments": "Kakao Bank推房产抵押贷款整合、利率3.04%起，直接压低韩国小微贷款定价；FTC启动Naver Financial-Dunamu合并审查，数字银行与平台金融同时面临价格竞争与准入收紧，传统银行小微业务承压。",
+          "expansion": "Kakao Mobility携手英伟达开发自动驾驶起亚车，韩国出行平台正式切入车载AI芯片与传感器供应链；Kaspi.kz营收增18%并加速杂货扩张，ShopBack接入Meta Muse，亚太平台合作从流量联盟转向技术栈绑定。",
+          "developer": "美国CPI 0.4%致比特币跌破73000美元，东南亚加密平台短期流动性承压；泰国SEC提议众筹平台费率最高降80%，印尼税务合规陷阱被e27点名，开发者生态在融资收紧与合规成本之间重新定价。",
+          "compliance": "欧盟拟立法限制游戏战利品箱与成瘾设计，游戏变现模式面临强制调整；泰国央行暂停新货币兑换商牌照至2027年、SEC拟推ICO投资者知识测试，Databricks承诺强化欧洲数据主权，合规工具需求从金融向游戏与数据跨境扩散。",
+          "commerce": "TikTok Shop独立应用上线、印尼列首批名单，内容电商与货架电商的边界进一步模糊；AFS与Tabby合作为阿联酋商户提供分期支付，标致在Naver商店上线试驾预约，商户收单与品牌履约场景正被跨境支付与平台工具重新拼接。"
         },
         "theme_titles": {
-          "ai_infra": "腾讯云推主权AI私有云，央行加速AI投入",
+          "ai_infra": "中资云厂同周落子海湾，阿美控股Humain",
+          "payments": "Kakao Bank以3.04%利率切入房贷，韩监管审查Naver金融合并",
           "expansion": "Kakao Mobility联合英伟达开发自动驾驶起亚车",
-          "payments": "Kakao Bank推捐赠服务，GCash转向借贷主导",
-          "compliance": "欧盟拟立法限制游戏战利品箱与成瘾设计",
-          "developer": "Cloudflare设Vite生态基金，印尼税务合规受关注",
-          "commerce": "TikTok Shop独立应用上线，标致入驻Naver商店"
+          "developer": "CPI超预期击穿比特币7.3万美元，泰国拟降众筹费率",
+          "compliance": "欧盟拟限游戏战利品箱，泰国停发兑换商牌照",
+          "commerce": "TikTok Shop独立应用上线印尼，Tabby接入AFS收单"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-11-11 07:14"
+      "generated_at": "2026-11-11 15:35"
     }
   }
 }
