@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T11:21:50+08:00",
-  "fetched_date": "2026-11-11",
+  "generated_at": "2026-11-12T03:16:24+08:00",
+  "fetched_date": "2026-11-12",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
@@ -12,9 +12,9 @@
       "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
       "list_title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 17 %",
       "sources": [],
-      "summary": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者基于同一底层模型。Fable 5.2 面向所有付费计划开放，内置拦截高风险网络安全与生物研究任务的防护；Mythos 5.2 移除部分限制，仅向通过网络安全或生命科学验证计划申请的组织开放。Fable 5.2 定价为每百万输入 token 8 美元、输出 40 美元，较 Fable 5.1 的 10/50 美元降 20%，支持 100 万 token 上下文，并已在 Claude Code、OpenRouter、Cursor、Perplexity、Google Cloud 等平台上线。\n\n评测方面，ARC Prize 公布 Fable 5.2 在 ARC-AGI-2 得 93.8%，为其见过的第三高，仅次于 GPT-6 Astra 的 95.0% 和 GPT-6.1 Sol 的 94.2%；ARC-AGI-3 在 provider adapter harness 下得 97.7%，标准 harness 下 xhigh 档得 81.2%。ARC …",
+      "summary": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者基于同一底层模型。Fable 5.2 面向所有付费计划开放，内置拦截高风险网络安全与生物研究任务的防护；Mythos 5.2 移除部分限制，仅向通过网络安全或生命科学验证计划申请的组织开放。Fable 5.2 定价为每百万输入 token 8 美元、输出 40 美元，较 Fable 5.1 的 10/50 美元降 20%，支持 100 万 token 上下文，并已在 Claude Code、OpenRouter、Cursor、Perplexity、Google Cloud、OpenClaw 等平台上线。\n\n评测方面，ARC Prize 公布 Fable 5.2 在 ARC-AGI-2 得 93.8%，为其见过的第三高，仅次于 GPT-6 Astra 的 95.0% 和 GPT-6.1 Sol 的 94.2%。Artificial Analysis 智能指数 v5 以 65 分登顶，Arena Code Arena: WebDev 以 1832 …",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1"
     },
@@ -23,25 +23,14 @@
       "title": "Google 开放 Gemini 4 Carbon，Perplexity 同步上线",
       "list_title": "Google 开放 Gemini 4 Carbon，Perplexity 同步上线",
       "heat": null,
-      "heat_change": "↑ 22 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "Google 正式开放 Gemini 4 Carbon，称其为最强推理模型，面向持续智能体编码、多模态知识工作、科学推理和网络安全防御。此前两周，该模型仅提供给部分网络安全防御者；现在通过 Gemini API、Google AI Studio 和 Gemini for business 向所有付费开发者和企业开放，并向所有 Google AI Ultra 订阅者在 Gemini 应用、搜索 AI Mode 和 Antigravity 中提供。据 The Verge 报道，较低档订阅者和免费用户何时可用尚不明确。Google 称 2026 年 11 月 30 日前提供入门价：每 100 万输入 token 2.00 美元、每 100 万输出 token 10.00 美元。\n\nThe Decoder 指出，Carbon 与 Gemini 4 Argon 的 token 单价相同，但 Carbon 推理消耗更多 token，实际总成本可能更高。Simon Willison 称，12 月 1 日起价格将翻倍至每 100 万输入 token 4 美元、每…",
+      "summary": "Google 正式开放 Gemini 4 Carbon，称其为最强推理模型，主打长程智能体工作流、软件工程、科学推理和网络安全防御。付费开发者和企业可通过 Google AI Studio、Android Studio 的 Gemini API 及 Gemini for business 使用；Google AI Ultra 订阅者可在 Gemini App、搜索 AI Mode、Antigravity 和 AI Studio 使用。入门价为每百万输入 token 2 美元、每百万输出 token 10 美元，优惠至 2026 年 11 月 30 日，此后将调至 4 美元和 20 美元。The Verge 称尚不清楚更低档订阅或免费用户何时能用。\n\n该模型此前两周仅向 Fairwind 项目的网络安全防御者开放。Google 的 Logan Kilpatrick 称，因模型具备前沿网络能力，团队在安全部署上做了额外工作。The Decoder 指出，Carbon 与 Gemini 4 Argon 单价相同，但推理消耗更多 token，实际总成本可…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/e16f5d00-5477-42b8-83d3-4162e0262249"
     },
     {
       "rank": 3,
-      "title": "英伟达董事会调查黄仁勋涉情报事件",
-      "list_title": "英伟达董事会调查黄仁勋涉情报事件",
-      "heat": null,
-      "heat_change": "↓ 19 %",
-      "sources": [],
-      "summary": "英伟达董事会11月8日启动独立调查，由独立董事组成委员会、在外部律师协助下审查创始人兼CEO黄仁勋成为外国情报行动目标的报道。黄仁勋表示全力配合，董事会称目前“没有理由认为”国家安全或公司机密受损。黄仁勋随后在内部信中承认与新加坡数据中心运营商Megaspeed高管Alice Huang存在婚外情。\n\n《纽约时报》《金融时报》等报道称，美国情报机构认为Alice Huang受中国国家安全部招募，借与黄仁勋的密切接触获取英伟达计划及对华芯片出口政策信息；相关说法来自匿名信源和一份在美方官员间传阅的备忘录。英伟达此前否认相关指控，称Megaspeed只是区域云客户，芯片转运指控“去年已被彻底调查并证伪”。The Information最新报道称，Alice Huang与丈夫和姐姐在中国和新加坡建立采购网络，涉及75亿美元英伟达硬件流向中国买家。\n\n美国众议院三个委员会已要求黄仁勋就与Alice Huang的往来作闭门简报，众议院外交事务委员会主席Brian Mast称，若黄仁勋不在11月11日前答复，将发出传票。英伟达法兰克福上市股票在消息后一度跌超…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"
-    },
-    {
-      "rank": 4,
       "title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元",
       "list_title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元",
       "heat": null,
@@ -52,11 +41,22 @@
       "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
     },
     {
-      "rank": 5,
-      "title": "Claude 新增白板、表格与数据三类 artifact",
-      "list_title": "Claude 新增白板、表格与数据三类 artifact",
+      "rank": 4,
+      "title": "英伟达董事会调查黄仁勋涉情报事件",
+      "list_title": "英伟达董事会调查黄仁勋涉情报事件",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 15 %",
+      "sources": [],
+      "summary": "英伟达董事会11月8日启动独立调查，由独立董事组成委员会、在外部律师协助下，审查创始人兼CEO黄仁勋成为外国情报行动目标的报道。黄仁勋表示全力配合，董事会称目前“没有理由认为”国家安全或公司机密受损。黄仁勋随后在内部信中承认与新加坡数据中心运营商Megaspeed高管Alice Huang存在婚外情。\n\n《纽约时报》《金融时报》等报道称，美国情报机构认为Alice Huang受中国国家安全部招募，借与黄仁勋的密切接触获取英伟达计划及对华芯片出口政策信息；相关说法来自匿名信源和一份在美方官员间传阅的备忘录。英伟达此前否认相关指控，称Megaspeed只是区域云客户，芯片转运指控“去年已被彻底调查并证伪”。The Information最新报道称，Alice Huang与丈夫和姐姐在中国和新加坡建立采购网络，涉及75亿美元英伟达硬件流向中国买家。\n\n美国众议院三个委员会已要求黄仁勋就与Alice Huang的往来作闭门简报，众议院外交事务委员会主席Brian Mast称，若黄仁勋不在11月11日前答复，将发出传票。英伟达法兰克福上市股票在消息后一度跌…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"
+    },
+    {
+      "rank": 5,
+      "title": "Anthropic 为 Claude 新增白板、表格与数据三类 artifact",
+      "list_title": "Anthropic 为 Claude 新增白板、表格与数据三类 artifact",
+      "heat": null,
+      "heat_change": "↓ 12 %",
       "sources": [],
       "summary": "Anthropic 为 Claude 新增 Claude Whiteboards、Claude Sheets 和 Claude Data 三种 artifact 类型。Whiteboards 和 Sheets 以测试版上线，可在网页、桌面和移动端使用；此前的 Claude Dashboards 转为正式可用，并更名为 Claude Data。三者面向所有付费计划开放，在 Team 计划中默认开启；在 Enterprise 计划中，Whiteboards 和 Sheets 默认关闭，Data 将于 2026 年 11 月 19 日默认开启。\n\nClaude 官方账号称，三款产品从 11 月 11 日起陆续推出：Whiteboards 用于把讨论中的计划整理成团队可编辑的白板，Sheets 用于生成可继续编辑的表格或预算，Data 用于基于指标起草数据故事和带解说的视频，供用户审阅后再分享。Certified queries 和 live sharing 目前处于 beta 阶段。\n\nAnthropic 同时升级交互式连接器，合作方应用可直接嵌入 C…",
       "original_links": [],
@@ -64,58 +64,58 @@
     },
     {
       "rank": 6,
-      "title": "Meta 发布轻量模型 Muse Ember，主打低成本智能体任务",
-      "list_title": "Meta 发布轻量模型 Muse Ember，主打低成本智能体任务",
+      "title": "MiniMax 开源 H3-Image，多平台接入",
+      "list_title": "MiniMax 开源 H3-Image，多平台接入",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↓ 14 %",
       "sources": [],
-      "summary": "Meta Superintelligence Lab 发布其最小、最高效的模型 Muse Ember，面向工具调用、编码子任务、路由、信息抽取和长文档解析等智能体高频任务。该模型已在 Meta Model API 和 Muse Code 上线，定价为每百万输入 token 0.10 美元、每百万输出 token 0.50 美元，缓存输入每百万 token 0.004 美元；Meta 称其可搭配更大的 Muse Wonder 模型协同工作。OpenCode 和 OpenRouter 随后宣布该模型已在其平台上线。\n\nArtificial Analysis 的评测显示，Muse Ember 在 Intelligence Index 上得 36 分，与 Claude Haiku 5.5 (max) 持平，每任务成本 0.14 美元，约为后者 0.41 美元的三分之一。Meta 引用该结果称其性能与 Claude Haiku 5.5 相当、成本约为三分之一，并称在 GPT-6 Luna 所有推理设置下得分均高于 Luna；这些对比说法来自 Meta 的引…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/c9508ded-f5e2-404c-b983-fdd61423c85a"
-    },
-    {
-      "rank": 7,
-      "title": "MiniMax 开源 H3-Image 图像模型，多平台接入",
-      "list_title": "MiniMax 开源 H3-Image 图像模型，多平台接入",
-      "heat": null,
-      "heat_change": "↑ 19 %",
-      "sources": [],
-      "summary": "MiniMax 发布图像生成模型 H3-Image 并开放模型权重。该模型基于 H3，支持文生图、图像参考和图像编辑，可在 10 秒内生成 4096×4096 像素（约 16MP）图像，最多支持 16 张参考图。MiniMax 称其速度最高达主流方案的 5 倍、指令遵循能力为开源模型中最强。\n\n模型已通过 MiniMax 的 API、MiniMax Code 和 Hailuo AI 提供，权重可在 Hugging Face 获取。发布首周，4K 及以上分辨率（官方另一表述为 16MP 及以上规格）的生成请求按官方价格五折计费。\n\nComfyUI 宣布原生支持该模型，可本地运行，也可通过 Partner Nodes 使用，支持 6 步采样、最高 4096×4096 输出，单个 checkpoint 同时覆盖文生图和参考图编辑；fal 也上线了该模型，提供文生图和图像编辑接口，并称其支持任意宽高比的原生 16MP 分辨率、约 15 秒完成 2K 图像编辑，未来两周在该平台可免费生成。Arena 也已上线该模型，用户可在 Battle Mode 中测试…",
+      "summary": "MiniMax 发布图像生成模型 H3-Image 并开放模型权重，权重可在 Hugging Face 获取。该模型基于 H3，支持文生图、图像参考和图像编辑，可在 10 秒内生成 4096×4096 像素（约 16MP）图像，最多支持 16 张参考图。MiniMax 称其速度最高达主流方案的 5 倍、指令遵循能力为开源模型中最强。\n\n模型已通过 MiniMax 的 API、MiniMax Code 和 Hailuo AI 提供。发布首周，4K 及以上分辨率（官方另一表述为 16MP 及以上规格）的生成请求按官方价格五折计费。\n\n第三方平台陆续接入：ComfyUI 宣布原生支持，可本地运行或经 Partner Nodes 使用，支持 6 步采样、最高 4096×4096 输出；fal 上线文生图和图像编辑接口，称支持任意宽高比的原生 16MP 分辨率、约 15 秒完成 2K 图像编辑，未来两周在该平台可免费生成；Arena 上线 Battle Mode 供用户测试投票；Runware 称 Day 0 上线，输出最高 20MP，图像输出每百万 to…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/7c20f4ef-fe04-4eca-8355-554fa5df4366"
     },
     {
+      "rank": 7,
+      "title": "OpenAI第三季度营收首破百亿美元，亏损扩大",
+      "list_title": "OpenAI第三季度营收首破百亿美元，亏损扩大",
+      "heat": null,
+      "heat_change": "↑ 10 %",
+      "sources": [],
+      "summary": "据《华尔街日报》、The Information 和 Bloomberg 援引匿名消息源报道，OpenAI 第三季度营收首次突破 100 亿美元，较上一季度的约 67 亿美元增长近 50%，年化收入运行率达到 500 亿美元。\n\n同期经调整经营亏损从 101 亿美元扩大到 109 亿美元，经调整经营利润率从第二季度的 -150% 收窄至第三季度的 -109%。据 The Information 报道，OpenAI 向投资者通报的亏损数字为 109 亿美元，API 对 GPT 5.6、Astra 和图像模型的需求推动了营收反弹。\n\n报道称 OpenAI 的效率仍落后于 Anthropic：后者截至 10 月底年化收入运行率为 810 亿美元，在企业市场收入增长领先，但两家公司计算年化收入的口径不同。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/6c932f88-5339-4aff-8e22-e96e38cffc27"
+    },
+    {
       "rank": 8,
-      "title": "字节发布 Seedream 5.5，豆包、Krea、ComfyUI 接入",
-      "list_title": "字节发布 Seedream 5.5，豆包、Krea、ComfyUI 接入",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "字节跳动 Seed 团队发布图像创作模型 Seedream 5.5，主打像素级可控编辑。官方称，围绕同一作品最多可连续编辑 100 轮，未改动区域在像素级保持不变、不偏色；模型可原生输出带 Alpha 通道的 RGBA 透明素材，最多 100 层透明分层，并改善光照、材质、皮肤纹理和密集小字渲染。\n\n豆包随后宣布图片设计能力升级，正式接入该模型；Krea 也宣布 Seedream 5.5 已在其平台可用；ComfyUI 称其已通过 Partner Nodes 上线，使用需消耗 credits。定价方面，火山引擎称 2K 方图编辑单张 0.28 元，不到 Seedream 5.0 Pro 的一半，生成速度快近 40%，文本 Token 免费；API 延续“输入图 + 输出图”两段计费，本周上线火山方舟。C 端用户可在即梦、豆包、豆包工作体验，Seedream 5.5 系列后续计划推出 Pro 版本。上述性能与价格均为发布方说法。\n\n另有测评作者称，将 Seedream 5.5 与 GPT Image 2.6 用同一张底图连续修改 30 轮，Seed…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/2b6190d7-3612-47d1-9e63-d75e50b8604d"
-    },
-    {
-      "rank": 9,
-      "title": "Google 一年内交付四款第八代 TPU",
-      "list_title": "Google 一年内交付四款第八代 TPU",
-      "heat": null,
-      "heat_change": "↓ 16 %",
-      "sources": [],
-      "summary": "Google 扩展第八代 TPU 产品线，新增 TPU 8i Max 和 TPU 8tx 两款系统，使一年内发布的第八代 TPU 系统总数达到四款。Google 称这是首次在一年内推出四款不同的 TPU 系统，并称这四款系统覆盖智能体生命周期的各个阶段。\n\nTPU 8i Max 面向超大上下文窗口和单机架最高算力密度，将两颗 TPU 8i 芯片封装在一起，算力、SRAM 和 HBM 带宽均翻倍；TPU 8tx 面向安全与机密推理，数据与模型权重在使用中保持加密隔离，延迟较 TPU 8t 最多降低 2 倍。AMD CEO 苏姿丰称 AMD EPYC 担任 TPU 8tx 的主机处理器。\n\n配套软件方面，Google 称 TorchTPU 可原生运行 PyTorch 和 Hugging Face 模型且无需改写代码，开源 TPU Sync 将 KV 传输延迟降低 90% 以上，Agent Compute Engine 用于减少闲置算力。两款新系统均未公布绝对规格、基准测试、价格和可用区域。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/4a64f241-8892-4af9-9d8a-d75c99724c71"
-    },
-    {
-      "rank": 10,
       "title": "OpenAI 在 ChatGPT 测试企业智能体与 Business Hub",
       "list_title": "OpenAI 在 ChatGPT 测试企业智能体与 Business Hub",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "OpenAI 推出 ChatGPT Businesses 测试版：商家可在 Business Hub 认领并验证企业身份、管理展示信息，符合条件的商家还能搭建并发布 Business Agent，让顾客在清晰标注、与 ChatGPT 独立回答分开的对话中提问、比价、了解产品。Business Agent 先向美国符合条件的电商和在线服务企业开放；Business Hub 的认领则向 ChatGPT 可用地区的符合条件企业开放。\n\nThe Decoder 称，Shopify 商家可直接连接店铺。商家可在 Business Hub 更新业务信息、添加含实时价格和库存的商品 feed，并查看提及量、网站点击和常见话题的汇总洞察。OpenAI 表示，不会向商家共享用户对话或 Business Agent 聊天内容。\n\nOpenAI 称这是把企业更深度接入 ChatGPT 的早期一步。TechCrunch 将 Business Hub 的企业资料与搜索引擎已有的商家资料类比，并提到 OpenAI 今年 3 月已放弃收取佣金的电商结账方案。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/8bb21e7d-6819-4abf-ae87-88ce17d9088a"
+    },
+    {
+      "rank": 9,
+      "title": "Google发布Gemini Decision 1决策模型，评测得66分",
+      "list_title": "Google发布Gemini Decision 1决策模型，评测得66分",
+      "heat": null,
+      "heat_change": "↑ 1277 %",
+      "sources": [],
+      "summary": "Google 发布 Gemini Decisions API，由新模型 Gemini Decision 1 驱动，已在 Gemini API、Google AI Studio 上线，首日也登陆 OpenRouter。Google 称该模型不逐 token 生成文本，而是把文本、图像、音频、视频和 PDF 输入与最多 1,000 个问题对照，单次给出是/否、多选或评分答案，并附校准后的置信度分数，端到端耗时 150–250 毫秒。\n\n定价为每 100 万输入 token 0.10 美元、输出 token 不计费；Google 称可在 API 中免费试用，并称在共享基准测试套件上，其成本效率比使用 Interactions API 的 Gemini 3.5 Flash-Lite 高出近 5 倍。\n\nArtificial Analysis 的评测显示，Gemini Decision 1 在 Decision Index v2.1 得 66 分，与 Elephant 9B、Jev 1.14 持平，比并列榜首的 Drex Max v1.1 和 GLiDE …",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/8febc4b1-e8fa-4418-97c6-eb03dfa73f42"
+    },
+    {
+      "rank": 10,
+      "title": "字节发布 Seedream 5.5，多平台接入",
+      "list_title": "字节发布 Seedream 5.5，多平台接入",
+      "heat": null,
+      "heat_change": "↓ 18 %",
+      "sources": [],
+      "summary": "字节跳动 Seed 团队发布图像创作模型 Seedream 5.5，主打像素级可控编辑。官方称，围绕同一作品最多可连续编辑 100 轮，未改动区域在像素级保持不变、不偏色；模型可原生输出带 Alpha 通道的 RGBA 透明素材，最多 100 层透明分层，并改善光照、材质、皮肤纹理和密集小字渲染。\n\n豆包随后宣布图片设计能力升级，正式接入该模型；Krea、ComfyUI 和 PixVerse 也先后宣布 Seedream 5.5 已在其平台可用，其中 ComfyUI 称通过 Partner Nodes 使用需消耗 credits。定价方面，火山引擎称 2K 方图编辑单张 0.28 元，不到 Seedream 5.0 Pro 的一半，生成速度快近 40%，文本 Token 免费；API 延续“输入图 + 输出图”两段计费，本周上线火山方舟。C 端用户可在即梦、豆包、豆包工作体验，Seedream 5.5 系列后续计划推出 Pro 版本。上述性能与价格均为发布方说法。\n\n另有测评作者称，将 Seedream 5.5 与 GPT Image 2.6 用…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/2b6190d7-3612-47d1-9e63-d75e50b8604d"
     }
   ]
 }
