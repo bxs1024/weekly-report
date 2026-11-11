@@ -1,11 +1,75 @@
 {
   "version": 1,
-  "generated_at": "2026-11-11T07:07:24.547833+08:00",
+  "generated_at": "2026-11-11T15:28:35.876341+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-11T07:07:24.547833+08:00",
+      "observed_at": "2026-11-11T15:28:35.876341+08:00",
       "jobs": [
+        {
+          "id": "744000161033639",
+          "title": "Lead Infrastructure Engineer, Managed Kubernetes Platform (MEKS)",
+          "url": "https://www.grab.careers/en/jobs/744000161033639/lead-infrastructure-engineer-managed-kubernetes-platform-meks/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000161028799",
+          "title": "Associate, User Growth - GrabMart",
+          "url": "https://www.grab.careers/en/jobs/744000161028799/associate-user-growth-grabmart/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000161026159",
+          "title": "Manager, SOX",
+          "url": "https://www.grab.careers/en/jobs/744000161026159/manager-sox/",
+          "function_tags": []
+        },
+        {
+          "id": "744000161025500",
+          "title": "Assistant Marketing Manager for Grab Ecommerce",
+          "url": "https://www.grab.careers/en/jobs/744000161025500/assistant-marketing-manager-for-grab-ecommerce/",
+          "function_tags": []
+        },
+        {
+          "id": "744000161022999",
+          "title": "Assistant Manager, Key Account Management - GrabMart",
+          "url": "https://www.grab.careers/en/jobs/744000161022999/assistant-manager-key-account-management-grabmart/",
+          "function_tags": []
+        },
+        {
+          "id": "744000161020474",
+          "title": "Senior Data Scientist (Trust & Fraud)",
+          "url": "https://www.grab.careers/en/jobs/744000161020474/senior-data-scientist-trust-fraud/",
+          "function_tags": []
+        },
+        {
+          "id": "744000161019199",
+          "title": "People Research Scientist, People Analytics",
+          "url": "https://www.grab.careers/en/jobs/744000161019199/people-research-scientist-people-analytics/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000161019099",
+          "title": "Lead Data Scientist, People Analytics",
+          "url": "https://www.grab.careers/en/jobs/744000161019099/lead-data-scientist-people-analytics/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000161018529",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000161018529/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000160903579",
           "title": "Senior Principal Data Scientist (Fulfilment)",
@@ -69,85 +133,9 @@
           ]
         },
         {
-          "id": "744000160624459",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000160624459/senior-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
           "id": "744000160618259",
           "title": "Senior Security Engineer, Red Team & Threat Intel",
           "url": "https://www.grab.careers/en/jobs/744000160618259/senior-security-engineer-red-team-threat-intel/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000160583874",
-          "title": "Mart Merchant Partner, Southern Sumatra",
-          "url": "https://www.grab.careers/en/jobs/744000160583874/mart-merchant-partner-southern-sumatra/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000160561403",
-          "title": "Large Area Associate (Contract)",
-          "url": "https://www.grab.careers/en/jobs/744000160561403/large-area-associate-contract/",
-          "function_tags": []
-        },
-        {
-          "id": "744000160564912",
-          "title": "Software Engineer, Mobile (Android)",
-          "url": "https://www.grab.careers/en/jobs/744000160564912/software-engineer-mobile-android/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000160202996",
-          "title": "Intern, Social Media & Partner Engagement",
-          "url": "https://www.grab.careers/en/jobs/744000160202996/intern-social-media-partner-engagement/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000160199014",
-          "title": "Intern, Marketing and Partnership (GrabRentals)",
-          "url": "https://www.grab.careers/en/jobs/744000160199014/intern-marketing-and-partnership-grabrentals/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000160203648",
-          "title": "Intern, Partner Acquisition",
-          "url": "https://www.grab.careers/en/jobs/744000160203648/intern-partner-acquisition/",
-          "function_tags": [
-            "partnerships"
-          ]
-        },
-        {
-          "id": "744000160157400",
-          "title": "IT Executive",
-          "url": "https://www.grab.careers/en/jobs/744000160157400/it-executive/",
-          "function_tags": []
-        },
-        {
-          "id": "744000160142925",
-          "title": "Senior Software Engineering Manager, Security Engineering",
-          "url": "https://www.grab.careers/en/jobs/744000160142925/senior-software-engineering-manager-security-engineering/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000160133679",
-          "title": "Software Engineering Manager II",
-          "url": "https://www.grab.careers/en/jobs/744000160133679/software-engineering-manager-ii/",
           "function_tags": [
             "engineering"
           ]
@@ -156,7 +144,7 @@
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-11T07:07:24.547833+08:00",
+      "observed_at": "2026-11-11T15:28:35.876341+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -206,7 +194,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-11T07:07:24.547833+08:00",
+      "observed_at": "2026-11-11T15:28:35.876341+08:00",
       "jobs": [
         {
           "id": "62d779d3-51c8-4b0a-ab2e-1a440276bb37",

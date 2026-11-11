@@ -6508,5 +6508,55 @@
   "score": 4,
   "first_seen": "2026-11-10",
   "samples": 1
+ },
+ "alibaba cloud|strategy|humain": {
+  "score": 6,
+  "first_seen": "2026-11-11",
+  "samples": 1
+ },
+ "kakao bank|strategy|304%": {
+  "score": 4,
+  "first_seen": "2026-11-11",
+  "samples": 1
+ },
+ "naver financial|strategy|dunamu": {
+  "score": 4,
+  "first_seen": "2026-11-11",
+  "samples": 1
+ },
+ "grab|strategy|800000": {
+  "score": 6,
+  "first_seen": "2026-11-11",
+  "samples": 1
+ },
+ "reddit|strategy|10000": {
+  "score": 4,
+  "first_seen": "2026-11-11",
+  "samples": 1
+ },
+ "shopback|strategy|meta": {
+  "score": 4,
+  "first_seen": "2026-11-11",
+  "samples": 1
+ },
+ "openai|strategy|cogent": {
+  "score": 4,
+  "first_seen": "2026-11-10",
+  "samples": 1
+ },
+ "databricks|strategy|powerbi": {
+  "score": 7,
+  "first_seen": "2026-11-10",
+  "samples": 1
+ },
+ "vaice one|strategy|100": {
+  "score": 4,
+  "first_seen": "2026-11-11",
+  "samples": 1
+ },
+ "sand ai|funding|300000m": {
+  "score": 4,
+  "first_seen": "2026-11-11",
+  "samples": 1
  }
 }
