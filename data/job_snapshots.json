@@ -1,11 +1,73 @@
 {
   "version": 1,
-  "generated_at": "2026-11-11T15:28:35.876341+08:00",
+  "generated_at": "2026-11-12T08:28:28.266932+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-11T15:28:35.876341+08:00",
+      "observed_at": "2026-11-12T08:28:28.266932+08:00",
       "jobs": [
+        {
+          "id": "744000161112556",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000161112556/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000161064975",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000161064975/lead-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000161058329",
+          "title": "Senior Software Engineer, Streaming Platform",
+          "url": "https://www.grab.careers/en/jobs/744000161058329/senior-software-engineer-streaming-platform/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000161057364",
+          "title": "Principal Product Strategist",
+          "url": "https://www.grab.careers/en/jobs/744000161057364/principal-product-strategist/",
+          "function_tags": []
+        },
+        {
+          "id": "744000161054779",
+          "title": "Senior Software Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000161054779/senior-software-engineer/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000161052690",
+          "title": "Intern, Driver Operations",
+          "url": "https://www.grab.careers/en/jobs/744000161052690/intern-driver-operations/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000161041149",
+          "title": "Manager, Credit Risk",
+          "url": "https://www.grab.careers/en/jobs/744000161041149/manager-credit-risk/",
+          "function_tags": [
+            "compliance"
+          ]
+        },
+        {
+          "id": "744000161037244",
+          "title": "Intern, Product Support",
+          "url": "https://www.grab.careers/en/jobs/744000161037244/intern-product-support/",
+          "function_tags": [
+            "operations"
+          ]
+        },
         {
           "id": "744000161033639",
           "title": "Lead Infrastructure Engineer, Managed Kubernetes Platform (MEKS)",
@@ -63,14 +125,6 @@
           ]
         },
         {
-          "id": "744000161018529",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000161018529/senior-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
           "id": "744000160903579",
           "title": "Senior Principal Data Scientist (Fulfilment)",
           "url": "https://www.grab.careers/en/jobs/744000160903579/senior-principal-data-scientist-fulfilment/",
@@ -84,67 +138,12 @@
             "ai",
             "engineering"
           ]
-        },
-        {
-          "id": "744000160902078",
-          "title": "Senior Machine Learning Engineer (Fulfilment)",
-          "url": "https://www.grab.careers/en/jobs/744000160902078/senior-machine-learning-engineer-fulfilment/",
-          "function_tags": [
-            "ai",
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000160898999",
-          "title": "Senior Manager, Grab Support Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000160898999/senior-manager-grab-support-strategy/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000160861909",
-          "title": "Merchant Business Growth, Assistant Manager",
-          "url": "https://www.grab.careers/en/jobs/744000160861909/merchant-business-growth-assistant-manager/",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "744000160817439",
-          "title": "Quality Governance Specialist, Merchant Core Operations",
-          "url": "https://www.grab.careers/en/jobs/744000160817439/quality-governance-specialist-merchant-core-operations/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000160801559",
-          "title": "Manager II, Country IT",
-          "url": "https://www.grab.careers/en/jobs/744000160801559/manager-ii-country-it/",
-          "function_tags": []
-        },
-        {
-          "id": "744000160790111",
-          "title": "Lead Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000160790111/lead-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000160618259",
-          "title": "Senior Security Engineer, Red Team & Threat Intel",
-          "url": "https://www.grab.careers/en/jobs/744000160618259/senior-security-engineer-red-team-threat-intel/",
-          "function_tags": [
-            "engineering"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-11T15:28:35.876341+08:00",
+      "observed_at": "2026-11-12T08:28:28.266932+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -194,7 +193,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-11T15:28:35.876341+08:00",
+      "observed_at": "2026-11-12T08:28:28.266932+08:00",
       "jobs": [
         {
           "id": "62d779d3-51c8-4b0a-ab2e-1a440276bb37",
@@ -256,6 +255,14 @@
           ]
         },
         {
+          "id": "3e3239d0-7816-437e-bfe4-dcf41ca300e2",
+          "title": "Engineering Manager - Shopify Mobile Remote - Americas",
+          "url": "https://www.shopify.com/careers/engineering-manager-shopify-mobile_3e3239d0-7816-437e-bfe4-dcf41ca300e2",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
           "id": "db9432e7-637b-442b-b5c6-8068be623426",
           "title": "Engineering Manager - Streaming Foundations Remote - Americas",
           "url": "https://www.shopify.com/careers/engineering-manager-streaming-foundations_db9432e7-637b-442b-b5c6-8068be623426",
@@ -304,14 +311,6 @@
           "function_tags": [
             "ai",
             "engineering"
-          ]
-        },
-        {
-          "id": "cc0aa9e6-5559-4071-8043-1df701aba595",
-          "title": "Product Data Science Manager Remote - Americas",
-          "url": "https://www.shopify.com/careers/product-data-science-manager_cc0aa9e6-5559-4071-8043-1df701aba595",
-          "function_tags": [
-            "ai"
           ]
         },
         {
