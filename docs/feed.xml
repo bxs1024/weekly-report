@@ -1,261 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-11-11</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-11-12</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-11-12T00:35:51Z</updated>
+  <updated>2026-11-12T08:04:02Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>泰国SEC提议众筹平台费率最高降80%</title>
-    <link href="https://fintechnews.sg/140944/thailand/thailand-crowdfunding-fees/"/>
-    <id>tag:weekly-report,2026:event-a4b8b0d8</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Thai SEC Proposes Up to 80% Fee Cuts for Crowdfunding Platforms&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;泰国SEC提议将众筹平台费率最高下调80%，以降低融资成本并激活中小企业的众筹融资渠道&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;泰国众筹平台费率大幅下调，将刺激东南亚中小企业的替代融资需求，利好本地众筹平台和支付通道&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>Airwallex向新加坡投资S$2B并扩员至1000+</title>
+    <link href="https://fintechnews.sg/141020/funding/airwallex-singapore-s2-billion-investment/"/>
+    <id>tag:weekly-report,2026:event-950671df</id>
+    <published>2026-11-12T00:00:00Z</published>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Airwallex to Invest S$2 Billion in Singapore, Expand Workforce to Over 1,000&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;跨境支付公司Airwallex宣布向新加坡投资20亿新元，并将当地员工规模扩大至超过1000人&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太跨境支付基础设施获巨额投资，新加坡作为区域金融科技枢纽地位强化，将带动本地支付技术采购和人才竞争&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>新加坡报告：超90%成年人使用PayNow</title>
-    <link href="https://fintechnews.sg/140677/fintech/singapore-fintech-report-2026-summary/"/>
-    <id>tag:weekly-report,2026:event-5c02b37c</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Singapore Fintech Report 2026: Over 90% of Adults Are On PayNow, What Comes Next?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡2026金融科技报告显示超90%成年人使用PayNow，报告探讨该高渗透率之后的下一阶段发展方向&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡PayNow渗透率超90%，意味着实时支付基础设施已成熟，下一阶段机会在跨境互联和增值服务层&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>Airwallex承诺新加坡投资$1.5B</title>
+    <link href="https://e27.co/airwallexs-us1-5b-singapore-pledge-dwarfs-the-islands-entire-fintech-funding-haul-20261111/"/>
+    <id>tag:weekly-report,2026:event-91577926</id>
+    <published>2026-11-12T00:00:00Z</published>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Airwallex’s US$1.5B Singapore pledge dwarfs the island’s entire fintech funding haul&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;跨境支付公司Airwallex承诺在新加坡投资15亿美元，规模超过该国全年金融科技融资总额&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太跨境支付巨头加码新加坡，为当地金融科技生态和支付基础设施供应商带来合作机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Fractile获$720M融资，估值$7B</title>
-    <link href="https://thenextweb.com/news/fractile-7bn-valuation-720m-ai-inference-chips"/>
-    <id>tag:weekly-report,2026:event-11c1aae7</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;London’s Fractile raises $720M for memory-first AI chips and hits $7B valuation&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;伦敦AI芯片公司Fractile完成7.2亿美元融资，估值达70亿美元，主攻内存优先的AI推理芯片&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;英国AI推理芯片公司获超大额融资，挑战英伟达推理市场格局，AI芯片供应链多元化机会凸显&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>Nebuly获$21M A轮融资</title>
+    <link href="https://thenextweb.com/news/nebuly-21m-series-a-enterprise-ai-roi"/>
+    <id>tag:weekly-report,2026:event-6eef0579</id>
+    <published>2026-11-12T00:00:00Z</published>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nebuly raises $21M Series A to measure the ROI of enterprise AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Nebuly完成2100万美元A轮融资，用于衡量企业AI投资回报率&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲企业AI ROI测量工具获融资，反映企业AI预算从部署转向效果评估，AI治理与效能监测工具需求上升&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Genie Ontology实现1.6倍准确率、token减半</title>
-    <link href="https://www.databricks.com/blog/genie-genie-ontology-delivers-16-accuracy-less-half-tokens"/>
-    <id>tag:weekly-report,2026:event-48de316b</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Genie with Genie Ontology Delivers 1.6× the Accuracy with Less than Half the Tokens&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Databricks Genie结合Genie Ontology实现1.6倍准确率提升，同时token消耗降低超过一半&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Databricks通过本体增强提升AI准确率并降低token成本，企业AI采购方和模型优化服务商可关注效率红利&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Databricks | 来源：Databricks Blog&lt;/p&gt;</summary>
+    <title>Rox获$100M融资，主打AI销售代理挑战Salesforce</title>
+    <link href="https://ventureburn.com/rox-raises-100-million-ai-agents-outsell-salesforce-crm/"/>
+    <id>tag:weekly-report,2026:event-094d7073</id>
+    <published>2026-11-12T00:00:00Z</published>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Rox Raises $100 Million As Investors Bet AI Agents Can Outsell Salesforce’s CRM&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI销售代理公司Rox完成1亿美元融资，投资方押注其AI代理产品能在CRM市场挑战Salesforce&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲AI销售代理公司获大额融资，CRM赛道AI替代机会显现，渠道与集成合作空间大&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Databricks启用SF 23.5万平方英尺新总部</title>
-    <link href="https://www.databricks.com/blog/databricks-doubles-down-ai-products-opens-new-235000-square-foot-san-francisco-headquarters"/>
-    <id>tag:weekly-report,2026:event-d583c66a</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Databricks Doubles Down on AI Products, Opens New 235,000-Square-Foot San Francisco Headquarters&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Databricks加码AI产品并启用旧金山235,000平方英尺新总部&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Databricks扩大AI产品投入和办公规模，显示数据+AI平台赛道持续扩张，云基础设施和AI工具集成商可关注生态合作&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Databricks | 来源：Databricks Blog&lt;/p&gt;</summary>
+    <title>Shopify税务免费折扣不再年度重置</title>
+    <link href="https://changelog.shopify.com/posts/shopify-tax-free-discount-will-no-longer-reset-annually"/>
+    <id>tag:weekly-report,2026:event-945036ce</id>
+    <published>2026-11-12T00:00:00Z</published>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Shopify Tax free discount will no longer reset annually&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Shopify调整税务免费折扣政策，该折扣将不再每年重置，商家可长期保留该优惠资格。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Shopify发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Shopify | 来源：Shopify Changelog&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Western Union放弃收购Intermax</title>
-    <link href="https://www.finextra.com/newsarticle/48743/western-union-ditches-intermax-acquisition?utm_medium=rssfinextra&amp;utm_source=finextrafeed"/>
-    <id>tag:weekly-report,2026:event-6d380fac</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Western Union ditches Intermax acquisition&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Western Union放弃对Intermax的收购交易&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Western Union终止收购Intermex，北美汇款市场整合受阻，跨境支付竞争格局生变&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：ma | 地区：全球 | 来源：Finextra&lt;/p&gt;</summary>
+    <title>Z.AI股价跌58%后推$510M回购</title>
+    <link href="https://www.techinasia.com/news/zai-plans-510m-share-buyback-58-stock-slide"/>
+    <id>tag:weekly-report,2026:event-fab0645d</id>
+    <published>2026-11-12T00:00:00Z</published>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Z.AI plans up to $510m share buyback after 58% stock slide&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Z.AI股价累计下跌58%后，公司宣布最高5.1亿美元股份回购计划&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI公司Z.AI股价暴跌后启动大额回购护盘，反映AI概念股估值回调压力与资本市场信心波动&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>全球银行联合投入$270M组建稳定币合资项目</title>
-    <link href="https://fintechnews.sg/140927/digitalassets/banks-us-dollar-stablecoin/"/>
-    <id>tag:weekly-report,2026:event-47f4c428</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Global Banks Commit US$270 Million to Joint Stablecoin Venture&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;多家全球银行联合承诺投入2.7亿美元组建合资稳定币项目，推动机构级美元稳定币基础设施建设&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美银行业联合布局稳定币基础设施，将带动托管、清算、合规技术供应商的采购需求&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：北美 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>分析比特币上涨是否仅因空头回补</title>
+    <link href="https://e27.co/is-short-covering-the-only-reason-bitcoin-moved-higher-20261112/"/>
+    <id>tag:weekly-report,2026:event-09c24040</id>
+    <published>2026-11-12T00:00:00Z</published>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Is short covering the only reason Bitcoin moved higher?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;分析文章讨论比特币近期上涨是否仅由空头回补驱动&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚视角下加密市场波动分析，为加密交易平台和做市商提供市场情绪参考&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：other | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Kardi AI获€5.3M A轮融资</title>
-    <link href="https://www.therecursive.com/czech-kardi-ai-raises-eur5-3m-series-a-led-by-callisto-health/"/>
-    <id>tag:weekly-report,2026:event-a11d0ce7</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Czech Kardi AI Raises €5.3M Series A Led by Callisto Health&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;捷克AI医疗公司Kardi AI完成530万欧元A轮融资，由Callisto Health领投&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东欧AI医疗公司Kardi AI获Callisto Health领投，欧洲数字健康AI诊断赛道合作与集成机会上升&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：funding | 地区：欧洲 | 来源：The Recursive&lt;/p&gt;</summary>
+    <title>三星钱包在新加坡越南接入ShopeePay</title>
+    <link href="https://fintechnews.sg/141086/payments/samsung-wallet-shopeepay-singapore-vietnam/"/>
+    <id>tag:weekly-report,2026:event-71c130d2</id>
+    <published>2026-11-12T00:00:00Z</published>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Samsung Wallet Now Supports ShopeePay in Singapore, Vietnam&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;三星钱包在新加坡和越南新增支持ShopeePay支付方式，扩展其移动支付生态覆盖范围&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚移动支付互联互通加速，三星钱包与ShopeePay合作提升区域数字钱包覆盖率，利好支付网关和商户收单方&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Torus获$500M融资，模块化电池驱动AI数据中心</title>
-    <link href="https://ventureburn.com/torus-raises-500-million-for-modular-ai-data-centers/"/>
-    <id>tag:weekly-report,2026:event-ba668d03</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Torus Raises $500 Million To Run AI Data Centers On Modular Battery Systems&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Torus完成5亿美元融资，用于以模块化电池系统驱动AI数据中心运营&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲AI数据中心储能方案获大额融资，模块化电池与数据中心能源管理供应链迎机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
+    <title>Hims &amp; Hers扩展GLP-1福利计划合作品牌</title>
+    <link href="https://www.modernretail.co/operations/hims-hers-benefits-program-gruns-tonal-viome-medjet/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
+    <id>tag:weekly-report,2026:event-a5337223</id>
+    <published>2026-11-12T00:00:00Z</published>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Hims &amp;amp; Hers expands benefits program for GLP-1 support with brands like Grüns and Tonal&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Hims &amp;amp; Hers扩展其GLP-1支持福利计划，新增Grüns、Tonal、Viome、MedJet等品牌合作&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国远程医疗平台扩展GLP-1生态合作，健康消费品牌渠道合作机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sand.ai融资约300亿日元晋级独角兽</title>
-    <link href="https://36kr.jp/504245/"/>
-    <id>tag:weekly-report,2026:event-becd9bb3</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;中国の動画生成AI「Sand.ai」、約300億円を調達　ユニコーン入り&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国视频生成AI公司Sand.ai完成约300亿日元融资，晋级独角兽&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国视频生成AI公司获大额融资晋级独角兽，视频AI基础设施与内容生态合作机会扩大&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
+    <title>Cloudflare RealtimeKit新增添加参与者API</title>
+    <link href="https://developers.cloudflare.com/api/resources/realtime_kit/subresources/meetings/methods/add_participant/"/>
+    <id>tag:weekly-report,2026:event-f113ef14</id>
+    <published>2026-11-12T00:00:00Z</published>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: Add participant API&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare RealtimeKit新增Add Participant API，允许开发者通过接口向会议中添加参与者。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Mercor获$750M D轮融资，用岗位数据训练AI</title>
-    <link href="https://ventureburn.com/mercor-raises-750-million-series-d-to-train-ai/"/>
-    <id>tag:weekly-report,2026:event-7bf04b4f</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mercor Raises $750 Million in Series D Funding To Train AI On Every Job&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Mercor完成7.5亿美元D轮融资，用于以各行业岗位数据训练AI模型&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲AI数据标注与人力数据平台获超大额融资，AI训练数据供应链与全球零工协作机会凸显&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>CoreWeave用客户预付款和短合同融资AI扩张</title>
-    <link href="https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"/>
-    <id>tag:weekly-report,2026:event-ec47198d</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;CoreWeave turns to customer prepayments, shorter contracts to fund AI growth&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI云服务商CoreWeave转向客户预付款和更短合同模式，以支撑其AI业务扩张所需资金&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI云厂商CoreWeave调整合同与付款结构，反映算力扩张资金压力，影响GPU采购与数据中心供应链节奏&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>UKIE警告DFA损害英国游戏业</title>
-    <link href="https://www.pocketgamer.biz/ukie-warns-eu-digital-fairness-act-could-harm-uk-games-industry-and-parental-choice/"/>
-    <id>tag:weekly-report,2026:event-a78cc437</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;UKIE warns EU Digital Fairness Act could harm UK games industry and parental choice&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英国游戏贸易组织UKIE警告欧盟《数字公平法案》可能损害英国游戏产业和家长选择权&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;英国游戏行业协会UKIE警告欧盟DFA外溢效应，英国游戏产业面临跨境监管合规风险&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Reddit用AI将用户帖转为1万产品评论</title>
-    <link href="https://thenextweb.com/news/reddit-turns-user-threads-into-ai-reviews-for-10000-products"/>
-    <id>tag:weekly-report,2026:event-40831388</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Reddit turns user threads into AI reviews for 10,000 products&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Reddit将用户讨论帖转化为AI生成的评论内容，覆盖1万款产品&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Reddit将UGC数据资产化，为电商导购和AI搜索提供新数据源，可能开放API合作&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Supercell CEO反对欧盟DFA</title>
-    <link href="https://www.pocketgamer.biz/supercell-ceo-believes-digital-fairness-act-will-hurt-consumers/"/>
-    <id>tag:weekly-report,2026:event-1ef36f6f</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Supercell CEO believes Digital Fairness Act will hurt consumers&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Supercell CEO公开表示欧盟《数字公平法案》将损害消费者利益&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;芬兰手游巨头Supercell公开反对欧盟数字公平法案，移动游戏 monetisation 监管风险上升&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>快速调研平台替代传统市场研究公司</title>
-    <link href="https://www.techinasia.com/replacing-legacy-market-research-firms-fast-surveys"/>
-    <id>tag:weekly-report,2026:event-c455c91d</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Replacing legacy market research firms with fast surveys&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新兴快速调研平台以更快速度替代传统市场研究公司&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太市场研究行业被轻量化调研工具颠覆，数据采集和消费者洞察预算正在转移&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>DFA被称对欧洲游戏业是game over</title>
-    <link href="https://www.pocketgamer.biz/the-dfa-is-game-over-for-the-european-games-industry/"/>
-    <id>tag:weekly-report,2026:event-75a17911</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The DFA is &amp;quot;game over&amp;quot; for the European games industry&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;行业评论称欧盟《数字公平法案》对欧洲游戏产业构成生存威胁&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲游戏行业对DFA监管框架强烈反弹，若落地将重塑手游商业模式与广告变现路径&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Databricks发布新一代Genie自主AI</title>
-    <link href="https://www.databricks.com/blog/new-genie-autonomous-ai-complex-enterprise-work"/>
-    <id>tag:weekly-report,2026:event-ac857e8f</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The new Genie: autonomous AI for complex enterprise work&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Databricks发布新一代Genie，面向复杂企业工作场景的自主AI产品&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Databricks Genie升级为自主企业AI代理，企业数据平台和AI Agent集成商可关注产品接入与联合方案机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Databricks | 来源：Databricks Blog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>CPI 0.4%致比特币跌破$73000</title>
-    <link href="https://e27.co/cpi-at-0-4-broke-bitcoins-us73000-floor-what-happens-if-the-fed-goes-bigger-20261111/"/>
-    <id>tag:weekly-report,2026:event-88ee3bee</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;CPI at 0.4% broke Bitcoin’s US$73,000 floor. What happens if the Fed goes bigger?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27分析美国CPI升至0.4%导致比特币跌破73000美元关口，并探讨美联储若加大加息力度的后续影响&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国通胀数据超预期冲击加密市场，东南亚加密交易平台和Web3项目短期流动性承压，需关注美联储政策路径&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：北美 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>泰国SEC拟推ICO投资者知识测试新规</title>
-    <link href="https://fintechnews.sg/140974/thailand/thailand-sec-ico-portal-knowledge-test/"/>
-    <id>tag:weekly-report,2026:event-d7022535</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Thai SEC Proposes New Standards for ICO Investor Tests&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;泰国SEC提出ICO投资者知识测试新标准，规范ICO门户准入&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;泰国加密监管框架细化，ICO合规门槛提高将影响东南亚数字资产融资渠道&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Vaice One在日本IT周获近100条线索</title>
-    <link href="https://koreatechdesk.com/vaice-one-japan-it-week-2026-ai-memorial"/>
-    <id>tag:weekly-report,2026:event-cbd4f415</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Vaice One Collects Nearly 100 Leads at Japan IT Week 2026, Targeting AI Memorial Partnerships&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;韩国AI纪念服务公司Vaice One在日本IT周2026上收集近100条潜在客户线索，目标建立AI纪念服务合作伙伴关系&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;韩国AI纪念服务商借日本IT展拓展亚太合作，AI殡葬纪念赛道商业化提速&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：KoreaTechDesk&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Sea集团AI云扩张优先软件而非数据中心</title>
-    <link href="https://e.vnexpress.net/news/tech/personalities/singapore-billionaire-forrest-li-s-sea-prioritizes-software-over-data-centers-in-ai-cloud-expansion-5143213.html"/>
-    <id>tag:weekly-report,2026:event-1e10c3b2</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Singapore billionaire Forrest Li’s Sea prioritizes software over data centers in AI cloud expansion&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡亿万富翁Forrest Li旗下Sea集团在AI云扩张中优先发展软件而非数据中心&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚AI云战略转向软件层，数据中心硬件供应商或面临订单结构调整&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：VnExpress Tech&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>DFA引发手游变现模式质疑</title>
-    <link href="https://www.pocketgamer.biz/digital-fairness-act-raises-questions-over-mobile-game-monetisation/"/>
-    <id>tag:weekly-report,2026:event-3304c49a</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Digital Fairness Act raises questions over future of mobile game monetisation&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;欧盟《数字公平法案》引发对手游货币化模式未来走向的广泛质疑&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧盟DFA可能限制手游内购与广告变现机制，欧洲手游 monetisation 合规成本将上升&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>ShopBack接入Meta Muse拒绝亚马逊</title>
-    <link href="https://e27.co/shopbacks-justin-lee-on-why-it-let-metas-muse-in-while-amazon-shut-the-door-20261111/"/>
-    <id>tag:weekly-report,2026:event-c725d847</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;ShopBack’s Justin Lee on why it let Meta’s Muse in while Amazon shut the door&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;东南亚返现平台ShopBack高管Justin Lee解释公司为何接入Meta的Muse广告工具而拒绝亚马逊的合作方案&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚电商流量入口争夺加剧，ShopBack选择Meta生态意味着广告技术合作与返现数据整合机会向Meta系倾斜&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Square Enix发布中期经营计划进展报告</title>
-    <link href="https://www.hd.square-enix.com/eng/ir/pdf/20261111_01_en.pdf"/>
-    <id>tag:weekly-report,2026:event-8e45a079</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Square Enix: Nov 11, 2026 Progress Report on the Medium-Term Business Plan (FY2025/3-FY2027/3) 2260KB&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;日本游戏公司Square Enix发布截至2027年3月的中期经营计划进展报告（2026年11月11日）&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本游戏巨头Square Enix中期计划进展披露，游戏行业IP授权与云游戏合作方向值得关注&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：亚太 | 公司：Square Enix | 来源：Square Enix&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>华为筹备新智能手机子品牌</title>
-    <link href="https://www.mobileworldlive.com/huawei/huawei-poised-for-fresh-smartphone-sub-brand/"/>
-    <id>tag:weekly-report,2026:event-0bcf22b2</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Huawei poised for fresh smartphone sub-brand&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;华为计划推出新的智能手机子品牌，进一步扩展产品线布局&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;华为智能手机业务加速多品牌矩阵布局，供应链和渠道合作机会随之增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Square Enix发布上半财年财报</title>
-    <link href="https://www.hd.square-enix.com/eng/ir/pdf/27q2earnings.pdf"/>
-    <id>tag:weekly-report,2026:event-e499463e</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Square Enix: Nov 11, 2026 Consolidated Financial Results for the Six-Month Period Ended September 30, 2026 270KB&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Square Enix公布截至2026年9月30日的六个月合并财报&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本游戏大厂半年度业绩披露，反映主机与手游业务景气度及后续投资取向&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：亚太 | 公司：Square Enix | 来源：Square Enix&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>新加坡EDGE Grant改变SME软件采购方式</title>
-    <link href="https://e27.co/3-ways-the-edge-grant-changes-how-a-sensible-sme-buys-software-20261106/"/>
-    <id>tag:weekly-report,2026:event-bd3d7631</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;3 ways the EDGE Grant changes how a sensible SME buys software&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27分析新加坡EDGE Grant补贴政策如何改变中小企业采购软件的方式，从一次性买断转向订阅制评估&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡政府补贴推动SME软件采购向订阅制转型，SaaS厂商可借政策红利切入东南亚中小企业市场&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>ADRO以工程师优先路径切入企业AI采购</title>
-    <link href="https://koreatechdesk.com/adro-aox-product-led-growth-enterprise-ai-software-sales"/>
-    <id>tag:weekly-report,2026:event-c7cbc07a</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;ADRO Builds an Engineer-First Route Into Enterprise AI Purchasing&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;韩国AI软件公司ADRO推出以工程师为主导的企业AI采购路径，通过产品驱动增长模式切入企业AI软件销售&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;韩国企业AI软件销售模式创新，工程师驱动采购或改变传统企业软件分销渠道格局&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：韩国 | 来源：KoreaTechDesk&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Genie Agents扩展多数据源分析能力</title>
-    <link href="https://www.databricks.com/blog/enterprise-context-action-genie-agents-now-analyze-more-data-sources-transform-your-work"/>
-    <id>tag:weekly-report,2026:event-2af0be01</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;From enterprise context to action: Genie Agents now analyze more data sources to transform your work&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Databricks Genie Agents扩展数据分析源覆盖范围，从企业上下文到行动执行&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Databricks Genie Agents扩大数据源接入，企业数据集成商和AI Agent部署服务商可关注多源连接器合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Databricks | 来源：Databricks Blog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Grab在本周新增6个AI与数据相关职位</title>
-    <link href="https://www.grab.careers/en/jobs/744000160903579/senior-principal-data-scientist-fulfilment/"/>
-    <id>tag:weekly-report,2026:event-0e8f9a2a</id>
-    <published>2026-11-11T00:00:00Z</published>
-    <updated>2026-11-11T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Grab集中新增6个AI与数据岗位&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;集中招聘显示Grab正在加强AI与数据能力建设，形成可核验的组织投入信号&lt;/p&gt;&lt;p&gt;标签：组织变化 | 类型：strategy | 地区：亚太 | 公司：Grab | 来源：Grab Jobs&lt;/p&gt;</summary>
+    <title>Cloudflare RealtimeKit新增噪声消除功能</title>
+    <link href="https://developers.cloudflare.com/changelog/post/2026-11-12-realtimekit-noise-cancellation/"/>
+    <id>tag:weekly-report,2026:event-3fe87490</id>
+    <published>2026-11-12T00:00:00Z</published>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: Add noise cancellation to web apps built on RealtimeKit&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare为基于RealtimeKit构建的Web应用新增噪声消除功能，提升实时音频通话质量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-11-12</title>
@@ -263,6 +103,6 @@
     <id>tag:weekly-report,2026:aihot-7cecaf2b</id>
     <published>2026-11-12T00:00:00Z</published>
     <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-12T03:16&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1"&gt;Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/e16f5d00-5477-42b8-83d3-4162e0262249"&gt;Google 开放 Gemini 4 Carbon，Perplexity 同步上线&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"&gt;Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"&gt;英伟达董事会调查黄仁勋涉情报事件&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/29e37b58-ab35-4bcf-b318-20b0e5a3290d"&gt;Anthropic 为 Claude 新增白板、表格与数据三类 artifact&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-12T12:31&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"&gt;英伟达董事会调查黄仁勋涉情报事件&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1"&gt;Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/e16f5d00-5477-42b8-83d3-4162e0262249"&gt;Google 开放 Gemini 4 Carbon，Perplexity 同步上线&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"&gt;Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/8febc4b1-e8fa-4418-97c6-eb03dfa73f42"&gt;Google发布Gemini Decision 1决策模型，评测得66分&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
