@@ -1,11 +1,39 @@
 {
   "version": 1,
-  "generated_at": "2026-11-12T15:56:32.722139+08:00",
+  "generated_at": "2026-11-13T07:28:12.077857+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-12T15:56:32.722139+08:00",
+      "observed_at": "2026-11-13T07:28:12.077857+08:00",
       "jobs": [
+        {
+          "id": "744000161353664",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000161353664/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000161284054",
+          "title": "Senior Associate, Key Account Management (Mid Market)",
+          "url": "https://www.grab.careers/en/jobs/744000161284054/senior-associate-key-account-management-mid-market/",
+          "function_tags": []
+        },
+        {
+          "id": "744000161246099",
+          "title": "Senior Manager, Regional Sales Compensation",
+          "url": "https://www.grab.careers/en/jobs/744000161246099/senior-manager-regional-sales-compensation/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000161228180",
+          "title": "Data Scientist, Ads and Demand Optimization (Contract)",
+          "url": "https://www.grab.careers/en/jobs/744000161228180/data-scientist-ads-and-demand-optimization-contract/",
+          "function_tags": []
+        },
         {
           "id": "744000161226979",
           "title": "Lead Forward Deployed Engineer, Robotics",
@@ -39,23 +67,9 @@
           "function_tags": []
         },
         {
-          "id": "744000161216439",
-          "title": "Data Scientist, Ads and Demand Optimization (2 year contract)",
-          "url": "https://www.grab.careers/en/jobs/744000161216439/data-scientist-ads-and-demand-optimization-2-year-contract/",
-          "function_tags": []
-        },
-        {
           "id": "744000161211059",
           "title": "Senior Software Engineer, Streaming Platform",
           "url": "https://www.grab.careers/en/jobs/744000161211059/senior-software-engineer-streaming-platform/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000161112556",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000161112556/senior-software-engineer-backend/",
           "function_tags": [
             "engineering"
           ]
@@ -121,24 +135,12 @@
           "function_tags": [
             "sales"
           ]
-        },
-        {
-          "id": "744000161026159",
-          "title": "Manager, SOX",
-          "url": "https://www.grab.careers/en/jobs/744000161026159/manager-sox/",
-          "function_tags": []
-        },
-        {
-          "id": "744000161025500",
-          "title": "Assistant Marketing Manager for Grab Ecommerce",
-          "url": "https://www.grab.careers/en/jobs/744000161025500/assistant-marketing-manager-for-grab-ecommerce/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-12T15:56:32.722139+08:00",
+      "observed_at": "2026-11-13T07:28:12.077857+08:00",
       "jobs": [
         {
           "id": "7844214",
@@ -188,7 +190,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-12T15:56:32.722139+08:00",
+      "observed_at": "2026-11-13T07:28:12.077857+08:00",
       "jobs": [
         {
           "id": "62d779d3-51c8-4b0a-ab2e-1a440276bb37",
