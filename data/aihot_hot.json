@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T12:31:44+08:00",
-  "fetched_date": "2026-11-12",
+  "generated_at": "2026-11-13T03:34:43+08:00",
+  "fetched_date": "2026-11-13",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
@@ -9,43 +9,43 @@
   "items": [
     {
       "rank": 1,
-      "title": "英伟达董事会调查黄仁勋涉情报事件",
-      "list_title": "英伟达董事会调查黄仁勋涉情报事件",
+      "title": "黄仁勋辞任英伟达CEO并退出董事会",
+      "list_title": "黄仁勋辞任英伟达CEO并退出董事会",
       "heat": null,
-      "heat_change": "↑ 56 %",
+      "heat_change": "↑ 86 %",
       "sources": [],
-      "summary": "英伟达董事会11月8日启动独立调查，由独立董事组成委员会、在外部律师协助下，审查创始人兼CEO黄仁勋成为外国情报行动目标的报道。黄仁勋表示全力配合，董事会称目前“没有理由认为”国家安全或公司机密受损。黄仁勋随后在内部信中承认与新加坡数据中心运营商Megaspeed高管Alice Huang存在婚外情。\n\n《纽约时报》《金融时报》等报道称，美国情报机构认为Alice Huang受中国国家安全部招募，借与黄仁勋的密切接触获取英伟达计划及对华芯片出口政策信息；相关说法来自匿名信源和一份在美方官员间传阅的备忘录。英伟达此前否认相关指控，称Megaspeed只是区域云客户，芯片转运指控“去年已被彻底调查并证伪”。The Information最新报道称，Alice Huang与丈夫和姐姐在中国和新加坡建立采购网络，涉及75亿美元英伟达硬件流向中国买家。\n\n美国众议院三个委员会已要求黄仁勋就与Alice Huang的往来作闭门简报，众议院外交事务委员会主席Brian Mast称，若黄仁勋不在11月11日前答复，将发出传票。英伟达法兰克福上市股票在消息后一度跌…",
+      "summary": "英伟达董事会11月12日宣布，联合创始人黄仁勋即日辞去总裁、CEO及董事职务，结束33年执掌；CFO Colette Kress出任临时CEO，董事会已启动内外部继任者遴选，并任命前Synopsys CEO Harvey Jones为首任董事长。\n\n辞职源于他与Megaspeed高管Alice Huang的婚外情曝光。美国情报界认为Alice Huang被中国国家安全部招募以接近黄仁勋，她所在公司被指协助向中国转运受限芯片；黄仁勋此前已向员工承认婚外情并致歉，董事会随后启动独立调查，称无理由认为国家安全或公司机密受损。\n\n事件已波及公司内外：英伟达法兰克福股票一度跌超6%，黄仁勋退出多场演讲，国会要求其作出解释，其反对收紧对华芯片出口管制的游说公信力也受到削弱。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"
     },
     {
       "rank": 2,
-      "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
-      "list_title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
+      "title": "Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具",
+      "list_title": "Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具",
       "heat": null,
-      "heat_change": "↓ 32 %",
+      "heat_change": "↑ 714 %",
       "sources": [],
-      "summary": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者基于同一底层模型。Fable 5.2 面向所有付费计划开放，内置拦截高风险网络安全与生物研究任务的防护；Mythos 5.2 移除部分限制，仅向通过网络安全或生命科学验证计划申请的组织开放。Fable 5.2 定价为每百万输入 token 8 美元、输出 40 美元，较 Fable 5.1 的 10/50 美元降 20%，支持 100 万 token 上下文，并已在 Claude Code、OpenRouter、Cursor、Perplexity、Google Cloud、OpenClaw 等平台上线。\n\n评测方面，Artificial Analysis 智能指数 v5 以 65 分登顶；Arena Code Arena: WebDev 以 1832 分居首；Remote Labor Index 以 41.3% 领跑；AA-Robotics v0.1 以 75 分居首，领先 GPT-6 Astra（69）和 GPT-6.1 Sol（65），并成…",
+      "summary": "Google DeepMind 发布 Gemini 4 Hydrogen，定位为快速执行日常编码与智能体工作流的模型，与主打深度推理的 Carbon、Argon 同属 Gemini 4 系列。Google 称这是 Search 迄今最大的模型升级，已向全球所有用户开放于 Google Search；该模型同时成为 Gemini Managed Agents 中 Antigravity 智能体的默认模型，并已上线 Cursor 和 Cognition 的 Devin Desktop、Devin CLI。Ars Technica 称它取代了此前广泛使用的 Gemini 3.8 Flash，且上线即开放，不像 Argon、Carbon 那样分阶段推送。\n\n使用范围按用户类型区分：所有用户可在 Gemini 应用、Google Search 和 Google AI Studio 访问；付费 Google AI Pro 和 Ultra 订阅者还可在 Google Antigravity、Chrome 中的 Gemini 和 Google Sheets 中的…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1"
+      "story_url": "https://aihot.virxact.com/story/2ff1f46f-7e98-4965-a5b2-87329632ca5d"
     },
     {
       "rank": 3,
-      "title": "Google 开放 Gemini 4 Carbon，Perplexity 同步上线",
-      "list_title": "Google 开放 Gemini 4 Carbon，Perplexity 同步上线",
+      "title": "Google发布Gemini Decision 1决策模型与Decisions API",
+      "list_title": "Google发布Gemini Decision 1决策模型与Decisions API",
       "heat": null,
-      "heat_change": "↓ 15 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "Google 正式开放 Gemini 4 Carbon，称其为最强推理模型，主打长程智能体工作流、软件工程、科学推理和网络安全防御。付费开发者和企业可通过 Google AI Studio、Android Studio 的 Gemini API 及 Gemini for business 使用；Google AI Ultra 订阅者可在 Gemini App、搜索 AI Mode、Antigravity 和 AI Studio 使用。入门价为每百万输入 token 2 美元、每百万输出 token 10 美元，优惠至 2026 年 11 月 30 日，此后将调至 4 美元和 20 美元。The Verge 称尚不清楚更低档订阅或免费用户何时能用。\n\n该模型此前两周仅向 Fairwind 项目的网络安全防御者开放。Google 的 Logan Kilpatrick 称，因模型具备前沿网络能力，团队在安全部署上做了额外工作。The Decoder 指出，Carbon 与 Gemini 4 Argon 单价相同，但推理消耗更多 token，实际总成本可…",
+      "summary": "Google 发布 Gemini Decision 1 模型及配套 Decisions API，不再逐 token 生成文本，而是对文本、图像、音频、视频和 PDF 输入一次性回答是非题、选择题和 rubric 评分，单次最多 1,000 个问题、256K 上下文，端到端延迟 150–250 毫秒，每个答案附置信度分数。该 API 已在 Google AI Studio 上线，输入定价 $0.10/百万 token、输出不收费，并提供免费额度供原型开发；Google 称其在共享基准套件上比使用 Interactions API 的 Gemini 3.5 Flash-Lite 成本效率高近 5 倍。\n\n第三方评测给出不同图景：Artificial Analysis 称 Gemini Decision 1 在 Decision Index v2.1 得 66 分，与 Elephant 9B、Jev 1.14 相当，落后并列领先的 Drex Max v1.1 和 GLiDE v1.2 各 7 分。Google 自己展示的演示则称其 4.5 秒扫描 10…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/e16f5d00-5477-42b8-83d3-4162e0262249"
+      "story_url": "https://aihot.virxact.com/story/8febc4b1-e8fa-4418-97c6-eb03dfa73f42"
     },
     {
       "rank": 4,
       "title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元",
       "list_title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元",
       "heat": null,
-      "heat_change": "↓ 13 %",
+      "heat_change": "↓ 22 %",
       "sources": [],
       "summary": "Anthropic 已启动 IPO 路演，拟发行 8.25 亿股 A 类普通股，其中公司发售约 8.01 亿股、现有股东出售约 2365 万股，公司不获后者所得；发行价区间为每股 70–78 美元，拟在纳斯达克以代码 ANT 上市。据路透社公布的招股说明书草案，公司计划通过 IPO 筹集最多 644 亿美元，并向谷歌、英伟达和 AMD 等基石投资者私募融资 260 亿美元，计入博通、美光、微软和台积电等出资后募资规模最高可达 904 亿美元。\n\n据《金融时报》援引投资者消息，公司拟募资 800–1000 亿美元，目标估值 1.25 万亿–1.75 万亿美元，CEO 阿莫迪已接受低于此前预期的估值；公司 9 月曾瞄准最高 2 万亿美元。据 WSJ，公司本周将设定估值区间，计划下周四或周五挂牌，部分机构投资者仍希望估值低于上周讨论的 1.5 万亿美元。\n\n估值下调发生在投资者质疑之后。据 Reuters 和 WSJ，投资者认为 1.5 万亿美元过高，有人提出仅 1 万亿美元，并怀疑原定下周启动的路演能否如期进行，还在等待更新文件未包含的 10 月营收…",
       "original_links": [],
@@ -53,69 +53,69 @@
     },
     {
       "rank": 5,
-      "title": "Google发布Gemini Decision 1决策模型，评测得66分",
-      "list_title": "Google发布Gemini Decision 1决策模型，评测得66分",
+      "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
+      "list_title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
       "heat": null,
-      "heat_change": "↑ 37 %",
+      "heat_change": "↓ 16 %",
       "sources": [],
-      "summary": "Google 发布 Gemini Decisions API，由新模型 Gemini Decision 1 驱动，已在 Gemini API、Google AI Studio 上线，首日也登陆 OpenRouter。该模型不逐 token 生成文本，而是把文本、图像、音频、视频和 PDF 输入与最多 1,000 个问题对照，单次给出是/否、多选或评分答案，并附置信度分数，端到端耗时 150–250 毫秒。\n\n定价为每 100 万输入 token 0.10 美元、输出 token 不计费；Google 称可在 Google AI Studio 的免费额度中试用，并称在共享基准测试套件上，其成本效率比使用 Interactions API 的 Gemini 3.5 Flash-Lite 高出近 5 倍。Google Labs 副总裁 Josh Woodward 称团队常用它构建应用，并附基准对比称其在 JeeBench 达 92.2%、MMAU 达 71.8%。\n\nArtificial Analysis 的评测显示，Gemini Decision 1…",
+      "summary": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者基于同一底层模型。Fable 5.2 面向所有付费计划开放，内置拦截高风险网络安全与生物研究任务的防护；Mythos 5.2 移除部分限制，仅向通过网络安全或生命科学验证计划申请的组织开放。Fable 5.2 定价为每百万输入 token 8 美元、输出 40 美元，较 Fable 5.1 的 10/50 美元降 20%，支持 100 万 token 上下文，并已在 Claude Code、OpenRouter、Cursor、Perplexity、Google Cloud、OpenClaw 等平台上线。\n\n评测方面，Artificial Analysis 智能指数 v5 以 65 分登顶；Arena Code Arena: WebDev 以 1832 分居首；Remote Labor Index 以 41.3% 领跑；AA-Robotics v0.1 以 75 分居首，领先 GPT-6 Astra（69）和 GPT-6.1 Sol（65），并成…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/8febc4b1-e8fa-4418-97c6-eb03dfa73f42"
+      "story_url": "https://aihot.virxact.com/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1"
     },
     {
       "rank": 6,
-      "title": "Anthropic 为 Claude 新增白板、表格与数据三类 artifact",
-      "list_title": "Anthropic 为 Claude 新增白板、表格与数据三类 artifact",
+      "title": "Google 开放 Gemini 4 Carbon，Perplexity 同步上线",
+      "list_title": "Google 开放 Gemini 4 Carbon，Perplexity 同步上线",
       "heat": null,
-      "heat_change": "↓ 14 %",
+      "heat_change": "↓ 43 %",
       "sources": [],
-      "summary": "Anthropic 为 Claude 新增 Claude Whiteboards、Claude Sheets 和 Claude Data 三种 artifact 类型。Whiteboards 和 Sheets 以测试版上线，可在网页、桌面和移动端使用；此前的 Claude Dashboards 转为正式可用，并更名为 Claude Data。三者面向所有付费计划开放，在 Team 计划中默认开启；在 Enterprise 计划中，Whiteboards 和 Sheets 默认关闭，Data 将于 2026 年 11 月 19 日默认开启。\n\nClaude 官方账号称，三款产品从 11 月 11 日起陆续推出：Whiteboards 用于把讨论中的计划整理成团队可编辑的白板，Sheets 用于生成可继续编辑的表格或预算，Data 用于基于指标起草数据故事和带解说的视频，供用户审阅后再分享。Certified queries 和 live sharing 目前处于 beta 阶段。\n\nAnthropic 同时升级交互式连接器，合作方应用可直接嵌入 C…",
+      "summary": "Google 正式开放 Gemini 4 Carbon，称其为最强推理模型，主打长程智能体工作流、软件工程、科学推理和网络安全防御。付费开发者和企业可通过 Google AI Studio、Android Studio 的 Gemini API 及 Gemini for business 使用；Google AI Ultra 订阅者可在 Gemini App、搜索 AI Mode、Antigravity 和 AI Studio 使用。入门价为每百万输入 token 2 美元、每百万输出 token 10 美元，优惠至 2026 年 11 月 30 日，此后将调至 4 美元和 20 美元。The Verge 称尚不清楚更低档订阅或免费用户何时能用。\n\n该模型此前两周仅向 Fairwind 项目的网络安全防御者开放。Google 的 Logan Kilpatrick 称，因模型具备前沿网络能力，团队在安全部署上做了额外工作。The Decoder 指出，Carbon 与 Gemini 4 Argon 单价相同，但推理消耗更多 token，实际总成本可…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/29e37b58-ab35-4bcf-b318-20b0e5a3290d"
+      "story_url": "https://aihot.virxact.com/story/e16f5d00-5477-42b8-83d3-4162e0262249"
     },
     {
       "rank": 7,
-      "title": "MiniMax 开源 H3-Image，多平台接入",
-      "list_title": "MiniMax 开源 H3-Image，多平台接入",
+      "title": "美联航封禁个人AI智能体代客订票",
+      "list_title": "美联航封禁个人AI智能体代客订票",
       "heat": null,
       "heat_change": "",
       "sources": [],
-      "summary": "MiniMax 发布图像生成模型 H3-Image 并开放模型权重，权重可在 Hugging Face 获取。该模型基于 H3，支持文生图、图像参考和图像编辑，可在 10 秒内生成 4096×4096 像素（约 16MP）图像，最多支持 16 张参考图。MiniMax 称其速度最高达主流方案的 5 倍、指令遵循能力为开源模型中最强。\n\n模型已通过 MiniMax 的 API、MiniMax Code 和 Hailuo AI 提供。发布首周，4K 及以上分辨率（官方另一表述为 16MP 及以上规格）的生成请求按官方价格五折计费。\n\n第三方平台陆续接入：ComfyUI 宣布原生支持，可本地运行或经 Partner Nodes 使用，支持 6 步采样、最高 4096×4096 输出；fal 上线文生图和图像编辑接口，称支持任意宽高比的原生 16MP 分辨率、约 15 秒完成 2K 图像编辑，未来两周在该平台可免费生成；Arena 上线 Battle Mode 供用户测试投票；Runware 称 Day 0 上线，输出最高 20MP，图像输出每百万 to…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/7c20f4ef-fe04-4eca-8355-554fa5df4366"
-    },
-    {
-      "rank": 8,
-      "title": "xAI发布Grok Bot 1.0，定位团队AI队友",
-      "list_title": "xAI发布Grok Bot 1.0，定位团队AI队友",
-      "heat": null,
-      "heat_change": "↑ 30 %",
-      "sources": [],
-      "summary": "xAI 发布 Grok Bot 1.0，将其定位为可与整个团队协作的 AI 智能体队友。据 Grok Bot 官方账号称，用户可以分享 Bot，在 Slack 和 Teams 中与它们协作，邀请它们参加会议，并观察它们逐步学习、变得更高效；该账号还称已在会计、支持、销售、营销等领域把 Bot 当作团队成员使用。马斯克转发推荐把 Grok @Bot 当同事雇用、交给它最难的任务。\n\n参与该产品工程的 Lingxi Li 表示，Grok Bot 1.0 当天陆续向 ultra、team 和 enterprise 用户推出，并征集 bug 反馈；他随后称可以邀请 bot 参加会议。另一位参与者 baltaaazr 称自己参与开发，并分享把 bot 加入会议以整理信息的用法。参与 Grok Bot 的 Roshan Sadanani 称“智能体即同事”是核心设计理念，并认为 1.0 是协作方式的转折点。上述功能与使用效果均来自发布方及参与者的说法。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/6644da24-0d0a-42b1-888b-7805ed5edc3a"
-    },
-    {
-      "rank": 9,
-      "title": "美联航禁止个人AI智能体代客购票",
-      "list_title": "美联航禁止个人AI智能体代客购票",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "美联航宣布不允许个人 AI 智能体代用户完成购票交易，理由是隐私泄露、误购风险，以及可能绕开航空公司须向乘客披露信息的联邦规定。智能体仍可查询航班选项和价格，但无法在其网站完成购买。美联航称，联邦法规要求乘客亲自声明托运行李不含爆炸物，AI 智能体无法合法执行这一步骤；其后端系统已按来源标记每个预订，可区分个人、旅行社和 AI 智能体。\n\n据《华尔街日报》报道，CEO Scott Kirby 表示不想再制造一个中间商。美联航称未来会视第三方智能体的进展重新评估这一决定。eBay 和多家银行也对未授权智能体设置了类似限制。\n\nxAI 工程师 Lingxi Li 转发 Kalshi 关于此事的快讯并评论称，美联航禁止 AI 智能体预订航班是一个“大错误”。",
+      "summary": "美联航宣布不允许个人 AI 智能体代用户购票或管理预订，理由是网络安全风险、隐私泄露、误购风险，以及可能违反联邦法规。智能体仍可查询航班选项和价格，但无法在其网站完成购买。美联航称，联邦法规要求乘客亲自确认托运行李不含违禁物，AI 智能体无法合法执行；共享账号凭证还可能泄露敏感信息，或导致非预期购买、账户变更和里程被使用。\n\n美联航称，将在其数字平台以及旅行社和聚合平台渠道，直接和间接禁止未授权 AI 助手访问，并更新预订、出票和分销政策。据《华尔街日报》报道，CEO Scott Kirby 表示不想再制造一个中间商；美联航称未来会视第三方智能体的进展重新评估这一决定。eBay 和多家银行也对未授权智能体设置了类似限制。\n\nxAI 工程师 Lingxi Li 转发 Kalshi 关于此事的快讯并评论称，美联航禁止 AI 智能体预订航班是一个“大错误”。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/532d299f-c029-4fd3-8dcf-d821dd59a569"
     },
     {
-      "rank": 10,
-      "title": "DeepMind 发布 AlphaGenome 2 基因组模型",
-      "list_title": "DeepMind 发布 AlphaGenome 2 基因组模型",
+      "rank": 8,
+      "title": "豆包工作向企业开放第三方模型并推限时优惠",
+      "list_title": "豆包工作向企业开放第三方模型并推限时优惠",
       "heat": null,
       "heat_change": "",
       "sources": [],
-      "summary": "Google DeepMind 发布下一代 DNA 序列模型 AlphaGenome 2，称其能预测 DNA 变异如何影响特定人类细胞类型中的基因表达。DeepMind 称，模型改用条件式架构，训练数据超过 1.07 亿个单细胞样本、覆盖 68 种组织；在 TenK10K 数据集上识别出的因果变异数量接近上一代的两倍（30% 对 16%）。\n\nDeepMind 称，模型无需重新训练即可适配新的单细胞实验：研究人员接入几十个细胞的数据，就能观察 DNA 变化在特定时刻的表现，例如免疫细胞对疫苗的响应、肠道细胞驱动炎症性疾病、干细胞成熟为血细胞。\n\n模型已通过 AlphaGenome API 开放，限非商业研究使用，并提供交互式 Colab 教程；商业研究仅限“private preview”（非公开预览）。DeepMind 注明，该模型仅供研究使用，尚未经临床或诊断用途验证或批准。上述能力均为 DeepMind 的说法。",
+      "summary": "豆包工作向团队订阅版和企业订阅版客户开放第三方模型服务，首批接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等模型，上线后默认开启。企业无需另行向模型厂商采购或额外申请，按用量扣除已有 AI 点数，并可按成员、部门、群组或全员划定可用范围，按厂商批量启用或单独配置模型。\n\n后续更新中，豆包工作将上述第三方模型与豆包 2.1 Lite、Pro 并列供选择，并在模型选择页面标注额度消耗倍率。豆包工作称，用户在工作日及节假日的指定优惠时段使用参与活动的模型可享额度消耗优惠；豆包 2.1 Lite 和 DeepSeek V4.1 Flash 的额度消耗倍率已下调；新用户登录电脑版可免费领取 30 天订阅权益。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/60c71184-5d0c-4286-94d2-52e32d087f39"
+    },
+    {
+      "rank": 9,
+      "title": "DeepMind 发布 AlphaGenome 2 基因组模型",
+      "list_title": "DeepMind 发布 AlphaGenome 2 基因组模型",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "Google DeepMind 发布下一代 DNA 序列模型 AlphaGenome 2，称其能预测 DNA 变异如何影响特定人类细胞类型和细胞状态中的基因表达。DeepMind 称，模型改用条件式架构，训练数据超过 1.07 亿个单细胞样本、覆盖 68 种组织；在 TenK10K 数据集上识别出的因果变异数量接近上一代的两倍（30% 对 16%）。\n\nDeepMind 称，模型无需重新训练即可适配新的单细胞实验：研究人员接入几十个细胞的数据，就能观察 DNA 变化在特定时刻的表现，例如免疫细胞对疫苗的响应、肠道细胞驱动炎症性疾病、干细胞成熟为血细胞。\n\n模型已通过 AlphaGenome API 开放，限非商业研究使用，并提供交互式 Colab 教程；商业研究仅限“private preview”（非公开预览）。DeepMind 注明，该模型仅供研究使用，尚未经临床或诊断用途验证或批准。上述能力均为 DeepMind 的说法。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/315f4328-e4b0-4d44-bc5e-e317e0b0f8f6"
+    },
+    {
+      "rank": 10,
+      "title": "xAI发布Grok Bot 1.0，定位团队AI队友",
+      "list_title": "xAI发布Grok Bot 1.0，定位团队AI队友",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "xAI 发布 Grok Bot 1.0，将其定位为可与整个团队协作的 AI 智能体队友。据 Grok Bot 官方账号称，用户可以分享 Bot，在 Slack 和 Teams 中与它们协作，邀请它们参加会议，并观察它们逐步学习、变得更高效；该账号还称已在会计、支持、销售、营销等领域把 Bot 当作团队成员使用。马斯克转发推荐把 Grok @Bot 当同事雇用、交给它最难的任务。\n\n参与该产品工程的 Lingxi Li 表示，Grok Bot 1.0 当天陆续向 ultra、team 和 enterprise 用户推出，并征集 bug 反馈；他随后称可以邀请 bot 参加会议。另一位参与者 baltaaazr 称自己参与开发，并分享把 bot 加入会议以整理信息的用法。参与 Grok Bot 的 Roshan Sadanani 称“智能体即同事”是核心设计理念，并认为 1.0 是协作方式的转折点。\n\nGrok 员工 Eric Zakariasson 进一步澄清，人们以为 Grok @bot 只是个人智能体，但它更像员工、同事和队友，可以把完整工作流…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/6644da24-0d0a-42b1-888b-7805ed5edc3a"
     }
   ]
 }
