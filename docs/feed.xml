@@ -1,261 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-11-12</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-11-13</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-11-12T23:33:39Z</updated>
+  <updated>2026-11-13T07:46:57Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>Mohanad Games经阿联酋发行触达海外玩家</title>
-    <link href="https://www.pocketgamer.biz/mohanad-games-on-developing-in-syria-publishing-through-the-uae-and-reaching-syrians-abroad/"/>
-    <id>tag:weekly-report,2026:event-b02120eb</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mohanad Games on developing in Syria, publishing through the UAE and reaching Syrians abroad&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;叙利亚游戏工作室Mohanad Games介绍其在叙利亚开发、经阿联酋发行并触达海外叙利亚玩家的运营模式&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东新兴游戏工作室借海湾发行枢纽出海，为支付、云服务与本地化渠道带来合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：中东 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+    <title>Naver Q3营收3.47万亿韩元</title>
+    <link href="https://www.navercorp.com/en/media/pressReleasesDetail?seq=10034882"/>
+    <id>tag:weekly-report,2026:event-2820796c</id>
+    <published>2026-11-13T00:00:00Z</published>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;NAVER Posts Third-Quarter 2026 Revenue of KRW 3.4724 Trillion and Operating Profit of KRW 451.3 Billion&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;韩国Naver公布2026年第三季度营收3.4724万亿韩元、营业利润4513亿韩元&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;韩国互联网巨头季度营收与利润披露，其AI与搜索广告业务表现影响亚太云与内容合作方预算&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：亚太 | 公司：Naver | 来源：Naver&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Airwallex向新加坡投资S$2B并扩员至1000+</title>
-    <link href="https://fintechnews.sg/141020/funding/airwallex-singapore-s2-billion-investment/"/>
-    <id>tag:weekly-report,2026:event-950671df</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Airwallex to Invest S$2 Billion in Singapore, Expand Workforce to Over 1,000&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;跨境支付公司Airwallex宣布向新加坡投资20亿新元，并将当地员工规模扩大至超过1000人&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太跨境支付基础设施获巨额投资，新加坡作为区域金融科技枢纽地位强化，将带动本地支付技术采购和人才竞争&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+    <title>IvyCap分享喀拉拉邦人才规模化五条经验</title>
+    <link href="https://e27.co/keralas-moment-five-lessons-from-ivycaps-vikram-gupta-on-turning-talent-into-scale-20261113/"/>
+    <id>tag:weekly-report,2026:event-5a719f96</id>
+    <published>2026-11-13T00:00:00Z</published>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Kerala’s moment: Five lessons from IvyCap’s Vikram Gupta on turning talent into scale&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;IvyCap的Vikram Gupta分享喀拉拉邦将人才转化为规模化的五条经验&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚创投机构总结印度喀拉拉邦人才规模化经验，为区域人才供应链与创投布局提供参考&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Gondola借Codex实现营收翻倍</title>
-    <link href="https://openai.com/business/customer-stories/gondola"/>
-    <id>tag:weekly-report,2026:event-02df013a</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Gondola doubles revenue as its team builds more with Codex&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;OpenAI发布客户案例，介绍Gondola借助Codex扩大团队开发能力并实现营收翻倍。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI编程工具在企业落地见效，Codex生态集成与开发者工具采购需求上升&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：OpenAI | 来源：OpenAI News&lt;/p&gt;</summary>
+    <title>菲律宾东盟AI信任度最高但监管滞后</title>
+    <link href="https://e27.co/the-philippines-trusts-ai-more-than-anyone-in-asean-its-rulebook-hasnt-caught-up-20261113/"/>
+    <id>tag:weekly-report,2026:event-9d73ac66</id>
+    <published>2026-11-13T00:00:00Z</published>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The Philippines trusts AI more than anyone in ASEAN. Its rulebook hasn’t caught up&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;调查显示菲律宾在东盟中对AI信任度最高，但其AI监管规则尚未跟上&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚AI应用信任度高但监管缺位，AI合规与治理服务在菲律宾存在先发布局机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Airwallex承诺新加坡投资$1.5B</title>
-    <link href="https://e27.co/airwallexs-us1-5b-singapore-pledge-dwarfs-the-islands-entire-fintech-funding-haul-20261111/"/>
-    <id>tag:weekly-report,2026:event-91577926</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Airwallex’s US$1.5B Singapore pledge dwarfs the island’s entire fintech funding haul&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;跨境支付公司Airwallex承诺在新加坡投资15亿美元，规模超过该国全年金融科技融资总额&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太跨境支付巨头加码新加坡，为当地金融科技生态和支付基础设施供应商带来合作机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+    <title>微软Outlook和Teams中断数小时</title>
+    <link href="https://e.vnexpress.net/news/tech/tech-news/microsoft-outage-drags-on-for-hours-disrupting-outlook-teams-for-thousands-5144121.html"/>
+    <id>tag:weekly-report,2026:event-3d06ebc8</id>
+    <published>2026-11-13T00:00:00Z</published>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;微软服务中断持续数小时，影响Outlook和Teams，数千用户受影响&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚依赖微软云办公服务的企业受冲击，云服务连续性风险凸显，多云备份需求上升&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：越南 | 来源：VnExpress Tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Norwest设立$4B新基金加码AI</title>
-    <link href="https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/"/>
-    <id>tag:weekly-report,2026:event-70031e21</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Norwest pushes deeper into AI with new $4B fund&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;风投机构Norwest新设40亿美元基金，加大对AI领域投资布局&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美VC以40亿美元专项基金加注AI，早期AI项目融资渠道拓宽，企业级AI合作机会增加&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
+    <title>市场恐慌多头出清，关注$70,000关键位</title>
+    <link href="https://e27.co/fear-is-high-and-longs-got-flushed-is-us70000-the-next-line-in-the-sand-20261113/"/>
+    <id>tag:weekly-report,2026:event-e3f12b98</id>
+    <published>2026-11-13T00:00:00Z</published>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Fear is high and longs got flushed. Is US$70,000 the next line in the sand?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;市场情绪恐慌、多头被清洗，讨论比特币7万美元是否为下一关键防线&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美加密市场情绪转弱，多头杠杆出清，加密交易与风控基础设施需求上升&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：other | 地区：北美 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Axle获$9M融资做投行AI代理</title>
-    <link href="https://thenextweb.com/news/axle-9m-ai-agents-investment-banks-corporate-access"/>
-    <id>tag:weekly-report,2026:event-72398413</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Axle raises $9M to bring AI agents to Wall Street’s meeting-makers&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI代理初创公司Axle完成900万美元融资，将AI代理引入华尔街投行会议撮合场景&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;金融垂直AI代理获早期融资，投行会议撮合场景数字化，金融数据与工作流集成合作机会显现&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：funding | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>新加坡金融科技协会接受稳定币缴会员费</title>
+    <link href="https://fintechnews.sg/141132/digitalassets/sfa-stablecoins/"/>
+    <id>tag:weekly-report,2026:event-3bb8339c</id>
+    <published>2026-11-13T00:00:00Z</published>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Singapore Fintech Association Accepts Stablecoins for Member Fees&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;新加坡金融科技协会宣布接受稳定币支付会员费用&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡行业组织率先接纳稳定币支付，释放东南亚稳定币合规化与商用落地的积极信号&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Nebuly获$21M A轮融资</title>
-    <link href="https://thenextweb.com/news/nebuly-21m-series-a-enterprise-ai-roi"/>
-    <id>tag:weekly-report,2026:event-6eef0579</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nebuly raises $21M Series A to measure the ROI of enterprise AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Nebuly完成2100万美元A轮融资，用于衡量企业AI投资回报率&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲企业AI ROI测量工具获融资，反映企业AI预算从部署转向效果评估，AI治理与效能监测工具需求上升&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>Mastercard在新加坡设亚太最大创新中心</title>
+    <link href="https://fintechnews.sg/141118/payments/mastercard-innovation-centre/"/>
+    <id>tag:weekly-report,2026:event-63cc85c8</id>
+    <published>2026-11-13T00:00:00Z</published>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mastercard Opens Its Largest APAC Innovation Centre in Singapore&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;支付巨头Mastercard在新加坡开设其亚太地区最大的创新中心，用于支付技术研发与合作伙伴共创。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太支付技术研发资源加码，新加坡作为区域创新枢纽地位强化，本地支付服务商与开发者可获共创与采购机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Rox获$100M融资，主打AI销售代理挑战Salesforce</title>
-    <link href="https://ventureburn.com/rox-raises-100-million-ai-agents-outsell-salesforce-crm/"/>
-    <id>tag:weekly-report,2026:event-094d7073</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Rox Raises $100 Million As Investors Bet AI Agents Can Outsell Salesforce’s CRM&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI销售代理公司Rox完成1亿美元融资，投资方押注其AI代理产品能在CRM市场挑战Salesforce&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲AI销售代理公司获大额融资，CRM赛道AI替代机会显现，渠道与集成合作空间大&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
+    <title>BitGo Link扩展至10家加密交易所</title>
+    <link href="https://fintechnews.sg/141133/digitalassets/bitgo-link-exchange-connectivity-expansion/"/>
+    <id>tag:weekly-report,2026:event-a9a79249</id>
+    <published>2026-11-13T00:00:00Z</published>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;BitGo Link Expands Connectivity to 10 Crypto Exchanges&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;加密托管平台BitGo旗下BitGo Link产品宣布将连接范围扩展至10家加密货币交易所，提升机构客户的交易接入能力。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太加密托管基础设施互联互通增强，机构级数字资产交易接入需求上升，为交易所与托管方合作创造接口机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Hatz AI获$24M融资扩展MSP AI平台</title>
-    <link href="https://ventureburn.com/hatz-ai-raises-24m-expand-msp-ai-platform/"/>
-    <id>tag:weekly-report,2026:event-30f29963</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Hatz AI Raises $24M to Expand Its Enterprise AI Platform for MSPs&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Hatz AI完成2400万美元融资，用于扩展面向托管服务提供商（MSP）的企业AI平台&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球MSP渠道AI化需求上升，Hatz AI融资后可能扩大渠道合作与平台集成采购&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Kindo获$30M融资扩展企业AI控制平台</title>
-    <link href="https://ventureburn.com/kindo-raises-30-million-enterprise-ai-control/"/>
-    <id>tag:weekly-report,2026:event-cc60dc28</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Kindo Raises $30 Million to Expand Enterprise AI Control Platform&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Kindo完成3000万美元融资，用于扩展企业AI控制平台&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球企业AI治理与安全控制需求增长，Kindo融资后企业级AI合规工具采购预算有望扩大&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Telia以$380M收购Telavox企业用户业务</title>
-    <link href="https://www.mobileworldlive.com/industry/telia-snaps-up-telavox-enterprise-users-for-380m/"/>
-    <id>tag:weekly-report,2026:event-c6a07448</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Telia snaps up Telavox enterprise users for $380M&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Telia以3.8亿美元收购Telavox的企业用户业务&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北欧运营商整合企业通信资产，UCaaS与云通信供应商面临客户迁移与替换窗口&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Shopify税务免费折扣不再年度重置</title>
-    <link href="https://changelog.shopify.com/posts/shopify-tax-free-discount-will-no-longer-reset-annually"/>
-    <id>tag:weekly-report,2026:event-945036ce</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Shopify Tax free discount will no longer reset annually&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Shopify调整税务免费折扣政策，该折扣将不再每年重置，商家可长期保留该优惠资格。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Shopify发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Shopify | 来源：Shopify Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Nebius规划$40B资本开支押注neocloud</title>
-    <link href="https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"/>
-    <id>tag:weekly-report,2026:event-d7cc6a9e</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nebius tests the neocloud playbook with $40 billion in planned spending&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;AI云服务商Nebius公布约400亿美元的计划性资本开支，测试新型云（neocloud）商业模式&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI云厂商以超大规模资本开支挑战超算云格局，GPU采购与数据中心供应链订单外溢明显&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Z.AI股价跌58%后推$510M回购</title>
-    <link href="https://www.techinasia.com/news/zai-plans-510m-share-buyback-58-stock-slide"/>
-    <id>tag:weekly-report,2026:event-fab0645d</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Z.AI plans up to $510m share buyback after 58% stock slide&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Z.AI股价累计下跌58%后，公司宣布最高5.1亿美元股份回购计划&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI公司Z.AI股价暴跌后启动大额回购护盘，反映AI概念股估值回调压力与资本市场信心波动&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Nebius数据中心延迟，股价跌16%</title>
-    <link href="https://thenextweb.com/news/nebius-q3-2026-shares-fall-data-centre-delays-outlook"/>
-    <id>tag:weekly-report,2026:event-5780a69d</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nebius shares fall 16% as data centre delays cut its 2026 outlook&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Nebius因数据中心交付延迟下调2026年业绩展望，股价单日下跌16%&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI云厂商产能交付瓶颈暴露，GPU算力扩张节奏受制于数据中心建设，供应链交付风险需警惕&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Naver签$1.5B AI基建协议并求购英伟达芯片</title>
-    <link href="https://www.techinasia.com/news/naver-signs-1-5b-ai-infrastructure-deal-seeks-nvidia-chips"/>
-    <id>tag:weekly-report,2026:event-5a0c740c</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Naver signs $1.5b AI infrastructure deal, seeks Nvidia chips&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;韩国Naver签署15亿美元AI基础设施协议，并寻求采购英伟达芯片&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;韩国互联网巨头加码AI算力基建并锁定英伟达芯片，亚太GPU供应链与数据中心合作机会集中释放&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>分析比特币上涨是否仅因空头回补</title>
-    <link href="https://e27.co/is-short-covering-the-only-reason-bitcoin-moved-higher-20261112/"/>
-    <id>tag:weekly-report,2026:event-09c24040</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Is short covering the only reason Bitcoin moved higher?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;分析文章讨论比特币近期上涨是否仅由空头回补驱动&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚视角下加密市场波动分析，为加密交易平台和做市商提供市场情绪参考&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：other | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Talking Tom AI推荐流量增长357%</title>
-    <link href="https://www.pocketgamer.biz/ai-is-changing-discoverability-how-talking-tom-boosted-ai-referral-traffic-by-357/"/>
-    <id>tag:weekly-report,2026:event-8a2c4396</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;AI is changing discoverability: How Talking Tom boosted AI referral traffic by 357%&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Outfit7旗下Talking Tom通过AI渠道优化使AI来源推荐流量增长357%，案例揭示AI正在改变应用发现路径&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI搜索与助手成为新分发入口，手游与应用厂商需重构ASO与AI渠道投放预算&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：industry_report | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>三星钱包在新加坡越南接入ShopeePay</title>
-    <link href="https://fintechnews.sg/141086/payments/samsung-wallet-shopeepay-singapore-vietnam/"/>
-    <id>tag:weekly-report,2026:event-71c130d2</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Samsung Wallet Now Supports ShopeePay in Singapore, Vietnam&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;三星钱包在新加坡和越南新增支持ShopeePay支付方式，扩展其移动支付生态覆盖范围&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚移动支付互联互通加速，三星钱包与ShopeePay合作提升区域数字钱包覆盖率，利好支付网关和商户收单方&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>H6.ai基于Lakebase Postgres构建AI财务自动化</title>
-    <link href="https://www.databricks.com/blog/how-h6ai-builds-ai-powered-financial-automation-lakebase-postgres"/>
-    <id>tag:weekly-report,2026:event-4a58f50a</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;How H6.ai builds AI-powered financial automation with Lakebase Postgres&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Databricks博客介绍H6.ai如何基于Lakebase Postgres构建AI驱动的财务自动化方案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;数据平台与AI财务自动化结合，数据库与云服务生态合作机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Databricks | 来源：Databricks Blog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>商户起诉联邦机构挑战伊利诺伊刷卡费法</title>
-    <link href="https://www.paymentsdive.com/news/merchants-sue-feds-over-illinois-card-fee-law/874494/"/>
-    <id>tag:weekly-report,2026:event-2b417dd8</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Merchants sue feds over Illinois card fee law&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;商户就伊利诺伊州信用卡手续费相关法律起诉联邦机构&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国州级刷卡费立法引发诉讼，支付网络与收单机构的费率合规成本面临重估&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：Payments Dive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Worker.ai收购捷克语音AI公司DeltaGen</title>
-    <link href="https://www.therecursive.com/worker-ai-acquires-czech-voice-ai-startup-deltagen-plans-to-grow-its-prague-team/"/>
-    <id>tag:weekly-report,2026:event-ce005486</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Worker.ai Acquires Czech Voice AI Startup DeltaGen, Plans to Grow Its Prague Team&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Worker.ai收购捷克语音AI初创公司DeltaGen，并计划扩大其布拉格团队&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东欧语音AI人才与团队被整合，欧洲语音交互赛道并购活跃，本地化语音能力成收购标的&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：ma | 地区：欧洲 | 来源：The Recursive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Hims &amp; Hers扩展GLP-1福利计划，接入Grüns、Tonal等品牌</title>
-    <link href="https://www.modernretail.co/operations/hims-hers-benefits-program-gruns-tonal-viome-medjet/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
-    <id>tag:weekly-report,2026:event-a5337223</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Hims &amp;amp; Hers expands benefits program for GLP-1 support with brands like Grüns and Tonal&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Hims &amp;amp; Hers扩展其福利计划，纳入Grüns、Tonal、Viome、Medjet等品牌，为GLP-1用户提供配套支持服务。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国数字健康平台以福利计划整合消费健康品牌，GLP-1生态合作与渠道分销机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Modern Retail&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>FTC加强反诈骗执法</title>
-    <link href="https://www.paymentsdive.com/news/ftc-aims-to-better-fight-scams/874509/"/>
-    <id>tag:weekly-report,2026:event-9c9e0a5a</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;FTC aims to better fight scams&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国联邦贸易委员会（FTC）表示将加强对诈骗行为的打击力度&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国监管层强化反诈执法，支付风控与身份验证供应商合规采购需求上升&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：Payments Dive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Playnest运营四年后关停</title>
-    <link href="https://www.pocketgamer.biz/playnest-shuts-down-after-four-years-of-mobile-game-development/"/>
-    <id>tag:weekly-report,2026:event-b209b7f1</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Playnest shuts down after four years of mobile game development&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;手游开发工作室Playnest在运营四年后宣布关停&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中小手游工作室生存压力加剧，行业整合与人才流动将影响外包与发行合作格局&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>MWC26多哈第二场主题演讲举行</title>
-    <link href="https://www.mobileworldlive.com/gsma/mwc26-doha-keynote-2/"/>
-    <id>tag:weekly-report,2026:event-fd390381</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;MWC26 Doha: Keynote 2&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;MWC26多哈大会举行第二场主题演讲&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中东通信展会主题演讲释放区域数字化合作信号，运营商与设备商可跟进海湾市场机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Shopify客户账户增加信用额度与个性化推荐</title>
-    <link href="https://changelog.shopify.com/posts/customer-accounts-now-show-store-credit-and-personalized-product-recommendations"/>
-    <id>tag:weekly-report,2026:event-568ef439</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Shopify: Customer accounts now show store credit and personalized product recommendations&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Shopify客户账户页面新增展示店铺信用额度和个性化商品推荐功能&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Shopify发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Shopify | 来源：Shopify Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare RealtimeKit新增添加参与者API</title>
-    <link href="https://developers.cloudflare.com/api/resources/realtime_kit/subresources/meetings/methods/add_participant/"/>
-    <id>tag:weekly-report,2026:event-f113ef14</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: Add participant API&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare RealtimeKit新增Add Participant API，允许开发者通过接口向会议中添加参与者。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare RealtimeKit新增噪声消除功能</title>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-11-12-realtimekit-noise-cancellation/"/>
-    <id>tag:weekly-report,2026:event-3fe87490</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: Add noise cancellation to web apps built on RealtimeKit&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare为基于RealtimeKit构建的Web应用新增噪声消除功能，提升实时音频通话质量。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare AI Search支持D1数据源</title>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-11-12-d1-data-source/"/>
-    <id>tag:weekly-report,2026:event-9945281b</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Cloudflare: AI Search supports D1 databases as a data source (beta)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Cloudflare的AI Search功能新增支持D1数据库作为数据源，目前处于测试阶段&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Cloudflare发布产品更新，可验证其产品、平台或生态能力发生变化&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 公司：Cloudflare | 来源：Cloudflare Changelog&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>马尼拉B轮繁荣但A轮萎缩，Mynt IPO难补早期断层</title>
-    <link href="https://e27.co/manila-has-a-series-b-boom-and-a-series-a-funeral-mynts-record-ipo-wont-fix-that-20261112/"/>
-    <id>tag:weekly-report,2026:event-818aefa4</id>
-    <published>2026-11-12T00:00:00Z</published>
-    <updated>2026-11-12T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Manila has a Series B boom and a Series A funeral. Mynt’s record IPO won’t fix that&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27分析指出马尼拉创投市场呈现B轮繁荣与A轮萎缩的两极分化，Mynt创纪录IPO难以改变早期融资断层。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;菲律宾创投结构失衡，早期项目融资困难，ICT投资方与孵化器需调整东南亚布局节奏&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+    <title>AI热潮下基础设施交易悄然主导</title>
+    <link href="https://dealstreetasia.com/stories/beyond-the-buyout-infra-deals-500949/"/>
+    <id>tag:weekly-report,2026:event-98d520c4</id>
+    <published>2026-11-13T00:00:00Z</published>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Beyond The Buyout: Infrastructure deals quietly hold sway amid AI blitz&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;DealStreetAsia分析指出，在AI投资热潮中，基础设施类交易虽不显眼但持续占据重要地位&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太AI投资中基础设施并购活跃，为数据中心、算力与网络基础设施供应商带来合作与预算机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：industry_report | 地区：亚太 | 来源：DealStreetAsia&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-11-13</title>
@@ -263,6 +87,6 @@
     <id>tag:weekly-report,2026:aihot-331c2d23</id>
     <published>2026-11-13T00:00:00Z</published>
     <updated>2026-11-13T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-13T03:34&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"&gt;黄仁勋辞任英伟达CEO并退出董事会&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/2ff1f46f-7e98-4965-a5b2-87329632ca5d"&gt;Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/8febc4b1-e8fa-4418-97c6-eb03dfa73f42"&gt;Google发布Gemini Decision 1决策模型与Decisions API&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"&gt;Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1"&gt;Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-13T11:46&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"&gt;黄仁勋辞任英伟达CEO并退出董事会&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/2ff1f46f-7e98-4965-a5b2-87329632ca5d"&gt;Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/8febc4b1-e8fa-4418-97c6-eb03dfa73f42"&gt;Google发布Gemini Decision 1决策模型与Decisions API&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/dad94af2-7539-4652-a661-03cc5494c71b"&gt;Anthropic 向 Team 和 Enterprise 推出 Claude Meetings beta&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"&gt;Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>

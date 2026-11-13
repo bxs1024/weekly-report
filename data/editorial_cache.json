@@ -1131,29 +1131,29 @@
       "generated_at": "2026-11-09 06:00"
     },
     "weekly:2026-W46": {
-      "input_hash": "8cd05f477d8ac3544c9fa0b7ecef4b4812e11f04dac927c697e62d3bf692d4aa",
+      "input_hash": "9d07eea73eb233c697bc2756143a6329cbe6a41e29c3ca24510aa562a1d8f2af",
       "editorial": {
-        "editorial_title": "AI基建与支付扩张双线提速",
-        "mainline": "阿里云、腾讯云分别签下迪拜AI协议与OmniOps合作，阿美收购Humain 49%股权，中资云服务商在中东加速落地；与此同时，蚂蚁集团与UEFA续约至2028年，Alipay+欧洲商户覆盖进一步扩大。两条线索共同指向：亚太科技企业正以AI基建和支付网络为支点，加速向欧洲和中东输出能力。",
+        "editorial_title": "中资云与支付借赛事、电商加速出海",
+        "mainline": "阿里云签迪拜AI协议、蚂蚁续约UEFA至2028年，中资云与支付借顶级赛事和区域协议加速渗透中东与欧洲；TikTok在东南亚四国上线独立购物App，电商基础设施与本地化运营投入同步加码，出海服务商合作窗口正在打开。",
         "themes": {
-          "ai_infra": "阿里云签迪拜AI协议、腾讯云合作OmniOps、阿美收购Humain 49%，中资云服务商在中东密集落子；Naver加码AI投资而Kakao转向保利润，韩国平台策略分化。H6.ai基于Lakebase Postgres构建AI财务自动化，数据平台与AI财务工具结合正打开企业服务合作窗口。",
-          "expansion": "蚂蚁集团与UEFA续约至2028年，Alipay+在欧洲商户覆盖和跨境支付场景进一步扩展；Kakao Piccoma上线BL网漫平台Lulumiru，MATRADE与HKTVmall合作推广马来西亚商品，Kakao Mobility携手英伟达开发自动驾驶起亚车。亚太平台正通过体育赞助、内容垂直化和技术合作多线扩张。",
-          "payments": "Kakao Bank推出房产抵押贷款整合、利率3.04%起，直接切入个体工商户抵押贷款市场，利率竞争加剧令传统银行小微贷款业务承压；韩国FTC启动Naver Financial-Dunamu合并审查，GCash创纪录季度并转型借贷主导，Sage联合Mastercard和Adyen推SMB合作。数字银行与平台金融正从支付向信贷和合并整合纵深推进。",
-          "developer": "Gondola借Codex实现营收翻倍，AI编程工具在企业落地见效，Codex生态集成与开发者工具采购需求上升；CPI 0.4%致比特币跌破73000美元，Square Enix发布上半财年合并财报，e27分析印尼市场税务合规陷阱。开发者效率提升与宏观波动、区域合规风险并行，出海团队需同步评估工具红利与落地成本。",
-          "compliance": "欧盟拟立法限制游戏战利品箱与成瘾设计，游戏公司需调整变现模式，合规工具和用户保护技术供应商迎来机会；泰国央行暂停新货币兑换商牌照发放至2027年，泰国SEC拟推ICO投资者知识测试新规，Databricks承诺强化欧洲数据主权。欧洲与东南亚监管同步收紧，数据主权与消费者保护正成为市场准入的前置条件。",
-          "commerce": "TikTok在东南亚四国上线独立购物App，电商基础设施和本地化运营投入将加大，物流、支付、直播带货服务商迎来合作窗口；Naver签2万亿韩元AI计算协议并拓展物流，AFS与Tabby合作为阿联酋商户提供分期支付，商户起诉联邦机构挑战伊利诺伊刷卡费法。电商平台正把AI算力、物流和分期支付打包成商户侧的基础设施竞争。"
+          "ai_infra": "阿里云与迪拜签AI协议、腾讯云合作OmniOps、阿美收购Humain 49%，中资云以AI合作切入中东；Naver加码AI投资而Kakao保利润，韩系厂商策略分化，数据平台与AI应用集成需求外溢。",
+          "expansion": "蚂蚁集团与UEFA续约至2028年，Alipay+欧洲商户覆盖与跨境支付场景将进一步扩展；Kakao Piccoma上线BL网漫平台、MATRADE联合HKTVmall推马来西亚商品，亚太内容与商品借本地平台向外延伸。",
+          "payments": "Kakao Bank推房产抵押贷款整合、利率3.04%起，韩国数字银行切入个体工商户抵押贷市场；FTC启动Naver Financial-Dunamu合并审查，GCash创纪录季度并转向借贷主导，小微贷款竞争与监管审查同步升温。",
+          "developer": "Gondola借Codex实现营收翻倍，AI编码工具从降本工具变为收入杠杆；IvyCap总结喀拉拉邦人才规模化经验，CPI 0.4%致比特币跌破73000美元，开发者生态的融资与人才供应链同步承压。",
+          "compliance": "欧盟拟立法限制游戏战利品箱与成瘾设计，游戏公司变现模式面临调整；泰国央行暂停新货币兑换商牌照至2027年，Databricks承诺强化欧洲数据主权，合规工具与用户保护技术供应商迎来窗口。",
+          "commerce": "TikTok在东南亚四国上线独立购物App，电商基础设施与本地化运营投入将加大；Naver签2万亿韩元AI计算协议并拓展物流，AFS与Tabby为阿联酋商户提供分期支付，物流、支付与直播服务商合作窗口打开。"
         },
         "theme_titles": {
-          "ai_infra": "中资云商中东连签AI协议，Naver加码投资Kakao保利润",
-          "expansion": "蚂蚁续约UEFA至2028，Kakao Piccoma上线BL新平台",
-          "payments": "Kakao Bank推3.04%抵押贷，韩国FTC审查Naver金融合并",
-          "developer": "Gondola借Codex营收翻倍，印尼税务合规成出海暗礁",
-          "compliance": "欧盟拟限游戏战利品箱，泰国停发兑换商牌照至2027",
-          "commerce": "TikTok东南亚四国上线独立购物App，Naver签2万亿韩元AI物流协议"
+          "ai_infra": "阿里云签迪拜协议，中资云借AI合作进中东",
+          "expansion": "蚂蚁续约UEFA至2028，支付品牌深耕欧洲",
+          "payments": "Kakao Bank抵押贷利率3.04%起，韩小微贷承压",
+          "developer": "Gondola借Codex营收翻倍，AI编码工具显效",
+          "compliance": "欧盟拟限游戏战利品箱，变现模式面临调整",
+          "commerce": "TikTok东南亚四国上线独立购物App"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-11-13 07:33"
+      "generated_at": "2026-11-13 15:46"
     }
   }
 }
