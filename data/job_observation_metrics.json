@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-11-13T15:34:53.491542+08:00",
+  "observed_at": "2026-11-14T07:27:25.759153+08:00",
   "source_count": 3,
   "raw_count": 47,
   "source_stats": {
@@ -8,20 +8,16 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 9,
+      "count": 4,
       "inventory_count": 17,
       "signal_count": 1,
-      "added_count": 4,
-      "removed_count": 5,
+      "added_count": 2,
+      "removed_count": 2,
       "clusters": {
-        "payments": 1,
         "engineering": 2
       },
       "removed_clusters": {
-        "operations": 2,
-        "compliance": 1,
-        "engineering": 1,
-        "sales": 1
+        "engineering": 1
       }
     },
     "Stripe Jobs": {
@@ -29,11 +25,11 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 1,
+      "count": 0,
       "inventory_count": 5,
       "signal_count": 0,
       "added_count": 0,
-      "removed_count": 1,
+      "removed_count": 0,
       "clusters": {},
       "removed_clusters": {}
     },
@@ -42,13 +38,18 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
+      "count": 2,
       "inventory_count": 25,
       "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
-      "removed_clusters": {}
+      "added_count": 1,
+      "removed_count": 1,
+      "clusters": {
+        "engineering": 1,
+        "payments": 1
+      },
+      "removed_clusters": {
+        "engineering": 1
+      }
     }
   },
   "candidate_signals": [
@@ -62,81 +63,47 @@
       "signal_type": "function_buildout",
       "cluster": "engineering",
       "window": "2026-W46",
-      "window_start": "2026-11-13",
-      "window_end": "2026-11-13",
-      "detected_at": "2026-11-13T15:34:53.491542+08:00",
-      "baseline_count": 18,
+      "window_start": "2026-11-14",
+      "window_end": "2026-11-14",
+      "detected_at": "2026-11-14T07:27:25.759153+08:00",
+      "baseline_count": 17,
       "current_count": 17,
-      "added_count": 4,
-      "removed_count": 5,
+      "added_count": 2,
+      "removed_count": 2,
       "clusters": {
-        "payments": 1,
         "engineering": 2
       },
       "removed_clusters": {
-        "operations": 2,
-        "compliance": 1,
-        "engineering": 1,
-        "sales": 1
+        "engineering": 1
       },
       "evidence_refs": [
         {
-          "job_id": "744000161431919",
-          "title": "Data Scientist (Analytics), Financial Services",
-          "url": "https://www.grab.careers/en/jobs/744000161431919/data-scientist-analytics-financial-services/",
+          "job_id": "744000161454200",
+          "title": "Lead Software Engineer, Scribe",
+          "url": "https://www.grab.careers/en/jobs/744000161454200/lead-software-engineer-scribe/",
           "change": "added"
         },
         {
-          "job_id": "744000161430409",
-          "title": "Senior Software Engineer, Flutter - Merchant Experience",
-          "url": "https://www.grab.careers/en/jobs/744000161430409/senior-software-engineer-flutter-merchant-experience/",
+          "job_id": "744000161453364",
+          "title": "Lead Software Reliability Engineer, Defence",
+          "url": "https://www.grab.careers/en/jobs/744000161453364/lead-software-reliability-engineer-defence/",
           "change": "added"
         },
         {
-          "job_id": "744000161429069",
-          "title": "Country Procurement Manager Indonesia",
-          "url": "https://www.grab.careers/en/jobs/744000161429069/country-procurement-manager-indonesia/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000161421029",
-          "title": "Senior Software Engineer, Gateway Platform",
-          "url": "https://www.grab.careers/en/jobs/744000161421029/senior-software-engineer-gateway-platform/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000161052690",
-          "title": "Intern, Driver Operations",
-          "url": "https://www.grab.careers/en/jobs/744000161052690/intern-driver-operations/",
+          "job_id": "744000161057364",
+          "title": "Principal Product Strategist",
+          "url": "https://www.grab.careers/en/jobs/744000161057364/principal-product-strategist/",
           "change": "removed"
         },
         {
-          "job_id": "744000161041149",
-          "title": "Manager, Credit Risk",
-          "url": "https://www.grab.careers/en/jobs/744000161041149/manager-credit-risk/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000161037244",
-          "title": "Intern, Product Support",
-          "url": "https://www.grab.careers/en/jobs/744000161037244/intern-product-support/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000161033639",
-          "title": "Lead Infrastructure Engineer, Managed Kubernetes Platform (MEKS)",
-          "url": "https://www.grab.careers/en/jobs/744000161033639/lead-infrastructure-engineer-managed-kubernetes-platform-meks/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000161028799",
-          "title": "Associate, User Growth - GrabMart",
-          "url": "https://www.grab.careers/en/jobs/744000161028799/associate-user-growth-grabmart/",
+          "job_id": "744000161054779",
+          "title": "Senior Software Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000161054779/senior-software-engineer/",
           "change": "removed"
         }
       ],
-      "status": "qualified",
-      "rejection_reason": "",
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
       "promoted_event_id": ""
     }
   ],

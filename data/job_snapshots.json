@@ -1,11 +1,27 @@
 {
   "version": 1,
-  "generated_at": "2026-11-13T15:34:53.491542+08:00",
+  "generated_at": "2026-11-14T07:27:25.759153+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-13T15:34:53.491542+08:00",
+      "observed_at": "2026-11-14T07:27:25.759153+08:00",
       "jobs": [
+        {
+          "id": "744000161454200",
+          "title": "Lead Software Engineer, Scribe",
+          "url": "https://www.grab.careers/en/jobs/744000161454200/lead-software-engineer-scribe/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000161453364",
+          "title": "Lead Software Reliability Engineer, Defence",
+          "url": "https://www.grab.careers/en/jobs/744000161453364/lead-software-reliability-engineer-defence/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000161431919",
           "title": "Data Scientist (Analytics), Financial Services",
@@ -111,26 +127,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000161057364",
-          "title": "Principal Product Strategist",
-          "url": "https://www.grab.careers/en/jobs/744000161057364/principal-product-strategist/",
-          "function_tags": []
-        },
-        {
-          "id": "744000161054779",
-          "title": "Senior Software Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000161054779/senior-software-engineer/",
-          "function_tags": [
-            "engineering"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-13T15:34:53.491542+08:00",
+      "observed_at": "2026-11-14T07:27:25.759153+08:00",
       "jobs": [
         {
           "id": "8144196",
@@ -174,7 +176,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-13T15:34:53.491542+08:00",
+      "observed_at": "2026-11-14T07:27:25.759153+08:00",
       "jobs": [
         {
           "id": "62d779d3-51c8-4b0a-ab2e-1a440276bb37",
@@ -370,17 +372,18 @@
           ]
         },
         {
-          "id": "cc33c981-5ac7-4c32-9924-fda511771c5a",
-          "title": "Senior Staff Applied ML Engineer - Consumer Agents Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-staff-applied-ml-engineer-consumer-agents_cc33c981-5ac7-4c32-9924-fda511771c5a",
+          "id": "c7376ac5-5a43-4127-832d-7aa62d10c145",
+          "title": "Senior Software Engineer - Payments (Singapore, APAC) Remote - Singapore",
+          "url": "https://www.shopify.com/careers/senior-software-engineer-payments-singapore-apac_c7376ac5-5a43-4127-832d-7aa62d10c145",
           "function_tags": [
-            "engineering"
+            "engineering",
+            "payments"
           ]
         },
         {
-          "id": "59a0b690-182f-465f-9059-b6ce3874fb62",
-          "title": "Senior Staff Engineer - ML Inference Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-staff-engineer-ml-inference_59a0b690-182f-465f-9059-b6ce3874fb62",
+          "id": "cc33c981-5ac7-4c32-9924-fda511771c5a",
+          "title": "Senior Staff Applied ML Engineer - Consumer Agents Remote - Americas",
+          "url": "https://www.shopify.com/careers/senior-staff-applied-ml-engineer-consumer-agents_cc33c981-5ac7-4c32-9924-fda511771c5a",
           "function_tags": [
             "engineering"
           ]
