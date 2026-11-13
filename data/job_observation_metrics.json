@@ -1,24 +1,27 @@
 {
-  "observed_at": "2026-11-13T07:28:12.077857+08:00",
+  "observed_at": "2026-11-13T15:34:53.491542+08:00",
   "source_count": 3,
-  "raw_count": 49,
+  "raw_count": 47,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 8,
-      "inventory_count": 18,
+      "count": 9,
+      "inventory_count": 17,
       "signal_count": 1,
       "added_count": 4,
-      "removed_count": 4,
+      "removed_count": 5,
       "clusters": {
-        "engineering": 1,
-        "sales": 1
+        "payments": 1,
+        "engineering": 2
       },
       "removed_clusters": {
-        "engineering": 1
+        "operations": 2,
+        "compliance": 1,
+        "engineering": 1,
+        "sales": 1
       }
     },
     "Stripe Jobs": {
@@ -26,11 +29,11 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
-      "inventory_count": 6,
+      "count": 1,
+      "inventory_count": 5,
       "signal_count": 0,
       "added_count": 0,
-      "removed_count": 0,
+      "removed_count": 1,
       "clusters": {},
       "removed_clusters": {}
     },
@@ -61,70 +64,79 @@
       "window": "2026-W46",
       "window_start": "2026-11-13",
       "window_end": "2026-11-13",
-      "detected_at": "2026-11-13T07:28:12.077857+08:00",
+      "detected_at": "2026-11-13T15:34:53.491542+08:00",
       "baseline_count": 18,
-      "current_count": 18,
+      "current_count": 17,
       "added_count": 4,
-      "removed_count": 4,
+      "removed_count": 5,
       "clusters": {
+        "payments": 1,
+        "engineering": 2
+      },
+      "removed_clusters": {
+        "operations": 2,
+        "compliance": 1,
         "engineering": 1,
         "sales": 1
       },
-      "removed_clusters": {
-        "engineering": 1
-      },
       "evidence_refs": [
         {
-          "job_id": "744000161353664",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000161353664/senior-software-engineer-backend/",
+          "job_id": "744000161431919",
+          "title": "Data Scientist (Analytics), Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000161431919/data-scientist-analytics-financial-services/",
           "change": "added"
         },
         {
-          "job_id": "744000161284054",
-          "title": "Senior Associate, Key Account Management (Mid Market)",
-          "url": "https://www.grab.careers/en/jobs/744000161284054/senior-associate-key-account-management-mid-market/",
+          "job_id": "744000161430409",
+          "title": "Senior Software Engineer, Flutter - Merchant Experience",
+          "url": "https://www.grab.careers/en/jobs/744000161430409/senior-software-engineer-flutter-merchant-experience/",
           "change": "added"
         },
         {
-          "job_id": "744000161246099",
-          "title": "Senior Manager, Regional Sales Compensation",
-          "url": "https://www.grab.careers/en/jobs/744000161246099/senior-manager-regional-sales-compensation/",
+          "job_id": "744000161429069",
+          "title": "Country Procurement Manager Indonesia",
+          "url": "https://www.grab.careers/en/jobs/744000161429069/country-procurement-manager-indonesia/",
           "change": "added"
         },
         {
-          "job_id": "744000161228180",
-          "title": "Data Scientist, Ads and Demand Optimization (Contract)",
-          "url": "https://www.grab.careers/en/jobs/744000161228180/data-scientist-ads-and-demand-optimization-contract/",
+          "job_id": "744000161421029",
+          "title": "Senior Software Engineer, Gateway Platform",
+          "url": "https://www.grab.careers/en/jobs/744000161421029/senior-software-engineer-gateway-platform/",
           "change": "added"
         },
         {
-          "job_id": "744000161216439",
-          "title": "Data Scientist, Ads and Demand Optimization (2 year contract)",
-          "url": "https://www.grab.careers/en/jobs/744000161216439/data-scientist-ads-and-demand-optimization-2-year-contract/",
+          "job_id": "744000161052690",
+          "title": "Intern, Driver Operations",
+          "url": "https://www.grab.careers/en/jobs/744000161052690/intern-driver-operations/",
           "change": "removed"
         },
         {
-          "job_id": "744000161112556",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000161112556/senior-software-engineer-backend/",
+          "job_id": "744000161041149",
+          "title": "Manager, Credit Risk",
+          "url": "https://www.grab.careers/en/jobs/744000161041149/manager-credit-risk/",
           "change": "removed"
         },
         {
-          "job_id": "744000161026159",
-          "title": "Manager, SOX",
-          "url": "https://www.grab.careers/en/jobs/744000161026159/manager-sox/",
+          "job_id": "744000161037244",
+          "title": "Intern, Product Support",
+          "url": "https://www.grab.careers/en/jobs/744000161037244/intern-product-support/",
           "change": "removed"
         },
         {
-          "job_id": "744000161025500",
-          "title": "Assistant Marketing Manager for Grab Ecommerce",
-          "url": "https://www.grab.careers/en/jobs/744000161025500/assistant-marketing-manager-for-grab-ecommerce/",
+          "job_id": "744000161033639",
+          "title": "Lead Infrastructure Engineer, Managed Kubernetes Platform (MEKS)",
+          "url": "https://www.grab.careers/en/jobs/744000161033639/lead-infrastructure-engineer-managed-kubernetes-platform-meks/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000161028799",
+          "title": "Associate, User Growth - GrabMart",
+          "url": "https://www.grab.careers/en/jobs/744000161028799/associate-user-growth-grabmart/",
           "change": "removed"
         }
       ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_cluster_strength",
+      "status": "qualified",
+      "rejection_reason": "",
       "promoted_event_id": ""
     }
   ],
