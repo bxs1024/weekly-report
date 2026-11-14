@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T03:14:50+08:00",
+  "generated_at": "2026-11-14T11:44:53+08:00",
   "fetched_date": "2026-11-14",
   "source": {
     "name": "AIHOT 大模型排行榜",
@@ -47,6 +47,18 @@
     },
     {
       "rank": 4,
+      "name": "Gemini 4 Hydrogen",
+      "provider": "Google",
+      "release_date": "2026-11-12",
+      "completeness": "21 项评测 覆盖 46 %",
+      "cache_price": "¥0.5",
+      "input_price": "¥10.01",
+      "output_price": "¥50.04",
+      "consensus_score": 72.9,
+      "detail_url": "https://aihot.virxact.com/leaderboard/gemini-4-hydrogen"
+    },
+    {
+      "rank": 5,
       "name": "Claude Fable 5.1",
       "provider": "Anthropic",
       "release_date": "2026-09-01",
@@ -58,7 +70,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-fable-5-1"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "GPT-6 Astra",
       "provider": "OpenAI",
       "release_date": "2026-09-03",
@@ -66,11 +78,11 @@
       "cache_price": "¥6.67",
       "input_price": "¥66.72",
       "output_price": "¥333.59",
-      "consensus_score": 72.2,
+      "consensus_score": 72.1,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-astra"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "Claude Sonnet 5.5",
       "provider": "Anthropic",
       "release_date": "2026-09-28",
@@ -82,7 +94,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-sonnet-5-5"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Gemini 4 Argon",
       "provider": "Google",
       "release_date": "2026-09-30",
@@ -94,7 +106,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-4-argon"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "GPT-6.1 Sol",
       "provider": "OpenAI",
       "release_date": "2026-09-29",
@@ -106,7 +118,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-1-sol"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "GPT-6.1 Terra",
       "provider": "OpenAI",
       "release_date": "2026-10-26",
@@ -118,7 +130,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-1-terra"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "Claude Opus 5",
       "provider": "Anthropic",
       "release_date": "2026-07-24",
@@ -130,7 +142,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-5"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "Claude Fable 5",
       "provider": "Anthropic",
       "release_date": "2026-06-09",
@@ -142,7 +154,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-fable-5"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "name": "Kimi K3.1 Pro",
       "provider": "Moonshot AI",
       "release_date": "2026-10-23",
@@ -154,7 +166,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/kimi-k-3-1-pro"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "Muse Wonder",
       "provider": "Meta",
       "release_date": "2026-10-12",
@@ -166,7 +178,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/muse-wonder"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "name": "GPT-5.6 Sol",
       "provider": "OpenAI",
       "release_date": "2026-07-09",
@@ -178,7 +190,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-6-sol"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "name": "Hy4",
       "provider": "Tencent",
       "release_date": "2026-11-04",
@@ -190,7 +202,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/hy-4"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "name": "Muse Ember",
       "provider": "Meta",
       "release_date": "2026-11-09",
@@ -202,7 +214,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/muse-ember"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "name": "DeepSeek V4.1 Flash 1017",
       "provider": "DeepSeek",
       "release_date": "2026-10-17",
@@ -214,7 +226,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-1-flash-1017"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "name": "GPT-6 Sol",
       "provider": "OpenAI",
       "release_date": "2026-09-22",
@@ -226,7 +238,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-sol"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "name": "Muse Spark 1.3",
       "provider": "Meta",
       "release_date": "2026-09-02",
@@ -238,7 +250,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/muse-spark-1-3"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "name": "Gemini 3.8 Flash",
       "provider": "Google",
       "release_date": "2026-09-02",
@@ -250,7 +262,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-3-8-flash"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "name": "Grok 4.7",
       "provider": "xAI",
       "release_date": "2026-09-21",
@@ -262,7 +274,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/grok-4-7"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "name": "GLM-5.3",
       "provider": "Z.ai",
       "release_date": "2026-08-18",
@@ -274,7 +286,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/glm-5-3"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "name": "Qwen3.8 Max 0902",
       "provider": "Alibaba",
       "release_date": "2026-09-01",
@@ -286,7 +298,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/qwen-3-8-max-0902"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "name": "GPT-5.5",
       "provider": "OpenAI",
       "release_date": "2026-04-23",
@@ -298,7 +310,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-5"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "name": "Kimi K3",
       "provider": "Moonshot AI",
       "release_date": "2026-07-16",
@@ -310,7 +322,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/kimi-k-3"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "name": "MiMo-V2.6-Pro",
       "provider": "Xiaomi",
       "release_date": "2026-09-21",
@@ -322,7 +334,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/mimo-v-2-6-pro"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "name": "Gemini 3.7 Flash",
       "provider": "Google",
       "release_date": "2026-08-13",
@@ -334,7 +346,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-3-7-flash"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "name": "Claude Haiku 5.5",
       "provider": "Anthropic",
       "release_date": "2026-10-07",
@@ -346,7 +358,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-haiku-5-5"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "name": "Claude Opus 4.8",
       "provider": "Anthropic",
       "release_date": "2026-05-28",
@@ -358,7 +370,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-8"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "name": "DeepSeek V4.1 Flash",
       "provider": "DeepSeek",
       "release_date": "2026-09-10",
@@ -370,7 +382,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-1-flash"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "name": "Inkling 2 Small",
       "provider": "Thinking Machines Lab",
       "release_date": "2026-11-05",
@@ -382,7 +394,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/inkling-2-small"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "name": "Grok 4.6",
       "provider": "xAI",
       "release_date": "2026-08-12",
@@ -394,7 +406,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/grok-4-6"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "name": "Qwen3.8 Max",
       "provider": "Alibaba",
       "release_date": "2026-07-19",
@@ -406,7 +418,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/qwen-3-8-max"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "name": "GPT-5.6 Terra",
       "provider": "OpenAI",
       "release_date": "2026-07-09",
@@ -418,7 +430,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-6-terra"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "name": "Hy 4 Preview",
       "provider": "Tencent",
       "release_date": "2026-08-28",
@@ -430,7 +442,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/hy-4-preview"
     },
     {
-      "rank": 36,
+      "rank": 37,
       "name": "Claude Opus 4.7",
       "provider": "Anthropic",
       "release_date": "2026-04-16",
@@ -438,11 +450,11 @@
       "cache_price": "¥3.34",
       "input_price": "¥33.36",
       "output_price": "¥166.8",
-      "consensus_score": 60.5,
+      "consensus_score": 60.7,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-7"
     },
     {
-      "rank": 37,
+      "rank": 38,
       "name": "Step 5 Preview",
       "provider": "StepFun",
       "release_date": "2026-09-18",
@@ -454,7 +466,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/step-5-preview"
     },
     {
-      "rank": 38,
+      "rank": 39,
       "name": "Muse Spark 1.2",
       "provider": "Meta",
       "release_date": "2026-08-05",
@@ -466,7 +478,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/muse-spark-1-2"
     },
     {
-      "rank": 39,
+      "rank": 40,
       "name": "MiniMax-M3.1-Flash",
       "provider": "MiniMax",
       "release_date": "2026-10-19",
@@ -478,7 +490,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/minimax-m-3-1-flash"
     },
     {
-      "rank": 40,
+      "rank": 41,
       "name": "Qwen3.8 Flash Next",
       "provider": "Alibaba",
       "release_date": "2026-08-26",
@@ -490,7 +502,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/qwen-3-8-flash-next"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "name": "DeepSeek V4 Pro 0813",
       "provider": "DeepSeek",
       "release_date": "2026-08-13",
@@ -502,7 +514,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-pro-20260813"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "name": "Claude Sonnet 5",
       "provider": "Anthropic",
       "release_date": "2026-06-30",
@@ -514,7 +526,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-sonnet-5"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "name": "MiMo V 2.6 Flash",
       "provider": "Xiaomi",
       "release_date": "2026-09-21",
@@ -526,7 +538,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/mimo-v-2-6-flash"
     },
     {
-      "rank": 44,
+      "rank": 45,
       "name": "Grok 4.5",
       "provider": "xAI",
       "release_date": "2026-07-08",
@@ -538,7 +550,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/grok-4-5"
     },
     {
-      "rank": 45,
+      "rank": 46,
       "name": "GLM-5.3 Flash",
       "provider": "Z.ai",
       "release_date": "2026-08-26",
@@ -550,7 +562,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/glm-5-3-flash"
     },
     {
-      "rank": 46,
+      "rank": 47,
       "name": "GPT-5.4",
       "provider": "OpenAI",
       "release_date": "2026-03-05",
@@ -562,7 +574,7 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-4"
     },
     {
-      "rank": 47,
+      "rank": 48,
       "name": "GPT-6 Luna",
       "provider": "OpenAI",
       "release_date": "2026-09-22",
@@ -572,18 +584,6 @@
       "output_price": "¥3.34",
       "consensus_score": 58.5,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-luna"
-    },
-    {
-      "rank": 48,
-      "name": "Claude Opus 4.6",
-      "provider": "Anthropic",
-      "release_date": "2026-02-05",
-      "completeness": "20 项评测 覆盖 54 %",
-      "cache_price": "¥3.34",
-      "input_price": "¥33.36",
-      "output_price": "¥166.8",
-      "consensus_score": 58.4,
-      "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-6"
     },
     {
       "rank": 49,
@@ -599,15 +599,15 @@
     },
     {
       "rank": 50,
-      "name": "DeepSeek V4 Flash 0731",
-      "provider": "DeepSeek",
-      "release_date": "2026-07-31",
-      "completeness": "28 项评测 覆盖 70 %",
-      "cache_price": "¥0.05",
-      "input_price": "¥1.5",
-      "output_price": "¥4.5",
-      "consensus_score": 57.9,
-      "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-flash-20260731"
+      "name": "Claude Opus 4.6",
+      "provider": "Anthropic",
+      "release_date": "2026-02-05",
+      "completeness": "20 项评测 覆盖 54 %",
+      "cache_price": "¥3.34",
+      "input_price": "¥33.36",
+      "output_price": "¥166.8",
+      "consensus_score": 58.4,
+      "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-6"
     }
   ],
   "official_sources": [

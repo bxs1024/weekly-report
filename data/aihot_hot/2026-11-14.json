@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T03:14:46+08:00",
+  "generated_at": "2026-11-14T11:44:47+08:00",
   "fetched_date": "2026-11-14",
   "source": {
     "name": "AIHOT 热点榜",
@@ -12,7 +12,7 @@
       "title": "黄仁勋辞任英伟达CEO并退出董事会",
       "list_title": "黄仁勋辞任英伟达CEO并退出董事会",
       "heat": null,
-      "heat_change": "↓ 11 %",
+      "heat_change": "↓ 14 %",
       "sources": [],
       "summary": "英伟达董事会11月12日宣布，联合创始人、总裁兼CEO黄仁勋辞去总裁、CEO及董事职务，即刻生效，结束33年执掌。此前他承认与Megaspeed前高管Alice Huang的婚外情，美国情报界认为后者为中国国家安全部招募的间谍；《纽约时报》又曝出他与一名直接下属的第二段婚外情。董事会任命CFO Colette Kress为临时CEO，并启动内外部继任者遴选，前Synopsys CEO Harvey Jones出任公司首任董事长。\n\n董事会此前于周末启动独立调查，并称无理由认为国家安全或公司机密受损；《华尔街日报》随后报道董事会接近决定是否罢免黄仁勋。消息公布后，英伟达股价一度下跌13%至14%，市值回落至4万亿美元以下。\n\n事件还牵出芯片出口争议：The Information报道称Alice Huang相关网络向中国买家转手约75亿美元英伟达硬件；众议院中国特设委员会主席Moolenaar要求英伟达任命把国家安全置于首位的领导层，并推动年底国防授权法案通过出口管制立法。",
       "original_links": [],
@@ -23,7 +23,7 @@
       "title": "Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具",
       "list_title": "Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 13 %",
       "sources": [],
       "summary": "Google DeepMind 发布 Gemini 4 Hydrogen，定位为快速执行日常编码与智能体工作流的模型，与主打深度推理的 Carbon、Argon 同属 Gemini 4 系列。Google 称这是 Search 迄今最大的模型升级，已向全球所有用户开放；该模型同时成为 Gemini Managed Agents 中 Antigravity 智能体的默认模型，并已上线 Cursor 和 Cognition 的 Devin Desktop、Devin CLI，OpenClaw 也称已可使用。Ars Technica 称它取代了此前广泛使用的 Gemini 3.8 Flash，且上线即开放，不像 Argon、Carbon 那样分阶段推送。\n\n使用范围按用户类型区分：所有用户可在 Gemini 应用、Google Search 和 Google AI Studio 访问；付费 Google AI Pro 和 Ultra 订阅者还可在 Google Antigravity、Chrome 中的 Gemini 和 Google Sheets 中…",
       "original_links": [],
@@ -45,9 +45,9 @@
       "title": "OpenAI推出ChatGPT Wallet，智能体可代用户购物",
       "list_title": "OpenAI推出ChatGPT Wallet，智能体可代用户购物",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 16 %",
       "sources": [],
-      "summary": "OpenAI推出支付功能ChatGPT Wallet，让ChatGPT Work、Codex和dots中的智能体在用户批准下完成购买，并沿用用户现有银行卡的保护机制。该功能由OpenAI与美国运通、万事达卡和Visa合作开发，初期不向交易收取佣金。\n\n初期仅向限量美国年满18岁的ChatGPT Pro订阅用户开放，且需绑定美国发行的Visa、万事达卡或美国运通卡。TechCrunch报道称，用户可让名为dot的智能体帮助决定买什么，再由其代为完成结账。\n\nChatGPT官方账号称，智能体支付时不会接触用户的实际卡号信息，每笔购买都需通过安全检查；该功能即日起在美国向Pro订阅用户的dot推出。X用户Rohan Paul称，每次购买需生物识别批准，智能体以替代真实卡号的token支付，卡号对商户和智能体均不可见；他还称OpenAI计划日后允许用户设置消费限额和类别、完全委托购买。",
+      "summary": "OpenAI推出ChatGPT Wallet，让ChatGPT Work、Codex和dots中的智能体在用户批准下完成购买，并沿用用户现有银行卡的保护机制。该功能由OpenAI与美国运通、万事达卡和Visa合作开发，初期不向交易收取佣金。\n\n初期仅向限量美国年满18岁的ChatGPT Pro订阅用户开放，且需使用美国账单地址并绑定美国发行的合资格卡。关于卡组织范围，TechCrunch称支持Visa、万事达卡和美国运通，The Verge则称还包括Chase。TechCrunch报道称，用户可让名为dot的智能体帮助决定买什么，再由其代为完成结账。\n\nChatGPT官方账号称，智能体支付时不会接触用户的实际卡号信息，每笔购买都需通过安全检查。X用户Rohan Paul称，每次购买需生物识别批准，智能体以替代真实卡号的token支付，卡号对商户和智能体均不可见；他还称OpenAI计划日后允许用户设置消费限额和类别、完全委托购买。The Verge也引述OpenAI称，未来用户可设定消费限额、购买类别或时间段等参数，并预先批准这些购买。这些均为计划…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/e5b4067f-6f2e-4f04-8799-21e4fbd9b590"
     },
@@ -56,7 +56,7 @@
       "title": "DeepSeek 开放 App 能力 API，扩展调用另收费",
       "list_title": "DeepSeek 开放 App 能力 API，扩展调用另收费",
       "heat": null,
-      "heat_change": "↑ 2539 %",
+      "heat_change": "",
       "sources": [],
       "summary": "DeepSeek 于 11 月 13 日将 App 对话背后的能力开放给开发者：在原有 API 中开启对应参数，即可使用联网搜索、文件输入、阅读链接等功能，工具调用与上下文拼接由服务端完成。V4.1-Flash 模型（deepseek-flash）已在 Messages、Responses 与 Chat Completions 接口下支持这些能力；语音及底层能力另设独立接口，含 OCR、ASR、TTS，可单独或组合调用。\n\nDeepSeek 称，调用扩展能力时除 Token 费用外，还将收取相关工具的调用费用，具体定价随公告另行列出。对外提供应用服务的开发者须开启内容安全参数，并自行承担内容安全审核、大模型登记、AI 标识等义务。\n\n官方同时提供可导入 DeepSeek 对话历史的开源前端演示（github.com/deepseek-ai/chat-demo）。投资人 Tianyi Cui 转发公告称，开发者可用少量参数启用内置功能，在自建应用中还原完整 App 体验。",
       "original_links": [],
@@ -64,17 +64,6 @@
     },
     {
       "rank": 6,
-      "title": "Anthropic 向 Team 和 Enterprise 推出 Claude Meetings beta",
-      "list_title": "Anthropic 向 Team 和 Enterprise 推出 Claude Meetings beta",
-      "heat": null,
-      "heat_change": "↓ 11 %",
-      "sources": [],
-      "summary": "Anthropic 以 beta 形式向 Team 和 Enterprise 计划推出 Claude Meetings，可在 Claude 和 Claude Desktop 中使用。Claude 作为可见参与者加入 Google Meet 通话，团队成员可口头或在聊天中提问、让它起草文档，并实时看到和纠正它生成的内容；通话结束后，笔记、行动项、转录和 Claude 生成的内容都保存在 Claude 中该会议的页面上。\n\nAnthropic 称目前从 Google Meet 开始支持，其他视频会议平台的支持即将推出，但未公布时间。据 Rohan Paul 介绍，Claude 会对每个口头请求先确认发言者身份再执行；默认情况下，一旦有组织外部人员加入 Google Meet 通话，它就会退出。The Decoder 报道称，采用 HIPAA 或客户管理加密配置的组织暂时无法使用 Meetings。\n\n费用方面，Anthropic 称 beta 期间 Team 和 Enterprise 计划的笔记和转录免费，通话中的回答也免费，但回答若调用已连接的工具…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/dad94af2-7539-4652-a661-03cc5494c71b"
-    },
-    {
-      "rank": 7,
       "title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元",
       "list_title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元",
       "heat": null,
@@ -85,37 +74,48 @@
       "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
     },
     {
-      "rank": 8,
-      "title": "Google发布Gemini Decision 1决策模型与Decisions API",
-      "list_title": "Google发布Gemini Decision 1决策模型与Decisions API",
+      "rank": 7,
+      "title": "Anthropic 向 Team 和 Enterprise 推出 Claude Meetings beta",
+      "list_title": "Anthropic 向 Team 和 Enterprise 推出 Claude Meetings beta",
       "heat": null,
-      "heat_change": "↓ 34 %",
+      "heat_change": "↓ 18 %",
       "sources": [],
-      "summary": "Google 发布 Gemini Decision 1 模型及配套 Decisions API，不再逐 token 生成文本，而是对文本、图像、音频、视频和 PDF 输入一次性回答是非题、选择题和 rubric 评分，单次最多 1,000 个问题、256K 上下文，端到端延迟 150–250 毫秒，每个答案附置信度分数。该 API 已在 Google AI Studio 上线，输入定价 $0.10/百万 token、输出不收费，并提供免费额度供原型开发；Google 称其在共享基准套件上比使用 Interactions API 的 Gemini 3.5 Flash-Lite 成本效率高近 5 倍。\n\n第三方评测给出不同图景：Artificial Analysis 称 Gemini Decision 1 在 Decision Index v2.1 得 66 分，与 Elephant 9B、Jev 1.14 相当，落后并列领先的 Drex Max v1.1 和 GLiDE v1.2 各 7 分。Google 自己展示的演示则称其 4.5 秒扫描 10…",
+      "summary": "Anthropic 以 beta 形式向 Team 和 Enterprise 计划推出 Claude Meetings，可在 Claude 和 Claude Desktop 中使用。Claude 作为可见参与者加入 Google Meet 通话，团队成员可口头或在聊天中提问、让它起草文档，并实时看到和纠正它生成的内容；通话结束后，笔记、行动项、转录和 Claude 生成的内容都保存在 Claude 中该会议的页面上。\n\nAnthropic 称目前从 Google Meet 开始支持，其他视频会议平台的支持即将推出，但未公布时间。据 Rohan Paul 介绍，Claude 会对每个口头请求先确认发言者身份再执行；默认情况下，一旦有组织外部人员加入 Google Meet 通话，它就会退出。The Decoder 报道称，采用 HIPAA 或客户管理加密配置的组织暂时无法使用 Meetings。\n\n费用方面，Anthropic 称 beta 期间 Team 和 Enterprise 计划的笔记和转录免费，通话中的回答也免费，但回答若调用已连接的工具…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/8febc4b1-e8fa-4418-97c6-eb03dfa73f42"
+      "story_url": "https://aihot.virxact.com/story/dad94af2-7539-4652-a661-03cc5494c71b"
+    },
+    {
+      "rank": 8,
+      "title": "NVIDIA员工联署要求董事会辞职，董事会另寻继任者",
+      "list_title": "NVIDIA员工联署要求董事会辞职，董事会另寻继任者",
+      "heat": null,
+      "heat_change": "↑ 107 %",
+      "sources": [],
+      "summary": "据 X.PIN 转发的一封内部公开信，数百名 NVIDIA 员工签署该信，要求董事会辞职并恢复黄仁勋的 CEO 职务。信中指控董事会在没有具体证据的情况下罢免黄仁勋，并称董事会未诚信谈判；若董事会不满足要求，这些员工可能转投 Elon Musk 承诺安排职位的 SpaceX 与 Terafab。上述指控与离职去向均为信中说法。\n\n据 FT 报道，NVIDIA 董事会已接触 Arm CEO Rene Haas，将其作为接替黄仁勋的可能人选。Haas 自 2022 年起执掌这家软银旗下的英国芯片设计公司，十多年前曾在 NVIDIA 工作约 7 年，但他只是多位候选人之一，未必会获得或接受这一职位。\n\nThe Decoder 援引 WSJ 报道称，黄仁勋被罢免更多源于其主导的高风险业务，而非私生活传闻：NVIDIA 向 AI 云厂商和数据中心开发商提供数十亿美元财务担保以换取营收分成，最大一笔涉及对 OpenAI 俄亥俄数据中心的 2500 亿美元担保，消息公布后股价跌 5%，临时 CEO Colette Kress 将该承诺减半。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/68ccf963-6e38-4e86-b2f3-289bd70774fb"
     },
     {
       "rank": 9,
+      "title": "llama.cpp 与 ggml 发布首个大版本 v1.0.0",
+      "list_title": "llama.cpp 与 ggml 发布首个大版本 v1.0.0",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "llama.cpp 作者 Georgi Gerganov 于 11 月 13 日宣布 llama.cpp 与底层引擎 ggml 的库版本进入 v1.0.0，称这是两者的首个大版本。此前 11 月 5 日发布 v0.9.0 时，他曾表示将在“接下来几周”迈向 v1.0.0。\n\n据 Hugging Face 博客，团队承诺今后以主版本号标识 API 和 ABI 不兼容变更，并公开语义化版本更新规则。Hugging Face CEO Clément Delangue 与 Gerganov 一同宣布，称这是运行本地 AI 模型最常用库的首个完全稳定大版本；他称用户可在手机、笔记本和工作站上免费掌控自己的智能、不向任何人发送数据，并承诺支持所有硬件、平台和模型类型。这些是发布方的说法。\n\n据 IT之家报道，该版本支持超过 150 种模型架构。Cohere 转发发布消息，并称已将 llama.cpp 支持加入 North Micro Vision。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/44c4eb23-1f37-4994-a66d-7a06ff7a74ba"
+    },
+    {
+      "rank": 10,
       "title": "前OpenAI工程师称四家中国AI实验室用Blackwell训练模型",
       "list_title": "前OpenAI工程师称四家中国AI实验室用Blackwell训练模型",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "前 OpenAI 工程师 Will Depue 在 X 发帖称，他通过分析模型权重的初始化指纹，发现 DeepSeek、Moonshot、MiniMax 和蚂蚁集团的最新模型是在 NVIDIA Blackwell 芯片上训练的，而这类芯片被禁止出口到中国。他称权重初始化模式会随 GPU 类型和随机种子留下可追溯的指纹，并已公开 GitHub 验证代码。\n\nThe Decoder 的跟进报道称，Depue 点名的是四家实验室在 2026 年 4 月后发布的六个模型。该报道同时指出，这一方法严格来说只能说明权重由哪种硬件初始化，训练很可能在同一批系统上运行；报道还称，Depue 的报告表示其技术证据显示这些实验室能接触到 NVIDIA 顶级硬件，但本身不能证明存在芯片走私或违反美国出口法。上述结论目前来自 Depue 本人的说法，尚未见独立核实。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/d7ab817c-174b-469d-8150-f55f492570e4"
-    },
-    {
-      "rank": 10,
-      "title": "李彦宏在百度世界2026提出“智能组织”",
-      "list_title": "李彦宏在百度世界2026提出“智能组织”",
-      "heat": null,
-      "heat_change": "↓ 12 %",
-      "sources": [],
-      "summary": "百度创始人李彦宏在 11 月 12 日百度世界 2026 演讲中称，人工智能的下一幕是“智能组织”，即不同于通行科层制的 AI 原生组织体系，组织智能将成为企业最深的护城河。他称过去十年已形成芯片、云、模型、智能体四层技术栈，但要把技术进步转化为生产力，企业需超越传统层级制、采用 AI 原生运营方式，不能只把 AI 当个人提效工具，而要让数字员工进入销售、客服、研发、运营等环节。\n\n他提出三条组织进化原则：打破岗位边界、沉淀隐性知识、设计流程闭环，并预计岗位将收敛为“构建者”和“销售者”两类。\n\n同场李彦宏还发布大模型交易平台“词元所”，定位中立、可信，对模型做准入测试并持续监测，防止偷换模型、虚标参数，并按服务质量、兑现度、安全合规、商业履约等维度给提供方打分、形成公开信用档案；百度称上线一个月供应资源数已超 100 个，日均调用 Token 数突破 7000 亿。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/ee2e9a50-8def-4105-994e-06f5d0926408"
     }
   ]
 }
