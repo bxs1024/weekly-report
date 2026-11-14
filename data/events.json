@@ -515756,12 +515756,12 @@
       ],
       "level": "C",
       "score": 4,
-      "summary_short": "’SEE U NEXT TIME, CEBU’ 🥺",
-      "content_overview": "",
-      "reason": "",
-      "impact": "未知",
+      "summary_short": "LANY宿务演唱会因场馆安全问题取消",
+      "content_overview": "美国乐队LANY主唱就宿务演唱会因场馆屋顶钢制构件坠落的安全问题被取消表达遗憾",
+      "reason": "菲律宾演出场馆安全事故，涉及场馆设施检测与活动安全管理，与ICT产业关联度低",
+      "impact": "演出场馆运营方、活动安全服务商",
       "insight_label": "背景补充",
-      "trend_topic": "",
+      "trend_topic": "菲律宾活动安全管理",
       "companies": [],
       "is_company": true,
       "company_name": "U-NEXT",
@@ -515844,7 +515844,10 @@
       "ai_score_2": 12,
       "ai_score_avg": 10,
       "ai_score_model": "方舟 V4 Flash",
-      "ai_score_prompt_version": "a9651a26c5e1"
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWE5qaUxDdjlXMmhUVWNCSi1zeTZLTkpUM2YzcHdIN1VteWkwdG1NODNVaXNpZDdObnlPZmNoclpLRk10VjM0WUxkRG9rQkJFU1FuaW9uOFhKcGF3UjFnaVptQ2hqaS1kS1Q5aUc1a1FRT3hsM2VGeXBnUDRJb1dyTWt6aU9oVktObzNyV1RRUkNQcXNKM1BmUGZfSzYtcDRvOWRvNUdLOHVtc1QydDRKaXMtX3BRY0hORjZSU0J2bFBuUW9yMWd3SWFqTDhadm5na21J?oc=5"
+      ]
     },
     {
       "title": "Singapore Fintech Association Accepts Stablecoins for Member Fees",
@@ -516253,12 +516256,12 @@
       ],
       "level": "C",
       "score": 4,
-      "summary_short": "IvyCap分享喀拉拉邦人才规模化五条经验",
-      "content_overview": "IvyCap的Vikram Gupta分享喀拉拉邦将人才转化为规模化的五条经验",
-      "reason": "东南亚创投机构总结印度喀拉拉邦人才规模化经验，为区域人才供应链与创投布局提供参考",
-      "impact": "东南亚创投机构、印度科技人才生态、跨境用工服务商",
+      "summary_short": "IvyCap合伙人总结喀拉拉邦人才规模化经验",
+      "content_overview": "e27刊发IvyCap合伙人Vikram Gupta关于喀拉拉邦人才转化为规模化企业的五点经验总结。",
+      "reason": "印度喀拉拉邦创业生态获风投方法论输出，区域人才与资本对接机会上升，对东南亚创投布局有参考价值",
+      "impact": "印度早期创投机构、喀拉拉邦创业企业、跨境风投LP",
       "insight_label": "背景补充",
-      "trend_topic": "印度区域人才规模化",
+      "trend_topic": "印度区域创投升温",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -516353,7 +516356,10 @@
       "ai_score_2": 38,
       "ai_score_avg": 33,
       "ai_score_model": "方舟 V4 Flash",
-      "ai_score_prompt_version": "a9651a26c5e1"
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "merged_from": [
+        "https://e27.co/keralas-moment-five-lessons-from-ivycaps-vikram-gupta-on-turning-talent-into-scale-20261113/"
+      ]
     },
     {
       "title": "The Philippines trusts AI more than anyone in ASEAN. Its rulebook hasn’t caught up",
@@ -516365,10 +516371,10 @@
       ],
       "level": "B",
       "score": 6,
-      "summary_short": "菲律宾东盟AI信任度最高但监管滞后",
-      "content_overview": "调查显示菲律宾在东盟中对AI信任度最高，但其AI监管规则尚未跟上",
-      "reason": "东南亚AI应用信任度高但监管缺位，AI合规与治理服务在菲律宾存在先发布局机会",
-      "impact": "菲律宾AI企业、AI合规服务商、东南亚监管科技公司",
+      "summary_short": "菲律宾AI信任度东盟最高但监管滞后",
+      "content_overview": "e27报道称菲律宾在东盟中对AI信任度最高，但当地AI监管规则尚未跟上应用速度。",
+      "reason": "菲律宾AI应用信任度高而监管空白，AI合规咨询、本地化部署与治理工具存在早期市场机会",
+      "impact": "菲律宾AI服务商、合规咨询机构、东南亚AI治理工具厂商",
       "insight_label": "合作机会",
       "trend_topic": "东南亚AI监管缺口",
       "companies": [],
@@ -516464,7 +516470,10 @@
       "ai_score_2": 38,
       "ai_score_avg": 40,
       "ai_score_model": "方舟 V4 Flash",
-      "ai_score_prompt_version": "a9651a26c5e1"
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "merged_from": [
+        "https://e27.co/the-philippines-trusts-ai-more-than-anyone-in-asean-its-rulebook-hasnt-caught-up-20261113/"
+      ]
     },
     {
       "title": "Fear is high and longs got flushed. Is US$70,000 the next line in the sand?",
@@ -517401,10 +517410,10 @@
       ],
       "level": "C",
       "score": 5,
-      "summary_short": "MercadoLibre Q3业绩对比分析出炉",
-      "content_overview": "拉美电商平台MercadoLibre与其他在线市场公司三季度业绩被集中对比分析",
-      "reason": "拉美电商龙头业绩被置于同业对比框架，其物流与支付投入的回报效率成为区域电商供应链投资的风向标",
-      "impact": "拉美电商卖家、物流与支付服务商、区域投资者",
+      "summary_short": "在线市场Q3业绩拆解：MercadoLibre对比同业",
+      "content_overview": "一份针对在线市场板块的三季度业绩拆解报告，将MercadoLibre与其他同业公司进行对比分析",
+      "reason": "拉美电商龙头与全球同业业绩对比，为评估区域电商竞争格局与供应链投入提供数据参考",
+      "impact": "拉美电商平台、跨境卖家、电商基础设施供应商",
       "insight_label": "背景补充",
       "trend_topic": "拉美电商竞争格局",
       "companies": [],
@@ -517492,7 +517501,10 @@
       "ai_score_2": 58,
       "ai_score_avg": 58,
       "ai_score_model": "方舟 V4 Flash",
-      "ai_score_prompt_version": "a9651a26c5e1"
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "merged_from": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLWlVSU5hbTZVZURXSGdydTFia25YM3JkVWNVRUg0STc3R1VKQXFCWnlVWTZvd1VGQ2RjOC1YTmZqaVRhN3VxWFZac0lEa2JVLXk0QlJzS3hvWjB3OVFBbWk4b0hTWENnQzFKUF8zdFFOVzM4THpzQk9SNGdvNGJoTWxmbVV4ejNnMXh1VExsYXRtNW9RLW1YdXE5U2tzMGZtSUFCaXY1SjBMbVpTS0p0eWNWRXRhdWxrUm9FMTVvbGQ?oc=5"
+      ]
     },
     {
       "title": "Nubank U.S. reaches all 50 states in first weeks of launch - American Banker",
@@ -518000,10 +518012,10 @@
       ],
       "level": "B",
       "score": 7,
-      "summary_short": "CEE周报：UFORCE €630M融资及AI交易",
-      "content_overview": "中东欧创业科技周报汇总UFORCE 6.3亿欧元融资、AI交易及新基金动态",
-      "reason": "中东欧科技生态单周出现6.3亿欧元级融资，CEE地区AI与深科技投资热度上升",
-      "impact": "中东欧初创公司、区域风投基金",
+      "summary_short": "中东欧周报：UFORCE融资€630M及多笔AI交易",
+      "content_overview": "中东欧创业科技周报汇总UFORCE的6.3亿欧元融资轮、多笔AI交易及新基金动态",
+      "reason": "中东欧科技生态融资活跃度上升，欧洲AI与深科技合作机会及基金布局值得关注",
+      "impact": "中东欧初创公司、欧洲风投机构、AI技术采购方",
       "insight_label": "背景补充",
       "trend_topic": "中东欧科技融资升温",
       "companies": [],
@@ -518086,7 +518098,10 @@
       "ai_score_2": 42,
       "ai_score_avg": 40,
       "ai_score_model": "方舟 V4 Flash",
-      "ai_score_prompt_version": "a9651a26c5e1"
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "merged_from": [
+        "https://www.therecursive.com/cee-startup-tech-weekly-13/"
+      ]
     },
     {
       "title": "Sierra releases Poppy 1.0 as Shopify and Meta’s Muse sign on",
@@ -518882,12 +518897,12 @@
       ],
       "level": "C",
       "score": 5,
-      "summary_short": "Ofcom因WhatsApp数据不准确罚款Meta",
-      "content_overview": "英国通信监管机构Ofcom因WhatsApp数据不准确对Meta处以罚款",
-      "reason": "英国监管对Meta即时通讯数据合规开罚，欧洲平台数据治理趋严，合规与审计服务需求上升",
-      "impact": "Meta、欧洲即时通讯平台、数据合规服务商",
+      "summary_short": "Ofcom因WhatsApp数据不准确对Meta罚款",
+      "content_overview": "英国通信监管机构Ofcom因Meta提交的WhatsApp相关数据不准确而对其处以罚款",
+      "reason": "英国监管对Meta数据合规开罚，欧洲社交平台数据报送合规成本上升，合规科技供应商迎需求",
+      "impact": "Meta、欧洲社交平台、合规数据服务商",
       "insight_label": "警示信号",
-      "trend_topic": "欧洲平台数据合规趋严",
+      "trend_topic": "欧洲平台数据合规收紧",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -518965,7 +518980,10 @@
       "ai_score_2": 58,
       "ai_score_avg": 58,
       "ai_score_model": "方舟 V4 Flash",
-      "ai_score_prompt_version": "a9651a26c5e1"
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "merged_from": [
+        "https://www.mobileworldlive.com/big-tech/ofcom-fines-meta-over-inaccurate-whatsapp-data/"
+      ]
     },
     {
       "title": "Generative AI market stays competitive",
@@ -519374,12 +519392,12 @@
       ],
       "level": "C",
       "score": 5,
-      "summary_short": "Target与Walmart改造美妆部门重塑品牌策略",
-      "content_overview": "Target和Walmart对美妆部门进行改造升级，正在重塑品牌策略",
-      "reason": "美国大型零售商改造美妆品类陈列与运营，品牌方渠道策略需调整，零售数字化与货架管理方案需求上升",
-      "impact": "美妆品牌方、零售货架管理方案商、门店数字化服务商",
+      "summary_short": "Target与Walmart美妆专区改造重塑品牌策略",
+      "content_overview": "Modern Retail发布分析文章，梳理Target与Walmart对美妆专区进行门店改造后，品牌方相应调整渠道与陈列策略的动向。",
+      "reason": "北美大型零售商改造美妆品类陈列，品牌方需重配货架资源与营销预算，美妆供应链与零售媒体合作机会随之变化",
+      "impact": "北美美妆品牌、零售媒体投放方、货架与陈列供应商",
       "insight_label": "背景补充",
-      "trend_topic": "美国零售美妆渠道重构",
+      "trend_topic": "北美零售渠道改造",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -519469,7 +519487,10 @@
       "ai_score_2": 42,
       "ai_score_avg": 38,
       "ai_score_model": "方舟 V4 Flash",
-      "ai_score_prompt_version": "a9651a26c5e1"
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "merged_from": [
+        "https://www.modernretail.co/operations/big-box-briefing-how-targets-and-walmarts-beauty-department-makeovers-are-reshaping-brand-strategies/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss"
+      ]
     },
     {
       "title": "OpenAI and Databricks: Enterprise AI on your governed data",
@@ -519587,12 +519608,12 @@
       ],
       "level": "B",
       "score": 6,
-      "summary_short": "Cloudflare上线支出限额与预警",
-      "content_overview": "Cloudflare推出支出管理功能，为企业账户提供消费限额与预警",
-      "reason": "全球云服务商强化企业成本管控工具，云支出治理需求上升，利好企业IT预算管理场景",
-      "impact": "企业IT采购方、云成本管理服务商",
-      "insight_label": "背景补充",
-      "trend_topic": "云支出治理工具化",
+      "summary_short": "Cloudflare上线支出限额与告警功能",
+      "content_overview": "Cloudflare推出Spend Management功能，为企业账户提供云服务支出限额与告警提醒",
+      "reason": "全球云安全厂商强化企业级成本管控工具，为云服务采购方提供预算可视化能力，利好企业IT采购决策",
+      "impact": "使用Cloudflare的企业客户、云成本管理服务商",
+      "insight_label": "合作机会",
+      "trend_topic": "云服务成本管控升级",
       "companies": [],
       "is_company": false,
       "company_name": "Cloudflare",
@@ -519682,7 +519703,10 @@
       "ai_score_2": 34,
       "ai_score_avg": 34,
       "ai_score_model": "方舟 V4 Flash",
-      "ai_score_prompt_version": "a9651a26c5e1"
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "merged_from": [
+        "https://blog.cloudflare.com/spend-management/"
+      ]
     },
     {
       "title": "World's youngest self-made billionaires double fortunes to $4.2B each",
@@ -520419,5 +520443,311 @@
       "ai_score_prompt_version": "a9651a26c5e1"
     }
   ],
-  "2026-11-14": []
+  "2026-11-14": [
+    {
+      "title": "Welding AI Maker Path Robotics Raises $300M Series E With NAVER Ventures - Wowtale",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5JcHJRdjY4QU1fX2JETTNKMkZGS3ZieHR4R2lMa0dhWDNjZzl1SlBmWHVRX2dRODZJQUl4ZmdDYTdLbjdmSUtzTnRjSXNnbVI4Ylkw?oc=5",
+      "source": "Google News",
+      "region": "亚太",
+      "event_types": [
+        "funding"
+      ],
+      "level": "A",
+      "score": 8,
+      "summary_short": "Path Robotics获$300M E轮融资",
+      "content_overview": "焊接AI公司Path Robotics完成3亿美元E轮融资，NAVER Ventures参与投资",
+      "reason": "工业焊接AI获大额融资，NAVER Ventures参与显示韩国资本布局美国工业AI，机器人和传感器供应链受益",
+      "impact": "工业机器人供应商、焊接设备厂商、工业AI集成商",
+      "insight_label": "资金流向",
+      "trend_topic": "工业AI融资升温",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Naver",
+      "canonical_company": "path robotics",
+      "canonical_key": "300m",
+      "article_date": "2026-11-14",
+      "date": "2026-11-14",
+      "source_detail": "Wowtale",
+      "publisher": "Wowtale",
+      "image_url": "",
+      "published_at": "2026-11-14",
+      "observed_at": "2026-11-14T07:21:11.330040+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Naver",
+      "credibility_score": 0,
+      "origin_source_id": "Naver",
+      "observation_entity_id": "Naver",
+      "discovery_source": "google_news",
+      "publisher_source": "Wowtale",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "ai_infra"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "report_methodology_visible": false,
+      "vertical": "search_ai_cloud",
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "ai_infra",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "company",
+      "claim_type": "industry_change",
+      "confidence_score": 42,
+      "attention_score": 85,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 20,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "funding",
+      "domain": "ai",
+      "signal_type": "capital",
+      "signal_change_score": 88,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 22,
+        "scope_fit": 20,
+        "market_impact": 11,
+        "market_impact_confidence": 20
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
+    },
+    {
+      "title": "Nu Holdings posts $1.09 billion quarterly profit, shares rise - qz.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMU16YWdQVUxXdjVPYmxjQ2t0UzV5TmdrOFhoMDRLZDlpSkZmaHhMUkdkWURLODJ6OVJHTlQ3Yy14TVpsZE9ETUJQenI1ZU1vbzJRUVVUOWFraG5FZzFNemJ4d09ES2gxZ2RkUjdSZkgyMlI3SjV6eWhpRkhqX28wVHhYbw?oc=5",
+      "source": "Google News",
+      "region": "拉美",
+      "event_types": [
+        "earnings"
+      ],
+      "level": "A",
+      "score": 10,
+      "summary_short": "Nu Holdings季度利润$1.09B，股价上涨",
+      "content_overview": "Nu Holdings公布季度利润10.9亿美元，股价上涨",
+      "reason": "拉美数字银行盈利能力持续验证，银行科技与云服务供应商可跟进其扩张采购需求",
+      "impact": "拉美金融科技合作方、银行科技供应商、云服务商",
+      "insight_label": "背景补充",
+      "trend_topic": "拉美FinTech高盈利",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Nubank",
+      "canonical_company": "nu",
+      "canonical_key": "1090m",
+      "article_date": "2026-11-14",
+      "date": "2026-11-14",
+      "source_detail": "qz.com",
+      "publisher": "qz.com",
+      "image_url": "",
+      "published_at": "2026-11-14",
+      "observed_at": "2026-11-14T07:21:25.059207+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Nubank",
+      "credibility_score": 0,
+      "origin_source_id": "Nubank",
+      "observation_entity_id": "Nubank",
+      "discovery_source": "google_news",
+      "publisher_source": "qz.com",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "payments"
+      ],
+      "scope_regions": [
+        "拉美"
+      ],
+      "scope_match_basis": "source_contract",
+      "report_methodology_visible": false,
+      "vertical": "digital_bank",
+      "bd_triggers": [
+        "预算窗口"
+      ],
+      "opportunity_direction": "增长方案 / 云与AI基础设施 / 广告商业化 / 支付与风控",
+      "follow_up_window": "持续观察",
+      "bd_priority": "观察",
+      "signal_taxonomy": [
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "company",
+      "claim_type": "industry_change",
+      "confidence_score": 42,
+      "attention_score": 85,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 20,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "earnings",
+      "domain": "other",
+      "signal_type": "capital",
+      "signal_change_score": 87,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 18,
+        "scope_fit": 20,
+        "market_impact": 14,
+        "market_impact_confidence": 20
+      },
+      "view_status": "filtered",
+      "view_reason": "google_not_main",
+      "view_priority": "watch",
+      "ai_score_1": 62,
+      "ai_score_2": 62,
+      "ai_score_avg": 62,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
+    },
+    {
+      "title": "SoftBank sells $200m stake in Indian ecommerce firm Meesho",
+      "url": "https://www.techinasia.com/news/softbank-sells-200m-stake-indian-ecommerce-firm-meesho",
+      "source": "Tech in Asia",
+      "region": "亚太",
+      "event_types": [
+        "ma"
+      ],
+      "level": "B",
+      "score": 7,
+      "summary_short": "软银出售Meesho价值$200M股份",
+      "content_overview": "软银出售其持有的印度电商公司Meesho价值2亿美元的股份",
+      "reason": "印度电商赛道资本退出信号，软银减持或影响Meesho后续融资节奏与供应链投入",
+      "impact": "印度电商平台、Meesho供应链合作方、印度一级市场投资者",
+      "insight_label": "资金流向",
+      "trend_topic": "印度电商资本退出",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "meesho",
+      "canonical_key": "meesho",
+      "article_date": "2026-11-14",
+      "date": "2026-11-14",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://cdn.techinasia.com/wp-content/uploads/2026/10/1792970599_1790846442_1783037993_1779326799_1778124433_1682590102_SoftBank-1.jpg",
+      "published_at": "2026-11-14",
+      "observed_at": "2026-11-14T07:19:26.968373+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L2 垂直交易源",
+      "source_role": "venture_media",
+      "source_id": "Tech in Asia",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "commerce"
+      ],
+      "scope_regions": [
+        "亚太"
+      ],
+      "scope_match_basis": "fact",
+      "source_url_original": "https://www.techinasia.com/meesho-shares-fall-5-as-lock-in-period-ends",
+      "source_url_repaired": true,
+      "source_url_repair_reason": "rss_guid_title_match",
+      "source_excerpt": "SoftBank Group sold a 1.65% stake in Meesho, a Bengaluru-based ecommerce company, for US$200 million in a block deal.",
+      "report_methodology_visible": false,
+      "bd_triggers": [
+        "合规窗口",
+        "整合窗口"
+      ],
+      "opportunity_direction": "合规科技 / 数据治理 / 安全风控 / 牌照合作",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "commerce",
+        "capital"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "capital_event",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 67,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 20,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "funding",
+      "domain": "ecommerce",
+      "signal_type": "capital",
+      "signal_change_score": 85,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 22,
+        "scope_fit": 20,
+        "market_impact": 8,
+        "market_impact_confidence": 12
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 58,
+      "ai_score_2": 58,
+      "ai_score_avg": 58,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
+    }
+  ]
 }

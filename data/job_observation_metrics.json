@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-11-14T07:27:25.759153+08:00",
+  "observed_at": "2026-11-14T15:19:17.266594+08:00",
   "source_count": 3,
   "raw_count": 47,
   "source_stats": {
@@ -8,17 +8,13 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 4,
+      "count": 0,
       "inventory_count": 17,
-      "signal_count": 1,
-      "added_count": 2,
-      "removed_count": 2,
-      "clusters": {
-        "engineering": 2
-      },
-      "removed_clusters": {
-        "engineering": 1
-      }
+      "signal_count": 0,
+      "added_count": 0,
+      "removed_count": 0,
+      "clusters": {},
+      "removed_clusters": {}
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
@@ -38,74 +34,15 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 2,
+      "count": 0,
       "inventory_count": 25,
       "signal_count": 0,
-      "added_count": 1,
-      "removed_count": 1,
-      "clusters": {
-        "engineering": 1,
-        "payments": 1
-      },
-      "removed_clusters": {
-        "engineering": 1
-      }
+      "added_count": 0,
+      "removed_count": 0,
+      "clusters": {},
+      "removed_clusters": {}
     }
   },
-  "candidate_signals": [
-    {
-      "candidate_id": "jobs-581002e489c61204",
-      "entity_id": "grab",
-      "entity": "Grab",
-      "region": "亚太",
-      "sector": "mobility_payment",
-      "source_type": "jobs_snapshot",
-      "signal_type": "function_buildout",
-      "cluster": "engineering",
-      "window": "2026-W46",
-      "window_start": "2026-11-14",
-      "window_end": "2026-11-14",
-      "detected_at": "2026-11-14T07:27:25.759153+08:00",
-      "baseline_count": 17,
-      "current_count": 17,
-      "added_count": 2,
-      "removed_count": 2,
-      "clusters": {
-        "engineering": 2
-      },
-      "removed_clusters": {
-        "engineering": 1
-      },
-      "evidence_refs": [
-        {
-          "job_id": "744000161454200",
-          "title": "Lead Software Engineer, Scribe",
-          "url": "https://www.grab.careers/en/jobs/744000161454200/lead-software-engineer-scribe/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000161453364",
-          "title": "Lead Software Reliability Engineer, Defence",
-          "url": "https://www.grab.careers/en/jobs/744000161453364/lead-software-reliability-engineer-defence/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000161057364",
-          "title": "Principal Product Strategist",
-          "url": "https://www.grab.careers/en/jobs/744000161057364/principal-product-strategist/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000161054779",
-          "title": "Senior Software Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000161054779/senior-software-engineer/",
-          "change": "removed"
-        }
-      ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_cluster_strength",
-      "promoted_event_id": ""
-    }
-  ],
+  "candidate_signals": [],
   "promoted_count": 0
 }
