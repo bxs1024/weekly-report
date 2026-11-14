@@ -1131,29 +1131,29 @@
       "generated_at": "2026-11-09 06:00"
     },
     "weekly:2026-W46": {
-      "input_hash": "137e8f12598557552eecab7ff8d0a8c58dbe8e54e52aa7d3f7be4622e019f4da",
+      "input_hash": "a9b92aeabb04d7d2e30db96a3896c0eb65825aa20b20b437ff79f4330b9411ea",
       "editorial": {
         "editorial_title": "AI基建绑定与区域支付扩张并行",
-        "mainline": "Databricks与OpenAI联手企业AI，阿里云、腾讯云分别签下中东与运维合作，云厂商正把模型能力嵌入企业数据治理；同时Nubank覆盖全美50州、Kakao Bank推低息房贷，数字银行从获客转向本地化信贷扩张。两条线共同指向：AI基础设施与金融科技的区域落地正从合作签约进入实际运营阶段。",
+        "mainline": "Databricks与OpenAI联手推进企业AI，阿里云、腾讯云同步在中东落子，云厂商与模型方深度绑定正重塑企业采购路径；与此同时Nu Holdings启动美国市场、TikTok在东南亚上线独立购物App，区域平台加速跨市场复制。两条线共同指向：出海BD需同时盯住AI渠道联合销售与本地化支付/电商基建的窗口。",
         "themes": {
-          "ai_infra": "Databricks与OpenAI合作企业AI，Cloudflare上线支出限额告警，Naver加码AI投资而Kakao保利润；阿里云签迪拜AI协议、腾讯云合作OmniOps、阿美收购Humain 49%。模型厂商与数据平台深度绑定，中东成为中资云出海新落点。",
-          "expansion": "Shopee在菲律宾上线ShopeeFood，Kakao Piccoma推出BL网漫平台Lulumiru，蚂蚁集团与UEFA续约至2028年；IvyCap合伙人总结喀拉拉邦人才规模化经验。区域扩张从电商外卖延伸到内容与体育赞助，南亚人才方法论获风投输出。",
-          "payments": "Nubank美国业务覆盖全部50州，Kakao Bank推房产抵押贷款整合利率3.04%起，韩国FTC启动Naver Financial-Dunamu合并审查，GCash创纪录季度且Mynt转型借贷主导。拉美数字银行北上、韩系银行深耕房贷，监管审查同步收紧。",
-          "developer": "MiniMax以速度低价切入AI图像生成竞争，Gondola借Codex实现营收翻倍；CPI 0.4%致比特币跌破73000美元，Square Enix发布上半财年合并财报。图像生成API成本下探利好集成商，但宏观数据压制加密资产。",
-          "compliance": "芬兰游戏协会警告欧盟数字公平法案伤产业，欧盟拟立法限制游戏战利品箱与成瘾设计，泰国央行暂停新货币兑换商牌照至2027年；Databricks承诺强化欧洲数据主权。游戏与支付牌照监管同步收紧，数据主权成合规卖点。",
-          "commerce": "TikTok在东南亚四国上线独立购物App，Naver签2万亿韩元AI计算协议并拓展物流，Shopify推出店铺活动日志；商户起诉联邦机构挑战伊利诺伊刷卡费法。内容电商独立化与AI基建投入并行，刷卡费诉讼增加支付成本不确定性。"
+          "ai_infra": "Databricks与OpenAI合作企业AI，Cloudflare上线支出限额告警，云侧治理工具同步补位；阿里云签迪拜AI协议、腾讯云合作OmniOps、阿美收购Humain 49%，中资云与中东资本双向绑定。Naver加码AI投资、Kakao保利润，韩系平台转向投入分化。",
+          "expansion": "Shopee在菲律宾上线ShopeeFood，外卖成为电商平台拉高频次的切口；蚂蚁集团与UEFA续约至2028年，支付品牌借体育赞助巩固欧洲认知。Kakao Piccoma上线BL网漫平台Lulumiru，内容平台以细分品类扩供给。",
+          "payments": "Nu Holdings启动美国市场股价涨约12%，拉美数字银行龙头跨区域复制模式；Kakao Bank推房产抵押贷款整合、利率3.04%起，韩国FTC启动Naver Financial-Dunamu合并审查，本土金融整合进入监管博弈期。GCash创纪录季度、Mynt转型借贷主导，菲律宾路径转向信贷变现。",
+          "developer": "MiniMax以速度与低价切入AI图像生成，API调用成本下探利好下游集成商；Gondola借Codex实现营收翻倍，验证AI编程工具的商业化路径。CPI 0.4%致比特币跌破73000美元，风险资产波动传导至开发者生态融资预期。",
+          "compliance": "欧盟拟立法限制游戏战利品箱与成瘾设计，芬兰游戏协会警告数字公平法案伤产业，欧洲游戏合规成本面临抬升；泰国央行暂停新货币兑换商牌照至2027年，东南亚支付准入收紧。Databricks承诺强化欧洲数据主权，合规能力正成为云厂商的销售筹码。",
+          "commerce": "TikTok在东南亚四国上线独立购物App，内容电商与货架电商的边界进一步模糊；Naver签2万亿韩元AI计算协议并拓展物流，搜索平台向履约环节延伸。Shopify推出店铺活动日志提升商家运营透明度，伊利诺伊刷卡费法遭商户起诉，支付成本争议进入司法环节。"
         },
         "theme_titles": {
-          "ai_infra": "Databricks联姻OpenAI，云厂商中东签单",
+          "ai_infra": "Databricks联手OpenAI，云厂商中东落子",
           "expansion": "Shopee菲律宾推外卖，蚂蚁续约UEFA",
-          "payments": "Nubank覆盖全美，Kakao Bank推低息房贷",
+          "payments": "Nu Holdings入美，韩国金融合并遭审查",
           "developer": "MiniMax低价切入图像生成，Codex助营收翻倍",
           "compliance": "欧盟拟限游戏战利品箱，泰国停发兑换牌照",
-          "commerce": "TikTok东南亚上线独立购物App，Naver签AI计算协议"
+          "commerce": "TikTok东南亚上线独立购物App，Naver拓物流"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-11-14 15:26"
+      "generated_at": "2026-11-15 06:20"
     }
   }
 }
