@@ -1,36 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-11-14</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-11-15</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-11-15T07:35:58Z</updated>
+  <updated>2026-11-15T22:47:51Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>软银出售Meesho价值$200M股份</title>
-    <link href="https://www.techinasia.com/news/softbank-sells-200m-stake-indian-ecommerce-firm-meesho"/>
-    <id>tag:weekly-report,2026:event-e098592d</id>
-    <published>2026-11-14T00:00:00Z</published>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;SoftBank sells $200m stake in Indian ecommerce firm Meesho&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;软银出售其持有的印度电商公司Meesho价值2亿美元的股份&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度电商赛道资本退出信号，软银减持或影响Meesho后续融资节奏与供应链投入&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>乐天与AST成立合资公司建日本D2D卫星网络</title>
-    <link href="https://global.rakuten.com/corp/news/press/2026/1109_01.html"/>
-    <id>tag:weekly-report,2026:event-a9736c36</id>
-    <published>2026-11-14T00:00:00Z</published>
-    <updated>2026-11-14T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Rakuten and AST SpaceMobile Establish &amp;quot;Rakuten AST&amp;quot; Joint Venture to Build D2D Satellite Communications Network in Japan&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;乐天与AST SpaceMobile成立合资公司Rakuten AST，在日本建设手机直连卫星通信网络&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本卫星直连通信市场启动，合资模式为卫星运营商与电信/电商集团合作提供范本&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 公司：Rakuten | 来源：Rakuten Group&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>全球AI视野 Top5 · 2026-11-15</title>
-    <link href="https://aihot.virxact.com/hot"/>
-    <id>tag:weekly-report,2026:aihot-7f2be2ca</id>
+    <title>AirTrunk提交$11B印度数据中心建设计划</title>
+    <link href="https://www.techinasia.com/news/blackstonebacked-airtrunk-files-11b-india-data-center-plan"/>
+    <id>tag:weekly-report,2026:event-2c39582a</id>
     <published>2026-11-15T00:00:00Z</published>
     <updated>2026-11-15T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-15T11:23&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"&gt;黄仁勋辞任英伟达CEO并退出董事会&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/e5b4067f-6f2e-4f04-8799-21e4fbd9b590"&gt;OpenAI推出ChatGPT Wallet，智能体可代用户购物&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/2ff1f46f-7e98-4965-a5b2-87329632ca5d"&gt;Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/77f8b937-8e1a-4b05-b3eb-b609445fedd4"&gt;DeepSeek 开放 App 能力 API，扩展调用另收费&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d6f453c1-9dce-4af5-8a9a-ff7b8642493c"&gt;微软365故障波及Claude，Anthropic通报中断&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Blackstone-backed AirTrunk files $11b India data center plan&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Blackstone支持的AirTrunk提交了在印度建设价值110亿美元数据中心项目的计划&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度数据中心基建获超大规模资本投入，将带动服务器、冷却设备、网络设备供应链采购需求&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>微软宕机事件重燃欧洲技术主权讨论</title>
+    <link href="https://thenextweb.com/news/microsoft-outage-revives-europes-tech-sovereignty-push-politico-says"/>
+    <id>tag:weekly-report,2026:event-395bd4e4</id>
+    <published>2026-11-15T00:00:00Z</published>
+    <updated>2026-11-15T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Microsoft outage revives Europe’s tech sovereignty push, Politico says&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;据Politico报道，微软服务中断事件重新点燃欧洲推动技术主权的呼声&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲对美系云依赖风险再受关注，本土云与开源替代方案采购预算可能加速流向欧洲供应商&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Megaspeed称Alice Huang已于2025年8月离职</title>
+    <link href="https://thenextweb.com/news/megaspeed-alice-huang-left-august-2025-denies-claims"/>
+    <id>tag:weekly-report,2026:event-3033e09e</id>
+    <published>2026-11-15T00:00:00Z</published>
+    <updated>2026-11-15T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Megaspeed says Alice Huang left in August 2025&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Megaspeed回应称其高管Alice Huang已于2025年8月离职，并否认相关指控&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI算力相关公司人事变动与合规争议，供应链合作方需关注其治理风险&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Fireworks AI被黑致Uber司机驾照数据泄露</title>
+    <link href="https://thenextweb.com/news/uber-drivers-licence-data-stolen-in-fireworks-ai-hack"/>
+    <id>tag:weekly-report,2026:event-42503363</id>
+    <published>2026-11-15T00:00:00Z</published>
+    <updated>2026-11-15T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Uber drivers’ licence data stolen in Fireworks AI hack&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Fireworks AI遭黑客攻击，Uber司机驾照数据在此次事件中被窃取&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI平台安全漏洞波及出行平台用户数据，AI服务商数据合规与安全审计需求上升&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：other | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>全球AI视野 Top5 · 2026-11-16</title>
+    <link href="https://aihot.virxact.com/hot"/>
+    <id>tag:weekly-report,2026:aihot-c7686340</id>
+    <published>2026-11-16T00:00:00Z</published>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-16T02:30&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"&gt;黄仁勋辞任英伟达CEO，CFO临时接任&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/e5b4067f-6f2e-4f04-8799-21e4fbd9b590"&gt;OpenAI推出ChatGPT Wallet，智能体可代用户购物&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/68ccf963-6e38-4e86-b2f3-289bd70774fb"&gt;NVIDIA员工与投资者施压董事会，董事会另寻继任者&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/77f8b937-8e1a-4b05-b3eb-b609445fedd4"&gt;DeepSeek 开放 App 能力 API，扩展调用另收费&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1"&gt;Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
