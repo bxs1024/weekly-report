@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T01:41:13+08:00",
+  "generated_at": "2026-11-15T11:23:13+08:00",
   "fetched_date": "2026-11-15",
   "source": {
     "name": "AIHOT 热点榜",
@@ -12,40 +12,40 @@
       "title": "黄仁勋辞任英伟达CEO并退出董事会",
       "list_title": "黄仁勋辞任英伟达CEO并退出董事会",
       "heat": null,
-      "heat_change": "↓ 36 %",
+      "heat_change": "↓ 25 %",
       "sources": [],
-      "summary": "英伟达董事会11月12日宣布，联合创始人、总裁兼CEO黄仁勋辞去总裁、CEO及董事职务，即刻生效，结束33年执掌。此前他承认与Megaspeed前高管Alice Huang的婚外情，美国情报界认为后者为中国国家安全部招募的间谍；《纽约时报》又曝出他与一名直接下属的第二段婚外情。董事会任命CFO Colette Kress为临时CEO，并启动内外部继任者遴选，前Synopsys CEO Harvey Jones出任公司首任董事长。\n\n董事会此前于周末启动独立调查，并称无理由认为国家安全或公司机密受损；《华尔街日报》随后报道董事会接近决定是否罢免黄仁勋。消息公布后，英伟达股价一度下跌13%至14%，市值回落至4万亿美元以下。\n\n事件还牵出芯片出口争议：The Information报道称Alice Huang相关网络向中国买家转手约75亿美元英伟达硬件；众议院中国特设委员会主席Moolenaar要求英伟达任命把国家安全置于首位的领导层，并推动年底国防授权法案通过出口管制立法。",
+      "summary": "英伟达董事会11月12日宣布，联合创始人、总裁兼CEO黄仁勋辞去CEO、总裁及董事职务，即刻生效，结束其33年执掌。此前他承认与Megaspeed前高管Alice Huang的婚外情，美国情报界认为后者为中国国家安全部招募；《纽约时报》又曝出他与一名直接下属的第二段婚外情，路透社随后披露第三段。董事会任命任职超13年的CFO Colette Kress为临时CEO，并启动内外部继任者遴选，同时任命Harvey Jones为公司首任董事长。\n\n事件始于《金融时报》报道黄仁勋与Alice Huang的关系，黄仁勋随后向全体员工发邮件承认婚外情并致歉，董事会启动独立调查，当时称无理由认为公司机密或国家安全受损。做空机构Culper Research早在5月就质疑二人关系异常密切；The Information报道称与Alice Huang相关的采购网络涉及约75亿美元英伟达硬件流向中国买家。\n\n黄仁勋辞职后，英伟达股价一度下跌13%至14%，市值回落至4万亿美元以下。美国众议院中国特设委员会主席Moolenaar要求英伟达任命把国家安全置于首位的领导层…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"
     },
     {
       "rank": 2,
+      "title": "OpenAI推出ChatGPT Wallet，智能体可代用户购物",
+      "list_title": "OpenAI推出ChatGPT Wallet，智能体可代用户购物",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "OpenAI推出ChatGPT Wallet，让ChatGPT Work、Codex和dots中的智能体在用户批准下完成购买，并沿用用户现有银行卡的保护机制。该功能由OpenAI与美国运通、万事达卡和Visa合作开发，初期不向交易收取佣金。\n\n初期仅向限量美国年满18岁的ChatGPT Pro订阅用户开放，且需使用美国账单地址并绑定美国发行的合资格卡。关于卡组织范围，TechCrunch称支持Visa、万事达卡和美国运通，The Verge则称还包括Chase。TechCrunch报道称，用户可让名为dot的智能体帮助决定买什么，再由其代为完成结账。\n\nChatGPT官方账号称，智能体支付时不会接触用户的实际卡号信息，每笔购买都需通过安全检查。X用户Rohan Paul称，每次购买需生物识别批准，智能体以替代真实卡号的token支付，卡号对商户和智能体均不可见；他还称OpenAI计划日后允许用户设置消费限额和类别、完全委托购买。The Verge也引述OpenAI称，未来用户可设定消费限额、购买类别或时间段等参数，并预先批准这些购买。这些均为计划…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/e5b4067f-6f2e-4f04-8799-21e4fbd9b590"
+    },
+    {
+      "rank": 3,
       "title": "Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具",
       "list_title": "Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具",
       "heat": null,
-      "heat_change": "↓ 14 %",
+      "heat_change": "↓ 36 %",
       "sources": [],
       "summary": "Google DeepMind 发布 Gemini 4 Hydrogen，定位为快速执行日常编码与智能体工作流的模型，与主打深度推理的 Carbon、Argon 同属 Gemini 4 系列。Google 称这是 Search 迄今最大的模型升级，已向全球所有用户开放；该模型同时成为 Gemini Managed Agents 中 Antigravity 智能体的默认模型，并已上线 Cursor 和 Cognition 的 Devin Desktop、Devin CLI，OpenClaw 也称已可使用。Ars Technica 称它取代了此前广泛使用的 Gemini 3.8 Flash，且上线即开放，不像 Argon、Carbon 那样分阶段推送。\n\n使用范围按用户类型区分：所有用户可在 Gemini 应用、Google Search 和 Google AI Studio 访问；付费 Google AI Pro 和 Ultra 订阅者还可在 Google Antigravity、Chrome 中的 Gemini 和 Google Sheets 中…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/2ff1f46f-7e98-4965-a5b2-87329632ca5d"
     },
     {
-      "rank": 3,
-      "title": "微软365故障波及Claude，Anthropic通报中断",
-      "list_title": "微软365故障波及Claude，Anthropic通报中断",
-      "heat": null,
-      "heat_change": "↓ 14 %",
-      "sources": [],
-      "summary": "微软 Microsoft 365 出现近年最严重的服务故障之一，Exchange Online、Outlook、SharePoint 及部分 Teams 中断近一天半，微软高管为此致歉。Anthropic 称 Claude 部分服务的中断源于 Microsoft 365 连接问题，并通过 Claude Status 页面陆续发布多条通报。\n\n目前公开的信息只说明 Anthropic 将故障归因于微软侧连接，Claude 受影响的具体范围和恢复时间未在通报中给出。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/d6f453c1-9dce-4af5-8a9a-ff7b8642493c"
-    },
-    {
       "rank": 4,
       "title": "DeepSeek 开放 App 能力 API，扩展调用另收费",
       "list_title": "DeepSeek 开放 App 能力 API，扩展调用另收费",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "DeepSeek 于 11 月 13 日将 App 对话背后的能力开放给开发者：在原有 API 中开启对应参数，即可使用联网搜索、文件输入、阅读链接等功能，工具调用与上下文拼接由服务端完成。V4.1-Flash 模型（deepseek-flash）已在 Messages、Responses 与 Chat Completions 接口下支持这些能力；语音及底层能力另设独立接口，含 OCR、ASR、TTS，可单独或组合调用。\n\nDeepSeek 称，调用扩展能力时除 Token 费用外，还将收取相关工具的调用费用，具体定价随公告另行列出。对外提供应用服务的开发者须开启内容安全参数，并自行承担内容安全审核、大模型登记、AI 标识等义务。\n\n官方同时提供可导入 DeepSeek 对话历史的开源前端演示（github.com/deepseek-ai/chat-demo）。投资人 Tianyi Cui 转发公告称，开发者可用少量参数启用内置功能，在自建应用中还原完整 App 体验。",
       "original_links": [],
@@ -53,69 +53,69 @@
     },
     {
       "rank": 5,
-      "title": "OpenAI推出ChatGPT Wallet，智能体可代用户购物",
-      "list_title": "OpenAI推出ChatGPT Wallet，智能体可代用户购物",
+      "title": "微软365故障波及Claude，Anthropic通报中断",
+      "list_title": "微软365故障波及Claude，Anthropic通报中断",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 20 %",
       "sources": [],
-      "summary": "OpenAI推出ChatGPT Wallet，让ChatGPT Work、Codex和dots中的智能体在用户批准下完成购买，并沿用用户现有银行卡的保护机制。该功能由OpenAI与美国运通、万事达卡和Visa合作开发，初期不向交易收取佣金。\n\n初期仅向限量美国年满18岁的ChatGPT Pro订阅用户开放，且需使用美国账单地址并绑定美国发行的合资格卡。关于卡组织范围，TechCrunch称支持Visa、万事达卡和美国运通，The Verge则称还包括Chase。TechCrunch报道称，用户可让名为dot的智能体帮助决定买什么，再由其代为完成结账。\n\nChatGPT官方账号称，智能体支付时不会接触用户的实际卡号信息，每笔购买都需通过安全检查。X用户Rohan Paul称，每次购买需生物识别批准，智能体以替代真实卡号的token支付，卡号对商户和智能体均不可见；他还称OpenAI计划日后允许用户设置消费限额和类别、完全委托购买。The Verge也引述OpenAI称，未来用户可设定消费限额、购买类别或时间段等参数，并预先批准这些购买。这些均为计划…",
+      "summary": "微软 Microsoft 365 出现近年最严重的服务故障之一，Exchange Online、Outlook、SharePoint 及部分 Teams 中断近一天半，微软高管为此致歉。Anthropic 称 Claude 部分服务的中断源于 Microsoft 365 连接问题，并通过 Claude Status 页面陆续发布多条通报。\n\n目前公开的信息只说明 Anthropic 将故障归因于微软侧连接，Claude 受影响的具体范围和恢复时间未在通报中给出。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/e5b4067f-6f2e-4f04-8799-21e4fbd9b590"
+      "story_url": "https://aihot.virxact.com/story/d6f453c1-9dce-4af5-8a9a-ff7b8642493c"
     },
     {
       "rank": 6,
+      "title": "NVIDIA员工与投资者施压董事会，董事会另寻继任者",
+      "list_title": "NVIDIA员工与投资者施压董事会，董事会另寻继任者",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "NVIDIA 董事会罢免黄仁勋后，员工和投资者正从两个方向施压：据 X.PIN 转发的一封内部公开信，数百名员工签署该信，要求董事会辞职并恢复黄仁勋的 CEO 职务，信中指控董事会在没有具体证据的情况下罢免黄仁勋、未诚信谈判，并称若要求未获满足，员工可能转投 Elon Musk 承诺安排职位的 SpaceX 与 Terafab；这些指控与离职去向均为信中说法。投资者 Brad Gerstner 和 Gavin Baker 则致信董事会，敦促其不要急于替换黄仁勋，并保留他回归 CEO 的可能。\n\n与此同时，据 FT 报道，董事会已接触 Arm CEO Rene Haas 作为接替黄仁勋的可能人选。Haas 自 2022 年起执掌这家软银旗下的英国芯片设计公司，十多年前曾在 NVIDIA 工作约 7 年，但他只是多位候选人之一，未必会获得或接受这一职位。\n\nThe Decoder 援引 WSJ 报道称，黄仁勋被罢免更多源于其主导的高风险业务，而非私生活传闻：NVIDIA 向 AI 云厂商和数据中心开发商提供数十亿美元财务担保以换取营收分成，最大一笔涉…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/68ccf963-6e38-4e86-b2f3-289bd70774fb"
+    },
+    {
+      "rank": 7,
       "title": "llama.cpp 与 ggml 发布首个大版本 v1.0.0",
       "list_title": "llama.cpp 与 ggml 发布首个大版本 v1.0.0",
       "heat": null,
-      "heat_change": "↑ 12 %",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "llama.cpp 作者 Georgi Gerganov 于 11 月 13 日宣布 llama.cpp 与底层引擎 ggml 的库版本进入 v1.0.0，称这是两者的首个大版本。此前 11 月 5 日发布 v0.9.0 时，他曾表示将在“接下来几周”迈向 v1.0.0。\n\n据 Hugging Face 博客，团队承诺今后以主版本号标识 API 和 ABI 不兼容变更，并公开语义化版本更新规则。Hugging Face CEO Clément Delangue 与 Gerganov 一同宣布，称这是运行本地 AI 模型最常用库的首个完全稳定大版本；他称用户可在手机、笔记本和工作站上免费掌控自己的智能、不向任何人发送数据，并承诺支持所有硬件、平台和模型类型。这些是发布方的说法。\n\n据 IT之家报道，该版本支持超过 150 种模型架构。Cohere 转发发布消息，并称已将 llama.cpp 支持加入 North Micro Vision。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/44c4eb23-1f37-4994-a66d-7a06ff7a74ba"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "OpenAI解散机器人团队，研究人员并入其他部门",
       "list_title": "OpenAI解散机器人团队，研究人员并入其他部门",
       "heat": null,
-      "heat_change": "↑ 33 %",
+      "heat_change": "↓ 16 %",
       "sources": [],
       "summary": "据 Fortune 报道，OpenAI 正在解散机器人团队，将机器人研究员转入 Mark Chen 领导的主研究团队，应用机器人与硬件团队则加入 Greg Brockman 的 Applied 组织。\n\nThe Decoder 称，OpenAI 此次并非放弃机器人方向，而是希望把研究人员并入其他团队，以通用模型替代专用机器人 AI，从而加快进展。这一说法来自报道方，OpenAI 尚未公布重组后的具体计划或效果。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/4d02a2b5-ec70-4631-a88c-702e78e77fc0"
     },
     {
-      "rank": 8,
-      "title": "NVIDIA员工联署要求董事会辞职，董事会另寻继任者",
-      "list_title": "NVIDIA员工联署要求董事会辞职，董事会另寻继任者",
-      "heat": null,
-      "heat_change": "",
-      "sources": [],
-      "summary": "据 X.PIN 转发的一封内部公开信，数百名 NVIDIA 员工签署该信，要求董事会辞职并恢复黄仁勋的 CEO 职务。信中指控董事会在没有具体证据的情况下罢免黄仁勋，并称董事会未诚信谈判；若董事会不满足要求，这些员工可能转投 Elon Musk 承诺安排职位的 SpaceX 与 Terafab。上述指控与离职去向均为信中说法。\n\n据 FT 报道，NVIDIA 董事会已接触 Arm CEO Rene Haas，将其作为接替黄仁勋的可能人选。Haas 自 2022 年起执掌这家软银旗下的英国芯片设计公司，十多年前曾在 NVIDIA 工作约 7 年，但他只是多位候选人之一，未必会获得或接受这一职位。\n\nThe Decoder 援引 WSJ 报道称，黄仁勋被罢免更多源于其主导的高风险业务，而非私生活传闻：NVIDIA 向 AI 云厂商和数据中心开发商提供数十亿美元财务担保以换取营收分成，最大一笔涉及对 OpenAI 俄亥俄数据中心的 2500 亿美元担保，消息公布后股价跌 5%，临时 CEO Colette Kress 将该承诺减半。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/68ccf963-6e38-4e86-b2f3-289bd70774fb"
-    },
-    {
       "rank": 9,
-      "title": "Anthropic 向 Team 和 Enterprise 推出 Claude Meetings beta",
-      "list_title": "Anthropic 向 Team 和 Enterprise 推出 Claude Meetings beta",
-      "heat": null,
-      "heat_change": "↓ 19 %",
-      "sources": [],
-      "summary": "Anthropic 以 beta 形式向 Team 和 Enterprise 计划推出 Claude Meetings，可在 Claude 和 Claude Desktop 中使用。Claude 作为可见参与者加入 Google Meet 通话，团队成员可口头或在聊天中提问、让它起草文档，并实时看到和纠正它生成的内容；通话结束后，笔记、行动项、转录和 Claude 生成的内容都保存在 Claude 中该会议的页面上。\n\nAnthropic 称目前从 Google Meet 开始支持，其他视频会议平台的支持即将推出，但未公布时间。据 Rohan Paul 介绍，Claude 会对每个口头请求先确认发言者身份再执行；默认情况下，一旦有组织外部人员加入 Google Meet 通话，它就会退出。The Decoder 报道称，采用 HIPAA 或客户管理加密配置的组织暂时无法使用 Meetings。\n\n费用方面，Anthropic 称 beta 期间 Team 和 Enterprise 计划的笔记和转录免费，通话中的回答也免费，但回答若调用已连接的工具…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/dad94af2-7539-4652-a661-03cc5494c71b"
-    },
-    {
-      "rank": 10,
       "title": "Gemini 接入 Google Wallet，仅可读取账户",
       "list_title": "Gemini 接入 Google Wallet，仅可读取账户",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "Google 将 Google Wallet 加入 Gemini 个人智能的可连接应用。用户完成授权后，可在对话中输入 @Google Wallet，让 Gemini 根据消费习惯回答个人财务问题，例如生成现金流、资产配置和预算图表，找出遗忘的订阅与周期性扣费，并标记涨价；还可通过 Plaid 关联信用卡和银行账户，以获得更全面的分析。\n\nGoogle 称，连接 Wallet 后 Gemini 只能读取用户授权的账户信息，无法转账、管理资金或投资。该接入为自愿授权，用户需在个人智能设置的“已连接的应用”中手动开启，并可随时取消。",
+      "summary": "Google 将 Google Wallet 加入 Gemini 个人智能的可连接应用。用户授权后，在对话中输入 @Google Wallet 或 @wallet，即可让 Gemini 根据消费习惯回答个人财务问题：生成现金流、资产配置和预算图表，找出遗忘的订阅与周期性扣费，并标记涨价；还可通过 Plaid 关联信用卡和银行账户，以获得更全面的分析。\n\nGoogle 称，连接 Wallet 后 Gemini 只能读取用户授权的账户信息，无法转账、管理资金或投资。该接入为自愿授权，用户需在个人智能设置的“已连接的应用”中手动开启，并可随时取消。\n\nGoogle Labs 副总裁 Josh Woodward 表示，该功能首先面向美国所有 Gemini 应用用户开放。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/f39357ff-614c-4933-bc75-31ede55ae3b2"
+    },
+    {
+      "rank": 10,
+      "title": "Claude Code 桌面版上线本地会话自定义主题",
+      "list_title": "Claude Code 桌面版上线本地会话自定义主题",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "Anthropic 为桌面版 Claude Code 推出自定义主题功能：用户可用 mods 更改颜色、添加动态背景，也可直接告诉 Claude 想要的外观，或用 theme-examples 插件上手。\n\n该功能目前仅适用于桌面应用的本地会话，更新到最新版本即可体验；Anthropic 称对云端会话的支持“即将推出”。\n\nClaude Code 团队成员 Lydia Hallie 与 Adam Wolff 在推广中表示，期待看到用户创作的主题。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/4be4c14d-784f-462e-bf3d-e88b8e5b615a"
     }
   ]
 }
