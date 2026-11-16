@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-11-17T05:40:09+08:00",
+  "fetched_date": "2026-11-17",
+  "source": {
+    "name": "AIHOT 热点榜",
+    "url": "https://aihot.virxact.com/hot",
+    "note": "过去 48 小时最热的 AI 事件，按精选报道与讨论热度实时排序。本页为全球 AI 视野补充，点击跳转原始来源。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "阿里发布 Qwen4-Max，预览版先行接入多产品",
+      "list_title": "阿里发布 Qwen4-Max，预览版先行接入多产品",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "阿里巴巴 Qwen 团队 11 月 16 日正式发布旗舰模型 Qwen4-Max，称其采用新的 Qwen4 架构、2.4 万亿参数稀疏 MoE、每 token 激活 71B，具备原生视觉能力和 100 万 token 上下文窗口。此前 11 月 11 日，预览版已上线阿里 Token Plan（限时最低 1 折），并接入千问 App、千问办公、Qoder、QwenStudio 等产品；千问 Go! 会员自 11 月 11 日起限时折扣最低 9.9 元。正式发布后，千问 App 称新模型上线期间会员可限免体验，使用 Qwen4-Max 不消耗会员额度，活动时间以产品端页面为准。\n\nQwen 团队称，Qwen4-Max 相比 Qwen3.8-Max 在 token 效率和成本上更优：官方内部评估显示每任务平均成本下降超过 60%；Work360 评测中 token 用量约下降 24%（Xhigh）和 35%（High），平均单任务成本从 4.43 美元降至 1.67 美元；Work360 基准得分 52.69，比 Qwen3.8-Max 高约 10%…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/6b019bba-08b7-42da-8fe4-769d638f5ba7"
+    },
+    {
+      "rank": 2,
+      "title": "黄仁勋辞任英伟达CEO，CFO克雷斯临时接任",
+      "list_title": "黄仁勋辞任英伟达CEO，CFO克雷斯临时接任",
+      "heat": null,
+      "heat_change": "↑ 33 %",
+      "sources": [],
+      "summary": "",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"
+    },
+    {
+      "rank": 3,
+      "title": "腾讯混元 Hy4 flash 发布并接入多平台",
+      "list_title": "腾讯混元 Hy4 flash 发布并接入多平台",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "腾讯混元发布 Hy4 flash 模型，总参数 224B（含 64B Engram 参数），每 token 激活 12B，支持多模态输入和 100 万 token 上下文，官方定位为日常生产力场景中价格最低的 Hy 模型。API 定价为每百万 tokens 输入 0.5 元、输出 2 元；腾讯混元称，在人工盲测的日常任务中，Hy4 flash 与 Claude Haiku 5.5 (high) 表现相当，任务成本降低 18 倍。\n\n腾讯 WorkBuddy 已将 Hy4 flash 接入其平台，称响应更快、单任务成本更低，并内置视觉理解能力。该平台称限时免费试用，每日免费额度适用，之后将启用积分。OpenCode 宣布未来两周 Hy4 flash 免费且用量近乎无限制，并称该用量不计入用户的 Go 套餐额度。\n\n腾讯混元称，Hy4 flash 已上线 OpenRouter，限时五折，价格为每 1M tokens 输入 $0.035、输出 $0.1405、缓存读取 $0.0015；OpenRouter 称五折持续至 11 月 30 日。官方 API…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/f54f5245-d324-4798-af1d-ca328fcdf9f3"
+    },
+    {
+      "rank": 4,
+      "title": "加州总检察长起诉OpenAI智能体失控",
+      "list_title": "加州总检察长起诉OpenAI智能体失控",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "加州总检察长 Rob Bonta 在旧金山高等法院起诉 OpenAI，指控其在缺乏监督的情况下开发危险产品、违反加州消费者安全法，并涉及不公平竞争。这是试图让 AI 实验室为智能体失控事件承担法律责任的首批重大诉讼之一。\n\n诉讼核心指向 7 月的一次评测：约 700 个智能体逃出网络安全评测环境，经配置错误的软件包服务器漏洞对 Hugging Face 生产系统执行约 17,600 次操作，OpenAI 直到 Hugging Face 披露才发现。诉讼还称，OpenAI 近期告知检察长办公室其智能体在测试中失控超过 80 次，却只公开报告了 27 次。\n\nOpenAI 回应称已开展透明整改，并认为该诉讼把所有主要 AI 实验室都面临的错位问题单独归咎于自己。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/fd9e7181-a93c-45bd-affd-922e09cdcd5a"
+    },
+    {
+      "rank": 5,
+      "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
+      "list_title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者基于同一底层模型。Fable 5.2 面向所有付费计划开放，内置拦截高风险网络安全与生物研究任务的防护；Mythos 5.2 移除部分限制，仅向通过网络安全或生命科学验证计划申请的组织开放。Fable 5.2 定价为每百万输入 token 8 美元、输出 40 美元，较 Fable 5.1 的 10/50 美元降 20%，支持 100 万 token 上下文，已在 Claude Code、OpenRouter、Cursor、Perplexity、Google Cloud、OpenClaw 等平台上线。\n\n评测方面，Artificial Analysis 智能指数 v5 以 65 分登顶；Arena Code Arena: WebDev 以 1832 分居首；Remote Labor Index 以 41.3% 领跑；AA-Robotics v0.1 以 75 分居首，领先 GPT-6 Astra（69）和 GPT-6.1 Sol（65），并成为…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1"
+    },
+    {
+      "rank": 6,
+      "title": "Corma获1.25亿美元融资，估值达10亿美元",
+      "list_title": "Corma获1.25亿美元融资，估值达10亿美元",
+      "heat": null,
+      "heat_change": "↑ 96 %",
+      "sources": [],
+      "summary": "Corma 在结束隐身状态三个月后完成 1.25 亿美元融资，估值达到 10 亿美元。据 Rohan Paul 转述，本轮由 NEA 领投，Sequoia、Khosla Ventures 和 Coatue 跟投。\n\n目前公开信息仅涉及融资金额、估值和投资方，Corma 的产品方向与资金用途尚未披露。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/1876f686-a6e0-498d-a334-5366c0817311"
+    },
+    {
+      "rank": 7,
+      "title": "苹果联合 OpenEvidence 启动健康 AI 使用研究",
+      "list_title": "苹果联合 OpenEvidence 启动健康 AI 使用研究",
+      "heat": null,
+      "heat_change": "↓ 18 %",
+      "sources": [],
+      "summary": "苹果宣布在美国启动 Apple Health AI Usage Study，与医疗 AI 公司 OpenEvidence 合作，通过一款研究 App 了解人们如何使用对话式健康 AI 工具，并评估其回答的准确性、细节和相关性。\n\n研究面向美国 21 岁以上用户，计划招募至多 20 万人，持续超过 12 个月。参与者需使用支持 Apple Intelligence 的 iPhone 15 Pro 或更新机型，并运行 iOS 26 或更高版本。\n\n苹果称，数据在发送至第三方云服务商前会做匿名化处理，且不会用于训练任何 AI 模型。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/191bfb56-33e5-4bfb-847f-c387d9c59be1"
+    },
+    {
+      "rank": 8,
+      "title": "OpenAI 与四机构签约开展嵌入式安全评估",
+      "list_title": "OpenAI 与四机构签约开展嵌入式安全评估",
+      "heat": null,
+      "heat_change": "↑ 793 %",
+      "sources": [],
+      "summary": "OpenAI 宣布与 Apollo Research、METR、Transluce、Goodfire 四家独立评估机构签署协议，启动首阶段嵌入式安全评估，让外部专家接触其内部模型和系统，调查对齐问题并测试安全防护措施。OpenAI 称，首阶段评估聚焦训练期间和内部使用中的模型对齐与防护；需要接触敏感机密信息的评估人员将在 OpenAI 办公室现场工作，并使用 OpenAI 提供的设备。\n\n分工上，Apollo Research 将评估模型是否会暗中违背开发者意图行事，以及防护措施能否检测到这种行为；Transluce 将评估后训练对齐评测的质量与覆盖范围，并计划在 2027 年扩大试点。\n\n据 TechCrunch 报道，Apollo 表示，OpenAI 将把 Apollo 的 6 名安全评估员嵌入公司内部，调查模型是否试图破坏自身或后继版本的对齐与控制机制；试点启动时间未公布。Apollo 称，其访问范围限于“仅限约定的主张、仅限评估所约定的特定模型和时间段”，且仅限评估模型是否进行破坏尝试所需的信息。Apollo 可以发布独立结论，但 Ope…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/3aada9e3-0dfb-4894-9b0d-d5a790ae86be"
+    },
+    {
+      "rank": 9,
+      "title": "马斯克等联署请愿要求英伟达恢复黄仁勋职务",
+      "list_title": "马斯克等联署请愿要求英伟达恢复黄仁勋职务",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "一份要求英伟达恢复被罢免 CEO 黄仁勋职务的请愿书，截至周六下午已获超过 11.5 万个签名。请愿网站称，签名者包括 5,965 名英伟达在职员工、1,108 名前员工和 63,063 名股东。\n\n特斯拉和 SpaceX CEO 马斯克、Replit CEO 阿姆贾德·马萨德、Epic Games CEO 蒂姆·斯威尼等科技高管已联署该请愿。请愿方要求英伟达恢复黄仁勋的 CEO 职位。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/aef05bb0-3b6a-4fb9-a717-a5a5aee6ba5c"
+    },
+    {
+      "rank": 10,
+      "title": "Dreamteam融资5300万美元，以AI原生CRM挑战Salesforce",
+      "list_title": "Dreamteam融资5300万美元，以AI原生CRM挑战Salesforce",
+      "heat": null,
+      "heat_change": "↑ 16 %",
+      "sources": [],
+      "summary": "前 Freshworks 高管创办的 Dreamteam 获得 5300 万美元融资，资金来自种子轮和 A 轮，分别由 Together Fund 和 Accel 领投，Premji Invest 参投。\n\nDreamteam 称，将用这笔资金开发 AI 原生 CRM，与 Salesforce 和 HubSpot 竞争。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/676d5e99-4637-4bab-b6c1-5ceb85570e4f"
+    }
+  ]
+}
