@@ -1,45 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-11-15</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-11-16</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-11-15T22:47:51Z</updated>
+  <updated>2026-11-16T07:44:41Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>AirTrunk提交$11B印度数据中心建设计划</title>
-    <link href="https://www.techinasia.com/news/blackstonebacked-airtrunk-files-11b-india-data-center-plan"/>
-    <id>tag:weekly-report,2026:event-2c39582a</id>
-    <published>2026-11-15T00:00:00Z</published>
-    <updated>2026-11-15T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Blackstone-backed AirTrunk files $11b India data center plan&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Blackstone支持的AirTrunk提交了在印度建设价值110亿美元数据中心项目的计划&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度数据中心基建获超大规模资本投入，将带动服务器、冷却设备、网络设备供应链采购需求&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>Vucar完成pre-A轮融资，推AI定价二手车拍卖</title>
+    <link href="https://e27.co/vucar-raises-pre-series-a-to-bring-ai-priced-auctions-to-vietnams-used-car-trade-20261116/"/>
+    <id>tag:weekly-report,2026:event-a26af21f</id>
+    <published>2026-11-16T00:00:00Z</published>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Vucar raises pre-Series A to bring AI-priced auctions to Vietnam’s used-car trade&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;越南二手车交易平台Vucar完成pre-Series A融资，用于将AI定价拍卖模式引入越南二手车市场&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;越南二手车交易数字化起步，AI定价与拍卖模式落地，车况数据与检测服务商可跟进合作&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>微软宕机事件重燃欧洲技术主权讨论</title>
-    <link href="https://thenextweb.com/news/microsoft-outage-revives-europes-tech-sovereignty-push-politico-says"/>
-    <id>tag:weekly-report,2026:event-395bd4e4</id>
-    <published>2026-11-15T00:00:00Z</published>
-    <updated>2026-11-15T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Microsoft outage revives Europe’s tech sovereignty push, Politico says&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;据Politico报道，微软服务中断事件重新点燃欧洲推动技术主权的呼声&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲对美系云依赖风险再受关注，本土云与开源替代方案采购预算可能加速流向欧洲供应商&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>马来西亚拟对WhatsApp用户强制身份核验</title>
+    <link href="https://e.vnexpress.net/news/tech/tech-news/malaysia-considers-mandatory-identity-checks-for-whatsapp-users-to-combat-scams-5145113.html"/>
+    <id>tag:weekly-report,2026:event-b8339947</id>
+    <published>2026-11-16T00:00:00Z</published>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Malaysia considers mandatory identity checks for WhatsApp users to combat scams&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;马来西亚政府正考虑对WhatsApp用户实施强制身份验证，以打击日益猖獗的网络诈骗行为&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚即时通讯监管趋严，身份验证与反欺诈技术供应商将迎来合规采购窗口&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：VnExpress Tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Megaspeed称Alice Huang已于2025年8月离职</title>
-    <link href="https://thenextweb.com/news/megaspeed-alice-huang-left-august-2025-denies-claims"/>
-    <id>tag:weekly-report,2026:event-3033e09e</id>
-    <published>2026-11-15T00:00:00Z</published>
-    <updated>2026-11-15T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Megaspeed says Alice Huang left in August 2025&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Megaspeed回应称其高管Alice Huang已于2025年8月离职，并否认相关指控&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI算力相关公司人事变动与合规争议，供应链合作方需关注其治理风险&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>阿里发布Qwen4-Max，任务成本降60%</title>
+    <link href="https://www.techinasia.com/news/alibaba-launches-qwen4max-ai-model-cutting-task-costs-60"/>
+    <id>tag:weekly-report,2026:event-ad670035</id>
+    <published>2026-11-16T00:00:00Z</published>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Alibaba launches Qwen4-Max AI model, cutting task costs 60%&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;阿里巴巴发布Qwen4-Max AI模型，任务成本降低60%&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;阿里大模型降价60%加剧亚太AI推理价格竞争，云厂商与API集成商可重估推理成本结构&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Fireworks AI被黑致Uber司机驾照数据泄露</title>
-    <link href="https://thenextweb.com/news/uber-drivers-licence-data-stolen-in-fireworks-ai-hack"/>
-    <id>tag:weekly-report,2026:event-42503363</id>
-    <published>2026-11-15T00:00:00Z</published>
-    <updated>2026-11-15T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Uber drivers’ licence data stolen in Fireworks AI hack&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Fireworks AI遭黑客攻击，Uber司机驾照数据在此次事件中被窃取&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI平台安全漏洞波及出行平台用户数据，AI服务商数据合规与安全审计需求上升&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：other | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
+    <title>Linnovate发布RAISE AI另类投资报告智能体</title>
+    <link href="https://fintechnews.sg/141265/ai/linnovate-raise-ai-agent-fund-reporting/"/>
+    <id>tag:weekly-report,2026:event-833ffd59</id>
+    <published>2026-11-16T00:00:00Z</published>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Linnovate Launches RAISE AI for Alternative Investment Reporting&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;以色列金融科技公司Linnovate推出RAISE AI智能体产品，用于另类投资报告的自动化生成与处理&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太资管科技赛道AI智能体落地，另类投资报告自动化需求上升，可关注资管机构采购与集成合作&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Saucony加码欧洲门店扩张</title>
+    <link href="https://www.modernretail.co/operations/saucony-sees-europe-as-a-key-growth-engine-as-it-opens-more-international-stores/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss"/>
+    <id>tag:weekly-report,2026:event-ed76661e</id>
+    <published>2026-11-16T00:00:00Z</published>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Saucony sees Europe as a ‘key growth engine’ as it opens more international stores&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;运动鞋品牌Saucony将欧洲视为关键增长引擎，并计划开设更多国际门店&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲运动消费零售扩张，门店数字化、跨境履约与零售IT系统采购需求随之增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：欧洲 | 来源：Modern Retail&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>分析：$65K下量缩恐慌，加密市场脆弱</title>
+    <link href="https://e27.co/the-us65k-illusion-declining-volume-and-extreme-fear-signal-a-fragile-crypto-market-20261116/"/>
+    <id>tag:weekly-report,2026:event-71b4c13c</id>
+    <published>2026-11-16T00:00:00Z</published>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The US$65K illusion: Declining volume and extreme fear signal a fragile crypto market&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27发布分析文章，指出比特币6.5万美元价位下成交量下滑与极端恐慌情绪并存，显示加密市场结构脆弱&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;加密市场流动性收缩与情绪恶化，交易所营收与做市商业务承压，相关基础设施预算可能收紧&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：北美 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>e27分析东南亚电商退货隐性成本</title>
+    <link href="https://e27.co/the-hidden-economics-of-returns-in-southeast-asian-e-commerce-20261111/"/>
+    <id>tag:weekly-report,2026:event-af43b303</id>
+    <published>2026-11-16T00:00:00Z</published>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The hidden economics of returns in Southeast Asian e-commerce&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27发布分析文章，剖析东南亚电商退货环节的隐性成本结构与经济账&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚电商退货成本高企，逆向物流、退货处理与售后SaaS存在明确采购与创业机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>东盟签署DEFA数字经济协定，涵盖支付与跨境数据</title>
+    <link href="https://fintechnews.sg/141260/payments/asean-defa-payments-cross-border-data/"/>
+    <id>tag:weekly-report,2026:event-49eddad9</id>
+    <published>2026-11-16T00:00:00Z</published>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;ASEAN Signs First Standalone Digital Economy Pact on Payments, Cross-Border Data&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;东盟签署首个独立数字经济协定DEFA，覆盖支付互联与跨境数据流动规则&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚支付互联与跨境数据框架落地，区域清算、跨境支付网关与合规数据服务将迎增量需求&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>分析：AI智能体或成金融科技与客户间的中介层</title>
+    <link href="https://fintechnews.sg/139733/ai/ai-in-fintech-business-performance/"/>
+    <id>tag:weekly-report,2026:event-ff7822f1</id>
+    <published>2026-11-16T00:00:00Z</published>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Could AI Agents Come Between Fintechs and Their Customers?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Fintech News Singapore发布分析文章，探讨AI智能体在金融科技企业与客户之间扮演中介角色的趋势与影响&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太金融科技客户触达渠道可能被AI智能体重构，现有App与获客体系面临被绕过的风险&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-11-16</title>
@@ -47,6 +87,6 @@
     <id>tag:weekly-report,2026:aihot-c7686340</id>
     <published>2026-11-16T00:00:00Z</published>
     <updated>2026-11-16T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-16T02:30&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"&gt;黄仁勋辞任英伟达CEO，CFO临时接任&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/e5b4067f-6f2e-4f04-8799-21e4fbd9b590"&gt;OpenAI推出ChatGPT Wallet，智能体可代用户购物&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/68ccf963-6e38-4e86-b2f3-289bd70774fb"&gt;NVIDIA员工与投资者施压董事会，董事会另寻继任者&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/77f8b937-8e1a-4b05-b3eb-b609445fedd4"&gt;DeepSeek 开放 App 能力 API，扩展调用另收费&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1"&gt;Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-16T11:24&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"&gt;黄仁勋辞任英伟达CEO，CFO克雷斯临时接任&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/68ccf963-6e38-4e86-b2f3-289bd70774fb"&gt;NVIDIA员工与投资者施压董事会，董事会另寻继任者&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/6b019bba-08b7-42da-8fe4-769d638f5ba7"&gt;阿里发布 Qwen4-Max，预览版先行接入多产品&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1"&gt;Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/191bfb56-33e5-4bfb-847f-c387d9c59be1"&gt;苹果联合 OpenEvidence 启动健康 AI 使用研究&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
