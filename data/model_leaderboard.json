@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T13:24:40+08:00",
-  "fetched_date": "2026-11-17",
+  "generated_at": "2026-11-18T04:30:08+08:00",
+  "fetched_date": "2026-11-18",
   "source": {
     "name": "AIHOT 大模型排行榜",
     "leaderboard_url": "https://aihot.virxact.com/leaderboard",
@@ -17,8 +17,8 @@
       "completeness": "39 项评测 覆盖 78 %",
       "cache_price": "¥1.33",
       "input_price": "¥53.33",
-      "output_price": "¥266.66",
-      "consensus_score": 79.9,
+      "output_price": "¥266.64",
+      "consensus_score": 79.8,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-fable-5-2"
     },
     {
@@ -28,8 +28,8 @@
       "release_date": "2026-10-28",
       "completeness": "30 项评测 覆盖 61 %",
       "cache_price": "¥1.33",
-      "input_price": "¥26.67",
-      "output_price": "¥133.33",
+      "input_price": "¥26.66",
+      "output_price": "¥133.32",
       "consensus_score": 76.9,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-4-carbon"
     },
@@ -40,8 +40,8 @@
       "release_date": "2026-09-22",
       "completeness": "53 项评测 覆盖 100 %",
       "cache_price": "¥1.33",
-      "input_price": "¥26.67",
-      "output_price": "¥133.33",
+      "input_price": "¥26.66",
+      "output_price": "¥133.32",
       "consensus_score": 74.0,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-5-5"
     },
@@ -54,7 +54,7 @@
       "cache_price": "¥0.5",
       "input_price": "¥10",
       "output_price": "¥50",
-      "consensus_score": 72.6,
+      "consensus_score": 72.5,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-4-hydrogen"
     },
     {
@@ -64,8 +64,8 @@
       "release_date": "2026-09-01",
       "completeness": "46 项评测 覆盖 92 %",
       "cache_price": "¥1.67",
-      "input_price": "¥66.67",
-      "output_price": "¥333.32",
+      "input_price": "¥66.66",
+      "output_price": "¥333.31",
       "consensus_score": 72.2,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-fable-5-1"
     },
@@ -76,8 +76,8 @@
       "release_date": "2026-09-03",
       "completeness": "53 项评测 覆盖 100 %",
       "cache_price": "¥6.67",
-      "input_price": "¥66.67",
-      "output_price": "¥333.32",
+      "input_price": "¥66.66",
+      "output_price": "¥333.31",
       "consensus_score": 71.5,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-astra"
     },
@@ -88,8 +88,8 @@
       "release_date": "2026-09-30",
       "completeness": "49 项评测 覆盖 94 %",
       "cache_price": "¥1.33",
-      "input_price": "¥26.67",
-      "output_price": "¥133.33",
+      "input_price": "¥26.66",
+      "output_price": "¥133.32",
       "consensus_score": 71.5,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-4-argon"
     },
@@ -101,7 +101,7 @@
       "completeness": "53 项评测 覆盖 100 %",
       "cache_price": "¥0.67",
       "input_price": "¥13.33",
-      "output_price": "¥66.67",
+      "output_price": "¥66.66",
       "consensus_score": 71.3,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-sonnet-5-5"
     },
@@ -113,24 +113,12 @@
       "completeness": "53 项评测 覆盖 100 %",
       "cache_price": "¥0.67",
       "input_price": "¥13.33",
-      "output_price": "¥66.67",
-      "consensus_score": 70.1,
+      "output_price": "¥66.66",
+      "consensus_score": 70.0,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-1-sol"
     },
     {
       "rank": 10,
-      "name": "Qwen4 Max",
-      "provider": "Alibaba",
-      "release_date": "2026-11-16",
-      "completeness": "21 项评测 覆盖 47 %",
-      "cache_price": "¥0.5",
-      "input_price": "¥10",
-      "output_price": "¥30",
-      "consensus_score": 69.4,
-      "detail_url": "https://aihot.virxact.com/leaderboard/qwen-4-max"
-    },
-    {
-      "rank": 11,
       "name": "GPT-6.1 Terra",
       "provider": "OpenAI",
       "release_date": "2026-10-26",
@@ -142,16 +130,28 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-1-terra"
     },
     {
-      "rank": 12,
+      "rank": 11,
       "name": "Claude Opus 5",
       "provider": "Anthropic",
       "release_date": "2026-07-24",
       "completeness": "43 项评测 覆盖 89 %",
       "cache_price": "¥3.33",
       "input_price": "¥33.33",
-      "output_price": "¥166.66",
+      "output_price": "¥166.65",
       "consensus_score": 68.9,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-5"
+    },
+    {
+      "rank": 12,
+      "name": "Qwen4 Max",
+      "provider": "Alibaba",
+      "release_date": "2026-11-16",
+      "completeness": "24 项评测 覆盖 50 %",
+      "cache_price": "¥0.5",
+      "input_price": "¥10",
+      "output_price": "¥30",
+      "consensus_score": 68.7,
+      "detail_url": "https://aihot.virxact.com/leaderboard/qwen-4-max"
     },
     {
       "rank": 13,
@@ -160,8 +160,8 @@
       "release_date": "2026-06-09",
       "completeness": "34 项评测 覆盖 78 %",
       "cache_price": "¥6.67",
-      "input_price": "¥66.67",
-      "output_price": "¥333.32",
+      "input_price": "¥66.66",
+      "output_price": "¥333.31",
       "consensus_score": 68.6,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-fable-5"
     },
@@ -184,8 +184,8 @@
       "release_date": "2026-10-12",
       "completeness": "41 项评测 覆盖 86 %",
       "cache_price": "¥1.33",
-      "input_price": "¥26.67",
-      "output_price": "¥133.33",
+      "input_price": "¥26.66",
+      "output_price": "¥133.32",
       "consensus_score": 67.3,
       "detail_url": "https://aihot.virxact.com/leaderboard/muse-wonder"
     },
@@ -197,8 +197,8 @@
       "completeness": "39 项评测 覆盖 83 %",
       "cache_price": "¥3.33",
       "input_price": "¥33.33",
-      "output_price": "¥200",
-      "consensus_score": 66.8,
+      "output_price": "¥199.98",
+      "consensus_score": 66.7,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-6-sol"
     },
     {
@@ -222,7 +222,7 @@
       "cache_price": "¥0.0267",
       "input_price": "¥0.67",
       "output_price": "¥3.33",
-      "consensus_score": 65.9,
+      "consensus_score": 66.0,
       "detail_url": "https://aihot.virxact.com/leaderboard/muse-ember"
     },
     {
@@ -245,8 +245,8 @@
       "completeness": "44 项评测 覆盖 92 %",
       "cache_price": "¥1.33",
       "input_price": "¥13.33",
-      "output_price": "¥66.67",
-      "consensus_score": 65.6,
+      "output_price": "¥66.66",
+      "consensus_score": 65.5,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-sol"
     },
     {
@@ -329,7 +329,7 @@
       "completeness": "30 项评测 覆盖 69 %",
       "cache_price": "¥3.33",
       "input_price": "¥33.33",
-      "output_price": "¥200",
+      "output_price": "¥199.98",
       "consensus_score": 62.8,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-5"
     },
@@ -378,7 +378,7 @@
       "cache_price": "¥0.02",
       "input_price": "¥1",
       "output_price": "¥4",
-      "consensus_score": 62.2,
+      "consensus_score": 62.3,
       "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-1-flash"
     },
     {
@@ -401,7 +401,7 @@
       "completeness": "34 项评测 覆盖 75 %",
       "cache_price": "¥3.33",
       "input_price": "¥33.33",
-      "output_price": "¥166.66",
+      "output_price": "¥166.65",
       "consensus_score": 62.2,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-8"
     },
@@ -414,11 +414,23 @@
       "cache_price": "¥0.2",
       "input_price": "¥2",
       "output_price": "¥6.67",
-      "consensus_score": 62.1,
+      "consensus_score": 62.2,
       "detail_url": "https://aihot.virxact.com/leaderboard/inkling-2-small"
     },
     {
       "rank": 35,
+      "name": "Hy 4 Preview",
+      "provider": "Tencent",
+      "release_date": "2026-08-28",
+      "completeness": "18 项评测 覆盖 44 %",
+      "cache_price": "¥0.3",
+      "input_price": "¥6",
+      "output_price": "¥18",
+      "consensus_score": 62.1,
+      "detail_url": "https://aihot.virxact.com/leaderboard/hy-4-preview"
+    },
+    {
+      "rank": 36,
       "name": "Claude Haiku 5.5",
       "provider": "Anthropic",
       "release_date": "2026-10-07",
@@ -430,18 +442,6 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-haiku-5-5"
     },
     {
-      "rank": 36,
-      "name": "Hy 4 Preview",
-      "provider": "Tencent",
-      "release_date": "2026-08-28",
-      "completeness": "18 项评测 覆盖 44 %",
-      "cache_price": "¥0.3",
-      "input_price": "¥6",
-      "output_price": "¥18",
-      "consensus_score": 62.0,
-      "detail_url": "https://aihot.virxact.com/leaderboard/hy-4-preview"
-    },
-    {
       "rank": 37,
       "name": "GPT-5.6 Terra",
       "provider": "OpenAI",
@@ -449,7 +449,7 @@
       "completeness": "38 项评测 覆盖 81 %",
       "cache_price": "¥1.33",
       "input_price": "¥13.33",
-      "output_price": "¥80",
+      "output_price": "¥79.99",
       "consensus_score": 62.0,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-6-terra"
     },
@@ -461,7 +461,7 @@
       "completeness": "26 项评测 覆盖 64 %",
       "cache_price": "¥3.33",
       "input_price": "¥33.33",
-      "output_price": "¥166.66",
+      "output_price": "¥166.65",
       "consensus_score": 60.7,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-7"
     },
@@ -486,7 +486,7 @@
       "cache_price": "¥0.7",
       "input_price": "¥7",
       "output_price": "¥20",
-      "consensus_score": 60.4,
+      "consensus_score": 60.5,
       "detail_url": "https://aihot.virxact.com/leaderboard/step-5-preview"
     },
     {
@@ -533,7 +533,7 @@
       "completeness": "34 项评测 覆盖 75 %",
       "cache_price": "¥1.33",
       "input_price": "¥13.33",
-      "output_price": "¥66.67",
+      "output_price": "¥66.66",
       "consensus_score": 59.3,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-sonnet-5"
     },
@@ -558,7 +558,7 @@
       "cache_price": "¥0.02",
       "input_price": "¥1",
       "output_price": "¥2",
-      "consensus_score": 58.8,
+      "consensus_score": 58.9,
       "detail_url": "https://aihot.virxact.com/leaderboard/mimo-v-2-6-flash"
     },
     {
@@ -569,7 +569,7 @@
       "completeness": "15 项评测 覆盖 44 %",
       "cache_price": "¥1.67",
       "input_price": "¥16.67",
-      "output_price": "¥100",
+      "output_price": "¥99.99",
       "consensus_score": 58.8,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-4"
     },
@@ -605,7 +605,7 @@
       "completeness": "20 项评测 覆盖 56 %",
       "cache_price": "¥3.33",
       "input_price": "¥33.33",
-      "output_price": "¥166.66",
+      "output_price": "¥166.65",
       "consensus_score": 58.4,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-4-6"
     }
