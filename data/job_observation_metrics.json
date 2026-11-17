@@ -1,23 +1,26 @@
 {
-  "observed_at": "2026-11-16T15:36:59.366297+08:00",
+  "observed_at": "2026-11-17T09:49:24.125692+08:00",
   "source_count": 3,
-  "raw_count": 47,
+  "raw_count": 49,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 4,
-      "inventory_count": 17,
-      "signal_count": 0,
-      "added_count": 2,
-      "removed_count": 2,
+      "count": 18,
+      "inventory_count": 19,
+      "signal_count": 1,
+      "added_count": 10,
+      "removed_count": 8,
       "clusters": {
-        "engineering": 1
+        "engineering": 4,
+        "payments": 1,
+        "compliance": 1,
+        "operations": 1
       },
       "removed_clusters": {
-        "engineering": 1
+        "engineering": 2
       }
     },
     "Stripe Jobs": {
@@ -38,15 +41,217 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
+      "count": 4,
       "inventory_count": 25,
-      "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
-      "removed_clusters": {}
+      "signal_count": 1,
+      "added_count": 2,
+      "removed_count": 2,
+      "clusters": {
+        "ai": 1,
+        "engineering": 2
+      },
+      "removed_clusters": {
+        "engineering": 2,
+        "payments": 1
+      }
     }
   },
-  "candidate_signals": [],
-  "promoted_count": 0
+  "candidate_signals": [
+    {
+      "candidate_id": "jobs-07b711e37df060f8",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W47",
+      "window_start": "2026-11-17",
+      "window_end": "2026-11-17",
+      "detected_at": "2026-11-17T09:49:24.125692+08:00",
+      "baseline_count": 17,
+      "current_count": 19,
+      "added_count": 10,
+      "removed_count": 8,
+      "clusters": {
+        "engineering": 4,
+        "payments": 1,
+        "compliance": 1,
+        "operations": 1
+      },
+      "removed_clusters": {
+        "engineering": 2
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000161936334",
+          "title": "Senior Software Engineer, Fullstack (Safety)",
+          "url": "https://www.grab.careers/en/jobs/744000161936334/senior-software-engineer-fullstack-safety/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000161872308",
+          "title": "Lead Program Manager (Developer Education)",
+          "url": "https://www.grab.careers/en/jobs/744000161872308/lead-program-manager-developer-education/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000161845539",
+          "title": "Senior Integration Engineer, Orchestration team",
+          "url": "https://www.grab.careers/en/jobs/744000161845539/senior-integration-engineer-orchestration-team/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000161813659",
+          "title": "Region Commercial Manager - West Java",
+          "url": "https://www.grab.careers/en/jobs/744000161813659/region-commercial-manager-west-java/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000161771754",
+          "title": "Data Scientist (Analytics), Financial Services - Lending",
+          "url": "https://www.grab.careers/en/jobs/744000161771754/data-scientist-analytics-financial-services-lending/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000161770359",
+          "title": "Regional Commercial Process Manager",
+          "url": "https://www.grab.careers/en/jobs/744000161770359/regional-commercial-process-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000161758569",
+          "title": "Manager, Deliveries Marketplace Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000161758569/manager-deliveries-marketplace-strategy/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000161754832",
+          "title": "People Operations - Compliance Intern",
+          "url": "https://www.grab.careers/en/jobs/744000161754832/people-operations-compliance-intern/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000161754744",
+          "title": "Senior Software Engineer, Mobile (iOS)",
+          "url": "https://www.grab.careers/en/jobs/744000161754744/senior-software-engineer-mobile-ios/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000161740172",
+          "title": "Associate, Regional Public Affairs",
+          "url": "https://www.grab.careers/en/jobs/744000161740172/associate-regional-public-affairs/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000161429069",
+          "title": "Country Procurement Manager Indonesia",
+          "url": "https://www.grab.careers/en/jobs/744000161429069/country-procurement-manager-indonesia/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000161228180",
+          "title": "Data Scientist, Ads and Demand Optimization (Contract)",
+          "url": "https://www.grab.careers/en/jobs/744000161228180/data-scientist-ads-and-demand-optimization-contract/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000161226979",
+          "title": "Lead Forward Deployed Engineer, Robotics",
+          "url": "https://www.grab.careers/en/jobs/744000161226979/lead-forward-deployed-engineer-robotics/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000161226190",
+          "title": "Manager, Category Management",
+          "url": "https://www.grab.careers/en/jobs/744000161226190/manager-category-management/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000161225489",
+          "title": "Business Controller, Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000161225489/business-controller-assistant-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000161224565",
+          "title": "Associate, Commercial Planning - Enterprise",
+          "url": "https://www.grab.careers/en/jobs/744000161224565/associate-commercial-planning-enterprise/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000161218849",
+          "title": "Lead Security Technical Program Manager",
+          "url": "https://www.grab.careers/en/jobs/744000161218849/lead-security-technical-program-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000161211059",
+          "title": "Senior Software Engineer, Streaming Platform",
+          "url": "https://www.grab.careers/en/jobs/744000161211059/senior-software-engineer-streaming-platform/",
+          "change": "removed"
+        }
+      ],
+      "status": "qualified",
+      "rejection_reason": "",
+      "promoted_event_id": ""
+    },
+    {
+      "candidate_id": "jobs-7a809de5be62c989",
+      "entity_id": "shopify",
+      "entity": "Shopify",
+      "region": "全球",
+      "sector": "commerce_saas",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "engineering",
+      "window": "2026-W47",
+      "window_start": "2026-11-17",
+      "window_end": "2026-11-17",
+      "detected_at": "2026-11-17T09:49:24.125692+08:00",
+      "baseline_count": 25,
+      "current_count": 25,
+      "added_count": 2,
+      "removed_count": 2,
+      "clusters": {
+        "ai": 1,
+        "engineering": 2
+      },
+      "removed_clusters": {
+        "engineering": 2,
+        "payments": 1
+      },
+      "evidence_refs": [
+        {
+          "job_id": "1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536",
+          "title": "Applied Machine Learning Engineering Internships Summer 2027 Remote - Americas",
+          "url": "https://www.shopify.com/careers/applied-machine-learning-engineering-internships-summer-2027_1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536",
+          "change": "added"
+        },
+        {
+          "job_id": "7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a",
+          "title": "CAN Software Engineering Internships Summer 2027 Remote - Americas",
+          "url": "https://www.shopify.com/careers/can-software-engineering-internships-summer-2027_7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a",
+          "change": "added"
+        },
+        {
+          "job_id": "c7376ac5-5a43-4127-832d-7aa62d10c145",
+          "title": "Senior Software Engineer - Payments (Singapore, APAC) Remote - Singapore",
+          "url": "https://www.shopify.com/careers/senior-software-engineer-payments-singapore-apac_c7376ac5-5a43-4127-832d-7aa62d10c145",
+          "change": "removed"
+        },
+        {
+          "job_id": "cc33c981-5ac7-4c32-9924-fda511771c5a",
+          "title": "Senior Staff Applied ML Engineer - Consumer Agents Remote - Americas",
+          "url": "https://www.shopify.com/careers/senior-staff-applied-ml-engineer-consumer-agents_cc33c981-5ac7-4c32-9924-fda511771c5a",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    }
+  ],
+  "promoted_count": 1
 }
