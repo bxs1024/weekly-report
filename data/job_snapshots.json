@@ -1,11 +1,83 @@
 {
   "version": 1,
-  "generated_at": "2026-11-18T08:52:23.045289+08:00",
+  "generated_at": "2026-11-18T16:10:38.822221+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-18T08:52:23.045289+08:00",
+      "observed_at": "2026-11-18T16:10:38.822221+08:00",
       "jobs": [
+        {
+          "id": "744000162227579",
+          "title": "Senior Machine Learning Engineer (ACE)",
+          "url": "https://www.grab.careers/en/jobs/744000162227579/senior-machine-learning-engineer-ace/",
+          "function_tags": [
+            "ai",
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000162227339",
+          "title": "Senior Machine Learning Engineer (GrabMart)",
+          "url": "https://www.grab.careers/en/jobs/744000162227339/senior-machine-learning-engineer-grabmart/",
+          "function_tags": [
+            "ai",
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000162222689",
+          "title": "Senior Product Designer, Online Deliveries",
+          "url": "https://www.grab.careers/en/jobs/744000162222689/senior-product-designer-online-deliveries/",
+          "function_tags": []
+        },
+        {
+          "id": "744000162221214",
+          "title": "Intern, Account Management, Merchant Growth",
+          "url": "https://www.grab.careers/en/jobs/744000162221214/intern-account-management-merchant-growth/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000162219359",
+          "title": "Associate, Business Development - eCommerce",
+          "url": "https://www.grab.careers/en/jobs/744000162219359/associate-business-development-ecommerce/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000162216860",
+          "title": "Specialist, Growth Enablement",
+          "url": "https://www.grab.careers/en/jobs/744000162216860/specialist-growth-enablement/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000162216159",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000162216159/lead-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000162216099",
+          "title": "Senior Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000162216099/senior-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000162213929",
+          "title": "Regional Category Manager - Corporate Services & Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000162213929/regional-category-manager-corporate-services-financial-services/",
+          "function_tags": [
+            "payments"
+          ]
+        },
         {
           "id": "744000162032441",
           "title": "Intern, Driver Operations",
@@ -34,14 +106,6 @@
           "url": "https://www.grab.careers/en/jobs/744000162025670/data-scientist-analytics-financial-services-payments/",
           "function_tags": [
             "payments"
-          ]
-        },
-        {
-          "id": "744000162024008",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000162024008/senior-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
           ]
         },
         {
@@ -79,85 +143,12 @@
           "function_tags": [
             "engineering"
           ]
-        },
-        {
-          "id": "744000161872308",
-          "title": "Lead Program Manager (Developer Education)",
-          "url": "https://www.grab.careers/en/jobs/744000161872308/lead-program-manager-developer-education/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000161845539",
-          "title": "Senior Integration Engineer, Orchestration team",
-          "url": "https://www.grab.careers/en/jobs/744000161845539/senior-integration-engineer-orchestration-team/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000161813659",
-          "title": "Region Commercial Manager - West Java",
-          "url": "https://www.grab.careers/en/jobs/744000161813659/region-commercial-manager-west-java/",
-          "function_tags": []
-        },
-        {
-          "id": "744000161771754",
-          "title": "Data Scientist (Analytics), Financial Services - Lending",
-          "url": "https://www.grab.careers/en/jobs/744000161771754/data-scientist-analytics-financial-services-lending/",
-          "function_tags": [
-            "payments"
-          ]
-        },
-        {
-          "id": "744000161770359",
-          "title": "Regional Commercial Process Manager",
-          "url": "https://www.grab.careers/en/jobs/744000161770359/regional-commercial-process-manager/",
-          "function_tags": []
-        },
-        {
-          "id": "744000161758569",
-          "title": "Manager, Deliveries Marketplace Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000161758569/manager-deliveries-marketplace-strategy/",
-          "function_tags": []
-        },
-        {
-          "id": "744000161754832",
-          "title": "People Operations - Compliance Intern",
-          "url": "https://www.grab.careers/en/jobs/744000161754832/people-operations-compliance-intern/",
-          "function_tags": [
-            "compliance",
-            "operations"
-          ]
-        },
-        {
-          "id": "744000161754744",
-          "title": "Senior Software Engineer, Mobile (iOS)",
-          "url": "https://www.grab.careers/en/jobs/744000161754744/senior-software-engineer-mobile-ios/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000161740172",
-          "title": "Associate, Regional Public Affairs",
-          "url": "https://www.grab.careers/en/jobs/744000161740172/associate-regional-public-affairs/",
-          "function_tags": []
-        },
-        {
-          "id": "744000161722604",
-          "title": "Senior Software Engineer, Fullstack",
-          "url": "https://www.grab.careers/en/jobs/744000161722604/senior-software-engineer-fullstack/",
-          "function_tags": [
-            "engineering"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-18T08:52:23.045289+08:00",
+      "observed_at": "2026-11-18T16:10:38.822221+08:00",
       "jobs": [
         {
           "id": "8144196",
@@ -201,7 +192,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-18T08:52:23.045289+08:00",
+      "observed_at": "2026-11-18T16:10:38.822221+08:00",
       "jobs": [
         {
           "id": "1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536",
