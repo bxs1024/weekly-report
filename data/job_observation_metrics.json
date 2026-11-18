@@ -1,25 +1,26 @@
 {
-  "observed_at": "2026-11-17T16:46:35.500423+08:00",
+  "observed_at": "2026-11-18T08:52:23.045289+08:00",
   "source_count": 3,
-  "raw_count": 49,
+  "raw_count": 50,
   "source_stats": {
     "Grab Jobs": {
       "method": "jobs_snapshot",
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 8,
-      "inventory_count": 19,
+      "count": 9,
+      "inventory_count": 20,
       "signal_count": 1,
-      "added_count": 4,
+      "added_count": 5,
       "removed_count": 4,
       "clusters": {
         "operations": 1,
-        "engineering": 1
+        "engineering": 2,
+        "payments": 1
       },
       "removed_clusters": {
-        "engineering": 3,
-        "sales": 1
+        "engineering": 2,
+        "payments": 1
       }
     },
     "Stripe Jobs": {
@@ -51,82 +52,89 @@
   },
   "candidate_signals": [
     {
-      "candidate_id": "jobs-ecd78e6d167b99b9",
+      "candidate_id": "jobs-07b711e37df060f8",
       "entity_id": "grab",
       "entity": "Grab",
       "region": "亚太",
       "sector": "mobility_payment",
       "source_type": "jobs_snapshot",
       "signal_type": "function_buildout",
-      "cluster": "operations",
+      "cluster": "engineering",
       "window": "2026-W47",
-      "window_start": "2026-11-17",
-      "window_end": "2026-11-17",
-      "detected_at": "2026-11-17T16:46:35.500423+08:00",
+      "window_start": "2026-11-18",
+      "window_end": "2026-11-18",
+      "detected_at": "2026-11-18T08:52:23.045289+08:00",
       "baseline_count": 19,
-      "current_count": 19,
-      "added_count": 4,
+      "current_count": 20,
+      "added_count": 5,
       "removed_count": 4,
       "clusters": {
         "operations": 1,
-        "engineering": 1
+        "engineering": 2,
+        "payments": 1
       },
       "removed_clusters": {
-        "engineering": 3,
-        "sales": 1
+        "engineering": 2,
+        "payments": 1
       },
       "evidence_refs": [
         {
-          "job_id": "744000162002219",
-          "title": "Regional Assistant Manager, Measurement & Insights",
-          "url": "https://www.grab.careers/en/jobs/744000162002219/regional-assistant-manager-measurement-insights/",
+          "job_id": "744000162032441",
+          "title": "Intern, Driver Operations",
+          "url": "https://www.grab.careers/en/jobs/744000162032441/intern-driver-operations/",
           "change": "added"
         },
         {
-          "job_id": "744000161999489",
-          "title": "Program Manager, Strategic Projects",
-          "url": "https://www.grab.careers/en/jobs/744000161999489/program-manager-strategic-projects/",
+          "job_id": "744000162035479",
+          "title": "Intern, Talent Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000162035479/intern-talent-acquisition/",
           "change": "added"
         },
         {
-          "job_id": "744000161989175",
-          "title": "Associate, Fleet Operations (Autonomous Vehicles)",
-          "url": "https://www.grab.careers/en/jobs/744000161989175/associate-fleet-operations-autonomous-vehicles/",
+          "job_id": "744000162029119",
+          "title": "Senior Data Scientist (Analytics) - Transaction Platform",
+          "url": "https://www.grab.careers/en/jobs/744000162029119/senior-data-scientist-analytics-transaction-platform/",
           "change": "added"
         },
         {
-          "job_id": "744000161986079",
-          "title": "Principal Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000161986079/principal-software-engineer-backend/",
+          "job_id": "744000162025670",
+          "title": "Data Scientist (Analytics), Financial Services - Payments",
+          "url": "https://www.grab.careers/en/jobs/744000162025670/data-scientist-analytics-financial-services-payments/",
           "change": "added"
         },
         {
-          "job_id": "744000161430409",
-          "title": "Senior Software Engineer, Flutter - Merchant Experience",
-          "url": "https://www.grab.careers/en/jobs/744000161430409/senior-software-engineer-flutter-merchant-experience/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000161421029",
-          "title": "Senior Software Engineer, Gateway Platform",
-          "url": "https://www.grab.careers/en/jobs/744000161421029/senior-software-engineer-gateway-platform/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000161353664",
+          "job_id": "744000162024008",
           "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000161353664/senior-software-engineer-backend/",
+          "url": "https://www.grab.careers/en/jobs/744000162024008/senior-software-engineer-backend/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000161722310",
+          "title": "Intern, Talent Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000161722310/intern-talent-acquisition/",
           "change": "removed"
         },
         {
-          "job_id": "744000161246099",
-          "title": "Senior Manager, Regional Sales Compensation",
-          "url": "https://www.grab.careers/en/jobs/744000161246099/senior-manager-regional-sales-compensation/",
+          "job_id": "744000161454200",
+          "title": "Lead Software Engineer, Scribe",
+          "url": "https://www.grab.careers/en/jobs/744000161454200/lead-software-engineer-scribe/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000161453364",
+          "title": "Lead Software Reliability Engineer, Defence",
+          "url": "https://www.grab.careers/en/jobs/744000161453364/lead-software-reliability-engineer-defence/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000161431919",
+          "title": "Data Scientist (Analytics), Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000161431919/data-scientist-analytics-financial-services/",
           "change": "removed"
         }
       ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_cluster_strength",
+      "status": "qualified",
+      "rejection_reason": "",
       "promoted_event_id": ""
     }
   ],
