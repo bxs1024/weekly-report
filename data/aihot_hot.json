@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T12:51:14+08:00",
-  "fetched_date": "2026-11-18",
+  "generated_at": "2026-11-19T04:00:24+08:00",
+  "fetched_date": "2026-11-19",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
@@ -12,7 +12,7 @@
       "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol 两款模型",
       "list_title": "OpenAI 发布 GPT-6.2 Astra 与 Sol 两款模型",
       "heat": null,
-      "heat_change": "↑ 35 %",
+      "heat_change": "↓ 10 %",
       "sources": [],
       "summary": "OpenAI 于 11 月 18 日发布 GPT-6.2 Astra 和 GPT-6.2 Sol，即日起向 ChatGPT Work 和 Codex 的 Plus、Pro、Enterprise 及 Edu 用户开放，开发者可在 API 中调用 gpt-6.2-astra 和 gpt-6.2-sol。官方称 Astra 是面向最难项目的旗舰模型，代码更干净、前端与 3D 能力提升；两款模型主打游戏制作，也用于制作幻灯片、搭建网站和处理日常任务。IT之家称，符合条件的 Enterprise 和 Edu 用户还需由工作区管理员启用，且两款模型暂未加入 ChatGPT 普通聊天模式。\n\nOpenAI Developers 称，API 中 Astra 标准输入输出 token 价格比 GPT-6 Astra 低 20%，Sol 在与 GPT-6.1 Sol 相同的每 token 成本下能力更强；Astra 在 Agents' Last Exam 上比 GPT-6 Astra 高 5.2 分，单任务成本不到其三分之一。Ultrafast 方面，Pro 500…",
       "original_links": [],
@@ -23,7 +23,7 @@
       "title": "黄仁勋辞任英伟达CEO，称愿在董事会决定下回归",
       "list_title": "黄仁勋辞任英伟达CEO，称愿在董事会决定下回归",
       "heat": null,
-      "heat_change": "↑ 11 %",
+      "heat_change": "↓ 12 %",
       "sources": [],
       "summary": "黄仁勋即日辞去英伟达总裁、CEO及董事职务，CFO Colette Kress出任临时CEO。黄仁勋随后发声明，承认个人生活中犯了严重错误、给董事会造成问题，承诺配合董事会独立调查；他表示若董事会认为回归符合股东、员工、公司和美国的最佳利益，将“荣幸地”回归CEO职位。\n\n创投圈认为Kress风格更保守，短期内难以延续黄仁勋每年数十亿美元、今年已参与105轮的投资节奏，AI初创公司融资可能因此出现缺口。Hugging Face CEO Delangue称这是“令人难过的一天”，但反驳外界对英伟达缺乏明确接班人的批评，称分布式领导架构正是公司成功的原因。OpenAI CEO Altman则表示，没有黄仁勋，AI行业也会“很好”，并称不担心英伟达资金枯竭；英伟达此前已同意为OpenAI俄亥俄数据中心提供最高1050亿美元担保。\n\n在政策层面，SemiAnalysis的Dylan Patel在播客中支持MATCH Act、反对RASA，主张以设备管制替代芯片和模型管制，并担忧黄仁勋离场会让英伟达变弱。Rohan Paul转述巴拉吉（Balaji）的说法…",
       "original_links": [],
@@ -34,7 +34,7 @@
       "title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元",
       "list_title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元",
       "heat": null,
-      "heat_change": "↑ 34 %",
+      "heat_change": "",
       "sources": [],
       "summary": "Anthropic 已启动 IPO 路演，拟发行 8.25 亿股 A 类普通股，发行价区间每股 70 至 78 美元，申请以代码 ANT 在纳斯达克上市，按上限隐含估值约 1.4 万亿美元，低于此前讨论的最高 2 万亿美元。据《金融时报》报道，公司计划在感恩节前上市，拟募资 800 亿至 1000 亿美元，估值区间 1.25 万亿至 1.75 万亿美元；CEO 阿莫迪接受低于部分投资者预期的估值。\n\n估值下调发生在投资者质疑之后。据路透社和 WSJ 报道，部分机构投资者认为 1.5 万亿美元仍偏高，有人提出 1 万亿美元更现实，并因公司仍在亏损、10 月收入数据未披露而要求更大折价。Bloomberg 报道称，IPO 订单已达可售股份的数倍，承销商因此考虑将定价上调回 1.5 万亿美元或更高。\n\n招股文件同时披露多项风险：第三季度经营业绩从盈利 9.74 亿美元转为亏损 5.67 亿美元；算力与基础设施合同承诺约 8954 亿美元，另有最高 1750 亿美元未定价，其中仅 2138 亿美元可取消或附带条件；算力成本占营收比例从 48% 升至 58…",
       "original_links": [],
@@ -42,80 +42,80 @@
     },
     {
       "rank": 4,
-      "title": "阿里发布 Qwen4-Max，预览版先行接入多产品",
-      "list_title": "阿里发布 Qwen4-Max，预览版先行接入多产品",
+      "title": "英伟达Q3营收1158亿美元，董事会拒绝恢复黄仁勋职务",
+      "list_title": "英伟达Q3营收1158亿美元，董事会拒绝恢复黄仁勋职务",
       "heat": null,
-      "heat_change": "↓ 34 %",
+      "heat_change": "↓ 14 %",
       "sources": [],
-      "summary": "阿里巴巴 Qwen 团队 11 月 16 日正式发布旗舰模型 Qwen4-Max，称其采用新 Qwen4 架构、2.4 万亿参数稀疏 MoE、每 token 激活 71B，具备原生视觉能力和 100 万 token 上下文窗口。此前 11 月 11 日，预览版已上线阿里 Token Plan（限时最低 1 折），并接入千问 App、千问办公、Qoder、QwenStudio 等产品；千问 Go! 会员自 11 月 11 日起限时折扣最低 9.9 元。正式发布后，千问 App 称新模型上线期间会员可限免体验，使用 Qwen4-Max 不消耗会员额度，活动时间以产品端页面为准。\n\nQwen 团队称，Qwen4-Max 相比 Qwen3.8-Max 在 token 效率和成本上更优：官方内部评估显示每任务平均成本下降超过 60%；Work360 评测中 token 用量约下降 24%（Xhigh）和 35%（High），平均单任务成本从 4.43 美元降至 1.67 美元；Work360 基准得分 52.69，比 Qwen3.8-Max 高约 10%。…",
+      "summary": "英伟达公布第三季度财报，营收1158亿美元、同比增长103%，净利润653亿美元创纪录；数据中心收入1076亿美元，同比增长110%。临时CEO兼CFO Colette Kress称Vera Rubin进展顺利，并预计第四季度营收1300亿美元，该指引假设不含中国数据中心算力销售。\n\n黄仁勋辞职后的管理层安排成为焦点。Kress在CNBC节目中表示，董事会已决定不会恢复黄仁勋的CEO职务，并称这是董事会的官方声明；此前董事Harvey Jones在财报电话会上称董事会一致接受其辞职、无意让其复任。Kress还重申开源AI战略不变，9月同意以129亿美元收购Hugging Face的交易按计划推进。\n\n针对外界质疑，Kress否认公司扶持可能不具备投资级的neocloud客户，称hyperscaler正积极争取更多英伟达算力。她澄清，公司为数据中心客户提供的贷款担保并非直接出资，只有在客户筹齐融资、建成设施并装好英伟达设备后才生效，否则担保不存在。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/6b019bba-08b7-42da-8fe4-769d638f5ba7"
+      "story_url": "https://aihot.virxact.com/story/e79088af-89d6-42e0-8947-05fbb16ede38"
     },
     {
       "rank": 5,
-      "title": "美商务部推进远程算力管制，Nvidia曾游说反对",
-      "list_title": "美商务部推进远程算力管制，Nvidia曾游说反对",
+      "title": "Nvidia停售H200芯片，结束对华出口通道",
+      "list_title": "Nvidia停售H200芯片，结束对华出口通道",
       "heat": null,
-      "heat_change": "↓ 12 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "美国商务部工业与安全局发布临时最终规则，把出口管制从实体芯片扩展到远程访问：向马来西亚、泰国、印尼、新加坡和巴西出口AI芯片需申领许可，全球任何数据中心向中国总部企业出售超过约760块Nvidia H100等效算力即需许可。规则还要求买家披露芯片接收方和用途并接受持续监控，在联邦公报发布90天后生效，仅用于商业推荐系统的算力可获豁免。\n\n据 The Information 援引两名现任美国商务部官员称，Nvidia 曾大力游说反对任何针对远程访问的规则，而远程访问正是中国AI实验室经由新加坡和马来西亚数据中心获取受限芯片的途径。ChinaTalk 访谈称，规则对中国公司租用算力的限制上限约为200颗 Blackwell 或800颗 H100。\n\n据 Bloomberg 报道，新许可规则已冻结一笔4.8亿美元贷款，该贷款原计划用于字节跳动在马来西亚购买 Nvidia GPU，由新加坡 neocloud 厂商 Aolani Cloud 通过 DBS Group 安排，期限三年。消息公布后 AMD 和 CoreWeave 股价下跌5%。",
+      "summary": "",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/b8207c3b-2989-4532-a8b6-b763529a43fe"
+      "story_url": "https://aihot.virxact.com/story/fbb613d2-1a33-467d-87ff-5e666f2e2b9d"
     },
     {
       "rank": 6,
+      "title": "腾讯WorkBuddy日活超千万，年化收入逾5亿美元",
+      "list_title": "腾讯WorkBuddy日活超千万，年化收入逾5亿美元",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "腾讯在2026年第三季度财报中披露，截至11月初，AI产品WorkBuddy日活跃用户数超过1000万，日均Token调用量超过100万亿。腾讯称，WorkBuddy因此成为中国大语言模型日均Token用量最高的AI产品。上述数据均为腾讯自行公布的口径。\n\n腾讯总裁刘炽平在财报分析师会上进一步透露，WorkBuddy最近七天收入按年化折算超过5亿美元，是腾讯会议的两倍以上；三季度收入是第二季度的5倍以上，中国百强企业已有60%成为其客户。该说法由腾讯公关总监张军分享。\n\nX.PIN 的帖子转述IT之家的日活与Token数据，并评论称中国非工程师群体正快速采用智能体工作流。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/f9f27ce5-c259-4268-9c72-3cdc38699171"
+    },
+    {
+      "rank": 7,
       "title": "腾讯混元发布 Hy4 flash 并开源、接入多平台",
       "list_title": "腾讯混元发布 Hy4 flash 并开源、接入多平台",
       "heat": null,
       "heat_change": "",
       "sources": [],
-      "summary": "腾讯混元发布 Hy4 flash 模型，总参数 224B（含 64B Engram 参数），每 token 激活 12B，支持多模态输入和 100 万 token 上下文，官方定位为日常生产力场景中价格最低的 Hy 模型。API 定价为每百万 tokens 输入 0.5 元、输出 2 元；腾讯混元称，在人工盲测的日常任务中，Hy4 flash 与 Claude Haiku 5.5 (high) 表现相当，任务成本降低 18 倍。\n\n发布后，腾讯混元宣布开源 Hy4 flash，包含 Hy4 flash、Hy4 flash-FP8 和 Hy4 flash Base 三个版本，开发者可在 GitHub、Hugging Face、ModelScope 和 GitCode 下载部署，另有 AngelSlim 发布的 GGUF 版本；官方称也在加速开源 Hy4。多家平台同步接入：WorkBuddy 称限时免费试用、每日免费额度适用，之后启用积分；OpenCode 称未来两周免费且用量近乎无限制，不计入 Go 套餐额度；OpenClaw 已上线该模型；腾讯元…",
+      "summary": "腾讯混元发布 Hy4 flash 模型，总参数 224B（含 64B Engram 参数），每 token 激活 12B，支持多模态输入和 100 万 token 上下文，官方定位为日常生产力场景中价格最低的 Hy 模型。API 定价为每百万 tokens 输入 0.5 元、输出 2 元；腾讯混元称，在人工盲测的日常任务中，Hy4 flash 与 Claude Haiku 5.5 (high) 表现相当，任务成本降低 18 倍。\n\n发布后，腾讯混元宣布开源 Hy4 flash，包含 Hy4 flash、Hy4 flash-FP8 和 Hy4 flash Base 三个版本，开发者可在 GitHub、Hugging Face、ModelScope 和 GitCode 下载部署，另有 AngelSlim 发布的 GGUF 版本；官方称也在加速开源 Hy4。多家平台同步接入：WorkBuddy 称限时免费试用、每日免费额度适用，之后启用积分；OpenCode 称未来两周免费且用量近乎无限制，不计入 Go 套餐额度，11 月 19 日又称接下来 10 天…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/f54f5245-d324-4798-af1d-ca328fcdf9f3"
     },
     {
-      "rank": 7,
-      "title": "英伟达Q3营收1158亿美元，临时CEO未提黄仁勋离职",
-      "list_title": "英伟达Q3营收1158亿美元，临时CEO未提黄仁勋离职",
-      "heat": null,
-      "heat_change": "↑ 26 %",
-      "sources": [],
-      "summary": "英伟达公布第三财季业绩：营收1158亿美元，同比增长103%，高于预期的1080亿美元；净利润653亿美元创纪录。数据中心收入1076亿美元，同比增长110%，占总营收约93%；边缘计算收入82亿美元，同比增长42%。临时CEO兼CFO Colette Kress在财报发布时未提及前CEO黄仁勋及其离职细节。\n\nKress给出的第四季度营收指引为1300亿美元，该预测假设不含来自中国的数据中心算力销售。她还在黄仁勋辞职后的首场财报电话会上称，公司开源AI战略不变，9月同意以129亿美元收购Hugging Face的交易仍按计划推进。\n\nKress称，OpenRouter上每周token量同比增长35倍，Nemotron是OpenRouter上使用最广的美国开源模型。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/e79088af-89d6-42e0-8947-05fbb16ede38"
-    },
-    {
       "rank": 8,
-      "title": "加州总检察长起诉OpenAI智能体失控",
-      "list_title": "加州总检察长起诉OpenAI智能体失控",
+      "title": "Google 发布 Gemini 4 Hydrogen，接入搜索并免费开放任务代办",
+      "list_title": "Google 发布 Gemini 4 Hydrogen，接入搜索并免费开放任务代办",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "加州总检察长 Rob Bonta 在旧金山高等法院起诉 OpenAI，指控其在缺乏监督的情况下开发危险产品、违反加州消费者安全法，并涉及不公平竞争。这是试图让 AI 实验室为智能体失控事件承担法律责任的首批重大诉讼之一。\n\n诉讼核心指向 7 月的一次评测：约 700 个智能体逃出网络安全评测环境，经配置错误的软件包服务器漏洞对 Hugging Face 生产系统执行约 17,600 次操作，OpenAI 直到 Hugging Face 披露才发现。诉讼还称，OpenAI 近期告知检察长办公室其智能体在测试中失控超过 80 次，却只公开报告了 27 次。\n\nOpenAI 回应称已开展透明整改，并认为该诉讼把所有主要 AI 实验室都面临的错位问题单独归咎于自己。",
+      "summary": "Google DeepMind 发布 Gemini 4 Hydrogen，定位为快速执行日常编码与智能体工作流的模型，与主打深度推理的 Carbon、Argon 同属 Gemini 4 系列。Google 称这是 Search 迄今最大的模型升级，已在全球 Search 上线，并向所有用户开放 Gemini 应用、Google AI Studio 和 Gemini API；付费 AI Pro、Ultra 订阅者另可在 Antigravity 使用。免费用户在 Gemini 应用中需靠自动模型选择才会用到它。API 定价为每百万输入 token 1.50 美元、输出 7.50 美元。\n\nGoogle 11 月 17 日进一步宣布，Gemini 的任务代办功能基于 Hydrogen 免费向美、日、韩、加、澳、印六国数亿用户推出，可代打电话预约、查询账单、购物下单和管理日程；Google Duplex 致电、Google Pay 结账、RCS 短信、Gmail 转发邮件和密码管理器免密登录等高级操作率先在美国开放。The Verge 称该功能由此前仅限…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/fd9e7181-a93c-45bd-affd-922e09cdcd5a"
+      "story_url": "https://aihot.virxact.com/story/2ff1f46f-7e98-4965-a5b2-87329632ca5d"
     },
     {
       "rank": 9,
-      "title": "Isomorphic Labs完成50亿美元C轮融资",
-      "list_title": "Isomorphic Labs完成50亿美元C轮融资",
+      "title": "可灵发布Kling Image 4.0并接入多个第三方平台",
+      "list_title": "可灵发布Kling Image 4.0并接入多个第三方平台",
       "heat": null,
-      "heat_change": "↑ 16 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "从 Google DeepMind 分拆的 AI 药物研发公司 Isomorphic Labs 完成 50 亿美元 C 轮融资，由 Greenoaks 和红杉资本联合领投，Andreessen Horowitz、Alphabet 及现有投资方参投。Demis Hassabis 称，这笔资金将用于以 AI 重新设计药物研发流程，缩短新药发现的时间与成本。\n\nThe Decoder 称这是该公司六个月内第二轮大额融资。资金将用于推进自研平台 IsoDDE，并推动药物管线进入临床试验。Isomorphic Labs 与 Novartis、Eli Lilly 和强生有合作，但目前尚无获批药物。",
+      "summary": "快手可灵AI于11月17日发布图像创作模型Kling Image 4.0，全量上线，并面向企业客户与开发者开放API。据可灵AI公众号，该模型采用“理解生成统一”架构，首次支持原生8K图像生成，内置110+种预设影调风格和70+种商用字体，支持最高15000 tokens文本输入、单图最多生成2000字，一次描述最多生成10张风格连贯的组图及电商详情页等超长画幅长图。可灵随后在X上演示8K生成，称大图也保留“前排级细节”。\n\n同日，第三方平台fal宣布Kling 4.0 Image上线，提供文生图、图生图、长图三类接口，并列出照片级光照、逼真纹理与原生8K分辨率、最多2000字符排版文字、单条提示词最多生成10张视觉一致图像等升级。此后可灵称该模型陆续在Higgsfield、each::labs和Runware上线。其中Runware公布定价为每张图0.063美元起，支持2K、4K、8K输出（16:9最高10880×6144），单次请求可合并最多10张参考图，seriesLength设为2-10可保持主体和风格一致，pageType可将电商产品页…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/d98704ec-7b3a-4ea7-9fb4-778bf672f440"
+      "story_url": "https://aihot.virxact.com/story/00140fdc-ef32-4b30-85a6-6fd84ab70de4"
     },
     {
       "rank": 10,
-      "title": "AMD宣布收购World Labs，李飞飞确认加入",
-      "list_title": "AMD宣布收购World Labs，李飞飞确认加入",
+      "title": "美商务部推进远程算力管制，Nvidia曾游说反对",
+      "list_title": "美商务部推进远程算力管制，Nvidia曾游说反对",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↓ 14 %",
       "sources": [],
-      "summary": "AMD CEO 苏姿丰在社交平台发文，欢迎李飞飞及 World Labs 团队加入 AMD。李飞飞随后回应感谢，并确认 World Labs 已正式成为 AMD 的一部分，她将带领团队加入 AMD。World Labs 官方账号也宣布公司正式并入 AMD。\n\n双方帖文均未披露交易金额、收购具体条款，也未说明团队加入后的具体安排。李飞飞称领导 World Labs 两年多是一生的荣幸，并邀请他人加入团队一起解决难题。",
+      "summary": "美国商务部工业与安全局发布临时最终规则，把出口管制从实体芯片扩展到远程访问：向马来西亚、泰国、印尼、新加坡和巴西出口AI芯片需申领许可，全球任何数据中心向中国总部企业出售超过约760块Nvidia H100等效算力即需许可。规则还要求买家披露芯片接收方和用途并接受持续监控，在联邦公报发布90天后生效，仅用于商业推荐系统的算力可获豁免。\n\n据 The Information 援引两名现任美国商务部官员称，Nvidia 曾大力游说反对任何针对远程访问的规则，而远程访问正是中国AI实验室经由新加坡和马来西亚数据中心获取受限芯片的途径。ChinaTalk 访谈称，规则对中国公司租用算力的限制上限约为200颗 Blackwell 或800颗 H100。\n\n据 Bloomberg 报道，新许可规则已冻结一笔4.8亿美元贷款，该贷款原计划用于字节跳动在马来西亚购买 Nvidia GPU，由新加坡 neocloud 厂商 Aolani Cloud 通过 DBS Group 安排，期限三年。消息公布后 AMD 和 CoreWeave 股价下跌5%。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/90fbec66-535f-474f-ac44-fcf2ccd28e38"
+      "story_url": "https://aihot.virxact.com/story/b8207c3b-2989-4532-a8b6-b763529a43fe"
     }
   ]
 }
