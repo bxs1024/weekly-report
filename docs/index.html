@@ -45419,7 +45419,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
         <div class="m-overline">更新日志</div>
         <div class="m-headline-row">
           <h2 class="m-title-sec">产品变更记录</h2>
-          <span class="m-head-meta">62 条记录</span>
+          <span class="m-head-meta">63 条记录</span>
         </div>
       </div>
       <div class="u-layout">
@@ -45427,6 +45427,26 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
           <div class="u-list">
 
             <div class="u-card open">
+              <button class="u-head" type="button">
+                <span class="u-copy">
+                  <h3>把「一次改动算不算做完」写成可执行的东西：任务卡、验证单、红线对齐</h3>
+                  <small>2026-11-19 · 工程治理 · 已完成</small>
+                </span>
+                <span class="u-ver">V6.7<span class="u-caret">›</span></span>
+              </button>
+              <div class="u-body">
+                <div class="u-tags">
+                  <span class="p-lbl p-lbl-green">工程治理</span>
+                  <span class="p-lbl">已完成</span>
+                </div>
+                <p>站点展示和采集逻辑一个字没改。这次改的是判断方式：以前「助手说做完了」就算做完，现在一次改动必须先写清只许碰哪些文件、拿哪几条命令验、验不过就不算完成；越界改动会被直接拦住，验证结果由脚本跑出来并留单，助手不能自己签字通过。同时修掉两处自相矛盾的配置：开关清单里原本允许推代码上线，跟项目红线正相反；编辑后的语法检查只盯一个文件，改别的文件等于没检查，还顺带每次编辑重跑整站渲染、把页面写脏。</p>
+
+                <ul><li>新增项目配置与任务卡：一次改动必须声明允许范围、禁区、验收条件、验证命令、风险等级，缺一项不许开工</li><li>新增最小治理命令行（准入 / 验证 / 状态）：越界改动直接拦；验证只认命令退出码并生成验证单，助手不能自证通过</li><li>修编辑后检查：从「只查 fetch_news.py」改成「只查本次改动的那个文件」，并去掉每次编辑都重跑整站渲染（它会写脏页面，日期不齐时裁掉往期卡片）</li><li>修权限配置：git push 从允许改为禁止，与项目红线一致——写在文档里的红线，终于也写进了程序闸</li><li>首次闭环实跑：打分层主通道失败时自动切下一个可用通道（对应 11-13 欠费那次 34 条全失败），三条反事实用例在旧逻辑下均会红</li></ul>
+
+              </div>
+            </div>
+
+            <div class="u-card">
               <button class="u-head" type="button">
                 <span class="u-copy">
                   <h3>把三个「看门的」补齐：账本防改小、更新日志整块对账、规则检查接上产线</h3>
