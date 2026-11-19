@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T04:00:30+08:00",
+  "generated_at": "2026-11-19T12:42:37+08:00",
   "fetched_date": "2026-11-19",
   "source": {
     "name": "AIHOT 大模型排行榜",
@@ -18,7 +18,7 @@
       "cache_price": "¥1.33",
       "input_price": "¥53.34",
       "output_price": "¥266.69",
-      "consensus_score": 79.9,
+      "consensus_score": 80.0,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-fable-5-2"
     },
     {
@@ -62,11 +62,11 @@
       "name": "Gemini 4 Hydrogen",
       "provider": "Google",
       "release_date": "2026-11-12",
-      "completeness": "22 项评测 覆盖 49 %",
+      "completeness": "26 项评测 覆盖 54 %",
       "cache_price": "¥0.5",
       "input_price": "¥10",
       "output_price": "¥50",
-      "consensus_score": 73.4,
+      "consensus_score": 73.3,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-4-hydrogen"
     },
     {
@@ -138,7 +138,7 @@
       "cache_price": "¥0.67",
       "input_price": "¥13.33",
       "output_price": "¥66.67",
-      "consensus_score": 70.0,
+      "consensus_score": 70.1,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-1-sol"
     },
     {
@@ -174,7 +174,7 @@
       "cache_price": "¥0.33",
       "input_price": "¥6.67",
       "output_price": "¥33.34",
-      "consensus_score": 69.0,
+      "consensus_score": 69.1,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-1-terra"
     },
     {
@@ -215,18 +215,6 @@
     },
     {
       "rank": 18,
-      "name": "GPT-5.6 Sol",
-      "provider": "OpenAI",
-      "release_date": "2026-07-09",
-      "completeness": "40 项评测 覆盖 84 %",
-      "cache_price": "¥3.33",
-      "input_price": "¥33.34",
-      "output_price": "¥200.02",
-      "consensus_score": 66.7,
-      "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-6-sol"
-    },
-    {
-      "rank": 19,
       "name": "Hy4",
       "provider": "Tencent",
       "release_date": "2026-11-04",
@@ -236,6 +224,18 @@
       "output_price": "¥18",
       "consensus_score": 66.7,
       "detail_url": "https://aihot.virxact.com/leaderboard/hy-4"
+    },
+    {
+      "rank": 19,
+      "name": "GPT-5.6 Sol",
+      "provider": "OpenAI",
+      "release_date": "2026-07-09",
+      "completeness": "40 项评测 覆盖 84 %",
+      "cache_price": "¥3.33",
+      "input_price": "¥33.34",
+      "output_price": "¥200.02",
+      "consensus_score": 66.7,
+      "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-6-sol"
     },
     {
       "rank": 20,
@@ -270,7 +270,7 @@
       "cache_price": "¥1.33",
       "input_price": "¥13.33",
       "output_price": "¥66.67",
-      "consensus_score": 65.5,
+      "consensus_score": 65.6,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-sol"
     },
     {
@@ -306,7 +306,7 @@
       "cache_price": "¥3.33",
       "input_price": "¥13.33",
       "output_price": "¥40",
-      "consensus_score": 63.5,
+      "consensus_score": 63.6,
       "detail_url": "https://aihot.virxact.com/leaderboard/grok-4-7"
     },
     {
@@ -323,18 +323,6 @@
     },
     {
       "rank": 27,
-      "name": "Kimi K3",
-      "provider": "Moonshot AI",
-      "release_date": "2026-07-16",
-      "completeness": "52 项评测 覆盖 97 %",
-      "cache_price": "¥2",
-      "input_price": "¥20",
-      "output_price": "¥100",
-      "consensus_score": 62.9,
-      "detail_url": "https://aihot.virxact.com/leaderboard/kimi-k-3"
-    },
-    {
-      "rank": 28,
       "name": "Qwen3.8 Max 0902",
       "provider": "Alibaba",
       "release_date": "2026-09-01",
@@ -344,6 +332,18 @@
       "output_price": "¥36",
       "consensus_score": 62.9,
       "detail_url": "https://aihot.virxact.com/leaderboard/qwen-3-8-max-0902"
+    },
+    {
+      "rank": 28,
+      "name": "Kimi K3",
+      "provider": "Moonshot AI",
+      "release_date": "2026-07-16",
+      "completeness": "52 项评测 覆盖 97 %",
+      "cache_price": "¥2",
+      "input_price": "¥20",
+      "output_price": "¥100",
+      "consensus_score": 62.9,
+      "detail_url": "https://aihot.virxact.com/leaderboard/kimi-k-3"
     },
     {
       "rank": 29,
@@ -407,6 +407,18 @@
     },
     {
       "rank": 34,
+      "name": "Inkling 2 Small",
+      "provider": "Thinking Machines Lab",
+      "release_date": "2026-11-05",
+      "completeness": "30 项评测 覆盖 65 %",
+      "cache_price": "¥0.2",
+      "input_price": "¥2",
+      "output_price": "¥6.67",
+      "consensus_score": 62.3,
+      "detail_url": "https://aihot.virxact.com/leaderboard/inkling-2-small"
+    },
+    {
+      "rank": 35,
       "name": "Grok 4.6",
       "provider": "xAI",
       "release_date": "2026-08-12",
@@ -416,18 +428,6 @@
       "output_price": "¥40",
       "consensus_score": 62.3,
       "detail_url": "https://aihot.virxact.com/leaderboard/grok-4-6"
-    },
-    {
-      "rank": 35,
-      "name": "Inkling 2 Small",
-      "provider": "Thinking Machines Lab",
-      "release_date": "2026-11-05",
-      "completeness": "30 项评测 覆盖 65 %",
-      "cache_price": "¥0.2",
-      "input_price": "¥2",
-      "output_price": "¥6.67",
-      "consensus_score": 62.2,
-      "detail_url": "https://aihot.virxact.com/leaderboard/inkling-2-small"
     },
     {
       "rank": 36,
@@ -450,7 +450,7 @@
       "cache_price": "¥0.3",
       "input_price": "¥6",
       "output_price": "¥18",
-      "consensus_score": 62.1,
+      "consensus_score": 62.2,
       "detail_url": "https://aihot.virxact.com/leaderboard/hy-4-preview"
     },
     {
@@ -570,7 +570,7 @@
       "cache_price": "¥0.02",
       "input_price": "¥1",
       "output_price": "¥2",
-      "consensus_score": 58.9,
+      "consensus_score": 59.0,
       "detail_url": "https://aihot.virxact.com/leaderboard/mimo-v-2-6-flash"
     },
     {
