@@ -109,12 +109,34 @@ def _call_once(system, material, api, model_name, pass_index):
     return score, False
 
 
+def _score_one_event(system, material, apis, model_name=None):
+    """在一条事件上挑一个能用的通道，用它评两次。
+
+    整条事件固定在同一通道上完成：两次评分必须同源，均值才有意义。
+    首通道任一轮失败就换下一个通道整条重来——宁可多付一次，不产生半条分数。
+    返回 (first, second, reused, 实际通道名)；全部失败抛最后一个异常。
+    """
+    last_exc = None
+    for api in apis:
+        name = api.get('name') or model_name or 'default'
+        try:
+            first, reused1 = _call_once(system, material, api, name, 1)
+            second, reused2 = _call_once(system, material, api, name, 2)
+            return first, second, (reused1 and reused2), name
+        except Exception as exc:
+            last_exc = exc
+            continue
+    raise last_exc or RuntimeError('所有候选通道均不可用')
+
+
 def score_events(events, apis=None, model_name=None):
     """对一批事件做 AI 双评分，原地写入 ai_score_* 字段。
 
-    返回统计：{'scored': n, 'failed': n, 'reused': n, 'enabled': bool}。
+    返回统计：{'scored': n, 'failed': n, 'reused': n, 'enabled': bool, 'by_model': {}}。
+    by_model 只记成功通道，用来发现「降级悄悄发生了」——降级本身不该静默。
     """
-    stats = {'scored': 0, 'failed': 0, 'reused': 0, 'enabled': ai_score_enabled()}
+    stats = {'scored': 0, 'failed': 0, 'reused': 0, 'enabled': ai_score_enabled(),
+             'by_model': {}}
     if not stats['enabled']:
         return stats
     if not events:
@@ -129,8 +151,6 @@ def score_events(events, apis=None, model_name=None):
     if not apis:
         stats['failed'] = len(events)
         return stats
-    if model_name is None:
-        model_name = apis[0].get('name') or 'default'
 
     version = prompt_version('score')
     for event in events:
@@ -138,8 +158,8 @@ def score_events(events, apis=None, model_name=None):
         if not material.get('title'):
             continue
         try:
-            first, reused1 = _call_once(system, material, apis[0], model_name, 1)
-            second, reused2 = _call_once(system, material, apis[0], model_name, 2)
+            first, second, reused, used_model = _score_one_event(
+                system, material, apis, model_name)
         except Exception as exc:
             event['ai_score_error'] = f'{type(exc).__name__}: {exc}'[:120]
             stats['failed'] += 1
@@ -148,11 +168,12 @@ def score_events(events, apis=None, model_name=None):
         event['ai_score_1'] = first
         event['ai_score_2'] = second
         event['ai_score_avg'] = (first + second) // 2
-        event['ai_score_model'] = model_name
+        event['ai_score_model'] = used_model
         event['ai_score_prompt_version'] = version
         event.pop('ai_score_error', None)
         stats['scored'] += 1
-        if reused1 and reused2:
+        stats['by_model'][used_model] = stats['by_model'].get(used_model, 0) + 1
+        if reused:
             stats['reused'] += 1
     return stats
 

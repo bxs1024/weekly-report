@@ -77,6 +77,30 @@ def _install_fake(monkeypatch_scores):
     return calls
 
 
+def _install_channel_fake(channels):
+    """按通道名分别返回分数或失败；channels: {name: [score1, score2] 或 None}。"""
+    from providers import llm
+
+    calls = []
+    seen = {}
+
+    def fake_post(api, body, **kwargs):
+        name = api.get('name')
+        calls.append(name)
+        seq = channels.get(name)
+        if not seq:
+            return _FakeResp({}, status=500)
+        index = seen.get(name, 0)
+        seen[name] = index + 1
+        score = seq[min(index, len(seq) - 1)]
+        if score is None:
+            return _FakeResp({}, status=500)
+        return _FakeResp({'attentionScore': score})
+
+    llm._post_chat = fake_post
+    return calls
+
+
 def test_score_prompt_contract():
     text = load_prompt('score')
     for axis in ('substance', 'increment', 'evidence', 'actionability', 'reach'):
@@ -135,6 +159,59 @@ def test_receipt_does_not_store_failures():
     # 失败不落回执 → 下次仍会重试
     key = ai_receipts.receipt_key('score', 'BadModel', {'system': '', 'material': {}})
     assert ai_receipts.receipt_get(key) is None
+
+
+def test_fallback_to_next_channel_when_primary_down():
+    """反事实：首通道 500 时应切次通道整条评完，而不是整层 failed。
+
+    对应 2026-11-13 真实故障：方舟欠费，score_events 写死 apis[0]，
+    34 条全 failed，而当时 DeepSeek 可用。旧实现下这条用例会 scored=0。
+    """
+    ai_receipts.reset_memo()
+    calls = _install_channel_fake({'Bad': None, 'Good': [72, 68]})
+    apis = [_FakeApi(name='Bad'), _FakeApi(name='Good')]
+    events = [_event(title='降级反事实样例唯一标题')]
+
+    stats = ai_scoring.score_events(events, apis=apis)
+
+    assert stats['scored'] == 1, stats
+    assert stats['failed'] == 0, stats
+    assert events[0]['ai_score_avg'] == 70, events[0]
+    assert events[0]['ai_score_model'] == 'Good', events[0]
+    assert stats['by_model'] == {'Good': 1}, stats
+    assert calls == ['Bad', 'Good', 'Good'], calls
+
+
+def test_all_channels_down_records_failure_without_partial_score():
+    """全部通道失败：记 failed、写原因、不写任何半条分数。"""
+    ai_receipts.reset_memo()
+    calls = _install_channel_fake({'A': None, 'B': None})
+    apis = [_FakeApi(name='A'), _FakeApi(name='B')]
+    events = [_event(title='全通道失败反事实唯一标题')]
+
+    stats = ai_scoring.score_events(events, apis=apis)
+
+    assert stats['scored'] == 0, stats
+    assert stats['failed'] == 1, stats
+    assert 'ai_score_avg' not in events[0]
+    assert 'ai_score_1' not in events[0]
+    assert events[0].get('ai_score_error'), '应记录失败原因'
+    assert calls == ['A', 'B'], calls
+
+
+def test_second_pass_failure_restarts_on_next_channel():
+    """首通道第一轮成功、第二轮失败：整条换到次通道重评两次，不留半条。"""
+    ai_receipts.reset_memo()
+    calls = _install_channel_fake({'A': [70, None], 'B': [66, 64]})
+    apis = [_FakeApi(name='A'), _FakeApi(name='B')]
+    events = [_event(title='第二轮失败反事实唯一标题')]
+
+    stats = ai_scoring.score_events(events, apis=apis)
+
+    assert stats['scored'] == 1, stats
+    assert events[0]['ai_score_avg'] == 65, events[0]
+    assert events[0]['ai_score_model'] == 'B', events[0]
+    assert calls == ['A', 'A', 'B', 'B'], calls
 
 
 def test_invalid_score_rejected():
@@ -212,6 +289,9 @@ def _run_all():
     test_receipt_key_changes_with_input()
     test_receipt_roundtrip_and_no_double_call()
     test_receipt_does_not_store_failures()
+    test_fallback_to_next_channel_when_primary_down()
+    test_all_channels_down_records_failure_without_partial_score()
+    test_second_pass_failure_restarts_on_next_channel()
     test_invalid_score_rejected()
     test_compare_with_program_score()
     test_safety_valve_disables_layer()
