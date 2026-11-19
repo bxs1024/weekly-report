@@ -1,0 +1,35 @@
+{
+  "task_id": "T-2026-11-19-001",
+  "at": "2026-11-19T08:59:34+00:00",
+  "base": "5119e6b",
+  "head": "5119e6b",
+  "changed_files": [
+    "scripts/ai_scoring.py",
+    "scripts/test_ai_scoring.py"
+  ],
+  "results": [
+    {
+      "cmd": "C:/Users/16120/AppData/Local/Python/bin/python scripts/test_ai_scoring.py",
+      "exit_code": 0,
+      "seconds": 2.5,
+      "output_hash": "d76c9d00a208e466",
+      "tail": [
+        "ai scoring tests passed"
+      ]
+    },
+    {
+      "cmd": "bash scripts/run_all_tests.sh",
+      "exit_code": 1,
+      "seconds": 521.1,
+      "output_hash": "94c6433a793d4ea3",
+      "tail": [
+        "test_updates_log_sync.py                   PASS     5s",
+        "test_view_selectors.py                     PASS     5s",
+        "",
+        "======== 汇总: PASS=36 FAIL=2 SKIP=3 ========",
+        "失败: test_data_health.py test_governance_ledger.py"
+      ]
+    }
+  ],
+  "verdict": "rejected"
+}
