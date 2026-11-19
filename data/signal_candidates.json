@@ -1,7 +1,46 @@
 {
   "version": 1,
-  "generated_at": "2026-11-18T16:10:38.822221+08:00",
+  "generated_at": "2026-11-19T08:11:09.052481+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-18a379d6d77762cc",
+      "entity_id": "stripe",
+      "entity": "Stripe",
+      "region": "全球",
+      "sector": "payment_developer_platform",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "sales",
+      "window": "2026-W47",
+      "window_start": "2026-11-19",
+      "window_end": "2026-11-19",
+      "detected_at": "2026-11-19T08:11:09.052481+08:00",
+      "baseline_count": 5,
+      "current_count": 7,
+      "added_count": 2,
+      "removed_count": 0,
+      "clusters": {
+        "sales": 2
+      },
+      "removed_clusters": {},
+      "evidence_refs": [
+        {
+          "job_id": "8345653",
+          "title": "Account Executive (Commercial Grower, Japan)",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-grower-japan/8345653",
+          "change": "added"
+        },
+        {
+          "job_id": "8345657",
+          "title": "Account Executive (SMB Grower, Japan )",
+          "url": "https://stripe.com/careers/listing/account-executive-smb-grower-japan/8345657",
+          "change": "added"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-ecd78e6d167b99b9",
       "entity_id": "grab",

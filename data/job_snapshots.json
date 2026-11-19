@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-18T16:10:38.822221+08:00",
+  "generated_at": "2026-11-19T08:11:09.052481+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
@@ -148,7 +148,7 @@
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-18T16:10:38.822221+08:00",
+      "observed_at": "2026-11-19T08:11:09.052481+08:00",
       "jobs": [
         {
           "id": "8144196",
@@ -187,12 +187,28 @@
           "title": "Abuse Investigator",
           "url": "https://stripe.com/careers/listing/abuse-investigator/8172510",
           "function_tags": []
+        },
+        {
+          "id": "8345653",
+          "title": "Account Executive (Commercial Grower, Japan)",
+          "url": "https://stripe.com/careers/listing/account-executive-commercial-grower-japan/8345653",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "8345657",
+          "title": "Account Executive (SMB Grower, Japan )",
+          "url": "https://stripe.com/careers/listing/account-executive-smb-grower-japan/8345657",
+          "function_tags": [
+            "sales"
+          ]
         }
       ]
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-18T16:10:38.822221+08:00",
+      "observed_at": "2026-11-19T08:11:09.052481+08:00",
       "jobs": [
         {
           "id": "1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536",
