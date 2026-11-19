@@ -41,6 +41,25 @@ try:
 except ImportError:
     from scripts.repo_paths import REPO_ROOT, DATA_DIR, DOCS_DIR, data_path, docs_path
 
+# 阶段 0 四道不变规则的判定函数（2026-11-09 从 test_rule_checks.py 搬进生产模块）。
+# 之前它们只在本地测试里被跑，线上自检从不调用——「报警器造好没插电」。
+try:
+    from rule_checks import (
+        build_source_state,
+        check_capability_validity,
+        check_criterion_before_sort_change,
+        check_latest_state_basis,
+        check_source_decay,
+    )
+except ImportError:
+    from scripts.rule_checks import (
+        build_source_state,
+        check_capability_validity,
+        check_criterion_before_sort_change,
+        check_latest_state_basis,
+        check_source_decay,
+    )
+
 
 def _event_date(event):
     return (event.get('date') or '')[:10]
@@ -517,23 +536,80 @@ def collect_quick_failures(report, args):
     return failures
 
 
-def check_updates_log_sync():
-    """防更新日志断档：site_updates.json 最新版本若未出现在 docs/index.html，说明页面未重新生成。"""
+# 生成页里「更新日志」这一块的唯一锚点。用 section 标签而不是 data-panel 字符串：
+# tab 按钮上也有 data-panel="updates"，从按钮开始切会把整页其他板块一起带进来。
+_UPDATES_PANEL_START = '<section class="proto-panel" data-panel="updates">'
+_UPDATES_PANEL_END = '<section class="proto-panel" data-panel="models">'
+_U_VER_RE = re.compile(r'<span class="u-ver">\s*([^<]+?)\s*<span class="u-caret"')
+_U_DATE_RE = re.compile(r'<small>\s*(\d{4}-\d{2}-\d{2})\s*·')
+_U_COUNT_RE = re.compile(r'(\d+)\s*条记录')
+
+
+def _updates_panel(html):
+    """只截出更新日志板块；截不到返回空串，由调用方按「查不到」报警。"""
+    left = html.find(_UPDATES_PANEL_START)
+    if left < 0:
+        return ''
+    right = html.find(_UPDATES_PANEL_END, left + len(_UPDATES_PANEL_START))
+    return html[left:right if right > left else len(html)]
+
+
+def check_updates_log_sync(updates_path=None, html_path=None):
+    """防更新日志断档：把「更新日志」整块与 site_updates.json 逐条对账。
+
+    旧版只查「最新版本号这几个字在不在 index.html」，故障注入抓到两个真实漏报：
+      ① 把页面上的更新日志整块删光，只要别处还残留 V6.5 字样，照样通过；
+      ② 把 site_updates.json 回滚成旧版、页面仍是新版，照样通过。
+    现在改成双向整块比对：条数、版本号序列、日期序列都要与清单一致，且页面里
+    不允许出现清单之外的版本号（这一头专治②）。
+    """
     failures = []
+    updates_path = updates_path or data_path('site_updates.json')
+    html_path = html_path or docs_path('index.html')
     try:
-        if not os.path.exists(data_path('site_updates.json')) or not os.path.exists(docs_path('index.html')):
+        if not os.path.exists(updates_path) or not os.path.exists(html_path):
             return failures
-        with open(data_path('site_updates.json'), encoding='utf-8') as f:
+        with open(updates_path, encoding='utf-8') as f:
             updates = json.load(f)
         if not updates:
             return failures
-        latest_version = updates[0].get('version', '')
-        if latest_version:
-            with open(docs_path('index.html'), encoding='utf-8') as f:
-                if latest_version not in f.read():
-                    failures.append(
-                        f"更新日志断档：site_updates.json 最新版本 {latest_version} 未出现在 docs/index.html，页面未重新生成"
-                    )
+        with open(html_path, encoding='utf-8') as f:
+            panel = _updates_panel(f.read())
+        if not panel:
+            failures.append(
+                '更新日志断档：页面里找不到更新日志板块（section[data-panel="updates"]），'
+                '散落在别处的版本号字样不算数'
+            )
+            return failures
+
+        expected_versions = [str(u.get('version') or '') for u in updates]
+        expected_dates = [str(u.get('date') or '')[:10] for u in updates]
+        page_versions = [v.strip() for v in _U_VER_RE.findall(panel)]
+        page_dates = _U_DATE_RE.findall(panel)
+        count_match = _U_COUNT_RE.search(panel)
+        shown_count = int(count_match.group(1)) if count_match else None
+
+        if shown_count != len(updates):
+            failures.append(
+                f'更新日志断档：页面标称 {shown_count} 条记录，'
+                f'但 site_updates.json 有 {len(updates)} 条'
+            )
+        if not page_versions:
+            failures.append('更新日志断档：页面更新日志板块里一条记录卡片都没有')
+        elif page_versions != expected_versions:
+            extra = [v for v in page_versions if v and v not in expected_versions]
+            missing = [v for v in expected_versions if v and v not in page_versions]
+            if extra:
+                failures.append(
+                    f'更新日志断档：页面比清单新（页面多出 {", ".join(extra[:5])}），'
+                    'site_updates.json 可能被回滚或页面未重新生成'
+                )
+            failures.append(
+                f'更新日志断档：页面版本号序列与清单不一致（页面 {len(page_versions)} 条 / '
+                f'清单 {len(updates)} 条，缺 {", ".join(missing[:5]) or "无"}）'
+            )
+        if page_dates != expected_dates:
+            failures.append('更新日志断档：页面记录日期序列与 site_updates.json 不一致')
     except Exception as e:  # noqa: BLE001
         failures.append(f"更新日志一致性检查失败: {e}")
     return failures
@@ -619,6 +695,114 @@ def check_updates_log_freshness(grace_days=None):
     return failures
 
 
+# ---------------------------------------------------------------------------
+# 阶段 0 四道不变规则：接产线（quick / full 两条路径之后无条件执行）
+# ---------------------------------------------------------------------------
+
+# 规则 2 的「排序轴是否变更」目前没有可采的独立开关，只能由人在改主轴时显式
+# 声明。这一项按「查不到自动证据」如实输出，不当作健康。
+SORT_AXIS_DECLARATION = {
+    'sort_axis_changed': False,
+    'criterion_defined': False,
+    'backtest_conclusion': False,
+    'weights_fixed': False,
+    'axis': '程序分（confidence_score / attention_score / signal_change_score）',
+}
+
+
+def _workflow_rule_state(path=None):
+    """从 update.yml 采规则 4 的四个静态事实；读不到 collect 段返回 None（查不到）。"""
+    path = path or os.path.join(REPO_ROOT, '.github', 'workflows', 'update.yml')
+    try:
+        with open(path, encoding='utf-8') as handle:
+            text = handle.read()
+    except OSError:
+        return None
+    match = re.search(r'(?ms)^  collect:\s*\n(.*?)(?=^  [\w-]+:\s*\n|\Z)', text)
+    if not match:
+        return None
+    collect = match.group(1)
+    window = re.search(r'alert_window_days[:=]\s*(\d+)', text)
+    return {
+        'collect_syncs_latest': 'git fetch origin main' in collect,
+        'commit_retry_on_reject': bool(re.search(r'git pull --rebase|git rebase|\bretry\b', collect)),
+        'alert_match': ('recent_window' if re.search(r'created_at|window_days|recent_window', text)
+                        else 'any_same_title'),
+        'alert_window_days': int(window.group(1)) if window else None,
+    }
+
+
+def _capability_state(runs):
+    """从 run_metrics.json 的多次运行采规则 1 的输入。
+
+    ai_quality_judge 只有「输入数 / 丢弃数」，没有丢弃原因埋点，无法区分
+    「从不判低分」和「每次降级」——按三值规矩记为「查不到」，不硬判。
+    """
+    values = []
+    for run in runs:
+        if not isinstance(run, dict):
+            continue
+        value = (run.get('ai_scoring') or {}).get('scored')
+        if isinstance(value, int):
+            values.append(value)
+    if not values:
+        return {}, ['规则 1: 查不到 ai_scoring.scored 埋点']
+    latest = (runs[-1].get('ai_scoring') or {}) if isinstance(runs[-1], dict) else {}
+    capabilities = {
+        'ai_scoring': {
+            'enabled': bool(latest.get('enabled', True)),
+            'calls': (latest.get('scored') or 0) + (latest.get('failed') or 0),
+            'hits': latest.get('scored'),
+            'values': values[-30:],
+        },
+    }
+    unknown = [
+        '规则 1: ai_quality_judge 查不到「丢弃原因」埋点，无法区分从不判低分与每次降级',
+        '规则 3: official_sources（模型榜）的停更天数未纳入本次采集口径',
+    ]
+    return capabilities, unknown
+
+
+def run_rule_checks(metrics_path=None, workflow_path=None, plans_dir=None):
+    """四道规则接产线：返回 (告警列表, 查不到列表)。
+
+    证据一律从本机现成产物采；采不到写「查不到」，不猜、不静默当健康。
+    告警默认只打印（RULE WARNING），不打断线上 --strict；显式加
+    --strict-rules 才计入 failures。这样接线的同时，不把已知欠账变成每日红灯。
+    """
+    issues, unknown = [], []
+    runs = _load_json(metrics_path or data_path('run_metrics.json'), [])
+    if not isinstance(runs, list) or not runs:
+        unknown.append('规则 1/3: 查不到 run_metrics.json 的多次运行记录')
+    else:
+        capabilities, cap_unknown = _capability_state(runs)
+        unknown += cap_unknown
+        if capabilities:
+            issues += [f'规则1 {x}' for x in check_capability_validity(capabilities)]
+        sources = build_source_state(runs)
+        if sources:
+            issues += [f'规则3 {x}' for x in check_source_decay(sources)]
+        else:
+            unknown.append('规则 3: 查不到信源状态（rss / html / company 均无 source_stats）')
+
+    plans_dir = plans_dir or os.path.join(REPO_ROOT, 'docs', 'plans')
+    criterion = dict(SORT_AXIS_DECLARATION)
+    has_criterion_doc = os.path.exists(
+        os.path.join(plans_dir, '2026-11-05-重要性判据定义.md')
+    )
+    criterion['criterion_defined'] = has_criterion_doc
+    criterion['backtest_conclusion'] = has_criterion_doc
+    issues += [f'规则2 {x}' for x in check_criterion_before_sort_change(criterion)]
+    unknown.append('规则 2: 排序轴是否变更靠人工声明（SORT_AXIS_DECLARATION），无自动开关')
+
+    workflow = _workflow_rule_state(workflow_path)
+    if workflow is None:
+        unknown.append('规则 4: 查不到 update.yml 的 collect job 段')
+    else:
+        issues += [f'规则4 {x}' for x in check_latest_state_basis(workflow)]
+    return issues, unknown
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--quick', action='store_true', help='Read persisted health facts without rebuilding reports')
@@ -635,6 +819,8 @@ def main():
     parser.add_argument('--max-repair-ratio', type=float, default=0.9,
                         help='AI 修复失败率上限（repair_ratio 超过即报警，默认 0.9）')
     parser.add_argument('--strict', action='store_true', help='Exit non-zero when health checks fail')
+    parser.add_argument('--strict-rules', action='store_true',
+                        help='把阶段 0 四道规则告警也计入 --strict 失败（默认只打印，不阻断线上）')
     args = parser.parse_args()
 
     if args.quick:
@@ -647,6 +833,13 @@ def main():
         failures = collect_failures(report, args)
     failures += check_updates_log_sync()
     failures += check_updates_log_freshness()
+    rule_issues, rule_unknown = run_rule_checks()
+    for item in rule_unknown:
+        print(f"RULE UNKNOWN: {item}")
+    for item in rule_issues:
+        print(f"RULE WARNING: {item}")
+    if args.strict_rules:
+        failures += [f'[阶段0规则] {item}' for item in rule_issues]
     for failure in failures:
         print(f"WARNING: {failure}")
     if args.strict and failures:
