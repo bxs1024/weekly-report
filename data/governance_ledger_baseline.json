@@ -19,8 +19,18 @@
     "W1 更新日志双向校验",
     "W5 阶段 0 四道规则检查"
   ],
-  "required_stations": ["W1", "W2", "W3", "W4", "W5"],
-  "min_unknown_mentions": 20,
-  "min_lines": 145,
-  "min_changelog_rows": 5
+  "required_stations": [
+    "W1",
+    "W2",
+    "W3",
+    "W4",
+    "W5"
+  ],
+  "min_unknown_mentions": 25,
+  "min_lines": 155,
+  "min_changelog_rows": 7,
+  "_last_update": {
+    "date": "2026-11-19",
+    "reason": "2026-11-19 接入治理闭环：账本新增一行留痕；下限随之上调，否则删一行会落在旧下限之上、校验抓不到"
+  }
 }
