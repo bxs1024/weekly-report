@@ -1,0 +1,32 @@
+{
+  "_说明": "项目接入治理的唯一入口。通用规则在 core，项目专属只写这里。模块边界由目录与 test_architecture.py 强制，此处只做声明，不重复定义。",
+  "id": "weekly-report",
+  "name": "Global Internet Change Radar",
+  "root": ".",
+  "core_version": "0.1.0",
+  "python": "C:/Users/16120/AppData/Local/Python/bin/python",
+  "modules": {
+    "sources": ["scripts/sources/"],
+    "content": ["scripts/content/"],
+    "editorial": ["scripts/editorial/"],
+    "providers": ["scripts/providers/"],
+    "publication": ["scripts/publication/"],
+    "reports": ["scripts/reports/"],
+    "pipeline": ["scripts/fetch_news.py", "scripts/generate_html.py"],
+    "health": ["scripts/check_data_health.py", "scripts/rule_checks.py", "scripts/hook_check.py"],
+    "ai_scoring": ["scripts/ai_scoring.py", "scripts/test_ai_scoring.py"],
+    "ci": [".github/workflows/"]
+  },
+  "deny_global": [
+    ".git/",
+    ".env",
+    "data/events.json",
+    "data/site_updates.json"
+  ],
+  "risk_rules": {
+    "low": { "max_files": 1, "requires_test": true },
+    "normal": { "max_files": 3 },
+    "high_paths": ["data/", ".github/workflows/", "scripts/prompts/"],
+    "critical": ["删除 data/ 下文件", "修改 GitHub Secrets", "修改 .gitignore 白名单"]
+  }
+}

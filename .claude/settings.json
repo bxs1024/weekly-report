@@ -15,8 +15,6 @@
       "Bash(git log *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git push)",
-      "Bash(git push *)",
       "Bash(git fetch *)",
       "Bash(git pull *)",
       "Bash(git stash *)",
@@ -25,7 +23,8 @@
       "Bash(git config *)"
     ],
     "deny": [
-      "Bash(git push --force)"
+      "Bash(git push)",
+      "Bash(git push *)"
     ]
   },
   "hooks": {
@@ -35,15 +34,9 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python -c \"import ast; ast.parse(open('scripts/fetch_news.py', encoding='utf-8').read())\" 2>&1 || exit 1",
+            "command": "C:/Users/16120/AppData/Local/Python/bin/python scripts/hook_check.py",
             "timeout": 15,
-            "statusMessage": "语法检查..."
-          },
-          {
-            "type": "command",
-            "command": "python scripts/generate_html.py 2>&1",
-            "timeout": 30,
-            "statusMessage": "生成验证..."
+            "statusMessage": "检查改动文件语法..."
           }
         ]
       }
