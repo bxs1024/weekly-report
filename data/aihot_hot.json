@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T12:33:24+08:00",
-  "fetched_date": "2026-11-20",
+  "generated_at": "2026-11-21T03:38:28+08:00",
+  "fetched_date": "2026-11-21",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
@@ -9,12 +9,12 @@
   "items": [
     {
       "rank": 1,
-      "title": "Anthropic 上市：83 美元定价，首日收涨 17%",
-      "list_title": "Anthropic 上市：83 美元定价，首日收涨 17%",
+      "title": "Anthropic 上市首日收涨 17%，次日回落",
+      "list_title": "Anthropic 上市首日收涨 17%，次日回落",
       "heat": null,
       "heat_change": "",
       "sources": [],
-      "summary": "Anthropic 于 11 月 18 日将 IPO 定价为每股 83 美元，高于 70 至 78 美元的发行区间，发行 9.8 亿股 A 类普通股，公司募资约 813 亿美元；加上七家算力供应商按发行价合计认购 260 亿美元无投票权股份，总募资超过 940 亿美元。股票 11 月 19 日在纳斯达克以代码 ANT 交易，开盘 111.50 美元、较发行价涨约 34%，盘中一度达 115.10 美元，市值一度超过 2 万亿美元。\n\n首日收盘回落至 97.17 美元，较发行价涨 17.07%；IT之家按此计算市值约 1.27 万亿美元，另有报道按完全稀释口径计算约 1.76 万亿美元。\n\n治理上，七位联合创始人通过创始人控制的 LLC 持有超级投票权股份，在多数股东投票中保留 50.1% 控制权；Amazon 持股 14.7%、Google 持股 13.7%，均为无投票权股份。七位创始人各出售约 340 万股，按发行价每人套现约 2.8 亿美元，合计 19.5 亿美元，并承诺将个人持股的 80% 用于慈善，公司称该承诺可自愿撤回、不具法律约束力。…",
+      "summary": "最新进展 Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
     },
@@ -25,97 +25,97 @@
       "heat": null,
       "heat_change": "",
       "sources": [],
-      "summary": "Google 于 11 月 18 日发布 Gemini 4 Neon（gemini-4-neon），称其面向复杂软件工程、知识工作和科学工作流提供快速端到端任务完成。Gemini API 付费档定价为每百万输入 token 3 美元、输出 15 美元，缓存输入每百万 0.15 美元，上下文窗口 100 万 token。The Decoder 和 Simon Willison 均指出，这一价格高于 Carbon 和 Argon 的 $2/$10（12 月 1 日起翻倍至 $4/$20）及 Hydrogen 的 $1.50/$7.50。同一 API 更新中，用户可直接向 Gemini API 传入 Word、PowerPoint、Excel 等 Office 和 OpenDocument 文件，并可在提示词和函数响应中切分文档、表格、视频和音频。\n\nArtificial Analysis 评测其智能指数为 61 分，比 Gemini 4 Carbon（high）高 1 分，总榜排名第三；其编码代理得分 59，与 Claude Opus 5.5、Cla…",
+      "summary": "Google 于 11 月 18 日发布 Gemini 4 Neon，称其面向复杂软件工程、知识工作和科学工作流提供快速端到端任务完成，即日起向 Google AI Pro/Ultra 订阅用户（Gemini App 移动端、桌面端和网页端，可在 Chat 和 Tasks 模型下拉菜单选择）、付费 Pro/Ultra 用户的 Antigravity、Google AI Studio 的 Gemini API 付费层及 Gemini 商业版推送；Fairwind Program 的 Gemini 4 Neon for cyber 将在数日内向受信任的防御者开放。同一 API 更新中，用户可直接向 Gemini API 传入 Word、PowerPoint、Excel 等 Office 和 OpenDocument 文件。\n\nGemini API 付费档定价为每百万输入 token 3 美元、输出 15 美元，缓存输入每百万 0.15 美元，上下文窗口 100 万 token。The Decoder 和 Simon Willison 均指出，这一价格…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/74578987-a1ed-4ce0-96b8-658226459865"
     },
     {
       "rank": 3,
-      "title": "Google 为 Mac 版 Gemini 上线电脑操作功能",
-      "list_title": "Google 为 Mac 版 Gemini 上线电脑操作功能",
+      "title": "Anthropic 数学家称与 Claude 证明黎曼猜想",
+      "list_title": "Anthropic 数学家称与 Claude 证明黎曼猜想",
       "heat": null,
-      "heat_change": "↑ 11 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "Google 宣布，macOS 版 Gemini 桌面应用新增 computer use 功能，AI 可代用户操作本地 Mac 应用、跨本地文件与网页完成多步任务，例如填写表单、制作演示文稿。用户可在聊天中实时预览，并可暂停、停止或审批操作，还能选择允许 Gemini 访问哪些应用；Google 称屏幕和光标仍归用户控制。\n\n该功能初期仅面向美国英语用户，需安装 Gemini Mac 应用并持有 Google AI Plus、Pro 或 Ultra 订阅；Google 暂未公布扩展到其他市场和其他平台的时间。The Verge 称，此次上线恰逢 Apple 在 macOS 27.3 beta 中预览对应用完全磁盘访问的新限制，理由是 AI 智能体风险。",
+      "summary": "Anthropic 数学家莱文特·阿尔波格当地时间 20 日在个人网站宣称，自己与 Claude 合作证明了黎曼猜想，并称方法可推广至广义与扩展黎曼猜想。他称论证已无假设地形式化，Claude 在最后阶段远超自己；据 Rohan Paul 转述，整个过程约六周，Claude 在他未掌握的高级领域提出了关键步骤。\n\nThe Verge 报道称，该解法尚待独立验证；Anthropic 未就此事表态，也未参与其发布。阿尔波格发布的证明以 Lean 形式化代码呈现，公众号“数字生命卡兹克”称其未附论文，只放出 14 个压缩包、共 175187 个 Lean 文件、1737 万行代码，等待逐步验证。\n\n若获确认，大量以黎曼猜想为前提的数学结论将随之成立。Google 研究员 François Chollet 转发相关报道并评论“What a time to be alive”，未对证明本身作出判断。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/2442138c-3137-45fd-9a2a-9c1b159c49ae"
+      "story_url": "https://aihot.virxact.com/story/647b0945-9244-4f55-b509-0f3fa0f6fe51"
     },
     {
       "rank": 4,
-      "title": "Google 将 Genie 4 开放给 AI Ultra 订阅者并上线 API",
-      "list_title": "Google 将 Genie 4 开放给 AI Ultra 订阅者并上线 API",
+      "title": "Google 为 Mac 版 Gemini 上线电脑操作功能",
+      "list_title": "Google 为 Mac 版 Gemini 上线电脑操作功能",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "Google DeepMind 于 10 月 27 日发布世界模型 Genie 4，最初仅以研究预览形式向可信测试者开放。11 月 18 日起，符合条件的 Google AI Ultra 订阅者可在 Project Genie 中体验 Genie 4；Google AI Pro 会员可加入候补名单。11 月 20 日，Genie 4 上线 Gemini API 和 Google AI Studio，Google 称这是其首个面向开发者的世界模型。\n\nGenie 4 可逐帧实时生成可探索的虚拟世界，支持用自然语言在模拟中途修改天气、镜头和角色，并首次在实时世界模型中直接生成环境音、音乐和角色对话。Google 称其为迄今最逼真、交互性最强的世界模型；Gemini 3.8 Flash 在模拟循环中负责解释提示和规划事件。\n\n与 Genie 4 一同推出的还有 Project Genie 智能体和社区画廊；Genie 3 也获更新，单次生成时长从 60 秒延长至 3 分钟，并支持从 360 度全景图生成世界。据 MarkTechPost 报道，Geni…",
+      "summary": "Google 宣布，macOS 版 Gemini 桌面应用新增 computer use 功能，AI 可在后台窗口中点击、滚动和输入，代用户跨本地文件夹、桌面应用和网页完成多步任务，例如填写表单、制作演示文稿。用户可选择允许 Gemini 访问哪些应用，并在聊天中实时预览、暂停、停止或审批操作；Google 称屏幕和光标仍归用户控制。\n\n该功能目前仅面向美国英语用户推出，需安装 Gemini Mac 应用并持有 Google AI Plus、Pro 或 Ultra 订阅；Google 暂未公布扩展到其他市场和其他平台的时间。\n\nThe Verge 称，此次上线恰逢 Apple 在 macOS 27.3 beta 中预览对应用完全磁盘访问的新限制，理由是 AI 智能体风险。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/d9a88c5c-1b99-4e5b-af6c-dec4f752f180"
+      "story_url": "https://aihot.virxact.com/story/2442138c-3137-45fd-9a2a-9c1b159c49ae"
     },
     {
       "rank": 5,
       "title": "苹果被曝加速Siri智能体化并招聘工程师",
       "list_title": "苹果被曝加速Siri智能体化并招聘工程师",
       "heat": null,
-      "heat_change": "↑ 119 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "彭博社记者马克·古尔曼报道，苹果 CEO John Ternus 正施压 AI 负责人 Craig Federighi 加快 Siri 路线图，目标是推出能对标 OpenAI 的 Dots、Meta 的 Muse 和 Grok 的 AI 智能体。古尔曼称，这款 Siri 将从响应命令转向主动管理任务、代表用户完成事务，计划最早明年推出。\n\n苹果随后发布招聘信息，招募一名高级工程经理主导开发可跨应用、浏览器、命令行和 API 执行多步任务并编写、调试代码的 AI 智能体，与 Siri、UI Frameworks 和 Apple Foundation Models 团队协作。据彭博社报道，该服务最早或于明年底推出，目前仍处早期阶段。\n\n与此同时，据 TechCrunch 报道，macOS 27.3 将部署警告，劝阻用户授予第三方智能体完全控制权。目前尚无具体的上线范围或功能可用性信息。",
+      "summary": "彭博社记者马克·古尔曼报道，苹果 CEO John Ternus 正施压 AI 负责人 Craig Federighi 加快 Siri 路线图，计划最早明年推出从响应命令转向主动管理任务、代表用户完成事务的代理式 Siri，对标 OpenAI 的 Dots、Meta 的 Muse 和 Grok。\n\n苹果随后发布招聘信息，招募一名高级工程经理主导开发可跨应用、浏览器、命令行和 API 执行多步任务并编写、调试代码的 AI 智能体，与 Siri、UI Frameworks 和 Apple Foundation Models 团队协作。据彭博社报道，该服务最早或于明年底推出，目前仍处早期阶段；The Decoder 称其设计以权限模型和沙箱等隐私机制为核心。\n\n与此同时，据 TechCrunch 报道，macOS 27.3 将部署警告，劝阻用户授予第三方智能体完全控制权。目前尚无具体的上线范围或功能可用性信息。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/a1b6af96-fbdf-4779-80a9-0ca55270818c"
     },
     {
       "rank": 6,
-      "title": "GPT-Live API 新增 Standby 待机配置",
-      "list_title": "GPT-Live API 新增 Standby 待机配置",
+      "title": "OpenAI 向 Plus 与 Business 用户测试 dots",
+      "list_title": "OpenAI 向 Plus 与 Business 用户测试 dots",
       "heat": null,
-      "heat_change": "↑ 716 %",
+      "heat_change": "↑ 11 %",
       "sources": [],
-      "summary": "OpenAI Developers 称，GPT-Live API 新增 Standby 配置，让开发者在对话不活跃时段暂停模型而不中断通话。GPT-Live-1 和 GPT-Live-1.1 均可使用，开发者可设置 5–60 秒的空闲超时。\n\n静默期过后模型暂时暂停，但 WebRTC 通话保持接通，费率降为每分钟 0.02 美元（标准费率为 0.05 美元），直到有人再次说话。",
+      "summary": "OpenAI 核心产品负责人 Thibault Sottiaux 称，OpenAI 已开始邀请一小部分 ChatGPT Plus 用户测试 dots，同时向所有 ChatGPT Business Standard 用户开放该功能，推广自 2026 年 11 月 20 日起启动。\n\n两类用户的开放范围不同：Plus 用户仅限“一小部分”参与测试，Sottiaux 称后续会扩大范围并继续收集反馈；Business Standard 用户则覆盖全部。\n\n据 IT之家报道，移动版 ChatGPT 将为 dots 设置独立标签页，该新体验将首先面向已拥有 dots 或具备创建 dot 资格的 ChatGPT Pro 用户开放。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/bd906d4a-88f7-4195-a4c5-f2b8f27bc122"
+      "story_url": "https://aihot.virxact.com/story/9ba36bba-3cd1-40c9-b311-35e022a99425"
     },
     {
       "rank": 7,
-      "title": "Nvidia临时CEO提前加薪并承诺路线不变",
-      "list_title": "Nvidia临时CEO提前加薪并承诺路线不变",
+      "title": "Google 将 Genie 4 开放给 AI Ultra 订阅者并上线 API",
+      "list_title": "Google 将 Genie 4 开放给 AI Ultra 订阅者并上线 API",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↓ 14 %",
       "sources": [],
-      "summary": "黄仁勋卸任后，Nvidia临时CEO Colette Kress在首次全员大会上承诺，将加薪和额外股权提前至12月发放，比原计划早数月。薪酬是员工提交的700个问题中最受关注的话题；Kress此举部分源于投资者担心公司出现人才流失，许多员工当初正是为黄仁勋及其愿景才留下的。\n\nKress还在会上安抚员工，称公司芯片路线图和开源模型策略不会改变。据NYT报道，员工立场分裂，一些人签署信件支持黄仁勋；三名知情人士称，有员工不满他破坏了业界在发布前对AI模型做安全测试的计划。",
+      "summary": "Google DeepMind 于 10 月 27 日发布世界模型 Genie 4，最初仅以研究预览形式向可信测试者开放。11 月 18 日起，符合条件的 Google AI Ultra 订阅者可在 Project Genie 中体验 Genie 4；Google AI Pro 会员可加入候补名单。11 月 20 日，Genie 4 上线 Gemini API 和 Google AI Studio，Google 称这是其首个面向开发者的世界模型。\n\nGenie 4 可逐帧实时生成可探索的虚拟世界，支持用自然语言在模拟中途修改天气、镜头和角色，并首次在实时世界模型中直接生成环境音、音乐和角色对话。Google 称其为迄今最逼真、交互性最强的世界模型；Gemini 3.8 Flash 在模拟循环中负责解释提示和规划事件。\n\n与 Genie 4 一同推出的还有 Project Genie 智能体和社区画廊；Genie 3 也获更新，单次生成时长从 60 秒延长至 3 分钟，并支持从 360 度全景图生成世界。据 MarkTechPost 报道，Geni…",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/c5899d4d-282f-4d24-9aa7-43f7b133d229"
+      "story_url": "https://aihot.virxact.com/story/d9a88c5c-1b99-4e5b-af6c-dec4f752f180"
     },
     {
       "rank": 8,
-      "title": "英伟达Q3营收1158亿美元，董事会拒绝恢复黄仁勋职务",
-      "list_title": "英伟达Q3营收1158亿美元，董事会拒绝恢复黄仁勋职务",
+      "title": "涉华芯片关联公司投资DeepSeek融资",
+      "list_title": "涉华芯片关联公司投资DeepSeek融资",
       "heat": null,
-      "heat_change": "↓ 27 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "英伟达公布第三季度财报，营收1158亿美元、同比增长103%，净利润653亿美元创纪录；数据中心收入1076亿美元，同比增长110%。临时CEO兼CFO Colette Kress称Vera Rubin进展顺利，并预计第四季度营收1300亿美元，该指引假设不含中国数据中心算力销售。\n\n黄仁勋辞职后的管理层安排成为焦点。Kress在CNBC节目中表示，董事会已决定不会恢复黄仁勋的CEO职务，并称这是董事会的官方声明；此前董事Harvey Jones在财报电话会上称董事会一致接受其辞职、无意让其复任。Kress还重申开源AI战略不变，9月同意以129亿美元收购Hugging Face的交易按计划推进。\n\n针对外界质疑，Kress否认公司扶持可能不具备投资级的neocloud客户，称hyperscaler正积极争取更多英伟达算力。她澄清，公司为数据中心客户提供的贷款担保并非直接出资，只有在客户筹齐融资、建成设施并装好英伟达设备后才生效，否则担保不存在。",
+      "summary": "据 X 用户 Rohan Paul 转引《华尔街日报》报道，与 Alice Huang 相关的公司投资了 DeepSeek 最新一轮融资，并承诺提供 Nvidia 芯片，目标是成为 DeepSeek 稳定的被禁 Blackwell 芯片供应商。\n\n该转引报道称，Alice Huang 的丈夫、商人 Kang Wei 与 Nvidia 首席执行官黄仁勋相识十年，两人于 2023 年在新加坡成立 Megaspeed，以无法直接购买此类芯片的阿里巴巴作为锚定客户，换取 Nvidia 芯片优先供应；2024 年底至 2025 年 6 月间，该公司向潜在投资者承诺三年三倍回报，并称有办法将 Nvidia 芯片带入中国。上述说法均来自该转引报道。\n\n另一 X 账号 X.PIN 称，DeepSeek 已完成第二轮融资，融资 140–150 亿美元，投后估值约 860 亿美元；一家由 31 个合伙人组成的投资载体进入其股东结构，腾讯和宁德时代是最大的外部投资方，其次是中国移动和中信证券。该报道未提及 Alice Huang 相关公司是否在其中。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/e79088af-89d6-42e0-8947-05fbb16ede38"
+      "story_url": "https://aihot.virxact.com/story/c4010e0b-ceb4-4081-bb9a-9c40af7f311e"
     },
     {
       "rank": 9,
-      "title": "谷歌联手蓝色起源2029年发射AI服务器卫星",
-      "list_title": "谷歌联手蓝色起源2029年发射AI服务器卫星",
+      "title": "英伟达拟逾5亿美元收购AI初创Inception",
+      "list_title": "英伟达拟逾5亿美元收购AI初创Inception",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↑ 17 %",
       "sources": [],
-      "summary": "谷歌与蓝色起源达成合作，计划于2029年第一季度用新格伦火箭发射一颗搭载谷歌TPU的AI服务器卫星，算力大致相当于一个数据中心机架。这是谷歌“太阳捕手计划”的一部分，该计划旨在探索在太空建设AI数据中心的可能性。\n\n谷歌称，今年10月已部署首颗AI服务器卫星并成功启动TPU，卫星上运行的Gemma 4模型生成了一段俳句并传回地球。",
+      "summary": "据 The Information 援引三位知情人士报道，英伟达正接近以至少 5 亿美元收购旧金山湾区 AI 初创公司 Inception，交易还包含面向 30 多名员工的绩效奖金，三位联合创始人 Stefano Ermon、Aditya Grover 和 Volodymyr Kuleshov 预计全职加入。\n\nInception 研发扩散式大语言模型。目前交易尚未完成，英伟达与 Inception 均未公开确认，估值和奖励条款均来自上述报道。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/96cb1044-2367-4e11-a021-d0ceccdc6520"
+      "story_url": "https://aihot.virxact.com/story/fb607ead-f696-451a-ac9c-aa7764a993dd"
     },
     {
       "rank": 10,
-      "title": "Meta Muse Charm 据报定价 300 美元",
-      "list_title": "Meta Muse Charm 据报定价 300 美元",
+      "title": "OpenAI报告：编码智能体加速研发但进展不均",
+      "list_title": "OpenAI报告：编码智能体加速研发但进展不均",
       "heat": null,
-      "heat_change": "↑ 42 %",
+      "heat_change": "↓ 16 %",
       "sources": [],
-      "summary": "据 The Information 报道，Meta 计划将带屏小设备 Muse Charm 定价为 300 美元，并附赠 Verizon 12 个月免费 5G 数据套餐。该设备用于与 Meta 的 Muse AI 智能体对话，用户可随身携带这一人格化实体进行提问和下达指令。Meta 发言人对 TechCrunch 未否认该定价说法。\n\nMeta 首席执行官扎克伯格今年早些时候已展示该设备，称其集成实时语音与虚拟形象技术，用户可通过指纹传感器免解锁手机直接对话。该设备在 Meta 的 Connect 活动上以 Tamagotchi 风格预告。\n\n作为价格参照，TechCrunch 提到 Friend 的 AI 穿戴设备售价 250 美元，亚马逊 Bee Frontier 售价 75 美元。Meta 还在研发智能手表，但发布已推迟至 2027 年。",
+      "summary": "OpenAI 发布第二份研究加速报告，基于内部测量说明编码智能体如何改变其 AI 研发周期。报告称，3 月至 10 月，估计需 2–4 小时的人工任务，智能体自主成功率从 23% 升至 46%；4–8 小时任务从 13% 升至 35%。但任务间差异明显：监控训练任务成功率达 79%，推理与服务栈编码仅 25%。上述数据均为 OpenAI 对自身研发场景的内部测量，并非对外部通用能力的验证。\n\nOpenAI 另称，研究者使用 AI 的程度持续指数级上升，但人类参与仍是核心；在安全与对齐上投入的人力增速超过其他任何研究领域。The Decoder 报道称，10 月按 API 牌价计算，中位研究员每天消耗价值 2,400 美元的 token，环比增长 62%，前 10% 达每天 23,000 美元；研究员 Rohan Paul 转述报告数据时也提到日均 2,400 美元、最高 10% 超过 23,000 美元。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/2463d589-e0e9-4642-b52b-8056a255d3e2"
+      "story_url": "https://aihot.virxact.com/story/7208f05f-6fa1-4aec-9c4a-84bd96219f87"
     }
   ]
 }
