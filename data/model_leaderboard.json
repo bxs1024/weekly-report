@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T03:59:12+08:00",
+  "generated_at": "2026-11-20T12:34:01+08:00",
   "fetched_date": "2026-11-20",
   "source": {
     "name": "AIHOT 大模型排行榜",
@@ -18,7 +18,7 @@
       "cache_price": "¥1.33",
       "input_price": "¥53.33",
       "output_price": "¥266.67",
-      "consensus_score": 80.0,
+      "consensus_score": 79.9,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-fable-5-2"
     },
     {
@@ -42,7 +42,7 @@
       "cache_price": "¥2.67",
       "input_price": "¥53.33",
       "output_price": "¥266.67",
-      "consensus_score": 76.7,
+      "consensus_score": 76.6,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-2-astra"
     },
     {
@@ -54,7 +54,7 @@
       "cache_price": "¥1.33",
       "input_price": "¥26.67",
       "output_price": "¥133.33",
-      "consensus_score": 74.9,
+      "consensus_score": 74.8,
       "detail_url": "https://aihot.virxact.com/leaderboard/claude-opus-5-5"
     },
     {
@@ -66,7 +66,7 @@
       "cache_price": "¥0.5",
       "input_price": "¥10",
       "output_price": "¥50",
-      "consensus_score": 73.5,
+      "consensus_score": 73.4,
       "detail_url": "https://aihot.virxact.com/leaderboard/gemini-4-hydrogen"
     },
     {
@@ -78,7 +78,7 @@
       "cache_price": "¥0.67",
       "input_price": "¥13.33",
       "output_price": "¥66.67",
-      "consensus_score": 73.4,
+      "consensus_score": 73.3,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-2-sol"
     },
     {
@@ -191,6 +191,18 @@
     },
     {
       "rank": 16,
+      "name": "Muse Wonder",
+      "provider": "Meta",
+      "release_date": "2026-10-12",
+      "completeness": "37 项评测 覆盖 80 %",
+      "cache_price": "¥1.33",
+      "input_price": "¥26.67",
+      "output_price": "¥133.33",
+      "consensus_score": 68.1,
+      "detail_url": "https://aihot.virxact.com/leaderboard/muse-wonder"
+    },
+    {
+      "rank": 17,
       "name": "Kimi K3.1 Pro",
       "provider": "Moonshot AI",
       "release_date": "2026-10-23",
@@ -200,18 +212,6 @@
       "output_price": "¥68",
       "consensus_score": 68.1,
       "detail_url": "https://aihot.virxact.com/leaderboard/kimi-k-3-1-pro"
-    },
-    {
-      "rank": 17,
-      "name": "Muse Wonder",
-      "provider": "Meta",
-      "release_date": "2026-10-12",
-      "completeness": "37 项评测 覆盖 80 %",
-      "cache_price": "¥1.33",
-      "input_price": "¥26.67",
-      "output_price": "¥133.33",
-      "consensus_score": 68.0,
-      "detail_url": "https://aihot.virxact.com/leaderboard/muse-wonder"
     },
     {
       "rank": 18,
@@ -510,7 +510,7 @@
       "cache_price": "¥0.1",
       "input_price": "¥1",
       "output_price": "¥4",
-      "consensus_score": 60.1,
+      "consensus_score": 60.2,
       "detail_url": "https://aihot.virxact.com/leaderboard/minimax-m-3-1-flash"
     },
     {
@@ -594,7 +594,7 @@
       "cache_price": "¥0.02",
       "input_price": "¥1",
       "output_price": "¥2",
-      "consensus_score": 59.3,
+      "consensus_score": 59.4,
       "detail_url": "https://aihot.virxact.com/leaderboard/mimo-v-2-6-flash"
     },
     {
