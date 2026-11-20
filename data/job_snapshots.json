@@ -1,11 +1,48 @@
 {
   "version": 1,
-  "generated_at": "2026-11-20T08:32:19.243476+08:00",
+  "generated_at": "2026-11-20T16:01:43.994914+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-20T08:32:19.243476+08:00",
+      "observed_at": "2026-11-20T16:01:43.994914+08:00",
       "jobs": [
+        {
+          "id": "744000162662060",
+          "title": "Senior Manager, Public Affairs",
+          "url": "https://www.grab.careers/en/jobs/744000162662060/senior-manager-public-affairs/",
+          "function_tags": []
+        },
+        {
+          "id": "744000162654639",
+          "title": "Senior Specialist, Benefits Operations",
+          "url": "https://www.grab.careers/en/jobs/744000162654639/senior-specialist-benefits-operations/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000162652574",
+          "title": "Senior Data Scientist (Analytics) - Grab Support",
+          "url": "https://www.grab.careers/en/jobs/744000162652574/senior-data-scientist-analytics-grab-support/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000162651429",
+          "title": "Associate, Self-Serve Platform Growth",
+          "url": "https://www.grab.careers/en/jobs/744000162651429/associate-self-serve-platform-growth/",
+          "function_tags": [
+            "engineering",
+            "sales"
+          ]
+        },
+        {
+          "id": "744000162649259",
+          "title": "Head, Country Planning",
+          "url": "https://www.grab.careers/en/jobs/744000162649259/head-country-planning/",
+          "function_tags": []
+        },
         {
           "id": "744000162480340",
           "title": "Assistant - Team Coordinator (1-year contract)",
@@ -109,42 +146,12 @@
           "title": "Supply Chain In-Stock Associate",
           "url": "https://www.grab.careers/en/jobs/744000162427979/supply-chain-in-stock-associate/",
           "function_tags": []
-        },
-        {
-          "id": "744000162425429",
-          "title": "Lead Product Manager, Supply Chain",
-          "url": "https://www.grab.careers/en/jobs/744000162425429/lead-product-manager-supply-chain/",
-          "function_tags": []
-        },
-        {
-          "id": "744000162422832",
-          "title": "Lead, Cost Strategic Finance",
-          "url": "https://www.grab.careers/en/jobs/744000162422832/lead-cost-strategic-finance/",
-          "function_tags": []
-        },
-        {
-          "id": "744000162273829",
-          "title": "Lead Data Scientist",
-          "url": "https://www.grab.careers/en/jobs/744000162273829/lead-data-scientist/",
-          "function_tags": []
-        },
-        {
-          "id": "744000162269537",
-          "title": "Community Engagement Executive, Batam",
-          "url": "https://www.grab.careers/en/jobs/744000162269537/community-engagement-executive-batam/",
-          "function_tags": []
-        },
-        {
-          "id": "744000162262450",
-          "title": "Merchant Product & Strategy Assistant Manager",
-          "url": "https://www.grab.careers/en/jobs/744000162262450/merchant-product-strategy-assistant-manager/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-20T08:32:19.243476+08:00",
+      "observed_at": "2026-11-20T16:01:43.994914+08:00",
       "jobs": [
         {
           "id": "8144196",
@@ -204,7 +211,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-20T08:32:19.243476+08:00",
+      "observed_at": "2026-11-20T16:01:43.994914+08:00",
       "jobs": [
         {
           "id": "1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536",

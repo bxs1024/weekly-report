@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-20T08:32:19.243476+08:00",
+  "generated_at": "2026-11-20T16:01:43.994914+08:00",
   "candidates": [
     {
       "candidate_id": "jobs-ecd78e6d167b99b9",
@@ -13,26 +13,18 @@
       "cluster": "operations",
       "window": "2026-W47",
       "window_start": "2026-11-17",
-      "window_end": "2026-11-19",
-      "detected_at": "2026-11-19T16:22:01.311592+08:00",
-      "baseline_count": 18,
+      "window_end": "2026-11-20",
+      "detected_at": "2026-11-20T16:01:43.994914+08:00",
+      "baseline_count": 20,
       "current_count": 20,
-      "added_count": 19,
-      "removed_count": 17,
+      "added_count": 5,
+      "removed_count": 5,
       "clusters": {
-        "sales": 2,
-        "operations": 3,
-        "payments": 1,
-        "engineering": 2,
-        "ai": 1
+        "operations": 2,
+        "engineering": 1,
+        "sales": 1
       },
-      "removed_clusters": {
-        "ai": 1,
-        "engineering": 6,
-        "sales": 3,
-        "payments": 2,
-        "operations": 2
-      },
+      "removed_clusters": {},
       "evidence_refs": [
         {
           "job_id": "744000162002219",
@@ -297,11 +289,71 @@
           "title": "Senior Software Engineer, Fullstack (Safety)",
           "url": "https://www.grab.careers/en/jobs/744000161936334/senior-software-engineer-fullstack-safety/",
           "change": "removed"
+        },
+        {
+          "job_id": "744000162662060",
+          "title": "Senior Manager, Public Affairs",
+          "url": "https://www.grab.careers/en/jobs/744000162662060/senior-manager-public-affairs/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000162654639",
+          "title": "Senior Specialist, Benefits Operations",
+          "url": "https://www.grab.careers/en/jobs/744000162654639/senior-specialist-benefits-operations/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000162652574",
+          "title": "Senior Data Scientist (Analytics) - Grab Support",
+          "url": "https://www.grab.careers/en/jobs/744000162652574/senior-data-scientist-analytics-grab-support/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000162651429",
+          "title": "Associate, Self-Serve Platform Growth",
+          "url": "https://www.grab.careers/en/jobs/744000162651429/associate-self-serve-platform-growth/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000162649259",
+          "title": "Head, Country Planning",
+          "url": "https://www.grab.careers/en/jobs/744000162649259/head-country-planning/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000162425429",
+          "title": "Lead Product Manager, Supply Chain",
+          "url": "https://www.grab.careers/en/jobs/744000162425429/lead-product-manager-supply-chain/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000162422832",
+          "title": "Lead, Cost Strategic Finance",
+          "url": "https://www.grab.careers/en/jobs/744000162422832/lead-cost-strategic-finance/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000162273829",
+          "title": "Lead Data Scientist",
+          "url": "https://www.grab.careers/en/jobs/744000162273829/lead-data-scientist/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000162269537",
+          "title": "Community Engagement Executive, Batam",
+          "url": "https://www.grab.careers/en/jobs/744000162269537/community-engagement-executive-batam/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000162262450",
+          "title": "Merchant Product & Strategy Assistant Manager",
+          "url": "https://www.grab.careers/en/jobs/744000162262450/merchant-product-strategy-assistant-manager/",
+          "change": "removed"
         }
       ],
-      "status": "rejected",
-      "rejection_reason": "source_reset_suspected",
-      "promoted_event_id": ""
+      "status": "promoted",
+      "rejection_reason": "",
+      "promoted_event_id": "event-jobs-ecd78e6d167b99b9"
     },
     {
       "candidate_id": "jobs-18a379d6d77762cc",
