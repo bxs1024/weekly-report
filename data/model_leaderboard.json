@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T03:38:36+08:00",
+  "generated_at": "2026-11-21T12:28:39+08:00",
   "fetched_date": "2026-11-21",
   "source": {
     "name": "AIHOT 大模型排行榜",
@@ -114,7 +114,7 @@
       "cache_price": "¥0.67",
       "input_price": "¥13.36",
       "output_price": "¥66.78",
-      "consensus_score": 72.5,
+      "consensus_score": 72.4,
       "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-2-sol"
     },
     {
@@ -174,7 +174,7 @@
       "cache_price": "¥0.5",
       "input_price": "¥10",
       "output_price": "¥30",
-      "consensus_score": 69.5,
+      "consensus_score": 69.4,
       "detail_url": "https://aihot.virxact.com/leaderboard/qwen-4-max"
     },
     {
@@ -347,18 +347,6 @@
     },
     {
       "rank": 29,
-      "name": "GPT-5.5",
-      "provider": "OpenAI",
-      "release_date": "2026-04-23",
-      "completeness": "26 项评测 覆盖 63 %",
-      "cache_price": "¥3.34",
-      "input_price": "¥33.39",
-      "output_price": "¥200.33",
-      "consensus_score": 63.3,
-      "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-5"
-    },
-    {
-      "rank": 30,
       "name": "Kimi K3",
       "provider": "Moonshot AI",
       "release_date": "2026-07-16",
@@ -370,6 +358,18 @@
       "detail_url": "https://aihot.virxact.com/leaderboard/kimi-k-3"
     },
     {
+      "rank": 30,
+      "name": "GPT-5.5",
+      "provider": "OpenAI",
+      "release_date": "2026-04-23",
+      "completeness": "26 项评测 覆盖 63 %",
+      "cache_price": "¥3.34",
+      "input_price": "¥33.39",
+      "output_price": "¥200.33",
+      "consensus_score": 63.3,
+      "detail_url": "https://aihot.virxact.com/leaderboard/gpt-5-5"
+    },
+    {
       "rank": 31,
       "name": "Qwen3.8 Max 0902",
       "provider": "Alibaba",
@@ -378,7 +378,7 @@
       "cache_price": "¥1.5",
       "input_price": "¥12",
       "output_price": "¥36",
-      "consensus_score": 63.2,
+      "consensus_score": 63.1,
       "detail_url": "https://aihot.virxact.com/leaderboard/qwen-3-8-max-0902"
     },
     {
@@ -563,18 +563,6 @@
     },
     {
       "rank": 47,
-      "name": "GPT-6 Luna",
-      "provider": "OpenAI",
-      "release_date": "2026-09-22",
-      "completeness": "46 项评测 覆盖 97 %",
-      "cache_price": "¥0.0668",
-      "input_price": "¥0.67",
-      "output_price": "¥3.34",
-      "consensus_score": 59.5,
-      "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-luna"
-    },
-    {
-      "rank": 48,
       "name": "DeepSeek V4 Pro 0813",
       "provider": "DeepSeek",
       "release_date": "2026-08-13",
@@ -584,6 +572,18 @@
       "output_price": "¥13.5",
       "consensus_score": 59.5,
       "detail_url": "https://aihot.virxact.com/leaderboard/deepseek-v-4-pro-20260813"
+    },
+    {
+      "rank": 48,
+      "name": "GPT-6 Luna",
+      "provider": "OpenAI",
+      "release_date": "2026-09-22",
+      "completeness": "46 项评测 覆盖 97 %",
+      "cache_price": "¥0.0668",
+      "input_price": "¥0.67",
+      "output_price": "¥3.34",
+      "consensus_score": 59.5,
+      "detail_url": "https://aihot.virxact.com/leaderboard/gpt-6-luna"
     },
     {
       "rank": 49,
