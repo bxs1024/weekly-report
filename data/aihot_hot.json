@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T12:28:26+08:00",
-  "fetched_date": "2026-11-21",
+  "generated_at": "2026-11-22T02:44:12+08:00",
+  "fetched_date": "2026-11-22",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
@@ -9,54 +9,54 @@
   "items": [
     {
       "rank": 1,
-      "title": "Anthropic 上市首日收涨 17%，次日回落",
-      "list_title": "Anthropic 上市首日收涨 17%，次日回落",
-      "heat": null,
-      "heat_change": "↓ 18 %",
-      "sources": [],
-      "summary": "最新进展 Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
-    },
-    {
-      "rank": 2,
       "title": "Anthropic 数学家称与 Claude 证明黎曼猜想",
       "list_title": "Anthropic 数学家称与 Claude 证明黎曼猜想",
       "heat": null,
-      "heat_change": "↑ 22 %",
+      "heat_change": "",
       "sources": [],
-      "summary": "Anthropic 数学家莱文特·阿尔波格当地时间 20 日在个人网站宣称，自己与 Claude 合作证明了黎曼猜想，并称方法可推广至广义与扩展黎曼猜想。他称论证已无假设地形式化，Claude 在最后阶段远超自己；据 Rohan Paul 转述，整个过程约六周，Claude 在他未掌握的高级领域提出了关键步骤。\n\nThe Verge 报道称，该解法尚待独立验证；Anthropic 未就此事表态，也未参与其发布。阿尔波格发布的证明以 Lean 形式化代码呈现，公众号“数字生命卡兹克”称其未附论文，只放出 14 个压缩包、共 175187 个 Lean 文件、1737 万行代码，等待逐步验证。\n\n若获确认，大量以黎曼猜想为前提的数学结论将随之成立。Google 研究员 François Chollet 转发相关报道并评论“What a time to be alive”，未对证明本身作出判断。",
+      "summary": "Anthropic 数学家莱文特·阿尔波格当地时间 20 日在个人网站宣称，自己与 Claude 合作证明了黎曼猜想，并称方法可推广至广义与扩展黎曼猜想。他称论证已无假设地形式化，Claude 在最后阶段远超自己；据 Rohan Paul 转述，整个过程约六周，Claude 在他未掌握的高级领域提出了关键步骤。\n\nThe Verge 报道称，该解法尚待独立验证；Anthropic 未就此事表态，也未参与其发布。阿尔波格发布的证明以 Lean 形式化代码呈现，公众号“数字生命卡兹克”称其未附论文，只放出 14 个压缩包、共 175187 个 Lean 文件、1737 万行代码，等待逐步验证。\n\n若获确认，大量以黎曼猜想为前提的数学结论将随之成立。Google 研究员 François Chollet 转发相关报道并评论“What a time to be alive”，未对证明本身作出判断；Rohan Paul 则附上陶哲轩上月访谈中“现有 AI 无法攻克该问题”的说法作对照。马斯克转发 Grok 的说法称，即使黎曼猜想尚未完全解决，也很快会解决。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/647b0945-9244-4f55-b509-0f3fa0f6fe51"
     },
     {
+      "rank": 2,
+      "title": "Anthropic 上市首日收涨 17%，次日回落",
+      "list_title": "Anthropic 上市首日收涨 17%，次日回落",
+      "heat": null,
+      "heat_change": "↓ 19 %",
+      "sources": [],
+      "summary": "Anthropic 于 11 月 19 日在纳斯达克上市，IPO 定价每股 83 美元，高于 70 至 78 美元的发行区间，发行 9.8 亿股 A 类普通股，公司募资约 813 亿美元；加上七家算力供应商按发行价合计认购 260 亿美元无投票权股份，总募资超过 940 亿美元。首日开盘 111.50 美元、盘中一度达 115.10 美元，市值一度超过 2 万亿美元，收盘回落至 97.17 美元，较发行价涨 17.07%；IT之家按此计算市值约 1.27 万亿美元，另有报道按完全稀释口径计算约 1.76 万亿美元。上市第二天股价跌逾 9% 至 88.17 美元，接近发行价，同期 AI 相关股票和全球主要股指下挫。\n\n治理上，七位联合创始人通过创始人控制的 LLC 持有超级投票权股份，在多数股东投票中保留 50.1% 控制权；Amazon 持股 14.7%、Google 持股 13.7%，均为无投票权股份。七位创始人各出售约 340 万股，按发行价每人套现约 2.8 亿美元，合计 19.5 亿美元，并承诺将个人持股的 80% 用于慈善，公司称该承诺…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
+    },
+    {
       "rank": 3,
+      "title": "Thinking Machines 开源 26.4B 循环模型 Inkling 2 Mini",
+      "list_title": "Thinking Machines 开源 26.4B 循环模型 Inkling 2 Mini",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Thinking Machines Lab 发布开源权重模型 Inkling 2 Mini，回应部分用户认为上一代 Inkling 2 Small 的 594B 参数过大。模型采用循环 Transformer 架构：24 层中中间 12 层对每个 token 运行三次，首尾各六层只运行一次。公司称其总参数 26.4B、激活 3.4B，内存占用约 20GB，可在 32GB 内存以上的 Mac 上通过 Ollama 预发布版本地运行，也可在 NVIDIA DGX Spark 上运行；完整权重及可变循环版本已发布在 Hugging Face，Apache 2.0 许可，支持文本和图像输入、1M token 上下文窗口。\n\nArtificial Analysis 称该模型在其 Intelligence Index 上得分 20，第一方定价为每百万输入/输出/缓存命中 token 0.15/0.50/0.015 美元。ARC Prize 公布其在 ARC-AGI-2 得分 49.3%、每任务 0.14 美元，ARC-AGI-1 得分 84.5%、每任务 0…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/0cf0f02a-0464-43db-b253-ed1878937b74"
+    },
+    {
+      "rank": 4,
       "title": "Google 发布 Gemini 4 Neon，API 可直传 Office 文件",
       "list_title": "Google 发布 Gemini 4 Neon，API 可直传 Office 文件",
       "heat": null,
-      "heat_change": "↓ 26 %",
+      "heat_change": "↓ 18 %",
       "sources": [],
       "summary": "Google 于 11 月 18 日发布 Gemini 4 Neon，称其面向复杂软件工程、知识工作和科学工作流提供快速端到端任务完成。即日起向 Google AI Pro/Ultra 订阅用户（Gemini App 移动端、桌面端和网页端，可在 Chat 和 Tasks 模型下拉菜单选择）、付费 Pro/Ultra 用户的 Antigravity、Google AI Studio 的 Gemini API 付费层及 Gemini 商业版推送；Fairwind Program 的 Gemini 4 Neon for cyber 将在数日内向受信任的防御者开放。同一 API 更新中，用户可直接向 Gemini API 传入 Word、PowerPoint、Excel 等 Office 和 OpenDocument 文件。\n\nGemini API 付费档定价为每百万输入 token 3 美元、输出 15 美元，缓存输入每百万 0.15 美元，上下文窗口 100 万 token。The Decoder 和 Simon Willison 均指出，这一价格…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/74578987-a1ed-4ce0-96b8-658226459865"
     },
     {
-      "rank": 4,
-      "title": "Thinking Machines 发布可本地运行的开源模型 Inkling 2 Mini",
-      "list_title": "Thinking Machines 发布可本地运行的开源模型 Inkling 2 Mini",
-      "heat": null,
-      "heat_change": "↑ 21 %",
-      "sources": [],
-      "summary": "Thinking Machines Lab 发布开源权重模型 Inkling 2 Mini，回应部分用户认为上一代 Inkling 2 Small 的 594B 参数过大。模型采用循环 Transformer 架构：24 层中中间 12 层每个 token 运行三次，首尾各六层只运行一次。公司称其总参数 26.4B、激活 3.4B，内存占用约 20GB，可在 32GB 内存以上的 Mac 上通过 Ollama 预发布版本地运行，也可在 NVIDIA DGX Spark 上运行；完整权重及可变循环版本已发布在 Hugging Face，Apache 2.0 许可，支持文本和图像输入、1M token 上下文窗口。\n\nArtificial Analysis 称该模型在其 Intelligence Index 上得分 20，第一方定价为每百万输入/输出/缓存命中 token 0.15/0.50/0.015 美元。ARC Prize 公布其在 ARC-AGI-2 得分 49.3%、每任务 0.14 美元，ARC-AGI-1 得分 84.5%、每任务 0.…",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/0cf0f02a-0464-43db-b253-ed1878937b74"
-    },
-    {
       "rank": 5,
       "title": "Google 为 Mac 版 Gemini 上线电脑操作功能",
       "list_title": "Google 为 Mac 版 Gemini 上线电脑操作功能",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↓ 27 %",
       "sources": [],
       "summary": "Google 宣布，macOS 版 Gemini 桌面应用新增 computer use 功能，AI 可在后台窗口中点击、滚动和输入，代用户跨本地文件夹、桌面应用和网页完成多步任务，例如填写表单、制作演示文稿。用户可选择允许 Gemini 访问哪些应用，并在聊天中实时预览、暂停、停止或审批操作；Google 称屏幕和光标仍归用户控制。\n\n该功能目前仅面向美国英语用户推出，需安装 Gemini Mac 应用并持有 Google AI Plus、Pro 或 Ultra 订阅；Google 暂未公布扩展到其他市场和其他平台的时间。\n\nThe Verge 称，此次上线恰逢 Apple 在 macOS 27.3 beta 中预览对应用完全磁盘访问的新限制，理由是 AI 智能体风险。",
       "original_links": [],
@@ -64,6 +64,17 @@
     },
     {
       "rank": 6,
+      "title": "特朗普威胁对海外建数据中心征税",
+      "list_title": "特朗普威胁对海外建数据中心征税",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "特朗普在与中国国家主席习近平、俄罗斯总统普京峰会后的一场新闻发布会上称，不允许美国公司在海外建设数据中心，否则将对其征收“巨大税收”，理由是“否则中国会全部拿走”。他称这一想法尚未告知自己的团队，也未给出税率、适用范围等具体细节。\n\n报道同时提到，美国多州和城市正在限制新建数据中心的申请；数月内就职的民主党多数国会可能使该计划难以落实。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/9d1f99c5-6603-4fa6-99c6-30ae0b7c956e"
+    },
+    {
+      "rank": 7,
       "title": "苹果被曝加速Siri智能体化并招聘工程师",
       "list_title": "苹果被曝加速Siri智能体化并招聘工程师",
       "heat": null,
@@ -74,48 +85,37 @@
       "story_url": "https://aihot.virxact.com/story/a1b6af96-fbdf-4779-80a9-0ca55270818c"
     },
     {
-      "rank": 7,
-      "title": "特朗普威胁对海外建数据中心征税",
-      "list_title": "特朗普威胁对海外建数据中心征税",
-      "heat": null,
-      "heat_change": "↑ 21 %",
-      "sources": [],
-      "summary": "特朗普在与中国国家主席习近平、俄罗斯总统普京峰会后的一场新闻发布会上称，不允许美国公司在海外建设数据中心，否则将对其征收“巨大税收”，理由是“否则中国会全部拿走”。他称这一想法尚未告知自己的团队，也未给出税率、适用范围等具体细节。\n\n报道同时提到，美国多州和城市正在限制新建数据中心的申请；数月内就职的民主党多数国会可能使该计划难以落实。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/9d1f99c5-6603-4fa6-99c6-30ae0b7c956e"
-    },
-    {
       "rank": 8,
-      "title": "OpenAI 向 Plus 用户开放 ChatGPT Space",
-      "list_title": "OpenAI 向 Plus 用户开放 ChatGPT Space",
+      "title": "Signal 限制 iOS 27 与 Android 截图，阻止 AI 读取聊天",
+      "list_title": "Signal 限制 iOS 27 与 Android 截图，阻止 AI 读取聊天",
       "heat": null,
-      "heat_change": "↑ 84 %",
+      "heat_change": "↑ 18 %",
       "sources": [],
-      "summary": "OpenAI 宣布向每月 20 美元的 ChatGPT Plus 订阅用户开放 Spaces 协作空间，此前该功能仅限 Pro、Business 和 Enterprise 方案。用户可与他人协作创建交互式页面、幻灯片和网站，ChatGPT 能代为保持内容更新；Space 成为侧边栏中 pages、slides、images、files 和 uploads 的统一入口，页面和幻灯片可从已连接的工具自动更新。本次更新还支持移动端编辑，并提升了流畅度和稳定性。\n\n据 IT之家报道，此次开放面向全球年满 18 周岁的 Plus 用户分批进行，并非所有账号都会立即获得入口；免费用户无法打开共享内容，目前也不支持公开链接分享，Dot 智能体的使用权限仍受套餐限制。\n\nOpenAI 产品设计人员 Ed Bayes 称，这次发布包含大量简化，后续还会有更多内容。OpenAI 官方账号另列举了 12 种 Space 用法，包括把每周指标转成图表幻灯片、制作品牌 pitch deck、生成学习指南，以及汇总 Slack 讨论与 GitHub 更新为共享 build …",
+      "summary": "Signal 在 iOS 27 和受支持的 Android 版本上限制应用内截图，目的是阻止 Siri、Gemini 等系统级 AI 智能体读取屏幕上已解密的消息内容。据 The Decoder 报道，在 Android 上，当 AI 助手尝试访问屏幕时会触发保护。\n\n用户可以在 Signal 的应用设置中恢复截图功能。Signal 称，这一限制目前无法在 macOS 上实现。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/af4ac277-326a-46b2-9427-8172d51f5032"
+      "story_url": "https://aihot.virxact.com/story/3e9f616b-fbd2-43c8-b778-498a7800b0c3"
     },
     {
       "rank": 9,
+      "title": "OpenAI发布对抗模型蒸馏新研究",
+      "list_title": "OpenAI发布对抗模型蒸馏新研究",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "OpenAI 于 11 月 21 日分享了一项新研究，介绍其打击针对自家模型的蒸馏行为、相关能力如何迁移，以及如何检测并阻断协同性蒸馏尝试。OpenAI 称，知识蒸馏可以复制强大的 AI 能力，却无法复制围绕这些能力构建的安全防护措施。\n\nOpenAI 表示，这些发现正帮助其强化防御，并支持全行业的安全防护。研究的具体方法、检测效果和适用范围尚未在已披露内容中说明。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/81fec11b-26b4-4c31-9bc0-33baf4b4b5fc"
+    },
+    {
+      "rank": 10,
       "title": "SpaceX芯片融资贷款方要求芯片不得用于轨道数据中心",
       "list_title": "SpaceX芯片融资贷款方要求芯片不得用于轨道数据中心",
       "heat": null,
-      "heat_change": "↑ 46 %",
+      "heat_change": "",
       "sources": [],
       "summary": "据 Financial Times 报道，SpaceX 一笔 400 亿美元芯片融资交易的贷款方提出，所购芯片不得用于 SpaceX 的轨道数据中心计划；SpaceX 是否同意这一条款尚不清楚。TechCrunch 分析称，这一限制与融资结构有关：数据中心生态依赖债务融资，通常以芯片作抵押，违约时贷款方可收回芯片转售，而芯片一旦部署在轨道上，贷款方就无法收回转售。\n\n据 Bloomberg 报道，SpaceX 另完成 320 亿美元债务融资，用于采购约 473 亿美元的 Nvidia Rubin GPU，BlackRock 和 KKR 为锚定投资者，芯片定于 1 月开始交付。由 Apollo Global Management 旗下部门管理的 Saturn Funding Trust 购买芯片并租给 SpaceX 约 5 年，该结构使借款不入表，有助于维持投资级评级并更快借入更多资金。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/43b0ab9d-4844-4220-b2e0-85ccccf21a53"
-    },
-    {
-      "rank": 10,
-      "title": "OpenAI发布MedChemBench药物化学基准",
-      "list_title": "OpenAI发布MedChemBench药物化学基准",
-      "heat": null,
-      "heat_change": "↑ 111 %",
-      "sources": [],
-      "summary": "OpenAI 发布药物化学基准 MedChemBench，用 99 道取自 117 篇论文与专利、涉及 761 个分子结构的题目，评估 AI 识别分子结构、解读实验结果、比较化合物及预测性质的能力。OpenAI 称，在 xhigh 推理档下，GPT-6.2 Astra 获 84.5% 可用分数，GPT-6 Astra 为 83.3%，GPT-6.1 Sol 为 82.0%，GPT-5.6 Sol 仅 58.2%；这些均为其自报结果。\n\n据 Rohan Paul 转述，基准隐藏了研究者后续报告的结果，每个提示停在真实决策点，给出生物靶点、已合成化合物和部分测定结果；GPT-6.2 Astra 化学结构读取接近满分，但关键决策仅约一半正确。OpenAI 称该基准展示前沿模型帮助科学家识别候选药物的进展，Greg Brockman 称进步非常显著。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/62aa7344-b33e-4e54-88c7-f5893395c518"
     }
   ]
 }
