@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-11-21T07:54:54.927888+08:00",
+  "observed_at": "2026-11-21T15:57:10.291320+08:00",
   "source_count": 3,
   "raw_count": 52,
   "source_stats": {
@@ -8,37 +8,26 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 12,
+      "count": 0,
       "inventory_count": 20,
-      "signal_count": 1,
-      "added_count": 6,
-      "removed_count": 6,
-      "clusters": {
-        "operations": 2,
-        "payments": 2,
-        "engineering": 1
-      },
-      "removed_clusters": {
-        "operations": 2,
-        "payments": 1
-      }
+      "signal_count": 0,
+      "added_count": 0,
+      "removed_count": 0,
+      "clusters": {},
+      "removed_clusters": {}
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 2,
+      "count": 0,
       "inventory_count": 7,
       "signal_count": 0,
-      "added_count": 1,
-      "removed_count": 1,
-      "clusters": {
-        "ai": 1
-      },
-      "removed_clusters": {
-        "sales": 1
-      }
+      "added_count": 0,
+      "removed_count": 0,
+      "clusters": {},
+      "removed_clusters": {}
     },
     "Shopify Jobs": {
       "method": "jobs_snapshot",
@@ -54,111 +43,6 @@
       "removed_clusters": {}
     }
   },
-  "candidate_signals": [
-    {
-      "candidate_id": "jobs-ecd78e6d167b99b9",
-      "entity_id": "grab",
-      "entity": "Grab",
-      "region": "亚太",
-      "sector": "mobility_payment",
-      "source_type": "jobs_snapshot",
-      "signal_type": "function_buildout",
-      "cluster": "operations",
-      "window": "2026-W47",
-      "window_start": "2026-11-21",
-      "window_end": "2026-11-21",
-      "detected_at": "2026-11-21T07:54:54.927888+08:00",
-      "baseline_count": 20,
-      "current_count": 20,
-      "added_count": 6,
-      "removed_count": 6,
-      "clusters": {
-        "operations": 2,
-        "payments": 2,
-        "engineering": 1
-      },
-      "removed_clusters": {
-        "operations": 2,
-        "payments": 1
-      },
-      "evidence_refs": [
-        {
-          "job_id": "744000162692531",
-          "title": "Senior Product Analyst, Grab Support",
-          "url": "https://www.grab.careers/en/jobs/744000162692531/senior-product-analyst-grab-support/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000162688904",
-          "title": "Data Scientist (Analytics), Financial Services - Lending",
-          "url": "https://www.grab.careers/en/jobs/744000162688904/data-scientist-analytics-financial-services-lending/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000162688899",
-          "title": "Data Scientist (Analytics), Financial Services - Payments",
-          "url": "https://www.grab.careers/en/jobs/744000162688899/data-scientist-analytics-financial-services-payments/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000162678179",
-          "title": "Senior Manager, Public Affairs",
-          "url": "https://www.grab.careers/en/jobs/744000162678179/senior-manager-public-affairs/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000162675439",
-          "title": "Senior Data Scientist (Analytics), Grab Support",
-          "url": "https://www.grab.careers/en/jobs/744000162675439/senior-data-scientist-analytics-grab-support/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000162670416",
-          "title": "Senior Software Engineer, Backend - Business Platform",
-          "url": "https://www.grab.careers/en/jobs/744000162670416/senior-software-engineer-backend-business-platform/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000162662060",
-          "title": "Senior Manager, Public Affairs",
-          "url": "https://www.grab.careers/en/jobs/744000162662060/senior-manager-public-affairs/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000162652574",
-          "title": "Senior Data Scientist (Analytics) - Grab Support",
-          "url": "https://www.grab.careers/en/jobs/744000162652574/senior-data-scientist-analytics-grab-support/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000162429669",
-          "title": "Senior Associate, Driver Engagement & Social Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000162429669/senior-associate-driver-engagement-social-strategy/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000162429629",
-          "title": "Senior Data Scientist (Analytics), Financial Services",
-          "url": "https://www.grab.careers/en/jobs/744000162429629/senior-data-scientist-analytics-financial-services/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000162428569",
-          "title": "Intern, Driver Operations",
-          "url": "https://www.grab.careers/en/jobs/744000162428569/intern-driver-operations/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000162427979",
-          "title": "Supply Chain In-Stock Associate",
-          "url": "https://www.grab.careers/en/jobs/744000162427979/supply-chain-in-stock-associate/",
-          "change": "removed"
-        }
-      ],
-      "status": "qualified",
-      "rejection_reason": "",
-      "promoted_event_id": ""
-    }
-  ],
+  "candidate_signals": [],
   "promoted_count": 0
 }
