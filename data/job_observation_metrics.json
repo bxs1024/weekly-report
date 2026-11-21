@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-11-20T16:01:43.994914+08:00",
+  "observed_at": "2026-11-21T07:54:54.927888+08:00",
   "source_count": 3,
   "raw_count": 52,
   "source_stats": {
@@ -8,30 +8,37 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 10,
+      "count": 12,
       "inventory_count": 20,
       "signal_count": 1,
-      "added_count": 5,
-      "removed_count": 5,
+      "added_count": 6,
+      "removed_count": 6,
       "clusters": {
         "operations": 2,
-        "engineering": 1,
-        "sales": 1
+        "payments": 2,
+        "engineering": 1
       },
-      "removed_clusters": {}
+      "removed_clusters": {
+        "operations": 2,
+        "payments": 1
+      }
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
+      "count": 2,
       "inventory_count": 7,
       "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
-      "removed_clusters": {}
+      "added_count": 1,
+      "removed_count": 1,
+      "clusters": {
+        "ai": 1
+      },
+      "removed_clusters": {
+        "sales": 1
+      }
     },
     "Shopify Jobs": {
       "method": "jobs_snapshot",
@@ -58,78 +65,93 @@
       "signal_type": "function_buildout",
       "cluster": "operations",
       "window": "2026-W47",
-      "window_start": "2026-11-20",
-      "window_end": "2026-11-20",
-      "detected_at": "2026-11-20T16:01:43.994914+08:00",
+      "window_start": "2026-11-21",
+      "window_end": "2026-11-21",
+      "detected_at": "2026-11-21T07:54:54.927888+08:00",
       "baseline_count": 20,
       "current_count": 20,
-      "added_count": 5,
-      "removed_count": 5,
+      "added_count": 6,
+      "removed_count": 6,
       "clusters": {
         "operations": 2,
-        "engineering": 1,
-        "sales": 1
+        "payments": 2,
+        "engineering": 1
       },
-      "removed_clusters": {},
+      "removed_clusters": {
+        "operations": 2,
+        "payments": 1
+      },
       "evidence_refs": [
+        {
+          "job_id": "744000162692531",
+          "title": "Senior Product Analyst, Grab Support",
+          "url": "https://www.grab.careers/en/jobs/744000162692531/senior-product-analyst-grab-support/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000162688904",
+          "title": "Data Scientist (Analytics), Financial Services - Lending",
+          "url": "https://www.grab.careers/en/jobs/744000162688904/data-scientist-analytics-financial-services-lending/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000162688899",
+          "title": "Data Scientist (Analytics), Financial Services - Payments",
+          "url": "https://www.grab.careers/en/jobs/744000162688899/data-scientist-analytics-financial-services-payments/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000162678179",
+          "title": "Senior Manager, Public Affairs",
+          "url": "https://www.grab.careers/en/jobs/744000162678179/senior-manager-public-affairs/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000162675439",
+          "title": "Senior Data Scientist (Analytics), Grab Support",
+          "url": "https://www.grab.careers/en/jobs/744000162675439/senior-data-scientist-analytics-grab-support/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000162670416",
+          "title": "Senior Software Engineer, Backend - Business Platform",
+          "url": "https://www.grab.careers/en/jobs/744000162670416/senior-software-engineer-backend-business-platform/",
+          "change": "added"
+        },
         {
           "job_id": "744000162662060",
           "title": "Senior Manager, Public Affairs",
           "url": "https://www.grab.careers/en/jobs/744000162662060/senior-manager-public-affairs/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000162654639",
-          "title": "Senior Specialist, Benefits Operations",
-          "url": "https://www.grab.careers/en/jobs/744000162654639/senior-specialist-benefits-operations/",
-          "change": "added"
+          "change": "removed"
         },
         {
           "job_id": "744000162652574",
           "title": "Senior Data Scientist (Analytics) - Grab Support",
           "url": "https://www.grab.careers/en/jobs/744000162652574/senior-data-scientist-analytics-grab-support/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000162651429",
-          "title": "Associate, Self-Serve Platform Growth",
-          "url": "https://www.grab.careers/en/jobs/744000162651429/associate-self-serve-platform-growth/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000162649259",
-          "title": "Head, Country Planning",
-          "url": "https://www.grab.careers/en/jobs/744000162649259/head-country-planning/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000162425429",
-          "title": "Lead Product Manager, Supply Chain",
-          "url": "https://www.grab.careers/en/jobs/744000162425429/lead-product-manager-supply-chain/",
           "change": "removed"
         },
         {
-          "job_id": "744000162422832",
-          "title": "Lead, Cost Strategic Finance",
-          "url": "https://www.grab.careers/en/jobs/744000162422832/lead-cost-strategic-finance/",
+          "job_id": "744000162429669",
+          "title": "Senior Associate, Driver Engagement & Social Strategy",
+          "url": "https://www.grab.careers/en/jobs/744000162429669/senior-associate-driver-engagement-social-strategy/",
           "change": "removed"
         },
         {
-          "job_id": "744000162273829",
-          "title": "Lead Data Scientist",
-          "url": "https://www.grab.careers/en/jobs/744000162273829/lead-data-scientist/",
+          "job_id": "744000162429629",
+          "title": "Senior Data Scientist (Analytics), Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000162429629/senior-data-scientist-analytics-financial-services/",
           "change": "removed"
         },
         {
-          "job_id": "744000162269537",
-          "title": "Community Engagement Executive, Batam",
-          "url": "https://www.grab.careers/en/jobs/744000162269537/community-engagement-executive-batam/",
+          "job_id": "744000162428569",
+          "title": "Intern, Driver Operations",
+          "url": "https://www.grab.careers/en/jobs/744000162428569/intern-driver-operations/",
           "change": "removed"
         },
         {
-          "job_id": "744000162262450",
-          "title": "Merchant Product & Strategy Assistant Manager",
-          "url": "https://www.grab.careers/en/jobs/744000162262450/merchant-product-strategy-assistant-manager/",
+          "job_id": "744000162427979",
+          "title": "Supply Chain In-Stock Associate",
+          "url": "https://www.grab.careers/en/jobs/744000162427979/supply-chain-in-stock-associate/",
           "change": "removed"
         }
       ],
@@ -138,5 +160,5 @@
       "promoted_event_id": ""
     }
   ],
-  "promoted_count": 1
+  "promoted_count": 0
 }

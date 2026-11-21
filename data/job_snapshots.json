@@ -1,29 +1,61 @@
 {
   "version": 1,
-  "generated_at": "2026-11-20T16:01:43.994914+08:00",
+  "generated_at": "2026-11-21T07:54:54.927888+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-20T16:01:43.994914+08:00",
+      "observed_at": "2026-11-21T07:54:54.927888+08:00",
       "jobs": [
         {
-          "id": "744000162662060",
-          "title": "Senior Manager, Public Affairs",
-          "url": "https://www.grab.careers/en/jobs/744000162662060/senior-manager-public-affairs/",
-          "function_tags": []
-        },
-        {
-          "id": "744000162654639",
-          "title": "Senior Specialist, Benefits Operations",
-          "url": "https://www.grab.careers/en/jobs/744000162654639/senior-specialist-benefits-operations/",
+          "id": "744000162692531",
+          "title": "Senior Product Analyst, Grab Support",
+          "url": "https://www.grab.careers/en/jobs/744000162692531/senior-product-analyst-grab-support/",
           "function_tags": [
             "operations"
           ]
         },
         {
-          "id": "744000162652574",
-          "title": "Senior Data Scientist (Analytics) - Grab Support",
-          "url": "https://www.grab.careers/en/jobs/744000162652574/senior-data-scientist-analytics-grab-support/",
+          "id": "744000162688904",
+          "title": "Data Scientist (Analytics), Financial Services - Lending",
+          "url": "https://www.grab.careers/en/jobs/744000162688904/data-scientist-analytics-financial-services-lending/",
+          "function_tags": [
+            "payments"
+          ]
+        },
+        {
+          "id": "744000162688899",
+          "title": "Data Scientist (Analytics), Financial Services - Payments",
+          "url": "https://www.grab.careers/en/jobs/744000162688899/data-scientist-analytics-financial-services-payments/",
+          "function_tags": [
+            "payments"
+          ]
+        },
+        {
+          "id": "744000162678179",
+          "title": "Senior Manager, Public Affairs",
+          "url": "https://www.grab.careers/en/jobs/744000162678179/senior-manager-public-affairs/",
+          "function_tags": []
+        },
+        {
+          "id": "744000162675439",
+          "title": "Senior Data Scientist (Analytics), Grab Support",
+          "url": "https://www.grab.careers/en/jobs/744000162675439/senior-data-scientist-analytics-grab-support/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000162670416",
+          "title": "Senior Software Engineer, Backend - Business Platform",
+          "url": "https://www.grab.careers/en/jobs/744000162670416/senior-software-engineer-backend-business-platform/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000162654639",
+          "title": "Senior Specialist, Benefits Operations",
+          "url": "https://www.grab.careers/en/jobs/744000162654639/senior-specialist-benefits-operations/",
           "function_tags": [
             "operations"
           ]
@@ -118,40 +150,12 @@
           "function_tags": [
             "operations"
           ]
-        },
-        {
-          "id": "744000162429669",
-          "title": "Senior Associate, Driver Engagement & Social Strategy",
-          "url": "https://www.grab.careers/en/jobs/744000162429669/senior-associate-driver-engagement-social-strategy/",
-          "function_tags": []
-        },
-        {
-          "id": "744000162429629",
-          "title": "Senior Data Scientist (Analytics), Financial Services",
-          "url": "https://www.grab.careers/en/jobs/744000162429629/senior-data-scientist-analytics-financial-services/",
-          "function_tags": [
-            "payments"
-          ]
-        },
-        {
-          "id": "744000162428569",
-          "title": "Intern, Driver Operations",
-          "url": "https://www.grab.careers/en/jobs/744000162428569/intern-driver-operations/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000162427979",
-          "title": "Supply Chain In-Stock Associate",
-          "url": "https://www.grab.careers/en/jobs/744000162427979/supply-chain-in-stock-associate/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-20T16:01:43.994914+08:00",
+      "observed_at": "2026-11-21T07:54:54.927888+08:00",
       "jobs": [
         {
           "id": "8144196",
@@ -166,6 +170,14 @@
           "id": "8221776",
           "title": "AI Solutions Program Manager, Finance",
           "url": "https://stripe.com/careers/listing/ai-solutions-program-manager-finance/8221776",
+          "function_tags": [
+            "ai"
+          ]
+        },
+        {
+          "id": "8287910",
+          "title": "AI Transformation Lead, Marketing",
+          "url": "https://stripe.com/careers/listing/ai-transformation-lead-marketing/8287910",
           "function_tags": [
             "ai"
           ]
@@ -198,20 +210,12 @@
           "function_tags": [
             "sales"
           ]
-        },
-        {
-          "id": "8345657",
-          "title": "Account Executive (SMB Grower, Japan )",
-          "url": "https://stripe.com/careers/listing/account-executive-smb-grower-japan/8345657",
-          "function_tags": [
-            "sales"
-          ]
         }
       ]
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-20T16:01:43.994914+08:00",
+      "observed_at": "2026-11-21T07:54:54.927888+08:00",
       "jobs": [
         {
           "id": "1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536",
