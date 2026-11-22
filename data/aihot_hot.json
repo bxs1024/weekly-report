@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T11:41:36+08:00",
-  "fetched_date": "2026-11-22",
+  "generated_at": "2026-11-23T03:05:15+08:00",
+  "fetched_date": "2026-11-23",
   "source": {
     "name": "AIHOT 热点榜",
     "url": "https://aihot.virxact.com/hot",
@@ -9,12 +9,12 @@
   "items": [
     {
       "rank": 1,
-      "title": "Anthropic 数学家称与 Claude 证明黎曼猜想",
-      "list_title": "Anthropic 数学家称与 Claude 证明黎曼猜想",
+      "title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
+      "list_title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↓ 15 %",
       "sources": [],
-      "summary": "Anthropic 数学家莱文特·阿尔波格当地时间 20 日在个人网站宣称，自己与 Claude 合作证明了黎曼猜想，并称方法可推广至广义与扩展黎曼猜想。他称论证已无假设地形式化，Claude 在最后阶段远超自己；据 Rohan Paul 转述，整个过程约六周，Claude 在他未掌握的高级领域提出了关键步骤。\n\nThe Verge 报道称，该解法尚待独立验证；Anthropic 未就此事表态，也未参与其发布。阿尔波格发布的证明以 Lean 形式化代码呈现，公众号“数字生命卡兹克”称其未附论文，只放出 14 个压缩包、共 175187 个 Lean 文件、1737 万行代码，等待逐步验证。\n\n若获确认，大量以黎曼猜想为前提的数学结论将随之成立。Google 研究员 François Chollet 转发相关报道并评论“What a time to be alive”，未对证明本身作出判断；Rohan Paul 则附上陶哲轩上月访谈中“现有 AI 无法攻克该问题”的说法作对照。马斯克转发 Grok 的说法称，即使黎曼猜想尚未完全解决，也很快会解决。",
+      "summary": "Anthropic 数学家莱文特·阿尔波格于 11 月 20 日宣称与 Claude 合作证明了黎曼猜想，并称方法可推广至广义与扩展黎曼猜想。他未附论文，只发布约 1700 万行 Lean 形式化代码。The Verge 当时指出该解法尚待独立验证，Anthropic 未就此事表态，也未参与其发布。\n\nLean 与 Mathlib 社区随后发表声明，确认该证明正确：数十人独立运行得到相同结果，验证程序被设计为可证明不会接受有缺陷的证明。菲尔兹奖得主詹姆斯·梅纳德此前在采访中称，他相信证明正确，依据是已通过 Lean 库形式化验证并经独立核实，且阿尔波格过往记录可靠；但他同时表示，证明需被理解才可能获认可。\n\n若获确认，大量以黎曼猜想为前提的数学结论将随之成立。Rohan Paul 曾附上陶哲轩上月访谈中“现有 AI 无法攻克该问题”的说法作对照。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/647b0945-9244-4f55-b509-0f3fa0f6fe51"
     },
@@ -31,50 +31,72 @@
     },
     {
       "rank": 3,
+      "title": "OpenAI 提议以困惑度设共同安全上限",
+      "list_title": "OpenAI 提议以困惑度设共同安全上限",
+      "heat": null,
+      "heat_change": "↑ 1306 %",
+      "sources": [],
+      "summary": "OpenAI 首席科学家 Jakub Pachocki 发表《Perplexity and Intelligence》，主张以困惑度（perplexity，即交叉熵损失）等度量设立跨模型开发者的共同上限，超过门槛的进展须以人类理解 AI 行为的能力为前提，并公开了模型 log-perplexity 随时间下降的图表。\n\nCEO Sam Altman 随后表态支持，称 OpenAI 正在大幅公开预训练进展，希望各方就共同限制达成一致。他进一步提议前沿模型开发者共同建立评估模型、红线测试安全案例的行业规范，包括共享透明度标准；并建议以困惑度等测量设定开发者承诺不逾越的共同上限，直到理解与监控 AI 行为的能力达到具体里程碑（如 CoT 监控器的后继技术）。Altman 还称，各实验室已在白宫协议下同意建立标准和最佳实践，围绕困惑度的讨论可进一步推进这些目标。\n\n上述内容目前仍是 OpenAI 方面的提议，尚未成为行业或公司的既定规则。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/c5ab5cf5-6316-4ad6-9d74-f0b378a2b064"
+    },
+    {
+      "rank": 4,
+      "title": "特斯拉FSD v15下月推送，马斯克介绍天空箭头导航",
+      "list_title": "特斯拉FSD v15下月推送，马斯克介绍天空箭头导航",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "特斯拉 FSD v15 将于下个月开始推送。官方称其安全性提升 25x、体验更丝滑，并支持实时街景渲染；这些说法目前没有验证数据。\n\n马斯克介绍，v15 中特斯拉 AI 计算机会像电子游戏一样，用天空中的箭头重新渲染现实来指示转弯，用户可点击“现实重现器”上的任意一点让车辆驶向该处。\n\n有推文认为本地算力足以支撑高质量渲染、效果堪比 GTA 6，并猜测部分地区 FSD 或已可无监督运行，这些均为推文说法。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/fcbdc9a0-bdf5-473c-9f26-7a51a8deb2e3"
+    },
+    {
+      "rank": 5,
       "title": "Anthropic 上市首日收涨 17%，次日回落",
       "list_title": "Anthropic 上市首日收涨 17%，次日回落",
       "heat": null,
-      "heat_change": "↓ 28 %",
+      "heat_change": "↓ 39 %",
       "sources": [],
       "summary": "Anthropic 于 11 月 19 日在纳斯达克上市，IPO 定价每股 83 美元，高于 70 至 78 美元的发行区间，发行 9.8 亿股 A 类普通股，公司募资约 813 亿美元；加上七家算力供应商按发行价合计认购 260 亿美元无投票权股份，总募资超过 940 亿美元。首日开盘 111.50 美元、盘中一度达 115.10 美元，市值一度超过 2 万亿美元，收盘回落至 97.17 美元，较发行价涨 17.07%；IT之家按此计算市值约 1.27 万亿美元，另有报道按完全稀释口径计算约 1.76 万亿美元。上市第二天股价跌逾 9% 至 88.17 美元，接近发行价，同期 AI 相关股票和全球主要股指下挫。\n\n治理上，七位联合创始人通过创始人控制的 LLC 持有超级投票权股份，在多数股东投票中保留 50.1% 控制权；Amazon 持股 14.7%、Google 持股 13.7%，均为无投票权股份。七位创始人各出售约 340 万股，按发行价每人套现约 2.8 亿美元，合计 19.5 亿美元，并承诺将个人持股的 80% 用于慈善，公司称该承诺…",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
     },
     {
-      "rank": 4,
-      "title": "Google 发布 Gemini 4 Neon，API 可直传 Office 文件",
-      "list_title": "Google 发布 Gemini 4 Neon，API 可直传 Office 文件",
+      "rank": 6,
+      "title": "200万诱饵请求测出AI服务链数据外泄",
+      "list_title": "200万诱饵请求测出AI服务链数据外泄",
       "heat": null,
-      "heat_change": "↓ 28 %",
+      "heat_change": "↑ 28 %",
       "sources": [],
-      "summary": "Google 于 11 月 18 日发布 Gemini 4 Neon，称其面向复杂软件工程、知识工作和科学工作流提供快速端到端任务完成。即日起向 Google AI Pro/Ultra 订阅用户（Gemini App 移动端、桌面端和网页端，可在 Chat 和 Tasks 模型下拉菜单选择）、付费 Pro/Ultra 用户的 Antigravity、Google AI Studio 的 Gemini API 付费层及 Gemini 商业版推送；Fairwind Program 的 Gemini 4 Neon for cyber 将在数日内向受信任的防御者开放。同一 API 更新中，用户可直接向 Gemini API 传入 Word、PowerPoint、Excel 等 Office 和 OpenDocument 文件。\n\nGemini API 付费档定价为每百万输入 token 3 美元、输出 15 美元，缓存输入每百万 0.15 美元，上下文窗口 100 万 token。The Decoder 和 Simon Willison 均指出，这一价格…",
+      "summary": "安全公司 Dragos 首席研究官 HD Moore 在 2026 年 7 月至 11 月间，经 OpenRouter 等 AI 路由向多家 AI 服务商发送约 200 万条带假凭证和可追踪诱饵的请求，发现提示词被窃、转售商外传数据、隐私设置未被执行等问题。至少三家服务商出现遭入侵迹象，被盗的数百个 AWS 密钥在数小时内被试用并用于搜索 S3 存储；部分标记为“零数据保留”（ZDR）的请求，其私密网址数日后仍被抓取。The Decoder 报道称，受影响服务商包括 Novita、Phala 和 Together。\n\nOpenRouter 回应称，未发现 OpenRouter 本身被入侵，问题出在部分推理提供商的数据泄露或数据政策未被执行。OpenRouter 称已下架 3 家提供商、将 125 个端点移出 ZDR 资格并通知受影响客户；被移出的端点须提供适当保证并通过验证，才能恢复 ZDR 资格。\n\nMoore 建议敏感业务可本地部署或直接选择可信服务商；Dragos 还建议企业控制 AI 请求的路由方式、检查隐私设置并植入自有的金丝雀令牌。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/74578987-a1ed-4ce0-96b8-658226459865"
+      "story_url": "https://aihot.virxact.com/story/2d0a9c1a-2a0a-41b6-a7ef-776ef03a783b"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "Signal 移动端默认拦截截图，防系统级 AI 读取聊天",
       "list_title": "Signal 移动端默认拦截截图，防系统级 AI 读取聊天",
       "heat": null,
-      "heat_change": "",
+      "heat_change": "↑ 10 %",
       "sources": [],
       "summary": "Signal 推出 iOS 和 Android 更新，默认阻止应用内截图和录屏，以阻止 Siri AI、Gemini 等系统级 AI 智能体读取已解密的消息内容。此前 Windows 版已默认阻止截图。\n\n用户可在 Signal 应用设置中恢复截图：IT之家称可选择关闭该功能 10 分钟或永久禁用；TechCrunch 引述 Signal 总裁 Meredith Whittaker 称，关闭该限制会“破坏我们的隐私保证”。IT之家还称，由于不同安卓设备的实现方式存在差异，这项检测并非在所有设备上都能稳定运行。\n\nWhittaker 称，集成 agentic AI 的操作系统会扫描屏幕数据，使敏感信息被捕获、存储并可被系统级 AI 访问；她同时承认这是“不完整”的解决方案，未覆盖 AI 智能体访问应用数据的其他更隐蔽方式。Signal 表示，这一保护目前无法在 macOS 上实现。",
       "original_links": [],
       "story_url": "https://aihot.virxact.com/story/3e9f616b-fbd2-43c8-b778-498a7800b0c3"
     },
     {
-      "rank": 6,
-      "title": "特朗普威胁对海外建数据中心征税",
-      "list_title": "特朗普威胁对海外建数据中心征税",
+      "rank": 8,
+      "title": "Chollet 称算力需求未见顶，马斯克预警资金短缺",
+      "list_title": "Chollet 称算力需求未见顶，马斯克预警资金短缺",
       "heat": null,
       "heat_change": "↓ 16 %",
       "sources": [],
-      "summary": "特朗普在与中国国家主席习近平、俄罗斯总统普京峰会后的一场新闻发布会上称，不允许美国公司在海外建设数据中心，否则将对其征收“巨大税收”，理由是“否则中国会全部拿走”。他称这一想法尚未告知自己的团队，也未给出税率、适用范围等具体细节。\n\n报道同时提到，美国多州和城市正在限制新建数据中心的申请；数月内就职的民主党多数国会可能使该计划难以落实。",
+      "summary": "Keras 创始人 Francois Chollet 称，GPU 现货价格持续上涨、容量难以获取，HBM 与 DRAM 产能到 2029 年基本售罄，芯片与内存供应预计紧张至 2030 年代；前沿训练算力约每 5 个月翻倍，推理业务利润率 70%–85%。他据此认为 AI 算力需求尚未见顶，并称要么相信 AI 建设已结束、需求见顶，要么当前是罕见的买入机会。\n\n马斯克在回复 Chollet 时给出相反方向的预警：AI 行业明年可能面临严重资金短缺，若从支付算力成本到设备稳定创收的时间推迟数月，仅营运资金就可能需额外投入数千亿美元。这一说法针对的是行业资金链，并未否认 Chollet 关于 GPU 价格与产能紧张的说法。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/9d1f99c5-6603-4fa6-99c6-30ae0b7c956e"
+      "story_url": "https://aihot.virxact.com/story/f00f5c21-41ee-4e4b-b02d-89efffe5d553"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "黄仁勋因婚外情风波辞任英伟达CEO，CFO临时接任",
       "list_title": "黄仁勋因婚外情风波辞任英伟达CEO，CFO临时接任",
       "heat": null,
@@ -85,37 +107,15 @@
       "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed"
     },
     {
-      "rank": 8,
-      "title": "特斯拉FSD v15下月推送，马斯克介绍天空箭头导航",
-      "list_title": "特斯拉FSD v15下月推送，马斯克介绍天空箭头导航",
-      "heat": null,
-      "heat_change": "↑ 172 %",
-      "sources": [],
-      "summary": "特斯拉 FSD v15 将于下个月开始推送。官方称其安全性提升 25x、体验更丝滑，并支持实时街景渲染；这些说法目前没有验证数据。\n\n马斯克介绍，v15 中特斯拉 AI 计算机会像电子游戏一样，用天空中的箭头重新渲染现实来指示转弯，用户可点击“现实重现器”上的任意一点让车辆驶向该处。\n\n有推文认为本地算力足以支撑高质量渲染、效果堪比 GTA 6，并猜测部分地区 FSD 或已可无监督运行，这些均为推文说法。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/fcbdc9a0-bdf5-473c-9f26-7a51a8deb2e3"
-    },
-    {
-      "rank": 9,
-      "title": "群联展示内置NPU智能固态硬盘",
-      "list_title": "群联展示内置NPU智能固态硬盘",
-      "heat": null,
-      "heat_change": "↑ 130 %",
-      "sources": [],
-      "summary": "群联在 SC26 大会展示两款面向 AI 场景的企业级固态硬盘，其中一款内置 NPU 与 64GB 内存，带宽 130GB/s，可直接在硬盘上运行 PyTorch、vLLM、OpenVINO 和 llama.cpp 等框架。\n\n该消息由科技媒体 Tom's Hardware 报道，IT之家转述。群联称这款硬盘可直接运行 AI 模型，但展示阶段尚未披露实际性能与量产计划。",
-      "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/5a8b0821-4723-458e-9bb1-ce0a89c3c5e4"
-    },
-    {
       "rank": 10,
-      "title": "OpenAI发布对抗模型蒸馏新研究",
-      "list_title": "OpenAI发布对抗模型蒸馏新研究",
+      "title": "Oracle称已筹齐履行OpenAI合同所需资金",
+      "list_title": "Oracle称已筹齐履行OpenAI合同所需资金",
       "heat": null,
-      "heat_change": "↓ 16 %",
+      "heat_change": "↑ 94 %",
       "sources": [],
-      "summary": "OpenAI 于 11 月 21 日分享了一项新研究，介绍其打击针对自家模型的蒸馏行为、相关能力如何迁移，以及如何检测并阻断协同性蒸馏尝试。OpenAI 称，知识蒸馏可以复制强大的 AI 能力，却无法复制围绕这些能力构建的安全防护措施。\n\nOpenAI 表示，这些发现正帮助其强化防御，并支持全行业的安全防护。研究的具体方法、检测效果和适用范围尚未在已披露内容中说明。",
+      "summary": "Oracle 11月20日表示，已在本月初筹集到履行与OpenAI交易的全部所需租金，与供应商的进一步私下讨论只是补充选项。这一表态回应了外界对其能否为OpenAI大规模算力合同持续供资的疑问。\n\nOracle称，得州Abilene园区已用于GPT-6 Astra训练并接近完工；下一个GW级项目Shackelford已获全部许可，NVIDIA Vera Rubin机架预计未来几周内交付完成。上述资金与项目进展均为Oracle单方面说法。",
       "original_links": [],
-      "story_url": "https://aihot.virxact.com/story/81fec11b-26b4-4c31-9bc0-33baf4b4b5fc"
+      "story_url": "https://aihot.virxact.com/story/5a70f5c1-7941-4091-9c76-30c731b339e8"
     }
   ]
 }
