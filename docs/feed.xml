@@ -1,45 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-11-21</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-11-22</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-11-21T23:07:08Z</updated>
+  <updated>2026-11-22T07:51:26Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>英伟达因SEC会计调查报道股价跌12%</title>
-    <link href="https://www.techinasia.com/news/nvidia-shares-sink-12-report-sec-accounting-probe"/>
-    <id>tag:weekly-report,2026:event-cf0c34a2</id>
-    <published>2026-11-21T00:00:00Z</published>
-    <updated>2026-11-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia shares sink 12% on report of SEC accounting probe&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英伟达股价因美国SEC对其会计问题展开调查的报道而下跌12%&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI芯片龙头遭监管会计调查，数据中心GPU供应链与云厂商采购节奏面临不确定性&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：earnings | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>KKR旗下Helix拟控股EdgeCore</title>
+    <link href="https://www.techinasia.com/news/kkrs-helix-eyes-majority-stake-data-center-firm-edgecore"/>
+    <id>tag:weekly-report,2026:event-4fba40c5</id>
+    <published>2026-11-22T00:00:00Z</published>
+    <updated>2026-11-22T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;KKR’s Helix eyes majority stake in data center firm EdgeCore&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;KKR旗下Helix拟收购数据中心公司EdgeCore的多数股权&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;私募资本加码亚太数据中心资产，IDC供应链与算力基建投资持续升温&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>阿里AI云增53%，中国电商降5%</title>
-    <link href="https://36kr.jp/504668/"/>
-    <id>tag:weekly-report,2026:event-2306b4ad</id>
-    <published>2026-11-21T00:00:00Z</published>
-    <updated>2026-11-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;アリババ7～9月期、AIクラウド53％増収　主力の中国ECは5％減収&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;阿里巴巴2026年7-9月季度财报显示，AI云业务收入同比增长53%，而主力中国电商业务收入同比下降5%&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太电商与云计算分化加剧，阿里云AI算力需求爆发，云基础设施采购和AI服务合作窗口打开&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：earnings | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
+    <title>Inc42分析印度游戏市场结构性缺口</title>
+    <link href="https://inc42.com/features/the-gta-vi-sized-hole-in-indian-gaming/"/>
+    <id>tag:weekly-report,2026:event-abbfe103</id>
+    <published>2026-11-22T00:00:00Z</published>
+    <updated>2026-11-22T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The GTA VI-Sized Hole In Indian Gaming&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Inc42分析印度游戏市场存在类似GTA VI级别的空白与结构性缺口&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度游戏市场缺乏头部大作，本土发行与内容投资存在空白机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Signal移动端限制截图应对AI监控威胁</title>
-    <link href="https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"/>
-    <id>tag:weekly-report,2026:event-c9870695</id>
-    <published>2026-11-21T00:00:00Z</published>
-    <updated>2026-11-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;加密通讯应用Signal在移动端限制截图功能，以应对AI监控带来的生存威胁&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;全球加密通讯Signal收紧隐私功能，端侧安全与反AI监控需求上升，安全合规供应商迎采购窗口&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：TechCrunch&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Fairmint拟借SEC豁免设交易场所</title>
-    <link href="https://www.techinasia.com/news/fintech-firm-fairmint-plans-trading-venue-sec-exemption"/>
-    <id>tag:weekly-report,2026:event-4ff27809</id>
-    <published>2026-11-21T00:00:00Z</published>
-    <updated>2026-11-21T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;US fintech firm Fairmint plans trading venue under SEC exemption&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国金融科技公司Fairmint计划在SEC豁免框架下设立交易场所&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美合规代币化交易场所探索提速，为资产代币化与合规基础设施服务商带来合作机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：北美 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>中国拟制定AI token定价与质量标准</title>
+    <link href="https://www.techinasia.com/news/china-plans-standards-ai-token-pricing-quality"/>
+    <id>tag:weekly-report,2026:event-5e689827</id>
+    <published>2026-11-22T00:00:00Z</published>
+    <updated>2026-11-22T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;China plans new standards for AI token pricing, quality&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国计划为AI token的定价与质量制定新标准&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI算力服务进入标准化监管阶段，token计费与质量评估体系将影响云厂商定价策略&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-11-22</title>
@@ -47,6 +39,6 @@
     <id>tag:weekly-report,2026:aihot-4dc9b947</id>
     <published>2026-11-22T00:00:00Z</published>
     <updated>2026-11-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-22T02:44&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/647b0945-9244-4f55-b509-0f3fa0f6fe51"&gt;Anthropic 数学家称与 Claude 证明黎曼猜想&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"&gt;Anthropic 上市首日收涨 17%，次日回落&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/0cf0f02a-0464-43db-b253-ed1878937b74"&gt;Thinking Machines 开源 26.4B 循环模型 Inkling 2 Mini&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/74578987-a1ed-4ce0-96b8-658226459865"&gt;Google 发布 Gemini 4 Neon，API 可直传 Office 文件&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/2442138c-3137-45fd-9a2a-9c1b159c49ae"&gt;Google 为 Mac 版 Gemini 上线电脑操作功能&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-22T11:41&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/647b0945-9244-4f55-b509-0f3fa0f6fe51"&gt;Anthropic 数学家称与 Claude 证明黎曼猜想&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/0cf0f02a-0464-43db-b253-ed1878937b74"&gt;Thinking Machines 开源 26.4B 循环模型 Inkling 2 Mini&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"&gt;Anthropic 上市首日收涨 17%，次日回落&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/74578987-a1ed-4ce0-96b8-658226459865"&gt;Google 发布 Gemini 4 Neon，API 可直传 Office 文件&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/3e9f616b-fbd2-43c8-b778-498a7800b0c3"&gt;Signal 移动端默认拦截截图，防系统级 AI 读取聊天&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
