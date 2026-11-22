@@ -1,11 +1,75 @@
 {
   "version": 1,
-  "generated_at": "2026-11-22T15:44:13.003168+08:00",
+  "generated_at": "2026-11-23T07:30:17.624314+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-22T15:44:13.003168+08:00",
+      "observed_at": "2026-11-23T07:30:17.624314+08:00",
       "jobs": [
+        {
+          "id": "744000163097879",
+          "title": "Intern [GIP] - Creative Marketing, Campaign, & Communications",
+          "url": "https://www.grab.careers/en/jobs/744000163097879/intern-gip-creative-marketing-campaign-communications/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163097869",
+          "title": "Intern [GIP] - Product Management & Product Design",
+          "url": "https://www.grab.careers/en/jobs/744000163097869/intern-gip-product-management-product-design/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163097849",
+          "title": "Intern [GIP] - Tech Engineering",
+          "url": "https://www.grab.careers/en/jobs/744000163097849/intern-gip-tech-engineering/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000163097839",
+          "title": "Intern [GIP] - Commercial & Business Development",
+          "url": "https://www.grab.careers/en/jobs/744000163097839/intern-gip-commercial-business-development/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000163097829",
+          "title": "Intern [GIP] - Corporate Functions",
+          "url": "https://www.grab.careers/en/jobs/744000163097829/intern-gip-corporate-functions/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163097819",
+          "title": "Intern [GIP] - Operations, Project & Process Management",
+          "url": "https://www.grab.careers/en/jobs/744000163097819/intern-gip-operations-project-process-management/",
+          "function_tags": [
+            "operations"
+          ]
+        },
+        {
+          "id": "744000163097779",
+          "title": "Intern [GIP] - Research & Data Analytics",
+          "url": "https://www.grab.careers/en/jobs/744000163097779/intern-gip-research-data-analytics/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163090489",
+          "title": "Lead Software Engineer, Backend (Anti Abuse)",
+          "url": "https://www.grab.careers/en/jobs/744000163090489/lead-software-engineer-backend-anti-abuse/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000163090449",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000163090449/lead-software-engineer-backend/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000163089529",
           "title": "Senior Software Engineer, Backend - Transaction Platform",
@@ -90,74 +154,12 @@
           "title": "Head, Country Planning",
           "url": "https://www.grab.careers/en/jobs/744000162649259/head-country-planning/",
           "function_tags": []
-        },
-        {
-          "id": "744000162480340",
-          "title": "Assistant - Team Coordinator (1-year contract)",
-          "url": "https://www.grab.careers/en/jobs/744000162480340/assistant-team-coordinator-1-year-contract/",
-          "function_tags": []
-        },
-        {
-          "id": "744000162471205",
-          "title": "Food Demand Strategy Manager",
-          "url": "https://www.grab.careers/en/jobs/744000162471205/food-demand-strategy-manager/",
-          "function_tags": []
-        },
-        {
-          "id": "744000162466909",
-          "title": "Lead Product Manager, Transaction Platform",
-          "url": "https://www.grab.careers/en/jobs/744000162466909/lead-product-manager-transaction-platform/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000162465019",
-          "title": "Intern, Product Marketing (Dine Out)",
-          "url": "https://www.grab.careers/en/jobs/744000162465019/intern-product-marketing-dine-out/",
-          "function_tags": []
-        },
-        {
-          "id": "744000162460985",
-          "title": "Senior Program Management Analyst, Tech Financial Operations & Automation",
-          "url": "https://www.grab.careers/en/jobs/744000162460985/senior-program-management-analyst-tech-financial-operations-automation/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000162451524",
-          "title": "Senior Associate, Business Development - eCommerce",
-          "url": "https://www.grab.careers/en/jobs/744000162451524/senior-associate-business-development-ecommerce/",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "744000162448536",
-          "title": "Associate, Business Development - eCommerce",
-          "url": "https://www.grab.careers/en/jobs/744000162448536/associate-business-development-ecommerce/",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "744000162450929",
-          "title": "Account Management Associate, GrabMart",
-          "url": "https://www.grab.careers/en/jobs/744000162450929/account-management-associate-grabmart/",
-          "function_tags": []
-        },
-        {
-          "id": "744000162450429",
-          "title": "Specialist, Campaign Planning - Mart (eCommerce)",
-          "url": "https://www.grab.careers/en/jobs/744000162450429/specialist-campaign-planning-mart-ecommerce/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-22T15:44:13.003168+08:00",
+      "observed_at": "2026-11-23T07:30:17.624314+08:00",
       "jobs": [
         {
           "id": "8144196",
@@ -217,7 +219,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-22T15:44:13.003168+08:00",
+      "observed_at": "2026-11-23T07:30:17.624314+08:00",
       "jobs": [
         {
           "id": "1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536",

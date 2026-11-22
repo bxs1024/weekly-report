@@ -551206,12 +551206,12 @@
       ],
       "level": "C",
       "score": 4,
-      "summary_short": "NETS and Ant Internationa",
-      "content_overview": "",
-      "reason": "",
+      "summary_short": "NETS与蚂蚁国际深化合作推进新加坡智能体商务",
+      "content_overview": "新加坡支付网络NETS与蚂蚁国际深化合作，共同推进新加坡的智能体商务（Agentic Commerce）发展",
+      "reason": "新加坡支付基建与蚂蚁AI商务能力结合，智能体商务落地将带动支付网关、AI代理接口的采购与集成需求",
       "impact": "未知",
-      "insight_label": "背景补充",
-      "trend_topic": "",
+      "insight_label": "合作机会",
+      "trend_topic": "东南亚智能体商务落地",
       "companies": [],
       "is_company": true,
       "company_name": "Ant Group",
@@ -552838,11 +552838,11 @@
       "level": "B",
       "score": 6,
       "summary_short": "印度加密交易所提现停滞、数百万资金被盗",
-      "content_overview": "印度多家加密货币交易所出现提现停滞和数百万美元资金被盗问题，引发用户信任危机",
-      "reason": "印度加密交易所流动性风险暴露，合规与托管安全需求上升，利好链上审计与合规服务商",
-      "impact": "印度加密交易用户、加密托管服务商、合规审计机构",
+      "content_overview": "印度多家加密货币交易所出现提现停滞和数百万美元资金被盗问题，用户资金安全与平台流动性承压",
+      "reason": "印度加密交易平台流动性与安全双重承压，合规托管和风控服务需求上升",
+      "impact": "印度加密交易用户、合规托管服务商、链上安全审计公司",
       "insight_label": "警示信号",
-      "trend_topic": "印度加密交易所信任危机",
+      "trend_topic": "印度加密监管收紧",
       "companies": [],
       "is_company": false,
       "company_name": "",
@@ -552922,7 +552922,10 @@
       "ai_score_2": 58,
       "ai_score_avg": 58,
       "ai_score_model": "方舟 V4 Flash",
-      "ai_score_prompt_version": "a9651a26c5e1"
+      "ai_score_prompt_version": "a9651a26c5e1",
+      "merged_from": [
+        "https://inc42.com/buzz/stalled-withdrawals-millions-stolen-inside-indias-crypto-exchange-troubles/"
+      ]
     },
     {
       "title": "Swish FY26: Revenue Surges Close To ₹50 Cr While Loss Widens To ₹91 Cr",
@@ -553748,6 +553751,498 @@
       "ai_score_1": 28,
       "ai_score_2": 32,
       "ai_score_avg": 30,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
+    },
+    {
+      "title": "The Technical Signals Behind (MELI) That Institutions Follow - Stock Traders Daily",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVVQzYW5BdURCQjlOMEtHLUFndEVLSDZDSVNOZnhMSFFUWnBxbkJiSjdKd3ZEdEpuRENJLVZ4RWdqU1BadHN0R204V01ZWVU0bGNkTjBwSFhzU1dMclZQVjVwVGZINnViY2FjM19meUNmMUk2UW5nUDVlLWN5XzFfamZvTkRRWi1iZk91VFVlYTlnbWx3LXJta2tmQUpkaEYtcTVQdXQwUGk0UkVnVGF4d0p5R09sNXhzMjA1RElaTU9PMmx4UjVQLXl3Um9Na1JYc0g0?oc=5",
+      "source": "Google News",
+      "region": "拉美",
+      "event_types": [
+        "other"
+      ],
+      "level": "C",
+      "score": 5,
+      "summary_short": "Stock Traders Daily发布MELI技术信号分析",
+      "content_overview": "股票交易分析媒体Stock Traders Daily发布关于拉美电商平台MercadoLibre（MELI）的技术信号分析文章",
+      "reason": "拉美电商龙头MELI被机构技术面追踪，反映拉美电商板块资金关注度上升",
+      "impact": "拉美电商投资者、MELI机构持仓方",
+      "insight_label": "背景补充",
+      "trend_topic": "拉美电商资金关注",
+      "companies": [],
+      "is_company": true,
+      "company_name": "MercadoLibre",
+      "canonical_company": "mercadolibre",
+      "canonical_key": "",
+      "article_date": "2026-11-22",
+      "date": "2026-11-22",
+      "source_detail": "Stock Traders Daily",
+      "publisher": "Stock Traders Daily",
+      "image_url": "",
+      "published_at": "2026-11-22",
+      "observed_at": "2026-11-22T23:32:19.212125+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "MercadoLibre",
+      "credibility_score": 0,
+      "origin_source_id": "MercadoLibre",
+      "observation_entity_id": "MercadoLibre",
+      "discovery_source": "google_news",
+      "publisher_source": "Stock Traders Daily",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "payments",
+        "commerce"
+      ],
+      "scope_regions": [
+        "拉美"
+      ],
+      "scope_match_basis": "source_contract",
+      "report_methodology_visible": false,
+      "vertical": "commerce_payment",
+      "bd_triggers": [
+        "持续观察"
+      ],
+      "opportunity_direction": "持续观察",
+      "follow_up_window": "持续观察",
+      "bd_priority": "观察",
+      "signal_taxonomy": [
+        "ai_infra"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 42,
+      "attention_score": 100,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 35,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "product_release",
+      "domain": "payment",
+      "signal_type": "company",
+      "signal_change_score": 78,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 24,
+        "scope_fit": 20,
+        "market_impact": 14,
+        "market_impact_confidence": 20
+      },
+      "view_status": "filtered",
+      "view_reason": "google_not_main",
+      "view_priority": "watch",
+      "ai_score_1": 18,
+      "ai_score_2": 18,
+      "ai_score_avg": 18,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
+    },
+    {
+      "title": "European Digital Bank N26 Launches Aura After Launch of Revolut Ultra and Nubank Ultravioleta - Crowdfund Insider",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORlZfNlBHZVBUWjdiYjZ2aWY4M3NORE1RY0Q3cnF6QkdRUzZtYXBNZDYtdkxucTVhN2pMek5nMWFnV3BsRkhpWG9OWG00VUoyWmgxS3kwMXVwUks2S1NTc2czOGZEVnFGajAtVEpiVHkxQ2NsUGdzTzZKNlJsR0c5YWVUZ1NicnY2Um1DVlhiUVFWMGRIQ0FsTEg4TGlmWVVfY2lZclpZT3J4WFF2NGhGaVJHWUZSSnlWaGw2U3ZMSWttREd1ZnN2Q0UxUXp3M3ZNUWV5U0Nfc1dJUQ?oc=5",
+      "source": "Google News",
+      "region": "欧洲",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "N26推出高端订阅产品Aura",
+      "content_overview": "欧洲数字银行N26在Revolut Ultra和Nubank Ultravioleta之后推出高端订阅产品Aura",
+      "reason": "欧洲数字银行跟进高端付费订阅模式，与Revolut、Nubank形成高端客群争夺，订阅制收入成为数字银行新增长点",
+      "impact": "未知",
+      "insight_label": "背景补充",
+      "trend_topic": "欧洲数字银行高端订阅战",
+      "companies": [],
+      "is_company": true,
+      "company_name": "Nubank",
+      "canonical_company": "",
+      "canonical_key": "",
+      "article_date": "2026-11-22",
+      "date": "2026-11-22",
+      "source_detail": "Crowdfund Insider",
+      "publisher": "Crowdfund Insider",
+      "image_url": "",
+      "published_at": "2026-11-22",
+      "observed_at": "2026-11-22T23:32:19.943641+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L5 Google News 补漏源",
+      "source_role": "company_radar",
+      "source_id": "Nubank",
+      "credibility_score": 0,
+      "origin_source_id": "Nubank",
+      "observation_entity_id": "Nubank",
+      "discovery_source": "google_news",
+      "publisher_source": "Crowdfund Insider",
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "payments"
+      ],
+      "scope_regions": [
+        "欧洲"
+      ],
+      "scope_match_basis": "fact",
+      "report_methodology_visible": false,
+      "vertical": "digital_bank",
+      "bd_triggers": [
+        "扩张窗口",
+        "合规窗口"
+      ],
+      "opportunity_direction": "本地化合作 / 渠道伙伴 / 跨境支付 / 云服务",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "general"
+      ],
+      "quality_flags": [
+        "title_prefix_summary",
+        "missing_reason",
+        "unknown_impact"
+      ],
+      "needs_repair": true,
+      "analysis_source": "program",
+      "analysis_status": "failed",
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 42,
+      "attention_score": 95,
+      "score_breakdown": {
+        "source_authority": 10,
+        "materiality": 35,
+        "decision_relevance": 20,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "D",
+      "action_type": "product_release",
+      "domain": "other",
+      "signal_type": "company",
+      "signal_change_score": 78,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 20,
+        "action_type_weight": 24,
+        "scope_fit": 20,
+        "market_impact": 14,
+        "market_impact_confidence": 20
+      },
+      "view_status": "filtered",
+      "view_reason": "quality_review",
+      "view_priority": "selected",
+      "ai_score_1": 42,
+      "ai_score_2": 44,
+      "ai_score_avg": 43,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
+    },
+    {
+      "title": "GTA 6 goes gangbusters, Netflix Games layoffs and Pikmin Bloom's unlikely rise | Week in Mobile Games podcast",
+      "url": "https://www.pocketgamer.biz/gta-6-goes-gangbusters-week-in-mobile-games-podcast/",
+      "source": "PocketGamer.biz",
+      "region": "全球",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 4,
+      "summary_short": "GTA 6火爆、Netflix Games裁员、Pikmin Bloom增长",
+      "content_overview": "播客讨论GTA 6表现火爆、Netflix Games裁员以及Pikmin Bloom意外增长等移动游戏动态",
+      "reason": "移动游戏市场格局分化，Netflix Games收缩与头部IP强势并存，渠道与发行合作机会重估",
+      "impact": "移动游戏发行商、Netflix游戏合作方、手游广告平台",
+      "insight_label": "背景补充",
+      "trend_topic": "移动游戏格局分化",
+      "companies": [],
+      "is_company": false,
+      "company_name": "",
+      "canonical_company": "netflix games",
+      "canonical_key": "",
+      "article_date": "2026-11-22",
+      "date": "2026-11-22",
+      "source_detail": "",
+      "publisher": "",
+      "image_url": "https://media.pocketgamer.biz/images/142319/90335/week-in-mobile-games-111_l660.jpg",
+      "published_at": "2026-11-22",
+      "observed_at": "2026-11-22T23:30:21.995738+00:00",
+      "date_source": "rss_published",
+      "date_confidence": "high",
+      "date_parse_warning": "",
+      "date_basis": "published_at",
+      "source_tier": "L4 垂直赛道精品源",
+      "source_role": "industry_vertical",
+      "source_id": "PocketGamer.biz",
+      "credibility_score": 0,
+      "scope_enforced": true,
+      "scope_status": "qualified",
+      "scope_reason": "scope_target_change",
+      "scope_layer": "company_action",
+      "scope_industries": [
+        "gaming_content"
+      ],
+      "scope_regions": [
+        "全球"
+      ],
+      "scope_match_basis": "fact",
+      "source_excerpt": "PocketGamer.biz head of content Craig Chapple, editorial director of events Mariam Ahmad and features and data editor Aaron Astle talk through the latest games industry news on the 111th episode of the Week in Mobile Games Podcast.\n\nOn the show this week we discuss: ... [ MORE ]",
+      "report_methodology_visible": false,
+      "vertical": "游戏",
+      "bd_triggers": [
+        "降本窗口",
+        "扩张窗口"
+      ],
+      "opportunity_direction": "AI客服 / 自动化运营 / 外包服务 / 成本优化",
+      "follow_up_window": "7天内",
+      "bd_priority": "高",
+      "signal_taxonomy": [
+        "org_change"
+      ],
+      "quality_flags": [],
+      "needs_repair": false,
+      "analysis_source": "ark",
+      "analysis_status": "complete",
+      "content_type": "generic_industry_change",
+      "subject_type": "industry",
+      "claim_type": "industry_change",
+      "confidence_score": 76,
+      "attention_score": 80,
+      "score_breakdown": {
+        "source_authority": 29,
+        "materiality": 15,
+        "decision_relevance": 25,
+        "scope_fit": 20,
+        "novelty": 10,
+        "urgency": 10
+      },
+      "evidence_grade": "B",
+      "action_type": "hiring",
+      "domain": "ai",
+      "signal_type": "market",
+      "signal_change_score": 67,
+      "signal_change_blocked": "",
+      "signal_change_breakdown": {
+        "change_explicit": 35,
+        "action_type_weight": 12,
+        "scope_fit": 20,
+        "market_impact": 0,
+        "market_impact_confidence": 5
+      },
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "ai_score_1": 34,
+      "ai_score_2": 38,
+      "ai_score_avg": 36,
+      "ai_score_model": "方舟 V4 Flash",
+      "ai_score_prompt_version": "a9651a26c5e1"
+    }
+  ],
+  "2026-11-23": [
+    {
+      "event_id": "event-jobs-2182f6fb5d5d4f64",
+      "candidate_id": "jobs-2182f6fb5d5d4f64",
+      "title": "Grab集中新增9个工程与平台岗位",
+      "url": "https://www.grab.careers/en/jobs/744000163097879/intern-gip-creative-marketing-campaign-communications/",
+      "source": "Grab Jobs",
+      "source_id": "grab-jobs",
+      "origin_source_id": "grab-jobs",
+      "observation_entity_id": "grab",
+      "discovery_source": "jobs_snapshot",
+      "source_type": "jobs_snapshot",
+      "source_tier": "L1 官方/IR源",
+      "source_role": "official_ir",
+      "region": "亚太",
+      "event_types": [
+        "strategy"
+      ],
+      "level": "C",
+      "score": 5,
+      "summary_short": "Grab在本周新增9个工程与平台相关职位",
+      "reason": "集中招聘显示Grab正在加强工程与平台能力建设，形成可核验的组织投入信号",
+      "impact": "相关技术供应商、渠道伙伴和企业服务商",
+      "insight_label": "组织变化",
+      "trend_topic": "Grab工程与平台能力建设",
+      "companies": [
+        "Grab"
+      ],
+      "is_company": true,
+      "company_name": "Grab",
+      "date": "2026-11-23",
+      "observed_at": "2026-11-23T07:30:17.624314+08:00",
+      "date_basis": "observed_at",
+      "analysis_source": "jobs_candidate",
+      "analysis_status": "complete",
+      "needs_repair": false,
+      "quality_flags": [],
+      "signal_taxonomy": [
+        "org_change"
+      ],
+      "evidence_refs": [
+        {
+          "job_id": "744000163097879",
+          "title": "Intern [GIP] - Creative Marketing, Campaign, & Communications",
+          "url": "https://www.grab.careers/en/jobs/744000163097879/intern-gip-creative-marketing-campaign-communications/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163097869",
+          "title": "Intern [GIP] - Product Management & Product Design",
+          "url": "https://www.grab.careers/en/jobs/744000163097869/intern-gip-product-management-product-design/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163097849",
+          "title": "Intern [GIP] - Tech Engineering",
+          "url": "https://www.grab.careers/en/jobs/744000163097849/intern-gip-tech-engineering/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163097839",
+          "title": "Intern [GIP] - Commercial & Business Development",
+          "url": "https://www.grab.careers/en/jobs/744000163097839/intern-gip-commercial-business-development/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163097829",
+          "title": "Intern [GIP] - Corporate Functions",
+          "url": "https://www.grab.careers/en/jobs/744000163097829/intern-gip-corporate-functions/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163097819",
+          "title": "Intern [GIP] - Operations, Project & Process Management",
+          "url": "https://www.grab.careers/en/jobs/744000163097819/intern-gip-operations-project-process-management/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163097779",
+          "title": "Intern [GIP] - Research & Data Analytics",
+          "url": "https://www.grab.careers/en/jobs/744000163097779/intern-gip-research-data-analytics/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163090489",
+          "title": "Lead Software Engineer, Backend (Anti Abuse)",
+          "url": "https://www.grab.careers/en/jobs/744000163090489/lead-software-engineer-backend-anti-abuse/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163090449",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000163090449/lead-software-engineer-backend/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000162480340",
+          "title": "Assistant - Team Coordinator (1-year contract)",
+          "url": "https://www.grab.careers/en/jobs/744000162480340/assistant-team-coordinator-1-year-contract/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000162471205",
+          "title": "Food Demand Strategy Manager",
+          "url": "https://www.grab.careers/en/jobs/744000162471205/food-demand-strategy-manager/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000162466909",
+          "title": "Lead Product Manager, Transaction Platform",
+          "url": "https://www.grab.careers/en/jobs/744000162466909/lead-product-manager-transaction-platform/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000162465019",
+          "title": "Intern, Product Marketing (Dine Out)",
+          "url": "https://www.grab.careers/en/jobs/744000162465019/intern-product-marketing-dine-out/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000162460985",
+          "title": "Senior Program Management Analyst, Tech Financial Operations & Automation",
+          "url": "https://www.grab.careers/en/jobs/744000162460985/senior-program-management-analyst-tech-financial-operations-automation/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000162451524",
+          "title": "Senior Associate, Business Development - eCommerce",
+          "url": "https://www.grab.careers/en/jobs/744000162451524/senior-associate-business-development-ecommerce/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000162448536",
+          "title": "Associate, Business Development - eCommerce",
+          "url": "https://www.grab.careers/en/jobs/744000162448536/associate-business-development-ecommerce/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000162450929",
+          "title": "Account Management Associate, GrabMart",
+          "url": "https://www.grab.careers/en/jobs/744000162450929/account-management-associate-grabmart/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000162450429",
+          "title": "Specialist, Campaign Planning - Mart (eCommerce)",
+          "url": "https://www.grab.careers/en/jobs/744000162450429/specialist-campaign-planning-mart-ecommerce/",
+          "change": "removed"
+        }
+      ],
+      "content_type": "company_action",
+      "subject_type": "company",
+      "claim_type": "company_action",
+      "confidence_score": 60,
+      "attention_score": 58,
+      "score_breakdown": {
+        "source_authority": 33,
+        "materiality": 20,
+        "decision_relevance": 15,
+        "scope_fit": 8,
+        "novelty": 10,
+        "urgency": 5
+      },
+      "evidence_grade": "C",
+      "action_type": "expansion",
+      "domain": "other",
+      "signal_type": "company",
+      "signal_change_score": 0,
+      "signal_change_blocked": "out_of_target_industry",
+      "signal_change_breakdown": {},
+      "view_status": "main",
+      "view_reason": "qualified_main",
+      "view_priority": "selected",
+      "published_at": "",
+      "date_source": "observed_at",
+      "date_confidence": "observed",
+      "date_parse_warning": "missing_published_at",
+      "article_date": "",
+      "ai_score_1": 42,
+      "ai_score_2": 38,
+      "ai_score_avg": 40,
       "ai_score_model": "方舟 V4 Flash",
       "ai_score_prompt_version": "a9651a26c5e1"
     }
