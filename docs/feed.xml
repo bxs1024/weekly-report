@@ -1,45 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-11-22</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-11-23</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-11-22T23:35:08Z</updated>
+  <updated>2026-11-23T08:39:43Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>KKR旗下Helix拟控股EdgeCore</title>
-    <link href="https://www.techinasia.com/news/kkrs-helix-eyes-majority-stake-data-center-firm-edgecore"/>
-    <id>tag:weekly-report,2026:event-4fba40c5</id>
-    <published>2026-11-22T00:00:00Z</published>
-    <updated>2026-11-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;KKR’s Helix eyes majority stake in data center firm EdgeCore&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;KKR旗下Helix拟收购数据中心公司EdgeCore的多数股权&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;私募资本加码亚太数据中心资产，IDC供应链与算力基建投资持续升温&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：ma | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>蚂蚁集团发布开放权重医疗AI模型</title>
+    <link href="https://www.techinasia.com/news/ant-group-begins-releasing-openweight-medical-ai-models"/>
+    <id>tag:weekly-report,2026:event-1e439469</id>
+    <published>2026-11-23T00:00:00Z</published>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Ant Group begins releasing open-weight medical AI models&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;蚂蚁集团开始发布开放权重的医疗AI模型&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国金融科技巨头开放医疗AI模型权重，医疗AI集成商与开源生态合作机会增加&lt;/p&gt;&lt;p&gt;标签：中资出海 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Inc42分析印度游戏市场结构性缺口</title>
-    <link href="https://inc42.com/features/the-gta-vi-sized-hole-in-indian-gaming/"/>
-    <id>tag:weekly-report,2026:event-abbfe103</id>
-    <published>2026-11-22T00:00:00Z</published>
-    <updated>2026-11-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The GTA VI-Sized Hole In Indian Gaming&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Inc42分析印度游戏市场存在类似GTA VI级别的空白与结构性缺口&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度游戏市场缺乏头部大作，本土发行与内容投资存在空白机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
+    <title>GoTyme获合资伙伴追加$13.4M</title>
+    <link href="https://dealstreetasia.com/stories/jv-partners-inject-another-13-4m-into-ph-digital-bank-gotyme-501820/"/>
+    <id>tag:weekly-report,2026:event-148b15a5</id>
+    <published>2026-11-23T00:00:00Z</published>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;JV partners inject another $13.4m into PH digital bank GoTyme&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;菲律宾数字银行GoTyme的合资伙伴追加注资1340万美元&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚数字银行持续获资本注入，菲律宾普惠金融基建与银行科技采购需求上升&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：DealStreetAsia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>GTA 6火爆、Netflix Games裁员、Pikmin Bloom增长</title>
-    <link href="https://www.pocketgamer.biz/gta-6-goes-gangbusters-week-in-mobile-games-podcast/"/>
-    <id>tag:weekly-report,2026:event-3310efeb</id>
-    <published>2026-11-22T00:00:00Z</published>
-    <updated>2026-11-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;GTA 6 goes gangbusters, Netflix Games layoffs and Pikmin Bloom&amp;#x27;s unlikely rise | Week in Mobile Games podcast&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;播客讨论GTA 6表现火爆、Netflix Games裁员以及Pikmin Bloom意外增长等移动游戏动态&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;移动游戏市场格局分化，Netflix Games收缩与头部IP强势并存，渠道与发行合作机会重估&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
+    <title>Wise新加坡推最高S$40返现促销</title>
+    <link href="https://fintechnews.sg/142100/payments/wise-cashback-overseas-payments-singapore/"/>
+    <id>tag:weekly-report,2026:event-a9504aa5</id>
+    <published>2026-11-23T00:00:00Z</published>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Wise Offers Up to S$40 Cashback on Overseas Card, QR Payments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;跨境支付公司Wise在新加坡推出海外卡消费和QR支付的最高40新元返现活动&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡跨境支付竞争加剧，Wise以返现补贴抢占用户，本地钱包与QR收单方或面临份额压力&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>中国拟制定AI token定价与质量标准</title>
-    <link href="https://www.techinasia.com/news/china-plans-standards-ai-token-pricing-quality"/>
-    <id>tag:weekly-report,2026:event-5e689827</id>
-    <published>2026-11-22T00:00:00Z</published>
-    <updated>2026-11-22T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;China plans new standards for AI token pricing, quality&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;中国计划为AI token的定价与质量制定新标准&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI算力服务进入标准化监管阶段，token计费与质量评估体系将影响云厂商定价策略&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>评论称BTC与ETH上涨为反弹非反转</title>
+    <link href="https://e27.co/a-relief-bounce-not-a-reversal-my-read-on-bitcoin-and-ethereum-20261123/"/>
+    <id>tag:weekly-report,2026:event-1f7eb50d</id>
+    <published>2026-11-23T00:00:00Z</published>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;A relief bounce, not a reversal: My read on Bitcoin and Ethereum&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27刊发评论文章，作者认为比特币与以太坊当前上涨属于反弹而非趋势反转&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;加密市场情绪判断影响东南亚交易平台与托管商的流动性和营收预期&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：other | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>美国为菲律宾、马来西亚建设超级智能云</title>
+    <link href="https://thenextweb.com/news/si-exports-program-philippines-malaysia-sovereign-cloud-brunei-vertiv"/>
+    <id>tag:weekly-report,2026:event-82f4eb49</id>
+    <published>2026-11-23T00:00:00Z</published>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;US will build ‘Super Intelligence’ clouds for the Philippines and Malaysia&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国将向菲律宾和马来西亚输出建设“超级智能”云基础设施，涉及主权云项目&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国向东南亚输出主权AI云基建，数据中心与算力供应链采购机会向亚太转移&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：The Next Web&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>PayerMax与ShopeePay扩大合作范围</title>
+    <link href="https://fintechnews.sg/142141/payments/payermax-shopeepay-partnership/"/>
+    <id>tag:weekly-report,2026:event-e213b035</id>
+    <published>2026-11-23T00:00:00Z</published>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;PayerMax and ShopeePay Expand Partnership Beyond Payments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;支付服务商PayerMax与ShopeePay扩大合作，从支付延伸至更广泛的服务领域&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚跨境支付合作深化，支付网关与电商钱包生态的联合服务机会扩大&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>欧洲银行AI进入运营化阶段，东南亚可借鉴</title>
+    <link href="https://e27.co/ai-is-becoming-an-integral-part-of-banks-operational-model-20261122/"/>
+    <id>tag:weekly-report,2026:event-85307b74</id>
+    <published>2026-11-23T00:00:00Z</published>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Banks are moving from AI experiments to AI-run operations: What Southeast Asia can learn from Europe&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27分析文章指出欧洲银行正从AI试验转向AI驱动的运营模式，并探讨东南亚可借鉴的经验&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;银行AI从试点走向核心运营，东南亚银行将跟进采购AI风控、客服与流程自动化方案，供应商机会明确&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：欧洲 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>e27盘点东南亚2026年50大活跃投资方</title>
+    <link href="https://e27.co/who-is-still-writing-cheques-the-50-vcs-that-kept-southeast-asias-startups-funded-in-2026-20261123/"/>
+    <id>tag:weekly-report,2026:event-9bb7432f</id>
+    <published>2026-11-23T00:00:00Z</published>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Banks, telcos, sovereigns and a few brave angels: decoding SEA’s 50 busiest investors of 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27梳理2026年东南亚最活跃的50家投资机构，涵盖银行、电信运营商、主权基金及天使投资人&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚资金结构从纯VC转向银行、电信与主权基金，ICT创业者应据此调整融资对象与战略合作路径&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：industry_report | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>报告梳理未来银行五大宏观趋势</title>
+    <link href="https://fintechnews.sg/142076/digital-transformation/5-macro-trends-defining-the-bank-of-tomorrow/"/>
+    <id>tag:weekly-report,2026:event-fdc1ddba</id>
+    <published>2026-11-23T00:00:00Z</published>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;5 Macro Trends Defining the Bank of Tomorrow&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Fintech News Singapore发布报告，梳理定义未来银行的五大宏观趋势&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;银行数字化转型趋势报告为银行科技供应商与金融IT采购提供方向参考&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>数字资产安全挑战分析，HSM方案受关注</title>
+    <link href="https://fintechnews.sg/140592/digitalassets/securing-digital-assets-challenges-hsm-thales/"/>
+    <id>tag:weekly-report,2026:event-e403f5d5</id>
+    <published>2026-11-23T00:00:00Z</published>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;5 Key Challenges in Securing Digital Assets and How HSMs Enable Trust&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Fintech News Singapore发布关于数字资产安全五大挑战的分析文章，介绍Thales的HSM（硬件安全模块）如何为数字资产托管提供信任基础&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太数字资产托管需求上升，HSM等密钥管理硬件成为机构入场的基础设施采购点&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：亚太 | 来源：Fintech News Singapore&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>VinFast押注软件定义汽车，2027年推Robotaxi</title>
+    <link href="https://e27.co/vinfasts-2500-strong-rd-team-bets-on-software-defined-cars-and-a-2027-robotaxi-debut-20261123/"/>
+    <id>tag:weekly-report,2026:event-27202414</id>
+    <published>2026-11-23T00:00:00Z</published>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;VinFast’s 2,500-strong R&amp;amp;D team bets on software-defined cars and a 2027 robotaxi debut&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;越南电动车企VinFast的2500人研发团队押注软件定义汽车，并计划2027年推出Robotaxi服务&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚车企向软件定义与自动驾驶转型，车载软件、域控制器和Robotaxi运营平台将产生采购与合作需求&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Grab在本周新增9个工程与平台相关职位</title>
+    <link href="https://www.grab.careers/en/jobs/744000163097879/intern-gip-creative-marketing-campaign-communications/"/>
+    <id>tag:weekly-report,2026:event-dbae91d5</id>
+    <published>2026-11-23T00:00:00Z</published>
+    <updated>2026-11-23T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Grab集中新增9个工程与平台岗位&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;集中招聘显示Grab正在加强工程与平台能力建设，形成可核验的组织投入信号&lt;/p&gt;&lt;p&gt;标签：组织变化 | 类型：strategy | 地区：亚太 | 公司：Grab | 来源：Grab Jobs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-11-23</title>
@@ -47,6 +111,6 @@
     <id>tag:weekly-report,2026:aihot-d97dfbea</id>
     <published>2026-11-23T00:00:00Z</published>
     <updated>2026-11-23T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-23T03:05&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/647b0945-9244-4f55-b509-0f3fa0f6fe51"&gt;Lean 社区确认阿尔波格黎曼猜想证明正确&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/0cf0f02a-0464-43db-b253-ed1878937b74"&gt;Thinking Machines 开源 26.4B 循环模型 Inkling 2 Mini&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/c5ab5cf5-6316-4ad6-9d74-f0b378a2b064"&gt;OpenAI 提议以困惑度设共同安全上限&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/fcbdc9a0-bdf5-473c-9f26-7a51a8deb2e3"&gt;特斯拉FSD v15下月推送，马斯克介绍天空箭头导航&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"&gt;Anthropic 上市首日收涨 17%，次日回落&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-23T12:17&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/647b0945-9244-4f55-b509-0f3fa0f6fe51"&gt;Lean 社区确认阿尔波格黎曼猜想证明正确&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/c5ab5cf5-6316-4ad6-9d74-f0b378a2b064"&gt;OpenAI 提议以困惑度设共同安全上限，微软公布可比数据&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/0cf0f02a-0464-43db-b253-ed1878937b74"&gt;Thinking Machines 开源 26.4B 循环模型 Inkling 2 Mini&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/fcbdc9a0-bdf5-473c-9f26-7a51a8deb2e3"&gt;特斯拉FSD v15下月推送，马斯克介绍天空箭头导航&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"&gt;Anthropic 上市首日收涨 17%，次日回落&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>
