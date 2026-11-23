@@ -1,11 +1,49 @@
 {
   "version": 1,
-  "generated_at": "2026-11-23T07:30:17.624314+08:00",
+  "generated_at": "2026-11-23T16:33:02.096133+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-23T07:30:17.624314+08:00",
+      "observed_at": "2026-11-23T16:33:02.096133+08:00",
       "jobs": [
+        {
+          "id": "744000163153129",
+          "title": "Senior Site Reliability Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000163153129/senior-site-reliability-engineer/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000163140319",
+          "title": "Assistant Manager, Group Consolidation",
+          "url": "https://www.grab.careers/en/jobs/744000163140319/assistant-manager-group-consolidation/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163137314",
+          "title": "Fleet Management Associate",
+          "url": "https://www.grab.careers/en/jobs/744000163137314/fleet-management-associate/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163135999",
+          "title": "Intern, Talent Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000163135999/intern-talent-acquisition/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163135911",
+          "title": "Associate, Program Manager (Strategic Projects)",
+          "url": "https://www.grab.careers/en/jobs/744000163135911/associate-program-manager-strategic-projects/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163135429",
+          "title": "Assistant Manager, CRM",
+          "url": "https://www.grab.careers/en/jobs/744000163135429/assistant-manager-crm/",
+          "function_tags": []
+        },
         {
           "id": "744000163097879",
           "title": "Intern [GIP] - Creative Marketing, Campaign, & Communications",
@@ -101,65 +139,12 @@
           "function_tags": [
             "payments"
           ]
-        },
-        {
-          "id": "744000162688899",
-          "title": "Data Scientist (Analytics), Financial Services - Payments",
-          "url": "https://www.grab.careers/en/jobs/744000162688899/data-scientist-analytics-financial-services-payments/",
-          "function_tags": [
-            "payments"
-          ]
-        },
-        {
-          "id": "744000162678179",
-          "title": "Senior Manager, Public Affairs",
-          "url": "https://www.grab.careers/en/jobs/744000162678179/senior-manager-public-affairs/",
-          "function_tags": []
-        },
-        {
-          "id": "744000162675439",
-          "title": "Senior Data Scientist (Analytics), Grab Support",
-          "url": "https://www.grab.careers/en/jobs/744000162675439/senior-data-scientist-analytics-grab-support/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000162670416",
-          "title": "Senior Software Engineer, Backend - Business Platform",
-          "url": "https://www.grab.careers/en/jobs/744000162670416/senior-software-engineer-backend-business-platform/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000162654639",
-          "title": "Senior Specialist, Benefits Operations",
-          "url": "https://www.grab.careers/en/jobs/744000162654639/senior-specialist-benefits-operations/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000162651429",
-          "title": "Associate, Self-Serve Platform Growth",
-          "url": "https://www.grab.careers/en/jobs/744000162651429/associate-self-serve-platform-growth/",
-          "function_tags": [
-            "engineering",
-            "sales"
-          ]
-        },
-        {
-          "id": "744000162649259",
-          "title": "Head, Country Planning",
-          "url": "https://www.grab.careers/en/jobs/744000162649259/head-country-planning/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-23T07:30:17.624314+08:00",
+      "observed_at": "2026-11-23T16:33:02.096133+08:00",
       "jobs": [
         {
           "id": "8144196",
@@ -219,7 +204,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-23T07:30:17.624314+08:00",
+      "observed_at": "2026-11-23T16:33:02.096133+08:00",
       "jobs": [
         {
           "id": "1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536",
