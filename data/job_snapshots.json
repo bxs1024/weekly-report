@@ -1,11 +1,70 @@
 {
   "version": 1,
-  "generated_at": "2026-11-24T11:55:23.426255+08:00",
+  "generated_at": "2026-11-24T18:39:27.883418+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-24T11:55:23.426255+08:00",
+      "observed_at": "2026-11-24T18:39:27.883418+08:00",
       "jobs": [
+        {
+          "id": "744000163419170",
+          "title": "Merchant Sales Executive, GrabMart & GrabPay",
+          "url": "https://www.grab.careers/en/jobs/744000163419170/merchant-sales-executive-grabmart-grabpay/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000163416089",
+          "title": "Assistant Manager, Business Development & Partnership",
+          "url": "https://www.grab.careers/en/jobs/744000163416089/assistant-manager-business-development-partnership/",
+          "function_tags": [
+            "partnerships",
+            "sales"
+          ]
+        },
+        {
+          "id": "744000163415439",
+          "title": "Regional Category Manager - Corporate Services & Financial Services",
+          "url": "https://www.grab.careers/en/jobs/744000163415439/regional-category-manager-corporate-services-financial-services/",
+          "function_tags": [
+            "payments"
+          ]
+        },
+        {
+          "id": "744000163403349",
+          "title": "Associate, Key Account Management, Enterprise",
+          "url": "https://www.grab.careers/en/jobs/744000163403349/associate-key-account-management-enterprise/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163401020",
+          "title": "Associate, Program Management (Strategic Projects)",
+          "url": "https://www.grab.careers/en/jobs/744000163401020/associate-program-management-strategic-projects/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163386439",
+          "title": "Retail Excellence Manager, Supply Chain",
+          "url": "https://www.grab.careers/en/jobs/744000163386439/retail-excellence-manager-supply-chain/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163380029",
+          "title": "Merchant Sales Executive (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000163380029/merchant-sales-executive-fb/",
+          "function_tags": [
+            "sales"
+          ]
+        },
+        {
+          "id": "744000163379379",
+          "title": "Principal Infrastructure Engineer, Cloud Infrastructure",
+          "url": "https://www.grab.careers/en/jobs/744000163379379/principal-infrastructure-engineer-cloud-infrastructure/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
         {
           "id": "744000163377740",
           "title": "Operations Associate, Expansion",
@@ -75,70 +134,16 @@
           "function_tags": []
         },
         {
-          "id": "744000163135911",
-          "title": "Associate, Program Manager (Strategic Projects)",
-          "url": "https://www.grab.careers/en/jobs/744000163135911/associate-program-manager-strategic-projects/",
-          "function_tags": []
-        },
-        {
           "id": "744000163135429",
           "title": "Assistant Manager, CRM",
           "url": "https://www.grab.careers/en/jobs/744000163135429/assistant-manager-crm/",
-          "function_tags": []
-        },
-        {
-          "id": "744000163097879",
-          "title": "Intern [GIP] - Creative Marketing, Campaign, & Communications",
-          "url": "https://www.grab.careers/en/jobs/744000163097879/intern-gip-creative-marketing-campaign-communications/",
-          "function_tags": []
-        },
-        {
-          "id": "744000163097869",
-          "title": "Intern [GIP] - Product Management & Product Design",
-          "url": "https://www.grab.careers/en/jobs/744000163097869/intern-gip-product-management-product-design/",
-          "function_tags": []
-        },
-        {
-          "id": "744000163097849",
-          "title": "Intern [GIP] - Tech Engineering",
-          "url": "https://www.grab.careers/en/jobs/744000163097849/intern-gip-tech-engineering/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000163097839",
-          "title": "Intern [GIP] - Commercial & Business Development",
-          "url": "https://www.grab.careers/en/jobs/744000163097839/intern-gip-commercial-business-development/",
-          "function_tags": [
-            "sales"
-          ]
-        },
-        {
-          "id": "744000163097829",
-          "title": "Intern [GIP] - Corporate Functions",
-          "url": "https://www.grab.careers/en/jobs/744000163097829/intern-gip-corporate-functions/",
-          "function_tags": []
-        },
-        {
-          "id": "744000163097819",
-          "title": "Intern [GIP] - Operations, Project & Process Management",
-          "url": "https://www.grab.careers/en/jobs/744000163097819/intern-gip-operations-project-process-management/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000163097779",
-          "title": "Intern [GIP] - Research & Data Analytics",
-          "url": "https://www.grab.careers/en/jobs/744000163097779/intern-gip-research-data-analytics/",
           "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-24T11:55:23.426255+08:00",
+      "observed_at": "2026-11-24T18:39:27.883418+08:00",
       "jobs": [
         {
           "id": "8144196",
@@ -198,7 +203,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-24T11:55:23.426255+08:00",
+      "observed_at": "2026-11-24T18:39:27.883418+08:00",
       "jobs": [
         {
           "id": "1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536",
