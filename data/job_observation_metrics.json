@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-11-23T16:33:02.096133+08:00",
+  "observed_at": "2026-11-24T11:55:23.426255+08:00",
   "source_count": 3,
   "raw_count": 51,
   "source_stats": {
@@ -8,19 +8,19 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 13,
+      "count": 12,
       "inventory_count": 19,
       "signal_count": 1,
       "added_count": 6,
-      "removed_count": 7,
+      "removed_count": 6,
       "clusters": {
-        "engineering": 1
+        "operations": 1,
+        "engineering": 2
       },
       "removed_clusters": {
-        "payments": 1,
-        "operations": 2,
-        "engineering": 2,
-        "sales": 1
+        "engineering": 4,
+        "operations": 1,
+        "payments": 1
       }
     },
     "Stripe Jobs": {
@@ -61,104 +61,98 @@
       "signal_type": "function_buildout",
       "cluster": "engineering",
       "window": "2026-W48",
-      "window_start": "2026-11-23",
-      "window_end": "2026-11-23",
-      "detected_at": "2026-11-23T16:33:02.096133+08:00",
-      "baseline_count": 20,
+      "window_start": "2026-11-24",
+      "window_end": "2026-11-24",
+      "detected_at": "2026-11-24T11:55:23.426255+08:00",
+      "baseline_count": 19,
       "current_count": 19,
       "added_count": 6,
-      "removed_count": 7,
+      "removed_count": 6,
       "clusters": {
-        "engineering": 1
+        "operations": 1,
+        "engineering": 2
       },
       "removed_clusters": {
-        "payments": 1,
-        "operations": 2,
-        "engineering": 2,
-        "sales": 1
+        "engineering": 4,
+        "operations": 1,
+        "payments": 1
       },
       "evidence_refs": [
         {
-          "job_id": "744000163153129",
-          "title": "Senior Site Reliability Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000163153129/senior-site-reliability-engineer/",
+          "job_id": "744000163377740",
+          "title": "Operations Associate, Expansion",
+          "url": "https://www.grab.careers/en/jobs/744000163377740/operations-associate-expansion/",
           "change": "added"
         },
         {
-          "job_id": "744000163140319",
-          "title": "Assistant Manager, Group Consolidation",
-          "url": "https://www.grab.careers/en/jobs/744000163140319/assistant-manager-group-consolidation/",
+          "job_id": "744000163354014",
+          "title": "Manager, Group Reporting",
+          "url": "https://www.grab.careers/en/jobs/744000163354014/manager-group-reporting/",
           "change": "added"
         },
         {
-          "job_id": "744000163137314",
-          "title": "Fleet Management Associate",
-          "url": "https://www.grab.careers/en/jobs/744000163137314/fleet-management-associate/",
+          "job_id": "744000163351013",
+          "title": "Lead Integration Engineer, Orchestration Team",
+          "url": "https://www.grab.careers/en/jobs/744000163351013/lead-integration-engineer-orchestration-team/",
           "change": "added"
         },
         {
-          "job_id": "744000163135999",
-          "title": "Intern, Talent Acquisition",
-          "url": "https://www.grab.careers/en/jobs/744000163135999/intern-talent-acquisition/",
+          "job_id": "744000163345769",
+          "title": "Lead Solutions Specialist (Kyriba)",
+          "url": "https://www.grab.careers/en/jobs/744000163345769/lead-solutions-specialist-kyriba/",
           "change": "added"
         },
         {
-          "job_id": "744000163135911",
-          "title": "Associate, Program Manager (Strategic Projects)",
-          "url": "https://www.grab.careers/en/jobs/744000163135911/associate-program-manager-strategic-projects/",
+          "job_id": "744000163165640",
+          "title": "Product Marketing Manager, GrabFood",
+          "url": "https://www.grab.careers/en/jobs/744000163165640/product-marketing-manager-grabfood/",
           "change": "added"
         },
         {
-          "job_id": "744000163135429",
-          "title": "Assistant Manager, CRM",
-          "url": "https://www.grab.careers/en/jobs/744000163135429/assistant-manager-crm/",
+          "job_id": "744000163162689",
+          "title": "Senior Security Engineer, Red Team & Threat Intelligence",
+          "url": "https://www.grab.careers/en/jobs/744000163162689/senior-security-engineer-red-team-threat-intelligence/",
           "change": "added"
         },
         {
-          "job_id": "744000162688899",
-          "title": "Data Scientist (Analytics), Financial Services - Payments",
-          "url": "https://www.grab.careers/en/jobs/744000162688899/data-scientist-analytics-financial-services-payments/",
+          "job_id": "744000163090489",
+          "title": "Lead Software Engineer, Backend (Anti Abuse)",
+          "url": "https://www.grab.careers/en/jobs/744000163090489/lead-software-engineer-backend-anti-abuse/",
           "change": "removed"
         },
         {
-          "job_id": "744000162678179",
-          "title": "Senior Manager, Public Affairs",
-          "url": "https://www.grab.careers/en/jobs/744000162678179/senior-manager-public-affairs/",
+          "job_id": "744000163090449",
+          "title": "Lead Software Engineer, Backend",
+          "url": "https://www.grab.careers/en/jobs/744000163090449/lead-software-engineer-backend/",
           "change": "removed"
         },
         {
-          "job_id": "744000162675439",
-          "title": "Senior Data Scientist (Analytics), Grab Support",
-          "url": "https://www.grab.careers/en/jobs/744000162675439/senior-data-scientist-analytics-grab-support/",
+          "job_id": "744000163089529",
+          "title": "Senior Software Engineer, Backend - Transaction Platform",
+          "url": "https://www.grab.careers/en/jobs/744000163089529/senior-software-engineer-backend-transaction-platform/",
           "change": "removed"
         },
         {
-          "job_id": "744000162670416",
-          "title": "Senior Software Engineer, Backend - Business Platform",
-          "url": "https://www.grab.careers/en/jobs/744000162670416/senior-software-engineer-backend-business-platform/",
+          "job_id": "744000163086189",
+          "title": "Engineering Manager, Consumer Experience",
+          "url": "https://www.grab.careers/en/jobs/744000163086189/engineering-manager-consumer-experience/",
           "change": "removed"
         },
         {
-          "job_id": "744000162654639",
-          "title": "Senior Specialist, Benefits Operations",
-          "url": "https://www.grab.careers/en/jobs/744000162654639/senior-specialist-benefits-operations/",
+          "job_id": "744000162692531",
+          "title": "Senior Product Analyst, Grab Support",
+          "url": "https://www.grab.careers/en/jobs/744000162692531/senior-product-analyst-grab-support/",
           "change": "removed"
         },
         {
-          "job_id": "744000162651429",
-          "title": "Associate, Self-Serve Platform Growth",
-          "url": "https://www.grab.careers/en/jobs/744000162651429/associate-self-serve-platform-growth/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000162649259",
-          "title": "Head, Country Planning",
-          "url": "https://www.grab.careers/en/jobs/744000162649259/head-country-planning/",
+          "job_id": "744000162688904",
+          "title": "Data Scientist (Analytics), Financial Services - Lending",
+          "url": "https://www.grab.careers/en/jobs/744000162688904/data-scientist-analytics-financial-services-lending/",
           "change": "removed"
         }
       ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_cluster_strength",
+      "status": "qualified",
+      "rejection_reason": "",
       "promoted_event_id": ""
     }
   ],
