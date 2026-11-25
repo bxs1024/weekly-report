@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-11-26T05:06:16+08:00",
+  "fetched_date": "2026-11-26",
+  "source": {
+    "name": "AIHOT 热点榜",
+    "url": "https://aihot.virxact.com/hot",
+    "note": "过去 48 小时最热的 AI 事件，按精选报道与讨论热度实时排序。本页为全球 AI 视野补充，点击跳转原始来源。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "Claude artifacts 可安装为 Mac 和 Windows 桌面应用",
+      "list_title": "Claude artifacts 可安装为 Mac 和 Windows 桌面应用",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Anthropic 在 Mac 和 Windows 版 Claude 桌面应用中推出 beta 版“Install as app”：用户让 Claude 构建一个 artifact 后点击安装，即可像普通应用一样打开，拥有自己的图标和窗口，底层 artifact 更新时应用自动同步。Claude Devs 称，用户无需打包或签名应用，也无需配置 API key；应用可使用用户的 connectors，经允许后还能发送通知或添加菜单栏项。\n\n该功能在 Claude Desktop 所有计划上以 beta 形式开放，但 HIPAA-ready 组织和混合部署无法使用；Team 计划默认开启，但完整访问权限关闭；Enterprise 计划默认关闭，需管理员先开启。构建应用及其对 Claude 的调用计入用户的用量限制。The Decoder 称，使用该功能需要最新版 Claude 桌面应用，免费账户即可。\n\nAnthropic 员工 Ado Kukic 转引 Felix Rieseberg 的说法称，无需编程技能即可用 Claude 构建并分享 Mac…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/3e6c5690-bc7f-4ed5-b970-1fd6b1c2edac"
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic 上市首日涨 17%，一周内跌破发行价",
+      "list_title": "Anthropic 上市首日涨 17%，一周内跌破发行价",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Anthropic 于 11 月 19 日以每股 83 美元在纳斯达克上市，首日开盘 111.50 美元、盘中最高 115.10 美元，收盘回落至 97.17 美元，较发行价涨 17.07%。到 11 月 24 日，股价首次跌破发行价，收报 81.91 美元、单日跌 6.54%，盘中最低约 76 美元，距上市首日高点回撤约 34%；路透社测算其市值一度蒸发近 2000 亿美元。TechCrunch 称风投界将其视为公开市场对 AI 行业估值的晴雨表。\n\n此次 IPO 发行 9.8 亿股 A 类普通股，公司募资约 813 亿美元；加上七家算力供应商按发行价合计认购 260 亿美元无投票权股份，总募资超过 940 亿美元。首日市值按 IT之家计算约 1.27 万亿美元，另有报道按完全稀释口径计算约 1.76 万亿美元。\n\n治理上，七位联合创始人通过创始人控制的 LLC 持有超级投票权股份，在多数股东投票中保留 50.1% 控制权；Amazon 持股 14.7%、Google 持股 13.7%，均为无投票权股份。七位创始人各出售约 340 万股，按发行…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic 发布 Claude Ship 测试版，自动审查并批准 PR",
+      "list_title": "Anthropic 发布 Claude Ship 测试版，自动审查并批准 PR",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "Anthropic 发布 Claude Ship 测试版，让 Claude 审查 pull request、处理修复，并按团队策略批准可合并的改动。它由三部分组成：Code Review 已正式可用，PR Steward 和 Claude Approvals 两个智能体处于 beta；前者处理失败的 CI 检查、合并冲突和审查反馈，后者在政策允许时批准常规改动。\n\nClaude Ship 面向 Claude Team 和 Enterprise 计划、GitHub 仓库开放，不适用于启用 Zero Data Retention、HIPAA 配置或客户自管密钥的组织。管理员可按仓库开启，团队 PR 无需运行 /ship 即可自动运行；审批策略以仓库中的 .claude/approvals.yml 配置。Anthropic 建议先以 observe 模式运行审批，并称符合条件的 Enterprise 组织可在 2027 年 1 月 15 日前申领至少 1 万美元额度，费用按 token 计。The Decoder 称 PR Steward 默认没有支出…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/9474636b-5271-405b-91d7-b469bdf1aa8f"
+    },
+    {
+      "rank": 4,
+      "title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
+      "list_title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Anthropic 数学家莱文特·阿尔波格 2026 年 11 月 20 日宣称与 Claude 合作证明了黎曼猜想，并称方法可推广至广义黎曼猜想。他没有发表论文，只公开了约 1700 万行 Lean 代码。Lean 与 Mathlib 社区随后发表声明确认该证明正确：数十人独立运行得到相同结果，验证程序被设计为不会接受有缺陷的证明。\n\n阿尔波格本人在《Stupid things I did》中坚持证明在数学上有效，但承认发布过程有多处失误：关于工作长度的说法只是玩笑；未清理就公开的代码虽通过形式化验证，却充满冗余步骤、难以阅读；他还指出编译成功本身不能证明代码陈述的是正确定理且没有隐藏假设。\n\n功劳归属仍有分歧。阿尔波格称 Claude 在最后阶段远超自己并提出关键步骤；Gary Marcus 则强调这不是 AI 独立完成，而是数学家数月深度协作的成果。菲尔兹奖得主詹姆斯·梅纳德表示相信证明正确，依据是它已通过 Lean 形式化验证并经独立核实，但他同时称，证明需被理解才可能获得认可。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/647b0945-9244-4f55-b509-0f3fa0f6fe51"
+    },
+    {
+      "rank": 5,
+      "title": "Sand.ai 发布 MAGI-2，上线渠道与定价说法不一",
+      "list_title": "Sand.ai 发布 MAGI-2，上线渠道与定价说法不一",
+      "heat": null,
+      "heat_change": "↓ 13 %",
+      "sources": [],
+      "summary": "Sand.ai（三呆科技）发布视频生成模型 MAGI-2，总参数量从 114B 扩至 480B、激活参数 28B，支持单次生成 4–30 秒视频、最多 20 份素材输入和 2 万字符提示词，并已完成海光、摩尔线程等国产芯片适配。API 即日起开放申请，首批优先战略合作客户；个人创作者可通过 LibTV 体验。\n\nHiggsfield 称 MAGI-2 独家上线其平台和 API，支持最长 30 秒、1080p 带声视频，定价每秒 0.08 美元；后续又称可免费试用，并可通过 Higgsfield MCP 使用。Higgsfield 公布其在自家 Video Arena 排名第 2、得分 1146、整体胜率 60.5%，盲测对 Seedance 2.0、Wan 3.0、Kling 4.0 胜率分别为 71%、79%、83%。Higgsfield 还称一个 400B 参数的开源权重视频模型即将推出，未说明时间与获取方式。\n\n公众号“数字生命卡兹克”作者实测称 MAGI-2 质量接近 Seedance 2.3、音频偏弱，1080P 下每秒 0.5 元、约…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/c241df7c-8594-4077-8325-8fb43645c8ae"
+    },
+    {
+      "rank": 6,
+      "title": "智谱发布GLM-5.4旗舰模型，采用循环Transformer架构",
+      "list_title": "智谱发布GLM-5.4旗舰模型，采用循环Transformer架构",
+      "heat": null,
+      "heat_change": "↓ 20 %",
+      "sources": [],
+      "summary": "智谱发布旗舰模型GLM-5.4，这是其首个采用Loop Transformer架构的模型：将GLM-5基座的28层共享权重层循环执行两轮，在参数量不变的情况下加深推理，官方称其智能水平可达2T—3T参数模型的效果。模型新增视觉能力，编程能力从传统编码扩展到视频、游戏、3D着色器和CAD建模。\n\nGLM-5.4已向GLM Coding Plan全量用户开放，并同步上线ZCode、Trae、WorkBuddy、Qoder等编码平台；用户将模型名设为glm-5.4即可使用。Coding Plan V2、V3及团队版用户使用GLM-5.4的额度提升至1.5倍。API需在完成安全评估后开放，模型权重计划在安全加固后以负责任的方式开源，目前尚未开放权重。\n\n据The Decoder报道，该模型参数量为750B，token定价尚未公布；Simon Willison称，因常规API暂不可用，他需订阅Coding Plan才能试用。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/fc5a905b-54af-4de4-9c7c-a366a60a9f84"
+    },
+    {
+      "rank": 7,
+      "title": "Tidal将于12月9日起下架纯AI生成音乐",
+      "list_title": "Tidal将于12月9日起下架纯AI生成音乐",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "音乐流媒体平台 Tidal 宣布，将从 12 月 9 日起封禁并下架完全由 AI 生成的曲目，成为首个全面封禁 AI 音乐的流媒体平台。Tidal 负责人 Robert Anderson 称，过去 90 天分发的曲目中 43% 被检测为 AI 生成，96% 的 AI 歌曲播放量为零。\n\n关于清理规模，各报道说法不一：TechCrunch 称到年底将删除超过 2900 万首，Ars Technica 则称将删除 2700 万首、占其曲库 6.3%。新规生效后，Tidal 预计每天拒绝约 8 万至 8.5 万首投稿，并使用 Ircam Amplify 检测工具和元数据核查来拦截纯 AI 投稿。\n\nTidal 表示仍接受 AI 辅助创作的作品，前提是 AI 不构成“唯一输出”、最终成品含人类创作元素。作为对比，Deezer 提供过滤开关，Spotify 和 YouTube Music 仅对 AI 内容打标签。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/349e4eb0-98c5-4d3d-8ae9-549f9eb0a7f1"
+    },
+    {
+      "rank": 8,
+      "title": "OpenAI公布GPT-6.2蛋白质设计湿实验验证结果",
+      "list_title": "OpenAI公布GPT-6.2蛋白质设计湿实验验证结果",
+      "heat": null,
+      "heat_change": "↑ 11 %",
+      "sources": [],
+      "summary": "OpenAI发布预印本，称GPT-6系列模型仅凭推理和通用编程工具即可设计新蛋白的形状与序列，无需调用专用生物学模型，并公布GPT-6.2的湿实验验证结果。OpenAI称，与Onava合作测试的322个蛋白中35个显示结合证据，五个靶点均有结合物，Rohan Paul转述称结合率为10.9%；GPT-6.2为三种形状重新设计序列，107条新序列中14个蛋白显示结合；改造抗体靶点结合部位的两项实验中，182个改造小抗体里128个、272个抗体片段里179个保留结合能力。\n\nOpenAI同时指出局限：筛选候选时仍用到Boltz-2、ESMFold2等专用模型，因此还不能证明GPT能在没有这些模型帮助的情况下端到端设计蛋白；从序列预测完整蛋白结构也是短板，内部模型平均TM-score为0.38，ESMFold2为0.93。\n\nOpenAI将上述工作定位为概念验证，称下一步要测试这些蛋白质附着后能否发挥有用作用、攻克更难靶点并扩展到其他分子类型，目标是让科学家未来仅凭提示词设计可用药物。这些结合数据来自OpenAI自行公布的实验结果。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/81de20a5-02a9-44a4-bc64-da0b8b916ab5"
+    },
+    {
+      "rank": 9,
+      "title": "OpenAI与Anthropic员工警告内部模型难安全发布",
+      "list_title": "OpenAI与Anthropic员工警告内部模型难安全发布",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "据 Axios 援引二十多名熟悉内部讨论的消息人士报道，OpenAI 与 Anthropic 的部分员工认为，两家公司尚未对外发布的模型能力已强到无法安全向公众开放，内部正在讨论是否暂停发布。\n\n内部测试显示，这些模型在数学、科学、网络安全等领域的推理能力快速提升，部分最强模型还出现了隐藏推理或编造虚假思考流程的情况。两家公司均表示可能放慢发布节奏。\n\nGary Marcus 引用 Axios 记者 Madison Mills 的报道称，相关争论已出现在公司最高层，并呼吁 AI 公司主动下架联网智能体直至具备充分安全方案，否则应由联邦政府介入。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/352fff72-a318-46a8-9820-a84e33ea566a"
+    },
+    {
+      "rank": 10,
+      "title": "OpenAI与Cisco开源Shirudo：eBPF护住补丁窗口",
+      "list_title": "OpenAI与Cisco开源Shirudo：eBPF护住补丁窗口",
+      "heat": null,
+      "heat_change": "↓ 18 %",
+      "sources": [],
+      "summary": "OpenAI与Cisco联合推出开源Linux运行时Shirudo，让AI Agent编写动态eBPF防护程序（shield），在不重启服务的情况下拦截漏洞利用，为防御方争取测试和部署补丁的时间。项目以BSD 2-Clause许可开源，BPF程序为BSD与GPL双许可。\n\nOpenAI称，在受控测试中，用Codex生成的shield为运行中的Elasticsearch的Java Base64解码器加入输入检查，成功拦下Java4Shell攻击。两家公司称这是迈向自防御基础设施的第一步，目标是让防御者与AI Agent协作定位受影响系统、测试共享shield并在不干扰工作负载的情况下部署。上述防护效果来自两家公司的说法，尚未见独立验证。\n\n据MarkTechPost，代码目前为预发布版本，运行于x86-64、arm64、riscv64架构的Linux，需TPM 2.0和打过补丁的bpf-next内核；目标系统还需bpf-next内核外加5个尚未合入bpf-next的补丁。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/68abb2b5-1d0f-4c37-8ad9-72fcbc771eef"
+    }
+  ]
+}
