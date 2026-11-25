@@ -7913,5 +7913,65 @@
   "score": 7,
   "first_seen": "2026-11-24",
   "samples": 1
+ },
+ "adyen|strategy|roots": {
+  "score": 4,
+  "first_seen": "2026-11-25",
+  "samples": 1
+ },
+ "bound|funding|45.72mm": {
+  "score": 6,
+  "first_seen": "2026-11-25",
+  "samples": 1
+ },
+ "eleven|funding|57m": {
+  "score": 5,
+  "first_seen": "2026-11-25",
+  "samples": 1
+ },
+ "kakaobank|strategy|mistral": {
+  "score": 6,
+  "first_seen": "2026-11-25",
+  "samples": 1
+ },
+ "tencent|industry_report|11%": {
+  "score": 5,
+  "first_seen": "2026-11-24",
+  "samples": 1
+ },
+ "ant international|strategy|bny": {
+  "score": 6,
+  "first_seen": "2026-11-25",
+  "samples": 1
+ },
+ "visa|strategy|50m": {
+  "score": 8,
+  "first_seen": "2026-11-25",
+  "samples": 1
+ },
+ "mambu|strategy|bkn301": {
+  "score": 6,
+  "first_seen": "2026-11-25",
+  "samples": 1
+ },
+ "trustly|funding|60m": {
+  "score": 7,
+  "first_seen": "2026-11-24",
+  "samples": 1
+ },
+ "intermex|other|westernunion": {
+  "score": 4,
+  "first_seen": "2026-11-24",
+  "samples": 1
+ },
+ "bics|strategy|airtelafrica": {
+  "score": 5,
+  "first_seen": "2026-11-25",
+  "samples": 1
+ },
+ "sooner|funding|20m": {
+  "score": 6,
+  "first_seen": "2026-11-24",
+  "samples": 1
  }
 }

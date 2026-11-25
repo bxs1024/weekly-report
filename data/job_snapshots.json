@@ -1,11 +1,81 @@
 {
   "version": 1,
-  "generated_at": "2026-11-25T10:12:05.271547+08:00",
+  "generated_at": "2026-11-25T17:30:00.943330+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-25T10:12:05.271547+08:00",
+      "observed_at": "2026-11-25T17:30:00.943330+08:00",
       "jobs": [
+        {
+          "id": "744000163621319",
+          "title": "Senior Software Engineer, Mobile (iOS)",
+          "url": "https://www.grab.careers/en/jobs/744000163621319/senior-software-engineer-mobile-ios/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000163619496",
+          "title": "Country Platform Safety Manager, Thailand",
+          "url": "https://www.grab.careers/en/jobs/744000163619496/country-platform-safety-manager-thailand/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000163620799",
+          "title": "Associate, Merchant Communication",
+          "url": "https://www.grab.careers/en/jobs/744000163620799/associate-merchant-communication/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163619771",
+          "title": "Associate, Merchant Community",
+          "url": "https://www.grab.careers/en/jobs/744000163619771/associate-merchant-community/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163612099",
+          "title": "Lead Software Engineer, Backend - Business Platform",
+          "url": "https://www.grab.careers/en/jobs/744000163612099/lead-software-engineer-backend-business-platform/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000163603419",
+          "title": "Assistant Marketing Manager - Mobility Expansion, Vietnam",
+          "url": "https://www.grab.careers/en/jobs/744000163603419/assistant-marketing-manager-mobility-expansion-vietnam/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163601749",
+          "title": "Senior Integration Engineer, Orchestration team",
+          "url": "https://www.grab.careers/en/jobs/744000163601749/senior-integration-engineer-orchestration-team/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000163601699",
+          "title": "Lead Integration Engineer, Orchestration Team",
+          "url": "https://www.grab.careers/en/jobs/744000163601699/lead-integration-engineer-orchestration-team/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000163601149",
+          "title": "Lead Solutions Specialist (Kyriba)",
+          "url": "https://www.grab.careers/en/jobs/744000163601149/lead-solutions-specialist-kyriba/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163597989",
+          "title": "Lead Product Manager, Grabmart",
+          "url": "https://www.grab.careers/en/jobs/744000163597989/lead-product-manager-grabmart/",
+          "function_tags": []
+        },
         {
           "id": "744000163563459",
           "title": "Lead, Commercial, Managed Accounts (F&B)",
@@ -70,82 +140,12 @@
           "function_tags": [
             "sales"
           ]
-        },
-        {
-          "id": "744000163379379",
-          "title": "Principal Infrastructure Engineer, Cloud Infrastructure",
-          "url": "https://www.grab.careers/en/jobs/744000163379379/principal-infrastructure-engineer-cloud-infrastructure/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000163377740",
-          "title": "Operations Associate, Expansion",
-          "url": "https://www.grab.careers/en/jobs/744000163377740/operations-associate-expansion/",
-          "function_tags": [
-            "operations"
-          ]
-        },
-        {
-          "id": "744000163354014",
-          "title": "Manager, Group Reporting",
-          "url": "https://www.grab.careers/en/jobs/744000163354014/manager-group-reporting/",
-          "function_tags": []
-        },
-        {
-          "id": "744000163351013",
-          "title": "Lead Integration Engineer, Orchestration Team",
-          "url": "https://www.grab.careers/en/jobs/744000163351013/lead-integration-engineer-orchestration-team/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000163345769",
-          "title": "Lead Solutions Specialist (Kyriba)",
-          "url": "https://www.grab.careers/en/jobs/744000163345769/lead-solutions-specialist-kyriba/",
-          "function_tags": []
-        },
-        {
-          "id": "744000163165640",
-          "title": "Product Marketing Manager, GrabFood",
-          "url": "https://www.grab.careers/en/jobs/744000163165640/product-marketing-manager-grabfood/",
-          "function_tags": []
-        },
-        {
-          "id": "744000163162689",
-          "title": "Senior Security Engineer, Red Team & Threat Intelligence",
-          "url": "https://www.grab.careers/en/jobs/744000163162689/senior-security-engineer-red-team-threat-intelligence/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000163153129",
-          "title": "Senior Site Reliability Engineer",
-          "url": "https://www.grab.careers/en/jobs/744000163153129/senior-site-reliability-engineer/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000163140319",
-          "title": "Assistant Manager, Group Consolidation",
-          "url": "https://www.grab.careers/en/jobs/744000163140319/assistant-manager-group-consolidation/",
-          "function_tags": []
-        },
-        {
-          "id": "744000163137314",
-          "title": "Fleet Management Associate",
-          "url": "https://www.grab.careers/en/jobs/744000163137314/fleet-management-associate/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-25T10:12:05.271547+08:00",
+      "observed_at": "2026-11-25T17:30:00.943330+08:00",
       "jobs": [
         {
           "id": "8144196",
@@ -197,7 +197,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-25T10:12:05.271547+08:00",
+      "observed_at": "2026-11-25T17:30:00.943330+08:00",
       "jobs": [
         {
           "id": "1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536",

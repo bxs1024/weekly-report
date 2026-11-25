@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-11-25T10:12:05.271547+08:00",
+  "observed_at": "2026-11-25T17:30:00.943330+08:00",
   "source_count": 3,
   "raw_count": 50,
   "source_stats": {
@@ -8,30 +8,31 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 6,
+      "count": 20,
       "inventory_count": 19,
       "signal_count": 1,
-      "added_count": 3,
-      "removed_count": 3,
+      "added_count": 10,
+      "removed_count": 10,
       "clusters": {
-        "payments": 1
+        "engineering": 5
       },
-      "removed_clusters": {}
+      "removed_clusters": {
+        "engineering": 4,
+        "operations": 1
+      }
     },
     "Stripe Jobs": {
       "method": "jobs_snapshot",
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 1,
+      "count": 0,
       "inventory_count": 6,
       "signal_count": 0,
       "added_count": 0,
-      "removed_count": 1,
+      "removed_count": 0,
       "clusters": {},
-      "removed_clusters": {
-        "sales": 1
-      }
+      "removed_clusters": {}
     },
     "Shopify Jobs": {
       "method": "jobs_snapshot",
@@ -49,66 +50,153 @@
   },
   "candidate_signals": [
     {
-      "candidate_id": "jobs-d3f15e8ef4ee54b5",
+      "candidate_id": "jobs-2182f6fb5d5d4f64",
       "entity_id": "grab",
       "entity": "Grab",
       "region": "亚太",
       "sector": "mobility_payment",
       "source_type": "jobs_snapshot",
       "signal_type": "function_buildout",
-      "cluster": "payments",
+      "cluster": "engineering",
       "window": "2026-W48",
       "window_start": "2026-11-25",
       "window_end": "2026-11-25",
-      "detected_at": "2026-11-25T10:12:05.271547+08:00",
+      "detected_at": "2026-11-25T17:30:00.943330+08:00",
       "baseline_count": 19,
       "current_count": 19,
-      "added_count": 3,
-      "removed_count": 3,
+      "added_count": 10,
+      "removed_count": 10,
       "clusters": {
-        "payments": 1
+        "engineering": 5
       },
-      "removed_clusters": {},
+      "removed_clusters": {
+        "engineering": 4,
+        "operations": 1
+      },
       "evidence_refs": [
         {
-          "job_id": "744000163563459",
-          "title": "Lead, Commercial, Managed Accounts (F&B)",
-          "url": "https://www.grab.careers/en/jobs/744000163563459/lead-commercial-managed-accounts-fb/",
+          "job_id": "744000163621319",
+          "title": "Senior Software Engineer, Mobile (iOS)",
+          "url": "https://www.grab.careers/en/jobs/744000163621319/senior-software-engineer-mobile-ios/",
           "change": "added"
         },
         {
-          "job_id": "744000163561579",
-          "title": "Specialist, Key Account Management - Payment & Loyalty",
-          "url": "https://www.grab.careers/en/jobs/744000163561579/specialist-key-account-management-payment-loyalty/",
+          "job_id": "744000163619496",
+          "title": "Country Platform Safety Manager, Thailand",
+          "url": "https://www.grab.careers/en/jobs/744000163619496/country-platform-safety-manager-thailand/",
           "change": "added"
         },
         {
-          "job_id": "744000163435130",
-          "title": "Associate, Key Account Management, Enterprise",
-          "url": "https://www.grab.careers/en/jobs/744000163435130/associate-key-account-management-enterprise/",
+          "job_id": "744000163620799",
+          "title": "Associate, Merchant Communication",
+          "url": "https://www.grab.careers/en/jobs/744000163620799/associate-merchant-communication/",
           "change": "added"
         },
         {
-          "job_id": "744000163403349",
-          "title": "Associate, Key Account Management, Enterprise",
-          "url": "https://www.grab.careers/en/jobs/744000163403349/associate-key-account-management-enterprise/",
+          "job_id": "744000163619771",
+          "title": "Associate, Merchant Community",
+          "url": "https://www.grab.careers/en/jobs/744000163619771/associate-merchant-community/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163612099",
+          "title": "Lead Software Engineer, Backend - Business Platform",
+          "url": "https://www.grab.careers/en/jobs/744000163612099/lead-software-engineer-backend-business-platform/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163603419",
+          "title": "Assistant Marketing Manager - Mobility Expansion, Vietnam",
+          "url": "https://www.grab.careers/en/jobs/744000163603419/assistant-marketing-manager-mobility-expansion-vietnam/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163601749",
+          "title": "Senior Integration Engineer, Orchestration team",
+          "url": "https://www.grab.careers/en/jobs/744000163601749/senior-integration-engineer-orchestration-team/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163601699",
+          "title": "Lead Integration Engineer, Orchestration Team",
+          "url": "https://www.grab.careers/en/jobs/744000163601699/lead-integration-engineer-orchestration-team/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163601149",
+          "title": "Lead Solutions Specialist (Kyriba)",
+          "url": "https://www.grab.careers/en/jobs/744000163601149/lead-solutions-specialist-kyriba/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163597989",
+          "title": "Lead Product Manager, Grabmart",
+          "url": "https://www.grab.careers/en/jobs/744000163597989/lead-product-manager-grabmart/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163379379",
+          "title": "Principal Infrastructure Engineer, Cloud Infrastructure",
+          "url": "https://www.grab.careers/en/jobs/744000163379379/principal-infrastructure-engineer-cloud-infrastructure/",
           "change": "removed"
         },
         {
-          "job_id": "744000163135999",
-          "title": "Intern, Talent Acquisition",
-          "url": "https://www.grab.careers/en/jobs/744000163135999/intern-talent-acquisition/",
+          "job_id": "744000163377740",
+          "title": "Operations Associate, Expansion",
+          "url": "https://www.grab.careers/en/jobs/744000163377740/operations-associate-expansion/",
           "change": "removed"
         },
         {
-          "job_id": "744000163135429",
-          "title": "Assistant Manager, CRM",
-          "url": "https://www.grab.careers/en/jobs/744000163135429/assistant-manager-crm/",
+          "job_id": "744000163354014",
+          "title": "Manager, Group Reporting",
+          "url": "https://www.grab.careers/en/jobs/744000163354014/manager-group-reporting/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000163351013",
+          "title": "Lead Integration Engineer, Orchestration Team",
+          "url": "https://www.grab.careers/en/jobs/744000163351013/lead-integration-engineer-orchestration-team/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000163345769",
+          "title": "Lead Solutions Specialist (Kyriba)",
+          "url": "https://www.grab.careers/en/jobs/744000163345769/lead-solutions-specialist-kyriba/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000163165640",
+          "title": "Product Marketing Manager, GrabFood",
+          "url": "https://www.grab.careers/en/jobs/744000163165640/product-marketing-manager-grabfood/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000163162689",
+          "title": "Senior Security Engineer, Red Team & Threat Intelligence",
+          "url": "https://www.grab.careers/en/jobs/744000163162689/senior-security-engineer-red-team-threat-intelligence/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000163153129",
+          "title": "Senior Site Reliability Engineer",
+          "url": "https://www.grab.careers/en/jobs/744000163153129/senior-site-reliability-engineer/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000163140319",
+          "title": "Assistant Manager, Group Consolidation",
+          "url": "https://www.grab.careers/en/jobs/744000163140319/assistant-manager-group-consolidation/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000163137314",
+          "title": "Fleet Management Associate",
+          "url": "https://www.grab.careers/en/jobs/744000163137314/fleet-management-associate/",
           "change": "removed"
         }
       ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_cluster_strength",
+      "status": "rejected",
+      "rejection_reason": "source_reset_suspected",
       "promoted_event_id": ""
     }
   ],
