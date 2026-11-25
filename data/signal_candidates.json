@@ -1,7 +1,70 @@
 {
   "version": 1,
-  "generated_at": "2026-11-24T18:39:27.883418+08:00",
+  "generated_at": "2026-11-25T10:12:05.271547+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-d3f15e8ef4ee54b5",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "payments",
+      "window": "2026-W48",
+      "window_start": "2026-11-25",
+      "window_end": "2026-11-25",
+      "detected_at": "2026-11-25T10:12:05.271547+08:00",
+      "baseline_count": 19,
+      "current_count": 19,
+      "added_count": 3,
+      "removed_count": 3,
+      "clusters": {
+        "payments": 1
+      },
+      "removed_clusters": {},
+      "evidence_refs": [
+        {
+          "job_id": "744000163563459",
+          "title": "Lead, Commercial, Managed Accounts (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000163563459/lead-commercial-managed-accounts-fb/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163561579",
+          "title": "Specialist, Key Account Management - Payment & Loyalty",
+          "url": "https://www.grab.careers/en/jobs/744000163561579/specialist-key-account-management-payment-loyalty/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163435130",
+          "title": "Associate, Key Account Management, Enterprise",
+          "url": "https://www.grab.careers/en/jobs/744000163435130/associate-key-account-management-enterprise/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163403349",
+          "title": "Associate, Key Account Management, Enterprise",
+          "url": "https://www.grab.careers/en/jobs/744000163403349/associate-key-account-management-enterprise/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000163135999",
+          "title": "Intern, Talent Acquisition",
+          "url": "https://www.grab.careers/en/jobs/744000163135999/intern-talent-acquisition/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000163135429",
+          "title": "Assistant Manager, CRM",
+          "url": "https://www.grab.careers/en/jobs/744000163135429/assistant-manager-crm/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-d2b9f1af577337a7",
       "entity_id": "grab",

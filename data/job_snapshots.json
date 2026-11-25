@@ -1,11 +1,31 @@
 {
   "version": 1,
-  "generated_at": "2026-11-24T18:39:27.883418+08:00",
+  "generated_at": "2026-11-25T10:12:05.271547+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-24T18:39:27.883418+08:00",
+      "observed_at": "2026-11-25T10:12:05.271547+08:00",
       "jobs": [
+        {
+          "id": "744000163563459",
+          "title": "Lead, Commercial, Managed Accounts (F&B)",
+          "url": "https://www.grab.careers/en/jobs/744000163563459/lead-commercial-managed-accounts-fb/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163561579",
+          "title": "Specialist, Key Account Management - Payment & Loyalty",
+          "url": "https://www.grab.careers/en/jobs/744000163561579/specialist-key-account-management-payment-loyalty/",
+          "function_tags": [
+            "payments"
+          ]
+        },
+        {
+          "id": "744000163435130",
+          "title": "Associate, Key Account Management, Enterprise",
+          "url": "https://www.grab.careers/en/jobs/744000163435130/associate-key-account-management-enterprise/",
+          "function_tags": []
+        },
         {
           "id": "744000163419170",
           "title": "Merchant Sales Executive, GrabMart & GrabPay",
@@ -30,12 +50,6 @@
           "function_tags": [
             "payments"
           ]
-        },
-        {
-          "id": "744000163403349",
-          "title": "Associate, Key Account Management, Enterprise",
-          "url": "https://www.grab.careers/en/jobs/744000163403349/associate-key-account-management-enterprise/",
-          "function_tags": []
         },
         {
           "id": "744000163401020",
@@ -126,24 +140,12 @@
           "title": "Fleet Management Associate",
           "url": "https://www.grab.careers/en/jobs/744000163137314/fleet-management-associate/",
           "function_tags": []
-        },
-        {
-          "id": "744000163135999",
-          "title": "Intern, Talent Acquisition",
-          "url": "https://www.grab.careers/en/jobs/744000163135999/intern-talent-acquisition/",
-          "function_tags": []
-        },
-        {
-          "id": "744000163135429",
-          "title": "Assistant Manager, CRM",
-          "url": "https://www.grab.careers/en/jobs/744000163135429/assistant-manager-crm/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-24T18:39:27.883418+08:00",
+      "observed_at": "2026-11-25T10:12:05.271547+08:00",
       "jobs": [
         {
           "id": "8144196",
@@ -190,20 +192,12 @@
           "title": "Abuse Investigator",
           "url": "https://stripe.com/careers/listing/abuse-investigator/8172510",
           "function_tags": []
-        },
-        {
-          "id": "8345653",
-          "title": "Account Executive (Commercial Grower, Japan)",
-          "url": "https://stripe.com/careers/listing/account-executive-commercial-grower-japan/8345653",
-          "function_tags": [
-            "sales"
-          ]
         }
       ]
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-24T18:39:27.883418+08:00",
+      "observed_at": "2026-11-25T10:12:05.271547+08:00",
       "jobs": [
         {
           "id": "1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536",
