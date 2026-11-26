@@ -1156,83 +1156,83 @@
       "generated_at": "2026-11-16 06:47"
     },
     "monthly:2026-11": {
-      "input_hash": "c2af6d672ab85fb1ef6c666cf50eace93b8f35231323b4354012a7e736b736e1",
+      "input_hash": "e774328f3b966a486d4564d7744b3376f71c610137206c1daf2fb256a59ec44e",
       "editorial": {
-        "editorial_title": "AI基建与区域合作双线提速",
-        "mainline": "本月结构变化集中在两条线：AI与云基础设施事实量较基线增加68.7条，字节跳动入局机器人、安山市联手Naver Cloud推进制造业AI转型等事件显示中资与韩方在AI落地层加速；区域扩张与合作事实量增加30条，Roots与Adyen全渠道支付合作、越南邮政与Rakuten Viber扩展数字生态等表明亚太企业正以合作而非自建方式跨市场铺开。两条线共同指向：出海BD的竞争焦点从单点产品转向基础设施绑定与本地生态嵌入。",
+        "editorial_title": "AI基建与中东扩张双线提速",
+        "mainline": "本月结构变化的主线是AI与云基础设施升温与中东区域扩张合作升温同步加速：前者事实量较基线增加71.7条，字节跳动入局机器人、Naver Cloud与核电运营商合作开发AI智能体等动作显示中资与韩资在AI基建层加大投入；后者增加34.0条，Careem推出家庭共享账户、Igloo收购Democrance输出嵌入式保险至海湾，表明中东本地平台正从单一服务向家庭账户与跨境保险输出延伸。与上月相比，两条线从延续转为升温，指向出海BD应优先关注AI基建的本地化合作与中东嵌入式金融的落地窗口。",
         "themes": {
           "ai_infra": {
-            "narrative": "本月AI与云基础设施事实量较基线增加68.7条，字节跳动入局机器人、安山市联手Naver Cloud推进制造业AI转型，显示AI投入正从通用云转向垂直场景与硬件载体。",
+            "narrative": "本月AI与云基础设施升温，字节跳动入局机器人、新兴玩家加速IPO，Naver Cloud与核电运营商合作开发AI智能体，显示中资与韩资在AI基建层从云服务向机器人与行业智能体延伸。",
             "drivers": [
               "字节跳动入局机器人，新兴玩家加速IPO",
-              "安山市联手Naver Cloud推进制造业AI转型",
-              "腾讯参与六国游戏产业合作讨论"
+              "Naver Cloud与核电运营商合作开发AI智能体",
+              "Careem在迪拜阿布扎比上线免费家庭账户"
             ],
-            "uncertainty": "字节机器人业务的具体投入规模与商业化路径尚未披露，Naver Cloud制造业AI转型的落地效果待观察。",
-            "next_validation": "下月验证字节机器人是否有产品发布或合作签约，以及Naver Cloud是否新增制造业客户。"
+            "uncertainty": "字节跳动机器人业务与Naver Cloud核电合作的具体投入规模与商业化节奏尚未披露。",
+            "next_validation": "下月验证字节跳动机器人是否公布产品路线，以及Naver Cloud AI智能体是否落地核电以外行业。"
           },
           "expansion": {
-            "narrative": "本月区域扩张与合作事实量较基线增加30条，Roots与Adyen达成全渠道支付合作、越南邮政与Rakuten Viber合作扩展数字生态，显示亚太企业正通过支付与消息平台合作跨市场延伸。",
+            "narrative": "中东区域扩张与合作升温，Careem推出家庭共享账户Family Circle，Igloo收购Democrance将嵌入式保险输出至海湾，Roots与Adyen达成全渠道支付合作，显示本地平台正从单一服务向家庭账户与跨境保险延伸。",
             "drivers": [
-              "Roots与Adyen达成全渠道支付合作",
-              "越南邮政与Rakuten Viber合作扩展数字生态",
-              "Kakao Games三市场发行Odin Q"
+              "Careem推出家庭共享账户Family Circle",
+              "Igloo收购Democrance输出嵌入式保险至海湾",
+              "Roots与Adyen达成全渠道支付合作"
             ],
-            "uncertainty": "越南邮政与Viber合作的具体业务范围与收入分成模式未明，Roots与Adyen合作的市场覆盖范围待确认。",
-            "next_validation": "下月验证越南邮政与Viber合作是否上线具体服务，以及Roots与Adyen是否披露新增市场。"
+            "uncertainty": "Igloo收购Democrance后的海湾落地进度与Careem家庭账户的用户采纳率尚待观察。",
+            "next_validation": "下月验证Igloo是否公布海湾嵌入式保险合作方，以及Careem Family Circle是否扩展至更多市场。"
           },
           "payments": {
-            "narrative": "本月支付与金融科技事实量较基线增加29.7条，Toss推出人脸支付kiosk终端对标NAVER，Payoneer获OCC信托银行牌照有条件批准，显示支付竞争从线上向线下终端与牌照壁垒延伸。",
+            "narrative": "支付与金融科技延续，Toss推出人脸支付kiosk终端对标NAVER，Payoneer获OCC信托银行牌照有条件批准，Satispay联手Adyen推出Smart POS终端，显示亚太与全球支付玩家在终端形态与牌照准入上同步推进。",
             "drivers": [
               "Toss推人脸支付kiosk终端，对标NAVER",
               "Payoneer获OCC信托银行牌照有条件批准",
               "Satispay联手Adyen推出Smart POS终端"
             ],
-            "uncertainty": "Payoneer的OCC牌照为有条件批准，最终能否正式生效存在变数；Toss人脸支付终端的铺设规模未披露。",
-            "next_validation": "下月验证Payoneer是否满足OCC条件正式获牌，以及Toss人脸支付终端是否公布部署数量。"
+            "uncertainty": "Payoneer OCC牌照为有条件批准，最终生效与业务范围仍存变数。",
+            "next_validation": "下月验证Payoneer OCC牌照是否转为正式批准，以及Toss人脸支付kiosk的铺设规模。"
           },
           "developer": {
-            "narrative": "本月开发者与平台生态事实量与基线基本持平（-0.7条），但结构上有变化：比特币跌破6万美元引发杠杆重置，MiniMax以速度低价切入AI图像生成竞争，显示开发者生态的注意力从加密转向AI工具层。",
+            "narrative": "开发者与平台生态延续，比特币跌破$60,000引发杠杆重置，e27分析亚洲初创以并购替代自建策略，MiniMax以速度低价切入AI图像生成竞争，显示开发者在加密波动与AI工具降价中调整自建与并购的取舍。",
             "drivers": [
               "比特币跌破$60,000，杠杆重置",
-              "MiniMax以速度低价切入AI图像生成竞争",
-              "e27分析亚洲初创并购替代自建策略"
+              "e27分析亚洲初创并购替代自建策略",
+              "MiniMax以速度低价切入AI图像生成竞争"
             ],
-            "uncertainty": "比特币价格波动是否持续影响开发者生态活跃度尚不明确，MiniMax低价策略的可持续性待验证。",
-            "next_validation": "下月验证MiniMax图像生成产品的用户增长数据，以及亚洲初创并购替代自建是否出现新案例。"
+            "uncertainty": "比特币价格波动对开发者生态的传导程度有限，并购替代自建的趋势尚缺交易量佐证。",
+            "next_validation": "下月验证亚洲初创并购交易数量是否上升，以及MiniMax图像生成是否公布定价与用户数据。"
           },
           "compliance": {
-            "narrative": "本月合规与安全事实量较基线增加7.3条，欧盟拟立法限制游戏战利品箱与成瘾设计，泰国央行暂停新货币兑换商牌照发放至2027年，显示监管在游戏设计与支付牌照两端同时收紧。",
+            "narrative": "合规与安全延续，欧盟拟立法限制游戏战利品箱与成瘾设计，芬德游戏协会警告数字公平法案伤产业，泰国央行暂停新货币兑换商牌照发放至2027年，显示欧洲与东南亚在数字消费与金融准入两端同步收紧。",
             "drivers": [
               "欧盟拟立法限制游戏战利品箱与成瘾设计",
-              "泰国央行暂停新货币兑换商牌照发放至2027年",
-              "芬德游戏协会警告欧盟数字公平法案伤产业"
+              "芬德游戏协会警告欧盟数字公平法案伤产业",
+              "泰国央行暂停新货币兑换商牌照发放至2027年"
             ],
-            "uncertainty": "欧盟立法尚处提案阶段，最终条款与生效时间不确定；泰国牌照暂停是否影响存量兑换商运营未明。",
-            "next_validation": "下月验证欧盟数字公平法案是否进入下一立法环节，以及泰国央行是否发布牌照暂停的执行细则。"
+            "uncertainty": "欧盟战利品箱立法仍处拟议阶段，最终条款与生效时间未定。",
+            "next_validation": "下月验证欧盟数字公平法案是否进入正式表决，以及泰国央行是否调整牌照暂停期限。"
           },
           "commerce": {
-            "narrative": "本月电商、商户与物流事实量与基线基本持平（-0.3条），Naver推出B2B专属N+ Business Mall低费率平台，马来西亚中小企业借阿里平台进入中国市场，显示电商平台正从C端向B端与跨境供给延伸。",
+            "narrative": "电商、商户与物流延续，Naver推出B2B专属N+ Business Mall低费率平台，马来西亚中小企业借阿里平台进入中国市场，Jumia发布Q3财报，显示平台在B2B费率与跨境入华通道上展开差异化竞争。",
             "drivers": [
               "Naver推出B2B专属N+ Business Mall低费率平台",
               "马来西亚中小企业借阿里平台进入中国市场",
               "Jumia发布Q3及前三季度财报"
             ],
-            "uncertainty": "Naver B2B商城的低费率能否吸引足够商户入驻尚待观察，马来西亚中小企业经阿里入华的规模未披露。",
-            "next_validation": "下月验证Naver B2B商城的商户入驻数量或GMV数据，以及阿里是否披露马来西亚中小企业入华的具体案例数。"
+            "uncertainty": "Naver B2B低费率平台的商户入驻规模与Jumia财报后的盈利路径尚不明确。",
+            "next_validation": "下月验证Naver N+ Business Mall的入驻商户数，以及Jumia是否公布下季度盈利指引。"
           }
         },
         "theme_titles": {
-          "ai_infra": "字节入局机器人，Naver Cloud落地制造业AI",
-          "expansion": "Roots联手Adyen，越南邮政接入Viber生态",
-          "payments": "Toss推人脸支付终端，Payoneer获OCC牌照",
-          "developer": "比特币跌破6万美元，MiniMax低价切入图像生成",
-          "compliance": "欧盟拟限游戏战利品箱，泰国停发兑换牌照",
-          "commerce": "Naver推B2B低费率商城，马来中小企业借阿里入华"
+          "ai_infra": "字节跳动入局机器人，Naver Cloud联手核电开发AI智能体",
+          "expansion": "Careem推家庭共享账户，Igloo收购Democrance输出海湾保险",
+          "payments": "Toss推人脸支付kiosk，Payoneer获OCC信托银行牌照",
+          "developer": "比特币跌破$60,000杠杆重置，MiniMax低价切入AI图像生成",
+          "compliance": "欧盟拟立法限制游戏战利品箱，泰国央行暂停兑换商牌照",
+          "commerce": "Naver推B2B专属低费率商城，马来西亚中小企业借阿里入华"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-11-26 09:52"
+      "generated_at": "2026-11-26 17:16"
     },
     "weekly:2026-W47": {
       "input_hash": "4affa784c8d87a75f12d50e8271100e71e367befcd5e4f5252b65f9b89d866e0",
@@ -1260,29 +1260,29 @@
       "generated_at": "2026-11-22 15:51"
     },
     "weekly:2026-W48": {
-      "input_hash": "662a7224b373684752506875947fbf5fc9f894d1cb65ea6daa6b242f33e097db",
+      "input_hash": "433dfade62cf852360f7250261836983c03f156bd851f25ae13f49be59d0e064",
       "editorial": {
-        "editorial_title": "支付终端与机器人供应链双线提速",
-        "mainline": "韩国人脸支付终端竞争升温、欧洲支付商联手零售品牌升级全渠道收单，同时字节入局机器人带动上游零部件与AI视觉采购。两条线共同指向：出海BD应优先卡位支付硬件与机器人供应链的本地化合作窗口。",
+        "editorial_title": "中东超级App扩场景，支付硬件与合规同步收紧",
+        "mainline": "中东超级App从出行向家庭账户与嵌入式保险延伸，支付终端侧Toss、Satispay接连推新硬件；同时德奥提议接管TikTok本地运营、澳洲推进算法退出立法，平台合规成本正从内容层向运营层传导。",
         "themes": {
-          "ai_infra": "字节跳动切入机器人赛道，新兴玩家加速IPO，上游零部件与AI视觉采购需求随之抬升；腾讯参与六国游戏产业合作讨论，Kakao Games则敲定韩台日三市场同步上线，中资内容与硬件供应链在亚太同步扩圈。",
-          "expansion": "Roots与Adyen达成全渠道支付合作，北美零售品牌支付基建升级打开服务商渗透空间；越南邮政联手Rakuten Viber扩展数字生态，Kakao Games三市场发行落地，区域合作从支付向通信与内容分发延伸。",
-          "payments": "Toss推出人脸支付kiosk对标NAVER，韩国线下终端市场出现新竞争者；Satispay联手Adyen推出Smart POS，欧洲收单硬件联盟成形；Payoneer获OCC信托银行牌照有条件批准，合规化路径进一步清晰。",
-          "developer": "比特币跌破$60,000触发杠杆重置，加密基金与交易平台面临流动性压力，交易所技术供应商风控需求上升；StarHub签约收购新加坡M1，东南亚电信整合提速，差旅企业转向WhatsApp渠道折射平台生态迁移。",
-          "compliance": "BICS与Airtel Africa扩大漫游与安全合作，非洲移动互联基础设施需求上升；澳洲推进算法退出立法，德奥提议欧洲接管TikTok本地运营，中资平台在欧合规压力从内容审查转向本地运营权归属。",
-          "operations": "Square Enix上半年营业利润增42%并上调全年指引，游戏内容与云服务采购预算有望增加；MercadoLibre营收增45%但营业利润降6%，Jumia下调GMV展望遭降目标价，拉美与非洲电商扩张与盈利矛盾加剧。"
+          "ai_infra": "字节跳动切入机器人赛道，新兴玩家加速IPO，上游零部件与AI视觉采购需求随之抬升；Naver Cloud与核电运营商联手开发AI智能体，把云服务推向能源垂直场景。",
+          "expansion": "Careem上线Family Circle把出行账户扩展为家庭消费入口，Igloo收购Democrance将嵌入式保险输出至海湾；Roots与Adyen打通全渠道支付，中东超级App的账户体系正成为支付与订阅合作的接入点。",
+          "payments": "Toss推出人脸支付kiosk对标NAVER，Satispay联手Adyen发布Smart POS，韩国线下终端市场出现新竞争者；Payoneer获OCC信托银行牌照有条件批准，跨境支付机构向持牌银行架构靠拢。",
+          "developer": "比特币跌破六万美元触发杠杆重置，加密交易平台流动性承压，交易所技术供应商的风控需求上升；StarHub签约收购新加坡M1，东南亚电信整合与差旅企业转向WhatsApp渠道同步发生。",
+          "compliance": "德奥提议由欧洲接管TikTok本地运营，澳洲推进算法退出立法，平台合规压力从内容审核延伸至本地运营架构；Amodei区分车载AI与国家级AI治理边界，为企业级AI采购划定分层参照。",
+          "operations": "Square Enix上半年营业利润增42%并上调全年指引，游戏内容与云采购预算有望增加；MercadoLibre营收增45%但营业利润下滑6%，Jumia下调GMV展望遭降目标价，拉美与非洲电商盈利质量分化。"
         },
         "theme_titles": {
-          "ai_infra": "字节入局机器人，中资游戏发行同步扩圈",
-          "expansion": "北美零售支付升级，东南亚数字生态扩围",
-          "payments": "韩国人脸支付终端开战，欧洲POS联盟成形",
-          "developer": "加密杠杆出清，东南亚电信并购提速",
-          "compliance": "非洲漫游安全扩网，欧洲拟接管TikTok运营",
-          "operations": "日游盈利上调，拉美电商利润承压"
+          "ai_infra": "字节入局机器人，Naver核电AI智能体落地",
+          "expansion": "Careem推家庭账户，Igloo嵌入式保险进海湾",
+          "payments": "Toss推人脸支付终端，Payoneer获信托牌照",
+          "developer": "比特币杠杆出清，StarHub签约收购M1",
+          "compliance": "德奥提议接管TikTok本地运营，澳洲推算法退出",
+          "operations": "Square Enix上调指引，MercadoLibre利润承压"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-11-26 09:52"
+      "generated_at": "2026-11-26 17:16"
     }
   }
 }
