@@ -8118,5 +8118,25 @@
   "score": 4,
   "first_seen": "2026-11-26",
   "samples": 1
+ },
+ "maxim s|strategy|tencentcloud": {
+  "score": 4,
+  "first_seen": "2026-11-27",
+  "samples": 1
+ },
+ "tec do|strategy|tencentcloud": {
+  "score": 5,
+  "first_seen": "2026-11-27",
+  "samples": 1
+ },
+ "k bank|strategy|naverpay": {
+  "score": 4,
+  "first_seen": "2026-11-27",
+  "samples": 1
+ },
+ "capcom|strategy|squareenix": {
+  "score": 6,
+  "first_seen": "2026-11-27",
+  "samples": 1
  }
 }

@@ -1,11 +1,25 @@
 {
   "version": 1,
-  "generated_at": "2026-11-27T09:39:25.508609+08:00",
+  "generated_at": "2026-11-27T17:24:17.546289+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-27T09:39:25.508609+08:00",
+      "observed_at": "2026-11-27T17:24:17.546289+08:00",
       "jobs": [
+        {
+          "id": "744000163983559",
+          "title": "Software Engineer, Mobile (Android)",
+          "url": "https://www.grab.careers/en/jobs/744000163983559/software-engineer-mobile-android/",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "744000163969499",
+          "title": "Regional Marketing Manager, Brand & Social",
+          "url": "https://www.grab.careers/en/jobs/744000163969499/regional-marketing-manager-brand-social/",
+          "function_tags": []
+        },
         {
           "id": "744000163854179",
           "title": "Senior Manager, Regional Market Research & Insights",
@@ -48,12 +62,6 @@
           "id": "744000163811279",
           "title": "Assistant Manager, Self-Serve Business Strategy & Planning",
           "url": "https://www.grab.careers/en/jobs/744000163811279/assistant-manager-self-serve-business-strategy-planning/",
-          "function_tags": []
-        },
-        {
-          "id": "744000163811119",
-          "title": "Copy of Assistant Manager, Self-Serve Business Strategy & Planning",
-          "url": "https://www.grab.careers/en/jobs/744000163811119/copy-of-assistant-manager-self-serve-business-strategy-planning/",
           "function_tags": []
         },
         {
@@ -101,20 +109,6 @@
           "function_tags": []
         },
         {
-          "id": "744000163799169",
-          "title": "Regional Marketing Manager, Brand & Social",
-          "url": "https://www.grab.careers/en/jobs/744000163799169/regional-marketing-manager-brand-social/",
-          "function_tags": []
-        },
-        {
-          "id": "744000163671019",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000163671019/senior-software-engineer-backend/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
           "id": "744000163621319",
           "title": "Senior Software Engineer, Mobile (iOS)",
           "url": "https://www.grab.careers/en/jobs/744000163621319/senior-software-engineer-mobile-ios/",
@@ -135,18 +129,12 @@
           "title": "Associate, Merchant Communication",
           "url": "https://www.grab.careers/en/jobs/744000163620799/associate-merchant-communication/",
           "function_tags": []
-        },
-        {
-          "id": "744000163619771",
-          "title": "Associate, Merchant Community",
-          "url": "https://www.grab.careers/en/jobs/744000163619771/associate-merchant-community/",
-          "function_tags": []
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-27T09:39:25.508609+08:00",
+      "observed_at": "2026-11-27T17:24:17.546289+08:00",
       "jobs": [
         {
           "id": "8144196",
@@ -198,7 +186,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-27T09:39:25.508609+08:00",
+      "observed_at": "2026-11-27T17:24:17.546289+08:00",
       "jobs": [
         {
           "id": "1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536",
