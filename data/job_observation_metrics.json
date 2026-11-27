@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-11-26T17:08:07.665809+08:00",
+  "observed_at": "2026-11-27T09:39:25.508609+08:00",
   "source_count": 3,
   "raw_count": 51,
   "source_stats": {
@@ -8,21 +8,14 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 23,
+      "count": 6,
       "inventory_count": 20,
       "signal_count": 1,
-      "added_count": 12,
-      "removed_count": 11,
-      "clusters": {
-        "operations": 3,
-        "compliance": 1,
-        "engineering": 1
-      },
+      "added_count": 3,
+      "removed_count": 3,
+      "clusters": {},
       "removed_clusters": {
-        "engineering": 1,
-        "payments": 2,
-        "sales": 2,
-        "partnerships": 1
+        "engineering": 2
       }
     },
     "Stripe Jobs": {
@@ -43,186 +36,82 @@
       "region": "全球",
       "status": "ok",
       "fetch_status": "success",
-      "count": 0,
+      "count": 2,
       "inventory_count": 25,
       "signal_count": 0,
-      "added_count": 0,
-      "removed_count": 0,
-      "clusters": {},
-      "removed_clusters": {}
+      "added_count": 1,
+      "removed_count": 1,
+      "clusters": {
+        "engineering": 1
+      },
+      "removed_clusters": {
+        "engineering": 1,
+        "compliance": 1
+      }
     }
   },
   "candidate_signals": [
     {
-      "candidate_id": "jobs-ea127abd570ed45e",
+      "candidate_id": "jobs-8f1c8020df0c1983",
       "entity_id": "grab",
       "entity": "Grab",
       "region": "亚太",
       "sector": "mobility_payment",
       "source_type": "jobs_snapshot",
       "signal_type": "function_buildout",
-      "cluster": "operations",
+      "cluster": "mixed",
       "window": "2026-W48",
-      "window_start": "2026-11-26",
-      "window_end": "2026-11-26",
-      "detected_at": "2026-11-26T17:08:07.665809+08:00",
-      "baseline_count": 19,
+      "window_start": "2026-11-27",
+      "window_end": "2026-11-27",
+      "detected_at": "2026-11-27T09:39:25.508609+08:00",
+      "baseline_count": 20,
       "current_count": 20,
-      "added_count": 12,
-      "removed_count": 11,
-      "clusters": {
-        "operations": 3,
-        "compliance": 1,
-        "engineering": 1
-      },
+      "added_count": 3,
+      "removed_count": 3,
+      "clusters": {},
       "removed_clusters": {
-        "engineering": 1,
-        "payments": 2,
-        "sales": 2,
-        "partnerships": 1
+        "engineering": 2
       },
       "evidence_refs": [
         {
-          "job_id": "744000163820509",
-          "title": "Assistant Manager, Collections",
-          "url": "https://www.grab.careers/en/jobs/744000163820509/assistant-manager-collections/",
+          "job_id": "744000163854179",
+          "title": "Senior Manager, Regional Market Research & Insights",
+          "url": "https://www.grab.careers/en/jobs/744000163854179/senior-manager-regional-market-research-insights/",
           "change": "added"
         },
         {
-          "job_id": "744000163817710",
-          "title": "Paid Media Lead - All Verticals",
-          "url": "https://www.grab.careers/en/jobs/744000163817710/paid-media-lead-all-verticals/",
+          "job_id": "744000163842756",
+          "title": "Senior Validation & Testing Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000163842756/senior-validation-testing-specialist/",
           "change": "added"
         },
         {
-          "job_id": "744000163811834",
-          "title": "Assistant Manager, Merchant Core Operations - Onboarding",
-          "url": "https://www.grab.careers/en/jobs/744000163811834/assistant-manager-merchant-core-operations-onboarding/",
+          "job_id": "744000163834890",
+          "title": "Country Safety Manager",
+          "url": "https://www.grab.careers/en/jobs/744000163834890/country-safety-manager/",
           "change": "added"
         },
         {
-          "job_id": "744000163811279",
-          "title": "Assistant Manager, Self-Serve Business Strategy & Planning",
-          "url": "https://www.grab.careers/en/jobs/744000163811279/assistant-manager-self-serve-business-strategy-planning/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000163811119",
-          "title": "Copy of Assistant Manager, Self-Serve Business Strategy & Planning",
-          "url": "https://www.grab.careers/en/jobs/744000163811119/copy-of-assistant-manager-self-serve-business-strategy-planning/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000163810229",
-          "title": "Associate, Key Account Management, Enterprise",
-          "url": "https://www.grab.careers/en/jobs/744000163810229/associate-key-account-management-enterprise/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000163809639",
-          "title": "Intern, People Scientist (Research)",
-          "url": "https://www.grab.careers/en/jobs/744000163809639/intern-people-scientist-research/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000163806259",
-          "title": "Head of SME Credit Risk",
-          "url": "https://www.grab.careers/en/jobs/744000163806259/head-of-sme-credit-risk/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000163804409",
-          "title": "Senior Software Engineer, Backend - Lending",
-          "url": "https://www.grab.careers/en/jobs/744000163804409/senior-software-engineer-backend-lending/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000163802159",
-          "title": "Intern, Driver Operations",
-          "url": "https://www.grab.careers/en/jobs/744000163802159/intern-driver-operations/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000163802009",
-          "title": "Intern, Talent Acquisition",
-          "url": "https://www.grab.careers/en/jobs/744000163802009/intern-talent-acquisition/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000163799169",
-          "title": "Regional Marketing Manager, Brand & Social",
-          "url": "https://www.grab.careers/en/jobs/744000163799169/regional-marketing-manager-brand-social/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000163601699",
-          "title": "Lead Integration Engineer, Orchestration Team",
-          "url": "https://www.grab.careers/en/jobs/744000163601699/lead-integration-engineer-orchestration-team/",
+          "job_id": "744000163612099",
+          "title": "Lead Software Engineer, Backend - Business Platform",
+          "url": "https://www.grab.careers/en/jobs/744000163612099/lead-software-engineer-backend-business-platform/",
           "change": "removed"
         },
         {
-          "job_id": "744000163601149",
-          "title": "Lead Solutions Specialist (Kyriba)",
-          "url": "https://www.grab.careers/en/jobs/744000163601149/lead-solutions-specialist-kyriba/",
+          "job_id": "744000163603419",
+          "title": "Assistant Marketing Manager - Mobility Expansion, Vietnam",
+          "url": "https://www.grab.careers/en/jobs/744000163603419/assistant-marketing-manager-mobility-expansion-vietnam/",
           "change": "removed"
         },
         {
-          "job_id": "744000163597989",
-          "title": "Lead Product Manager, Grabmart",
-          "url": "https://www.grab.careers/en/jobs/744000163597989/lead-product-manager-grabmart/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000163563459",
-          "title": "Lead, Commercial, Managed Accounts (F&B)",
-          "url": "https://www.grab.careers/en/jobs/744000163563459/lead-commercial-managed-accounts-fb/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000163561579",
-          "title": "Specialist, Key Account Management - Payment & Loyalty",
-          "url": "https://www.grab.careers/en/jobs/744000163561579/specialist-key-account-management-payment-loyalty/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000163435130",
-          "title": "Associate, Key Account Management, Enterprise",
-          "url": "https://www.grab.careers/en/jobs/744000163435130/associate-key-account-management-enterprise/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000163419170",
-          "title": "Merchant Sales Executive, GrabMart & GrabPay",
-          "url": "https://www.grab.careers/en/jobs/744000163419170/merchant-sales-executive-grabmart-grabpay/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000163416089",
-          "title": "Assistant Manager, Business Development & Partnership",
-          "url": "https://www.grab.careers/en/jobs/744000163416089/assistant-manager-business-development-partnership/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000163415439",
-          "title": "Regional Category Manager - Corporate Services & Financial Services",
-          "url": "https://www.grab.careers/en/jobs/744000163415439/regional-category-manager-corporate-services-financial-services/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000163401020",
-          "title": "Associate, Program Management (Strategic Projects)",
-          "url": "https://www.grab.careers/en/jobs/744000163401020/associate-program-management-strategic-projects/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000163386439",
-          "title": "Retail Excellence Manager, Supply Chain",
-          "url": "https://www.grab.careers/en/jobs/744000163386439/retail-excellence-manager-supply-chain/",
+          "job_id": "744000163601749",
+          "title": "Senior Integration Engineer, Orchestration team",
+          "url": "https://www.grab.careers/en/jobs/744000163601749/senior-integration-engineer-orchestration-team/",
           "change": "removed"
         }
       ],
-      "status": "rejected",
-      "rejection_reason": "source_reset_suspected",
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
       "promoted_event_id": ""
     }
   ],

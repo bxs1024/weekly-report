@@ -1,7 +1,70 @@
 {
   "version": 1,
-  "generated_at": "2026-11-26T17:08:07.665809+08:00",
+  "generated_at": "2026-11-27T09:39:25.508609+08:00",
   "candidates": [
+    {
+      "candidate_id": "jobs-8f1c8020df0c1983",
+      "entity_id": "grab",
+      "entity": "Grab",
+      "region": "亚太",
+      "sector": "mobility_payment",
+      "source_type": "jobs_snapshot",
+      "signal_type": "function_buildout",
+      "cluster": "mixed",
+      "window": "2026-W48",
+      "window_start": "2026-11-27",
+      "window_end": "2026-11-27",
+      "detected_at": "2026-11-27T09:39:25.508609+08:00",
+      "baseline_count": 20,
+      "current_count": 20,
+      "added_count": 3,
+      "removed_count": 3,
+      "clusters": {},
+      "removed_clusters": {
+        "engineering": 2
+      },
+      "evidence_refs": [
+        {
+          "job_id": "744000163854179",
+          "title": "Senior Manager, Regional Market Research & Insights",
+          "url": "https://www.grab.careers/en/jobs/744000163854179/senior-manager-regional-market-research-insights/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163842756",
+          "title": "Senior Validation & Testing Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000163842756/senior-validation-testing-specialist/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163834890",
+          "title": "Country Safety Manager",
+          "url": "https://www.grab.careers/en/jobs/744000163834890/country-safety-manager/",
+          "change": "added"
+        },
+        {
+          "job_id": "744000163612099",
+          "title": "Lead Software Engineer, Backend - Business Platform",
+          "url": "https://www.grab.careers/en/jobs/744000163612099/lead-software-engineer-backend-business-platform/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000163603419",
+          "title": "Assistant Marketing Manager - Mobility Expansion, Vietnam",
+          "url": "https://www.grab.careers/en/jobs/744000163603419/assistant-marketing-manager-mobility-expansion-vietnam/",
+          "change": "removed"
+        },
+        {
+          "job_id": "744000163601749",
+          "title": "Senior Integration Engineer, Orchestration team",
+          "url": "https://www.grab.careers/en/jobs/744000163601749/senior-integration-engineer-orchestration-team/",
+          "change": "removed"
+        }
+      ],
+      "status": "accumulating",
+      "rejection_reason": "insufficient_cluster_strength",
+      "promoted_event_id": ""
+    },
     {
       "candidate_id": "jobs-ea127abd570ed45e",
       "entity_id": "grab",

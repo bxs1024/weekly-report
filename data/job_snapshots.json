@@ -1,11 +1,29 @@
 {
   "version": 1,
-  "generated_at": "2026-11-26T17:08:07.665809+08:00",
+  "generated_at": "2026-11-27T09:39:25.508609+08:00",
   "entities": {
     "grab": {
       "entity": "Grab",
-      "observed_at": "2026-11-26T17:08:07.665809+08:00",
+      "observed_at": "2026-11-27T09:39:25.508609+08:00",
       "jobs": [
+        {
+          "id": "744000163854179",
+          "title": "Senior Manager, Regional Market Research & Insights",
+          "url": "https://www.grab.careers/en/jobs/744000163854179/senior-manager-regional-market-research-insights/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163842756",
+          "title": "Senior Validation & Testing Specialist",
+          "url": "https://www.grab.careers/en/jobs/744000163842756/senior-validation-testing-specialist/",
+          "function_tags": []
+        },
+        {
+          "id": "744000163834890",
+          "title": "Country Safety Manager",
+          "url": "https://www.grab.careers/en/jobs/744000163834890/country-safety-manager/",
+          "function_tags": []
+        },
         {
           "id": "744000163820509",
           "title": "Assistant Manager, Collections",
@@ -123,34 +141,12 @@
           "title": "Associate, Merchant Community",
           "url": "https://www.grab.careers/en/jobs/744000163619771/associate-merchant-community/",
           "function_tags": []
-        },
-        {
-          "id": "744000163612099",
-          "title": "Lead Software Engineer, Backend - Business Platform",
-          "url": "https://www.grab.careers/en/jobs/744000163612099/lead-software-engineer-backend-business-platform/",
-          "function_tags": [
-            "engineering"
-          ]
-        },
-        {
-          "id": "744000163603419",
-          "title": "Assistant Marketing Manager - Mobility Expansion, Vietnam",
-          "url": "https://www.grab.careers/en/jobs/744000163603419/assistant-marketing-manager-mobility-expansion-vietnam/",
-          "function_tags": []
-        },
-        {
-          "id": "744000163601749",
-          "title": "Senior Integration Engineer, Orchestration team",
-          "url": "https://www.grab.careers/en/jobs/744000163601749/senior-integration-engineer-orchestration-team/",
-          "function_tags": [
-            "engineering"
-          ]
         }
       ]
     },
     "stripe": {
       "entity": "Stripe",
-      "observed_at": "2026-11-26T17:08:07.665809+08:00",
+      "observed_at": "2026-11-27T09:39:25.508609+08:00",
       "jobs": [
         {
           "id": "8144196",
@@ -202,7 +198,7 @@
     },
     "shopify": {
       "entity": "Shopify",
-      "observed_at": "2026-11-26T17:08:07.665809+08:00",
+      "observed_at": "2026-11-27T09:39:25.508609+08:00",
       "jobs": [
         {
           "id": "1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536",
@@ -260,6 +256,14 @@
           "id": "0c3c9c04-18db-4e02-ab7d-d7bb32ac7bea",
           "title": "Engineering Manager - Cloud Systems Remote - Americas",
           "url": "https://www.shopify.com/careers/engineering-manager-cloud-systems_0c3c9c04-18db-4e02-ab7d-d7bb32ac7bea",
+          "function_tags": [
+            "engineering"
+          ]
+        },
+        {
+          "id": "0b265132-66b2-4b6c-83cf-0643fda0f73e",
+          "title": "Engineering Manager - Design Systems Remote - Americas",
+          "url": "https://www.shopify.com/careers/engineering-manager-design-systems_0b265132-66b2-4b6c-83cf-0643fda0f73e",
           "function_tags": [
             "engineering"
           ]
@@ -400,15 +404,6 @@
           "id": "f84cfe1e-3f98-4394-be55-24f042a660c7",
           "title": "Senior Privacy Compliance Engineer Remote - Americas",
           "url": "https://www.shopify.com/careers/senior-privacy-compliance-engineer_f84cfe1e-3f98-4394-be55-24f042a660c7",
-          "function_tags": [
-            "engineering",
-            "compliance"
-          ]
-        },
-        {
-          "id": "386f306c-05fb-4232-85c1-a4bbf5a20997",
-          "title": "Senior Security Compliance Engineer Remote - Americas",
-          "url": "https://www.shopify.com/careers/senior-security-compliance-engineer_386f306c-05fb-4232-85c1-a4bbf5a20997",
           "function_tags": [
             "engineering",
             "compliance"
