@@ -1,84 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-11-26</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-11-27</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-11-26T09:16:56Z</updated>
+  <updated>2026-11-27T01:47:04Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>英伟达因美管制停发东南亚服务器</title>
-    <link href="https://www.techinasia.com/news/nvidia-halts-server-shipments-sea-curbs"/>
-    <id>tag:weekly-report,2026:event-9a32da1b</id>
-    <published>2026-11-26T00:00:00Z</published>
-    <updated>2026-11-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia halts server shipments to SEA on US curbs&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;英伟达因美国出口管制暂停向东南亚地区发货服务器&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美芯片出口管制延伸至东南亚，区域AI算力供应链面临断供风险，本地云厂商需寻找替代方案&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：北美 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>Fitch警告芯片管制拖累亚太数据中心</title>
+    <link href="https://www.techinasia.com/news/chip-rules-threaten-asiapacific-data-center-growth-fitch"/>
+    <id>tag:weekly-report,2026:event-03ac0ad7</id>
+    <published>2026-11-27T00:00:00Z</published>
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;US chip rules threaten Asia-Pacific data center growth: Fitch&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;评级机构Fitch发布报告称美国芯片出口管制将威胁亚太地区数据中心增长&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太数据中心扩张受美国芯片规则制约，算力采购与合规成本上升需重新评估&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：北美 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Nihin Media获$3.3M融资抢日本临床AI窗口</title>
-    <link href="https://e27.co/antler-backed-nihin-media-raises-us3-3m-to-win-japans-clinical-ai-race-before-the-window-shuts-20261126/"/>
-    <id>tag:weekly-report,2026:event-c272dc9e</id>
-    <published>2026-11-26T00:00:00Z</published>
-    <updated>2026-11-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Antler-backed Nihin Media raises US$3.3M to win Japan’s clinical AI race before the window shuts&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Antler投资的Nihin Media完成330万美元融资，瞄准日本临床AI市场窗口期加速布局。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;日本临床AI赛道进入窗口期争夺，早期融资推动医疗AI本地化部署与数据合规合作需求&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+    <title>Altair获$100M A轮融资</title>
+    <link href="https://www.techinasia.com/news/israeli-chipmaker-altair-raises-100m-series"/>
+    <id>tag:weekly-report,2026:event-e2cd38d9</id>
+    <published>2026-11-27T00:00:00Z</published>
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Israeli chipmaker Altair raises $100m in series A&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;以色列芯片公司Altair完成1亿美元A轮融资&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;以色列芯片设计公司大额早期融资，先进制程与IP授权合作需求上升&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Lumius获$4.5M融资挑战GE与飞利浦3D超声</title>
-    <link href="https://e27.co/vietnam-born-founders-duke-spinout-lumius-raises-us4-5m-to-take-on-ge-and-philips-in-3d-ultrasound-20261126/"/>
-    <id>tag:weekly-report,2026:event-b00697b6</id>
-    <published>2026-11-26T00:00:00Z</published>
-    <updated>2026-11-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Vietnam-born founder’s Duke spinout Lumius raises US$4.5M to take on GE and Philips in 3D ultrasound&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;越南裔创始人创办的杜克大学分拆公司Lumius完成450万美元融资，用于3D超声设备研发，直接对标GE与飞利浦。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太医疗影像初创以小额定融资切入巨头垄断的3D超声赛道，供应链与渠道合作窗口打开&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：funding | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+    <title>GCash推进覆盖剩余50%人口战略</title>
+    <link href="https://www.techinasia.com/gcashs-bid-for-the-next-50"/>
+    <id>tag:weekly-report,2026:event-2163686f</id>
+    <published>2026-11-27T00:00:00Z</published>
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;GCash’s bid for the next 50%&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;菲律宾移动支付平台GCash推进覆盖剩余50%人口的战略扩张计划&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;菲律宾移动支付向普惠金融下沉，支付基建与代理网络合作机会扩大&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Igloo收购Democrance输出嵌入式保险至海湾</title>
-    <link href="https://e27.co/igloo-buys-democrance-to-export-southeast-asias-embedded-insurance-playbook-to-the-gulf-20261126/"/>
-    <id>tag:weekly-report,2026:event-18f41d69</id>
-    <published>2026-11-26T00:00:00Z</published>
-    <updated>2026-11-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Igloo buys Democrance to export Southeast Asia’s embedded insurance playbook to the Gulf&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;东南亚保险科技公司Igloo收购Democrance，计划将东南亚嵌入式保险模式复制到海湾市场。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚保险科技通过并购向海湾扩张，嵌入式保险API与渠道合作机会向中东延伸&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：ma | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+    <title>新加坡工程业ERP选型指南发布</title>
+    <link href="https://e27.co/erp-software-enterprise-ai-deployment-engineering-industry-singapore-20261126/"/>
+    <id>tag:weekly-report,2026:event-61f2bd96</id>
+    <published>2026-11-27T00:00:00Z</published>
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Choosing the Best ERP Software for Enterprise AI Deployment in Singapore’s Engineering Industry&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27发布针对新加坡工程行业企业AI部署的ERP软件选型指南类内容。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡工程行业ERP与AI融合选型需求明确，ERP厂商与系统集成商获客窗口打开&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>XEBO.ai获$10.5M融资</title>
-    <link href="https://inc42.com/buzz/xebo-ai-bags-10-5-mn-to-strengthen-ai-solutions-stack/"/>
-    <id>tag:weekly-report,2026:event-03bc2fe2</id>
-    <published>2026-11-26T00:00:00Z</published>
-    <updated>2026-11-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;XEBO.ai Bags $10.5 Mn To Expand Its Customer Experience Platform&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度AI公司XEBO.ai获得1050万美元融资，用于扩展其客户体验平台&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度AI客服体验赛道融资活跃，CX平台扩张带来API集成与云服务采购机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
+    <title>直播电商下阶段增长靠信任非流量</title>
+    <link href="https://e27.co/live-commerces-next-growth-wave-will-be-won-on-trust-not-traffic-20261123/"/>
+    <id>tag:weekly-report,2026:event-3841d27f</id>
+    <published>2026-11-27T00:00:00Z</published>
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Live commerce’s next growth wave will be won on trust, not traffic&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27发布分析指出直播电商下一阶段增长将取决于信任机制而非流量规模。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚直播电商从流量竞争转向信任与履约，支付风控、评价体系与供应链服务需求上升&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Vegapay获$10M融资扩展UPI信用基建</title>
-    <link href="https://inc42.com/buzz/vegapay-bags-10-mn-to-scale-credit-line-on-upi-infrastructure/"/>
-    <id>tag:weekly-report,2026:event-46b94d75</id>
-    <published>2026-11-26T00:00:00Z</published>
-    <updated>2026-11-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Vegapay Bags $10 Mn To Scale Credit Line On UPI Infrastructure&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度金融科技公司Vegapay完成1000万美元融资，用于扩展UPI信用额度基础设施&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度UPI信用额度基础设施获资本加持，支付信贷融合赛道升温，银行与支付技术供应商合作机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>腾讯云营收+35%，营业利润-7%</title>
-    <link href="https://36kr.jp/504756/"/>
-    <id>tag:weekly-report,2026:event-12d01a77</id>
-    <published>2026-11-26T00:00:00Z</published>
-    <updated>2026-11-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;テンセント、7～9月期クラウド35％増収　AI投資拡大で営業利益7％減&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;腾讯7-9月季度云业务收入增长35%，但AI投资扩大导致营业利润下降7%&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太云计算高增长伴随AI投入侵蚀利润，云厂商AI资本开支扩张，供应链采购和算力合作机会增加&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：earnings | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Amodei区分车载AI与国家级AI治理边界</title>
-    <link href="https://e27.co/amodei-draws-a-line-between-ai-that-drives-your-car-and-ai-that-runs-your-country-20261126/"/>
-    <id>tag:weekly-report,2026:event-e23cad3b</id>
-    <published>2026-11-26T00:00:00Z</published>
-    <updated>2026-11-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Amodei draws a line between AI that drives your car and AI that runs your country&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Anthropic CEO Amodei在公开场合区分了自动驾驶类AI与国家治理类AI的应用边界，提出不同风险等级应适用不同监管与部署框架。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;美国AI头部公司CEO公开划定AI应用分层，将影响亚太AI监管合规路径与企业级AI采购标准&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：strategy | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>全球AI视野 Top5 · 2026-11-26</title>
+    <title>全球AI视野 Top5 · 2026-11-27</title>
     <link href="https://aihot.virxact.com/hot"/>
-    <id>tag:weekly-report,2026:aihot-1b706e88</id>
-    <published>2026-11-26T00:00:00Z</published>
-    <updated>2026-11-26T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-26T13:39&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/3e6c5690-bc7f-4ed5-b970-1fd6b1c2edac"&gt;Claude artifacts 可安装为 Mac 和 Windows 桌面应用&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/c241df7c-8594-4077-8325-8fb43645c8ae"&gt;Sand.ai 发布 MAGI-2，上线渠道与定价说法不一&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/99a822a0-0b83-4aff-8f65-02c408205578"&gt;杨立昆指阿莫迪炒作AI危险论，阿莫迪否认&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/647b0945-9244-4f55-b509-0f3fa0f6fe51"&gt;Lean 社区确认阿尔波格黎曼猜想证明正确&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/c38b8a26-309e-4ed2-841e-c4821cf589fe"&gt;Anthropic 将 Claude Messages API 从 Python 迁至 Rust&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
+    <id>tag:weekly-report,2026:aihot-0a3d71c0</id>
+    <published>2026-11-27T00:00:00Z</published>
+    <updated>2026-11-27T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;全球 AI 视野 · 数据截至 2026-11-27T04:57&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/9dbfd26c-982c-409f-9e94-a22a3bde77ed"&gt;FCC批准SpaceX部署百万颗AI卫星&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/cc2d9727-4547-44f7-b2fe-f16bdbf84b42"&gt;OpenAI修复GPT-6.2计费错误并补偿用户&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/c241df7c-8594-4077-8325-8fb43645c8ae"&gt;Sand.ai 发布 MAGI-2，上线渠道与定价说法不一&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/86e2fa50-91df-43e8-ab8a-6948255ec46f"&gt;Nvidia 暂停向东南亚四国发运服务器&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://aihot.virxact.com/story/99a822a0-0b83-4aff-8f65-02c408205578"&gt;杨立昆指阿莫迪炒作AI危险论，阿莫迪否认&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
   </entry>
 </feed>

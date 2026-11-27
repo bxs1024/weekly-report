@@ -1156,83 +1156,83 @@
       "generated_at": "2026-11-16 06:47"
     },
     "monthly:2026-11": {
-      "input_hash": "e774328f3b966a486d4564d7744b3376f71c610137206c1daf2fb256a59ec44e",
+      "input_hash": "2312c5ab9f5277f257ed0e56dbbb1c438fe5f9cf3e52e6bd974ad61e3130f4fd",
       "editorial": {
-        "editorial_title": "AI基建与中东扩张双线提速",
-        "mainline": "本月结构变化的主线是AI与云基础设施升温与中东区域扩张合作升温同步加速：前者事实量较基线增加71.7条，字节跳动入局机器人、Naver Cloud与核电运营商合作开发AI智能体等动作显示中资与韩资在AI基建层加大投入；后者增加34.0条，Careem推出家庭共享账户、Igloo收购Democrance输出嵌入式保险至海湾，表明中东本地平台正从单一服务向家庭账户与跨境保险输出延伸。与上月相比，两条线从延续转为升温，指向出海BD应优先关注AI基建的本地化合作与中东嵌入式金融的落地窗口。",
+        "editorial_title": "亚太AI基建遇管制逆风，区域合作与支付终端加速落地",
+        "mainline": "上月亚太AI与云基础设施延续扩张，本月Fitch警告芯片管制拖累区域数据中心，字节跳动入局机器人、Naver Cloud与核电运营商合作开发AI智能体，显示算力供给约束与本地化AI应用并行。同时区域扩张升温，Tec-Do与腾讯云达成AI全球化战略合作、Careem推出家庭共享账户，出海BD从单点进入转向生态绑定。判断：算力管制将加速亚太AI基础设施的本地化与多元化合作，支付终端与区域平台合作成为落地抓手。",
         "themes": {
           "ai_infra": {
-            "narrative": "本月AI与云基础设施升温，字节跳动入局机器人、新兴玩家加速IPO，Naver Cloud与核电运营商合作开发AI智能体，显示中资与韩资在AI基建层从云服务向机器人与行业智能体延伸。",
+            "narrative": "本月Fitch警告芯片管制拖累亚太数据中心，同时Naver Cloud与核电运营商合作开发AI智能体、字节跳动入局机器人，显示算力供给约束下，亚太AI基础设施向本地能源与多元合作倾斜。",
             "drivers": [
-              "字节跳动入局机器人，新兴玩家加速IPO",
+              "Fitch警告芯片管制拖累亚太数据中心",
               "Naver Cloud与核电运营商合作开发AI智能体",
-              "Careem在迪拜阿布扎比上线免费家庭账户"
+              "字节跳动入局机器人，新兴玩家加速IPO"
             ],
-            "uncertainty": "字节跳动机器人业务与Naver Cloud核电合作的具体投入规模与商业化节奏尚未披露。",
-            "next_validation": "下月验证字节跳动机器人是否公布产品路线，以及Naver Cloud AI智能体是否落地核电以外行业。"
+            "uncertainty": "芯片管制对数据中心的具体拖累幅度尚未量化，核电合作AI智能体仍处早期。",
+            "next_validation": "下月验证亚太数据中心新增投资与芯片管制政策是否出现松动或替代方案。"
           },
           "expansion": {
-            "narrative": "中东区域扩张与合作升温，Careem推出家庭共享账户Family Circle，Igloo收购Democrance将嵌入式保险输出至海湾，Roots与Adyen达成全渠道支付合作，显示本地平台正从单一服务向家庭账户与跨境保险延伸。",
+            "narrative": "本月区域扩张与合作升温，Tec-Do与腾讯云达成AI全球化战略合作，Careem推出家庭共享账户Family Circle，Naver上线全国高尔夫实时预订，显示出海合作从单点进入转向生态绑定与本地场景深耕。",
             "drivers": [
+              "Tec-Do与腾讯云达成AI全球化战略合作",
               "Careem推出家庭共享账户Family Circle",
-              "Igloo收购Democrance输出嵌入式保险至海湾",
-              "Roots与Adyen达成全渠道支付合作"
+              "Naver上线全国高尔夫实时预订"
             ],
-            "uncertainty": "Igloo收购Democrance后的海湾落地进度与Careem家庭账户的用户采纳率尚待观察。",
-            "next_validation": "下月验证Igloo是否公布海湾嵌入式保险合作方，以及Careem Family Circle是否扩展至更多市场。"
+            "uncertainty": "合作落地效果与家庭共享账户的用户接受度尚待数据验证。",
+            "next_validation": "下月验证Tec-Do与腾讯云合作的具体项目落地及Careem家庭账户的渗透数据。"
           },
           "payments": {
-            "narrative": "支付与金融科技延续，Toss推出人脸支付kiosk终端对标NAVER，Payoneer获OCC信托银行牌照有条件批准，Satispay联手Adyen推出Smart POS终端，显示亚太与全球支付玩家在终端形态与牌照准入上同步推进。",
+            "narrative": "本月支付与金融科技延续，LayerZero联手Kakao Pay、三星卡与蚂蚁ZAN，Toss推出人脸支付kiosk终端对标NAVER，显示亚太支付终端与跨链合作加速，线下生物识别支付成为竞争焦点。",
             "drivers": [
+              "LayerZero联手Kakao Pay、三星卡与蚂蚁ZAN",
               "Toss推人脸支付kiosk终端，对标NAVER",
-              "Payoneer获OCC信托银行牌照有条件批准",
               "Satispay联手Adyen推出Smart POS终端"
             ],
-            "uncertainty": "Payoneer OCC牌照为有条件批准，最终生效与业务范围仍存变数。",
-            "next_validation": "下月验证Payoneer OCC牌照是否转为正式批准，以及Toss人脸支付kiosk的铺设规模。"
+            "uncertainty": "人脸支付kiosk的监管合规与用户隐私接受度存在不确定性。",
+            "next_validation": "下月验证Toss人脸支付kiosk的部署规模及LayerZero跨链合作的实际交易量。"
           },
           "developer": {
-            "narrative": "开发者与平台生态延续，比特币跌破$60,000引发杠杆重置，e27分析亚洲初创以并购替代自建策略，MiniMax以速度低价切入AI图像生成竞争，显示开发者在加密波动与AI工具降价中调整自建与并购的取舍。",
+            "narrative": "本月开发者与平台生态延续，比特币跌破$60,000引发杠杆重置，e27分析亚洲初创并购替代自建策略，MiniMax以速度低价切入AI图像生成竞争，显示开发者生态在加密波动中向并购与低成本AI工具倾斜。",
             "drivers": [
               "比特币跌破$60,000，杠杆重置",
               "e27分析亚洲初创并购替代自建策略",
               "MiniMax以速度低价切入AI图像生成竞争"
             ],
-            "uncertainty": "比特币价格波动对开发者生态的传导程度有限，并购替代自建的趋势尚缺交易量佐证。",
-            "next_validation": "下月验证亚洲初创并购交易数量是否上升，以及MiniMax图像生成是否公布定价与用户数据。"
+            "uncertainty": "加密市场脆弱性可能抑制开发者生态的融资与并购活跃度。",
+            "next_validation": "下月验证亚洲初创并购交易数量及MiniMax图像生成的市场份额变化。"
           },
           "compliance": {
-            "narrative": "合规与安全延续，欧盟拟立法限制游戏战利品箱与成瘾设计，芬德游戏协会警告数字公平法案伤产业，泰国央行暂停新货币兑换商牌照发放至2027年，显示欧洲与东南亚在数字消费与金融准入两端同步收紧。",
+            "narrative": "本月合规与安全延续，欧盟拟立法限制游戏战利品箱与成瘾设计，芬德游戏协会警告数字公平法案伤产业，泰国央行暂停新货币兑换商牌照发放至2027年，显示欧洲与东南亚监管同步收紧。",
             "drivers": [
               "欧盟拟立法限制游戏战利品箱与成瘾设计",
               "芬德游戏协会警告欧盟数字公平法案伤产业",
               "泰国央行暂停新货币兑换商牌照发放至2027年"
             ],
-            "uncertainty": "欧盟战利品箱立法仍处拟议阶段，最终条款与生效时间未定。",
-            "next_validation": "下月验证欧盟数字公平法案是否进入正式表决，以及泰国央行是否调整牌照暂停期限。"
+            "uncertainty": "欧盟立法进程与泰国牌照暂停的实际执行力度尚待观察。",
+            "next_validation": "下月验证欧盟数字公平法案的立法进展及泰国央行牌照政策是否调整。"
           },
           "commerce": {
-            "narrative": "电商、商户与物流延续，Naver推出B2B专属N+ Business Mall低费率平台，马来西亚中小企业借阿里平台进入中国市场，Jumia发布Q3财报，显示平台在B2B费率与跨境入华通道上展开差异化竞争。",
+            "narrative": "本月电商、商户与物流延续，Naver推出B2B专属N+ Business Mall低费率平台，Jumia发布Q3及前三季度财报，马来西亚中小企业借阿里平台进入中国市场，显示B2B电商与跨境通道成为增长抓手。",
             "drivers": [
               "Naver推出B2B专属N+ Business Mall低费率平台",
-              "马来西亚中小企业借阿里平台进入中国市场",
-              "Jumia发布Q3及前三季度财报"
+              "Jumia发布Q3及前三季度财报",
+              "马来西亚中小企业借阿里平台进入中国市场"
             ],
-            "uncertainty": "Naver B2B低费率平台的商户入驻规模与Jumia财报后的盈利路径尚不明确。",
-            "next_validation": "下月验证Naver N+ Business Mall的入驻商户数，以及Jumia是否公布下季度盈利指引。"
+            "uncertainty": "B2B低费率平台的商户入驻率与Jumia财报的盈利改善可持续性存疑。",
+            "next_validation": "下月验证Naver B2B平台的商户增长数据及Jumia Q4业绩指引。"
           }
         },
         "theme_titles": {
-          "ai_infra": "字节跳动入局机器人，Naver Cloud联手核电开发AI智能体",
-          "expansion": "Careem推家庭共享账户，Igloo收购Democrance输出海湾保险",
-          "payments": "Toss推人脸支付kiosk，Payoneer获OCC信托银行牌照",
-          "developer": "比特币跌破$60,000杠杆重置，MiniMax低价切入AI图像生成",
-          "compliance": "欧盟拟立法限制游戏战利品箱，泰国央行暂停兑换商牌照",
-          "commerce": "Naver推B2B专属低费率商城，马来西亚中小企业借阿里入华"
+          "ai_infra": "Fitch警告芯片管制拖累亚太数据中心，Naver Cloud联手核电开发AI智能体",
+          "expansion": "Tec-Do与腾讯云达成AI全球化战略合作，Careem推家庭共享账户",
+          "payments": "LayerZero联手Kakao Pay、三星卡与蚂蚁ZAN，Toss推人脸支付kiosk",
+          "developer": "比特币跌破$60,000杠杆重置，MiniMax以速度低价切入AI图像生成",
+          "compliance": "欧盟拟立法限制游戏战利品箱，泰国央行暂停新货币兑换商牌照",
+          "commerce": "Naver推出B2B专属N+ Business Mall低费率平台，Jumia发布Q3财报"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-11-26 17:16"
+      "generated_at": "2026-11-27 09:46"
     },
     "weekly:2026-W47": {
       "input_hash": "4affa784c8d87a75f12d50e8271100e71e367befcd5e4f5252b65f9b89d866e0",
@@ -1260,29 +1260,29 @@
       "generated_at": "2026-11-22 15:51"
     },
     "weekly:2026-W48": {
-      "input_hash": "433dfade62cf852360f7250261836983c03f156bd851f25ae13f49be59d0e064",
+      "input_hash": "d123fdbf6787ca402140421fc1ba34b637c49e695bb87152379e66ab1389f4ef",
       "editorial": {
-        "editorial_title": "中东超级App扩场景，支付硬件与合规同步收紧",
-        "mainline": "中东超级App从出行向家庭账户与嵌入式保险延伸，支付终端侧Toss、Satispay接连推新硬件；同时德奥提议接管TikTok本地运营、澳洲推进算法退出立法，平台合规成本正从内容层向运营层传导。",
+        "editorial_title": "芯片管制重塑亚太算力，支付互联互通提速",
+        "mainline": "美国芯片管制正从采购端推高亚太数据中心合规成本，Fitch的警示与Naver转向核电合作AI智能体，指向算力获取路径的分化；与此同时，LayerZero串联Kakao Pay、三星卡与蚂蚁ZAN，东亚支付钱包的跨链互操作从概念进入落地，出海BD需重新评估本地基建与支付通道的绑定关系。",
         "themes": {
-          "ai_infra": "字节跳动切入机器人赛道，新兴玩家加速IPO，上游零部件与AI视觉采购需求随之抬升；Naver Cloud与核电运营商联手开发AI智能体，把云服务推向能源垂直场景。",
-          "expansion": "Careem上线Family Circle把出行账户扩展为家庭消费入口，Igloo收购Democrance将嵌入式保险输出至海湾；Roots与Adyen打通全渠道支付，中东超级App的账户体系正成为支付与订阅合作的接入点。",
-          "payments": "Toss推出人脸支付kiosk对标NAVER，Satispay联手Adyen发布Smart POS，韩国线下终端市场出现新竞争者；Payoneer获OCC信托银行牌照有条件批准，跨境支付机构向持牌银行架构靠拢。",
-          "developer": "比特币跌破六万美元触发杠杆重置，加密交易平台流动性承压，交易所技术供应商的风控需求上升；StarHub签约收购新加坡M1，东南亚电信整合与差旅企业转向WhatsApp渠道同步发生。",
-          "compliance": "德奥提议由欧洲接管TikTok本地运营，澳洲推进算法退出立法，平台合规压力从内容审核延伸至本地运营架构；Amodei区分车载AI与国家级AI治理边界，为企业级AI采购划定分层参照。",
-          "operations": "Square Enix上半年营业利润增42%并上调全年指引，游戏内容与云采购预算有望增加；MercadoLibre营收增45%但营业利润下滑6%，Jumia下调GMV展望遭降目标价，拉美与非洲电商盈利质量分化。"
+          "ai_infra": "Fitch警示芯片管制拖累亚太数据中心扩张，算力采购与合规成本同步上升；Naver Cloud选择与核电运营商联合开发AI智能体，绕开单纯堆GPU的路径依赖。字节跳动入局机器人并加速IPO，显示中资在算力受限下向具身智能与资本运作分流。",
+          "expansion": "Tec-Do与腾讯云达成AI全球化战略合作，中资云厂商借合作伙伴渠道渗透出海AI服务；Naver上线全国高尔夫实时预订、Careem推出家庭共享账户，区域平台正把本地生活服务做深。Nihin Media获330万美元抢日本临床AI窗口，资本开始押注垂直场景的早期卡位。",
+          "payments": "LayerZero联手Kakao Pay、三星卡与蚂蚁ZAN，把东亚主流钱包与卡组织接入跨链互操作协议；Toss推出人脸支付kiosk对标NAVER，Satispay联合Adyen落地Smart POS，线下收单终端正在被生物识别与智能终端重构。伊利诺伊州交换费立法博弈则提示北美费率监管风险外溢。",
+          "developer": "比特币跌破6万美元触发杠杆重置，加密交易平台流动性承压，交易所技术供应商的风控需求随之上升；e27分析指出亚洲初创正以并购替代自建，StarHub签约收购新加坡M1印证电信资产整合加速。东南亚差旅企业转向WhatsApp渠道，平台生态的获客路径正在迁移。",
+          "compliance": "Amodei公开区分车载AI与国家级AI治理边界，为AI应用分层监管提供参照；澳洲推进算法退出立法，平台推荐机制面临可关闭要求。德奥提议欧洲接管TikTok本地运营，中资社交平台在欧合规路径进一步收窄，BICS与Airtel Africa扩大漫游安全合作则显示非洲通信合规合作在升温。",
+          "operations": "Square Enix上半年营业利润增42%至387亿日元并上调全年指引，游戏内容与云采购预算有望扩张；MercadoLibre营收增45%但营业利润降6%，Jumia下调GMV展望遭降目标价，拉美与非洲电商在增长与盈利间分化。Grab新增9个工程与平台岗位，区域超级App仍在加码技术组织。"
         },
         "theme_titles": {
-          "ai_infra": "字节入局机器人，Naver核电AI智能体落地",
-          "expansion": "Careem推家庭账户，Igloo嵌入式保险进海湾",
-          "payments": "Toss推人脸支付终端，Payoneer获信托牌照",
-          "developer": "比特币杠杆出清，StarHub签约收购M1",
-          "compliance": "德奥提议接管TikTok本地运营，澳洲推算法退出",
-          "operations": "Square Enix上调指引，MercadoLibre利润承压"
+          "ai_infra": "芯片管制推高亚太数据中心合规成本，Naver转向核电合作",
+          "expansion": "腾讯云借Tec-Do铺AI出海渠道，日韩本地服务加速上线",
+          "payments": "LayerZero串联东亚钱包，人脸支付终端在韩日铺开",
+          "developer": "比特币杠杆出清，东南亚并购替代自建成主流",
+          "compliance": "澳洲推进算法退出立法，德奥提议欧洲接管TikTok本地运营",
+          "operations": "Square Enix上调指引，拉美电商利润承压分化"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-11-26 17:16"
+      "generated_at": "2026-11-27 09:46"
     }
   }
 }
