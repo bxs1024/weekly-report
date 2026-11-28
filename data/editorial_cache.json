@@ -1106,29 +1106,183 @@
       "generated_at": "2026-11-01 15:18"
     },
     "weekly:2026-W45": {
-      "input_hash": "67c548a777068e154513a0dec992e30155ac3f8e5e1ca32369f8c75862984e0a",
+      "input_hash": "eb4b710e07bb327bd4d35c003f673aa86005122da4c710b7f7b4b45b77beb5ec",
       "editorial": {
-        "editorial_title": "AI投入分化与支付合规竞速",
-        "mainline": "Databricks发布Spark 4.3推动云数据平台升级，MercadoLibre加码AI投入；同时Razorpay、Pyvio接连拿下支付牌照，跨境支付基建向海湾与东南亚延伸。两条线共同指向：AI算力采购与合规支付通道正成为出海BD的稀缺筹码。",
+        "editorial_title": "中资云与支付加速落子新兴市场",
+        "mainline": "字节跳动评估扩建巴西数据中心、腾讯云在新加坡扩展企业AI生态，中资云与支付能力正沿新兴市场走廊加速落子；与此同时，东南亚全年融资高度集中于四个月窗口，资金投放节奏压缩，ICT供应商与支付服务商的合作窗口更短、更需前置卡位。",
         "themes": {
-          "ai_infra": "Databricks发布Spark 4.3强化开源数据引擎，MercadoLibre Q3 AI投入增3000万美元，Naver重组广告主中心更名NaverAids。新加坡九成企业用AI但仅三分之一感到舒适，暴露部署能力缺口，云数据平台升级与算力采购需求同步抬升。",
-          "expansion": "腾讯云在新加坡扩展企业AI能力与合作伙伴生态，Tabs与Adyen合作推进嵌入式支付，Rakuten Advertising强调AI广告技术合作策略。字节Coze企业版进入关停倒计时，中国科技巨头今年已关停超25款AI产品，出海合作窗口向头部平台集中。",
-          "payments": "Razorpay获IFSCA牌照推出GIFT City支付平台，Kakao Pay发布数字资产生态计划，腾讯与Mastercard探索智能体支付合作。Nubank美国上市前发布全球品牌焕新，跨境支付基建合作机会向东南亚与海湾延伸。",
-          "developer": "东南亚科技融资全年165亿美元但分布失衡，马来西亚芯片出口增而市场份额未升。比特币面临3.86亿美元空头挤压和11.6亿美元ETF流出，e2vc设立1.5亿美元基金投资土耳其游戏科技，早期资本转向垂直赛道与供应链B2B。",
-          "operations": "Kakao利润同比增7%并宣布1500亿韩元回购，VNG利润增速超营收增速，Moneyview利润增5倍至2.01亿卢比。Seedance海外营收占比达50%，韩国互联网广告回暖与中资AI产品出海同步兑现，广告技术供应商和内容合作方受益。",
-          "compliance": "Pyvio获MAS主要支付机构牌照，Capital.com获MAS牌照并计划2027年登陆新加坡，新加坡支付合规通道持续打开。英国监管机构禁止King、Scopely等手游广告，Ballistic Ventures寻求募集4.9亿美元新基金，合规门槛与安全投资同步抬升。"
+          "ai_infra": "字节跳动将巴西数据中心扩建纳入考量，MercadoLibre同期在Q3追加3000万美元AI投入，拉美本地算力与云服务需求同步抬升；Databricks发布Spark 4.3、Naver重组广告主中心，则显示AI基础设施竞争正从算力层向数据工具与广告变现层延伸。",
+          "expansion": "腾讯云在新加坡扩展企业AI能力与合作伙伴生态，Tabs与Adyen推进嵌入式支付合作，中资云与全球支付商在东南亚同步加码；而全年165亿美元融资集中在四个月完成，意味着资金投放期高度压缩，供应商须在集中窗口前完成卡位。",
+          "payments": "西归浦商圈投入46亿韩元接入NAVER Pay，韩国地方商圈数字化支付改造从规划进入落地；Razorpay获IFSCA牌照推出GIFT City平台、Kakao Pay发布数字资产生态计划，叠加腾讯与Mastercard探索智能体支付，支付终端与商户SaaS的切入窗口正在打开。",
+          "developer": "东南亚科技融资全年达165亿美元但分布失衡，资金向头部集中、中小创业公司融资难度加大；Silver Lake与PIF探讨250亿美元收购Unity，马来西亚芯片出口增长却未换来份额提升，显示资本正转向确定性更高的平台资产与供应链环节。",
+          "compliance": "Pyvio获MAS主要支付机构牌照，Capital.com亦获牌并计划2027年登陆新加坡，新加坡支付与交易合规通道持续扩容；同期英国拟将Vinted和eBay纳入青少年社媒禁令、亚洲第二大经济体推出紧急网络安全方案，合规门槛与内容监管同步收紧。",
+          "operations": "MercadoLibre财报后股价大跌，市场对拉美电商增长与利润率的担忧显性化；Kakao利润同比增长7%并宣布1500亿韩元回购，VNG利润增速超营收增速，Seedance海外营收占比达50%，区域平台正以回购与海外收入对冲增长压力。"
         },
         "theme_titles": {
-          "ai_infra": "Databricks升级Spark，拉美电商加码AI算力",
-          "expansion": "腾讯云新加坡扩生态，字节关停Coze企业版",
-          "payments": "Razorpay获GIFT City牌照，Kakao布局数字资产",
-          "developer": "东南亚融资向头部集中，土耳其游戏基金入场",
-          "operations": "Kakao利润回升启动回购，Seedance海外营收过半",
-          "compliance": "Pyvio获MAS支付牌照，英国禁手游广告"
+          "ai_infra": "字节跳动评估巴西数据中心扩建，拉美算力需求升温",
+          "expansion": "腾讯云新加坡扩企业AI生态，东南亚融资窗口收窄",
+          "payments": "NAVER Pay落地西归浦商圈，韩国线下支付改造启动",
+          "developer": "东南亚融资向头部集中，Silver Lake洽购Unity",
+          "compliance": "Pyvio获MAS支付牌照，新加坡合规通道再扩",
+          "operations": "MercadoLibre财报后股价大跌，拉美电商利润承压"
         }
       },
       "channel": "DeepSeek",
-      "generated_at": "2026-11-05 22:18"
+      "generated_at": "2026-11-09 06:00"
+    },
+    "weekly:2026-W46": {
+      "input_hash": "66171ebe455864ef42fc311b6eb9d0285c95a41a8742c7c3648f827cbbbe00ab",
+      "editorial": {
+        "editorial_title": "AI基建合纵连横，区域支付加速破圈",
+        "mainline": "Databricks与OpenAI联手整合企业AI数据治理，阿里云、腾讯云同步在中东签下协议，云厂商正把模型能力打包进渠道联合销售；与此同时，Nu Holdings启动美国市场、Naver地图在沙特登顶，亚太数字平台跨区域扩张进入落地阶段，BD窗口从技术集成转向本地化运营合作。",
+        "themes": {
+          "ai_infra": "Databricks与OpenAI合作企业AI，把数据治理与模型能力打包进联合销售；Cloudflare上线支出限额告警，回应企业控本诉求；阿里云签迪拜AI协议、腾讯云合作OmniOps、阿美收购Humain 49%，中资与中东资本同步加码算力落地。",
+          "expansion": "Naver地图应用在沙特App Store超越Google登顶，本地化地图数据在中东出行市场打开缺口；Shopee在菲律宾推出ShopeeFood，外卖成为电商平台拉高频次的抓手；蚂蚁与UEFA续约至2028年，体育营销成中资出海长期锚点。",
+          "payments": "Nu Holdings启动美国市场股价涨约12%，拉美数字银行龙头跨区域扩张改写北美竞争格局；Kakao Bank推房产抵押贷款整合，韩国FTC启动Naver Financial-Dunamu合并审查，监管收紧与产品扩张同步发生；GCash创纪录季度并转向借贷主导，菲律宾数字金融盈利模型切换。",
+          "developer": "MiniMax以速度与低价切入AI图像生成竞争，API调用成本下探利好下游集成商；Gondola借Codex实现营收翻倍，验证AI编程工具的商业化路径；CPI 0.4%致比特币跌破73000美元，风险资产波动传导至开发者生态融资预期。",
+          "compliance": "欧盟拟立法限制游戏战利品箱与成瘾设计，芬兰游戏协会警告数字公平法案伤产业，欧洲游戏合规成本面临抬升；泰国央行暂停新货币兑换商牌照至2027年，东南亚支付准入收紧；Databricks承诺强化欧洲数据主权，合规能力正成为云厂商的销售筹码。",
+          "commerce": "TikTok在东南亚四国上线独立购物App，电商与内容流量进一步解耦；Naver签2万亿韩元AI计算协议并拓展物流，韩国平台把算力投入转化为履约能力；Shopify推出店铺活动日志提升商户运营透明度，伊利诺伊刷卡费法遭商户起诉，支付合规摩擦持续。"
+        },
+        "theme_titles": {
+          "ai_infra": "Databricks联手OpenAI，云厂商中东签单加速",
+          "expansion": "Naver地图沙特登顶，Shopee菲律宾上线外卖",
+          "payments": "Nu Holdings进军美国，韩国金融合并遭审查",
+          "developer": "MiniMax低价切入图像生成，Codex助Gondola营收翻倍",
+          "compliance": "欧盟拟限游戏战利品箱，泰国停发兑换牌照",
+          "commerce": "TikTok东南亚上线独立购物App，Naver签AI计算协议拓物流"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-11-16 06:47"
+    },
+    "monthly:2026-11": {
+      "input_hash": "edcf4ae293b14b18b749f35ecae8ef776d978e89d766705e490343edef0dbf66",
+      "editorial": {
+        "editorial_title": "中资AI基建外溢，亚太支付互联提速",
+        "mainline": "上月区域扩张与支付金融科技尚属温和试探，本月两者同步升温：腾讯云分别与美心、Tec-Do扩大AI数据与全球化合作，Naver Pay联合K-Bank推出信用贷，LayerZero联手Kakao Pay、三星卡与蚂蚁ZAN。驱动来自中资AI云能力外溢与亚太支付网络互操作需求，判断区域合作正从单点签约转向可落地的联合产品。",
+        "themes": {
+          "ai_infra": {
+            "narrative": "本月腾讯云先后与美心扩大AI数据合作、与Tec-Do达成AI全球化战略合作，中资云厂商在亚太的AI基础设施输出从单点项目转向多行业绑定；同期Fitch警告芯片管制拖累亚太数据中心，供给端约束与需求扩张并行。",
+            "drivers": [
+              "美心与腾讯云扩大AI数据合作",
+              "Tec-Do与腾讯云达成AI全球化战略合作",
+              "Fitch警告芯片管制拖累亚太数据中心"
+            ],
+            "uncertainty": "芯片管制对数据中心供给的实际拖累幅度尚未量化，可能削弱合作落地节奏。",
+            "next_validation": "下月是否出现腾讯云在亚太新增数据中心或算力采购的具体披露。"
+          },
+          "expansion": {
+            "narrative": "本月Tec-Do与腾讯云达成AI全球化战略合作，区域扩张从泛泛签约转向以AI能力为载体的联合出海；同期Naver上线全国高尔夫实时预订、Careem推出家庭共享账户，亚太平台正把本地服务做深而非铺新国家。",
+            "drivers": [
+              "Tec-Do与腾讯云达成AI全球化战略合作",
+              "Naver上线全国高尔夫实时预订",
+              "Careem推出家庭共享账户Family Circle"
+            ],
+            "uncertainty": "合作多停留在战略层面，尚未披露收入分成或用户迁移的具体条款。",
+            "next_validation": "下月是否出现Tec-Do与腾讯云联合产品的上线或客户落地数据。"
+          },
+          "payments": {
+            "narrative": "本月K-Bank联合Naver Pay推出信用贷产品，LayerZero联手Kakao Pay、三星卡与蚂蚁ZAN，亚太支付从通道合作转向信贷与跨链结算的联合产品；同期伊利诺伊州推进交换费立法，监管变量仍在。",
+            "drivers": [
+              "K-Bank联合Naver Pay推出信用贷产品",
+              "LayerZero联手Kakao Pay、三星卡与蚂蚁ZAN",
+              "伊利诺伊州推进交换费立法博弈"
+            ],
+            "uncertainty": "跨链结算合作的实际交易量与信用贷坏账表现均未披露。",
+            "next_validation": "下月Kakao Pay或Naver Pay是否披露合作产品的交易规模或放贷余额。"
+          },
+          "developer": {
+            "narrative": "本月比特币ETF流出$5.39B、价格守住$60K后跌破$60,000并触发杠杆重置，开发者生态的融资环境随之收紧；同期e27分析亚洲初创以并购替代自建，平台生态的扩张方式从自研转向整合。",
+            "drivers": [
+              "比特币ETF流出$5.39B，价格守住$60K",
+              "比特币跌破$60,000，杠杆重置",
+              "e27分析亚洲初创并购替代自建策略"
+            ],
+            "uncertainty": "ETF流出与价格下跌的因果方向难辨，并购替代自建尚缺成交数据佐证。",
+            "next_validation": "下月亚洲初创并购交易数量与金额是否较上月上升。"
+          },
+          "compliance": {
+            "narrative": "本月欧盟拟立法限制游戏战利品箱与成瘾设计，芬德游戏协会警告数字公平法案伤产业；同期泰国央行暂停新货币兑换商牌照发放至2027年，合规收紧从内容设计延伸到支付牌照准入。",
+            "drivers": [
+              "欧盟拟立法限制游戏战利品箱与成瘾设计",
+              "芬德游戏协会警告欧盟数字公平法案伤产业",
+              "泰国央行暂停新货币兑换商牌照发放至2027年"
+            ],
+            "uncertainty": "欧盟立法仍处提案阶段，最终条款与生效时间存在变数。",
+            "next_validation": "下月欧盟数字公平法案是否进入正式表决或公布修订文本。"
+          },
+          "commerce": {
+            "narrative": "本月Naver推出B2B专属N+ Business Mall低费率平台，电商从2C流量竞争转向B2B商户争夺；同期Jumia发布Q3财报、马来西亚中小企业借阿里平台进入中国，跨境与B2B成为增量方向。",
+            "drivers": [
+              "Naver推出B2B专属N+ Business Mall低费率平台",
+              "Jumia发布Q3及前三季度财报",
+              "马来西亚中小企业借阿里平台进入中国市场"
+            ],
+            "uncertainty": "Naver低费率平台的商户入驻规模与Jumia盈利改善的持续性均待观察。",
+            "next_validation": "下月Naver是否披露N+ Business Mall的入驻商户数或GMV。"
+          }
+        },
+        "theme_titles": {
+          "ai_infra": "腾讯云AI数据合作连签美心与Tec-Do",
+          "expansion": "Tec-Do借腾讯云推进AI全球化落地",
+          "payments": "Naver Pay联合K-Bank推信用贷，LayerZero接入Kakao Pay",
+          "developer": "比特币ETF流出$5.39B，亚洲初创转向并购",
+          "compliance": "欧盟拟限游戏战利品箱，泰国停发兑换牌照",
+          "commerce": "Naver推B2B低费率商城，Jumia财报承压"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-11-28 16:45"
+    },
+    "weekly:2026-W47": {
+      "input_hash": "4affa784c8d87a75f12d50e8271100e71e367befcd5e4f5252b65f9b89d866e0",
+      "editorial": {
+        "editorial_title": "深度伪造检测落地，支付身份验证扩围",
+        "mainline": "TikTok全球上线公众人物深度伪造检测工具，韩国三大支付平台同步接入身份证验证，内容安全与数字身份认证从可选配置变为平台准入前提。两类基础设施的采购窗口正在打开，供应商需同时满足跨境合规与本地集成要求。",
+        "themes": {
+          "ai_infra": "TikTok将公众人物深度伪造检测推向全球，内容安全治理从区域试点转为平台标配；同期美方封堵芯片漏洞令阿里AI扩张承压，亚太社交平台在检测工具采购与算力合规间寻找平衡点。",
+          "payments": "韩国三大支付平台在11-12月集中上线身份证验证，数字身份认证从后台能力变为前台入口；KREAM同期推P2P奢侈品转售，支付平台向高客单场景延伸，身份核验与交易保障的集成需求同步抬升。",
+          "expansion": "Naver Pay推出企业福利商城，支付平台从C端收单向B端福利采购延伸；NETS与蚂蚁国际深化AI智能体支付合作，MUI与腾讯云国际签署数字化备忘录，亚太支付互联从通道对接走向场景共建。",
+          "commerce": "Naver推出B2B专属N+ Business Mall以低费率吸引商户，马来西亚中小企业借阿里平台进入中国市场，Meta在巴西上线购物平台Achados，电商竞争从C端流量转向B端供给与跨境通路。",
+          "developer": "加密市场在65K下方量缩恐慌，交易所营收与做市商业务承压，基础设施预算可能收紧；新加坡财富开户瓶颈被指向反复沟通而非审核，Quebecor发起220亿美元收购Telus要约，亚太资本与人才配置同步调整。",
+          "compliance": "阿联酋虚拟资产监管框架逐步清晰，Capital.com将AI交易与合规挂钩；美芯片管制令东南亚数据中心变身合规审查台，纽约市禁监控定价、Ofcom对平台儿童虐待内容启动监管行动，合规成本正沿数据与内容链条传导。"
+        },
+        "theme_titles": {
+          "ai_infra": "TikTok深度伪造检测全球铺开，芯片管制收紧",
+          "payments": "韩国三大支付平台集体上线身份证验证",
+          "expansion": "Naver Pay切入企业福利，蚂蚁国际探索智能体支付",
+          "commerce": "Naver推B2B低费率平台，Meta在巴西上线购物",
+          "developer": "加密市场量缩恐慌，新加坡财富开户卡在沟通",
+          "compliance": "阿联酋虚拟资产监管清晰化，东南亚数据中心成审查台"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-11-22 15:51"
+    },
+    "weekly:2026-W48": {
+      "input_hash": "4a8792e201c341d3690b61cf51cafbf20139369258b1552ee8b20bda03511232",
+      "editorial": {
+        "editorial_title": "芯片管制收紧与AI出海通道重构",
+        "mainline": "美国芯片管制正从算力供给端挤压亚太数据中心扩张，而腾讯云借Tec-Do、美心等合作伙伴加速铺设出海AI服务渠道。两条线交汇指向同一判断：中资云厂商的出海路径正从自建算力转向生态合作与合规适配。",
+        "themes": {
+          "ai_infra": "Fitch警示芯片管制拖累亚太数据中心扩张，算力采购与合规成本同步抬升；同期美心与腾讯云扩大AI数据合作，字节跳动入局机器人并推动新兴玩家加速IPO。供给端受限与需求端外溢并行，中资AI基础设施出海正从自建转向合作嵌入。",
+          "expansion": "Tec-Do与腾讯云达成AI全球化战略合作，为出海AI服务打开渠道入口；Naver上线全国高尔夫实时预订、Careem推出家庭共享账户，亚太本地平台正以垂直场景联营扩大用户触点。云厂商与区域平台的渠道绑定成为出海落地的新杠杆。",
+          "payments": "K-Bank联合Naver Pay推出信用贷产品，把数字银行资金端与支付平台场景端直接对接；LayerZero联手Kakao Pay、三星卡与蚂蚁ZAN，跨境加密支付联盟开始组网。与此同时伊利诺伊州交换费立法博弈升温，消费金融合作范式扩张与监管摩擦同步显现。",
+          "developer": "比特币ETF流出$5.39B、价格跌破$60,000并触发杠杆重置，北美机构风险偏好收缩正向加密基础设施与托管服务商传导流动性压力；e27同期指出亚洲初创正以并购替代自建，东南亚差旅企业转向WhatsApp渠道获客。资本收缩与渠道迁移同时改写开发者生态的扩张节奏。",
+          "compliance": "Amodei公开区分车载AI与国家级AI治理边界，为AI应用分层提供参照；澳洲推进算法退出立法、德奥推动欧盟加强对TikTok管控，平台算法与内容治理的合规门槛同步抬升。BICS与Airtel Africa扩大漫游与安全合作，则显示合规压力下基础设施层正以区域联盟对冲监管碎片化。",
+          "commerce": "直播电商下阶段增长被判定靠信任而非流量，支付风控、评价体系与供应链服务需求随之上升；Maximo举办阿里国际站拓客研讨会，中资平台正以线下运营切入印度商户。MercadoLibre阿根廷GMV能否维持40%增长受关注，区域电商的履约能力正取代补贴成为竞争分水岭。"
+        },
+        "theme_titles": {
+          "ai_infra": "芯片管制挤压亚太算力，腾讯云借合作扩AI数据渠道",
+          "expansion": "腾讯云签Tec-Do铺AI全球化渠道，亚太本地平台加速场景联营",
+          "payments": "韩国银行与支付平台联合放贷，加密支付联盟跨区组网",
+          "developer": "比特币ETF失血触发杠杆重置，亚洲初创转向并购替代自建",
+          "compliance": "澳洲推算法退出立法，德奥施压欧盟收紧TikTok管控",
+          "commerce": "直播电商转拼信任与履约，阿里国际站借研讨会拓印度商户"
+        }
+      },
+      "channel": "DeepSeek",
+      "generated_at": "2026-11-28 16:45"
     }
   }
 }

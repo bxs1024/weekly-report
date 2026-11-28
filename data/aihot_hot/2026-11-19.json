@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-11-19T12:42:32+08:00",
+  "fetched_date": "2026-11-19",
+  "source": {
+    "name": "AIHOT 热点榜",
+    "url": "https://aihot.virxact.com/hot",
+    "note": "过去 48 小时最热的 AI 事件，按精选报道与讨论热度实时排序。本页为全球 AI 视野补充，点击跳转原始来源。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol 两款模型",
+      "list_title": "OpenAI 发布 GPT-6.2 Astra 与 Sol 两款模型",
+      "heat": null,
+      "heat_change": "↓ 15 %",
+      "sources": [],
+      "summary": "OpenAI 于 11 月 18 日发布 GPT-6.2 Astra 和 GPT-6.2 Sol，即日起向 ChatGPT Work 和 Codex 的 Plus、Pro、Enterprise 及 Edu 用户开放，开发者可在 API 中调用 gpt-6.2-astra 和 gpt-6.2-sol。官方称 Astra 是面向最难项目的旗舰模型，代码更干净、前端与 3D 能力提升；两款模型主打游戏制作，也用于制作幻灯片、搭建网站和处理日常任务。IT之家称，符合条件的 Enterprise 和 Edu 用户还需由工作区管理员启用，且两款模型暂未加入 ChatGPT 普通聊天模式。\n\nOpenAI Developers 称，API 中 Astra 标准输入输出 token 价格比 GPT-6 Astra 低 20%，Sol 在与 GPT-6.1 Sol 相同的每 token 成本下能力更强；Astra 在 Agents' Last Exam 上比 GPT-6 Astra 高 5.2 分，单任务成本不到其三分之一。Ultrafast 方面，Pro 500…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/2254fd74-e05d-4b8b-861e-9d14e940f4bc"
+    },
+    {
+      "rank": 2,
+      "title": "Google 发布 Gemini 4 Neon，API 支持直传 Office 文件",
+      "list_title": "Google 发布 Gemini 4 Neon，API 支持直传 Office 文件",
+      "heat": null,
+      "heat_change": "↑ 116 %",
+      "sources": [],
+      "summary": "Google 于 11 月 18 日发布 Gemini 4 Neon（gemini-4-neon），称其面向复杂软件工程、知识工作和科学工作流提供快速端到端任务完成。Gemini API 付费档定价为每百万输入 token 3 美元、输出 15 美元，缓存输入每百万 0.15 美元，上下文窗口 100 万 token；The Decoder 称这一价格高于 Carbon 和 Argon 的 $2/$10（12 月 1 日起翻倍至 $4/$20）及 Hydrogen 的 $1.50/$7.50。同一 API 更新中，用户可直接向 Gemini API 传入 Word、PowerPoint、Excel 等 Office 和 OpenDocument 文件，并可在提示词和函数响应中切分文档、表格、视频和音频。\n\nArtificial Analysis 评测其智能指数为 61 分，比 Gemini 4 Carbon（high）高 1 分，总榜排名第三；其编码代理得分 59，与 Claude Opus 5.5、Claude Fable 5.2 相当。Are…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/74578987-a1ed-4ce0-96b8-658226459865"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic IPO 定价 83 美元，估值约 1.5 万亿美元",
+      "list_title": "Anthropic IPO 定价 83 美元，估值约 1.5 万亿美元",
+      "heat": null,
+      "heat_change": "↑ 37 %",
+      "sources": [],
+      "summary": "Anthropic 将 IPO 发行价定为每股 83 美元，高于此前 70 至 78 美元的区间，按完全稀释计算估值约 1.5 万亿美元，股票预计 11 月 19 日在纳斯达克以代码 ANT 开始交易。公司共发行 9.8 亿股 A 类普通股，其中约 9.56 亿股由公司出售，IPO 募资约 813 亿美元；加上 AMD、博通、谷歌、美光、微软、英伟达、台积电按发行价认购的 260 亿美元无投票权 N 类股，总规模超过 940 亿美元。\n\n这一价格是需求推高的结果。此前投资者一度质疑 1.5 万亿美元估值过高，部分人认为 1 万亿美元更现实，公司最初讨论的估值接近 2 万亿美元；承销商后因订单超额而计划上调定价。据 Bloomberg 报道，认购订单达可售股份的六倍。\n\n招股文件同时显示经营压力：截至 9 月 30 日的季度营收 170 亿美元，环比增速从 147% 降至 47%，算力成本占营收比例从 48% 升至 58%；公司披露的算力承诺约 8954 亿美元，另有最高 1750 亿美元合同尚未定价。Anthropic 还在修订版 S-1 中称，…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d"
+    },
+    {
+      "rank": 4,
+      "title": "黄仁勋辞任英伟达CEO，称若董事会决定愿回归",
+      "list_title": "黄仁勋辞任英伟达CEO，称若董事会决定愿回归",
+      "heat": null,
+      "heat_change": "↓ 15 %",
+      "sources": [],
+      "summary": "黄仁勋辞去英伟达总裁、CEO及董事职务，CFO Colette Kress出任临时CEO。黄仁勋随后发声明，承认个人生活中犯了严重错误、给董事会造成问题，承诺配合董事会独立调查；他称离职后收到员工、投资者、合作伙伴和客户的回归呼声，若董事会认为回归符合股东、员工、公司和美国的最佳利益，他将回归CEO职位。\n\n各方反应不一：Hugging Face CEO Delangue称这是“难过的一天”，承诺继续力挺开源AI，并认为英伟达的分布式领导架构可让公司在没有黄仁勋后继续运转；OpenAI CEO奥尔特曼称AI行业没有黄仁勋也会运转良好，并表示不担心英伟达停止对OpenAI俄亥俄数据中心最高1,050亿美元担保的支持。投资人和创始人则担忧，继任者更保守，短期难以延续黄仁勋每年数十亿美元、今年已参与105轮的投资节奏。\n\n英伟达季度利润达653亿美元，约合每天净赚7亿美元。SemiAnalysis的Dylan Patel担忧黄仁勋离场会让英伟达变弱；Rohan Paul转述巴拉吉的说法称，若董事会未立即恢复黄仁勋的CEO职位，此事可能上升到美国国家安全…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/25f30555-1283-4773-8161-58d48e3d86e1"
+    },
+    {
+      "rank": 5,
+      "title": "英伟达Q3营收1158亿美元，董事会拒绝恢复黄仁勋职务",
+      "list_title": "英伟达Q3营收1158亿美元，董事会拒绝恢复黄仁勋职务",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "英伟达公布第三季度财报，营收1158亿美元、同比增长103%，净利润653亿美元创纪录；数据中心收入1076亿美元，同比增长110%。临时CEO兼CFO Colette Kress称Vera Rubin进展顺利，并预计第四季度营收1300亿美元，该指引假设不含中国数据中心算力销售。\n\n黄仁勋辞职后的管理层安排成为焦点。Kress在CNBC节目中表示，董事会已决定不会恢复黄仁勋的CEO职务，并称这是董事会的官方声明；此前董事Harvey Jones在财报电话会上称董事会一致接受其辞职、无意让其复任。Kress还重申开源AI战略不变，9月同意以129亿美元收购Hugging Face的交易按计划推进。\n\n针对外界质疑，Kress否认公司扶持可能不具备投资级的neocloud客户，称hyperscaler正积极争取更多英伟达算力。她澄清，公司为数据中心客户提供的贷款担保并非直接出资，只有在客户筹齐融资、建成设施并装好英伟达设备后才生效，否则担保不存在。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/e79088af-89d6-42e0-8947-05fbb16ede38"
+    },
+    {
+      "rank": 6,
+      "title": "Google 发布 Gemini 4 Hydrogen，接入搜索并免费开放任务代办",
+      "list_title": "Google 发布 Gemini 4 Hydrogen，接入搜索并免费开放任务代办",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Google DeepMind 发布 Gemini 4 Hydrogen，定位为快速执行日常编码与智能体工作流的模型，与主打深度推理的 Carbon、Argon 同属 Gemini 4 系列。Google 称这是 Search 迄今最大的模型升级，已在全球 Search 上线，并向所有用户开放 Gemini 应用、Google AI Studio 和 Gemini API；付费 AI Pro、Ultra 订阅者另可在 Antigravity 使用。免费用户在 Gemini 应用中需靠自动模型选择才会用到它。API 定价为每百万输入 token 1.50 美元、输出 7.50 美元。\n\nGoogle 11 月 17 日进一步宣布，Gemini 的任务代办功能基于 Hydrogen 免费向美、日、韩、加、澳、印六国数亿用户推出，可代打电话预约、查询账单、购物下单和管理日程；Google Duplex 致电、Google Pay 结账、RCS 短信、Gmail 转发邮件和密码管理器免密登录等高级操作率先在美国开放。The Verge 称该功能由此前仅限…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/2ff1f46f-7e98-4965-a5b2-87329632ca5d"
+    },
+    {
+      "rank": 7,
+      "title": "Nvidia临时CEO提前加薪并发放股权以留人",
+      "list_title": "Nvidia临时CEO提前加薪并发放股权以留人",
+      "heat": null,
+      "heat_change": "↑ 47 %",
+      "sources": [],
+      "summary": "黄仁勋卸任后，Nvidia临时CEO Colette Kress在首次全员大会上承诺，将加薪和额外股权提前至12月发放，比原计划早数月。薪酬是员工提交的700个问题中最受关注的话题。\n\nKress此举部分源于投资者担心公司出现人才流失，许多员工当初正是为黄仁勋及其愿景才留下的。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/c5899d4d-282f-4d24-9aa7-43f7b133d229"
+    },
+    {
+      "rank": 8,
+      "title": "Google 将 Genie 4 开放给 AI Ultra 订阅者",
+      "list_title": "Google 将 Genie 4 开放给 AI Ultra 订阅者",
+      "heat": null,
+      "heat_change": "↑ 17 %",
+      "sources": [],
+      "summary": "Google DeepMind 于 11 月 18 日向符合条件的 Google AI Ultra 订阅者开放新版 Project Genie 体验，首次在其中提供 Genie 4 世界模型；Google AI Pro 用户可加入候补名单。此前 Genie 4 仅以研究预览形式向可信测试者开放，Google 曾预告未来几周扩展至 AI Ultra 订阅用户及 Gemini API、Google AI Studio 早期访问合作伙伴。\n\nGenie 4 可按文本或图像提示实时生成可探索的虚拟世界，Google 称其画面更接近照片级真实、物理模拟更准确，并首次在实时世界模型中原生生成环境音、音乐和会回应用户的角色对话，支持在模拟中用自然语言实时修改天气、镜头和场景元素。Google 称 Gemini 在模拟中负责推理与规划，这类虚拟世界未来可用于训练机器人和 AI 智能体；上述效果均为 Google 发布时的介绍。\n\n同批更新还包括：Project Genie 智能体可通过对话创建世界并生成配乐，社区画廊支持发现、混编和分享创作；Genie 3 单次…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/d9a88c5c-1b99-4e5b-af6c-dec4f752f180"
+    },
+    {
+      "rank": 9,
+      "title": "Nvidia停售H200芯片，结束对华出口通道",
+      "list_title": "Nvidia停售H200芯片，结束对华出口通道",
+      "heat": null,
+      "heat_change": "↓ 16 %",
+      "sources": [],
+      "summary": "",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/fbb613d2-1a33-467d-87ff-5e666f2e2b9d"
+    },
+    {
+      "rank": 10,
+      "title": "腾讯WorkBuddy日活超千万，年化收入逾5亿美元",
+      "list_title": "腾讯WorkBuddy日活超千万，年化收入逾5亿美元",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "腾讯在2026年第三季度财报中披露，截至11月初，AI产品WorkBuddy日活跃用户数超过1000万，日均Token调用量超过100万亿。腾讯称，WorkBuddy因此成为中国大语言模型日均Token用量最高的AI产品。上述数据均为腾讯自行公布的口径。\n\n腾讯总裁刘炽平在财报分析师会上进一步透露，WorkBuddy最近七天收入按年化折算超过5亿美元，是腾讯会议的两倍以上；三季度收入是第二季度的5倍以上，中国百强企业已有60%成为其客户。该说法由腾讯公关总监张军分享。\n\nX.PIN 的帖子转述IT之家的日活与Token数据，并评论称中国非工程师群体正快速采用智能体工作流。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/f9f27ce5-c259-4268-9c72-3cdc38699171"
+    }
+  ]
+}

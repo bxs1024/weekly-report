@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-11-24T15:15:25+08:00",
+  "fetched_date": "2026-11-24",
+  "source": {
+    "name": "AIHOT 热点榜",
+    "url": "https://aihot.virxact.com/hot",
+    "note": "过去 48 小时最热的 AI 事件，按精选报道与讨论热度实时排序。本页为全球 AI 视野补充，点击跳转原始来源。"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "title": "英伟达董事会全票恢复黄仁勋职务",
+      "list_title": "英伟达董事会全票恢复黄仁勋职务",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "英伟达董事会11月23日一致投票，即刻恢复黄仁勋的总裁、CEO及董事职务，距其辞职不到两周。董事会称，在咨询美国政府高层后认定黄仁勋回归不构成国家安全风险，并称后续会谈确认了他的坦率；临时CEO Colette Kress继续担任CFO。消息公布后股价盘初大涨约30%至31%。\n\n黄仁勋辞职期间，数百名员工签署内部信要求董事会辞职并恢复其职务，投资人Brad Gerstner和Gavin Baker致信董事会呼吁保留其回归选项，请愿网站显示逾20万人签名。FT曾报道董事会接触Arm CEO Rene Haas作为潜在继任人选；董事长Harvey Jones在复职前不到一周还表示无意让其回归。\n\n针对黄仁勋成为境外情报行动目标的独立董事调查将继续进行，公司另设国家安全与出口管制委员会并招聘首席合规官；The Verge称美国证券交易委员会也在审查英伟达的会计操作。WSJ曾报道，黄仁勋被罢免更多源于公司高风险业务，而非私生活。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/68ccf963-6e38-4e86-b2f3-289bd70774fb"
+    },
+    {
+      "rank": 2,
+      "title": "智谱发布GLM-5.4旗舰模型并上线Coding Plan",
+      "list_title": "智谱发布GLM-5.4旗舰模型并上线Coding Plan",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "智谱发布旗舰模型 GLM-5.4，并已向 GLM Coding Plan 全量用户开放，同步上线 ZCode、Trae、WorkBuddy、Qoder 等编码平台；用户将模型名设置为 glm-5.4 即可使用。智谱称，这是其首个采用 Loop Transformer 架构的旗舰模型，在 GLM-5 基座模型上让 28 层共享权重循环执行两轮，在参数量不变的情况下获得更深推理，智能水平达到 2-3T 级模型效果。The Decoder 与 MarkTechPost 报道称该模型参数量为 750B。\n\n该模型新增视觉能力，模型列表标注“1M”和“视觉”。智谱称其能力从传统编程延伸至视频、游戏、3D 着色器与 CAD 建模。Coding Plan V2、V3 及团队版用户使用 GLM-5.4 的额度提升至 1.5 倍。\n\n智谱称，API 将在完成安全评估后开放，模型权重计划以负责任的方式开源；The Decoder 称 token 定价尚未公布。MarkTechPost 称目前仅由 Z.ai 托管，自托管硬件要求待权重发布后才会披露。Simon Wil…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/fc5a905b-54af-4de4-9c7c-a366a60a9f84"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic 发布 Claude Ship 测试版，自动审查并批准 PR",
+      "list_title": "Anthropic 发布 Claude Ship 测试版，自动审查并批准 PR",
+      "heat": null,
+      "heat_change": "↑ 37 %",
+      "sources": [],
+      "summary": "Anthropic 发布 Claude Ship 测试版，让 Claude 审查 pull request、处理修复，并按团队策略批准可合并的改动。它由三个部分组成：Code Review 已正式可用，PR Steward 和 Claude Approvals 两个智能体处于 beta；前者处理失败的 CI 检查、合并冲突和审查反馈，后者在政策允许时批准常规改动。\n\nClaude Ship 面向 Claude Team 和 Enterprise 计划、GitHub 仓库开放，不适用于启用 Zero Data Retention、HIPAA 配置或客户自管密钥的组织。管理员可按仓库开启，团队 PR 无需运行 /ship 即可自动运行；审批策略以仓库中的 .claude/approvals.yml 配置。Anthropic 建议先以 observe 模式运行审批，并称符合条件的 Enterprise 组织可在 2027 年 1 月 15 日前申领至少 1 万美元额度，费用按 token 计。\n\nClaude Code 同时推出 /ship 命令，正在…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/9474636b-5271-405b-91d7-b469bdf1aa8f"
+    },
+    {
+      "rank": 4,
+      "title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
+      "list_title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "Anthropic 数学家莱文特·阿尔波格 2026 年 11 月 20 日宣称与 Claude 合作证明了黎曼猜想，并称方法可推广至广义黎曼猜想；他没有发表论文，只放出约 1700 万行 Lean 代码。Lean 与 Mathlib 社区随后发表声明确认该证明正确：数十人独立运行得到相同结果，验证程序被设计为不会接受有缺陷的证明。\n\n此前 The Verge 报道称该证明尚未经独立验证，Anthropic 未就阿尔波格的宣布置评。菲尔兹奖得主詹姆斯·梅纳德表示相信证明正确，依据是它已通过 Lean 形式化验证并经独立核实；但他同时称，证明需被理解才可能获得认可。\n\n关于功劳归属仍有分歧：阿尔波格称 Claude 在最后阶段远超自己并提出关键步骤，Gary Marcus 则强调这不是 AI 独立完成，而是数学家数月深度协作的成果。陶哲轩此前曾表示现有 AI 无法攻克该问题。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/647b0945-9244-4f55-b509-0f3fa0f6fe51"
+    },
+    {
+      "rank": 5,
+      "title": "OpenAI 提议以困惑度设共同安全上限，微软公布可比数据",
+      "list_title": "OpenAI 提议以困惑度设共同安全上限，微软公布可比数据",
+      "heat": null,
+      "heat_change": "↓ 11 %",
+      "sources": [],
+      "summary": "OpenAI 首席科学家 Jakub Pachocki 发表《Perplexity and Intelligence》，提议把困惑度（交叉熵损失）作为跨模型开发者的共享比较指标，并据此设立共同安全上限：超过门槛的进展须以人类理解 AI 行为的能力为前提。OpenAI 同时公开预训练 log-perplexity 走势图，覆盖 GPT-3.5 到 GPT-6.2 Astra 的 base model，并标注一个 internal model 点位。\n\nCEO Sam Altman 表态支持，称 OpenAI 正在大幅公开预训练进展，希望各方就共同限制达成一致；他还提议前沿模型开发者共同建立评估模型、红线测试安全案例的行业规范，包括共享透明度标准，并以困惑度等测量设定开发者承诺不逾越的共同上限，直到理解与监控 AI 行为的能力达到具体里程碑（如 CoT 监控器的后继技术）。首席研究官 Mark Chen 呼吁前沿实验室披露追踪进展的关键指标，并提出困惑度作为候选标准。\n\n微软 AI CEO Mustafa Suleyman 表示完全支持该倡议，并公布…",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/c5ab5cf5-6316-4ad6-9d74-f0b378a2b064"
+    },
+    {
+      "rank": 6,
+      "title": "亚马逊75亿美元收购Decart大部分业务",
+      "list_title": "亚马逊75亿美元收购Decart大部分业务",
+      "heat": null,
+      "heat_change": "↑ 24 %",
+      "sources": [],
+      "summary": "亚马逊已同意以约75亿美元收购以色列AI初创公司Decart的大部分业务，包括其Decart Optimization Stack（DOS）优化技术、创始团队及AI研究与工程团队。亚马逊已宣布这一收购并邀请Decart联合创始人及员工加入，但未披露财务条款；75亿美元金额来自彭博社援引知情人士的说法。\n\n此前《金融时报》报道称双方处于深入谈判阶段，交易最早可能在本周初达成，但仍存在破裂风险。DOS是一款软件引擎，可提升AI系统运行速度，并支持在英伟达、谷歌、亚马逊等厂商的AI芯片间切换；Decart已获得亚马逊Trainium3芯片的早期访问权限，亚马逊称该芯片运行其实时视频模型的速度比GPU快4倍、成本减半。\n\n75亿美元对价接近Decart最新一轮40亿美元估值的两倍，具体交割安排尚未披露。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/51379310-d375-40d8-88e1-a8112bca2c10"
+    },
+    {
+      "rank": 7,
+      "title": "OpenAI与Cisco开源Shirudo：eBPF护住补丁窗口",
+      "list_title": "OpenAI与Cisco开源Shirudo：eBPF护住补丁窗口",
+      "heat": null,
+      "heat_change": "↑ 71 %",
+      "sources": [],
+      "summary": "OpenAI与Cisco联合推出开源Linux运行时Shirudo，基于eBPF生成可密码签名验证的shield，在服务不重启的情况下拦截漏洞利用，为防御方争取测试和部署补丁的时间。项目以BSD 2-Clause许可开源，其BPF程序为BSD与GPL双许可。\n\nOpenAI称，在受控测试中，用Codex生成的shield为运行中的Elasticsearch的Java Base64解码器加入输入检查，成功拦下Java4Shell攻击。两家公司称这是迈向自防御基础设施的第一步，目标是让防御者与AI Agent协作定位受影响系统、测试共享shield并在不干扰工作负载的情况下部署。上述防护效果来自两家公司的说法，尚未见独立验证。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/68abb2b5-1d0f-4c37-8ad9-72fcbc771eef"
+    },
+    {
+      "rank": 8,
+      "title": "美国商务部将新加坡Megaspeed列入实体清单",
+      "list_title": "美国商务部将新加坡Megaspeed列入实体清单",
+      "heat": null,
+      "heat_change": "↑ 34 %",
+      "sources": [],
+      "summary": "美国商务部已将新加坡芯片采购商 Megaspeed 列入实体清单，禁止美国供应商在无许可证情况下向其及海外关联公司出售半导体等受控技术。此前数月，国务院、财政部、国防部等机构已同意列名，但负责发布规则的商务部一直搁置；财政部长贝森特曾就此质问商务部长卢特尼克，白宫官员也被曝在权衡是否撤换卢特尼克。\n\n背景是这家英伟达前主要客户被指将受限芯片转运至中国客户在东南亚的数据中心。美国商务部 2024 年启动出口调查，英伟达于 2025 年 6 月停止供货并将其列入禁售名单；商务部和司法部随后发布联合声明称刑事调查由司法部牵头，未指英伟达违规。由于英伟达已断供，此次列名主要封堵其他美国供应商的服务器销售及对关联公司销售等间接渠道。Megaspeed 否认存在不当行为。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/b8056250-7988-49be-a8a0-4c9425a3b63c"
+    },
+    {
+      "rank": 9,
+      "title": "特朗普公开支持黄仁勋回归英伟达",
+      "list_title": "特朗普公开支持黄仁勋回归英伟达",
+      "heat": null,
+      "heat_change": "",
+      "sources": [],
+      "summary": "",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/e04baccb-6e1d-4072-8167-8272457c90d1"
+    },
+    {
+      "rank": 10,
+      "title": "Ladybird浏览器发布首个Alpha版本",
+      "list_title": "Ladybird浏览器发布首个Alpha版本",
+      "heat": null,
+      "heat_change": "↑ 21 %",
+      "sources": [],
+      "summary": "Ladybird 项目发布首个 Alpha 版本，macOS 和 Linux 用户现在可以直接安装，无需自行编译。项目方称，这是 Alpha 版本，部分网站无法使用，浏览器有时会崩溃，且目前不对安全性作任何承诺。\n\nSimon Willison 实测后称其快速流畅，多数网站可正常加载，并给出了多标签页的进程隔离结构。",
+      "original_links": [],
+      "story_url": "https://aihot.virxact.com/story/c244121f-9602-45f2-a625-e34e5d86a0ff"
+    }
+  ]
+}
