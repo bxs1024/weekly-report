@@ -1,165 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>全球互联网百晓生 · 事件流</title>
-  <subtitle>高价值事件推送，日报日期：2026-11-27</subtitle>
+  <subtitle>高价值事件推送，日报日期：2026-11-28</subtitle>
   <id>tag:weekly-report,2026:main</id>
-  <updated>2026-11-28T08:45:52Z</updated>
+  <updated>2026-11-28T14:40:11Z</updated>
   <link href="https://bxs1024.github.io/weekly-report/" rel="alternate"/>
   <link href="feed.xml" rel="self" type="application/atom+xml"/>
   <author><name>Global Internet Intelligence Station</name></author>
   <rights>CC BY-NC 4.0</rights>
 
   <entry>
-    <title>谷歌在马来西亚遭1.458亿美元诉讼</title>
-    <link href="https://e27.co/three-weeks-after-a-us15b-pledge-google-gets-a-us145-8m-lawsuit-from-malaysia-20261127/"/>
-    <id>tag:weekly-report,2026:event-436d5b5f</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Three weeks after a US$15B pledge, Google gets a US$145.8M lawsuit from Malaysia&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;谷歌宣布150亿美元投资承诺三周后，在马来西亚面临1.458亿美元诉讼&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;谷歌东南亚150亿美元投资计划遭遇法律纠纷，马来西亚数字基建项目的合规与本地合作方选择风险上升&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
+    <title>Tech in Asia发布印度电商格局图谱</title>
+    <link href="https://www.techinasia.com/visual-story/india-ecommerce-landscape-map"/>
+    <id>tag:weekly-report,2026:event-1aab2837</id>
+    <published>2026-11-28T00:00:00Z</published>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Mapping India’s ecommerce standouts&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Tech in Asia发布印度电商市场格局图谱，梳理该国主要电商玩家与赛道分布&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度电商竞争格局可视化梳理，为跨境卖家与支付物流服务商提供进入参考&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>华为在中国AI芯片市场份额提升</title>
-    <link href="https://www.techinasia.com/news/huawei-gains-ground-in-chinas-ai-chip-market-after-us-curbs"/>
-    <id>tag:weekly-report,2026:event-d22d6d67</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Huawei gains ground in China’s AI chip market after US curbs&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;在美国出口管制背景下，华为在中国AI芯片市场的份额与地位进一步提升&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI芯片供应链本土化加速，华为昇腾生态扩张带动国产HBM、封装与服务器配套采购机会&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：北美 | 来源：Tech in Asia&lt;/p&gt;</summary>
+    <title>PB Fintech领涨印度新兴科技股，Nazara领跌</title>
+    <link href="https://inc42.com/buzz/pb-fintech-leads-weekly-new-age-tech-stock-gains-nazara-falls-the-most/"/>
+    <id>tag:weekly-report,2026:event-3e1cce19</id>
+    <published>2026-11-28T00:00:00Z</published>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;PB Fintech Leads Weekly New-Age Tech Stock Gains, Nazara Falls The Most&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;印度金融科技公司PB Fintech领涨当周新兴科技股，Nazara跌幅最大&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度金融科技与游戏股走势分化，板块资金轮动反映投资者对盈利质量偏好上升&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：earnings | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Fitch警告芯片管制拖累亚太数据中心</title>
-    <link href="https://www.techinasia.com/news/chip-rules-threaten-asiapacific-data-center-growth-fitch"/>
-    <id>tag:weekly-report,2026:event-03ac0ad7</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;US chip rules threaten Asia-Pacific data center growth: Fitch&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;评级机构Fitch发布报告称美国芯片出口管制将威胁亚太地区数据中心增长&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;亚太数据中心扩张受美国芯片规则制约，算力采购与合规成本上升需重新评估&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：北美 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Nextesy获€9M种子轮，Swisscom Ventures领投</title>
-    <link href="https://www.therecursive.com/nextesy-swiss-ai-startup-with-balkan-roots-raises-eur9m-seed-led-by-swisscom-ventures/"/>
-    <id>tag:weekly-report,2026:event-698fdf96</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nextesy, Swiss AI Startup with Balkan Roots, Raises €9M Seed Led by Swisscom Ventures&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;瑞士AI初创公司Nextesy完成900万欧元种子轮融资，由Swisscom Ventures领投，该公司具有巴尔干背景。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI种子轮融资活跃，瑞士电信运营商风投加注AI初创，欧洲AI应用层与电信生态合作机会增加&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：欧洲 | 来源：The Recursive&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Altair获$100M融资做AI设备连接</title>
-    <link href="https://ventureburn.com/altair-raises-100-million-connect-ai-devices/"/>
-    <id>tag:weekly-report,2026:event-db870fbf</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Altair Raises $100 Million to Keep AI Glasses and Wearables Connected All Day&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Altair完成1亿美元融资，用于支持AI眼镜与可穿戴设备全天候连接&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;AI可穿戴连接技术获大额融资，边缘连接芯片与物联网模组供应链迎采购机会&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：funding | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>阿里推MCP录音笔新品进军日本市场</title>
-    <link href="https://36kr.jp/504817/"/>
-    <id>tag:weekly-report,2026:event-2db70d3a</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;日本のAIレコーダー市場、中国勢の競争激化　アリババも参入、MCP対応の新製品投入&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;阿里巴巴正式进入日本AI录音笔市场，推出支持MCP协议的新产品，与中国厂商在日本AI录音设备赛道展开竞争&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;中国AI硬件厂商在日本录音笔市场加速渗透，MCP协议支持意味着可接入AI代理生态，硬件+协议标准或成新合作入口&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：36Kr Japan&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>GCash推进覆盖剩余50%人口战略</title>
-    <link href="https://www.techinasia.com/gcashs-bid-for-the-next-50"/>
-    <id>tag:weekly-report,2026:event-2163686f</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;GCash’s bid for the next 50%&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;菲律宾移动支付平台GCash推进覆盖剩余50%人口的战略扩张计划&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;菲律宾移动支付向普惠金融下沉，支付基建与代理网络合作机会扩大&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：亚太 | 来源：Tech in Asia&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>新加坡工程业ERP选型指南发布</title>
-    <link href="https://e27.co/erp-software-enterprise-ai-deployment-engineering-industry-singapore-20261126/"/>
-    <id>tag:weekly-report,2026:event-61f2bd96</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Choosing the Best ERP Software for Enterprise AI Deployment in Singapore’s Engineering Industry&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27发布针对新加坡工程行业企业AI部署的ERP软件选型指南类内容。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;新加坡工程行业ERP与AI融合选型需求明确，ERP厂商与系统集成商获客窗口打开&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：industry_report | 地区：亚太 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>直播电商下阶段增长靠信任非流量</title>
-    <link href="https://e27.co/live-commerces-next-growth-wave-will-be-won-on-trust-not-traffic-20261123/"/>
-    <id>tag:weekly-report,2026:event-3841d27f</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Live commerce’s next growth wave will be won on trust, not traffic&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;e27发布分析指出直播电商下一阶段增长将取决于信任机制而非流量规模。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚直播电商从流量竞争转向信任与履约，支付风控、评价体系与供应链服务需求上升&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>比特币ETF流出$5.39B，价格守住$60K</title>
-    <link href="https://e27.co/bitcoin-holds-us60000-as-us5-39-billion-leaves-etfs-and-68-5-of-supply-stays-dormant-20261127/"/>
-    <id>tag:weekly-report,2026:event-a8666aeb</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Bitcoin holds US$60,000 as US$5.39 billion leaves ETFs and 68.5% of supply stays dormant&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;比特币价格维持在6万美元，同期ETF资金流出53.9亿美元，68.5%的比特币供应处于休眠状态&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;北美加密ETF资金大规模流出反映机构风险偏好收缩，加密基础设施与托管服务商需警惕流动性变化&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：北美 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Payaza收购加纳Seesail Technologies</title>
-    <link href="https://weetracker.com/2026/11/27/payaza-acquires-seesail-technologies/"/>
-    <id>tag:weekly-report,2026:event-ebce753b</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nigerian Fintech Payaza Acquires Ghanaian Commerce Startup Seesail Technologies&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;尼日利亚金融科技公司Payaza收购加纳电商初创Seesail Technologies&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;西非金融科技跨境扩张并购落地，加纳电商支付与跨境结算合作机会增加&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：ma | 地区：非洲 | 来源：WeeTracker&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>2026Q3游戏发行商D2C营收数据披露</title>
-    <link href="https://www.pocketgamer.biz/revealed-how-much-direct-to-consumer-revenue-games-publishers-really-made-in-q3-2026/"/>
-    <id>tag:weekly-report,2026:event-7cf63cc7</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Revealed: How much direct-to-consumer revenue games publishers really made in Q3 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;PocketGamer.biz披露2026年三季度游戏发行商D2C（直面消费者）渠道实际营收数据&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;游戏D2C渠道营收量化披露，反映发行商绕开应用商店分成的支付与官网渠道预算流向&lt;/p&gt;&lt;p&gt;标签：资金流向 | 类型：industry_report | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>报告称技能缺口威胁欧洲AI生产力</title>
-    <link href="https://www.mobileworldlive.com/europe/skills-gap-threatens-europes-ai-productivity-gains-report-finds/"/>
-    <id>tag:weekly-report,2026:event-ff08e057</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Skills gap threatens Europe AI productivity gains&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Mobile World Live报道一项报告指出技能缺口正威胁欧洲AI生产力提升&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲AI人才短缺推动企业培训与AI工具外包需求，ICT服务商可切入技能培训市场&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：欧洲 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>本周多款手游新品上线含MH Rise登Netflix</title>
-    <link href="https://www.pocketgamer.biz/new-release-roundup-monster-hunter-rise-netflix-digimon-alysion-field-day-and-more/"/>
-    <id>tag:weekly-report,2026:event-0c90f1d4</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;New release roundup: Monster Hunter Rise Netflix, Digimon Alysion, Field Day, and more&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;PocketGamer.biz汇总本周新上线游戏，包括Monster Hunter Rise登陆Netflix、Digimon Alysion等作品&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;Netflix持续引入IP手游扩充内容库，为游戏发行与IP授权合作提供新入口&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Telefonica在马德里地铁部署5G+</title>
-    <link href="https://www.mobileworldlive.com/operators/telefonica-rolls-out-5g-across-madrid-metro/"/>
-    <id>tag:weekly-report,2026:event-37c71c12</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Telefonica rolls out 5G+ across Madrid metro&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;西班牙电信Telefonica在马德里地铁全线部署5G+网络&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;西班牙运营商地铁场景5G覆盖落地，室内覆盖设备与专网集成商迎采购机会&lt;/p&gt;&lt;p&gt;标签：合作机会 | 类型：strategy | 地区：全球 | 来源：Mobile World Live&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>美国管制决定东南亚GPU租赁准入，Fitch警示信贷风险</title>
-    <link href="https://e27.co/washington-now-decides-who-rents-seas-gpus-and-fitch-says-lenders-have-noticed-20261127/"/>
-    <id>tag:weekly-report,2026:event-31f6c9f8</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Washington now decides who rents SEA’s GPUs, and Fitch says lenders have noticed&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;美国出口管制政策直接影响东南亚GPU算力租赁的准入资格，评级机构Fitch指出贷款机构已开始关注相关合规风险&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;东南亚算力租赁受美国出口管制约束，GPU供应链合规成本上升，本地算力转售商与数据中心融资方需重新评估授信模型&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：strategy | 地区：东南亚 | 来源：e27 东南亚科技产业分析&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>周度观点：手游市场价值、GTA 6影响与Moonton欧洲扩张</title>
-    <link href="https://www.pocketgamer.biz/the-true-value-of-the-mobile-games-market-gta-6s-wider-industry-impact-and-moontons-european-ambitions-week-in-views/"/>
-    <id>tag:weekly-report,2026:event-9b09ab20</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;The true value of the mobile games market, GTA 6&amp;#x27;s wider industry impact and Moonton&amp;#x27;s European ambitions | Week in Views&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;PocketGamer.biz周度观点汇总分析移动游戏市场真实价值、GTA 6对行业的广泛影响以及Moonton的欧洲扩张野心&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;移动游戏市场价值重估与GTA 6外溢效应分析，Moonton欧洲扩张动向对欧洲手游发行与渠道合作有直接参考价值&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：欧洲 | 来源：PocketGamer.biz&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Inc42分析黑五对印度D2C品牌需求拉动</title>
-    <link href="https://inc42.com/buzz/can-black-friday-sales-unlock-fresh-demand-for-d2c-brands-after-diwali/"/>
-    <id>tag:weekly-report,2026:event-593e4984</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Can Black Friday Sales Unlock Fresh Demand For D2C Brands After Diwali?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Inc42分析印度排灯节后黑五促销能否为D2C品牌带来新一轮需求&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;印度D2C品牌促销季需求研判，影响电商营销预算与广告投放节奏&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：industry_report | 地区：亚太 | 来源：Inc42&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Ventureburn刊文解析加密保证金交易平台规则</title>
-    <link href="https://ventureburn.com/crypto-margin-trading-how-platform-rules-differ-from-trading-strategies/"/>
-    <id>tag:weekly-report,2026:event-301377e2</id>
-    <published>2026-11-27T00:00:00Z</published>
-    <updated>2026-11-27T00:00:00Z</updated>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Crypto Margin Trading: How Platform Rules Differ from Trading Strategies&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;Ventureburn发布关于加密保证金交易平台规则与策略差异的科普文章&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;非洲加密交易科普内容增多，反映本地交易平台合规与用户教育需求上升&lt;/p&gt;&lt;p&gt;标签：背景补充 | 类型：other | 地区：非洲 | 来源：Ventureburn&lt;/p&gt;</summary>
+    <title>LBS教授称英伟达芯片融资难独撑AI热潮</title>
+    <link href="https://thenextweb.com/news/nvidias-chip-financing-cant-sustain-the-ai-boom-alone-lbs-professor-says"/>
+    <id>tag:weekly-report,2026:event-c00adda1</id>
+    <published>2026-11-28T00:00:00Z</published>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;原题：&lt;/strong&gt;Nvidia’s chip financing can’t sustain the AI boom alone, LBS professor says&lt;/p&gt;&lt;p&gt;&lt;strong&gt;内容概要：&lt;/strong&gt;伦敦商学院教授指出，英伟达的芯片融资模式无法单独支撑AI热潮持续&lt;/p&gt;&lt;p&gt;&lt;strong&gt;点评：&lt;/strong&gt;欧洲商学院对英伟达AI融资模式提出质疑，AI算力资本开支可持续性风险需关注&lt;/p&gt;&lt;p&gt;标签：警示信号 | 类型：industry_report | 地区：欧洲 | 来源：The Next Web&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>全球AI视野 Top5 · 2026-11-28</title>
