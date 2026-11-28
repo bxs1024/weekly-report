@@ -27,10 +27,10 @@
     "W5"
   ],
   "min_unknown_mentions": 25,
-  "min_lines": 155,
-  "min_changelog_rows": 7,
+  "min_lines": 156,
+  "min_changelog_rows": 8,
   "_last_update": {
-    "date": "2026-11-19",
-    "reason": "2026-11-19 接入治理闭环：账本新增一行留痕；下限随之上调，否则删一行会落在旧下限之上、校验抓不到"
+    "date": "2026-11-28",
+    "reason": "自动顶格：检查通过后计数下限跟随账本（anchors 未动）"
   }
 }
