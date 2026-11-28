@@ -1,5 +1,5 @@
 {
-  "observed_at": "2026-11-27T17:24:17.546289+08:00",
+  "observed_at": "2026-11-28T09:19:19.547602+08:00",
   "source_count": 3,
   "raw_count": 49,
   "source_stats": {
@@ -8,14 +8,12 @@
       "region": "亚太",
       "status": "ok",
       "fetch_status": "success",
-      "count": 6,
+      "count": 2,
       "inventory_count": 18,
-      "signal_count": 1,
-      "added_count": 2,
-      "removed_count": 4,
-      "clusters": {
-        "engineering": 1
-      },
+      "signal_count": 0,
+      "added_count": 1,
+      "removed_count": 1,
+      "clusters": {},
       "removed_clusters": {
         "engineering": 1
       }
@@ -47,72 +45,6 @@
       "removed_clusters": {}
     }
   },
-  "candidate_signals": [
-    {
-      "candidate_id": "jobs-2182f6fb5d5d4f64",
-      "entity_id": "grab",
-      "entity": "Grab",
-      "region": "亚太",
-      "sector": "mobility_payment",
-      "source_type": "jobs_snapshot",
-      "signal_type": "function_buildout",
-      "cluster": "engineering",
-      "window": "2026-W48",
-      "window_start": "2026-11-27",
-      "window_end": "2026-11-27",
-      "detected_at": "2026-11-27T17:24:17.546289+08:00",
-      "baseline_count": 20,
-      "current_count": 18,
-      "added_count": 2,
-      "removed_count": 4,
-      "clusters": {
-        "engineering": 1
-      },
-      "removed_clusters": {
-        "engineering": 1
-      },
-      "evidence_refs": [
-        {
-          "job_id": "744000163983559",
-          "title": "Software Engineer, Mobile (Android)",
-          "url": "https://www.grab.careers/en/jobs/744000163983559/software-engineer-mobile-android/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000163969499",
-          "title": "Regional Marketing Manager, Brand & Social",
-          "url": "https://www.grab.careers/en/jobs/744000163969499/regional-marketing-manager-brand-social/",
-          "change": "added"
-        },
-        {
-          "job_id": "744000163811119",
-          "title": "Copy of Assistant Manager, Self-Serve Business Strategy & Planning",
-          "url": "https://www.grab.careers/en/jobs/744000163811119/copy-of-assistant-manager-self-serve-business-strategy-planning/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000163799169",
-          "title": "Regional Marketing Manager, Brand & Social",
-          "url": "https://www.grab.careers/en/jobs/744000163799169/regional-marketing-manager-brand-social/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000163671019",
-          "title": "Senior Software Engineer, Backend",
-          "url": "https://www.grab.careers/en/jobs/744000163671019/senior-software-engineer-backend/",
-          "change": "removed"
-        },
-        {
-          "job_id": "744000163619771",
-          "title": "Associate, Merchant Community",
-          "url": "https://www.grab.careers/en/jobs/744000163619771/associate-merchant-community/",
-          "change": "removed"
-        }
-      ],
-      "status": "accumulating",
-      "rejection_reason": "insufficient_cluster_strength",
-      "promoted_event_id": ""
-    }
-  ],
+  "candidate_signals": [],
   "promoted_count": 0
 }
