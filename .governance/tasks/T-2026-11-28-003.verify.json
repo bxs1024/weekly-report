@@ -1,0 +1,39 @@
+{
+  "task_id": "T-2026-11-28-003",
+  "at": "2026-11-28T13:07:04+00:00",
+  "base": "855f900",
+  "head": "855f900",
+  "changed_files": [
+    "scripts/check_data_health.py",
+    "scripts/test_run_lights.py"
+  ],
+  "results": [
+    {
+      "cmd": "C:/Users/16120/AppData/Local/Python/bin/python scripts/test_run_lights.py",
+      "exit_code": 0,
+      "seconds": 5.9,
+      "output_hash": "5ee92f74dc47c4e2",
+      "tail": [
+        "scope | qualified=92 candidate=62 filtered=46",
+        "analysis | total=85 repair_ratio=2.4% fallback_or_failed=1",
+        "observation | must=10/12 coverage=83.3% failed_points=0 jobs_failed=0 candidate_backlog=41 promoted=18",
+        "LIGHT YELLOW: 运行灯黄灯：样本缺失",
+        "10 passed, 0 failed"
+      ]
+    },
+    {
+      "cmd": "bash scripts/run_all_tests.sh",
+      "exit_code": 0,
+      "seconds": 411.9,
+      "output_hash": "1868bc590cf55579",
+      "tail": [
+        "test_source_health_report.py               PASS     1s",
+        "test_updates_log_sync.py                   PASS     5s",
+        "test_view_selectors.py                     PASS     4s",
+        "",
+        "======== 汇总: PASS=39 FAIL=0 SKIP=3 ========"
+      ]
+    }
+  ],
+  "verdict": "accepted"
+}

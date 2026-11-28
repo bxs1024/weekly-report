@@ -696,6 +696,81 @@ def check_updates_log_freshness(grace_days=None):
 
 
 # ---------------------------------------------------------------------------
+# 运行灯：把「业务产出归零」从打印升级为阻断
+#
+# 11-13 方舟欠费那次，34 条打分全失败，工作流依然 success，只在日志里打了一句
+# 「跳过 34 条」。但「0 条打分成功」不能当红灯——那次入库 35 条、页面正常出刊，
+# 缺的只是回测样本，且 AI 分不参与页面排序。红灯只留「采集有货但入库 0」。
+#
+# 「产出骤降 30%」这类阈值拿线上 30 次真实运行校准过：added_count 在 2–46 之间
+# 自然波动，按中位数打折会误报 6–9 次，等于制造噪音，故不采用。
+# ---------------------------------------------------------------------------
+
+LIGHT_STALE_DAYS = 2
+
+
+def _run_value(run, *keys, default=0):
+    cur = run
+    for key in keys:
+        if not isinstance(cur, dict):
+            return default
+        cur = cur.get(key)
+    return cur if isinstance(cur, (int, float)) else default
+
+
+def build_run_lights(runs, today=None, stale_days=LIGHT_STALE_DAYS):
+    """返回 (红灯列表, 黄灯列表)。红灯进 --strict，黄灯只打印。"""
+    if not runs:
+        return ['运行灯红灯：运行记录为空，无法判断最近一次采集有没有产出'], []
+
+    last = runs[-1] if isinstance(runs[-1], dict) else {}
+    reds, yellows = [], []
+    date = str(last.get('date') or '').strip()
+    raw = _run_value(last, 'collection', 'raw_count')
+    unique = _run_value(last, 'collection', 'unique_count')
+    added = _run_value(last, 'storage', 'added_count')
+    scored = _run_value(last, 'ai_scoring', 'scored')
+    failed = _run_value(last, 'ai_scoring', 'failed')
+
+    if raw > 0 and unique > 0 and added == 0:
+        reds.append(
+            f'运行灯红灯：{date or "最近一次"} 采集 {raw} 条、去重 {unique} 条，'
+            f'入库 0 条——有货没出货'
+        )
+
+    base = today or datetime.now()
+    if isinstance(base, datetime):
+        base = base.date()
+    if not date:
+        reds.append('运行灯红灯：最近一次运行缺少日期字段，无法确认是否出刊')
+    else:
+        try:
+            day = datetime.strptime(date, '%Y-%m-%d').date()
+        except ValueError:
+            reds.append(f'运行灯红灯：运行日期无法解析（{date}）')
+        else:
+            lag = (base - day).days
+            if lag > stale_days:
+                yellows.append(
+                    f'运行灯黄灯：最近一次运行为 {date}，已 {lag} 天无新记录——采集可能停了'
+                )
+
+    if failed > 0 and scored == 0:
+        yellows.append(
+            f'运行灯黄灯：{date or "最近一次"} 打分 0 条成功、{failed} 条失败'
+            f'——回测样本缺失，页面不受影响'
+        )
+    return reds, yellows
+
+
+def check_run_lights(metrics_path=None, today=None):
+    runs = _load_json(metrics_path or data_path('run_metrics.json'), [])
+    if isinstance(runs, dict):
+        runs = runs.get('runs') or []
+    return build_run_lights(runs, today=today)
+
+
+# ---------------------------------------------------------------------------
 # 阶段 0 四道不变规则：接产线（quick / full 两条路径之后无条件执行）
 # ---------------------------------------------------------------------------
 
@@ -840,6 +915,12 @@ def main():
         print(f"RULE WARNING: {item}")
     if args.strict_rules:
         failures += [f'[阶段0规则] {item}' for item in rule_issues]
+    light_reds, light_yellows = check_run_lights()
+    for item in light_yellows:
+        print(f"LIGHT YELLOW: {item}")
+    for item in light_reds:
+        print(f"LIGHT RED: {item}")
+    failures += light_reds
     for failure in failures:
         print(f"WARNING: {failure}")
     if args.strict and failures:
