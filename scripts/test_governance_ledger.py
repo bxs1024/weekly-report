@@ -1,8 +1,15 @@
-"""治理账本防「静默改小」的自动校验 + 反事实验证（2026-11-09）。
+"""治理账本防「静默改小」的自动校验 + 反事实验证（2026-11-09，2026-11-28 补自检）。
 
 账本在 D:\\共享文件\\AI协作工作区\\02_进度同步\\，那个工作区不是 git 仓库；
 基线放在本项目 data/（受 git 管控）。所以「被审计方写审计报告」不成立：
 抹账本的人改不到基线，改基线会留在 git 历史里。
+
+2026-11-28 补两处：
+1. 计数下限改为「检查通过后自动顶格」——静态下限会过期：11-09 设 145 行，
+   账本涨到 153 行后删掉一行仍高于下限，校验一声不响。只在通过之后顶格，
+   抹掉痕迹再刷新这条洗白路径仍然堵着。
+2. 补 CLI 级用例：直接断言进程退出码，而不只是函数返回了告警。
+   「测试里能发现」和「机制会报警」是两件事。
 
 触发方式：本文件由 scripts/run_all_tests.sh 自动遍历，本机每次跑全量测试都会被查。
 CI 不跑 run_all_tests.sh，且 CI 上没有那个工作区目录——那种情况按「查不到」
@@ -14,7 +21,9 @@ import argparse
 import json
 import os
 import re
+import subprocess
 import sys
+import tempfile
 from datetime import date
 from pathlib import Path
 from unittest import mock
@@ -112,15 +121,42 @@ def recommend_baseline_update(baseline, state, reason):
     return updated
 
 
+def advance_baseline(baseline, state):
+    """检查通过后把计数下限顶到当前值；只升不降，required_anchors 不动。
+
+    返回 None 表示无需改动（避免每次跑测试都把基线文件写脏）。
+    只能在「检查通过」之后调用——先抹痕迹再刷新，等于把证据洗白。
+    """
+    updated = dict(baseline)
+    raised = {}
+    for key, (state_key, _) in _BOUNDS.items():
+        floor = baseline.get(key)
+        value = state[state_key]
+        if floor is None or value > floor:
+            updated[key] = value
+            raised[key] = value
+    if not raised:
+        return None
+    updated['_last_update'] = {
+        'date': date.today().isoformat(),
+        'reason': '自动顶格：检查通过后计数下限跟随账本（anchors 未动）',
+    }
+    return updated
+
+
 def _cli(argv=None):
     parser = argparse.ArgumentParser(description='治理账本防静默改小校验')
     parser.add_argument('--update-baseline', action='store_true',
                         help='上调计数下限（required_anchors 不动），必须配 --reason')
     parser.add_argument('--reason', default='', help='本次上调的理由，会写进基线并在 git 留痕')
     parser.add_argument('--ledger', default=None, help='覆盖账本路径')
+    parser.add_argument('--baseline', default=None, help='覆盖基线路径（自检用临时副本）')
+    parser.add_argument('--no-advance', action='store_true',
+                        help='只校验不顶格（自检 / 临时副本用）')
     args = parser.parse_args(argv)
 
-    baseline = json.loads(Path(BASELINE_PATH).read_text(encoding='utf-8'))
+    baseline_path = Path(args.baseline or BASELINE_PATH)
+    baseline = json.loads(baseline_path.read_text(encoding='utf-8'))
     text, dir_exists = _read_ledger_text(args.ledger or ledger_path())
 
     if args.update_baseline:
@@ -128,7 +164,7 @@ def _cli(argv=None):
             print('ERROR: 上调基线必须给 --reason，且账本要读得到')
             return 2
         updated = recommend_baseline_update(baseline, collect_state(text), args.reason)
-        Path(BASELINE_PATH).write_text(
+        baseline_path.write_text(
             json.dumps(updated, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
         )
         print('OK | 计数下限已上调；required_anchors 原样保留。请在 git commit 里写明理由。')
@@ -139,9 +175,18 @@ def _cli(argv=None):
         print(f'UNKNOWN: {item}')
     for item in failures:
         print(f'WARNING: {item}')
-    if not failures and not unknown:
+    if failures:
+        return 1
+    if not args.no_advance and text is not None:
+        advanced = advance_baseline(baseline, collect_state(text))
+        if advanced:
+            baseline_path.write_text(
+                json.dumps(advanced, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
+            )
+            print('BASELINE UP | 计数下限已随账本上调（anchors 未动）')
+    if not unknown:
         print('OK | 治理账本与基线一致')
-    return 1 if failures else 0
+    return 0
 
 
 # ---------------------------------------------------------------------------
@@ -233,6 +278,67 @@ def test_patch_target_is_live():
             assert str(e) == 'probe'
         else:
             raise AssertionError('补丁没命中：check_against_baseline 没调用 collect_state')
+
+
+# ---------------------------------------------------------------------------
+# CLI 级自检：直接看进程退出码，而不是只看函数返回了告警
+# ---------------------------------------------------------------------------
+
+def _run_cli(args):
+    proc = subprocess.run(
+        [sys.executable, os.path.abspath(__file__), *args],
+        cwd=ROOT, capture_output=True, text=True, encoding='utf-8',
+    )
+    return proc.returncode, (proc.stdout or '') + (proc.stderr or '')
+
+
+def test_cli_reports_failure_on_tampered_ledger():
+    """报警器测试按钮：造一份被抹过的账本，命令行必须非零退出。"""
+    text, _ = _real_ledger()
+    if text is None:
+        return
+    with tempfile.TemporaryDirectory() as tmp:
+        tampered = Path(tmp) / 'ledger.md'
+        erased = text
+        for anchor in ('W4 那份快照当初为谁留的', '开工门禁在这套工具里能做到多硬'):
+            erased = erased.replace(anchor, '')
+        tampered.write_text(erased, encoding='utf-8')
+        code, out = _run_cli(['--ledger', str(tampered), '--no-advance'])
+        assert code == 1, f'命令行没报错（exit={code}）：{out[-200:]}'
+        assert 'WARNING' in out, out[-200:]
+
+
+def test_cli_exits_zero_on_real_ledger():
+    text, _ = _real_ledger()
+    if text is None:
+        return
+    code, out = _run_cli(['--no-advance'])
+    assert code == 0, f'exit={code}: {out[-300:]}'
+
+
+def test_cli_advances_temp_baseline_and_keeps_anchors():
+    """下限被压低时自动顶格，anchors 一个不动。"""
+    text, _ = _real_ledger()
+    if text is None:
+        return
+    with tempfile.TemporaryDirectory() as tmp:
+        base = Path(tmp) / 'baseline.json'
+        data = _baseline()
+        data['min_lines'] = 1
+        base.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
+        code, out = _run_cli(['--baseline', str(base)])
+        assert code == 0, out[-300:]
+        after = json.loads(base.read_text(encoding='utf-8'))
+        assert after['min_lines'] == collect_state(text)['lines'], after['min_lines']
+        assert after['required_anchors'] == data['required_anchors']
+        assert 'BASELINE UP' in out, out[-200:]
+
+
+def test_advance_only_moves_upward():
+    baseline = {'min_lines': 999, 'min_changelog_rows': 999,
+                'min_unknown_mentions': 999, 'required_anchors': ['x']}
+    state = {'lines': 10, 'unknown_mentions': 2, 'changelog_rows': 1, 'stations': []}
+    assert advance_baseline(baseline, state) is None, '下限被调低了'
 
 
 if __name__ == '__main__':

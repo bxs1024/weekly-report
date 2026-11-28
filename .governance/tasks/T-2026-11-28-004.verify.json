@@ -1,0 +1,41 @@
+{
+  "task_id": "T-2026-11-28-004",
+  "at": "2026-11-28T13:27:19+00:00",
+  "base": "a4a1ad3",
+  "head": "a4a1ad3",
+  "changed_files": [
+    "data/site_updates.json",
+    "docs/index.html",
+    "scripts/run_all_tests.sh",
+    "scripts/test_governance_ledger.py"
+  ],
+  "results": [
+    {
+      "cmd": "C:/Users/16120/AppData/Local/Python/bin/python scripts/run_tests.py scripts/test_governance_ledger.py",
+      "exit_code": 0,
+      "seconds": 3.9,
+      "output_hash": "495a7146bd8a2d3b",
+      "tail": [
+        "  PASS test_current_ledger_matches_baseline",
+        "  PASS test_missing_ledger_is_detected_when_baseline_says_it_existed",
+        "  PASS test_patch_target_is_live",
+        "== scripts/test_governance_ledger.py: 12 passed, 0 failed",
+        "TOTAL FAIL 0"
+      ]
+    },
+    {
+      "cmd": "bash scripts/run_all_tests.sh",
+      "exit_code": 0,
+      "seconds": 435.3,
+      "output_hash": "708f830f22b92361",
+      "tail": [
+        "test_source_health_report.py               PASS     1s",
+        "test_updates_log_sync.py                   PASS     7s",
+        "test_view_selectors.py                     PASS     6s",
+        "",
+        "======== 汇总: PASS=39 FAIL=0 SKIP=3 ========"
+      ]
+    }
+  ],
+  "verdict": "accepted"
+}

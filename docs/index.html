@@ -45419,7 +45419,7 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
         <div class="m-overline">更新日志</div>
         <div class="m-headline-row">
           <h2 class="m-title-sec">产品变更记录</h2>
-          <span class="m-head-meta">63 条记录</span>
+          <span class="m-head-meta">64 条记录</span>
         </div>
       </div>
       <div class="u-layout">
@@ -45427,6 +45427,26 @@ body { background:linear-gradient(180deg,var(--bg1),var(--bg2) 520px); color:var
           <div class="u-list">
 
             <div class="u-card open">
+              <button class="u-head" type="button">
+                <span class="u-copy">
+                  <h3>给运行装两盏灯，让账本下限自己长</h3>
+                  <small>2026-11-28 · 质量收敛 · 已完成</small>
+                </span>
+                <span class="u-ver">V6.8<span class="u-caret">›</span></span>
+              </button>
+              <div class="u-body">
+                <div class="u-tags">
+                  <span class="p-lbl p-lbl-green">质量收敛</span>
+                  <span class="p-lbl">已完成</span>
+                </div>
+                <p>上一轮把三个看门的补齐了，还剩下两处「该响不响」。一是运行是否正常全靠人扫日志：11-13 那次 34 条打分全部失败，流程照样显示成功，只在日志里打了一句话。二是账本的下限写死在 11-09 的数字上，账本涨了以后删掉一行留痕照样查不出来——门卫记的是「这栋楼至少住 100 人」，楼里住了 150 人，晚上少回来 20 个他也不会报警。本轮给健康检查加了两盏灯（红灯拦住、黄灯只报），并把账本下限改成跟着账本自动长。页面展示与采集逻辑一个字未改。</p>
+
+                <ul><li>健康检查新增运行灯：采集有货但入库 0 判红灯，计入严格模式直接拦住发布；打分样本缺失、数据停滞超过 2 天只出黄灯，不阻断出刊</li><li>「产出骤降 30%」这条用线上 30 次真实运行校准后放弃：入库量在 2–46 条之间自然波动，按中位数打折会误报 6–9 次，装上去只会被无视</li><li>账本下限改为检查通过后自动顶格，必需痕迹一个不动；「先抹掉痕迹再刷新下限」这条洗白路径仍然堵着</li><li>账本校验补了直接看进程退出码的用例，并把顶格动作接进全量批跑，不再依赖「记得手动改数字」</li><li>治理准入修正：任务卡可以声明本次会新建的文件；原来要求文件先存在，新文件永远过不了自己的门</li><li>已知缺口：高危路径仍不触发人工审批；项目配置里的「全局禁区」清单从未被程序读取，目前只是说明文字</li></ul>
+
+              </div>
+            </div>
+
+            <div class="u-card">
               <button class="u-head" type="button">
                 <span class="u-copy">
                   <h3>把「一次改动算不算做完」写成可执行的东西：任务卡、验证单、红线对齐</h3>
