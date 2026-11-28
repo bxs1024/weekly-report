@@ -8,6 +8,7 @@ import json
 import os
 import re
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from jinja2 import Environment, select_autoescape
 
 # 仓库根与 data 目录：一律基于 __file__ 定位，不依赖调用进程的 CWD。
@@ -630,13 +631,56 @@ def generate_html(force=False, preview_mode=False):
     mode = '预览' if preview_mode else '生产'
     print(f"OK | {mode}模式 | 通用{len(generic_events)}条 | 公司{len(company_events)}条 | {len(history)}天往期")
 
+UPDATES_START = '<section class="proto-panel" data-panel="updates">'
+NEXT_PANEL = '<section class="proto-panel" data-panel="models">'
+
+
+def _panel_between(text, start, end):
+    a = text.find(start)
+    b = text.find(end, a + len(start))
+    if a < 0 or b < 0:
+        raise SystemExit(f'找不到区块：start={a} end={b}')
+    return text[a:b]
+
+
+def sync_updates_panel_only():
+    """只把 data/site_updates.json 渲进页面的「更新日志」区块。
+
+    整页重生成会按「今天」裁掉往期卡片（11-09 实测少 249 行），所以更新日志
+    单走这条路：改一处清单，页面自动跟上，其余字节一个不动。
+    """
+    template_text = (Path(REPO_ROOT) / 'scripts' / 'template.html').read_text(encoding='utf-8')
+    fragment = _panel_between(template_text, UPDATES_START, NEXT_PANEL)
+    env = Environment(autoescape=select_autoescape(['html', 'htm', 'xml']))
+    rendered = env.from_string(fragment).render(site_updates=load_site_updates())
+    # 与整页渲染保持同一套行尾规范：jinja 循环会留下纯空格行，去掉才算逐字节一致。
+    rendered = '\n'.join(line.rstrip() for line in rendered.splitlines()) + '\n'
+
+    index = Path(docs_path('index.html'))
+    html = index.read_text(encoding='utf-8', newline='')
+    old = _panel_between(html, UPDATES_START, NEXT_PANEL)
+    # old 的尾部是下一个 <section> 前的换行与缩进，替换时原样带回来，
+    # 否则会制造「下一板块顶格 / 多一个空行」的无意义 diff。
+    tail = old[len(old.rstrip()):]
+    new_panel = rendered.rstrip() + tail
+    if old == new_panel:
+        print('OK | 更新日志区块已是最新，页面未改动')
+        return
+    index.write_text(html.replace(old, new_panel, 1), encoding='utf-8', newline='')
+    print('OK | 只替换更新日志区块，页面其余字节未动')
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='生成全球互联网动态情报站 HTML')
     parser.add_argument('--force', action='store_true', help='强制重写 index.html（跳过内容对比）')
     parser.add_argument('--preview', action='store_true', help='生成本地预览文件 preview.html（不覆盖 index.html）')
+    parser.add_argument('--updates-only', action='store_true',
+                        help='只按 data/site_updates.json 同步页面的更新日志区块（不重渲染整页）')
     args = parser.parse_args()
 
-    if args.preview:
+    if args.updates_only:
+        sync_updates_panel_only()
+    elif args.preview:
         # 预览模式：生成到 preview.html
         generate_html(preview_mode=True)
     else:

@@ -1,5 +1,6 @@
 import io
 import json
+import sys
 from contextlib import redirect_stdout
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -256,6 +257,26 @@ def test_updates_log_freshness_respects_grace_window():
         assert len(cdh.check_updates_log_freshness()) == 1
     finally:
         cdh.latest_code_commit_date = original
+
+
+def test_first_loggable_commit_skips_internal_changes():
+    """带 [no-log] 的内部改动不该逼人写产品公告。"""
+    log = '2026-11-28\x00chore: 补测试 [no-log]\n2026-11-27\x00feat: 加了个用户可见的东西\n'
+    assert cdh._first_loggable_commit(log) == '2026-11-27'
+    assert cdh._first_loggable_commit('2026-11-28\x00chore: 全是内部改动 [no-log]\n') is None
+
+
+def test_updates_only_mode_is_wired():
+    """页面更新日志区块可由清单单向生成，不必整页重渲染。"""
+    import subprocess as _sp
+    source = (Path(__file__).resolve().parent / 'generate_html.py').read_text(encoding='utf-8')
+    assert 'def sync_updates_panel_only' in source
+    assert "'--updates-only'" in source
+    r = _sp.run([sys.executable, 'scripts/generate_html.py', '--updates-only'],
+                cwd=str(Path(__file__).resolve().parent.parent),
+                capture_output=True, text=True, encoding='utf-8')
+    assert r.returncode == 0, r.stdout + r.stderr
+    assert '更新日志区块' in r.stdout, r.stdout
 
 
 def test_updates_log_covers_latest_code_commit():

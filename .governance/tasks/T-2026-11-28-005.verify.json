@@ -1,0 +1,27 @@
+{
+  "task_id": "T-2026-11-28-005",
+  "at": "2026-11-28T14:12:20+00:00",
+  "base": "21de398",
+  "head": "21de398",
+  "changed_files": [
+    "scripts/check_data_health.py",
+    "scripts/generate_html.py",
+    "scripts/test_data_health.py"
+  ],
+  "results": [
+    {
+      "cmd": "bash scripts/run_all_tests.sh",
+      "exit_code": 0,
+      "seconds": 511.5,
+      "output_hash": "7a30922bc3f0836d",
+      "tail": [
+        "test_source_health_report.py               PASS     1s",
+        "test_updates_log_sync.py                   PASS     5s",
+        "test_view_selectors.py                     PASS     6s",
+        "",
+        "======== 汇总: PASS=39 FAIL=0 SKIP=3 ========"
+      ]
+    }
+  ],
+  "verdict": "accepted"
+}

@@ -632,8 +632,25 @@ _CODE_PATHSPEC = (
 )
 
 
+def _first_loggable_commit(log_output):
+    """从 git log 输出里挑第一条需要写产品日志的提交日期。
+
+    提交信息带 `[no-log]` 的算「非用户可见改动」（内部重构、测试、治理），
+    豁免更新日志义务——否则改一行测试脚本也得写一条产品公告，最后只会逼人绕开规矩。
+    """
+    for line in (log_output or '').splitlines():
+        if '\x00' not in line:
+            continue
+        day, subject = line.split('\x00', 1)
+        day = day.strip()
+        if not day or '[no-log]' in subject:
+            continue
+        return day
+    return None
+
+
 def latest_code_commit_date():
-    """最近一次改动产品代码的提交日期（YYYY-MM-DD）。
+    """最近一次「需要写更新日志」的产品代码提交日期（YYYY-MM-DD）。
 
     浅克隆（CI 默认 fetch-depth=1）拿不到历史，或本机没有 git 时返回 None，
     由调用方静默跳过——拿不到证据就不报警，避免误报。
@@ -644,14 +661,14 @@ def latest_code_commit_date():
     """
     try:
         result = subprocess.run(
-            ['git', 'log', '-1', '--format=%cs', '--', *_CODE_PATHSPEC],
+            ['git', 'log', '--format=%cs%x00%s', '-n', '200', '--', *_CODE_PATHSPEC],
             capture_output=True, text=True, timeout=10, cwd=REPO_ROOT,
         )
     except (OSError, subprocess.SubprocessError):
         return None
     if result.returncode != 0:
         return None
-    return result.stdout.strip() or None
+    return _first_loggable_commit(result.stdout)
 
 
 def check_updates_log_freshness(grace_days=None):

@@ -20,9 +20,9 @@
   "deny_global": [
     ".git/",
     ".env",
-    "data/events.json",
-    "data/site_updates.json"
+    "data/events.json"
   ],
+  "_deny_global说明": "2026-11-28 前这份清单从未被 gov.py 读取（假锁），现已接进 verify。data/site_updates.json 从清单移出：它是产品更新日志，用户可见改动必须能写，不能当禁区。",
   "risk_rules": {
     "low": { "max_files": 1, "requires_test": true },
     "normal": { "max_files": 3 },
